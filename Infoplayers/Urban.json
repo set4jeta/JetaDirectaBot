@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "Urban",
+    "nombre_real": "Marcus Urban Christensen",
+    "edad": 25,
+    "equipo": "A One Man Army",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Urbanlol_DK",
+      "twitch": "https://twitch.tv/UrbanlolDK"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/urban.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Smile on face#Smile",
+      "nivel": 913,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 988,
+      "victorias": 478,
+      "derrotas": 441,
+      "ultima_partida": 1752654986449
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rengar",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 9,
+    "losses": 3,
+    "timePlayed": 21724
+  }
+}

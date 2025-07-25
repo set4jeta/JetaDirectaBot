@@ -1,0 +1,94 @@
+{
+  "info_jugador": {
+    "nombre": "Veigarv2",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Veigar_v2"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/veigarv2.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "VeigarV2SmurfAcc#123",
+      "nivel": 275,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 923,
+      "victorias": 203,
+      "derrotas": 145,
+      "ultima_partida": 1753370332542
+    },
+    {
+      "nombre": "Veigar v2#0000",
+      "nivel": 454,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 35,
+      "victorias": 7,
+      "derrotas": 12,
+      "ultima_partida": 1740973980257
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Veigar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.333333333333334
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 5,
+    "losses": 6,
+    "timePlayed": 17649
+  }
+}

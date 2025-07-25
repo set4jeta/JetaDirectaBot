@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Reaver",
+    "nombre_real": "Giannis Dimitrelis",
+    "edad": 22,
+    "equipo": "Team Phantasma",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/reaver1v9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ZERO EXCUSES#333",
+      "nivel": 156,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 776,
+      "victorias": 511,
+      "derrotas": 433,
+      "ultima_partida": 1753353571807
+    },
+    {
+      "nombre": "Genius Monster#1337",
+      "nivel": 716,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 368,
+      "derrotas": 359,
+      "ultima_partida": 1745023035491
+    },
+    {
+      "nombre": "triplestar#1337",
+      "nivel": 421,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 136,
+      "derrotas": 128,
+      "ultima_partida": 1743992780745
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 31,
+      "victorias": 13,
+      "winrate": "41.9%",
+      "kda_promedio": 2.5824175824175826
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 3.1122448979591835
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 3.7580645161290325
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4347826086956523
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.3469387755102042
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.2641509433962264
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.216666666666667
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.962962962962963
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.08
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.576923076923077
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 125,
+    "wins": 61,
+    "losses": 64,
+    "timePlayed": 205874
+  }
+}

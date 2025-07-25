@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "nvidek",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/nvidek"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "nvid#4PIGS",
+      "nivel": 994,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1187,
+      "victorias": 521,
+      "derrotas": 465,
+      "ultima_partida": 1753285397778
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "DrMundo",
+      "partidas": 34,
+      "victorias": 16,
+      "winrate": "47.1%",
+      "kda_promedio": 4.097345132743363
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 25,
+      "victorias": 18,
+      "winrate": "72.0%",
+      "kda_promedio": 3.96875
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 2.8372093023255816
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.4583333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.0294117647058822
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 10.6
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 99,
+    "wins": 49,
+    "losses": 50,
+    "timePlayed": 160412
+  }
+}

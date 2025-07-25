@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Naau",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/naaubtw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/naau.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RBLS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "naau1#EUW",
+      "nivel": 440,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 816,
+      "victorias": 241,
+      "derrotas": 207,
+      "ultima_partida": 1753378601444
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8888888888888888
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 6,
+    "losses": 10,
+    "timePlayed": 25158
+  }
+}

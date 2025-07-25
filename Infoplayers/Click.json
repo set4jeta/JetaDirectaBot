@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Click",
+    "nombre_real": "Vsevolod Tikhomirov",
+    "edad": 27,
+    "equipo": "G2 Esports",
+    "pais": "Russia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ClickTheNik",
+      "twitch": "https://twitch.tv/clickjj"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LUA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Hiragana#8888",
+      "nivel": 1078,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 954,
+      "victorias": 456,
+      "derrotas": 408,
+      "ultima_partida": 1753363466175
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.736842105263158
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.1666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 21,
+    "losses": 18,
+    "timePlayed": 65647
+  }
+}

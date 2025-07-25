@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "PmK",
+    "nombre_real": "Maciej Gołębiowski",
+    "edad": 22,
+    "equipo": "DOCISK",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/M4Ci3",
+      "twitch": "https://www.twitch.tv/pmk_top"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DOC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "PmK#Smile",
+      "nivel": 963,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 357,
+      "victorias": 323,
+      "derrotas": 319,
+      "ultima_partida": 1753365089830
+    },
+    {
+      "nombre": "JACKPOT#GAMBA",
+      "nivel": 88,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 904,
+      "victorias": 147,
+      "derrotas": 106,
+      "ultima_partida": 1753200832164
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Naafiri",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.1466666666666665
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3125
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.0689655172413794
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.24
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.411764705882353
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 8.375
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 35,
+    "losses": 30,
+    "timePlayed": 108494
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Tamoz",
+    "nombre_real": "Pierre-Antoine Gau-Verdon",
+    "edad": 28,
+    "equipo": "Tan'i eSports CZ",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/TamoZLOL",
+      "twitch": "https://www.twitch.tv/tamozlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Cercueil noir#黒棺90",
+      "nivel": 2186,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 759,
+      "victorias": 648,
+      "derrotas": 623,
+      "ultima_partida": 1753332884880
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rumble",
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 15,
+      "victorias": 5,
+      "winrate": "33.3%",
+      "kda_promedio": 1.595959595959596
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 1.835820895522388
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.119047619047619
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.823529411764706
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.7567567567567568
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 105,
+    "wins": 56,
+    "losses": 49,
+    "timePlayed": 165333
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Wicked",
+    "nombre_real": "Emily Leckie",
+    "edad": 29,
+    "equipo": "Lundqvist Lightside",
+    "pais": "United States",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/EuwWicked",
+      "twitch": "https://www.twitch.tv/wicked_euw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Wicked#Tun",
+      "nivel": 1023,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 807,
+      "victorias": 456,
+      "derrotas": 431,
+      "ultima_partida": 1753368511332
+    },
+    {
+      "nombre": "Moula STEG#STEG",
+      "nivel": 120,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 313,
+      "victorias": 135,
+      "derrotas": 114,
+      "ultima_partida": 1752955684368
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Taliyah",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 2.1885245901639343
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5692307692307694
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.4603174603174605
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.105263157894737
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6842105263157894
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.111111111111111
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9545454545454546
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.166666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 49,
+    "losses": 41,
+    "timePlayed": 142190
+  }
+}

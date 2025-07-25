@@ -1,0 +1,119 @@
+{
+  "info_jugador": {
+    "nombre": "Twiizt",
+    "nombre_real": "Elton Richie Garcia Spetsig",
+    "edad": 24,
+    "equipo": "Joblife",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Twiiztlol",
+      "twitch": "https://www.twitch.tv/twiiztlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/twiizt.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/JL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Ado fan#EUW",
+      "nivel": 242,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 788,
+      "victorias": 204,
+      "derrotas": 161,
+      "ultima_partida": 1753353571807
+    },
+    {
+      "nombre": "Nubobo#EUW",
+      "nivel": 280,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 960,
+      "victorias": 190,
+      "derrotas": 161,
+      "ultima_partida": 1752521271722
+    },
+    {
+      "nombre": "Gorubo fan#EUW",
+      "nivel": 172,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 5,
+      "derrotas": 5,
+      "ultima_partida": 1741213859445
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 3.6744186046511627
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 4.51063829787234
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.1914893617021276
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.461538461538462
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 22
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 28,
+    "losses": 23,
+    "timePlayed": 87135
+  }
+}

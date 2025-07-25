@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "APP",
+    "nombre_real": "Nemanja Mirčić",
+    "edad": 18,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Serbia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/EUWApp"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "CZV APP#Nina",
+      "nivel": 438,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1071,
+      "victorias": 368,
+      "derrotas": 323,
+      "ultima_partida": 1753385883157
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Renekton",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1627906976744184
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3255813953488373
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.9473684210526314
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 24,
+    "losses": 19,
+    "timePlayed": 67750
+  }
+}

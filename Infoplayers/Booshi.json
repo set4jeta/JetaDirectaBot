@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Booshi",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/booshi_lol",
+      "twitch": "https://twitch.tv/booshi_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/booshi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BKR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "B O O S H I#STAR",
+      "nivel": 866,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1108,
+      "victorias": 562,
+      "derrotas": 514,
+      "ultima_partida": 1753385883157
+    },
+    {
+      "nombre": "B2O#NEW",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 288,
+      "victorias": 92,
+      "derrotas": 81,
+      "ultima_partida": 1753351392251
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 62,
+      "victorias": 31,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4029850746268657
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 22,
+      "victorias": 12,
+      "winrate": "54.5%",
+      "kda_promedio": 3.127906976744186
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 3.8714285714285714
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 4.0588235294117645
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3846153846153846
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.263157894736842
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 13.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 131,
+    "wins": 71,
+    "losses": 60,
+    "timePlayed": 212292
+  }
+}

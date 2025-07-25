@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nenad",
+    "nombre_real": "Nenad Tatalović",
+    "edad": 21,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Serbia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/nenad1v9",
+      "twitch": "https://www.twitch.tv/nenad1v9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Nenad#1v9",
+      "nivel": 352,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1233,
+      "victorias": 365,
+      "derrotas": 315,
+      "ultima_partida": 1753383166322
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.8448275862068964
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4571428571428573
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.7173913043478262
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.5490196078431373
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3870967741935485
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.869565217391304
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.269230769230769
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.466666666666667
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 82,
+    "wins": 48,
+    "losses": 34,
+    "timePlayed": 135030
+  }
+}

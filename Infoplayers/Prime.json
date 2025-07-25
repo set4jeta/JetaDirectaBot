@@ -1,0 +1,114 @@
+{
+  "info_jugador": {
+    "nombre": "Prime",
+    "nombre_real": "Yoon Du-sik",
+    "edad": 30,
+    "equipo": "KT Rolster",
+    "pais": "South Korea",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Prime_0P",
+      "twitch": "https://twitch.tv/prime_0p"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/prime.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IJC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Céleste#6162",
+      "nivel": 292,
+      "liga": "GRANDMASTER I",
+      "lp": 751,
+      "victorias": 327,
+      "derrotas": 284,
+      "ultima_partida": 1753267098540
+    },
+    {
+      "nombre": "POBC#6162",
+      "nivel": 619,
+      "liga": "MASTER I",
+      "lp": 405,
+      "victorias": 138,
+      "derrotas": 103,
+      "ultima_partida": 1753048570563
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Braum",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.5833333333333335
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.4838709677419355
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 5.222222222222222
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.214285714285714
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 34,
+    "losses": 33,
+    "timePlayed": 106715
+  }
+}

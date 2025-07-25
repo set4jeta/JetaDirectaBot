@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "xKenzuke",
+    "nombre_real": "Serkan Atılgan",
+    "edad": 25,
+    "equipo": "Esprit Shōnen",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/xkenzuke",
+      "twitch": "https://twitch.tv/xkenzuke"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/xkenzuke.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TwitchTVxKenzuke#EUW",
+      "nivel": 287,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1218,
+      "victorias": 216,
+      "derrotas": 171,
+      "ultima_partida": 1753354320185
+    },
+    {
+      "nombre": "xKenzuke#1453",
+      "nivel": 944,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1212,
+      "victorias": 142,
+      "derrotas": 92,
+      "ultima_partida": 1753315074411
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leona",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6382978723404256
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1538461538461537
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6486486486486487
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.631578947368421
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 24,
+    "losses": 20,
+    "timePlayed": 71202
+  }
+}

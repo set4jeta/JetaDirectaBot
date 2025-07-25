@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "Artanis",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lol_artanis"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "never doubt#Rank1",
+      "nivel": 541,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 831,
+      "victorias": 567,
+      "derrotas": 529,
+      "ultima_partida": 1753398140529
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 80,
+      "victorias": 47,
+      "winrate": "58.8%",
+      "kda_promedio": 4.086720867208672
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5789473684210527
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.826086956521739
+    },
+    {
+      "nombre": "Kayn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4444444444444446
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 104,
+    "wins": 60,
+    "losses": 44,
+    "timePlayed": 164486
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Malice",
+    "nombre_real": "Sebastian Edholm",
+    "edad": 28,
+    "equipo": "GLORE",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/LolMalice",
+      "twitch": "https://www.twitch.tv/lolmalice"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/malice.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GLR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "alkLFG#777",
+      "nivel": 68,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 929,
+      "victorias": 220,
+      "derrotas": 158,
+      "ultima_partida": 1753389576960
+    },
+    {
+      "nombre": "Malevolence#HAZE",
+      "nivel": 80,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 615,
+      "victorias": 241,
+      "derrotas": 216,
+      "ultima_partida": 1753181575631
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Karthus",
+      "partidas": 34,
+      "victorias": 24,
+      "winrate": "70.6%",
+      "kda_promedio": 3.0098039215686274
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 20,
+      "victorias": 13,
+      "winrate": "65.0%",
+      "kda_promedio": 2.706422018348624
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3185840707964602
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4.371428571428571
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.4318181818181817
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6842105263157894
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8857142857142857
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0714285714285716
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 116,
+    "wins": 69,
+    "losses": 47,
+    "timePlayed": 182761
+  }
+}

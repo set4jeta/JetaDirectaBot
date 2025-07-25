@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "IHEBIC",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ihebiclol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "IHEBIC#0000",
+      "nivel": 304,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 888,
+      "victorias": 640,
+      "derrotas": 597,
+      "ultima_partida": 1753196885197
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 2.3645833333333335
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.402173913043478
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 6.0285714285714285
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4603174603174605
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.2727272727272725
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.119047619047619
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1052631578947367
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8823529411764706
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 98,
+    "wins": 56,
+    "losses": 42,
+    "timePlayed": 164075
+  }
+}

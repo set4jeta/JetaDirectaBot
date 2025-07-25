@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Larssen",
+    "nombre_real": "Emil Larsson",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "Sweden",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Larssen00"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/larssen.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "george kittle#EUW",
+      "nivel": 670,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 190,
+      "victorias": 328,
+      "derrotas": 325,
+      "ultima_partida": 1753394169919
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6551724137931036
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.12
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7916666666666667
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5185185185185186
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8181818181818182
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 18,
+    "losses": 22,
+    "timePlayed": 63364
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Melonik",
+    "nombre_real": "Dawid Ślęczka",
+    "edad": 23,
+    "equipo": "Forsaken (Polish Team)",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/meloniklol",
+      "twitch": "https://twitch.tv/melonik"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/melonik.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FSK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Maelle#melon",
+      "nivel": 883,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 762,
+      "victorias": 350,
+      "derrotas": 308,
+      "ultima_partida": 1753384371307
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.4411764705882355
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0526315789473686
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 22,
+    "losses": 18,
+    "timePlayed": 62286
+  }
+}

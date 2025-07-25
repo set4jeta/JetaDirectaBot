@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Highway",
+    "nombre_real": "Jakub Baranowski",
+    "edad": 24,
+    "equipo": "Back2TheGame",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/highway_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/highway.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/B2TG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "bestow mercy#hhwy",
+      "nivel": 749,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 899,
+      "victorias": 279,
+      "derrotas": 245,
+      "ultima_partida": 1753299845781
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Braum",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.327272727272727
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.15
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.1875
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 38,
+    "wins": 22,
+    "losses": 16,
+    "timePlayed": 55710
+  }
+}

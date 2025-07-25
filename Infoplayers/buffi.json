@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "buffi",
+    "nombre_real": "Kamil Zabiegaj",
+    "edad": 22,
+    "equipo": "Orbit Anonymo Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/bvffi_",
+      "twitch": "https://www.twitch.tv/bvffi_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OAE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "buffi#1505",
+      "nivel": 1011,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1083,
+      "victorias": 184,
+      "derrotas": 148,
+      "ultima_partida": 1753381884721
+    },
+    {
+      "nombre": "lecefurabezdachu#EUW",
+      "nivel": 177,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 861,
+      "victorias": 138,
+      "derrotas": 97,
+      "ultima_partida": 1752867883900
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viktor",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.76
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.555555555555555
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.619047619047619
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1333333333333333
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 16,
+    "losses": 15,
+    "timePlayed": 46949
+  }
+}

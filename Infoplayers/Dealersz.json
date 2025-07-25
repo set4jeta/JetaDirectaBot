@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Dealersz",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/DeaIersz",
+      "twitch": "https://twitch.tv/dealersz"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dealersz.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Dealersz#EUW",
+      "nivel": 395,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 926,
+      "victorias": 323,
+      "derrotas": 264,
+      "ultima_partida": 1753389322508
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Draven",
+      "partidas": 59,
+      "victorias": 35,
+      "winrate": "59.3%",
+      "kda_promedio": 2.4540389972144845
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2747252747252746
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.0232558139534884
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 91,
+    "wins": 53,
+    "losses": 38,
+    "timePlayed": 146061
+  }
+}

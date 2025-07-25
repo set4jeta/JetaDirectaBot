@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Javier",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/JavierrLoL",
+      "twitch": "https://twitch.tv/javierrlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/javier.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RBLS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Javier#RITO",
+      "nivel": 1034,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1056,
+      "victorias": 211,
+      "derrotas": 157,
+      "ultima_partida": 1753271715173
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 27,
+      "victorias": 18,
+      "winrate": "66.7%",
+      "kda_promedio": 4.863157894736842
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 13,
+      "victorias": 11,
+      "winrate": "84.6%",
+      "kda_promedio": 5.738095238095238
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.838709677419355
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5454545454545454
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.9375
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 71,
+    "wins": 46,
+    "losses": 25,
+    "timePlayed": 111862
+  }
+}

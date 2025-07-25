@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "D1verse",
+    "nombre_real": "Sami Karkour",
+    "edad": 22,
+    "equipo": "regnum4games",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "EXA D1verse#Tacos",
+      "nivel": 584,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 768,
+      "victorias": 114,
+      "derrotas": 70,
+      "ultima_partida": 1753377897345
+    },
+    {
+      "nombre": "Not QuiteMyTempo#Kebab",
+      "nivel": 648,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 769,
+      "victorias": 237,
+      "derrotas": 207,
+      "ultima_partida": 1753038362046
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "TwistedFate",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.4210526315789473
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 6.153846153846154
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.0666666666666667
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2777777777777777
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.142857142857143
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.909090909090909
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4545454545454546
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 32,
+    "losses": 19,
+    "timePlayed": 81792
+  }
+}

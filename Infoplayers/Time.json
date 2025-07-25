@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Time",
+    "nombre_real": "Tiago Almeida",
+    "edad": 22,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tiagoalmeida_92",
+      "twitch": "https://www.twitch.tv/time_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "CR7#Time",
+      "nivel": 658,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 622,
+      "victorias": 175,
+      "derrotas": 143,
+      "ultima_partida": 1753366446083
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 4.066666666666666
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.555555555555555
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.105263157894737
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 21,
+    "losses": 19,
+    "timePlayed": 66150
+  }
+}

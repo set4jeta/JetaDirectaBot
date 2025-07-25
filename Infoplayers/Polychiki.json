@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "Polychiki",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Polychikii",
+      "twitch": "https://www.twitch.tv/polychiki"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/JMGG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Snoop Dogg#PLYCK",
+      "nivel": 1394,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 930,
+      "victorias": 300,
+      "derrotas": 260,
+      "ultima_partida": 1753358938842
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.933333333333333
+    },
+    {
+      "nombre": "Zac",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3846153846153846
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9090909090909092
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "timePlayed": 18972
+  }
+}

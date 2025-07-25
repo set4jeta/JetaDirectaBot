@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Vasco",
+    "nombre_real": "Paweł Machnik",
+    "edad": 20,
+    "equipo": "Zero Tenacity",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LVasco01"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/Z10.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ocsaV#EUW",
+      "nivel": 638,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1004,
+      "victorias": 294,
+      "derrotas": 256,
+      "ultima_partida": 1753390741817
+    },
+    {
+      "nombre": "L Vasco O #EUW",
+      "nivel": 846,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1227,
+      "victorias": 489,
+      "derrotas": 439,
+      "ultima_partida": 1753267128746
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "TwistedFate",
+      "partidas": 27,
+      "victorias": 14,
+      "winrate": "51.9%",
+      "kda_promedio": 3.5494505494505493
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 16,
+      "victorias": 5,
+      "winrate": "31.2%",
+      "kda_promedio": 2.457627118644068
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2758620689655173
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.636363636363637
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.090909090909091
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 80,
+    "wins": 37,
+    "losses": 43,
+    "timePlayed": 131499
+  }
+}

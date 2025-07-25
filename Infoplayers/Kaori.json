@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Kaori",
+    "nombre_real": "Muhammed&nbsp;Hasan Şentürk",
+    "edad": 24,
+    "equipo": "ULF Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KaoriLoL",
+      "twitch": "https://twitch.tv/kaori123"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kaori.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ULF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "古月方源#33333",
+      "nivel": 1196,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1061,
+      "victorias": 464,
+      "derrotas": 414,
+      "ultima_partida": 1753390583341
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5689655172413794
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9444444444444444
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.444444444444445
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4642857142857142
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 35,
+    "losses": 27,
+    "timePlayed": 100027
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "MKR",
+    "nombre_real": "Kalle Kärkkäinen",
+    "edad": 22,
+    "equipo": "Bastu Five",
+    "pais": "Finland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/MKR_lol",
+      "twitch": "https://www.twitch.tv/mkr_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MKR#01600",
+      "nivel": 1536,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 836,
+      "victorias": 286,
+      "derrotas": 249,
+      "ultima_partida": 1753312555223
+    },
+    {
+      "nombre": "strawberrydreams#meow",
+      "nivel": 247,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 14,
+      "victorias": 52,
+      "derrotas": 36,
+      "ultima_partida": 1752792760993
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.133333333333334
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1764705882352942
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 22,
+    "wins": 12,
+    "losses": 10,
+    "timePlayed": 35695
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "EkkotheNeeko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/EkkoTheNeekoTW",
+      "twitch": "https://twitch.tv/ekkotheneeko"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ekkotheneeko.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Ekko the Neeko#EUW",
+      "nivel": 2278,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 758,
+      "victorias": 679,
+      "derrotas": 658,
+      "ultima_partida": 1753373703481
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ekko",
+      "partidas": 110,
+      "victorias": 60,
+      "winrate": "54.5%",
+      "kda_promedio": 2.4157650695517776
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9696969696969697
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6153846153846154
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.55
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 131,
+    "wins": 72,
+    "losses": 59,
+    "timePlayed": 218863
+  }
+}

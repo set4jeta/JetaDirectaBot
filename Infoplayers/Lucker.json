@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Lucker",
+    "nombre_real": "Damian Konefał",
+    "edad": 27,
+    "equipo": "Zerance",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Lucker",
+      "twitch": "https://www.twitch.tv/lucker_adc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "hahaha#lul",
+      "nivel": 905,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 930,
+      "victorias": 344,
+      "derrotas": 282,
+      "ultima_partida": 1753391638195
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.533333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5789473684210527
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.666666666666666
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 11,
+    "losses": 3,
+    "timePlayed": 21975
+  }
+}

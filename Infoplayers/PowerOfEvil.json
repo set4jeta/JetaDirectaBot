@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "PowerOfEvil",
+    "nombre_real": "Tristan Schrage",
+    "edad": 27,
+    "equipo": "Eintracht Spandau",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/PowerOfEvilLoL",
+      "twitch": "https://twitch.tv/powerofevil"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/powerofevil.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EINS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ThePowerOfDevil#EUW",
+      "nivel": 207,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 767,
+      "victorias": 124,
+      "derrotas": 74,
+      "ultima_partida": 1753387253939
+    },
+    {
+      "nombre": "ThePowerOfEvil#EUW",
+      "nivel": 636,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1281,
+      "victorias": 237,
+      "derrotas": 200,
+      "ultima_partida": 1753209640463
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ziggs",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.257142857142857
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.833333333333333
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.588235294117647
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.347826086956522
+    },
+    {
+      "nombre": "Swain",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1333333333333333
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 77,
+    "wins": 43,
+    "losses": 34,
+    "timePlayed": 128393
+  }
+}

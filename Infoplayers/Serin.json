@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Serin",
+    "nombre_real": "Tolga Ölmez",
+    "edad": 23,
+    "equipo": "Galions",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Serinlol",
+      "twitch": "https://twitch.tv/serinlol12"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/serin.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SeRiN1#EUW",
+      "nivel": 1483,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1208,
+      "victorias": 338,
+      "derrotas": 293,
+      "ultima_partida": 1753377834925
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.236842105263158
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9259259259259258
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2432432432432434
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.64
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.357142857142857
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7058823529411764
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.38461538461538464
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.285714285714286
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 32,
+    "losses": 33,
+    "timePlayed": 104800
+  }
+}

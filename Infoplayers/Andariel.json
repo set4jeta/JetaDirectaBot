@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Andariel",
+    "nombre_real": "Mert Kılıç",
+    "edad": 21,
+    "equipo": "UCAM Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/andarielzz",
+      "twitch": "https://www.twitch.tv/andariel1x"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/andariel.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ANDA#RIEL",
+      "nivel": 713,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 970,
+      "victorias": 512,
+      "derrotas": 466,
+      "ultima_partida": 1753359841523
+    },
+    {
+      "nombre": "BRlNG IT BACK#1WAY",
+      "nivel": 131,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 91,
+      "victorias": 53,
+      "derrotas": 44,
+      "ultima_partida": 1753307754261
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 25,
+      "victorias": 16,
+      "winrate": "64.0%",
+      "kda_promedio": 3.2767857142857144
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 4.061538461538461
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.586206896551724
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.8928571428571428
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9333333333333333
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 39,
+    "losses": 40,
+    "timePlayed": 119224
+  }
+}

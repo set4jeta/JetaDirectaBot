@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "StarScreen",
+    "nombre_real": "Soner Kaya",
+    "edad": 24,
+    "equipo": "Dragons Esports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/StarScreenLoL",
+      "twitch": "https://twitch.tv/starscreenlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DRG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "StarScreen#1702",
+      "nivel": 955,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 901,
+      "victorias": 518,
+      "derrotas": 481,
+      "ultima_partida": 1753362563851
+    },
+    {
+      "nombre": "EL TURCO#1702",
+      "nivel": 124,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 496,
+      "victorias": 169,
+      "derrotas": 133,
+      "ultima_partida": 1753265670550
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yorick",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.607142857142857
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.0579710144927534
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Tryndamere",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.08
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7142857142857144
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 32,
+    "losses": 28,
+    "timePlayed": 93240
+  }
+}

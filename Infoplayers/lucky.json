@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "lucky",
+    "nombre_real": "Luca Santos Fontinha",
+    "edad": 26,
+    "equipo": "CGN Esports",
+    "pais": "Switzerland",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LuckyEUW",
+      "twitch": "https://www.twitch.tv/lucky_euw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CGN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "saudade#ana",
+      "nivel": 1221,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1065,
+      "victorias": 401,
+      "derrotas": 358,
+      "ultima_partida": 1753394191279
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4074074074074074
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0769230769230769
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.130434782608696
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.666666666666666
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.142857142857143
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 45,
+    "wins": 26,
+    "losses": 19,
+    "timePlayed": 72666
+  }
+}

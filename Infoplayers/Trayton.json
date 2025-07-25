@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Trayton",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/TraYt0N",
+      "twitch": "https://twitch.tv/traytonlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/trayton.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TraYtoN#EUW",
+      "nivel": 1066,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 888,
+      "victorias": 291,
+      "derrotas": 254,
+      "ultima_partida": 1753357984258
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4603174603174605
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.7
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6153846153846154
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 12,
+    "losses": 19,
+    "timePlayed": 47636
+  }
+}

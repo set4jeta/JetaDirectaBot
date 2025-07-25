@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Lot",
+    "nombre_real": "Eren Yıldız",
+    "edad": 21,
+    "equipo": "GIANTX",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lotlol12"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lot.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GX.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "chenzelot#LOT",
+      "nivel": 596,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1417,
+      "victorias": 207,
+      "derrotas": 147,
+      "ultima_partida": 1753392563849
+    },
+    {
+      "nombre": "GX Francisco#GOAT",
+      "nivel": 230,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1184,
+      "victorias": 237,
+      "derrotas": 191,
+      "ultima_partida": 1753351816481
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 29,
+    "losses": 14,
+    "timePlayed": 68170
+  }
+}

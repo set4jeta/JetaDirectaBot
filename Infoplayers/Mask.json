@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Mask",
+    "nombre_real": "Lee Sang-hun",
+    "edad": 24,
+    "equipo": "Papara SuperMassive",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Maski2happy\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/mask.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SUP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Pikachu#o3o",
+      "nivel": 75,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 880,
+      "victorias": 222,
+      "derrotas": 146,
+      "ultima_partida": 1753368145110
+    },
+    {
+      "nombre": "bvsb#EUW",
+      "nivel": null,
+      "region": null,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Azir",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.3466666666666667
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 5.111111111111111
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.772727272727273
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9666666666666667
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 37,
+    "losses": 24,
+    "timePlayed": 100580
+  }
+}

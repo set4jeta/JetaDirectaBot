@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "behave",
+    "nombre_real": "Marcin Pawlak",
+    "edad": 27,
+    "equipo": "BeFive",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/behavelol",
+      "twitch": "https://www.twitch.tv/behavelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BE5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "behave#ARAM",
+      "nivel": 547,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1023,
+      "victorias": 125,
+      "derrotas": 87,
+      "ultima_partida": 1753385273628
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.843137254901961
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 6,
+    "losses": 8,
+    "timePlayed": 25123
+  }
+}

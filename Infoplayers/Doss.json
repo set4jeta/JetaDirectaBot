@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Doss",
+    "nombre_real": "Mads Schwartz",
+    "edad": 26,
+    "equipo": "BK ROG Esports",
+    "pais": "Denmark",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Doss_lol",
+      "twitch": "https://twitch.tv/Doss_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/doss.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BKR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SUPdoss#EUW",
+      "nivel": 302,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 999,
+      "victorias": 469,
+      "derrotas": 400,
+      "ultima_partida": 1753369630671
+    },
+    {
+      "nombre": "IsAiSDaAS#123",
+      "nivel": 287,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 207,
+      "derrotas": 172,
+      "ultima_partida": 1751582709609
+    },
+    {
+      "nombre": "MagiFeIiix#EUW",
+      "nivel": 221,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 28,
+      "derrotas": 23,
+      "ultima_partida": 1747346984585
+    },
+    {
+      "nombre": "DONALD DOSS#Doss",
+      "nivel": 749,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 158,
+      "derrotas": 139,
+      "ultima_partida": 1739703900287
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 28,
+      "victorias": 19,
+      "winrate": "67.9%",
+      "kda_promedio": 4.715447154471545
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 5.794117647058823
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.09375
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.24
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.9523809523809526
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.933333333333334
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.823529411764706
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 111,
+    "wins": 63,
+    "losses": 48,
+    "timePlayed": 177902
+  }
+}

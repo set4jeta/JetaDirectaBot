@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Fornoreason",
+    "nombre_real": "Felix Schummel",
+    "edad": 21,
+    "equipo": "Unicorns of Love Sexy Edition",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/schummel_felix",
+      "twitch": "https://www.twitch.tv/fornoreasontv"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "FornoReason#Gap",
+      "nivel": 1294,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 612,
+      "victorias": 232,
+      "derrotas": 209,
+      "ultima_partida": 1753386839171
+    },
+    {
+      "nombre": "FNR#gap",
+      "nivel": 251,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 959,
+      "victorias": 341,
+      "derrotas": 302,
+      "ultima_partida": 1753134582257
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 2.551282051282051
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 18,
+      "victorias": 14,
+      "winrate": "77.8%",
+      "kda_promedio": 2.876923076923077
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 2.3472222222222223
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 1.7215189873417722
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.566666666666667
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.103448275862069
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 31
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 98,
+    "wins": 57,
+    "losses": 41,
+    "timePlayed": 157800
+  }
+}

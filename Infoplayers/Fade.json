@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Fade",
+    "nombre_real": "Fatih Kurşun",
+    "edad": 21,
+    "equipo": "Beşiktaş Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lolfade7",
+      "twitch": "https://www.twitch.tv/lolfade7"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/fade.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "GRIND TILL I DIE#777",
+      "nivel": 275,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 950,
+      "victorias": 392,
+      "derrotas": 353,
+      "ultima_partida": 1753302719153
+    },
+    {
+      "nombre": "Fadee#1337",
+      "nivel": null,
+      "region": null,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Annie",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.267605633802817
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.933333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.15625
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.074074074074074
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8275862068965518
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9545454545454546
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2758620689655173
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 37,
+    "losses": 30,
+    "timePlayed": 104590
+  }
+}

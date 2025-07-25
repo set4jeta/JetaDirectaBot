@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Hid0",
+    "nombre_real": "Gian Miguel Caruana",
+    "edad": 23,
+    "equipo": "NORD Esports",
+    "pais": "Malta",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Hidoadc",
+      "twitch": "https://twitch.tv/hidoadc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NORD.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "evorpminosucof#EUW",
+      "nivel": 186,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 204,
+      "victorias": 40,
+      "derrotas": 23,
+      "ultima_partida": 1753392440161
+    },
+    {
+      "nombre": "rettebeb#11241",
+      "nivel": 227,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1057,
+      "victorias": 321,
+      "derrotas": 265,
+      "ultima_partida": 1752702752224
+    },
+    {
+      "nombre": "Hido#Hido1",
+      "nivel": 319,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 298,
+      "derrotas": 246,
+      "ultima_partida": 1752013575881
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zeri",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 3.1826086956521737
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 18,
+      "victorias": 13,
+      "winrate": "72.2%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 2.981818181818182
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.064516129032258
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6470588235294117
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5384615384615383
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 26
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 89,
+    "wins": 50,
+    "losses": 39,
+    "timePlayed": 141101
+  }
+}

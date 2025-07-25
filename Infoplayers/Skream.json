@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Skream",
+    "nombre_real": "Youssef Abdellatif",
+    "edad": 21,
+    "equipo": "Dragons Esports",
+    "pais": "Tunisia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Skream_euw",
+      "twitch": "https://www.twitch.tv/skreamm"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DRG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Skream#ZZZ",
+      "nivel": 724,
+      "liga": "MASTER I",
+      "lp": 729,
+      "victorias": 231,
+      "derrotas": 206,
+      "ultima_partida": 1753289091482
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7567567567567566
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 4.095238095238095
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.810810810810811
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.5901639344262297
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.0232558139534884
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.361111111111111
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.72
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1904761904761907
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.588235294117647
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3157894736842106
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 55,
+    "losses": 35,
+    "timePlayed": 148274
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Armut",
+    "nombre_real": "İrfan&nbsp;Berk Tükek",
+    "edad": 26,
+    "equipo": "Papara SuperMassive",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/armutlol",
+      "twitch": "https://twitch.tv/armutlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/armut.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SUP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "PAPARA ARMUT#123",
+      "nivel": 522,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 764,
+      "victorias": 358,
+      "derrotas": 331,
+      "ultima_partida": 1753396696982
+    },
+    {
+      "nombre": "Carry#99975",
+      "nivel": 90,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 84,
+      "victorias": 32,
+      "derrotas": 21,
+      "ultima_partida": 1753396520990
+    },
+    {
+      "nombre": "ARMUTONG#EUW",
+      "nivel": 352,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1741732416986
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 3.2244897959183674
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 4.380952380952381
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5272727272727273
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.7741935483870968
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5357142857142856
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.4814814814814814
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.4827586206896552
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 122,
+    "wins": 60,
+    "losses": 62,
+    "timePlayed": 198033
+  }
+}

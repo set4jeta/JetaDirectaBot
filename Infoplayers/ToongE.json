@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "ToongE",
+    "nombre_real": "Lim Ho-seon",
+    "edad": 20,
+    "equipo": "Misa Esports",
+    "pais": "United Kingdom",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Toong__E",
+      "twitch": "https://www.twitch.tv/toong_e_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ToongE#FSK",
+      "nivel": 237,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1370,
+      "victorias": 612,
+      "derrotas": 544,
+      "ultima_partida": 1753397820489
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 15,
+      "victorias": 5,
+      "winrate": "33.3%",
+      "kda_promedio": 2.197802197802198
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.4642857142857144
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3076923076923075
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.263157894736842
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 95,
+    "wins": 53,
+    "losses": 42,
+    "timePlayed": 158162
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "DahVys",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/DahVysGG",
+      "twitch": "https://twitch.tv/dahvys"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dahvys.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ScoobyDoo#d0g",
+      "nivel": 1340,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 846,
+      "victorias": 663,
+      "derrotas": 637,
+      "ultima_partida": 1753318707440
+    },
+    {
+      "nombre": "Bigby WoIf#EUW",
+      "nivel": 310,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 369,
+      "victorias": 169,
+      "derrotas": 139,
+      "ultima_partida": 1751885408020
+    },
+    {
+      "nombre": "Bigby Wøøf#EUW",
+      "nivel": 84,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 36,
+      "derrotas": 15,
+      "ultima_partida": 1751802847817
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 3.744186046511628
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.9791666666666665
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.8780487804878048
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.1724137931034484
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.2962962962962963
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2666666666666666
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4782608695652173
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 66,
+    "wins": 33,
+    "losses": 33,
+    "timePlayed": 107512
+  }
+}

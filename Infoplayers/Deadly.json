@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Deadly",
+    "nombre_real": "Matthew&nbsp;Luke Smith",
+    "edad": 25,
+    "equipo": "Joblife",
+    "pais": "United Kingdom",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Deadlyl0l",
+      "twitch": "https://twitch.tv/deadlyl0l"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/deadly.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/JL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Deadly#9381",
+      "nivel": 786,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1023,
+      "victorias": 429,
+      "derrotas": 395,
+      "ultima_partida": 1753368145110
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.533333333333333
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5384615384615384
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 7,
+    "losses": 9,
+    "timePlayed": 26238
+  }
+}

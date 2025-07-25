@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Myrtus",
+    "nombre_real": "Mohamed Rahli",
+    "edad": 19,
+    "equipo": "Team BDS Academy",
+    "pais": "Italy",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/myrtus_lol",
+      "twitch": "https://twitch.tv/myrtus_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/myrtus.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "serein#MP7",
+      "nivel": 1061,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1621,
+      "victorias": 555,
+      "derrotas": 479,
+      "ultima_partida": 1753369598275
+    },
+    {
+      "nombre": "Abatteur2kafard#soloq",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 20,
+      "victorias": 9,
+      "winrate": "45.0%",
+      "kda_promedio": 2.865546218487395
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.6724137931034484
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.511111111111111
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.65
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.043478260869565
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.2413793103448274
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3214285714285716
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.222222222222222
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4444444444444446
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 73,
+    "wins": 44,
+    "losses": 29,
+    "timePlayed": 118662
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Vizicsacsi",
+    "nombre_real": "Tamás Kiss",
+    "edad": 32,
+    "equipo": "NORD Esports",
+    "pais": "Hungary",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Vizicsacsi",
+      "twitch": "https://www.twitch.tv/vizicsacsi"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/vizicsacsi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NORD.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "NORD Vizicsacsi#TOP",
+      "nivel": 516,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1430,
+      "victorias": 291,
+      "derrotas": 239,
+      "ultima_partida": 1753362620587
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.6923076923076923
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 5,
+    "losses": 6,
+    "timePlayed": 17354
+  }
+}

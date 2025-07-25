@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "RoyalKanin",
+    "nombre_real": "Linus Grönlund",
+    "edad": 22,
+    "equipo": "ROSSMANN Centaurs",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/TheRoyalKanin",
+      "twitch": "https://twitch.tv/theroyalkanin"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/royalkanin.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "TheRoyalKanin#EUW",
+      "nivel": 1170,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1448,
+      "victorias": 454,
+      "derrotas": 387,
+      "ultima_partida": 1753229226837
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 3,
+    "losses": 7,
+    "timePlayed": 16969
+  }
+}

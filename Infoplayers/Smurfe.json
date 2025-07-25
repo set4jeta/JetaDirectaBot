@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Smurfe",
+    "nombre_real": "Felix Rivedal Hylleseth",
+    "edad": 20,
+    "equipo": "TeamOrangeGaming",
+    "pais": "Norway",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/smurfelol",
+      "twitch": "https://www.twitch.tv/smurfegutten_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TOG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "smurfeee#OSRS",
+      "nivel": 894,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1222,
+      "victorias": 377,
+      "derrotas": 321,
+      "ultima_partida": 1753354320185
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5964912280701755
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6470588235294117
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.6363636363636364
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5833333333333335
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 31,
+    "losses": 23,
+    "timePlayed": 84654
+  }
+}

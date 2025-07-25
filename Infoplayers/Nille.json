@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nille",
+    "nombre_real": "Juho Janhunen Wilhelm",
+    "edad": 24,
+    "equipo": "Caldya Esport",
+    "pais": "Finland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/NilleLoL",
+      "twitch": "https://twitch.tv/nillenalley"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Frank Lundy#AGENT",
+      "nivel": 1490,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 993,
+      "victorias": 558,
+      "derrotas": 521,
+      "ultima_partida": 1753391638195
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.606060606060606
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.2444444444444445
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4782608695652173
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.576923076923077
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8333333333333335
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 71,
+    "wins": 36,
+    "losses": 35,
+    "timePlayed": 108448
+  }
+}

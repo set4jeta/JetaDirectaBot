@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Rooster",
+    "nombre_real": "Shin Yun-hwan",
+    "edad": 20,
+    "equipo": "Team BDS",
+    "pais": "South Korea",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/rooster.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BDS Rooster#2005",
+      "nivel": 40,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 501,
+      "victorias": 69,
+      "derrotas": 32,
+      "ultima_partida": 1753367464759
+    },
+    {
+      "nombre": "편 민 기#박 규 용",
+      "nivel": 857,
+      "region": "KR",
+      "liga": "MASTER I",
+      "lp": 99,
+      "victorias": 242,
+      "derrotas": 196,
+      "ultima_partida": 1751478559786
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 27,
+      "victorias": 18,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7804878048780486
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.3478260869565215
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.204081632653061
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.413793103448276
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.7096774193548387
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.866666666666666
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9285714285714284
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 83,
+    "wins": 57,
+    "losses": 26,
+    "timePlayed": 128726
+  }
+}

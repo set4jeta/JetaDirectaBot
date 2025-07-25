@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Tyrone",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/TyroneADC",
+      "twitch": "https://www.twitch.tv/tyroneadc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SOLOQ#GRIND",
+      "nivel": 195,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 762,
+      "victorias": 215,
+      "derrotas": 189,
+      "ultima_partida": 1753396281977
+    },
+    {
+      "nombre": "vengeance#carry",
+      "nivel": 1100,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 635,
+      "victorias": 265,
+      "derrotas": 234,
+      "ultima_partida": 1752674792963
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.7391304347826086
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.916666666666667
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.8
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 21,
+    "losses": 9,
+    "timePlayed": 50389
+  }
+}

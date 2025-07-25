@@ -1,0 +1,70 @@
+{
+  "info_jugador": {
+    "nombre": "Kunduz",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kunduz_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "XXXXXXXXY1#EUW",
+      "nivel": 274,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1206,
+      "victorias": 305,
+      "derrotas": 248,
+      "ultima_partida": 1753382472175
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Irelia",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.3870967741935485
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 8,
+    "losses": 4,
+    "timePlayed": 16792
+  }
+}

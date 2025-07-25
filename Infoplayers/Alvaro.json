@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Alvaro",
+    "nombre_real": "Álvaro Fernández del Amo",
+    "edad": 21,
+    "equipo": "Movistar KOI",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/AlVaRo710_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/alvaro.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "s7R 074#000",
+      "nivel": 1318,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1103,
+      "victorias": 354,
+      "derrotas": 314,
+      "ultima_partida": 1753370894571
+    },
+    {
+      "nombre": "Articuno#sup",
+      "nivel": 36,
+      "region": "NA1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 37,
+      "derrotas": 14,
+      "ultima_partida": 1751700256151
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 11,
+    "losses": 8,
+    "timePlayed": 31144
+  }
+}

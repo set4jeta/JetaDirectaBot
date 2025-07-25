@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Fooneses",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/A41G.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Fooneses#Fonsi",
+      "nivel": 556,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 998,
+      "victorias": 144,
+      "derrotas": 95,
+      "ultima_partida": 1753356608520
+    },
+    {
+      "nombre": "BIN ICH NICHT#FIXED",
+      "nivel": 153,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 753,
+      "victorias": 172,
+      "derrotas": 123,
+      "ultima_partida": 1753040352931
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8846153846153846
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4210526315789473
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 17,
+    "losses": 6,
+    "timePlayed": 37282
+  }
+}

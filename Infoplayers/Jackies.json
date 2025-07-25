@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Jackies",
+    "nombre_real": "Adam Jeřábek",
+    "edad": 20,
+    "equipo": "GIANTX",
+    "pais": "Czech Republic",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/jackies_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/jackies.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GX.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "hahahahah#2218",
+      "nivel": 82,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1502,
+      "victorias": 286,
+      "derrotas": 198,
+      "ultima_partida": 1753391952985
+    },
+    {
+      "nombre": "King Julien XIII#MGDSK",
+      "nivel": 833,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 146,
+      "derrotas": 120,
+      "ultima_partida": 1746366395292
+    },
+    {
+      "nombre": "김치 공주#55555",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 46,
+      "derrotas": 39,
+      "ultima_partida": 1740002512036
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.52
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.933333333333333
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.1333333333333333
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1764705882352942
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 28,
+    "losses": 27,
+    "timePlayed": 90950
+  }
+}

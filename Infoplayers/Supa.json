@@ -1,0 +1,109 @@
+{
+  "info_jugador": {
+    "nombre": "Supa",
+    "nombre_real": "David Martínez García",
+    "edad": 24,
+    "equipo": "Movistar KOI",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Supa_LoL",
+      "twitch": "https://twitch.tv/supa_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/supa.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "tukaan#tukan",
+      "nivel": 1474,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1471,
+      "victorias": 327,
+      "derrotas": 259,
+      "ultima_partida": 1752920668375
+    },
+    {
+      "nombre": "Tukaan#tuknn",
+      "nivel": 35,
+      "region": "NA1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 36,
+      "derrotas": 13,
+      "ultima_partida": 1751655496658
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 7,
+    "losses": 7,
+    "timePlayed": 21949
+  }
+}

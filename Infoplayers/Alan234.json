@@ -1,0 +1,64 @@
+{
+  "info_jugador": {
+    "nombre": "Alan234",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/AlanTheTeemo",
+      "twitch": "https://twitch.tv/alanteemo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/alan234.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Alan234#EUW",
+      "nivel": 546,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1094,
+      "victorias": 168,
+      "derrotas": 109,
+      "ultima_partida": 1753389491932
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Teemo",
+      "partidas": 30,
+      "victorias": 22,
+      "winrate": "73.3%",
+      "kda_promedio": 2.2517482517482517
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.333333333333334
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 34,
+    "wins": 23,
+    "losses": 11,
+    "timePlayed": 56262
+  }
+}

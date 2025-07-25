@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Keduii",
+    "nombre_real": "Tim Willers",
+    "edad": 24,
+    "equipo": "SK Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Keduii",
+      "twitch": "https://twitch.tv/keduii1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/keduii.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "GRF Viper#1310",
+      "nivel": 1579,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1003,
+      "victorias": 634,
+      "derrotas": 595,
+      "ultima_partida": 1753392537177
+    },
+    {
+      "nombre": "202220222#EUW",
+      "nivel": 112,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 65,
+      "derrotas": 51,
+      "ultima_partida": 1741279168507
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Varus",
+      "partidas": 22,
+      "victorias": 11,
+      "winrate": "50.0%",
+      "kda_promedio": 3.292134831460674
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 4.735849056603773
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.1025641025641026
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.71875
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.586206896551724
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 7.916666666666667
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4347826086956523
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 4.352941176470588
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.380952380952381
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1739130434782608
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 91,
+    "wins": 51,
+    "losses": 40,
+    "timePlayed": 150569
+  }
+}

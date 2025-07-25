@@ -1,0 +1,66 @@
+{
+  "info_jugador": {
+    "nombre": "choego",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/choego123"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "chöego#EUW",
+      "nivel": 574,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1117,
+      "victorias": 235,
+      "derrotas": 197,
+      "ultima_partida": 1753361839290
+    },
+    {
+      "nombre": "choego#0001",
+      "nivel": 665,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 456,
+      "victorias": 237,
+      "derrotas": 215,
+      "ultima_partida": 1751893948343
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MissFortune",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.172413793103448
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 16146
+  }
+}

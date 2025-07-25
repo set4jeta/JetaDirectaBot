@@ -1,0 +1,101 @@
+{
+  "info_jugador": {
+    "nombre": "Thomas",
+    "nombre_real": "Tomislav Nanjara",
+    "edad": 22,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Croatia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ThomasFatelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KappaChungiLungi#DELUX",
+      "nivel": 663,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 964,
+      "victorias": 170,
+      "derrotas": 133,
+      "ultima_partida": 1753368837817
+    },
+    {
+      "nombre": "Thomas#13579",
+      "nivel": 348,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 5,
+      "victorias": 113,
+      "derrotas": 86,
+      "ultima_partida": 1751739152744
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 8.285714285714286
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 7,
+    "losses": 3,
+    "timePlayed": 15907
+  }
+}

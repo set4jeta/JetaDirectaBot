@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Mihile",
+    "nombre_real": "Baek Sang-hwi",
+    "edad": 22,
+    "equipo": "Misa Esports",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/baeksanghwi"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/mihile.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Smolder Dad#0301",
+      "nivel": 132,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 726,
+      "victorias": 415,
+      "derrotas": 358,
+      "ultima_partida": 1753397096069
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.1551724137931036
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4482758620689653
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.837837837837838
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2727272727272727
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4827586206896552
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4583333333333333
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2380952380952381
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7727272727272727
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 26,
+    "losses": 34,
+    "timePlayed": 98437
+  }
+}

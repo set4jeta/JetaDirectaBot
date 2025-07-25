@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Ryuk",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Ryuk_adlol",
+      "twitch": "https://twitch.tv/lol_adryuk"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ryuk.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Ryuk#adc",
+      "nivel": 839,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1238,
+      "victorias": 357,
+      "derrotas": 304,
+      "ultima_partida": 1753391638195
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Varus",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.896551724137931
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 3.130434782608696
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.84
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3076923076923075
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0666666666666667
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6923076923076923
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 28,
+    "losses": 24,
+    "timePlayed": 85549
+  }
+}

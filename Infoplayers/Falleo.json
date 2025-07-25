@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Falleo",
+    "nombre_real": "Karlo Kovačić",
+    "edad": 27,
+    "equipo": "The Secret Club",
+    "pais": "Croatia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lolFalleo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Mr Milchick#FAL",
+      "nivel": 246,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 788,
+      "victorias": 236,
+      "derrotas": 199,
+      "ultima_partida": 1753378601444
+    },
+    {
+      "nombre": "Falleo#Fall",
+      "nivel": 353,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 119,
+      "derrotas": 117,
+      "ultima_partida": 1751798242243
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9761904761904763
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.9130434782608696
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.368421052631579
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6956521739130435
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 21,
+    "losses": 11,
+    "timePlayed": 52306
+  }
+}

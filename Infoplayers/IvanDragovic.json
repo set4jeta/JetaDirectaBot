@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "IvanDragovic",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/DragovicIvern",
+      "twitch": "https://twitch.tv/iverndragovic"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ivandragovic.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "IvanDragovic#2002",
+      "nivel": 992,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1071,
+      "victorias": 308,
+      "derrotas": 257,
+      "ultima_partida": 1753387253939
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 8,
+    "wins": 7,
+    "losses": 1,
+    "timePlayed": 11925
+  }
+}

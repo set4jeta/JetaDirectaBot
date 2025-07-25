@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "HungryPanda",
+    "nombre_real": "Nikos Nikolaidis",
+    "edad": 26,
+    "equipo": "Partizan Sangal",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/HungryPandaLoL",
+      "twitch": "https://twitch.tv/hungrypandalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hungrypanda.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Ksediplwma#TIMPA",
+      "nivel": 813,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 812,
+      "victorias": 242,
+      "derrotas": 207,
+      "ultima_partida": 1753354785833
+    },
+    {
+      "nombre": "MPAINW XWRIS#AKAP",
+      "nivel": 206,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1617,
+      "victorias": 302,
+      "derrotas": 225,
+      "ultima_partida": 1753186438154
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 4.044444444444444
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.75
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0833333333333333
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 22,
+    "losses": 15,
+    "timePlayed": 56948
+  }
+}

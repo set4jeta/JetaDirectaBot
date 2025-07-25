@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Sw3ry",
+    "nombre_real": "Denis Neumann",
+    "edad": 18,
+    "equipo": "Fox Gaming",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Sw3ry_lol",
+      "twitch": "https://www.twitch.tv/sw3ry__"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/F0X.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "noobsupp#noob",
+      "nivel": 160,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1346,
+      "victorias": 413,
+      "derrotas": 341,
+      "ultima_partida": 1753380152054
+    },
+    {
+      "nombre": "noobsuppp#noob",
+      "nivel": 741,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 139,
+      "victorias": 71,
+      "derrotas": 64,
+      "ultima_partida": 1753262872843
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 4.410958904109589
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 10.142857142857142
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1739130434782608
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 33,
+    "losses": 18,
+    "timePlayed": 81058
+  }
+}

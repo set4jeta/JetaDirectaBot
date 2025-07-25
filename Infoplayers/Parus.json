@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Parus",
+    "nombre_real": "Polat Furkan Çiçek",
+    "edad": 22,
+    "equipo": "Team BDS",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Paruslol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/parus.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Thumbs Down#4847",
+      "nivel": 848,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1298,
+      "victorias": 277,
+      "derrotas": 219,
+      "ultima_partida": 1753398596121
+    },
+    {
+      "nombre": "Zanka no Tachı#EUW",
+      "nivel": 340,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 57,
+      "derrotas": 25,
+      "ultima_partida": 1738785209086
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 2.268292682926829
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.714285714285714
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8947368421052633
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.3
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1538461538461537
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.85
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 31,
+    "losses": 21,
+    "timePlayed": 80805
+  }
+}

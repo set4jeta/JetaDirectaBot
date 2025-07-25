@@ -1,0 +1,81 @@
+{
+  "info_jugador": {
+    "nombre": "Kittxnly",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/kittxnly",
+      "twitch": "https://twitch.tv/kittxnlylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kittxnly.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Kittxnly alt#Jork",
+      "nivel": 115,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 444,
+      "victorias": 114,
+      "derrotas": 106,
+      "ultima_partida": 1753395885478
+    },
+    {
+      "nombre": "Kittxnly#Luna",
+      "nivel": 686,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1212,
+      "victorias": 409,
+      "derrotas": 350,
+      "ultima_partida": 1753188494367
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nami",
+      "partidas": 27,
+      "victorias": 9,
+      "winrate": "33.3%",
+      "kda_promedio": 2.9710982658959537
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 22,
+      "victorias": 13,
+      "winrate": "59.1%",
+      "kda_promedio": 3.9381443298969074
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 25,
+    "losses": 30,
+    "timePlayed": 89283
+  }
+}

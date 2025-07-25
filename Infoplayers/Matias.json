@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Matias",
+    "nombre_real": "Matias Manchin-Opheltes",
+    "edad": 24,
+    "equipo": "GameWard",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/matiaslaclasse1",
+      "twitch": "https://twitch.tv/matiaslaclasse"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/matias.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "GW Matias#971",
+      "nivel": 976,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1105,
+      "victorias": 501,
+      "derrotas": 459,
+      "ultima_partida": 1753394705562
+    },
+    {
+      "nombre": "matiaslaclasse#EUW",
+      "nivel": 180,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 7,
+      "derrotas": 9,
+      "ultima_partida": 1748231928529
+    },
+    {
+      "nombre": "Matias VEINEUX#soloq",
+      "nivel": 35,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 28,
+      "victorias": 14,
+      "winrate": "50.0%",
+      "kda_promedio": 2.92
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 5.033333333333333
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9777777777777779
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.0526315789473686
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.235294117647059
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 91,
+    "wins": 44,
+    "losses": 47,
+    "timePlayed": 139352
+  }
+}

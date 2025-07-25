@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "LIDER",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LIDERlol\\t",
+      "twitch": "https://twitch.tv/llder"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lider.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "emtwfwydw#9999",
+      "nivel": 181,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1224,
+      "victorias": 331,
+      "derrotas": 262,
+      "ultima_partida": 1753299382255
+    },
+    {
+      "nombre": "soothing breeze#EUW",
+      "nivel": 91,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 7,
+      "derrotas": 5,
+      "ultima_partida": 1736639467816
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.6176470588235294
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5897435897435896
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.206896551724138
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0526315789473684
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.631578947368421
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 19,
+    "losses": 13,
+    "timePlayed": 51294
+  }
+}

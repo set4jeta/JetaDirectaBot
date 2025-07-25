@@ -1,0 +1,76 @@
+{
+  "info_jugador": {
+    "nombre": "CruncyWM",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "\\thttps://www.twitch.tv/cruncywm"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "twtv CruncyWM#BLACK",
+      "nivel": 62,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 545,
+      "victorias": 53,
+      "derrotas": 13,
+      "ultima_partida": 1753378709524
+    },
+    {
+      "nombre": "Tw tv CruncyWM#clown",
+      "nivel": 51,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 907,
+      "victorias": 136,
+      "derrotas": 58,
+      "ultima_partida": 1752024147674
+    },
+    {
+      "nombre": "CruncyWM#1737",
+      "nivel": 45,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 813,
+      "victorias": 101,
+      "derrotas": 34,
+      "ultima_partida": 1751814061867
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 58,
+      "victorias": 47,
+      "winrate": "81.0%",
+      "kda_promedio": 6.377777777777778
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.526315789473684
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 66,
+    "wins": 53,
+    "losses": 13,
+    "timePlayed": 98497
+  }
+}

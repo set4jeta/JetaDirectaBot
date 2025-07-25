@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Rekkles",
+    "nombre_real": "Carl&nbsp;Martin&nbsp;Erik Larsson",
+    "edad": 28,
+    "equipo": "Los Ratones",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RekklesLoL",
+      "twitch": "https://twitch.tv/rekkles"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/rekkles.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "LR Rekkles#SUP",
+      "nivel": 181,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 874,
+      "victorias": 170,
+      "derrotas": 141,
+      "ultima_partida": 1753371364415
+    },
+    {
+      "nombre": "LR Rekkles#LRAT",
+      "nivel": 1976,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1004,
+      "victorias": 271,
+      "derrotas": 235,
+      "ultima_partida": 1753356009359
+    },
+    {
+      "nombre": "LR Rekkles#ADC",
+      "nivel": 171,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 893,
+      "victorias": 273,
+      "derrotas": 223,
+      "ultima_partida": 1753266641912
+    },
+    {
+      "nombre": "Latias#SUP",
+      "nivel": 39,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 45,
+      "derrotas": 12,
+      "ultima_partida": 1740822815728
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 28,
+      "victorias": 13,
+      "winrate": "46.4%",
+      "kda_promedio": 7.264150943396227
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 8.32
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 10.3125
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 8.4
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 15.2
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 7.125
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 8.833333333333334
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.714285714285714
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 12.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 81,
+    "wins": 49,
+    "losses": 32,
+    "timePlayed": 132171
+  }
+}

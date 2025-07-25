@@ -1,0 +1,66 @@
+{
+  "info_jugador": {
+    "nombre": "Eckas",
+    "nombre_real": "Edgaras Strazdauskas",
+    "edad": 23,
+    "equipo": "Geekay Esports",
+    "pais": "Lithuania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Eckaslol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/eckas.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kaimietis3#EUW",
+      "nivel": 837,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1189,
+      "victorias": 313,
+      "derrotas": 267,
+      "ultima_partida": 1752854230587
+    },
+    {
+      "nombre": "1333LP#EUW",
+      "nivel": 133,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 7,
+      "derrotas": 3,
+      "ultima_partida": 1737749959186
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.066666666666667
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.25
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 4,
+    "wins": 2,
+    "losses": 2,
+    "timePlayed": 8304
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Alvanai",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/AlvanaiLoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/WLG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SLERTS#EUW",
+      "nivel": 540,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 898,
+      "victorias": 296,
+      "derrotas": 233,
+      "ultima_partida": 1753380476406
+    },
+    {
+      "nombre": "reaver mid acc#BOZO",
+      "nivel": 199,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 34,
+      "victorias": 305,
+      "derrotas": 298,
+      "ultima_partida": 1753052254310
+    },
+    {
+      "nombre": "paintingpictures#polog",
+      "nivel": 139,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 108,
+      "derrotas": 88,
+      "ultima_partida": 1749505168408
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 4.098039215686274
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 4.282608695652174
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.5106382978723403
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2777777777777777
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.636363636363637
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 41,
+    "losses": 26,
+    "timePlayed": 106832
+  }
+}

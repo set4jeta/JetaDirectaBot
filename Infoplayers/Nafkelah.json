@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nafkelah",
+    "nombre_real": "Andrija Kovačević",
+    "edad": 22,
+    "equipo": "Caldya Esport",
+    "pais": "Montenegro",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/nafkelah",
+      "twitch": "https://twitch.tv/nafkelah"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "James Doakes#BOAT",
+      "nivel": 932,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1333,
+      "victorias": 250,
+      "derrotas": 205,
+      "ultima_partida": 1753351446648
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7142857142857142
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "timePlayed": 22125
+  }
+}

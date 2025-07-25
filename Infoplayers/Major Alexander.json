@@ -1,0 +1,81 @@
+{
+  "info_jugador": {
+    "nombre": "Major Alexander",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MajorAlexander6",
+      "twitch": "https://twitch.tv/major_alexander"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/majoralexander.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Twtv Major Alex#ander",
+      "nivel": 172,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 71,
+      "victorias": 17,
+      "derrotas": 11,
+      "ultima_partida": 1753278584827
+    },
+    {
+      "nombre": "Twtv Major Alexa#nder",
+      "nivel": 606,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 810,
+      "victorias": 178,
+      "derrotas": 137,
+      "ultima_partida": 1753190741674
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Samira",
+      "partidas": 27,
+      "victorias": 19,
+      "winrate": "70.4%",
+      "kda_promedio": 3.3823529411764706
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.28125
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 15
+    },
+    {
+      "nombre": "Yuumi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 25,
+    "losses": 12,
+    "timePlayed": 55819
+  }
+}

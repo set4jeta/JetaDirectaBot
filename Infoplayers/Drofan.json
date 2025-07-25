@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Drofan",
+    "nombre_real": "Avraam Tsakiridis",
+    "edad": 19,
+    "equipo": "GOAL",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/drofan_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GOAL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Seonsu#Noula",
+      "nivel": 188,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 860,
+      "victorias": 309,
+      "derrotas": 282,
+      "ultima_partida": 1753383639313
+    },
+    {
+      "nombre": "FryerTuck#1101",
+      "nivel": 186,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 260,
+      "victorias": 100,
+      "derrotas": 64,
+      "ultima_partida": 1752923488912
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "XinZhao",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.4615384615384617
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.9393939393939394
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.076923076923077
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6315789473684212
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.3
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6923076923076925
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 25,
+    "losses": 18,
+    "timePlayed": 68719
+  }
+}

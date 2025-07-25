@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Czajek",
+    "nombre_real": "Mateusz Czajka",
+    "edad": 21,
+    "equipo": "Team Vitality",
+    "pais": "Poland",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/czajekklol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/czajek.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "1BADCLICKEQUALS#BOOM",
+      "nivel": 108,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 748,
+      "victorias": 192,
+      "derrotas": 117,
+      "ultima_partida": 1753390008163
+    },
+    {
+      "nombre": "Daglas fangirl#EUW",
+      "nivel": 532,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 113,
+      "derrotas": 75,
+      "ultima_partida": 1743501042862
+    },
+    {
+      "nombre": "Czajek#sosis",
+      "nivel": 112,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 26,
+    "wins": 13,
+    "losses": 13,
+    "timePlayed": 37760
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Spooder",
+    "nombre_real": "Muhanad Maitham Sharad",
+    "edad": 22,
+    "equipo": "Team Phantasma",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Spoodersussi1",
+      "twitch": "https://twitch.tv/spoodersuss1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/spooder.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Spoodersussi#1352",
+      "nivel": 750,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1218,
+      "victorias": 370,
+      "derrotas": 325,
+      "ultima_partida": 1753306446599
+    },
+    {
+      "nombre": "twtvSpoodersuss1#EUWW",
+      "nivel": 590,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1261,
+      "victorias": 307,
+      "derrotas": 255,
+      "ultima_partida": 1753051050808
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 1.6024096385542168
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.1451612903225805
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.574468085106383
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.7547169811320753
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.871794871794872
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.36734693877551
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1176470588235294
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6896551724137931
+    },
+    {
+      "nombre": "Warwick",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2777777777777777
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 104,
+    "wins": 56,
+    "losses": 48,
+    "timePlayed": 170946
+  }
+}

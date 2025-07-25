@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "Marty",
+    "nombre_real": "Martin Dimitrov",
+    "edad": 18,
+    "equipo": "Veni Vidi Vici (Spanish Team)",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MartyBG2"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VVV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "humble Marty#EUW",
+      "nivel": 748,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 956,
+      "victorias": 203,
+      "derrotas": 166,
+      "ultima_partida": 1753389576960
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.7058823529411766
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9285714285714284
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "timePlayed": 20647
+  }
+}

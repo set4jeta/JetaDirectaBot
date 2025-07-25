@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Yike",
+    "nombre_real": "Martin Sundelin",
+    "edad": 24,
+    "equipo": "Karmine Corp",
+    "pais": "Sweden",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/YikeLoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/yike.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KC Yiken#1111",
+      "nivel": 868,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1294,
+      "victorias": 426,
+      "derrotas": 375,
+      "ultima_partida": 1753390142462
+    },
+    {
+      "nombre": "YIK#YIK",
+      "nivel": 33,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 19,
+      "derrotas": 4,
+      "ultima_partida": 1741792619121
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 6.56
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.193548387096774
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8837209302325582
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5357142857142856
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6129032258064515
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 76,
+    "wins": 39,
+    "losses": 37,
+    "timePlayed": 121353
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Ice",
+    "nombre_real": "Yoon Sang-hoon",
+    "edad": 24,
+    "equipo": "Team BDS",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/@Ice0713_",
+      "twitch": "https://twitch.tv/iceo713"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ice.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "happy game#qwer",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 723,
+      "victorias": 583,
+      "derrotas": 520,
+      "ultima_partida": 1753390008163
+    },
+    {
+      "nombre": "happy game#12321",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 32,
+      "derrotas": 19,
+      "ultima_partida": 1739704677562
+    },
+    {
+      "nombre": "happy game#713",
+      "nivel": 115,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.1702127659574466
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.9056603773584906
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3125
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.1851851851851851
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9666666666666666
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.739130434782609
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 68,
+    "wins": 34,
+    "losses": 34,
+    "timePlayed": 111745
+  }
+}

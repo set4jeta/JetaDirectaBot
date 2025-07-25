@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Shunrim",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/shunrim"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/shunrim.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Shunrim#hook",
+      "nivel": 1143,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 818,
+      "victorias": 553,
+      "derrotas": 508,
+      "ultima_partida": 1753361550282
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Thresh",
+      "partidas": 53,
+      "victorias": 30,
+      "winrate": "56.6%",
+      "kda_promedio": 3.197841726618705
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.8048780487804876
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6190476190476191
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 7.375
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 80,
+    "wins": 41,
+    "losses": 39,
+    "timePlayed": 133091
+  }
+}

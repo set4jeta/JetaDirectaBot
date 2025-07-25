@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Tibor",
+    "nombre_real": "Tibor Trošelj",
+    "edad": 24,
+    "equipo": "Tan'i eSports CZ",
+    "pais": "Croatia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tibort5",
+      "twitch": "https://twitch.tv/namesix1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TNI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "tibor#zzz",
+      "nivel": 728,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 782,
+      "victorias": 288,
+      "derrotas": 266,
+      "ultima_partida": 1753392238858
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Hwei",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.0689655172413794
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0714285714285714
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 30
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 8,
+    "losses": 15,
+    "timePlayed": 37385
+  }
+}

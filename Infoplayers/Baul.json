@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "Baul",
+    "nombre_real": "Lucas Westermark",
+    "edad": 25,
+    "equipo": "Myth Esports",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/INTBaul"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MYTH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "INT Baul#EUW",
+      "nivel": 860,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1027,
+      "victorias": 216,
+      "derrotas": 172,
+      "ultima_partida": 1753371242785
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.416666666666667
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 28
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 6,
+    "losses": 5,
+    "timePlayed": 16989
+  }
+}

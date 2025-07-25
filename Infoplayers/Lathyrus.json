@@ -1,0 +1,74 @@
+{
+  "info_jugador": {
+    "nombre": "Lathyrus",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LathyrusTv",
+      "twitch": "https://twitch.tv/lathyrustv"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lathyrus.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Lathyrus#EUW",
+      "nivel": 663,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 821,
+      "victorias": 404,
+      "derrotas": 360,
+      "ultima_partida": 1753375391220
+    },
+    {
+      "nombre": "TwTv Lathyrus#Brad",
+      "nivel": 146,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 207,
+      "derrotas": 188,
+      "ultima_partida": 1747068771578
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 51,
+      "victorias": 26,
+      "winrate": "51.0%",
+      "kda_promedio": 2.767857142857143
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8148148148148149
+    },
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 30,
+    "losses": 33,
+    "timePlayed": 99819
+  }
+}

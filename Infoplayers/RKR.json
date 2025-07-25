@@ -1,0 +1,67 @@
+{
+  "info_jugador": {
+    "nombre": "RKR",
+    "nombre_real": "Steven Chen",
+    "edad": 24,
+    "equipo": "SK Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ReekerKaizen\\t",
+      "twitch": "\\thttps://twitch.tv/ReekerKaizen"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/rkr.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "rkr#EUW",
+      "nivel": 332,
+      "region": "EUW1",
+      "liga": "DIAMOND IV",
+      "lp": 25,
+      "victorias": 25,
+      "derrotas": 6,
+      "ultima_partida": 1752581795419
+    },
+    {
+      "nombre": "Purple#3UVV",
+      "nivel": 1012,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 553,
+      "derrotas": 488,
+      "ultima_partida": 1752094773866
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 3,
+    "wins": 2,
+    "losses": 1,
+    "timePlayed": 4849
+  }
+}

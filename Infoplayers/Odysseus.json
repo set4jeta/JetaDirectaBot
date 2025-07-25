@@ -1,0 +1,94 @@
+{
+  "info_jugador": {
+    "nombre": "Odysseus",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Odysseus_131",
+      "twitch": "https://twitch.tv/odysseus131"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/odysseus.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Odysseus#131",
+      "nivel": 1357,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1612,
+      "victorias": 344,
+      "derrotas": 270,
+      "ultima_partida": 1753400658487
+    },
+    {
+      "nombre": "Imma touch you#131",
+      "nivel": 332,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 147,
+      "derrotas": 134,
+      "ultima_partida": 1751930473986
+    },
+    {
+      "nombre": "LAMINE YAMAL#131",
+      "nivel": 77,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 87,
+      "derrotas": 66,
+      "ultima_partida": 1751670609672
+    },
+    {
+      "nombre": "Rias Megami#EUW",
+      "nivel": 85,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 144,
+      "derrotas": 112,
+      "ultima_partida": 1747092072209
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5625
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 5,
+    "losses": 4,
+    "timePlayed": 16311
+  }
+}

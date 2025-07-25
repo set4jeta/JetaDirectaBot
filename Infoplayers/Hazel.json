@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Hazel",
+    "nombre_real": "Costin Pestrițu",
+    "edad": 17,
+    "equipo": "Karmine Corp Blue Stars",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/hazel1euw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hazel.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KC NOISETTE#HZL",
+      "nivel": 756,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1252,
+      "victorias": 309,
+      "derrotas": 251,
+      "ultima_partida": 1753385845716
+    },
+    {
+      "nombre": "one last dance#114",
+      "nivel": 75,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 6,
+      "victorias": 129,
+      "derrotas": 95,
+      "ultima_partida": 1753181575631
+    },
+    {
+      "nombre": "114#1405",
+      "nivel": 139,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 747,
+      "victorias": 176,
+      "derrotas": 123,
+      "ultima_partida": 1752934085711
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 3.155844155844156
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3.7857142857142856
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.84375
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.636363636363637
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9285714285714286
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 71,
+    "wins": 37,
+    "losses": 34,
+    "timePlayed": 114750
+  }
+}

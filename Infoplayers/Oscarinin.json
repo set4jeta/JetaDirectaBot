@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Oscarinin",
+    "nombre_real": "Óscar Muñoz Jiménez",
+    "edad": 22,
+    "equipo": "Fnatic",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/OscarininXD",
+      "twitch": "https://twitch.tv/Oscarinin"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/oscarinin.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "chopper lover#EUW",
+      "nivel": 264,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 888,
+      "victorias": 236,
+      "derrotas": 194,
+      "ultima_partida": 1753389572067
+    },
+    {
+      "nombre": "Byron Love#1v9",
+      "nivel": 1142,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 242,
+      "victorias": 293,
+      "derrotas": 259,
+      "ultima_partida": 1752439268582
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 20,
+      "victorias": 13,
+      "winrate": "65.0%",
+      "kda_promedio": 2.4903846153846154
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 1.8021978021978022
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 14,
+      "victorias": 4,
+      "winrate": "28.6%",
+      "kda_promedio": 1.6129032258064515
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2888888888888888
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.259259259259259
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.411764705882353
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.210526315789474
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.769230769230769
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 105,
+    "wins": 57,
+    "losses": 48,
+    "timePlayed": 172859
+  }
+}

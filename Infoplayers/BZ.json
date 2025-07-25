@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "BZ",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/BZ_EUW",
+      "twitch": "https://twitch.tv/bz_euw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/bz.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TwTv BZ EUW#INSHL",
+      "nivel": 282,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1061,
+      "victorias": 275,
+      "derrotas": 224,
+      "ultima_partida": 1753398331477
+    },
+    {
+      "nombre": "B Z#ZED",
+      "nivel": 1361,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1753156617753
+    },
+    {
+      "nombre": "curse#nazr",
+      "nivel": 340,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 22,
+      "victorias": 279,
+      "derrotas": 225,
+      "ultima_partida": 1751412219962
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 26,
+      "victorias": 12,
+      "winrate": "46.2%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.9210526315789473
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 36,
+    "wins": 15,
+    "losses": 21,
+    "timePlayed": 55391
+  }
+}

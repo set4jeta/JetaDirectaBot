@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Upset",
+    "nombre_real": "Elias Lipp",
+    "edad": 25,
+    "equipo": "Fnatic",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LoL_Upset",
+      "twitch": "https://twitch.tv/upsetger"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/upset.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "asdfasdf#0308",
+      "nivel": 81,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1249,
+      "victorias": 298,
+      "derrotas": 218,
+      "ultima_partida": 1753351838451
+    },
+    {
+      "nombre": "FNC Upset#0308",
+      "nivel": 76,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 259,
+      "derrotas": 216,
+      "ultima_partida": 1744751738773
+    },
+    {
+      "nombre": "FNC Upset22#EUW",
+      "nivel": 429,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 5,
+      "derrotas": 1,
+      "ultima_partida": 1737579104590
+    },
+    {
+      "nombre": "Upset#asdff",
+      "nivel": 171,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 18,
+      "victorias": 9,
+      "winrate": "50.0%",
+      "kda_promedio": 2.515151515151515
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.413793103448276
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.5348837209302326
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.689655172413793
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.785714285714286
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.55
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.125
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.0833333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 71,
+    "wins": 34,
+    "losses": 37,
+    "timePlayed": 116307
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "info_jugador": {
+    "nombre": "Sinerias",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sinerio1",
+      "twitch": "https://twitch.tv/sinerias"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sinerias.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Sinerias#EUW",
+      "nivel": 452,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1438,
+      "victorias": 430,
+      "derrotas": 360,
+      "ultima_partida": 1753388608027
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MasterYi",
+      "partidas": 54,
+      "victorias": 27,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0838150289017343
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 34,
+      "victorias": 16,
+      "winrate": "47.1%",
+      "kda_promedio": 2.564245810055866
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 98,
+    "wins": 47,
+    "losses": 51,
+    "timePlayed": 159728
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "info_jugador": {
+    "nombre": "DesperateNasus",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/DesperateNasus",
+      "twitch": "https://twitch.tv/DesperateNasus"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/desperatenasus.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "DesperateNasus#TWTV",
+      "nivel": 201,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 877,
+      "victorias": 278,
+      "derrotas": 238,
+      "ultima_partida": 1753376807142
+    },
+    {
+      "nombre": "Desperate Nasus#EUW",
+      "nivel": 258,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1331,
+      "victorias": 280,
+      "derrotas": 222,
+      "ultima_partida": 1753298251305
+    },
+    {
+      "nombre": "DesperateNasus#R 1",
+      "nivel": 488,
+      "region": "EUN1",
+      "liga": "CHALLENGER I",
+      "lp": 2066,
+      "victorias": 178,
+      "derrotas": 80,
+      "ultima_partida": 1753293116295
+    },
+    {
+      "nombre": "絶望的なナサス#DESPE",
+      "nivel": 62,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 107,
+      "derrotas": 68,
+      "ultima_partida": 1743610221934
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kayle",
+      "partidas": 71,
+      "victorias": 41,
+      "winrate": "57.7%",
+      "kda_promedio": 3.2236286919831225
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 2.5121951219512195
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 82,
+    "wins": 44,
+    "losses": 38,
+    "timePlayed": 135268
+  }
+}

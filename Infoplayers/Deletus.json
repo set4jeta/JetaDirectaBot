@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Deletus",
+    "nombre_real": "Christoph Steib",
+    "edad": 23,
+    "equipo": "Austrian Force willhaben",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/JgDeletus",
+      "twitch": "https://www.twitch.tv/JGDeletus"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Deletus#000",
+      "nivel": 695,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 54,
+      "victorias": 68,
+      "derrotas": 56,
+      "ultima_partida": 1753307848932
+    },
+    {
+      "nombre": "AFW Deletus#AFW",
+      "nivel": 249,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 812,
+      "victorias": 200,
+      "derrotas": 140,
+      "ultima_partida": 1753301382430
+    },
+    {
+      "nombre": "Nano Jgl Acc#EUW",
+      "nivel": 192,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 30,
+      "derrotas": 14,
+      "ultima_partida": 1748265525192
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rengar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 7,
+    "losses": 9,
+    "timePlayed": 23524
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "NightSlayer",
+    "nombre_real": "Ivan Bilous",
+    "edad": 17,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Ukraine",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Slayerloll9",
+      "twitch": "https://twitch.tv/slayer_lol_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Night Slayer#SLAAY",
+      "nivel": 672,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1162,
+      "victorias": 617,
+      "derrotas": 559,
+      "ultima_partida": 1753368145110
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 1.4133333333333333
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.0142857142857142
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 1.536231884057971
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5689655172413792
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 1.2542372881355932
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.259259259259259
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.4642857142857142
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 0.46875
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 91,
+    "wins": 45,
+    "losses": 46,
+    "timePlayed": 145005
+  }
+}

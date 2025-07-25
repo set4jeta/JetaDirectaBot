@@ -1,0 +1,118 @@
+{
+  "info_jugador": {
+    "nombre": "Opat04",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/opat04xd"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/opat04.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jirka Král#King",
+      "nivel": 138,
+      "region": "EUN1",
+      "liga": "MASTER I",
+      "lp": 227,
+      "victorias": 152,
+      "derrotas": 84,
+      "ultima_partida": 1753288930116
+    },
+    {
+      "nombre": "Patrick Jane#Tea",
+      "nivel": 462,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 798,
+      "victorias": 182,
+      "derrotas": 151,
+      "ultima_partida": 1753221264543
+    },
+    {
+      "nombre": "SKEJTAK KRABS04#DOG",
+      "nivel": 104,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 162,
+      "derrotas": 107,
+      "ultima_partida": 1750793485239
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vladimir",
+      "partidas": 50,
+      "victorias": 29,
+      "winrate": "58.0%",
+      "kda_promedio": 2.8884462151394423
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1764705882352942
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4545454545454546
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 64,
+    "wins": 37,
+    "losses": 27,
+    "timePlayed": 106232
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Crownie",
+    "nombre_real": "Juš Marušič",
+    "edad": 27,
+    "equipo": "Los Ratones",
+    "pais": "Slovenia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/CrownshotLoL",
+      "twitch": "https://twitch.tv/crownsh0t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/crownie.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "getogetogeto#EUW",
+      "nivel": 896,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 684,
+      "victorias": 247,
+      "derrotas": 209,
+      "ultima_partida": 1753367113880
+    },
+    {
+      "nombre": "Yveltal#ADC",
+      "nivel": 115,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 630,
+      "victorias": 357,
+      "derrotas": 311,
+      "ultima_partida": 1753357106262
+    },
+    {
+      "nombre": "LR Crownie#LRAT",
+      "nivel": 571,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 79,
+      "victorias": 123,
+      "derrotas": 130,
+      "ultima_partida": 1753293486901
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 31,
+      "victorias": 12,
+      "winrate": "38.7%",
+      "kda_promedio": 2.434285714285714
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 26,
+      "victorias": 17,
+      "winrate": "65.4%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 20,
+      "victorias": 14,
+      "winrate": "70.0%",
+      "kda_promedio": 3.169811320754717
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 1.5614035087719298
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.711864406779661
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7027027027027026
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.891891891891892
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.033333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 148,
+    "wins": 78,
+    "losses": 70,
+    "timePlayed": 236837
+  }
+}

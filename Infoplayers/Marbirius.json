@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Marbirius",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Marbirius",
+      "twitch": "https://www.twitch.tv/marbirius\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UNIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "midmid1#EUW3",
+      "nivel": 109,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 948,
+      "victorias": 157,
+      "derrotas": 108,
+      "ultima_partida": 1753397600500
+    },
+    {
+      "nombre": "Godskin Apostle#EUW",
+      "nivel": 270,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1137,
+      "victorias": 247,
+      "derrotas": 198,
+      "ultima_partida": 1753385559772
+    },
+    {
+      "nombre": "마지막 불씨#EUW2",
+      "nivel": 179,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1056,
+      "victorias": 200,
+      "derrotas": 161,
+      "ultima_partida": 1753047748646
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 3.0144927536231885
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 4.071428571428571
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.28125
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.411764705882353
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 32,
+    "losses": 20,
+    "timePlayed": 85436
+  }
+}

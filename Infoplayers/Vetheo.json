@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Vetheo",
+    "nombre_real": "Vincent Berrié",
+    "edad": 22,
+    "equipo": "Vitality.Bee",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Vetheo_lol",
+      "twitch": "https://twitch.tv/vetheo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/vetheo.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Percy Magic#1234",
+      "nivel": 893,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 881,
+      "victorias": 206,
+      "derrotas": 167,
+      "ultima_partida": 1753395831723
+    },
+    {
+      "nombre": "Vetheø#4321",
+      "nivel": 519,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 451,
+      "derrotas": 386,
+      "ultima_partida": 1748004704273
+    },
+    {
+      "nombre": "Oriøn#soloq",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    },
+    {
+      "nombre": "Atlas#KRKR",
+      "nivel": 45,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 24,
+      "victorias": 15,
+      "winrate": "62.5%",
+      "kda_promedio": 3.55
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 19,
+      "victorias": 9,
+      "winrate": "47.4%",
+      "kda_promedio": 2.6184210526315788
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 3.033333333333333
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.133333333333334
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.736842105263158
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.310344827586207
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.357142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 127,
+    "wins": 63,
+    "losses": 64,
+    "timePlayed": 201359
+  }
+}

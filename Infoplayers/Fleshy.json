@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Fleshy",
+    "nombre_real": "Kadir Kemiksiz",
+    "edad": 24,
+    "equipo": "Team Vitality",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/fleshyylol",
+      "twitch": "https://twitch.tv/fleshylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/fleshy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Fleshy#EU1",
+      "nivel": 781,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1323,
+      "victorias": 406,
+      "derrotas": 353,
+      "ultima_partida": 1753392563849
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 4.066666666666666
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 8.846153846153847
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.8846153846153846
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.117647058823529
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5789473684210527
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.9285714285714284
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.153846153846154
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1538461538461537
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 31,
+    "losses": 24,
+    "timePlayed": 90935
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "info_jugador": {
+    "nombre": "Seal",
+    "nombre_real": "Fabian de Lint",
+    "edad": 24,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/DealerSeal"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Autumn Leaf#Seal",
+      "nivel": 765,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1408,
+      "victorias": 202,
+      "derrotas": 148,
+      "ultima_partida": 1753220171894
+    },
+    {
+      "nombre": "Spellbook Reader#book",
+      "nivel": 161,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1024,
+      "victorias": 135,
+      "derrotas": 95,
+      "ultima_partida": 1752572613294
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.88
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.217391304347826
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 11,
+    "losses": 4,
+    "timePlayed": 23959
+  }
+}

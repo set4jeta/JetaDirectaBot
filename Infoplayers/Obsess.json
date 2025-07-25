@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Obsess",
+    "nombre_real": "Patrick Engelmann",
+    "edad": 27,
+    "equipo": "Fnatic",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Obsess__",
+      "twitch": "https://twitch.tv/obsess3"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Obsess#2308",
+      "nivel": 1888,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 778,
+      "victorias": 560,
+      "derrotas": 530,
+      "ultima_partida": 1753364312172
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Belveth",
+      "partidas": 16,
+      "victorias": 7,
+      "winrate": "43.8%",
+      "kda_promedio": 2.8484848484848486
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.106382978723404
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.5428571428571427
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.411764705882353
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3461538461538463
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 32,
+    "losses": 28,
+    "timePlayed": 89609
+  }
+}

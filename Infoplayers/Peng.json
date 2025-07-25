@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Peng",
+    "nombre_real": "Pengcheng Shen",
+    "edad": 21,
+    "equipo": "The Ruddy Sack",
+    "pais": "China",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MidPeng",
+      "twitch": "https://twitch.tv/peng04"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/peng.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "twtv Peng04#Aespa",
+      "nivel": 392,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1255,
+      "victorias": 493,
+      "derrotas": 439,
+      "ultima_partida": 1753369886934
+    },
+    {
+      "nombre": "twtv Peng04#NMIXX",
+      "nivel": 1110,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1465,
+      "victorias": 325,
+      "derrotas": 265,
+      "ultima_partida": 1753285750172
+    },
+    {
+      "nombre": "TWTV Peng04#Yuqi",
+      "nivel": 377,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 536,
+      "victorias": 61,
+      "derrotas": 39,
+      "ultima_partida": 1753177126621
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 72,
+      "victorias": 37,
+      "winrate": "51.4%",
+      "kda_promedio": 3.9833333333333334
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 31,
+      "victorias": 15,
+      "winrate": "48.4%",
+      "kda_promedio": 3.411214953271028
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 2.9705882352941178
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.935483870967742
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5625
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 148,
+    "wins": 74,
+    "losses": 74,
+    "timePlayed": 244803
+  }
+}

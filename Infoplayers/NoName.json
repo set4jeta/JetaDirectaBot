@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "NoName",
+    "nombre_real": "William Jones",
+    "edad": 21,
+    "equipo": "Ramboot Club",
+    "pais": "United Kingdom",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/nonameEUW",
+      "twitch": "https://twitch.tv/n0nameEUW"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/noname.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RBT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Dinosaur#RAWRz",
+      "nivel": 1296,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1074,
+      "victorias": 275,
+      "derrotas": 237,
+      "ultima_partida": 1753375871778
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.95
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.1379310344827585
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.2
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 11.5
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 22,
+    "losses": 18,
+    "timePlayed": 66238
+  }
+}

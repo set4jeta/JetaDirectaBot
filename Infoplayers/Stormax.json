@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Stormax",
+    "nombre_real": "Valentin Garnier",
+    "edad": 24,
+    "equipo": "GameWard",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Stormax28\\t",
+      "twitch": "https://www.twitch.tv/stormax28"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Stormaxx#EUW",
+      "nivel": 652,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1180,
+      "victorias": 169,
+      "derrotas": 115,
+      "ultima_partida": 1753394705562
+    },
+    {
+      "nombre": "Foutriquet#FOU",
+      "nivel": 346,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1574,
+      "victorias": 186,
+      "derrotas": 127,
+      "ultima_partida": 1753358297468
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 4.354838709677419
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 6.476190476190476
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 8.076923076923077
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.052631578947368
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2962962962962963
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 32,
+    "losses": 16,
+    "timePlayed": 72904
+  }
+}

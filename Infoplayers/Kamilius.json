@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Kamilius",
+    "nombre_real": "Kamil Košťál",
+    "edad": 25,
+    "equipo": "CITA Kaizen",
+    "pais": "Slovakia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/kamilius1_\\t",
+      "twitch": "https://twitch.tv/kamilius1\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kamilius.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "bamboocleaner#kamil",
+      "nivel": 1073,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1213,
+      "victorias": 417,
+      "derrotas": 371,
+      "ultima_partida": 1753364354785
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 4.530612244897959
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 4.282608695652174
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5652173913043477
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 21
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 30,
+    "losses": 24,
+    "timePlayed": 84937
+  }
+}

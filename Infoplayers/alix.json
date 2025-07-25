@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "alix",
+    "nombre_real": "Alihan Özdemir",
+    "edad": 18,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/alixlol0",
+      "twitch": "https://www.twitch.tv/alixloll"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Vincent Masuka#11111",
+      "nivel": 260,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 35,
+      "victorias": 245,
+      "derrotas": 212,
+      "ultima_partida": 1753370844166
+    },
+    {
+      "nombre": "alix de souza#1111",
+      "nivel": 785,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1345,
+      "victorias": 521,
+      "derrotas": 456,
+      "ultima_partida": 1753355738049
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 22,
+      "victorias": 15,
+      "winrate": "68.2%",
+      "kda_promedio": 3.282051282051282
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.032258064516129
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.6136363636363638
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.4390243902439024
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.757575757575758
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6486486486486487
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.357142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 100,
+    "wins": 56,
+    "losses": 44,
+    "timePlayed": 157634
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Évangelyne",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Evangelyne_lol",
+      "twitch": "https://www.twitch.tv/evangeiyne"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZNT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Évangelyne#ADC",
+      "nivel": 100,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 636,
+      "victorias": 120,
+      "derrotas": 75,
+      "ultima_partida": 1753392967125
+    },
+    {
+      "nombre": "Évangelyne#BELGE",
+      "nivel": 879,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1056,
+      "victorias": 228,
+      "derrotas": 187,
+      "ultima_partida": 1753385563228
+    },
+    {
+      "nombre": "Évangelyne#ULB",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 770,
+      "victorias": 129,
+      "derrotas": 89,
+      "ultima_partida": 1753310244325
+    },
+    {
+      "nombre": "Évangelyne#ZNT",
+      "nivel": 77,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 766,
+      "victorias": 138,
+      "derrotas": 99,
+      "ultima_partida": 1753061457348
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 68,
+      "victorias": 45,
+      "winrate": "66.2%",
+      "kda_promedio": 3.6925795053003534
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 21,
+      "victorias": 13,
+      "winrate": "61.9%",
+      "kda_promedio": 3.8666666666666667
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 3.493150684931507
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.7636363636363637
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.833333333333333
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 6.384615384615385
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.5517241379310345
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 166,
+    "wins": 101,
+    "losses": 65,
+    "timePlayed": 273947
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Carry",
+    "nombre_real": "Mustafa Selim Yılmaz",
+    "edad": 25,
+    "equipo": "Papara SuperMassive",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/carrylol9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/carry.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SUP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SUP Carry#999",
+      "nivel": 194,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1250,
+      "victorias": 445,
+      "derrotas": 394,
+      "ultima_partida": 1753385883157
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.5609756097560976
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.458333333333333
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.133333333333334
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3529411764705883
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.125
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 28,
+    "losses": 22,
+    "timePlayed": 80348
+  }
+}

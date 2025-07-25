@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Execute",
+    "nombre_real": "Lee Jeong-hoon",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Execute_LOL_JHL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/execute.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "엑스큐트#LOL",
+      "nivel": 210,
+      "region": "KR",
+      "liga": "MASTER I",
+      "lp": 594,
+      "victorias": 43,
+      "derrotas": 16,
+      "ultima_partida": 1753278656554
+    },
+    {
+      "nombre": "OKR1PXBCLP#EUW",
+      "nivel": 94,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 235,
+      "derrotas": 189,
+      "ultima_partida": 1746524473568
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1052631578947367
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.738095238095238
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.8857142857142857
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.84
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 22
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 27,
+    "losses": 12,
+    "timePlayed": 62843
+  }
+}

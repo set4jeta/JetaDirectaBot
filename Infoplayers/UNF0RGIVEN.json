@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "UNF0RGIVEN",
+    "nombre_real": "William Nieminen",
+    "edad": 24,
+    "equipo": "Geekay Esports",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/UnforgivenLoL",
+      "twitch": "https://twitch.tv/UnforgivenL0L"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/unf0rgiven.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "unforgiven#12321",
+      "nivel": 1388,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 963,
+      "victorias": 206,
+      "derrotas": 175,
+      "ultima_partida": 1753320410205
+    },
+    {
+      "nombre": "2 K#0000",
+      "nivel": 183,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 122,
+      "derrotas": 86,
+      "ultima_partida": 1750531890992
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.8333333333333335
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0714285714285714
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7857142857142857
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 24,
+    "wins": 7,
+    "losses": 17,
+    "timePlayed": 39102
+  }
+}

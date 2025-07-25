@@ -1,0 +1,77 @@
+{
+  "info_jugador": {
+    "nombre": "Jalleba",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/JallebaEuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Katerina Petrova#XD1",
+      "nivel": 844,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 802,
+      "victorias": 332,
+      "derrotas": 291,
+      "ultima_partida": 1752760955658
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5789473684210527
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 4,
+    "losses": 5,
+    "timePlayed": 16895
+  }
+}

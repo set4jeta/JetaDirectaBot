@@ -1,0 +1,64 @@
+{
+  "info_jugador": {
+    "nombre": "Biotic",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LolBiotic",
+      "twitch": "https://twitch.tv/bioticzilean"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/biotic.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Biotic#123",
+      "nivel": 556,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1015,
+      "victorias": 351,
+      "derrotas": 316,
+      "ultima_partida": 1753318707440
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zilean",
+      "partidas": 60,
+      "victorias": 27,
+      "winrate": "45.0%",
+      "kda_promedio": 3.303886925795053
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3684210526315788
+    },
+    {
+      "nombre": "Sona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 29,
+    "losses": 36,
+    "timePlayed": 109818
+  }
+}

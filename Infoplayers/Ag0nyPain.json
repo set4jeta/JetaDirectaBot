@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Ag0nyPain",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Ag0nyP",
+      "twitch": "https://twitch.tv/ag0nypain"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "ItsOKtoBeNotOK#eProd",
+      "nivel": 864,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 936,
+      "victorias": 404,
+      "derrotas": 367,
+      "ultima_partida": 1753275321293
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vex",
+      "partidas": 43,
+      "victorias": 25,
+      "winrate": "58.1%",
+      "kda_promedio": 2.5863636363636364
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 36,
+      "victorias": 19,
+      "winrate": "52.8%",
+      "kda_promedio": 2.607361963190184
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 30,
+      "victorias": 16,
+      "winrate": "53.3%",
+      "kda_promedio": 2.6493506493506493
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 24,
+      "victorias": 11,
+      "winrate": "45.8%",
+      "kda_promedio": 2.8425925925925926
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.166666666666667
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 147,
+    "wins": 78,
+    "losses": 69,
+    "timePlayed": 239892
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Shy Carry",
+    "nombre_real": "Đorđe Stišović",
+    "edad": 21,
+    "equipo": "LUA Gaming",
+    "pais": "Serbia",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ShyCarrylol",
+      "twitch": "https://www.twitch.tv/shycarrylol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/shycarry.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LUA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "focus yourself#2025",
+      "nivel": 361,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1153,
+      "victorias": 233,
+      "derrotas": 187,
+      "ultima_partida": 1753359344037
+    },
+    {
+      "nombre": "LUA Shy Carry#2025",
+      "nivel": 478,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 869,
+      "victorias": 313,
+      "derrotas": 283,
+      "ultima_partida": 1753044081421
+    },
+    {
+      "nombre": "자신을 믿으세요#2104",
+      "nivel": 191,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 18,
+      "derrotas": 8,
+      "ultima_partida": 1748457148430
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.3833333333333333
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.275862068965517
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.074074074074074
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.526315789473684
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.4333333333333333
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7272727272727273
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 27,
+    "losses": 26,
+    "timePlayed": 85648
+  }
+}

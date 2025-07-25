@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Comp",
+    "nombre_real": "Markos Stamkopoulos",
+    "edad": 23,
+    "equipo": "Gentle Mates",
+    "pais": "Greece",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/CompGRE",
+      "twitch": "https://twitch.tv/comp_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/comp.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Yami Sukehiro#3309",
+      "nivel": 105,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1322,
+      "victorias": 439,
+      "derrotas": 330,
+      "ultima_partida": 1753397134192
+    },
+    {
+      "nombre": "Kite Machine#2015",
+      "nivel": 894,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 129,
+      "victorias": 111,
+      "derrotas": 101,
+      "ultima_partida": 1752017548997
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 4.670731707317073
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.578947368421052
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.9545454545454546
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.866666666666666
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.736842105263158
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 55,
+    "losses": 52,
+    "timePlayed": 167098
+  }
+}

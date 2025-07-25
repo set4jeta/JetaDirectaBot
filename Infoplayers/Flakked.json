@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Flakked",
+    "nombre_real": "Víctor Lirola Tortosa",
+    "edad": 24,
+    "equipo": "Team Heretics",
+    "pais": "Spain",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Flakked_LoL",
+      "twitch": "https://twitch.tv/getFlakked"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/flakked.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "David Lirola#goatツ",
+      "nivel": 1315,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1446,
+      "victorias": 577,
+      "derrotas": 527,
+      "ultima_partida": 1753387127544
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.571428571428571
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 7,
+    "losses": 7,
+    "timePlayed": 23711
+  }
+}

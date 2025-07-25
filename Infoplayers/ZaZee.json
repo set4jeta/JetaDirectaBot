@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "ZaZee",
+    "nombre_real": "Dirk Mallner",
+    "edad": 26,
+    "equipo": "Eintracht Frankfurt",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ZazeeLoL",
+      "twitch": "https://www.twitch.tv/zazeexd"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SGE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "eeZaZ#333",
+      "nivel": 620,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1000,
+      "victorias": 466,
+      "derrotas": 427,
+      "ultima_partida": 1753389491932
+    },
+    {
+      "nombre": "SGE ZaZee#SGEJP",
+      "nivel": 478,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 127,
+      "derrotas": 100,
+      "ultima_partida": 1751967698219
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Annie",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.404255319148936
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.8620689655172415
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.423076923076923
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4761904761904763
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0588235294117645
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6071428571428572
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.090909090909091
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 43,
+    "losses": 36,
+    "timePlayed": 126570
+  }
+}

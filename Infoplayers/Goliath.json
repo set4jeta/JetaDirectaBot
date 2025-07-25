@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Goliath",
+    "nombre_real": "Emir&nbsp;Efe Dalkıran",
+    "edad": 24,
+    "equipo": "Dark Passage",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Goliathcc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RBT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Goliath#2002",
+      "nivel": 438,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1100,
+      "victorias": 463,
+      "derrotas": 376,
+      "ultima_partida": 1753390741817
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Camille",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.2808988764044944
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 2.189873417721519
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2093023255813953
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.15625
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9545454545454546
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.7272727272727275
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.7777777777777777
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 70,
+    "wins": 37,
+    "losses": 33,
+    "timePlayed": 115089
+  }
+}

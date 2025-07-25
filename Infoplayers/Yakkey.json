@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Yakkey",
+    "nombre_real": "Darius Eduard Bistrian",
+    "edad": 20,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/YakkeyLoL",
+      "twitch": "https://www.twitch.tv/yakkeylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "red sky#14J",
+      "nivel": 553,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1135,
+      "victorias": 388,
+      "derrotas": 346,
+      "ultima_partida": 1753397134192
+    },
+    {
+      "nombre": "Peyz#1401",
+      "nivel": 109,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 86,
+      "derrotas": 70,
+      "ultima_partida": 1751890563171
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.103896103896104
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4761904761904763
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 1.8653846153846154
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5666666666666667
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.76
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 80,
+    "wins": 38,
+    "losses": 42,
+    "timePlayed": 129958
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Rocklho",
+    "nombre_real": "Felix Bao Duy Ho",
+    "edad": 26,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Vietnam",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Rocklho",
+      "twitch": "https://twitch.tv/rocklho"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EWI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Rocklho#Stein",
+      "nivel": 484,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 997,
+      "victorias": 213,
+      "derrotas": 176,
+      "ultima_partida": 1753131649774
+    },
+    {
+      "nombre": "TwTv Rocklho#EUW",
+      "nivel": 227,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 55,
+      "derrotas": 39,
+      "ultima_partida": 1745965418833
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5789473684210527
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Urgot",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 6,
+    "losses": 8,
+    "timePlayed": 23427
+  }
+}

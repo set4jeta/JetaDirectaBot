@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sn1lle",
+    "nombre_real": "William Andersson",
+    "edad": 21,
+    "equipo": "LUA Gaming",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sn1lle2",
+      "twitch": "https://www.twitch.tv/sn1ll3"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sn1lle.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LUA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Angelo Stiller#Nmbr6",
+      "nivel": 1194,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 846,
+      "victorias": 391,
+      "derrotas": 361,
+      "ultima_partida": 1753363166341
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 16,
+      "victorias": 14,
+      "winrate": "87.5%",
+      "kda_promedio": 3.769230769230769
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0769230769230769
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 32,
+    "losses": 20,
+    "timePlayed": 81352
+  }
+}

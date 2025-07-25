@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Baashh",
+    "nombre_real": "Oliver Klitfelt",
+    "edad": 19,
+    "equipo": "Karmine Corp Blue Stars",
+    "pais": "Denmark",
+    "contrato_hasta": "2025-09-21T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/BAASHHW",
+      "twitch": "https://twitch.tv/baashh2"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "TTV BAASHH#EUW",
+      "nivel": 759,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 904,
+      "victorias": 275,
+      "derrotas": 239,
+      "ultima_partida": 1753389279928
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.9285714285714284
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 6,
+    "losses": 10,
+    "timePlayed": 24785
+  }
+}

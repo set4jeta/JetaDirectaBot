@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "denyk",
+    "nombre_real": "Petr Haramach",
+    "edad": 30,
+    "equipo": "Entropiq",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/DenykLoL",
+      "twitch": "https://www.twitch.tv/denyklol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "denyk#dnk",
+      "nivel": 794,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 723,
+      "victorias": 393,
+      "derrotas": 360,
+      "ultima_partida": 1753392306617
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.369565217391304
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.130434782608696
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.731707317073171
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.8536585365853657
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 5.882352941176471
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 6.153846153846154
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 12.11111111111111
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.909090909090909
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 71,
+    "wins": 35,
+    "losses": 36,
+    "timePlayed": 117780
+  }
+}

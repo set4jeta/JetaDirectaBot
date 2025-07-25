@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kyanna",
+    "nombre_real": "Eva Murn",
+    "edad": 27,
+    "equipo": "SK Gaming Avarosa",
+    "pais": "Slovenia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KyannaLoL",
+      "twitch": "https://twitch.tv/kyannalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SKA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "R5TOPDiE1v1iINT#XDDDD",
+      "nivel": 882,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 764,
+      "victorias": 267,
+      "derrotas": 229,
+      "ultima_partida": 1753384946817
+    },
+    {
+      "nombre": "Kyanna#miki",
+      "nivel": 240,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 278,
+      "victorias": 186,
+      "derrotas": 169,
+      "ultima_partida": 1753285740095
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nami",
+      "partidas": 24,
+      "victorias": 15,
+      "winrate": "62.5%",
+      "kda_promedio": 3.6793893129770994
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.2325581395348837
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.53125
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9047619047619047
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2692307692307692
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7407407407407407
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6363636363636365
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 27,
+    "losses": 34,
+    "timePlayed": 102248
+  }
+}

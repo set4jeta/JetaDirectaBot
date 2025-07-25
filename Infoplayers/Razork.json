@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Razork",
+    "nombre_real": "Iván Martín Díaz",
+    "edad": 24,
+    "equipo": "Fnatic",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RazorkLoL",
+      "twitch": "https://twitch.tv/Razorklol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/razork.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Razørk Activoo#razzz",
+      "nivel": 785,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1377,
+      "victorias": 214,
+      "derrotas": 139,
+      "ultima_partida": 1753387910391
+    },
+    {
+      "nombre": "Mu Yanling#Sky",
+      "nivel": 35,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 357,
+      "victorias": 38,
+      "derrotas": 5,
+      "ultima_partida": 1753385960500
+    },
+    {
+      "nombre": "Cachorro Alpha#razzz",
+      "nivel": 262,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 134,
+      "derrotas": 80,
+      "ultima_partida": 1749069382504
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 4.190476190476191
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.695652173913044
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1333333333333333
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 6.75
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 11.5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 9.285714285714286
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.625
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 15
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 43,
+    "losses": 12,
+    "timePlayed": 81742
+  }
+}

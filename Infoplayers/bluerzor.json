@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "bluerzor",
+    "nombre_real": "Dániel Subicz",
+    "edad": 26,
+    "equipo": "UCAM Esports",
+    "pais": "Hungary",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/bluerzor",
+      "twitch": "https://twitch.tv/bluerzor"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/bluerzor.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "bluerzor#grind",
+      "nivel": 687,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 809,
+      "victorias": 449,
+      "derrotas": 422,
+      "ultima_partida": 1753364529350
+    },
+    {
+      "nombre": "its not me#DTB",
+      "nivel": 373,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 71,
+      "derrotas": 62,
+      "ultima_partida": 1748383891284
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 3.765432098765432
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 12,
+      "victorias": 11,
+      "winrate": "91.7%",
+      "kda_promedio": 4.069767441860465
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.5172413793103448
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.294117647058823
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.45454545454545453
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 32,
+    "losses": 28,
+    "timePlayed": 95451
+  }
+}

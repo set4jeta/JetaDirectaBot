@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Gakgos",
+    "nombre_real": "İbrahim Samet Bulut",
+    "edad": 17,
+    "equipo": "FlyQuest",
+    "pais": "Turkey",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/gakgoslol1\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/gakgos.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FLY.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "FLY Gakgos#F L Y",
+      "nivel": 43,
+      "region": "NA1",
+      "liga": "CHALLENGER I",
+      "lp": 845,
+      "victorias": 89,
+      "derrotas": 36,
+      "ultima_partida": 1753380778038
+    },
+    {
+      "nombre": "Never Ending#Moses",
+      "nivel": 791,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1503,
+      "victorias": 495,
+      "derrotas": 424,
+      "ultima_partida": 1752098932438
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 22,
+      "victorias": 20,
+      "winrate": "90.9%",
+      "kda_promedio": 4.185185185185185
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 2.7560975609756095
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.1904761904761907
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.4054054054054053
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6818181818181817
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.710526315789474
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2105263157894735
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 125,
+    "wins": 89,
+    "losses": 36,
+    "timePlayed": 199392
+  }
+}

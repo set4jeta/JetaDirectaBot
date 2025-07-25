@@ -1,0 +1,156 @@
+{
+  "info_jugador": {
+    "nombre": "Vladi",
+    "nombre_real": "Vladimiros Kourtidis",
+    "edad": 19,
+    "equipo": "Karmine Corp",
+    "pais": "Greece",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Vladi1v9",
+      "twitch": "https://twitch.tv/vladilol_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/vladi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "J1HUIV#000",
+      "nivel": 368,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 105,
+      "victorias": 531,
+      "derrotas": 483,
+      "ultima_partida": 1753394242321
+    },
+    {
+      "nombre": "dmsdklb#vivi",
+      "nivel": 79,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2084,
+      "victorias": 316,
+      "derrotas": 187,
+      "ultima_partida": 1753390142462
+    },
+    {
+      "nombre": "Jjimdak#000",
+      "nivel": 32,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 67,
+      "victorias": 9,
+      "derrotas": 9,
+      "ultima_partida": 1741836253836
+    },
+    {
+      "nombre": "KC Vladi#000",
+      "nivel": 31,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 27,
+      "victorias": 5,
+      "derrotas": 1,
+      "ultima_partida": 1741369387601
+    },
+    {
+      "nombre": "Shrimp Shark#000",
+      "nivel": 60,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    },
+    {
+      "nombre": "Vladi#000",
+      "nivel": null,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 4.725
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.972972972972973
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 6.3125
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.3055555555555554
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.1481481481481484
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9047619047619047
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.757575757575758
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.411764705882353
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 130,
+    "wins": 84,
+    "losses": 46,
+    "timePlayed": 204649
+  }
+}

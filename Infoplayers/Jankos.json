@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Jankos",
+    "nombre_real": "Marcin Jankowski",
+    "edad": 30,
+    "equipo": "Natus Vincere",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/JankosLoL",
+      "twitch": "https://www.twitch.tv/jankos"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/jankos.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NORD.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "CantMissAuto#Qxdd",
+      "nivel": 67,
+      "region": "EUN1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1753382368888
+    },
+    {
+      "nombre": "Jankos#MYBAD",
+      "nivel": 1059,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1054,
+      "victorias": 349,
+      "derrotas": 303,
+      "ultima_partida": 1752920744179
+    },
+    {
+      "nombre": "Brickwall#big",
+      "nivel": 63,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nidalee",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.72
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 8,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.469387755102041
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.806451612903226
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5483870967741935
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.409090909090909
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.6
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 73,
+    "wins": 33,
+    "losses": 40,
+    "timePlayed": 117852
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "info_jugador": {
+    "nombre": "Loopy",
+    "nombre_real": "Kim Dong-hyeon",
+    "edad": 20,
+    "equipo": "SK Gaming",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/gim_Loopy",
+      "twitch": "https://twitch.tv/chikuk06"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/loopy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Loopy#1813",
+      "nivel": 790,
+      "region": "KR",
+      "liga": "MASTER I",
+      "lp": 247,
+      "victorias": 151,
+      "derrotas": 95,
+      "ultima_partida": 1751099306234
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

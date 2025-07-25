@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Carnage",
+    "nombre_real": "Vasilis Syrianos",
+    "edad": 22,
+    "equipo": "Tan'i eSports CZ",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Lol_Carnage",
+      "twitch": "https://www.twitch.tv/lol_carnage"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TNI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Lancelot#4150",
+      "nivel": 267,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 906,
+      "victorias": 283,
+      "derrotas": 248,
+      "ultima_partida": 1753396919265
+    },
+    {
+      "nombre": "Carnagε#EUW",
+      "nivel": 1030,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 938,
+      "victorias": 182,
+      "derrotas": 153,
+      "ultima_partida": 1753394772549
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.5636363636363635
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.769230769230769
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.9411764705882355
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 19,
+    "losses": 18,
+    "timePlayed": 55746
+  }
+}

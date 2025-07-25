@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "monkaS",
+    "nombre_real": "Mehmet Kaan Sönmez",
+    "edad": 23,
+    "equipo": "Bushido Wildcats",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-10-20T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/monkaslol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "éSc0rth#3169",
+      "nivel": 306,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1205,
+      "victorias": 297,
+      "derrotas": 236,
+      "ultima_partida": 1753390142462
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 4.098360655737705
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Nunu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 26,
+    "wins": 16,
+    "losses": 10,
+    "timePlayed": 39039
+  }
+}

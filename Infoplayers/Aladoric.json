@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Aladoric",
+    "nombre_real": "Ryan Gregory Richardson",
+    "edad": 26,
+    "equipo": "Austrian Force willhaben",
+    "pais": "Australia",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/AladoricOCE",
+      "twitch": "https://www.twitch.tv/aladoriccoce"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AFW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Aladoric#mirai",
+      "nivel": 109,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 773,
+      "victorias": 316,
+      "derrotas": 265,
+      "ultima_partida": 1753392638019
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 5.15
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.9655172413793105
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.066666666666667
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.666666666666666
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 18,
+    "losses": 19,
+    "timePlayed": 61151
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Fresskowy",
+    "nombre_real": "Bartłomiej Przewoźnik",
+    "edad": 25,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Poland",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/FresskowyLoL",
+      "twitch": "https://www.twitch.tv/fresskowy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/fresskowy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "c0cky movement#tukan",
+      "nivel": 1129,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 811,
+      "victorias": 518,
+      "derrotas": 495,
+      "ultima_partida": 1753368501510
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.4782608695652173
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.347826086956522
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.4761904761904763
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.9583333333333333
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.761904761904762
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 69,
+    "wins": 28,
+    "losses": 41,
+    "timePlayed": 108657
+  }
+}

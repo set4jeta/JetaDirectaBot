@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Esko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/adcEsko"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TNI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "suguru get0#WIN",
+      "nivel": 167,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 844,
+      "victorias": 254,
+      "derrotas": 220,
+      "ultima_partida": 1753386632842
+    },
+    {
+      "nombre": "StickerD#OOOOO",
+      "nivel": 778,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 78,
+      "victorias": 39,
+      "derrotas": 29,
+      "ultima_partida": 1753139798787
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2432432432432432
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.071428571428571
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6333333333333333
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4761904761904763
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.473684210526316
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.909090909090909
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 21,
+    "losses": 20,
+    "timePlayed": 65296
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Ferret",
+    "nombre_real": "Hakan Mert Çakmak",
+    "edad": 23,
+    "equipo": "GIANTX Academy",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/psychoferrett",
+      "twitch": "https://www.twitch.tv/psychoferrett"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ferret.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Ferret25#8725",
+      "nivel": 468,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 950,
+      "victorias": 458,
+      "derrotas": 419,
+      "ultima_partida": 1753369164018
+    },
+    {
+      "nombre": "METROOOOOOOOO#EUW",
+      "nivel": 684,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 476,
+      "victorias": 158,
+      "derrotas": 134,
+      "ultima_partida": 1753304575413
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 27,
+      "victorias": 15,
+      "winrate": "55.6%",
+      "kda_promedio": 4.2809917355371905
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.205128205128205
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.657142857142857
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1724137931034484
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4782608695652173
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.208333333333333
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.210526315789474
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 88,
+    "wins": 46,
+    "losses": 42,
+    "timePlayed": 143392
+  }
+}

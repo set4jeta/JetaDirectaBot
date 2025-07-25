@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Kamiloo",
+    "nombre_real": "Kamil Haudegond",
+    "edad": 19,
+    "equipo": "Team Heretics",
+    "pais": "France",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kamiloo_LoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kamiloo.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Club Loukizz#ama",
+      "nivel": 875,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 924,
+      "victorias": 403,
+      "derrotas": 347,
+      "ultima_partida": 1753393337801
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.096774193548387
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.0476190476190474
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9444444444444446
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3888888888888888
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8666666666666667
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.3
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.111111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 33,
+    "losses": 25,
+    "timePlayed": 95311
+  }
+}

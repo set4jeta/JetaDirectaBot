@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "FEBIVEN",
+    "nombre_real": "Fabian Diepstraten",
+    "edad": 28,
+    "equipo": "NORD Esports",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/FEBIVEN",
+      "twitch": "https://twitch.tv/febiven"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/febiven.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "FEBIVEN#EUWW",
+      "nivel": 462,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1179,
+      "victorias": 489,
+      "derrotas": 448,
+      "ultima_partida": 1753296112522
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1739130434782608
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.3448275862068964
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0714285714285714
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 29,
+    "losses": 23,
+    "timePlayed": 82901
+  }
+}

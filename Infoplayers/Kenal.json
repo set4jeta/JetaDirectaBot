@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Kenal",
+    "nombre_real": "Mikhail Karpenko",
+    "edad": 22,
+    "equipo": "Austrian Force willhaben",
+    "pais": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KenalLoL",
+      "twitch": "https://twitch.tv/kenal_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kenal.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AFW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kenal#EUW",
+      "nivel": 856,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1403,
+      "victorias": 579,
+      "derrotas": 511,
+      "ultima_partida": 1753395667067
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.88
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.9047619047619047
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.705882352941177
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8148148148148149
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3636363636363635
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 31,
+    "losses": 27,
+    "timePlayed": 88223
+  }
+}

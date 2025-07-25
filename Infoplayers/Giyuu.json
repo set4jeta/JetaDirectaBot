@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Giyuu",
+    "nombre_real": "Ahmad Charif",
+    "edad": 23,
+    "equipo": "Geekay Esports",
+    "pais": "Lebanon",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Giyuu_lol",
+      "twitch": "https://www.twitch.tv/giyuu_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Dekap#EUW2",
+      "nivel": 444,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1262,
+      "victorias": 229,
+      "derrotas": 180,
+      "ultima_partida": 1753353144380
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3448275862068964
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.7619047619047619
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 20
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 14,
+    "losses": 5,
+    "timePlayed": 29841
+  }
+}

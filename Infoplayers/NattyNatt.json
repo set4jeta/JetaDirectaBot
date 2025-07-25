@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "NattyNatt",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/NattyNattLoL",
+      "twitch": "https://twitch.tv/nattynattlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nattynatt.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "NattyNatt#2005",
+      "nivel": 1138,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1833,
+      "victorias": 612,
+      "derrotas": 518,
+      "ultima_partida": 1753310751871
+    },
+    {
+      "nombre": "KOREA TEST ACC#RANK1",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 163,
+      "victorias": 65,
+      "derrotas": 15,
+      "ultima_partida": 1753019833995
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rengar",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 3.197802197802198
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 16,
+      "victorias": 7,
+      "winrate": "43.8%",
+      "kda_promedio": 3.242857142857143
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.4827586206896552
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.611111111111111
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.347826086956522
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 17.8
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.388888888888889
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.235294117647059
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9259259259259258
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 99,
+    "wins": 70,
+    "losses": 29,
+    "timePlayed": 156719
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "info_jugador": {
+    "nombre": "Troublemaker",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/AlxandrosChatz1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Unforgettable#GGS",
+      "nivel": 70,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 777,
+      "victorias": 158,
+      "derrotas": 121,
+      "ultima_partida": 1753286873514
+    },
+    {
+      "nombre": "Ruthless#SOS",
+      "nivel": 60,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 431,
+      "victorias": 151,
+      "derrotas": 115,
+      "ultima_partida": 1753283557993
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.923076923076923
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.4827586206896552
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.642857142857143
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 22,
+    "wins": 13,
+    "losses": 9,
+    "timePlayed": 36564
+  }
+}

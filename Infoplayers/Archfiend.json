@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Archfiend",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/666Aarchfiend",
+      "twitch": "https://www.twitch.tv/aaarchfiend"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZENA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "S levche#Italy",
+      "nivel": 256,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 875,
+      "victorias": 294,
+      "derrotas": 254,
+      "ultima_partida": 1753345331507
+    },
+    {
+      "nombre": "AαrchΦiend#666",
+      "nivel": 87,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 172,
+      "derrotas": 113,
+      "ultima_partida": 1751021328946
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 27,
+      "victorias": 15,
+      "winrate": "55.6%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 2.617021276595745
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.121212121212121
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Warwick",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8823529411764706
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 41,
+    "losses": 26,
+    "timePlayed": 107168
+  }
+}

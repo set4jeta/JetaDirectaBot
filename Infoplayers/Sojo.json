@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Sojo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Sojo2115"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EXE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "JDS 2115#EUW",
+      "nivel": 560,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 795,
+      "victorias": 417,
+      "derrotas": 388,
+      "ultima_partida": 1753387890071
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ivern",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 8.476190476190476
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.526315789473684
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.918918918918919
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5454545454545454
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 66,
+    "wins": 34,
+    "losses": 32,
+    "timePlayed": 109780
+  }
+}

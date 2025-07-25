@@ -1,0 +1,109 @@
+{
+  "info_jugador": {
+    "nombre": "BrokenBlade",
+    "nombre_real": "Sergen Çelik",
+    "edad": 25,
+    "equipo": "G2 Esports",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/BrokenBlade",
+      "twitch": "https://twitch.tv/brokenblade"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/brokenblade.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/G2.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "G2 BrokenBlade#1918",
+      "nivel": 702,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 904,
+      "victorias": 435,
+      "derrotas": 395,
+      "ultima_partida": 1753364312172
+    },
+    {
+      "nombre": "G2 BrokenBlade#1819",
+      "nivel": 34,
+      "region": "NA1",
+      "liga": "DIAMOND I",
+      "lp": 84,
+      "victorias": 24,
+      "derrotas": 10,
+      "ultima_partida": 1751681542034
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8928571428571428
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 21,
+    "wins": 11,
+    "losses": 10,
+    "timePlayed": 35483
+  }
+}

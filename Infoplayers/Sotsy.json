@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sotsy",
+    "nombre_real": "John Sicre",
+    "edad": 26,
+    "equipo": "GameWard",
+    "pais": "France",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sotsy_",
+      "twitch": "https://www.twitch.tv/sotsy_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sotsy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "flow state#6996",
+      "nivel": 1628,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 872,
+      "victorias": 741,
+      "derrotas": 707,
+      "ultima_partida": 1753394705562
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yorick",
+      "partidas": 16,
+      "victorias": 7,
+      "winrate": "43.8%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.5223880597014925
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 1.5921052631578947
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6315789473684212
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.2745098039215685
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.6935483870967742
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3461538461538463
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6333333333333333
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 0.975
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 120,
+    "wins": 58,
+    "losses": 62,
+    "timePlayed": 192117
+  }
+}

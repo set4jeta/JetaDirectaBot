@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Farfetch",
+    "nombre_real": "Berk Badur",
+    "edad": 26,
+    "equipo": "ULF Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/FarfetchLOL",
+      "twitch": "https://twitch.tv/farfetchlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/farfetch.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ULF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "farfetch#296",
+      "nivel": 974,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 863,
+      "victorias": 306,
+      "derrotas": 277,
+      "ultima_partida": 1753388469891
+    },
+    {
+      "nombre": "ff ad acc#farf",
+      "nivel": 383,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 119,
+      "derrotas": 104,
+      "ultima_partida": 1750899277402
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.787878787878788
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 4.043478260869565
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5294117647058822
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.888888888888889
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 47,
+    "wins": 24,
+    "losses": 23,
+    "timePlayed": 77249
+  }
+}

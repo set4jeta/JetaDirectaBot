@@ -1,0 +1,90 @@
+{
+  "info_jugador": {
+    "nombre": "Labrov",
+    "nombre_real": "Labros Papoutsakis",
+    "edad": 23,
+    "equipo": "G2 Esports",
+    "pais": "Greece",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Labrov12"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/labrov.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/G2.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "G2 Labrov#8085",
+      "nivel": 420,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1755,
+      "victorias": 415,
+      "derrotas": 337,
+      "ultima_partida": 1752441416794
+    },
+    {
+      "nombre": "G2 Labrov#ltyol",
+      "nivel": 32,
+      "region": "NA1",
+      "liga": "DIAMOND II",
+      "lp": 37,
+      "victorias": 16,
+      "derrotas": 3,
+      "ultima_partida": 1751524299463
+    },
+    {
+      "nombre": "school phobia#EUW",
+      "nivel": 690,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 30,
+      "derrotas": 12,
+      "ultima_partida": 1742062248422
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0416666666666667
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.631578947368421
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1538461538461537
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 8,
+    "wins": 1,
+    "losses": 7,
+    "timePlayed": 12952
+  }
+}

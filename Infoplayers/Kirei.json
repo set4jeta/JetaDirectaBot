@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kirei",
+    "nombre_real": "Thomas Yuen",
+    "edad": 28,
+    "equipo": "CGN Esports",
+    "pais": "Netherlands",
+    "contrato_hasta": "2025-07-31T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KireiLoL",
+      "twitch": "https://twitch.tv/kireiop"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CGN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Coach Kirei#Coach",
+      "nivel": 800,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 974,
+      "victorias": 211,
+      "derrotas": 169,
+      "ultima_partida": 1753358509882
+    },
+    {
+      "nombre": "Kirei smurfer#SMURF",
+      "nivel": 520,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 97,
+      "victorias": 64,
+      "derrotas": 40,
+      "ultima_partida": 1753271607046
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.722222222222222
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.933333333333333
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.12
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Zac",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 11,
+    "losses": 9,
+    "timePlayed": 33791
+  }
+}

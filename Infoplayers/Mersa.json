@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Mersa",
+    "nombre_real": "Mertai Sari",
+    "edad": 22,
+    "equipo": "Solary",
+    "pais": "Greece",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MersaLoL",
+      "twitch": "https://twitch.tv/mersalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/mersa.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SLY.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "lpl dna#12103",
+      "nivel": 766,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1357,
+      "victorias": 277,
+      "derrotas": 193,
+      "ultima_partida": 1753373388617
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 4.326086956521739
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.514705882352941
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.9545454545454546
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.55
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 83,
+    "wins": 45,
+    "losses": 38,
+    "timePlayed": 127397
+  }
+}

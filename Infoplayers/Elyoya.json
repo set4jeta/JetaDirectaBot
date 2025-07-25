@@ -1,0 +1,109 @@
+{
+  "info_jugador": {
+    "nombre": "Elyoya",
+    "nombre_real": "Javier Prades Batalla",
+    "edad": 25,
+    "equipo": "Movistar KOI",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Elyoya_LoL",
+      "twitch": "https://twitch.tv/elyoyalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/elyoya.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "komanche uchiha#elite",
+      "nivel": 1056,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 426,
+      "victorias": 376,
+      "derrotas": 339,
+      "ultima_partida": 1753309578590
+    },
+    {
+      "nombre": "Dani Flow#myrwn",
+      "nivel": 36,
+      "region": "NA1",
+      "liga": "MASTER I",
+      "lp": 50,
+      "victorias": 42,
+      "derrotas": 8,
+      "ultima_partida": 1751697763757
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.4
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 21
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2727272727272727
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 26
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 4,
+    "losses": 6,
+    "timePlayed": 16862
+  }
+}

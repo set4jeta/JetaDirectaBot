@@ -1,0 +1,104 @@
+{
+  "info_jugador": {
+    "nombre": "Tayron",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tayronlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TAYRON#518",
+      "nivel": 690,
+      "liga": "MASTER I",
+      "lp": 706,
+      "victorias": 398,
+      "derrotas": 374,
+      "ultima_partida": 1753284653338
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 22,
+      "victorias": 14,
+      "winrate": "63.6%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.051282051282051
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.4634146341463414
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.457142857142857
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0625
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.9130434782608695
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 91,
+    "wins": 50,
+    "losses": 41,
+    "timePlayed": 140439
+  }
+}

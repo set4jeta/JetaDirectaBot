@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Nsurr",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Nsurr2",
+      "twitch": "https://twitch.tv/nsurr1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nsurr.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Full Drip Nsurr#EUW",
+      "nivel": 297,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 814,
+      "victorias": 229,
+      "derrotas": 197,
+      "ultima_partida": 1753396598351
+    },
+    {
+      "nombre": "Nsurr#EUWFR",
+      "nivel": 1221,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 100,
+      "derrotas": 90,
+      "ultima_partida": 1748515480881
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.625
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0526315789473686
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.055555555555555
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 15,
+    "losses": 13,
+    "timePlayed": 45621
+  }
+}

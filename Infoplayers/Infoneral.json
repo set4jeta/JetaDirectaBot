@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Infoneral",
+    "nombre_real": "Radoslav Georgiev",
+    "edad": 26,
+    "equipo": "TeamOrangeGaming",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/infoneral"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/infoneral.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TOG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "GNOME#MAGIC",
+      "nivel": 925,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1025,
+      "victorias": 364,
+      "derrotas": 329,
+      "ultima_partida": 1753388608027
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1746031746031744
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5142857142857142
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.4375
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3823529411764706
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.484848484848485
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 4.086956521739131
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.6
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 33,
+    "losses": 30,
+    "timePlayed": 98162
+  }
+}

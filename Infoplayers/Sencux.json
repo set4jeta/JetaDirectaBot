@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Sencux",
+    "nombre_real": "Chres Laursen",
+    "edad": 26,
+    "equipo": "Verdant",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/sencux.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VER.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Sencux#123",
+      "nivel": 704,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 666,
+      "victorias": 190,
+      "derrotas": 157,
+      "ultima_partida": 1753382943661
+    },
+    {
+      "nombre": "QloTrGeSdV#EUW",
+      "nivel": 378,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1167,
+      "victorias": 254,
+      "derrotas": 210,
+      "ultima_partida": 1753276808371
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.5531914893617023
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8666666666666667
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 31,
+    "losses": 26,
+    "timePlayed": 91941
+  }
+}

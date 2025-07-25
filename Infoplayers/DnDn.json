@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "DnDn",
+    "nombre_real": "Park Geun-woo",
+    "edad": 22,
+    "equipo": "SK Gaming",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/dndnone23"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dndn.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "DnDn123#123",
+      "nivel": 132,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1267,
+      "victorias": 377,
+      "derrotas": 265,
+      "ultima_partida": 1753297308810
+    },
+    {
+      "nombre": "13の冬#0518",
+      "nivel": 150,
+      "region": "KR",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 56,
+      "derrotas": 33,
+      "ultima_partida": 1751032788216
+    },
+    {
+      "nombre": "wxy#NS1",
+      "nivel": 1364,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 7,
+      "derrotas": 8,
+      "ultima_partida": 1748953558337
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.62
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2307692307692308
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.7272727272727273
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9285714285714286
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 20,
+    "losses": 11,
+    "timePlayed": 49847
+  }
+}

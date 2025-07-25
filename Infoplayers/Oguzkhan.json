@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Oguzkhan",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/oguzkhandd",
+      "twitch": "https://www.twitch.tv/oguzkhand"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Oguzkhand#FREE",
+      "nivel": 522,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1067,
+      "victorias": 444,
+      "derrotas": 399,
+      "ultima_partida": 1752960658320
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.0869565217391304
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.8636363636363638
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "MasterYi",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 23,
+    "losses": 10,
+    "timePlayed": 52119
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Paolocannone",
+    "nombre_real": "Paolo Marcucci",
+    "edad": 29,
+    "equipo": "aNc Legends",
+    "pais": "Italy",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Paolocannone12",
+      "twitch": "https://www.twitch.tv/paoloidolo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ANC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Paolocannone#EUW",
+      "nivel": 1236,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 779,
+      "victorias": 488,
+      "derrotas": 464,
+      "ultima_partida": 1753370623317
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 46,
+      "victorias": 26,
+      "winrate": "56.5%",
+      "kda_promedio": 3.68
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.848101265822785
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 10,
+      "victorias": 2,
+      "winrate": "20.0%",
+      "kda_promedio": 2.032258064516129
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 6.095238095238095
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6857142857142857
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8947368421052632
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 100,
+    "wins": 49,
+    "losses": 51,
+    "timePlayed": 166469
+  }
+}

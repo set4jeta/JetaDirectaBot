@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Mahonix",
+    "nombre_real": "Anthonie van Bemmelen",
+    "edad": 23,
+    "equipo": "Senshi eSports (Benelux Team)",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/MahonixMan",
+      "twitch": "https://www.twitch.tv/mahonixman"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SNSH Mahonix#BROCK",
+      "nivel": 1361,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 922,
+      "victorias": 547,
+      "derrotas": 512,
+      "ultima_partida": 1753390854565
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 4.0181818181818185
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.793103448275862
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 4.361111111111111
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1956521739130435
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.842105263157895
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.870967741935484
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.705882352941177
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.863636363636363
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 4.0588235294117645
+    },
+    {
+      "nombre": "TahmKench",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 53,
+    "losses": 37,
+    "timePlayed": 145731
+  }
+}

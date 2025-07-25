@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Zicssi",
+    "nombre_real": "Lanzo Ciajolo",
+    "edad": 23,
+    "equipo": "Gentle Mates",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/zicssiflay",
+      "twitch": "https://twitch.tv/zicssi"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/zicssi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SMRADOCH ZICSSI#EUW",
+      "nivel": 1010,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1232,
+      "victorias": 339,
+      "derrotas": 296,
+      "ultima_partida": 1753393190042
+    },
+    {
+      "nombre": "Sir Leywin#EUW",
+      "nivel": 507,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 85,
+      "victorias": 56,
+      "derrotas": 37,
+      "ultima_partida": 1752617111421
+    },
+    {
+      "nombre": "AØH#EUW",
+      "nivel": 216,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.388888888888889
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8157894736842106
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 6.714285714285714
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.095238095238095
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 4.181818181818182
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 11.333333333333334
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 29,
+    "losses": 29,
+    "timePlayed": 91575
+  }
+}

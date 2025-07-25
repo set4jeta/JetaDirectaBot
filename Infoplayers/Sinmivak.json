@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Sinmivak",
+    "nombre_real": "Jakub Rucki",
+    "edad": 24,
+    "equipo": "UCAM Esports",
+    "pais": "Poland",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/sinmivak",
+      "twitch": "https://twitch.tv/sinmivak"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sinmivak.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Sinmivak#777",
+      "nivel": 1046,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1130,
+      "victorias": 522,
+      "derrotas": 484,
+      "ultima_partida": 1753299626734
+    },
+    {
+      "nombre": "polski herkules#EUW",
+      "nivel": 157,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 58,
+      "derrotas": 43,
+      "ultima_partida": 1753262499274
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gnar",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.2291666666666665
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.793103448275862
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.0434782608695652
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 75,
+    "wins": 32,
+    "losses": 43,
+    "timePlayed": 124550
+  }
+}

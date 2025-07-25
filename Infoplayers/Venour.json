@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Venour",
+    "nombre_real": "Iwan Skorikov",
+    "edad": 23,
+    "equipo": "Kaufland Hangry Knights",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Venour2",
+      "twitch": "https://www.twitch.tv/venour"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/venour.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KHK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Venour#EUW",
+      "nivel": 962,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 942,
+      "victorias": 351,
+      "derrotas": 319,
+      "ultima_partida": 1753384198961
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9210526315789473
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.825
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.45454545454545453
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 22,
+    "losses": 20,
+    "timePlayed": 68674
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Hans SamD",
+    "nombre_real": "Lee Jae-hoon",
+    "edad": 24,
+    "equipo": "Natus Vincere",
+    "pais": "South Korea",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/HansSamD2001",
+      "twitch": "\\thttps://www.twitch.tv/lol_samd"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hanssamd.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Son heungmin#GODS",
+      "nivel": 73,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 947,
+      "victorias": 82,
+      "derrotas": 33,
+      "ultima_partida": 1753393337801
+    },
+    {
+      "nombre": "Hans SamD#KRKR",
+      "nivel": 107,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 115,
+      "derrotas": 85,
+      "ultima_partida": 1752744463237
+    },
+    {
+      "nombre": "Kimchi sama#123",
+      "nivel": 103,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 136,
+      "derrotas": 62,
+      "ultima_partida": 1752436977951
+    },
+    {
+      "nombre": "kimchi man1#123",
+      "nivel": 65,
+      "region": "EUW1",
+      "liga": "DIAMOND IV",
+      "lp": 95,
+      "victorias": 8,
+      "derrotas": 6,
+      "ultima_partida": 1752088030899
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 2.7468354430379747
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.1702127659574466
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9069767441860466
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7096774193548385
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.368421052631579
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.611111111111111
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.545454545454546
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 88,
+    "wins": 58,
+    "losses": 30,
+    "timePlayed": 136904
+  }
+}

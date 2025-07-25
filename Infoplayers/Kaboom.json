@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Kaboom",
+    "nombre_real": "Osman Onur Korkmaz",
+    "edad": 19,
+    "equipo": "ULF Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/kaboomxxd",
+      "twitch": "https://www.twitch.tv/kaboomxxd\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ULF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "S2mIE100LeSH#sigma",
+      "nivel": 73,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1197,
+      "victorias": 237,
+      "derrotas": 140,
+      "ultima_partida": 1753393337801
+    },
+    {
+      "nombre": "S2p601KeNaRa#kboom",
+      "nivel": 202,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 223,
+      "victorias": 143,
+      "derrotas": 108,
+      "ultima_partida": 1753212341427
+    },
+    {
+      "nombre": "yedi24pompa#ALPHA",
+      "nivel": 141,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 190,
+      "victorias": 145,
+      "derrotas": 132,
+      "ultima_partida": 1753037928801
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.3384615384615386
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 4.044444444444444
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.816326530612245
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.6451612903225805
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3103448275862069
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6388888888888888
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Kayn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.466666666666667
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.6153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 105,
+    "wins": 39,
+    "losses": 66,
+    "timePlayed": 168387
+  }
+}

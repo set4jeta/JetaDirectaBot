@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "escoX",
+    "nombre_real": "Javier Escobedo Sevilla",
+    "edad": 25,
+    "equipo": "ZETA",
+    "pais": "Spain",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/javieresco99",
+      "twitch": "https://twitch.tv/escox_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZTA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Τadej Pogačar#Soria",
+      "nivel": 1573,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 951,
+      "victorias": 294,
+      "derrotas": 255,
+      "ultima_partida": 1753375096278
+    },
+    {
+      "nombre": "Keep Trying#Soria",
+      "nivel": 189,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 95,
+      "victorias": 140,
+      "derrotas": 108,
+      "ultima_partida": 1753285360464
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2727272727272725
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.230769230769231
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.9166666666666665
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3076923076923075
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.52
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.625
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "TahmKench",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 35,
+    "wins": 18,
+    "losses": 17,
+    "timePlayed": 58101
+  }
+}

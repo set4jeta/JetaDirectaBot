@@ -1,0 +1,104 @@
+{
+  "info_jugador": {
+    "nombre": "Only Spatula",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://twitch.tv/only_spatula_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/onlyspatula.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Only Spatula#999",
+      "nivel": 311,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 968,
+      "victorias": 570,
+      "derrotas": 524,
+      "ultima_partida": 1753394242321
+    },
+    {
+      "nombre": "Peter Parkour#999",
+      "nivel": 910,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 99,
+      "victorias": 263,
+      "derrotas": 269,
+      "ultima_partida": 1753311685994
+    },
+    {
+      "nombre": "Demon Fish#999",
+      "nivel": 178,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 358,
+      "derrotas": 333,
+      "ultima_partida": 1742683956246
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Hwei",
+      "partidas": 32,
+      "victorias": 18,
+      "winrate": "56.2%",
+      "kda_promedio": 2.963855421686747
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 20,
+      "victorias": 12,
+      "winrate": "60.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.7407407407407407
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.097560975609756
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.15625
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 77,
+    "wins": 39,
+    "losses": 38,
+    "timePlayed": 127063
+  }
+}

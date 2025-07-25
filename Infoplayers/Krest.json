@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Krest",
+    "nombre_real": "Hassine Abdssamad",
+    "edad": 18,
+    "equipo": "Fox Gaming",
+    "pais": "Morocco",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/KrestV9",
+      "twitch": "https://www.twitch.tv/krestv9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/F0X.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "noobtopp#noob",
+      "nivel": 605,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 873,
+      "victorias": 302,
+      "derrotas": 264,
+      "ultima_partida": 1753315834870
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 21,
+      "victorias": 12,
+      "winrate": "57.1%",
+      "kda_promedio": 1.982608695652174
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.590909090909091
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.2758620689655173
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 29,
+    "losses": 21,
+    "timePlayed": 76902
+  }
+}

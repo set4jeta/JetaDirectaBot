@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Nio",
+    "nombre_real": "Nick Kartamyschew",
+    "edad": 24,
+    "equipo": "The Secret Club",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Niotism"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nio.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NXT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Nio#Nii",
+      "nivel": 1364,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1272,
+      "victorias": 886,
+      "derrotas": 824,
+      "ultima_partida": 1753224441318
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.3823529411764706
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.9454545454545453
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.3658536585365852
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1333333333333333
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0588235294117645
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1764705882352942
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 20,
+    "losses": 17,
+    "timePlayed": 62357
+  }
+}

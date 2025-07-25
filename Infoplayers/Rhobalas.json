@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Rhobalas",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Rhobalasv2",
+      "twitch": "https://twitch.tv/rhobalas_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/rhobalas.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Suceur2Tentacule#VKOZ",
+      "nivel": 966,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 788,
+      "victorias": 163,
+      "derrotas": 125,
+      "ultima_partida": 1753350891379
+    },
+    {
+      "nombre": "Rhobebou#UwU",
+      "nivel": 333,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 251,
+      "victorias": 117,
+      "derrotas": 101,
+      "ultima_partida": 1753285456605
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Velkoz",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 1.8767123287671232
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1538461538461537
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.75
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Shaco",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 27,
+    "wins": 16,
+    "losses": 11,
+    "timePlayed": 41001
+  }
+}

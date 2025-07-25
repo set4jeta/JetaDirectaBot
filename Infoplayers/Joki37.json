@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Joki37",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Joki37#EUW",
+      "nivel": 231,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 809,
+      "victorias": 365,
+      "derrotas": 323,
+      "ultima_partida": 1753148699217
+    },
+    {
+      "nombre": "Kijo73#ZTC",
+      "nivel": 234,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 149,
+      "derrotas": 129,
+      "ultima_partida": 1751472707628
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Belveth",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.45
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5294117647058822
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6153846153846154
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.533333333333333
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 27,
+    "losses": 25,
+    "timePlayed": 83416
+  }
+}

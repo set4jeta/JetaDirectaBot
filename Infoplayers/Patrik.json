@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "Patrik",
+    "nombre_real": "Patrik Jírů",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "Czech Republic",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/patriklol",
+      "twitch": "\\thttps://twitch.tv/patrikadc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/patrik.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "HARD RICO#EUW12",
+      "nivel": 436,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 212,
+      "victorias": 138,
+      "derrotas": 95,
+      "ultima_partida": 1753134460241
+    },
+    {
+      "nombre": "NIP Freeze#cze",
+      "nivel": 513,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 170,
+      "derrotas": 137,
+      "ultima_partida": 1747488318826
+    },
+    {
+      "nombre": "XZPCWCTVNB#EUW",
+      "nivel": 119,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 70,
+      "victorias": 3,
+      "derrotas": 9,
+      "ultima_partida": 1739546041857
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7894736842105263
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 4,
+    "losses": 5,
+    "timePlayed": 13435
+  }
+}

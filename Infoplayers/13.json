@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "13",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/13_lol1",
+      "twitch": "https://www.twitch.tv/13_lol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KOI 13#Tukan",
+      "nivel": 151,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1072,
+      "victorias": 325,
+      "derrotas": 277,
+      "ultima_partida": 1753367107388
+    },
+    {
+      "nombre": "TEDDY VIPER1#박도현",
+      "nivel": 144,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 108,
+      "victorias": 160,
+      "derrotas": 122,
+      "ultima_partida": 1753144923502
+    },
+    {
+      "nombre": "JUGKING#DWG13",
+      "nivel": 121,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 54,
+      "victorias": 112,
+      "derrotas": 95,
+      "ultima_partida": 1752960448641
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.343283582089552
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4186046511627906
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.121212121212121
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.071428571428571
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 34,
+    "losses": 33,
+    "timePlayed": 110096
+  }
+}

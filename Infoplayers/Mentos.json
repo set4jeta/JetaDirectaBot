@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Mentos",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/TheFatherMentos",
+      "twitch": "https://www.twitch.tv/mentos__xd"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IN5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "드리머#DREAM",
+      "nivel": 499,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 854,
+      "victorias": 481,
+      "derrotas": 457,
+      "ultima_partida": 1753366708340
+    },
+    {
+      "nombre": "567024574567#9600",
+      "nivel": 285,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 112,
+      "derrotas": 94,
+      "ultima_partida": 1751623128836
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 2.6140350877192984
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3684210526315788
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.8260869565217392
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6428571428571429
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8823529411764706
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2777777777777777
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 31,
+    "losses": 30,
+    "timePlayed": 96082
+  }
+}

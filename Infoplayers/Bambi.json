@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "Bambi",
+    "nombre_real": "Lee Gyu-bin",
+    "edad": 24,
+    "equipo": "Jin Air Green Wings",
+    "pais": "South Korea",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Bambi_L9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GMBL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "washed úp#bambi",
+      "nivel": 449,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1010,
+      "victorias": 124,
+      "derrotas": 90,
+      "ultima_partida": 1753268894771
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9230769230769231
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 11,
+    "losses": 4,
+    "timePlayed": 23597
+  }
+}

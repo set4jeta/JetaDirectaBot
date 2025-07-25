@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "J3rkie",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/J3rkie_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZNT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "J3rkie#EUW",
+      "nivel": 293,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1100,
+      "victorias": 151,
+      "derrotas": 110,
+      "ultima_partida": 1753211111714
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Senna",
+      "partidas": 10,
+      "victorias": 2,
+      "winrate": "20.0%",
+      "kda_promedio": 2.328125
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.7
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 22,
+    "wins": 11,
+    "losses": 11,
+    "timePlayed": 36368
+  }
+}

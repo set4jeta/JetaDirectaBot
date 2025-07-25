@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pesho",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/PeshoMid",
+      "twitch": "https://www.twitch.tv/peshomid"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "pesh#pesho",
+      "nivel": 414,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 833,
+      "victorias": 288,
+      "derrotas": 230,
+      "ultima_partida": 1753362696354
+    },
+    {
+      "nombre": "nikola#PESHO",
+      "nivel": 1121,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 153,
+      "victorias": 393,
+      "derrotas": 384,
+      "ultima_partida": 1753296258027
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 2.1025641025641026
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2295081967213113
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 1.280701754385965
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0634920634920637
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.30188679245283
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5405405405405403
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.803921568627451
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8518518518518516
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.28
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9545454545454546
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 49,
+    "losses": 58,
+    "timePlayed": 179895
+  }
+}

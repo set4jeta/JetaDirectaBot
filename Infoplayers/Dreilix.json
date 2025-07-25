@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Dreilix",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/dreilix"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NXT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Light#CN3",
+      "nivel": 665,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 738,
+      "victorias": 472,
+      "derrotas": 425,
+      "ultima_partida": 1753281001757
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 25,
+      "victorias": 13,
+      "winrate": "52.0%",
+      "kda_promedio": 2.0489510489510487
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.0757575757575757
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4210526315789473
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.84
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.05
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5517241379310347
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.294117647058823
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.96
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 86,
+    "wins": 42,
+    "losses": 44,
+    "timePlayed": 138789
+  }
+}

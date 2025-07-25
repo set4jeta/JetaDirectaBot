@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Barry",
+    "nombre_real": "Eduardo Jacuinde Cortes",
+    "edad": 24,
+    "equipo": "Mayan Esports",
+    "pais": "Mexico",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/BarryLyndon_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OUAT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Barry Lyndon#EUW",
+      "nivel": 1279,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 756,
+      "victorias": 320,
+      "derrotas": 287,
+      "ultima_partida": 1753308884474
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Karma",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9130434782608696
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.333333333333334
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 27,
+    "wins": 16,
+    "losses": 11,
+    "timePlayed": 43373
+  }
+}

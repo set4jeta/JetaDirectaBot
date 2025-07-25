@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Xagog",
+    "nombre_real": "Isa Arda Dagli",
+    "edad": 21,
+    "equipo": "ROSSMANN Centaurs",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/xagog42",
+      "twitch": "https://twitch.tv/xagog005\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "decay arc#EUW",
+      "nivel": 105,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1289,
+      "victorias": 223,
+      "derrotas": 138,
+      "ultima_partida": 1753303083712
+    },
+    {
+      "nombre": "ANKARAI0MESSI#EUW",
+      "nivel": 311,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 45,
+      "victorias": 9,
+      "derrotas": 17,
+      "ultima_partida": 1753197753892
+    },
+    {
+      "nombre": "Xagog#EUW",
+      "nivel": 348,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 587,
+      "victorias": 61,
+      "derrotas": 35,
+      "ultima_partida": 1753189553753
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Naafiri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3043478260869565
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.6875
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.590909090909091
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8636363636363635
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.571428571428571
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 16,
+    "losses": 13,
+    "timePlayed": 44550
+  }
+}

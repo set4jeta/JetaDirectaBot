@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "pocovirtuoso",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/pocovirtuoso",
+      "twitch": "https://twitch.tv/pocovirtuoso"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "pocovirtuoso#EUW",
+      "nivel": 545,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 846,
+      "victorias": 126,
+      "derrotas": 95,
+      "ultima_partida": 1753098806651
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 47,
+      "victorias": 25,
+      "winrate": "53.2%",
+      "kda_promedio": 2.694610778443114
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2333333333333334
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.384615384615385
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 30,
+    "losses": 28,
+    "timePlayed": 100360
+  }
+}

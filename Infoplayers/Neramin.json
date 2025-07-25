@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Neramin",
+    "nombre_real": "Hasan Samarsın",
+    "edad": 23,
+    "equipo": "BBL Dark Passage",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/neraminlol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "neramin cee#2112",
+      "nivel": 586,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 778,
+      "victorias": 362,
+      "derrotas": 318,
+      "ultima_partida": 1753357717491
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Varus",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.8160919540229885
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.869565217391304
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 1.9696969696969697
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9302325581395348
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.037037037037037
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5384615384615383
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 30,
+    "losses": 23,
+    "timePlayed": 85825
+  }
+}

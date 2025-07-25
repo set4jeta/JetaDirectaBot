@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Paixdia",
+    "nombre_real": "Taha Barış Elmas",
+    "edad": 24,
+    "equipo": "The Forbidden Five",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/PaixdiaLoL",
+      "twitch": "https://www.twitch.tv/paixdia_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/paixdia.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TFF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "PatrickJane#Supp",
+      "nivel": 781,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1109,
+      "victorias": 618,
+      "derrotas": 566,
+      "ultima_partida": 1753314030004
+    },
+    {
+      "nombre": "Kamusari#EUW11",
+      "nivel": 155,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 98,
+      "derrotas": 72,
+      "ultima_partida": 1752677835651
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 24,
+      "victorias": 14,
+      "winrate": "58.3%",
+      "kda_promedio": 2.5947712418300655
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.4489795918367347
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 4.3584905660377355
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 5.157894736842105
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.525
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.16
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8260869565217392
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8518518518518516
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4375
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.526315789473684
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 105,
+    "wins": 55,
+    "losses": 50,
+    "timePlayed": 172556
+  }
+}

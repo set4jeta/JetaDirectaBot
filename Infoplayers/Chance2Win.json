@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Chance2Win",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/AydanBerka59785"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DMG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Chance2Win#EUW",
+      "nivel": 572,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1041,
+      "victorias": 177,
+      "derrotas": 128,
+      "ultima_partida": 1753366729408
+    },
+    {
+      "nombre": "RUMBLEKING#C2W",
+      "nivel": 67,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 760,
+      "victorias": 163,
+      "derrotas": 106,
+      "ultima_partida": 1753363401954
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.289855072463768
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3214285714285714
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8666666666666667
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5714285714285716
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 6,
+    "losses": 17,
+    "timePlayed": 40095
+  }
+}

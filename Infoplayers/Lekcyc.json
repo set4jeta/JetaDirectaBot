@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "Lekcyc",
+    "nombre_real": "Alexander Leksikov",
+    "edad": 28,
+    "equipo": "IziDream",
+    "pais": "Russia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lekcycc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lekcyc.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Izi Lekcyc#111",
+      "nivel": 749,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1067,
+      "victorias": 330,
+      "derrotas": 293,
+      "ultima_partida": 1753302719153
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 44,
+      "victorias": 27,
+      "winrate": "61.4%",
+      "kda_promedio": 4.4605263157894735
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 15
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 30,
+    "losses": 21,
+    "timePlayed": 82013
+  }
+}

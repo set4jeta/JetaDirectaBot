@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Boda",
+    "nombre_real": "Mohamed Yahia",
+    "edad": 19,
+    "equipo": "Geekay Esports",
+    "pais": "Egypt",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lol_boda",
+      "twitch": "https://www.twitch.tv/boda_lol_2"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "GK pablo#Boda",
+      "nivel": 1326,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1180,
+      "victorias": 742,
+      "derrotas": 681,
+      "ultima_partida": 1753397820489
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.825
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.521739130434782
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2972972972972974
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.3448275862068966
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.68
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5714285714285716
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 87,
+    "wins": 42,
+    "losses": 45,
+    "timePlayed": 145558
+  }
+}

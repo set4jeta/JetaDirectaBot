@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Caliste",
+    "nombre_real": "Caliste Henry-Hennebert",
+    "edad": 18,
+    "equipo": "Karmine Corp",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/CalisteLoL",
+      "twitch": "https://twitch.tv/Caliste_LoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/caliste.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "I NEED SOLOQ#EUW",
+      "nivel": 227,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 807,
+      "victorias": 136,
+      "derrotas": 74,
+      "ultima_partida": 1753388608027
+    },
+    {
+      "nombre": "KC NEXT ADKING#EUW",
+      "nivel": 668,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1825,
+      "victorias": 298,
+      "derrotas": 207,
+      "ultima_partida": 1753288259327
+    },
+    {
+      "nombre": "KC Caliste#0001",
+      "nivel": 33,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 24,
+      "derrotas": 5,
+      "ultima_partida": 1741835462365
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 4.411764705882353
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.95
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.875
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 10.6
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.933333333333333
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 34,
+    "losses": 31,
+    "timePlayed": 100307
+  }
+}

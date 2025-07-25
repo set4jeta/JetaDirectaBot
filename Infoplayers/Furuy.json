@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Furuy",
+    "nombre_real": "Mike&nbsp;Petrus&nbsp;Franciscus Wils",
+    "edad": 24,
+    "equipo": "Skillcamp",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/FuruyLoL",
+      "twitch": "https://www.twitch.tv/furuy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Furuy#EUW",
+      "nivel": 1070,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 831,
+      "victorias": 222,
+      "derrotas": 194,
+      "ultima_partida": 1753396453989
+    },
+    {
+      "nombre": "Berry Bulk#BULK",
+      "nivel": 316,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1055,
+      "victorias": 198,
+      "derrotas": 150,
+      "ultima_partida": 1753215794012
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.739130434782609
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0526315789473686
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.833333333333333
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6.75
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 38,
+    "losses": 25,
+    "timePlayed": 101210
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Vaynedeta",
+    "nombre_real": "Stavros Giannoulakis",
+    "edad": 23,
+    "equipo": "Team Phantasma",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "VΥD#EUW",
+      "nivel": 506,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 915,
+      "victorias": 168,
+      "derrotas": 116,
+      "ultima_partida": 1753383166322
+    },
+    {
+      "nombre": "OLA MESΑ#EUW",
+      "nivel": 311,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 76,
+      "victorias": 95,
+      "derrotas": 79,
+      "ultima_partida": 1752008065239
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 3.08
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.409090909090909
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4074074074074074
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.125
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8823529411764706
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 20,
+    "losses": 20,
+    "timePlayed": 64929
+  }
+}

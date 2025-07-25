@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Pun1sher",
+    "nombre_real": "Konstantinos Katsikadakos",
+    "edad": 26,
+    "equipo": "Team Paradox",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Pun1sher_S",
+      "twitch": "https://twitch.tv/pun1shers_tv"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Demon Reborn#RRR",
+      "nivel": 391,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 847,
+      "victorias": 188,
+      "derrotas": 132,
+      "ultima_partida": 1753389322508
+    },
+    {
+      "nombre": "Pun1sher#Demon",
+      "nivel": 320,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1062,
+      "victorias": 196,
+      "derrotas": 130,
+      "ultima_partida": 1753377640710
+    },
+    {
+      "nombre": "Pun1sher Reborn#EUW",
+      "nivel": 807,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 437,
+      "victorias": 296,
+      "derrotas": 261,
+      "ultima_partida": 1753138871726
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 87,
+      "victorias": 59,
+      "winrate": "67.8%",
+      "kda_promedio": 2.3477443609022557
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1702127659574466
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.2537313432835822
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3181818181818183
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.777777777777778
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 117,
+    "wins": 78,
+    "losses": 39,
+    "timePlayed": 186120
+  }
+}

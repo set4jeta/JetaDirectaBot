@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Yen",
+    "nombre_real": "Zara Rainey",
+    "edad": 25,
+    "equipo": "Illinois State University",
+    "pais": "United States",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Yen_aka_Fadi",
+      "twitch": "https://www.twitch.tv/yen_ch"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KISS OF DEATH#YEN",
+      "nivel": 420,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 824,
+      "victorias": 283,
+      "derrotas": 246,
+      "ultima_partida": 1753386793911
+    },
+    {
+      "nombre": "Yen is my Wife#EUW",
+      "nivel": 826,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1170,
+      "victorias": 297,
+      "derrotas": 244,
+      "ultima_partida": 1753209059087
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 4.1
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.380952380952381
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.64
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.0555555555555556
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1538461538461537
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6363636363636362
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 26,
+    "losses": 25,
+    "timePlayed": 85298
+  }
+}

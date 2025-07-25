@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Azzapp",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "\\thttps://twitter.com/Azzapp_LoL",
+      "twitch": "https://twitch.tv/azzapp"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/azzapp.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Kolinahr Master#EUW",
+      "nivel": 84,
+      "region": "EUW1",
+      "liga": "EMERALD II",
+      "lp": 53,
+      "victorias": 48,
+      "derrotas": 19,
+      "ultima_partida": 1753371034151
+    },
+    {
+      "nombre": "Azzapp#31415",
+      "nivel": 717,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 993,
+      "victorias": 326,
+      "derrotas": 273,
+      "ultima_partida": 1752686049384
+    },
+    {
+      "nombre": "aVoid the FF#31415",
+      "nivel": 136,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 183,
+      "derrotas": 143,
+      "ultima_partida": 1745446324431
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 18,
+      "victorias": 14,
+      "winrate": "77.8%",
+      "kda_promedio": 3.925
+    },
+    {
+      "nombre": "Velkoz",
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 3.0144927536231885
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 5.473684210526316
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 9.2
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2777777777777777
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.083333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 75,
+    "wins": 52,
+    "losses": 23,
+    "timePlayed": 126587
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "info_jugador": {
+    "nombre": "Carlsen",
+    "nombre_real": "Carl&nbsp;Ulsted Carlsen",
+    "edad": 19,
+    "equipo": "Team Heretics",
+    "pais": "Denmark",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LoLCarlsen"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/carlsen.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "skygge kriger#EUV",
+      "nivel": 956,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1296,
+      "victorias": 292,
+      "derrotas": 236,
+      "ultima_partida": 1752921138721
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 2,
+    "wins": 0,
+    "losses": 2,
+    "timePlayed": 3602
+  }
+}

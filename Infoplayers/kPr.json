@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "kPr",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/kpr_lol",
+      "twitch": "https://twitch.tv/kprlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KPR kpR#ZATUP",
+      "nivel": 327,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 842,
+      "victorias": 237,
+      "derrotas": 210,
+      "ultima_partida": 1753223168480
+    },
+    {
+      "nombre": "Hailrake#77777",
+      "nivel": 166,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 662,
+      "victorias": 118,
+      "derrotas": 76,
+      "ultima_partida": 1753056596991
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.105263157894737
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.7428571428571429
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1875
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.47058823529411764
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 34,
+    "wins": 17,
+    "losses": 17,
+    "timePlayed": 55243
+  }
+}

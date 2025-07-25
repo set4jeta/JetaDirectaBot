@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Harpoon",
+    "nombre_real": "Franciszek Gryszkiewicz",
+    "edad": 20,
+    "equipo": "Galions",
+    "pais": "Poland",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Harpoonlol",
+      "twitch": "https://www.twitch.tv/harpoon_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/harpoon.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "HARPOON#2005",
+      "nivel": 815,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1201,
+      "victorias": 490,
+      "derrotas": 425,
+      "ultima_partida": 1753392306617
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.3055555555555554
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0357142857142856
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0384615384615383
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8181818181818183
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 29,
+    "losses": 29,
+    "timePlayed": 94202
+  }
+}

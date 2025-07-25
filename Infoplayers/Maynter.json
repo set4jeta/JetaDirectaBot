@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Maynter",
+    "nombre_real": "Volodymyr Sorokin",
+    "edad": 24,
+    "equipo": "Karmine Corp Blue",
+    "pais": "Ukraine",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Maynter_LOL",
+      "twitch": "https://twitch.tv/lol_maynter"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/maynter.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Maynter#EUW",
+      "nivel": 690,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1722,
+      "victorias": 352,
+      "derrotas": 281,
+      "ultima_partida": 1753375187562
+    },
+    {
+      "nombre": "vovalaclasse#EUW",
+      "nivel": 339,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 980,
+      "victorias": 270,
+      "derrotas": 238,
+      "ultima_partida": 1753371895751
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.4035087719298245
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.392857142857143
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5909090909090908
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.12
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 29,
+    "losses": 36,
+    "timePlayed": 103097
+  }
+}

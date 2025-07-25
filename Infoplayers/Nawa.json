@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Nawa",
+    "nombre_real": "Mahmut Zitto",
+    "edad": 19,
+    "equipo": "Gamespace Mediterranean College Esports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Nawa_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nawa.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GSMC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "never give up#1412",
+      "nivel": 269,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 783,
+      "victorias": 223,
+      "derrotas": 181,
+      "ultima_partida": 1753373401152
+    },
+    {
+      "nombre": "Ghost Face#33333",
+      "nivel": 671,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 358,
+      "derrotas": 337,
+      "ultima_partida": 1752923689274
+    },
+    {
+      "nombre": "sad and bad#2k25",
+      "nivel": 137,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 166,
+      "derrotas": 145,
+      "ultima_partida": 1751461044094
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.8947368421052633
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8214285714285714
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3947368421052633
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6216216216216217
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.037037037037037
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9411764705882353
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5909090909090908
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0434782608695654
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 70,
+    "wins": 31,
+    "losses": 39,
+    "timePlayed": 108942
+  }
+}

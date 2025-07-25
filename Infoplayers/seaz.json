@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "seaz",
+    "nombre_real": "Daniel Binderhofer",
+    "edad": 24,
+    "equipo": "Unicorns of Love Sexy Edition",
+    "pais": "Austria",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/seazlol",
+      "twitch": "https://www.twitch.tv/seazlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/seaz.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Ewigkeit#0000",
+      "nivel": 308,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 954,
+      "victorias": 301,
+      "derrotas": 262,
+      "ultima_partida": 1753380152054
+    },
+    {
+      "nombre": "PLUTO#1589",
+      "nivel": 757,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1228,
+      "victorias": 173,
+      "derrotas": 114,
+      "ultima_partida": 1753179940056
+    },
+    {
+      "nombre": "blq#EUW",
+      "nivel": 101,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 39,
+      "derrotas": 16,
+      "ultima_partida": 1753024654673
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 13.75
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.2
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 20
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 26,
+    "wins": 17,
+    "losses": 9,
+    "timePlayed": 41747
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Dova",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DIVE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "débardeurshort#kaki",
+      "nivel": 984,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1055,
+      "victorias": 306,
+      "derrotas": 262,
+      "ultima_partida": 1753375871778
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.9642857142857142
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 7.142857142857143
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3043478260869565
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.066666666666667
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7692307692307693
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 25,
+    "losses": 16,
+    "timePlayed": 62907
+  }
+}

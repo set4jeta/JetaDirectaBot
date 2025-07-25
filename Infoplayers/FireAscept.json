@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "FireAscept",
+    "nombre_real": "Resul Polat",
+    "edad": 18,
+    "equipo": "BoostGate Esports",
+    "pais": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/FireAscept",
+      "twitch": "https://www.twitch.tv/fireasceptlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BGT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BGT FireAscept#1310",
+      "nivel": 571,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 815,
+      "victorias": 283,
+      "derrotas": 251,
+      "ultima_partida": 1753367287082
+    },
+    {
+      "nombre": "FireAscept#1013",
+      "nivel": 218,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 270,
+      "derrotas": 241,
+      "ultima_partida": 1753258525116
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 1.6704545454545454
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.1549295774647885
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.5217391304347827
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.260869565217391
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.9803921568627452
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2413793103448274
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.217391304347826
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 105,
+    "wins": 50,
+    "losses": 55,
+    "timePlayed": 172023
+  }
+}

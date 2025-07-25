@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Scorth",
+    "nombre_real": "Sergen Eke",
+    "edad": 22,
+    "equipo": "Bushido Wildcats",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-10-20T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Scorth1",
+      "twitch": "https://www.twitch.tv/scorth1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/scorth.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "gkucqklg#EUW",
+      "nivel": 121,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 820,
+      "victorias": 349,
+      "derrotas": 290,
+      "ultima_partida": 1753370547291
+    },
+    {
+      "nombre": "Scorth#EUW",
+      "nivel": 1714,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 342,
+      "derrotas": 318,
+      "ultima_partida": 1748705511498
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 14,
+      "victorias": 4,
+      "winrate": "28.6%",
+      "kda_promedio": 2.5733333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.7428571428571429
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9523809523809526
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 27,
+    "losses": 34,
+    "timePlayed": 95774
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "SlowQ",
+    "nombre_real": "Seo Ye-bit",
+    "edad": 21,
+    "equipo": "Karmine Corp Blue",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/slowwq",
+      "twitch": "https://twitch.tv/slowwwq"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "yebit#haha",
+      "nivel": 968,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1315,
+      "victorias": 475,
+      "derrotas": 426,
+      "ultima_partida": 1753375096278
+    },
+    {
+      "nombre": "Y Golem Y#EUW",
+      "nivel": 207,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 600,
+      "victorias": 129,
+      "derrotas": 71,
+      "ultima_partida": 1753175756233
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Annie",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.9444444444444446
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.558139534883721
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5348837209302326
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 5.3076923076923075
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.65
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 104,
+    "wins": 65,
+    "losses": 39,
+    "timePlayed": 163372
+  }
+}

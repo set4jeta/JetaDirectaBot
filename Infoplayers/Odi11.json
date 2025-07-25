@@ -1,0 +1,107 @@
+{
+  "info_jugador": {
+    "nombre": "Odi11",
+    "nombre_real": "Adrian Kruk",
+    "edad": 23,
+    "equipo": "Forsaken (Polish Team)",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/odi11_LOL",
+      "twitch": "\\thttps://www.twitch.tv/odi11__"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FSK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Luong Lao Shi 2#2836",
+      "nivel": 342,
+      "liga": "DIAMOND I",
+      "lp": 55,
+      "victorias": 77,
+      "derrotas": 70,
+      "ultima_partida": 1753274766566
+    },
+    {
+      "nombre": "BARDZO DUŻO ZŁA#WRATH",
+      "nivel": 1266,
+      "liga": "GRANDMASTER I",
+      "lp": 749,
+      "victorias": 389,
+      "derrotas": 366,
+      "ultima_partida": 1753220100085
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.772727272727273
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.04
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8974358974358974
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 23,
+    "losses": 17,
+    "timePlayed": 61471
+  }
+}

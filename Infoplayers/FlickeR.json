@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "FlickeR",
+    "nombre_real": "Rodrigo de Oliveira",
+    "edad": 20,
+    "equipo": "Geekay Esports",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/FlickeRiwnl",
+      "twitch": "https://www.twitch.tv/flickeriwnl"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "FlickeR#1337",
+      "nivel": 715,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 852,
+      "victorias": 404,
+      "derrotas": 377,
+      "ultima_partida": 1753385273628
+    },
+    {
+      "nombre": "qweasdqweasdqwq#KR3",
+      "nivel": 73,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 63,
+      "derrotas": 33,
+      "ultima_partida": 1752438212895
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 4.85
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.894736842105263
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8333333333333335
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.65
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 17,
+    "losses": 16,
+    "timePlayed": 53613
+  }
+}

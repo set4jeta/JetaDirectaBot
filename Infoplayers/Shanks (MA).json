@@ -1,0 +1,95 @@
+{
+  "info_jugador": {
+    "nombre": "Shanks (MA)",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ShanksAka3",
+      "twitch": "https://www.twitch.tv/shanks_v9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/shanks.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/F0X.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "sknahS#VVUE",
+      "nivel": 150,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 948,
+      "victorias": 397,
+      "derrotas": 347,
+      "ultima_partida": 1753368145110
+    },
+    {
+      "nombre": "Shanks#EUVV",
+      "nivel": 1277,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 191,
+      "victorias": 58,
+      "derrotas": 51,
+      "ultima_partida": 1753217026061
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Trundle",
+      "partidas": 19,
+      "victorias": 9,
+      "winrate": "47.4%",
+      "kda_promedio": 2.707547169811321
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.4038461538461537
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 21,
+    "losses": 22,
+    "timePlayed": 68037
+  }
+}

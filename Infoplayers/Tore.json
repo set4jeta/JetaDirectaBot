@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Tore",
+    "nombre_real": "Tore Hoel Eilertsen",
+    "edad": 25,
+    "equipo": "Verdant",
+    "pais": "Norway",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Tore_lol",
+      "twitch": "https://twitch.tv/torelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/tore.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VER.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "TORE DEN STORE#FRP",
+      "nivel": 696,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 860,
+      "victorias": 176,
+      "derrotas": 128,
+      "ultima_partida": 1753383386345
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 26
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.666666666666666
+    },
+    {
+      "nombre": "TahmKench",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 6,
+    "losses": 5,
+    "timePlayed": 18871
+  }
+}

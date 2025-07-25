@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "marlon",
+    "nombre_real": "Igor Tomczyk",
+    "edad": 21,
+    "equipo": "Baam Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/marlonkox"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/marlon.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "marlοn#EUW",
+      "nivel": 643,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 913,
+      "victorias": 296,
+      "derrotas": 258,
+      "ultima_partida": 1753323131502
+    },
+    {
+      "nombre": "goroncywir60#łysy",
+      "nivel": 201,
+      "region": "EUW1",
+      "liga": "EMERALD III",
+      "lp": 80,
+      "victorias": 6,
+      "derrotas": 7,
+      "ultima_partida": 1753068197602
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 4.277777777777778
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5263157894736843
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.0833333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 25,
+    "losses": 27,
+    "timePlayed": 82481
+  }
+}

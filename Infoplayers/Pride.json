@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Pride",
+    "nombre_real": "Franco&nbsp;Jesús Sanzana Villarroel",
+    "edad": 29,
+    "equipo": "Azules Esports",
+    "pais": "Chile",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/pride__lol",
+      "twitch": "https://twitch.tv/prideh"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/pride.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EINS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Pride#persi",
+      "nivel": 368,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 984,
+      "victorias": 228,
+      "derrotas": 189,
+      "ultima_partida": 1753115547660
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5294117647058822
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 10,
+    "losses": 5,
+    "timePlayed": 22193
+  }
+}

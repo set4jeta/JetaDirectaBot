@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Dan",
+    "nombre_real": "Daniel Hockley",
+    "edad": 28,
+    "equipo": "Anubis Gaming",
+    "pais": "United Kingdom",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/DanHockley_lol",
+      "twitch": "https://www.twitch.tv/Dan4114"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ANB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "4114#EUW",
+      "nivel": 297,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 929,
+      "victorias": 218,
+      "derrotas": 187,
+      "ultima_partida": 1753389576960
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Volibear",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.428571428571429
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 23
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 4,
+    "losses": 10,
+    "timePlayed": 22496
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Shelfmade",
+    "nombre_real": "Francesco Cardia",
+    "edad": 18,
+    "equipo": "Berlin International Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ShelfmadeLoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/shelfmade.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BIG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KDF DuDu#KING1",
+      "nivel": 410,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1407,
+      "victorias": 425,
+      "derrotas": 372,
+      "ultima_partida": 1753393337801
+    },
+    {
+      "nombre": "BIG Pig#Oink5",
+      "nivel": 689,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 85,
+      "victorias": 7,
+      "derrotas": 3,
+      "ultima_partida": 1753312246161
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 23,
+      "victorias": 13,
+      "winrate": "56.5%",
+      "kda_promedio": 2.049586776859504
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.189189189189189
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.230769230769231
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6470588235294118
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 28,
+    "losses": 24,
+    "timePlayed": 77925
+  }
+}

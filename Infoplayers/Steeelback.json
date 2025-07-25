@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Steeelback",
+    "nombre_real": "Pierre Medjaldi",
+    "edad": 28,
+    "equipo": "Caldya Esport",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Steeelb4ck",
+      "twitch": "https://twitch.tv/steeelback"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/steeelback.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SteeelBacK#317",
+      "nivel": 711,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 763,
+      "victorias": 424,
+      "derrotas": 385,
+      "ultima_partida": 1753350841477
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.7555555555555555
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.3870967741935485
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 5.115384615384615
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8181818181818181
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 28
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.7142857142857144
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 49,
+    "wins": 25,
+    "losses": 24,
+    "timePlayed": 79350
+  }
+}

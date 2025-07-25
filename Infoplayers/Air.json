@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Air",
+    "nombre_real": "Shenghao He",
+    "edad": 24,
+    "equipo": "Venomcrest Esports",
+    "pais": "China",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lolair0607",
+      "twitch": "https://www.twitch.tv/lol_air"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/air.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "夜晚的大雨fan#00914",
+      "nivel": 624,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 925,
+      "victorias": 206,
+      "derrotas": 164,
+      "ultima_partida": 1753306544244
+    },
+    {
+      "nombre": "厚米pw Air#60952",
+      "nivel": 298,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 186,
+      "derrotas": 162,
+      "ultima_partida": 1745897698002
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.545454545454546
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.1
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.833333333333333
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 15,
+    "losses": 8,
+    "timePlayed": 36479
+  }
+}

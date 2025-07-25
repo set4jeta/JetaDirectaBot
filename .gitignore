@@ -1,0 +1,18 @@
+# Ignorar archivos y carpetas sensibles
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.vscode/
+clave.txtr
+clave.txtr.pub
+msi_tracker_bot.code-workspace
+Msi_Bot_PRO.code-workspace
+resgitro.txt
+test.py
+test.py
+bugs y mejoras.txt
+
+# Ignorar carpeta secrets completa
+secrets/

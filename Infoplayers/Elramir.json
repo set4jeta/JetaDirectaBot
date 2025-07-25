@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Elramir",
+    "nombre_real": "Taha Yurdagüven",
+    "edad": 25,
+    "equipo": "Geekay Esports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/elramirlol",
+      "twitch": "https://twitch.tv/elramirlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/elramir.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "elramir#3161",
+      "nivel": 824,
+      "liga": "MASTER I",
+      "lp": 730,
+      "victorias": 414,
+      "derrotas": 383,
+      "ultima_partida": 1753297697710
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 23,
+      "victorias": 8,
+      "winrate": "34.8%",
+      "kda_promedio": 2.255813953488372
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9393939393939394
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.953125
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.782608695652174
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.3783783783783785
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.1724137931034484
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.5185185185185186
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3870967741935485
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 120,
+    "wins": 52,
+    "losses": 68,
+    "timePlayed": 186864
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "info_jugador": {
+    "nombre": "Nanahiralover",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://twitch.tv/nanahiralover"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nanahiralover.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MonkMental69#Stoic",
+      "nivel": 144,
+      "liga": "DIAMOND IV",
+      "lp": 95,
+      "victorias": 21,
+      "derrotas": 13,
+      "ultima_partida": 1753071040328
+    },
+    {
+      "nombre": "NanahiraLover#Stoic",
+      "nivel": 476,
+      "liga": "MASTER I",
+      "lp": 684,
+      "victorias": 170,
+      "derrotas": 135,
+      "ultima_partida": 1752168689413
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Riven",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 4,
+    "wins": 4,
+    "losses": 0,
+    "timePlayed": 6481
+  }
+}

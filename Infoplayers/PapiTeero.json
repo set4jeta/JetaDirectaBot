@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "PapiTeero",
+    "nombre_real": "Antero&nbsp;Trindade Baldaia",
+    "edad": 21,
+    "equipo": "Team BDS Academy",
+    "pais": "Portugal",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/PapiTeeroLOL",
+      "twitch": "https://twitch.tv/papiteero"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ToothIess#EUW",
+      "nivel": 1333,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 963,
+      "victorias": 643,
+      "derrotas": 601,
+      "ultima_partida": 1753387452291
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rumble",
+      "partidas": 18,
+      "victorias": 8,
+      "winrate": "44.4%",
+      "kda_promedio": 3.0555555555555554
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 3.5121951219512195
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1343283582089554
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.1463414634146343
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 9,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6341463414634148
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.071428571428571
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.473684210526316
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 115,
+    "wins": 64,
+    "losses": 51,
+    "timePlayed": 188487
+  }
+}

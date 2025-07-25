@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Yukino",
+    "nombre_real": "Johnny Dang",
+    "edad": 19,
+    "equipo": "Karmine Corp Blue",
+    "pais": "United States",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/yukinocat5",
+      "twitch": "https://twitch.tv/yukinocat1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "yukino cat#blue",
+      "nivel": 171,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1274,
+      "victorias": 280,
+      "derrotas": 191,
+      "ultima_partida": 1752690579089
+    },
+    {
+      "nombre": "chinatsu cat#blue",
+      "nivel": 68,
+      "region": "NA1",
+      "liga": "GRANDMASTER I",
+      "lp": 519,
+      "victorias": 70,
+      "derrotas": 26,
+      "ultima_partida": 1751761161382
+    },
+    {
+      "nombre": "yukino cat#006",
+      "nivel": 45,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.333333333333333
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 12,
+    "losses": 8,
+    "timePlayed": 32338
+  }
+}

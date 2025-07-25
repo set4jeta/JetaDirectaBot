@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Kuroneel",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kuroneel_",
+      "twitch": "https://twitch.tv/kuroneel_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kuroneel.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Plagiarism#ZTMY",
+      "nivel": 1329,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 470,
+      "derrotas": 430,
+      "ultima_partida": 1753381884721
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.7291666666666665
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6779661016949152
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.061224489795918
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2333333333333334
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5116279069767442
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1052631578947367
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4705882352941178
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5862068965517241
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 72,
+    "wins": 31,
+    "losses": 41,
+    "timePlayed": 123952
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Decay",
+    "nombre_real": "Nicolas Gawron",
+    "edad": 25,
+    "equipo": "Solary",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/DecayLoL_",
+      "twitch": "https://twitch.tv/decaylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/decay.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SLY.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Decay0#EUW",
+      "nivel": 1458,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1093,
+      "victorias": 533,
+      "derrotas": 484,
+      "ultima_partida": 1753372624949
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Annie",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 4.237288135593221
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 6.705882352941177
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.6097560975609757
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.523809523809524
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 6,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9761904761904762
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4411764705882355
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.933333333333334
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.107142857142857
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.6875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 87,
+    "wins": 44,
+    "losses": 43,
+    "timePlayed": 143270
+  }
+}

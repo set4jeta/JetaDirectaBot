@@ -1,0 +1,104 @@
+{
+  "info_jugador": {
+    "nombre": "Slice",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/SliceSWE"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LLS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Slice#lol",
+      "nivel": 742,
+      "liga": "GRANDMASTER I",
+      "lp": 767,
+      "victorias": 416,
+      "derrotas": 375,
+      "ultima_partida": 1753299249016
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 4.297297297297297
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.521739130434782
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.185185185185185
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.3181818181818181
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7692307692307692
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 29,
+    "losses": 30,
+    "timePlayed": 98601
+  }
+}

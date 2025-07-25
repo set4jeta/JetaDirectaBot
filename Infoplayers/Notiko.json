@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Notiko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Notikolol",
+      "twitch": "https://twitch.tv/notikolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/notiko.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Notiko#EUW01",
+      "nivel": 877,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 885,
+      "victorias": 369,
+      "derrotas": 328,
+      "ultima_partida": 1753383639313
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.90625
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.4
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 12,
+    "losses": 19,
+    "timePlayed": 51440
+  }
+}

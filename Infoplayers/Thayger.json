@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Thayger",
+    "nombre_real": "Francisco Mazo Sánchez",
+    "edad": 23,
+    "equipo": "Natus Vincere",
+    "pais": "Spain",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Thayger_",
+      "twitch": "https://www.twitch.tv/thaygerlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/thayger.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Sung Jin woo#SOUL",
+      "nivel": 959,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1430,
+      "victorias": 301,
+      "derrotas": 237,
+      "ultima_partida": 1753391952985
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 3.2567567567567566
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 5.4375
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.7096774193548385
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.2580645161290325
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.590909090909091
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4761904761904763
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.75
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 75,
+    "wins": 41,
+    "losses": 34,
+    "timePlayed": 119546
+  }
+}

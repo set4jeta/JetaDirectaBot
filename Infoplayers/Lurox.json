@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Lurox",
+    "nombre_real": "Lukas Thoma",
+    "edad": 25,
+    "equipo": "Vitality.Bee",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LuroxLoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lurox.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Lurox#Lurox",
+      "nivel": 1075,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1130,
+      "victorias": 451,
+      "derrotas": 405,
+      "ultima_partida": 1753389148815
+    },
+    {
+      "nombre": "Lurox#LRX76",
+      "nivel": 396,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 102,
+      "derrotas": 58,
+      "ultima_partida": 1745794296105
+    },
+    {
+      "nombre": "Lurox#LRX",
+      "nivel": 42,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 24,
+      "victorias": 18,
+      "winrate": "75.0%",
+      "kda_promedio": 5.930555555555555
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 20,
+      "victorias": 15,
+      "winrate": "75.0%",
+      "kda_promedio": 3.63265306122449
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.4081632653061225
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.3225806451612905
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.235294117647059
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3636363636363638
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 96,
+    "wins": 55,
+    "losses": 41,
+    "timePlayed": 160787
+  }
+}

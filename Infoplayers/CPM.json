@@ -1,0 +1,109 @@
+{
+  "info_jugador": {
+    "nombre": "CPM",
+    "nombre_real": "Laurentiu-Dodel Zidaru",
+    "edad": 30,
+    "equipo": "ZETA",
+    "pais": "Romania",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Coatpustmain",
+      "twitch": "https://twitch.tv/coatpustmain"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZTA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Coatpustmain#Coat",
+      "nivel": 876,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 901,
+      "victorias": 607,
+      "derrotas": 574,
+      "ultima_partida": 1753363166341
+    },
+    {
+      "nombre": "Tank of Romania#EUW",
+      "nivel": 323,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 245,
+      "victorias": 138,
+      "derrotas": 128,
+      "ultima_partida": 1753003419834
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sion",
+      "partidas": 25,
+      "victorias": 15,
+      "winrate": "60.0%",
+      "kda_promedio": 2.9411764705882355
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 23,
+      "victorias": 14,
+      "winrate": "60.9%",
+      "kda_promedio": 3.6417910447761193
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 20,
+      "victorias": 8,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5076923076923077
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 4.448275862068965
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 2.732142857142857
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 61,
+    "losses": 46,
+    "timePlayed": 171834
+  }
+}

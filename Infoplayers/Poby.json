@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Poby",
+    "nombre_real": "Yoon Sung-won",
+    "edad": 19,
+    "equipo": "Fnatic",
+    "pais": "South Korea",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/poby.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "XPoby#0207",
+      "nivel": 35,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 320,
+      "victorias": 39,
+      "derrotas": 5,
+      "ultima_partida": 1753385960500
+    },
+    {
+      "nombre": "피오비와이#0207",
+      "nivel": 322,
+      "region": "KR",
+      "liga": "MASTER I",
+      "lp": 270,
+      "victorias": 271,
+      "derrotas": 241,
+      "ultima_partida": 1751729461947
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Annie",
+      "partidas": 8,
+      "victorias": 8,
+      "winrate": "100.0%",
+      "kda_promedio": 5.714285714285714
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 10.625
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 6.545454545454546
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.857142857142857
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.666666666666666
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 22
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 39,
+    "losses": 5,
+    "timePlayed": 65226
+  }
+}

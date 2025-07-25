@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Nash",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lolNash1",
+      "twitch": "https://twitch.tv/lolnash1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nash.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VVV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "LeoNaut Phobia#EUW",
+      "nivel": 333,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 220,
+      "victorias": 256,
+      "derrotas": 218,
+      "ultima_partida": 1753378973151
+    },
+    {
+      "nombre": "Aggressive Play#EUW",
+      "nivel": 80,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1082,
+      "victorias": 219,
+      "derrotas": 153,
+      "ultima_partida": 1753302349759
+    },
+    {
+      "nombre": "Strongest Potion#EUW",
+      "nivel": 316,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 76,
+      "derrotas": 57,
+      "ultima_partida": 1752421021814
+    },
+    {
+      "nombre": "Stack Collector#EUW",
+      "nivel": 726,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 417,
+      "victorias": 174,
+      "derrotas": 148,
+      "ultima_partida": 1752364017137
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.7704918032786887
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.32
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.95
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 22,
+    "losses": 19,
+    "timePlayed": 66368
+  }
+}

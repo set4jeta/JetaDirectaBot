@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Rames",
+    "nombre_real": "Mustafa Korkmaz",
+    "edad": 21,
+    "equipo": "Joblife",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/rameslol1\\t",
+      "twitch": "https://www.twitch.tv/rameslol\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/rames.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/JL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "JL Yong#077",
+      "nivel": 274,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 814,
+      "victorias": 315,
+      "derrotas": 277,
+      "ultima_partida": 1753367613058
+    },
+    {
+      "nombre": "AIba Madalyon#EUW",
+      "nivel": 378,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 50,
+      "victorias": 90,
+      "derrotas": 84,
+      "ultima_partida": 1753006336332
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 25,
+      "victorias": 14,
+      "winrate": "56.0%",
+      "kda_promedio": 3.6486486486486487
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 21,
+      "victorias": 12,
+      "winrate": "57.1%",
+      "kda_promedio": 3.519607843137255
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 3.230769230769231
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1320754716981134
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.96875
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6153846153846154
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 94,
+    "wins": 43,
+    "losses": 51,
+    "timePlayed": 143873
+  }
+}

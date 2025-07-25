@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Strode",
+    "nombre_real": "Šimon Povýšil",
+    "edad": 19,
+    "equipo": "Nightbirds",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/strodeadc",
+      "twitch": "https://www.twitch.tv/strode_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "lck material ad#EUW",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 403,
+      "victorias": 72,
+      "derrotas": 34,
+      "ultima_partida": 1753384364211
+    },
+    {
+      "nombre": "Kwon Jae Sung#TOPG",
+      "nivel": 482,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 904,
+      "victorias": 307,
+      "derrotas": 267,
+      "ultima_partida": 1753354453640
+    },
+    {
+      "nombre": "rank one#111",
+      "nivel": 101,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1059,
+      "victorias": 341,
+      "derrotas": 265,
+      "ultima_partida": 1752705533609
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 23,
+      "victorias": 14,
+      "winrate": "60.9%",
+      "kda_promedio": 3.4270833333333335
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.981818181818182
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.5135135135135136
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.473684210526316
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.8421052631578947
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5217391304347827
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 99,
+    "wins": 49,
+    "losses": 50,
+    "timePlayed": 165945
+  }
+}

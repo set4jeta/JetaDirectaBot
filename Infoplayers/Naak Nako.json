@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Naak Nako",
+    "nombre_real": "Kaan Okan",
+    "edad": 20,
+    "equipo": "Team Vitality",
+    "pais": "Turkey",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/naaknakolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/naaknako.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Dele Alli#VIT",
+      "nivel": 698,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 675,
+      "victorias": 139,
+      "derrotas": 87,
+      "ultima_partida": 1753391319075
+    },
+    {
+      "nombre": "Naak Pado#VIT",
+      "nivel": 89,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1233,
+      "victorias": 360,
+      "derrotas": 237,
+      "ultima_partida": 1753038346549
+    },
+    {
+      "nombre": "E Q D E Q A R#EUW",
+      "nivel": 239,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.2615384615384615
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9827586206896552
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.9038461538461537
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Riven",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7857142857142856
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3157894736842106
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 38,
+    "losses": 25,
+    "timePlayed": 104608
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Callme",
+    "nombre_real": "Oh Ji-hoon",
+    "edad": 22,
+    "equipo": "Misa Esports",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/callme.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "MIDKING#kkkk",
+      "nivel": 232,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1312,
+      "victorias": 907,
+      "derrotas": 824,
+      "ultima_partida": 1753396651041
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Azir",
+      "partidas": 21,
+      "victorias": 15,
+      "winrate": "71.4%",
+      "kda_promedio": 2.392156862745098
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 11,
+      "victorias": 10,
+      "winrate": "90.9%",
+      "kda_promedio": 5.485714285714286
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.5737704918032787
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.1707317073170733
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 3.5526315789473686
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0444444444444443
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.1315789473684212
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.0350877192982457
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.3529411764705883
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.411764705882353
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 165,
+    "wins": 91,
+    "losses": 74,
+    "timePlayed": 254589
+  }
+}

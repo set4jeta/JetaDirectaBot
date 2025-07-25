@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Thien",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Thiensf",
+      "twitch": "https://www.twitch.tv/thien3"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RBT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "TwTv Thiensf#LFT",
+      "nivel": 108,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 756,
+      "victorias": 330,
+      "derrotas": 276,
+      "ultima_partida": 1753385559772
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 25,
+      "victorias": 12,
+      "winrate": "48.0%",
+      "kda_promedio": 2.881720430107527
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 25,
+      "victorias": 11,
+      "winrate": "44.0%",
+      "kda_promedio": 1.6290322580645162
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 2.74
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 19,
+      "victorias": 8,
+      "winrate": "42.1%",
+      "kda_promedio": 2.4714285714285715
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 4.203389830508475
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.282608695652174
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3783783783783785
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.107142857142857
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 7.285714285714286
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 170,
+    "wins": 85,
+    "losses": 85,
+    "timePlayed": 268606
+  }
+}

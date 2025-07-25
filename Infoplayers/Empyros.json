@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Empyros",
+    "nombre_real": "Panagiotis Tantis",
+    "edad": 21,
+    "equipo": "Gentle Mates",
+    "pais": "Greece",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/EmpyrosGRE",
+      "twitch": "https://www.twitch.tv/empyros_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "pt4#000",
+      "nivel": 892,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1435,
+      "victorias": 451,
+      "derrotas": 397,
+      "ultima_partida": 1753398958330
+    },
+    {
+      "nombre": "platamon prodigy#0000",
+      "nivel": 327,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 485,
+      "victorias": 157,
+      "derrotas": 108,
+      "ultima_partida": 1753265330972
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 3.1555555555555554
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.3541666666666665
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 2.4146341463414633
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.3548387096774195
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 5.733333333333333
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1923076923076925
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6315789473684212
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.357142857142857
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 91,
+    "wins": 53,
+    "losses": 38,
+    "timePlayed": 144041
+  }
+}

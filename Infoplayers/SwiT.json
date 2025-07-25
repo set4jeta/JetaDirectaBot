@@ -1,0 +1,68 @@
+{
+  "info_jugador": {
+    "nombre": "SwiT",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AFW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SwiT#ZEUS",
+      "nivel": 791,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1110,
+      "victorias": 402,
+      "derrotas": 355,
+      "ultima_partida": 1753387695516
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.3529411764705883
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.789473684210526
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 24,
+    "wins": 11,
+    "losses": 13,
+    "timePlayed": 39950
+  }
+}

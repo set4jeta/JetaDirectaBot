@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Skeanz",
+    "nombre_real": "Duncan Marquet",
+    "edad": 24,
+    "equipo": "SK Gaming",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Skeanz_lol",
+      "twitch": "https://twitch.tv/skeanz"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/skeanz.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Shëun#2530",
+      "nivel": 453,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1642,
+      "victorias": 644,
+      "derrotas": 574,
+      "ultima_partida": 1753388608027
+    },
+    {
+      "nombre": "Sunflower#2509",
+      "nivel": 646,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 11,
+      "derrotas": 15,
+      "ultima_partida": 1750283346566
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.758620689655173
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 6.529411764705882
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.388888888888889
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.705882352941177
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.95
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.583333333333333
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 33,
+    "losses": 26,
+    "timePlayed": 96343
+  }
+}

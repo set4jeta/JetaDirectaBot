@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "adi1",
+    "nombre_real": "Adrian Jackowski",
+    "edad": 23,
+    "equipo": "Nightbirds",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/adrianint",
+      "twitch": "https://www.twitch.tv/adrianint"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/adi1.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "空 空#78141",
+      "nivel": 171,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 696,
+      "victorias": 70,
+      "derrotas": 47,
+      "ultima_partida": 1753395467927
+    },
+    {
+      "nombre": "Ailurus fulgens#78141",
+      "nivel": 814,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 571,
+      "victorias": 87,
+      "derrotas": 63,
+      "ultima_partida": 1753384371307
+    },
+    {
+      "nombre": "inspired1#78141",
+      "nivel": 371,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1183,
+      "victorias": 129,
+      "derrotas": 64,
+      "ultima_partida": 1753378674070
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3461538461538463
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.2333333333333334
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.363636363636363
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.428571428571429
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5454545454545454
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 49,
+    "wins": 29,
+    "losses": 20,
+    "timePlayed": 78877
+  }
+}

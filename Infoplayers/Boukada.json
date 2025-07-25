@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Boukada",
+    "nombre_real": "Mehdi Lahlou",
+    "edad": 22,
+    "equipo": "Team BDS",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Boukadaaa",
+      "twitch": "https://twitch.tv/Boukadaaa"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/boukada.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Boukada#EUW",
+      "nivel": 935,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1085,
+      "victorias": 280,
+      "derrotas": 243,
+      "ultima_partida": 1753367107388
+    },
+    {
+      "nombre": "Le mec du 91#EUW",
+      "nivel": 206,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 172,
+      "victorias": 50,
+      "derrotas": 31,
+      "ultima_partida": 1753299720591
+    },
+    {
+      "nombre": "Shαwn Frost#EUW",
+      "nivel": 420,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 40,
+      "victorias": 29,
+      "derrotas": 21,
+      "ultima_partida": 1753295316446
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 18,
+      "victorias": 6,
+      "winrate": "33.3%",
+      "kda_promedio": 2.720720720720721
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 4.041666666666667
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.9411764705882355
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3448275862068966
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4814814814814814
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2777777777777777
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.454545454545454
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 80,
+    "wins": 36,
+    "losses": 44,
+    "timePlayed": 137675
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Dean",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/DeanGekz",
+      "twitch": "https://www.twitch.tv/deangekz"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GNG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "HomeIαnder#EUW",
+      "nivel": 1022,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 272,
+      "victorias": 225,
+      "derrotas": 217,
+      "ultima_partida": 1753288839578
+    },
+    {
+      "nombre": "low expectations#TUN",
+      "nivel": 137,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1078,
+      "victorias": 240,
+      "derrotas": 192,
+      "ultima_partida": 1753270100701
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.473684210526316
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.166666666666667
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 35,
+    "wins": 17,
+    "losses": 18,
+    "timePlayed": 59894
+  }
+}

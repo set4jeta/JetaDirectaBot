@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Macaquino",
+    "nombre_real": "Sergio Bouzende Rodrigues",
+    "edad": 21,
+    "equipo": "Guasones",
+    "pais": "Spain",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/macaquino_lol",
+      "twitch": "https://twitch.tv/macaquino_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GSNS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "MARIABECERRA FAN#MACA",
+      "nivel": 1536,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1155,
+      "victorias": 462,
+      "derrotas": 416,
+      "ultima_partida": 1753389089895
+    },
+    {
+      "nombre": "PERREO FURIOSO#EUW",
+      "nivel": 73,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 67,
+      "derrotas": 36,
+      "ultima_partida": 1752686969158
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.8444444444444446
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.7017543859649122
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 3.0606060606060606
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.896551724137931
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.903225806451613
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 64,
+    "wins": 33,
+    "losses": 31,
+    "timePlayed": 106363
+  }
+}

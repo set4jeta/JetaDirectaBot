@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Cape",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lolcapee"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TFF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Insomnia#531",
+      "nivel": 820,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1050,
+      "victorias": 273,
+      "derrotas": 226,
+      "ultima_partida": 1753235307035
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 3.5774647887323945
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.08
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.870967741935484
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6818181818181817
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.210526315789474
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 71,
+    "wins": 40,
+    "losses": 31,
+    "timePlayed": 115565
+  }
+}

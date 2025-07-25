@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Vzz",
+    "nombre_real": "Teodor Cholakov",
+    "edad": 24,
+    "equipo": "TeamOrangeGaming",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Vzz_lol",
+      "twitch": "https://www.twitch.tv/vzzlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TOG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SOGEKING#EUW11",
+      "nivel": 677,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 910,
+      "victorias": 426,
+      "derrotas": 398,
+      "ultima_partida": 1753388723845
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 27,
+      "victorias": 16,
+      "winrate": "59.3%",
+      "kda_promedio": 4.291666666666667
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.5294117647058822
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 6.363636363636363
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 32
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 33,
+    "losses": 30,
+    "timePlayed": 98023
+  }
+}

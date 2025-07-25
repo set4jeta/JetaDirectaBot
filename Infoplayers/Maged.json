@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Maged",
+    "nombre_real": "Maged Marawan Mohamed",
+    "edad": 24,
+    "equipo": "Anubis Gaming",
+    "pais": "Egypt",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/maged_lol",
+      "twitch": "https://www.twitch.tv/maged_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ANB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "elramir#kofte",
+      "nivel": 699,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 825,
+      "victorias": 610,
+      "derrotas": 563,
+      "ultima_partida": 1753329954850
+    },
+    {
+      "nombre": "DJ AATROX#DEATH",
+      "nivel": 717,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 169,
+      "derrotas": 151,
+      "ultima_partida": 1749844402032
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.1794871794871793
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1333333333333333
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2307692307692308
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 49,
+    "wins": 20,
+    "losses": 29,
+    "timePlayed": 79764
+  }
+}

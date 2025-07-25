@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Unkn0wn5",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Unkn0wn5_lol",
+      "twitch": "https://www.twitch.tv/unkn0wn05"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SGE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "LOCK TF INNNNNNN#6802",
+      "nivel": 126,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1357,
+      "victorias": 338,
+      "derrotas": 268,
+      "ultima_partida": 1753276808371
+    },
+    {
+      "nombre": "Unkn0wn#EUW11",
+      "nivel": 354,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 25,
+      "victorias": 151,
+      "derrotas": 126,
+      "ultima_partida": 1752833495791
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.395348837209302
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8125
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.5454545454545454
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 20,
+    "losses": 9,
+    "timePlayed": 49074
+  }
+}

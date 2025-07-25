@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Nata",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nata.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "哈哈哈哈哈哈#NATA",
+      "nivel": 460,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 138,
+      "victorias": 71,
+      "derrotas": 48,
+      "ultima_partida": 1753015209755
+    },
+    {
+      "nombre": "nat#mrrd",
+      "nivel": 918,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 897,
+      "victorias": 246,
+      "derrotas": 202,
+      "ultima_partida": 1752929518371
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 6,
+    "losses": 7,
+    "timePlayed": 21191
+  }
+}

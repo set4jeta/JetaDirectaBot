@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pipibaat",
+    "nombre_real": "Pascal Haygarth",
+    "edad": 24,
+    "equipo": "Senshi eSports (Benelux Team)",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Pipibaat_Yarr",
+      "twitch": "https://www.twitch.tv/pipibaat_yarr"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Pipibaat Yarr#EUW",
+      "nivel": 821,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1030,
+      "victorias": 291,
+      "derrotas": 243,
+      "ultima_partida": 1753304011004
+    },
+    {
+      "nombre": "henkdekabouter#EUW",
+      "nivel": 303,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 389,
+      "victorias": 118,
+      "derrotas": 101,
+      "ultima_partida": 1752957667521
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 3.65
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.590909090909091
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8125
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.8
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 39,
+    "losses": 22,
+    "timePlayed": 97666
+  }
+}

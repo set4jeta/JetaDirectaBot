@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "minemaciek",
+    "nombre_real": "Maciej Wicher",
+    "edad": 20,
+    "equipo": "StormMedia Fajnie Mieć Skład",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/minemaciek",
+      "twitch": "https://www.twitch.tv/minemaciek"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/minemaciek.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FMS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "maciek11#joker",
+      "nivel": 806,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 813,
+      "victorias": 186,
+      "derrotas": 151,
+      "ultima_partida": 1753314072320
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.3793103448275863
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8095238095238095
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.7
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8571428571428572
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 35,
+    "wins": 16,
+    "losses": 19,
+    "timePlayed": 54631
+  }
+}

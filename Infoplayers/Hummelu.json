@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Hummelu",
+    "nombre_real": "Marcus Drechsler",
+    "edad": 22,
+    "equipo": "RLX Esports",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Lol_Hummelu",
+      "twitch": "https://twitch.tv/hummelu"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Bullwark#Posch",
+      "nivel": 347,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 658,
+      "victorias": 106,
+      "derrotas": 76,
+      "ultima_partida": 1753280691089
+    },
+    {
+      "nombre": "Bob Loss#Hum",
+      "nivel": 1606,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 895,
+      "victorias": 553,
+      "derrotas": 516,
+      "ultima_partida": 1753270800672
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 39,
+      "victorias": 22,
+      "winrate": "56.4%",
+      "kda_promedio": 2.7419354838709675
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 2.4130434782608696
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 10,
+      "victorias": 9,
+      "winrate": "90.0%",
+      "kda_promedio": 3.2745098039215685
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.76271186440678
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.88
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.25
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1052631578947367
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 127,
+    "wins": 77,
+    "losses": 50,
+    "timePlayed": 201189
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "fantomisto",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/fantomisto",
+      "twitch": "https://www.twitch.tv/fantomisto"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DMG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "fantomisto#MID",
+      "nivel": 748,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 800,
+      "victorias": 465,
+      "derrotas": 428,
+      "ultima_partida": 1753366442670
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.282051282051282
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.7209302325581395
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8518518518518519
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 6.785714285714286
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.923076923076923
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 25,
+    "losses": 25,
+    "timePlayed": 79726
+  }
+}

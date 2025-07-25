@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "D4nKa",
+    "nombre_real": "Daniel Golzmann",
+    "edad": 23,
+    "equipo": "Verdant",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/D4nKa1",
+      "twitch": "https://www.twitch.tv/d4nkalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/d4nka.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VER.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "danka tyyy shiii#mood",
+      "nivel": 912,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1071,
+      "victorias": 285,
+      "derrotas": 245,
+      "ultima_partida": 1753303929437
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 6.222222222222222
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.727272727272727
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.714285714285714
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 25,
+    "wins": 15,
+    "losses": 10,
+    "timePlayed": 40191
+  }
+}

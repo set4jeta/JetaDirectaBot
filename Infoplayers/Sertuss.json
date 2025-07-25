@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sertuss",
+    "nombre_real": "Daniel Gamani",
+    "edad": 23,
+    "equipo": "Ici Japon Corp. Esport",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/SertussLoL",
+      "twitch": "https://www.twitch.tv/sertuss"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sertuss.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IJC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Sertuss#2312",
+      "nivel": 1274,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1029,
+      "victorias": 476,
+      "derrotas": 442,
+      "ultima_partida": 1753389572067
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.847457627118644
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.757575757575758
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6896551724137931
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.533333333333333
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.736842105263158
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 31,
+    "losses": 23,
+    "timePlayed": 84701
+  }
+}

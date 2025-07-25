@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Send0o",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Send0o",
+      "twitch": "https://twitch.tv/Send0o"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/send0o.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CGN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Madres Enjoyer#MILK",
+      "nivel": 1136,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 800,
+      "victorias": 539,
+      "derrotas": 508,
+      "ultima_partida": 1753318508172
+    },
+    {
+      "nombre": "무료 유방 촬영#KR69",
+      "nivel": 642,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 25,
+      "victorias": 10,
+      "derrotas": 6,
+      "ultima_partida": 1752523424778
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Poppy",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 2.4431818181818183
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.263157894736842
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Teemo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 15,
+    "losses": 15,
+    "timePlayed": 49652
+  }
+}

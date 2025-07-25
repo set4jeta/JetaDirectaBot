@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "kehvo",
+    "nombre_real": "Aleksi Merta",
+    "edad": 27,
+    "equipo": "Rich Gang (Norwegian Team)",
+    "pais": "Finland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KehvoLoL",
+      "twitch": "https://www.twitch.tv/kehvolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Jeesus III#EUW",
+      "nivel": 131,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 81,
+      "victorias": 127,
+      "derrotas": 112,
+      "ultima_partida": 1753388852566
+    },
+    {
+      "nombre": "Kehvo#EUW",
+      "nivel": 786,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 828,
+      "victorias": 236,
+      "derrotas": 200,
+      "ultima_partida": 1753382341329
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 3.148936170212766
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.9
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2105263157894737
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5454545454545454
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 64,
+    "wins": 34,
+    "losses": 30,
+    "timePlayed": 99282
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Agresivoo",
+    "nombre_real": "Tobiasz Ciba",
+    "edad": 25,
+    "equipo": "Back2TheGame",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Agresivolol",
+      "twitch": "https://www.twitch.tv/agresivoo_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/agresivoo.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/B2TG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "agrsv#EUW",
+      "nivel": 529,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 775,
+      "victorias": 397,
+      "derrotas": 358,
+      "ultima_partida": 1753387081266
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7755102040816326
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5483870967741935
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5909090909090908
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4375
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0384615384615385
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1333333333333333
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7857142857142858
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 33
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3571428571428572
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 25,
+    "losses": 19,
+    "timePlayed": 73342
+  }
+}

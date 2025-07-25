@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Markoon",
+    "nombre_real": "Mark van Woensel",
+    "edad": 22,
+    "equipo": "Solary",
+    "pais": "Netherlands",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MarkoonLoL",
+      "twitch": "https://twitch.tv/markooneuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/markoon.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SLY.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Michiel deRuyter#NLNLN",
+      "nivel": 1460,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1418,
+      "victorias": 606,
+      "derrotas": 539,
+      "ultima_partida": 1753373388617
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 19,
+      "victorias": 14,
+      "winrate": "73.7%",
+      "kda_promedio": 5.862068965517241
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 5.875
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.72
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 6.75
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 7.9
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.9285714285714284
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.0588235294117645
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.181818181818182
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.166666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 81,
+    "wins": 47,
+    "losses": 34,
+    "timePlayed": 129290
+  }
+}

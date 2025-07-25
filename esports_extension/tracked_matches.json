@@ -1,0 +1,579 @@
+[
+  {
+    "start_time": "2025-06-27T20:00:00+00:00",
+    "match_id": "113916505862001221",
+    "detection_time": "2025-06-27T20:42:35+00:00",
+    "last_checked": "2025-06-28T01:58:02+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Regional Qualifier",
+    "event_id": "113916505862001221",
+    "league_name": "TFT Esports ",
+    "slug": "tft_esports",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "108001255999862725",
+        "name": "TFT",
+        "code": "TFT",
+        "image": "http://static.lolesports.com/teams/1723029875030_TFT_GRADIENT_2.png",
+        "game_wins": 0
+      },
+      {
+        "id": "108001254066086450",
+        "name": "TFT",
+        "code": "TFT",
+        "image": "http://static.lolesports.com/teams/1723029869132_TFT_GRADIENT_2.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "113916505862001222",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-03T19:00:00+00:00",
+    "match_id": "113470922758215211",
+    "detection_time": "2025-07-04T02:30:43+00:00",
+    "last_checked": "2025-07-04T02:59:43+00:00",
+    "state": "completed",
+    "status": "completed",
+    "blockName": "Knockouts",
+    "event_id": "113470922758215211",
+    "league_name": "MSI",
+    "slug": "msi",
+    "best_of_count": 5,
+    "teams_event_details": [
+      {
+        "id": "103461966965149786",
+        "name": "Movistar KOI",
+        "code": "MKOI",
+        "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+        "game_wins": 1
+      },
+      {
+        "id": "99566404853854212",
+        "name": "BILIBILI GAMING DREAMSMART",
+        "code": "BLG",
+        "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+        "game_wins": 3
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "113470922758215212",
+        "number": 1,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:13+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114791081014562874",
+            "parameter": "N-HE__nbyoE",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T19:00:21.929000+00:00"
+          },
+          {
+            "id": "114791081014562875",
+            "parameter": "ojtkmTJCNRQ",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T19:02:58.090000+00:00"
+          },
+          {
+            "id": "114792149389251369",
+            "parameter": "JgCENKaQTmQ",
+            "locale": "it-IT",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T18:48:19.514000+00:00"
+          },
+          {
+            "id": "114791530453676337",
+            "parameter": "mXzdvHYptKQ",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T19:02:53.683000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215213",
+        "number": 2,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:13+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114791273807450367",
+            "parameter": "QlxXorFp14w",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T19:59:07.696000+00:00"
+          },
+          {
+            "id": "114791530467753889",
+            "parameter": "9IUzMfSuKU8",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T20:00:09.761000+00:00"
+          },
+          {
+            "id": "114791530467753890",
+            "parameter": "eJ6VE5IiKx8",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T19:59:53.220000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215214",
+        "number": 3,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:13+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114791530454528306",
+            "parameter": "JzDswszaxio",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T20:50:26.261000+00:00"
+          },
+          {
+            "id": "114791961583432222",
+            "parameter": "KHFNprtAAxA",
+            "locale": "es-ES",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T20:48:46.845000+00:00"
+          },
+          {
+            "id": "114791688873607615",
+            "parameter": "9sMrHHnjYFc",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T20:51:05.576000+00:00"
+          },
+          {
+            "id": "114791688873607616",
+            "parameter": "wKm4JccHHEc",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T20:50:48.452000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215215",
+        "number": 4,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:13+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114791748704403520",
+            "parameter": "KuvfjPpD57Y",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T21:46:53.826000+00:00"
+          },
+          {
+            "id": "114791787997573593",
+            "parameter": "r220DBh9nz4",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T21:48:36.346000+00:00"
+          },
+          {
+            "id": "114792149399802666",
+            "parameter": "6ae-5eU2f5A",
+            "locale": "it-IT",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T21:46:10.317000+00:00"
+          },
+          {
+            "id": "114792022636167311",
+            "parameter": "GlW9cpoCjL0",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T21:48:28.997000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215216",
+        "number": 5,
+        "state": "unneeded",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-04T00:00:00+00:00",
+    "match_id": "113470922758215205",
+    "detection_time": "2025-07-04T02:30:44+00:00",
+    "last_checked": "2025-07-04T03:06:19+00:00",
+    "state": "inProgress",
+    "status": "detected",
+    "blockName": "Knockouts",
+    "event_id": "113470922758215205",
+    "league_name": "MSI",
+    "slug": "msi",
+    "best_of_count": 5,
+    "teams_event_details": [
+      {
+        "id": "107700199633958891",
+        "name": "CTBC Flying Oyster",
+        "code": "CFO",
+        "image": "http://static.lolesports.com/teams/1656307849320_CFO_Logo.png",
+        "game_wins": 2
+      },
+      {
+        "id": "98767991853197861",
+        "name": "T1",
+        "code": "T1",
+        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+        "game_wins": 2
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "113470922758215206",
+        "number": 1,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:13+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114791994773897793",
+            "parameter": "er4bnb7Tolc",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T22:53:13.015000+00:00"
+          },
+          {
+            "id": "114792204377587972",
+            "parameter": "9LJsdjzAWFQ",
+            "locale": "es-ES",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T22:56:07.004000+00:00"
+          },
+          {
+            "id": "114792021391323680",
+            "parameter": "e6y6ufx0ivQ",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T22:55:27.300000+00:00"
+          },
+          {
+            "id": "114792204377587973",
+            "parameter": "eBkWb9zGsC8",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T22:55:16.373000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215207",
+        "number": 2,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:13+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114792204395250342",
+            "parameter": "b_m5nEmbJao",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T23:51:01.762000+00:00"
+          },
+          {
+            "id": "114792342140715765",
+            "parameter": "u7G76xJpsZA",
+            "locale": "es-ES",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T23:50:12.871000+00:00"
+          },
+          {
+            "id": "114792421568119552",
+            "parameter": "x104rAZbPc0",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T23:52:41.266000+00:00"
+          },
+          {
+            "id": "114792421568119553",
+            "parameter": "YS40faBoGug",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-03T23:52:29.266000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215208",
+        "number": 3,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:13+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114792421576933721",
+            "parameter": "YZMX_g7fgG8",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-04T00:40:25.567000+00:00"
+          },
+          {
+            "id": "114792616358982451",
+            "parameter": "-xWiFMsLsnI",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-04T00:42:53.114000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215209",
+        "number": 4,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-04T02:31:14+00:00",
+        "real_start_time": null,
+        "vods": [
+          {
+            "id": "114792652592984884",
+            "parameter": "vP7GuSJi474",
+            "locale": "en-US",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-04T01:32:59.934000+00:00"
+          },
+          {
+            "id": "114792652592984885",
+            "parameter": "VVUwZUTYfiY",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2025-07-04T01:34:44.734000+00:00"
+          }
+        ],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "113470922758215210",
+        "number": 5,
+        "state": "inProgress",
+        "draft_in_progress": false,
+        "has_participants": true,
+        "notified_time": "2025-07-04T02:43:18+00:00",
+        "notified_game": true,
+        "finished_time": null,
+        "real_start_time": "2025-07-04T02:43:18+00:00",
+        "vods": [],
+        "live_patch": "15.13.693.1076",
+        "live_blue_metadata": {
+          "team_id": "107700199633958891",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "99566406483009320",
+              "summoner_name": "CFO Rest",
+              "champion_id": "Ornn",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "101971954398227333",
+              "summoner_name": "CFO JunJia",
+              "champion_id": "Zyra",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "112772120821320830",
+              "summoner_name": "CFO HongQ",
+              "champion_id": "Tristana",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "104573129055417270",
+              "summoner_name": "CFO Doggo",
+              "champion_id": "Xayah",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "98767975956663486",
+              "summoner_name": "CFO Kaiwing",
+              "champion_id": "Rakan",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "98767991853197861",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "102186485482484390",
+              "summoner_name": "T1 Doran",
+              "champion_id": "Jayce",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "105320682452092471",
+              "summoner_name": "T1 Oner",
+              "champion_id": "Sejuani",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "98767991747728851",
+              "summoner_name": "T1 Faker",
+              "champion_id": "Orianna",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "103495716775975785",
+              "summoner_name": "T1 Gumayusi",
+              "champion_id": "Jinx",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "103495716561790834",
+              "summoner_name": "T1 Keria",
+              "champion_id": "TahmKench",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2025-07-04T03:05:39.858Z"
+      }
+    ]
+  }
+]

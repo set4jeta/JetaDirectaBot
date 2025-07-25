@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Tea",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Teamid17"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Tea#2299",
+      "nivel": 1258,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1181,
+      "victorias": 871,
+      "derrotas": 811,
+      "ultima_partida": 1753390741817
+    },
+    {
+      "nombre": "T34#mid",
+      "nivel": 97,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 114,
+      "victorias": 32,
+      "derrotas": 8,
+      "ultima_partida": 1753274133730
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vladimir",
+      "partidas": 79,
+      "victorias": 50,
+      "winrate": "63.3%",
+      "kda_promedio": 2.504398826979472
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 0.8208955223880597
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.736842105263158
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.84
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3157894736842106
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 154,
+    "wins": 79,
+    "losses": 75,
+    "timePlayed": 243960
+  }
+}

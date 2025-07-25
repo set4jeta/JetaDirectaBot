@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Bobsik",
+    "nombre_real": "Matyáš Dobeš",
+    "edad": 18,
+    "equipo": "Team UNiTY",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Bobsik_",
+      "twitch": "https://www.twitch.tv/bobsik1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UNIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Bobsik2#보빅스",
+      "nivel": 196,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 773,
+      "victorias": 157,
+      "derrotas": 114,
+      "ultima_partida": 1753388950068
+    },
+    {
+      "nombre": "Bobsik#EUW",
+      "nivel": 559,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 65,
+      "victorias": 372,
+      "derrotas": 365,
+      "ultima_partida": 1752421234449
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gangplank",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 1.643835616438356
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.8028169014084507
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.4565217391304346
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.617021276595745
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.0980392156862746
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 1.4482758620689655
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0545454545454545
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.051282051282051
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.4864864864864864
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 142,
+    "wins": 81,
+    "losses": 61,
+    "timePlayed": 231919
+  }
+}

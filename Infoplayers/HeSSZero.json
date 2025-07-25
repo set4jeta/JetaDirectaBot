@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "HeSSZero",
+    "nombre_real": "Paweł Karwot",
+    "edad": 21,
+    "equipo": "Bulldog Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/HeSSZero",
+      "twitch": "https://www.twitch.tv/hesszer0"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hesszero.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "hesszero#PAWEL",
+      "nivel": 860,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 930,
+      "victorias": 311,
+      "derrotas": 270,
+      "ultima_partida": 1753282001653
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kled",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.9245283018867925
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 0.7586206896551724
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2857142857142857
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 36,
+    "wins": 17,
+    "losses": 19,
+    "timePlayed": 58503
+  }
+}

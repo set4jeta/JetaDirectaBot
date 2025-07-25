@@ -1,0 +1,88 @@
+{
+  "info_jugador": {
+    "nombre": "Hans Sama",
+    "nombre_real": "Steven Liv",
+    "edad": 25,
+    "equipo": "G2 Esports",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Hanssama",
+      "twitch": "https://twitch.tv/hanssama"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hanssama.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/G2.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "G2 Hans Sama#12838",
+      "nivel": 247,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 871,
+      "victorias": 405,
+      "derrotas": 347,
+      "ultima_partida": 1753299764590
+    },
+    {
+      "nombre": "G2 12838712#1234",
+      "nivel": 31,
+      "region": "NA1",
+      "liga": "DIAMOND III",
+      "lp": 56,
+      "victorias": 10,
+      "derrotas": 2,
+      "ultima_partida": 1751565975850
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5555555555555556
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 5,
+    "losses": 4,
+    "timePlayed": 13693
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "kkero",
+    "nombre_real": "Kaan Soyuner",
+    "edad": 20,
+    "equipo": "GOAL",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/kkerolol",
+      "twitch": "https://www.twitch.tv/kkerolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GOAL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "kero ü nehar#EUW",
+      "nivel": 955,
+      "liga": "MASTER I",
+      "lp": 674,
+      "victorias": 332,
+      "derrotas": 298,
+      "ultima_partida": 1753313564568
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Seraphine",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 4.786666666666667
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.051282051282051
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 1.7209302325581395
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.3125
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.789473684210526
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.35
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.111111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 84,
+    "wins": 41,
+    "losses": 43,
+    "timePlayed": 132605
+  }
+}

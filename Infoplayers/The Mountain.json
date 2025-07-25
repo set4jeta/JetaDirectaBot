@@ -1,0 +1,70 @@
+{
+  "info_jugador": {
+    "nombre": "The Mountain",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ItsReallyHard00"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AAXL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "The Mountain#IRH",
+      "nivel": 1441,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1150,
+      "victorias": 693,
+      "derrotas": 653,
+      "ultima_partida": 1753394191279
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ornn",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "timePlayed": 23857
+  }
+}

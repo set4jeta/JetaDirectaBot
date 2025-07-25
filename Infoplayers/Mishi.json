@@ -1,0 +1,95 @@
+{
+  "info_jugador": {
+    "nombre": "Mishi",
+    "nombre_real": "Kevin Westerbacka",
+    "edad": 23,
+    "equipo": "Team BDS Academy",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Mishigulol",
+      "twitch": "https://twitch.tv/mishigulol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/mishi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Mishi#001",
+      "nivel": 840,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 974,
+      "victorias": 263,
+      "derrotas": 237,
+      "ultima_partida": 1753368969532
+    },
+    {
+      "nombre": "bitsuMishi#0001",
+      "nivel": 95,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 17,
+      "victorias": 64,
+      "derrotas": 41,
+      "ultima_partida": 1752957187863
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2058823529411766
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1071428571428572
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5714285714285714
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 7,
+    "losses": 10,
+    "timePlayed": 27823
+  }
+}

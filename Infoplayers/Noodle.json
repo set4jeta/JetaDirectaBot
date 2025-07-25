@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Noodle",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/NoodleL0L1",
+      "twitch": "https://twitch.tv/hedonisten1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IN5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BETTER SUPP WINS#Baker",
+      "nivel": 496,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 838,
+      "victorias": 322,
+      "derrotas": 281,
+      "ultima_partida": 1753297569673
+    },
+    {
+      "nombre": "XiaoHuaSheng7#BAKER",
+      "nivel": 174,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1003,
+      "victorias": 196,
+      "derrotas": 144,
+      "ultima_partida": 1753209914562
+    },
+    {
+      "nombre": "2920139538#baker",
+      "nivel": 167,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 534,
+      "victorias": 122,
+      "derrotas": 91,
+      "ultima_partida": 1753168809051
+    },
+    {
+      "nombre": "fill and chill#bakir",
+      "nivel": 300,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 266,
+      "victorias": 214,
+      "derrotas": 192,
+      "ultima_partida": 1753100535520
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Naafiri",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 4.603448275862069
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.8421052631578947
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.68
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.1363636363636362
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5384615384615383
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.4285714285714284
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 44,
+    "losses": 46,
+    "timePlayed": 144748
+  }
+}

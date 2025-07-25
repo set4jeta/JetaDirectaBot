@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Ersin",
+    "nombre_real": "Salim Ersin Altıparmak",
+    "edad": 21,
+    "equipo": "BBL Dark Passage",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ersin6p",
+      "twitch": "https://www.twitch.tv/ersin6p"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Ersin#643",
+      "nivel": 859,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1114,
+      "victorias": 492,
+      "derrotas": 442,
+      "ultima_partida": 1753397322220
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Volibear",
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 2.8679245283018866
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.697674418604651
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.59375
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 21,
+    "losses": 10,
+    "timePlayed": 52318
+  }
+}

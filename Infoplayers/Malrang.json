@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Malrang",
+    "nombre_real": "Kim Geun-seong",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "South Korea",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Malrang12"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/malrang.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "sdfsdfsgert#EUW",
+      "nivel": 224,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 913,
+      "victorias": 411,
+      "derrotas": 365,
+      "ultima_partida": 1753390008163
+    },
+    {
+      "nombre": "Co24#KR1",
+      "nivel": 314,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1751322997615
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.9555555555555557
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 7.090909090909091
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.054054054054054
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.25531914893617
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.96
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.230769230769231
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 7.714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 80,
+    "wins": 39,
+    "losses": 41,
+    "timePlayed": 129382
+  }
+}

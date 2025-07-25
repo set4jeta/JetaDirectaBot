@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Adryh",
+    "nombre_real": "Adrian&nbsp;Rahi Herrera Otero",
+    "edad": 26,
+    "equipo": "Emperor Penguin Gaming",
+    "pais": "Peru",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/mcadryh",
+      "twitch": "https://twitch.tv/mcadryh"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Adryh#4841",
+      "nivel": 935,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 833,
+      "victorias": 306,
+      "derrotas": 277,
+      "ultima_partida": 1753146803386
+    },
+    {
+      "nombre": "A POR EL BOTE#EUW",
+      "nivel": 119,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 62,
+      "victorias": 115,
+      "derrotas": 104,
+      "ultima_partida": 1752351626528
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5172413793103448
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 4.32
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.15625
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.08
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 25,
+    "losses": 17,
+    "timePlayed": 67751
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "info_jugador": {
+    "nombre": "Koldo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Koldo_LoL",
+      "twitch": "https://twitch.tv/koldo_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/koldo.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Koldo#1233",
+      "nivel": 919,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1500,
+      "victorias": 375,
+      "derrotas": 320,
+      "ultima_partida": 1753355738049
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.318181818181818
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 7.785714285714286
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 10,
+    "losses": 5,
+    "timePlayed": 22811
+  }
+}

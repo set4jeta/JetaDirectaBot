@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Mood",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Mood_lol999",
+      "twitch": "https://www.twitch.tv/mood_lol999"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Mood9#EUW",
+      "nivel": 191,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1041,
+      "victorias": 323,
+      "derrotas": 279,
+      "ultima_partida": 1753375254991
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.033333333333333
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.676470588235294
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.285714285714286
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.2058823529411766
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4375
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7894736842105263
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 23,
+    "losses": 20,
+    "timePlayed": 66549
+  }
+}

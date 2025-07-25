@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Lyncas",
+    "nombre_real": "Linas Nauncikas",
+    "edad": 21,
+    "equipo": "Team Vitality",
+    "pais": "Lithuania",
+    "contrato_hasta": "2026-11-26T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lyncaslol",
+      "twitch": "https://twitch.tv/lyncaslol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lyncas.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "v lyncas1#lync1",
+      "nivel": 1019,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1406,
+      "victorias": 395,
+      "derrotas": 309,
+      "ultima_partida": 1753391952985
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vi",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.652173913043478
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 6.173913043478261
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.888888888888889
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 31,
+    "losses": 29,
+    "timePlayed": 96508
+  }
+}

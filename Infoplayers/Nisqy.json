@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nisqy",
+    "nombre_real": "Yasin Dinçer",
+    "edad": 26,
+    "equipo": "Karmine Corp",
+    "pais": "Belgium",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Nisqy",
+      "twitch": "https://www.twitch.tv/nisqyy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nisqy.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "KC Subsqy#KCORP",
+      "nivel": 712,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 904,
+      "victorias": 484,
+      "derrotas": 443,
+      "ultima_partida": 1753374228409
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 3.359375
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.8979591836734695
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8518518518518516
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.6774193548387095
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.085714285714286
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.176470588235294
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9285714285714284
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 125,
+    "wins": 65,
+    "losses": 60,
+    "timePlayed": 196731
+  }
+}

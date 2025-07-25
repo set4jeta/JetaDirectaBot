@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Potent",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Potent213",
+      "twitch": "https://twitch.tv/potent213"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "BATMAN ALGERIEN#FEET",
+      "nivel": 633,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 973,
+      "victorias": 327,
+      "derrotas": 271,
+      "ultima_partida": 1753296801315
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Fiora",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.7083333333333335
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.0952380952380953
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7368421052631579
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5555555555555556
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 12,
+    "losses": 11,
+    "timePlayed": 37150
+  }
+}

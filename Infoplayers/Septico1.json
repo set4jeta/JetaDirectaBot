@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Septico1",
+    "nombre_real": "Cristian Axinte",
+    "edad": 24,
+    "equipo": "GnG Amazigh",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/septico11",
+      "twitch": "https://www.twitch.tv/septico1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GNG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "septico1#EUW",
+      "nivel": 799,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 855,
+      "victorias": 425,
+      "derrotas": 386,
+      "ultima_partida": 1753389322508
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Fiora",
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 1.95
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 1.4177215189873418
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.0217391304347827
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.0869565217391304
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 0.7017543859649122
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.55
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 83,
+    "wins": 39,
+    "losses": 44,
+    "timePlayed": 126582
+  }
+}

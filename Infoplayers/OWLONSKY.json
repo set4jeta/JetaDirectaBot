@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "OWLONSKY",
+    "nombre_real": "Dmitry Rusu",
+    "edad": 19,
+    "equipo": "FN Esports",
+    "pais": "Moldova",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/owlonsky",
+      "twitch": "https://www.twitch.tv/owlonsky"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "owlonsky#winn",
+      "nivel": 346,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 179,
+      "victorias": 199,
+      "derrotas": 193,
+      "ultima_partida": 1753313059016
+    },
+    {
+      "nombre": "owlonsky#000",
+      "nivel": 115,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 850,
+      "victorias": 191,
+      "derrotas": 144,
+      "ultima_partida": 1753306813935
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nidalee",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.0892857142857144
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.1363636363636362
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0416666666666667
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.571428571428571
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 26,
+    "losses": 25,
+    "timePlayed": 80725
+  }
+}

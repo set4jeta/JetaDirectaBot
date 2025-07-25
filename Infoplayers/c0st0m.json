@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "c0st0m",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/C0ST0M",
+      "twitch": "https://twitch.tv/c0st0m"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/c0st0m.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "c0st0m#dane",
+      "nivel": 815,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 899,
+      "victorias": 223,
+      "derrotas": 184,
+      "ultima_partida": 1753310766201
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.673076923076923
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4375
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9411764705882353
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.166666666666667
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 16,
+    "losses": 27,
+    "timePlayed": 67291
+  }
+}

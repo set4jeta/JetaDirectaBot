@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Artoria",
+    "nombre_real": "Alexis Diebold",
+    "edad": 22,
+    "equipo": "A One Man Army Prime",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Artoria_UwU"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/artoria.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GRP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Αrtoria Prime#eProd",
+      "nivel": 1703,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 798,
+      "victorias": 640,
+      "derrotas": 604,
+      "ultima_partida": 1753296742086
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9859154929577465
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.740740740740741
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.15625
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9722222222222222
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.529411764705882
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.9444444444444446
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 51,
+    "losses": 56,
+    "timePlayed": 182472
+  }
+}

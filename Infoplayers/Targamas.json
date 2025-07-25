@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Targamas",
+    "nombre_real": "Raphaël Crabbé",
+    "edad": 24,
+    "equipo": "Karmine Corp",
+    "pais": "Belgium",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Targamas",
+      "twitch": "https://twitch.tv/targamas1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/targamas.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Targamas#5555",
+      "nivel": 1172,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1249,
+      "victorias": 362,
+      "derrotas": 303,
+      "ultima_partida": 1753390741817
+    },
+    {
+      "nombre": "Grizzly Hills#123",
+      "nivel": 32,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 14,
+      "derrotas": 6,
+      "ultima_partida": 1741621826957
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 2.527027027027027
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4.743589743589744
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.977272727272727
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.0869565217391304
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5652173913043477
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.909090909090909
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.9375
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.7
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 34,
+    "losses": 21,
+    "timePlayed": 91948
+  }
+}

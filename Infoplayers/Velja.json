@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Velja",
+    "nombre_real": "Veljko Čamdžić",
+    "edad": 23,
+    "equipo": "Los Ratones",
+    "pais": "Serbia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Velja_LOL",
+      "twitch": "https://twitch.tv/velja_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/velja.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "VELJA THE MENACE#2203",
+      "nivel": 477,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1024,
+      "victorias": 290,
+      "derrotas": 220,
+      "ultima_partida": 1753398958330
+    },
+    {
+      "nombre": "LR Velja#2203",
+      "nivel": 357,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 39,
+      "victorias": 138,
+      "derrotas": 144,
+      "ultima_partida": 1750534844401
+    },
+    {
+      "nombre": "VELJA DEL REY#2203",
+      "nivel": 275,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 291,
+      "derrotas": 263,
+      "ultima_partida": 1749766358724
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 35,
+      "victorias": 15,
+      "winrate": "42.9%",
+      "kda_promedio": 3.4383561643835616
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 26,
+      "victorias": 12,
+      "winrate": "46.2%",
+      "kda_promedio": 3.630630630630631
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 23,
+      "victorias": 13,
+      "winrate": "56.5%",
+      "kda_promedio": 3.6288659793814433
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 21,
+      "victorias": 15,
+      "winrate": "71.4%",
+      "kda_promedio": 3.426829268292683
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 3.088888888888889
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 18,
+      "victorias": 10,
+      "winrate": "55.6%",
+      "kda_promedio": 3.1139240506329116
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2777777777777777
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 180,
+    "wins": 96,
+    "losses": 84,
+    "timePlayed": 299775
+  }
+}

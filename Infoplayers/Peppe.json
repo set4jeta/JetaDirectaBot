@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Peppe",
+    "nombre_real": "Petros Berdebes",
+    "edad": 22,
+    "equipo": "Team Phantasma",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Peppe_Gre",
+      "twitch": "https://www.twitch.tv/peppeloc0"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ΠΑΣΟΚΟΣ#EUW",
+      "nivel": 260,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 811,
+      "victorias": 396,
+      "derrotas": 367,
+      "ultima_partida": 1753354189409
+    },
+    {
+      "nombre": "escape dystopia#EUW",
+      "nivel": 663,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 5,
+      "victorias": 49,
+      "derrotas": 48,
+      "ultima_partida": 1752835359182
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.210526315789474
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.12
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.9310344827586208
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.45
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.129032258064516
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 72,
+    "wins": 37,
+    "losses": 35,
+    "timePlayed": 113765
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Xeonerr",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/xeonerr",
+      "twitch": "https://www.twitch.tv/xeonerr_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/xeonerr.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "xeonerr#EU1",
+      "nivel": 810,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 780,
+      "victorias": 412,
+      "derrotas": 374,
+      "ultima_partida": 1753351232813
+    },
+    {
+      "nombre": "dejfDawid1#EUW",
+      "nivel": 598,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1005,
+      "victorias": 197,
+      "derrotas": 154,
+      "ultima_partida": 1753269520368
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.0526315789473686
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.038461538461538
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6785714285714284
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.733333333333333
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 46,
+    "wins": 27,
+    "losses": 19,
+    "timePlayed": 75091
+  }
+}

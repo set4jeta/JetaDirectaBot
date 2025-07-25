@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Myrwn",
+    "nombre_real": "Alex Pastor Villarejo",
+    "edad": 22,
+    "equipo": "Movistar KOI",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Myrwnn"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/myrwn.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "MANZANA VAPE#TFNYS",
+      "nivel": 1033,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 60,
+      "victorias": 73,
+      "derrotas": 53,
+      "ultima_partida": 1752945089827
+    },
+    {
+      "nombre": "Lamine Yamal#Myrwn",
+      "nivel": 53,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 35,
+      "victorias": 155,
+      "derrotas": 83,
+      "ultima_partida": 1752420884207
+    },
+    {
+      "nombre": "A VOLAAAAR#FRAN",
+      "nivel": 167,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1752177721880
+    },
+    {
+      "nombre": "Bb trickz#Tipz",
+      "nivel": 37,
+      "region": "NA1",
+      "liga": "MASTER I",
+      "lp": 92,
+      "victorias": 46,
+      "derrotas": 7,
+      "ultima_partida": 1751700647691
+    },
+    {
+      "nombre": "California Gurls#MRWN",
+      "nivel": 41,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 74,
+      "derrotas": 38,
+      "ultima_partida": 1750284679185
+    },
+    {
+      "nombre": "Mualani C6#Myrwn",
+      "nivel": null,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 5,
+    "wins": 1,
+    "losses": 4,
+    "timePlayed": 7656
+  }
+}

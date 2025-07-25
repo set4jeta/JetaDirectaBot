@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Erdote",
+    "nombre_real": "Robert Nowak",
+    "edad": 25,
+    "equipo": "Gentle Mates",
+    "pais": "Poland",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Erdote_lol",
+      "twitch": "https://www.twitch.tv/erdote_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/erdote.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "wariacik lolowy#2008",
+      "nivel": 576,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1425,
+      "victorias": 258,
+      "derrotas": 185,
+      "ultima_partida": 1753393337801
+    },
+    {
+      "nombre": "erdt#EUW",
+      "nivel": 419,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 239,
+      "victorias": 213,
+      "derrotas": 200,
+      "ultima_partida": 1753390854565
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9387755102040816
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.5588235294117645
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.9375
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.8076923076923075
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.9545454545454546
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.764705882352941
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 30,
+    "losses": 28,
+    "timePlayed": 92676
+  }
+}

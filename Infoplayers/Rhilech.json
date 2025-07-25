@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Rhilech",
+    "nombre_real": "Enes Uçan",
+    "edad": 19,
+    "equipo": "BK ROG Esports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Rhilechlol",
+      "twitch": "https://www.twitch.tv/rhilechlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Rhilech#15105",
+      "nivel": 1015,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1399,
+      "victorias": 478,
+      "derrotas": 416,
+      "ultima_partida": 1753306365180
+    },
+    {
+      "nombre": "bomboboks#15105",
+      "nivel": 214,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 153,
+      "victorias": 62,
+      "derrotas": 33,
+      "ultima_partida": 1753069713090
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "DrMundo",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.153846153846154
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Samira",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 11,
+    "losses": 9,
+    "timePlayed": 34177
+  }
+}

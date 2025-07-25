@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sangrod",
+    "nombre_real": "Kerem Güzel",
+    "edad": 23,
+    "equipo": "ZETA",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Sangrod811",
+      "twitch": "https://www.twitch.tv/sangrodd"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Sangrod#EUWW",
+      "nivel": 1173,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 809,
+      "victorias": 795,
+      "derrotas": 765,
+      "ultima_partida": 1753384096207
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 28,
+      "victorias": 17,
+      "winrate": "60.7%",
+      "kda_promedio": 1.935483870967742
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 21,
+      "victorias": 10,
+      "winrate": "47.6%",
+      "kda_promedio": 1.6641221374045803
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.453333333333333
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 1.4242424242424243
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.72972972972973
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.6896551724137931
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2941176470588236
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.78125
+    },
+    {
+      "nombre": "Urgot",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.6818181818181817
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 152,
+    "wins": 80,
+    "losses": 72,
+    "timePlayed": 240842
+  }
+}

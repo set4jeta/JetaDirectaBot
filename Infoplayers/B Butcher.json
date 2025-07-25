@@ -1,0 +1,108 @@
+{
+  "info_jugador": {
+    "nombre": "B Butcher",
+    "nombre_real": "Abdulkader Halwani",
+    "edad": 25,
+    "equipo": "Geekay Esports",
+    "pais": "Syria",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Bloody1Butcher"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "B Butcher#EUW",
+      "nivel": 290,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1122,
+      "victorias": 326,
+      "derrotas": 260,
+      "ultima_partida": 1753353144380
+    },
+    {
+      "nombre": "Bloody Butcherr#EUW",
+      "nivel": 300,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 160,
+      "derrotas": 118,
+      "ultima_partida": 1751478375481
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leona",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.774193548387097
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 8.2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.235294117647059
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3571428571428572
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 17,
+    "losses": 12,
+    "timePlayed": 43815
+  }
+}

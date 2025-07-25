@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Mercy9",
+    "nombre_real": "Cengizhan Teker",
+    "edad": 20,
+    "equipo": "Los Heretics",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lolmerciless",
+      "twitch": "https://www.twitch.tv/mercy9_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/mercy9.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/HRTS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "HERETICS MERCY9#0303",
+      "nivel": 231,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1259,
+      "victorias": 541,
+      "derrotas": 481,
+      "ultima_partida": 1753397820489
+    },
+    {
+      "nombre": "Katherine Pierce#HRTS",
+      "nivel": 162,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 720,
+      "victorias": 57,
+      "derrotas": 13,
+      "ultima_partida": 1753142094927
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.340909090909091
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.5853658536585367
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.515151515151515
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 15
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 31,
+    "losses": 19,
+    "timePlayed": 81679
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kozi",
+    "nombre_real": "Jarosław Marchewka",
+    "edad": 20,
+    "equipo": "Zero Tenacity",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KozPolski",
+      "twitch": "https://www.twitch.tv/polskikoz"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kozi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/Z10.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kozi#Z10",
+      "nivel": 859,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1064,
+      "victorias": 309,
+      "derrotas": 267,
+      "ultima_partida": 1753394488467
+    },
+    {
+      "nombre": "gorillajones#123",
+      "nivel": 341,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1416,
+      "victorias": 244,
+      "derrotas": 181,
+      "ultima_partida": 1753381031386
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 2.364406779661017
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.210526315789474
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.236842105263158
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3703703703703705
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 78,
+    "wins": 43,
+    "losses": 35,
+    "timePlayed": 123518
+  }
+}

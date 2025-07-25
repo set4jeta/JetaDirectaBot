@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kaiser",
+    "nombre_real": "Norman Kaiser",
+    "edad": 26,
+    "equipo": "Los Heretics",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/KaiserLoL",
+      "twitch": "https://www.twitch.tv/kaiserlol6"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kaiser.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/HRTS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "zta#EUW",
+      "nivel": 456,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 850,
+      "victorias": 184,
+      "derrotas": 122,
+      "ultima_partida": 1753371848327
+    },
+    {
+      "nombre": "kvothefanboy#EUW",
+      "nivel": 104,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 15,
+      "victorias": 176,
+      "derrotas": 106,
+      "ultima_partida": 1753003822448
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3684210526315788
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.777777777777778
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.411764705882353
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9285714285714284
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 15,
+    "losses": 13,
+    "timePlayed": 45306
+  }
+}

@@ -13,33 +13,38 @@
       a {
         color: #90caf9;
       }
-      code {
+      code, pre {
         background-color: #1e1e1e;
         color: #dcdcdc;
       }
+    }
+    pre {
+      padding: 1em;
+      overflow-x: auto;
     }
   </style>
 </head>
 <body>
   <h1>JetaDirectaBot</h1>
-  <p>Aquí podrías incluir el contenido de tu README o un enlace al repositorio.</p>
- JetaDirectaBot
-Descripción
-JetaDirectaBot es un bot avanzado para Discord que permite trackear jugadores profesionales y amateurs de League of Legends, mostrar partidas en vivo, consultar estadísticas, gestionar inscripciones para torneos y recibir notificaciones automáticas de partidas competitivas (LEC, LCS, LCK, MSI, Worlds, etc).
 
-Incluye integración con APIs de Riot, DPM.lol y LoL Esports, scraping de datos, gestión de cuentas y comandos para torneos personalizados como la Jetacup.
+  <h2>Descripción</h2>
+  <p>JetaDirectaBot es un bot avanzado para Discord que permite trackear jugadores profesionales y amateurs de League of Legends, mostrar partidas en vivo, consultar estadísticas, gestionar inscripciones para torneos y recibir notificaciones automáticas de partidas competitivas (LEC, LCS, LCK, MSI, Worlds, etc).</p>
 
-Características principales
-Trackeo de jugadores y equipos LEC/LEC+
-Notificaciones automáticas de partidas en vivo
-Historial y ranking de SoloQ europeo
-Comandos para ver partidas activas, próximas y estadísticas
-Gestión de inscripciones y registro para torneos (Jetacup)
-Integración con Google Sheets para inscripciones
-Scraping y actualización automática de datos de jugadores
-Soporte para imágenes de jugadores y equipos
-Comandos para admins y usuarios
-Estructura general del proyecto
+  <h2>Características principales</h2>
+  <ul>
+    <li>Trackeo de jugadores y equipos LEC/LEC+</li>
+    <li>Notificaciones automáticas de partidas en vivo</li>
+    <li>Historial y ranking de SoloQ europeo</li>
+    <li>Comandos para ver partidas activas, próximas y estadísticas</li>
+    <li>Gestión de inscripciones y registro para torneos (Jetacup)</li>
+    <li>Integración con Google Sheets para inscripciones</li>
+    <li>Scraping y actualización automática de datos de jugadores</li>
+    <li>Soporte para imágenes de jugadores y equipos</li>
+    <li>Comandos para admins y usuarios</li>
+  </ul>
+
+  <h2>Estructura general del proyecto</h2>
+  <pre>
 JetaDirectaBot/
 │
 ├── core/                  # Lógica principal del bot y comandos
@@ -120,81 +125,98 @@ JetaDirectaBot/
 ├── requirements.txt
 ├── README.md
 └── main.py                # Script de arranque y actualización de datos
-Instalación
-Clona el repositorio:
+  </pre>
 
+  <h2>Instalación</h2>
+  <p>Clona el repositorio:</p>
+  <pre>
 git clone https://github.com/tuusuario/JetaDirectaBot.git
 cd JetaDirectaBot
-Instala las dependencias:
+  </pre>
 
+  <p>Instala las dependencias:</p>
+  <pre>
 pip install -r requirements.txt
-Configura el archivo .env:
+  </pre>
 
-RIOT_API_KEY=tu_api_key_de_riot
-DISCORD_TOKEN=tu_token_de_discord
-LOL_API_KEY=tu_api_key_de_lol_esports
-(Opcional) Configura credenciales de Google Sheets para Jetacup:
+  <p>Configura el archivo <code>.env</code> con tus claves y tokens.</p>
 
-Coloca tu archivo credentials.json en la carpeta secrets/ y define la variable CREDENTIALS_PATH en .env si usas Render u otro host.
-Uso
-Arranca el bot:
+  <h2>Uso</h2>
+  <p>Arranca el bot:</p>
+  <pre>python main.py</pre>
+  <p>El bot actualizará los datos y lanzará el bot de Discord automáticamente.</p>
 
-python main.py
-El bot actualizará los datos y lanzará el bot de Discord automáticamente.
+  <h2>Comandos disponibles</h2>
 
-Comandos disponibles
-Comandos generales
-!help — Muestra la ayuda y lista de comandos
-!setchannel — Configura el canal para notificaciones de partidas SoloQ
-!unsubscribe — Elimina el canal de notificaciones SoloQ
-Trackeo y partidas
-!team <equipo> — Muestra los jugadores de un equipo LEC/LEC+
-!live — Muestra los jugadores en partida en ese momento
-!info <jugador> — Muestra información detallada de un jugador
-!match <jugador> — Muestra la partida activa de un jugador
-!historial — Muestra el historial general de partidas
-!historial <jugador> — Muestra el historial de un jugador
-!historial <cuenta> — Muestra el historial de una cuenta específica
-!ranking — Muestra el ranking de jugadores trackeados
-Comandos Esports (partidas competitivas)
-!setlivechannel — Configura el canal para notificaciones de partidas de esports (LEC, Worlds, etc)
-!removelivechannel — Elimina el canal de notificaciones de esports
-!partida — Muestra partidas en vivo de esports
-!next — Muestra las próximas partidas competitivas
-Comandos Jetacup (torneo personalizado)
-!jetacup — Muestra información sobre la Jetacup
-!jetacup registro — Inicia el registro paso a paso
-!jetacup cancelarregistro — Cancela el registro en curso
-!jetacup cancelarinscripcion — Elimina tu inscripción
-!jetacup registrados — Muestra la lista de inscritos
-Notas técnicas
-El bot usa caché para acelerar consultas y evitar rate limit.
-Las imágenes de jugadores y equipos se descargan y almacenan localmente.
-El bot puede funcionar en Windows, Linux y servicios cloud (Render, Replit, Discloud, etc).
-La estructura modular permite agregar nuevas ligas, comandos y extensiones fácilmente.
-El bot soporta scraping y actualización automática de datos de jugadores y equipos.
-Contribuir
-Haz un fork del repositorio.
-Crea una rama nueva para tu feature o fix.
-Haz tus cambios y abre un Pull Request.
-Licencia
-Copyright (c) 2025 set4jeta. Todos los derechos reservados.
+  <h3>Comandos generales</h3>
+  <ul>
+    <li><code>!help</code> — Muestra la ayuda y lista de comandos</li>
+    <li><code>!setchannel</code> — Configura el canal para notificaciones de partidas SoloQ</li>
+    <li><code>!unsubscribe</code> — Elimina el canal de notificaciones SoloQ</li>
+  </ul>
 
-Este software y su código fuente están protegidos por las leyes de derechos de autor y son propiedad exclusiva del autor.
+  <h3>Trackeo y partidas</h3>
+  <ul>
+    <li><code>!team &lt;equipo&gt;</code> — Muestra los jugadores de un equipo LEC/LEC+</li>
+    <li><code>!live</code> — Muestra los jugadores en partida en ese momento</li>
+    <li><code>!info &lt;jugador&gt;</code> — Muestra información detallada de un jugador</li>
+    <li><code>!match &lt;jugador&gt;</code> — Muestra la partida activa de un jugador</li>
+    <li><code>!historial</code> — Muestra el historial general de partidas</li>
+    <li><code>!historial &lt;jugador&gt;</code> — Muestra el historial de un jugador</li>
+    <li><code>!historial &lt;cuenta&gt;</code> — Muestra el historial de una cuenta específica</li>
+    <li><code>!ranking</code> — Muestra el ranking de jugadores trackeados</li>
+  </ul>
 
-Queda prohibida cualquier forma de reproducción, distribución, modificación, uso o explotación del código, total o parcial, sin el consentimiento previo, expreso y por escrito del autor.
+  <h3>Comandos Esports (partidas competitivas)</h3>
+  <ul>
+    <li><code>!setlivechannel</code> — Configura el canal para notificaciones de partidas de esports (LEC, Worlds, etc)</li>
+    <li><code>!removelivechannel</code> — Elimina el canal de notificaciones de esports</li>
+    <li><code>!partida</code> — Muestra partidas en vivo de esports</li>
+    <li><code>!next</code> — Muestra las próximas partidas competitivas</li>
+  </ul>
 
-Puedes usarlo de manera personal para trackear partidas o agregarlo a algun servidor para tus amigos
+  <h3>Comandos Jetacup (torneo personalizado)</h3>
+  <ul>
+    <li><code>!jetacup</code> — Muestra información sobre la Jetacup</li>
+    <li><code>!jetacup registro</code> — Inicia el registro paso a paso</li>
+    <li><code>!jetacup cancelarregistro</code> — Cancela el registro en curso</li>
+    <li><code>!jetacup cancelarinscripcion</code> — Elimina tu inscripción</li>
+    <li><code>!jetacup registrados</code> — Muestra la lista de inscritos</li>
+  </ul>
 
-Este software se proporciona únicamente con fines de demostración o revisión privada, y no está destinado a su uso comercial, distribución pública, ni a su modificación por terceros.
+  <h2>Notas técnicas</h2>
+  <ul>
+    <li>El bot usa caché para acelerar consultas y evitar rate limit.</li>
+    <li>Las imágenes de jugadores y equipos se descargan y almacenan localmente.</li>
+    <li>El bot puede funcionar en Windows, Linux y servicios cloud (Render, Replit, Discloud, etc).</li>
+    <li>La estructura modular permite agregar nuevas ligas, comandos y extensiones fácilmente.</li>
+    <li>El bot soporta scraping y actualización automática de datos de jugadores y equipos.</li>
+  </ul>
 
-Para consultas de licencia o autorización de uso, contactar a: [scre4m.for.me@gmail.com].
+  <h2>Contribuir</h2>
+  <ol>
+    <li>Haz un fork del repositorio.</li>
+    <li>Crea una rama nueva para tu feature o fix.</li>
+    <li>Haz tus cambios y abre un Pull Request.</li>
+  </ol>
 
-Créditos
-Basado en APIs públicas de Riot Games, DPM.lol y LoL Esports.
-Imágenes y datos de equipos/jugadores son propiedad de sus respectivos dueños.
-Contacto
-Para dudas, sugerencias o soporte, abre un issue en GitHub o contacta al autor.
+  <h2>Licencia</h2>
+  <p>Copyright (c) 2025 set4jeta. Todos los derechos reservados.</p>
+  <p>Este software y su código fuente están protegidos por las leyes de derechos de autor y son propiedad exclusiva del autor.</p>
+  <p>Queda prohibida cualquier forma de reproducción, distribución, modificación, uso o explotación del código, total o parcial, sin el consentimiento previo, expreso y por escrito del autor.</p>
+  <p>Puedes usarlo de manera personal para trackear partidas o agregarlo a algún servidor para tus amigos.</p>
+  <p>Este software se proporciona únicamente con fines de demostración o revisión privada, y no está destinado a su uso comercial, distribución pública, ni a su modificación por terceros.</p>
+  <p>Para consultas de licencia o autorización de uso, contactar a: <a href="mailto:scre4m.for.me@gmail.com">scre4m.for.me@gmail.com</a>.</p>
+
+  <h2>Créditos</h2>
+  <ul>
+    <li>Basado en APIs públicas de Riot Games, DPM.lol y LoL Esports.</li>
+    <li>Imágenes y datos de equipos/jugadores son propiedad de sus respectivos dueños.</li>
+  </ul>
+
+  <h2>Contacto</h2>
+  <p>Para dudas, sugerencias o soporte, abre un issue en GitHub o contacta al autor.</p>
 
 </body>
 </html>
+

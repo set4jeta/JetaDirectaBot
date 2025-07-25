@@ -81,6 +81,10 @@ class TrackedGame :
                 (self.state == "unstarted" and (blue_gold > 2500 or red_gold > 2500))
             ):
                 self.state = "inProgress"   
+                if self.has_participants and not self.real_start_time:
+                    print("[DEBUG] Asignando real_start_time por participantes")
+                    self.real_start_time = await get_network_time()
+                
                 # Solo asigna el inicio real si aún no está asignado y el oro subió
                 #if (blue_gold > 2500 or red_gold > 2500) and not self.real_start_time:
                    #print("[DEBUG] Asignando real_start_time")

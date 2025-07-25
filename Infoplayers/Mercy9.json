@@ -19,10 +19,10 @@
       "nivel": 231,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1259,
+      "lp": 1280,
       "victorias": 541,
-      "derrotas": 481,
-      "ultima_partida": 1753397820489
+      "derrotas": 480,
+      "ultima_partida": 1753382324450
     },
     {
       "nombre": "Katherine Pierce#HRTS",
@@ -86,13 +86,6 @@
       "kda_promedio": 15
     },
     {
-      "nombre": "Irelia",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5
-    },
-    {
       "nombre": "Jayce",
       "partidas": 2,
       "victorias": 2,
@@ -105,12 +98,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6923076923076925
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
+    "games": 49,
     "wins": 31,
-    "losses": 19,
-    "timePlayed": 81679
+    "losses": 18,
+    "timePlayed": 79627
   }
 }

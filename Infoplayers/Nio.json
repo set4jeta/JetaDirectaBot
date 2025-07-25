@@ -18,26 +18,26 @@
       "nivel": 1364,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1272,
-      "victorias": 886,
-      "derrotas": 824,
-      "ultima_partida": 1753224441318
+      "lp": 1271,
+      "victorias": 888,
+      "derrotas": 826,
+      "ultima_partida": 1753398958330
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 13,
+      "partidas": 14,
       "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.3823529411764706
+      "winrate": "50.0%",
+      "kda_promedio": 2.339622641509434
     },
     {
       "nombre": "Nami",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.9454545454545453
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8805970149253732
     },
     {
       "nombre": "Pantheon",
@@ -82,24 +82,24 @@
       "kda_promedio": 3.25
     },
     {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
       "nombre": "Sion",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Soraka",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.4285714285714284
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
-    "wins": 20,
-    "losses": 17,
-    "timePlayed": 62357
+    "games": 41,
+    "wins": 22,
+    "losses": 19,
+    "timePlayed": 68310
   }
 }

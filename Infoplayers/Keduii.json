@@ -59,10 +59,10 @@
     },
     {
       "nombre": "Xayah",
-      "partidas": 10,
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.71875
+      "winrate": "66.7%",
+      "kda_promedio": 3.5517241379310347
     },
     {
       "nombre": "Ezreal",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
+    "games": 90,
     "wins": 51,
-    "losses": 40,
-    "timePlayed": 150569
+    "losses": 39,
+    "timePlayed": 148520
   }
 }

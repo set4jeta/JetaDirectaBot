@@ -129,7 +129,13 @@ class EmbedService:
         # Footer con BO y score
         blue_wins = blue_team.game_wins
         red_wins = red_team.game_wins
-        score_text = f" ({blue_wins}-{red_wins})" if match.best_of_count > 1 else "" # type: ignore # type: ignore
+        if match.best_of_count and match.best_of_count > 1:
+            if blue_wins == 0 and red_wins == 0:
+                score_text = f" ({blue_wins}-{red_wins})"
+            else:
+                score_text = " (?-?)"
+        else:
+            score_text = "" # type: ignore # type: ignore
         current_game = tracked_game.number
        
        
@@ -207,7 +213,13 @@ class EmbedService:
 
         blue_wins = blue_team.game_wins
         red_wins = red_team.game_wins
-        score_text = f" ({blue_wins}-{red_wins})" if match.best_of_count > 1 else "" # type: ignore
+        if match.best_of_count and match.best_of_count > 1:
+            if blue_wins == 0 and red_wins == 0:
+                score_text = f" ({blue_wins}-{red_wins})"
+            else:
+                score_text = " (?-?)"
+        else:
+            score_text = "" # type: ignore # type: ignore
 
         embed = Embed(
             title=f"🧠 Draft en progreso - {match.league_name}",
@@ -238,7 +250,6 @@ class EmbedService:
     async def create_waiting_embed(match: TrackedMatch, next_game_number: Optional[int] = None) -> Embed:
         number_emojis = ["0️⃣", "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
 
-        # Busca el siguiente juego pendiente
         tracked_game = next(
             (g for g in match.trackedGames if g.state in ("unstarted", "inProgress") and not g.has_participants and not g.draft_in_progress),
             None
@@ -267,18 +278,31 @@ class EmbedService:
         blue_score = number_emojis[blue_wins]
         red_score = number_emojis[red_wins]
 
-        # Asignación del trofeo al equipo que va ganando
-        if blue_wins > red_wins:
-            blue_name = f"🏆 **{blue_team.name}** {blue_score}"
-            red_name = f"**{red_team.name}** {red_score}"
-        elif red_wins > blue_wins:
-            blue_name = f"**{blue_team.name}** {blue_score}"
-            red_name = f"🏆 **{red_team.name}** {red_score}"
+        # Ocultar marcador con spoilers igual que en create_live_match_embed
+        if blue_wins == 0 and red_wins == 0:
+            blue_score_str = blue_score
+            red_score_str = red_score
         else:
-            blue_name = f"**{blue_team.name}** {blue_score}"
-            red_name = f"**{red_team.name}** {red_score}"
+            blue_score_str = f"||{blue_score}||"
+            red_score_str = f"||{red_score}||"
 
-        score_text = f" ({blue_wins}-{red_wins})" if match.best_of_count > 1 else "" # type: ignore
+        if blue_wins > red_wins:
+            blue_name = f"🏆 **{blue_team.name}** {blue_score_str}"
+            red_name = f"**{red_team.name}** {red_score_str}"
+        elif red_wins > blue_wins:
+            blue_name = f"**{blue_team.name}** {blue_score_str}"
+            red_name = f"🏆 **{red_team.name}** {red_score_str}"
+        else:
+            blue_name = f"**{blue_team.name}** {blue_score_str}"
+            red_name = f"**{red_team.name}** {red_score_str}"
+
+        if match.best_of_count and match.best_of_count > 1:
+            if blue_wins == 0 and red_wins == 0:
+                score_text = f" ({blue_wins}-{red_wins})"
+            else:
+                score_text = " (?-?)"
+        else:
+            score_text = ""
 
         embed = Embed(
             title=f"🟡 Esperando partida... - {match.league_name}",
@@ -296,6 +320,7 @@ class EmbedService:
         )
 
         return embed
+
             
             
     

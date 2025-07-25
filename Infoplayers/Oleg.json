@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "OLEG FULLCLEAR#CLEAR",
-      "nivel": 207,
+      "nivel": 208,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 752,
+      "lp": 714,
       "victorias": 130,
-      "derrotas": 103,
-      "ultima_partida": 1753360508786
+      "derrotas": 105,
+      "ultima_partida": 1753430642244
     },
     {
       "nombre": "OLEG INSEC#OLEG",
@@ -37,6 +37,13 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Vi",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.25
+    },
+    {
       "nombre": "Pantheon",
       "partidas": 10,
       "victorias": 5,
@@ -49,13 +56,6 @@
       "victorias": 7,
       "winrate": "70.0%",
       "kda_promedio": 3.159090909090909
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.4054054054054053
     },
     {
       "nombre": "MonkeyKing",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
+    "games": 49,
     "wins": 30,
-    "losses": 17,
-    "timePlayed": 75740
+    "losses": 19,
+    "timePlayed": 79310
   }
 }

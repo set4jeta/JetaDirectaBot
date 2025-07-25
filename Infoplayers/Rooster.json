@@ -55,18 +55,18 @@
       "kda_promedio": 2.204081632653061
     },
     {
-      "nombre": "Rumble",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.413793103448276
-    },
-    {
       "nombre": "Gnar",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 1.7096774193548387
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.739130434782609
     },
     {
       "nombre": "Ambessa",
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 83,
-    "wins": 57,
+    "games": 80,
+    "wins": 54,
     "losses": 26,
-    "timePlayed": 128726
+    "timePlayed": 124620
   }
 }

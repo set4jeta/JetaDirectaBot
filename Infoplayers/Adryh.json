@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Adryh#4841",
-      "nivel": 935,
+      "nivel": 936,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 833,
-      "victorias": 306,
-      "derrotas": 277,
-      "ultima_partida": 1753146803386
+      "lp": 835,
+      "victorias": 310,
+      "derrotas": 281,
+      "ultima_partida": 1753433431824
     },
     {
       "nombre": "A POR EL BOTE#EUW",
@@ -38,17 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 8,
-      "victorias": 4,
+      "partidas": 12,
+      "victorias": 6,
       "winrate": "50.0%",
-      "kda_promedio": 2.5172413793103448
+      "kda_promedio": 2.4347826086956523
     },
     {
       "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 6,
+      "partidas": 7,
+      "victorias": 7,
       "winrate": "100.0%",
-      "kda_promedio": 4.32
+      "kda_promedio": 4.481481481481482
     },
     {
       "nombre": "MissFortune",
@@ -59,10 +59,10 @@
     },
     {
       "nombre": "Ziggs",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.5
+      "winrate": "50.0%",
+      "kda_promedio": 2.4878048780487805
     },
     {
       "nombre": "Varus",
@@ -73,10 +73,17 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.4444444444444446
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Lucian",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 25,
-    "losses": 17,
-    "timePlayed": 67751
+    "games": 50,
+    "wins": 29,
+    "losses": 21,
+    "timePlayed": 79362
   }
 }

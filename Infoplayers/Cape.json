@@ -82,24 +82,24 @@
       "kda_promedio": 3.111111111111111
     },
     {
-      "nombre": "Taliyah",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.7857142857142856
-    },
-    {
       "nombre": "Vi",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.210526315789474
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4166666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
+    "games": 70,
     "wins": 40,
-    "losses": 31,
-    "timePlayed": 115565
+    "losses": 30,
+    "timePlayed": 113823
   }
 }

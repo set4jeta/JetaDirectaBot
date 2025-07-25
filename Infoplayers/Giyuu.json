@@ -19,10 +19,10 @@
       "nivel": 444,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1262,
-      "victorias": 229,
+      "lp": 1299,
+      "victorias": 231,
       "derrotas": 180,
-      "ultima_partida": 1753353144380
+      "ultima_partida": 1753397820489
     }
   ],
   "campeones_recientes": [
@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 1.7619047619047619
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.8636363636363635
     },
     {
       "nombre": "Annie",
@@ -76,6 +76,13 @@
       "kda_promedio": 4.8
     },
     {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
       "nombre": "Sylas",
       "partidas": 1,
       "victorias": 0,
@@ -91,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
-    "wins": 14,
+    "games": 21,
+    "wins": 16,
     "losses": 5,
-    "timePlayed": 29841
+    "timePlayed": 33095
   }
 }

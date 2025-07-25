@@ -40,13 +40,6 @@
       "kda_promedio": 2.402173913043478
     },
     {
-      "nombre": "Braum",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 6.0285714285714285
-    },
-    {
       "nombre": "Rell",
       "partidas": 12,
       "victorias": 6,
@@ -54,18 +47,18 @@
       "kda_promedio": 3.4603174603174605
     },
     {
-      "nombre": "Rakan",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 5.2727272727272725
+      "nombre": "Braum",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 5.485714285714286
     },
     {
-      "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.119047619047619
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.947368421052632
     },
     {
       "nombre": "Alistar",
@@ -80,6 +73,13 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.9696969696969697
     },
     {
       "nombre": "Senna",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 98,
-    "wins": 56,
-    "losses": 42,
-    "timePlayed": 164075
+    "games": 95,
+    "wins": 54,
+    "losses": 41,
+    "timePlayed": 159403
   }
 }

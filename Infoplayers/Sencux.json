@@ -16,7 +16,7 @@
       "nivel": 704,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 666,
+      "lp": 661,
       "victorias": 190,
       "derrotas": 157,
       "ultima_partida": 1753382943661
@@ -42,10 +42,10 @@
     },
     {
       "nombre": "Corki",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.6956521739130435
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3157894736842106
     },
     {
       "nombre": "Ryze",
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 31,
-    "losses": 26,
-    "timePlayed": 91941
+    "games": 55,
+    "wins": 30,
+    "losses": 25,
+    "timePlayed": 89055
   }
 }

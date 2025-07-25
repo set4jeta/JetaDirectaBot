@@ -14,6 +14,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Patrick Jane#Tea",
+      "nivel": 462,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 740,
+      "victorias": 182,
+      "derrotas": 153,
+      "ultima_partida": 1753396943904
+    },
+    {
       "nombre": "Jirka Král#King",
       "nivel": 138,
       "region": "EUN1",
@@ -22,16 +32,6 @@
       "victorias": 152,
       "derrotas": 84,
       "ultima_partida": 1753288930116
-    },
-    {
-      "nombre": "Patrick Jane#Tea",
-      "nivel": 462,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 798,
-      "victorias": 182,
-      "derrotas": 151,
-      "ultima_partida": 1753221264543
     },
     {
       "nombre": "SKEJTAK KRABS04#DOG",
@@ -47,10 +47,10 @@
   "campeones_recientes": [
     {
       "nombre": "Vladimir",
-      "partidas": 50,
-      "victorias": 29,
-      "winrate": "58.0%",
-      "kda_promedio": 2.8884462151394423
+      "partidas": 49,
+      "victorias": 27,
+      "winrate": "55.1%",
+      "kda_promedio": 2.7859922178988326
     },
     {
       "nombre": "Ahri",
@@ -110,9 +110,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 37,
-    "losses": 27,
-    "timePlayed": 106232
+    "games": 63,
+    "wins": 35,
+    "losses": 28,
+    "timePlayed": 104870
   }
 }

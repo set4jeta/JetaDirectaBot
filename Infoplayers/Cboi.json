@@ -19,10 +19,10 @@
       "nivel": 342,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 846,
+      "lp": 824,
       "victorias": 189,
-      "derrotas": 153,
-      "ultima_partida": 1753280986669
+      "derrotas": 154,
+      "ultima_partida": 1753352885612
     }
   ],
   "campeones_recientes": [
@@ -41,25 +41,18 @@
       "kda_promedio": 8.071428571428571
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Ziggs",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 4.105263157894737
+      "kda_promedio": 3.6875
     },
     {
-      "nombre": "Viego",
+      "nombre": "Pantheon",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.818181818181818
     },
     {
       "nombre": "Poppy",
@@ -67,6 +60,13 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
     },
     {
       "nombre": "Akshan",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 23,
+    "games": 33,
+    "wins": 22,
     "losses": 11,
-    "timePlayed": 55496
+    "timePlayed": 53425
   }
 }

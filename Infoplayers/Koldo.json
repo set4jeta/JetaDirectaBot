@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Koldo#1233",
-      "nivel": 919,
+      "nivel": 920,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1500,
+      "lp": 1477,
       "victorias": 375,
-      "derrotas": 320,
-      "ultima_partida": 1753355738049
+      "derrotas": 321,
+      "ultima_partida": 1753384661539
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.318181818181818
+      "winrate": "50.0%",
+      "kda_promedio": 3.129032258064516
     },
     {
       "nombre": "Nocturne",
@@ -39,26 +39,12 @@
       "victorias": 6,
       "winrate": "100.0%",
       "kda_promedio": 7.785714285714286
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
+    "games": 14,
     "wins": 10,
-    "losses": 5,
-    "timePlayed": 22811
+    "losses": 4,
+    "timePlayed": 21606
   }
 }

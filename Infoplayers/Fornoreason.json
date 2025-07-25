@@ -19,10 +19,10 @@
       "nivel": 1294,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 612,
-      "victorias": 232,
+      "lp": 632,
+      "victorias": 233,
       "derrotas": 209,
-      "ultima_partida": 1753386839171
+      "ultima_partida": 1753389061732
     },
     {
       "nombre": "FNR#gap",
@@ -45,10 +45,10 @@
     },
     {
       "nombre": "Ambessa",
-      "partidas": 18,
-      "victorias": 14,
-      "winrate": "77.8%",
-      "kda_promedio": 2.876923076923077
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7586206896551726
     },
     {
       "nombre": "Gwen",
@@ -86,18 +86,18 @@
       "kda_promedio": 2.103448275862069
     },
     {
-      "nombre": "Gragas",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.909090909090909
-    },
-    {
       "nombre": "Aurora",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "LeeSin",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 98,
-    "wins": 57,
+    "games": 96,
+    "wins": 55,
     "losses": 41,
-    "timePlayed": 157800
+    "timePlayed": 155892
   }
 }

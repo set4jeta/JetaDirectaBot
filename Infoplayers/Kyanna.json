@@ -19,10 +19,10 @@
       "nivel": 882,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 764,
-      "victorias": 267,
+      "lp": 783,
+      "victorias": 268,
       "derrotas": 229,
-      "ultima_partida": 1753384946817
+      "ultima_partida": 1753386632842
     },
     {
       "nombre": "Kyanna#miki",
@@ -58,18 +58,18 @@
       "kda_promedio": 2.125
     },
     {
+      "nombre": "Janna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
       "nombre": "Braum",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.53125
-    },
-    {
-      "nombre": "Janna",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9047619047619047
     },
     {
       "nombre": "Rakan",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 27,
+    "games": 62,
+    "wins": 28,
     "losses": 34,
-    "timePlayed": 102248
+    "timePlayed": 104024
   }
 }

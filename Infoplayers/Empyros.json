@@ -19,10 +19,10 @@
       "nivel": 892,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1435,
-      "victorias": 451,
+      "lp": 1455,
+      "victorias": 452,
       "derrotas": 397,
-      "ultima_partida": 1753398958330
+      "ultima_partida": 1753402543021
     },
     {
       "nombre": "platamon prodigy#0000",
@@ -51,18 +51,18 @@
       "kda_promedio": 2.3541666666666665
     },
     {
+      "nombre": "Jax",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.236842105263158
+    },
+    {
       "nombre": "Kled",
       "partidas": 10,
       "victorias": 8,
       "winrate": "80.0%",
       "kda_promedio": 2.4146341463414633
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.3548387096774195
     },
     {
       "nombre": "Sion",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 53,
+    "games": 92,
+    "wins": 54,
     "losses": 38,
-    "timePlayed": 144041
+    "timePlayed": 145808
   }
 }

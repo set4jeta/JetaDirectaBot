@@ -19,26 +19,19 @@
       "nivel": 728,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 782,
-      "victorias": 288,
+      "lp": 802,
+      "victorias": 289,
       "derrotas": 266,
-      "ultima_partida": 1753392238858
+      "ultima_partida": 1753396943904
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Hwei",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.0689655172413794
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.285714285714286
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8846153846153846
     },
     {
       "nombre": "Ezreal",
@@ -55,18 +48,18 @@
       "kda_promedio": 1.4
     },
     {
-      "nombre": "TwistedFate",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0714285714285714
-    },
-    {
       "nombre": "Ahri",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
     },
     {
       "nombre": "Azir",
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 30
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
+    "games": 21,
     "wins": 8,
-    "losses": 15,
-    "timePlayed": 37385
+    "losses": 13,
+    "timePlayed": 34839
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 799,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 855,
-      "victorias": 425,
+      "lp": 916,
+      "victorias": 428,
       "derrotas": 386,
-      "ultima_partida": 1753389322508
+      "ultima_partida": 1753405737386
     }
   ],
   "campeones_recientes": [
@@ -48,18 +48,18 @@
       "kda_promedio": 3.0217391304347827
     },
     {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 0.7910447761194029
+    },
+    {
       "nombre": "Olaf",
       "partidas": 8,
       "victorias": 3,
       "winrate": "37.5%",
       "kda_promedio": 2.0869565217391304
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 0.7017543859649122
     },
     {
       "nombre": "Gnar",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 83,
-    "wins": 39,
+    "games": 86,
+    "wins": 42,
     "losses": 44,
-    "timePlayed": 126582
+    "timePlayed": 130534
   }
 }

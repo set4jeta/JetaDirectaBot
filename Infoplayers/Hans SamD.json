@@ -99,13 +99,6 @@
       "kda_promedio": 4.368421052631579
     },
     {
-      "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.611111111111111
-    },
-    {
       "nombre": "Zeri",
       "partidas": 5,
       "victorias": 4,
@@ -125,12 +118,19 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 4.545454545454546
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 88,
-    "wins": 58,
+    "games": 87,
+    "wins": 57,
     "losses": 30,
-    "timePlayed": 136904
+    "timePlayed": 135179
   }
 }

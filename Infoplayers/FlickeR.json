@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "FlickeR#1337",
-      "nivel": 715,
+      "nivel": 716,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 852,
-      "victorias": 404,
+      "lp": 871,
+      "victorias": 405,
       "derrotas": 377,
-      "ultima_partida": 1753385273628
+      "ultima_partida": 1753394492703
     },
     {
       "nombre": "qweasdqweasdqwq#KR3",
@@ -52,10 +52,10 @@
     },
     {
       "nombre": "Tristana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.9166666666666667
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.44
     },
     {
       "nombre": "Zeri",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 33,
-    "wins": 17,
+    "games": 34,
+    "wins": 18,
     "losses": 16,
-    "timePlayed": 53613
+    "timePlayed": 55050
   }
 }

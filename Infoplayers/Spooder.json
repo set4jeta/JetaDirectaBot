@@ -19,10 +19,10 @@
       "nivel": 750,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1218,
-      "victorias": 370,
-      "derrotas": 325,
-      "ultima_partida": 1753306446599
+      "lp": 1272,
+      "victorias": 374,
+      "derrotas": 326,
+      "ultima_partida": 1753389373904
     },
     {
       "nombre": "twtvSpoodersuss1#EUWW",
@@ -38,17 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 13,
+      "partidas": 12,
       "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 1.6024096385542168
+      "winrate": "50.0%",
+      "kda_promedio": 1.625
     },
     {
       "nombre": "Jax",
-      "partidas": 13,
+      "partidas": 12,
       "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.1451612903225805
+      "winrate": "58.3%",
+      "kda_promedio": 2.4038461538461537
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6315789473684212
     },
     {
       "nombre": "Gwen",
@@ -58,39 +65,18 @@
       "kda_promedio": 2.574468085106383
     },
     {
-      "nombre": "Renekton",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 2.7547169811320753
-    },
-    {
       "nombre": "Yorick",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.871794871794872
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.975609756097561
     },
     {
       "nombre": "Rumble",
       "partidas": 8,
       "victorias": 4,
       "winrate": "50.0%",
-      "kda_promedio": 2.36734693877551
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1176470588235294
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8823529411764706
+      "kda_promedio": 2.4444444444444446
     },
     {
       "nombre": "Pantheon",
@@ -100,17 +86,31 @@
       "kda_promedio": 1.6896551724137931
     },
     {
-      "nombre": "Warwick",
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "KSante",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.2777777777777777
+      "kda_promedio": 2.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 104,
-    "wins": 56,
-    "losses": 48,
-    "timePlayed": 170946
+    "games": 103,
+    "wins": 59,
+    "losses": 44,
+    "timePlayed": 168461
   }
 }

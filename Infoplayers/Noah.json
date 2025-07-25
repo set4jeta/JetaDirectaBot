@@ -72,10 +72,10 @@
     },
     {
       "nombre": "Xayah",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 2.3157894736842106
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.036363636363636
     },
     {
       "nombre": "Kaisa",
@@ -83,13 +83,6 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 2.740740740740741
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5
     },
     {
       "nombre": "Sivir",
@@ -120,6 +113,13 @@
       "kda_promedio": 6
     },
     {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Jax",
       "partidas": 1,
       "victorias": 0,
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 36,
-    "losses": 22,
-    "timePlayed": 88240
+    "games": 53,
+    "wins": 33,
+    "losses": 20,
+    "timePlayed": 80793
   }
 }

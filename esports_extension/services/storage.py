@@ -171,7 +171,22 @@ def load_firestore_data() -> Dict[str, dict]:
         return {}
 
 
+NOTIFIED_GAMES_FILE = "notified_games.json"
 
+def load_notified_games():
+    import os, json
+    if not os.path.exists(NOTIFIED_GAMES_FILE):
+        return {}
+    try:
+        with open(NOTIFIED_GAMES_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def save_notified_games(data):
+    import json
+    with open(NOTIFIED_GAMES_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
 
 
 

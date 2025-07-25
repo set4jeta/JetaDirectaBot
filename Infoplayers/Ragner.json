@@ -19,10 +19,10 @@
       "nivel": 435,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 563,
-      "victorias": 161,
+      "lp": 615,
+      "victorias": 163,
       "derrotas": 117,
-      "ultima_partida": 1753389322508
+      "ultima_partida": 1753400825692
     },
     {
       "nombre": "Rosinante#Rago",
@@ -75,18 +75,18 @@
       "kda_promedio": 1.565217391304348
     },
     {
-      "nombre": "Sion",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.625
-    },
-    {
       "nombre": "Garen",
       "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
       "kda_promedio": 1.55
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Kled",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 115,
-    "wins": 57,
-    "losses": 58,
-    "timePlayed": 175217
+    "games": 116,
+    "wins": 59,
+    "losses": 57,
+    "timePlayed": 177210
   }
 }

@@ -16,24 +16,33 @@
   "cuentas": [
     {
       "nombre": "Céleste#6162",
-      "nivel": 292,
+      "nivel": 293,
+      "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 751,
-      "victorias": 327,
-      "derrotas": 284,
-      "ultima_partida": 1753267098540
+      "lp": 753,
+      "victorias": 328,
+      "derrotas": 285,
+      "ultima_partida": 1753371519180
     },
     {
       "nombre": "POBC#6162",
       "nivel": 619,
+      "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 405,
-      "victorias": 138,
+      "lp": 479,
+      "victorias": 141,
       "derrotas": 103,
-      "ultima_partida": 1753048570563
+      "ultima_partida": 1753369942148
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.379310344827586
+    },
     {
       "nombre": "Braum",
       "partidas": 7,
@@ -42,25 +51,18 @@
       "kda_promedio": 3.5833333333333335
     },
     {
+      "nombre": "Leona",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.4864864864864864
+    },
+    {
       "nombre": "Nautilus",
       "partidas": 7,
       "victorias": 3,
       "winrate": "42.9%",
       "kda_promedio": 2.4838709677419355
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.222222222222222
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.25
     },
     {
       "nombre": "Rell",
@@ -106,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 34,
+    "games": 71,
+    "wins": 38,
     "losses": 33,
-    "timePlayed": 106715
+    "timePlayed": 112668
   }
 }

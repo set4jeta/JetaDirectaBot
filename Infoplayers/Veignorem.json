@@ -69,10 +69,10 @@
     },
     {
       "nombre": "Neeko",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.388888888888889
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9230769230769231
     },
     {
       "nombre": "Rell",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 16,
+    "games": 31,
+    "wins": 15,
     "losses": 16,
-    "timePlayed": 52965
+    "timePlayed": 50892
   }
 }

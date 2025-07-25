@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "La Splintance#TAFE",
+      "nivel": 179,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 790,
+      "victorias": 217,
+      "derrotas": 169,
+      "ultima_partida": 1753430767622
+    },
+    {
       "nombre": "Splinter#TAFE",
       "nivel": 844,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 94,
       "derrotas": 74,
       "ultima_partida": 1753398837099
-    },
-    {
-      "nombre": "La Splintance#TAFE",
-      "nivel": 179,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 790,
-      "victorias": 216,
-      "derrotas": 168,
-      "ultima_partida": 1753352233756
     },
     {
       "nombre": "Kiffeur#KR7",
@@ -55,10 +55,10 @@
     },
     {
       "nombre": "Nidalee",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 1.8103448275862069
+      "winrate": "54.5%",
+      "kda_promedio": 1.681159420289855
     },
     {
       "nombre": "Pantheon",
@@ -69,10 +69,10 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3333333333333335
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.96
     },
     {
       "nombre": "Diana",
@@ -90,9 +90,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 23,
-    "losses": 16,
-    "timePlayed": 62960
+    "games": 41,
+    "wins": 24,
+    "losses": 17,
+    "timePlayed": 66472
   }
 }

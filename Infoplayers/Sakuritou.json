@@ -22,7 +22,7 @@
       "lp": 1300,
       "victorias": 224,
       "derrotas": 170,
-      "ultima_partida": 1753319696187
+      "ultima_partida": 1753405537458
     }
   ],
   "campeones_recientes": [
@@ -46,6 +46,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.3636363636363635
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.875
     },
     {
       "nombre": "Gwen",
@@ -83,13 +90,6 @@
       "kda_promedio": 9
     },
     {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 12
-    },
-    {
       "nombre": "Zilean",
       "partidas": 1,
       "victorias": 0,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
+    "games": 25,
     "wins": 14,
-    "losses": 10,
-    "timePlayed": 42257
+    "losses": 11,
+    "timePlayed": 43988
   }
 }

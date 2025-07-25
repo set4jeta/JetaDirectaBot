@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Sangrod#EUWW",
-      "nivel": 1173,
+      "nivel": 1174,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 809,
-      "victorias": 795,
-      "derrotas": 765,
-      "ultima_partida": 1753384096207
+      "lp": 889,
+      "victorias": 800,
+      "derrotas": 766,
+      "ultima_partida": 1753436795657
     }
   ],
   "campeones_recientes": [
@@ -62,18 +62,18 @@
       "kda_promedio": 2.72972972972973
     },
     {
+      "nombre": "Vladimir",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.7027027027027026
+    },
+    {
       "nombre": "DrMundo",
       "partidas": 7,
       "victorias": 5,
       "winrate": "71.4%",
       "kda_promedio": 1.6896551724137931
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.272727272727273
     },
     {
       "nombre": "Sion",
@@ -83,24 +83,24 @@
       "kda_promedio": 1.2941176470588236
     },
     {
+      "nombre": "Garen",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Jax",
       "partidas": 5,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.78125
-    },
-    {
-      "nombre": "Urgot",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.6818181818181817
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 152,
-    "wins": 80,
-    "losses": 72,
-    "timePlayed": 240842
+    "games": 158,
+    "wins": 85,
+    "losses": 73,
+    "timePlayed": 250624
   }
 }

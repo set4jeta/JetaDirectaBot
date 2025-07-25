@@ -18,19 +18,19 @@
       "nivel": 541,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 831,
-      "victorias": 567,
+      "lp": 871,
+      "victorias": 569,
       "derrotas": 529,
-      "ultima_partida": 1753398140529
+      "ultima_partida": 1753403964653
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "JarvanIV",
-      "partidas": 80,
-      "victorias": 47,
-      "winrate": "58.8%",
-      "kda_promedio": 4.086720867208672
+      "partidas": 81,
+      "victorias": 48,
+      "winrate": "59.3%",
+      "kda_promedio": 4.083109919571045
     },
     {
       "nombre": "Karma",
@@ -47,18 +47,18 @@
       "kda_promedio": 2.5789473684210527
     },
     {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.25
+    },
+    {
       "nombre": "Khazix",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 4.5
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.826086956521739
     },
     {
       "nombre": "Kayn",
@@ -90,9 +90,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 104,
-    "wins": 60,
+    "games": 106,
+    "wins": 62,
     "losses": 44,
-    "timePlayed": 164486
+    "timePlayed": 167275
   }
 }

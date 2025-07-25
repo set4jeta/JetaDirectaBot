@@ -9,6 +9,9 @@ from esports_extension.utils.time_utils import get_network_time, round_down_to_1
 from esports_extension.services.storage import save_tracked_matches, load_tracked_matches, cleanup_completed_matches_in_memory, save_firestore_data, load_firestore_data # Asegúrate de que tu api.py esté en services/
 from esports_extension.services.embed_service import EmbedService
 from esports_extension.services.chat_winner_detector import analyze_chat_and_update_wins
+from esports_extension.services.storage import load_notified_games, save_notified_games
+
+from esports_extension.utils.buttons import ScoreButtonView
 
 from datetime import datetime, timedelta, timezone
 from enum import Enum
@@ -23,6 +26,9 @@ import copy
 
 class TrackerService:
     def __init__(self, api_client: APIClient):
+        
+        
+        
         self.api_client = api_client
         self.tracked_matches = {
             m.match_id: m for m in load_tracked_matches("tracked_matches.json")
@@ -316,48 +322,63 @@ class TrackerService:
 
         
     
-    async def notify_new_games(self, channel):
-        updated = False 
-        for match in self.tracked_matches.values():
-            # Recorre los juegos en orden inverso para priorizar el más reciente
-            for tracked_game in reversed(match.trackedGames):
-                if not match.teamsEventDetails or len(match.teamsEventDetails) < 2:
-                    continue  # Skip if teamsEventDetails is None or does not have enough teams
-                expected_blue_team = match.teamsEventDetails[0]
-                expected_red_team = match.teamsEventDetails[1]
+    
 
-            
+    async def notify_new_games(self, channel):
+        notified_games = load_notified_games()
+        updated = False
+        for match in self.tracked_matches.values():
+            for tracked_game in reversed(match.trackedGames):
+                game_id = tracked_game.game_id
+                notified_channels = set(notified_games.get(game_id, []))
                 if (
                     tracked_game.state == "inProgress"
-                    and not tracked_game.notified_game
+                    and channel.id not in notified_channels
                     and tracked_game.live_blue_metadata
                     and tracked_game.live_red_metadata
                     and tracked_game.live_blue_metadata.participants
                     and tracked_game.live_red_metadata.participants
-                    and (
-    tracked_game.live_blue_metadata.team_id in [expected_blue_team.id, expected_red_team.id]
-    and tracked_game.live_red_metadata.team_id in [expected_blue_team.id, expected_red_team.id]
-    and tracked_game.live_blue_metadata.team_id != tracked_game.live_red_metadata.team_id
-)
-                ): 
+                ):
                     try:
-                        print(f"[🛠️] Creando embed para match_id: {match.match_id}, game_id={tracked_game.game_id}")
                         embed = await EmbedService.create_live_match_embed(match, is_notification=True)
-                        await channel.send(embed=embed)
-                        
-                        if not tracked_game.real_start_time and not tracked_game.paused:
-                            tracked_game.real_start_time = await get_network_time()
-                        
-                        tracked_game.notified_game = True
-                        print(f"[✅] Juego {tracked_game.number} notificado correctamente")
-                        tracked_game.notified_time = await get_network_time()
+                        # Extrae los equipos igual que en el embed
+                        tracked_game = next(
+                            (g for g in reversed(match.trackedGames)
+                            if g.state == "inProgress"
+                            and g.live_blue_metadata
+                            and g.live_red_metadata
+                            and g.live_blue_metadata.participants
+                            and g.live_red_metadata.participants),
+                            None
+                        )
+                        if tracked_game and match.teamsEventDetails:
+                            blue_team = next((t for t in match.teamsEventDetails if tracked_game.live_blue_metadata and t.id == tracked_game.live_blue_metadata.team_id), None)
+                            red_team = next((t for t in match.teamsEventDetails if tracked_game.live_red_metadata and t.id == tracked_game.live_red_metadata.team_id), None)
+                            
+                            blue_wins = blue_team.game_wins if blue_team else 0
+                            red_wins = red_team.game_wins if red_team else 0
+
+                            if blue_wins > 0 or red_wins > 0:
+                                await channel.send(embed=embed, view=ScoreButtonView(blue_wins, red_wins))
+                            else:
+                                await channel.send(embed=embed)
+                        else:
+                            await channel.send(embed=embed)
+                        notified_channels.add(channel.id)
+                        notified_games[game_id] = list(notified_channels)
+                        save_notified_games(notified_games)
+                        if tracked_game and hasattr(tracked_game, "number"):
+                            print(f"[✅] Juego {tracked_game.number} notificado correctamente en canal {channel.id}")
+                        else:
+                            print(f"[✅] Juego notificado correctamente en canal {channel.id} (no se pudo obtener número)")
                         updated = True
                     except Exception as e:
-                        print(f"[❌] Error notificando juego {tracked_game.number}: {e}")
+                        if tracked_game and hasattr(tracked_game, "number"):
+                            print(f"[❌] Error notificando juego {tracked_game.number}: {e}")
+                        else:
+                            print(f"[❌] Error notificando juego: {e}")
                         continue
-
         if updated:
-            await save_tracked_matches(list(self.tracked_matches.values()), "tracked_matches.json")
             print("[💾] Guardado post-notificación exitoso")
             
     

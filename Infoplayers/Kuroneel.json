@@ -42,10 +42,10 @@
     },
     {
       "nombre": "Akali",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.061224489795918
+      "winrate": "37.5%",
+      "kda_promedio": 2.4615384615384617
     },
     {
       "nombre": "Nidalee",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
+    "games": 71,
     "wins": 31,
-    "losses": 41,
-    "timePlayed": 123952
+    "losses": 40,
+    "timePlayed": 122131
   }
 }

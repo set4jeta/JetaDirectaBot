@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Pipibaat Yarr#EUW",
-      "nivel": 821,
+      "nivel": 822,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1030,
-      "victorias": 291,
-      "derrotas": 243,
-      "ultima_partida": 1753304011004
+      "liga": "GRANDMASTER I",
+      "lp": 941,
+      "victorias": 294,
+      "derrotas": 250,
+      "ultima_partida": 1753403265556
     },
     {
       "nombre": "henkdekabouter#EUW",
@@ -39,16 +39,23 @@
     {
       "nombre": "Ambessa",
       "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6666666666666665
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0408163265306123
     },
     {
       "nombre": "Gragas",
       "partidas": 12,
       "victorias": 8,
       "winrate": "66.7%",
-      "kda_promedio": 3.6363636363636362
+      "kda_promedio": 3.6451612903225805
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.0357142857142856
     },
     {
       "nombre": "Gwen",
@@ -65,18 +72,18 @@
       "kda_promedio": 3.590909090909091
     },
     {
-      "nombre": "Trundle",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.6
-    },
-    {
       "nombre": "Vi",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.8125
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.75
     },
     {
       "nombre": "MonkeyKing",
@@ -98,19 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.6363636363636362
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
+    "games": 67,
     "wins": 39,
-    "losses": 22,
-    "timePlayed": 97666
+    "losses": 28,
+    "timePlayed": 106581
   }
 }

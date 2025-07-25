@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "søuleater#søul",
+      "nivel": 201,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 561,
+      "victorias": 148,
+      "derrotas": 113,
+      "ultima_partida": 1753430263582
+    },
+    {
       "nombre": "Zwyrøø#soul",
       "nivel": 1264,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 548,
       "derrotas": 493,
       "ultima_partida": 1753389173321
-    },
-    {
-      "nombre": "søuleater#søul",
-      "nivel": 201,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 498,
-      "victorias": 144,
-      "derrotas": 112,
-      "ultima_partida": 1753382326200
     }
   ],
   "campeones_recientes": [
@@ -51,6 +51,13 @@
       "kda_promedio": 3.6923076923076925
     },
     {
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.875
+    },
+    {
       "nombre": "Aurora",
       "partidas": 4,
       "victorias": 1,
@@ -58,11 +65,18 @@
       "kda_promedio": 3.125
     },
     {
-      "nombre": "Ahri",
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0476190476190474
+    },
+    {
+      "nombre": "Azir",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.0833333333333335
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.230769230769231
     },
     {
       "nombre": "Corki",
@@ -91,26 +105,12 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.8
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4705882352941178
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 75,
-    "wins": 42,
-    "losses": 33,
-    "timePlayed": 121277
+    "games": 80,
+    "wins": 46,
+    "losses": 34,
+    "timePlayed": 128910
   }
 }

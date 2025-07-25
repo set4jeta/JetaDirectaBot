@@ -1,5 +1,7 @@
+# esports_extension/bot/commands.py
 from nextcord.ext import commands
 from nextcord import Embed
+from soupsieve import match
 from esports_extension.services.embed_service import EmbedService
 from esports_extension.services.storage import save_notification_channel, remove_notification_channel
 from esports_extension.utils.time_utils import get_network_time
@@ -7,6 +9,7 @@ from esports_extension.models.match import ScheduleEvent, EventDetails
 from esports_extension.models.tracker import TrackedMatch, TrackedStatus
 from esports_extension.services.api import firestore_query_matches 
 from esports_extension.services.storage import load_notification_channel
+from esports_extension.utils.buttons import ScoreButtonView
 import copy
 from nextcord.ext import tasks
 
@@ -24,6 +27,10 @@ class EsportsCommands(commands.Cog):
     @tasks.loop(seconds=30)
     async def bg_task(self):
         try:
+            # 1. Detecta partidos solo una vez por ciclo
+            await self.tracker.detect_live_matches()
+
+            # 2. Notifica en todos los canales configurados en este ciclo
             for guild in self.bot.guilds:
                 channel_id = load_notification_channel(guild.id)
                 if not channel_id:
@@ -33,7 +40,7 @@ class EsportsCommands(commands.Cog):
                 if not channel:
                     print(f"[❌] Canal no encontrado en guild {guild.id}. ¿Se borró el canal?")
                     continue
-                await self.tracker.detect_live_matches()
+                print(f"[INFO] Notificando en guild {guild.id} canal {channel_id} ({channel.name})")
                 await self.tracker.notify_new_games(channel)
         except Exception as e:
             print(f"[🔥] Error crítico en bg_task: {str(e)}")
@@ -77,7 +84,26 @@ class EsportsCommands(commands.Cog):
             for g in reversed(match.trackedGames):
                 if g.state == "inProgress" and g.has_participants:
                     embed = await EmbedService.create_live_match_embed(match, is_notification=False)
-                    await ctx.send(embed=embed)
+                    tracked_game = next(
+                        (g for g in reversed(match.trackedGames)
+                        if g.state == "inProgress"
+                        and g.live_blue_metadata
+                        and g.live_red_metadata
+                        and g.live_blue_metadata.participants
+                        and g.live_red_metadata.participants),
+                        None
+                    )
+                    if tracked_game and match.teamsEventDetails:
+                        blue_team = next((t for t in match.teamsEventDetails if tracked_game.live_blue_metadata and t.id == tracked_game.live_blue_metadata.team_id), None)
+                        red_team = next((t for t in match.teamsEventDetails if tracked_game.live_red_metadata and t.id == tracked_game.live_red_metadata.team_id), None)
+                        blue_wins = blue_team.game_wins if blue_team else 0
+                        red_wins = red_team.game_wins if red_team else 0
+                        if blue_wins == 0 and red_wins == 0:
+                            await ctx.send(embed=embed)
+                        else:
+                            await ctx.send(embed=embed, view=ScoreButtonView(blue_wins, red_wins))
+                    else:
+                        await ctx.send(embed=embed)
                     sent_for_this_match = True
                     any_embed_sent = True
                     break
@@ -105,7 +131,13 @@ class EsportsCommands(commands.Cog):
                     and not next_game.draft_in_progress
                 ):
                     embed = await EmbedService.create_waiting_embed(match, next_game.number)
-                    await ctx.send(embed=embed)
+                    blue_wins = match.teamsEventDetails[0].game_wins
+                    red_wins = match.teamsEventDetails[1].game_wins
+
+                    if blue_wins == 0 and red_wins == 0:
+                        await ctx.send(embed=embed)
+                    else:
+                        await ctx.send(embed=embed, view=ScoreButtonView(blue_wins, red_wins))
                     sent_for_this_match = True
                     any_embed_sent = True
                     break
@@ -122,7 +154,13 @@ class EsportsCommands(commands.Cog):
                 and not first_game.draft_in_progress
             ):
                 embed = await EmbedService.create_waiting_embed(match, first_game.number)
-                await ctx.send(embed=embed)
+                blue_wins = match.teamsEventDetails[0].game_wins
+                red_wins = match.teamsEventDetails[1].game_wins
+
+                if blue_wins == 0 and red_wins == 0:
+                    await ctx.send(embed=embed)
+                else:
+                    await ctx.send(embed=embed, view=ScoreButtonView(blue_wins, red_wins))
                 sent_for_this_match = True
                 any_embed_sent = True
                     

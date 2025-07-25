@@ -19,10 +19,10 @@
       "nivel": 974,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 863,
-      "victorias": 306,
-      "derrotas": 277,
-      "ultima_partida": 1753388469891
+      "lp": 862,
+      "victorias": 307,
+      "derrotas": 278,
+      "ultima_partida": 1753394537446
     },
     {
       "nombre": "ff ad acc#farf",
@@ -56,6 +56,13 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7058823529411766
     },
     {
       "nombre": "Nautilus",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.5384615384615383
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 24,
-    "losses": 23,
-    "timePlayed": 77249
+    "games": 49,
+    "wins": 25,
+    "losses": 24,
+    "timePlayed": 79981
   }
 }

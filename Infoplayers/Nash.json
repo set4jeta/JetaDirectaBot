@@ -19,10 +19,10 @@
       "nivel": 333,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 220,
+      "lp": 210,
       "victorias": 256,
-      "derrotas": 218,
-      "ultima_partida": 1753378973151
+      "derrotas": 219,
+      "ultima_partida": 1753412325821
     },
     {
       "nombre": "Aggressive Play#EUW",
@@ -49,7 +49,7 @@
       "nivel": 726,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 417,
+      "lp": 342,
       "victorias": 174,
       "derrotas": 148,
       "ultima_partida": 1752364017137
@@ -72,10 +72,10 @@
     },
     {
       "nombre": "Rell",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.95
+      "winrate": "57.1%",
+      "kda_promedio": 4.28125
     },
     {
       "nombre": "Rakan",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
+    "games": 42,
     "wins": 22,
-    "losses": 19,
-    "timePlayed": 66368
+    "losses": 20,
+    "timePlayed": 68565
   }
 }

@@ -3,9 +3,9 @@
     "nombre": "Rhilech",
     "nombre_real": "Enes Uçan",
     "edad": 19,
-    "equipo": "BK ROG Esports",
+    "equipo": "Natus Vincere",
     "pais": "Turkey",
-    "contrato_hasta": null,
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Rhilechlol",
       "twitch": "https://www.twitch.tv/rhilechlol"
@@ -19,7 +19,7 @@
       "nivel": 1015,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1399,
+      "lp": 1324,
       "victorias": 478,
       "derrotas": 416,
       "ultima_partida": 1753306365180
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "DrMundo",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.619047619047619
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 5.2
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7777777777777777
     },
     {
       "nombre": "Viego",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 11,
+    "games": 19,
+    "wins": 10,
     "losses": 9,
-    "timePlayed": 34177
+    "timePlayed": 32477
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "niezły yeti pl#hui",
-      "nivel": 750,
+      "nivel": 751,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 936,
-      "victorias": 247,
+      "lp": 972,
+      "victorias": 249,
       "derrotas": 208,
-      "ultima_partida": 1753389685252
+      "ultima_partida": 1753400316377
     }
   ],
   "campeones_recientes": [
@@ -32,6 +32,13 @@
       "victorias": 5,
       "winrate": "83.3%",
       "kda_promedio": 2.7083333333333335
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.142857142857143
     },
     {
       "nombre": "Chogath",
@@ -53,13 +60,6 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.888888888888889
     },
     {
       "nombre": "Galio",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 18,
+    "games": 36,
+    "wins": 20,
     "losses": 16,
-    "timePlayed": 57400
+    "timePlayed": 60443
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 256,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 875,
-      "victorias": 294,
-      "derrotas": 254,
-      "ultima_partida": 1753345331507
+      "lp": 906,
+      "victorias": 297,
+      "derrotas": 256,
+      "ultima_partida": 1753389491932
     },
     {
       "nombre": "AαrchΦiend#666",
@@ -38,24 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 27,
-      "victorias": 15,
-      "winrate": "55.6%",
-      "kda_promedio": 2.090909090909091
+      "partidas": 26,
+      "victorias": 14,
+      "winrate": "53.8%",
+      "kda_promedio": 2.0814814814814815
     },
     {
       "nombre": "Ambessa",
       "partidas": 11,
-      "victorias": 9,
-      "winrate": "81.8%",
-      "kda_promedio": 2.617021276595745
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.5531914893617023
     },
     {
       "nombre": "KSante",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.121212121212121
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.085714285714286
     },
     {
       "nombre": "Galio",
@@ -79,6 +79,13 @@
       "kda_promedio": 1.6875
     },
     {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
       "nombre": "Camille",
       "partidas": 2,
       "victorias": 0,
@@ -93,13 +100,6 @@
       "kda_promedio": 1.8823529411764706
     },
     {
-      "nombre": "Yorick",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.4545454545454546
-    },
-    {
       "nombre": "Gnar",
       "partidas": 1,
       "victorias": 0,
@@ -111,6 +111,6 @@
     "games": 67,
     "wins": 41,
     "losses": 26,
-    "timePlayed": 107168
+    "timePlayed": 106511
   }
 }

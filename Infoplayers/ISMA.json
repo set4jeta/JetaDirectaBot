@@ -71,18 +71,18 @@
       "kda_promedio": 8.23076923076923
     },
     {
-      "nombre": "Nidalee",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.25
-    },
-    {
       "nombre": "Diana",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.6875
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5454545454545454
     },
     {
       "nombre": "LeeSin",
@@ -100,9 +100,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
+    "games": 39,
     "wins": 21,
-    "losses": 19,
-    "timePlayed": 66063
+    "losses": 18,
+    "timePlayed": 64591
   }
 }

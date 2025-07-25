@@ -19,40 +19,40 @@
       "nivel": 601,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 986,
-      "victorias": 411,
-      "derrotas": 374,
-      "ultima_partida": 1753272603278
+      "lp": 966,
+      "victorias": 412,
+      "derrotas": 376,
+      "ultima_partida": 1753436612146
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 12,
-      "victorias": 3,
-      "winrate": "25.0%",
-      "kda_promedio": 3.014925373134328
-    },
-    {
       "nombre": "Trundle",
       "partidas": 11,
+      "victorias": 2,
+      "winrate": "18.2%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 10,
       "victorias": 3,
-      "winrate": "27.3%",
-      "kda_promedio": 2.96
+      "winrate": "30.0%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Vi",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.055555555555555
+      "winrate": "66.7%",
+      "kda_promedio": 3.48
     },
     {
       "nombre": "JarvanIV",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.2105263157894735
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "MonkeyKing",
@@ -62,18 +62,18 @@
       "kda_promedio": 2.238095238095238
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.375
-    },
-    {
       "nombre": "Rammus",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Zyra",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
+    "games": 48,
     "wins": 18,
-    "losses": 31,
-    "timePlayed": 86130
+    "losses": 30,
+    "timePlayed": 83392
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "stardewvalley67#EUW",
-      "nivel": 244,
+      "nivel": 245,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1307,
+      "lp": 1285,
       "victorias": 213,
-      "derrotas": 167,
-      "ultima_partida": 1753364354785
+      "derrotas": 168,
+      "ultima_partida": 1753369886934
     },
     {
       "nombre": "xLinayaa#EUW",
@@ -45,10 +45,10 @@
     },
     {
       "nombre": "Gwen",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.394736842105263
+      "winrate": "50.0%",
+      "kda_promedio": 1.3571428571428572
     },
     {
       "nombre": "Jax",
@@ -70,13 +70,6 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.7142857142857144
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
     },
     {
       "nombre": "Volibear",
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4375
     }
   ],
   "estadisticas_2_semanas": {
     "games": 40,
     "wins": 21,
     "losses": 19,
-    "timePlayed": 57566
+    "timePlayed": 58303
   }
 }

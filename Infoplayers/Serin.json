@@ -41,13 +41,6 @@
       "kda_promedio": 1.9259259259259258
     },
     {
-      "nombre": "Zed",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.2432432432432434
-    },
-    {
       "nombre": "AurelionSol",
       "partidas": 4,
       "victorias": 2,
@@ -67,6 +60,13 @@
       "victorias": 4,
       "winrate": "100.0%",
       "kda_promedio": 5.357142857142857
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Corki",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
+    "games": 64,
     "wins": 32,
-    "losses": 33,
-    "timePlayed": 104800
+    "losses": 32,
+    "timePlayed": 102368
   }
 }

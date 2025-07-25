@@ -18,10 +18,10 @@
       "nivel": 180,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 665,
+      "lp": 644,
       "victorias": 131,
-      "derrotas": 103,
-      "ultima_partida": 1753399343530
+      "derrotas": 104,
+      "ultima_partida": 1753401197250
     },
     {
       "nombre": "PoEs tk#EUW",
@@ -64,6 +64,13 @@
       "kda_promedio": 0.2
     },
     {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 11
+    },
+    {
       "nombre": "Renekton",
       "partidas": 1,
       "victorias": 0,
@@ -72,9 +79,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 88,
+    "games": 89,
     "wins": 54,
-    "losses": 34,
-    "timePlayed": 147221
+    "losses": 35,
+    "timePlayed": 149549
   }
 }

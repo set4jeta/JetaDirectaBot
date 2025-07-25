@@ -14,47 +14,47 @@
   },
   "cuentas": [
     {
+      "nombre": "Ruthless#SOS",
+      "nivel": 61,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 388,
+      "victorias": 151,
+      "derrotas": 117,
+      "ultima_partida": 1753436912169
+    },
+    {
       "nombre": "Unforgettable#GGS",
       "nivel": 70,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 777,
-      "victorias": 158,
-      "derrotas": 121,
-      "ultima_partida": 1753286873514
-    },
-    {
-      "nombre": "Ruthless#SOS",
-      "nivel": 60,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 431,
-      "victorias": 151,
-      "derrotas": 115,
-      "ultima_partida": 1753283557993
+      "lp": 793,
+      "victorias": 160,
+      "derrotas": 122,
+      "ultima_partida": 1753432022624
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.923076923076923
+      "winrate": "57.1%",
+      "kda_promedio": 2.3714285714285714
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.619047619047619
     },
     {
       "nombre": "Syndra",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 1.4827586206896552
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.642857142857143
+      "kda_promedio": 1.75
     },
     {
       "nombre": "Ahri",
@@ -78,11 +78,25 @@
       "kda_promedio": 1.1428571428571428
     },
     {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
       "nombre": "Jhin",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
     },
     {
       "nombre": "Yone",
@@ -93,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 22,
-    "wins": 13,
-    "losses": 9,
-    "timePlayed": 36564
+    "games": 26,
+    "wins": 14,
+    "losses": 12,
+    "timePlayed": 44182
   }
 }

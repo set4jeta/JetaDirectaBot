@@ -8,22 +8,12 @@
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/xagog42",
-      "twitch": "https://twitch.tv/xagog005\\t"
+      "twitch": "https://twitch.tv/xagog005"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
     "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
   },
   "cuentas": [
-    {
-      "nombre": "decay arc#EUW",
-      "nivel": 105,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1289,
-      "victorias": 223,
-      "derrotas": 138,
-      "ultima_partida": 1753303083712
-    },
     {
       "nombre": "ANKARAI0MESSI#EUW",
       "nivel": 311,
@@ -32,7 +22,17 @@
       "lp": 45,
       "victorias": 9,
       "derrotas": 17,
-      "ultima_partida": 1753197753892
+      "ultima_partida": 1753393331702
+    },
+    {
+      "nombre": "decay arc#EUW",
+      "nivel": 105,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1307,
+      "victorias": 224,
+      "derrotas": 138,
+      "ultima_partida": 1753389491932
     },
     {
       "nombre": "Xagog#EUW",
@@ -68,6 +68,13 @@
       "kda_promedio": 2.590909090909091
     },
     {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.7272727272727275
+    },
+    {
       "nombre": "Zed",
       "partidas": 3,
       "victorias": 2,
@@ -87,13 +94,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 4.25
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.571428571428571
     },
     {
       "nombre": "Graves",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
-    "wins": 16,
+    "games": 30,
+    "wins": 17,
     "losses": 13,
-    "timePlayed": 44550
+    "timePlayed": 46321
   }
 }

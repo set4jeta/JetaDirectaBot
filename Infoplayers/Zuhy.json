@@ -19,7 +19,7 @@
       "lp": 972,
       "victorias": 166,
       "derrotas": 127,
-      "ultima_partida": 1753384414489
+      "ultima_partida": 1753400612352
     }
   ],
   "campeones_recientes": [
@@ -38,13 +38,6 @@
       "kda_promedio": 3.1666666666666665
     },
     {
-      "nombre": "Aurora",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
       "nombre": "Galio",
       "partidas": 2,
       "victorias": 1,
@@ -52,11 +45,11 @@
       "kda_promedio": 6.75
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Aurora",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.1666666666666665
+      "kda_promedio": 2
     },
     {
       "nombre": "Leblanc",
@@ -95,9 +88,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
+    "games": 13,
     "wins": 6,
-    "losses": 9,
-    "timePlayed": 25970
+    "losses": 7,
+    "timePlayed": 22385
   }
 }

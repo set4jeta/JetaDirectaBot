@@ -25,10 +25,10 @@
   "campeones_recientes": [
     {
       "nombre": "Gragas",
-      "partidas": 40,
-      "victorias": 19,
-      "winrate": "47.5%",
-      "kda_promedio": 2.5985915492957745
+      "partidas": 39,
+      "victorias": 18,
+      "winrate": "46.2%",
+      "kda_promedio": 2.5661764705882355
     },
     {
       "nombre": "Karma",
@@ -39,10 +39,10 @@
     },
     {
       "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0476190476190474
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Maokai",
@@ -74,9 +74,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 28,
+    "games": 55,
+    "wins": 26,
     "losses": 29,
-    "timePlayed": 87541
+    "timePlayed": 83428
   }
 }

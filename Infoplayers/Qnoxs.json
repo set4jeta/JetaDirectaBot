@@ -17,7 +17,7 @@
       "nombre": "Qnoxs#17165",
       "nivel": 2846,
       "region": "EUW1",
-      "liga": "MASTER I",
+      "liga": "GRANDMASTER I",
       "lp": 876,
       "victorias": 1229,
       "derrotas": 1201,
@@ -27,17 +27,17 @@
   "campeones_recientes": [
     {
       "nombre": "Sona",
-      "partidas": 75,
+      "partidas": 73,
       "victorias": 39,
-      "winrate": "52.0%",
-      "kda_promedio": 2.446360153256705
+      "winrate": "53.4%",
+      "kda_promedio": 2.475442043222004
     },
     {
       "nombre": "Janna",
-      "partidas": 51,
-      "victorias": 29,
-      "winrate": "56.9%",
-      "kda_promedio": 2.7562724014336917
+      "partidas": 50,
+      "victorias": 28,
+      "winrate": "56.0%",
+      "kda_promedio": 2.730909090909091
     },
     {
       "nombre": "Senna",
@@ -48,10 +48,10 @@
     },
     {
       "nombre": "Soraka",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.3582089552238807
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.457627118644068
     },
     {
       "nombre": "Nami",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 193,
-    "wins": 102,
-    "losses": 91,
-    "timePlayed": 308844
+    "games": 189,
+    "wins": 100,
+    "losses": 89,
+    "timePlayed": 301893
   }
 }

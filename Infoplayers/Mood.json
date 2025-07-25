@@ -76,13 +76,6 @@
       "kda_promedio": 1.7894736842105263
     },
     {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4545454545454546
-    },
-    {
       "nombre": "Rakan",
       "partidas": 2,
       "victorias": 0,
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 43,
+    "games": 42,
     "wins": 23,
-    "losses": 20,
-    "timePlayed": 66549
+    "losses": 19,
+    "timePlayed": 64506
   }
 }

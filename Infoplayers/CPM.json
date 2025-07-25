@@ -86,13 +86,6 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Maokai",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8333333333333334
-    },
-    {
       "nombre": "Nautilus",
       "partidas": 1,
       "victorias": 0,
@@ -101,9 +94,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 107,
+    "games": 106,
     "wins": 61,
-    "losses": 46,
-    "timePlayed": 171834
+    "losses": 45,
+    "timePlayed": 169939
   }
 }

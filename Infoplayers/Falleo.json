@@ -21,7 +21,7 @@
       "lp": 788,
       "victorias": 236,
       "derrotas": 199,
-      "ultima_partida": 1753378601444
+      "ultima_partida": 1753401919229
     },
     {
       "nombre": "Falleo#Fall",
@@ -43,18 +43,18 @@
       "kda_promedio": 1.9761904761904763
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.9130434782608696
-    },
-    {
       "nombre": "Renekton",
       "partidas": 6,
       "victorias": 2,
       "winrate": "33.3%",
       "kda_promedio": 1.368421052631579
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4444444444444446
     },
     {
       "nombre": "Gwen",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
+    "games": 31,
     "wins": 21,
-    "losses": 11,
-    "timePlayed": 52306
+    "losses": 10,
+    "timePlayed": 50553
   }
 }

@@ -75,18 +75,18 @@
       "kda_promedio": 3.426829268292683
     },
     {
-      "nombre": "Ekko",
-      "partidas": 18,
-      "victorias": 12,
-      "winrate": "66.7%",
-      "kda_promedio": 3.088888888888889
-    },
-    {
       "nombre": "Viego",
       "partidas": 18,
       "victorias": 10,
       "winrate": "55.6%",
       "kda_promedio": 3.1139240506329116
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 3.107142857142857
     },
     {
       "nombre": "Zed",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 180,
+    "games": 179,
     "wins": 96,
-    "losses": 84,
-    "timePlayed": 299775
+    "losses": 83,
+    "timePlayed": 298120
   }
 }

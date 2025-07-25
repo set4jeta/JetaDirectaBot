@@ -18,10 +18,10 @@
       "nivel": 340,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1310,
+      "lp": 1268,
       "victorias": 259,
-      "derrotas": 196,
-      "ultima_partida": 1753347799393
+      "derrotas": 198,
+      "ultima_partida": 1753427384006
     },
     {
       "nombre": "Soldier#Asu",
@@ -37,17 +37,17 @@
   "campeones_recientes": [
     {
       "nombre": "Varus",
-      "partidas": 18,
+      "partidas": 19,
       "victorias": 13,
-      "winrate": "72.2%",
-      "kda_promedio": 4.979166666666667
+      "winrate": "68.4%",
+      "kda_promedio": 4.6415094339622645
     },
     {
       "nombre": "MissFortune",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.806451612903226
+      "winrate": "55.6%",
+      "kda_promedio": 3.4444444444444446
     },
     {
       "nombre": "Kaisa",
@@ -86,9 +86,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
+    "games": 39,
     "wins": 25,
-    "losses": 12,
-    "timePlayed": 58276
+    "losses": 14,
+    "timePlayed": 61061
   }
 }

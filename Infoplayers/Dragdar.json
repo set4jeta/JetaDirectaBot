@@ -19,19 +19,19 @@
       "nivel": 621,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1128,
-      "victorias": 528,
-      "derrotas": 488,
-      "ultima_partida": 1753387234907
+      "lp": 1125,
+      "victorias": 530,
+      "derrotas": 490,
+      "ultima_partida": 1753419746646
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ezreal",
-      "partidas": 46,
-      "victorias": 24,
-      "winrate": "52.2%",
-      "kda_promedio": 2.87
+      "partidas": 49,
+      "victorias": 26,
+      "winrate": "53.1%",
+      "kda_promedio": 2.938679245283019
     },
     {
       "nombre": "Jhin",
@@ -53,6 +53,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 6
     },
     {
       "nombre": "Karma",
@@ -88,19 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.125
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 27,
-    "losses": 31,
-    "timePlayed": 93907
+    "games": 62,
+    "wins": 29,
+    "losses": 33,
+    "timePlayed": 100215
   }
 }

@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Poppy",
-      "partidas": 15,
+      "partidas": 14,
       "victorias": 9,
-      "winrate": "60.0%",
-      "kda_promedio": 2.4431818181818183
+      "winrate": "64.3%",
+      "kda_promedio": 2.6375
     },
     {
       "nombre": "Jax",
@@ -72,13 +72,6 @@
       "kda_promedio": 1
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1
-    },
-    {
       "nombre": "Aurora",
       "partidas": 1,
       "victorias": 0,
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5714285714285714
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 15,
-    "losses": 15,
-    "timePlayed": 49652
+    "games": 28,
+    "wins": 14,
+    "losses": 14,
+    "timePlayed": 46209
   }
 }

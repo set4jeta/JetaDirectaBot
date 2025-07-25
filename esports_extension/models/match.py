@@ -107,16 +107,17 @@ class Schedule:        #  {"data": { "schedule": {
         ]
 
 
-class TeamEventDetails:            #  {"data": { "event": { "match": { teams: [ {} ] } } } }
+class TeamEventDetails:
     def __init__(self, teamEventDetails_data: Dict[str, Any]):
-        
+        if not isinstance(teamEventDetails_data, dict):
+            teamEventDetails_data = {}
         self._raw_data: Dict[str, Any] = teamEventDetails_data
-        
         self.id: str = teamEventDetails_data.get('id', '')
         self.name: str = teamEventDetails_data.get('name', '')
         self.code: str = teamEventDetails_data.get('code', '')
         self.image: str = teamEventDetails_data.get('image', '')
-        self.game_wins: int = teamEventDetails_data.get('result', {}).get('gameWins', 0)
+        result = teamEventDetails_data.get('result') or {}
+        self.game_wins: int = result.get('gameWins', 0)
 
     def to_dict(self) -> dict:
         return {
@@ -236,7 +237,9 @@ class EventDetails:      #  {"data": { "event": {
         self.league_name: str = eventDetails_data.get('league', {}).get('name', '')  # event.league.name
         self.slug: str = eventDetails_data.get('league', {}).get('slug', '')  # event.league.slug
         self.best_of_count: int = eventDetails_data.get('match', {}).get('strategy', {}).get('count', 0) 
-        self.teamsEventDetails: List[TeamEventDetails] = [TeamEventDetails(team) for team in eventDetails_data.get('match', {}).get('teams', [])]  # event.match.teams
+        self.teamsEventDetails: List[TeamEventDetails] = [
+    TeamEventDetails(team) for team in eventDetails_data.get('match', {}).get('teams', []) if team and isinstance(team, dict)
+] # event.match.teams
         self.gamesEventDetails: List[GameEventDetails] = [GameEventDetails(game) for game in eventDetails_data.get('match', {}).get('games', [])]  # event.match.games
         self.streamsEventDetails: List[Stream] = [Stream(stream) for stream in eventDetails_data.get('streams', [])]  # event.streams
  

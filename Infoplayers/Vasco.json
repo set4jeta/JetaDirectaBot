@@ -18,10 +18,10 @@
       "nivel": 638,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1004,
-      "victorias": 294,
-      "derrotas": 256,
-      "ultima_partida": 1753390741817
+      "lp": 1002,
+      "victorias": 296,
+      "derrotas": 258,
+      "ultima_partida": 1753431091625
     },
     {
       "nombre": "L Vasco O #EUW",
@@ -37,10 +37,10 @@
   "campeones_recientes": [
     {
       "nombre": "TwistedFate",
-      "partidas": 27,
-      "victorias": 14,
-      "winrate": "51.9%",
-      "kda_promedio": 3.5494505494505493
+      "partidas": 28,
+      "victorias": 15,
+      "winrate": "53.6%",
+      "kda_promedio": 3.619565217391304
     },
     {
       "nombre": "Ezreal",
@@ -78,6 +78,13 @@
       "kda_promedio": 4.090909090909091
     },
     {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8636363636363635
+    },
+    {
       "nombre": "Hwei",
       "partidas": 4,
       "victorias": 2,
@@ -97,19 +104,12 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 5
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
-    "wins": 37,
-    "losses": 43,
-    "timePlayed": 131499
+    "games": 84,
+    "wins": 39,
+    "losses": 45,
+    "timePlayed": 137239
   }
 }

@@ -19,19 +19,26 @@
       "nivel": 711,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 763,
-      "victorias": 424,
+      "lp": 782,
+      "victorias": 425,
       "derrotas": 385,
-      "ultima_partida": 1753350841477
+      "ultima_partida": 1753386536420
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 10,
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.7555555555555555
+      "winrate": "66.7%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.90625
     },
     {
       "nombre": "Neeko",
@@ -48,18 +55,11 @@
       "kda_promedio": 4.6
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.3870967741935485
-    },
-    {
       "nombre": "Rell",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 5.115384615384615
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 4.869565217391305
     },
     {
       "nombre": "Braum",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
+    "games": 48,
     "wins": 25,
-    "losses": 24,
-    "timePlayed": 79350
+    "losses": 23,
+    "timePlayed": 77231
   }
 }

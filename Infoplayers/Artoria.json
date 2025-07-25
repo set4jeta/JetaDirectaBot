@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "Αrtoria Prime#eProd",
-      "nivel": 1703,
+      "nivel": 1704,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 798,
-      "victorias": 640,
-      "derrotas": 604,
-      "ultima_partida": 1753296742086
+      "lp": 894,
+      "victorias": 646,
+      "derrotas": 605,
+      "ultima_partida": 1753391319075
     }
   ],
   "campeones_recientes": [
@@ -31,6 +31,13 @@
       "victorias": 5,
       "winrate": "50.0%",
       "kda_promedio": 1.9859154929577465
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9245283018867925
     },
     {
       "nombre": "Taliyah",
@@ -47,18 +54,11 @@
       "kda_promedio": 4.15625
     },
     {
-      "nombre": "Syndra",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Viktor",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9722222222222222
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.3777777777777778
     },
     {
       "nombre": "Hwei",
@@ -68,38 +68,38 @@
       "kda_promedio": 1.4
     },
     {
-      "nombre": "TwistedFate",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 4.529411764705882
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Braum",
+      "nombre": "Pantheon",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.4545454545454546
+      "kda_promedio": 3.272727272727273
     },
     {
-      "nombre": "Mel",
+      "nombre": "Sylas",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.9444444444444446
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 107,
-    "wins": 51,
-    "losses": 56,
-    "timePlayed": 182472
+    "games": 109,
+    "wins": 55,
+    "losses": 54,
+    "timePlayed": 187635
   }
 }

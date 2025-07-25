@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Tsiperakos#MID",
+      "nivel": 514,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1075,
+      "victorias": 214,
+      "derrotas": 172,
+      "ultima_partida": 1753431972756
+    },
+    {
       "nombre": "LetMe1v2Plz#EUW",
       "nivel": 98,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 70,
       "derrotas": 31,
       "ultima_partida": 1753374368908
-    },
-    {
-      "nombre": "Tsiperakos#MID",
-      "nivel": 514,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1056,
-      "victorias": 213,
-      "derrotas": 172,
-      "ultima_partida": 1753272704311
     },
     {
       "nombre": "Tsipourakos#tsprk",
@@ -84,9 +84,9 @@
     {
       "nombre": "Yone",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7894736842105263
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1
     },
     {
       "nombre": "Poppy",
@@ -119,8 +119,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 40,
-    "wins": 23,
-    "losses": 17,
-    "timePlayed": 65583
+    "wins": 24,
+    "losses": 16,
+    "timePlayed": 66624
   }
 }

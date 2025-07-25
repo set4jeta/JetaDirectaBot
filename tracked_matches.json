@@ -1,1572 +1,11 @@
 [
   {
-    "start_time": "2025-07-24T16:30:00+00:00",
-    "match_id": "114794176901952468",
-    "detection_time": "2025-07-24T23:32:27+00:00",
-    "last_checked": "2025-07-25T00:29:35+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114794176901952468",
-    "league_name": "TCL",
-    "slug": "turkiye-sampiyonluk-ligi",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "111652794702250799",
-        "name": "BoostGate Espor",
-        "code": "BGT",
-        "image": "http://static.lolesports.com/teams/1737386212434_BoostGate.png",
-        "game_wins": 0
-      },
-      {
-        "id": "114856625791123419",
-        "name": "The Forbidden Five",
-        "code": "TFF",
-        "image": "http://static.lolesports.com/teams/1752573031423_TFF-FullColorforD.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114794176901952469",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:55+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114909752190326396",
-            "parameter": "2521133232",
-            "locale": "tr-TR",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T17:00:00+00:00",
-    "match_id": "114714388568974744",
-    "detection_time": "2025-07-24T23:32:28+00:00",
-    "last_checked": "2025-07-25T00:59:36+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114714388568974744",
-    "league_name": "SuperLiga",
-    "slug": "superliga",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "111658361419868570",
-        "name": "LUA Gaming",
-        "code": "LUA",
-        "image": "http://static.lolesports.com/teams/1715245265080_658435d7e218f402908540.png",
-        "game_wins": 0
-      },
-      {
-        "id": "111692802629324367",
-        "name": "Movistar KOI Fénix",
-        "code": "MKF",
-        "image": "http://static.lolesports.com/teams/1704458610869_6596f892741d1355702004.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114714388568974745",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:55+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114909760483307918",
-            "parameter": "8GtaJL1skSM",
-            "locale": "es-ES",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T17:00:00+00:00",
-    "match_id": "114810386121553147",
-    "detection_time": "2025-07-24T23:32:28+00:00",
-    "last_checked": "2025-07-25T00:59:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114810386121553147",
-    "league_name": "Road of Legends",
-    "slug": "roadoflegends",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "111719668301899671",
-        "name": "Once Upon a Team",
-        "code": "OUAT",
-        "image": "http://static.lolesports.com/teams/1704706849093_Once_Upon_A_Teamlogo_square.webp",
-        "game_wins": 0
-      },
-      {
-        "id": "113865629782947798",
-        "name": "Jörmungang",
-        "code": "JMGG",
-        "image": "http://static.lolesports.com/teams/1737451622401_JMGG_Color_LIGHTDARKBG.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114810386121553148",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:56+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910025471301559",
-            "parameter": "2521227456",
-            "locale": "nl-NL",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114810386121553149",
-        "number": 2,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:56+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910025442547964",
-            "parameter": "2521227456",
-            "locale": "nl-NL",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114810386121553150",
-        "number": 3,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:56+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910031398311870",
-            "parameter": "2521227456",
-            "locale": "nl-NL",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T17:00:00+00:00",
-    "match_id": "114754434696632978",
-    "detection_time": "2025-07-24T23:32:28+00:00",
-    "last_checked": "2025-07-25T00:59:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114754434696632978",
-    "league_name": "NLC",
-    "slug": "nlc",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "109642680932009857",
-        "name": "NORD Esports",
-        "code": "NORD",
-        "image": "http://static.lolesports.com/teams/1736207563796_NORD1.png",
-        "game_wins": 0
-      },
-      {
-        "id": "113776191960038156",
-        "name": "KAOS Esport",
-        "code": "KAOS",
-        "image": "http://static.lolesports.com/teams/1736207008259_KAOS1.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114754434696632979",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:56+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910165087967626",
-            "parameter": "2521182414",
-            "locale": "nl-NL",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T17:00:00+00:00",
-    "match_id": "114828766173027575",
-    "detection_time": "2025-07-24T23:32:29+00:00",
-    "last_checked": "2025-07-25T00:59:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 1",
-    "event_id": "114828766173027575",
-    "league_name": "Esports Balkan League",
-    "slug": "esports_balkan_league",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "108404211655217274",
-        "name": "Partizan Sangal",
-        "code": "PXS",
-        "image": "http://static.lolesports.com/teams/1744190485577_EBL_PXS-MonochromeDarkBG.png",
-        "game_wins": 0
-      },
-      {
-        "id": "110418022381234710",
-        "name": "SPIKE Syndicate",
-        "code": "SPK",
-        "image": "http://static.lolesports.com/teams/1738058246517_EBL_SPK-MonochromeDarkBG.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114828766173027576",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:57+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910364533922274",
-            "parameter": "jzvMM3C7J68",
-            "locale": "sr-SR",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114828766173027577",
-        "number": 2,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:57+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910364519193245",
-            "parameter": "jzvMM3C7J68",
-            "locale": "sr-SR",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114828766173027578",
-        "number": 3,
-        "state": "unneeded",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T17:00:00+00:00",
-    "match_id": "114732099821901726",
-    "detection_time": "2025-07-24T23:32:30+00:00",
-    "last_checked": "2025-07-25T00:59:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114732099821901726",
-    "league_name": "LoL Italian Tournament",
-    "slug": "lit",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "105537226118106446",
-        "name": "AVE Axolotl",
-        "code": "AAXL",
-        "image": "http://static.lolesports.com/teams/1705525129905_LogoAxolotl.png",
-        "game_wins": 0
-      },
-      {
-        "id": "111786180377795784",
-        "name": "Zena Esports",
-        "code": "ZENA",
-        "image": "http://static.lolesports.com/teams/1737015447766_ZenaRedlogo-ValerioPietroMarchisotta.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114732099821901727",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:57+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114909720661471549",
-            "parameter": "2521194670",
-            "locale": "it-IT",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T17:30:00+00:00",
-    "match_id": "114794176901886912",
-    "detection_time": "2025-07-24T23:32:31+00:00",
-    "last_checked": "2025-07-25T01:29:50+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114794176901886912",
-    "league_name": "TCL",
-    "slug": "turkiye-sampiyonluk-ligi",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "99566406064558732",
-        "name": "Papara SuperMassive ",
-        "code": "SUP",
-        "image": "http://static.lolesports.com/teams/1737386438072_PaparaSupermassive.png",
-        "game_wins": 0
-      },
-      {
-        "id": "113786022271737365",
-        "name": "Bushido Wildcats",
-        "code": "BW",
-        "image": "http://static.lolesports.com/teams/1737386061384_BushidoWildcats.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114794176901886913",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:57+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114909754616525179",
-            "parameter": "2521133232",
-            "locale": "tr-TR",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": null
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T18:00:00+00:00",
-    "match_id": "114714388568974692",
-    "detection_time": "2025-07-24T23:32:31+00:00",
-    "last_checked": "2025-07-25T01:57:21+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114714388568974692",
-    "league_name": "SuperLiga",
-    "slug": "superliga",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "109669789077876164",
-        "name": "Ramboot Club",
-        "code": "RBT",
-        "image": "http://static.lolesports.com/teams/1673428176599_63bc3159a0c7e407353311.png",
-        "game_wins": 1
-      },
-      {
-        "id": "107564159457290005",
-        "name": "ZETA Gaming",
-        "code": "ZTA",
-        "image": "http://static.lolesports.com/teams/1641298812556_61d4224ec29e7694061589.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114714388568974693",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:58+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114909872635458215",
-            "parameter": "8qH_2UejS8A",
-            "locale": "es-ES",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T17:45:30.082000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T18:00:00+00:00",
-    "match_id": "114810386121553163",
-    "detection_time": "2025-07-24T23:32:32+00:00",
-    "last_checked": "2025-07-25T01:57:21+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114810386121553163",
-    "league_name": "Road of Legends",
-    "slug": "roadoflegends",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "113865640133834715",
-        "name": "Aurora",
-        "code": "ARA",
-        "image": "http://static.lolesports.com/teams/1737451781530_Aurora_Color_LIGHTDARKBG.png",
-        "game_wins": 0
-      },
-      {
-        "id": "110424397251619481",
-        "name": "Myth Esports",
-        "code": "MYTH",
-        "image": "http://static.lolesports.com/teams/1704706801199_Myth_Esports_2023_Nov_allmode.png",
-        "game_wins": 2
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114810386121553164",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:58+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114810386121553165",
-        "number": 2,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:58+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114810386121553166",
-        "number": 3,
-        "state": "unneeded",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T18:00:00+00:00",
-    "match_id": "114754434696632968",
-    "detection_time": "2025-07-24T23:32:32+00:00",
-    "last_checked": "2025-07-25T01:57:21+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114754434696632968",
-    "league_name": "NLC",
-    "slug": "nlc",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "109642690191894407",
-        "name": "Ruddy",
-        "code": "RUD",
-        "image": "http://static.lolesports.com/teams/1736207507475_RUD1.png",
-        "game_wins": 0
-      },
-      {
-        "id": "111703451790548122",
-        "name": "Venomcrest",
-        "code": "VNC",
-        "image": "http://static.lolesports.com/teams/1736207416119_VNC1.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114754434696632969",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:58+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910168088778954",
-            "parameter": "2521182414",
-            "locale": "nl-NL",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T15:06:05.893000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T18:00:00+00:00",
-    "match_id": "114732099821901714",
-    "detection_time": "2025-07-24T23:32:33+00:00",
-    "last_checked": "2025-07-25T01:57:21+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114732099821901714",
-    "league_name": "LoL Italian Tournament",
-    "slug": "lit",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "111691948869032350",
-        "name": "EKO Esports",
-        "code": "EKO",
-        "image": "http://static.lolesports.com/teams/1704283880911_EKO_Esports_Emblem_Logo_Main.png",
-        "game_wins": 0
-      },
-      {
-        "id": "113821139939318065",
-        "name": "GMBLERS Esports",
-        "code": "GMB",
-        "image": "http://static.lolesports.com/teams/1737015399075_logo_interno.PNG",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114732099821901715",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:59+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114909723692970305",
-            "parameter": "2521194670",
-            "locale": "it-IT",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T15:27:12.930000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T19:00:00+00:00",
-    "match_id": "114714388568974752",
-    "detection_time": "2025-07-24T23:32:34+00:00",
-    "last_checked": "2025-07-25T01:57:21+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114714388568974752",
-    "league_name": "SuperLiga",
-    "slug": "superliga",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "112444714469595828",
-        "name": "Veni Vidi Vici",
-        "code": "VVV",
-        "image": "http://static.lolesports.com/teams/1736500243640_677fd12b34f73704474019.png",
-        "game_wins": 0
-      },
-      {
-        "id": "111624630736536145",
-        "name": "GIANTX PRIDE",
-        "code": "GXP",
-        "image": "http://static.lolesports.com/teams/1703256688027_658305af80d3b372217018.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114714388568974753",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:32:59+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910146413353335",
-            "parameter": "dfrwBP_7k9c",
-            "locale": "es-ES",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T18:36:54.670000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T19:00:00+00:00",
-    "match_id": "114754434696632966",
-    "detection_time": "2025-07-24T23:32:35+00:00",
-    "last_checked": "2025-07-25T01:57:21+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114754434696632966",
-    "league_name": "NLC",
-    "slug": "nlc",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "113776196992416527",
-        "name": "Rich Gang",
-        "code": "RG",
-        "image": "http://static.lolesports.com/teams/1736207183533_RG1.png",
-        "game_wins": 1
-      },
-      {
-        "id": "109642680932009857",
-        "name": "NORD Esports",
-        "code": "NORD",
-        "image": "http://static.lolesports.com/teams/1736207563796_NORD1.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114754434696632967",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:08+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910173149626020",
-            "parameter": "2521182414",
-            "locale": "nl-NL",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T15:06:05.893000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T19:00:00+00:00",
-    "match_id": "114755484277865744",
-    "detection_time": "2025-07-24T23:32:35+00:00",
-    "last_checked": "2025-07-25T01:57:22+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 1",
-    "event_id": "114755484277865744",
-    "league_name": "La Ligue Française",
-    "slug": "lfl",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "105515219038427019",
-        "name": "Karmine Corp Blue",
-        "code": "KCB",
-        "image": "http://static.lolesports.com/teams/LFL-KC-logo.png",
-        "game_wins": 1
-      },
-      {
-        "id": "105515345386578249",
-        "name": "Solary",
-        "code": "SLY",
-        "image": "http://static.lolesports.com/teams/LFL-SLY-logo.png",
-        "game_wins": 2
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114755484277865745",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114755484277865746",
-        "number": 2,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114755484277865747",
-        "number": 3,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T19:00:00+00:00",
-    "match_id": "114755484277800112",
-    "detection_time": "2025-07-24T23:32:36+00:00",
-    "last_checked": "2025-07-25T01:57:22+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 1",
-    "event_id": "114755484277800112",
-    "league_name": "La Ligue Française",
-    "slug": "lfl",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "111686400615256438",
-        "name": "Ici Japon Corp",
-        "code": "IJC",
-        "image": "http://static.lolesports.com/teams/1734090463019_Logo-IJC1.png",
-        "game_wins": 0
-      },
-      {
-        "id": "103935468920814040",
-        "name": "Galions",
-        "code": "GL",
-        "image": "http://static.lolesports.com/teams/1734090136444_WHITE_GALIONS_LOGO.png",
-        "game_wins": 2
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114755484277800113",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114755484277800114",
-        "number": 2,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114755484277800115",
-        "number": 3,
-        "state": "unneeded",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T19:00:00+00:00",
-    "match_id": "114828766173093127",
-    "detection_time": "2025-07-24T23:32:37+00:00",
-    "last_checked": "2025-07-25T01:57:22+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 1",
-    "event_id": "114828766173093127",
-    "league_name": "Esports Balkan League",
-    "slug": "esports_balkan_league",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "111726249995941526",
-        "name": "BeFive",
-        "code": "BE5",
-        "image": "http://static.lolesports.com/teams/1706183570607_EBL_BE5-FullColorDarkBG.png",
-        "game_wins": 2
-      },
-      {
-        "id": "111726451903575911",
-        "name": "Lupus Esports",
-        "code": "LUP",
-        "image": "http://static.lolesports.com/teams/1738058187788_EBL_LUP-FullColorDarkBG.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114828766173093128",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910373597118504",
-            "parameter": "jzvMM3C7J68",
-            "locale": "sr-SR",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T16:29:44.059000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114828766173093129",
-        "number": 2,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910373596781222",
-            "parameter": "jzvMM3C7J68",
-            "locale": "sr-SR",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T16:29:44.059000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114828766173093130",
-        "number": 3,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:09+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910373607643631",
-            "parameter": "jzvMM3C7J68",
-            "locale": "sr-SR",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T16:29:44.059000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T20:00:00+00:00",
-    "match_id": "114714388568974780",
-    "detection_time": "2025-07-24T23:32:38+00:00",
-    "last_checked": "2025-07-25T01:57:22+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114714388568974780",
-    "league_name": "SuperLiga",
-    "slug": "superliga",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "107467803833323099",
-        "name": "Los Heretics",
-        "code": "HRTS",
-        "image": "http://static.lolesports.com/teams/1661502137823_LOGOHERETICSPNG.png",
-        "game_wins": 1
-      },
-      {
-        "id": "107422385694193066",
-        "name": "Barça Esports",
-        "code": "BAR",
-        "image": "http://static.lolesports.com/teams/1639828813946_61b778236a9c9995719028.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114714388568974781",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:10+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910344350947987",
-            "parameter": "ghPKkITP4hc",
-            "locale": "es-ES",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T19:25:26.486000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T20:00:00+00:00",
-    "match_id": "114754434696632970",
-    "detection_time": "2025-07-24T23:32:38+00:00",
-    "last_checked": "2025-07-25T01:57:22+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114754434696632970",
-    "league_name": "NLC",
-    "slug": "nlc",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "109642690191894407",
-        "name": "Ruddy",
-        "code": "RUD",
-        "image": "http://static.lolesports.com/teams/1736207507475_RUD1.png",
-        "game_wins": 0
-      },
-      {
-        "id": "113776191960038156",
-        "name": "KAOS Esport",
-        "code": "KAOS",
-        "image": "http://static.lolesports.com/teams/1736207008259_KAOS1.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114754434696632971",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:10+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114910176028924110",
-            "parameter": "2521182414",
-            "locale": "nl-NL",
-            "provider": "twitch",
-            "offset": 0,
-            "first_frame_time": "2025-07-24T15:06:05.893000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T21:00:00+00:00",
-    "match_id": "114748438522839725",
-    "detection_time": "2025-07-24T23:32:39+00:00",
-    "last_checked": "2025-07-25T01:57:23+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114748438522839725",
-    "league_name": "NACL",
-    "slug": "nacl",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "114746424759893687",
-        "name": "Dorado Gaming",
-        "code": "DOG",
-        "image": "http://static.lolesports.com/teams/1750891473240_Dorado_Gaminglogo_square1.png",
-        "game_wins": 0
-      },
-      {
-        "id": "114746400783941300",
-        "name": "Citadel Gaming",
-        "code": "CTG",
-        "image": "http://static.lolesports.com/teams/1750891104102_CitadelGaming.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114748438522839726",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:10+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T22:00:00+00:00",
-    "match_id": "114748438522774093",
-    "detection_time": "2025-07-24T23:32:39+00:00",
-    "last_checked": "2025-07-25T01:57:23+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114748438522774093",
-    "league_name": "NACL",
-    "slug": "nacl",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "114058334177574653",
-        "name": "Luminosity Gaming",
-        "code": "LG",
-        "image": "http://static.lolesports.com/teams/1742289257527_LG-Eye-Color.png",
-        "game_wins": 0
-      },
-      {
-        "id": "106857761435870473",
-        "name": "Supernova",
-        "code": "SN",
-        "image": "http://static.lolesports.com/teams/1641603984263_SN.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114748438522774094",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-24T23:33:11+00:00",
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-24T23:00:00+00:00",
-    "match_id": "114748438522839673",
-    "detection_time": "2025-07-24T23:32:40+00:00",
-    "last_checked": "2025-07-25T01:57:23+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114748438522839673",
-    "league_name": "NACL",
-    "slug": "nacl",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "114846765479906613",
-        "name": "Vancouver Impact",
-        "code": "VI",
-        "image": "http://static.lolesports.com/teams/1752422565897_viplogo.png",
-        "game_wins": 0
-      },
-      {
-        "id": "109783170393931575",
-        "name": "Conviction",
-        "code": "CNV",
-        "image": "http://static.lolesports.com/teams/1675158238331_Conviction.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114748438522839674",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": "2025-07-24T23:38:41+00:00",
-        "notified_game": true,
-        "finished_time": "2025-07-25T00:10:12+00:00",
-        "real_start_time": "2025-07-24T23:38:41+00:00",
-        "vods": [],
-        "live_patch": "15.14.695.3589",
-        "live_blue_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "live_red_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "last_frame_time": "2025-07-25T00:09:36.403Z"
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-25T00:00:00+00:00",
-    "match_id": "114748438522774073",
-    "detection_time": "2025-07-24T23:32:41+00:00",
-    "last_checked": "2025-07-25T01:57:23+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114748438522774073",
-    "league_name": "NACL",
-    "slug": "nacl",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "109981647134921596",
-        "name": "CCG Esports",
-        "code": "CCG",
-        "image": "http://static.lolesports.com/teams/1743818097778__CCGIcon_Main.png",
-        "game_wins": 0
-      },
-      {
-        "id": "114182731799181244",
-        "name": "DarkZero Dragonsteel",
-        "code": "DZ",
-        "image": "http://static.lolesports.com/teams/1743237714462_templatkalogos.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114748438522774074",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": "2025-07-25T00:35:19+00:00",
-        "notified_game": true,
-        "finished_time": "2025-07-25T01:07:14+00:00",
-        "real_start_time": "2025-07-25T00:35:19+00:00",
-        "vods": [],
-        "live_patch": "15.14.695.3589",
-        "live_blue_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "live_red_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "last_frame_time": "2025-07-25T01:06:19.001Z"
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-25T01:00:00+00:00",
-    "match_id": "114748438522774037",
-    "detection_time": "2025-07-24T23:32:42+00:00",
-    "last_checked": "2025-07-25T01:57:24+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114748438522774037",
-    "league_name": "NACL",
-    "slug": "nacl",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "107580483738977500",
-        "name": "Winthrop University",
-        "code": "WU",
-        "image": "http://static.lolesports.com/teams/1675157784150_WinthropUniversity.png",
-        "game_wins": 1
-      },
-      {
-        "id": "110534712174898632",
-        "name": "Blue Otter",
-        "code": "BLUE",
-        "image": "http://static.lolesports.com/teams/1686625849125_BlueOtter.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114748438522774038",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": "2025-07-25T01:31:10+00:00",
-        "notified_game": true,
-        "finished_time": "2025-07-25T01:56:25+00:00",
-        "real_start_time": "2025-07-25T01:31:09+00:00",
-        "vods": [],
-        "live_patch": "15.14.695.3589",
-        "live_blue_metadata": {
-          "team_id": "107580483738977500",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": [
-            {
-              "participant_id": 1,
-              "player_id": "108577048167390593",
-              "summoner_name": "WU Denathor",
-              "champion_id": "Gwen",
-              "role": "top"
-            },
-            {
-              "participant_id": 2,
-              "player_id": "112606878573102145",
-              "summoner_name": "WU Wilson",
-              "champion_id": "Vi",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 3,
-              "player_id": "105504937746753855",
-              "summoner_name": "WU Sword",
-              "champion_id": "Taliyah",
-              "role": "mid"
-            },
-            {
-              "participant_id": 4,
-              "player_id": "108577048539332729",
-              "summoner_name": "WU Mobility",
-              "champion_id": "Lucian",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 5,
-              "player_id": "99591620723806690",
-              "summoner_name": "WU Only35",
-              "champion_id": "Braum",
-              "role": "support"
-            }
-          ]
-        },
-        "live_red_metadata": {
-          "team_id": "110534712174898632",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": [
-            {
-              "participant_id": 6,
-              "player_id": "105913365779160208",
-              "summoner_name": "BLUE Qwacker",
-              "champion_id": "Olaf",
-              "role": "top"
-            },
-            {
-              "participant_id": 7,
-              "player_id": "114187979938709921",
-              "summoner_name": "BLUE Lojaz",
-              "champion_id": "Sejuani",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 8,
-              "player_id": "112551579800765777",
-              "summoner_name": "BLUE Samikin",
-              "champion_id": "Azir",
-              "role": "mid"
-            },
-            {
-              "participant_id": 9,
-              "player_id": "106857889055026954",
-              "summoner_name": "BLUE Array",
-              "champion_id": "Senna",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 10,
-              "player_id": "106857955107567927",
-              "summoner_name": "BLUE rovex",
-              "champion_id": "Nautilus",
-              "role": "support"
-            }
-          ]
-        },
-        "last_frame_time": "2025-07-25T01:55:47.952Z"
-      }
-    ]
-  },
-  {
     "start_time": "2025-07-25T04:00:00+00:00",
     "match_id": "114810847057868333",
-    "detection_time": "2025-07-24T23:32:43+00:00",
-    "last_checked": "2025-07-25T01:57:25+00:00",
-    "state": "unstarted",
-    "status": "detected",
+    "detection_time": "2025-07-25T09:51:16+00:00",
+    "last_checked": "2025-07-25T11:28:27+00:00",
+    "state": "completed",
+    "status": "completed",
     "blockName": "Week 10",
     "event_id": "114810847057868333",
     "league_name": "LCK Challengers",
@@ -1578,7 +17,7 @@
         "name": "T1 Esports Academy",
         "code": "T1",
         "image": "http://static.lolesports.com/teams/T1-FullonDark.png",
-        "game_wins": 0
+        "game_wins": 2
       },
       {
         "id": "105550042327365041",
@@ -1592,12 +31,12 @@
       {
         "game_id": "114810847057868334",
         "number": 1,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:40+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1608,12 +47,12 @@
       {
         "game_id": "114810847057868335",
         "number": 2,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:41+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1624,7 +63,7 @@
       {
         "game_id": "114810847057868336",
         "number": 3,
-        "state": "unstarted",
+        "state": "unneeded",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
@@ -1642,10 +81,10 @@
   {
     "start_time": "2025-07-25T05:00:00+00:00",
     "match_id": "114810847057868421",
-    "detection_time": "2025-07-24T23:32:45+00:00",
-    "last_checked": "2025-07-25T01:57:27+00:00",
-    "state": "unstarted",
-    "status": "detected",
+    "detection_time": "2025-07-25T09:51:17+00:00",
+    "last_checked": "2025-07-25T11:28:28+00:00",
+    "state": "completed",
+    "status": "completed",
     "blockName": "Week 10",
     "event_id": "114810847057868421",
     "league_name": "LCK Challengers",
@@ -1657,26 +96,26 @@
         "name": "HLE Challengers",
         "code": "HLE",
         "image": "http://static.lolesports.com/teams/hle-2021-color-on-dark.png",
-        "game_wins": 0
+        "game_wins": 2
       },
       {
         "id": "105550024238752685",
         "name": "DNF Challengers",
         "code": "DNF",
         "image": "http://static.lolesports.com/teams/1735905174386_600px-DN_Freecs_full_allmode.png",
-        "game_wins": 0
+        "game_wins": 1
       }
     ],
     "trackedGames": [
       {
         "game_id": "114810847057868422",
         "number": 1,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:42+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1687,12 +126,12 @@
       {
         "game_id": "114810847057868423",
         "number": 2,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:43+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1703,12 +142,12 @@
       {
         "game_id": "114810847057868424",
         "number": 3,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:43+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1721,10 +160,10 @@
   {
     "start_time": "2025-07-25T08:00:00+00:00",
     "match_id": "113503500599535250",
-    "detection_time": "2025-07-25T00:01:29+00:00",
-    "last_checked": "2025-07-25T01:57:28+00:00",
-    "state": "unstarted",
-    "status": "detected",
+    "detection_time": "2025-07-25T09:51:18+00:00",
+    "last_checked": "2025-07-25T11:28:30+00:00",
+    "state": "completed",
+    "status": "completed",
     "blockName": "Week 10",
     "event_id": "113503500599535250",
     "league_name": "LCK",
@@ -1736,26 +175,26 @@
         "name": "T1",
         "code": "T1",
         "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-        "game_wins": 0
+        "game_wins": 2
       },
       {
         "id": "100205573495116443",
         "name": "Gen.G Esports",
         "code": "GEN",
         "image": "http://static.lolesports.com/teams/1655210113163_GenG_logo_200407-05.png",
-        "game_wins": 0
+        "game_wins": 1
       }
     ],
     "trackedGames": [
       {
         "game_id": "113503500599535251",
         "number": 1,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:45+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1766,12 +205,12 @@
       {
         "game_id": "113503500599535252",
         "number": 2,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:45+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1782,27 +221,39 @@
       {
         "game_id": "113503500599535253",
         "number": 3,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
+        "finished_time": "2025-07-25T10:29:22+00:00",
+        "real_start_time": "2025-07-25T10:02:46+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "15.14.695.3589",
+        "live_blue_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "live_red_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "last_frame_time": "2025-07-25T10:27:57.842Z"
       }
     ]
   },
   {
     "start_time": "2025-07-25T09:00:00+00:00",
     "match_id": "114828703039559372",
-    "detection_time": "2025-07-25T01:00:27+00:00",
-    "last_checked": "2025-07-25T01:57:31+00:00",
-    "state": "unstarted",
+    "detection_time": "2025-07-25T09:51:21+00:00",
+    "last_checked": "2025-07-25T11:28:38+00:00",
+    "state": "inProgress",
     "status": "detected",
     "blockName": "Playoffs",
     "event_id": "114828703039559372",
@@ -1815,26 +266,26 @@
         "name": "QT DIG",
         "code": "QTD",
         "image": "http://static.lolesports.com/teams/1744180899175_qtd_white.png",
-        "game_wins": 0
+        "game_wins": 1
       },
       {
         "id": "113865957884494887",
         "name": "VARREL YOUTH",
         "code": "VLY",
         "image": "http://static.lolesports.com/teams/1737456632546_varrel_youtulogo.png",
-        "game_wins": 0
+        "game_wins": 1
       }
     ],
     "trackedGames": [
       {
         "game_id": "114828703039559373",
         "number": 1,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T09:52:48+00:00",
         "real_start_time": null,
         "vods": [],
         "live_patch": null,
@@ -1845,34 +296,130 @@
       {
         "game_id": "114828703039559374",
         "number": 2,
-        "state": "unstarted",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2025-07-25T10:30:54+00:00",
         "real_start_time": null,
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "15.14.695.3589",
+        "live_blue_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "live_red_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "last_frame_time": "2025-07-25T10:29:04.480Z"
       },
       {
         "game_id": "114828703039559375",
         "number": 3,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
         "real_start_time": null,
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "15.14.695.3589",
+        "live_blue_metadata": {
+          "team_id": "113865957884494887",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "113866224064049590",
+              "summoner_name": "VLY kkkkkkkkk",
+              "champion_id": "Ambessa",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "114533214738089957",
+              "summoner_name": "VLY Ryo",
+              "champion_id": "Viego",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "113866224005724848",
+              "summoner_name": "VLY Competitive",
+              "champion_id": "Taliyah",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "113866436755831901",
+              "summoner_name": "VLY rakii",
+              "champion_id": "Zeri",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "113866403721957952",
+              "summoner_name": "VLY OSaKi",
+              "champion_id": "Nautilus",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "101428372605353526",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "105785814323282335",
+              "summoner_name": "QTD Washidai",
+              "champion_id": "KSante",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "114533301242660910",
+              "summoner_name": "QTD Van1",
+              "champion_id": "Khazix",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "105501731290932942",
+              "summoner_name": "QTD DICE",
+              "champion_id": "Aurora",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "101796906587674801",
+              "summoner_name": "QTD Yuhi",
+              "champion_id": "Sivir",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "105752114670266447",
+              "summoner_name": "QTD hetel",
+              "champion_id": "Leona",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2025-07-25T11:27:59.842Z"
       },
       {
         "game_id": "114828703039559376",
@@ -1911,10 +458,10 @@
   {
     "start_time": "2025-07-25T09:00:00+00:00",
     "match_id": "114162735078583624",
-    "detection_time": "2025-07-25T01:00:31+00:00",
-    "last_checked": "2025-07-25T01:57:33+00:00",
-    "state": "unstarted",
-    "status": "detected",
+    "detection_time": "2025-07-25T09:51:25+00:00",
+    "last_checked": "2025-07-25T11:28:39+00:00",
+    "state": "completed",
+    "status": "completed",
     "blockName": "Week 2",
     "event_id": "114162735078583624",
     "league_name": "LPL",
@@ -1926,21 +473,77 @@
         "name": "SHENZHEN NINJAS IN PYJAMAS",
         "code": "NIP",
         "image": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-        "game_wins": 0
+        "game_wins": 1
       },
       {
         "id": "98767991882270868",
         "name": "SHANGHAI EDWARD GAMING HYCAN",
         "code": "EDG",
         "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-        "game_wins": 0
+        "game_wins": 2
       }
     ],
     "trackedGames": [
       {
         "game_id": "114162735078583625",
         "number": 1,
-        "state": "unstarted",
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-25T09:51:28+00:00",
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": "15.14.695.3589",
+        "live_blue_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "live_red_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "last_frame_time": "2025-07-25T09:40:41.077Z"
+      },
+      {
+        "game_id": "114692005230650699",
+        "number": 2,
+        "state": "completed",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": "2025-07-25T10:43:57+00:00",
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": "15.14.695.3589",
+        "live_blue_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "live_red_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "last_frame_time": "2025-07-25T10:43:16.749Z"
+      },
+      {
+        "game_id": "114692005230650700",
+        "number": 3,
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,
@@ -1952,9 +555,140 @@
         "live_blue_metadata": null,
         "live_red_metadata": null,
         "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T10:00:00+00:00",
+    "match_id": "113503500599535394",
+    "detection_time": "2025-07-25T09:51:31+00:00",
+    "last_checked": "2025-07-25T11:28:47+00:00",
+    "state": "inProgress",
+    "status": "detected",
+    "blockName": "Week 10",
+    "event_id": "113503500599535394",
+    "league_name": "LCK",
+    "slug": "lck",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "105505619546859895",
+        "name": "OKSavingsBank BRION",
+        "code": "BRO",
+        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+        "game_wins": 0
       },
       {
-        "game_id": "114692005230650699",
+        "id": "99566404585387054",
+        "name": "DRX",
+        "code": "DRX",
+        "image": "http://static.lolesports.com/teams/1672910733664_01.Basic_W.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "113503500599535395",
+        "number": 1,
+        "state": "inProgress",
+        "draft_in_progress": false,
+        "has_participants": true,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": "15.14.695.3589",
+        "live_blue_metadata": {
+          "team_id": "105505619546859895",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "103103696693473944",
+              "summoner_name": "BRO Morgan",
+              "champion_id": "Sion",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "105320703008048707",
+              "summoner_name": "BRO Croco",
+              "champion_id": "XinZhao",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "104284310661848687",
+              "summoner_name": "BRO Clozer",
+              "champion_id": "Annie",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "109625891896082370",
+              "summoner_name": "BRO Hype ",
+              "champion_id": "Corki",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "108284723448093299",
+              "summoner_name": "BRO Pollu",
+              "champion_id": "Alistar",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "99566404585387054",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "102186438403674539",
+              "summoner_name": "DRX Rich",
+              "champion_id": "Ambessa",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "108366332471078988",
+              "summoner_name": "DRX Sponge",
+              "champion_id": "MonkeyKing",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "108205130709313212",
+              "summoner_name": "DRX kyeahoo",
+              "champion_id": "Aurora",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "99566404526777331",
+              "summoner_name": "DRX Teddy",
+              "champion_id": "MissFortune",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "105548653898118261",
+              "summoner_name": "DRX Andil",
+              "champion_id": "Poppy",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2025-07-25T11:28:09.587Z"
+      },
+      {
+        "game_id": "113503500599535396",
         "number": 2,
         "state": "unstarted",
         "draft_in_progress": false,
@@ -1970,7 +704,1284 @@
         "last_frame_time": null
       },
       {
-        "game_id": "114692005230650700",
+        "game_id": "113503500599535397",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T11:00:00+00:00",
+    "match_id": "114162735078583648",
+    "detection_time": "2025-07-25T09:51:34+00:00",
+    "last_checked": "2025-07-25T11:28:49+00:00",
+    "state": "completed",
+    "status": "completed",
+    "blockName": "Week 2",
+    "event_id": "114162735078583648",
+    "league_name": "LPL",
+    "slug": "lpl",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "99566404850008779",
+        "name": "Suzhou LNG Ninebot Esports",
+        "code": "LNG",
+        "image": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
+        "game_wins": 0
+      },
+      {
+        "id": "99566404846951820",
+        "name": "Hangzhou LGD Gaming",
+        "code": "LGD",
+        "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114162735078583649",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114692005230650719",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114692005230650720",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T14:00:00+00:00",
+    "match_id": "114776362562386218",
+    "detection_time": "2025-07-25T09:51:36+00:00",
+    "last_checked": "2025-07-25T11:28:51+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114776362562386218",
+    "league_name": "Hitpoint Masters",
+    "slug": "hitpoint_masters",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "112444729074438300",
+        "name": "Tan'i eSports",
+        "code": "TNI",
+        "image": "http://static.lolesports.com/teams/1715770395398_6643492744d7b225681924.png",
+        "game_wins": 0
+      },
+      {
+        "id": "109709693940605922",
+        "name": "EXILE Esports",
+        "code": "EXE",
+        "image": "http://static.lolesports.com/teams/1739089858844_exile_color.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114776362562386219",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114776362562386220",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114776362562386221",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T14:30:00+00:00",
+    "match_id": "114794176901952478",
+    "detection_time": "2025-07-25T09:51:38+00:00",
+    "last_checked": "2025-07-25T11:28:53+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114794176901952478",
+    "league_name": "TCL",
+    "slug": "turkiye-sampiyonluk-ligi",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "114856625791123419",
+        "name": "The Forbidden Five",
+        "code": "TFF",
+        "image": "http://static.lolesports.com/teams/1752573031423_TFF-FullColorforD.png",
+        "game_wins": 0
+      },
+      {
+        "id": "103495716886587312",
+        "name": "Beşiktaş Esports",
+        "code": "BJK",
+        "image": "http://static.lolesports.com/teams/1737386333567_BeiktaEsports.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114794176901952479",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T15:00:00+00:00",
+    "match_id": "114742343629269060",
+    "detection_time": "2025-07-25T09:51:40+00:00",
+    "last_checked": "2025-07-25T11:28:56+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 1",
+    "event_id": "114742343629269060",
+    "league_name": "Rift Legends",
+    "slug": "rift_legends",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "107416342401528388",
+        "name": "Forsaken Team",
+        "code": "FSK",
+        "image": "http://static.lolesports.com/teams/1702894248711_1500_FSK_MONO.png",
+        "game_wins": 0
+      },
+      {
+        "id": "114234986957602557",
+        "name": "DOCISK",
+        "code": "DOC",
+        "image": "http://static.lolesports.com/teams/1743505234603_LOGOTYP_DOCISK.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114742343629269061",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114742343629269062",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114742343629269063",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T15:30:00+00:00",
+    "match_id": "114794176901952482",
+    "detection_time": "2025-07-25T09:51:43+00:00",
+    "last_checked": "2025-07-25T11:28:57+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114794176901952482",
+    "league_name": "TCL",
+    "slug": "turkiye-sampiyonluk-ligi",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "113786603780153490",
+        "name": "BBL Dark Passage",
+        "code": "BLDP",
+        "image": "http://static.lolesports.com/teams/1736245775705_BBL-DARK-PASSAGE.png",
+        "game_wins": 0
+      },
+      {
+        "id": "99566406064558732",
+        "name": "Papara SuperMassive ",
+        "code": "SUP",
+        "image": "http://static.lolesports.com/teams/1737386438072_PaparaSupermassive.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114794176901952483",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T16:00:00+00:00",
+    "match_id": "114755484277800184",
+    "detection_time": "2025-07-25T09:51:45+00:00",
+    "last_checked": "2025-07-25T11:28:59+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 1",
+    "event_id": "114755484277800184",
+    "league_name": "La Ligue Française",
+    "slug": "lfl",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "111703392763781549",
+        "name": "Gentle Mates",
+        "code": "M8",
+        "image": "http://static.lolesports.com/teams/1734359690314_M8_logo_carre_blanc1.png",
+        "game_wins": 0
+      },
+      {
+        "id": "105514967858969605",
+        "name": "GameWard",
+        "code": "GW",
+        "image": "http://static.lolesports.com/teams/LFL-GW-logo.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114755484277800185",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114755484277800186",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114755484277800187",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T16:00:00+00:00",
+    "match_id": "114732099821901708",
+    "detection_time": "2025-07-25T09:51:48+00:00",
+    "last_checked": "2025-07-25T11:29:01+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114732099821901708",
+    "league_name": "LoL Italian Tournament",
+    "slug": "lit",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "111786180377795784",
+        "name": "Zena Esports",
+        "code": "ZENA",
+        "image": "http://static.lolesports.com/teams/1737015447766_ZenaRedlogo-ValerioPietroMarchisotta.png",
+        "game_wins": 0
+      },
+      {
+        "id": "114177880515757163",
+        "name": "Colossal Gaming",
+        "code": "CG",
+        "image": "http://static.lolesports.com/teams/1742216184064_Logomark-FullcolourfordarkBG.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114732099821901709",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T16:00:00+00:00",
+    "match_id": "114715103097439618",
+    "detection_time": "2025-07-25T09:51:49+00:00",
+    "last_checked": "2025-07-25T11:29:04+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Play In Knockouts",
+    "event_id": "114715103097439618",
+    "league_name": "Arabian League",
+    "slug": "arabian_league",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "0",
+        "name": "TBD",
+        "code": "TBD",
+        "image": "https://static.lolesports.com/teams/team-tbd.png",
+        "game_wins": 0
+      },
+      {
+        "id": "0",
+        "name": "TBD",
+        "code": "TBD",
+        "image": "https://static.lolesports.com/teams/team-tbd.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114715103097439619",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114715103097439620",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114715103097439621",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T16:00:00+00:00",
+    "match_id": "114715103097439622",
+    "detection_time": "2025-07-25T09:51:52+00:00",
+    "last_checked": "2025-07-25T11:29:07+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Play In Knockouts",
+    "event_id": "114715103097439622",
+    "league_name": "Arabian League",
+    "slug": "arabian_league",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "0",
+        "name": "TBD",
+        "code": "TBD",
+        "image": "https://static.lolesports.com/teams/team-tbd.png",
+        "game_wins": 0
+      },
+      {
+        "id": "0",
+        "name": "TBD",
+        "code": "TBD",
+        "image": "https://static.lolesports.com/teams/team-tbd.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114715103097439623",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114715103097439624",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114715103097439625",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T16:30:00+00:00",
+    "match_id": "114794176901886930",
+    "detection_time": "2025-07-25T09:51:55+00:00",
+    "last_checked": "2025-07-25T11:29:08+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114794176901886930",
+    "league_name": "TCL",
+    "slug": "turkiye-sampiyonluk-ligi",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "113810628865782422",
+        "name": "ULF ESPORTS",
+        "code": "ULF",
+        "image": "http://static.lolesports.com/teams/1748868374823_ULF_ESPORTS_OFFICIAL_LOGO_WHITE.png",
+        "game_wins": 0
+      },
+      {
+        "id": "111652794702250799",
+        "name": "BoostGate Espor",
+        "code": "BGT",
+        "image": "http://static.lolesports.com/teams/1737386212434_BoostGate.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114794176901886931",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T17:00:00+00:00",
+    "match_id": "114776362562386206",
+    "detection_time": "2025-07-25T09:51:57+00:00",
+    "last_checked": "2025-07-25T11:29:11+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114776362562386206",
+    "league_name": "Hitpoint Masters",
+    "slug": "hitpoint_masters",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "110494661652994183",
+        "name": "Team UNiTY",
+        "code": "UNIT",
+        "image": "http://static.lolesports.com/teams/1705411358898_HM_UNIT.png",
+        "game_wins": 0
+      },
+      {
+        "id": "107575082591536093",
+        "name": "Entropiq",
+        "code": "EIQ",
+        "image": "http://static.lolesports.com/teams/1642690673730_HM_EIQ_logo_1_1_use_this.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114776362562386207",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114776362562386208",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114776362562386209",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T17:00:00+00:00",
+    "match_id": "114828766173027551",
+    "detection_time": "2025-07-25T09:52:00+00:00",
+    "last_checked": "2025-07-25T11:29:14+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 1",
+    "event_id": "114828766173027551",
+    "league_name": "Esports Balkan League",
+    "slug": "esports_balkan_league",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "111726249995941526",
+        "name": "BeFive",
+        "code": "BE5",
+        "image": "http://static.lolesports.com/teams/1706183570607_EBL_BE5-FullColorDarkBG.png",
+        "game_wins": 0
+      },
+      {
+        "id": "102787200124959636",
+        "name": "Crvena zvezda Esports",
+        "code": "CZV",
+        "image": "https://lolstatic-a.akamaihd.net/esports-assets/production/team/crvena-zvezda-esports-ddtlzzhd.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114828766173027552",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114828766173027553",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114828766173027554",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T17:00:00+00:00",
+    "match_id": "114732099821901724",
+    "detection_time": "2025-07-25T09:52:03+00:00",
+    "last_checked": "2025-07-25T11:29:16+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114732099821901724",
+    "league_name": "LoL Italian Tournament",
+    "slug": "lit",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "111691948869032350",
+        "name": "EKO Esports",
+        "code": "EKO",
+        "image": "http://static.lolesports.com/teams/1704283880911_EKO_Esports_Emblem_Logo_Main.png",
+        "game_wins": 0
+      },
+      {
+        "id": "105537226118106446",
+        "name": "AVE Axolotl",
+        "code": "AAXL",
+        "image": "http://static.lolesports.com/teams/1705525129905_LogoAxolotl.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114732099821901725",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T17:30:00+00:00",
+    "match_id": "114794176901886914",
+    "detection_time": "2025-07-25T09:52:05+00:00",
+    "last_checked": "2025-07-25T11:29:18+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114794176901886914",
+    "league_name": "TCL",
+    "slug": "turkiye-sampiyonluk-ligi",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "111624100955490493",
+        "name": "Misa Esports",
+        "code": "MISA",
+        "image": "http://static.lolesports.com/teams/1737386153294_MisaEsports.png",
+        "game_wins": 0
+      },
+      {
+        "id": "113786022271737365",
+        "name": "Bushido Wildcats",
+        "code": "BW",
+        "image": "http://static.lolesports.com/teams/1737386061384_BushidoWildcats.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114794176901886915",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T18:00:00+00:00",
+    "match_id": "114742343629269044",
+    "detection_time": "2025-07-25T10:00:36+00:00",
+    "last_checked": "2025-07-25T11:29:21+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 1",
+    "event_id": "114742343629269044",
+    "league_name": "Rift Legends",
+    "slug": "rift_legends",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "109800832177252614",
+        "name": "Orbit Anonymo",
+        "code": "OAE",
+        "image": "http://static.lolesports.com/teams/1678284506132_hSEW5dQ.png",
+        "game_wins": 0
+      },
+      {
+        "id": "110412519932278090",
+        "name": "Back2TheGame",
+        "code": "B2TG",
+        "image": "http://static.lolesports.com/teams/1737646976320_Logo_Short_bright_1.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114742343629269045",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114742343629269046",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114742343629269047",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T18:00:00+00:00",
+    "match_id": "114732099821901710",
+    "detection_time": "2025-07-25T10:00:39+00:00",
+    "last_checked": "2025-07-25T11:29:22+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 2",
+    "event_id": "114732099821901710",
+    "league_name": "LoL Italian Tournament",
+    "slug": "lit",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "105537149834356301",
+        "name": "aNc Legends",
+        "code": "ANC",
+        "image": "http://static.lolesports.com/teams/1743088399990_logo-anc-legends-sq-y25-AlessandroSesani.png",
+        "game_wins": 0
+      },
+      {
+        "id": "113821139939318065",
+        "name": "GMBLERS Esports",
+        "code": "GMB",
+        "image": "http://static.lolesports.com/teams/1737015399075_logo_interno.PNG",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114732099821901711",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T18:00:00+00:00",
+    "match_id": "114850513732908037",
+    "detection_time": "2025-07-25T10:00:41+00:00",
+    "last_checked": "2025-07-25T11:29:25+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Play In Knockouts",
+    "event_id": "114850513732908037",
+    "league_name": "Arabian League",
+    "slug": "arabian_league",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "0",
+        "name": "TBD",
+        "code": "TBD",
+        "image": "https://static.lolesports.com/teams/team-tbd.png",
+        "game_wins": 0
+      },
+      {
+        "id": "0",
+        "name": "TBD",
+        "code": "TBD",
+        "image": "https://static.lolesports.com/teams/team-tbd.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114850513732908038",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114850513732908039",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114850513732908040",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T19:00:00+00:00",
+    "match_id": "114755484277865784",
+    "detection_time": "2025-07-25T11:00:50+00:00",
+    "last_checked": "2025-07-25T11:29:27+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 1",
+    "event_id": "114755484277865784",
+    "league_name": "La Ligue Française",
+    "slug": "lfl",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "102787200151698443",
+        "name": "Vitality.Bee",
+        "code": "VITB",
+        "image": "http://static.lolesports.com/teams/1704733356167_VITA.png",
+        "game_wins": 0
+      },
+      {
+        "id": "105515345386578249",
+        "name": "Solary",
+        "code": "SLY",
+        "image": "http://static.lolesports.com/teams/LFL-SLY-logo.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114755484277865785",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114755484277865786",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114755484277865787",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2025-07-25T19:00:00+00:00",
+    "match_id": "114828766173093123",
+    "detection_time": "2025-07-25T11:00:53+00:00",
+    "last_checked": "2025-07-25T11:29:30+00:00",
+    "state": "unstarted",
+    "status": "detected",
+    "blockName": "Week 1",
+    "event_id": "114828766173093123",
+    "league_name": "Esports Balkan League",
+    "slug": "esports_balkan_league",
+    "best_of_count": 3,
+    "teams_event_details": [
+      {
+        "id": "110418022381234710",
+        "name": "SPIKE Syndicate",
+        "code": "SPK",
+        "image": "http://static.lolesports.com/teams/1738058246517_EBL_SPK-MonochromeDarkBG.png",
+        "game_wins": 0
+      },
+      {
+        "id": "109697689430777005",
+        "name": "Connect Arena Esports",
+        "code": "CNA",
+        "image": "http://static.lolesports.com/teams/1744190673821_EBL_CNA-MonochromeDarkBG.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "114828766173093124",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114828766173093125",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "114828766173093126",
         "number": 3,
         "state": "unstarted",
         "draft_in_progress": false,

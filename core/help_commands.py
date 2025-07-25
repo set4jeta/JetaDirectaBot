@@ -19,15 +19,12 @@ def register_help_command(bot: commands.Bot):
             "`!historial <cuenta>` - Muestra las últimas partidas de la cuenta de un jugador\n"
             "`!ranking` - Muestra la tabla de clasificación actual de los jugadores trackeados\n"
             "\n"
-            
             "**📘 Comandos Esports:**\n"
             "`!setlivechannel` - Configura este canal para notificaciones automáticas de partidas de esports (Todas las ligas)\n"
             "`!removelivechannel` - Elimina el canal de notificaciones de partidas de esports (Todas las ligas)\n"
             "`!partida` - Muestra partidas en vivo de esports (Todas las ligas) o próximas a comenzar\n"
             "`!next` - Muestra hora y fecha de próximas partidas de esports (Todas las ligas)\n"
-            
-            
-            
+            "\n"
             "**🎮 Comandos Jetacup (grupo `!jetacup`):**\n"
             "`!jetacup` - Muestra datos acerca de la Jetacup 2\n"
             "`!jetacup registro` - Inicia tu registro para la Jetacup 2 paso a paso\n"
@@ -39,5 +36,8 @@ def register_help_command(bot: commands.Bot):
             "⚠️ Si ves un mensaje de *rate limit* en las partidas, significa que Riot está limitando las peticiones.\n"
             "En ese caso, el bot usará datos de respaldo que suelen actualizarse en pocos segundos.\n"
         )
-        
-        await ctx.send(help_text)
+
+        # Divide el texto en bloques de máximo 1900 caracteres para evitar el límite
+        max_len = 1900
+        for i in range(0, len(help_text), max_len):
+            await ctx.send(help_text[i:i+max_len])

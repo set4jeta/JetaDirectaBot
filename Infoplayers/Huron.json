@@ -27,17 +27,24 @@
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 5
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.391304347826087
     },
     {
       "nombre": "Alistar",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 7.416666666666667
+      "winrate": "80.0%",
+      "kda_promedio": 5.526315789473684
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Nautilus",
@@ -45,13 +52,6 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.6470588235294117
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.130434782608696
     },
     {
       "nombre": "Poppy",
@@ -69,10 +69,17 @@
     },
     {
       "nombre": "Rakan",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.25
+      "winrate": "66.7%",
+      "kda_promedio": 4.3
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.8
     },
     {
       "nombre": "Ashe",
@@ -82,24 +89,17 @@
       "kda_promedio": 4.333333333333333
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Galio",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 4.333333333333333
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 33,
-    "wins": 21,
-    "losses": 12,
-    "timePlayed": 50798
+    "games": 41,
+    "wins": 26,
+    "losses": 15,
+    "timePlayed": 64683
   }
 }

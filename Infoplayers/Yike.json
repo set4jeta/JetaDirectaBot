@@ -36,18 +36,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.7142857142857144
-    },
-    {
       "nombre": "Lillia",
       "partidas": 8,
       "victorias": 6,
       "winrate": "75.0%",
       "kda_promedio": 6.56
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.630434782608696
     },
     {
       "nombre": "MonkeyKing",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 76,
-    "wins": 39,
+    "games": 75,
+    "wins": 38,
     "losses": 37,
-    "timePlayed": 121353
+    "timePlayed": 120427
   }
 }

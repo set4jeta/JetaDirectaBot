@@ -22,7 +22,7 @@
       "lp": 807,
       "victorias": 136,
       "derrotas": 74,
-      "ultima_partida": 1753388608027
+      "ultima_partida": 1753438506559
     },
     {
       "nombre": "KC NEXT ADKING#EUW",
@@ -61,6 +61,13 @@
       "kda_promedio": 2.388888888888889
     },
     {
+      "nombre": "Aphelios",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.3181818181818183
+    },
+    {
       "nombre": "Jhin",
       "partidas": 5,
       "victorias": 1,
@@ -82,20 +89,6 @@
       "kda_promedio": 3.25
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 1.95
-    },
-    {
-      "nombre": "Caitlyn",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.875
-    },
-    {
       "nombre": "Corki",
       "partidas": 3,
       "victorias": 3,
@@ -115,12 +108,19 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 4
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.625
     }
   ],
   "estadisticas_2_semanas": {
     "games": 65,
     "wins": 34,
     "losses": 31,
-    "timePlayed": 100307
+    "timePlayed": 99682
   }
 }

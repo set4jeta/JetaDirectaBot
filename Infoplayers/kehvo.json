@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Kehvo#EUW",
+      "nivel": 786,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 809,
+      "victorias": 236,
+      "derrotas": 201,
+      "ultima_partida": 1753428754644
+    },
+    {
       "nombre": "Jeesus III#EUW",
       "nivel": 131,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 127,
       "derrotas": 112,
       "ultima_partida": 1753388852566
-    },
-    {
-      "nombre": "Kehvo#EUW",
-      "nivel": 786,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 828,
-      "victorias": 236,
-      "derrotas": 200,
-      "ultima_partida": 1753382341329
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 13,
+      "partidas": 14,
       "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 3.148936170212766
+      "winrate": "57.1%",
+      "kda_promedio": 2.8333333333333335
     },
     {
       "nombre": "Aphelios",
@@ -51,18 +51,18 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.6875
-    },
-    {
       "nombre": "MissFortune",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6923076923076925
     },
     {
       "nombre": "Kaisa",
@@ -111,6 +111,6 @@
     "games": 64,
     "wins": 34,
     "losses": 30,
-    "timePlayed": 99282
+    "timePlayed": 99362
   }
 }

@@ -34,25 +34,11 @@
       "kda_promedio": 2.358974358974359
     },
     {
-      "nombre": "Ahri",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.12
-    },
-    {
       "nombre": "Taliyah",
       "partidas": 6,
       "victorias": 6,
       "winrate": "100.0%",
       "kda_promedio": 5.052631578947368
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.4166666666666665
     },
     {
       "nombre": "Ezreal",
@@ -62,11 +48,18 @@
       "kda_promedio": 3.1333333333333333
     },
     {
-      "nombre": "Yone",
+      "nombre": "Ahri",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.35
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.826086956521739
     },
     {
       "nombre": "Galio",
@@ -74,6 +67,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.65
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1875
     },
     {
       "nombre": "Akali",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 28,
-    "losses": 22,
-    "timePlayed": 79511
+    "games": 46,
+    "wins": 25,
+    "losses": 21,
+    "timePlayed": 74023
   }
 }

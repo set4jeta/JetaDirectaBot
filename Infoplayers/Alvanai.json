@@ -18,10 +18,10 @@
       "nivel": 540,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 898,
+      "lp": 871,
       "victorias": 296,
-      "derrotas": 233,
-      "ultima_partida": 1753380476406
+      "derrotas": 234,
+      "ultima_partida": 1753403265556
     },
     {
       "nombre": "reaver mid acc#BOZO",
@@ -55,16 +55,16 @@
     {
       "nombre": "Rell",
       "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 4.282608695652174
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Corki",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 3.5106382978723403
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.7906976744186047
     },
     {
       "nombre": "Vladimir",
@@ -117,9 +117,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 41,
-    "losses": 26,
-    "timePlayed": 106832
+    "games": 65,
+    "wins": 38,
+    "losses": 27,
+    "timePlayed": 103786
   }
 }

@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Koυssay3#EUW",
-      "nivel": 934,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 856,
-      "victorias": 405,
-      "derrotas": 374,
-      "ultima_partida": 1753381531296
-    },
-    {
       "nombre": "Maribeth Monroe#EUW",
       "nivel": 173,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 253,
-      "victorias": 107,
+      "lp": 277,
+      "victorias": 108,
       "derrotas": 71,
-      "ultima_partida": 1753182973471
+      "ultima_partida": 1753402364658
+    },
+    {
+      "nombre": "Koυssay3#EUW",
+      "nivel": 934,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 855,
+      "victorias": 406,
+      "derrotas": 375,
+      "ultima_partida": 1753399343530
     }
   ],
   "campeones_recientes": [
@@ -46,9 +46,9 @@
     {
       "nombre": "Corki",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.5384615384615385
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8333333333333333
     },
     {
       "nombre": "Aurora",
@@ -58,11 +58,11 @@
       "kda_promedio": 3.2
     },
     {
-      "nombre": "Galio",
+      "nombre": "Yone",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.2105263157894735
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.285714285714286
     },
     {
       "nombre": "Annie",
@@ -86,18 +86,18 @@
       "kda_promedio": 1.9473684210526316
     },
     {
-      "nombre": "Yone",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.5
-    },
-    {
       "nombre": "Ahri",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 5
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.857142857142857
     },
     {
       "nombre": "Hwei",
@@ -111,6 +111,6 @@
     "games": 30,
     "wins": 17,
     "losses": 13,
-    "timePlayed": 47332
+    "timePlayed": 47993
   }
 }

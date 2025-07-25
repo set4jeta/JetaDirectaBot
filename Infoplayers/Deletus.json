@@ -8,12 +8,22 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/JgDeletus",
-      "twitch": "https://www.twitch.tv/JGDeletus"
+      "twitch": "https://www.twitch.tv/JGDeletus\\t"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
     "logo_equipo": null
   },
   "cuentas": [
+    {
+      "nombre": "AFW Deletus#AFW",
+      "nivel": 249,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 767,
+      "victorias": 202,
+      "derrotas": 144,
+      "ultima_partida": 1753381436449
+    },
     {
       "nombre": "Deletus#000",
       "nivel": 695,
@@ -22,17 +32,7 @@
       "lp": 54,
       "victorias": 68,
       "derrotas": 56,
-      "ultima_partida": 1753307848932
-    },
-    {
-      "nombre": "AFW Deletus#AFW",
-      "nivel": 249,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 812,
-      "victorias": 200,
-      "derrotas": 140,
-      "ultima_partida": 1753301382430
+      "ultima_partida": 1753358263689
     },
     {
       "nombre": "Nano Jgl Acc#EUW",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Rengar",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2666666666666666
+      "winrate": "25.0%",
+      "kda_promedio": 2.193548387096774
     },
     {
       "nombre": "Kaisa",
@@ -63,9 +63,9 @@
     {
       "nombre": "Lillia",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6470588235294117
     },
     {
       "nombre": "Akali",
@@ -96,6 +96,13 @@
       "kda_promedio": 2
     },
     {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
       "nombre": "Qiyana",
       "partidas": 1,
       "victorias": 0,
@@ -103,24 +110,17 @@
       "kda_promedio": 0.7
     },
     {
-      "nombre": "Syndra",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Tristana",
+      "nombre": "Rell",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.7142857142857143
+      "kda_promedio": 3.2857142857142856
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 16,
+    "games": 19,
     "wins": 7,
-    "losses": 9,
-    "timePlayed": 23524
+    "losses": 12,
+    "timePlayed": 29404
   }
 }

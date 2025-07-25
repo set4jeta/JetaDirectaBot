@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.55
-    },
-    {
-      "nombre": "Naafiri",
       "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 5.181818181818182
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "Kayn",
@@ -56,6 +49,13 @@
       "victorias": 2,
       "winrate": "33.3%",
       "kda_promedio": 1.6727272727272726
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.352941176470588
     },
     {
       "nombre": "JarvanIV",
@@ -79,18 +79,18 @@
       "kda_promedio": 2.4166666666666665
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3703703703703702
-    },
-    {
       "nombre": "Ziggs",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1666666666666665
     },
     {
       "nombre": "Soraka",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 28,
-    "losses": 26,
-    "timePlayed": 95726
+    "games": 50,
+    "wins": 25,
+    "losses": 25,
+    "timePlayed": 88694
   }
 }

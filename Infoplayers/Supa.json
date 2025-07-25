@@ -72,25 +72,11 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 18
-    },
-    {
       "nombre": "Lucian",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 5
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     },
     {
       "nombre": "Zeri",
@@ -101,9 +87,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 7,
-    "losses": 7,
-    "timePlayed": 21949
+    "games": 12,
+    "wins": 6,
+    "losses": 6,
+    "timePlayed": 18703
   }
 }

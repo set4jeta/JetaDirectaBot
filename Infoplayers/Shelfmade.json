@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "KDF DuDu#KING1",
-      "nivel": 410,
+      "nivel": 411,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1407,
-      "victorias": 425,
-      "derrotas": 372,
-      "ultima_partida": 1753393337801
+      "lp": 1386,
+      "victorias": 426,
+      "derrotas": 374,
+      "ultima_partida": 1753402543021
     },
     {
       "nombre": "BIG Pig#Oink5",
@@ -37,10 +37,10 @@
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 23,
+      "partidas": 24,
       "victorias": 13,
-      "winrate": "56.5%",
-      "kda_promedio": 2.049586776859504
+      "winrate": "54.2%",
+      "kda_promedio": 2.008
     },
     {
       "nombre": "Gwen",
@@ -58,10 +58,10 @@
     },
     {
       "nombre": "Sion",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 5.230769230769231
+      "winrate": "40.0%",
+      "kda_promedio": 3.590909090909091
     },
     {
       "nombre": "Gnar",
@@ -99,17 +99,17 @@
       "kda_promedio": 1.2857142857142858
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Nautilus",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 28,
-    "losses": 24,
-    "timePlayed": 77925
+    "games": 55,
+    "wins": 29,
+    "losses": 26,
+    "timePlayed": 82655
   }
 }

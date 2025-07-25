@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Ekko",
-      "partidas": 110,
+      "partidas": 109,
       "victorias": 60,
-      "winrate": "54.5%",
-      "kda_promedio": 2.4157650695517776
+      "winrate": "55.0%",
+      "kda_promedio": 2.4265625
     },
     {
       "nombre": "Jinx",
@@ -77,9 +77,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 131,
+    "games": 130,
     "wins": 72,
-    "losses": 59,
-    "timePlayed": 218863
+    "losses": 58,
+    "timePlayed": 217374
   }
 }

@@ -27,17 +27,10 @@
   "campeones_recientes": [
     {
       "nombre": "Yone",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.5714285714285716
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.6551724137931036
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4038461538461537
     },
     {
       "nombre": "Leblanc",
@@ -45,6 +38,13 @@
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 2.12
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.64
     },
     {
       "nombre": "Sylas",
@@ -61,18 +61,18 @@
       "kda_promedio": 1.7916666666666667
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5185185185185186
-    },
-    {
       "nombre": "Ryze",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Ahri",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
-    "wins": 18,
-    "losses": 22,
-    "timePlayed": 63364
+    "games": 37,
+    "wins": 17,
+    "losses": 20,
+    "timePlayed": 58205
   }
 }

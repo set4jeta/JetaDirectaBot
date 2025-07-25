@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Taliyah",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.9130434782608696
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Aurora",
@@ -103,24 +103,24 @@
       "kda_promedio": 2.8181818181818183
     },
     {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
       "nombre": "Akali",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.625
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 22,
-    "losses": 23,
-    "timePlayed": 76922
+    "games": 43,
+    "wins": 21,
+    "losses": 22,
+    "timePlayed": 74157
   }
 }

@@ -37,10 +37,10 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 17,
-      "victorias": 7,
-      "winrate": "41.2%",
-      "kda_promedio": 2.268292682926829
+      "partidas": 16,
+      "victorias": 6,
+      "winrate": "37.5%",
+      "kda_promedio": 2.0384615384615383
     },
     {
       "nombre": "Lulu",
@@ -92,24 +92,24 @@
       "kda_promedio": 3.3333333333333335
     },
     {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.142857142857143
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.85
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 31,
+    "games": 50,
+    "wins": 29,
     "losses": 21,
-    "timePlayed": 80805
+    "timePlayed": 78040
   }
 }

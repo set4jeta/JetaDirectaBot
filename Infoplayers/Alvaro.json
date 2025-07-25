@@ -78,13 +78,6 @@
       "kda_promedio": 4.25
     },
     {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
       "nombre": "Nami",
       "partidas": 1,
       "victorias": 0,
@@ -104,12 +97,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.571428571428571
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
+    "games": 18,
     "wins": 11,
-    "losses": 8,
-    "timePlayed": 31144
+    "losses": 7,
+    "timePlayed": 29548
   }
 }

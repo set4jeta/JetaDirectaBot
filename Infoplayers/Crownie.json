@@ -19,7 +19,7 @@
       "nivel": 896,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 684,
+      "lp": 669,
       "victorias": 247,
       "derrotas": 209,
       "ultima_partida": 1753367113880
@@ -68,13 +68,6 @@
       "kda_promedio": 3.169811320754717
     },
     {
-      "nombre": "Corki",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 1.5614035087719298
-    },
-    {
       "nombre": "Jinx",
       "partidas": 10,
       "victorias": 5,
@@ -87,6 +80,13 @@
       "victorias": 3,
       "winrate": "33.3%",
       "kda_promedio": 1.7027027027027026
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.510204081632653
     },
     {
       "nombre": "Smolder",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 148,
-    "wins": 78,
-    "losses": 70,
-    "timePlayed": 236837
+    "games": 146,
+    "wins": 77,
+    "losses": 69,
+    "timePlayed": 234197
   }
 }

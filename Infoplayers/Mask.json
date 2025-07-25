@@ -21,7 +21,7 @@
       "lp": 880,
       "victorias": 222,
       "derrotas": 146,
-      "ultima_partida": 1753368145110
+      "ultima_partida": 1753397656727
     },
     {
       "nombre": "bvsb#EUW",
@@ -50,13 +50,6 @@
       "kda_promedio": 2.727272727272727
     },
     {
-      "nombre": "Aurora",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.111111111111111
-    },
-    {
       "nombre": "Sion",
       "partidas": 6,
       "victorias": 3,
@@ -69,6 +62,13 @@
       "victorias": 4,
       "winrate": "66.7%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.615384615384615
     },
     {
       "nombre": "Lucian",
@@ -92,24 +92,24 @@
       "kda_promedio": 2.1333333333333333
     },
     {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
       "nombre": "Ziggs",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.8
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.25
     }
   ],
   "estadisticas_2_semanas": {
     "games": 61,
     "wins": 37,
     "losses": 24,
-    "timePlayed": 100580
+    "timePlayed": 101299
   }
 }

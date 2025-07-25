@@ -20,9 +20,9 @@
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 825,
-      "victorias": 610,
-      "derrotas": 563,
-      "ultima_partida": 1753329954850
+      "victorias": 612,
+      "derrotas": 565,
+      "ultima_partida": 1753416175237
     },
     {
       "nombre": "DJ AATROX#DEATH",
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "KSante",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.1794871794871793
+      "nombre": "Sion",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.2444444444444445
     },
     {
-      "nombre": "Sion",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.272727272727273
+      "nombre": "KSante",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4516129032258065
     },
     {
       "nombre": "Renekton",
@@ -58,11 +58,25 @@
       "kda_promedio": 2
     },
     {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7058823529411764
+    },
+    {
       "nombre": "Gwen",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4782608695652173
     },
     {
       "nombre": "Rumble",
@@ -79,25 +93,11 @@
       "kda_promedio": 2.230769230769231
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1333333333333333
-    },
-    {
       "nombre": "Akali",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.2307692307692308
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.142857142857143
     },
     {
       "nombre": "Irelia",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 20,
-    "losses": 29,
-    "timePlayed": 79764
+    "games": 50,
+    "wins": 22,
+    "losses": 28,
+    "timePlayed": 82185
   }
 }

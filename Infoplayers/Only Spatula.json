@@ -14,24 +14,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Only Spatula#999",
-      "nivel": 311,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 968,
-      "victorias": 570,
-      "derrotas": 524,
-      "ultima_partida": 1753394242321
-    },
-    {
       "nombre": "Peter Parkour#999",
-      "nivel": 910,
+      "nivel": 911,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 99,
-      "victorias": 263,
+      "lp": 119,
+      "victorias": 264,
       "derrotas": 269,
-      "ultima_partida": 1753311685994
+      "ultima_partida": 1753433898058
+    },
+    {
+      "nombre": "Only Spatula#999",
+      "nivel": 312,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1061,
+      "victorias": 577,
+      "derrotas": 526,
+      "ultima_partida": 1753426341064
     },
     {
       "nombre": "Demon Fish#999",
@@ -47,24 +47,24 @@
   "campeones_recientes": [
     {
       "nombre": "Hwei",
-      "partidas": 32,
-      "victorias": 18,
-      "winrate": "56.2%",
-      "kda_promedio": 2.963855421686747
+      "partidas": 38,
+      "victorias": 23,
+      "winrate": "60.5%",
+      "kda_promedio": 2.953125
     },
     {
       "nombre": "Fizz",
-      "partidas": 20,
-      "victorias": 12,
-      "winrate": "60.0%",
-      "kda_promedio": 1.9166666666666667
+      "partidas": 23,
+      "victorias": 14,
+      "winrate": "60.9%",
+      "kda_promedio": 2.096
     },
     {
       "nombre": "Talon",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 1.7407407407407407
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.7640449438202248
     },
     {
       "nombre": "Vex",
@@ -96,9 +96,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
-    "wins": 39,
-    "losses": 38,
-    "timePlayed": 127063
+    "games": 87,
+    "wins": 47,
+    "losses": 40,
+    "timePlayed": 142205
   }
 }

@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "Light#CN3",
-      "nivel": 665,
+      "nivel": 666,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 738,
-      "victorias": 472,
-      "derrotas": 425,
-      "ultima_partida": 1753281001757
+      "liga": "GRANDMASTER I",
+      "lp": 820,
+      "victorias": 482,
+      "derrotas": 431,
+      "ultima_partida": 1753397322220
     }
   ],
   "campeones_recientes": [
@@ -34,24 +34,38 @@
     },
     {
       "nombre": "Yunara",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.0757575757575757
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.2448979591836733
     },
     {
       "nombre": "Lucian",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.4210526315789473
+      "winrate": "36.4%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.033333333333333
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.78125
     },
     {
       "nombre": "Jinx",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 1.84
+      "kda_promedio": 1.962962962962963
     },
     {
       "nombre": "Kaisa",
@@ -59,20 +73,6 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 3.05
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.375
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5517241379310347
     },
     {
       "nombre": "Ziggs",
@@ -89,17 +89,17 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Zeri",
+      "nombre": "Sivir",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.96
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3529411764705883
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 86,
-    "wins": 42,
-    "losses": 44,
-    "timePlayed": 138789
+    "games": 98,
+    "wins": 49,
+    "losses": 49,
+    "timePlayed": 158030
   }
 }

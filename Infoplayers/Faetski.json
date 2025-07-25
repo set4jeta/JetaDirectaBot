@@ -18,10 +18,10 @@
       "nivel": 1022,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 866,
-      "victorias": 400,
-      "derrotas": 354,
-      "ultima_partida": 1753394021289
+      "lp": 844,
+      "victorias": 401,
+      "derrotas": 356,
+      "ultima_partida": 1753404911565
     }
   ],
   "campeones_recientes": [
@@ -47,13 +47,6 @@
       "kda_promedio": 2.619047619047619
     },
     {
-      "nombre": "Lucian",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.6923076923076925
-    },
-    {
       "nombre": "MissFortune",
       "partidas": 4,
       "victorias": 4,
@@ -66,6 +59,20 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.066666666666667
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
     },
     {
       "nombre": "Caitlyn",
@@ -82,24 +89,17 @@
       "kda_promedio": 2.7777777777777777
     },
     {
-      "nombre": "Sivir",
+      "nombre": "Senna",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7857142857142858
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 23,
-    "losses": 28,
-    "timePlayed": 84131
+    "games": 53,
+    "wins": 24,
+    "losses": 29,
+    "timePlayed": 87108
   }
 }

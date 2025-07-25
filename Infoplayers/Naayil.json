@@ -19,10 +19,10 @@
       "nivel": 1143,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 982,
-      "victorias": 723,
+      "lp": 1022,
+      "victorias": 725,
       "derrotas": 673,
-      "ultima_partida": 1753390519375
+      "ultima_partida": 1753409215873
     },
     {
       "nombre": "Little Issa #EUW",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 51,
-      "victorias": 27,
-      "winrate": "52.9%",
-      "kda_promedio": 2.4759358288770055
+      "partidas": 47,
+      "victorias": 25,
+      "winrate": "53.2%",
+      "kda_promedio": 2.3216374269005846
     },
     {
       "nombre": "KSante",
@@ -73,6 +73,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 18
     },
     {
       "nombre": "Pantheon",
@@ -97,9 +104,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 32,
-    "losses": 34,
-    "timePlayed": 106747
+    "games": 63,
+    "wins": 31,
+    "losses": 32,
+    "timePlayed": 99336
   }
 }

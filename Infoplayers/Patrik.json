@@ -19,10 +19,10 @@
       "nivel": 436,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 212,
-      "victorias": 138,
-      "derrotas": 95,
-      "ultima_partida": 1753134460241
+      "lp": 232,
+      "victorias": 139,
+      "derrotas": 96,
+      "ultima_partida": 1753409215873
     },
     {
       "nombre": "NIP Freeze#cze",
@@ -55,10 +55,10 @@
     },
     {
       "nombre": "Senna",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2
+      "kda_promedio": 1.4705882352941178
     },
     {
       "nombre": "Aphelios",
@@ -66,6 +66,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.111111111111111
     },
     {
       "nombre": "Jhin",
@@ -90,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 4,
-    "losses": 5,
-    "timePlayed": 13435
+    "games": 11,
+    "wins": 5,
+    "losses": 6,
+    "timePlayed": 17001
   }
 }

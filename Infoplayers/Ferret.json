@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Ferret25#8725",
-      "nivel": 468,
+      "nivel": 469,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 950,
+      "lp": 930,
       "victorias": 458,
-      "derrotas": 419,
-      "ultima_partida": 1753369164018
+      "derrotas": 420,
+      "ultima_partida": 1753401700789
     },
     {
       "nombre": "METROOOOOOOOO#EUW",
@@ -58,13 +58,6 @@
       "kda_promedio": 4.205128205128205
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.657142857142857
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 6,
       "victorias": 4,
@@ -73,10 +66,17 @@
     },
     {
       "nombre": "Vi",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.4782608695652173
+      "winrate": "50.0%",
+      "kda_promedio": 3.413793103448276
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.413793103448276
     },
     {
       "nombre": "Nidalee",
@@ -109,8 +109,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 88,
-    "wins": 46,
-    "losses": 42,
-    "timePlayed": 143392
+    "wins": 45,
+    "losses": 43,
+    "timePlayed": 143628
   }
 }

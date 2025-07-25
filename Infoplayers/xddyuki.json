@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "xddyuki#LINA",
-      "nivel": 583,
+      "nivel": 584,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 859,
-      "victorias": 243,
-      "derrotas": 206,
-      "ultima_partida": 1753305596314
+      "lp": 772,
+      "victorias": 244,
+      "derrotas": 211,
+      "ultima_partida": 1753368501510
     },
     {
       "nombre": "TSC GOVNA#K1NG",
@@ -44,6 +44,13 @@
       "kda_promedio": 2.8955223880597014
     },
     {
+      "nombre": "Smolder",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.5625
+    },
+    {
       "nombre": "Senna",
       "partidas": 6,
       "victorias": 1,
@@ -51,18 +58,18 @@
       "kda_promedio": 2.282051282051282
     },
     {
-      "nombre": "Smolder",
+      "nombre": "Varus",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.64
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Varus",
-      "partidas": 5,
+      "nombre": "Kaisa",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.9090909090909092
+      "winrate": "50.0%",
+      "kda_promedio": 2.5217391304347827
     },
     {
       "nombre": "Rell",
@@ -79,6 +86,13 @@
       "kda_promedio": 2.5
     },
     {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
       "nombre": "Jinx",
       "partidas": 2,
       "victorias": 0,
@@ -86,31 +100,17 @@
       "kda_promedio": 1.4615384615384615
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
       "nombre": "Karma",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.090909090909091
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 26,
-    "losses": 29,
-    "timePlayed": 88985
+    "games": 61,
+    "wins": 27,
+    "losses": 34,
+    "timePlayed": 98733
   }
 }

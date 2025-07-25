@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 11,
-      "victorias": 3,
-      "winrate": "27.3%",
-      "kda_promedio": 1.105263157894737
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.142857142857143
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 0.8461538461538461
     },
     {
       "nombre": "Jayce",
@@ -58,11 +51,11 @@
       "kda_promedio": 1.7428571428571429
     },
     {
-      "nombre": "Renekton",
-      "partidas": 4,
+      "nombre": "Ambessa",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9
+      "winrate": "66.7%",
+      "kda_promedio": 1.3333333333333333
     },
     {
       "nombre": "Gwen",
@@ -70,6 +63,13 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.1875
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Yone",
@@ -84,13 +84,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.75
     },
     {
       "nombre": "Varus",
@@ -108,9 +101,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 17,
-    "losses": 17,
-    "timePlayed": 55243
+    "games": 26,
+    "wins": 13,
+    "losses": 13,
+    "timePlayed": 41455
   }
 }

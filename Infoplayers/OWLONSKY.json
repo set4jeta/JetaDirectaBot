@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "owlonsky#000",
+      "nivel": 115,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 847,
+      "victorias": 192,
+      "derrotas": 145,
+      "ultima_partida": 1753354520230
+    },
+    {
       "nombre": "owlonsky#winn",
       "nivel": 346,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 199,
       "derrotas": 193,
       "ultima_partida": 1753313059016
-    },
-    {
-      "nombre": "owlonsky#000",
-      "nivel": 115,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 850,
-      "victorias": 191,
-      "derrotas": 144,
-      "ultima_partida": 1753306813935
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nidalee",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 3.0892857142857144
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0508474576271185
     },
     {
       "nombre": "Varus",
@@ -49,13 +49,6 @@
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 3.1363636363636362
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0416666666666667
     },
     {
       "nombre": "LeeSin",
@@ -86,11 +79,11 @@
       "kda_promedio": 2.1
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Viego",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.611111111111111
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Aatrox",
@@ -105,12 +98,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
+    "games": 48,
     "wins": 26,
-    "losses": 25,
-    "timePlayed": 80725
+    "losses": 22,
+    "timePlayed": 76276
   }
 }

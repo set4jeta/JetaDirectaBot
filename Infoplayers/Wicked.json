@@ -19,10 +19,10 @@
       "nivel": 1023,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 807,
-      "victorias": 456,
+      "lp": 826,
+      "victorias": 457,
       "derrotas": 431,
-      "ultima_partida": 1753368511332
+      "ultima_partida": 1753411829884
     },
     {
       "nombre": "Moula STEG#STEG",
@@ -72,18 +72,18 @@
       "kda_promedio": 4.105263157894737
     },
     {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.7272727272727275
+    },
+    {
       "nombre": "Hwei",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 1.6842105263157894
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.111111111111111
     },
     {
       "nombre": "Mel",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 90,
-    "wins": 49,
+    "games": 91,
+    "wins": 50,
     "losses": 41,
-    "timePlayed": 142190
+    "timePlayed": 143765
   }
 }

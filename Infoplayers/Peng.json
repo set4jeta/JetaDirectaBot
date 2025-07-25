@@ -19,10 +19,10 @@
       "nivel": 392,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1255,
-      "victorias": 493,
-      "derrotas": 439,
-      "ultima_partida": 1753369886934
+      "lp": 1254,
+      "victorias": 494,
+      "derrotas": 440,
+      "ultima_partida": 1753389373904
     },
     {
       "nombre": "twtv Peng04#NMIXX",
@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 72,
+      "partidas": 73,
       "victorias": 37,
-      "winrate": "51.4%",
-      "kda_promedio": 3.9833333333333334
+      "winrate": "50.7%",
+      "kda_promedio": 3.9146341463414633
     },
     {
       "nombre": "Syndra",
-      "partidas": 31,
+      "partidas": 30,
       "victorias": 15,
-      "winrate": "48.4%",
-      "kda_promedio": 3.411214953271028
+      "winrate": "50.0%",
+      "kda_promedio": 3.5294117647058822
     },
     {
       "nombre": "Mel",
@@ -76,10 +76,10 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.935483870967742
+      "winrate": "33.3%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Nautilus",
@@ -119,8 +119,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 148,
-    "wins": 74,
-    "losses": 74,
-    "timePlayed": 244803
+    "wins": 75,
+    "losses": 73,
+    "timePlayed": 244566
   }
 }

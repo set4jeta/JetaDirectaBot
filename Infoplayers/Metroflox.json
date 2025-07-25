@@ -22,16 +22,16 @@
       "lp": 988,
       "victorias": 195,
       "derrotas": 152,
-      "ultima_partida": 1753374990518
+      "ultima_partida": 1753397999876
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ziggs",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.5
+      "winrate": "50.0%",
+      "kda_promedio": 2.402439024390244
     },
     {
       "nombre": "Trundle",
@@ -41,18 +41,18 @@
       "kda_promedio": 2.9411764705882355
     },
     {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
       "nombre": "Naafiri",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 14
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     },
     {
       "nombre": "Ahri",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
+    "games": 26,
     "wins": 15,
-    "losses": 10,
-    "timePlayed": 45952
+    "losses": 11,
+    "timePlayed": 47922
   }
 }

@@ -61,20 +61,6 @@
       "kda_promedio": 1.9857142857142858
     },
     {
-      "nombre": "MissFortune",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.8888888888888888
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
       "nombre": "Jhin",
       "partidas": 8,
       "victorias": 3,
@@ -82,11 +68,25 @@
       "kda_promedio": 2.625
     },
     {
+      "nombre": "MissFortune",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.7209302325581395
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3114754098360655
+    },
+    {
       "nombre": "Senna",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.3488372093023258
+      "winrate": "100.0%",
+      "kda_promedio": 2.5945945945945947
     },
     {
       "nombre": "Ziggs",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 79,
-    "wins": 43,
-    "losses": 36,
-    "timePlayed": 125532
+    "games": 76,
+    "wins": 42,
+    "losses": 34,
+    "timePlayed": 121191
   }
 }

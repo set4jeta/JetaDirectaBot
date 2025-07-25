@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "noobtopp#noob",
-      "nivel": 605,
+      "nivel": 606,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 873,
-      "victorias": 302,
-      "derrotas": 264,
-      "ultima_partida": 1753315834870
+      "lp": 847,
+      "victorias": 305,
+      "derrotas": 268,
+      "ultima_partida": 1753390617416
     }
   ],
   "campeones_recientes": [
@@ -31,21 +31,28 @@
       "partidas": 21,
       "victorias": 12,
       "winrate": "57.1%",
-      "kda_promedio": 1.982608695652174
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "kda_promedio": 2.108108108108108
     },
     {
       "nombre": "Ambessa",
-      "partidas": 6,
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 7,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.590909090909091
+      "winrate": "57.1%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Jayce",
@@ -53,13 +60,6 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 1.2758620689655173
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.2222222222222223
     },
     {
       "nombre": "Renekton",
@@ -91,9 +91,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 29,
-    "losses": 21,
-    "timePlayed": 76902
+    "games": 53,
+    "wins": 31,
+    "losses": 22,
+    "timePlayed": 82891
   }
 }

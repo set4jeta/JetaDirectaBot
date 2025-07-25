@@ -18,11 +18,11 @@
       "nombre": "IvanDragovic#2002",
       "nivel": 992,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1071,
+      "liga": "GRANDMASTER I",
+      "lp": 1004,
       "victorias": 308,
-      "derrotas": 257,
-      "ultima_partida": 1753387253939
+      "derrotas": 260,
+      "ultima_partida": 1753397134192
     }
   ],
   "campeones_recientes": [
@@ -39,6 +39,20 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
     },
     {
       "nombre": "Kaisa",
@@ -60,12 +74,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 8,
+    "games": 11,
     "wins": 7,
-    "losses": 1,
-    "timePlayed": 11925
+    "losses": 4,
+    "timePlayed": 16468
   }
 }

@@ -15,50 +15,50 @@
   },
   "cuentas": [
     {
-      "nombre": "Demon Reborn#RRR",
-      "nivel": 391,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 847,
-      "victorias": 188,
-      "derrotas": 132,
-      "ultima_partida": 1753389322508
-    },
-    {
-      "nombre": "Pun1sher#Demon",
-      "nivel": 320,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1062,
-      "victorias": 196,
-      "derrotas": 130,
-      "ultima_partida": 1753377640710
-    },
-    {
       "nombre": "Pun1sher Reborn#EUW",
       "nivel": 807,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 437,
+      "lp": 422,
       "victorias": 296,
-      "derrotas": 261,
-      "ultima_partida": 1753138871726
+      "derrotas": 262,
+      "ultima_partida": 1753413551273
+    },
+    {
+      "nombre": "Pun1sher#Demon",
+      "nivel": 321,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1081,
+      "victorias": 197,
+      "derrotas": 130,
+      "ultima_partida": 1753409215873
+    },
+    {
+      "nombre": "Demon Reborn#RRR",
+      "nivel": 391,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 827,
+      "victorias": 188,
+      "derrotas": 133,
+      "ultima_partida": 1753406901832
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Cassiopeia",
-      "partidas": 87,
-      "victorias": 59,
-      "winrate": "67.8%",
-      "kda_promedio": 2.3477443609022557
+      "partidas": 89,
+      "victorias": 60,
+      "winrate": "67.4%",
+      "kda_promedio": 2.3339416058394162
     },
     {
       "nombre": "Tristana",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1702127659574466
+      "winrate": "60.0%",
+      "kda_promedio": 1.9642857142857142
     },
     {
       "nombre": "Irelia",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 117,
-    "wins": 78,
-    "losses": 39,
-    "timePlayed": 186120
+    "games": 120,
+    "wins": 79,
+    "losses": 41,
+    "timePlayed": 191096
   }
 }

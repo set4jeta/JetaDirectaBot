@@ -15,20 +15,20 @@
   "cuentas": [
     {
       "nombre": "FLY Gakgos#F L Y",
-      "nivel": 43,
+      "nivel": 44,
       "region": "NA1",
       "liga": "CHALLENGER I",
-      "lp": 845,
-      "victorias": 89,
-      "derrotas": 36,
-      "ultima_partida": 1753380778038
+      "lp": 888,
+      "victorias": 93,
+      "derrotas": 38,
+      "ultima_partida": 1753423395424
     },
     {
       "nombre": "Never Ending#Moses",
       "nivel": 791,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1503,
+      "lp": 1428,
       "victorias": 495,
       "derrotas": 424,
       "ultima_partida": 1752098932438
@@ -44,10 +44,17 @@
     },
     {
       "nombre": "Jayce",
-      "partidas": 15,
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.689655172413793
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 12,
       "victorias": 9,
-      "winrate": "60.0%",
-      "kda_promedio": 2.7560975609756095
+      "winrate": "75.0%",
+      "kda_promedio": 3.325
     },
     {
       "nombre": "Gwen",
@@ -57,11 +64,11 @@
       "kda_promedio": 2.1904761904761907
     },
     {
-      "nombre": "Jax",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 3.4054054054054053
+      "nombre": "Aurora",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.973684210526316
     },
     {
       "nombre": "Vladimir",
@@ -69,13 +76,6 @@
       "victorias": 6,
       "winrate": "60.0%",
       "kda_promedio": 2.6818181818181817
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.710526315789474
     },
     {
       "nombre": "Irelia",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 125,
-    "wins": 89,
-    "losses": 36,
-    "timePlayed": 199392
+    "games": 131,
+    "wins": 93,
+    "losses": 38,
+    "timePlayed": 208429
   }
 }

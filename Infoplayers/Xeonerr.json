@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "dejfDawid1#EUW",
+      "nivel": 598,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 985,
+      "victorias": 197,
+      "derrotas": 155,
+      "ultima_partida": 1753430127284
+    },
+    {
       "nombre": "xeonerr#EU1",
       "nivel": 810,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 412,
       "derrotas": 374,
       "ultima_partida": 1753351232813
-    },
-    {
-      "nombre": "dejfDawid1#EUW",
-      "nivel": 598,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1005,
-      "victorias": 197,
-      "derrotas": 154,
-      "ultima_partida": 1753269520368
     }
   ],
   "campeones_recientes": [
@@ -44,25 +44,25 @@
       "kda_promedio": 3.0526315789473686
     },
     {
-      "nombre": "Gragas",
+      "nombre": "Vi",
       "partidas": 7,
       "victorias": 4,
       "winrate": "57.1%",
-      "kda_promedio": 2.3636363636363638
+      "kda_promedio": 3.1176470588235294
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.038461538461538
-    },
-    {
-      "nombre": "Vi",
+      "nombre": "Gragas",
       "partidas": 6,
       "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 3.6785714285714284
+      "kda_promedio": 2.5185185185185186
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.5416666666666665
     },
     {
       "nombre": "Trundle",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 46,
-    "wins": 27,
+    "games": 45,
+    "wins": 26,
     "losses": 19,
-    "timePlayed": 75091
+    "timePlayed": 73115
   }
 }

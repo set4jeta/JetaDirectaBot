@@ -19,10 +19,10 @@
       "nivel": 109,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 773,
-      "victorias": 316,
-      "derrotas": 265,
-      "ultima_partida": 1753392638019
+      "lp": 772,
+      "victorias": 317,
+      "derrotas": 266,
+      "ultima_partida": 1753398274113
     }
   ],
   "campeones_recientes": [
@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Nautilus",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.9655172413793105
+      "winrate": "50.0%",
+      "kda_promedio": 3.0952380952380953
     },
     {
       "nombre": "LeeSin",
@@ -55,13 +55,6 @@
       "kda_promedio": 1.2
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4166666666666665
-    },
-    {
       "nombre": "Kaisa",
       "partidas": 2,
       "victorias": 1,
@@ -74,6 +67,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Rumble",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
+    "games": 35,
     "wins": 18,
-    "losses": 19,
-    "timePlayed": 61151
+    "losses": 17,
+    "timePlayed": 58429
   }
 }

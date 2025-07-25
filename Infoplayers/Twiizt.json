@@ -62,10 +62,10 @@
     },
     {
       "nombre": "Alistar",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 3.1914893617021276
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 3.3947368421052633
     },
     {
       "nombre": "Rakan",
@@ -111,9 +111,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 28,
+    "games": 50,
+    "wins": 27,
     "losses": 23,
-    "timePlayed": 87135
+    "timePlayed": 84794
   }
 }

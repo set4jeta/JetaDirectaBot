@@ -5,7 +5,7 @@
     "edad": 21,
     "equipo": "Beşiktaş Esports",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/lolfade7",
       "twitch": "https://www.twitch.tv/lolfade7"
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "GRIND TILL I DIE#777",
-      "nivel": 275,
+      "nivel": 276,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 950,
+      "lp": 935,
       "victorias": 392,
       "derrotas": 353,
-      "ultima_partida": 1753302719153
+      "ultima_partida": 1753385704696
     },
     {
       "nombre": "Fadee#1337",
@@ -37,32 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Annie",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 2.267605633802817
-    },
-    {
       "nombre": "Ryze",
-      "partidas": 12,
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.789473684210526
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 9,
       "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.933333333333333
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.15625
-    },
-    {
-      "nombre": "Yasuo",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.074074074074074
+      "winrate": "77.8%",
+      "kda_promedio": 2.918918918918919
     },
     {
       "nombre": "Ambessa",
@@ -70,6 +56,20 @@
       "victorias": 5,
       "winrate": "100.0%",
       "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.4482758620689655
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.909090909090909
     },
     {
       "nombre": "Galio",
@@ -93,24 +93,24 @@
       "kda_promedio": 1.2758620689655173
     },
     {
-      "nombre": "Zed",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5833333333333335
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
-      "nombre": "Jayce",
+      "nombre": "Zed",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.8333333333333335
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 37,
-    "losses": 30,
-    "timePlayed": 104590
+    "games": 57,
+    "wins": 31,
+    "losses": 26,
+    "timePlayed": 87295
   }
 }

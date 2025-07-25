@@ -36,18 +36,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Leona",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 4.774193548387097
-    },
-    {
       "nombre": "Alistar",
       "partidas": 7,
       "victorias": 5,
       "winrate": "71.4%",
       "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Rakan",
@@ -100,9 +100,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
+    "games": 28,
     "wins": 17,
-    "losses": 12,
-    "timePlayed": 43815
+    "losses": 11,
+    "timePlayed": 42493
   }
 }

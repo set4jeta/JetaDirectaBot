@@ -58,13 +58,6 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1764705882352942
-    },
-    {
       "nombre": "Taliyah",
       "partidas": 3,
       "victorias": 1,
@@ -72,11 +65,11 @@
       "kda_promedio": 1.7391304347826086
     },
     {
-      "nombre": "Azir",
+      "nombre": "Alistar",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.272727272727273
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     },
     {
       "nombre": "Corki",
@@ -93,24 +86,31 @@
       "kda_promedio": 5.666666666666667
     },
     {
-      "nombre": "Orianna",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.0714285714285716
-    },
-    {
       "nombre": "Ryze",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 18,
-    "losses": 27,
-    "timePlayed": 72167
+    "games": 42,
+    "wins": 17,
+    "losses": 25,
+    "timePlayed": 68230
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 806,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 813,
-      "victorias": 186,
-      "derrotas": 151,
-      "ultima_partida": 1753314072320
+      "lp": 768,
+      "victorias": 187,
+      "derrotas": 154,
+      "ultima_partida": 1753412325821
     }
   ],
   "campeones_recientes": [
@@ -69,6 +69,13 @@
       "kda_promedio": 4.7
     },
     {
+      "nombre": "Morgana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
       "nombre": "Aatrox",
       "partidas": 1,
       "victorias": 0,
@@ -83,24 +90,17 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Brand",
+      "nombre": "Annie",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.8571428571428572
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
-    "wins": 16,
-    "losses": 19,
-    "timePlayed": 54631
+    "games": 39,
+    "wins": 17,
+    "losses": 22,
+    "timePlayed": 60768
   }
 }

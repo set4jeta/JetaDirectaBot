@@ -22,30 +22,30 @@
       "lp": 1067,
       "victorias": 444,
       "derrotas": 399,
-      "ultima_partida": 1752960658320
+      "ultima_partida": 1753382341329
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "JarvanIV",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 3.076923076923077
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.0869565217391304
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.838235294117647
     },
     {
       "nombre": "XinZhao",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.8636363636363638
+      "winrate": "100.0%",
+      "kda_promedio": 5.583333333333333
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4615384615384617
     },
     {
       "nombre": "Nasus",
@@ -53,13 +53,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.6
     },
     {
       "nombre": "Ziggs",
@@ -74,6 +67,13 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 17
     },
     {
       "nombre": "Vayne",
@@ -91,9 +91,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 33,
-    "wins": 23,
-    "losses": 10,
-    "timePlayed": 52119
+    "games": 26,
+    "wins": 19,
+    "losses": 7,
+    "timePlayed": 41969
   }
 }

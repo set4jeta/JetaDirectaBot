@@ -19,10 +19,10 @@
       "nivel": 1274,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1029,
+      "lp": 1008,
       "victorias": 476,
-      "derrotas": 442,
-      "ultima_partida": 1753389572067
+      "derrotas": 443,
+      "ultima_partida": 1753395777051
     }
   ],
   "campeones_recientes": [
@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Cassiopeia",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 2.757575757575758
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 2.888888888888889
     },
     {
       "nombre": "Akali",
@@ -62,11 +62,11 @@
       "kda_promedio": 2.736842105263158
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Leblanc",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.5555555555555554
+      "kda_promedio": 4.666666666666667
     },
     {
       "nombre": "Yone",
@@ -83,11 +83,11 @@
       "kda_promedio": 3.2
     },
     {
-      "nombre": "Leblanc",
+      "nombre": "Taliyah",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6923076923076925
     },
     {
       "nombre": "Aurora",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
+    "games": 55,
     "wins": 31,
-    "losses": 23,
-    "timePlayed": 84701
+    "losses": 24,
+    "timePlayed": 86868
   }
 }

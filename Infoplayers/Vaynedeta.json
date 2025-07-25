@@ -16,10 +16,10 @@
       "nivel": 506,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 915,
+      "lp": 852,
       "victorias": 168,
-      "derrotas": 116,
-      "ultima_partida": 1753383166322
+      "derrotas": 119,
+      "ultima_partida": 1753440318765
     },
     {
       "nombre": "OLA MESΑ#EUW",
@@ -56,10 +56,10 @@
     },
     {
       "nombre": "Varus",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4074074074074074
+      "winrate": "25.0%",
+      "kda_promedio": 1.3333333333333333
     },
     {
       "nombre": "Corki",
@@ -97,17 +97,17 @@
       "kda_promedio": 1.4705882352941178
     },
     {
-      "nombre": "Nilah",
+      "nombre": "Nautilus",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
+    "games": 42,
     "wins": 20,
-    "losses": 20,
-    "timePlayed": 64929
+    "losses": 22,
+    "timePlayed": 67221
   }
 }

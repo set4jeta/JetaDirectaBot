@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "SUPdoss#EUW",
-      "nivel": 302,
+      "nivel": 303,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 999,
-      "victorias": 469,
-      "derrotas": 400,
-      "ultima_partida": 1753369630671
+      "lp": 957,
+      "victorias": 472,
+      "derrotas": 405,
+      "ultima_partida": 1753400316377
     },
     {
       "nombre": "IsAiSDaAS#123",
@@ -58,17 +58,10 @@
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 28,
+      "partidas": 30,
       "victorias": 19,
-      "winrate": "67.9%",
-      "kda_promedio": 4.715447154471545
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 4.666666666666667
+      "winrate": "63.3%",
+      "kda_promedio": 4.514925373134329
     },
     {
       "nombre": "Braum",
@@ -78,6 +71,27 @@
       "kda_promedio": 5.794117647058823
     },
     {
+      "nombre": "Rell",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 4.4324324324324325
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.6222222222222222
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1379310344827585
+    },
+    {
       "nombre": "Elise",
       "partidas": 5,
       "victorias": 2,
@@ -85,25 +99,11 @@
       "kda_promedio": 3.09375
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.24
-    },
-    {
       "nombre": "Jhin",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 2.9166666666666665
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.9523809523809526
     },
     {
       "nombre": "Rakan",
@@ -131,6 +131,6 @@
     "games": 111,
     "wins": 63,
     "losses": 48,
-    "timePlayed": 177902
+    "timePlayed": 178029
   }
 }

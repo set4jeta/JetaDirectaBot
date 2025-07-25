@@ -15,7 +15,7 @@
       "nombre": "EXA D1verse#Tacos",
       "nivel": 584,
       "region": "EUW1",
-      "liga": "MASTER I",
+      "liga": "GRANDMASTER I",
       "lp": 768,
       "victorias": 114,
       "derrotas": 70,
@@ -35,10 +35,10 @@
   "campeones_recientes": [
     {
       "nombre": "TwistedFate",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.4210526315789473
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.242424242424242
     },
     {
       "nombre": "Viego",
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 32,
+    "games": 49,
+    "wins": 30,
     "losses": 19,
-    "timePlayed": 81792
+    "timePlayed": 78686
   }
 }

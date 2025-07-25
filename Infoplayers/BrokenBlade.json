@@ -19,10 +19,10 @@
       "nivel": 702,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 904,
+      "lp": 865,
       "victorias": 435,
-      "derrotas": 395,
-      "ultima_partida": 1753364312172
+      "derrotas": 397,
+      "ultima_partida": 1753436612146
     },
     {
       "nombre": "G2 BrokenBlade#1819",
@@ -37,11 +37,18 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.32
+    },
+    {
       "nombre": "Jayce",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.6666666666666665
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.392857142857143
     },
     {
       "nombre": "Rumble",
@@ -51,25 +58,11 @@
       "kda_promedio": 1.8928571428571428
     },
     {
-      "nombre": "Aurora",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1428571428571428
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 4.6
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
+      "nombre": "Yone",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6363636363636362
+      "winrate": "50.0%",
+      "kda_promedio": 2.4545454545454546
     },
     {
       "nombre": "Renekton",
@@ -86,13 +79,6 @@
       "kda_promedio": 1
     },
     {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7.5
-    },
-    {
       "nombre": "Zed",
       "partidas": 1,
       "victorias": 0,
@@ -101,9 +87,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 11,
-    "losses": 10,
-    "timePlayed": 35483
+    "games": 20,
+    "wins": 9,
+    "losses": 11,
+    "timePlayed": 32999
   }
 }

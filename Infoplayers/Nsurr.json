@@ -19,10 +19,10 @@
       "nivel": 297,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 814,
-      "victorias": 229,
+      "lp": 833,
+      "victorias": 230,
       "derrotas": 197,
-      "ultima_partida": 1753396598351
+      "ultima_partida": 1753436649161
     },
     {
       "nombre": "Nsurr#EUWFR",
@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.625
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.14
     },
     {
       "nombre": "Karma",
@@ -58,11 +51,18 @@
       "kda_promedio": 2.0526315789473686
     },
     {
-      "nombre": "Thresh",
+      "nombre": "Rell",
       "partidas": 4,
-      "victorias": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.65
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 5.055555555555555
+      "kda_promedio": 4.6
     },
     {
       "nombre": "Neeko",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
+    "games": 27,
     "wins": 15,
-    "losses": 13,
-    "timePlayed": 45621
+    "losses": 12,
+    "timePlayed": 44677
   }
 }

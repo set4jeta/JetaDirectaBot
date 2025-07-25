@@ -16,10 +16,10 @@
       "nivel": 791,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1110,
+      "lp": 1088,
       "victorias": 402,
-      "derrotas": 355,
-      "ultima_partida": 1753387695516
+      "derrotas": 356,
+      "ultima_partida": 1753392563849
     }
   ],
   "campeones_recientes": [
@@ -31,18 +31,18 @@
       "kda_promedio": 2.3529411764705883
     },
     {
+      "nombre": "Rumble",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
       "nombre": "Renekton",
       "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
       "kda_promedio": 1.7272727272727273
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.7857142857142856
     },
     {
       "nombre": "Sion",
@@ -60,9 +60,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
+    "games": 25,
     "wins": 11,
-    "losses": 13,
-    "timePlayed": 39950
+    "losses": 14,
+    "timePlayed": 41739
   }
 }

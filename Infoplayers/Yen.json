@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "KISS OF DEATH#YEN",
-      "nivel": 420,
+      "nivel": 421,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 824,
-      "victorias": 283,
-      "derrotas": 246,
-      "ultima_partida": 1753386793911
+      "lp": 804,
+      "victorias": 285,
+      "derrotas": 249,
+      "ultima_partida": 1753396859691
     },
     {
       "nombre": "Yen is my Wife#EUW",
       "nivel": 826,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1170,
+      "lp": 1095,
       "victorias": 297,
       "derrotas": 244,
       "ultima_partida": 1753209059087
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 15,
-      "victorias": 11,
-      "winrate": "73.3%",
-      "kda_promedio": 4.1
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 4.166666666666667
     },
     {
       "nombre": "Corki",
@@ -51,6 +51,13 @@
       "kda_promedio": 3.380952380952381
     },
     {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.84
+    },
+    {
       "nombre": "Ezreal",
       "partidas": 4,
       "victorias": 2,
@@ -58,11 +65,11 @@
       "kda_promedio": 1.64
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Yunara",
       "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.1875
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.227272727272727
     },
     {
       "nombre": "Zeri",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.1538461538461537
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6363636363636362
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 26,
-    "losses": 25,
-    "timePlayed": 85298
+    "games": 55,
+    "wins": 28,
+    "losses": 27,
+    "timePlayed": 90882
   }
 }

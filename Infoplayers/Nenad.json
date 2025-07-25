@@ -19,19 +19,19 @@
       "nivel": 352,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1233,
+      "lp": 1212,
       "victorias": 365,
-      "derrotas": 315,
+      "derrotas": 316,
       "ultima_partida": 1753383166322
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 17,
-      "victorias": 11,
-      "winrate": "64.7%",
-      "kda_promedio": 2.8448275862068964
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.6
     },
     {
       "nombre": "Aurora",
@@ -42,10 +42,10 @@
     },
     {
       "nombre": "DrMundo",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.7173913043478262
+      "winrate": "62.5%",
+      "kda_promedio": 1.9714285714285715
     },
     {
       "nombre": "Jax",
@@ -62,25 +62,25 @@
       "kda_promedio": 1.3870967741935485
     },
     {
-      "nombre": "Rumble",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.869565217391304
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.269230769230769
-    },
-    {
       "nombre": "Olaf",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.588235294117647
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1875
     },
     {
       "nombre": "KSante",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 82,
-    "wins": 48,
-    "losses": 34,
-    "timePlayed": 135030
+    "games": 77,
+    "wins": 47,
+    "losses": 30,
+    "timePlayed": 126354
   }
 }

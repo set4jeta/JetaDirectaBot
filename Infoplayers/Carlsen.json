@@ -18,13 +18,20 @@
       "nivel": 956,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1296,
-      "victorias": 292,
+      "lp": 1316,
+      "victorias": 293,
       "derrotas": 236,
-      "ultima_partida": 1752921138721
+      "ultima_partida": 1753434579481
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
     {
       "nombre": "Renekton",
       "partidas": 1,
@@ -41,9 +48,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 2,
-    "wins": 0,
+    "games": 3,
+    "wins": 1,
     "losses": 2,
-    "timePlayed": 3602
+    "timePlayed": 5027
   }
 }

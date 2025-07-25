@@ -17,11 +17,11 @@
       "nombre": "INT Baul#EUW",
       "nivel": 860,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1027,
-      "victorias": 216,
+      "liga": "CHALLENGER I",
+      "lp": 1046,
+      "victorias": 217,
       "derrotas": 172,
-      "ultima_partida": 1753371242785
+      "ultima_partida": 1753428828638
     }
   ],
   "campeones_recientes": [
@@ -33,18 +33,18 @@
       "kda_promedio": 5.416666666666667
     },
     {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
       "nombre": "Trundle",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.8461538461538463
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
     },
     {
       "nombre": "Mel",
@@ -76,9 +76,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
-    "wins": 6,
+    "games": 12,
+    "wins": 7,
     "losses": 5,
-    "timePlayed": 16989
+    "timePlayed": 18389
   }
 }

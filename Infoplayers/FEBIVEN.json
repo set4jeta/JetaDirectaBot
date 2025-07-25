@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Orianna",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1739130434782608
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.95
     },
     {
       "nombre": "Azir",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 29,
+    "games": 51,
+    "wins": 28,
     "losses": 23,
-    "timePlayed": 82901
+    "timePlayed": 81054
   }
 }

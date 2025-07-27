@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Notiko#EUW01",
-      "nivel": 877,
+      "nivel": 878,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 885,
+      "lp": 865,
       "victorias": 369,
-      "derrotas": 328,
-      "ultima_partida": 1753383639313
+      "derrotas": 329,
+      "ultima_partida": 1753466782407
     }
   ],
   "campeones_recientes": [
@@ -34,18 +34,18 @@
       "kda_promedio": 1.90625
     },
     {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.5
+    },
+    {
       "nombre": "Ezreal",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.4
     },
     {
       "nombre": "MissFortune",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
+    "games": 32,
     "wins": 12,
-    "losses": 19,
-    "timePlayed": 51440
+    "losses": 20,
+    "timePlayed": 52847
   }
 }

@@ -19,9 +19,9 @@
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 913,
-      "victorias": 411,
-      "derrotas": 365,
-      "ultima_partida": 1753390008163
+      "victorias": 413,
+      "derrotas": 367,
+      "ultima_partida": 1753568038250
     },
     {
       "nombre": "Co24#KR1",
@@ -43,6 +43,13 @@
       "kda_promedio": 3.9555555555555557
     },
     {
+      "nombre": "Leona",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.15
+    },
+    {
       "nombre": "Rell",
       "partidas": 9,
       "victorias": 7,
@@ -50,11 +57,18 @@
       "kda_promedio": 7.090909090909091
     },
     {
-      "nombre": "Leona",
+      "nombre": "Nautilus",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.054054054054054
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 2.7419354838709675
     },
     {
       "nombre": "Sett",
@@ -62,20 +76,6 @@
       "victorias": 5,
       "winrate": "62.5%",
       "kda_promedio": 2.2941176470588234
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.25531914893617
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 2.96
     },
     {
       "nombre": "Bard",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
-    "wins": 39,
-    "losses": 41,
-    "timePlayed": 129382
+    "games": 83,
+    "wins": 41,
+    "losses": 42,
+    "timePlayed": 134952
   }
 }

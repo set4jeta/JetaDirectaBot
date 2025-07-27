@@ -18,10 +18,10 @@
       "nivel": 133,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1250,
-      "victorias": 377,
+      "lp": 1274,
+      "victorias": 378,
       "derrotas": 266,
-      "ultima_partida": 1753475803815
+      "ultima_partida": 1753561106533
     },
     {
       "nombre": "13の冬#0518",
@@ -47,24 +47,17 @@
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.7058823529411766
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.0833333333333335
     },
     {
-      "nombre": "Gragas",
+      "nombre": "KSante",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.3636363636363638
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 8
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.2352941176470589
     },
     {
       "nombre": "Aurora",
@@ -74,20 +67,6 @@
       "kda_promedio": 1.2307692307692308
     },
     {
-      "nombre": "Jax",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6363636363636362
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.7272727272727273
-    },
-    {
       "nombre": "Yorick",
       "partidas": 2,
       "victorias": 0,
@@ -95,11 +74,11 @@
       "kda_promedio": 0.9285714285714286
     },
     {
-      "nombre": "Gangplank",
+      "nombre": "Aatrox",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 1.8
+      "kda_promedio": 5
     },
     {
       "nombre": "Gnar",
@@ -109,17 +88,38 @@
       "kda_promedio": 4.666666666666667
     },
     {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
       "nombre": "Hwei",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
-    "wins": 15,
-    "losses": 11,
-    "timePlayed": 41895
+    "games": 20,
+    "wins": 11,
+    "losses": 9,
+    "timePlayed": 34194
   }
 }

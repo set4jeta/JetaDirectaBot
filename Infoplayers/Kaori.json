@@ -5,7 +5,7 @@
     "edad": 24,
     "equipo": "ULF Esports",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/KaoriLoL",
       "twitch": "https://twitch.tv/kaori123"
@@ -39,20 +39,6 @@
       "victorias": 7,
       "winrate": "87.5%",
       "kda_promedio": 2.7857142857142856
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.6
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9444444444444444
     },
     {
       "nombre": "Senna",
@@ -90,17 +76,31 @@
       "kda_promedio": 1.25
     },
     {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
       "nombre": "Lucian",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7333333333333334
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 32,
-    "losses": 26,
-    "timePlayed": 92413
+    "games": 53,
+    "wins": 30,
+    "losses": 23,
+    "timePlayed": 83942
   }
 }

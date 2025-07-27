@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Pun1sher Reborn#EUW",
-      "nivel": 807,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 481,
-      "victorias": 300,
-      "derrotas": 264,
-      "ultima_partida": 1753476564809
-    },
-    {
       "nombre": "Pun1sher#Demon",
       "nivel": 321,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1081,
-      "victorias": 197,
+      "lp": 1100,
+      "victorias": 198,
       "derrotas": 130,
-      "ultima_partida": 1753409215873
+      "ultima_partida": 1753536830538
+    },
+    {
+      "nombre": "Pun1sher Reborn#EUW",
+      "nivel": 808,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 486,
+      "victorias": 301,
+      "derrotas": 265,
+      "ultima_partida": 1753534031321
     },
     {
       "nombre": "Demon Reborn#RRR",
@@ -48,24 +48,24 @@
   "campeones_recientes": [
     {
       "nombre": "Cassiopeia",
-      "partidas": 85,
-      "victorias": 56,
-      "winrate": "65.9%",
-      "kda_promedio": 2.267552182163188
+      "partidas": 75,
+      "victorias": 48,
+      "winrate": "64.0%",
+      "kda_promedio": 2.163755458515284
     },
     {
       "nombre": "Tristana",
       "partidas": 10,
       "victorias": 6,
       "winrate": "60.0%",
-      "kda_promedio": 1.9642857142857142
+      "kda_promedio": 1.9821428571428572
     },
     {
       "nombre": "Irelia",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 1.3098591549295775
+      "winrate": "75.0%",
+      "kda_promedio": 1.360655737704918
     },
     {
       "nombre": "Jhin",
@@ -89,13 +89,6 @@
       "kda_promedio": 2.3181818181818183
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
-    },
-    {
       "nombre": "Annie",
       "partidas": 1,
       "victorias": 1,
@@ -115,12 +108,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 120,
-    "wins": 78,
-    "losses": 42,
-    "timePlayed": 191779
+    "games": 108,
+    "wins": 70,
+    "losses": 38,
+    "timePlayed": 170829
   }
 }

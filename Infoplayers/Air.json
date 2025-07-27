@@ -38,38 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 5.545454545454546
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.1
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Smolder",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 6.833333333333333
+      "kda_promedio": 5.142857142857143
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
     },
     {
       "nombre": "Vladimir",
@@ -100,17 +79,38 @@
       "kda_promedio": 5.25
     },
     {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
       "nombre": "Taliyah",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 22,
-    "wins": 15,
-    "losses": 7,
-    "timePlayed": 34547
+    "games": 14,
+    "wins": 8,
+    "losses": 6,
+    "timePlayed": 21789
   }
 }

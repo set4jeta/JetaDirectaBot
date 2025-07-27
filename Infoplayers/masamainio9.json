@@ -16,33 +16,26 @@
       "nivel": 1020,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 839,
-      "victorias": 194,
-      "derrotas": 153,
-      "ultima_partida": 1753465357721
+      "lp": 857,
+      "victorias": 197,
+      "derrotas": 155,
+      "ultima_partida": 1753572438469
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Gragas",
-      "partidas": 39,
-      "victorias": 19,
-      "winrate": "48.7%",
-      "kda_promedio": 2.7109375
+      "partidas": 37,
+      "victorias": 21,
+      "winrate": "56.8%",
+      "kda_promedio": 2.9743589743589745
     },
     {
       "nombre": "Karma",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.6842105263157894
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.25
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.423076923076923
     },
     {
       "nombre": "Maokai",
@@ -52,11 +45,11 @@
       "kda_promedio": 2.7777777777777777
     },
     {
-      "nombre": "Leona",
+      "nombre": "Jhin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.4444444444444444
+      "kda_promedio": 1.4285714285714286
     },
     {
       "nombre": "Renekton",
@@ -74,9 +67,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 27,
-    "losses": 28,
-    "timePlayed": 82064
+    "games": 48,
+    "wins": 26,
+    "losses": 22,
+    "timePlayed": 72140
   }
 }

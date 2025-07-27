@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "MARIABECERRA FAN#MACA",
-      "nivel": 1537,
+      "nivel": 1538,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1194,
-      "victorias": 464,
-      "derrotas": 416,
-      "ultima_partida": 1753466940673
+      "lp": 1146,
+      "victorias": 467,
+      "derrotas": 421,
+      "ultima_partida": 1753548585222
     },
     {
       "nombre": "PERREO FURIOSO#EUW",
@@ -45,31 +45,31 @@
     },
     {
       "nombre": "Taliyah",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.7818181818181817
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.8983050847457625
     },
     {
       "nombre": "Aurora",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 3.0606060606060606
+      "winrate": "30.0%",
+      "kda_promedio": 2.861111111111111
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.864864864864865
     },
     {
       "nombre": "Lux",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.0625
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.903225806451613
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.4375
     },
     {
       "nombre": "Akali",
@@ -93,24 +93,24 @@
       "kda_promedio": 2.5384615384615383
     },
     {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    },
+    {
       "nombre": "Cassiopeia",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 34,
-    "losses": 30,
-    "timePlayed": 106406
+    "games": 71,
+    "wins": 37,
+    "losses": 34,
+    "timePlayed": 115896
   }
 }

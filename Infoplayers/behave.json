@@ -19,19 +19,19 @@
       "nivel": 547,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1042,
+      "lp": 1021,
       "victorias": 126,
-      "derrotas": 87,
-      "ultima_partida": 1753466708608
+      "derrotas": 88,
+      "ultima_partida": 1753583638382
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.7142857142857144
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.5238095238095237
     },
     {
       "nombre": "Pantheon",
@@ -55,17 +55,17 @@
       "kda_promedio": 4.8
     },
     {
-      "nombre": "LeeSin",
+      "nombre": "Kassadin",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 7,
+    "games": 16,
+    "wins": 9,
     "losses": 7,
-    "timePlayed": 24288
+    "timePlayed": 27735
   }
 }

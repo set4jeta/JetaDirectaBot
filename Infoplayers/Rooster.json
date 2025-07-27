@@ -16,17 +16,17 @@
       "nivel": 40,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 523,
+      "lp": 504,
       "victorias": 72,
-      "derrotas": 34,
-      "ultima_partida": 1753478735258
+      "derrotas": 35,
+      "ultima_partida": 1753480904572
     },
     {
       "nombre": "편 민 기#박 규 용",
       "nivel": 857,
       "region": "KR",
-      "liga": "MASTER I",
-      "lp": 24,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 242,
       "derrotas": 196,
       "ultima_partida": 1751478559786
@@ -35,24 +35,17 @@
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 22,
+      "partidas": 21,
       "victorias": 14,
-      "winrate": "63.6%",
-      "kda_promedio": 2.7251908396946565
+      "winrate": "66.7%",
+      "kda_promedio": 2.784
     },
     {
       "nombre": "Nidalee",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.1555555555555554
-    },
-    {
-      "nombre": "Irelia",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 2.204081632653061
+      "winrate": "58.3%",
+      "kda_promedio": 3.122448979591837
     },
     {
       "nombre": "Gnar",
@@ -60,6 +53,13 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 1.7096774193548387
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.057142857142857
     },
     {
       "nombre": "Ambessa",
@@ -70,24 +70,17 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.866666666666666
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.888888888888889
     },
     {
       "nombre": "Smolder",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.0714285714285716
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 7.666666666666667
+      "winrate": "66.7%",
+      "kda_promedio": 1.9090909090909092
     },
     {
       "nombre": "Gwen",
@@ -102,12 +95,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 47,
+    "games": 66,
+    "wins": 42,
     "losses": 24,
-    "timePlayed": 111394
+    "timePlayed": 103664
   }
 }

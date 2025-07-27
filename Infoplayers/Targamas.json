@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Targamas#5555",
-      "nivel": 1172,
+      "nivel": 1173,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1183,
-      "victorias": 363,
-      "derrotas": 308,
-      "ultima_partida": 1753478591458
+      "lp": 1232,
+      "victorias": 367,
+      "derrotas": 310,
+      "ultima_partida": 1753565824217
     },
     {
       "nombre": "Grizzly Hills#123",
@@ -41,14 +41,7 @@
       "partidas": 14,
       "victorias": 8,
       "winrate": "57.1%",
-      "kda_promedio": 2.074074074074074
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 4.555555555555555
+      "kda_promedio": 2.1772151898734178
     },
     {
       "nombre": "Bard",
@@ -58,11 +51,25 @@
       "kda_promedio": 2.74
     },
     {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.967741935483871
+    },
+    {
       "nombre": "Poppy",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 4.133333333333334
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.625
     },
     {
       "nombre": "Nami",
@@ -98,19 +105,12 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 3.4545454545454546
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.8333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 29,
+    "games": 54,
+    "wins": 31,
     "losses": 23,
-    "timePlayed": 84933
+    "timePlayed": 88998
   }
 }

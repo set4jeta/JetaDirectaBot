@@ -5,7 +5,7 @@
     "edad": 22,
     "equipo": "Misa Esports",
     "pais": "South Korea",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {},
     "imagen_jugador": "https://dpm.lol/esport/players/callme.webp",
     "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
@@ -13,57 +13,43 @@
   "cuentas": [
     {
       "nombre": "MIDKING#kkkk",
-      "nivel": 233,
+      "nivel": 235,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1414,
-      "victorias": 914,
-      "derrotas": 826,
-      "ultima_partida": 1753473230182
+      "lp": 1296,
+      "victorias": 918,
+      "derrotas": 836,
+      "ultima_partida": 1753570388546
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 22,
-      "victorias": 16,
-      "winrate": "72.7%",
-      "kda_promedio": 2.3454545454545452
+      "partidas": 25,
+      "victorias": 17,
+      "winrate": "68.0%",
+      "kda_promedio": 2.1666666666666665
     },
     {
       "nombre": "Khazix",
-      "partidas": 11,
-      "victorias": 10,
-      "winrate": "90.9%",
-      "kda_promedio": 5.485714285714286
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.1707317073170733
+      "partidas": 13,
+      "victorias": 11,
+      "winrate": "84.6%",
+      "kda_promedio": 5.261904761904762
     },
     {
       "nombre": "Pantheon",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.311111111111111
+      "winrate": "63.6%",
+      "kda_promedio": 2.8363636363636364
     },
     {
       "nombre": "Taliyah",
-      "partidas": 10,
-      "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 3.5526315789473686
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.5121951219512195
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.2972972972972974
     },
     {
       "nombre": "Aurora",
@@ -80,6 +66,20 @@
       "kda_promedio": 1.0350877192982457
     },
     {
+      "nombre": "MonkeyKing",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.0384615384615383
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4324324324324325
+    },
+    {
       "nombre": "Orianna",
       "partidas": 6,
       "victorias": 3,
@@ -87,17 +87,17 @@
       "kda_promedio": 2.3823529411764706
     },
     {
-      "nombre": "Lucian",
-      "partidas": 4,
-      "victorias": 2,
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 1.7727272727272727
+      "kda_promedio": 3.0789473684210527
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 166,
-    "wins": 95,
-    "losses": 71,
-    "timePlayed": 257457
+    "games": 164,
+    "wins": 87,
+    "losses": 77,
+    "timePlayed": 257799
   }
 }

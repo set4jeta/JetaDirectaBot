@@ -19,10 +19,10 @@
       "nivel": 112,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 947,
-      "victorias": 377,
-      "derrotas": 336,
-      "ultima_partida": 1753475552259
+      "lp": 956,
+      "victorias": 380,
+      "derrotas": 339,
+      "ultima_partida": 1753568485123
     },
     {
       "nombre": "숨바꼭질#Noah",
@@ -58,24 +58,24 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 17,
+      "partidas": 18,
       "victorias": 12,
-      "winrate": "70.6%",
-      "kda_promedio": 2.4107142857142856
+      "winrate": "66.7%",
+      "kda_promedio": 2.3916666666666666
     },
     {
       "nombre": "Lucian",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.625
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.6666666666666665
     },
     {
-      "nombre": "Xayah",
+      "nombre": "Aphelios",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 2.2222222222222223
+      "kda_promedio": 2.730769230769231
     },
     {
       "nombre": "Sivir",
@@ -83,6 +83,13 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.631578947368421
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.764705882352941
     },
     {
       "nombre": "Kaisa",
@@ -99,11 +106,11 @@
       "kda_promedio": 2.1818181818181817
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 1,
+      "nombre": "Ryze",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
+      "winrate": "50.0%",
+      "kda_promedio": 2.4285714285714284
     },
     {
       "nombre": "Caitlyn",
@@ -118,19 +125,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 6
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 28,
-    "losses": 17,
-    "timePlayed": 66472
+    "games": 49,
+    "wins": 29,
+    "losses": 20,
+    "timePlayed": 73349
   }
 }

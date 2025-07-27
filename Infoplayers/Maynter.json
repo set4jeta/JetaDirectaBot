@@ -19,36 +19,50 @@
       "nivel": 339,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 957,
-      "victorias": 272,
-      "derrotas": 241,
-      "ultima_partida": 1753480489780
+      "lp": 959,
+      "victorias": 274,
+      "derrotas": 243,
+      "ultima_partida": 1753563307551
     },
     {
       "nombre": "Maynter#EUW",
-      "nivel": 691,
+      "nivel": 692,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1722,
-      "victorias": 352,
-      "derrotas": 281,
-      "ultima_partida": 1753475766282
+      "lp": 1724,
+      "victorias": 356,
+      "derrotas": 284,
+      "ultima_partida": 1753551362459
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 15,
+      "partidas": 16,
       "victorias": 6,
-      "winrate": "40.0%",
-      "kda_promedio": 2.4805194805194803
+      "winrate": "37.5%",
+      "kda_promedio": 2.3214285714285716
     },
     {
       "nombre": "Gwen",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.696969696969697
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 3.36734693877551
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 6.2727272727272725
     },
     {
       "nombre": "Jax",
@@ -58,18 +72,11 @@
       "kda_promedio": 2.1923076923076925
     },
     {
-      "nombre": "Yorick",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.5909090909090908
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 6
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6785714285714286
     },
     {
       "nombre": "Gnar",
@@ -77,13 +84,6 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 5
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.12
     },
     {
       "nombre": "KSante",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 29,
-    "losses": 37,
-    "timePlayed": 104915
+    "games": 77,
+    "wins": 35,
+    "losses": 42,
+    "timePlayed": 122246
   }
 }

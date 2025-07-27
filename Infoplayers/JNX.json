@@ -19,10 +19,10 @@
       "nivel": 742,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 871,
-      "victorias": 88,
+      "lp": 892,
+      "victorias": 89,
       "derrotas": 51,
-      "ultima_partida": 1753462077021
+      "ultima_partida": 1753564747354
     },
     {
       "nombre": "Simon Claw#Agent",
@@ -42,13 +42,6 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.2
     },
     {
       "nombre": "Aurora",
@@ -86,6 +79,13 @@
       "kda_promedio": 2.6666666666666665
     },
     {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
       "nombre": "Azir",
       "partidas": 1,
       "victorias": 0,
@@ -93,24 +93,24 @@
       "kda_promedio": 0.7272727272727273
     },
     {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
       "nombre": "Jayce",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 15,
-    "losses": 15,
-    "timePlayed": 47762
+    "games": 28,
+    "wins": 14,
+    "losses": 14,
+    "timePlayed": 44750
   }
 }

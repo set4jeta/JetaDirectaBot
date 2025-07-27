@@ -19,10 +19,10 @@
       "nivel": 85,
       "region": "EUW1",
       "liga": "EMERALD I",
-      "lp": 36,
-      "victorias": 52,
-      "derrotas": 21,
-      "ultima_partida": 1753456818928
+      "lp": 84,
+      "victorias": 55,
+      "derrotas": 23,
+      "ultima_partida": 1753544306401
     },
     {
       "nombre": "Azzapp#31415",
@@ -55,10 +55,10 @@
     },
     {
       "nombre": "Velkoz",
-      "partidas": 12,
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 2.56140350877193
+      "winrate": "60.0%",
+      "kda_promedio": 3.225
     },
     {
       "nombre": "Smolder",
@@ -68,6 +68,13 @@
       "kda_promedio": 5.473684210526316
     },
     {
+      "nombre": "Tristana",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6774193548387095
+    },
+    {
       "nombre": "Caitlyn",
       "partidas": 4,
       "victorias": 3,
@@ -75,11 +82,11 @@
       "kda_promedio": 3.15
     },
     {
-      "nombre": "Tristana",
+      "nombre": "Jhin",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.4285714285714284
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 6
     },
     {
       "nombre": "Jinx",
@@ -108,19 +115,12 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.2777777777777777
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9285714285714286
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
-    "wins": 53,
+    "games": 80,
+    "wins": 56,
     "losses": 24,
-    "timePlayed": 132422
+    "timePlayed": 137432
   }
 }

@@ -5,7 +5,7 @@
     "edad": 25,
     "equipo": "Movistar KOI",
     "pais": "Spain",
-    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Elyoya_LoL",
       "twitch": "https://twitch.tv/elyoyalol"
@@ -37,13 +37,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "JarvanIV",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 21
-    },
-    {
       "nombre": "MonkeyKing",
       "partidas": 1,
       "victorias": 0,
@@ -63,20 +56,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.375
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 26
     },
     {
       "nombre": "Senna",
@@ -101,9 +80,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 4,
-    "losses": 5,
-    "timePlayed": 16195
+    "games": 6,
+    "wins": 2,
+    "losses": 4,
+    "timePlayed": 10188
   }
 }

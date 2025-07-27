@@ -17,11 +17,11 @@
       "nombre": "washed úp#bambi",
       "nivel": 449,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1010,
-      "victorias": 124,
+      "liga": "CHALLENGER I",
+      "lp": 1048,
+      "victorias": 126,
       "derrotas": 90,
-      "ultima_partida": 1753268894771
+      "ultima_partida": 1753557753727
     }
   ],
   "campeones_recientes": [
@@ -33,18 +33,18 @@
       "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Irelia",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 6.5
+      "kda_promedio": 2.9375
     },
     {
-      "nombre": "Renekton",
+      "nombre": "XinZhao",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.875
+      "kda_promedio": 11
     },
     {
       "nombre": "Yorick",
@@ -52,20 +52,6 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.4
-    },
-    {
-      "nombre": "Irelia",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.6
     },
     {
       "nombre": "Jayce",
@@ -82,17 +68,17 @@
       "kda_promedio": 0.25
     },
     {
-      "nombre": "Rell",
+      "nombre": "Renekton",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5714285714285714
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 11,
-    "losses": 4,
-    "timePlayed": 23597
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "timePlayed": 19977
   }
 }

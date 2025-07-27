@@ -26,25 +26,11 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
-      "partidas": 12,
-      "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 3.148936170212766
-    },
-    {
       "nombre": "Alistar",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5142857142857142
-    },
-    {
-      "nombre": "Bard",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.4375
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6451612903225805
     },
     {
       "nombre": "Poppy",
@@ -54,11 +40,18 @@
       "kda_promedio": 3.3823529411764706
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.7407407407407407
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.0277777777777777
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.681818181818182
     },
     {
       "nombre": "Rakan",
@@ -82,6 +75,13 @@
       "kda_promedio": 7.6
     },
     {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1
+    },
+    {
       "nombre": "Neeko",
       "partidas": 2,
       "victorias": 0,
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 29,
-    "losses": 28,
-    "timePlayed": 88119
+    "games": 47,
+    "wins": 24,
+    "losses": 23,
+    "timePlayed": 72946
   }
 }

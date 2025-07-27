@@ -19,10 +19,10 @@
       "nivel": 1579,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1002,
-      "victorias": 635,
-      "derrotas": 596,
-      "ultima_partida": 1753476883502
+      "lp": 1022,
+      "victorias": 637,
+      "derrotas": 597,
+      "ultima_partida": 1753566411360
     },
     {
       "nombre": "202220222#EUW",
@@ -41,14 +41,14 @@
       "partidas": 22,
       "victorias": 11,
       "winrate": "50.0%",
-      "kda_promedio": 3.292134831460674
+      "kda_promedio": 3.1704545454545454
     },
     {
       "nombre": "Lucian",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 4.68
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 4.888888888888889
     },
     {
       "nombre": "Yunara",
@@ -59,31 +59,24 @@
     },
     {
       "nombre": "Ezreal",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.586206896551724
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.8095238095238093
     },
     {
       "nombre": "Xayah",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 4.5
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.05
     },
     {
       "nombre": "Kaisa",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 7.916666666666667
-    },
-    {
-      "nombre": "Corki",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4347826086956523
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.2727272727272725
     },
     {
       "nombre": "Jhin",
@@ -93,24 +86,31 @@
       "kda_promedio": 4.833333333333333
     },
     {
-      "nombre": "MissFortune",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1739130434782608
-    },
-    {
       "nombre": "Senna",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 4.846153846153846
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 86,
-    "wins": 50,
-    "losses": 36,
-    "timePlayed": 143639
+    "games": 77,
+    "wins": 44,
+    "losses": 33,
+    "timePlayed": 127459
   }
 }

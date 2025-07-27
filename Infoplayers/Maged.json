@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "elramir#kofte",
-      "nivel": 699,
+      "nivel": 700,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 825,
-      "victorias": 612,
-      "derrotas": 565,
-      "ultima_partida": 1753416175237
+      "lp": 783,
+      "victorias": 614,
+      "derrotas": 569,
+      "ultima_partida": 1753581321428
     },
     {
       "nombre": "DJ AATROX#DEATH",
@@ -38,45 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Sion",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.2444444444444445
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 6,
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4516129032258065
+      "winrate": "37.5%",
+      "kda_promedio": 2.125
     },
     {
       "nombre": "Renekton",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 2
+      "winrate": "20.0%",
+      "kda_promedio": 2.0869565217391304
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7058823529411764
-    },
-    {
-      "nombre": "Gwen",
+      "nombre": "Aurora",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 0.75
+      "kda_promedio": 2.5555555555555554
     },
     {
       "nombre": "Yorick",
@@ -86,7 +65,14 @@
       "kda_promedio": 2.230769230769231
     },
     {
-      "nombre": "Akali",
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Gwen",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
@@ -97,7 +83,14 @@
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.142857142857143
+      "kda_promedio": 2.0625
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.466666666666667
     },
     {
       "nombre": "Leona",
@@ -105,12 +98,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 5.4
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0526315789473684
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 21,
-    "losses": 26,
-    "timePlayed": 76579
+    "games": 39,
+    "wins": 17,
+    "losses": 22,
+    "timePlayed": 64573
   }
 }

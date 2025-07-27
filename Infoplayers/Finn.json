@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Finn",
     "nombre_real": "Finn Wiestål",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Rogue (European Team)",
     "pais": "Sweden",
     "contrato_hasta": null,
@@ -19,36 +19,36 @@
       "nivel": 720,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1206,
-      "victorias": 287,
-      "derrotas": 235,
-      "ultima_partida": 1753362998727
+      "lp": 1205,
+      "victorias": 288,
+      "derrotas": 236,
+      "ultima_partida": 1753547987674
     },
     {
       "nombre": "ThorFinn#0303",
       "nivel": 209,
       "region": "EUW1",
       "liga": "DIAMOND III",
-      "lp": 45,
-      "victorias": 19,
-      "derrotas": 18,
-      "ultima_partida": 1751739738686
+      "lp": 65,
+      "victorias": 20,
+      "derrotas": 19,
+      "ultima_partida": 1753533748523
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Kled",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2
+      "winrate": "66.7%",
+      "kda_promedio": 1.7777777777777777
     },
     {
       "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.6363636363636362
+      "kda_promedio": 1.8571428571428572
     },
     {
       "nombre": "Aatrox",
@@ -58,25 +58,18 @@
       "kda_promedio": 1.5
     },
     {
-      "nombre": "Ekko",
+      "nombre": "Amumu",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.5
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
     },
     {
-      "nombre": "Galio",
+      "nombre": "Gangplank",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 4.333333333333333
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 2
     },
     {
       "nombre": "Heimerdinger",
@@ -91,12 +84,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8888888888888888
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 9,
-    "losses": 4,
-    "timePlayed": 20512
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 18185
   }
 }

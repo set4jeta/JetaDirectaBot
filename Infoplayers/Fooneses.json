@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "Fooneses#Fonsi",
-      "nivel": 556,
+      "nivel": 557,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1016,
-      "victorias": 145,
-      "derrotas": 95,
-      "ultima_partida": 1753474225778
+      "lp": 1000,
+      "victorias": 148,
+      "derrotas": 98,
+      "ultima_partida": 1753552877718
     },
     {
       "nombre": "BIN ICH NICHT#FIXED",
@@ -34,6 +34,13 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
       "nombre": "Annie",
       "partidas": 4,
       "victorias": 4,
@@ -41,25 +48,11 @@
       "kda_promedio": 2.3666666666666667
     },
     {
-      "nombre": "Syndra",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.444444444444445
-    },
-    {
       "nombre": "Ziggs",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4210526315789473
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 2,
-      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.727272727272727
+      "kda_promedio": 2
     },
     {
       "nombre": "Tristana",
@@ -69,18 +62,11 @@
       "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "Akali",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "Ezreal",
+      "nombre": "Aurora",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
+      "kda_promedio": 1.4285714285714286
     },
     {
       "nombre": "Hwei",
@@ -102,12 +88,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
-    "wins": 18,
-    "losses": 6,
-    "timePlayed": 39018
+    "games": 27,
+    "wins": 19,
+    "losses": 8,
+    "timePlayed": 44195
   }
 }

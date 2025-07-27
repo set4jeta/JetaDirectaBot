@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "CantMissAuto#Qxdd",
-      "nivel": 111,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 410,
-      "victorias": 249,
-      "derrotas": 220,
-      "ultima_partida": 1753382368888
+      "nivel": 67,
+      "region": "EUN1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1753532384293
     },
     {
       "nombre": "Jankos#MYBAD",
@@ -48,10 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Nidalee",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.72
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.8840579710144927
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.8275862068965516
     },
     {
       "nombre": "Viego",
@@ -59,27 +66,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.469387755102041
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.806451612903226
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5483870967741935
-    },
-    {
-      "nombre": "Qiyana",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     },
     {
       "nombre": "JarvanIV",
@@ -94,6 +80,13 @@
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 7
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4210526315789473
     },
     {
       "nombre": "Zed",
@@ -115,12 +108,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5333333333333334
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
-    "wins": 32,
-    "losses": 40,
-    "timePlayed": 115855
+    "games": 71,
+    "wins": 36,
+    "losses": 35,
+    "timePlayed": 116729
   }
 }

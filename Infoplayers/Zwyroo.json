@@ -15,40 +15,40 @@
   },
   "cuentas": [
     {
+      "nombre": "Zwyrøø#soul",
+      "nivel": 1265,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1099,
+      "victorias": 551,
+      "derrotas": 496,
+      "ultima_partida": 1753565183924
+    },
+    {
       "nombre": "søuleater#søul",
-      "nivel": 201,
+      "nivel": 202,
       "region": "EUW1",
       "liga": "MASTER I",
       "lp": 557,
-      "victorias": 149,
-      "derrotas": 114,
-      "ultima_partida": 1753454323281
-    },
-    {
-      "nombre": "Zwyrøø#soul",
-      "nivel": 1264,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1077,
-      "victorias": 548,
-      "derrotas": 494,
-      "ultima_partida": 1753448655782
+      "victorias": 151,
+      "derrotas": 116,
+      "ultima_partida": 1753517952084
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ziggs",
-      "partidas": 24,
-      "victorias": 13,
-      "winrate": "54.2%",
-      "kda_promedio": 3.6666666666666665
+      "partidas": 26,
+      "victorias": 14,
+      "winrate": "53.8%",
+      "kda_promedio": 3.6842105263157894
     },
     {
       "nombre": "Syndra",
-      "partidas": 13,
+      "partidas": 14,
       "victorias": 9,
-      "winrate": "69.2%",
-      "kda_promedio": 3.888888888888889
+      "winrate": "64.3%",
+      "kda_promedio": 3.5098039215686274
     },
     {
       "nombre": "Ahri",
@@ -56,13 +56,6 @@
       "victorias": 4,
       "winrate": "100.0%",
       "kda_promedio": 3.875
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.125
     },
     {
       "nombre": "Azir",
@@ -73,10 +66,24 @@
     },
     {
       "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Aurora",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.111111111111111
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.642857142857143
     },
     {
       "nombre": "Ryze",
@@ -93,24 +100,17 @@
       "kda_promedio": 1.3076923076923077
     },
     {
-      "nombre": "TwistedFate",
+      "nombre": "Taliyah",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.8
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1333333333333333
+      "kda_promedio": 3.142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 82,
-    "wins": 47,
-    "losses": 35,
-    "timePlayed": 132484
+    "games": 88,
+    "wins": 52,
+    "losses": 36,
+    "timePlayed": 141554
   }
 }

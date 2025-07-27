@@ -19,10 +19,10 @@
       "nivel": 876,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 901,
-      "victorias": 607,
+      "lp": 920,
+      "victorias": 608,
       "derrotas": 574,
-      "ultima_partida": 1753363166341
+      "ultima_partida": 1753533981051
     },
     {
       "nombre": "Tank of Romania#EUW",
@@ -37,25 +37,11 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Sion",
+      "nombre": "Ornn",
       "partidas": 24,
       "victorias": 15,
       "winrate": "62.5%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Ornn",
-      "partidas": 23,
-      "victorias": 14,
-      "winrate": "60.9%",
-      "kda_promedio": 3.6417910447761193
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 18,
-      "victorias": 6,
-      "winrate": "33.3%",
-      "kda_promedio": 2.4262295081967213
+      "kda_promedio": 3.7222222222222223
     },
     {
       "nombre": "Shen",
@@ -70,6 +56,20 @@
       "victorias": 10,
       "winrate": "71.4%",
       "kda_promedio": 2.547169811320755
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 14,
+      "victorias": 3,
+      "winrate": "21.4%",
+      "kda_promedio": 2.36
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 4.333333333333333
     },
     {
       "nombre": "Malphite",
@@ -87,9 +87,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 101,
-    "wins": 57,
-    "losses": 44,
-    "timePlayed": 161769
+    "games": 88,
+    "wins": 50,
+    "losses": 38,
+    "timePlayed": 142292
   }
 }

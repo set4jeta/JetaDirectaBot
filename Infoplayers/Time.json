@@ -19,19 +19,19 @@
       "nivel": 658,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 622,
-      "victorias": 175,
-      "derrotas": 143,
-      "ultima_partida": 1753366446083
+      "lp": 624,
+      "victorias": 176,
+      "derrotas": 144,
+      "ultima_partida": 1753523430022
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 4.066666666666666
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Viego",
@@ -41,13 +41,6 @@
       "kda_promedio": 3.375
     },
     {
-      "nombre": "Graves",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Vi",
       "partidas": 4,
       "victorias": 4,
@@ -55,18 +48,18 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Poppy",
-      "partidas": 2,
+      "nombre": "Graves",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.555555555555555
+      "winrate": "33.3%",
+      "kda_promedio": 2.3529411764705883
     },
     {
       "nombre": "Syndra",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.105263157894737
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6818181818181819
     },
     {
       "nombre": "Ekko",
@@ -83,24 +76,31 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Gnar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 0.6666666666666666
-    },
-    {
       "nombre": "JarvanIV",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 9
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
-    "wins": 21,
-    "losses": 19,
-    "timePlayed": 66150
+    "games": 35,
+    "wins": 15,
+    "losses": 20,
+    "timePlayed": 56347
   }
 }

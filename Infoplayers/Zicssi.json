@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "SMRADOCH ZICSSI#EUW",
-      "nivel": 1010,
+      "nivel": 1012,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1231,
-      "victorias": 340,
-      "derrotas": 297,
-      "ultima_partida": 1753454676163
+      "lp": 1146,
+      "victorias": 342,
+      "derrotas": 303,
+      "ultima_partida": 1753554207790
     },
     {
       "nombre": "Sir Leywin#EUW",
@@ -47,6 +47,20 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.86046511627907
+    },
+    {
       "nombre": "Viego",
       "partidas": 6,
       "victorias": 3,
@@ -54,25 +68,11 @@
       "kda_promedio": 3.2941176470588234
     },
     {
-      "nombre": "Zed",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8157894736842106
-    },
-    {
-      "nombre": "JarvanIV",
+      "nombre": "Pantheon",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 6.714285714285714
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 4.181818181818182
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Vi",
@@ -82,11 +82,18 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "MonkeyKing",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.5
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Akali",
@@ -108,19 +115,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Lillia",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 15.5
     }
   ],
   "estadisticas_2_semanas": {
     "games": 54,
-    "wins": 26,
-    "losses": 28,
-    "timePlayed": 85768
+    "wins": 24,
+    "losses": 30,
+    "timePlayed": 84103
   }
 }

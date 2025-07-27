@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "fever dream#0507",
-      "nivel": 753,
+      "nivel": 754,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1150,
-      "victorias": 354,
-      "derrotas": 310,
-      "ultima_partida": 1753473230182
+      "lp": 1160,
+      "victorias": 356,
+      "derrotas": 311,
+      "ultima_partida": 1753551879474
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Taliyah",
-      "partidas": 9,
-      "victorias": 8,
-      "winrate": "88.9%",
-      "kda_promedio": 4.027027027027027
+      "partidas": 10,
+      "victorias": 9,
+      "winrate": "90.0%",
+      "kda_promedio": 3.857142857142857
     },
     {
       "nombre": "Syndra",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.358974358974359
+      "winrate": "55.6%",
+      "kda_promedio": 2.372093023255814
     },
     {
       "nombre": "Ezreal",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 28,
-    "losses": 20,
-    "timePlayed": 78246
+    "games": 51,
+    "wins": 30,
+    "losses": 21,
+    "timePlayed": 83142
   }
 }

@@ -15,22 +15,29 @@
   "cuentas": [
     {
       "nombre": "naau1#EUW",
-      "nivel": 440,
+      "nivel": 441,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 816,
-      "victorias": 241,
+      "lp": 835,
+      "victorias": 242,
       "derrotas": 207,
-      "ultima_partida": 1753453847401
+      "ultima_partida": 1753586739524
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
       "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "Kindred",
@@ -38,13 +45,6 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.5454545454545454
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1818181818181819
     },
     {
       "nombre": "Aurora",
@@ -61,11 +61,25 @@
       "kda_promedio": 4.25
     },
     {
+      "nombre": "Kayn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.75
+    },
+    {
       "nombre": "LeeSin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.333333333333333
     },
     {
       "nombre": "Nidalee",
@@ -75,31 +89,17 @@
       "kda_promedio": 13.5
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.2
-    },
-    {
       "nombre": "Rell",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Talon",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8888888888888888
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 7,
-    "losses": 10,
-    "timePlayed": 26654
+    "games": 21,
+    "wins": 10,
+    "losses": 11,
+    "timePlayed": 34702
   }
 }

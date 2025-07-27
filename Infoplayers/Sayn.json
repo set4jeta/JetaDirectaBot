@@ -16,22 +16,29 @@
   "cuentas": [
     {
       "nombre": "Sayn CHOKBAR 1#EUW",
-      "nivel": 655,
+      "nivel": 656,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1025,
-      "victorias": 577,
-      "derrotas": 539,
-      "ultima_partida": 1753371376575
+      "liga": "CHALLENGER I",
+      "lp": 1065,
+      "victorias": 581,
+      "derrotas": 541,
+      "ultima_partida": 1753559504160
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 7,
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3902439024390243
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.148936170212766
+      "winrate": "60.0%",
+      "kda_promedio": 2.4210526315789473
     },
     {
       "nombre": "Ryze",
@@ -41,20 +48,6 @@
       "kda_promedio": 1.8888888888888888
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
       "nombre": "Hwei",
       "partidas": 3,
       "victorias": 2,
@@ -62,11 +55,25 @@
       "kda_promedio": 2.25
     },
     {
-      "nombre": "Yone",
+      "nombre": "Orianna",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3125
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0526315789473686
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9
     },
     {
       "nombre": "Taliyah",
@@ -76,13 +83,6 @@
       "kda_promedio": 1.4705882352941178
     },
     {
-      "nombre": "Viktor",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0833333333333335
-    },
-    {
       "nombre": "Annie",
       "partidas": 1,
       "victorias": 0,
@@ -90,17 +90,17 @@
       "kda_promedio": 2.142857142857143
     },
     {
-      "nombre": "Sylas",
+      "nombre": "Yone",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2
+      "kda_promedio": 0.25
     }
   ],
   "estadisticas_2_semanas": {
     "games": 31,
-    "wins": 12,
-    "losses": 19,
-    "timePlayed": 48069
+    "wins": 15,
+    "losses": 16,
+    "timePlayed": 50277
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "G2 Caps#1323",
-      "nivel": 1151,
+      "nivel": 1152,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1040,
-      "victorias": 458,
-      "derrotas": 401,
-      "ultima_partida": 1753396651041
+      "liga": "GRANDMASTER I",
+      "lp": 1004,
+      "victorias": 460,
+      "derrotas": 406,
+      "ultima_partida": 1753568954993
     },
     {
       "nombre": "G2 Caps#LOL1",
@@ -38,17 +38,45 @@
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 1.875
+      "kda_promedio": 2.111111111111111
     },
     {
       "nombre": "Galio",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9230769230769231
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5384615384615384
     },
     {
       "nombre": "LeeSin",
@@ -58,24 +86,24 @@
       "kda_promedio": 4.8
     },
     {
-      "nombre": "Ryze",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5714285714285714
-    },
-    {
       "nombre": "Shaco",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 5,
-    "wins": 3,
-    "losses": 2,
-    "timePlayed": 8128
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "timePlayed": 18713
   }
 }

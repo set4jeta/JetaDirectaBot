@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "FUN k3y#EUW",
-      "nivel": 676,
+      "nivel": 677,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1213,
-      "victorias": 272,
+      "lp": 1231,
+      "victorias": 273,
       "derrotas": 226,
-      "ultima_partida": 1753472202871
+      "ultima_partida": 1753566480547
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.391304347826087
     },
     {
       "nombre": "Corki",
@@ -41,18 +41,18 @@
       "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1538461538461537
-    },
-    {
       "nombre": "Aphelios",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Lucian",
@@ -94,6 +94,6 @@
     "games": 14,
     "wins": 6,
     "losses": 8,
-    "timePlayed": 21022
+    "timePlayed": 20338
   }
 }

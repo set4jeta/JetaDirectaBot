@@ -19,20 +19,20 @@
       "nivel": 201,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 877,
+      "lp": 860,
       "victorias": 278,
-      "derrotas": 238,
-      "ultima_partida": 1753376807142
+      "derrotas": 239,
+      "ultima_partida": 1753568954993
     },
     {
       "nombre": "Desperate Nasus#EUW",
-      "nivel": 258,
+      "nivel": 259,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1331,
-      "victorias": 280,
-      "derrotas": 222,
-      "ultima_partida": 1753298251305
+      "lp": 1364,
+      "victorias": 285,
+      "derrotas": 225,
+      "ultima_partida": 1753564731166
     },
     {
       "nombre": "DesperateNasus#R 1",
@@ -58,23 +58,23 @@
   "campeones_recientes": [
     {
       "nombre": "Kayle",
-      "partidas": 69,
-      "victorias": 40,
-      "winrate": "58.0%",
-      "kda_promedio": 3.2731277533039647
+      "partidas": 71,
+      "victorias": 39,
+      "winrate": "54.9%",
+      "kda_promedio": 3.198237885462555
     },
     {
       "nombre": "Nasus",
-      "partidas": 11,
-      "victorias": 3,
-      "winrate": "27.3%",
-      "kda_promedio": 2.5121951219512195
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.744186046511628
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
+    "games": 83,
     "wins": 43,
-    "losses": 37,
-    "timePlayed": 131606
+    "losses": 40,
+    "timePlayed": 136255
   }
 }

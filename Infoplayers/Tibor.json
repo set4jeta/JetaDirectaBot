@@ -16,36 +16,22 @@
   "cuentas": [
     {
       "nombre": "tibor#zzz",
-      "nivel": 728,
+      "nivel": 729,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 802,
       "victorias": 289,
       "derrotas": 266,
-      "ultima_partida": 1753450751091
+      "ultima_partida": 1753544898884
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Hwei",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.8846153846153846
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1818181818181817
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4
+      "kda_promedio": 1.9473684210526316
     },
     {
       "nombre": "Ahri",
@@ -69,11 +55,11 @@
       "kda_promedio": 1
     },
     {
-      "nombre": "Gnar",
+      "nombre": "Ezreal",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.42857142857142855
+      "kda_promedio": 2.7142857142857144
     },
     {
       "nombre": "Irelia",
@@ -95,12 +81,26 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 8,
-    "losses": 13,
-    "timePlayed": 34839
+    "games": 16,
+    "wins": 7,
+    "losses": 9,
+    "timePlayed": 26355
   }
 }

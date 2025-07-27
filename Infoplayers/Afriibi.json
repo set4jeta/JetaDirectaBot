@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "AFRB#AFB",
+      "nivel": 118,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 438,
+      "victorias": 211,
+      "derrotas": 178,
+      "ultima_partida": 1753553910554
+    },
+    {
       "nombre": "Afriibi#AFB",
       "nivel": 454,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 216,
       "derrotas": 176,
       "ultima_partida": 1753456616700
-    },
-    {
-      "nombre": "AFRB#AFB",
-      "nivel": 118,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 452,
-      "victorias": 210,
-      "derrotas": 176,
-      "ultima_partida": 1753397322220
     }
   ],
   "campeones_recientes": [
@@ -45,10 +45,10 @@
     },
     {
       "nombre": "Yunara",
-      "partidas": 17,
+      "partidas": 18,
       "victorias": 9,
-      "winrate": "52.9%",
-      "kda_promedio": 1.7112676056338028
+      "winrate": "50.0%",
+      "kda_promedio": 1.662162162162162
     },
     {
       "nombre": "Draven",
@@ -63,6 +63,13 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.7619047619047619
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.263157894736842
     },
     {
       "nombre": "Bard",
@@ -98,19 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.125
-    },
-    {
-      "nombre": "Xayah",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 36,
-    "losses": 28,
-    "timePlayed": 102931
+    "games": 67,
+    "wins": 37,
+    "losses": 30,
+    "timePlayed": 107294
   }
 }

@@ -18,10 +18,10 @@
       "nivel": 108,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 748,
-      "victorias": 192,
-      "derrotas": 117,
-      "ultima_partida": 1753390008163
+      "lp": 746,
+      "victorias": 193,
+      "derrotas": 119,
+      "ultima_partida": 1753564731166
     },
     {
       "nombre": "Daglas fangirl#EUW",
@@ -54,17 +54,17 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.5
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5517241379310347
     },
     {
       "nombre": "Ziggs",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5
+      "winrate": "33.3%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Alistar",
@@ -79,6 +79,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
     },
     {
       "nombre": "Leblanc",
@@ -107,19 +114,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
-    "wins": 11,
-    "losses": 13,
-    "timePlayed": 34595
+    "games": 27,
+    "wins": 12,
+    "losses": 15,
+    "timePlayed": 40637
   }
 }

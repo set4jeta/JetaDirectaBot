@@ -18,26 +18,26 @@
       "nivel": 956,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1314,
+      "lp": 1292,
       "victorias": 294,
-      "derrotas": 237,
-      "ultima_partida": 1753475040878
+      "derrotas": 238,
+      "ultima_partida": 1753540163871
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0666666666666667
+    },
     {
       "nombre": "Aatrox",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 5
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6
     },
     {
       "nombre": "KSante",
@@ -62,9 +62,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 5,
+    "games": 6,
     "wins": 2,
-    "losses": 3,
-    "timePlayed": 8422
+    "losses": 4,
+    "timePlayed": 10604
   }
 }

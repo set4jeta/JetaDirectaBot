@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Dkdldb#000",
-      "nivel": 1298,
+      "nivel": 1299,
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1134,
       "victorias": 400,
       "derrotas": 348,
-      "ultima_partida": 1753438019846
+      "ultima_partida": 1753458064355
     },
     {
       "nombre": "dlwldms#1010",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 12,
+      "partidas": 11,
       "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.2545454545454544
+      "winrate": "63.6%",
+      "kda_promedio": 3.6382978723404253
     },
     {
       "nombre": "Syndra",
@@ -93,24 +93,24 @@
       "kda_promedio": 6.285714285714286
     },
     {
-      "nombre": "Jayce",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.642857142857143
-    },
-    {
       "nombre": "Varus",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.9565217391304348
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 74,
+    "games": 71,
     "wins": 37,
-    "losses": 37,
-    "timePlayed": 122617
+    "losses": 34,
+    "timePlayed": 117506
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "HRTS rin#euw10",
-      "nivel": 689,
+      "nivel": 690,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1240,
-      "victorias": 377,
-      "derrotas": 317,
-      "ultima_partida": 1753372624949
+      "lp": 1218,
+      "victorias": 379,
+      "derrotas": 320,
+      "ultima_partida": 1753558367422
     },
     {
       "nombre": "7546723453#EUW",
@@ -47,6 +47,13 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Yunara",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.8846153846153846
+    },
+    {
       "nombre": "Lucian",
       "partidas": 8,
       "victorias": 4,
@@ -54,11 +61,11 @@
       "kda_promedio": 3.65625
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Corki",
       "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.4375
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9767441860465116
     },
     {
       "nombre": "Tristana",
@@ -68,11 +75,11 @@
       "kda_promedio": 2.064516129032258
     },
     {
-      "nombre": "Corki",
+      "nombre": "Jhin",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.6666666666666665
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9545454545454546
     },
     {
       "nombre": "Ezreal",
@@ -80,13 +87,6 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 2.736842105263158
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4.266666666666667
     },
     {
       "nombre": "Kaisa",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 43,
-    "wins": 23,
-    "losses": 20,
-    "timePlayed": 70104
+    "games": 48,
+    "wins": 25,
+    "losses": 23,
+    "timePlayed": 78012
   }
 }

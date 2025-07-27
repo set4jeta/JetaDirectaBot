@@ -5,7 +5,7 @@
     "edad": 21,
     "equipo": "Veni Vidi Vici (Spanish Team)",
     "pais": "Russia",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Oleg_Insec",
       "twitch": "https://twitch.tv/oleg_insec"
@@ -18,21 +18,21 @@
       "nombre": "OLEG FULLCLEAR#CLEAR",
       "nivel": 208,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 714,
-      "victorias": 130,
-      "derrotas": 105,
-      "ultima_partida": 1753430642244
+      "liga": "MASTER I",
+      "lp": 732,
+      "victorias": 133,
+      "derrotas": 108,
+      "ultima_partida": 1753558939330
     },
     {
       "nombre": "OLEG INSEC#OLEG",
       "nivel": 472,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1302,
+      "lp": 1279,
       "victorias": 291,
-      "derrotas": 231,
-      "ultima_partida": 1753304203551
+      "derrotas": 232,
+      "ultima_partida": 1753553567809
     }
   ],
   "campeones_recientes": [
@@ -44,25 +44,18 @@
       "kda_promedio": 3.25
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0714285714285716
-    },
-    {
       "nombre": "XinZhao",
       "partidas": 9,
       "victorias": 7,
       "winrate": "77.8%",
-      "kda_promedio": 3.7027027027027026
+      "kda_promedio": 3.588235294117647
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.0588235294117645
+      "winrate": "71.4%",
+      "kda_promedio": 3.4827586206896552
     },
     {
       "nombre": "Annie",
@@ -72,25 +65,32 @@
       "kda_promedio": 2.6315789473684212
     },
     {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
       "nombre": "Azir",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8571428571428572
+      "winrate": "33.3%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "JarvanIV",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.125
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5294117647058822
     },
     {
       "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 2,
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 4.571428571428571
+      "kda_promedio": 5.625
     },
     {
       "nombre": "Ambessa",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 30,
-    "losses": 18,
-    "timePlayed": 78198
+    "games": 47,
+    "wins": 28,
+    "losses": 19,
+    "timePlayed": 74067
   }
 }

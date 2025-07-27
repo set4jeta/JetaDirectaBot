@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "MKR#01600",
-      "nivel": 1536,
+      "nivel": 1537,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 836,
-      "victorias": 286,
-      "derrotas": 249,
-      "ultima_partida": 1753312555223
+      "lp": 825,
+      "victorias": 290,
+      "derrotas": 253,
+      "ultima_partida": 1753571885132
     },
     {
       "nombre": "strawberrydreams#meow",
@@ -38,17 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.8571428571428572
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.4871794871794872
     },
     {
       "nombre": "MissFortune",
-      "partidas": 4,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.133333333333334
+      "winrate": "50.0%",
+      "kda_promedio": 3.0714285714285716
     },
     {
       "nombre": "Varus",
@@ -56,6 +56,20 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.1764705882352942
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.428571428571429
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7
     },
     {
       "nombre": "Twitch",
@@ -79,20 +93,6 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.8
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
       "nombre": "Lucian",
       "partidas": 1,
       "victorias": 1,
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 22,
-    "wins": 12,
-    "losses": 10,
-    "timePlayed": 35695
+    "games": 30,
+    "wins": 16,
+    "losses": 14,
+    "timePlayed": 47998
   }
 }

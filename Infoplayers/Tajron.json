@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Tajron",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DIVE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "MOI AIME BIEN#667",
+      "nivel": 783,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 806,
+      "victorias": 346,
+      "derrotas": 316,
+      "ultima_partida": 1753535429240
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.2195121951219514
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.466666666666667
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1538461538461537
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 34
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 22,
+    "wins": 16,
+    "losses": 6,
+    "timePlayed": 35276
+  }
+}

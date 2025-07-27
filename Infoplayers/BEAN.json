@@ -15,16 +15,6 @@
   },
   "cuentas": [
     {
-      "nombre": "Noodle Tree#2025",
-      "nivel": 1231,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1003,
-      "victorias": 372,
-      "derrotas": 317,
-      "ultima_partida": 1753473042870
-    },
-    {
       "nombre": "Beanovich#bean",
       "nivel": 427,
       "region": "EUW1",
@@ -32,10 +22,27 @@
       "lp": 75,
       "victorias": 235,
       "derrotas": 206,
-      "ultima_partida": 1753465914771
+      "ultima_partida": 1753551339473
+    },
+    {
+      "nombre": "Noodle Tree#2025",
+      "nivel": 1232,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 915,
+      "victorias": 374,
+      "derrotas": 324,
+      "ultima_partida": 1753538743765
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 17,
+      "victorias": 6,
+      "winrate": "35.3%",
+      "kda_promedio": 2.641025641025641
+    },
     {
       "nombre": "Yunara",
       "partidas": 16,
@@ -44,18 +51,11 @@
       "kda_promedio": 2.6136363636363638
     },
     {
-      "nombre": "Lucian",
-      "partidas": 15,
-      "victorias": 6,
-      "winrate": "40.0%",
-      "kda_promedio": 2.7142857142857144
-    },
-    {
       "nombre": "Tristana",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.5714285714285716
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.606060606060606
     },
     {
       "nombre": "Kaisa",
@@ -63,13 +63,6 @@
       "victorias": 4,
       "winrate": "40.0%",
       "kda_promedio": 1.8
-    },
-    {
-      "nombre": "Vayne",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.8448275862068966
     },
     {
       "nombre": "Xayah",
@@ -86,11 +79,25 @@
       "kda_promedio": 4.148148148148148
     },
     {
+      "nombre": "Vayne",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.8666666666666667
+    },
+    {
       "nombre": "Sivir",
-      "partidas": 6,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5185185185185186
+      "winrate": "75.0%",
+      "kda_promedio": 4.538461538461538
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
     },
     {
       "nombre": "Jinx",
@@ -98,19 +105,12 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 3.8181818181818183
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 94,
-    "wins": 53,
-    "losses": 41,
-    "timePlayed": 145113
+    "games": 99,
+    "wins": 54,
+    "losses": 45,
+    "timePlayed": 154200
   }
 }

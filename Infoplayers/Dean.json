@@ -19,10 +19,10 @@
       "nivel": 137,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 982,
-      "victorias": 240,
+      "lp": 1039,
+      "victorias": 243,
       "derrotas": 193,
-      "ultima_partida": 1753464215333
+      "ultima_partida": 1753534345265
     },
     {
       "nombre": "HomeIαnder#EUW",
@@ -42,6 +42,13 @@
       "victorias": 1,
       "winrate": "20.0%",
       "kda_promedio": 1.5952380952380953
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.8
     },
     {
       "nombre": "Smolder",
@@ -86,13 +93,6 @@
       "kda_promedio": 6.166666666666667
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
       "nombre": "Viktor",
       "partidas": 2,
       "victorias": 0,
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 36,
-    "wins": 17,
+    "games": 37,
+    "wins": 18,
     "losses": 19,
-    "timePlayed": 62057
+    "timePlayed": 64060
   }
 }

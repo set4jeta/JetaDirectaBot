@@ -75,31 +75,31 @@
       "kda_promedio": 1.2
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8571428571428572
-    },
-    {
-      "nombre": "Pyke",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5
-    },
-    {
       "nombre": "Rakan",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "TahmKench",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
+    "games": 17,
     "wins": 5,
-    "losses": 14,
-    "timePlayed": 32817
+    "losses": 12,
+    "timePlayed": 28561
   }
 }

@@ -19,33 +19,33 @@
       "nivel": 1035,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1137,
-      "victorias": 216,
-      "derrotas": 158,
-      "ultima_partida": 1753467572824
+      "lp": 1194,
+      "victorias": 220,
+      "derrotas": 159,
+      "ultima_partida": 1753564157744
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zoe",
-      "partidas": 28,
-      "victorias": 21,
+      "partidas": 32,
+      "victorias": 24,
       "winrate": "75.0%",
-      "kda_promedio": 4.989795918367347
+      "kda_promedio": 5.111111111111111
     },
     {
       "nombre": "Seraphine",
       "partidas": 15,
       "victorias": 12,
       "winrate": "80.0%",
-      "kda_promedio": 5.357142857142857
+      "kda_promedio": 5.267857142857143
     },
     {
       "nombre": "Leblanc",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.7419354838709675
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6551724137931036
     },
     {
       "nombre": "Malphite",
@@ -90,17 +90,17 @@
       "kda_promedio": 2.625
     },
     {
-      "nombre": "Ekko",
+      "nombre": "Galio",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 10.5
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 48,
-    "losses": 23,
-    "timePlayed": 114558
+    "games": 73,
+    "wins": 49,
+    "losses": 24,
+    "timePlayed": 117726
   }
 }

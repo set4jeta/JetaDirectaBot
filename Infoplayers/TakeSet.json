@@ -2,10 +2,10 @@
   "info_jugador": {
     "nombre": "TakeSet",
     "nombre_real": "Belan Ahour",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Solary",
     "pais": "Denmark",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/TakeSet1",
       "twitch": "https://twitch.tv/takeset7"
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "TakeSet sama#stine",
-      "nivel": 996,
+      "nivel": 997,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 713,
-      "victorias": 237,
-      "derrotas": 192,
-      "ultima_partida": 1753456121620
+      "liga": "GRANDMASTER I",
+      "lp": 813,
+      "victorias": 242,
+      "derrotas": 194,
+      "ultima_partida": 1753559504160
     },
     {
       "nombre": "takeset smurfer#EUW",
@@ -38,24 +38,31 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.5
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.6875
     },
     {
       "nombre": "Xayah",
       "partidas": 8,
       "victorias": 5,
       "winrate": "62.5%",
-      "kda_promedio": 3.96
+      "kda_promedio": 3.76
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 5.0476190476190474
     },
     {
       "nombre": "Jhin",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 5.368421052631579
+      "winrate": "50.0%",
+      "kda_promedio": 6.2
     },
     {
       "nombre": "Kaisa",
@@ -65,11 +72,11 @@
       "kda_promedio": 3.4583333333333335
     },
     {
-      "nombre": "Senna",
-      "partidas": 6,
+      "nombre": "Varus",
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 5.866666666666666
+      "winrate": "80.0%",
+      "kda_promedio": 3.6
     },
     {
       "nombre": "Corki",
@@ -93,24 +100,17 @@
       "kda_promedio": 4.181818181818182
     },
     {
-      "nombre": "Varus",
+      "nombre": "Yunara",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.2
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 3,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1333333333333333
+      "winrate": "25.0%",
+      "kda_promedio": 2.6153846153846154
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 41,
+    "games": 71,
+    "wins": 45,
     "losses": 26,
-    "timePlayed": 109112
+    "timePlayed": 115150
   }
 }

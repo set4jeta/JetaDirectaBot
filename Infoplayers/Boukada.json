@@ -48,31 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 16,
-      "victorias": 5,
-      "winrate": "31.2%",
-      "kda_promedio": 2.6699029126213594
+      "partidas": 13,
+      "victorias": 3,
+      "winrate": "23.1%",
+      "kda_promedio": 2.4318181818181817
     },
     {
       "nombre": "XinZhao",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 4.041666666666667
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.375
-    },
-    {
-      "nombre": "Viego",
       "partidas": 7,
       "victorias": 5,
       "winrate": "71.4%",
-      "kda_promedio": 4.266666666666667
+      "kda_promedio": 5.545454545454546
     },
     {
       "nombre": "Vi",
@@ -80,6 +66,20 @@
       "victorias": 5,
       "winrate": "83.3%",
       "kda_promedio": 4.304347826086956
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.269230769230769
     },
     {
       "nombre": "JarvanIV",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 69,
-    "wins": 33,
-    "losses": 36,
-    "timePlayed": 118881
+    "games": 56,
+    "wins": 27,
+    "losses": 29,
+    "timePlayed": 97447
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "twtv Peng04#Aespa",
-      "nivel": 393,
+      "nivel": 394,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1198,
-      "victorias": 497,
-      "derrotas": 446,
-      "ultima_partida": 1753474823758
+      "lp": 1181,
+      "victorias": 502,
+      "derrotas": 452,
+      "ultima_partida": 1753563898608
     },
     {
       "nombre": "twtv Peng04#NMIXX",
@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 81,
-      "victorias": 40,
+      "partidas": 85,
+      "victorias": 42,
       "winrate": "49.4%",
-      "kda_promedio": 3.9737827715355807
+      "kda_promedio": 3.971631205673759
     },
     {
       "nombre": "Syndra",
-      "partidas": 22,
-      "victorias": 11,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4285714285714284
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 3.0689655172413794
     },
     {
       "nombre": "Mel",
@@ -70,9 +70,9 @@
     {
       "nombre": "Ziggs",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 4.166666666666667
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.8333333333333335
     },
     {
       "nombre": "Aurora",
@@ -83,10 +83,10 @@
     },
     {
       "nombre": "Nautilus",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.68
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.2903225806451615
     },
     {
       "nombre": "Orianna",
@@ -96,31 +96,31 @@
       "kda_promedio": 7
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6842105263157894
+    },
+    {
+      "nombre": "Azir",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.8
+      "kda_promedio": 2.8181818181818183
     },
     {
       "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9
+      "winrate": "50.0%",
+      "kda_promedio": 4.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 147,
+    "games": 152,
     "wins": 73,
-    "losses": 74,
-    "timePlayed": 243858
+    "losses": 79,
+    "timePlayed": 253088
   }
 }

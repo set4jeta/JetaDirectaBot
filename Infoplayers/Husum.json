@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Husum#EUW",
-      "nivel": 639,
+      "nivel": 640,
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1412,
       "victorias": 188,
       "derrotas": 128,
-      "ultima_partida": 1753472815119
+      "ultima_partida": 1753563834586
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Swain",
-      "partidas": 18,
-      "victorias": 9,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8484848484848486
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2.9156626506024095
     },
     {
       "nombre": "Mel",
@@ -42,9 +42,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
-    "wins": 9,
+    "games": 16,
+    "wins": 6,
     "losses": 10,
-    "timePlayed": 34266
+    "timePlayed": 29969
   }
 }

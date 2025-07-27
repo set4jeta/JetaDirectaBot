@@ -40,20 +40,6 @@
       "kda_promedio": 5.2
     },
     {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 4
-    },
-    {
       "nombre": "Rell",
       "partidas": 1,
       "victorias": 1,
@@ -69,9 +55,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 8,
+    "games": 6,
     "wins": 3,
-    "losses": 5,
-    "timePlayed": 13997
+    "losses": 3,
+    "timePlayed": 10888
   }
 }

@@ -18,26 +18,26 @@
       "nivel": 748,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 956,
-      "victorias": 203,
-      "derrotas": 166,
-      "ultima_partida": 1753389576960
+      "lp": 952,
+      "victorias": 204,
+      "derrotas": 167,
+      "ultima_partida": 1753472417133
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 6,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 2.7058823529411766
+      "winrate": "25.0%",
+      "kda_promedio": 3.588235294117647
     },
     {
-      "nombre": "Lux",
+      "nombre": "Varus",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.9285714285714284
+      "kda_promedio": 8.333333333333334
     },
     {
       "nombre": "Aurora",
@@ -54,11 +54,11 @@
       "kda_promedio": 14
     },
     {
-      "nombre": "Morgana",
+      "nombre": "Lux",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Orianna",
@@ -66,19 +66,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 8
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 12
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 8,
-    "losses": 5,
-    "timePlayed": 20647
+    "games": 10,
+    "wins": 7,
+    "losses": 3,
+    "timePlayed": 15414
   }
 }

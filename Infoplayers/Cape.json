@@ -15,22 +15,22 @@
   "cuentas": [
     {
       "nombre": "Insomnia#531",
-      "nivel": 820,
+      "nivel": 821,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1050,
-      "victorias": 273,
-      "derrotas": 226,
-      "ultima_partida": 1753235307035
+      "liga": "GRANDMASTER I",
+      "lp": 985,
+      "victorias": 277,
+      "derrotas": 233,
+      "ultima_partida": 1753588247348
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 18,
+      "partidas": 20,
       "victorias": 11,
-      "winrate": "61.1%",
-      "kda_promedio": 3.5774647887323945
+      "winrate": "55.0%",
+      "kda_promedio": 3.2613636363636362
     },
     {
       "nombre": "LeeSin",
@@ -47,11 +47,32 @@
       "kda_promedio": 2.870967741935484
     },
     {
+      "nombre": "Zed",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.206896551724138
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.814814814814815
+    },
+    {
       "nombre": "XinZhao",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 3.6818181818181817
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.0476190476190474
     },
     {
       "nombre": "Nidalee",
@@ -61,13 +82,6 @@
       "kda_promedio": 2.2941176470588234
     },
     {
-      "nombre": "Zed",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.75
-    },
-    {
       "nombre": "JarvanIV",
       "partidas": 3,
       "victorias": 1,
@@ -75,31 +89,17 @@
       "kda_promedio": 3.2857142857142856
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.111111111111111
-    },
-    {
       "nombre": "Vi",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.210526315789474
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4166666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 40,
-    "losses": 30,
-    "timePlayed": 113823
+    "games": 81,
+    "wins": 44,
+    "losses": 37,
+    "timePlayed": 132373
   }
 }

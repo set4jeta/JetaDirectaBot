@@ -16,10 +16,10 @@
       "nivel": 66,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 948,
+      "lp": 910,
       "victorias": 216,
-      "derrotas": 150,
-      "ultima_partida": 1753478591458
+      "derrotas": 152,
+      "ultima_partida": 1753566655905
     },
     {
       "nombre": "Don Benito#KING",
@@ -55,17 +55,17 @@
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.6666666666666665
+      "winrate": "50.0%",
+      "kda_promedio": 2.7674418604651163
     },
     {
-      "nombre": "Elise",
+      "nombre": "Nautilus",
       "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.9807692307692308
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.5384615384615383
     },
     {
       "nombre": "Rakan",
@@ -82,11 +82,11 @@
       "kda_promedio": 4.48
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Elise",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.78125
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.186046511627907
     },
     {
       "nombre": "Galio",
@@ -117,17 +117,17 @@
       "kda_promedio": 1.4285714285714286
     },
     {
-      "nombre": "Blitzcrank",
+      "nombre": "Rell",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 17
+      "kda_promedio": 1.75
     }
   ],
   "estadisticas_2_semanas": {
     "games": 43,
-    "wins": 25,
-    "losses": 18,
-    "timePlayed": 66657
+    "wins": 24,
+    "losses": 19,
+    "timePlayed": 67245
   }
 }

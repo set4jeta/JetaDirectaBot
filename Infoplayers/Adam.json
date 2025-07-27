@@ -16,19 +16,19 @@
   "cuentas": [
     {
       "nombre": " Nothing much#EUW",
-      "nivel": 564,
+      "nivel": 566,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 933,
-      "victorias": 251,
-      "derrotas": 198,
-      "ultima_partida": 1753477851283
+      "lp": 905,
+      "victorias": 258,
+      "derrotas": 206,
+      "ultima_partida": 1753578314127
     },
     {
       "nombre": "Make a wish#EU1",
       "nivel": 70,
       "region": "EUW1",
-      "liga": "DIAMOND I",
+      "liga": "DIAMOND II",
       "lp": 75,
       "victorias": 235,
       "derrotas": 191,
@@ -58,24 +58,17 @@
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 24,
-      "victorias": 19,
-      "winrate": "79.2%",
-      "kda_promedio": 2.952830188679245
+      "partidas": 22,
+      "victorias": 16,
+      "winrate": "72.7%",
+      "kda_promedio": 2.8350515463917527
     },
     {
       "nombre": "Gwen",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7846153846153847
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2
+      "winrate": "40.0%",
+      "kda_promedio": 1.911764705882353
     },
     {
       "nombre": "Yunara",
@@ -85,11 +78,25 @@
       "kda_promedio": 1.546875
     },
     {
+      "nombre": "Jayce",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3191489361702127
+    },
+    {
       "nombre": "TwistedFate",
       "partidas": 7,
       "victorias": 5,
       "winrate": "71.4%",
       "kda_promedio": 1.868421052631579
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
     },
     {
       "nombre": "Irelia",
@@ -106,31 +113,24 @@
       "kda_promedio": 2.774193548387097
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.9310344827586208
-    },
-    {
       "nombre": "Elise",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.2916666666666665
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.1724137931034484
     },
     {
-      "nombre": "Kennen",
-      "partidas": 4,
+      "nombre": "Yone",
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.56
+      "winrate": "60.0%",
+      "kda_promedio": 1.3695652173913044
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 130,
-    "wins": 75,
-    "losses": 55,
-    "timePlayed": 205838
+    "games": 136,
+    "wins": 77,
+    "losses": 59,
+    "timePlayed": 216052
   }
 }

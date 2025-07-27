@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Pyrka",
     "nombre_real": "Łukasz Grześkowiak",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Ramboot Club",
     "pais": "Poland",
     "contrato_hasta": null,
@@ -18,40 +18,33 @@
       "nivel": 815,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1116,
+      "lp": 1095,
       "victorias": 366,
-      "derrotas": 326,
-      "ultima_partida": 1753354520230
+      "derrotas": 327,
+      "ultima_partida": 1753530042478
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 8.625
-    },
-    {
-      "nombre": "Alistar",
+      "nombre": "Jhin",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 5.714285714285714
+      "kda_promedio": 3.2222222222222223
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Rell",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5.181818181818182
+      "kda_promedio": 13.333333333333334
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Alistar",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 11.5
+      "kda_promedio": 10.5
     },
     {
       "nombre": "Karma",
@@ -59,19 +52,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
-    "wins": 8,
-    "losses": 3,
-    "timePlayed": 19340
+    "games": 6,
+    "wins": 4,
+    "losses": 2,
+    "timePlayed": 9830
   }
 }

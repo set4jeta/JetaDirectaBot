@@ -65,10 +65,10 @@
     },
     {
       "nombre": "Lucian",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.9148936170212765
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.909090909090909
     },
     {
       "nombre": "Jhin",
@@ -92,13 +92,6 @@
       "kda_promedio": 2.7096774193548385
     },
     {
-      "nombre": "Caitlyn",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.368421052631579
-    },
-    {
       "nombre": "Aphelios",
       "partidas": 4,
       "victorias": 3,
@@ -106,11 +99,11 @@
       "kda_promedio": 3.6875
     },
     {
-      "nombre": "Zeri",
+      "nombre": "Caitlyn",
       "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.555555555555555
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.125
     },
     {
       "nombre": "Corki",
@@ -125,12 +118,19 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 4
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.736842105263158
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
-    "wins": 51,
-    "losses": 29,
-    "timePlayed": 124152
+    "games": 71,
+    "wins": 45,
+    "losses": 26,
+    "timePlayed": 110582
   }
 }

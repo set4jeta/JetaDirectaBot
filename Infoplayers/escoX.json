@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "escoX",
     "nombre_real": "Javier Escobedo Sevilla",
-    "edad": 25,
+    "edad": 26,
     "equipo": "ZETA",
     "pais": "Spain",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Τadej Pogačar#Soria",
-      "nivel": 1573,
+      "nivel": 1574,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 946,
-      "victorias": 298,
-      "derrotas": 259,
-      "ultima_partida": 1753470521902
+      "lp": 942,
+      "victorias": 302,
+      "derrotas": 263,
+      "ultima_partida": 1753561157214
     },
     {
       "nombre": "Keep Trying#Soria",
@@ -37,6 +37,13 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Rakan",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.782608695652174
+    },
+    {
       "nombre": "Alistar",
       "partidas": 5,
       "victorias": 2,
@@ -45,17 +52,24 @@
     },
     {
       "nombre": "Bard",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.7857142857142856
+      "winrate": "60.0%",
+      "kda_promedio": 3.5789473684210527
     },
     {
-      "nombre": "Rakan",
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.90625
+    },
+    {
+      "nombre": "Poppy",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.230769230769231
+      "kda_promedio": 1.7333333333333334
     },
     {
       "nombre": "Rell",
@@ -72,18 +86,11 @@
       "kda_promedio": 1.8571428571428572
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Neeko",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.9642857142857142
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.52
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Braum",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 43,
-    "wins": 22,
-    "losses": 21,
-    "timePlayed": 69952
+    "games": 47,
+    "wins": 23,
+    "losses": 24,
+    "timePlayed": 76537
   }
 }

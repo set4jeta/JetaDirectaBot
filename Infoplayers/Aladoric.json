@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Aladoric#mirai",
-      "nivel": 109,
+      "nivel": 110,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 811,
+      "lp": 791,
       "victorias": 320,
-      "derrotas": 267,
-      "ultima_partida": 1753456101677
+      "derrotas": 268,
+      "ultima_partida": 1753570177553
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ezreal",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 5.545454545454546
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.285714285714286
     },
     {
       "nombre": "LeeSin",
@@ -99,8 +99,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 39,
-    "wins": 21,
-    "losses": 18,
-    "timePlayed": 65512
+    "wins": 20,
+    "losses": 19,
+    "timePlayed": 65385
   }
 }

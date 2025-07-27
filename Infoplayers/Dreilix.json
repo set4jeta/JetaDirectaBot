@@ -15,36 +15,29 @@
   "cuentas": [
     {
       "nombre": "Light#CN3",
-      "nivel": 666,
+      "nivel": 667,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 839,
-      "victorias": 484,
-      "derrotas": 432,
-      "ultima_partida": 1753454707942
+      "lp": 795,
+      "victorias": 486,
+      "derrotas": 436,
+      "ultima_partida": 1753543353900
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aphelios",
       "partidas": 25,
-      "victorias": 13,
-      "winrate": "52.0%",
-      "kda_promedio": 2.0489510489510487
+      "victorias": 14,
+      "winrate": "56.0%",
+      "kda_promedio": 2.1702127659574466
     },
     {
       "nombre": "Yunara",
-      "partidas": 19,
-      "victorias": 12,
-      "winrate": "63.2%",
-      "kda_promedio": 2.3545454545454545
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 1.868421052631579
+      "partidas": 22,
+      "victorias": 13,
+      "winrate": "59.1%",
+      "kda_promedio": 2.3902439024390243
     },
     {
       "nombre": "Senna",
@@ -61,18 +54,18 @@
       "kda_promedio": 2.78125
     },
     {
-      "nombre": "Jinx",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.962962962962963
-    },
-    {
       "nombre": "Ziggs",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 4.294117647058823
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Jhin",
@@ -82,11 +75,18 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Jinx",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.933333333333333
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3125
     },
     {
       "nombre": "Sivir",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 94,
+    "games": 92,
     "wins": 46,
-    "losses": 48,
-    "timePlayed": 151729
+    "losses": 46,
+    "timePlayed": 149480
   }
 }

@@ -18,17 +18,17 @@
       "nivel": 540,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 871,
-      "victorias": 296,
+      "lp": 890,
+      "victorias": 297,
       "derrotas": 234,
-      "ultima_partida": 1753403265556
+      "ultima_partida": 1753573593974
     },
     {
       "nombre": "reaver mid acc#BOZO",
       "nivel": 199,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 34,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 305,
       "derrotas": 298,
       "ultima_partida": 1753052254310
@@ -47,31 +47,24 @@
   "campeones_recientes": [
     {
       "nombre": "Ryze",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
       "kda_promedio": 4
     },
     {
-      "nombre": "Rell",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 3.75
-    },
-    {
       "nombre": "Corki",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.7906976744186047
+      "winrate": "83.3%",
+      "kda_promedio": 3.40625
     },
     {
-      "nombre": "Vladimir",
+      "nombre": "Rell",
       "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4615384615384615
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 3.121212121212121
     },
     {
       "nombre": "Yone",
@@ -81,18 +74,18 @@
       "kda_promedio": 2.1818181818181817
     },
     {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 9
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5416666666666665
     },
     {
-      "nombre": "Azir",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2777777777777777
+      "nombre": "Vladimir",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     },
     {
       "nombre": "Sylas",
@@ -100,6 +93,13 @@
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 4.636363636363637
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 21
     },
     {
       "nombre": "Akali",
@@ -117,9 +117,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 36,
-    "losses": 24,
-    "timePlayed": 96498
+    "games": 49,
+    "wins": 30,
+    "losses": 19,
+    "timePlayed": 79636
   }
 }

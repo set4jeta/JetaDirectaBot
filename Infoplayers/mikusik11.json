@@ -20,9 +20,9 @@
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1175,
-      "victorias": 224,
-      "derrotas": 162,
-      "ultima_partida": 1753453948683
+      "victorias": 225,
+      "derrotas": 163,
+      "ultima_partida": 1753560675846
     }
   ],
   "campeones_recientes": [
@@ -41,18 +41,18 @@
       "kda_promedio": 2.8974358974358974
     },
     {
-      "nombre": "Kindred",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.857142857142857
-    },
-    {
       "nombre": "Nidalee",
       "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3.2857142857142856
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.043478260869565
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.85
     },
     {
       "nombre": "Viego",
@@ -69,13 +69,6 @@
       "kda_promedio": 4.0588235294117645
     },
     {
-      "nombre": "Syndra",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.608695652173913
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 3,
       "victorias": 1,
@@ -83,11 +76,11 @@
       "kda_promedio": 2.0555555555555554
     },
     {
-      "nombre": "Talon",
+      "nombre": "Syndra",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.388888888888889
+      "kda_promedio": 1.0625
     },
     {
       "nombre": "Ambessa",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 29,
-    "losses": 28,
-    "timePlayed": 92929
+    "games": 54,
+    "wins": 27,
+    "losses": 27,
+    "timePlayed": 87146
   }
 }

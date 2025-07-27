@@ -76,13 +76,6 @@
       "kda_promedio": 5.222222222222222
     },
     {
-      "nombre": "Tristana",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 12.666666666666666
-    },
-    {
       "nombre": "Yunara",
       "partidas": 2,
       "victorias": 2,
@@ -95,12 +88,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 26,
+    "games": 36,
+    "wins": 24,
     "losses": 12,
-    "timePlayed": 63684
+    "timePlayed": 59905
   }
 }

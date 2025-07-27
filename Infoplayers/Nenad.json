@@ -16,71 +16,50 @@
   "cuentas": [
     {
       "nombre": "Nenad#1v9",
-      "nivel": 352,
+      "nivel": 353,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1227,
-      "victorias": 367,
-      "derrotas": 317,
-      "ultima_partida": 1753434579481
+      "lp": 1182,
+      "victorias": 372,
+      "derrotas": 324,
+      "ultima_partida": 1753554495070
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 17,
-      "victorias": 11,
-      "winrate": "64.7%",
-      "kda_promedio": 2.6842105263157894
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 3.109090909090909
     },
     {
       "nombre": "Aurora",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.891891891891892
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 4.476190476190476
     },
     {
       "nombre": "DrMundo",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.9487179487179487
+      "winrate": "62.5%",
+      "kda_promedio": 2.225806451612903
     },
     {
       "nombre": "Jax",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3870967741935485
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.0555555555555554
     },
     {
       "nombre": "Olaf",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.4545454545454546
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.588235294117647
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.1875
+      "winrate": "60.0%",
+      "kda_promedio": 2.53125
     },
     {
       "nombre": "KSante",
@@ -90,17 +69,38 @@
       "kda_promedio": 2.466666666666667
     },
     {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
       "nombre": "Sett",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8125
     }
   ],
   "estadisticas_2_semanas": {
     "games": 78,
-    "wins": 49,
-    "losses": 29,
-    "timePlayed": 127335
+    "wins": 48,
+    "losses": 30,
+    "timePlayed": 126707
   }
 }

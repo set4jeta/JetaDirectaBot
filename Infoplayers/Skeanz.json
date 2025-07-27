@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Shëun#2530",
-      "nivel": 453,
+      "nivel": 454,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1671,
-      "victorias": 648,
+      "lp": 1708,
+      "victorias": 650,
       "derrotas": 576,
-      "ultima_partida": 1753477721691
+      "ultima_partida": 1753562139978
     },
     {
       "nombre": "Sunflower#2509",
@@ -45,31 +45,24 @@
     },
     {
       "nombre": "LeeSin",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.133333333333334
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.433333333333334
     },
     {
-      "nombre": "Vi",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.8
-    },
-    {
-      "nombre": "Kindred",
+      "nombre": "Maokai",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 3.75
+      "kda_promedio": 6.5
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Vi",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.625
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.2
     },
     {
       "nombre": "XinZhao",
@@ -79,11 +72,18 @@
       "kda_promedio": 2.2
     },
     {
-      "nombre": "Maokai",
+      "nombre": "Kindred",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 5.666666666666667
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.230769230769231
     },
     {
       "nombre": "Pantheon",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 34,
-    "losses": 24,
-    "timePlayed": 94298
+    "games": 55,
+    "wins": 33,
+    "losses": 22,
+    "timePlayed": 86644
   }
 }

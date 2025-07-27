@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Yen is my Wife#EUW",
+      "nivel": 826,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1096,
+      "victorias": 298,
+      "derrotas": 245,
+      "ultima_partida": 1753537224399
+    },
+    {
       "nombre": "KISS OF DEATH#YEN",
       "nivel": 421,
       "region": "EUW1",
@@ -23,25 +33,22 @@
       "victorias": 288,
       "derrotas": 249,
       "ultima_partida": 1753452870378
-    },
-    {
-      "nombre": "Yen is my Wife#EUW",
-      "nivel": 826,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1095,
-      "victorias": 297,
-      "derrotas": 244,
-      "ultima_partida": 1753209059087
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 17,
-      "victorias": 13,
-      "winrate": "76.5%",
-      "kda_promedio": 3.9836065573770494
+      "partidas": 19,
+      "victorias": 14,
+      "winrate": "73.7%",
+      "kda_promedio": 3.6027397260273974
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.763157894736842
     },
     {
       "nombre": "Kaisa",
@@ -49,20 +56,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.84
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.84
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.384615384615385
     },
     {
       "nombre": "Ezreal",
@@ -77,6 +70,13 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.4
     },
     {
       "nombre": "Jax",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 30,
-    "losses": 27,
-    "timePlayed": 95126
+    "games": 59,
+    "wins": 31,
+    "losses": 28,
+    "timePlayed": 99209
   }
 }

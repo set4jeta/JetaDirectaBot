@@ -27,27 +27,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Azir",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.44
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 1.8846153846153846
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
       "nombre": "Galio",
       "partidas": 4,
       "victorias": 2,
@@ -55,18 +34,25 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Lucian",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.8571428571428572
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5833333333333335
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Orianna",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.0714285714285714
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9375
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2857142857142856
     },
     {
       "nombre": "Ziggs",
@@ -83,24 +69,38 @@
       "kda_promedio": 2.8
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Lucian",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5833333333333333
     },
     {
-      "nombre": "Jayce",
+      "nombre": "Renekton",
       "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0909090909090908
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.375
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 23,
-    "losses": 21,
-    "timePlayed": 69727
+    "games": 31,
+    "wins": 15,
+    "losses": 16,
+    "timePlayed": 48525
   }
 }

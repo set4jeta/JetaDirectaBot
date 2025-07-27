@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "CZV APP#Nina",
-      "nivel": 438,
+      "nivel": 439,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 989,
-      "victorias": 368,
-      "derrotas": 327,
-      "ultima_partida": 1753477851283
+      "liga": "GRANDMASTER I",
+      "lp": 967,
+      "victorias": 369,
+      "derrotas": 329,
+      "ultima_partida": 1753483819678
     }
   ],
   "campeones_recientes": [
@@ -41,17 +41,17 @@
     },
     {
       "nombre": "Ambessa",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.9473684210526314
+      "winrate": "71.4%",
+      "kda_promedio": 2.8518518518518516
     },
     {
       "nombre": "Gnar",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8235294117647058
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.210526315789474
     },
     {
       "nombre": "Ornn",
@@ -75,6 +75,13 @@
       "kda_promedio": 3.142857142857143
     },
     {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
       "nombre": "Nautilus",
       "partidas": 1,
       "victorias": 0,
@@ -87,19 +94,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.7777777777777778
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 24,
-    "losses": 23,
-    "timePlayed": 73885
+    "games": 50,
+    "wins": 25,
+    "losses": 25,
+    "timePlayed": 78083
   }
 }

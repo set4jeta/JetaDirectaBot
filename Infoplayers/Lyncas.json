@@ -19,13 +19,20 @@
       "nivel": 1020,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1457,
-      "victorias": 398,
-      "derrotas": 310,
-      "ultima_partida": 1753475803815
+      "lp": 1508,
+      "victorias": 402,
+      "derrotas": 312,
+      "ultima_partida": 1753564731166
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 5.75
+    },
     {
       "nombre": "Vi",
       "partidas": 11,
@@ -34,18 +41,11 @@
       "kda_promedio": 3.2051282051282053
     },
     {
-      "nombre": "Viego",
-      "partidas": 10,
-      "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 7.111111111111111
-    },
-    {
       "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 5.095238095238095
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5.482758620689655
     },
     {
       "nombre": "LeeSin",
@@ -55,18 +55,18 @@
       "kda_promedio": 2
     },
     {
+      "nombre": "Nocturne",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9473684210526314
+    },
+    {
       "nombre": "Poppy",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5625
     },
     {
       "nombre": "Zed",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 32,
-    "losses": 28,
-    "timePlayed": 97438
+    "games": 66,
+    "wins": 36,
+    "losses": 30,
+    "timePlayed": 107914
   }
 }

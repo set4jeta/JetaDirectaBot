@@ -29,7 +29,7 @@
       "nivel": 68,
       "region": "NA1",
       "liga": "MASTER I",
-      "lp": 444,
+      "lp": 294,
       "victorias": 70,
       "derrotas": 26,
       "ultima_partida": 1751761161382
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.5194805194805197
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3275862068965516
     },
     {
       "nombre": "LeeSin",
@@ -75,13 +75,6 @@
       "kda_promedio": 8
     },
     {
-      "nombre": "Lillia",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 1,
       "victorias": 0,
@@ -97,9 +90,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
-    "wins": 11,
-    "losses": 8,
-    "timePlayed": 31079
+    "games": 14,
+    "wins": 9,
+    "losses": 5,
+    "timePlayed": 24227
   }
 }

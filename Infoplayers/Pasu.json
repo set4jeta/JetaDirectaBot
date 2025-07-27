@@ -12,6 +12,16 @@
   },
   "cuentas": [
     {
+      "nombre": "BERND DAS BROT#PASU",
+      "nivel": 846,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 790,
+      "victorias": 258,
+      "derrotas": 223,
+      "ultima_partida": 1753457647759
+    },
+    {
       "nombre": "MEIN GEDUDEL#PASU",
       "nivel": 98,
       "region": "EUW1",
@@ -20,25 +30,15 @@
       "victorias": 53,
       "derrotas": 36,
       "ultima_partida": 1753366176429
-    },
-    {
-      "nombre": "BERND DAS BROT#PASU",
-      "nivel": 846,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 790,
-      "victorias": 258,
-      "derrotas": 223,
-      "ultima_partida": 1753282407413
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 5
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5.388888888888889
     },
     {
       "nombre": "Pantheon",
@@ -56,10 +56,10 @@
     },
     {
       "nombre": "Trundle",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.5416666666666665
+      "winrate": "33.3%",
+      "kda_promedio": 3
     },
     {
       "nombre": "XinZhao",
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 15,
-    "losses": 13,
-    "timePlayed": 47951
+    "games": 26,
+    "wins": 14,
+    "losses": 12,
+    "timePlayed": 44399
   }
 }

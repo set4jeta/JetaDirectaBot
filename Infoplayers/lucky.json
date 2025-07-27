@@ -16,64 +16,43 @@
   "cuentas": [
     {
       "nombre": "saudade#ana",
-      "nivel": 1222,
+      "nivel": 1223,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1059,
-      "victorias": 407,
-      "derrotas": 364,
-      "ultima_partida": 1753474519011
+      "liga": "GRANDMASTER I",
+      "lp": 996,
+      "victorias": 409,
+      "derrotas": 369,
+      "ultima_partida": 1753570388546
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.75
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.966666666666667
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Rell",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.107142857142857
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Karma",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.235294117647059
+      "kda_promedio": 3.391304347826087
     },
     {
-      "nombre": "Braum",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.5
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.85
-    },
-    {
-      "nombre": "Shen",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.076923076923077
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.76
     },
     {
       "nombre": "Blitzcrank",
@@ -83,11 +62,11 @@
       "kda_promedio": 4.2
     },
     {
-      "nombre": "Leona",
+      "nombre": "Braum",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.6
+      "kda_promedio": 3.7142857142857144
     },
     {
       "nombre": "Poppy",
@@ -95,12 +74,33 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 19
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 46,
-    "wins": 26,
+    "games": 41,
+    "wins": 21,
     "losses": 20,
-    "timePlayed": 74760
+    "timePlayed": 64755
   }
 }

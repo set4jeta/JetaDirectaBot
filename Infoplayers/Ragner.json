@@ -18,11 +18,11 @@
       "nombre": "Brook#rago",
       "nivel": 436,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 727,
-      "victorias": 168,
-      "derrotas": 118,
-      "ultima_partida": 1753456475641
+      "liga": "GRANDMASTER I",
+      "lp": 827,
+      "victorias": 173,
+      "derrotas": 120,
+      "ultima_partida": 1753565183924
     },
     {
       "nombre": "Rosinante#Rago",
@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 13,
-      "victorias": 9,
-      "winrate": "69.2%",
-      "kda_promedio": 2.617021276595745
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4761904761904763
     },
     {
       "nombre": "Aatrox",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.2413793103448274
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5813953488372094
     },
     {
       "nombre": "Rengar",
@@ -66,6 +66,13 @@
       "victorias": 4,
       "winrate": "50.0%",
       "kda_promedio": 1.6595744680851063
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Garen",
@@ -82,11 +89,11 @@
       "kda_promedio": 1.2142857142857142
     },
     {
-      "nombre": "Kled",
+      "nombre": "Varus",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 3.1052631578947367
+      "kda_promedio": 2.32
     },
     {
       "nombre": "Sett",
@@ -96,13 +103,6 @@
       "kda_promedio": 1.2857142857142858
     },
     {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8636363636363635
-    },
-    {
       "nombre": "Ambessa",
       "partidas": 3,
       "victorias": 2,
@@ -110,17 +110,17 @@
       "kda_promedio": 3.0833333333333335
     },
     {
-      "nombre": "Darius",
+      "nombre": "Gragas",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1578947368421053
     }
   ],
   "estadisticas_2_semanas": {
     "games": 112,
-    "wins": 60,
-    "losses": 52,
-    "timePlayed": 171556
+    "wins": 61,
+    "losses": 51,
+    "timePlayed": 171083
   }
 }

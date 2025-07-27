@@ -8,12 +8,22 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/JgDeletus",
-      "twitch": "https://www.twitch.tv/JGDeletus\\t"
+      "twitch": "https://www.twitch.tv/JGDeletus"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
     "logo_equipo": null
   },
   "cuentas": [
+    {
+      "nombre": "Deletus#000",
+      "nivel": 696,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 34,
+      "victorias": 72,
+      "derrotas": 59,
+      "ultima_partida": 1753567328955
+    },
     {
       "nombre": "AFW Deletus#AFW",
       "nivel": 249,
@@ -23,16 +33,6 @@
       "victorias": 202,
       "derrotas": 144,
       "ultima_partida": 1753381436449
-    },
-    {
-      "nombre": "Deletus#000",
-      "nivel": 695,
-      "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 54,
-      "victorias": 68,
-      "derrotas": 56,
-      "ultima_partida": 1753358263689
     },
     {
       "nombre": "Nano Jgl Acc#EUW",
@@ -48,17 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Rengar",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.193548387096774
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "winrate": "20.0%",
+      "kda_promedio": 2.1
     },
     {
       "nombre": "Lillia",
@@ -82,11 +75,32 @@
       "kda_promedio": 6
     },
     {
-      "nombre": "Jax",
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Lucian",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 0.75
     },
     {
       "nombre": "Nocturne",
@@ -96,31 +110,17 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Poppy",
+      "nombre": "Pantheon",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Qiyana",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.2857142857142856
+      "kda_promedio": 5.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
-    "wins": 7,
-    "losses": 12,
-    "timePlayed": 29404
+    "games": 23,
+    "wins": 10,
+    "losses": 13,
+    "timePlayed": 36729
   }
 }

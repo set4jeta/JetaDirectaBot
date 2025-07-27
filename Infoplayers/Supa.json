@@ -5,7 +5,7 @@
     "edad": 24,
     "equipo": "Movistar KOI",
     "pais": "Spain",
-    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Supa_LoL",
       "twitch": "https://twitch.tv/supa_lol"
@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Caitlyn",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "MissFortune",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 7
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Alistar",
@@ -72,11 +65,11 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Lucian",
+      "nombre": "MissFortune",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 5
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
     },
     {
       "nombre": "Zeri",
@@ -87,9 +80,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
-    "wins": 6,
-    "losses": 4,
-    "timePlayed": 15207
+    "games": 7,
+    "wins": 5,
+    "losses": 2,
+    "timePlayed": 9785
   }
 }

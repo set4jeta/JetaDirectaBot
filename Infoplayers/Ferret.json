@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Ferret25#8725",
-      "nivel": 469,
+      "nivel": 470,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 930,
-      "victorias": 461,
-      "derrotas": 423,
-      "ultima_partida": 1753479135533
+      "lp": 927,
+      "victorias": 467,
+      "derrotas": 429,
+      "ultima_partida": 1753564861932
     },
     {
       "nombre": "METROOOOOOOOO#EUW",
@@ -38,10 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 25,
-      "victorias": 14,
-      "winrate": "56.0%",
-      "kda_promedio": 4.232142857142857
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 4.01063829787234
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Talon",
@@ -51,32 +58,39 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Vi",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.935483870967742
-    },
-    {
       "nombre": "LeeSin",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.575757575757576
+      "winrate": "71.4%",
+      "kda_promedio": 4.358974358974359
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.625
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.1714285714285713
     },
     {
       "nombre": "Taliyah",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.074074074074074
+      "winrate": "60.0%",
+      "kda_promedio": 3.0606060606060606
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.4
     },
     {
       "nombre": "Nidalee",
@@ -86,31 +100,17 @@
       "kda_promedio": 3.789473684210526
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 3,
+      "nombre": "JarvanIV",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4736842105263157
+      "winrate": "50.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 79,
-    "wins": 39,
-    "losses": 40,
-    "timePlayed": 129052
+    "games": 86,
+    "wins": 42,
+    "losses": 44,
+    "timePlayed": 141338
   }
 }

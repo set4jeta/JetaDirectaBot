@@ -15,43 +15,43 @@
   },
   "cuentas": [
     {
-      "nombre": "TTV HYBRADGE#AUSSI",
-      "nivel": 99,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 252,
-      "victorias": 251,
-      "derrotas": 243,
-      "ultima_partida": 1753468032384
-    },
-    {
       "nombre": "Hybradge#ADL",
       "nivel": 163,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 808,
+      "lp": 787,
       "victorias": 410,
-      "derrotas": 355,
-      "ultima_partida": 1753458271158
+      "derrotas": 356,
+      "ultima_partida": 1753537596884
     },
     {
       "nombre": "YOUTUBE HYBRADGE#ADL",
       "nivel": 614,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1115,
-      "victorias": 365,
-      "derrotas": 314,
-      "ultima_partida": 1753451373210
+      "lp": 1129,
+      "victorias": 367,
+      "derrotas": 315,
+      "ultima_partida": 1753535561133
+    },
+    {
+      "nombre": "TTV HYBRADGE#AUSSI",
+      "nivel": 99,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 312,
+      "victorias": 254,
+      "derrotas": 243,
+      "ultima_partida": 1753489481472
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Volibear",
-      "partidas": 108,
-      "victorias": 61,
-      "winrate": "56.5%",
-      "kda_promedio": 2.6584967320261437
+      "partidas": 100,
+      "victorias": 57,
+      "winrate": "57.0%",
+      "kda_promedio": 2.703770197486535
     },
     {
       "nombre": "JarvanIV",
@@ -76,10 +76,17 @@
     },
     {
       "nombre": "Rell",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.933333333333333
+      "winrate": "20.0%",
+      "kda_promedio": 2.1153846153846154
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "MonkeyKing",
@@ -89,18 +96,11 @@
       "kda_promedio": 0.4444444444444444
     },
     {
-      "nombre": "Darius",
+      "nombre": "Camille",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Evelynn",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4
     },
     {
       "nombre": "Fiora",
@@ -110,17 +110,17 @@
       "kda_promedio": 0.3333333333333333
     },
     {
-      "nombre": "Gwen",
+      "nombre": "Galio",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 146,
-    "wins": 76,
-    "losses": 70,
-    "timePlayed": 239315
+    "games": 137,
+    "wins": 74,
+    "losses": 63,
+    "timePlayed": 223877
   }
 }

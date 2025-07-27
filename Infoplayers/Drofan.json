@@ -50,13 +50,6 @@
       "kda_promedio": 4.9393939393939394
     },
     {
-      "nombre": "Naafiri",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.611111111111111
-    },
-    {
       "nombre": "Viego",
       "partidas": 4,
       "victorias": 3,
@@ -64,18 +57,18 @@
       "kda_promedio": 4.076923076923077
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6315789473684212
-    },
-    {
       "nombre": "MonkeyKing",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 3.3
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0833333333333335
     },
     {
       "nombre": "Trundle",
@@ -90,6 +83,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.7
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2857142857142856
     },
     {
       "nombre": "Lillia",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 43,
+    "games": 41,
     "wins": 25,
-    "losses": 18,
-    "timePlayed": 68719
+    "losses": 16,
+    "timePlayed": 65161
   }
 }

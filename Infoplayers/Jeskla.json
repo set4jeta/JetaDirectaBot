@@ -19,10 +19,10 @@
       "nivel": 1052,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 847,
-      "victorias": 370,
-      "derrotas": 331,
-      "ultima_partida": 1753467669393
+      "lp": 874,
+      "victorias": 372,
+      "derrotas": 332,
+      "ultima_partida": 1753559857725
     }
   ],
   "campeones_recientes": [
@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Sivir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.7142857142857144
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5517241379310347
     },
     {
       "nombre": "Gragas",
@@ -53,6 +53,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 4
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
     },
     {
       "nombre": "Jhin",
@@ -77,9 +84,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 10,
-    "losses": 7,
-    "timePlayed": 27069
+    "games": 20,
+    "wins": 12,
+    "losses": 8,
+    "timePlayed": 31218
   }
 }

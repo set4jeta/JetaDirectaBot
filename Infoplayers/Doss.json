@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "SUPdoss#EUW",
-      "nivel": 303,
+      "nivel": 304,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 957,
-      "victorias": 472,
-      "derrotas": 405,
-      "ultima_partida": 1753400316377
+      "lp": 1019,
+      "victorias": 477,
+      "derrotas": 407,
+      "ultima_partida": 1753561981318
     },
     {
       "nombre": "IsAiSDaAS#123",
@@ -58,17 +58,17 @@
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 29,
-      "victorias": 19,
-      "winrate": "65.5%",
-      "kda_promedio": 4.715447154471545
+      "partidas": 34,
+      "victorias": 23,
+      "winrate": "67.6%",
+      "kda_promedio": 4.9071428571428575
     },
     {
       "nombre": "Braum",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 5.794117647058823
+      "winrate": "54.5%",
+      "kda_promedio": 5.526315789473684
     },
     {
       "nombre": "Rell",
@@ -85,13 +85,6 @@
       "kda_promedio": 2.6222222222222222
     },
     {
-      "nombre": "Elise",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.09375
-    },
-    {
       "nombre": "Nautilus",
       "partidas": 5,
       "victorias": 3,
@@ -99,11 +92,11 @@
       "kda_promedio": 3.12
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Alistar",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.9166666666666665
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.7272727272727275
     },
     {
       "nombre": "Rakan",
@@ -113,24 +106,31 @@
       "kda_promedio": 5.933333333333334
     },
     {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.666666666666667
-    },
-    {
       "nombre": "TwistedFate",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.818181818181818
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 99,
-    "wins": 58,
-    "losses": 41,
-    "timePlayed": 158011
+    "games": 97,
+    "wins": 60,
+    "losses": 37,
+    "timePlayed": 154894
   }
 }

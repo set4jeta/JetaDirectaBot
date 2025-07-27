@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "VΥD#EUW",
-      "nivel": 506,
+      "nivel": 507,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 852,
-      "victorias": 168,
-      "derrotas": 119,
-      "ultima_partida": 1753440318765
+      "lp": 824,
+      "victorias": 170,
+      "derrotas": 122,
+      "ultima_partida": 1753557359967
     },
     {
       "nombre": "OLA MESΑ#EUW",
@@ -35,10 +35,10 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 14,
+      "partidas": 15,
       "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 3.08
+      "winrate": "60.0%",
+      "kda_promedio": 3.111111111111111
     },
     {
       "nombre": "Kaisa",
@@ -49,10 +49,17 @@
     },
     {
       "nombre": "Jhin",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.409090909090909
+      "winrate": "20.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
     },
     {
       "nombre": "Varus",
@@ -67,13 +74,6 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.125
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
     },
     {
       "nombre": "Kalista",
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 20,
-    "losses": 22,
-    "timePlayed": 67221
+    "games": 47,
+    "wins": 22,
+    "losses": 25,
+    "timePlayed": 75544
   }
 }

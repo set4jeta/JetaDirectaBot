@@ -16,46 +16,46 @@
   "cuentas": [
     {
       "nombre": "FornoReason#Gap",
-      "nivel": 1294,
+      "nivel": 1295,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 631,
-      "victorias": 234,
-      "derrotas": 210,
-      "ultima_partida": 1753437887722
+      "lp": 666,
+      "victorias": 242,
+      "derrotas": 216,
+      "ultima_partida": 1753547744450
     },
     {
       "nombre": "FNR#gap",
       "nivel": 251,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 959,
+      "lp": 938,
       "victorias": 341,
-      "derrotas": 302,
-      "ultima_partida": 1753134582257
+      "derrotas": 303,
+      "ultima_partida": 1753532833122
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jax",
-      "partidas": 19,
-      "victorias": 10,
-      "winrate": "52.6%",
-      "kda_promedio": 2.551282051282051
+      "partidas": 20,
+      "victorias": 13,
+      "winrate": "65.0%",
+      "kda_promedio": 2.763157894736842
     },
     {
       "nombre": "Ambessa",
-      "partidas": 15,
-      "victorias": 12,
-      "winrate": "80.0%",
-      "kda_promedio": 3.02
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 2.8275862068965516
     },
     {
       "nombre": "Gwen",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4324324324324325
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 2.6265060240963853
     },
     {
       "nombre": "Sett",
@@ -65,18 +65,18 @@
       "kda_promedio": 1.7215189873417722
     },
     {
-      "nombre": "Renekton",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.566666666666667
-    },
-    {
       "nombre": "Aatrox",
       "partidas": 8,
       "victorias": 3,
       "winrate": "37.5%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 2.323529411764706
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.619047619047619
     },
     {
       "nombre": "Rumble",
@@ -100,17 +100,17 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "LeeSin",
+      "nombre": "Sylas",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 31
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 56,
+    "games": 100,
+    "wins": 59,
     "losses": 41,
-    "timePlayed": 157401
+    "timePlayed": 160343
   }
 }

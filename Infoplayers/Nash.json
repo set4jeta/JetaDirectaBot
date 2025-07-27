@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "LeoNaut Phobia#EUW",
-      "nivel": 333,
+      "nivel": 334,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 210,
-      "victorias": 256,
-      "derrotas": 219,
-      "ultima_partida": 1753412325821
+      "lp": 375,
+      "victorias": 262,
+      "derrotas": 220,
+      "ultima_partida": 1753583304782
     },
     {
       "nombre": "Aggressive Play#EUW",
       "nivel": 80,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1082,
+      "liga": "GRANDMASTER I",
+      "lp": 968,
       "victorias": 219,
-      "derrotas": 153,
-      "ultima_partida": 1753302349759
+      "derrotas": 155,
+      "ultima_partida": 1753563296174
     },
     {
       "nombre": "Strongest Potion#EUW",
@@ -49,7 +49,7 @@
       "nivel": 726,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 342,
+      "lp": 192,
       "victorias": 174,
       "derrotas": 148,
       "ultima_partida": 1752364017137
@@ -58,17 +58,17 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.7704918032786887
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.953125
     },
     {
-      "nombre": "Neeko",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 4.32
+      "nombre": "Rakan",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.222222222222222
     },
     {
       "nombre": "Rell",
@@ -78,11 +78,25 @@
       "kda_promedio": 5.818181818181818
     },
     {
-      "nombre": "Rakan",
+      "nombre": "Neeko",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.5714285714285716
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 4.466666666666667
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6923076923076925
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8333333333333335
     },
     {
       "nombre": "Milio",
@@ -99,13 +113,6 @@
       "kda_promedio": 10
     },
     {
-      "nombre": "Thresh",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2
-    },
-    {
       "nombre": "Alistar",
       "partidas": 1,
       "victorias": 1,
@@ -118,19 +125,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 3.2
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 4.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 22,
-    "losses": 19,
-    "timePlayed": 66866
+    "games": 44,
+    "wins": 26,
+    "losses": 18,
+    "timePlayed": 70137
   }
 }

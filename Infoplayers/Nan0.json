@@ -22,7 +22,7 @@
       "lp": 1352,
       "victorias": 701,
       "derrotas": 624,
-      "ultima_partida": 1753386277548
+      "ultima_partida": 1753481054518
     }
   ],
   "campeones_recientes": [
@@ -35,31 +35,24 @@
     },
     {
       "nombre": "Ezreal",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.515151515151515
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.3548387096774195
     },
     {
       "nombre": "Annie",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.8666666666666667
+      "winrate": "33.3%",
+      "kda_promedio": 1.92
     },
     {
       "nombre": "Jayce",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.2333333333333334
-    },
-    {
-      "nombre": "Akali",
       "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.722222222222222
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.0714285714285716
     },
     {
       "nombre": "Viktor",
@@ -67,6 +60,13 @@
       "victorias": 1,
       "winrate": "16.7%",
       "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.933333333333333
     },
     {
       "nombre": "Aurora",
@@ -77,17 +77,17 @@
     },
     {
       "nombre": "Ryze",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.9523809523809526
+      "winrate": "50.0%",
+      "kda_promedio": 2.7058823529411766
     },
     {
       "nombre": "Orianna",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.9285714285714284
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
     },
     {
       "nombre": "Sylas",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 75,
-    "wins": 35,
-    "losses": 40,
-    "timePlayed": 119444
+    "games": 68,
+    "wins": 31,
+    "losses": 37,
+    "timePlayed": 107798
   }
 }

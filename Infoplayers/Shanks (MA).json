@@ -22,7 +22,7 @@
       "lp": 967,
       "victorias": 401,
       "derrotas": 350,
-      "ultima_partida": 1753455596981
+      "ultima_partida": 1753557747995
     },
     {
       "nombre": "Shanks#EUVV",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Trundle",
-      "partidas": 19,
+      "partidas": 18,
       "victorias": 9,
-      "winrate": "47.4%",
-      "kda_promedio": 2.707547169811321
+      "winrate": "50.0%",
+      "kda_promedio": 2.8383838383838382
     },
     {
       "nombre": "Naafiri",
@@ -52,10 +52,10 @@
     },
     {
       "nombre": "Pantheon",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.491228070175439
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.046511627906977
     },
     {
       "nombre": "Lillia",
@@ -63,13 +63,6 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 3.875
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6
     },
     {
       "nombre": "Sylas",
@@ -91,19 +84,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 24,
-    "losses": 23,
-    "timePlayed": 74320
+    "games": 42,
+    "wins": 22,
+    "losses": 20,
+    "timePlayed": 67489
   }
 }

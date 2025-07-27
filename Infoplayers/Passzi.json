@@ -22,23 +22,16 @@
       "lp": 890,
       "victorias": 441,
       "derrotas": 396,
-      "ultima_partida": 1753369889946
+      "ultima_partida": 1753530342162
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.148148148148148
-    },
-    {
-      "nombre": "Karma",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.388888888888889
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Bard",
@@ -48,32 +41,25 @@
       "kda_promedio": 4.916666666666667
     },
     {
-      "nombre": "Leona",
+      "nombre": "Karma",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.625
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 7.285714285714286
-    },
-    {
-      "nombre": "Pyke",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 1,
-      "victorias": 1,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.75
+      "kda_promedio": 11.333333333333334
     },
     {
       "nombre": "Blitzcrank",
@@ -95,12 +81,26 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 17,
-    "losses": 11,
-    "timePlayed": 44593
+    "games": 20,
+    "wins": 12,
+    "losses": 8,
+    "timePlayed": 31728
   }
 }

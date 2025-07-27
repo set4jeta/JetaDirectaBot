@@ -18,43 +18,36 @@
       "nivel": 161,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1003,
-      "victorias": 135,
+      "lp": 1022,
+      "victorias": 136,
       "derrotas": 96,
-      "ultima_partida": 1753446166714
+      "ultima_partida": 1753525073388
     },
     {
       "nombre": "Autumn Leaf#Seal",
       "nivel": 765,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1408,
-      "victorias": 202,
+      "lp": 1426,
+      "victorias": 203,
       "derrotas": 148,
-      "ultima_partida": 1753220171894
+      "ultima_partida": 1753522112127
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rakan",
-      "partidas": 5,
+      "nombre": "Neeko",
+      "partidas": 3,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 5.2105263157894735
+      "winrate": "100.0%",
+      "kda_promedio": 2.8125
     },
     {
-      "nombre": "Elise",
+      "nombre": "Rakan",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.8421052631578947
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5555555555555554
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "Alistar",
@@ -62,12 +55,26 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 7.333333333333333
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
-    "wins": 7,
-    "losses": 4,
-    "timePlayed": 18174
+    "games": 9,
+    "wins": 6,
+    "losses": 3,
+    "timePlayed": 14554
   }
 }

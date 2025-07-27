@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "xKenzuke",
     "nombre_real": "Serkan Atılgan",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Esprit Shōnen",
     "pais": "Germany",
     "contrato_hasta": null,
@@ -15,16 +15,6 @@
   },
   "cuentas": [
     {
-      "nombre": "TwitchTVxKenzuke#EUW",
-      "nivel": 287,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1197,
-      "victorias": 216,
-      "derrotas": 172,
-      "ultima_partida": 1753439456961
-    },
-    {
       "nombre": "xKenzuke#1453",
       "nivel": 944,
       "region": "EUW1",
@@ -32,7 +22,17 @@
       "lp": 1212,
       "victorias": 142,
       "derrotas": 92,
-      "ultima_partida": 1753400497806
+      "ultima_partida": 1753573172706
+    },
+    {
+      "nombre": "TwitchTVxKenzuke#EUW",
+      "nivel": 287,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1216,
+      "victorias": 217,
+      "derrotas": 172,
+      "ultima_partida": 1753522112127
     }
   ],
   "campeones_recientes": [
@@ -44,13 +44,6 @@
       "kda_promedio": 1.6382978723404256
     },
     {
-      "nombre": "Syndra",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.1538461538461537
-    },
-    {
       "nombre": "Hwei",
       "partidas": 5,
       "victorias": 1,
@@ -58,11 +51,11 @@
       "kda_promedio": 1.6486486486486487
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Syndra",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8571428571428572
     },
     {
       "nombre": "Azir",
@@ -72,11 +65,25 @@
       "kda_promedio": 1.7333333333333334
     },
     {
-      "nombre": "Gragas",
+      "nombre": "Taliyah",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.631578947368421
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
     },
     {
       "nombre": "Vladimir",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.2857142857142856
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 21,
+    "games": 39,
+    "wins": 18,
     "losses": 21,
-    "timePlayed": 68930
+    "timePlayed": 64685
   }
 }

@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "Era Istrefi#EUW",
-      "nivel": 172,
+      "nivel": 173,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 534,
-      "victorias": 253,
-      "derrotas": 206,
-      "ultima_partida": 1753478759783
+      "lp": 574,
+      "victorias": 263,
+      "derrotas": 213,
+      "ultima_partida": 1753576413912
     },
     {
       "nombre": "Αrt The Clοwn#EUW",
-      "nivel": 624,
+      "nivel": 625,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 805,
-      "victorias": 250,
+      "lp": 824,
+      "victorias": 251,
       "derrotas": 213,
-      "ultima_partida": 1753473751873
+      "ultima_partida": 1753560017316
     },
     {
       "nombre": "DynamiteLarry63#EUW",
@@ -48,24 +48,38 @@
   "campeones_recientes": [
     {
       "nombre": "Twitch",
-      "partidas": 66,
-      "victorias": 44,
-      "winrate": "66.7%",
-      "kda_promedio": 3.466867469879518
+      "partidas": 73,
+      "victorias": 47,
+      "winrate": "64.4%",
+      "kda_promedio": 3.2088772845953004
     },
     {
       "nombre": "Jhin",
-      "partidas": 24,
-      "victorias": 10,
-      "winrate": "41.7%",
-      "kda_promedio": 3.409090909090909
+      "partidas": 19,
+      "victorias": 8,
+      "winrate": "42.1%",
+      "kda_promedio": 3.1979166666666665
     },
     {
       "nombre": "Sivir",
-      "partidas": 20,
+      "partidas": 19,
       "victorias": 11,
-      "winrate": "55.0%",
-      "kda_promedio": 3.4597701149425286
+      "winrate": "57.9%",
+      "kda_promedio": 3.369047619047619
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 2.764705882352941
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 2.8133333333333335
     },
     {
       "nombre": "Ashe",
@@ -76,51 +90,37 @@
     },
     {
       "nombre": "Senna",
-      "partidas": 12,
+      "partidas": 10,
       "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3.76271186440678
+      "winrate": "80.0%",
+      "kda_promedio": 4.0625
     },
     {
-      "nombre": "Smolder",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8115942028985508
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 2.892857142857143
+      "nombre": "Milio",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 6.684210526315789
     },
     {
       "nombre": "Brand",
       "partidas": 7,
       "victorias": 4,
       "winrate": "57.1%",
-      "kda_promedio": 3.375
-    },
-    {
-      "nombre": "Milio",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 6.315789473684211
+      "kda_promedio": 3.3157894736842106
     },
     {
       "nombre": "Yuumi",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 5.064516129032258
+      "winrate": "50.0%",
+      "kda_promedio": 5.730769230769231
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 193,
-    "wins": 105,
-    "losses": 88,
-    "timePlayed": 323818
+    "games": 192,
+    "wins": 110,
+    "losses": 82,
+    "timePlayed": 318341
   }
 }

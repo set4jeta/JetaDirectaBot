@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "KOREA TEST ACC#RANK1",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 279,
+      "victorias": 70,
+      "derrotas": 16,
+      "ultima_partida": 1753537400510
+    },
+    {
       "nombre": "NattyNatt#2005",
       "nivel": 1138,
       "region": "EUW1",
@@ -23,32 +33,22 @@
       "victorias": 612,
       "derrotas": 518,
       "ultima_partida": 1753310751871
-    },
-    {
-      "nombre": "KOREA TEST ACC#RANK1",
-      "nivel": 47,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 163,
-      "victorias": 65,
-      "derrotas": 15,
-      "ultima_partida": 1753019833995
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rengar",
-      "partidas": 17,
-      "victorias": 11,
-      "winrate": "64.7%",
-      "kda_promedio": 3.197802197802198
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.619718309859155
     },
     {
       "nombre": "DrMundo",
-      "partidas": 16,
-      "victorias": 7,
-      "winrate": "43.8%",
-      "kda_promedio": 3.242857142857143
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 4.017857142857143
     },
     {
       "nombre": "Viego",
@@ -56,6 +56,13 @@
       "victorias": 5,
       "winrate": "83.3%",
       "kda_promedio": 3.4827586206896552
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 13.5
     },
     {
       "nombre": "Nidalee",
@@ -72,18 +79,11 @@
       "kda_promedio": 3.347826086956522
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 17.8
-    },
-    {
-      "nombre": "LeeSin",
+      "nombre": "Ekko",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.388888888888889
+      "kda_promedio": 2.212121212121212
     },
     {
       "nombre": "XinZhao",
@@ -93,11 +93,11 @@
       "kda_promedio": 5.235294117647059
     },
     {
-      "nombre": "Ekko",
+      "nombre": "LeeSin",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9259259259259258
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.666666666666667
     },
     {
       "nombre": "MonkeyKing",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 69,
-    "losses": 28,
-    "timePlayed": 153228
+    "games": 95,
+    "wins": 73,
+    "losses": 22,
+    "timePlayed": 150066
   }
 }

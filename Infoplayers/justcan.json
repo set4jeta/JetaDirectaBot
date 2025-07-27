@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "justcan",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/justcan_lol",
+      "twitch": "https://www.twitch.tv/justcanlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "justcan#00000",
+      "nivel": 217,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 670,
+      "victorias": 181,
+      "derrotas": 145,
+      "ultima_partida": 1753573409511
+    },
+    {
+      "nombre": "no chat justcan#deaf",
+      "nivel": 371,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 97,
+      "victorias": 94,
+      "derrotas": 86,
+      "ultima_partida": 1753535473176
+    },
+    {
+      "nombre": "justcant#EUW",
+      "nivel": 189,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 766,
+      "victorias": 259,
+      "derrotas": 220,
+      "ultima_partida": 1753429773505
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 23,
+      "victorias": 15,
+      "winrate": "65.2%",
+      "kda_promedio": 4.373831775700935
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.2641509433962264
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.078125
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 5.419354838709677
+    },
+    {
+      "nombre": "Shaco",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 1.9807692307692308
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.878787878787879
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9130434782608696
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7777777777777777
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 94,
+    "wins": 53,
+    "losses": 41,
+    "timePlayed": 146707
+  }
+}

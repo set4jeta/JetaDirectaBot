@@ -19,10 +19,10 @@
       "nivel": 298,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 852,
-      "victorias": 231,
-      "derrotas": 197,
-      "ultima_partida": 1753461551468
+      "lp": 869,
+      "victorias": 233,
+      "derrotas": 198,
+      "ultima_partida": 1753550311365
     },
     {
       "nombre": "Nsurr#EUWFR",
@@ -38,10 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3.409090909090909
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.588235294117647
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 5.947368421052632
     },
     {
       "nombre": "Karma",
@@ -51,11 +58,11 @@
       "kda_promedio": 2.0526315789473686
     },
     {
-      "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 4,
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 6.769230769230769
+      "kda_promedio": 4.6923076923076925
     },
     {
       "nombre": "Neeko",
@@ -65,13 +72,6 @@
       "kda_promedio": 3.5555555555555554
     },
     {
-      "nombre": "Thresh",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.8333333333333335
-    },
-    {
       "nombre": "Bard",
       "partidas": 1,
       "victorias": 0,
@@ -79,31 +79,17 @@
       "kda_promedio": 1.5
     },
     {
-      "nombre": "Lulu",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.8
-    },
-    {
       "nombre": "Nami",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4285714285714286
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
-    "wins": 15,
-    "losses": 8,
-    "timePlayed": 37653
+    "games": 22,
+    "wins": 16,
+    "losses": 6,
+    "timePlayed": 35460
   }
 }

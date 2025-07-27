@@ -15,20 +15,20 @@
   "cuentas": [
     {
       "nombre": "FLY Gakgos#F L Y",
-      "nivel": 44,
+      "nivel": 45,
       "region": "NA1",
       "liga": "CHALLENGER I",
-      "lp": 888,
-      "victorias": 93,
-      "derrotas": 38,
-      "ultima_partida": 1753468720918
+      "lp": 860,
+      "victorias": 101,
+      "derrotas": 48,
+      "ultima_partida": 1753592821849
     },
     {
       "nombre": "Never Ending#Moses",
       "nivel": 791,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1428,
+      "lp": 1278,
       "victorias": 495,
       "derrotas": 424,
       "ultima_partida": 1752098932438
@@ -37,66 +37,66 @@
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 22,
-      "victorias": 20,
-      "winrate": "90.9%",
-      "kda_promedio": 4.185185185185185
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 16,
-      "victorias": 10,
-      "winrate": "62.5%",
-      "kda_promedio": 2.689655172413793
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 3.325
+      "partidas": 21,
+      "victorias": 19,
+      "winrate": "90.5%",
+      "kda_promedio": 3.662921348314607
     },
     {
       "nombre": "Gwen",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.1904761904761907
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 2.1857142857142855
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Jayce",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 2.643835616438356
+    },
+    {
+      "nombre": "Jax",
       "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.973684210526316
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.090909090909091
     },
     {
       "nombre": "Vladimir",
       "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.6818181818181817
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1739130434782608
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.9393939393939394
     },
     {
       "nombre": "Irelia",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 3.4285714285714284
+      "winrate": "77.8%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0344827586206895
     },
     {
       "nombre": "Yone",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.7142857142857144
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.1818181818181817
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
     },
     {
       "nombre": "Vayne",
@@ -108,8 +108,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 131,
-    "wins": 93,
-    "losses": 38,
-    "timePlayed": 208429
+    "wins": 87,
+    "losses": 44,
+    "timePlayed": 207103
   }
 }

@@ -15,29 +15,29 @@
   "cuentas": [
     {
       "nombre": "Nio#Nii",
-      "nivel": 1364,
+      "nivel": 1365,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1271,
-      "victorias": 888,
-      "derrotas": 826,
-      "ultima_partida": 1753398958330
+      "lp": 1248,
+      "victorias": 890,
+      "derrotas": 829,
+      "ultima_partida": 1753484666636
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 13,
+      "partidas": 14,
       "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.4742268041237114
+      "winrate": "50.0%",
+      "kda_promedio": 2.4150943396226414
     },
     {
       "nombre": "Nami",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.830508474576271
+      "winrate": "62.5%",
+      "kda_promedio": 3.2708333333333335
     },
     {
       "nombre": "Pantheon",
@@ -54,18 +54,18 @@
       "kda_promedio": 3.1333333333333333
     },
     {
-      "nombre": "Elise",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0588235294117645
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.95
     },
     {
-      "nombre": "Karma",
+      "nombre": "Elise",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1764705882352942
+      "kda_promedio": 1.1176470588235294
     },
     {
       "nombre": "Alistar",
@@ -75,11 +75,18 @@
       "kda_promedio": 4.333333333333333
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Karma",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.25
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.375
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Ornn",
@@ -87,19 +94,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 21,
-    "losses": 18,
-    "timePlayed": 65135
+    "games": 41,
+    "wins": 22,
+    "losses": 19,
+    "timePlayed": 66307
   }
 }

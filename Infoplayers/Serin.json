@@ -5,7 +5,7 @@
     "edad": 23,
     "equipo": "Galions",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Serinlol",
       "twitch": "https://twitch.tv/serinlol12"
@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "SeRiN1#EUW",
-      "nivel": 1484,
+      "nivel": 1485,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1208,
-      "victorias": 338,
-      "derrotas": 293,
-      "ultima_partida": 1753460011459
+      "lp": 1231,
+      "victorias": 342,
+      "derrotas": 296,
+      "ultima_partida": 1753563697243
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ryze",
       "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.236842105263158
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 2.537313432835821
     },
     {
       "nombre": "Aurora",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9259259259259258
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.388888888888889
     },
     {
       "nombre": "AurelionSol",
@@ -64,23 +64,30 @@
     {
       "nombre": "Zed",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.696969696969697
     },
     {
       "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3214285714285714
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.222222222222222
+    },
+    {
+      "nombre": "Akali",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.7058823529411764
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.285714285714286
+      "kda_promedio": 2.75
     },
     {
       "nombre": "Taliyah",
@@ -88,19 +95,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 4.5
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.090909090909091
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 32,
-    "losses": 29,
-    "timePlayed": 98806
+    "games": 60,
+    "wins": 33,
+    "losses": 27,
+    "timePlayed": 96564
   }
 }

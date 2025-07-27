@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Varus",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.7666666666666666
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Zeri",
@@ -76,13 +76,6 @@
       "kda_promedio": 2.25
     },
     {
-      "nombre": "Caitlyn",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5
-    },
-    {
       "nombre": "Jinx",
       "partidas": 1,
       "victorias": 0,
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 7
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
-    "wins": 21,
+    "games": 35,
+    "wins": 19,
     "losses": 16,
-    "timePlayed": 61001
+    "timePlayed": 57974
   }
 }

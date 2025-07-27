@@ -12,6 +12,16 @@
   },
   "cuentas": [
     {
+      "nombre": "EXA D1verse#Tacos",
+      "nivel": 585,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 756,
+      "victorias": 120,
+      "derrotas": 76,
+      "ultima_partida": 1753564926958
+    },
+    {
       "nombre": "Not QuiteMyTempo#Kebab",
       "nivel": 648,
       "region": "EUW1",
@@ -20,46 +30,36 @@
       "victorias": 237,
       "derrotas": 207,
       "ultima_partida": 1753457762449
-    },
-    {
-      "nombre": "EXA D1verse#Tacos",
-      "nivel": 584,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 768,
-      "victorias": 114,
-      "derrotas": 70,
-      "ultima_partida": 1753377897345
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "TwistedFate",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.242424242424242
-    },
-    {
       "nombre": "Viego",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 6.153846153846154
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 4.931034482758621
     },
     {
       "nombre": "Azir",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.0666666666666667
+      "winrate": "50.0%",
+      "kda_promedio": 1.0833333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.454545454545454
     },
     {
       "nombre": "Vladimir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.2777777777777777
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8461538461538463
     },
     {
       "nombre": "Yasuo",
@@ -76,11 +76,11 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Kayle",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 1.6666666666666667
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.111111111111111
     },
     {
       "nombre": "Talon",
@@ -97,17 +97,17 @@
       "kda_promedio": 3.909090909090909
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4545454545454546
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3636363636363638
     }
   ],
   "estadisticas_2_semanas": {
     "games": 49,
-    "wins": 30,
-    "losses": 19,
-    "timePlayed": 78686
+    "wins": 31,
+    "losses": 18,
+    "timePlayed": 76933
   }
 }

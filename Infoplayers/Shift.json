@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "twtv shiftlol5#2005",
-      "nivel": 55,
+      "nivel": 57,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 758,
-      "victorias": 132,
-      "derrotas": 64,
-      "ultima_partida": 1753453977576
+      "lp": 804,
+      "victorias": 139,
+      "derrotas": 69,
+      "ultima_partida": 1753560975919
     },
     {
       "nombre": "Shift#kaipo",
@@ -55,31 +55,31 @@
     },
     {
       "nombre": "Pantheon",
-      "partidas": 6,
+      "partidas": 8,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.44
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 4.2
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.0476190476190474
+      "winrate": "50.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 4.777777777777778
     },
     {
       "nombre": "JarvanIV",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.6363636363636362
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Sylas",
@@ -89,11 +89,18 @@
       "kda_promedio": 1.434782608695652
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Vi",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 4.352941176470588
+      "kda_promedio": 3.3846153846153846
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.133333333333334
     },
     {
       "nombre": "Zed",
@@ -105,22 +112,15 @@
     {
       "nombre": "Ekko",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9166666666666667
-    },
-    {
-      "nombre": "Kassadin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
+      "victorias": 0,
+      "winrate": "0.0%",
       "kda_promedio": 1.6666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 25,
-    "losses": 29,
-    "timePlayed": 88133
+    "games": 61,
+    "wins": 28,
+    "losses": 33,
+    "timePlayed": 99590
   }
 }

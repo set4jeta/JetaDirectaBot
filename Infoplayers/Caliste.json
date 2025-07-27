@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "KC NEXT ADKING#EUW",
+      "nivel": 668,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1862,
+      "victorias": 301,
+      "derrotas": 208,
+      "ultima_partida": 1753563898608
+    },
+    {
       "nombre": "I NEED SOLOQ#EUW",
       "nivel": 227,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 137,
       "derrotas": 74,
       "ultima_partida": 1753438506559
-    },
-    {
-      "nombre": "KC NEXT ADKING#EUW",
-      "nivel": 668,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1825,
-      "victorias": 298,
-      "derrotas": 207,
-      "ultima_partida": 1753288259327
     },
     {
       "nombre": "KC Caliste#0001",
@@ -48,17 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 13,
+      "partidas": 14,
       "victorias": 10,
-      "winrate": "76.9%",
-      "kda_promedio": 4.411764705882353
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.566666666666667
+      "winrate": "71.4%",
+      "kda_promedio": 4.035087719298246
     },
     {
       "nombre": "Aphelios",
@@ -75,6 +68,20 @@
       "kda_promedio": 3.9
     },
     {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.583333333333333
+    },
+    {
       "nombre": "Kaisa",
       "partidas": 4,
       "victorias": 2,
@@ -82,25 +89,11 @@
       "kda_promedio": 3.125
     },
     {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 10.6
-    },
-    {
       "nombre": "Senna",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.75
     },
     {
       "nombre": "Ziggs",
@@ -115,12 +108,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.75
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
     "games": 57,
-    "wins": 33,
-    "losses": 24,
-    "timePlayed": 87842
+    "wins": 35,
+    "losses": 22,
+    "timePlayed": 88530
   }
 }

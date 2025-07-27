@@ -5,7 +5,7 @@
     "edad": 25,
     "equipo": "Eintracht Frankfurt",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Veignorem_lol",
       "twitch": "https://twitch.tv/veignorem"
@@ -19,10 +19,10 @@
       "nivel": 1199,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 877,
-      "victorias": 338,
+      "lp": 897,
+      "victorias": 339,
       "derrotas": 308,
-      "ultima_partida": 1753189283829
+      "ultima_partida": 1753574484074
     },
     {
       "nombre": "Veignorenn#EUW",
@@ -55,24 +55,17 @@
     },
     {
       "nombre": "Lulu",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 6.333333333333333
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 6
     },
     {
       "nombre": "Nautilus",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3333333333333335
+      "winrate": "25.0%",
+      "kda_promedio": 2.8846153846153846
     },
     {
       "nombre": "Rell",
@@ -87,6 +80,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 4
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 23
     },
     {
       "nombre": "Leona",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 14,
-    "losses": 14,
-    "timePlayed": 45582
+    "games": 25,
+    "wins": 13,
+    "losses": 12,
+    "timePlayed": 39688
   }
 }

@@ -2,10 +2,10 @@
   "info_jugador": {
     "nombre": "DenVoksne",
     "nombre_real": "Nikolaj&nbsp;Asbjorn Meilby",
-    "edad": 23,
+    "edad": 24,
     "equipo": "Unicorns of Love Sexy Edition",
     "pais": "Denmark",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/DenVoksneLoL",
       "twitch": "https://www.twitch.tv/denvoksne"
@@ -16,46 +16,46 @@
   "cuentas": [
     {
       "nombre": "Mαster Oogwαy#EUW",
-      "nivel": 322,
+      "nivel": 324,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1361,
-      "victorias": 173,
-      "derrotas": 105,
-      "ultima_partida": 1753438851285
+      "lp": 1469,
+      "victorias": 184,
+      "derrotas": 110,
+      "ultima_partida": 1753568954993
     },
     {
       "nombre": "Ignacarious#5232",
       "nivel": 797,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1502,
+      "lp": 1482,
       "victorias": 322,
-      "derrotas": 258,
-      "ultima_partida": 1753126617073
+      "derrotas": 259,
+      "ultima_partida": 1753524862132
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 29,
-      "victorias": 22,
-      "winrate": "75.9%",
-      "kda_promedio": 3.97
+      "partidas": 37,
+      "victorias": 28,
+      "winrate": "75.7%",
+      "kda_promedio": 4.2265625
     },
     {
       "nombre": "Draven",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.878787878787879
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.6486486486486487
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Corki",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 3.3
+      "kda_promedio": 3.782608695652174
     },
     {
       "nombre": "MissFortune",
@@ -65,18 +65,32 @@
       "kda_promedio": 3.074074074074074
     },
     {
-      "nombre": "Corki",
-      "partidas": 4,
+      "nombre": "Lucian",
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.75
+      "winrate": "40.0%",
+      "kda_promedio": 2.9583333333333335
     },
     {
       "nombre": "Ezreal",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.1818181818181817
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
     },
     {
       "nombre": "Kaisa",
@@ -86,31 +100,17 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Tristana",
+      "nombre": "Senna",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.3636363636363638
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 81,
-    "wins": 50,
-    "losses": 31,
-    "timePlayed": 128997
+    "games": 93,
+    "wins": 57,
+    "losses": 36,
+    "timePlayed": 146813
   }
 }

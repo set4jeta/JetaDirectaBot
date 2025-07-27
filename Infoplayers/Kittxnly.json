@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Nami",
-      "partidas": 25,
+      "partidas": 23,
       "victorias": 8,
-      "winrate": "32.0%",
-      "kda_promedio": 2.937888198757764
+      "winrate": "34.8%",
+      "kda_promedio": 3.0069444444444446
     },
     {
       "nombre": "Soraka",
@@ -66,9 +66,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
+    "games": 49,
     "wins": 23,
-    "losses": 28,
-    "timePlayed": 83940
+    "losses": 26,
+    "timePlayed": 80105
   }
 }

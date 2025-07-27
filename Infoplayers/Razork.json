@@ -22,17 +22,17 @@
       "lp": 1377,
       "victorias": 214,
       "derrotas": 139,
-      "ultima_partida": 1753478583313
+      "ultima_partida": 1753559391357
     },
     {
       "nombre": "Mu Yanling#Sky",
       "nivel": 35,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 357,
+      "lp": 341,
       "victorias": 38,
-      "derrotas": 5,
-      "ultima_partida": 1753385960500
+      "derrotas": 6,
+      "ultima_partida": 1753524610555
     },
     {
       "nombre": "Cachorro Alpha#razzz",
@@ -47,13 +47,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
-      "partidas": 9,
-      "victorias": 8,
-      "winrate": "88.9%",
-      "kda_promedio": 6
-    },
-    {
       "nombre": "MonkeyKing",
       "partidas": 8,
       "victorias": 6,
@@ -61,11 +54,18 @@
       "kda_promedio": 3.1219512195121952
     },
     {
-      "nombre": "JarvanIV",
+      "nombre": "Zed",
       "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 4.695652173913044
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.782608695652174
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.8636363636363638
     },
     {
       "nombre": "Viego",
@@ -82,18 +82,11 @@
       "kda_promedio": 2.5
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 11.5
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 9.285714285714286
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.2
     },
     {
       "nombre": "Trundle",
@@ -103,11 +96,18 @@
       "kda_promedio": 5.625
     },
     {
-      "nombre": "Nocturne",
+      "nombre": "LeeSin",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 15
+      "kda_promedio": 9.75
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
     },
     {
       "nombre": "Poppy",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 40,
-    "losses": 8,
-    "timePlayed": 71322
+    "games": 43,
+    "wins": 34,
+    "losses": 9,
+    "timePlayed": 65577
   }
 }

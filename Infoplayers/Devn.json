@@ -19,50 +19,50 @@
       "nivel": 1035,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1147,
-      "victorias": 492,
+      "lp": 1180,
+      "victorias": 494,
       "derrotas": 436,
-      "ultima_partida": 1753446166714
+      "ultima_partida": 1753525624207
     },
     {
       "nombre": "Yarack Odama#EUW",
       "nivel": 112,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 590,
-      "victorias": 84,
+      "lp": 612,
+      "victorias": 85,
       "derrotas": 53,
-      "ultima_partida": 1753279628717
+      "ultima_partida": 1753520524610
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "MissFortune",
-      "partidas": 17,
-      "victorias": 14,
-      "winrate": "82.4%",
-      "kda_promedio": 4.39622641509434
+      "partidas": 15,
+      "victorias": 12,
+      "winrate": "80.0%",
+      "kda_promedio": 4.12
     },
     {
       "nombre": "Aphelios",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.8571428571428572
+      "winrate": "62.5%",
+      "kda_promedio": 2.3157894736842106
     },
     {
       "nombre": "Corki",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.75
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.08
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Senna",
       "partidas": 7,
       "victorias": 4,
       "winrate": "57.1%",
-      "kda_promedio": 4.1923076923076925
+      "kda_promedio": 2.411764705882353
     },
     {
       "nombre": "Sivir",
@@ -72,18 +72,11 @@
       "kda_promedio": 3.45
     },
     {
-      "nombre": "Senna",
+      "nombre": "Jhin",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 2.3548387096774195
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9285714285714284
+      "kda_promedio": 4.041666666666667
     },
     {
       "nombre": "Ezreal",
@@ -93,11 +86,11 @@
       "kda_promedio": 3.0588235294117645
     },
     {
-      "nombre": "Sion",
-      "partidas": 2,
+      "nombre": "Lucian",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
+      "winrate": "33.3%",
+      "kda_promedio": 2.727272727272727
     },
     {
       "nombre": "Varus",
@@ -105,12 +98,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 41,
-    "losses": 29,
-    "timePlayed": 112943
+    "games": 66,
+    "wins": 38,
+    "losses": 28,
+    "timePlayed": 104901
   }
 }

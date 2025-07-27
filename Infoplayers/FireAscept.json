@@ -19,10 +19,10 @@
       "nivel": 571,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 794,
-      "victorias": 283,
+      "lp": 834,
+      "victorias": 285,
       "derrotas": 252,
-      "ultima_partida": 1753475537128
+      "ultima_partida": 1753561270135
     },
     {
       "nombre": "FireAscept#1013",
@@ -38,38 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 1.6704545454545454
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 1.7553191489361701
     },
     {
       "nombre": "Yone",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1447368421052633
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.1
     },
     {
-      "nombre": "Annie",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.260869565217391
-    },
-    {
-      "nombre": "Azir",
+      "nombre": "Ryze",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.4848484848484849
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7619047619047619
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.3703703703703702
     },
     {
       "nombre": "Sylas",
@@ -86,18 +72,25 @@
       "kda_promedio": 2.2413793103448274
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Azir",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.4545454545454546
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5517241379310345
     },
     {
-      "nombre": "Ryze",
+      "nombre": "Ezreal",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.217391304347826
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.7714285714285714
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.6153846153846154
     },
     {
       "nombre": "Galio",
@@ -105,12 +98,19 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.5294117647058822
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.84
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 102,
-    "wins": 49,
-    "losses": 53,
-    "timePlayed": 165941
+    "games": 91,
+    "wins": 47,
+    "losses": 44,
+    "timePlayed": 149906
   }
 }

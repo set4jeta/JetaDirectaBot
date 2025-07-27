@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Furuy#EUW",
+      "nivel": 1070,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 849,
+      "victorias": 224,
+      "derrotas": 195,
+      "ultima_partida": 1753524157822
+    },
+    {
       "nombre": "Berry Bulk#BULK",
       "nivel": 316,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 199,
       "derrotas": 151,
       "ultima_partida": 1753468545951
-    },
-    {
-      "nombre": "Furuy#EUW",
-      "nivel": 1070,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 831,
-      "victorias": 222,
-      "derrotas": 194,
-      "ultima_partida": 1753396453989
     }
   ],
   "campeones_recientes": [
@@ -100,17 +100,17 @@
       "kda_promedio": 6.75
     },
     {
-      "nombre": "Orianna",
+      "nombre": "Kaisa",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.2
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.785714285714286
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 39,
-    "losses": 24,
-    "timePlayed": 100128
+    "games": 66,
+    "wins": 41,
+    "losses": 25,
+    "timePlayed": 104688
   }
 }

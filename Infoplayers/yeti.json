@@ -5,7 +5,7 @@
     "edad": 18,
     "equipo": "The Forbidden Five",
     "pais": "Poland",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Yetiilol1",
       "twitch": "https://www.twitch.tv/yetii112"
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "niezły yeti pl#hui",
-      "nivel": 751,
+      "nivel": 752,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 972,
-      "victorias": 249,
-      "derrotas": 208,
-      "ultima_partida": 1753474880534
+      "lp": 987,
+      "victorias": 251,
+      "derrotas": 209,
+      "ultima_partida": 1753532863198
     }
   ],
   "campeones_recientes": [
@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Sion",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.142857142857143
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.4444444444444446
     },
     {
       "nombre": "Chogath",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 36,
-    "wins": 20,
-    "losses": 16,
-    "timePlayed": 60443
+    "games": 39,
+    "wins": 22,
+    "losses": 17,
+    "timePlayed": 64532
   }
 }

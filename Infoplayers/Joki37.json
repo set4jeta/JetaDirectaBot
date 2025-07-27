@@ -62,13 +62,6 @@
       "kda_promedio": 2.2941176470588234
     },
     {
-      "nombre": "FiddleSticks",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2222222222222223
-    },
-    {
       "nombre": "JarvanIV",
       "partidas": 2,
       "victorias": 1,
@@ -102,12 +95,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3636363636363638
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 27,
+    "games": 49,
+    "wins": 26,
     "losses": 23,
-    "timePlayed": 79739
+    "timePlayed": 78987
   }
 }

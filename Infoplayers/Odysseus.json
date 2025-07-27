@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Imma touch you#131",
+      "nivel": 332,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 5,
+      "victorias": 148,
+      "derrotas": 134,
+      "ultima_partida": 1753498716061
+    },
+    {
       "nombre": "Odysseus#131",
       "nivel": 1357,
       "region": "EUW1",
@@ -22,17 +32,7 @@
       "lp": 1612,
       "victorias": 344,
       "derrotas": 270,
-      "ultima_partida": 1753400658487
-    },
-    {
-      "nombre": "Imma touch you#131",
-      "nivel": 332,
-      "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 147,
-      "derrotas": 134,
-      "ultima_partida": 1751930473986
+      "ultima_partida": 1753496763285
     },
     {
       "nombre": "LAMINE YAMAL#131",
@@ -83,12 +83,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 5,
+    "games": 10,
+    "wins": 6,
     "losses": 4,
-    "timePlayed": 16311
+    "timePlayed": 18027
   }
 }

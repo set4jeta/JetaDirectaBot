@@ -5,7 +5,7 @@
     "edad": 27,
     "equipo": "Eintracht Spandau",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/PowerOfEvilLoL",
       "twitch": "https://twitch.tv/powerofevil"
@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "ThePowerOfEvil#EUW",
+      "nivel": 636,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1281,
+      "victorias": 237,
+      "derrotas": 200,
+      "ultima_partida": 1753527764020
+    },
+    {
       "nombre": "ThePowerOfDevil#EUW",
       "nivel": 207,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 125,
       "derrotas": 75,
       "ultima_partida": 1753452714920
-    },
-    {
-      "nombre": "ThePowerOfEvil#EUW",
-      "nivel": 636,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1281,
-      "victorias": 237,
-      "derrotas": 200,
-      "ultima_partida": 1753209640463
     }
   ],
   "campeones_recientes": [
@@ -51,11 +51,11 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Syndra",
+      "nombre": "Senna",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.6153846153846154
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1951219512195124
     },
     {
       "nombre": "Yunara",
@@ -65,25 +65,18 @@
       "kda_promedio": 2.875
     },
     {
-      "nombre": "Mel",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.833333333333333
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.193548387096774
-    },
-    {
       "nombre": "Swain",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 3.4814814814814814
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Hwei",
@@ -93,6 +86,13 @@
       "kda_promedio": 2.347826086956522
     },
     {
+      "nombre": "Mel",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.9
+    },
+    {
       "nombre": "Smolder",
       "partidas": 3,
       "victorias": 1,
@@ -100,17 +100,17 @@
       "kda_promedio": 3.1333333333333333
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Azir",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.625
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
     }
   ],
   "estadisticas_2_semanas": {
     "games": 73,
-    "wins": 43,
-    "losses": 30,
-    "timePlayed": 122064
+    "wins": 41,
+    "losses": 32,
+    "timePlayed": 123470
   }
 }

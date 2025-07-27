@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Guertas",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Guertas_lol",
+      "twitch": "https://www.twitch.tv/guertastv"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MCON.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Guertas#13106",
+      "nivel": 959,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 782,
+      "victorias": 178,
+      "derrotas": 147,
+      "ultima_partida": 1753561339562
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.416666666666667
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.888888888888889
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 10,
+    "losses": 4,
+    "timePlayed": 25796
+  }
+}

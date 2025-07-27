@@ -19,36 +19,29 @@
       "nivel": 1024,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 825,
-      "victorias": 458,
-      "derrotas": 432,
-      "ultima_partida": 1753454034726
+      "lp": 798,
+      "victorias": 461,
+      "derrotas": 436,
+      "ultima_partida": 1753581321428
     },
     {
       "nombre": "Moula STEG#STEG",
       "nivel": 120,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 313,
+      "lp": 277,
       "victorias": 135,
-      "derrotas": 114,
-      "ultima_partida": 1752955684368
+      "derrotas": 116,
+      "ultima_partida": 1753544295481
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Taliyah",
-      "partidas": 19,
-      "victorias": 10,
-      "winrate": "52.6%",
-      "kda_promedio": 2.1885245901639343
-    },
-    {
-      "nombre": "Qiyana",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5692307692307694
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 1.9270833333333333
     },
     {
       "nombre": "Sylas",
@@ -59,38 +52,45 @@
     },
     {
       "nombre": "Akali",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6904761904761907
+      "winrate": "45.5%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.8181818181818183
     },
     {
       "nombre": "Aurora",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.105263157894737
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.7272727272727275
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4313725490196076
     },
     {
       "nombre": "Viego",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.185185185185185
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.2
     },
     {
       "nombre": "Hwei",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 1.6842105263157894
+      "kda_promedio": 1.9090909090909092
     },
     {
       "nombre": "Mel",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 92,
-    "wins": 51,
-    "losses": 41,
-    "timePlayed": 145378
+    "games": 94,
+    "wins": 50,
+    "losses": 44,
+    "timePlayed": 148546
   }
 }

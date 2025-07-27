@@ -1,0 +1,75 @@
+{
+  "info_jugador": {
+    "nombre": "Eson",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DIVE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BabtouElMordjené#twixy",
+      "nivel": 141,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 754,
+      "victorias": 245,
+      "derrotas": 204,
+      "ultima_partida": 1753480904572
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.9285714285714284
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.9375
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.714285714285714
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 15,
+    "losses": 4,
+    "timePlayed": 34020
+  }
+}

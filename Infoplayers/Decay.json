@@ -5,7 +5,7 @@
     "edad": 25,
     "equipo": "Solary",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/DecayLoL_",
       "twitch": "https://twitch.tv/decaylol"
@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Decay0#EUW",
-      "nivel": 1459,
+      "nivel": 1460,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1014,
-      "victorias": 533,
-      "derrotas": 488,
-      "ultima_partida": 1753455486719
+      "liga": "GRANDMASTER I",
+      "lp": 991,
+      "victorias": 538,
+      "derrotas": 494,
+      "ultima_partida": 1753564731166
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Annie",
-      "partidas": 17,
-      "victorias": 9,
-      "winrate": "52.9%",
-      "kda_promedio": 3.737704918032787
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6551724137931036
     },
     {
       "nombre": "Ahri",
@@ -41,25 +41,18 @@
       "kda_promedio": 6.705882352941177
     },
     {
-      "nombre": "TwistedFate",
+      "nombre": "Aurora",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Ryze",
       "partidas": 7,
       "victorias": 3,
       "winrate": "42.9%",
-      "kda_promedio": 2.6097560975609757
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.3846153846153846
-    },
-    {
-      "nombre": "Leblanc",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.523809523809524
+      "kda_promedio": 5.238095238095238
     },
     {
       "nombre": "MissFortune",
@@ -69,18 +62,32 @@
       "kda_promedio": 0.9761904761904762
     },
     {
-      "nombre": "Ryze",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.666666666666667
-    },
-    {
       "nombre": "Sylas",
       "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 5,
       "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.461538461538462
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 4,
+      "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.4411764705882355
+      "kda_promedio": 4.714285714285714
     },
     {
       "nombre": "Nautilus",
@@ -88,19 +95,12 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.107142857142857
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.92
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 88,
-    "wins": 41,
-    "losses": 47,
-    "timePlayed": 144721
+    "games": 91,
+    "wins": 42,
+    "losses": 49,
+    "timePlayed": 153056
   }
 }

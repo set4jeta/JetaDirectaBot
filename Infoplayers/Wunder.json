@@ -7,13 +7,23 @@
     "pais": "Denmark",
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://twitter.com/wunderlol",
-      "twitch": "https://twitch.tv/wunderlol"
+      "twitter": "https://www.twitter.com/wunderlol",
+      "twitch": "https://www.twitch.tv/wunderlol"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/wunder.webp",
     "logo_equipo": null
   },
   "cuentas": [
+    {
+      "nombre": "notgoodenough#1SEPT",
+      "nivel": 96,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 167,
+      "derrotas": 112,
+      "ultima_partida": 1753482519660
+    },
     {
       "nombre": "Wunderwear#GOAT",
       "nivel": 523,
@@ -23,16 +33,6 @@
       "victorias": 194,
       "derrotas": 165,
       "ultima_partida": 1753458007885
-    },
-    {
-      "nombre": "notgoodenough#1SEPT",
-      "nivel": 96,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 793,
-      "victorias": 167,
-      "derrotas": 111,
-      "ultima_partida": 1753286595281
     }
   ],
   "campeones_recientes": [
@@ -44,13 +44,6 @@
       "kda_promedio": 2.111111111111111
     },
     {
-      "nombre": "Gangplank",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.0434782608695654
-    },
-    {
       "nombre": "Jayce",
       "partidas": 6,
       "victorias": 5,
@@ -58,18 +51,25 @@
       "kda_promedio": 2.8333333333333335
     },
     {
-      "nombre": "Ambessa",
+      "nombre": "Gangplank",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.0952380952380953
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.6842105263157894
     },
     {
       "nombre": "Gwen",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.34375
+      "winrate": "25.0%",
+      "kda_promedio": 1.2962962962962963
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4210526315789473
     },
     {
       "nombre": "Aurora",
@@ -88,9 +88,9 @@
     {
       "nombre": "TwistedFate",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 1.8666666666666667
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 0.95
     },
     {
       "nombre": "Aatrox",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 69,
-    "wins": 37,
-    "losses": 32,
-    "timePlayed": 107148
+    "games": 64,
+    "wins": 33,
+    "losses": 31,
+    "timePlayed": 99796
   }
 }

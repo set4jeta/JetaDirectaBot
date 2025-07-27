@@ -16,29 +16,36 @@
   "cuentas": [
     {
       "nombre": "noobtopp#noob",
-      "nivel": 606,
+      "nivel": 607,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 847,
-      "victorias": 305,
-      "derrotas": 268,
-      "ultima_partida": 1753455596981
+      "lp": 860,
+      "victorias": 309,
+      "derrotas": 271,
+      "ultima_partida": 1753538314737
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 20,
-      "victorias": 11,
-      "winrate": "55.0%",
-      "kda_promedio": 2.102803738317757
+      "partidas": 21,
+      "victorias": 12,
+      "winrate": "57.1%",
+      "kda_promedio": 2.0350877192982457
     },
     {
       "nombre": "Ambessa",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4210526315789473
+    },
+    {
+      "nombre": "Jax",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.588235294117647
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6363636363636365
     },
     {
       "nombre": "Aatrox",
@@ -48,18 +55,18 @@
       "kda_promedio": 2.357142857142857
     },
     {
-      "nombre": "Jax",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.5
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.230769230769231
     },
     {
       "nombre": "Jayce",
-      "partidas": 5,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.2758620689655173
+      "winrate": "66.7%",
+      "kda_promedio": 1.6875
     },
     {
       "nombre": "Renekton",
@@ -76,13 +83,6 @@
       "kda_promedio": 2.176470588235294
     },
     {
-      "nombre": "Sion",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4285714285714284
-    },
-    {
       "nombre": "Galio",
       "partidas": 1,
       "victorias": 1,
@@ -91,9 +91,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 30,
-    "losses": 22,
-    "timePlayed": 81411
+    "games": 57,
+    "wins": 34,
+    "losses": 23,
+    "timePlayed": 87148
   }
 }

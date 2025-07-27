@@ -2702,5 +2702,675 @@
     },
     "createTime": "2025-07-25T11:09:14.842328Z",
     "updateTime": "2025-07-25T11:30:06.494787Z"
+  },
+  "113503500599535404": {
+    "name": "projects/lolesports-ink/databases/(default)/documents/games/113503500599535404",
+    "fields": {
+      "frame": {
+        "stringValue": "[1634880,\"in_game\",[48481,8,4,0,[\"hextech\",\"ocean\",\"infernal\"],0,[[1,15,4,1,3,10491,1,222,[3068,3364,2502,3174,1057,1011]],[2,14,2,1,4,9548,1,194,[3364,6610,3111,3065,1031]],[3,16,1,1,5,10729,1,265,[1056,3115,3363,3111,3157,1052,1058]],[4,15,1,0,7,11366,1,286,[1055,3032,3363,6675,1038,1037,3172]],[5,9,0,0,8,6347,1,27,[3364,3190,3047,2055,1029,3067]]]],[44937,3,2,0,[],0,[[6,15,0,1,1,9741,1,246,[1054,6692,3071,3133,3111,3363,1037]],[7,13,0,1,3,8422,1,173,[6610,3071,3047,1036,2055,2055]],[8,14,2,2,0,9848,1,243,[1056,1082,6653,3020,8010,3364]],[9,14,1,2,2,10968,1,263,[6672,3363,3006,3124,3115]],[10,9,0,2,3,5958,1,36,[3364,3190,3111,3067,1004,2055,2055]]]]]"
+      },
+      "goldDiff": {
+        "arrayValue": {
+          "values": [
+            {
+              "stringValue": "[4910,0]"
+            },
+            {
+              "stringValue": "[14899,0]"
+            },
+            {
+              "stringValue": "[24887,0]"
+            },
+            {
+              "stringValue": "[34910,0]"
+            },
+            {
+              "stringValue": "[44898,0]"
+            },
+            {
+              "stringValue": "[54886,0]"
+            },
+            {
+              "stringValue": "[64917,-5]"
+            },
+            {
+              "stringValue": "[74903,0]"
+            },
+            {
+              "stringValue": "[84891,5]"
+            },
+            {
+              "stringValue": "[94913,15]"
+            },
+            {
+              "stringValue": "[104901,91]"
+            },
+            {
+              "stringValue": "[114889,-14]"
+            },
+            {
+              "stringValue": "[124909,-15]"
+            },
+            {
+              "stringValue": "[134896,57]"
+            },
+            {
+              "stringValue": "[144884,113]"
+            },
+            {
+              "stringValue": "[154904,8]"
+            },
+            {
+              "stringValue": "[164891,16]"
+            },
+            {
+              "stringValue": "[174911,-13]"
+            },
+            {
+              "stringValue": "[184905,-11]"
+            },
+            {
+              "stringValue": "[194897,14]"
+            },
+            {
+              "stringValue": "[204884,75]"
+            },
+            {
+              "stringValue": "[214904,229]"
+            },
+            {
+              "stringValue": "[224892,103]"
+            },
+            {
+              "stringValue": "[234913,110]"
+            },
+            {
+              "stringValue": "[244900,79]"
+            },
+            {
+              "stringValue": "[254887,22]"
+            },
+            {
+              "stringValue": "[264907,92]"
+            },
+            {
+              "stringValue": "[274929,197]"
+            },
+            {
+              "stringValue": "[284915,235]"
+            },
+            {
+              "stringValue": "[294903,178]"
+            },
+            {
+              "stringValue": "[304909,242]"
+            },
+            {
+              "stringValue": "[314896,175]"
+            },
+            {
+              "stringValue": "[324916,333]"
+            },
+            {
+              "stringValue": "[334904,203]"
+            },
+            {
+              "stringValue": "[344892,418]"
+            },
+            {
+              "stringValue": "[354914,394]"
+            },
+            {
+              "stringValue": "[364901,345]"
+            },
+            {
+              "stringValue": "[374889,525]"
+            },
+            {
+              "stringValue": "[384910,361]"
+            },
+            {
+              "stringValue": "[394896,521]"
+            },
+            {
+              "stringValue": "[404884,484]"
+            },
+            {
+              "stringValue": "[414904,497]"
+            },
+            {
+              "stringValue": "[424913,429]"
+            },
+            {
+              "stringValue": "[434900,587]"
+            },
+            {
+              "stringValue": "[444889,283]"
+            },
+            {
+              "stringValue": "[454910,376]"
+            },
+            {
+              "stringValue": "[464897,316]"
+            },
+            {
+              "stringValue": "[474884,389]"
+            },
+            {
+              "stringValue": "[484906,536]"
+            },
+            {
+              "stringValue": "[494895,655]"
+            },
+            {
+              "stringValue": "[504882,667]"
+            },
+            {
+              "stringValue": "[514903,764]"
+            },
+            {
+              "stringValue": "[524890,695]"
+            },
+            {
+              "stringValue": "[534909,648]"
+            },
+            {
+              "stringValue": "[544888,610]"
+            },
+            {
+              "stringValue": "[554909,536]"
+            },
+            {
+              "stringValue": "[564897,526]"
+            },
+            {
+              "stringValue": "[574883,401]"
+            },
+            {
+              "stringValue": "[584902,643]"
+            },
+            {
+              "stringValue": "[594889,696]"
+            },
+            {
+              "stringValue": "[604944,748]"
+            },
+            {
+              "stringValue": "[614900,710]"
+            },
+            {
+              "stringValue": "[624888,816]"
+            },
+            {
+              "stringValue": "[634910,847]"
+            },
+            {
+              "stringValue": "[644899,862]"
+            },
+            {
+              "stringValue": "[654920,869]"
+            },
+            {
+              "stringValue": "[664909,959]"
+            },
+            {
+              "stringValue": "[674897,1050]"
+            },
+            {
+              "stringValue": "[684886,936]"
+            },
+            {
+              "stringValue": "[694908,1023]"
+            },
+            {
+              "stringValue": "[704895,1010]"
+            },
+            {
+              "stringValue": "[714881,936]"
+            },
+            {
+              "stringValue": "[724902,997]"
+            },
+            {
+              "stringValue": "[734902,1067]"
+            },
+            {
+              "stringValue": "[744890,918]"
+            },
+            {
+              "stringValue": "[754913,886]"
+            },
+            {
+              "stringValue": "[764898,831]"
+            },
+            {
+              "stringValue": "[774887,803]"
+            },
+            {
+              "stringValue": "[784907,770]"
+            },
+            {
+              "stringValue": "[794893,834]"
+            },
+            {
+              "stringValue": "[804881,889]"
+            },
+            {
+              "stringValue": "[814902,1220]"
+            },
+            {
+              "stringValue": "[824890,1074]"
+            },
+            {
+              "stringValue": "[834910,843]"
+            },
+            {
+              "stringValue": "[844897,882]"
+            },
+            {
+              "stringValue": "[854921,978]"
+            },
+            {
+              "stringValue": "[864904,940]"
+            },
+            {
+              "stringValue": "[874893,1369]"
+            },
+            {
+              "stringValue": "[884913,1369]"
+            },
+            {
+              "stringValue": "[894899,1404]"
+            },
+            {
+              "stringValue": "[904891,1964]"
+            },
+            {
+              "stringValue": "[914889,1877]"
+            },
+            {
+              "stringValue": "[924909,1871]"
+            },
+            {
+              "stringValue": "[934896,1991]"
+            },
+            {
+              "stringValue": "[944883,1923]"
+            },
+            {
+              "stringValue": "[954905,1591]"
+            },
+            {
+              "stringValue": "[964892,1653]"
+            },
+            {
+              "stringValue": "[974880,1602]"
+            },
+            {
+              "stringValue": "[984899,1685]"
+            },
+            {
+              "stringValue": "[994881,1609]"
+            },
+            {
+              "stringValue": "[1004902,1650]"
+            },
+            {
+              "stringValue": "[1014889,1619]"
+            },
+            {
+              "stringValue": "[1024884,1800]"
+            },
+            {
+              "stringValue": "[1034904,1853]"
+            },
+            {
+              "stringValue": "[1044892,1623]"
+            },
+            {
+              "stringValue": "[1054879,1451]"
+            },
+            {
+              "stringValue": "[1064900,1510]"
+            },
+            {
+              "stringValue": "[1074888,1671]"
+            },
+            {
+              "stringValue": "[1084910,1838]"
+            },
+            {
+              "stringValue": "[1094897,1816]"
+            },
+            {
+              "stringValue": "[1104884,2121]"
+            },
+            {
+              "stringValue": "[1114904,2040]"
+            },
+            {
+              "stringValue": "[1124891,2003]"
+            },
+            {
+              "stringValue": "[1134912,2123]"
+            },
+            {
+              "stringValue": "[1144932,2203]"
+            },
+            {
+              "stringValue": "[1154898,1978]"
+            },
+            {
+              "stringValue": "[1164886,1323]"
+            },
+            {
+              "stringValue": "[1174909,1406]"
+            },
+            {
+              "stringValue": "[1184897,835]"
+            },
+            {
+              "stringValue": "[1194885,759]"
+            },
+            {
+              "stringValue": "[1204905,606]"
+            },
+            {
+              "stringValue": "[1214892,953]"
+            },
+            {
+              "stringValue": "[1224879,740]"
+            },
+            {
+              "stringValue": "[1234900,745]"
+            },
+            {
+              "stringValue": "[1244886,811]"
+            },
+            {
+              "stringValue": "[1254906,1351]"
+            },
+            {
+              "stringValue": "[1264896,2174]"
+            },
+            {
+              "stringValue": "[1274882,3955]"
+            },
+            {
+              "stringValue": "[1284905,4560]"
+            },
+            {
+              "stringValue": "[1294893,5365]"
+            },
+            {
+              "stringValue": "[1304881,5192]"
+            },
+            {
+              "stringValue": "[1314902,5130]"
+            },
+            {
+              "stringValue": "[1324891,4945]"
+            },
+            {
+              "stringValue": "[1334912,4988]"
+            },
+            {
+              "stringValue": "[1344882,5040]"
+            },
+            {
+              "stringValue": "[1354906,4036]"
+            },
+            {
+              "stringValue": "[1364893,4641]"
+            },
+            {
+              "stringValue": "[1374882,4531]"
+            },
+            {
+              "stringValue": "[1384905,4704]"
+            },
+            {
+              "stringValue": "[1394892,4911]"
+            },
+            {
+              "stringValue": "[1404881,5014]"
+            },
+            {
+              "stringValue": "[1414903,3799]"
+            },
+            {
+              "stringValue": "[1424889,3760]"
+            },
+            {
+              "stringValue": "[1434909,3668]"
+            },
+            {
+              "stringValue": "[1444895,3717]"
+            },
+            {
+              "stringValue": "[1454883,3409]"
+            },
+            {
+              "stringValue": "[1464907,3164]"
+            },
+            {
+              "stringValue": "[1474894,3208]"
+            },
+            {
+              "stringValue": "[1484888,3236]"
+            },
+            {
+              "stringValue": "[1494908,3390]"
+            },
+            {
+              "stringValue": "[1504897,3388]"
+            },
+            {
+              "stringValue": "[1514885,3435]"
+            },
+            {
+              "stringValue": "[1524906,3471]"
+            },
+            {
+              "stringValue": "[1534899,3551]"
+            },
+            {
+              "stringValue": "[1544883,3590]"
+            },
+            {
+              "stringValue": "[1554904,3426]"
+            },
+            {
+              "stringValue": "[1564890,3714]"
+            },
+            {
+              "stringValue": "[1574909,3538]"
+            },
+            {
+              "stringValue": "[1584897,3338]"
+            },
+            {
+              "stringValue": "[1594918,3569]"
+            },
+            {
+              "stringValue": "[1604908,3501]"
+            },
+            {
+              "stringValue": "[1614895,3572]"
+            },
+            {
+              "stringValue": "[1624892,3642]"
+            },
+            {
+              "stringValue": "[1634880,3544]"
+            }
+          ]
+        }
+      },
+      "events": {
+        "arrayValue": {
+          "values": [
+            {
+              "stringValue": "[\"text\",\"welcome\",\"DNF vs DRX\"]"
+            },
+            {
+              "stringValue": "[\"minute\",\"0:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"1:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"2:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"3:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"4:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"5:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"6:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"7:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"8:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"9:00\",null]"
+            },
+            {
+              "stringValue": "[\"dragon\",\"9:04\",\"blue\",\"hextech\",[\"hextech\"]]"
+            },
+            {
+              "stringValue": "[\"minute\",\"10:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"11:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"12:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"13:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"14:00\",null]"
+            },
+            {
+              "stringValue": "[\"first blood\",\"14:31\",8,2,[6,7,9,10]]"
+            },
+            {
+              "stringValue": "[\"kill\",\"14:33\",1,9,[3,4,5],null,null,null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"14:33\",4,10,[1,2,3,5],null,null,null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"15:00\",\"[904891,\\\"in_game\\\",[25226,3,0,0,[\\\"hextech\\\"],0,[[1,11,2,0,1,5735,1,140,[1054,2031,3068,3047,1029,3364]],[2,9,0,1,1,4815,1,109,[1102,3364,6610,1028,1033,2055]],[3,11,0,0,2,5333,1,151,[1056,3115,3363,3111,2055]],[4,10,1,0,2,5772,1,154,[1055,3340,3032,3006]],[5,7,0,0,3,3571,1,20,[3364,1001,3067,1029,1033]]]],[23262,1,0,0,[],0,[[6,10,0,0,1,4723,1,125,[1054,2031,6692,1037]],[7,9,0,0,1,4897,1,114,[3364,6610]],[8,10,1,1,0,5164,0,133,[1056,3340,1082,1001,6653]],[9,9,0,1,1,5173,1,143,[1055,6672,1037,3363,1042,1042]],[10,6,0,1,1,3305,1,23,[3364,3190,2055]]]]]\"]"
+            },
+            {
+              "stringValue": "[\"kill\",\"15:04\",1,8,[4,5],null,null,null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"16:00\",null]"
+            },
+            {
+              "stringValue": "[\"dragon\",\"16:25\",\"blue\",\"ocean\",[\"hextech\",\"ocean\"]]"
+            },
+            {
+              "stringValue": "[\"minute\",\"17:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"18:00\",null]"
+            },
+            {
+              "stringValue": "[\"tower\",\"18:07\",\"blue\",1]"
+            },
+            {
+              "stringValue": "[\"minute\",\"19:00\",null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"19:16\",8,3,[7,9,10],null,null,null]"
+            },
+            {
+              "stringValue": "[\"tower\",\"19:36\",\"red\",1]"
+            },
+            {
+              "stringValue": "[\"minute\",\"20:00\",null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"20:48\",1,6,[2,3,4,5],3,null,null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"21:00\",null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"21:03\",3,7,[1,2,4,5],null,null,null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"21:05\",2,9,[1,3,4,5],null,null,null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"21:05\",1,8,[2,3,4,5],4,null,null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"21:12\",2,10,[4,5],null,2,null]"
+            },
+            {
+              "stringValue": "[\"ace\",\"21:12\",\"blue\"]"
+            },
+            {
+              "stringValue": "[\"tower\",\"21:17\",\"blue\",2]"
+            },
+            {
+              "stringValue": "[\"gold threshold\",\"21:17\",0,4000]"
+            },
+            {
+              "stringValue": "[\"tower\",\"21:33\",\"blue\",3]"
+            },
+            {
+              "stringValue": "[\"minute\",\"22:00\",null]"
+            },
+            {
+              "stringValue": "[\"tower\",\"22:25\",\"red\",2]"
+            },
+            {
+              "stringValue": "[\"dragon\",\"22:27\",\"blue\",\"infernal\",[\"hextech\",\"ocean\",\"infernal\"]]"
+            },
+            {
+              "stringValue": "[\"tower\",\"22:39\",\"blue\",4]"
+            },
+            {
+              "stringValue": "[\"minute\",\"23:00\",null]"
+            },
+            {
+              "stringValue": "[\"kill\",\"23:31\",9,1,[7,10],null,null,4]"
+            },
+            {
+              "stringValue": "[\"minute\",\"24:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"25:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"26:00\",null]"
+            },
+            {
+              "stringValue": "[\"minute\",\"27:00\",null]"
+            }
+          ]
+        }
+      },
+      "metadata": {
+        "stringValue": "[\"15.14.695.3589\",[[1,\"DNF DuDu\",\"Sion\"],[2,\"DNF Pyosik\",\"Trundle\"],[3,\"DNF BuLLDoG\",\"Azir\"],[4,\"DNF Berserker\",\"Sivir\"],[5,\"DNF Life\",\"Rell\"],[6,\"DRX Rich\",\"Ambessa\"],[7,\"DRX Sponge\",\"Vi\"],[8,\"DRX kyeahoo\",\"Aurora\"],[9,\"DRX Teddy\",\"Kaisa\"],[10,\"DRX Andil\",\"Rakan\"]]]"
+      }
+    },
+    "createTime": "2025-07-27T06:46:13.985165Z",
+    "updateTime": "2025-07-27T07:34:46.377517Z"
   }
 }

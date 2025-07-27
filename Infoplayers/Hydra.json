@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Po Gap#EUW",
+      "nivel": 880,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1524,
+      "victorias": 453,
+      "derrotas": 381,
+      "ultima_partida": 1753568356882
+    },
+    {
       "nombre": "Bollito de Cacao#EUW",
       "nivel": 852,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 65,
       "derrotas": 54,
       "ultima_partida": 1753461551481
-    },
-    {
-      "nombre": "Po Gap#EUW",
-      "nivel": 880,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1505,
-      "victorias": 451,
-      "derrotas": 380,
-      "ultima_partida": 1753444937021
     }
   ],
   "campeones_recientes": [
@@ -44,18 +44,18 @@
       "kda_promedio": 2.3461538461538463
     },
     {
+      "nombre": "Ahri",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8857142857142857
+    },
+    {
       "nombre": "Azir",
       "partidas": 7,
       "victorias": 6,
       "winrate": "85.7%",
       "kda_promedio": 3.5517241379310347
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.576923076923077
     },
     {
       "nombre": "Syndra",
@@ -81,9 +81,9 @@
     {
       "nombre": "Orianna",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.6666666666666665
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2222222222222223
     },
     {
       "nombre": "Aurora",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
+    "games": 53,
     "wins": 36,
-    "losses": 16,
-    "timePlayed": 82008
+    "losses": 17,
+    "timePlayed": 83125
   }
 }

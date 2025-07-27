@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "hesszero#PAWEL",
-      "nivel": 861,
+      "nivel": 862,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 948,
-      "victorias": 313,
-      "derrotas": 271,
-      "ultima_partida": 1753459697229
+      "lp": 942,
+      "victorias": 317,
+      "derrotas": 275,
+      "ultima_partida": 1753546774983
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8333333333333333
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 1.7391304347826086
     },
     {
       "nombre": "Kled",
@@ -42,31 +42,45 @@
     },
     {
       "nombre": "Sion",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 0.7586206896551724
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9444444444444446
     },
     {
       "nombre": "Rumble",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1666666666666665
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 0.782608695652174
     },
     {
       "nombre": "Aatrox",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2
+      "kda_promedio": 5.5
     },
     {
       "nombre": "Ambessa",
@@ -81,26 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8571428571428571
-    },
-    {
-      "nombre": "RekSai",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.875
-    },
-    {
-      "nombre": "Sett",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 19,
-    "losses": 20,
-    "timePlayed": 63118
+    "games": 46,
+    "wins": 23,
+    "losses": 23,
+    "timePlayed": 73009
   }
 }

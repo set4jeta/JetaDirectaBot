@@ -19,51 +19,51 @@
       "lp": 1165,
       "victorias": 348,
       "derrotas": 293,
-      "ultima_partida": 1753356663485
+      "ultima_partida": 1753524741107
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 12,
+      "partidas": 11,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 2.618181818181818
+      "winrate": "54.5%",
+      "kda_promedio": 2.795918367346939
     },
     {
       "nombre": "Ambessa",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.7954545454545454
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5952380952380953
     },
     {
       "nombre": "Jayce",
-      "partidas": 10,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.061224489795918
+      "winrate": "44.4%",
+      "kda_promedio": 2.2
     },
     {
       "nombre": "Vladimir",
-      "partidas": 8,
+      "partidas": 7,
       "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.103448275862069
+      "winrate": "57.1%",
+      "kda_promedio": 3.56
     },
     {
       "nombre": "Yone",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.789473684210526
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.411764705882353
     },
     {
       "nombre": "Hwei",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.4
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.909090909090909
     },
     {
       "nombre": "Gwen",
@@ -73,31 +73,31 @@
       "kda_promedio": 2.0714285714285716
     },
     {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 2,
+      "nombre": "Aphelios",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.4444444444444446
+      "kda_promedio": 2.857142857142857
     },
     {
-      "nombre": "Akali",
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Smolder",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 24
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 29,
-    "losses": 30,
-    "timePlayed": 98128
+    "games": 49,
+    "wins": 23,
+    "losses": 26,
+    "timePlayed": 83440
   }
 }

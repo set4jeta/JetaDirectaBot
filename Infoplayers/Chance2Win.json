@@ -15,53 +15,46 @@
   "cuentas": [
     {
       "nombre": "Chance2Win#EUW",
-      "nivel": 572,
+      "nivel": 573,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1041,
+      "liga": "GRANDMASTER I",
+      "lp": 996,
       "victorias": 177,
-      "derrotas": 128,
-      "ultima_partida": 1753440716843
+      "derrotas": 130,
+      "ultima_partida": 1753546778634
     },
     {
       "nombre": "RUMBLEKING#C2W",
       "nivel": 67,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 685,
+      "lp": 591,
       "victorias": 163,
-      "derrotas": 106,
-      "ultima_partida": 1753440716843
+      "derrotas": 107,
+      "ultima_partida": 1753479986730
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 1.289855072463768
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3214285714285714
+      "winrate": "22.2%",
+      "kda_promedio": 1.2297297297297298
     },
     {
       "nombre": "Volibear",
-      "partidas": 3,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.6363636363636365
+      "winrate": "40.0%",
+      "kda_promedio": 0.896551724137931
     },
     {
-      "nombre": "Rumble",
+      "nombre": "KSante",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.75
+      "kda_promedio": 1.4210526315789473
     },
     {
       "nombre": "Yorick",
@@ -92,11 +85,11 @@
       "kda_promedio": 0.42857142857142855
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Rumble",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
     },
     {
       "nombre": "Ryze",
@@ -108,8 +101,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 23,
-    "wins": 6,
-    "losses": 17,
-    "timePlayed": 40095
+    "wins": 5,
+    "losses": 18,
+    "timePlayed": 40098
   }
 }

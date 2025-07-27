@@ -19,33 +19,26 @@
       "nivel": 1021,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1844,
-      "victorias": 304,
-      "derrotas": 227,
-      "ultima_partida": 1753467669393
+      "lp": 1806,
+      "victorias": 306,
+      "derrotas": 230,
+      "ultima_partida": 1753560773722
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3.217391304347826
-    },
-    {
       "nombre": "Nautilus",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.7037037037037037
+      "winrate": "50.0%",
+      "kda_promedio": 2.263157894736842
     },
     {
-      "nombre": "Neeko",
+      "nombre": "Rell",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Alistar",
@@ -55,25 +48,25 @@
       "kda_promedio": 2.8
     },
     {
-      "nombre": "Lulu",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.888888888888889
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3636363636363638
     },
     {
       "nombre": "Rakan",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
+      "kda_promedio": 2.3157894736842106
     },
     {
       "nombre": "Renata",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.8
+      "winrate": "66.7%",
+      "kda_promedio": 3.3
     },
     {
       "nombre": "Annie",
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
     }
   ],
   "estadisticas_2_semanas": {
     "games": 37,
-    "wins": 20,
-    "losses": 17,
-    "timePlayed": 58378
+    "wins": 19,
+    "losses": 18,
+    "timePlayed": 57649
   }
 }

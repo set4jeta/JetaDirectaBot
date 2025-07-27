@@ -15,36 +15,43 @@
   "cuentas": [
     {
       "nombre": "Goliath#2002",
-      "nivel": 438,
+      "nivel": 439,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1100,
-      "victorias": 463,
+      "lp": 1160,
+      "victorias": 466,
       "derrotas": 376,
-      "ultima_partida": 1753390741817
+      "ultima_partida": 1753553567809
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Camille",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.2808988764044944
-    },
     {
       "nombre": "Pantheon",
       "partidas": 10,
       "victorias": 8,
       "winrate": "80.0%",
-      "kda_promedio": 2.189873417721519
+      "kda_promedio": 2.324675324675325
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.0163934426229506
     },
     {
       "nombre": "Elise",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.2093023255813953
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.9736842105263157
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.611111111111111
     },
     {
       "nombre": "Pyke",
@@ -82,13 +89,6 @@
       "kda_promedio": 4.7272727272727275
     },
     {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3
-    },
-    {
       "nombre": "Bard",
       "partidas": 2,
       "victorias": 0,
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 37,
-    "losses": 33,
-    "timePlayed": 115089
+    "games": 66,
+    "wins": 34,
+    "losses": 32,
+    "timePlayed": 107617
   }
 }

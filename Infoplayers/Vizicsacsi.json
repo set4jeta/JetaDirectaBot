@@ -27,18 +27,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4285714285714286
-    },
-    {
       "nombre": "Gwen",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 0.6923076923076923
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Camille",
@@ -84,9 +84,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
+    "games": 10,
     "wins": 5,
-    "losses": 6,
-    "timePlayed": 17354
+    "losses": 5,
+    "timePlayed": 15521
   }
 }

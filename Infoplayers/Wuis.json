@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Wuiš#Iris",
-      "nivel": 1079,
+      "nivel": 1080,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 870,
       "victorias": 237,
       "derrotas": 203,
-      "ultima_partida": 1753412754097
+      "ultima_partida": 1753559750795
     }
   ],
   "campeones_recientes": [
@@ -45,7 +45,7 @@
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.888888888888889
+      "kda_promedio": 4.875
     },
     {
       "nombre": "Alistar",
@@ -60,6 +60,13 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Azir",
@@ -88,19 +95,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 9
-    },
-    {
-      "nombre": "Milio",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 11,
-    "losses": 9,
-    "timePlayed": 36509
+    "games": 22,
+    "wins": 12,
+    "losses": 10,
+    "timePlayed": 40799
   }
 }

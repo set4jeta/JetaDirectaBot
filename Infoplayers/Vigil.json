@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Vigil",
+    "nombre_real": "Matteo Scarcelli",
+    "edad": 24,
+    "equipo": "Colossal Gaming",
+    "pais": "Italy",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Vigil3331"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Isildur#weak",
+      "nivel": 1699,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 671,
+      "victorias": 431,
+      "derrotas": 405,
+      "ultima_partida": 1753589473949
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.793103448275862
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5416666666666665
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.090909090909091
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6111111111111112
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 32,
+    "losses": 21,
+    "timePlayed": 89555
+  }
+}

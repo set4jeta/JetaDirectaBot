@@ -5,7 +5,7 @@
     "edad": 23,
     "equipo": "G2 Esports",
     "pais": "Greece",
-    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Labrov12"
     },
@@ -47,30 +47,16 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.631578947368421
-    },
-    {
-      "nombre": "Bard",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
-    },
-    {
-      "nombre": "Pyke",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1538461538461537
+      "kda_promedio": 2.6666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 4,
+    "games": 1,
     "wins": 0,
-    "losses": 4,
-    "timePlayed": 6154
+    "losses": 1,
+    "timePlayed": 1673
   }
 }

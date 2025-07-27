@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Erdote",
     "nombre_real": "Robert Nowak",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Gentle Mates",
     "pais": "Poland",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -37,13 +37,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nautilus",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 3.95
-    },
-    {
       "nombre": "Alistar",
       "partidas": 8,
       "victorias": 7,
@@ -51,18 +44,18 @@
       "kda_promedio": 4.5588235294117645
     },
     {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
       "nombre": "Senna",
       "partidas": 8,
       "victorias": 3,
       "winrate": "37.5%",
       "kda_promedio": 2.125
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.206896551724138
     },
     {
       "nombre": "Rakan",
@@ -77,6 +70,13 @@
       "victorias": 1,
       "winrate": "20.0%",
       "kda_promedio": 2.8076923076923075
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Neeko",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 56,
-    "wins": 30,
+    "games": 53,
+    "wins": 27,
     "losses": 26,
-    "timePlayed": 90914
+    "timePlayed": 85665
   }
 }

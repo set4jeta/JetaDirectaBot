@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Highway",
     "nombre_real": "Jakub Baranowski",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Back2TheGame",
     "pais": "Poland",
     "contrato_hasta": null,
@@ -15,36 +15,57 @@
   "cuentas": [
     {
       "nombre": "bestow mercy#hhwy",
-      "nivel": 749,
+      "nivel": 750,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 876,
-      "victorias": 280,
-      "derrotas": 247,
-      "ultima_partida": 1753461997787
+      "lp": 825,
+      "victorias": 283,
+      "derrotas": 252,
+      "ultima_partida": 1753549996650
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Braum",
-      "partidas": 13,
+      "partidas": 14,
       "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 2.4262295081967213
+      "winrate": "57.1%",
+      "kda_promedio": 2.4393939393939394
     },
     {
       "nombre": "Lulu",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.25
+      "winrate": "71.4%",
+      "kda_promedio": 3.393939393939394
     },
     {
       "nombre": "Nautilus",
-      "partidas": 5,
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1176470588235294
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.7222222222222223
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.4
+      "winrate": "75.0%",
+      "kda_promedio": 7.6
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5454545454545454
     },
     {
       "nombre": "Leona",
@@ -52,20 +73,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.7222222222222223
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.7
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.1875
     },
     {
       "nombre": "Ziggs",
@@ -82,13 +89,6 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Rakan",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5714285714285716
-    },
-    {
       "nombre": "Varus",
       "partidas": 1,
       "victorias": 0,
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 21,
-    "losses": 17,
-    "timePlayed": 57500
+    "games": 44,
+    "wins": 22,
+    "losses": 22,
+    "timePlayed": 65167
   }
 }

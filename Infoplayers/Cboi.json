@@ -27,18 +27,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.5517241379310347
-    },
-    {
       "nombre": "Volibear",
       "partidas": 7,
       "victorias": 7,
       "winrate": "100.0%",
       "kda_promedio": 8.071428571428571
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.1739130434782608
     },
     {
       "nombre": "Ziggs",
@@ -83,24 +83,24 @@
       "kda_promedio": 10.5
     },
     {
-      "nombre": "Kennen",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.16666666666666666
-    },
-    {
       "nombre": "Naafiri",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 21,
-    "losses": 10,
-    "timePlayed": 49245
+    "games": 26,
+    "wins": 19,
+    "losses": 7,
+    "timePlayed": 42146
   }
 }

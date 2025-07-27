@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "hahahahah#2218",
-      "nivel": 82,
+      "nivel": 83,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1502,
-      "victorias": 286,
-      "derrotas": 198,
-      "ultima_partida": 1753391952985
+      "lp": 1492,
+      "victorias": 290,
+      "derrotas": 202,
+      "ultima_partida": 1753558367422
     },
     {
       "nombre": "King Julien XIII#MGDSK",
@@ -46,6 +46,20 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5238095238095237
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
       "nombre": "Yunara",
       "partidas": 4,
       "victorias": 1,
@@ -53,11 +67,11 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Akali",
+      "nombre": "Leblanc",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.933333333333333
+      "kda_promedio": 5.75
     },
     {
       "nombre": "Sylas",
@@ -81,13 +95,6 @@
       "kda_promedio": 2.6
     },
     {
-      "nombre": "Annie",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.727272727272727
-    },
-    {
       "nombre": "Azir",
       "partidas": 2,
       "victorias": 1,
@@ -104,22 +111,15 @@
     {
       "nombre": "Jhin",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.3
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.4444444444444446
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 23,
-    "losses": 22,
-    "timePlayed": 73808
+    "games": 51,
+    "wins": 26,
+    "losses": 25,
+    "timePlayed": 82280
   }
 }

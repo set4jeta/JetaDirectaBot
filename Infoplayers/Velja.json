@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Abracadabra#2203",
-      "nivel": 478,
+      "nivel": 479,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 981,
-      "victorias": 293,
-      "derrotas": 225,
-      "ultima_partida": 1753479485303
+      "lp": 1020,
+      "victorias": 296,
+      "derrotas": 226,
+      "ultima_partida": 1753541271574
     },
     {
       "nombre": "LR Velja#2203",
@@ -48,45 +48,45 @@
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 34,
-      "victorias": 16,
-      "winrate": "47.1%",
-      "kda_promedio": 3.6592592592592594
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 21,
-      "victorias": 11,
-      "winrate": "52.4%",
-      "kda_promedio": 3.5604395604395602
+      "partidas": 32,
+      "victorias": 15,
+      "winrate": "46.9%",
+      "kda_promedio": 3.6953125
     },
     {
       "nombre": "Viego",
-      "partidas": 20,
+      "partidas": 19,
       "victorias": 12,
-      "winrate": "60.0%",
-      "kda_promedio": 3.086021505376344
+      "winrate": "63.2%",
+      "kda_promedio": 3.2325581395348837
     },
     {
       "nombre": "Volibear",
-      "partidas": 20,
+      "partidas": 19,
       "victorias": 14,
-      "winrate": "70.0%",
-      "kda_promedio": 3.4050632911392404
+      "winrate": "73.7%",
+      "kda_promedio": 3.2911392405063293
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 18,
+      "victorias": 9,
+      "winrate": "50.0%",
+      "kda_promedio": 3.216867469879518
     },
     {
       "nombre": "Nidalee",
-      "partidas": 18,
+      "partidas": 16,
       "victorias": 6,
-      "winrate": "33.3%",
-      "kda_promedio": 3.234567901234568
+      "winrate": "37.5%",
+      "kda_promedio": 3.3043478260869565
     },
     {
       "nombre": "Ekko",
-      "partidas": 12,
+      "partidas": 10,
       "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.8333333333333335
+      "winrate": "70.0%",
+      "kda_promedio": 3.4347826086956523
     },
     {
       "nombre": "Zed",
@@ -110,17 +110,17 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Cassiopeia",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 168,
-    "wins": 85,
-    "losses": 83,
-    "timePlayed": 280534
+    "games": 157,
+    "wins": 82,
+    "losses": 75,
+    "timePlayed": 261034
   }
 }

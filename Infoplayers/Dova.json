@@ -19,23 +19,23 @@
       "lp": 1055,
       "victorias": 306,
       "derrotas": 262,
-      "ultima_partida": 1753375871778
+      "ultima_partida": 1753552889640
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 1.9642857142857142
+      "winrate": "66.7%",
+      "kda_promedio": 2.1363636363636362
     },
     {
       "nombre": "Ambessa",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3.3333333333333335
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.8125
     },
     {
       "nombre": "DrMundo",
@@ -52,20 +52,6 @@
       "kda_promedio": 0.8571428571428571
     },
     {
-      "nombre": "Yone",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.3043478260869565
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.066666666666667
-    },
-    {
       "nombre": "Gragas",
       "partidas": 2,
       "victorias": 2,
@@ -80,24 +66,38 @@
       "kda_promedio": 0.7692307692307693
     },
     {
-      "nombre": "Renekton",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
       "nombre": "Ryze",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7058823529411764
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 25,
-    "losses": 16,
-    "timePlayed": 62907
+    "games": 36,
+    "wins": 22,
+    "losses": 14,
+    "timePlayed": 55120
   }
 }

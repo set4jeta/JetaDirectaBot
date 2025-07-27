@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Zanzarah#1996",
-      "nivel": 601,
+      "nivel": 602,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 966,
+      "lp": 908,
       "victorias": 412,
-      "derrotas": 376,
-      "ultima_partida": 1753436612146
+      "derrotas": 379,
+      "ultima_partida": 1753522322099
     }
   ],
   "campeones_recientes": [
@@ -38,7 +38,7 @@
       "partidas": 10,
       "victorias": 3,
       "winrate": "30.0%",
-      "kda_promedio": 3.25
+      "kda_promedio": 3.62
     },
     {
       "nombre": "Vi",
@@ -56,31 +56,24 @@
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.238095238095238
+      "winrate": "33.3%",
+      "kda_promedio": 2.4375
     },
     {
       "nombre": "Rammus",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.2857142857142856
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
     },
     {
       "nombre": "Nocturne",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Zyra",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.25
+      "kda_promedio": 3.8
     },
     {
       "nombre": "Maokai",
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 18,
+    "games": 46,
+    "wins": 16,
     "losses": 30,
-    "timePlayed": 83392
+    "timePlayed": 79595
   }
 }

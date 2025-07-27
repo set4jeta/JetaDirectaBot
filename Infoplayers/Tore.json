@@ -19,10 +19,10 @@
       "nivel": 696,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 843,
-      "victorias": 176,
+      "lp": 866,
+      "victorias": 177,
       "derrotas": 129,
-      "ultima_partida": 1753473042870
+      "ultima_partida": 1753561455673
     }
   ],
   "campeones_recientes": [
@@ -48,6 +48,13 @@
       "kda_promedio": 2
     },
     {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
       "nombre": "Poppy",
       "partidas": 1,
       "victorias": 0,
@@ -70,9 +77,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
-    "wins": 5,
+    "games": 11,
+    "wins": 6,
     "losses": 5,
-    "timePlayed": 17936
+    "timePlayed": 19485
   }
 }

@@ -15,43 +15,43 @@
   "cuentas": [
     {
       "nombre": "nvid#4PIGS",
-      "nivel": 994,
+      "nivel": 995,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1229,
-      "victorias": 523,
-      "derrotas": 465,
-      "ultima_partida": 1753435740596
+      "lp": 1168,
+      "victorias": 529,
+      "derrotas": 474,
+      "ultima_partida": 1753557753727
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "DrMundo",
-      "partidas": 35,
-      "victorias": 17,
-      "winrate": "48.6%",
-      "kda_promedio": 4.1415929203539825
-    },
-    {
       "nombre": "Volibear",
-      "partidas": 26,
-      "victorias": 19,
-      "winrate": "73.1%",
-      "kda_promedio": 3.9223300970873787
+      "partidas": 38,
+      "victorias": 24,
+      "winrate": "63.2%",
+      "kda_promedio": 3.611111111111111
     },
     {
-      "nombre": "Trundle",
-      "partidas": 9,
-      "victorias": 2,
-      "winrate": "22.2%",
-      "kda_promedio": 2.8372093023255816
+      "nombre": "DrMundo",
+      "partidas": 33,
+      "victorias": 15,
+      "winrate": "45.5%",
+      "kda_promedio": 3.789473684210526
     },
     {
       "nombre": "Viktor",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.4583333333333333
+      "winrate": "40.0%",
+      "kda_promedio": 1.5471698113207548
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 3.303030303030303
     },
     {
       "nombre": "Pantheon",
@@ -89,17 +89,17 @@
       "kda_promedio": 1.5
     },
     {
-      "nombre": "Diana",
+      "nombre": "Hecarim",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 101,
-    "wins": 51,
-    "losses": 50,
-    "timePlayed": 164177
+    "games": 110,
+    "wins": 54,
+    "losses": 56,
+    "timePlayed": 178982
   }
 }

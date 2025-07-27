@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Stend",
     "nombre_real": "Paul Lardin",
-    "edad": 23,
+    "edad": 24,
     "equipo": "Team Heretics",
     "pais": "France",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Stendinho JR 10#lrd",
-      "nivel": 113,
+      "nivel": 115,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1500,
-      "victorias": 477,
-      "derrotas": 385,
-      "ultima_partida": 1753477721691
+      "lp": 1531,
+      "victorias": 485,
+      "derrotas": 391,
+      "ultima_partida": 1753571325731
     },
     {
       "nombre": "TH Stend#000",
@@ -37,32 +37,39 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Neeko",
+      "nombre": "Thresh",
       "partidas": 15,
-      "victorias": 6,
-      "winrate": "40.0%",
-      "kda_promedio": 3.044776119402985
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 4.328767123287672
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 14,
+      "victorias": 4,
+      "winrate": "28.6%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Jhin",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 3.761904761904762
+      "winrate": "66.7%",
+      "kda_promedio": 3.5319148936170213
     },
     {
       "nombre": "Rell",
       "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.4210526315789473
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 4.018518518518518
     },
     {
-      "nombre": "Thresh",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.918918918918919
+      "nombre": "Gragas",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.9411764705882355
     },
     {
       "nombre": "Lulu",
@@ -72,18 +79,11 @@
       "kda_promedio": 6.882352941176471
     },
     {
-      "nombre": "Gragas",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.352941176470588
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.153846153846154
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Nautilus",
@@ -93,24 +93,24 @@
       "kda_promedio": 3.8636363636363638
     },
     {
-      "nombre": "Rakan",
+      "nombre": "Poppy",
       "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 4.619047619047619
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.333333333333333
     },
     {
-      "nombre": "Poppy",
+      "nombre": "Nami",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4.142857142857143
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.857142857142857
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 93,
-    "wins": 54,
-    "losses": 39,
-    "timePlayed": 143006
+    "games": 101,
+    "wins": 59,
+    "losses": 42,
+    "timePlayed": 157876
   }
 }

@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "Kral Batuuu#kral",
-      "nivel": 841,
+      "nivel": 843,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1320,
-      "victorias": 507,
-      "derrotas": 448,
-      "ultima_partida": 1753446339150
+      "lp": 1366,
+      "victorias": 513,
+      "derrotas": 452,
+      "ultima_partida": 1753539594715
     },
     {
       "nombre": "Bâtuuu#EUW",
       "nivel": 125,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 238,
+      "lp": 88,
       "victorias": 216,
       "derrotas": 203,
       "ultima_partida": 1752802303283
@@ -38,66 +38,66 @@
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 34,
-      "victorias": 22,
-      "winrate": "64.7%",
-      "kda_promedio": 3.7514792899408285
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 17,
-      "victorias": 8,
-      "winrate": "47.1%",
-      "kda_promedio": 2.1052631578947367
+      "partidas": 32,
+      "victorias": 20,
+      "winrate": "62.5%",
+      "kda_promedio": 3.5269461077844313
     },
     {
       "nombre": "Rell",
-      "partidas": 17,
-      "victorias": 9,
-      "winrate": "52.9%",
-      "kda_promedio": 2.9574468085106385
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 3.1584158415841586
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 18,
+      "victorias": 8,
+      "winrate": "44.4%",
+      "kda_promedio": 2.1043478260869564
     },
     {
       "nombre": "Rakan",
       "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 4.521739130434782
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 3.488888888888889
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.627450980392157
     },
     {
       "nombre": "Karma",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.6470588235294117
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Lulu",
-      "partidas": 6,
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.361111111111111
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 7,
       "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.7037037037037037
+      "winrate": "42.9%",
+      "kda_promedio": 3.7666666666666666
     },
     {
       "nombre": "Braum",
-      "partidas": 5,
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.6923076923076925
+      "winrate": "50.0%",
+      "kda_promedio": 2.1818181818181817
     },
     {
       "nombre": "Poppy",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 127,
-    "wins": 71,
+    "games": 125,
+    "wins": 69,
     "losses": 56,
-    "timePlayed": 205881
+    "timePlayed": 202699
   }
 }

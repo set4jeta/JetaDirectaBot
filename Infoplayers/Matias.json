@@ -5,7 +5,7 @@
     "edad": 24,
     "equipo": "GameWard",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/matiaslaclasse1",
       "twitch": "https://twitch.tv/matiaslaclasse"
@@ -19,10 +19,10 @@
       "nivel": 977,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1054,
+      "lp": 1039,
       "victorias": 503,
       "derrotas": 463,
-      "ultima_partida": 1753447241319
+      "ultima_partida": 1753478361378
     },
     {
       "nombre": "matiaslaclasse#EUW",
@@ -48,17 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Jhin",
-      "partidas": 28,
-      "victorias": 14,
-      "winrate": "50.0%",
-      "kda_promedio": 2.92
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 5.033333333333333
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 3.2465753424657535
     },
     {
       "nombre": "Aphelios",
@@ -68,11 +61,11 @@
       "kda_promedio": 1.8823529411764706
     },
     {
-      "nombre": "Lucian",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.9310344827586206
+      "nombre": "Senna",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.681818181818182
     },
     {
       "nombre": "Yunara",
@@ -82,11 +75,11 @@
       "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Lucian",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.4
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.8823529411764706
     },
     {
       "nombre": "Kalista",
@@ -96,11 +89,11 @@
       "kda_promedio": 3.235294117647059
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Renekton",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.3076923076923075
+      "kda_promedio": 1.2608695652173914
     },
     {
       "nombre": "Ashe",
@@ -110,17 +103,24 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Corki",
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Kaisa",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.5454545454545454
+      "kda_promedio": 1.8333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 95,
-    "wins": 46,
-    "losses": 49,
-    "timePlayed": 145347
+    "games": 79,
+    "wins": 39,
+    "losses": 40,
+    "timePlayed": 121145
   }
 }

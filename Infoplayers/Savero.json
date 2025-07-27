@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "Kusakabe Shinra#win",
-      "nivel": 860,
+      "nivel": 861,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1103,
-      "victorias": 250,
+      "lp": 1123,
+      "victorias": 251,
       "derrotas": 197,
-      "ultima_partida": 1753439211532
+      "ultima_partida": 1753535293499
     },
     {
       "nombre": "Meguru Bachira#win",
       "nivel": 291,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 222,
+      "lp": 147,
       "victorias": 196,
       "derrotas": 163,
       "ultima_partida": 1753216617592
@@ -45,10 +45,10 @@
     },
     {
       "nombre": "Viego",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 3.342857142857143
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.611111111111111
     },
     {
       "nombre": "Zed",
@@ -66,10 +66,10 @@
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.6153846153846154
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.347826086956522
     },
     {
       "nombre": "Trundle",
@@ -100,17 +100,17 @@
       "kda_promedio": 0.8333333333333334
     },
     {
-      "nombre": "Naafiri",
+      "nombre": "Poppy",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.428571428571429
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
-    "wins": 35,
-    "losses": 37,
-    "timePlayed": 112988
+    "games": 70,
+    "wins": 34,
+    "losses": 36,
+    "timePlayed": 109309
   }
 }

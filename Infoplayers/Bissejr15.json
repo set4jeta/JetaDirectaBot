@@ -28,17 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Sion",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.130434782608696
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.9166666666666667
     },
     {
       "nombre": "Syndra",
@@ -48,18 +41,18 @@
       "kda_promedio": 2.95
     },
     {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.85
+    },
+    {
       "nombre": "Neeko",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.9
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.7058823529411766
     },
     {
       "nombre": "Orianna",
@@ -69,6 +62,13 @@
       "kda_promedio": 12
     },
     {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
       "nombre": "Ziggs",
       "partidas": 2,
       "victorias": 0,
@@ -76,31 +76,31 @@
       "kda_promedio": 6.25
     },
     {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.666666666666667
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
       "nombre": "Hwei",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 17,
-    "losses": 15,
-    "timePlayed": 51689
+    "games": 25,
+    "wins": 13,
+    "losses": 12,
+    "timePlayed": 40954
   }
 }

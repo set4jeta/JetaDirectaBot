@@ -19,33 +19,33 @@
       "nivel": 884,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 721,
-      "victorias": 350,
-      "derrotas": 310,
-      "ultima_partida": 1753448415520
+      "lp": 815,
+      "victorias": 357,
+      "derrotas": 312,
+      "ultima_partida": 1753556261262
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jax",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5833333333333333
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.7894736842105263
     },
     {
       "nombre": "Aatrox",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.4411764705882355
+      "winrate": "50.0%",
+      "kda_promedio": 2.1951219512195124
     },
     {
       "nombre": "Ambessa",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8571428571428572
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.878787878787879
     },
     {
       "nombre": "Gragas",
@@ -53,6 +53,13 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.0526315789473686
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.125
     },
     {
       "nombre": "Sion",
@@ -67,13 +74,6 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.4
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 1.6
     },
     {
       "nombre": "Kennen",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 22,
-    "losses": 20,
-    "timePlayed": 65120
+    "games": 51,
+    "wins": 29,
+    "losses": 22,
+    "timePlayed": 78118
   }
 }

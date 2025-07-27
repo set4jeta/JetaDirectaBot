@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Snoop Dogg#PLYCK",
-      "nivel": 1394,
+      "nivel": 1395,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 887,
       "victorias": 300,
       "derrotas": 262,
-      "ultima_partida": 1753462506059
+      "ultima_partida": 1753564455318
     }
   ],
   "campeones_recientes": [
@@ -34,13 +34,6 @@
       "kda_promedio": 3.933333333333333
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1739130434782608
-    },
-    {
       "nombre": "Zac",
       "partidas": 3,
       "victorias": 0,
@@ -48,11 +41,11 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Poppy",
+      "nombre": "Nautilus",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8333333333333335
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3529411764705883
     },
     {
       "nombre": "Blitzcrank",
@@ -67,12 +60,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 5,
+    "games": 12,
+    "wins": 3,
     "losses": 9,
-    "timePlayed": 21605
+    "timePlayed": 18185
   }
 }

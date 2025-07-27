@@ -16,16 +16,23 @@
   "cuentas": [
     {
       "nombre": "c0cky movement#tukan",
-      "nivel": 1129,
+      "nivel": 1130,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 811,
-      "victorias": 518,
-      "derrotas": 495,
-      "ultima_partida": 1753368501510
+      "lp": 853,
+      "victorias": 522,
+      "derrotas": 497,
+      "ultima_partida": 1753561981318
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Azir",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.7142857142857144
+    },
     {
       "nombre": "Kaisa",
       "partidas": 7,
@@ -38,14 +45,7 @@
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 3.347826086956522
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 3.4761904761904763
+      "kda_promedio": 3.5454545454545454
     },
     {
       "nombre": "Orianna",
@@ -63,10 +63,10 @@
     },
     {
       "nombre": "Sylas",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.761904761904762
+      "winrate": "75.0%",
+      "kda_promedio": 3.769230769230769
     },
     {
       "nombre": "Taliyah",
@@ -76,6 +76,13 @@
       "kda_promedio": 1.1818181818181819
     },
     {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
       "nombre": "Aurora",
       "partidas": 3,
       "victorias": 1,
@@ -83,24 +90,17 @@
       "kda_promedio": 2.7142857142857144
     },
     {
-      "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5714285714285716
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 69,
-    "wins": 28,
-    "losses": 41,
-    "timePlayed": 108657
+    "games": 70,
+    "wins": 30,
+    "losses": 40,
+    "timePlayed": 110597
   }
 }

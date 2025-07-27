@@ -19,19 +19,19 @@
       "nivel": 782,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1322,
-      "victorias": 407,
+      "lp": 1398,
+      "victorias": 411,
       "derrotas": 354,
-      "ultima_partida": 1753475040878
+      "ultima_partida": 1753567955691
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 4.066666666666666
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.03030303030303
     },
     {
       "nombre": "Karma",
@@ -48,11 +48,11 @@
       "kda_promedio": 4.190476190476191
     },
     {
-      "nombre": "Alistar",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.4166666666666665
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.9375
     },
     {
       "nombre": "Braum",
@@ -60,6 +60,20 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.5789473684210527
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.1
     },
     {
       "nombre": "Nautilus",
@@ -76,20 +90,6 @@
       "kda_promedio": 3.1538461538461537
     },
     {
-      "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.9
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.75
-    },
-    {
       "nombre": "Blitzcrank",
       "partidas": 2,
       "victorias": 1,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
-    "wins": 30,
-    "losses": 23,
-    "timePlayed": 88669
+    "games": 54,
+    "wins": 32,
+    "losses": 22,
+    "timePlayed": 91797
   }
 }

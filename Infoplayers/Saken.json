@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Storm Peaks#0001",
+      "nivel": 170,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 20,
+      "derrotas": 11,
+      "ultima_partida": 1753482690057
+    },
+    {
       "nombre": "Mazs#EUW",
       "nivel": 882,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 456,
       "derrotas": 418,
       "ultima_partida": 1753458466499
-    },
-    {
-      "nombre": "Storm Peaks#0001",
-      "nivel": 170,
-      "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 20,
-      "derrotas": 11,
-      "ultima_partida": 1753316006771
     }
   ],
   "campeones_recientes": [

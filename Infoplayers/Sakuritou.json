@@ -16,29 +16,36 @@
   "cuentas": [
     {
       "nombre": "Saku#ritou",
-      "nivel": 1692,
+      "nivel": 1693,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1300,
+      "lp": 1253,
       "victorias": 224,
-      "derrotas": 170,
-      "ultima_partida": 1753405537458
+      "derrotas": 172,
+      "ultima_partida": 1753572375246
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Chogath",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3.977777777777778
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 4.883720930232558
     },
     {
       "nombre": "Maokai",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.7857142857142856
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.75
     },
     {
       "nombre": "Sion",
@@ -62,13 +69,6 @@
       "kda_promedio": 0.16666666666666666
     },
     {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.2
-    },
-    {
       "nombre": "Katarina",
       "partidas": 1,
       "victorias": 0,
@@ -83,13 +83,6 @@
       "kda_promedio": 5.6
     },
     {
-      "nombre": "Senna",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9
-    },
-    {
       "nombre": "Zilean",
       "partidas": 1,
       "victorias": 0,
@@ -99,8 +92,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 25,
-    "wins": 14,
-    "losses": 11,
-    "timePlayed": 43988
+    "wins": 15,
+    "losses": 10,
+    "timePlayed": 44620
   }
 }

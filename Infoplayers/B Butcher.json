@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "B Butcher#EUW",
-      "nivel": 290,
+      "nivel": 292,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1117,
-      "victorias": 326,
-      "derrotas": 260,
-      "ultima_partida": 1753455951245
+      "lp": 1176,
+      "victorias": 331,
+      "derrotas": 262,
+      "ultima_partida": 1753576301173
     },
     {
       "nombre": "Bloody Butcherr#EUW",
@@ -44,31 +44,31 @@
     },
     {
       "nombre": "Leona",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 5
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.75
     },
     {
       "nombre": "Rakan",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 8.2
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.235294117647059
+      "winrate": "40.0%",
+      "kda_promedio": 4.214285714285714
     },
     {
       "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0454545454545454
+    },
+    {
+      "nombre": "Corki",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3571428571428572
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Neeko",
@@ -76,6 +76,20 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4545454545454546
     },
     {
       "nombre": "Karma",
@@ -90,19 +104,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 17,
-    "losses": 11,
-    "timePlayed": 42493
+    "games": 32,
+    "wins": 20,
+    "losses": 12,
+    "timePlayed": 51452
   }
 }

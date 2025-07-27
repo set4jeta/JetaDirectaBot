@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "midmid1#EUW3",
-      "nivel": 109,
+      "nivel": 110,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 907,
-      "victorias": 157,
-      "derrotas": 110,
-      "ultima_partida": 1753449892789
+      "lp": 845,
+      "victorias": 158,
+      "derrotas": 114,
+      "ultima_partida": 1753556984474
     },
     {
       "nombre": "Godskin Apostle#EUW",
       "nivel": 270,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1137,
+      "lp": 1114,
       "victorias": 247,
-      "derrotas": 198,
-      "ultima_partida": 1753385559772
+      "derrotas": 199,
+      "ultima_partida": 1753537039712
     },
     {
       "nombre": "마지막 불씨#EUW2",
@@ -48,31 +48,31 @@
   "campeones_recientes": [
     {
       "nombre": "Ryze",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 3.0144927536231885
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.9344262295081966
     },
     {
       "nombre": "Aurora",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 4.071428571428571
+      "winrate": "63.6%",
+      "kda_promedio": 3.8297872340425534
     },
     {
       "nombre": "Annie",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.909090909090909
+      "winrate": "66.7%",
+      "kda_promedio": 2.8214285714285716
     },
     {
       "nombre": "Syndra",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.935483870967742
+      "winrate": "66.7%",
+      "kda_promedio": 2.526315789473684
     },
     {
       "nombre": "Ziggs",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
+    "games": 56,
     "wins": 31,
-    "losses": 21,
-    "timePlayed": 85864
+    "losses": 25,
+    "timePlayed": 92149
   }
 }

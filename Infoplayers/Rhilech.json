@@ -19,10 +19,10 @@
       "nivel": 1015,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1304,
-      "victorias": 478,
+      "lp": 1322,
+      "victorias": 479,
       "derrotas": 417,
-      "ultima_partida": 1753476330106
+      "ultima_partida": 1753566725859
     },
     {
       "nombre": "bomboboks#15105",
@@ -37,11 +37,18 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "DrMundo",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.7
+    },
+    {
       "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.2
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3846153846153846
     },
     {
       "nombre": "Viego",
@@ -56,13 +63,6 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 1.8
-    },
-    {
-      "nombre": "DrMundo",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5
     },
     {
       "nombre": "Shyvana",
@@ -93,13 +93,6 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Samira",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Trundle",
       "partidas": 1,
       "victorias": 1,
@@ -108,9 +101,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
+    "games": 18,
     "wins": 10,
-    "losses": 9,
-    "timePlayed": 31655
+    "losses": 8,
+    "timePlayed": 29546
   }
 }

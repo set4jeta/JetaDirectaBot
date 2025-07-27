@@ -16,67 +16,81 @@
   "cuentas": [
     {
       "nombre": "Spoodersussi#1352",
-      "nivel": 751,
+      "nivel": 753,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1224,
-      "victorias": 376,
-      "derrotas": 330,
-      "ultima_partida": 1753477358214
+      "lp": 1197,
+      "victorias": 378,
+      "derrotas": 333,
+      "ultima_partida": 1753571347372
     },
     {
       "nombre": "twtvSpoodersuss1#EUWW",
-      "nivel": 590,
+      "nivel": 591,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1261,
-      "victorias": 307,
-      "derrotas": 255,
-      "ultima_partida": 1753051050808
+      "lp": 1346,
+      "victorias": 314,
+      "derrotas": 258,
+      "ultima_partida": 1753549429044
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Renekton",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 2.6315789473684212
-    },
-    {
       "nombre": "Ambessa",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 1.71875
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.574468085106383
+      "winrate": "41.7%",
+      "kda_promedio": 1.5972222222222223
     },
     {
       "nombre": "Jax",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.173076923076923
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.358490566037736
     },
     {
-      "nombre": "Yorick",
+      "nombre": "Renekton",
       "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.975609756097561
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 2.2653061224489797
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.5833333333333333
     },
     {
       "nombre": "Rumble",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2264150943396226
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8285714285714287
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Chogath",
@@ -86,31 +100,17 @@
       "kda_promedio": 1.6818181818181819
     },
     {
-      "nombre": "KSante",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.8
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.608695652173913
-    },
-    {
-      "nombre": "Warwick",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2777777777777777
+      "kda_promedio": 1.8235294117647058
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 102,
-    "wins": 56,
+    "games": 104,
+    "wins": 58,
     "losses": 46,
-    "timePlayed": 165883
+    "timePlayed": 167037
   }
 }

@@ -2,10 +2,10 @@
   "info_jugador": {
     "nombre": "Kamiloo",
     "nombre_real": "Kamil Haudegond",
-    "edad": 19,
+    "edad": 20,
     "equipo": "Team Heretics",
     "pais": "France",
-    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Kamiloo_LoL"
     },
@@ -15,22 +15,22 @@
   "cuentas": [
     {
       "nombre": "Club Loukizz#ama",
-      "nivel": 875,
+      "nivel": 876,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 970,
+      "lp": 917,
       "victorias": 405,
-      "derrotas": 347,
-      "ultima_partida": 1753461945698
+      "derrotas": 350,
+      "ultima_partida": 1753575795259
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yone",
+      "nombre": "Yunara",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.096774193548387
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.341463414634146
     },
     {
       "nombre": "Aurora",
@@ -40,32 +40,18 @@
       "kda_promedio": 3.75
     },
     {
-      "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 4,
+      "nombre": "Sylas",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
+      "winrate": "66.7%",
+      "kda_promedio": 2.8947368421052633
     },
     {
       "nombre": "Annie",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.9444444444444446
-    },
-    {
-      "nombre": "Akali",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.6
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Azir",
@@ -75,11 +61,11 @@
       "kda_promedio": 1.3888888888888888
     },
     {
-      "nombre": "Jax",
+      "nombre": "Galio",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8666666666666667
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
       "nombre": "Jayce",
@@ -89,17 +75,31 @@
       "kda_promedio": 2.6923076923076925
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Renekton",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.3
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 35,
-    "losses": 24,
-    "timePlayed": 96668
+    "games": 43,
+    "wins": 23,
+    "losses": 20,
+    "timePlayed": 70199
   }
 }

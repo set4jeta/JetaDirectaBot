@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "killer tune#zzz",
+      "nivel": 336,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 934,
+      "victorias": 260,
+      "derrotas": 222,
+      "ultima_partida": 1753535293499
+    },
+    {
       "nombre": "indoor fish#EUW",
       "nivel": 571,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 246,
       "derrotas": 198,
       "ultima_partida": 1753460006159
-    },
-    {
-      "nombre": "killer tune#zzz",
-      "nivel": 336,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 893,
-      "victorias": 258,
-      "derrotas": 222,
-      "ultima_partida": 1753449786192
     },
     {
       "nombre": "yüzenköfte#EUW",
@@ -54,32 +54,32 @@
       "kda_promedio": 2.7777777777777777
     },
     {
-      "nombre": "Ryze",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.4545454545454546
-    },
-    {
-      "nombre": "Annie",
+      "nombre": "Aurora",
       "partidas": 6,
       "victorias": 2,
       "winrate": "33.3%",
-      "kda_promedio": 1.6363636363636365
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.9166666666666667
+      "kda_promedio": 2.1923076923076925
     },
     {
       "nombre": "Lucian",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.08
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4642857142857144
+    },
+    {
+      "nombre": "Annie",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6551724137931034
     },
     {
       "nombre": "Galio",
@@ -89,38 +89,38 @@
       "kda_promedio": 3.125
     },
     {
-      "nombre": "Taliyah",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4.75
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.4
-    },
-    {
       "nombre": "Gwen",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.833333333333333
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4166666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 31,
-    "losses": 30,
-    "timePlayed": 92960
+    "games": 57,
+    "wins": 30,
+    "losses": 27,
+    "timePlayed": 89056
   }
 }

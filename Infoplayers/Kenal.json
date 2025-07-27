@@ -19,26 +19,19 @@
       "nivel": 857,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1340,
-      "victorias": 579,
-      "derrotas": 514,
-      "ultima_partida": 1753450271570
+      "lp": 1315,
+      "victorias": 581,
+      "derrotas": 517,
+      "ultima_partida": 1753526078369
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.9047619047619047
+      "winrate": "62.5%",
+      "kda_promedio": 2.6511627906976742
     },
     {
       "nombre": "Zeri",
@@ -48,18 +41,18 @@
       "kda_promedio": 2.6
     },
     {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.705882352941177
-    },
-    {
       "nombre": "Sivir",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5294117647058822
     },
     {
       "nombre": "Ziggs",
@@ -76,6 +69,13 @@
       "kda_promedio": 1.8148148148148149
     },
     {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
       "nombre": "Jinx",
       "partidas": 3,
       "victorias": 2,
@@ -83,24 +83,24 @@
       "kda_promedio": 3.75
     },
     {
-      "nombre": "Xayah",
+      "nombre": "Varus",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.75
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.363636363636363
     },
     {
-      "nombre": "Gragas",
+      "nombre": "Aphelios",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3846153846153846
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 30,
+    "games": 61,
+    "wins": 31,
     "losses": 30,
-    "timePlayed": 91636
+    "timePlayed": 94116
   }
 }

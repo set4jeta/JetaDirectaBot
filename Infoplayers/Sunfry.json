@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Sunfry#BEAM",
-      "nivel": 1040,
+      "nivel": 1041,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 875,
-      "victorias": 386,
+      "lp": 951,
+      "victorias": 390,
       "derrotas": 353,
-      "ultima_partida": 1753391832471
+      "ultima_partida": 1753561825158
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.6206896551724137
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 2.7157894736842105
     },
     {
       "nombre": "Alistar",
@@ -42,10 +42,10 @@
     },
     {
       "nombre": "Poppy",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.8125
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.72972972972973
     },
     {
       "nombre": "Rell",
@@ -53,6 +53,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6842105263157894
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.285714285714286
     },
     {
       "nombre": "Nami",
@@ -67,13 +74,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9.5
     },
     {
       "nombre": "Neeko",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 21,
+    "games": 42,
+    "wins": 25,
     "losses": 17,
-    "timePlayed": 61489
+    "timePlayed": 67021
   }
 }

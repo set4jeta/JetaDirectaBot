@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "marlοn#EUW",
-      "nivel": 643,
+      "nivel": 644,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 913,
-      "victorias": 296,
-      "derrotas": 258,
-      "ultima_partida": 1753323131502
+      "lp": 891,
+      "victorias": 297,
+      "derrotas": 260,
+      "ultima_partida": 1753584497419
     },
     {
       "nombre": "goroncywir60#łysy",
@@ -50,11 +50,11 @@
       "kda_promedio": 1.9
     },
     {
-      "nombre": "Janna",
+      "nombre": "Varus",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.52
     },
     {
       "nombre": "Neeko",
@@ -64,18 +64,11 @@
       "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Varus",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.0714285714285716
-    },
-    {
-      "nombre": "Nautilus",
+      "nombre": "Janna",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5263157894736843
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6
     },
     {
       "nombre": "Poppy",
@@ -85,11 +78,11 @@
       "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Pyke",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.0833333333333335
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.166666666666667
     },
     {
       "nombre": "Akali",
@@ -104,12 +97,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
+    "games": 46,
     "wins": 23,
-    "losses": 26,
-    "timePlayed": 78182
+    "losses": 23,
+    "timePlayed": 72658
   }
 }

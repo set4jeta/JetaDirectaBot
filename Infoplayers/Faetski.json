@@ -15,29 +15,29 @@
   "cuentas": [
     {
       "nombre": "Cole Palmer#Ball",
-      "nivel": 1022,
+      "nivel": 1023,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 844,
-      "victorias": 401,
-      "derrotas": 356,
-      "ultima_partida": 1753404911565
+      "lp": 801,
+      "victorias": 402,
+      "derrotas": 359,
+      "ultima_partida": 1753473751873
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Corki",
-      "partidas": 12,
+      "partidas": 13,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 2.537313432835821
+      "winrate": "46.2%",
+      "kda_promedio": 2.3552631578947367
     },
     {
       "nombre": "Zeri",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2058823529411766
+      "winrate": "28.6%",
+      "kda_promedio": 2.1578947368421053
     },
     {
       "nombre": "Jhin",
@@ -54,18 +54,18 @@
       "kda_promedio": 2.8
     },
     {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.095238095238095
+    },
+    {
       "nombre": "Jinx",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.066666666666667
     },
     {
       "nombre": "Varus",
@@ -82,24 +82,24 @@
       "kda_promedio": 1.8181818181818181
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.7777777777777777
-    },
-    {
-      "nombre": "Senna",
+      "nombre": "Lucian",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7857142857142858
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
-    "wins": 24,
-    "losses": 29,
-    "timePlayed": 87108
+    "games": 54,
+    "wins": 22,
+    "losses": 32,
+    "timePlayed": 88747
   }
 }

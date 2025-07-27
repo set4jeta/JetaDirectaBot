@@ -37,13 +37,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yone",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9259259259259259
-    },
-    {
       "nombre": "Jayce",
       "partidas": 2,
       "victorias": 1,
@@ -56,6 +49,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2666666666666666
     },
     {
       "nombre": "Ahri",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 9,
-    "losses": 8,
-    "timePlayed": 27443
+    "games": 15,
+    "wins": 8,
+    "losses": 7,
+    "timePlayed": 23612
   }
 }

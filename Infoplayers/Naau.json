@@ -21,7 +21,7 @@
       "lp": 816,
       "victorias": 241,
       "derrotas": 207,
-      "ultima_partida": 1753378601444
+      "ultima_partida": 1753453847401
     }
   ],
   "campeones_recientes": [
@@ -68,11 +68,11 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Nidalee",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13.5
     },
     {
       "nombre": "Pantheon",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 16,
-    "wins": 6,
+    "games": 17,
+    "wins": 7,
     "losses": 10,
-    "timePlayed": 25158
+    "timePlayed": 26654
   }
 }

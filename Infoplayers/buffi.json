@@ -19,20 +19,20 @@
       "nivel": 1011,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1083,
+      "lp": 1061,
       "victorias": 184,
-      "derrotas": 148,
-      "ultima_partida": 1753381884721
+      "derrotas": 149,
+      "ultima_partida": 1753463567799
     },
     {
       "nombre": "lecefurabezdachu#EUW",
       "nivel": 177,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 861,
-      "victorias": 138,
+      "lp": 881,
+      "victorias": 139,
       "derrotas": 97,
-      "ultima_partida": 1752867883900
+      "ultima_partida": 1753457110242
     }
   ],
   "campeones_recientes": [
@@ -44,11 +44,18 @@
       "kda_promedio": 3.76
     },
     {
-      "nombre": "Ahri",
+      "nombre": "Azir",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.1875
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.466666666666667
     },
     {
       "nombre": "Jhin",
@@ -65,25 +72,11 @@
       "kda_promedio": 1.619047619047619
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Ahri",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1333333333333333
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4444444444444446
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.076923076923077
     },
     {
       "nombre": "Taliyah",
@@ -100,6 +93,13 @@
       "kda_promedio": 3
     },
     {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
       "nombre": "Naafiri",
       "partidas": 1,
       "victorias": 0,
@@ -111,6 +111,6 @@
     "games": 31,
     "wins": 16,
     "losses": 15,
-    "timePlayed": 46949
+    "timePlayed": 47242
   }
 }

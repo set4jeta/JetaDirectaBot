@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Renata",
-      "partidas": 10,
-      "victorias": 5,
+      "partidas": 8,
+      "victorias": 4,
       "winrate": "50.0%",
-      "kda_promedio": 3.3333333333333335
+      "kda_promedio": 2.953488372093023
     },
     {
       "nombre": "Lulu",
@@ -69,10 +69,10 @@
     },
     {
       "nombre": "Neeko",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9230769230769231
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
     },
     {
       "nombre": "Rell",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 15,
-    "losses": 16,
-    "timePlayed": 50892
+    "games": 28,
+    "wins": 14,
+    "losses": 14,
+    "timePlayed": 45582
   }
 }

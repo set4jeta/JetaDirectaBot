@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "UnwaveringShadow#ALONE",
-      "nivel": 782,
+      "nivel": 783,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 816,
-      "victorias": 416,
-      "derrotas": 392,
-      "ultima_partida": 1753394772549
+      "lp": 866,
+      "victorias": 420,
+      "derrotas": 394,
+      "ultima_partida": 1753462389635
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 35,
-      "victorias": 23,
-      "winrate": "65.7%",
-      "kda_promedio": 3.167630057803468
+      "partidas": 37,
+      "victorias": 24,
+      "winrate": "64.9%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Pantheon",
@@ -41,18 +41,18 @@
       "kda_promedio": 3.2247191011235956
     },
     {
+      "nombre": "Trundle",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.923076923076923
+    },
+    {
       "nombre": "Poppy",
       "partidas": 6,
       "victorias": 5,
       "winrate": "83.3%",
       "kda_promedio": 3.2962962962962963
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8181818181818183
     },
     {
       "nombre": "JarvanIV",
@@ -90,17 +90,17 @@
       "kda_promedio": 5.142857142857143
     },
     {
-      "nombre": "Volibear",
+      "nombre": "Zyra",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.142857142857143
+      "kda_promedio": 2.4615384615384617
     }
   ],
   "estadisticas_2_semanas": {
     "games": 90,
-    "wins": 51,
-    "losses": 39,
-    "timePlayed": 148261
+    "wins": 53,
+    "losses": 37,
+    "timePlayed": 149917
   }
 }

@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "low expectations#TUN",
+      "nivel": 137,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 982,
+      "victorias": 240,
+      "derrotas": 193,
+      "ultima_partida": 1753464215333
+    },
+    {
       "nombre": "HomeIαnder#EUW",
       "nivel": 1022,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 225,
       "derrotas": 217,
       "ultima_partida": 1753288839578
-    },
-    {
-      "nombre": "low expectations#TUN",
-      "nivel": 137,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1003,
-      "victorias": 240,
-      "derrotas": 192,
-      "ultima_partida": 1753270100701
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7
+      "winrate": "20.0%",
+      "kda_promedio": 1.5952380952380953
     },
     {
       "nombre": "Smolder",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
+    "games": 36,
     "wins": 17,
-    "losses": 18,
-    "timePlayed": 59894
+    "losses": 19,
+    "timePlayed": 62057
   }
 }

@@ -18,10 +18,10 @@
       "nivel": 194,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1250,
-      "victorias": 445,
+      "lp": 1270,
+      "victorias": 446,
       "derrotas": 394,
-      "ultima_partida": 1753385883157
+      "ultima_partida": 1753452040425
     }
   ],
   "campeones_recientes": [
@@ -33,18 +33,18 @@
       "kda_promedio": 2.5609756097560976
     },
     {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.7
+    },
+    {
       "nombre": "Braum",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 4.458333333333333
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.375
     },
     {
       "nombre": "Jhin",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 28,
+    "games": 51,
+    "wins": 29,
     "losses": 22,
-    "timePlayed": 80348
+    "timePlayed": 82395
   }
 }

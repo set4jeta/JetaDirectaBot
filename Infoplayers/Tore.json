@@ -19,10 +19,10 @@
       "nivel": 696,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 860,
+      "lp": 843,
       "victorias": 176,
-      "derrotas": 128,
-      "ultima_partida": 1753383386345
+      "derrotas": 129,
+      "ultima_partida": 1753473042870
     }
   ],
   "campeones_recientes": [
@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Bard",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 26
+      "winrate": "66.7%",
+      "kda_promedio": 6.714285714285714
     },
     {
       "nombre": "Chogath",
@@ -70,9 +70,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
+    "games": 10,
     "wins": 5,
-    "losses": 4,
-    "timePlayed": 15772
+    "losses": 5,
+    "timePlayed": 17936
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 40,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 458,
-      "victorias": 68,
+      "lp": 500,
+      "victorias": 70,
       "derrotas": 28,
-      "ultima_partida": 1753394754170
+      "ultima_partida": 1753459701360
     },
     {
       "nombre": "dont mind me#faith",
@@ -38,31 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Lillia",
-      "partidas": 18,
-      "victorias": 11,
-      "winrate": "61.1%",
-      "kda_promedio": 3.8974358974358974
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 3.792207792207792
     },
     {
       "nombre": "LeeSin",
-      "partidas": 8,
+      "partidas": 6,
       "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.2093023255813953
+      "winrate": "83.3%",
+      "kda_promedio": 3.933333333333333
     },
     {
       "nombre": "Jax",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.666666666666667
-    },
-    {
-      "nombre": "Diana",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 7.375
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.75
     },
     {
       "nombre": "Karthus",
@@ -72,11 +65,11 @@
       "kda_promedio": 3.6470588235294117
     },
     {
-      "nombre": "Kindred",
+      "nombre": "Diana",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5333333333333334
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9
     },
     {
       "nombre": "MonkeyKing",
@@ -84,6 +77,13 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 9.25
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Vi",
@@ -94,9 +94,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 27,
-    "losses": 14,
-    "timePlayed": 62777
+    "games": 35,
+    "wins": 24,
+    "losses": 11,
+    "timePlayed": 54858
   }
 }

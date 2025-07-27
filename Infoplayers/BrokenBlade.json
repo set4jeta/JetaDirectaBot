@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "G2 BrokenBlade#1918",
-      "nivel": 702,
+      "nivel": 703,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 865,
-      "victorias": 435,
-      "derrotas": 397,
-      "ultima_partida": 1753436612146
+      "lp": 829,
+      "victorias": 437,
+      "derrotas": 401,
+      "ultima_partida": 1753451064804
     },
     {
       "nombre": "G2 BrokenBlade#1819",
@@ -38,24 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 5,
+      "partidas": 7,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.32
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.392857142857143
+      "winrate": "28.6%",
+      "kda_promedio": 1.59375
     },
     {
       "nombre": "Rumble",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.8928571428571428
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.7586206896551724
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3846153846153846
     },
     {
       "nombre": "Yone",
@@ -63,6 +63,27 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
     },
     {
       "nombre": "Renekton",
@@ -87,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
+    "games": 23,
     "wins": 9,
-    "losses": 11,
-    "timePlayed": 32999
+    "losses": 14,
+    "timePlayed": 37839
   }
 }

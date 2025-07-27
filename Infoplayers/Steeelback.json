@@ -19,26 +19,26 @@
       "nivel": 711,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 782,
-      "victorias": 425,
+      "lp": 838,
+      "victorias": 428,
       "derrotas": 385,
-      "ultima_partida": 1753386536420
+      "ultima_partida": 1753430767622
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.8
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Nautilus",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.90625
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.903225806451613
     },
     {
       "nombre": "Neeko",
@@ -49,10 +49,10 @@
     },
     {
       "nombre": "Poppy",
-      "partidas": 8,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.6
+      "winrate": "71.4%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Rell",
@@ -63,10 +63,10 @@
     },
     {
       "nombre": "Braum",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8181818181818181
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
     },
     {
       "nombre": "Jhin",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 25,
-    "losses": 23,
-    "timePlayed": 77231
+    "games": 47,
+    "wins": 27,
+    "losses": 20,
+    "timePlayed": 73857
   }
 }

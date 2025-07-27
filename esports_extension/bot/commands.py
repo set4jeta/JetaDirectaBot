@@ -99,11 +99,13 @@ class EsportsCommands(commands.Cog):
                         blue_wins = blue_team.game_wins if blue_team else 0
                         red_wins = red_team.game_wins if red_team else 0
                         if blue_wins == 0 and red_wins == 0:
-                            await ctx.send(embed=embed)
+                            if embed:
+                                await ctx.send(embed=embed)
                         else:
                             await ctx.send(embed=embed, view=ScoreButtonView(blue_wins, red_wins))
                     else:
-                        await ctx.send(embed=embed)
+                        if embed:
+                            await ctx.send(embed=embed)
                     sent_for_this_match = True
                     any_embed_sent = True
                     break
@@ -114,7 +116,8 @@ class EsportsCommands(commands.Cog):
             for g in match.trackedGames:
                 if g.state in ("inProgress", "unstarted") and not g.has_participants and g.draft_in_progress:
                     embed = await EmbedService.create_draft_embed(match)
-                    await ctx.send(embed=embed)
+                    if embed:
+                        await ctx.send(embed=embed)
                     sent_for_this_match = True
                     any_embed_sent = True
                     break
@@ -135,7 +138,8 @@ class EsportsCommands(commands.Cog):
                     red_wins = match.teamsEventDetails[1].game_wins
 
                     if blue_wins == 0 and red_wins == 0:
-                        await ctx.send(embed=embed)
+                        if embed:
+                            await ctx.send(embed=embed)
                     else:
                         await ctx.send(embed=embed, view=ScoreButtonView(blue_wins, red_wins))
                     sent_for_this_match = True
@@ -158,7 +162,8 @@ class EsportsCommands(commands.Cog):
                 red_wins = match.teamsEventDetails[1].game_wins
 
                 if blue_wins == 0 and red_wins == 0:
-                    await ctx.send(embed=embed)
+                    if embed:
+                        await ctx.send(embed=embed)
                 else:
                     await ctx.send(embed=embed, view=ScoreButtonView(blue_wins, red_wins))
                 sent_for_this_match = True
@@ -235,7 +240,8 @@ class EsportsCommands(commands.Cog):
                 await tracked_match.enrich_from_event_details(detalles)
 
                 embed = await EmbedService.create_upcoming_embed(tracked_match)
-                await ctx.send(embed=embed)
+                if embed:
+                    await ctx.send(embed=embed)
 
             except Exception as e:
                 print(f"[❌] Error procesando partido {evento.match_id}: {str(e)}")

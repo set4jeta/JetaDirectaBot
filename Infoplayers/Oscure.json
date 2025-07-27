@@ -27,10 +27,10 @@
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.588235294117647
+      "kda_promedio": 2.076923076923077
     },
     {
       "nombre": "Nautilus",
@@ -38,13 +38,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 5.2
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 31
     },
     {
       "nombre": "Braum",
@@ -61,6 +54,13 @@
       "kda_promedio": 4
     },
     {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 26
+    },
+    {
       "nombre": "Thresh",
       "partidas": 1,
       "victorias": 1,
@@ -69,9 +69,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
-    "wins": 4,
-    "losses": 6,
-    "timePlayed": 17041
+    "games": 8,
+    "wins": 3,
+    "losses": 5,
+    "timePlayed": 13997
   }
 }

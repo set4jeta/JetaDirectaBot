@@ -46,13 +46,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Bard",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0416666666666667
-    },
-    {
       "nombre": "Nautilus",
       "partidas": 2,
       "victorias": 0,
@@ -60,18 +53,11 @@
       "kda_promedio": 1.631578947368421
     },
     {
-      "nombre": "Braum",
+      "nombre": "Bard",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.6
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 0.5
     },
     {
       "nombre": "Pyke",
@@ -82,9 +68,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 8,
-    "wins": 1,
-    "losses": 7,
-    "timePlayed": 12952
+    "games": 4,
+    "wins": 0,
+    "losses": 4,
+    "timePlayed": 6154
   }
 }

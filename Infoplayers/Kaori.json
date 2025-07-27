@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "古月方源#33333",
-      "nivel": 1196,
+      "nivel": 1197,
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1061,
       "victorias": 464,
       "derrotas": 414,
-      "ultima_partida": 1753390583341
+      "ultima_partida": 1753469372064
     }
   ],
   "campeones_recientes": [
@@ -39,13 +39,6 @@
       "victorias": 7,
       "winrate": "87.5%",
       "kda_promedio": 2.7857142857142856
-    },
-    {
-      "nombre": "Vayne",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 4.2
     },
     {
       "nombre": "Ezreal",
@@ -76,11 +69,11 @@
       "kda_promedio": 1.4642857142857142
     },
     {
-      "nombre": "Zed",
+      "nombre": "Vayne",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.375
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.555555555555555
     },
     {
       "nombre": "Aphelios",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 34,
-    "losses": 27,
-    "timePlayed": 98320
+    "games": 58,
+    "wins": 32,
+    "losses": 26,
+    "timePlayed": 92413
   }
 }

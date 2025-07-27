@@ -27,17 +27,17 @@
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 14,
+      "partidas": 13,
       "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 2.339622641509434
+      "winrate": "53.8%",
+      "kda_promedio": 2.4742268041237114
     },
     {
       "nombre": "Nami",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.8805970149253732
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.830508474576271
     },
     {
       "nombre": "Pantheon",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 22,
-    "losses": 19,
-    "timePlayed": 68310
+    "games": 39,
+    "wins": 21,
+    "losses": 18,
+    "timePlayed": 65135
   }
 }

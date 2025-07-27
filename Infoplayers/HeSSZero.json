@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "hesszero#PAWEL",
-      "nivel": 860,
+      "nivel": 861,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 930,
-      "victorias": 311,
-      "derrotas": 270,
-      "ultima_partida": 1753282001653
+      "lp": 948,
+      "victorias": 313,
+      "derrotas": 271,
+      "ultima_partida": 1753459697229
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8333333333333333
+    },
     {
       "nombre": "Kled",
       "partidas": 10,
       "victorias": 5,
       "winrate": "50.0%",
       "kda_promedio": 1.9285714285714286
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.9245283018867925
     },
     {
       "nombre": "Sion",
@@ -53,6 +53,13 @@
       "victorias": 1,
       "winrate": "20.0%",
       "kda_promedio": 0.7586206896551724
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1666666666666665
     },
     {
       "nombre": "Aatrox",
@@ -83,13 +90,6 @@
       "kda_promedio": 3.875
     },
     {
-      "nombre": "Rumble",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.1666666666666665
-    },
-    {
       "nombre": "Sett",
       "partidas": 1,
       "victorias": 0,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 36,
-    "wins": 17,
-    "losses": 19,
-    "timePlayed": 58503
+    "games": 39,
+    "wins": 19,
+    "losses": 20,
+    "timePlayed": 63118
   }
 }

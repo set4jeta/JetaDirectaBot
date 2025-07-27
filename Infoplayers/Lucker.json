@@ -19,10 +19,10 @@
       "nivel": 905,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 930,
-      "victorias": 344,
+      "lp": 948,
+      "victorias": 345,
       "derrotas": 282,
-      "ultima_partida": 1753391638195
+      "ultima_partida": 1753472669343
     }
   ],
   "campeones_recientes": [
@@ -62,6 +62,13 @@
       "kda_promedio": 2
     },
     {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    },
+    {
       "nombre": "Lulu",
       "partidas": 1,
       "victorias": 1,
@@ -77,9 +84,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 11,
+    "games": 15,
+    "wins": 12,
     "losses": 3,
-    "timePlayed": 21975
+    "timePlayed": 23585
   }
 }

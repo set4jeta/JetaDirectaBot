@@ -19,20 +19,20 @@
       "nivel": 201,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 561,
-      "victorias": 148,
-      "derrotas": 113,
-      "ultima_partida": 1753430263582
+      "lp": 557,
+      "victorias": 149,
+      "derrotas": 114,
+      "ultima_partida": 1753454323281
     },
     {
       "nombre": "Zwyrøø#soul",
       "nivel": 1264,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1096,
+      "lp": 1077,
       "victorias": 548,
-      "derrotas": 493,
-      "ultima_partida": 1753389173321
+      "derrotas": 494,
+      "ultima_partida": 1753448655782
     }
   ],
   "campeones_recientes": [
@@ -45,10 +45,10 @@
     },
     {
       "nombre": "Syndra",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 3.6923076923076925
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 3.888888888888889
     },
     {
       "nombre": "Ahri",
@@ -65,18 +65,11 @@
       "kda_promedio": 3.125
     },
     {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0476190476190474
-    },
-    {
       "nombre": "Azir",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.230769230769231
+      "winrate": "25.0%",
+      "kda_promedio": 1.7
     },
     {
       "nombre": "Corki",
@@ -105,12 +98,19 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
-    "wins": 46,
-    "losses": 34,
-    "timePlayed": 128910
+    "games": 82,
+    "wins": 47,
+    "losses": 35,
+    "timePlayed": 132484
   }
 }

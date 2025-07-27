@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "sknahS#VVUE",
-      "nivel": 150,
+      "nivel": 151,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 986,
-      "victorias": 400,
-      "derrotas": 348,
-      "ultima_partida": 1753384198529
+      "lp": 967,
+      "victorias": 401,
+      "derrotas": 350,
+      "ultima_partida": 1753455596981
     },
     {
       "nombre": "Shanks#EUVV",
@@ -45,17 +45,17 @@
     },
     {
       "nombre": "Naafiri",
-      "partidas": 13,
-      "victorias": 9,
-      "winrate": "69.2%",
-      "kda_promedio": 3.9375
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.608695652173913
     },
     {
       "nombre": "Pantheon",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 2.4038461538461537
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.491228070175439
     },
     {
       "nombre": "Lillia",
@@ -72,11 +72,25 @@
       "kda_promedio": 1.6
     },
     {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
       "nombre": "Talon",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Zed",
@@ -87,9 +101,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
+    "games": 47,
     "wins": 24,
-    "losses": 21,
-    "timePlayed": 71329
+    "losses": 23,
+    "timePlayed": 74320
   }
 }

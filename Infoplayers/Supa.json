@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "MissFortune",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6363636363636362
-    },
-    {
       "nombre": "Caitlyn",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7
     },
     {
       "nombre": "Alistar",
@@ -87,9 +87,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
+    "games": 10,
     "wins": 6,
-    "losses": 6,
-    "timePlayed": 18703
+    "losses": 4,
+    "timePlayed": 15207
   }
 }

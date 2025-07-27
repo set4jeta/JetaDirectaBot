@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Kwon Jae Sung#TOPG",
+      "nivel": 482,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 923,
+      "victorias": 309,
+      "derrotas": 268,
+      "ultima_partida": 1753442117949
+    },
+    {
       "nombre": "lck material ad#EUW",
       "nivel": 122,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 72,
       "derrotas": 34,
       "ultima_partida": 1753384364211
-    },
-    {
-      "nombre": "Kwon Jae Sung#TOPG",
-      "nivel": 482,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 904,
-      "victorias": 307,
-      "derrotas": 267,
-      "ultima_partida": 1753354453640
     },
     {
       "nombre": "rank one#111",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 23,
-      "victorias": 14,
-      "winrate": "60.9%",
-      "kda_promedio": 3.4270833333333335
+      "partidas": 21,
+      "victorias": 13,
+      "winrate": "61.9%",
+      "kda_promedio": 3.2857142857142856
     },
     {
       "nombre": "Yunara",
@@ -61,18 +61,18 @@
       "kda_promedio": 2.981818181818182
     },
     {
-      "nombre": "Corki",
+      "nombre": "Senna",
       "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 3.5135135135135136
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.682926829268292
     },
     {
-      "nombre": "Senna",
+      "nombre": "Corki",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.473684210526316
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.727272727272727
     },
     {
       "nombre": "Jinx",
@@ -89,11 +89,18 @@
       "kda_promedio": 1.875
     },
     {
-      "nombre": "Aphelios",
+      "nombre": "Mel",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.3333333333333335
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8125
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8333333333333335
     },
     {
       "nombre": "Fiora",
@@ -108,19 +115,12 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.388888888888889
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 98,
-    "wins": 48,
-    "losses": 50,
-    "timePlayed": 163513
+    "games": 90,
+    "wins": 46,
+    "losses": 44,
+    "timePlayed": 150461
   }
 }

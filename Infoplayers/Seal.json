@@ -14,6 +14,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Spellbook Reader#book",
+      "nivel": 161,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1003,
+      "victorias": 135,
+      "derrotas": 96,
+      "ultima_partida": 1753446166714
+    },
+    {
       "nombre": "Autumn Leaf#Seal",
       "nivel": 765,
       "region": "EUW1",
@@ -22,39 +32,29 @@
       "victorias": 202,
       "derrotas": 148,
       "ultima_partida": 1753220171894
-    },
-    {
-      "nombre": "Spellbook Reader#book",
-      "nivel": 161,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1024,
-      "victorias": 135,
-      "derrotas": 95,
-      "ultima_partida": 1752572613294
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rakan",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.88
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5.2105263157894735
     },
     {
       "nombre": "Elise",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.217391304347826
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8421052631578947
     },
     {
       "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.25
+      "kda_promedio": 2.5555555555555554
     },
     {
       "nombre": "Alistar",
@@ -65,9 +65,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 10,
+    "games": 11,
+    "wins": 7,
     "losses": 4,
-    "timePlayed": 22248
+    "timePlayed": 18174
   }
 }

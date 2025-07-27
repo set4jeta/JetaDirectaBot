@@ -19,10 +19,10 @@
       "nivel": 264,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 888,
+      "lp": 849,
       "victorias": 236,
-      "derrotas": 194,
-      "ultima_partida": 1753389572067
+      "derrotas": 196,
+      "ultima_partida": 1753464429051
     },
     {
       "nombre": "Byron Love#1v9",
@@ -38,45 +38,38 @@
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 20,
-      "victorias": 13,
-      "winrate": "65.0%",
-      "kda_promedio": 2.4903846153846154
-    },
-    {
-      "nombre": "Gangplank",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 1.8021978021978022
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 2.4257425742574257
     },
     {
       "nombre": "Gwen",
       "partidas": 14,
       "victorias": 4,
       "winrate": "28.6%",
-      "kda_promedio": 1.6129032258064515
+      "kda_promedio": 1.5795454545454546
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.081967213114754
     },
     {
       "nombre": "Jax",
-      "partidas": 12,
+      "partidas": 11,
       "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 1.75
+      "winrate": "45.5%",
+      "kda_promedio": 2.0277777777777777
     },
     {
       "nombre": "Fiora",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.2888888888888888
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.259259259259259
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.1463414634146343
     },
     {
       "nombre": "Ambessa",
@@ -86,13 +79,6 @@
       "kda_promedio": 3.411764705882353
     },
     {
-      "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.210526315789474
-    },
-    {
       "nombre": "Trundle",
       "partidas": 4,
       "victorias": 4,
@@ -100,17 +86,31 @@
       "kda_promedio": 5.769230769230769
     },
     {
-      "nombre": "Kayle",
-      "partidas": 3,
+      "nombre": "Vladimir",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.5666666666666667
+      "winrate": "50.0%",
+      "kda_promedio": 1.96
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.08
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 57,
-    "losses": 48,
-    "timePlayed": 172859
+    "games": 94,
+    "wins": 51,
+    "losses": 43,
+    "timePlayed": 152806
   }
 }

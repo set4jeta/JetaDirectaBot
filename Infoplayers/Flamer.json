@@ -18,10 +18,10 @@
       "nivel": 492,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1209,
-      "victorias": 294,
-      "derrotas": 224,
-      "ultima_partida": 1753378674070
+      "lp": 1188,
+      "victorias": 295,
+      "derrotas": 226,
+      "ultima_partida": 1753448822139
     }
   ],
   "campeones_recientes": [
@@ -34,24 +34,24 @@
     },
     {
       "nombre": "KSante",
-      "partidas": 15,
+      "partidas": 16,
       "victorias": 7,
-      "winrate": "46.7%",
-      "kda_promedio": 2.2714285714285714
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.88
+      "winrate": "43.8%",
+      "kda_promedio": 2.1866666666666665
     },
     {
       "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Renekton",
       "partidas": 8,
       "victorias": 3,
       "winrate": "37.5%",
-      "kda_promedio": 2.2
+      "kda_promedio": 1.7291666666666667
     },
     {
       "nombre": "Rumble",
@@ -61,18 +61,18 @@
       "kda_promedio": 2.24
     },
     {
+      "nombre": "Yorick",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.6
+    },
+    {
       "nombre": "Gwen",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 1.5238095238095237
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1666666666666667
     },
     {
       "nombre": "Akali",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
+    "games": 74,
     "wins": 38,
-    "losses": 34,
-    "timePlayed": 116943
+    "losses": 36,
+    "timePlayed": 119684
   }
 }

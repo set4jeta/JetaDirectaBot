@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Cercueil noir#黒棺90",
-      "nivel": 2186,
+      "nivel": 2187,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 759,
-      "victorias": 648,
-      "derrotas": 623,
-      "ultima_partida": 1753332884880
+      "lp": 780,
+      "victorias": 650,
+      "derrotas": 624,
+      "ultima_partida": 1753443113907
     }
   ],
   "campeones_recientes": [
@@ -34,6 +34,13 @@
       "kda_promedio": 1.6153846153846154
     },
     {
+      "nombre": "Aatrox",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 1.7236842105263157
+    },
+    {
       "nombre": "Jayce",
       "partidas": 15,
       "victorias": 5,
@@ -41,18 +48,11 @@
       "kda_promedio": 1.595959595959596
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 14,
-      "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 1.835820895522388
-    },
-    {
       "nombre": "Aurora",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.119047619047619
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.239130434782609
     },
     {
       "nombre": "Sion",
@@ -69,6 +69,13 @@
       "kda_promedio": 2.2
     },
     {
+      "nombre": "Sett",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 1.85
+    },
+    {
       "nombre": "Gnar",
       "partidas": 5,
       "victorias": 4,
@@ -83,13 +90,6 @@
       "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Sett",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 1.7567567567567568
-    },
-    {
       "nombre": "Akali",
       "partidas": 4,
       "victorias": 3,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 56,
-    "losses": 49,
-    "timePlayed": 165333
+    "games": 108,
+    "wins": 58,
+    "losses": 50,
+    "timePlayed": 170148
   }
 }

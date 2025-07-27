@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 15,
+      "partidas": 14,
       "victorias": 7,
-      "winrate": "46.7%",
-      "kda_promedio": 3.5606060606060606
+      "winrate": "50.0%",
+      "kda_promedio": 3.7704918032786887
     },
     {
       "nombre": "Rell",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 90,
+    "games": 89,
     "wins": 53,
-    "losses": 37,
-    "timePlayed": 145087
+    "losses": 36,
+    "timePlayed": 143882
   }
 }

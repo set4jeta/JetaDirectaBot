@@ -19,10 +19,10 @@
       "nivel": 181,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1224,
-      "victorias": 331,
+      "lp": 1245,
+      "victorias": 332,
       "derrotas": 262,
-      "ultima_partida": 1753299382255
+      "ultima_partida": 1753472669343
     },
     {
       "nombre": "soothing breeze#EUW",
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Irelia",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.9523809523809523
+    },
+    {
       "nombre": "Sylas",
       "partidas": 7,
       "victorias": 6,
       "winrate": "85.7%",
       "kda_promedio": 2.6176470588235294
-    },
-    {
-      "nombre": "Irelia",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 1.5897435897435896
     },
     {
       "nombre": "Yasuo",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 19,
+    "games": 33,
+    "wins": 20,
     "losses": 13,
-    "timePlayed": 51294
+    "timePlayed": 52904
   }
 }

@@ -16,50 +16,50 @@
   "cuentas": [
     {
       "nombre": "Night Slayer#SLAAY",
-      "nivel": 672,
+      "nivel": 673,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1162,
-      "victorias": 617,
-      "derrotas": 559,
-      "ultima_partida": 1753368145110
+      "lp": 1144,
+      "victorias": 619,
+      "derrotas": 562,
+      "ultima_partida": 1753468872871
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 1.4133333333333333
+      "nombre": "Aatrox",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8977272727272727
     },
     {
-      "nombre": "Aatrox",
+      "nombre": "Gwen",
       "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.0142857142857142
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4647887323943662
     },
     {
       "nombre": "Ambessa",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 1.536231884057971
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.5671641791044777
     },
     {
       "nombre": "Yone",
       "partidas": 10,
       "victorias": 5,
       "winrate": "50.0%",
-      "kda_promedio": 1.5689655172413792
+      "kda_promedio": 1.3636363636363635
     },
     {
       "nombre": "Jax",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 1.2542372881355932
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.2037037037037037
     },
     {
       "nombre": "Camille",
@@ -92,15 +92,15 @@
     {
       "nombre": "DrMundo",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.25
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.95
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 45,
-    "losses": 46,
-    "timePlayed": 145005
+    "games": 89,
+    "wins": 42,
+    "losses": 47,
+    "timePlayed": 144830
   }
 }

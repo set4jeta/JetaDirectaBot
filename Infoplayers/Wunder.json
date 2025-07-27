@@ -7,13 +7,23 @@
     "pais": "Denmark",
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://www.twitter.com/wunderlol",
-      "twitch": "https://www.twitch.tv/wunderlol"
+      "twitter": "https://twitter.com/wunderlol",
+      "twitch": "https://twitch.tv/wunderlol"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/wunder.webp",
     "logo_equipo": null
   },
   "cuentas": [
+    {
+      "nombre": "Wunderwear#GOAT",
+      "nivel": 523,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 945,
+      "victorias": 194,
+      "derrotas": 165,
+      "ultima_partida": 1753458007885
+    },
     {
       "nombre": "notgoodenough#1SEPT",
       "nivel": 96,
@@ -23,16 +33,6 @@
       "victorias": 167,
       "derrotas": 111,
       "ultima_partida": 1753286595281
-    },
-    {
-      "nombre": "Wunderwear#GOAT",
-      "nivel": 523,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 947,
-      "victorias": 193,
-      "derrotas": 164,
-      "ultima_partida": 1753013564616
     }
   ],
   "campeones_recientes": [
@@ -44,13 +44,6 @@
       "kda_promedio": 2.111111111111111
     },
     {
-      "nombre": "Gwen",
-      "partidas": 8,
-      "victorias": 1,
-      "winrate": "12.5%",
-      "kda_promedio": 1.3170731707317074
-    },
-    {
       "nombre": "Gangplank",
       "partidas": 6,
       "victorias": 4,
@@ -60,9 +53,9 @@
     {
       "nombre": "Jayce",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8095238095238093
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.8333333333333335
     },
     {
       "nombre": "Ambessa",
@@ -72,11 +65,11 @@
       "kda_promedio": 2.0952380952380953
     },
     {
-      "nombre": "Ryze",
-      "partidas": 4,
+      "nombre": "Gwen",
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.3461538461538463
+      "winrate": "20.0%",
+      "kda_promedio": 1.34375
     },
     {
       "nombre": "Aurora",
@@ -105,12 +98,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 74,
+    "games": 69,
     "wins": 37,
-    "losses": 37,
-    "timePlayed": 114544
+    "losses": 32,
+    "timePlayed": 107148
   }
 }

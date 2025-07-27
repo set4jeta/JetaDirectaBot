@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Fleshy#EU1",
-      "nivel": 781,
+      "nivel": 782,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1323,
-      "victorias": 406,
-      "derrotas": 353,
-      "ultima_partida": 1753392563849
+      "lp": 1322,
+      "victorias": 407,
+      "derrotas": 354,
+      "ultima_partida": 1753475040878
     }
   ],
   "campeones_recientes": [
@@ -41,18 +41,18 @@
       "kda_promedio": 8.846153846153847
     },
     {
-      "nombre": "Alistar",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.8846153846153846
+      "nombre": "Pyke",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.190476190476191
     },
     {
-      "nombre": "Pyke",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.117647058823529
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.4166666666666665
     },
     {
       "nombre": "Braum",
@@ -60,13 +60,6 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.5789473684210527
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.9285714285714284
     },
     {
       "nombre": "Nautilus",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7142857142857144
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 31,
-    "losses": 24,
-    "timePlayed": 90935
+    "games": 53,
+    "wins": 30,
+    "losses": 23,
+    "timePlayed": 88669
   }
 }

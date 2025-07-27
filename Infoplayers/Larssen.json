@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "george kittle#EUW",
-      "nivel": 670,
+      "nivel": 671,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 190,
-      "victorias": 328,
-      "derrotas": 325,
-      "ultima_partida": 1753394169919
+      "lp": 173,
+      "victorias": 329,
+      "derrotas": 327,
+      "ultima_partida": 1753471833020
     }
   ],
   "campeones_recientes": [
@@ -37,14 +37,7 @@
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 2.12
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.64
+      "kda_promedio": 3.0833333333333335
     },
     {
       "nombre": "Sylas",
@@ -54,11 +47,25 @@
       "kda_promedio": 1
     },
     {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
       "nombre": "Akali",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.7916666666666667
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4705882352941178
     },
     {
       "nombre": "Ryze",
@@ -75,31 +82,24 @@
       "kda_promedio": 1.8
     },
     {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.2
-    },
-    {
       "nombre": "Azir",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8181818181818182
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     }
   ],
   "estadisticas_2_semanas": {
     "games": 37,
-    "wins": 17,
-    "losses": 20,
-    "timePlayed": 58205
+    "wins": 16,
+    "losses": 21,
+    "timePlayed": 59554
   }
 }

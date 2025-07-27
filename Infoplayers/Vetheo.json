@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Percy Magic#1234",
-      "nivel": 893,
+      "nivel": 894,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 881,
-      "victorias": 206,
-      "derrotas": 167,
-      "ultima_partida": 1753395831723
+      "lp": 970,
+      "victorias": 211,
+      "derrotas": 168,
+      "ultima_partida": 1753478000521
     },
     {
       "nombre": "Vetheø#4321",
@@ -58,59 +58,59 @@
   "campeones_recientes": [
     {
       "nombre": "Ryze",
-      "partidas": 24,
+      "partidas": 22,
       "victorias": 15,
-      "winrate": "62.5%",
-      "kda_promedio": 3.55
+      "winrate": "68.2%",
+      "kda_promedio": 3.857142857142857
     },
     {
       "nombre": "Azir",
       "partidas": 19,
-      "victorias": 9,
-      "winrate": "47.4%",
-      "kda_promedio": 2.6184210526315788
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 2.8266666666666667
     },
     {
       "nombre": "Aurora",
-      "partidas": 14,
-      "victorias": 6,
-      "winrate": "42.9%",
-      "kda_promedio": 3.033333333333333
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 2.857142857142857
     },
     {
       "nombre": "Annie",
-      "partidas": 10,
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.875
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 5.666666666666667
+      "winrate": "66.7%",
+      "kda_promedio": 3.9655172413793105
     },
     {
       "nombre": "Taliyah",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.133333333333334
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.736842105263158
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.470588235294118
     },
     {
       "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "TwistedFate",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 4.571428571428571
+      "kda_promedio": 4.153846153846154
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.125
     },
     {
       "nombre": "Smolder",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 127,
+    "games": 121,
     "wins": 63,
-    "losses": 64,
-    "timePlayed": 201359
+    "losses": 58,
+    "timePlayed": 191441
   }
 }

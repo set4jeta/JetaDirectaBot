@@ -18,10 +18,10 @@
       "nivel": 75,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 880,
+      "lp": 849,
       "victorias": 222,
-      "derrotas": 146,
-      "ultima_partida": 1753397656727
+      "derrotas": 147,
+      "ultima_partida": 1753448010590
     },
     {
       "nombre": "bvsb#EUW",
@@ -37,45 +37,38 @@
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 14,
+      "partidas": 15,
       "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 2.3466666666666667
+      "winrate": "60.0%",
+      "kda_promedio": 2.2650602409638556
     },
     {
       "nombre": "Taliyah",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 2.727272727272727
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.772727272727273
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.40625
     },
     {
       "nombre": "Viktor",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.1666666666666665
     },
     {
       "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.615384615384615
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.363636363636363
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Sion",
       "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9666666666666667
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2666666666666666
     },
     {
       "nombre": "Yone",
@@ -85,11 +78,11 @@
       "kda_promedio": 2.05
     },
     {
-      "nombre": "Jayce",
+      "nombre": "Lucian",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1333333333333333
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
     },
     {
       "nombre": "Ryze",
@@ -104,12 +97,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 37,
-    "losses": 24,
-    "timePlayed": 101299
+    "games": 53,
+    "wins": 31,
+    "losses": 22,
+    "timePlayed": 89376
   }
 }

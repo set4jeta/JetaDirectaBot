@@ -19,36 +19,43 @@
       "nivel": 892,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1455,
-      "victorias": 452,
+      "lp": 1475,
+      "victorias": 453,
       "derrotas": 397,
-      "ultima_partida": 1753402543021
+      "ultima_partida": 1753468545951
     },
     {
       "nombre": "platamon prodigy#0000",
       "nivel": 327,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 485,
-      "victorias": 157,
-      "derrotas": 108,
-      "ultima_partida": 1753265330972
+      "lp": 475,
+      "victorias": 158,
+      "derrotas": 112,
+      "ultima_partida": 1753456121620
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 3.1555555555555554
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.1219512195121952
     },
     {
       "nombre": "Gragas",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.3541666666666665
+      "winrate": "58.3%",
+      "kda_promedio": 2.290909090909091
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Jax",
@@ -58,32 +65,11 @@
       "kda_promedio": 2.236842105263158
     },
     {
-      "nombre": "Kled",
-      "partidas": 10,
-      "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 2.4146341463414633
-    },
-    {
       "nombre": "Sion",
       "partidas": 7,
       "victorias": 7,
       "winrate": "100.0%",
       "kda_promedio": 5.733333333333333
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1923076923076925
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.6315789473684212
     },
     {
       "nombre": "KSante",
@@ -93,6 +79,20 @@
       "kda_promedio": 3.357142857142857
     },
     {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.0625
+    },
+    {
       "nombre": "Aurora",
       "partidas": 4,
       "victorias": 1,
@@ -100,17 +100,17 @@
       "kda_promedio": 2.1666666666666665
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7647058823529411
     }
   ],
   "estadisticas_2_semanas": {
     "games": 92,
-    "wins": 54,
-    "losses": 38,
-    "timePlayed": 145808
+    "wins": 53,
+    "losses": 39,
+    "timePlayed": 145158
   }
 }

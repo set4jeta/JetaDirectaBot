@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Fiora",
-      "partidas": 17,
-      "victorias": 13,
-      "winrate": "76.5%",
-      "kda_promedio": 1.95
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9589041095890412
     },
     {
       "nombre": "Gwen",
@@ -42,10 +42,10 @@
     },
     {
       "nombre": "Yorick",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.0217391304347827
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Jayce",
@@ -56,17 +56,17 @@
     },
     {
       "nombre": "Olaf",
-      "partidas": 8,
+      "partidas": 7,
       "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.0869565217391304
+      "winrate": "42.9%",
+      "kda_promedio": 2.076923076923077
     },
     {
       "nombre": "Gnar",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1666666666666667
     },
     {
       "nombre": "Renekton",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 86,
-    "wins": 42,
-    "losses": 44,
-    "timePlayed": 130534
+    "games": 81,
+    "wins": 38,
+    "losses": 43,
+    "timePlayed": 122392
   }
 }

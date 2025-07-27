@@ -16,23 +16,16 @@
   "cuentas": [
     {
       "nombre": "danka tyyy shiii#mood",
-      "nivel": 912,
+      "nivel": 913,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1071,
-      "victorias": 285,
-      "derrotas": 245,
-      "ultima_partida": 1753303929437
+      "lp": 1110,
+      "victorias": 288,
+      "derrotas": 246,
+      "ultima_partida": 1753470306731
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "LeeSin",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 6.222222222222222
-    },
     {
       "nombre": "XinZhao",
       "partidas": 4,
@@ -41,25 +34,39 @@
       "kda_promedio": 3.727272727272727
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Nidalee",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 7.714285714285714
+      "kda_promedio": 11.5
     },
     {
-      "nombre": "Alistar",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.625
-    },
-    {
-      "nombre": "Nidalee",
+      "nombre": "LeeSin",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 18
+      "kda_promedio": 8.125
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
     },
     {
       "nombre": "Karma",
@@ -88,19 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.1428571428571428
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
-    "wins": 15,
-    "losses": 10,
-    "timePlayed": 40191
+    "games": 22,
+    "wins": 14,
+    "losses": 8,
+    "timePlayed": 34328
   }
 }

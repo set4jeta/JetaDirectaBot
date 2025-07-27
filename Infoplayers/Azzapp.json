@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Kolinahr Master#EUW",
-      "nivel": 84,
+      "nivel": 85,
       "region": "EUW1",
-      "liga": "EMERALD II",
-      "lp": 53,
-      "victorias": 48,
-      "derrotas": 19,
-      "ultima_partida": 1753371034151
+      "liga": "EMERALD I",
+      "lp": 36,
+      "victorias": 52,
+      "derrotas": 21,
+      "ultima_partida": 1753456818928
     },
     {
       "nombre": "Azzapp#31415",
@@ -55,10 +55,10 @@
     },
     {
       "nombre": "Velkoz",
-      "partidas": 16,
-      "victorias": 9,
-      "winrate": "56.2%",
-      "kda_promedio": 3.0144927536231885
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.56140350877193
     },
     {
       "nombre": "Smolder",
@@ -69,10 +69,24 @@
     },
     {
       "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.15
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Jinx",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.6363636363636362
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Lucian",
@@ -82,11 +96,11 @@
       "kda_promedio": 9.2
     },
     {
-      "nombre": "Tristana",
+      "nombre": "Vayne",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
     },
     {
       "nombre": "Zeri",
@@ -101,26 +115,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.9285714285714286
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.083333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 75,
-    "wins": 52,
-    "losses": 23,
-    "timePlayed": 126587
+    "games": 77,
+    "wins": 53,
+    "losses": 24,
+    "timePlayed": 132422
   }
 }

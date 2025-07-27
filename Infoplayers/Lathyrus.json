@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Lathyrus#EUW",
-      "nivel": 663,
+      "nivel": 664,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 821,
-      "victorias": 404,
-      "derrotas": 360,
-      "ultima_partida": 1753375391220
+      "lp": 727,
+      "victorias": 408,
+      "derrotas": 369,
+      "ultima_partida": 1753468937238
     },
     {
       "nombre": "TwTv Lathyrus#Brad",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 51,
-      "victorias": 26,
-      "winrate": "51.0%",
-      "kda_promedio": 2.767857142857143
+      "partidas": 61,
+      "victorias": 29,
+      "winrate": "47.5%",
+      "kda_promedio": 2.7044776119402987
     },
     {
       "nombre": "Maokai",
@@ -52,10 +52,10 @@
     },
     {
       "nombre": "FiddleSticks",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.230769230769231
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.7142857142857144
     },
     {
       "nombre": "Braum",
@@ -66,9 +66,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 30,
-    "losses": 33,
-    "timePlayed": 99819
+    "games": 76,
+    "wins": 34,
+    "losses": 42,
+    "timePlayed": 119648
   }
 }

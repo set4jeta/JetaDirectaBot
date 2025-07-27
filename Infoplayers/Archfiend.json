@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "S levche#Italy",
-      "nivel": 256,
+      "nivel": 257,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 906,
-      "victorias": 297,
+      "lp": 929,
+      "victorias": 298,
       "derrotas": 256,
-      "ultima_partida": 1753389491932
+      "ultima_partida": 1753435308555
     },
     {
       "nombre": "AαrchΦiend#666",
@@ -41,14 +41,14 @@
       "partidas": 26,
       "victorias": 14,
       "winrate": "53.8%",
-      "kda_promedio": 2.0814814814814815
+      "kda_promedio": 2.0902255639097747
     },
     {
       "nombre": "Ambessa",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 2.5531914893617023
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.682926829268293
     },
     {
       "nombre": "KSante",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 41,
+    "games": 66,
+    "wins": 40,
     "losses": 26,
-    "timePlayed": 106511
+    "timePlayed": 105044
   }
 }

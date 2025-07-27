@@ -18,10 +18,10 @@
       "nivel": 574,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1117,
-      "victorias": 235,
-      "derrotas": 197,
-      "ultima_partida": 1753361839290
+      "lp": 1074,
+      "victorias": 236,
+      "derrotas": 199,
+      "ultima_partida": 1753460990763
     },
     {
       "nombre": "choego#0001",
@@ -44,23 +44,30 @@
     },
     {
       "nombre": "Corki",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2
+      "winrate": "50.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
       "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Varus",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
-    "wins": 7,
-    "losses": 5,
-    "timePlayed": 16146
+    "games": 15,
+    "wins": 8,
+    "losses": 7,
+    "timePlayed": 20053
   }
 }

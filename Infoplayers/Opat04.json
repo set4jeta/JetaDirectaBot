@@ -18,10 +18,10 @@
       "nivel": 462,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 740,
-      "victorias": 182,
-      "derrotas": 153,
-      "ultima_partida": 1753396943904
+      "lp": 725,
+      "victorias": 183,
+      "derrotas": 155,
+      "ultima_partida": 1753464817638
     },
     {
       "nombre": "Jirka Král#King",
@@ -47,17 +47,24 @@
   "campeones_recientes": [
     {
       "nombre": "Vladimir",
-      "partidas": 49,
-      "victorias": 27,
-      "winrate": "55.1%",
-      "kda_promedio": 2.7859922178988326
+      "partidas": 47,
+      "victorias": 25,
+      "winrate": "53.2%",
+      "kda_promedio": 2.6626506024096384
     },
     {
       "nombre": "Ahri",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4166666666666665
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5483870967741935
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
     },
     {
       "nombre": "Yunara",
@@ -65,13 +72,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7.666666666666667
     },
     {
       "nombre": "Corki",
@@ -110,9 +110,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 35,
-    "losses": 28,
-    "timePlayed": 104870
+    "games": 60,
+    "wins": 31,
+    "losses": 29,
+    "timePlayed": 98402
   }
 }

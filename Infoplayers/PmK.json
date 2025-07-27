@@ -19,10 +19,10 @@
       "nivel": 963,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 357,
-      "victorias": 323,
+      "lp": 377,
+      "victorias": 324,
       "derrotas": 319,
-      "ultima_partida": 1753365089830
+      "ultima_partida": 1753448081155
     },
     {
       "nombre": "JACKPOT#GAMBA",
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Naafiri",
-      "partidas": 11,
+      "nombre": "Yone",
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 1.890625
+      "winrate": "60.0%",
+      "kda_promedio": 2.44
     },
     {
-      "nombre": "Yone",
+      "nombre": "Naafiri",
       "partidas": 9,
       "victorias": 5,
       "winrate": "55.6%",
-      "kda_promedio": 2.5
+      "kda_promedio": 1.7777777777777777
     },
     {
       "nombre": "Ambessa",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
+    "games": 62,
     "wins": 33,
-    "losses": 30,
-    "timePlayed": 105111
+    "losses": 29,
+    "timePlayed": 102465
   }
 }

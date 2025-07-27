@@ -19,10 +19,10 @@
       "nivel": 421,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 804,
-      "victorias": 285,
+      "lp": 864,
+      "victorias": 288,
       "derrotas": 249,
-      "ultima_partida": 1753396859691
+      "ultima_partida": 1753452870378
     },
     {
       "nombre": "Yen is my Wife#EUW",
@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 16,
-      "victorias": 12,
-      "winrate": "75.0%",
-      "kda_promedio": 4.166666666666667
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.380952380952381
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 3.9836065573770494
     },
     {
       "nombre": "Kaisa",
@@ -58,18 +51,25 @@
       "kda_promedio": 1.84
     },
     {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.84
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.384615384615385
+    },
+    {
       "nombre": "Ezreal",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 1.64
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.227272727272727
     },
     {
       "nombre": "Zeri",
@@ -93,24 +93,24 @@
       "kda_promedio": 2.4285714285714284
     },
     {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.9230769230769231
+    },
+    {
       "nombre": "Varus",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.4285714285714284
-    },
-    {
-      "nombre": "Vayne",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1538461538461537
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 28,
+    "games": 57,
+    "wins": 30,
     "losses": 27,
-    "timePlayed": 90882
+    "timePlayed": 95126
   }
 }

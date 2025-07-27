@@ -15,36 +15,36 @@
   "cuentas": [
     {
       "nombre": "IHEBIC#0000",
-      "nivel": 304,
+      "nivel": 305,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 888,
-      "victorias": 640,
-      "derrotas": 597,
-      "ultima_partida": 1753196885197
+      "lp": 826,
+      "victorias": 641,
+      "derrotas": 601,
+      "ultima_partida": 1753469761630
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 26,
-      "victorias": 15,
-      "winrate": "57.7%",
-      "kda_promedio": 2.3645833333333335
+      "partidas": 22,
+      "victorias": 11,
+      "winrate": "50.0%",
+      "kda_promedio": 2.39375
     },
     {
       "nombre": "Neeko",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 2.402173913043478
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.2613636363636362
     },
     {
       "nombre": "Rell",
       "partidas": 12,
-      "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4603174603174605
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.8970588235294117
     },
     {
       "nombre": "Braum",
@@ -58,21 +58,14 @@
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 4.947368421052632
+      "kda_promedio": 4.791666666666667
     },
     {
       "nombre": "Alistar",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.142857142857143
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5
+      "kda_promedio": 6.4
     },
     {
       "nombre": "Poppy",
@@ -82,11 +75,11 @@
       "kda_promedio": 0.9696969696969697
     },
     {
-      "nombre": "Senna",
-      "partidas": 3,
+      "nombre": "Karma",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.1052631578947367
+      "winrate": "50.0%",
+      "kda_promedio": 1.6363636363636365
     },
     {
       "nombre": "Leona",
@@ -94,12 +87,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.8823529411764706
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 18.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 95,
-    "wins": 54,
+    "games": 87,
+    "wins": 46,
     "losses": 41,
-    "timePlayed": 159403
+    "timePlayed": 146078
   }
 }

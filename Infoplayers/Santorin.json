@@ -16,43 +16,36 @@
   "cuentas": [
     {
       "nombre": "HotGuy6Pack#MUTE",
-      "nivel": 248,
+      "nivel": 249,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1197,
-      "victorias": 206,
-      "derrotas": 170,
-      "ultima_partida": 1752598452289
+      "lp": 1166,
+      "victorias": 209,
+      "derrotas": 174,
+      "ultima_partida": 1753462149189
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
+      "nombre": "JarvanIV",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 4
+      "kda_promedio": 2.772727272727273
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1538461538461537
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.818181818181818
     },
     {
       "nombre": "LeeSin",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 11
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 11
+      "kda_promedio": 4.125
     },
     {
       "nombre": "Nocturne",
@@ -62,18 +55,11 @@
       "kda_promedio": 4.5
     },
     {
-      "nombre": "Trundle",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.142857142857143
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.714285714285714
+      "nombre": "Ivern",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
     },
     {
       "nombre": "Khazix",
@@ -90,17 +76,31 @@
       "kda_promedio": 1.8
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Skarner",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 19
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 14,
-    "losses": 6,
-    "timePlayed": 29124
+    "games": 18,
+    "wins": 11,
+    "losses": 7,
+    "timePlayed": 28280
   }
 }

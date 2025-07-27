@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "vovalaclasse#EUW",
+      "nivel": 339,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 957,
+      "victorias": 272,
+      "derrotas": 241,
+      "ultima_partida": 1753480489780
+    },
+    {
       "nombre": "Maynter#EUW",
       "nivel": 691,
       "region": "EUW1",
@@ -22,40 +32,30 @@
       "lp": 1722,
       "victorias": 352,
       "derrotas": 281,
-      "ultima_partida": 1753401863988
-    },
-    {
-      "nombre": "vovalaclasse#EUW",
-      "nivel": 339,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 980,
-      "victorias": 270,
-      "derrotas": 238,
-      "ultima_partida": 1753371895751
+      "ultima_partida": 1753475766282
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 2.4035087719298245
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4805194805194803
     },
     {
       "nombre": "Gwen",
-      "partidas": 11,
+      "partidas": 10,
       "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.5
+      "winrate": "70.0%",
+      "kda_promedio": 3.696969696969697
     },
     {
       "nombre": "Jax",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.392857142857143
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.1923076923076925
     },
     {
       "nombre": "Yorick",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
+    "games": 66,
     "wins": 29,
-    "losses": 36,
-    "timePlayed": 103097
+    "losses": 37,
+    "timePlayed": 104915
   }
 }

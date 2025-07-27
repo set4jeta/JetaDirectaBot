@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Mountain Wolf#wagmi",
-      "nivel": 679,
+      "nivel": 680,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1158,
-      "victorias": 293,
-      "derrotas": 252,
-      "ultima_partida": 1753355525358
+      "lp": 1152,
+      "victorias": 294,
+      "derrotas": 253,
+      "ultima_partida": 1753462819364
     },
     {
       "nombre": "BIG Daddy#wagmi",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 2.4716981132075473
+      "winrate": "27.3%",
+      "kda_promedio": 2.4545454545454546
     },
     {
       "nombre": "MonkeyKing",
@@ -72,6 +72,13 @@
       "kda_promedio": 2.888888888888889
     },
     {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
       "nombre": "Belveth",
       "partidas": 1,
       "victorias": 1,
@@ -84,13 +91,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 11
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4
     },
     {
       "nombre": "Ryze",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 16,
-    "losses": 16,
-    "timePlayed": 49294
+    "games": 34,
+    "wins": 17,
+    "losses": 17,
+    "timePlayed": 51555
   }
 }

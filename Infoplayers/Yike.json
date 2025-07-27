@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "KC Yiken#1111",
-      "nivel": 868,
+      "nivel": 870,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1294,
-      "victorias": 426,
-      "derrotas": 375,
-      "ultima_partida": 1753390142462
+      "lp": 1227,
+      "victorias": 430,
+      "derrotas": 382,
+      "ultima_partida": 1753477358214
     },
     {
       "nombre": "YIK#YIK",
@@ -37,17 +37,17 @@
   "campeones_recientes": [
     {
       "nombre": "Lillia",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 6.56
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 7.576923076923077
     },
     {
-      "nombre": "Zed",
+      "nombre": "Viego",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.630434782608696
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.2777777777777777
     },
     {
       "nombre": "MonkeyKing",
@@ -57,11 +57,11 @@
       "kda_promedio": 3.193548387096774
     },
     {
-      "nombre": "Viego",
+      "nombre": "Trundle",
       "partidas": 6,
       "victorias": 2,
       "winrate": "33.3%",
-      "kda_promedio": 1.8837209302325582
+      "kda_promedio": 2.2058823529411766
     },
     {
       "nombre": "Khazix",
@@ -71,25 +71,18 @@
       "kda_promedio": 4.25
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Poppy",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 2.5357142857142856
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3
+      "kda_promedio": 2.032258064516129
     },
     {
       "nombre": "XinZhao",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6129032258064515
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8333333333333335
     },
     {
       "nombre": "Ivern",
@@ -99,17 +92,24 @@
       "kda_promedio": 5
     },
     {
-      "nombre": "Kalista",
+      "nombre": "Jax",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8666666666666667
     }
   ],
   "estadisticas_2_semanas": {
     "games": 75,
-    "wins": 38,
-    "losses": 37,
-    "timePlayed": 120427
+    "wins": 36,
+    "losses": 39,
+    "timePlayed": 120752
   }
 }

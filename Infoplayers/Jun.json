@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "Haven#AU0",
-      "nivel": 65,
+      "nivel": 66,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 951,
-      "victorias": 215,
-      "derrotas": 149,
-      "ultima_partida": 1753391952985
+      "lp": 948,
+      "victorias": 216,
+      "derrotas": 150,
+      "ultima_partida": 1753478591458
     },
     {
       "nombre": "Don Benito#KING",
@@ -54,32 +54,32 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rakan",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 3.6285714285714286
-    },
-    {
       "nombre": "Alistar",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.7567567567567566
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "Elise",
-      "partidas": 8,
+      "partidas": 7,
       "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7
+      "winrate": "28.6%",
+      "kda_promedio": 1.9807692307692308
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.9565217391304346
     },
     {
       "nombre": "Bard",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.657142857142857
+      "winrate": "83.3%",
+      "kda_promedio": 4.48
     },
     {
       "nombre": "Nautilus",
@@ -90,17 +90,10 @@
     },
     {
       "nombre": "Galio",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.5
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.8461538461538463
+      "kda_promedio": 2.857142857142857
     },
     {
       "nombre": "Nami",
@@ -110,11 +103,11 @@
       "kda_promedio": 3.090909090909091
     },
     {
-      "nombre": "Rell",
+      "nombre": "Neeko",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.125
     },
     {
       "nombre": "Sion",
@@ -122,12 +115,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 17
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 28,
-    "losses": 24,
-    "timePlayed": 80409
+    "games": 43,
+    "wins": 25,
+    "losses": 18,
+    "timePlayed": 66657
   }
 }

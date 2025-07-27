@@ -19,29 +19,29 @@
       "nivel": 307,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 297,
+      "lp": 261,
       "victorias": 145,
-      "derrotas": 121,
-      "ultima_partida": 1753317378714
+      "derrotas": 123,
+      "ultima_partida": 1753471555116
     },
     {
       "nombre": "lysa kuяva#FMS",
       "nivel": 720,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 900,
+      "lp": 879,
       "victorias": 380,
-      "derrotas": 333,
-      "ultima_partida": 1753309084971
+      "derrotas": 334,
+      "ultima_partida": 1753466205556
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 18,
+      "partidas": 19,
       "victorias": 7,
-      "winrate": "38.9%",
-      "kda_promedio": 1.6829268292682926
+      "winrate": "36.8%",
+      "kda_promedio": 1.6692307692307693
     },
     {
       "nombre": "Lucian",
@@ -52,17 +52,17 @@
     },
     {
       "nombre": "Khazix",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5
+      "winrate": "33.3%",
+      "kda_promedio": 2.9285714285714284
     },
     {
       "nombre": "Tristana",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.125
+      "winrate": "33.3%",
+      "kda_promedio": 2.769230769230769
     },
     {
       "nombre": "Zeri",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
+    "games": 43,
     "wins": 23,
-    "losses": 17,
-    "timePlayed": 64770
+    "losses": 20,
+    "timePlayed": 70163
   }
 }

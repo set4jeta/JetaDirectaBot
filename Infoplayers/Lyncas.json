@@ -16,36 +16,43 @@
   "cuentas": [
     {
       "nombre": "v lyncas1#lync1",
-      "nivel": 1019,
+      "nivel": 1020,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1406,
-      "victorias": 395,
-      "derrotas": 309,
-      "ultima_partida": 1753391952985
+      "lp": 1457,
+      "victorias": 398,
+      "derrotas": 310,
+      "ultima_partida": 1753475803815
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Vi",
       "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 2.652173913043478
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.2051282051282053
     },
     {
       "nombre": "Viego",
-      "partidas": 11,
-      "victorias": 9,
-      "winrate": "81.8%",
-      "kda_promedio": 6.173913043478261
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 7.111111111111111
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.095238095238095
     },
     {
       "nombre": "LeeSin",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 2.5
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Poppy",
@@ -53,13 +60,6 @@
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.888888888888889
     },
     {
       "nombre": "Nocturne",
@@ -99,8 +99,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 60,
-    "wins": 31,
-    "losses": 29,
-    "timePlayed": 96508
+    "wins": 32,
+    "losses": 28,
+    "timePlayed": 97438
   }
 }

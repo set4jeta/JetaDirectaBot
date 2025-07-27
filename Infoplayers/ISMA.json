@@ -18,10 +18,10 @@
       "nivel": 855,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1172,
-      "victorias": 445,
-      "derrotas": 403,
-      "ultima_partida": 1753348601888
+      "lp": 1174,
+      "victorias": 446,
+      "derrotas": 404,
+      "ultima_partida": 1753460990763
     },
     {
       "nombre": "786786786#LEC1",
@@ -37,10 +37,17 @@
   "campeones_recientes": [
     {
       "nombre": "Vi",
-      "partidas": 9,
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.4146341463414633
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 6,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.7837837837837838
+      "winrate": "83.3%",
+      "kda_promedio": 8.428571428571429
     },
     {
       "nombre": "XinZhao",
@@ -58,31 +65,10 @@
     },
     {
       "nombre": "Pantheon",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.769230769230769
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 8.23076923076923
-    },
-    {
-      "nombre": "Diana",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.6875
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.5454545454545454
+      "kda_promedio": 2.3529411764705883
     },
     {
       "nombre": "LeeSin",
@@ -90,6 +76,20 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
     },
     {
       "nombre": "MonkeyKing",
@@ -100,9 +100,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 21,
-    "losses": 18,
-    "timePlayed": 64591
+    "games": 34,
+    "wins": 18,
+    "losses": 16,
+    "timePlayed": 57574
   }
 }

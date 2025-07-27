@@ -19,10 +19,10 @@
       "nivel": 1172,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1249,
-      "victorias": 362,
-      "derrotas": 303,
-      "ultima_partida": 1753390741817
+      "lp": 1183,
+      "victorias": 363,
+      "derrotas": 308,
+      "ultima_partida": 1753478591458
     },
     {
       "nombre": "Grizzly Hills#123",
@@ -38,66 +38,66 @@
   "campeones_recientes": [
     {
       "nombre": "Neeko",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 2.527027027027027
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.074074074074074
     },
     {
       "nombre": "Rell",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 4.743589743589744
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.555555555555555
     },
     {
       "nombre": "Bard",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.977272727272727
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.0869565217391304
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5652173913043477
+      "winrate": "57.1%",
+      "kda_promedio": 2.74
     },
     {
       "nombre": "Poppy",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.909090909090909
+      "winrate": "75.0%",
+      "kda_promedio": 4.133333333333334
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.45
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
     },
     {
       "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.888888888888889
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2857142857142856
     },
     {
       "nombre": "Senna",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.9375
-    },
-    {
-      "nombre": "Braum",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5.7
+      "kda_promedio": 3.4545454545454546
     },
     {
       "nombre": "Alistar",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 34,
-    "losses": 21,
-    "timePlayed": 91948
+    "games": 52,
+    "wins": 29,
+    "losses": 23,
+    "timePlayed": 84933
   }
 }

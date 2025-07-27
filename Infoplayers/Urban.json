@@ -27,18 +27,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rengar",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.6
-    },
-    {
       "nombre": "LeeSin",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "DrMundo",
@@ -70,9 +70,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
-    "wins": 9,
+    "games": 9,
+    "wins": 6,
     "losses": 3,
-    "timePlayed": 21724
+    "timePlayed": 15769
   }
 }

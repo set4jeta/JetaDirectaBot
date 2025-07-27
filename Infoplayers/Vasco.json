@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "ocsaV#EUW",
-      "nivel": 638,
+      "nivel": 639,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1002,
-      "victorias": 296,
-      "derrotas": 258,
-      "ultima_partida": 1753431091625
+      "lp": 1042,
+      "victorias": 300,
+      "derrotas": 260,
+      "ultima_partida": 1753462911338
     },
     {
       "nombre": "L Vasco O #EUW",
@@ -37,31 +37,38 @@
   "campeones_recientes": [
     {
       "nombre": "TwistedFate",
-      "partidas": 28,
-      "victorias": 15,
-      "winrate": "53.6%",
-      "kda_promedio": 3.619565217391304
+      "partidas": 24,
+      "victorias": 12,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3444444444444446
     },
     {
       "nombre": "Ezreal",
-      "partidas": 16,
-      "victorias": 5,
-      "winrate": "31.2%",
-      "kda_promedio": 2.457627118644068
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 7,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2758620689655173
+      "partidas": 15,
+      "victorias": 4,
+      "winrate": "26.7%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Orianna",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.636363636363637
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.916666666666667
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 1.4242424242424243
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.0384615384615383
     },
     {
       "nombre": "Azir",
@@ -78,20 +85,6 @@
       "kda_promedio": 4.090909090909091
     },
     {
-      "nombre": "Annie",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8636363636363635
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6363636363636362
-    },
-    {
       "nombre": "Akali",
       "partidas": 3,
       "victorias": 1,
@@ -104,12 +97,19 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 5
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 84,
-    "wins": 39,
-    "losses": 45,
-    "timePlayed": 137239
+    "games": 82,
+    "wins": 38,
+    "losses": 44,
+    "timePlayed": 134317
   }
 }

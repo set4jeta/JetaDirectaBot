@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Afriibi#AFB",
+      "nivel": 454,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 978,
+      "victorias": 216,
+      "derrotas": 176,
+      "ultima_partida": 1753456616700
+    },
+    {
       "nombre": "AFRB#AFB",
       "nivel": 118,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 210,
       "derrotas": 176,
       "ultima_partida": 1753397322220
-    },
-    {
-      "nombre": "Afriibi#AFB",
-      "nivel": 454,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 920,
-      "victorias": 213,
-      "derrotas": 176,
-      "ultima_partida": 1753362009181
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zeri",
-      "partidas": 21,
-      "victorias": 14,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4328358208955225
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 2.6324786324786325
     },
     {
       "nombre": "Yunara",
@@ -109,8 +109,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 64,
-    "wins": 34,
-    "losses": 30,
-    "timePlayed": 102703
+    "wins": 36,
+    "losses": 28,
+    "timePlayed": 102931
   }
 }

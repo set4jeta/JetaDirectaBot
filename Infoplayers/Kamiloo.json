@@ -18,10 +18,10 @@
       "nivel": 875,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 924,
-      "victorias": 403,
+      "lp": 970,
+      "victorias": 405,
       "derrotas": 347,
-      "ultima_partida": 1753393337801
+      "ultima_partida": 1753461945698
     }
   ],
   "campeones_recientes": [
@@ -33,13 +33,6 @@
       "kda_promedio": 2.096774193548387
     },
     {
-      "nombre": "Galio",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.0476190476190474
-    },
-    {
       "nombre": "Aurora",
       "partidas": 4,
       "victorias": 3,
@@ -47,18 +40,25 @@
       "kda_promedio": 3.75
     },
     {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
       "nombre": "Annie",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 2.9444444444444446
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2222222222222223
     },
     {
       "nombre": "Akali",
@@ -82,24 +82,24 @@
       "kda_promedio": 1.8666666666666667
     },
     {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
       "nombre": "Jhin",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.3
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 33,
-    "losses": 25,
-    "timePlayed": 95311
+    "games": 59,
+    "wins": 35,
+    "losses": 24,
+    "timePlayed": 96668
   }
 }

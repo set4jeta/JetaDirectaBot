@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "G2 Hans Sama#12838",
-      "nivel": 247,
+      "nivel": 248,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 871,
-      "victorias": 405,
-      "derrotas": 347,
-      "ultima_partida": 1753299764590
+      "lp": 922,
+      "victorias": 408,
+      "derrotas": 349,
+      "ultima_partida": 1753462411745
     },
     {
       "nombre": "G2 12838712#1234",
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ezreal",
+      "nombre": "Corki",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.7
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2857142857142856
     },
     {
-      "nombre": "Corki",
+      "nombre": "Yunara",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5555555555555556
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7
     },
     {
       "nombre": "Alistar",
@@ -56,6 +56,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
     },
     {
       "nombre": "Senna",
@@ -76,13 +83,13 @@
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2857142857142858
+      "kda_promedio": 1.7142857142857142
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 5,
+    "games": 10,
+    "wins": 6,
     "losses": 4,
-    "timePlayed": 13693
+    "timePlayed": 15781
   }
 }

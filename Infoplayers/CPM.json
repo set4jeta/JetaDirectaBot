@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Sion",
-      "partidas": 25,
+      "partidas": 24,
       "victorias": 15,
-      "winrate": "60.0%",
-      "kda_promedio": 2.9411764705882355
+      "winrate": "62.5%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Ornn",
@@ -52,10 +52,10 @@
     },
     {
       "nombre": "KSante",
-      "partidas": 20,
-      "victorias": 8,
-      "winrate": "40.0%",
-      "kda_promedio": 2.5076923076923077
+      "partidas": 18,
+      "victorias": 6,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4262295081967213
     },
     {
       "nombre": "Shen",
@@ -66,10 +66,10 @@
     },
     {
       "nombre": "Chogath",
-      "partidas": 15,
-      "victorias": 11,
-      "winrate": "73.3%",
-      "kda_promedio": 2.732142857142857
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 2.547169811320755
     },
     {
       "nombre": "Malphite",
@@ -77,13 +77,6 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 1.6363636363636365
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
     },
     {
       "nombre": "Nautilus",
@@ -94,9 +87,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 106,
-    "wins": 61,
-    "losses": 45,
-    "timePlayed": 169939
+    "games": 101,
+    "wins": 57,
+    "losses": 44,
+    "timePlayed": 161769
   }
 }

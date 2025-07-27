@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "Loose Ends999#EUW",
-      "nivel": 694,
+      "nivel": 695,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 817,
-      "victorias": 400,
-      "derrotas": 375,
-      "ultima_partida": 1753387697899
+      "lp": 916,
+      "victorias": 406,
+      "derrotas": 376,
+      "ultima_partida": 1753460307037
     }
   ],
   "campeones_recientes": [
@@ -37,21 +37,28 @@
       "partidas": 12,
       "victorias": 3,
       "winrate": "25.0%",
-      "kda_promedio": 2.0172413793103448
+      "kda_promedio": 1.9824561403508771
     },
     {
       "nombre": "Ambessa",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.0833333333333335
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2549019607843137
     },
     {
       "nombre": "Gwen",
       "partidas": 9,
       "victorias": 4,
       "winrate": "44.4%",
-      "kda_promedio": 2.127659574468085
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4444444444444446
     },
     {
       "nombre": "Renekton",
@@ -59,13 +66,6 @@
       "victorias": 1,
       "winrate": "16.7%",
       "kda_promedio": 1.7352941176470589
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.92
     },
     {
       "nombre": "Jax",
@@ -76,17 +76,17 @@
     },
     {
       "nombre": "Yone",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.3
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4666666666666666
     },
     {
-      "nombre": "Camille",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7692307692307692
     },
     {
       "nombre": "Galio",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 25,
-    "losses": 46,
-    "timePlayed": 118763
+    "games": 73,
+    "wins": 29,
+    "losses": 44,
+    "timePlayed": 122675
   }
 }

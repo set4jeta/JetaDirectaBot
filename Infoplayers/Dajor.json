@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "fubgun#exile",
-      "nivel": 968,
+      "nivel": 969,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 699,
-      "victorias": 225,
-      "derrotas": 208,
-      "ultima_partida": 1753401125577
+      "lp": 722,
+      "victorias": 229,
+      "derrotas": 211,
+      "ultima_partida": 1753477195613
     },
     {
       "nombre": "Jeonkook#EUW",
@@ -51,6 +51,13 @@
       "kda_promedio": 1.9636363636363636
     },
     {
+      "nombre": "TwistedFate",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
       "nombre": "Yunara",
       "partidas": 9,
       "victorias": 5,
@@ -60,23 +67,9 @@
     {
       "nombre": "Tristana",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 8,
       "victorias": 4,
       "winrate": "50.0%",
-      "kda_promedio": 2.675
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.4545454545454546
+      "kda_promedio": 2.3863636363636362
     },
     {
       "nombre": "Ryze",
@@ -84,6 +77,13 @@
       "victorias": 2,
       "winrate": "28.6%",
       "kda_promedio": 2.9705882352941178
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1785714285714284
     },
     {
       "nombre": "Aurora",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 109,
-    "wins": 54,
+    "games": 110,
+    "wins": 55,
     "losses": 55,
-    "timePlayed": 170970
+    "timePlayed": 171278
   }
 }

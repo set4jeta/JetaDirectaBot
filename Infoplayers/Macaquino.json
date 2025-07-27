@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "MARIABECERRA FAN#MACA",
-      "nivel": 1536,
+      "nivel": 1537,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1155,
-      "victorias": 462,
+      "lp": 1194,
+      "victorias": 464,
       "derrotas": 416,
-      "ultima_partida": 1753429352874
+      "ultima_partida": 1753466940673
     },
     {
       "nombre": "PERREO FURIOSO#EUW",
@@ -38,17 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 13,
+      "partidas": 12,
       "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 3.8444444444444446
+      "winrate": "58.3%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Taliyah",
       "partidas": 11,
       "victorias": 7,
       "winrate": "63.6%",
-      "kda_promedio": 3.7017543859649122
+      "kda_promedio": 3.7818181818181817
     },
     {
       "nombre": "Aurora",
@@ -59,10 +59,10 @@
     },
     {
       "nombre": "Lux",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.896551724137931
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.0625
     },
     {
       "nombre": "Annie",
@@ -109,8 +109,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 64,
-    "wins": 33,
-    "losses": 31,
-    "timePlayed": 106363
+    "wins": 34,
+    "losses": 30,
+    "timePlayed": 106406
   }
 }

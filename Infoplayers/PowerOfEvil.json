@@ -19,10 +19,10 @@
       "nivel": 207,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 767,
-      "victorias": 124,
-      "derrotas": 74,
-      "ultima_partida": 1753387253939
+      "lp": 768,
+      "victorias": 125,
+      "derrotas": 75,
+      "ultima_partida": 1753452714920
     },
     {
       "nombre": "ThePowerOfEvil#EUW",
@@ -51,11 +51,11 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Senna",
+      "nombre": "Syndra",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.25
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6153846153846154
     },
     {
       "nombre": "Yunara",
@@ -72,11 +72,18 @@
       "kda_promedio": 5.833333333333333
     },
     {
-      "nombre": "Syndra",
+      "nombre": "Senna",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.588235294117647
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.193548387096774
+    },
+    {
+      "nombre": "Swain",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4814814814814814
     },
     {
       "nombre": "Hwei",
@@ -84,13 +91,6 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 2.347826086956522
-    },
-    {
-      "nombre": "Swain",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.25
     },
     {
       "nombre": "Smolder",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
+    "games": 73,
     "wins": 43,
-    "losses": 34,
-    "timePlayed": 128393
+    "losses": 30,
+    "timePlayed": 122064
   }
 }

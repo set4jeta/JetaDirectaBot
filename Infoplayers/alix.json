@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "alix de souza#1111",
+      "nivel": 785,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1305,
+      "victorias": 521,
+      "derrotas": 458,
+      "ultima_partida": 1753451709583
+    },
+    {
       "nombre": "Vincent Masuka#11111",
       "nivel": 260,
       "region": "EUW1",
@@ -23,60 +33,50 @@
       "victorias": 245,
       "derrotas": 212,
       "ultima_partida": 1753370844166
-    },
-    {
-      "nombre": "alix de souza#1111",
-      "nivel": 785,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1345,
-      "victorias": 521,
-      "derrotas": 456,
-      "ultima_partida": 1753355738049
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 22,
+      "partidas": 21,
       "victorias": 15,
-      "winrate": "68.2%",
-      "kda_promedio": 3.282051282051282
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.032258064516129
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.6136363636363638
+      "winrate": "71.4%",
+      "kda_promedio": 3.55045871559633
     },
     {
       "nombre": "Yone",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.4390243902439024
+      "winrate": "40.0%",
+      "kda_promedio": 2.183673469387755
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Sylas",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.0961538461538463
+    },
+    {
+      "nombre": "Syndra",
       "partidas": 8,
       "victorias": 5,
       "winrate": "62.5%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 2.8378378378378377
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Akali",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.757575757575758
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.962962962962963
     },
     {
       "nombre": "Azir",
@@ -93,24 +93,24 @@
       "kda_promedio": 1.5
     },
     {
-      "nombre": "Leblanc",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
       "nombre": "Irelia",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.076923076923077
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 100,
-    "wins": 56,
-    "losses": 44,
-    "timePlayed": 157634
+    "games": 93,
+    "wins": 51,
+    "losses": 42,
+    "timePlayed": 147502
   }
 }

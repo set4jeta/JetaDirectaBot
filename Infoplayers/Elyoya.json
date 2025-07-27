@@ -22,7 +22,7 @@
       "lp": 426,
       "victorias": 376,
       "derrotas": 339,
-      "ultima_partida": 1753396285724
+      "ultima_partida": 1753446470342
     },
     {
       "nombre": "Dani Flow#myrwn",
@@ -36,13 +36,6 @@
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Senna",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.4
-    },
     {
       "nombre": "JarvanIV",
       "partidas": 1,
@@ -72,13 +65,6 @@
       "kda_promedio": 1
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4285714285714284
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 1,
       "victorias": 0,
@@ -93,17 +79,31 @@
       "kda_promedio": 26
     },
     {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
       "nombre": "Smolder",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
+    "games": 9,
     "wins": 4,
-    "losses": 6,
-    "timePlayed": 16862
+    "losses": 5,
+    "timePlayed": 16195
   }
 }

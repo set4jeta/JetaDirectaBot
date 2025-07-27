@@ -19,10 +19,10 @@
       "nivel": 860,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1084,
-      "victorias": 249,
+      "lp": 1103,
+      "victorias": 250,
       "derrotas": 197,
-      "ultima_partida": 1753347799393
+      "ultima_partida": 1753439211532
     },
     {
       "nombre": "Meguru Bachira#win",
@@ -38,10 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 15,
-      "victorias": 9,
-      "winrate": "60.0%",
-      "kda_promedio": 5.63265306122449
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 5.208333333333333
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.342857142857143
     },
     {
       "nombre": "Zed",
@@ -49,13 +56,6 @@
       "victorias": 3,
       "winrate": "33.3%",
       "kda_promedio": 2.948717948717949
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.875
     },
     {
       "nombre": "LeeSin",
@@ -111,6 +111,6 @@
     "games": 72,
     "wins": 35,
     "losses": 37,
-    "timePlayed": 113030
+    "timePlayed": 112988
   }
 }

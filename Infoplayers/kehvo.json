@@ -19,10 +19,10 @@
       "nivel": 786,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 809,
-      "victorias": 236,
-      "derrotas": 201,
-      "ultima_partida": 1753428754644
+      "lp": 850,
+      "victorias": 239,
+      "derrotas": 202,
+      "ultima_partida": 1753455687393
     },
     {
       "nombre": "Jeesus III#EUW",
@@ -51,11 +51,11 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "MissFortune",
+      "nombre": "Corki",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 3.272727272727273
+      "kda_promedio": 4.05
     },
     {
       "nombre": "Jhin",
@@ -70,6 +70,20 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 4.9
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6153846153846154
     },
     {
       "nombre": "Ziggs",
@@ -91,26 +105,12 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.2105263157894737
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.5454545454545454
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 34,
-    "losses": 30,
-    "timePlayed": 99362
+    "games": 65,
+    "wins": 36,
+    "losses": 29,
+    "timePlayed": 101997
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 361,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1153,
-      "victorias": 233,
-      "derrotas": 187,
-      "ultima_partida": 1753359344037
+      "lp": 1156,
+      "victorias": 235,
+      "derrotas": 189,
+      "ultima_partida": 1753458466499
     },
     {
       "nombre": "LUA Shy Carry#2025",
@@ -55,17 +55,24 @@
     },
     {
       "nombre": "Jhin",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 4.275862068965517
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.0344827586206895
     },
     {
       "nombre": "Ezreal",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 4.074074074074074
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.5833333333333335
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5897435897435896
     },
     {
       "nombre": "Senna",
@@ -73,13 +80,6 @@
       "victorias": 4,
       "winrate": "66.7%",
       "kda_promedio": 3.526315789473684
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.4333333333333333
     },
     {
       "nombre": "Sivir",
@@ -105,22 +105,22 @@
     {
       "nombre": "Varus",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5555555555555554
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3
     }
   ],
   "estadisticas_2_semanas": {
     "games": 53,
-    "wins": 27,
-    "losses": 26,
-    "timePlayed": 85648
+    "wins": 25,
+    "losses": 28,
+    "timePlayed": 87537
   }
 }

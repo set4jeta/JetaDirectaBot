@@ -86,10 +86,10 @@
     },
     {
       "nombre": "Varus",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 2,
-      "winrate": "22.2%",
-      "kda_promedio": 2.1666666666666665
+      "winrate": "25.0%",
+      "kda_promedio": 2.08
     },
     {
       "nombre": "Zeri",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 174,
+    "games": 172,
     "wins": 104,
-    "losses": 70,
-    "timePlayed": 287250
+    "losses": 68,
+    "timePlayed": 284025
   }
 }

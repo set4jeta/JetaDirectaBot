@@ -50,13 +50,6 @@
       "kda_promedio": 4.428571428571429
     },
     {
-      "nombre": "Karma",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.5
-    },
-    {
       "nombre": "Rell",
       "partidas": 2,
       "victorias": 1,
@@ -78,18 +71,18 @@
       "kda_promedio": 4.25
     },
     {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
       "nombre": "Nami",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 4.4
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.75
     },
     {
       "nombre": "Neeko",
@@ -104,12 +97,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 11,
+    "games": 15,
+    "wins": 8,
     "losses": 7,
-    "timePlayed": 29548
+    "timePlayed": 25057
   }
 }

@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "MIDKING#kkkk",
-      "nivel": 232,
+      "nivel": 233,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1332,
-      "victorias": 908,
-      "derrotas": 824,
-      "ultima_partida": 1753401230643
+      "lp": 1414,
+      "victorias": 914,
+      "derrotas": 826,
+      "ultima_partida": 1753473230182
     }
   ],
   "campeones_recientes": [
@@ -28,7 +28,7 @@
       "partidas": 22,
       "victorias": 16,
       "winrate": "72.7%",
-      "kda_promedio": 2.3577981651376145
+      "kda_promedio": 2.3454545454545452
     },
     {
       "nombre": "Khazix",
@@ -38,18 +38,18 @@
       "kda_promedio": 5.485714285714286
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.5737704918032787
-    },
-    {
       "nombre": "MonkeyKing",
       "partidas": 10,
       "victorias": 6,
       "winrate": "60.0%",
       "kda_promedio": 2.1707317073170733
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.311111111111111
     },
     {
       "nombre": "Taliyah",
@@ -61,9 +61,9 @@
     {
       "nombre": "Annie",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0444444444444443
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.5121951219512195
     },
     {
       "nombre": "Aurora",
@@ -80,24 +80,24 @@
       "kda_promedio": 1.0350877192982457
     },
     {
-      "nombre": "Sion",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 1.3529411764705883
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3823529411764706
     },
     {
-      "nombre": "TwistedFate",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.411764705882353
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7727272727272727
     }
   ],
   "estadisticas_2_semanas": {
     "games": 166,
-    "wins": 92,
-    "losses": 74,
-    "timePlayed": 256268
+    "wins": 95,
+    "losses": 71,
+    "timePlayed": 257457
   }
 }

@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Michiel deRuyter#NLNLN",
-      "nivel": 1460,
+      "nivel": 1461,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1418,
-      "victorias": 606,
-      "derrotas": 539,
-      "ultima_partida": 1753373388617
+      "lp": 1437,
+      "victorias": 608,
+      "derrotas": 540,
+      "ultima_partida": 1753448822139
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 19,
+      "partidas": 20,
       "victorias": 14,
-      "winrate": "73.7%",
-      "kda_promedio": 5.862068965517241
+      "winrate": "70.0%",
+      "kda_promedio": 5.580645161290323
     },
     {
       "nombre": "Viego",
@@ -55,6 +55,13 @@
       "kda_promedio": 6.75
     },
     {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.421052631578948
+    },
+    {
       "nombre": "Naafiri",
       "partidas": 4,
       "victorias": 3,
@@ -67,13 +74,6 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 2.9285714285714284
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.0588235294117645
     },
     {
       "nombre": "LeeSin",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 81,
-    "wins": 47,
-    "losses": 34,
-    "timePlayed": 129290
+    "games": 84,
+    "wins": 49,
+    "losses": 35,
+    "timePlayed": 133680
   }
 }

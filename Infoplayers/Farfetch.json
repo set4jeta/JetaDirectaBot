@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "farfetch#296",
-      "nivel": 974,
+      "nivel": 975,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 862,
-      "victorias": 307,
+      "lp": 881,
+      "victorias": 308,
       "derrotas": 278,
-      "ultima_partida": 1753394537446
+      "ultima_partida": 1753456565234
     },
     {
       "nombre": "ff ad acc#farf",
@@ -44,18 +44,18 @@
       "kda_promedio": 2.787878787878788
     },
     {
-      "nombre": "Bard",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.043478260869565
-    },
-    {
       "nombre": "Rakan",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.555555555555555
     },
     {
       "nombre": "Lulu",
@@ -72,11 +72,11 @@
       "kda_promedio": 3.076923076923077
     },
     {
-      "nombre": "MissFortune",
+      "nombre": "Braum",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.5294117647058822
+      "kda_promedio": 4.866666666666666
     },
     {
       "nombre": "Alistar",
@@ -86,31 +86,31 @@
       "kda_promedio": 3.2222222222222223
     },
     {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.888888888888889
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.8
-    },
-    {
       "nombre": "Kaisa",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
+    "games": 47,
     "wins": 25,
-    "losses": 24,
-    "timePlayed": 79981
+    "losses": 22,
+    "timePlayed": 76893
   }
 }

@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "KC NOISETTE#HZL",
-      "nivel": 756,
+      "nivel": 757,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1252,
-      "victorias": 309,
-      "derrotas": 251,
-      "ultima_partida": 1753385845716
+      "lp": 1266,
+      "victorias": 312,
+      "derrotas": 253,
+      "ultima_partida": 1753475803815
     },
     {
       "nombre": "one last dance#114",
@@ -46,39 +46,32 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Jhin",
-      "partidas": 14,
-      "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 3.155844155844156
-    },
-    {
       "nombre": "Yunara",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 3.7857142857142856
+      "partidas": 14,
+      "victorias": 11,
+      "winrate": "78.6%",
+      "kda_promedio": 3.851063829787234
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 4.2
+      "nombre": "Jhin",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.295774647887324
     },
     {
       "nombre": "Aphelios",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.84375
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.375
     },
     {
-      "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 5.2
+      "nombre": "Kaisa",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.92
     },
     {
       "nombre": "Jinx",
@@ -88,11 +81,11 @@
       "kda_promedio": 4.636363636363637
     },
     {
-      "nombre": "Zeri",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.142857142857143
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.416666666666667
     },
     {
       "nombre": "Caitlyn",
@@ -102,24 +95,31 @@
       "kda_promedio": 0.9285714285714286
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Zeri",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5833333333333333
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
     },
     {
-      "nombre": "Twitch",
-      "partidas": 2,
+      "nombre": "Azir",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.8666666666666667
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 37,
-    "losses": 34,
-    "timePlayed": 114750
+    "games": 64,
+    "wins": 36,
+    "losses": 28,
+    "timePlayed": 104702
   }
 }

@@ -24,7 +24,8 @@ def register_info_command(bot: commands.Bot):
             if archivo_logo:
                 await ctx.send(embed=embed, file=archivo_logo)
             else:
-                await ctx.send(embed=embed)
+                if embed:
+                    await ctx.send(embed=embed)
 
             print("[INFO] Embed enviado correctamente.")
         except Exception as e:

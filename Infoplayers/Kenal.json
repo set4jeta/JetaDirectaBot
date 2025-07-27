@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Kenal#EUW",
-      "nivel": 856,
+      "nivel": 857,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1403,
+      "lp": 1340,
       "victorias": 579,
-      "derrotas": 511,
-      "ultima_partida": 1753395667067
+      "derrotas": 514,
+      "ultima_partida": 1753450271570
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.88
+      "winrate": "71.4%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Varus",
@@ -62,6 +62,13 @@
       "kda_promedio": 3.6875
     },
     {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
       "nombre": "Caitlyn",
       "partidas": 3,
       "victorias": 2,
@@ -83,13 +90,6 @@
       "kda_promedio": 1.75
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3636363636363635
-    },
-    {
       "nombre": "Gragas",
       "partidas": 2,
       "victorias": 0,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
+    "games": 60,
     "wins": 30,
-    "losses": 27,
-    "timePlayed": 87307
+    "losses": 30,
+    "timePlayed": 91636
   }
 }

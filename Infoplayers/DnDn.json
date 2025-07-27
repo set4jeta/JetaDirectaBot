@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "DnDn123#123",
-      "nivel": 132,
+      "nivel": 133,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1267,
+      "lp": 1250,
       "victorias": 377,
-      "derrotas": 265,
-      "ultima_partida": 1753297308810
+      "derrotas": 266,
+      "ultima_partida": 1753475803815
     },
     {
       "nombre": "13の冬#0518",
@@ -47,10 +47,10 @@
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.62
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.7058823529411766
     },
     {
       "nombre": "Gragas",
@@ -117,9 +117,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
-    "wins": 18,
+    "games": 26,
+    "wins": 15,
     "losses": 11,
-    "timePlayed": 46850
+    "timePlayed": 41895
   }
 }

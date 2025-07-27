@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "K C#kcwin",
-      "nivel": 78,
+      "nivel": 79,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 887,
-      "victorias": 305,
-      "derrotas": 214,
-      "ultima_partida": 1753438506559
+      "lp": 922,
+      "victorias": 308,
+      "derrotas": 217,
+      "ultima_partida": 1753469200743
     },
     {
       "nombre": "칸 나#0211",
@@ -65,46 +65,39 @@
       "kda_promedio": 5.318181818181818
     },
     {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7878787878787878
-    },
-    {
       "nombre": "Chogath",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.25
+      "winrate": "50.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Jax",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6923076923076925
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.833333333333333
+      "winrate": "50.0%",
+      "kda_promedio": 2.933333333333333
     },
     {
       "nombre": "Yunara",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7916666666666666
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.1071428571428572
     },
     {
-      "nombre": "Gangplank",
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2142857142857144
+    },
+    {
+      "nombre": "Aurora",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8333333333333333
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.272727272727273
     },
     {
       "nombre": "Irelia",
@@ -112,12 +105,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5294117647058824
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
+    "games": 56,
     "wins": 28,
-    "losses": 31,
-    "timePlayed": 96548
+    "losses": 28,
+    "timePlayed": 90448
   }
 }

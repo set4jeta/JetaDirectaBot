@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "TwTv Phantasm#103",
+      "nivel": 219,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1632,
+      "victorias": 224,
+      "derrotas": 152,
+      "ultima_partida": 1753477721691
+    },
+    {
       "nombre": "Phanta#107",
       "nivel": 83,
       "region": "EUW1",
@@ -33,16 +43,6 @@
       "victorias": 176,
       "derrotas": 135,
       "ultima_partida": 1753308834847
-    },
-    {
-      "nombre": "TwTv Phantasm#103",
-      "nivel": 218,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1586,
-      "victorias": 218,
-      "derrotas": 149,
-      "ultima_partida": 1753206726323
     },
     {
       "nombre": "Phantasmasm#EUW",
@@ -68,24 +68,24 @@
   "campeones_recientes": [
     {
       "nombre": "Akshan",
-      "partidas": 45,
-      "victorias": 23,
-      "winrate": "51.1%",
-      "kda_promedio": 2.861904761904762
+      "partidas": 51,
+      "victorias": 26,
+      "winrate": "51.0%",
+      "kda_promedio": 2.904564315352697
     },
     {
       "nombre": "Hwei",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.163265306122449
     },
     {
       "nombre": "Azir",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.945945945945946
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.358974358974359
     },
     {
       "nombre": "Aurora",
@@ -100,6 +100,13 @@
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 2
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Mel",
@@ -123,13 +130,6 @@
       "kda_promedio": 9.333333333333334
     },
     {
-      "nombre": "Akali",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
-    },
-    {
       "nombre": "Naafiri",
       "partidas": 1,
       "victorias": 0,
@@ -138,9 +138,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 78,
-    "wins": 42,
-    "losses": 36,
-    "timePlayed": 126902
+    "games": 87,
+    "wins": 48,
+    "losses": 39,
+    "timePlayed": 142770
   }
 }

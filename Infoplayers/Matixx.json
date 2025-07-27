@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Matixx#EUW",
-      "nivel": 703,
+      "nivel": 704,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 863,
-      "victorias": 475,
-      "derrotas": 420,
-      "ultima_partida": 1753377749532
+      "lp": 825,
+      "victorias": 478,
+      "derrotas": 425,
+      "ultima_partida": 1753459697229
     },
     {
       "nombre": "memento mori#EUW0",
@@ -38,24 +38,31 @@
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 1.388235294117647
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4303797468354431
     },
     {
       "nombre": "Rumble",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1958762886597938
+      "winrate": "45.5%",
+      "kda_promedio": 1.190909090909091
     },
     {
       "nombre": "Jax",
       "partidas": 9,
       "victorias": 4,
       "winrate": "44.4%",
-      "kda_promedio": 1.5185185185185186
+      "kda_promedio": 1.7872340425531914
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.793103448275862
     },
     {
       "nombre": "Pantheon",
@@ -63,13 +70,6 @@
       "victorias": 4,
       "winrate": "50.0%",
       "kda_promedio": 2.090909090909091
-    },
-    {
-      "nombre": "Ornn",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.5
     },
     {
       "nombre": "Renekton",
@@ -80,10 +80,10 @@
     },
     {
       "nombre": "Ambessa",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 0.9032258064516129
+      "winrate": "20.0%",
+      "kda_promedio": 1.2972972972972974
     },
     {
       "nombre": "Darius",
@@ -93,24 +93,24 @@
       "kda_promedio": 4.666666666666667
     },
     {
-      "nombre": "Aatrox",
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Jayce",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2222222222222223
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.6470588235294118
+      "kda_promedio": 0.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 73,
-    "wins": 33,
-    "losses": 40,
-    "timePlayed": 113311
+    "games": 76,
+    "wins": 34,
+    "losses": 42,
+    "timePlayed": 117950
   }
 }

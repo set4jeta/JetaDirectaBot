@@ -36,18 +36,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Kaisa",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.142857142857143
-    },
-    {
       "nombre": "Azir",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.789473684210526
     },
     {
       "nombre": "Nautilus",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 8,
+    "games": 17,
+    "wins": 7,
     "losses": 10,
-    "timePlayed": 30041
+    "timePlayed": 28759
   }
 }

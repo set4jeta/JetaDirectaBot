@@ -34,38 +34,17 @@
       "kda_promedio": 3.5555555555555554
     },
     {
-      "nombre": "Alistar",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 7
-    },
-    {
       "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9166666666666666
-    },
-    {
-      "nombre": "Elise",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 4,
-    "losses": 9,
-    "timePlayed": 21427
+    "games": 8,
+    "wins": 3,
+    "losses": 5,
+    "timePlayed": 15272
   }
 }

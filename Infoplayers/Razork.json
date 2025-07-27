@@ -22,7 +22,7 @@
       "lp": 1377,
       "victorias": 214,
       "derrotas": 139,
-      "ultima_partida": 1753387910391
+      "ultima_partida": 1753478583313
     },
     {
       "nombre": "Mu Yanling#Sky",
@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 12,
+      "partidas": 9,
       "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 4.190476190476191
+      "winrate": "88.9%",
+      "kda_promedio": 6
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8
+      "winrate": "75.0%",
+      "kda_promedio": 3.1219512195121952
     },
     {
       "nombre": "JarvanIV",
@@ -68,18 +68,18 @@
       "kda_promedio": 4.695652173913044
     },
     {
-      "nombre": "Shen",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1333333333333333
-    },
-    {
       "nombre": "Viego",
       "partidas": 6,
       "victorias": 6,
       "winrate": "100.0%",
       "kda_promedio": 6.75
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "LeeSin",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 43,
-    "losses": 12,
-    "timePlayed": 81742
+    "games": 48,
+    "wins": 40,
+    "losses": 8,
+    "timePlayed": 71322
   }
 }

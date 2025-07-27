@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "twtv Peng04#Aespa",
-      "nivel": 392,
+      "nivel": 393,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1254,
-      "victorias": 494,
-      "derrotas": 440,
-      "ultima_partida": 1753389373904
+      "lp": 1198,
+      "victorias": 497,
+      "derrotas": 446,
+      "ultima_partida": 1753474823758
     },
     {
       "nombre": "twtv Peng04#NMIXX",
@@ -48,24 +48,24 @@
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 73,
-      "victorias": 37,
-      "winrate": "50.7%",
-      "kda_promedio": 3.9146341463414633
+      "partidas": 81,
+      "victorias": 40,
+      "winrate": "49.4%",
+      "kda_promedio": 3.9737827715355807
     },
     {
       "nombre": "Syndra",
-      "partidas": 30,
-      "victorias": 15,
+      "partidas": 22,
+      "victorias": 11,
       "winrate": "50.0%",
-      "kda_promedio": 3.5294117647058822
+      "kda_promedio": 3.4285714285714284
     },
     {
       "nombre": "Mel",
-      "partidas": 9,
-      "victorias": 2,
-      "winrate": "22.2%",
-      "kda_promedio": 2.9705882352941178
+      "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 2.966666666666667
     },
     {
       "nombre": "Ziggs",
@@ -83,10 +83,10 @@
     },
     {
       "nombre": "Nautilus",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5625
+      "winrate": "66.7%",
+      "kda_promedio": 1.68
     },
     {
       "nombre": "Orianna",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 148,
-    "wins": 75,
-    "losses": 73,
-    "timePlayed": 244566
+    "games": 147,
+    "wins": 73,
+    "losses": 74,
+    "timePlayed": 243858
   }
 }

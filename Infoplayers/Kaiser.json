@@ -51,13 +51,6 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3684210526315788
-    },
-    {
       "nombre": "Rakan",
       "partidas": 3,
       "victorias": 1,
@@ -105,12 +98,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 16
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 15,
-    "losses": 13,
-    "timePlayed": 45306
+    "games": 26,
+    "wins": 14,
+    "losses": 12,
+    "timePlayed": 41934
   }
 }

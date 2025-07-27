@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "Era Istrefi#EUW",
-      "nivel": 171,
+      "nivel": 172,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 560,
-      "victorias": 249,
-      "derrotas": 201,
-      "ultima_partida": 1753435296987
+      "lp": 534,
+      "victorias": 253,
+      "derrotas": 206,
+      "ultima_partida": 1753478759783
     },
     {
       "nombre": "Αrt The Clοwn#EUW",
       "nivel": 624,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 786,
-      "victorias": 249,
+      "lp": 805,
+      "victorias": 250,
       "derrotas": 213,
-      "ultima_partida": 1753389767412
+      "ultima_partida": 1753473751873
     },
     {
       "nombre": "DynamiteLarry63#EUW",
@@ -48,24 +48,24 @@
   "campeones_recientes": [
     {
       "nombre": "Twitch",
-      "partidas": 63,
-      "victorias": 40,
-      "winrate": "63.5%",
-      "kda_promedio": 3.2981927710843375
+      "partidas": 66,
+      "victorias": 44,
+      "winrate": "66.7%",
+      "kda_promedio": 3.466867469879518
     },
     {
       "nombre": "Jhin",
-      "partidas": 25,
-      "victorias": 11,
-      "winrate": "44.0%",
-      "kda_promedio": 3.491228070175439
+      "partidas": 24,
+      "victorias": 10,
+      "winrate": "41.7%",
+      "kda_promedio": 3.409090909090909
     },
     {
       "nombre": "Sivir",
       "partidas": 20,
       "victorias": 11,
       "winrate": "55.0%",
-      "kda_promedio": 3.239130434782609
+      "kda_promedio": 3.4597701149425286
     },
     {
       "nombre": "Ashe",
@@ -90,10 +90,17 @@
     },
     {
       "nombre": "Karma",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.96
+      "winrate": "36.4%",
+      "kda_promedio": 2.892857142857143
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.375
     },
     {
       "nombre": "Milio",
@@ -108,19 +115,12 @@
       "victorias": 3,
       "winrate": "42.9%",
       "kda_promedio": 5.064516129032258
-    },
-    {
-      "nombre": "Brand",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.88
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 189,
-    "wins": 102,
-    "losses": 87,
-    "timePlayed": 318333
+    "games": 193,
+    "wins": 105,
+    "losses": 88,
+    "timePlayed": 323818
   }
 }

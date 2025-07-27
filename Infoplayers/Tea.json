@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "Tea#2299",
-      "nivel": 1258,
+      "nivel": 1259,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1181,
-      "victorias": 871,
-      "derrotas": 811,
-      "ultima_partida": 1753390741817
+      "lp": 1192,
+      "victorias": 876,
+      "derrotas": 815,
+      "ultima_partida": 1753477358214
     },
     {
       "nombre": "T34#mid",
@@ -37,24 +37,17 @@
   "campeones_recientes": [
     {
       "nombre": "Vladimir",
-      "partidas": 79,
-      "victorias": 50,
-      "winrate": "63.3%",
-      "kda_promedio": 2.504398826979472
-    },
-    {
-      "nombre": "Sett",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 0.8208955223880597
+      "partidas": 78,
+      "victorias": 48,
+      "winrate": "61.5%",
+      "kda_promedio": 2.4809384164222874
     },
     {
       "nombre": "Malphite",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.736842105263158
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4782608695652173
     },
     {
       "nombre": "Sylas",
@@ -64,18 +57,18 @@
       "kda_promedio": 2.142857142857143
     },
     {
-      "nombre": "Galio",
+      "nombre": "Sett",
       "partidas": 6,
       "victorias": 2,
       "winrate": "33.3%",
-      "kda_promedio": 2.142857142857143
+      "kda_promedio": 0.7291666666666666
     },
     {
-      "nombre": "Varus",
+      "nombre": "Galio",
       "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
-      "kda_promedio": 2.84
+      "kda_promedio": 1.75
     },
     {
       "nombre": "MonkeyKing",
@@ -83,6 +76,13 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.6363636363636362
     },
     {
       "nombre": "Aatrox",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 154,
+    "games": 149,
     "wins": 79,
-    "losses": 75,
-    "timePlayed": 243960
+    "losses": 70,
+    "timePlayed": 238213
   }
 }

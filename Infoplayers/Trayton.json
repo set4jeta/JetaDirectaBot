@@ -19,33 +19,40 @@
       "nivel": 1066,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 888,
-      "victorias": 291,
-      "derrotas": 254,
-      "ultima_partida": 1753357984258
+      "lp": 847,
+      "victorias": 292,
+      "derrotas": 257,
+      "ultima_partida": 1753450975864
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 2.4603174603174605
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.8333333333333335
     },
     {
       "nombre": "Alistar",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.4166666666666665
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.764705882352941
     },
     {
       "nombre": "Rakan",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 5.7
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
     },
     {
       "nombre": "Galio",
@@ -62,24 +69,24 @@
       "kda_promedio": 2.6153846153846154
     },
     {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Karma",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 12,
-    "losses": 19,
-    "timePlayed": 47636
+    "games": 23,
+    "wins": 9,
+    "losses": 14,
+    "timePlayed": 35925
   }
 }

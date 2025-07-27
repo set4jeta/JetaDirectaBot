@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Paolocannone#EUW",
-      "nivel": 1236,
+      "nivel": 1237,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 779,
-      "victorias": 488,
-      "derrotas": 464,
-      "ultima_partida": 1753396619239
+      "lp": 839,
+      "victorias": 492,
+      "derrotas": 465,
+      "ultima_partida": 1753453516514
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Blitzcrank",
-      "partidas": 46,
-      "victorias": 26,
-      "winrate": "56.5%",
-      "kda_promedio": 3.68
+      "partidas": 48,
+      "victorias": 27,
+      "winrate": "56.2%",
+      "kda_promedio": 3.5868544600938965
     },
     {
       "nombre": "Rakan",
@@ -42,17 +42,17 @@
     },
     {
       "nombre": "Nautilus",
-      "partidas": 10,
-      "victorias": 2,
-      "winrate": "20.0%",
-      "kda_promedio": 2.032258064516129
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 2.1142857142857143
     },
     {
       "nombre": "Braum",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 6.095238095238095
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.884615384615385
     },
     {
       "nombre": "Alistar",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 100,
-    "wins": 49,
-    "losses": 51,
-    "timePlayed": 166469
+    "games": 105,
+    "wins": 53,
+    "losses": 52,
+    "timePlayed": 174964
   }
 }

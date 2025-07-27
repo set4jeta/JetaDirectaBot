@@ -60,13 +60,6 @@
       "kda_promedio": 3.5
     },
     {
-      "nombre": "Smolder",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.7777777777777778
-    },
-    {
       "nombre": "Ziggs",
       "partidas": 2,
       "victorias": 1,
@@ -88,13 +81,6 @@
       "kda_promedio": 2.142857142857143
     },
     {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
       "nombre": "Leblanc",
       "partidas": 1,
       "victorias": 1,
@@ -114,12 +100,26 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
-    "wins": 13,
+    "games": 24,
+    "wins": 11,
     "losses": 13,
-    "timePlayed": 37760
+    "timePlayed": 34595
   }
 }

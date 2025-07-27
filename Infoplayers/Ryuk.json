@@ -19,26 +19,26 @@
       "nivel": 839,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1260,
-      "victorias": 357,
-      "derrotas": 303,
-      "ultima_partida": 1753389373904
+      "lp": 1257,
+      "victorias": 360,
+      "derrotas": 306,
+      "ultima_partida": 1753475040878
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.9
+    },
     {
       "nombre": "Varus",
       "partidas": 8,
       "victorias": 5,
       "winrate": "62.5%",
       "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3
     },
     {
       "nombre": "Jhin",
@@ -49,10 +49,17 @@
     },
     {
       "nombre": "Corki",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.230769230769231
+      "winrate": "20.0%",
+      "kda_promedio": 2.161290322580645
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5217391304347827
     },
     {
       "nombre": "Sivir",
@@ -60,13 +67,6 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 1.84
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.357142857142857
     },
     {
       "nombre": "Jinx",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 28,
-    "losses": 23,
-    "timePlayed": 84041
+    "games": 57,
+    "wins": 31,
+    "losses": 26,
+    "timePlayed": 94135
   }
 }

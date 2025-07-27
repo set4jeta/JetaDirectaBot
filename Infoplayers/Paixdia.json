@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "PatrickJane#Supp",
-      "nivel": 781,
+      "nivel": 782,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1109,
-      "victorias": 618,
-      "derrotas": 566,
-      "ultima_partida": 1753314030004
+      "lp": 1106,
+      "victorias": 620,
+      "derrotas": 568,
+      "ultima_partida": 1753472417133
     },
     {
       "nombre": "Kamusari#EUW11",
@@ -39,16 +39,16 @@
     {
       "nombre": "Nautilus",
       "partidas": 24,
-      "victorias": 14,
-      "winrate": "58.3%",
-      "kda_promedio": 2.5947712418300655
+      "victorias": 13,
+      "winrate": "54.2%",
+      "kda_promedio": 2.496732026143791
     },
     {
       "nombre": "Alistar",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 3.4489795918367347
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.239130434782609
     },
     {
       "nombre": "Rell",
@@ -86,11 +86,11 @@
       "kda_promedio": 3.8260869565217392
     },
     {
-      "nombre": "Leona",
+      "nombre": "Pyke",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8518518518518516
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6153846153846154
     },
     {
       "nombre": "Braum",
@@ -100,17 +100,17 @@
       "kda_promedio": 2.4375
     },
     {
-      "nombre": "Pyke",
+      "nombre": "Leona",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.526315789473684
+      "kda_promedio": 4.136363636363637
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 55,
+    "games": 104,
+    "wins": 54,
     "losses": 50,
-    "timePlayed": 172556
+    "timePlayed": 170868
   }
 }

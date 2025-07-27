@@ -19,19 +19,19 @@
       "nivel": 1084,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 964,
-      "victorias": 476,
-      "derrotas": 432,
-      "ultima_partida": 1753384198961
+      "lp": 921,
+      "victorias": 477,
+      "derrotas": 435,
+      "ultima_partida": 1753454164585
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 14,
+      "partidas": 15,
       "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 3.5
+      "winrate": "53.3%",
+      "kda_promedio": 3.3088235294117645
     },
     {
       "nombre": "Orianna",
@@ -55,18 +55,18 @@
       "kda_promedio": 2.8666666666666667
     },
     {
-      "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8333333333333333
-    },
-    {
       "nombre": "Syndra",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.6315789473684212
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Ryze",
@@ -101,6 +101,6 @@
     "games": 67,
     "wins": 36,
     "losses": 31,
-    "timePlayed": 110924
+    "timePlayed": 110934
   }
 }

@@ -16,50 +16,36 @@
   "cuentas": [
     {
       "nombre": "Javier#RITO",
-      "nivel": 1034,
+      "nivel": 1035,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1056,
-      "victorias": 211,
-      "derrotas": 157,
-      "ultima_partida": 1753271715173
+      "lp": 1137,
+      "victorias": 216,
+      "derrotas": 158,
+      "ultima_partida": 1753467572824
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zoe",
-      "partidas": 27,
-      "victorias": 18,
-      "winrate": "66.7%",
-      "kda_promedio": 4.863157894736842
+      "partidas": 28,
+      "victorias": 21,
+      "winrate": "75.0%",
+      "kda_promedio": 4.989795918367347
     },
     {
       "nombre": "Seraphine",
-      "partidas": 13,
-      "victorias": 11,
-      "winrate": "84.6%",
-      "kda_promedio": 5.738095238095238
+      "partidas": 15,
+      "victorias": 12,
+      "winrate": "80.0%",
+      "kda_promedio": 5.357142857142857
     },
     {
       "nombre": "Leblanc",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.838709677419355
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.5454545454545454
-    },
-    {
-      "nombre": "Lissandra",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.9375
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.7419354838709675
     },
     {
       "nombre": "Malphite",
@@ -76,6 +62,27 @@
       "kda_promedio": 3.3636363636363638
     },
     {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.166666666666667
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
       "nombre": "TwistedFate",
       "partidas": 2,
       "victorias": 1,
@@ -88,19 +95,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 10.5
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.8
     }
   ],
   "estadisticas_2_semanas": {
     "games": 71,
-    "wins": 46,
-    "losses": 25,
-    "timePlayed": 111862
+    "wins": 48,
+    "losses": 23,
+    "timePlayed": 114558
   }
 }

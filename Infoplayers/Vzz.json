@@ -42,10 +42,10 @@
     },
     {
       "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 6.363636363636363
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.875
     },
     {
       "nombre": "Xayah",
@@ -53,13 +53,6 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 1.4615384615384615
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Gnar",
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 33,
-    "losses": 30,
-    "timePlayed": 98023
+    "games": 61,
+    "wins": 32,
+    "losses": 29,
+    "timePlayed": 95050
   }
 }

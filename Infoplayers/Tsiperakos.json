@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "LetMe1v2Plz#EUW",
+      "nivel": 98,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 699,
+      "victorias": 70,
+      "derrotas": 32,
+      "ultima_partida": 1753445314276
+    },
+    {
       "nombre": "Tsiperakos#MID",
       "nivel": 514,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 214,
       "derrotas": 172,
       "ultima_partida": 1753431972756
-    },
-    {
-      "nombre": "LetMe1v2Plz#EUW",
-      "nivel": 98,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 719,
-      "victorias": 70,
-      "derrotas": 31,
-      "ultima_partida": 1753374368908
     },
     {
       "nombre": "Tsipourakos#tsprk",
@@ -55,10 +55,10 @@
     },
     {
       "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.8461538461538463
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Syndra",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
-    "wins": 24,
-    "losses": 16,
-    "timePlayed": 66624
+    "games": 39,
+    "wins": 22,
+    "losses": 17,
+    "timePlayed": 64705
   }
 }

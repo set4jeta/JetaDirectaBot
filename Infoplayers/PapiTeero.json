@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "ToothIess#EUW",
-      "nivel": 1333,
+      "nivel": 1334,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 963,
-      "victorias": 643,
-      "derrotas": 601,
-      "ultima_partida": 1753387452291
+      "lp": 965,
+      "victorias": 647,
+      "derrotas": 605,
+      "ultima_partida": 1753462961125
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rumble",
-      "partidas": 18,
-      "victorias": 8,
-      "winrate": "44.4%",
-      "kda_promedio": 3.0555555555555554
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 3.1931818181818183
     },
     {
       "nombre": "Shen",
@@ -77,10 +77,10 @@
     },
     {
       "nombre": "Gnar",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.1818181818181817
+      "winrate": "25.0%",
+      "kda_promedio": 1.9166666666666667
     },
     {
       "nombre": "KSante",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 115,
-    "wins": 64,
-    "losses": 51,
-    "timePlayed": 188487
+    "games": 119,
+    "wins": 66,
+    "losses": 53,
+    "timePlayed": 198132
   }
 }

@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Samira",
-      "partidas": 27,
-      "victorias": 19,
-      "winrate": "70.4%",
-      "kda_promedio": 3.3823529411764706
+      "partidas": 24,
+      "victorias": 16,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1353383458646618
     },
     {
       "nombre": "Yunara",
@@ -58,13 +58,6 @@
       "kda_promedio": 5.8
     },
     {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 15
-    },
-    {
       "nombre": "Yuumi",
       "partidas": 1,
       "victorias": 0,
@@ -73,9 +66,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
-    "wins": 25,
+    "games": 33,
+    "wins": 21,
     "losses": 12,
-    "timePlayed": 55819
+    "timePlayed": 51148
   }
 }

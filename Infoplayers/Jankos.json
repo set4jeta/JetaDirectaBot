@@ -75,18 +75,18 @@
       "kda_promedio": 3.5483870967741935
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.409090909090909
-    },
-    {
       "nombre": "Qiyana",
       "partidas": 4,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5555555555555554
     },
     {
       "nombre": "Nocturne",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 73,
-    "wins": 33,
+    "games": 72,
+    "wins": 32,
     "losses": 40,
-    "timePlayed": 117852
+    "timePlayed": 115855
   }
 }

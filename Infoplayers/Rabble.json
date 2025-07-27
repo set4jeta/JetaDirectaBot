@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3.5757575757575757
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.586206896551724
     },
     {
       "nombre": "Pantheon",
@@ -51,18 +51,18 @@
       "kda_promedio": 13.4
     },
     {
-      "nombre": "Gragas",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.166666666666667
-    },
-    {
       "nombre": "Sion",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 5.833333333333333
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6
     },
     {
       "nombre": "JarvanIV",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 28,
+    "games": 46,
+    "wins": 26,
     "losses": 20,
-    "timePlayed": 74280
+    "timePlayed": 71795
   }
 }

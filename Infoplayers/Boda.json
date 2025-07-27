@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "GK pablo#Boda",
-      "nivel": 1326,
+      "nivel": 1327,
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1180,
-      "victorias": 742,
-      "derrotas": 681,
-      "ultima_partida": 1753397820489
+      "victorias": 744,
+      "derrotas": 683,
+      "ultima_partida": 1753477358214
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 3.825
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 3.6739130434782608
     },
     {
       "nombre": "Jayce",
@@ -41,6 +41,13 @@
       "kda_promedio": 4.521739130434782
     },
     {
+      "nombre": "Rumble",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.3870967741935485
+    },
+    {
       "nombre": "Sylas",
       "partidas": 6,
       "victorias": 4,
@@ -48,25 +55,11 @@
       "kda_promedio": 3.2972972972972974
     },
     {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.9333333333333333
-    },
-    {
       "nombre": "Gwen",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 1.3448275862068966
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.68
     },
     {
       "nombre": "Ahri",
@@ -81,6 +74,13 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.9130434782608695
     },
     {
       "nombre": "Jhin",
@@ -99,8 +99,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 87,
-    "wins": 42,
-    "losses": 45,
-    "timePlayed": 145558
+    "wins": 43,
+    "losses": 44,
+    "timePlayed": 144384
   }
 }

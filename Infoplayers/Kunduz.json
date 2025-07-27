@@ -18,10 +18,10 @@
       "nivel": 274,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1206,
+      "lp": 1185,
       "victorias": 305,
-      "derrotas": 248,
-      "ultima_partida": 1753382472175
+      "derrotas": 249,
+      "ultima_partida": 1753440453606
     }
   ],
   "campeones_recientes": [
@@ -59,12 +59,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
+    "games": 13,
     "wins": 8,
-    "losses": 4,
-    "timePlayed": 16792
+    "losses": 5,
+    "timePlayed": 17918
   }
 }

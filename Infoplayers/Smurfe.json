@@ -19,40 +19,40 @@
       "nivel": 894,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1222,
-      "victorias": 377,
+      "lp": 1279,
+      "victorias": 380,
       "derrotas": 321,
-      "ultima_partida": 1753354320185
+      "ultima_partida": 1753460737668
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 1.5964912280701755
+      "partidas": 16,
+      "victorias": 11,
+      "winrate": "68.8%",
+      "kda_promedio": 1.6724137931034482
     },
     {
       "nombre": "Jax",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6470588235294117
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 1.8431372549019607
     },
     {
       "nombre": "Jayce",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.9722222222222223
     },
     {
       "nombre": "Aatrox",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.6
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1764705882352942
     },
     {
       "nombre": "Renekton",
@@ -76,11 +76,11 @@
       "kda_promedio": 3.4285714285714284
     },
     {
-      "nombre": "Kennen",
+      "nombre": "Camille",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.4444444444444446
+      "kda_promedio": 2.5833333333333335
     },
     {
       "nombre": "Ambessa",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 31,
-    "losses": 23,
-    "timePlayed": 84654
+    "games": 51,
+    "wins": 30,
+    "losses": 21,
+    "timePlayed": 79370
   }
 }

@@ -19,20 +19,20 @@
       "nivel": 571,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 815,
+      "lp": 794,
       "victorias": 283,
-      "derrotas": 251,
-      "ultima_partida": 1753367287082
+      "derrotas": 252,
+      "ultima_partida": 1753475537128
     },
     {
       "nombre": "FireAscept#1013",
       "nivel": 218,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 772,
-      "victorias": 270,
-      "derrotas": 241,
-      "ultima_partida": 1753258525116
+      "lp": 770,
+      "victorias": 273,
+      "derrotas": 244,
+      "ultima_partida": 1753471136657
     }
   ],
   "campeones_recientes": [
@@ -45,17 +45,10 @@
     },
     {
       "nombre": "Yone",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.1549295774647885
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 1.5217391304347827
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1447368421052633
     },
     {
       "nombre": "Annie",
@@ -65,18 +58,25 @@
       "kda_promedio": 2.260869565217391
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 7,
+      "nombre": "Azir",
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 1.9803921568627452
+      "winrate": "50.0%",
+      "kda_promedio": 1.4848484848484849
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7619047619047619
     },
     {
       "nombre": "Sylas",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.7407407407407407
     },
     {
       "nombre": "Akali",
@@ -100,17 +100,17 @@
       "kda_promedio": 3.217391304347826
     },
     {
-      "nombre": "Irelia",
+      "nombre": "Galio",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.6
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5294117647058822
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 50,
-    "losses": 55,
-    "timePlayed": 172023
+    "games": 102,
+    "wins": 49,
+    "losses": 53,
+    "timePlayed": 165941
   }
 }

@@ -15,34 +15,34 @@
   },
   "cuentas": [
     {
+      "nombre": "Ailurus fulgens#78141",
+      "nivel": 815,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 549,
+      "victorias": 87,
+      "derrotas": 64,
+      "ultima_partida": 1753473126063
+    },
+    {
       "nombre": "空 空#78141",
       "nivel": 171,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 696,
-      "victorias": 70,
-      "derrotas": 47,
-      "ultima_partida": 1753396849326
-    },
-    {
-      "nombre": "Ailurus fulgens#78141",
-      "nivel": 814,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 571,
-      "victorias": 87,
-      "derrotas": 63,
-      "ultima_partida": 1753384371307
+      "lp": 697,
+      "victorias": 71,
+      "derrotas": 48,
+      "ultima_partida": 1753470094311
     },
     {
       "nombre": "inspired1#78141",
       "nivel": 371,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1183,
+      "lp": 1161,
       "victorias": 129,
-      "derrotas": 64,
-      "ultima_partida": 1753378674070
+      "derrotas": 65,
+      "ultima_partida": 1753443113907
     }
   ],
   "campeones_recientes": [
@@ -51,28 +51,28 @@
       "partidas": 10,
       "victorias": 6,
       "winrate": "60.0%",
-      "kda_promedio": 3.3461538461538463
+      "kda_promedio": 2.963636363636364
     },
     {
       "nombre": "Jhin",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.2333333333333334
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.7916666666666665
     },
     {
       "nombre": "LeeSin",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4
+      "winrate": "66.7%",
+      "kda_promedio": 6.333333333333333
     },
     {
-      "nombre": "Skarner",
+      "nombre": "MonkeyKing",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 6.363636363636363
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Elise",
@@ -89,18 +89,18 @@
       "kda_promedio": 6.428571428571429
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.625
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
     },
     {
       "nombre": "Vi",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 29,
+    "games": 47,
+    "wins": 27,
     "losses": 20,
-    "timePlayed": 78877
+    "timePlayed": 75787
   }
 }

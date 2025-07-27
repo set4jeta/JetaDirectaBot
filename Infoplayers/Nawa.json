@@ -18,10 +18,10 @@
       "nivel": 269,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 783,
-      "victorias": 223,
+      "lp": 824,
+      "victorias": 225,
       "derrotas": 181,
-      "ultima_partida": 1753373401152
+      "ultima_partida": 1753472393317
     },
     {
       "nombre": "Ghost Face#33333",
@@ -47,10 +47,10 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.8947368421052633
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.1147540983606556
     },
     {
       "nombre": "Corki",
@@ -74,32 +74,11 @@
       "kda_promedio": 1.6216216216216217
     },
     {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.9411764705882355
-    },
-    {
       "nombre": "Nautilus",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 2.037037037037037
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5909090909090908
     },
     {
       "nombre": "Xayah",
@@ -114,12 +93,33 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1818181818181817
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 68,
-    "wins": 30,
-    "losses": 38,
-    "timePlayed": 106724
+    "games": 65,
+    "wins": 28,
+    "losses": 37,
+    "timePlayed": 101763
   }
 }

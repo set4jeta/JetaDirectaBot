@@ -47,10 +47,10 @@
   "campeones_recientes": [
     {
       "nombre": "Ryze",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 4.098039215686274
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Rell",
@@ -82,10 +82,10 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 5
+      "winrate": "66.7%",
+      "kda_promedio": 9
     },
     {
       "nombre": "Azir",
@@ -102,24 +102,24 @@
       "kda_promedio": 4.636363636363637
     },
     {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
       "nombre": "Akali",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
-    "wins": 38,
-    "losses": 27,
-    "timePlayed": 103786
+    "games": 60,
+    "wins": 36,
+    "losses": 24,
+    "timePlayed": 96498
   }
 }

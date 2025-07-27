@@ -18,10 +18,10 @@
       "nivel": 438,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1050,
+      "lp": 989,
       "victorias": 368,
-      "derrotas": 324,
-      "ultima_partida": 1753387888228
+      "derrotas": 327,
+      "ultima_partida": 1753477851283
     }
   ],
   "campeones_recientes": [
@@ -47,6 +47,13 @@
       "kda_promedio": 3.9473684210526314
     },
     {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
       "nombre": "Ornn",
       "partidas": 4,
       "victorias": 2,
@@ -54,25 +61,18 @@
       "kda_promedio": 4
     },
     {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.923076923076923
+    },
+    {
       "nombre": "Aatrox",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 3.142857142857143
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4545454545454546
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3
     },
     {
       "nombre": "Nautilus",
@@ -87,12 +87,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
+    "games": 47,
     "wins": 24,
-    "losses": 20,
-    "timePlayed": 69471
+    "losses": 23,
+    "timePlayed": 73885
   }
 }

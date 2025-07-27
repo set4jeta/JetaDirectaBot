@@ -16,43 +16,43 @@
   "cuentas": [
     {
       "nombre": "ItsOKtoBeNotOK#eProd",
-      "nivel": 864,
+      "nivel": 865,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 957,
-      "victorias": 407,
-      "derrotas": 369,
-      "ultima_partida": 1753437767339
+      "lp": 997,
+      "victorias": 415,
+      "derrotas": 375,
+      "ultima_partida": 1753467805951
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Vex",
-      "partidas": 44,
-      "victorias": 26,
-      "winrate": "59.1%",
-      "kda_promedio": 2.6470588235294117
+      "partidas": 50,
+      "victorias": 27,
+      "winrate": "54.0%",
+      "kda_promedio": 2.421455938697318
     },
     {
       "nombre": "Syndra",
-      "partidas": 33,
-      "victorias": 15,
-      "winrate": "45.5%",
-      "kda_promedio": 2.54
+      "partidas": 34,
+      "victorias": 16,
+      "winrate": "47.1%",
+      "kda_promedio": 2.519230769230769
     },
     {
       "nombre": "AurelionSol",
       "partidas": 29,
-      "victorias": 17,
-      "winrate": "58.6%",
-      "kda_promedio": 2.5827814569536423
+      "victorias": 16,
+      "winrate": "55.2%",
+      "kda_promedio": 2.396103896103896
     },
     {
       "nombre": "Viktor",
       "partidas": 25,
-      "victorias": 12,
-      "winrate": "48.0%",
-      "kda_promedio": 3.0693069306930694
+      "victorias": 13,
+      "winrate": "52.0%",
+      "kda_promedio": 3.1386138613861387
     },
     {
       "nombre": "Orianna",
@@ -64,9 +64,9 @@
     {
       "nombre": "Qiyana",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 6.166666666666667
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
     },
     {
       "nombre": "Veigar",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 145,
-    "wins": 77,
-    "losses": 68,
-    "timePlayed": 235329
+    "games": 151,
+    "wins": 79,
+    "losses": 72,
+    "timePlayed": 242332
   }
 }

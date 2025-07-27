@@ -18,10 +18,10 @@
       "nivel": 998,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 812,
+      "lp": 791,
       "victorias": 264,
-      "derrotas": 238,
-      "ultima_partida": 1753383226851
+      "derrotas": 239,
+      "ultima_partida": 1753436602891
     }
   ],
   "campeones_recientes": [
@@ -34,10 +34,10 @@
     },
     {
       "nombre": "Bard",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.5
+      "winrate": "100.0%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Braum",
@@ -51,7 +51,7 @@
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 1.2941176470588236
     },
     {
       "nombre": "Rakan",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
+    "games": 18,
     "wins": 9,
-    "losses": 10,
-    "timePlayed": 29076
+    "losses": 9,
+    "timePlayed": 27915
   }
 }

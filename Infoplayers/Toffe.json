@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Toto The Totoro#Toffe",
-      "nivel": 545,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1289,
-      "victorias": 233,
-      "derrotas": 188,
-      "ultima_partida": 1753394492703
-    },
-    {
       "nombre": "bald by 2026#hair",
       "nivel": 147,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1187,
-      "victorias": 219,
+      "lp": 1201,
+      "victorias": 220,
       "derrotas": 162,
-      "ultima_partida": 1753351075170
+      "ultima_partida": 1753445581048
+    },
+    {
+      "nombre": "Toto The Totoro#Toffe",
+      "nivel": 545,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1307,
+      "victorias": 234,
+      "derrotas": 188,
+      "ultima_partida": 1753440672807
     },
     {
       "nombre": "oompa loompa mid#tofu",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Syndra",
-      "partidas": 14,
+      "partidas": 13,
       "victorias": 11,
-      "winrate": "78.6%",
-      "kda_promedio": 3.6206896551724137
+      "winrate": "84.6%",
+      "kda_promedio": 3.98
     },
     {
       "nombre": "Sylas",
@@ -66,6 +66,13 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.666666666666666
     },
     {
       "nombre": "Akali",
@@ -111,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
-    "wins": 20,
-    "losses": 9,
-    "timePlayed": 47660
+    "games": 30,
+    "wins": 22,
+    "losses": 8,
+    "timePlayed": 49417
   }
 }

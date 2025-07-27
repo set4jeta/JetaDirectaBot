@@ -18,10 +18,10 @@
       "nivel": 411,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1386,
-      "victorias": 426,
-      "derrotas": 374,
-      "ultima_partida": 1753402543021
+      "lp": 1365,
+      "victorias": 428,
+      "derrotas": 377,
+      "ultima_partida": 1753462411745
     },
     {
       "nombre": "BIG Pig#Oink5",
@@ -37,10 +37,10 @@
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 24,
+      "partidas": 27,
       "victorias": 13,
-      "winrate": "54.2%",
-      "kda_promedio": 2.008
+      "winrate": "48.1%",
+      "kda_promedio": 1.9724137931034482
     },
     {
       "nombre": "Gwen",
@@ -51,10 +51,10 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.3
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.85
     },
     {
       "nombre": "Sion",
@@ -62,13 +62,6 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 3.590909090909091
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.875
     },
     {
       "nombre": "Gragas",
@@ -99,6 +92,13 @@
       "kda_promedio": 1.2857142857142858
     },
     {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
+    },
+    {
       "nombre": "Nautilus",
       "partidas": 1,
       "victorias": 1,
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 29,
-    "losses": 26,
-    "timePlayed": 82655
+    "games": 59,
+    "wins": 30,
+    "losses": 29,
+    "timePlayed": 89016
   }
 }

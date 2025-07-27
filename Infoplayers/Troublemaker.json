@@ -18,10 +18,10 @@
       "nivel": 61,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 388,
-      "victorias": 151,
-      "derrotas": 117,
-      "ultima_partida": 1753436912169
+      "lp": 385,
+      "victorias": 152,
+      "derrotas": 118,
+      "ultima_partida": 1753438456282
     },
     {
       "nombre": "Unforgettable#GGS",
@@ -43,18 +43,18 @@
       "kda_promedio": 2.3714285714285714
     },
     {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9259259259259258
+    },
+    {
       "nombre": "Hwei",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 3.619047619047619
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.75
     },
     {
       "nombre": "Ahri",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
+    "games": 27,
     "wins": 14,
-    "losses": 12,
-    "timePlayed": 44182
+    "losses": 13,
+    "timePlayed": 45966
   }
 }

@@ -31,18 +31,18 @@
       "kda_promedio": 2.618181818181818
     },
     {
-      "nombre": "Jayce",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.4615384615384617
-    },
-    {
       "nombre": "Ambessa",
       "partidas": 10,
       "victorias": 4,
       "winrate": "40.0%",
       "kda_promedio": 2.7954545454545454
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.061224489795918
     },
     {
       "nombre": "Vladimir",
@@ -95,9 +95,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 30,
+    "games": 59,
+    "wins": 29,
     "losses": 30,
-    "timePlayed": 99877
+    "timePlayed": 98128
   }
 }

@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "BATMAN ALGERIEN#FEET",
-      "nivel": 633,
+      "nivel": 634,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 973,
-      "victorias": 327,
+      "lp": 1051,
+      "victorias": 331,
       "derrotas": 271,
-      "ultima_partida": 1753296801315
+      "ultima_partida": 1753468872871
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Fiora",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 1.8888888888888888
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 1.88
     },
     {
       "nombre": "Gwen",
@@ -39,6 +39,13 @@
       "victorias": 1,
       "winrate": "20.0%",
       "kda_promedio": 2.7083333333333335
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1176470588235294
     },
     {
       "nombre": "KSante",
@@ -55,13 +62,6 @@
       "kda_promedio": 0.7368421052631579
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6
-    },
-    {
       "nombre": "Malphite",
       "partidas": 1,
       "victorias": 1,
@@ -74,12 +74,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5555555555555556
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
-    "wins": 12,
+    "games": 27,
+    "wins": 16,
     "losses": 11,
-    "timePlayed": 37150
+    "timePlayed": 42714
   }
 }

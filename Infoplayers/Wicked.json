@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Wicked#Tun",
-      "nivel": 1023,
+      "nivel": 1024,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 826,
-      "victorias": 457,
-      "derrotas": 431,
-      "ultima_partida": 1753411829884
+      "lp": 825,
+      "victorias": 458,
+      "derrotas": 432,
+      "ultima_partida": 1753454034726
     },
     {
       "nombre": "Moula STEG#STEG",
@@ -51,18 +51,18 @@
       "kda_promedio": 2.5692307692307694
     },
     {
-      "nombre": "Akali",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.4
+      "nombre": "Sylas",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2465753424657535
     },
     {
-      "nombre": "Sylas",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 2.4603174603174605
+      "nombre": "Akali",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6904761904761907
     },
     {
       "nombre": "Aurora",
@@ -77,6 +77,13 @@
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 4.7272727272727275
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.185185185185185
     },
     {
       "nombre": "Hwei",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.166666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 50,
+    "games": 92,
+    "wins": 51,
     "losses": 41,
-    "timePlayed": 143765
+    "timePlayed": 145378
   }
 }

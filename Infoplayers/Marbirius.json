@@ -19,10 +19,10 @@
       "nivel": 109,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 948,
+      "lp": 907,
       "victorias": 157,
-      "derrotas": 108,
-      "ultima_partida": 1753397600500
+      "derrotas": 110,
+      "ultima_partida": 1753449892789
     },
     {
       "nombre": "Godskin Apostle#EUW",
@@ -61,18 +61,25 @@
       "kda_promedio": 4.071428571428571
     },
     {
-      "nombre": "Syndra",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.28125
-    },
-    {
       "nombre": "Annie",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.935483870967742
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.1538461538461537
     },
     {
       "nombre": "Orianna",
@@ -82,20 +89,6 @@
       "kda_promedio": 3.411764705882353
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Xerath",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5
-    },
-    {
       "nombre": "Corki",
       "partidas": 2,
       "victorias": 1,
@@ -103,24 +96,31 @@
       "kda_promedio": 1.5384615384615385
     },
     {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
       "nombre": "Ahri",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 6.25
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
     }
   ],
   "estadisticas_2_semanas": {
     "games": 52,
-    "wins": 32,
-    "losses": 20,
-    "timePlayed": 85436
+    "wins": 31,
+    "losses": 21,
+    "timePlayed": 85864
   }
 }

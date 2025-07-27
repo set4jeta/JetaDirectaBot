@@ -19,10 +19,10 @@
       "nivel": 191,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1041,
-      "victorias": 323,
-      "derrotas": 279,
-      "ultima_partida": 1753375254991
+      "lp": 1017,
+      "victorias": 324,
+      "derrotas": 281,
+      "ultima_partida": 1753451816226
     }
   ],
   "campeones_recientes": [
@@ -42,10 +42,10 @@
     },
     {
       "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.285714285714286
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.8
     },
     {
       "nombre": "Poppy",
@@ -55,6 +55,13 @@
       "kda_promedio": 2.2058823529411766
     },
     {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    },
+    {
       "nombre": "Amumu",
       "partidas": 3,
       "victorias": 3,
@@ -62,11 +69,11 @@
       "kda_promedio": 2.4375
     },
     {
-      "nombre": "Alistar",
-      "partidas": 2,
+      "nombre": "Rakan",
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.75
+      "kda_promedio": 2.3125
     },
     {
       "nombre": "Leblanc",
@@ -74,13 +81,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.7894736842105263
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.8181818181818183
     },
     {
       "nombre": "Bard",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 23,
-    "losses": 19,
-    "timePlayed": 64506
+    "games": 45,
+    "wins": 24,
+    "losses": 21,
+    "timePlayed": 69565
   }
 }

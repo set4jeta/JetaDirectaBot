@@ -19,19 +19,26 @@
       "nivel": 109,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 772,
-      "victorias": 317,
-      "derrotas": 266,
-      "ultima_partida": 1753398274113
+      "lp": 811,
+      "victorias": 320,
+      "derrotas": 267,
+      "ultima_partida": 1753456101677
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ezreal",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 5.15
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 5.545454545454546
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.736842105263158
     },
     {
       "nombre": "Nautilus",
@@ -39,13 +46,6 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 3.0952380952380953
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.066666666666667
     },
     {
       "nombre": "Bard",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
-    "wins": 18,
-    "losses": 17,
-    "timePlayed": 58429
+    "games": 39,
+    "wins": 21,
+    "losses": 18,
+    "timePlayed": 65512
   }
 }

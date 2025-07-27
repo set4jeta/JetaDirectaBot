@@ -90,7 +90,7 @@ class ActiveGameTracker:
                     break
 
                 match = SoloQMatch.from_riot_game_data(game_data)
-                await self.notificar_partida(account, match)
+                await self.notificar_partida(account, match, session)  # <-- PASA session AQUÍ
                 print(f"✅ Partida activa encontrada para {player.name} | {account.riot_id['game_name']}#{account.riot_id['tag_line']}")
                 found = True
                 break
@@ -101,32 +101,29 @@ class ActiveGameTracker:
 
     import aiohttp
 
-    async def notificar_partida(self, account, match: SoloQMatch):
+    async def notificar_partida(self, account, match: SoloQMatch, session):  # <-- AGREGA session AQUÍ
         game_id = match.game_id
 
         msi_puuids = {p.puuid for p in match.participants if p.puuid}
         ranked_map = {}
 
-        async with aiohttp.ClientSession() as session:
-            for p in match.participants:
-                if not p.puuid:
-                    continue
+        for p in match.participants:
+            if not p.puuid:
+                continue
 
-                cached_rank = get_cached_rank(p)
+            cached_rank = get_cached_rank(p)
 
-                if cached_rank:
-                    ranked_map[p.puuid] = cached_rank
-                else:
-                    rank_data = await get_rank_data_or_cache(p.puuid, session)
-                    ranked_map[p.puuid] = rank_data
+            if cached_rank:
+                ranked_map[p.puuid] = cached_rank
+            else:
+                rank_data = await get_rank_data_or_cache(p.puuid, session)
+                ranked_map[p.puuid] = rank_data
 
-                    # Guardar en el JSON
-                    if rank_data["tier"] != "Desconocido":
-                        # Esto crea un atributo temporal .rank si no existe
-                        p.rank = rank_data
-                        save_rank_data(p)
+                # Guardar en el JSON
+                if rank_data["tier"] != "Desconocido":
+                    p.rank = rank_data
+                    save_rank_data(p)
 
-        
         player = self.puuid_to_player.get(account.puuid)
         player_name = player.name if player else account.riot_id["game_name"]
         set_active_game_with_ranked(account.puuid, match.datos_extra, ranked_map, player_name)

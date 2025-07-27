@@ -16,16 +16,23 @@
   "cuentas": [
     {
       "nombre": "lpl dna#12103",
-      "nivel": 766,
+      "nivel": 767,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1357,
-      "victorias": 277,
+      "lp": 1460,
+      "victorias": 282,
       "derrotas": 193,
-      "ultima_partida": 1753373388617
+      "ultima_partida": 1753453948683
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 2.7088607594936707
+    },
     {
       "nombre": "Alistar",
       "partidas": 14,
@@ -41,18 +48,18 @@
       "kda_promedio": 2.4444444444444446
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 2.514705882352941
-    },
-    {
       "nombre": "Rakan",
       "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3.5
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.88
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 5.086956521739131
     },
     {
       "nombre": "Braum",
@@ -69,11 +76,11 @@
       "kda_promedio": 1.9090909090909092
     },
     {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.55
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Poppy",
@@ -88,19 +95,12 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 11
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 83,
-    "wins": 45,
-    "losses": 38,
-    "timePlayed": 127397
+    "games": 87,
+    "wins": 50,
+    "losses": 37,
+    "timePlayed": 133630
   }
 }

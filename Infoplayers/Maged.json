@@ -72,13 +72,6 @@
       "kda_promedio": 1.6
     },
     {
-      "nombre": "Jayce",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4782608695652173
-    },
-    {
       "nombre": "Rumble",
       "partidas": 3,
       "victorias": 1,
@@ -100,17 +93,24 @@
       "kda_promedio": 1.2307692307692308
     },
     {
-      "nombre": "Irelia",
+      "nombre": "Jayce",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4375
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 22,
-    "losses": 28,
-    "timePlayed": 82185
+    "games": 47,
+    "wins": 21,
+    "losses": 26,
+    "timePlayed": 76579
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 1294,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 632,
-      "victorias": 233,
-      "derrotas": 209,
-      "ultima_partida": 1753389061732
+      "lp": 631,
+      "victorias": 234,
+      "derrotas": 210,
+      "ultima_partida": 1753437887722
     },
     {
       "nombre": "FNR#gap",
@@ -45,17 +45,17 @@
     },
     {
       "nombre": "Ambessa",
-      "partidas": 16,
+      "partidas": 15,
       "victorias": 12,
-      "winrate": "75.0%",
-      "kda_promedio": 2.7586206896551726
+      "winrate": "80.0%",
+      "kda_promedio": 3.02
     },
     {
       "nombre": "Gwen",
-      "partidas": 14,
+      "partidas": 15,
       "victorias": 10,
-      "winrate": "71.4%",
-      "kda_promedio": 2.3472222222222223
+      "winrate": "66.7%",
+      "kda_promedio": 2.4324324324324325
     },
     {
       "nombre": "Sett",
@@ -73,10 +73,10 @@
     },
     {
       "nombre": "Aatrox",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.9230769230769231
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Rumble",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 96,
-    "wins": 55,
+    "games": 97,
+    "wins": 56,
     "losses": 41,
-    "timePlayed": 155892
+    "timePlayed": 157401
   }
 }

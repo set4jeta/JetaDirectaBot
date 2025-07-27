@@ -19,10 +19,10 @@
       "nivel": 994,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 982,
-      "victorias": 383,
+      "lp": 1002,
+      "victorias": 384,
       "derrotas": 349,
-      "ultima_partida": 1753362154912
+      "ultima_partida": 1753439211532
     },
     {
       "nombre": "Vera Xavier#EUW",
@@ -72,18 +72,18 @@
       "kda_promedio": 5
     },
     {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4
+    },
+    {
       "nombre": "Corki",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.9230769230769231
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8666666666666667
     },
     {
       "nombre": "Ryze",
@@ -109,8 +109,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 47,
-    "wins": 25,
-    "losses": 22,
-    "timePlayed": 76104
+    "wins": 26,
+    "losses": 21,
+    "timePlayed": 76718
   }
 }

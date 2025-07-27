@@ -19,10 +19,10 @@
       "nivel": 327,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1451,
-      "victorias": 256,
-      "derrotas": 195,
-      "ultima_partida": 1753388608027
+      "lp": 1429,
+      "victorias": 257,
+      "derrotas": 197,
+      "ultima_partida": 1753470722911
     },
     {
       "nombre": "W1111#1111",
@@ -58,10 +58,10 @@
   "campeones_recientes": [
     {
       "nombre": "Vi",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 6.068965517241379
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 6.064516129032258
     },
     {
       "nombre": "LeeSin",
@@ -78,18 +78,18 @@
       "kda_promedio": 2.75
     },
     {
-      "nombre": "Amumu",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 3.772727272727273
+      "nombre": "JarvanIV",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.782608695652174
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 5,
+      "nombre": "Amumu",
+      "partidas": 4,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 6
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Naafiri",
@@ -113,24 +113,24 @@
       "kda_promedio": 1.7692307692307692
     },
     {
-      "nombre": "Galio",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
       "nombre": "MonkeyKing",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
     }
   ],
   "estadisticas_2_semanas": {
     "games": 58,
-    "wins": 34,
-    "losses": 24,
-    "timePlayed": 93337
+    "wins": 32,
+    "losses": 26,
+    "timePlayed": 93635
   }
 }

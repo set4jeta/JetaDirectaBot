@@ -16,36 +16,36 @@
   "cuentas": [
     {
       "nombre": "Ekko the Neeko#EUW",
-      "nivel": 2278,
+      "nivel": 2279,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 758,
-      "victorias": 679,
-      "derrotas": 658,
-      "ultima_partida": 1753373703481
+      "lp": 795,
+      "victorias": 683,
+      "derrotas": 660,
+      "ultima_partida": 1753456475641
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ekko",
-      "partidas": 109,
-      "victorias": 60,
-      "winrate": "55.0%",
-      "kda_promedio": 2.4265625
+      "partidas": 113,
+      "victorias": 63,
+      "winrate": "55.8%",
+      "kda_promedio": 2.472644376899696
     },
     {
       "nombre": "Jinx",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9696969696969697
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.5084745762711864
     },
     {
       "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.6153846153846154
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9411764705882355
     },
     {
       "nombre": "Viktor",
@@ -55,11 +55,11 @@
       "kda_promedio": 1.55
     },
     {
-      "nombre": "Caitlyn",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.7777777777777777
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Neeko",
@@ -67,19 +67,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.2
-    },
-    {
-      "nombre": "Thresh",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 130,
-    "wins": 72,
-    "losses": 58,
-    "timePlayed": 217374
+    "games": 131,
+    "wins": 71,
+    "losses": 60,
+    "timePlayed": 218129
   }
 }

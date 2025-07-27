@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": " Nothing much#EUW",
-      "nivel": 563,
+      "nivel": 564,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 889,
-      "victorias": 245,
-      "derrotas": 194,
-      "ultima_partida": 1753400456182
+      "lp": 933,
+      "victorias": 251,
+      "derrotas": 198,
+      "ultima_partida": 1753477851283
     },
     {
       "nombre": "Make a wish#EU1",
@@ -58,10 +58,10 @@
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 25,
-      "victorias": 20,
-      "winrate": "80.0%",
-      "kda_promedio": 2.9473684210526314
+      "partidas": 24,
+      "victorias": 19,
+      "winrate": "79.2%",
+      "kda_promedio": 2.952830188679245
     },
     {
       "nombre": "Gwen",
@@ -79,10 +79,17 @@
     },
     {
       "nombre": "Yunara",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6981132075471699
+      "winrate": "44.4%",
+      "kda_promedio": 1.546875
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.868421052631579
     },
     {
       "nombre": "Irelia",
@@ -107,30 +114,23 @@
     },
     {
       "nombre": "Elise",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.2580645161290325
-    },
-    {
-      "nombre": "TwistedFate",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 2.7777777777777777
+      "kda_promedio": 3.2916666666666665
     },
     {
-      "nombre": "Yone",
+      "nombre": "Kennen",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 1.606060606060606
+      "kda_promedio": 2.56
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 124,
-    "wins": 73,
-    "losses": 51,
-    "timePlayed": 195758
+    "games": 130,
+    "wins": 75,
+    "losses": 55,
+    "timePlayed": 205838
   }
 }

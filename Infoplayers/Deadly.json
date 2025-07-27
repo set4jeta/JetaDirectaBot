@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Ezreal",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.533333333333333
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Lucian",
@@ -84,9 +84,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 7,
+    "games": 14,
+    "wins": 6,
     "losses": 8,
-    "timePlayed": 24478
+    "timePlayed": 23282
   }
 }

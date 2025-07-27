@@ -19,10 +19,10 @@
       "nivel": 274,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 814,
+      "lp": 795,
       "victorias": 315,
-      "derrotas": 277,
-      "ultima_partida": 1753367613058
+      "derrotas": 278,
+      "ultima_partida": 1753468418204
     },
     {
       "nombre": "AIba Madalyon#EUW",
@@ -38,31 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 25,
+      "partidas": 24,
       "victorias": 14,
-      "winrate": "56.0%",
-      "kda_promedio": 3.6486486486486487
+      "winrate": "58.3%",
+      "kda_promedio": 3.616822429906542
     },
     {
       "nombre": "LeeSin",
-      "partidas": 21,
-      "victorias": 12,
-      "winrate": "57.1%",
-      "kda_promedio": 3.519607843137255
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.489795918367347
     },
     {
       "nombre": "Zed",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 3.230769230769231
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1320754716981134
+      "winrate": "27.3%",
+      "kda_promedio": 3.192982456140351
     },
     {
       "nombre": "JarvanIV",
@@ -77,6 +70,13 @@
       "victorias": 4,
       "winrate": "57.1%",
       "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.641025641025641
     },
     {
       "nombre": "DrMundo",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 94,
-    "wins": 43,
-    "losses": 51,
-    "timePlayed": 143873
+    "games": 92,
+    "wins": 42,
+    "losses": 50,
+    "timePlayed": 141191
   }
 }

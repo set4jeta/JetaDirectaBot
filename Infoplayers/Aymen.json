@@ -22,7 +22,17 @@
       "lp": 812,
       "victorias": 393,
       "derrotas": 368,
-      "ultima_partida": 1753389705263
+      "ultima_partida": 1753457264988
+    },
+    {
+      "nombre": "No Life is Enoug#YLA",
+      "nivel": 146,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 41,
+      "victorias": 189,
+      "derrotas": 185,
+      "ultima_partida": 1753444038137
     },
     {
       "nombre": "Algerian Keria#213",
@@ -33,16 +43,6 @@
       "victorias": 34,
       "derrotas": 21,
       "ultima_partida": 1753285196621
-    },
-    {
-      "nombre": "No Life is Enoug#YLA",
-      "nivel": 146,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 37,
-      "victorias": 188,
-      "derrotas": 184,
-      "ultima_partida": 1752877310464
     }
   ],
   "campeones_recientes": [
@@ -58,7 +58,7 @@
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 3.1333333333333333
+      "kda_promedio": 4.230769230769231
     },
     {
       "nombre": "Nautilus",
@@ -75,11 +75,18 @@
       "kda_promedio": 3.6333333333333333
     },
     {
-      "nombre": "Poppy",
+      "nombre": "Senna",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 2.71875
+      "kda_promedio": 2.189189189189189
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2333333333333334
     },
     {
       "nombre": "Rell",
@@ -87,13 +94,6 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.217391304347826
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6153846153846154
     },
     {
       "nombre": "Jayce",
@@ -119,8 +119,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 50,
-    "wins": 27,
-    "losses": 23,
-    "timePlayed": 83749
+    "wins": 26,
+    "losses": 24,
+    "timePlayed": 84478
   }
 }

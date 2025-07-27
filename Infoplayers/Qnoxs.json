@@ -27,10 +27,10 @@
   "campeones_recientes": [
     {
       "nombre": "Sona",
-      "partidas": 73,
+      "partidas": 72,
       "victorias": 39,
-      "winrate": "53.4%",
-      "kda_promedio": 2.475442043222004
+      "winrate": "54.2%",
+      "kda_promedio": 2.4831013916500995
     },
     {
       "nombre": "Janna",
@@ -41,17 +41,17 @@
     },
     {
       "nombre": "Senna",
-      "partidas": 15,
+      "partidas": 14,
       "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 1.9153846153846155
+      "winrate": "57.1%",
+      "kda_promedio": 2.0084745762711864
     },
     {
       "nombre": "Soraka",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.457627118644068
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.82
     },
     {
       "nombre": "Nami",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 189,
-    "wins": 100,
-    "losses": 89,
-    "timePlayed": 301893
+    "games": 185,
+    "wins": 98,
+    "losses": 87,
+    "timePlayed": 294602
   }
 }

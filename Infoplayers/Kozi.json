@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Kozi#Z10",
-      "nivel": 859,
+      "nivel": 860,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1064,
-      "victorias": 309,
-      "derrotas": 267,
-      "ultima_partida": 1753399333009
+      "lp": 1063,
+      "victorias": 310,
+      "derrotas": 268,
+      "ultima_partida": 1753447755217
     },
     {
       "nombre": "gorillajones#123",
@@ -62,7 +62,7 @@
       "partidas": 6,
       "victorias": 6,
       "winrate": "100.0%",
-      "kda_promedio": 3.2
+      "kda_promedio": 2.68
     },
     {
       "nombre": "DrMundo",
@@ -73,10 +73,10 @@
     },
     {
       "nombre": "Aatrox",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3703703703703705
+      "winrate": "40.0%",
+      "kda_promedio": 1.3055555555555556
     },
     {
       "nombre": "Gnar",
@@ -111,6 +111,6 @@
     "games": 78,
     "wins": 43,
     "losses": 35,
-    "timePlayed": 123518
+    "timePlayed": 122939
   }
 }

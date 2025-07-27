@@ -19,10 +19,10 @@
       "nivel": 807,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 422,
-      "victorias": 296,
-      "derrotas": 262,
-      "ultima_partida": 1753413551273
+      "lp": 481,
+      "victorias": 300,
+      "derrotas": 264,
+      "ultima_partida": 1753476564809
     },
     {
       "nombre": "Pun1sher#Demon",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Cassiopeia",
-      "partidas": 89,
-      "victorias": 60,
-      "winrate": "67.4%",
-      "kda_promedio": 2.3339416058394162
+      "partidas": 85,
+      "victorias": 56,
+      "winrate": "65.9%",
+      "kda_promedio": 2.267552182163188
     },
     {
       "nombre": "Tristana",
@@ -62,10 +62,24 @@
     },
     {
       "nombre": "Irelia",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 1.2537313432835822
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 1.3098591549295775
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.076923076923077
     },
     {
       "nombre": "Sylas",
@@ -82,20 +96,6 @@
       "kda_promedio": 1.4444444444444444
     },
     {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.777777777777778
-    },
-    {
       "nombre": "Annie",
       "partidas": 1,
       "victorias": 1,
@@ -110,17 +110,17 @@
       "kda_promedio": 3.375
     },
     {
-      "nombre": "Nocturne",
+      "nombre": "Corki",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
     "games": 120,
-    "wins": 79,
-    "losses": 41,
-    "timePlayed": 191096
+    "wins": 78,
+    "losses": 42,
+    "timePlayed": 191779
   }
 }

@@ -44,13 +44,6 @@
       "kda_promedio": 1.8387096774193548
     },
     {
-      "nombre": "Pyke",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.6333333333333333
-    },
-    {
       "nombre": "Rakan",
       "partidas": 4,
       "victorias": 3,
@@ -86,6 +79,13 @@
       "kda_promedio": 1.4705882352941178
     },
     {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.08
+    },
+    {
       "nombre": "Yunara",
       "partidas": 3,
       "victorias": 2,
@@ -100,17 +100,17 @@
       "kda_promedio": 3.125
     },
     {
-      "nombre": "Braum",
+      "nombre": "Senna",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.375
+      "kda_promedio": 3.769230769230769
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 23,
-    "losses": 41,
-    "timePlayed": 98697
+    "games": 58,
+    "wins": 22,
+    "losses": 36,
+    "timePlayed": 89756
   }
 }

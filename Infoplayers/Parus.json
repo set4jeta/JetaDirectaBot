@@ -18,10 +18,10 @@
       "nivel": 848,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1298,
+      "lp": 1277,
       "victorias": 277,
-      "derrotas": 219,
-      "ultima_partida": 1753398596121
+      "derrotas": 220,
+      "ultima_partida": 1753464967107
     },
     {
       "nombre": "Zanka no Tachı#EUW",
@@ -37,24 +37,24 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 16,
-      "victorias": 6,
-      "winrate": "37.5%",
-      "kda_promedio": 2.0384615384615383
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 6,
+      "partidas": 15,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.714285714285714
+      "winrate": "33.3%",
+      "kda_promedio": 1.8933333333333333
     },
     {
       "nombre": "Jhin",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.142857142857143
+      "winrate": "33.3%",
+      "kda_promedio": 2.6551724137931036
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.4375
     },
     {
       "nombre": "Braum",
@@ -71,13 +71,6 @@
       "kda_promedio": 5.3
     },
     {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.1538461538461537
-    },
-    {
       "nombre": "Rell",
       "partidas": 3,
       "victorias": 3,
@@ -92,11 +85,11 @@
       "kda_promedio": 3.3333333333333335
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Neeko",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.85
+      "kda_promedio": 2.888888888888889
     },
     {
       "nombre": "Rakan",
@@ -104,12 +97,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 8.4
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 29,
-    "losses": 21,
-    "timePlayed": 78040
+    "games": 46,
+    "wins": 26,
+    "losses": 20,
+    "timePlayed": 70974
   }
 }

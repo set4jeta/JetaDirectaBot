@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "éSc0rth#3169",
-      "nivel": 306,
+      "nivel": 307,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1205,
-      "victorias": 297,
-      "derrotas": 236,
-      "ultima_partida": 1753390142462
+      "lp": 1206,
+      "victorias": 298,
+      "derrotas": 237,
+      "ultima_partida": 1753451373210
     }
   ],
   "campeones_recientes": [
@@ -33,18 +33,18 @@
       "kda_promedio": 4.098360655737705
     },
     {
-      "nombre": "Alistar",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Senna",
+      "nombre": "Lulu",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 4
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
     },
     {
       "nombre": "Bard",
@@ -54,13 +54,6 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Janna",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.5
-    },
-    {
       "nombre": "Karma",
       "partidas": 1,
       "victorias": 1,
@@ -68,24 +61,31 @@
       "kda_promedio": 6.5
     },
     {
-      "nombre": "Lulu",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2857142857142858
-    },
-    {
       "nombre": "Nunu",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
+    "games": 25,
     "wins": 16,
-    "losses": 10,
-    "timePlayed": 39039
+    "losses": 9,
+    "timePlayed": 36432
   }
 }

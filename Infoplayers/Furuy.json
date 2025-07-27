@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Berry Bulk#BULK",
+      "nivel": 316,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1052,
+      "victorias": 199,
+      "derrotas": 151,
+      "ultima_partida": 1753468545951
+    },
+    {
       "nombre": "Furuy#EUW",
       "nivel": 1070,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 222,
       "derrotas": 194,
       "ultima_partida": 1753396453989
-    },
-    {
-      "nombre": "Berry Bulk#BULK",
-      "nivel": 316,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1055,
-      "victorias": 198,
-      "derrotas": 150,
-      "ultima_partida": 1753215794012
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 4.375
+      "winrate": "75.0%",
+      "kda_promedio": 4.814814814814815
     },
     {
       "nombre": "Jhin",
@@ -109,8 +109,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 63,
-    "wins": 38,
-    "losses": 25,
-    "timePlayed": 101210
+    "wins": 39,
+    "losses": 24,
+    "timePlayed": 100128
   }
 }

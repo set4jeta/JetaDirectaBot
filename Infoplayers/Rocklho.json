@@ -19,10 +19,10 @@
       "nivel": 484,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 997,
+      "lp": 955,
       "victorias": 213,
-      "derrotas": 176,
-      "ultima_partida": 1753131649774
+      "derrotas": 178,
+      "ultima_partida": 1753466940673
     },
     {
       "nombre": "TwTv Rocklho#EUW",
@@ -41,14 +41,7 @@
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5789473684210527
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.6
+      "kda_promedio": 2.176470588235294
     },
     {
       "nombre": "Renekton",
@@ -79,11 +72,25 @@
       "kda_promedio": 0.5
     },
     {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
       "nombre": "Malphite",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
     },
     {
       "nombre": "Shen",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Urgot",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7142857142857143
     }
   ],
   "estadisticas_2_semanas": {
     "games": 14,
-    "wins": 6,
-    "losses": 8,
-    "timePlayed": 23427
+    "wins": 5,
+    "losses": 9,
+    "timePlayed": 23638
   }
 }

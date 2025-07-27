@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "red sky#14J",
-      "nivel": 553,
+      "nivel": 554,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1135,
+      "lp": 1055,
       "victorias": 388,
-      "derrotas": 346,
-      "ultima_partida": 1753397134192
+      "derrotas": 350,
+      "ultima_partida": 1753447208044
     },
     {
       "nombre": "Peyz#1401",
@@ -38,17 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 14,
+      "partidas": 15,
       "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 2.103896103896104
+      "winrate": "46.7%",
+      "kda_promedio": 1.9069767441860466
     },
     {
       "nombre": "Jhin",
       "partidas": 9,
       "victorias": 3,
       "winrate": "33.3%",
-      "kda_promedio": 2.4761904761904763
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "MissFortune",
@@ -66,10 +66,10 @@
     },
     {
       "nombre": "Zeri",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.135135135135135
     },
     {
       "nombre": "Corki",
@@ -93,24 +93,24 @@
       "kda_promedio": 3.76
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.272727272727273
-    },
-    {
       "nombre": "Rell",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
-    "wins": 38,
-    "losses": 42,
-    "timePlayed": 129958
+    "games": 77,
+    "wins": 34,
+    "losses": 43,
+    "timePlayed": 125591
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "ΠΑΣΟΚΟΣ#EUW",
-      "nivel": 260,
+      "nivel": 261,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 831,
-      "victorias": 398,
-      "derrotas": 368,
-      "ultima_partida": 1753437767339
+      "lp": 850,
+      "victorias": 400,
+      "derrotas": 369,
+      "ultima_partida": 1753467126281
     },
     {
       "nombre": "escape dystopia#EUW",
@@ -58,20 +58,6 @@
       "kda_promedio": 2.3870967741935485
     },
     {
-      "nombre": "Ryze",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.12
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7878787878787878
-    },
-    {
       "nombre": "Azir",
       "partidas": 5,
       "victorias": 3,
@@ -86,31 +72,45 @@
       "kda_promedio": 1.9310344827586208
     },
     {
-      "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.4285714285714286
-    },
-    {
-      "nombre": "Viktor",
-      "partidas": 4,
+      "nombre": "Ryze",
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.129032258064516
+      "winrate": "40.0%",
+      "kda_promedio": 2.3181818181818183
     },
     {
-      "nombre": "Sylas",
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6785714285714286
+    },
+    {
+      "nombre": "Corki",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.2666666666666666
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1538461538461537
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 73,
+    "games": 69,
     "wins": 37,
-    "losses": 36,
-    "timePlayed": 114897
+    "losses": 32,
+    "timePlayed": 109344
   }
 }

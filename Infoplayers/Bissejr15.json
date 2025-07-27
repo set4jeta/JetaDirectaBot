@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Azir",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 1.7567567567567568
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.130434782608696
     },
     {
       "nombre": "Syndra",
@@ -62,25 +62,11 @@
       "kda_promedio": 2.7058823529411766
     },
     {
-      "nombre": "Annie",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6
-    },
-    {
       "nombre": "Orianna",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 12
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3571428571428572
     },
     {
       "nombre": "Ziggs",
@@ -90,17 +76,31 @@
       "kda_promedio": 6.25
     },
     {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
       "nombre": "Aurora",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
-    "wins": 18,
-    "losses": 17,
-    "timePlayed": 56473
+    "games": 32,
+    "wins": 17,
+    "losses": 15,
+    "timePlayed": 51689
   }
 }

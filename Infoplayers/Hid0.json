@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "evorpminosucof#EUW",
-      "nivel": 186,
+      "nivel": 188,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 225,
-      "victorias": 41,
-      "derrotas": 23,
-      "ultima_partida": 1753434416786
+      "lp": 314,
+      "victorias": 47,
+      "derrotas": 25,
+      "ultima_partida": 1753472799903
     },
     {
       "nombre": "rettebeb#11241",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Zeri",
-      "partidas": 27,
-      "victorias": 16,
-      "winrate": "59.3%",
-      "kda_promedio": 3.2956521739130435
+      "partidas": 30,
+      "victorias": 19,
+      "winrate": "63.3%",
+      "kda_promedio": 3.3203125
     },
     {
       "nombre": "Lucian",
@@ -62,31 +62,31 @@
     },
     {
       "nombre": "Smolder",
-      "partidas": 13,
-      "victorias": 9,
-      "winrate": "69.2%",
-      "kda_promedio": 2.981818181818182
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.064516129032258
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.175438596491228
     },
     {
       "nombre": "Jinx",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2758620689655173
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.027027027027027
+    },
+    {
+      "nombre": "Corki",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.6470588235294117
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.6818181818181817
     },
     {
       "nombre": "Varus",
@@ -104,10 +104,10 @@
     },
     {
       "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.7
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5833333333333333
     },
     {
       "nombre": "MissFortune",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 90,
-    "wins": 51,
-    "losses": 39,
-    "timePlayed": 142014
+    "games": 95,
+    "wins": 55,
+    "losses": 40,
+    "timePlayed": 150493
   }
 }

@@ -19,71 +19,64 @@
       "nivel": 1607,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 874,
-      "victorias": 554,
+      "lp": 889,
+      "victorias": 555,
       "derrotas": 518,
-      "ultima_partida": 1753365510944
+      "ultima_partida": 1753446166714
     },
     {
       "nombre": "Bullwark#Posch",
       "nivel": 347,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 637,
+      "lp": 595,
       "victorias": 106,
-      "derrotas": 77,
-      "ultima_partida": 1753360803216
+      "derrotas": 79,
+      "ultima_partida": 1753443634820
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 40,
-      "victorias": 22,
-      "winrate": "55.0%",
-      "kda_promedio": 2.6919642857142856
+      "partidas": 39,
+      "victorias": 21,
+      "winrate": "53.8%",
+      "kda_promedio": 2.684931506849315
     },
     {
       "nombre": "Udyr",
-      "partidas": 27,
+      "partidas": 26,
       "victorias": 16,
-      "winrate": "59.3%",
-      "kda_promedio": 2.4285714285714284
+      "winrate": "61.5%",
+      "kda_promedio": 2.4393939393939394
     },
     {
       "nombre": "XinZhao",
-      "partidas": 9,
-      "victorias": 8,
-      "winrate": "88.9%",
-      "kda_promedio": 3.2127659574468086
-    },
-    {
-      "nombre": "Pantheon",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.764705882352941
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.116279069767442
     },
     {
       "nombre": "Khazix",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.4838709677419355
+      "winrate": "71.4%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Diana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.75
+      "winrate": "20.0%",
+      "kda_promedio": 1.5714285714285714
     },
     {
       "nombre": "Naafiri",
@@ -100,6 +93,13 @@
       "kda_promedio": 7.25
     },
     {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
       "nombre": "Nocturne",
       "partidas": 2,
       "victorias": 1,
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 121,
-    "wins": 72,
-    "losses": 49,
-    "timePlayed": 191666
+    "games": 113,
+    "wins": 66,
+    "losses": 47,
+    "timePlayed": 181092
   }
 }

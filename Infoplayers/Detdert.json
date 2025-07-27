@@ -16,36 +16,36 @@
   "cuentas": [
     {
       "nombre": "TWTV DETDERT#12MAJ",
-      "nivel": 468,
+      "nivel": 469,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 813,
-      "victorias": 870,
-      "derrotas": 850,
-      "ultima_partida": 1753391362742
+      "lp": 897,
+      "victorias": 876,
+      "derrotas": 852,
+      "ultima_partida": 1753467805951
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "JarvanIV",
-      "partidas": 62,
-      "victorias": 37,
-      "winrate": "59.7%",
-      "kda_promedio": 3.871287128712871
+      "partidas": 67,
+      "victorias": 42,
+      "winrate": "62.7%",
+      "kda_promedio": 4.113924050632911
     },
     {
       "nombre": "Talon",
-      "partidas": 38,
+      "partidas": 39,
       "victorias": 16,
-      "winrate": "42.1%",
-      "kda_promedio": 3.009259259259259
+      "winrate": "41.0%",
+      "kda_promedio": 2.933333333333333
     },
     {
       "nombre": "Nidalee",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.315789473684211
+      "winrate": "66.7%",
+      "kda_promedio": 4.869565217391305
     },
     {
       "nombre": "Vi",
@@ -62,18 +62,18 @@
       "kda_promedio": 3.789473684210526
     },
     {
+      "nombre": "Xerath",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Ahri",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.0588235294117647
-    },
-    {
-      "nombre": "Xerath",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
     },
     {
       "nombre": "Braum",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 122,
-    "wins": 63,
-    "losses": 59,
-    "timePlayed": 200511
+    "games": 130,
+    "wins": 69,
+    "losses": 61,
+    "timePlayed": 213816
   }
 }

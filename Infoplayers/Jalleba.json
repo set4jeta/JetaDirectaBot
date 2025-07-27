@@ -33,13 +33,6 @@
       "kda_promedio": 2.5789473684210527
     },
     {
-      "nombre": "Senna",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
       "nombre": "Kaisa",
       "partidas": 1,
       "victorias": 0,
@@ -61,17 +54,17 @@
       "kda_promedio": 2.4285714285714284
     },
     {
-      "nombre": "Smolder",
+      "nombre": "Senna",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 4,
-    "losses": 5,
-    "timePlayed": 16895
+    "games": 7,
+    "wins": 3,
+    "losses": 4,
+    "timePlayed": 13555
   }
 }

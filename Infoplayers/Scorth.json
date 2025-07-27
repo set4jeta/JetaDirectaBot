@@ -66,10 +66,10 @@
     },
     {
       "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9523809523809526
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5625
     },
     {
       "nombre": "Lulu",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 27,
+    "games": 60,
+    "wins": 26,
     "losses": 34,
-    "timePlayed": 95774
+    "timePlayed": 94788
   }
 }

@@ -26,13 +26,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Karma",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.9130434782608696
-    },
-    {
       "nombre": "Jhin",
       "partidas": 4,
       "victorias": 2,
@@ -40,11 +33,11 @@
       "kda_promedio": 2.5
     },
     {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.1428571428571428
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8636363636363638
     },
     {
       "nombre": "Poppy",
@@ -59,6 +52,13 @@
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1764705882352942
     },
     {
       "nombre": "Bard",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 27,
-    "wins": 16,
-    "losses": 11,
-    "timePlayed": 43373
+    "games": 25,
+    "wins": 15,
+    "losses": 10,
+    "timePlayed": 40856
   }
 }

@@ -5,7 +5,7 @@
     "edad": 20,
     "equipo": "Los Heretics",
     "pais": "Turkey",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/lolmerciless",
       "twitch": "https://www.twitch.tv/mercy9_lol"
@@ -19,10 +19,10 @@
       "nivel": 231,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1280,
+      "lp": 1259,
       "victorias": 541,
-      "derrotas": 480,
-      "ultima_partida": 1753382324450
+      "derrotas": 481,
+      "ultima_partida": 1753397820489
     },
     {
       "nombre": "Katherine Pierce#HRTS",
@@ -65,13 +65,6 @@
       "kda_promedio": 5.333333333333333
     },
     {
-      "nombre": "Galio",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2857142857142856
-    },
-    {
       "nombre": "Yone",
       "partidas": 3,
       "victorias": 0,
@@ -86,6 +79,20 @@
       "kda_promedio": 15
     },
     {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
       "nombre": "Jayce",
       "partidas": 2,
       "victorias": 2,
@@ -98,19 +105,12 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 6.666666666666667
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6923076923076925
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 31,
+    "games": 48,
+    "wins": 30,
     "losses": 18,
-    "timePlayed": 79627
+    "timePlayed": 79163
   }
 }

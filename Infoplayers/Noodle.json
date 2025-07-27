@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "fill and chill#bakir",
+      "nivel": 300,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 246,
+      "victorias": 214,
+      "derrotas": 193,
+      "ultima_partida": 1753433479344
+    },
+    {
       "nombre": "BETTER SUPP WINS#Baker",
       "nivel": 496,
       "region": "EUW1",
@@ -43,16 +53,6 @@
       "victorias": 122,
       "derrotas": 91,
       "ultima_partida": 1753168809051
-    },
-    {
-      "nombre": "fill and chill#bakir",
-      "nivel": 300,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 266,
-      "victorias": 214,
-      "derrotas": 192,
-      "ultima_partida": 1753100535520
     }
   ],
   "campeones_recientes": [
@@ -64,13 +64,6 @@
       "kda_promedio": 4.603448275862069
     },
     {
-      "nombre": "Alistar",
-      "partidas": 13,
-      "victorias": 9,
-      "winrate": "69.2%",
-      "kda_promedio": 4
-    },
-    {
       "nombre": "Viego",
       "partidas": 12,
       "victorias": 7,
@@ -78,11 +71,11 @@
       "kda_promedio": 3.8421052631578947
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.25
+      "nombre": "Alistar",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 4.380952380952381
     },
     {
       "nombre": "MonkeyKing",
@@ -97,6 +90,13 @@
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Ryze",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 46,
-    "losses": 45,
-    "timePlayed": 146763
+    "games": 86,
+    "wins": 43,
+    "losses": 43,
+    "timePlayed": 138793
   }
 }

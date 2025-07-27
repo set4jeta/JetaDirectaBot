@@ -16,36 +16,36 @@
   "cuentas": [
     {
       "nombre": "agrsv#EUW",
-      "nivel": 529,
+      "nivel": 530,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 775,
-      "victorias": 397,
-      "derrotas": 358,
-      "ultima_partida": 1753387081266
+      "lp": 815,
+      "victorias": 400,
+      "derrotas": 359,
+      "ultima_partida": 1753475552259
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7755102040816326
+      "nombre": "Aatrox",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.8181818181818183
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5483870967741935
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9523809523809523
     },
     {
       "nombre": "Gwen",
       "partidas": 6,
       "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 1.5909090909090908
+      "kda_promedio": 1.7826086956521738
     },
     {
       "nombre": "Aurora",
@@ -55,18 +55,18 @@
       "kda_promedio": 1.4375
     },
     {
-      "nombre": "Gangplank",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.0384615384615385
-    },
-    {
       "nombre": "Fiora",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.1333333333333333
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8235294117647058
     },
     {
       "nombre": "Irelia",
@@ -83,24 +83,24 @@
       "kda_promedio": 5.666666666666667
     },
     {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
       "nombre": "Rumble",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 33
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3571428571428572
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 25,
-    "losses": 19,
-    "timePlayed": 73342
+    "games": 42,
+    "wins": 26,
+    "losses": 16,
+    "timePlayed": 70648
   }
 }

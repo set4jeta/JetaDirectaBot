@@ -58,10 +58,10 @@
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 30,
+      "partidas": 29,
       "victorias": 19,
-      "winrate": "63.3%",
-      "kda_promedio": 4.514925373134329
+      "winrate": "65.5%",
+      "kda_promedio": 4.715447154471545
     },
     {
       "nombre": "Braum",
@@ -72,10 +72,10 @@
     },
     {
       "nombre": "Rell",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 4.4324324324324325
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.862068965517241
     },
     {
       "nombre": "Karma",
@@ -85,18 +85,18 @@
       "kda_promedio": 2.6222222222222222
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1379310344827585
-    },
-    {
       "nombre": "Elise",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 3.09375
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.12
     },
     {
       "nombre": "Jhin",
@@ -120,17 +120,17 @@
       "kda_promedio": 5.666666666666667
     },
     {
-      "nombre": "Leona",
+      "nombre": "TwistedFate",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.823529411764706
+      "kda_promedio": 3.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 111,
-    "wins": 63,
-    "losses": 48,
-    "timePlayed": 178029
+    "games": 99,
+    "wins": 58,
+    "losses": 41,
+    "timePlayed": 158011
   }
 }

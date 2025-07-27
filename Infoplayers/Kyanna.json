@@ -15,33 +15,40 @@
   },
   "cuentas": [
     {
-      "nombre": "R5TOPDiE1v1iINT#XDDDD",
-      "nivel": 882,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 783,
-      "victorias": 268,
-      "derrotas": 229,
-      "ultima_partida": 1753386632842
-    },
-    {
       "nombre": "Kyanna#miki",
       "nivel": 240,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 278,
-      "victorias": 186,
-      "derrotas": 169,
-      "ultima_partida": 1753285740095
+      "lp": 256,
+      "victorias": 187,
+      "derrotas": 171,
+      "ultima_partida": 1753464573088
+    },
+    {
+      "nombre": "R5TOPDiE1v1iINT#XDDDD",
+      "nivel": 882,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 757,
+      "victorias": 270,
+      "derrotas": 232,
+      "ultima_partida": 1753456832055
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nami",
-      "partidas": 24,
+      "partidas": 25,
       "victorias": 15,
-      "winrate": "62.5%",
-      "kda_promedio": 3.6793893129770994
+      "winrate": "60.0%",
+      "kda_promedio": 3.585185185185185
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.673469387755102
     },
     {
       "nombre": "Rell",
@@ -58,18 +65,18 @@
       "kda_promedio": 2.125
     },
     {
-      "nombre": "Janna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3
-    },
-    {
       "nombre": "Braum",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.53125
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.193548387096774
     },
     {
       "nombre": "Rakan",
@@ -79,13 +86,6 @@
       "kda_promedio": 1.2692307692307692
     },
     {
-      "nombre": "Milio",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.7407407407407407
-    },
-    {
       "nombre": "Nautilus",
       "partidas": 2,
       "victorias": 1,
@@ -93,24 +93,24 @@
       "kda_promedio": 3.076923076923077
     },
     {
+      "nombre": "Soraka",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
       "nombre": "Karma",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6363636363636365
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 62,
-    "wins": 28,
-    "losses": 34,
-    "timePlayed": 104024
+    "games": 69,
+    "wins": 30,
+    "losses": 39,
+    "timePlayed": 115136
   }
 }

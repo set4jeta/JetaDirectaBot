@@ -28,17 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Cassiopeia",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.282051282051282
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.7209302325581395
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.272727272727273
     },
     {
       "nombre": "Hwei",
@@ -55,6 +48,13 @@
       "kda_promedio": 3.25
     },
     {
+      "nombre": "Taliyah",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
       "nombre": "Galio",
       "partidas": 5,
       "victorias": 4,
@@ -62,18 +62,18 @@
       "kda_promedio": 6.785714285714286
     },
     {
-      "nombre": "Ahri",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.3
-    },
-    {
       "nombre": "Corki",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.923076923076923
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Ezreal",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 25,
-    "losses": 25,
-    "timePlayed": 79726
+    "games": 46,
+    "wins": 22,
+    "losses": 24,
+    "timePlayed": 73663
   }
 }

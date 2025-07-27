@@ -65,10 +65,10 @@
     },
     {
       "nombre": "Lucian",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 3.1702127659574466
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.9148936170212765
     },
     {
       "nombre": "Jhin",
@@ -99,13 +99,6 @@
       "kda_promedio": 4.368421052631579
     },
     {
-      "nombre": "Zeri",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.9
-    },
-    {
       "nombre": "Aphelios",
       "partidas": 4,
       "victorias": 3,
@@ -113,24 +106,31 @@
       "kda_promedio": 3.6875
     },
     {
-      "nombre": "Corki",
+      "nombre": "Zeri",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.545454545454546
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.555555555555555
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.833333333333333
     },
     {
       "nombre": "Senna",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
       "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 87,
-    "wins": 57,
-    "losses": 30,
-    "timePlayed": 135179
+    "games": 80,
+    "wins": 51,
+    "losses": 29,
+    "timePlayed": 124152
   }
 }

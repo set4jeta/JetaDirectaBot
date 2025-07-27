@@ -19,26 +19,26 @@
       "nivel": 753,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1114,
-      "victorias": 351,
-      "derrotas": 309,
-      "ultima_partida": 1753380152054
+      "lp": 1150,
+      "victorias": 354,
+      "derrotas": 310,
+      "ultima_partida": 1753473230182
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Taliyah",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 4.027027027027027
+    },
     {
       "nombre": "Syndra",
       "partidas": 8,
       "victorias": 5,
       "winrate": "62.5%",
       "kda_promedio": 2.358974358974359
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 6,
-      "victorias": 6,
-      "winrate": "100.0%",
-      "kda_promedio": 5.052631578947368
     },
     {
       "nombre": "Ezreal",
@@ -57,16 +57,9 @@
     {
       "nombre": "Aurora",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.826086956521739
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.65
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.764705882352941
     },
     {
       "nombre": "Yone",
@@ -90,6 +83,13 @@
       "kda_promedio": 7
     },
     {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
       "nombre": "Orianna",
       "partidas": 2,
       "victorias": 0,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 46,
-    "wins": 25,
-    "losses": 21,
-    "timePlayed": 74023
+    "games": 48,
+    "wins": 28,
+    "losses": 20,
+    "timePlayed": 78246
   }
 }

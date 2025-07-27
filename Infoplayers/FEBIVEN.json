@@ -27,25 +27,25 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Orianna",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 1.95
-    },
-    {
       "nombre": "Azir",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 2.3448275862068964
-    },
-    {
-      "nombre": "Tristana",
       "partidas": 6,
       "victorias": 5,
       "winrate": "83.3%",
-      "kda_promedio": 3.7777777777777777
+      "kda_promedio": 2.44
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.8846153846153846
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.7142857142857144
     },
     {
       "nombre": "Galio",
@@ -76,13 +76,6 @@
       "kda_promedio": 6
     },
     {
-      "nombre": "Akali",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
       "nombre": "Alistar",
       "partidas": 2,
       "victorias": 2,
@@ -90,17 +83,24 @@
       "kda_promedio": 2.8
     },
     {
-      "nombre": "Corki",
+      "nombre": "Ezreal",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.4
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 28,
-    "losses": 23,
-    "timePlayed": 81054
+    "games": 44,
+    "wins": 23,
+    "losses": 21,
+    "timePlayed": 69727
   }
 }

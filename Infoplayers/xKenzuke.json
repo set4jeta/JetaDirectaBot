@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "TwitchTVxKenzuke#EUW",
+      "nivel": 287,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1197,
+      "victorias": 216,
+      "derrotas": 172,
+      "ultima_partida": 1753439456961
+    },
+    {
       "nombre": "xKenzuke#1453",
       "nivel": 944,
       "region": "EUW1",
@@ -23,16 +33,6 @@
       "victorias": 142,
       "derrotas": 92,
       "ultima_partida": 1753400497806
-    },
-    {
-      "nombre": "TwitchTVxKenzuke#EUW",
-      "nivel": 287,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1218,
-      "victorias": 216,
-      "derrotas": 171,
-      "ultima_partida": 1753354320185
     }
   ],
   "campeones_recientes": [
@@ -100,17 +100,17 @@
       "kda_promedio": 2.25
     },
     {
-      "nombre": "Cassiopeia",
+      "nombre": "Aurora",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.8333333333333333
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2857142857142856
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 43,
-    "wins": 23,
-    "losses": 20,
-    "timePlayed": 69349
+    "games": 42,
+    "wins": 21,
+    "losses": 21,
+    "timePlayed": 68930
   }
 }

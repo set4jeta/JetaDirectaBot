@@ -58,17 +58,17 @@
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 3.238095238095238
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 3.064516129032258
     },
     {
       "nombre": "Nidalee",
-      "partidas": 11,
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 5.195121951219512
+      "winrate": "60.0%",
+      "kda_promedio": 5.702702702702703
     },
     {
       "nombre": "Naafiri",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 33,
-    "losses": 31,
-    "timePlayed": 102630
+    "games": 61,
+    "wins": 31,
+    "losses": 30,
+    "timePlayed": 98571
   }
 }

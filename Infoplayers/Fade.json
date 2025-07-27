@@ -19,10 +19,10 @@
       "nivel": 276,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 935,
-      "victorias": 392,
-      "derrotas": 353,
-      "ultima_partida": 1753385704696
+      "lp": 978,
+      "victorias": 395,
+      "derrotas": 354,
+      "ultima_partida": 1753451609599
     },
     {
       "nombre": "Fadee#1337",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Ryze",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.789473684210526
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.024390243902439
     },
     {
       "nombre": "Annie",
@@ -65,25 +65,18 @@
       "kda_promedio": 1.4482758620689655
     },
     {
+      "nombre": "Galio",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Yasuo",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.8275862068965518
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9545454545454546
     },
     {
       "nombre": "Nautilus",
@@ -93,11 +86,18 @@
       "kda_promedio": 1.2758620689655173
     },
     {
-      "nombre": "Yone",
-      "partidas": 2,
+      "nombre": "Sylas",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "winrate": "33.3%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1666666666666665
     },
     {
       "nombre": "Zed",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 31,
+    "games": 59,
+    "wins": 33,
     "losses": 26,
-    "timePlayed": 87295
+    "timePlayed": 91452
   }
 }

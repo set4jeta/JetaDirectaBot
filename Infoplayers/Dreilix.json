@@ -18,10 +18,10 @@
       "nivel": 666,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 820,
-      "victorias": 482,
-      "derrotas": 431,
-      "ultima_partida": 1753397322220
+      "lp": 839,
+      "victorias": 484,
+      "derrotas": 432,
+      "ultima_partida": 1753454707942
     }
   ],
   "campeones_recientes": [
@@ -34,17 +34,17 @@
     },
     {
       "nombre": "Yunara",
-      "partidas": 17,
-      "victorias": 11,
-      "winrate": "64.7%",
-      "kda_promedio": 2.2448979591836733
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 2.3545454545454545
     },
     {
       "nombre": "Lucian",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 2.4166666666666665
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 1.868421052631579
     },
     {
       "nombre": "Senna",
@@ -68,13 +68,6 @@
       "kda_promedio": 1.962962962962963
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.05
-    },
-    {
       "nombre": "Ziggs",
       "partidas": 4,
       "victorias": 2,
@@ -89,6 +82,13 @@
       "kda_promedio": 4
     },
     {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.933333333333333
+    },
+    {
       "nombre": "Sivir",
       "partidas": 3,
       "victorias": 2,
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 98,
-    "wins": 49,
-    "losses": 49,
-    "timePlayed": 158030
+    "games": 94,
+    "wins": 46,
+    "losses": 48,
+    "timePlayed": 151729
   }
 }

@@ -19,19 +19,19 @@
       "nivel": 1174,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 889,
-      "victorias": 800,
-      "derrotas": 766,
-      "ultima_partida": 1753436795657
+      "lp": 913,
+      "victorias": 803,
+      "derrotas": 768,
+      "ultima_partida": 1753457586345
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 28,
-      "victorias": 17,
-      "winrate": "60.7%",
-      "kda_promedio": 1.935483870967742
+      "partidas": 27,
+      "victorias": 16,
+      "winrate": "59.3%",
+      "kda_promedio": 1.9251700680272108
     },
     {
       "nombre": "Jayce",
@@ -49,10 +49,10 @@
     },
     {
       "nombre": "Ambessa",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 1.4242424242424243
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 1.4857142857142858
     },
     {
       "nombre": "Darius",
@@ -60,6 +60,13 @@
       "victorias": 7,
       "winrate": "77.8%",
       "kda_promedio": 2.72972972972973
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.2727272727272727
     },
     {
       "nombre": "Vladimir",
@@ -76,31 +83,24 @@
       "kda_promedio": 1.6896551724137931
     },
     {
-      "nombre": "Sion",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.2941176470588236
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.466666666666667
     },
     {
-      "nombre": "Garen",
+      "nombre": "Urgot",
       "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.78125
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.6818181818181817
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 158,
-    "wins": 85,
-    "losses": 73,
-    "timePlayed": 250624
+    "games": 159,
+    "wins": 87,
+    "losses": 72,
+    "timePlayed": 251993
   }
 }

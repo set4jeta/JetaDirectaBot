@@ -19,10 +19,10 @@
       "nivel": 81,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1249,
-      "victorias": 298,
-      "derrotas": 218,
-      "ultima_partida": 1753351838451
+      "lp": 1288,
+      "victorias": 301,
+      "derrotas": 219,
+      "ultima_partida": 1753477358214
     },
     {
       "nombre": "FNC Upset#0308",
@@ -58,17 +58,10 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 18,
-      "victorias": 9,
+      "partidas": 20,
+      "victorias": 10,
       "winrate": "50.0%",
-      "kda_promedio": 2.515151515151515
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3.413793103448276
+      "kda_promedio": 2.353448275862069
     },
     {
       "nombre": "Ezreal",
@@ -83,6 +76,13 @@
       "victorias": 4,
       "winrate": "57.1%",
       "kda_promedio": 3.689655172413793
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.6363636363636362
     },
     {
       "nombre": "Jinx",
@@ -115,9 +115,9 @@
     {
       "nombre": "Corki",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.1
     },
     {
       "nombre": "Aphelios",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 34,
-    "losses": 36,
-    "timePlayed": 114738
+    "games": 66,
+    "wins": 33,
+    "losses": 33,
+    "timePlayed": 107901
   }
 }

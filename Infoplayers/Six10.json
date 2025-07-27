@@ -19,10 +19,10 @@
       "nivel": 327,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1151,
-      "victorias": 396,
+      "lp": 1167,
+      "victorias": 397,
       "derrotas": 342,
-      "ultima_partida": 1753389824339
+      "ultima_partida": 1753459270858
     },
     {
       "nombre": "Six10#euw2",
@@ -38,38 +38,38 @@
   "campeones_recientes": [
     {
       "nombre": "Taliyah",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.1666666666666665
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9444444444444444
     },
     {
       "nombre": "Azir",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3.032258064516129
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Orianna",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1739130434782608
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.428571428571429
-    },
-    {
-      "nombre": "Corki",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 2.142857142857143
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.0625
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9473684210526316
     },
     {
       "nombre": "Ahri",
@@ -100,17 +100,17 @@
       "kda_promedio": 3.4
     },
     {
-      "nombre": "Ryze",
+      "nombre": "Tristana",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.727272727272727
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 27,
-    "losses": 24,
-    "timePlayed": 84931
+    "games": 45,
+    "wins": 24,
+    "losses": 21,
+    "timePlayed": 75798
   }
 }

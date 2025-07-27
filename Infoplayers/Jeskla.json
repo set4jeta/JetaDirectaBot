@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Jesklaa#EUW",
-      "nivel": 1051,
+      "nivel": 1052,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 838,
-      "victorias": 369,
-      "derrotas": 330,
-      "ultima_partida": 1753382472175
+      "lp": 847,
+      "victorias": 370,
+      "derrotas": 331,
+      "ultima_partida": 1753467669393
     }
   ],
   "campeones_recientes": [
@@ -34,18 +34,18 @@
       "kda_promedio": 4.6
     },
     {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
       "nombre": "Gragas",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8333333333333334
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.7777777777777777
     },
     {
       "nombre": "Ezreal",
@@ -77,9 +77,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 9,
-    "losses": 6,
-    "timePlayed": 23365
+    "games": 17,
+    "wins": 10,
+    "losses": 7,
+    "timePlayed": 27069
   }
 }

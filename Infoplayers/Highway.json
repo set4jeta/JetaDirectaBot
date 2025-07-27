@@ -18,19 +18,19 @@
       "nivel": 749,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 899,
-      "victorias": 279,
-      "derrotas": 245,
-      "ultima_partida": 1753299845781
+      "lp": 876,
+      "victorias": 280,
+      "derrotas": 247,
+      "ultima_partida": 1753461997787
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Braum",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.327272727272727
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.4262295081967213
     },
     {
       "nombre": "Lulu",
@@ -41,17 +41,24 @@
     },
     {
       "nombre": "Nautilus",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.15
+      "winrate": "60.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7222222222222223
     },
     {
       "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.8
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.7
     },
     {
       "nombre": "Alistar",
@@ -59,20 +66,6 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.1875
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
-      "nombre": "Soraka",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1428571428571428
     },
     {
       "nombre": "Ziggs",
@@ -94,12 +87,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5384615384615384
     }
   ],
   "estadisticas_2_semanas": {
     "games": 38,
-    "wins": 22,
-    "losses": 16,
-    "timePlayed": 55710
+    "wins": 21,
+    "losses": 17,
+    "timePlayed": 57500
   }
 }

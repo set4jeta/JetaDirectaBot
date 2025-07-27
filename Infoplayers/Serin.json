@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "SeRiN1#EUW",
-      "nivel": 1483,
+      "nivel": 1484,
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1208,
       "victorias": 338,
       "derrotas": 293,
-      "ultima_partida": 1753377834925
+      "ultima_partida": 1753460011459
     }
   ],
   "campeones_recientes": [
@@ -76,31 +76,31 @@
       "kda_promedio": 1.7058823529411764
     },
     {
-      "nombre": "Jayce",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.38461538461538464
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
       "nombre": "Rell",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.090909090909091
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
+    "games": 61,
     "wins": 32,
-    "losses": 32,
-    "timePlayed": 102368
+    "losses": 29,
+    "timePlayed": 98806
   }
 }

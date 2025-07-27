@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "G2 SkewMond#3327",
-      "nivel": 526,
+      "nivel": 527,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1924,
-      "victorias": 530,
-      "derrotas": 423,
-      "ultima_partida": 1753393337801
+      "lp": 1871,
+      "victorias": 533,
+      "derrotas": 428,
+      "ultima_partida": 1753476883502
     },
     {
       "nombre": "G2 Hydreigon#9452",
@@ -46,32 +46,32 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "LeeSin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.4
-    },
-    {
       "nombre": "Vi",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.75
+      "winrate": "25.0%",
+      "kda_promedio": 3.7142857142857144
     },
     {
       "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.066666666666667
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Nidalee",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.4
+      "kda_promedio": 7.25
     },
     {
       "nombre": "Pantheon",
@@ -81,6 +81,13 @@
       "kda_promedio": 5.5
     },
     {
+      "nombre": "Sejuani",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.888888888888889
+    },
+    {
       "nombre": "Skarner",
       "partidas": 2,
       "victorias": 2,
@@ -88,38 +95,31 @@
       "kda_promedio": 6.5
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Zed",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9
     },
     {
       "nombre": "Chogath",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.8
+      "kda_promedio": 3
     },
     {
-      "nombre": "Jax",
+      "nombre": "Ivern",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 23
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
+    "games": 29,
     "wins": 16,
-    "losses": 9,
-    "timePlayed": 38820
+    "losses": 13,
+    "timePlayed": 48564
   }
 }

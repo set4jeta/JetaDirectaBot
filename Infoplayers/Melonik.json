@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Maelle#melon",
-      "nivel": 883,
+      "nivel": 884,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 762,
+      "lp": 721,
       "victorias": 350,
-      "derrotas": 308,
-      "ultima_partida": 1753384371307
+      "derrotas": 310,
+      "ultima_partida": 1753448415520
     }
   ],
   "campeones_recientes": [
@@ -62,6 +62,13 @@
       "kda_promedio": 2.3333333333333335
     },
     {
+      "nombre": "Vladimir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4
+    },
+    {
       "nombre": "Jayce",
       "partidas": 2,
       "victorias": 2,
@@ -88,19 +95,12 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
+    "games": 42,
     "wins": 22,
-    "losses": 18,
-    "timePlayed": 62286
+    "losses": 20,
+    "timePlayed": 65120
   }
 }

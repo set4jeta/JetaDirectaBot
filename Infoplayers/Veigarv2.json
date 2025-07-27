@@ -18,10 +18,10 @@
       "nivel": 275,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 923,
+      "lp": 901,
       "victorias": 203,
-      "derrotas": 145,
-      "ultima_partida": 1753370332542
+      "derrotas": 146,
+      "ultima_partida": 1753466782407
     },
     {
       "nombre": "Veigar v2#0000",
@@ -71,6 +71,13 @@
       "kda_promedio": 9.333333333333334
     },
     {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
       "nombre": "Smolder",
       "partidas": 1,
       "victorias": 0,
@@ -86,9 +93,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
+    "games": 12,
     "wins": 5,
-    "losses": 6,
-    "timePlayed": 17649
+    "losses": 7,
+    "timePlayed": 19056
   }
 }

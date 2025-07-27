@@ -19,30 +19,30 @@
       "nivel": 51,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 621,
-      "victorias": 97,
-      "derrotas": 54,
-      "ultima_partida": 1753367824175
+      "lp": 637,
+      "victorias": 99,
+      "derrotas": 55,
+      "ultima_partida": 1753472956123
     },
     {
       "nombre": "the inescapable#RAT",
-      "nivel": 371,
+      "nivel": 372,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 967,
+      "lp": 949,
       "victorias": 194,
-      "derrotas": 150,
-      "ultima_partida": 1753362154912
+      "derrotas": 151,
+      "ultima_partida": 1753464215333
     },
     {
       "nombre": "LR Nemesis#LRAT",
       "nivel": 494,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1121,
-      "victorias": 195,
+      "lp": 1140,
+      "victorias": 196,
       "derrotas": 149,
-      "ultima_partida": 1753359841523
+      "ultima_partida": 1753461945698
     },
     {
       "nombre": "Mr Ascendant#EUW",
@@ -67,32 +67,25 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Akshan",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.0714285714285716
-    },
-    {
       "nombre": "Ryze",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.25
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.4444444444444446
     },
     {
       "nombre": "Aurora",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 5.105263157894737
+      "kda_promedio": 4.75
     },
     {
       "nombre": "Hwei",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.08
     },
     {
       "nombre": "Tristana",
@@ -102,11 +95,11 @@
       "kda_promedio": 2.75
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Akshan",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 2.55
+      "kda_promedio": 3.4210526315789473
     },
     {
       "nombre": "Yunara",
@@ -116,11 +109,11 @@
       "kda_promedio": 1.7333333333333334
     },
     {
-      "nombre": "Kassadin",
+      "nombre": "Jhin",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.25
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.0588235294117645
     },
     {
       "nombre": "Twitch",
@@ -134,13 +127,20 @@
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4285714285714286
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
-    "wins": 37,
-    "losses": 35,
-    "timePlayed": 121957
+    "games": 67,
+    "wins": 35,
+    "losses": 32,
+    "timePlayed": 113967
   }
 }

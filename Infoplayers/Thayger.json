@@ -19,19 +19,19 @@
       "nivel": 959,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1430,
-      "victorias": 301,
-      "derrotas": 237,
-      "ultima_partida": 1753391952985
+      "lp": 1447,
+      "victorias": 303,
+      "derrotas": 238,
+      "ultima_partida": 1753471885248
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 19,
+      "partidas": 20,
       "victorias": 10,
-      "winrate": "52.6%",
-      "kda_promedio": 3.2567567567567566
+      "winrate": "50.0%",
+      "kda_promedio": 3.168831168831169
     },
     {
       "nombre": "JarvanIV",
@@ -42,24 +42,24 @@
     },
     {
       "nombre": "Viego",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 3.7096774193548385
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 4.09375
     },
     {
       "nombre": "DrMundo",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.2580645161290325
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1666666666666665
     },
     {
       "nombre": "XinZhao",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.590909090909091
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7222222222222223
     },
     {
       "nombre": "LeeSin",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 75,
-    "wins": 41,
+    "games": 73,
+    "wins": 39,
     "losses": 34,
-    "timePlayed": 119546
+    "timePlayed": 114192
   }
 }

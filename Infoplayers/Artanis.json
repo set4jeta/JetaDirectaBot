@@ -15,22 +15,22 @@
   "cuentas": [
     {
       "nombre": "never doubt#Rank1",
-      "nivel": 541,
+      "nivel": 542,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 871,
-      "victorias": 569,
-      "derrotas": 529,
-      "ultima_partida": 1753403964653
+      "lp": 766,
+      "victorias": 572,
+      "derrotas": 537,
+      "ultima_partida": 1753476564809
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "JarvanIV",
-      "partidas": 81,
-      "victorias": 48,
-      "winrate": "59.3%",
-      "kda_promedio": 4.083109919571045
+      "partidas": 89,
+      "victorias": 49,
+      "winrate": "55.1%",
+      "kda_promedio": 4.0958230958230954
     },
     {
       "nombre": "Karma",
@@ -40,25 +40,25 @@
       "kda_promedio": 2.111111111111111
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.5789473684210527
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.25
-    },
-    {
       "nombre": "Khazix",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.7333333333333334
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Kayn",
@@ -75,24 +75,24 @@
       "kda_promedio": 1.2222222222222223
     },
     {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
       "nombre": "Leona",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 1.8
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.4444444444444446
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 106,
-    "wins": 62,
-    "losses": 44,
-    "timePlayed": 167275
+    "games": 113,
+    "wins": 63,
+    "losses": 50,
+    "timePlayed": 180096
   }
 }

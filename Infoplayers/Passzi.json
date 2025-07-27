@@ -28,24 +28,24 @@
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 4.081081081081081
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.148148148148148
     },
     {
       "nombre": "Karma",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.368421052631579
-    },
-    {
-      "nombre": "Bard",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.75
+      "kda_promedio": 3.388888888888889
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.916666666666667
     },
     {
       "nombre": "Leona",
@@ -60,13 +60,6 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 7.285714285714286
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2
     },
     {
       "nombre": "Pyke",
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 6
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 19,
-    "losses": 15,
-    "timePlayed": 54681
+    "games": 28,
+    "wins": 17,
+    "losses": 11,
+    "timePlayed": 44593
   }
 }

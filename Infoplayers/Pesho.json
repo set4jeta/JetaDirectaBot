@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "pesh#pesho",
-      "nivel": 414,
+      "nivel": 415,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 833,
+      "lp": 775,
       "victorias": 288,
-      "derrotas": 230,
-      "ultima_partida": 1753362696354
+      "derrotas": 233,
+      "ultima_partida": 1753463067514
     },
     {
       "nombre": "nikola#PESHO",
@@ -45,31 +45,31 @@
     },
     {
       "nombre": "Ryze",
-      "partidas": 12,
+      "partidas": 13,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2295081967213113
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 1.280701754385965
+      "winrate": "46.2%",
+      "kda_promedio": 2.1343283582089554
     },
     {
       "nombre": "Annie",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0634920634920637
+      "winrate": "45.5%",
+      "kda_promedio": 2.0144927536231885
     },
     {
       "nombre": "Hwei",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.30188679245283
+      "winrate": "50.0%",
+      "kda_promedio": 3.152542372881356
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
       "nombre": "MissFortune",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 107,
+    "games": 109,
     "wins": 49,
-    "losses": 58,
-    "timePlayed": 179895
+    "losses": 60,
+    "timePlayed": 184190
   }
 }

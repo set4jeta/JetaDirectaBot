@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 17,
+      "partidas": 16,
       "victorias": 5,
-      "winrate": "29.4%",
-      "kda_promedio": 2.6513761467889907
+      "winrate": "31.2%",
+      "kda_promedio": 2.6699029126213594
     },
     {
       "nombre": "XinZhao",
@@ -61,18 +61,18 @@
       "kda_promedio": 4.041666666666667
     },
     {
-      "nombre": "Viego",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.6666666666666665
+      "nombre": "MonkeyKing",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.375
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2653061224489797
+      "nombre": "Viego",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.266666666666667
     },
     {
       "nombre": "Vi",
@@ -89,13 +89,6 @@
       "kda_promedio": 3.75
     },
     {
-      "nombre": "Trundle",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3448275862068966
-    },
-    {
       "nombre": "Taliyah",
       "partidas": 3,
       "victorias": 1,
@@ -103,11 +96,11 @@
       "kda_promedio": 2.4814814814814814
     },
     {
-      "nombre": "Annie",
-      "partidas": 2,
+      "nombre": "Trundle",
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2777777777777777
+      "kda_promedio": 1.2380952380952381
     },
     {
       "nombre": "Jax",
@@ -115,12 +108,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.454545454545454
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 78,
-    "wins": 35,
-    "losses": 43,
-    "timePlayed": 134601
+    "games": 69,
+    "wins": 33,
+    "losses": 36,
+    "timePlayed": 118881
   }
 }

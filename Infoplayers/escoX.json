@@ -19,10 +19,10 @@
       "nivel": 1573,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 951,
-      "victorias": 294,
-      "derrotas": 255,
-      "ultima_partida": 1753375096278
+      "lp": 946,
+      "victorias": 298,
+      "derrotas": 259,
+      "ultima_partida": 1753470521902
     },
     {
       "nombre": "Keep Trying#Soria",
@@ -38,10 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4.2727272727272725
+      "winrate": "40.0%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.7857142857142856
     },
     {
       "nombre": "Rakan",
@@ -58,11 +65,18 @@
       "kda_promedio": 3.9166666666666665
     },
     {
-      "nombre": "Bard",
+      "nombre": "Galio",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3076923076923075
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9642857142857142
     },
     {
       "nombre": "Poppy",
@@ -79,13 +93,6 @@
       "kda_promedio": 5.625
     },
     {
-      "nombre": "Galio",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5
-    },
-    {
       "nombre": "Nami",
       "partidas": 2,
       "victorias": 1,
@@ -93,24 +100,17 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Neeko",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "TahmKench",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 2.9
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
-    "wins": 18,
-    "losses": 17,
-    "timePlayed": 58101
+    "games": 43,
+    "wins": 22,
+    "losses": 21,
+    "timePlayed": 69952
   }
 }

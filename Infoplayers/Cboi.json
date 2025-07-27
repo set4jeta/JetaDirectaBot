@@ -22,7 +22,7 @@
       "lp": 824,
       "victorias": 189,
       "derrotas": 154,
-      "ultima_partida": 1753352885612
+      "ultima_partida": 1753448237142
     }
   ],
   "campeones_recientes": [
@@ -49,17 +49,10 @@
     },
     {
       "nombre": "Pantheon",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.818181818181818
-    },
-    {
-      "nombre": "Poppy",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.888888888888889
+      "kda_promedio": 6.5
     },
     {
       "nombre": "Viego",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 33,
-    "wins": 22,
-    "losses": 11,
-    "timePlayed": 53425
+    "games": 31,
+    "wins": 21,
+    "losses": 10,
+    "timePlayed": 49245
   }
 }

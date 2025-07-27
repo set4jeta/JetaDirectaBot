@@ -81,6 +81,10 @@ class TrackedGame :
                 (self.state == "unstarted" and (blue_gold > 2500 or red_gold > 2500))
             ):
                 self.state = "inProgress"   
+                if self.has_participants and not self.real_start_time:
+                    print("[DEBUG] Asignando real_start_time por participantes")
+                    self.real_start_time = await get_network_time()
+                
                 # Solo asigna el inicio real si aún no está asignado y el oro subió
                 #if (blue_gold > 2500 or red_gold > 2500) and not self.real_start_time:
                    #print("[DEBUG] Asignando real_start_time")
@@ -489,7 +493,23 @@ class TrackedMatch:
                         print(f"[FORZADO] Juego {next_game.game_id} forzado a inProgress porque el anterior terminó.")
                         next_game.state = "inProgress"
         
-         # --- BLOQUE EXTRA: Forzar siguiente juego a inProgress si tiene metadata de jugadores ---
+        
+        
+        
+        
+        
+        
+         
+        # --- BLOQUE EXTRA: Forzar siguiente juego a inProgress si tiene metadata de jugadores ---
+        if self.teamsEventDetails and len(self.teamsEventDetails) == 2:
+            blue_wins = self.teamsEventDetails[0].game_wins
+            red_wins = self.teamsEventDetails[1].game_wins
+        else:
+            blue_wins = 0
+            red_wins = 0
+       
+
+        
         for idx, game in enumerate(self.trackedGames):
             if idx + 1 < len(self.trackedGames):
                 next_game = self.trackedGames[idx + 1]

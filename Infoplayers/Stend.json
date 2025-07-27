@@ -19,10 +19,10 @@
       "nivel": 113,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1482,
-      "victorias": 475,
-      "derrotas": 384,
-      "ultima_partida": 1753394191279
+      "lp": 1500,
+      "victorias": 477,
+      "derrotas": 385,
+      "ultima_partida": 1753477721691
     },
     {
       "nombre": "TH Stend#000",
@@ -44,25 +44,25 @@
       "kda_promedio": 3.044776119402985
     },
     {
-      "nombre": "Rell",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.3015873015873014
+      "nombre": "Jhin",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.761904761904762
     },
     {
-      "nombre": "Jhin",
-      "partidas": 10,
+      "nombre": "Rell",
+      "partidas": 11,
       "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.658536585365854
+      "winrate": "63.6%",
+      "kda_promedio": 3.4210526315789473
     },
     {
       "nombre": "Thresh",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.6363636363636362
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.918918918918919
     },
     {
       "nombre": "Lulu",
@@ -70,20 +70,6 @@
       "victorias": 5,
       "winrate": "83.3%",
       "kda_promedio": 6.882352941176471
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8846153846153846
     },
     {
       "nombre": "Gragas",
@@ -100,17 +86,31 @@
       "kda_promedio": 5.153846153846154
     },
     {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.8636363636363638
+    },
+    {
       "nombre": "Rakan",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 4.1875
+      "winrate": "20.0%",
+      "kda_promedio": 4.619047619047619
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 94,
+    "games": 93,
     "wins": 54,
-    "losses": 40,
-    "timePlayed": 145612
+    "losses": 39,
+    "timePlayed": 143006
   }
 }

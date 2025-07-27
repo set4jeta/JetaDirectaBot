@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Carnagε#EUW",
+      "nivel": 1030,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 896,
+      "victorias": 182,
+      "derrotas": 155,
+      "ultima_partida": 1753450751091
+    },
+    {
       "nombre": "Lancelot#4150",
       "nivel": 267,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 283,
       "derrotas": 248,
       "ultima_partida": 1753401585116
-    },
-    {
-      "nombre": "Carnagε#EUW",
-      "nivel": 1030,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 938,
-      "victorias": 182,
-      "derrotas": 153,
-      "ultima_partida": 1753394772549
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
       "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.5636363636363635
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4074074074074074
     },
     {
       "nombre": "Poppy",
@@ -49,6 +49,13 @@
       "victorias": 2,
       "winrate": "33.3%",
       "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.15
     },
     {
       "nombre": "DrMundo",
@@ -63,13 +70,6 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 5.769230769230769
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.9411764705882355
     },
     {
       "nombre": "Aurora",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
-    "wins": 19,
-    "losses": 18,
-    "timePlayed": 55746
+    "games": 38,
+    "wins": 18,
+    "losses": 20,
+    "timePlayed": 56853
   }
 }

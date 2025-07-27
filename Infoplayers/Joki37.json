@@ -41,18 +41,18 @@
       "kda_promedio": 2.45
     },
     {
-      "nombre": "Rakan",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 3.9
-    },
-    {
       "nombre": "Ivern",
       "partidas": 6,
       "victorias": 2,
       "winrate": "33.3%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6470588235294117
     },
     {
       "nombre": "Zyra",
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
+    "games": 50,
     "wins": 27,
-    "losses": 25,
-    "timePlayed": 83416
+    "losses": 23,
+    "timePlayed": 79739
   }
 }

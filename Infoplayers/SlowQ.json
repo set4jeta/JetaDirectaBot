@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "yebit#haha",
-      "nivel": 968,
+      "nivel": 969,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1315,
-      "victorias": 475,
-      "derrotas": 426,
-      "ultima_partida": 1753394338247
+      "lp": 1276,
+      "victorias": 478,
+      "derrotas": 431,
+      "ultima_partida": 1753477721691
     },
     {
       "nombre": "Y Golem Y#EUW",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Annie",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.86046511627907
     },
     {
       "nombre": "Ryze",
@@ -55,7 +55,14 @@
       "partidas": 7,
       "victorias": 2,
       "winrate": "28.6%",
-      "kda_promedio": 2.558139534883721
+      "kda_promedio": 2.574468085106383
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.28125
     },
     {
       "nombre": "Corki",
@@ -79,25 +86,11 @@
       "kda_promedio": 5.3076923076923075
     },
     {
-      "nombre": "Zed",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.65
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
       "nombre": "Ambessa",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0833333333333335
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Ezreal",
@@ -105,12 +98,19 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 104,
-    "wins": 65,
+    "games": 103,
+    "wins": 64,
     "losses": 39,
-    "timePlayed": 163372
+    "timePlayed": 162879
   }
 }

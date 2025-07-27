@@ -16,17 +16,17 @@
       "nivel": 40,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 501,
-      "victorias": 69,
-      "derrotas": 32,
-      "ultima_partida": 1753367464759
+      "lp": 523,
+      "victorias": 72,
+      "derrotas": 34,
+      "ultima_partida": 1753478735258
     },
     {
       "nombre": "편 민 기#박 규 용",
       "nivel": 857,
       "region": "KR",
       "liga": "MASTER I",
-      "lp": 99,
+      "lp": 24,
       "victorias": 242,
       "derrotas": 196,
       "ultima_partida": 1751478559786
@@ -35,17 +35,17 @@
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 27,
-      "victorias": 18,
-      "winrate": "66.7%",
-      "kda_promedio": 2.7804878048780486
+      "partidas": 22,
+      "victorias": 14,
+      "winrate": "63.6%",
+      "kda_promedio": 2.7251908396946565
     },
     {
       "nombre": "Nidalee",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 4.3478260869565215
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.1555555555555554
     },
     {
       "nombre": "Irelia",
@@ -60,13 +60,6 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 1.7096774193548387
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.739130434782609
     },
     {
       "nombre": "Ambessa",
@@ -90,24 +83,31 @@
       "kda_promedio": 2.0714285714285716
     },
     {
-      "nombre": "Gwen",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.9285714285714284
-    },
-    {
       "nombre": "Akali",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
-    "wins": 54,
-    "losses": 26,
-    "timePlayed": 124620
+    "games": 71,
+    "wins": 47,
+    "losses": 24,
+    "timePlayed": 111394
   }
 }

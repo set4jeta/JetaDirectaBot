@@ -68,13 +68,6 @@
       "kda_promedio": 3.169811320754717
     },
     {
-      "nombre": "Jinx",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.711864406779661
-    },
-    {
       "nombre": "Aphelios",
       "partidas": 9,
       "victorias": 3,
@@ -82,18 +75,11 @@
       "kda_promedio": 1.7027027027027026
     },
     {
-      "nombre": "Corki",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.510204081632653
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.9166666666666667
+      "nombre": "Jinx",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.1923076923076925
     },
     {
       "nombre": "Zeri",
@@ -110,6 +96,20 @@
       "kda_promedio": 2.891891891891892
     },
     {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9259259259259258
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
       "nombre": "Twitch",
       "partidas": 5,
       "victorias": 3,
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 146,
-    "wins": 77,
-    "losses": 69,
-    "timePlayed": 234197
+    "games": 134,
+    "wins": 70,
+    "losses": 64,
+    "timePlayed": 214413
   }
 }

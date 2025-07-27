@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "owlonsky#000",
-      "nivel": 115,
+      "nivel": 116,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 847,
-      "victorias": 192,
-      "derrotas": 145,
-      "ultima_partida": 1753354520230
+      "lp": 825,
+      "victorias": 194,
+      "derrotas": 148,
+      "ultima_partida": 1753444651399
     },
     {
       "nombre": "owlonsky#winn",
@@ -44,6 +44,13 @@
       "kda_promedio": 3.0508474576271185
     },
     {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.863636363636363
+    },
+    {
       "nombre": "Varus",
       "partidas": 5,
       "victorias": 4,
@@ -51,18 +58,18 @@
       "kda_promedio": 3.1363636363636362
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.571428571428571
-    },
-    {
       "nombre": "Zed",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.2
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6
     },
     {
       "nombre": "Senna",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1428571428571428
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 26,
-    "losses": 22,
-    "timePlayed": 76276
+    "games": 53,
+    "wins": 28,
+    "losses": 25,
+    "timePlayed": 83938
   }
 }

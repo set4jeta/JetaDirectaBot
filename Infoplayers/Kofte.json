@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "killer tune#zzz",
-      "nivel": 335,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 832,
-      "victorias": 254,
-      "derrotas": 221,
-      "ultima_partida": 1753386793911
-    },
-    {
       "nombre": "indoor fish#EUW",
       "nivel": 571,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1138,
-      "victorias": 245,
-      "derrotas": 197,
-      "ultima_partida": 1753370547291
+      "lp": 1129,
+      "victorias": 246,
+      "derrotas": 198,
+      "ultima_partida": 1753460006159
+    },
+    {
+      "nombre": "killer tune#zzz",
+      "nivel": 336,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 893,
+      "victorias": 258,
+      "derrotas": 222,
+      "ultima_partida": 1753449786192
     },
     {
       "nombre": "yüzenköfte#EUW",
@@ -62,10 +62,10 @@
     },
     {
       "nombre": "Annie",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.5862068965517242
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6363636363636365
     },
     {
       "nombre": "Aurora",
@@ -75,18 +75,18 @@
       "kda_promedio": 1.9166666666666667
     },
     {
-      "nombre": "Galio",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.6956521739130435
-    },
-    {
       "nombre": "Lucian",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.125
     },
     {
       "nombre": "Taliyah",
@@ -110,17 +110,17 @@
       "kda_promedio": 5.4
     },
     {
-      "nombre": "Mel",
+      "nombre": "Gwen",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.5833333333333335
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 28,
-    "losses": 29,
-    "timePlayed": 86811
+    "games": 61,
+    "wins": 31,
+    "losses": 30,
+    "timePlayed": 92960
   }
 }

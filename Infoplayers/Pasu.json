@@ -69,25 +69,11 @@
       "kda_promedio": 2.3846153846153846
     },
     {
-      "nombre": "Belveth",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 10
-    },
-    {
       "nombre": "Blitzcrank",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.1111111111111112
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
     },
     {
       "nombre": "MonkeyKing",
@@ -102,12 +88,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 16,
-    "losses": 14,
-    "timePlayed": 50461
+    "games": 28,
+    "wins": 15,
+    "losses": 13,
+    "timePlayed": 47951
   }
 }

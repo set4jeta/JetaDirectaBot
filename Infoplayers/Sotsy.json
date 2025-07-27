@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "flow state#6996",
-      "nivel": 1628,
+      "nivel": 1629,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 872,
-      "victorias": 741,
-      "derrotas": 707,
-      "ultima_partida": 1753394705562
+      "victorias": 743,
+      "derrotas": 709,
+      "ultima_partida": 1753447821067
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yorick",
-      "partidas": 16,
-      "victorias": 7,
-      "winrate": "43.8%",
-      "kda_promedio": 1.7777777777777777
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 1.8314606741573034
     },
     {
       "nombre": "Sion",
@@ -56,10 +56,10 @@
     },
     {
       "nombre": "Gragas",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.2745098039215685
+      "winrate": "40.0%",
+      "kda_promedio": 1.2181818181818183
     },
     {
       "nombre": "Gwen",
@@ -83,24 +83,24 @@
       "kda_promedio": 2.6333333333333333
     },
     {
+      "nombre": "Sett",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.608695652173913
+    },
+    {
       "nombre": "Volibear",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 0.975
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 120,
-    "wins": 58,
-    "losses": 62,
-    "timePlayed": 192117
+    "games": 122,
+    "wins": 59,
+    "losses": 63,
+    "timePlayed": 193277
   }
 }

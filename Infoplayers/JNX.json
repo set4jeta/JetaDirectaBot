@@ -22,7 +22,7 @@
       "lp": 871,
       "victorias": 88,
       "derrotas": 51,
-      "ultima_partida": 1753377210050
+      "ultima_partida": 1753462077021
     },
     {
       "nombre": "Simon Claw#Agent",
@@ -79,13 +79,6 @@
       "kda_promedio": 2.857142857142857
     },
     {
-      "nombre": "Jayce",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9
-    },
-    {
       "nombre": "Akshan",
       "partidas": 1,
       "victorias": 1,
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 17,
+    "games": 30,
+    "wins": 15,
     "losses": 15,
-    "timePlayed": 51033
+    "timePlayed": 47762
   }
 }

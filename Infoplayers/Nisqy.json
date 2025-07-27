@@ -16,36 +16,36 @@
   "cuentas": [
     {
       "nombre": "KC Subsqy#KCORP",
-      "nivel": 712,
+      "nivel": 713,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 904,
-      "victorias": 484,
-      "derrotas": 443,
-      "ultima_partida": 1753374228409
+      "lp": 935,
+      "victorias": 489,
+      "derrotas": 447,
+      "ultima_partida": 1753459041289
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Orianna",
-      "partidas": 15,
+      "partidas": 16,
       "victorias": 9,
-      "winrate": "60.0%",
-      "kda_promedio": 3.359375
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.8979591836734695
+      "winrate": "56.2%",
+      "kda_promedio": 3.217391304347826
     },
     {
       "nombre": "Syndra",
-      "partidas": 10,
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.8518518518518516
+      "winrate": "75.0%",
+      "kda_promedio": 3.2439024390243905
     },
     {
       "nombre": "Ryze",
@@ -62,6 +62,13 @@
       "kda_promedio": 2.875
     },
     {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3714285714285714
+    },
+    {
       "nombre": "Annie",
       "partidas": 5,
       "victorias": 3,
@@ -76,31 +83,24 @@
       "kda_promedio": 1.875
     },
     {
-      "nombre": "Yone",
+      "nombre": "TwistedFate",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.085714285714286
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.25
     },
     {
-      "nombre": "Senna",
+      "nombre": "Corki",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.176470588235294
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9285714285714284
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5217391304347827
     }
   ],
   "estadisticas_2_semanas": {
     "games": 125,
-    "wins": 65,
-    "losses": 60,
-    "timePlayed": 196731
+    "wins": 64,
+    "losses": 61,
+    "timePlayed": 198228
   }
 }

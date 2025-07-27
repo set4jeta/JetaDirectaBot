@@ -19,10 +19,10 @@
       "nivel": 687,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 809,
-      "victorias": 449,
-      "derrotas": 422,
-      "ultima_partida": 1753364529350
+      "lp": 748,
+      "victorias": 450,
+      "derrotas": 426,
+      "ultima_partida": 1753476304623
     },
     {
       "nombre": "its not me#DTB",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 19,
+      "partidas": 22,
       "victorias": 11,
-      "winrate": "57.9%",
-      "kda_promedio": 3.765432098765432
+      "winrate": "50.0%",
+      "kda_promedio": 3.5757575757575757
     },
     {
       "nombre": "Nocturne",
@@ -65,18 +65,18 @@
       "kda_promedio": 4.294117647058823
     },
     {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.0588235294117645
+    },
+    {
       "nombre": "LeeSin",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.2857142857142856
     },
     {
       "nombre": "JarvanIV",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
+    "games": 64,
     "wins": 32,
-    "losses": 28,
-    "timePlayed": 95451
+    "losses": 32,
+    "timePlayed": 101722
   }
 }

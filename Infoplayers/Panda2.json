@@ -15,22 +15,22 @@
   "cuentas": [
     {
       "nombre": "Panda#32111",
-      "nivel": 650,
+      "nivel": 651,
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1323,
       "victorias": 309,
       "derrotas": 260,
-      "ultima_partida": 1753360759104
+      "ultima_partida": 1753445826973
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 5,
-      "victorias": 5,
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 6.916666666666667
+      "kda_promedio": 6.818181818181818
     },
     {
       "nombre": "Akali",
@@ -40,25 +40,11 @@
       "kda_promedio": 2.6923076923076925
     },
     {
-      "nombre": "Tristana",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5
-    },
-    {
       "nombre": "Yasuo",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5833333333333333
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5
     },
     {
       "nombre": "Aurora",
@@ -94,12 +80,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
-    "wins": 16,
-    "losses": 8,
-    "timePlayed": 43595
+    "games": 20,
+    "wins": 13,
+    "losses": 7,
+    "timePlayed": 36292
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "vanilla scent#gabi",
-      "nivel": 1201,
+      "nivel": 1202,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 752,
-      "victorias": 389,
-      "derrotas": 364,
-      "ultima_partida": 1753351232813
+      "lp": 727,
+      "victorias": 392,
+      "derrotas": 368,
+      "ultima_partida": 1753462150628
     },
     {
       "nombre": "like a star#shine",
@@ -38,17 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 3,
-      "winrate": "27.3%",
-      "kda_promedio": 1.696969696969697
+      "winrate": "25.0%",
+      "kda_promedio": 1.704225352112676
     },
     {
       "nombre": "Yunara",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 1.5
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.78125
     },
     {
       "nombre": "Ezreal",
@@ -58,18 +58,18 @@
       "kda_promedio": 4.090909090909091
     },
     {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
       "nombre": "Zeri",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.4705882352941178
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.875
     },
     {
       "nombre": "Kaisa",
@@ -100,17 +100,17 @@
       "kda_promedio": 2.4
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Xayah",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 17,
-    "losses": 33,
-    "timePlayed": 77351
+    "games": 56,
+    "wins": 19,
+    "losses": 37,
+    "timePlayed": 87439
   }
 }

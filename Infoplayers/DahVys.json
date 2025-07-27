@@ -19,10 +19,10 @@
       "nivel": 1340,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 846,
-      "victorias": 663,
+      "lp": 924,
+      "victorias": 667,
       "derrotas": 637,
-      "ultima_partida": 1753318707440
+      "ultima_partida": 1753468043906
     },
     {
       "nombre": "Bigby WoIf#EUW",
@@ -48,10 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 17,
-      "victorias": 13,
-      "winrate": "76.5%",
-      "kda_promedio": 3.744186046511628
+      "partidas": 18,
+      "victorias": 14,
+      "winrate": "77.8%",
+      "kda_promedio": 3.7032967032967035
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9318181818181817
     },
     {
       "nombre": "Viego",
@@ -61,11 +68,11 @@
       "kda_promedio": 2.9791666666666665
     },
     {
-      "nombre": "Volibear",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.8780487804878048
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.4193548387096775
     },
     {
       "nombre": "XinZhao",
@@ -73,13 +80,6 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 2.1724137931034484
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.2962962962962963
     },
     {
       "nombre": "Naafiri",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 33,
+    "games": 70,
+    "wins": 37,
     "losses": 33,
-    "timePlayed": 107512
+    "timePlayed": 113625
   }
 }

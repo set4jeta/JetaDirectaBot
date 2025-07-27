@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "Biotic#123",
-      "nivel": 556,
+      "nivel": 557,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1015,
-      "victorias": 351,
-      "derrotas": 316,
-      "ultima_partida": 1753318707440
+      "lp": 1075,
+      "victorias": 359,
+      "derrotas": 321,
+      "ultima_partida": 1753478523067
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zilean",
-      "partidas": 60,
-      "victorias": 27,
-      "winrate": "45.0%",
-      "kda_promedio": 3.303886925795053
+      "partidas": 69,
+      "victorias": 32,
+      "winrate": "46.4%",
+      "kda_promedio": 3.312121212121212
     },
     {
       "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3684210526315788
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.227272727272727
     },
     {
       "nombre": "Sona",
@@ -56,9 +56,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
-    "wins": 29,
-    "losses": 36,
-    "timePlayed": 109818
+    "games": 75,
+    "wins": 35,
+    "losses": 40,
+    "timePlayed": 126856
   }
 }

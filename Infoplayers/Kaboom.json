@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "S2mIE100LeSH#sigma",
-      "nivel": 73,
+      "nivel": 74,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1197,
-      "victorias": 237,
-      "derrotas": 140,
-      "ultima_partida": 1753393337801
+      "lp": 1177,
+      "victorias": 238,
+      "derrotas": 142,
+      "ultima_partida": 1753466940673
     },
     {
       "nombre": "S2p601KeNaRa#kboom",
@@ -48,24 +48,24 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 15,
+      "partidas": 16,
       "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 3.3384615384615386
+      "winrate": "50.0%",
+      "kda_promedio": 3.211267605633803
     },
     {
       "nombre": "Viego",
       "partidas": 13,
       "victorias": 7,
       "winrate": "53.8%",
-      "kda_promedio": 4.044444444444444
+      "kda_promedio": 4.441860465116279
     },
     {
       "nombre": "Vi",
-      "partidas": 11,
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 2.816326530612245
+      "winrate": "40.0%",
+      "kda_promedio": 2.8444444444444446
     },
     {
       "nombre": "Trundle",
@@ -90,10 +90,10 @@
     },
     {
       "nombre": "Zed",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.6388888888888888
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3870967741935485
     },
     {
       "nombre": "Gwen",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 39,
-    "losses": 66,
-    "timePlayed": 168387
+    "games": 102,
+    "wins": 37,
+    "losses": 65,
+    "timePlayed": 164405
   }
 }

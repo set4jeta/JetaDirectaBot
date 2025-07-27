@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 47,
-      "victorias": 25,
-      "winrate": "53.2%",
-      "kda_promedio": 2.3216374269005846
+      "partidas": 40,
+      "victorias": 20,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2721518987341773
     },
     {
       "nombre": "KSante",
-      "partidas": 10,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 1.88
+      "winrate": "44.4%",
+      "kda_promedio": 1.9534883720930232
     },
     {
       "nombre": "Hwei",
@@ -104,9 +104,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 31,
-    "losses": 32,
-    "timePlayed": 99336
+    "games": 55,
+    "wins": 26,
+    "losses": 29,
+    "timePlayed": 88884
   }
 }

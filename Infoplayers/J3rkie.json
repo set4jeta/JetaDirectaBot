@@ -27,24 +27,24 @@
   "campeones_recientes": [
     {
       "nombre": "Senna",
-      "partidas": 10,
-      "victorias": 2,
+      "partidas": 5,
+      "victorias": 1,
       "winrate": "20.0%",
-      "kda_promedio": 2.328125
+      "kda_promedio": 1.7142857142857142
     },
     {
       "nombre": "Bard",
-      "partidas": 4,
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8333333333333335
+      "winrate": "100.0%",
+      "kda_promedio": 4.222222222222222
     },
     {
       "nombre": "Leona",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.7
+      "kda_promedio": 3.875
     },
     {
       "nombre": "Alistar",
@@ -59,13 +59,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.1
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
     },
     {
       "nombre": "Singed",
@@ -83,9 +76,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 22,
-    "wins": 11,
-    "losses": 11,
-    "timePlayed": 36368
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "timePlayed": 22321
   }
 }

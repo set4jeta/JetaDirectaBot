@@ -18,13 +18,20 @@
       "nivel": 1132,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1016,
-      "victorias": 185,
+      "lp": 1050,
+      "victorias": 187,
       "derrotas": 140,
-      "ultima_partida": 1753351816481
+      "ultima_partida": 1753472417133
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.2272727272727275
+    },
     {
       "nombre": "Alistar",
       "partidas": 5,
@@ -38,13 +45,6 @@
       "victorias": 3,
       "winrate": "60.0%",
       "kda_promedio": 4.055555555555555
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.315789473684211
     },
     {
       "nombre": "Rell",
@@ -80,12 +80,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 19
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 16,
+    "games": 32,
+    "wins": 18,
     "losses": 14,
-    "timePlayed": 51145
+    "timePlayed": 54174
   }
 }

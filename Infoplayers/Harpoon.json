@@ -20,25 +20,25 @@
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1180,
-      "victorias": 490,
-      "derrotas": 426,
-      "ultima_partida": 1753394191279
+      "victorias": 491,
+      "derrotas": 427,
+      "ultima_partida": 1753467669393
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Kaisa",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.333333333333333
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.1923076923076925
     },
     {
-      "nombre": "Varus",
+      "nombre": "Yunara",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.3055555555555554
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.0277777777777777
     },
     {
       "nombre": "Lucian",
@@ -48,11 +48,11 @@
       "kda_promedio": 1.5384615384615385
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Varus",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0357142857142856
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9375
     },
     {
       "nombre": "Ziggs",
@@ -83,24 +83,24 @@
       "kda_promedio": 2.75
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.333333333333333
-    },
-    {
       "nombre": "Jhin",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 29,
+    "games": 57,
+    "wins": 27,
     "losses": 30,
-    "timePlayed": 96041
+    "timePlayed": 94856
   }
 }

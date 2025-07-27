@@ -19,26 +19,26 @@
       "nivel": 573,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 932,
-      "victorias": 317,
-      "derrotas": 273,
-      "ultima_partida": 1753353571807
+      "lp": 911,
+      "victorias": 318,
+      "derrotas": 275,
+      "ultima_partida": 1753446844409
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 6,
+      "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 3.466666666666667
+      "kda_promedio": 3.0833333333333335
     },
     {
       "nombre": "Lucian",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9259259259259258
+      "winrate": "40.0%",
+      "kda_promedio": 1.605263157894737
     },
     {
       "nombre": "Annie",
@@ -53,13 +53,6 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.1538461538461537
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.0588235294117645
     },
     {
       "nombre": "Aurora",
@@ -83,6 +76,13 @@
       "kda_promedio": 1.3
     },
     {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.375
+    },
+    {
       "nombre": "Ahri",
       "partidas": 1,
       "victorias": 0,
@@ -90,17 +90,17 @@
       "kda_promedio": 0.8
     },
     {
-      "nombre": "Braum",
+      "nombre": "Corki",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 15
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
+    "games": 31,
     "wins": 16,
-    "losses": 14,
-    "timePlayed": 43555
+    "losses": 15,
+    "timePlayed": 44952
   }
 }

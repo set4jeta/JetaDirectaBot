@@ -7,23 +7,13 @@
     "pais": "Poland",
     "contrato_hasta": "2025-11-18T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/sinmivak",
-      "twitch": "https://twitch.tv/sinmivak"
+      "twitter": "https://www.twitter.com/Sinmivak",
+      "twitch": "https://www.twitch.tv/sinmivak"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/sinmivak.webp",
     "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
   },
   "cuentas": [
-    {
-      "nombre": "Sinmivak#777",
-      "nivel": 1046,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1148,
-      "victorias": 524,
-      "derrotas": 485,
-      "ultima_partida": 1753363461756
-    },
     {
       "nombre": "polski herkules#EUW",
       "nivel": 157,
@@ -31,8 +21,18 @@
       "liga": "MASTER I",
       "lp": 0,
       "victorias": 58,
-      "derrotas": 43,
-      "ultima_partida": 1753262499274
+      "derrotas": 44,
+      "ultima_partida": 1753437923893
+    },
+    {
+      "nombre": "Sinmivak#777",
+      "nivel": 1046,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1162,
+      "victorias": 525,
+      "derrotas": 485,
+      "ultima_partida": 1753433921589
     }
   ],
   "campeones_recientes": [
@@ -44,13 +44,6 @@
       "kda_promedio": 2.2291666666666665
     },
     {
-      "nombre": "Renekton",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.787878787878788
-    },
-    {
       "nombre": "Jayce",
       "partidas": 8,
       "victorias": 2,
@@ -58,11 +51,18 @@
       "kda_promedio": 1.9166666666666667
     },
     {
+      "nombre": "Renekton",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.892857142857143
+    },
+    {
       "nombre": "Sion",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.4285714285714284
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Yorick",
@@ -73,17 +73,10 @@
     },
     {
       "nombre": "Ambessa",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4166666666666667
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.870967741935484
+      "winrate": "40.0%",
+      "kda_promedio": 1.5789473684210527
     },
     {
       "nombre": "Camille",
@@ -91,6 +84,13 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 1.894736842105263
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0434782608695654
     },
     {
       "nombre": "Gangplank",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
-    "wins": 32,
-    "losses": 40,
-    "timePlayed": 120227
+    "games": 70,
+    "wins": 31,
+    "losses": 39,
+    "timePlayed": 118183
   }
 }

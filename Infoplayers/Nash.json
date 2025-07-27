@@ -72,10 +72,10 @@
     },
     {
       "nombre": "Rell",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.28125
+      "winrate": "66.7%",
+      "kda_promedio": 5.818181818181818
     },
     {
       "nombre": "Rakan",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
+    "games": 41,
     "wins": 22,
-    "losses": 20,
-    "timePlayed": 68565
+    "losses": 19,
+    "timePlayed": 66866
   }
 }

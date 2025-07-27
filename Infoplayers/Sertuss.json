@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Sertuss#2312",
-      "nivel": 1274,
+      "nivel": 1275,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1008,
-      "victorias": 476,
-      "derrotas": 443,
-      "ultima_partida": 1753395777051
+      "lp": 1027,
+      "victorias": 478,
+      "derrotas": 444,
+      "ultima_partida": 1753473230182
     }
   ],
   "campeones_recientes": [
@@ -55,6 +55,13 @@
       "kda_promedio": 4.533333333333333
     },
     {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1363636363636362
+    },
+    {
       "nombre": "Syndra",
       "partidas": 4,
       "victorias": 2,
@@ -76,13 +83,6 @@
       "kda_promedio": 1.4
     },
     {
-      "nombre": "Annie",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2
-    },
-    {
       "nombre": "Taliyah",
       "partidas": 2,
       "victorias": 1,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 31,
-    "losses": 24,
-    "timePlayed": 86868
+    "games": 58,
+    "wins": 33,
+    "losses": 25,
+    "timePlayed": 91439
   }
 }

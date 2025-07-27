@@ -19,10 +19,10 @@
       "nivel": 713,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 970,
-      "victorias": 512,
-      "derrotas": 466,
-      "ultima_partida": 1753359841523
+      "lp": 1011,
+      "victorias": 515,
+      "derrotas": 467,
+      "ultima_partida": 1753465486460
     },
     {
       "nombre": "BRlNG IT BACK#1WAY",
@@ -38,17 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Ezreal",
-      "partidas": 25,
+      "partidas": 24,
       "victorias": 16,
-      "winrate": "64.0%",
-      "kda_promedio": 3.2767857142857144
+      "winrate": "66.7%",
+      "kda_promedio": 3.289719626168224
     },
     {
       "nombre": "Kaisa",
-      "partidas": 17,
-      "victorias": 10,
-      "winrate": "58.8%",
-      "kda_promedio": 4.061538461538461
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 4.365384615384615
     },
     {
       "nombre": "Jhin",
@@ -72,6 +72,13 @@
       "kda_promedio": 1.9
     },
     {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.363636363636363
+    },
+    {
       "nombre": "Zeri",
       "partidas": 3,
       "victorias": 0,
@@ -86,11 +93,11 @@
       "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Xayah",
+      "nombre": "Yunara",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "kda_promedio": 2
     },
     {
       "nombre": "Ahri",
@@ -98,19 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.2
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 79,
-    "wins": 39,
-    "losses": 40,
-    "timePlayed": 119224
+    "games": 78,
+    "wins": 41,
+    "losses": 37,
+    "timePlayed": 118438
   }
 }

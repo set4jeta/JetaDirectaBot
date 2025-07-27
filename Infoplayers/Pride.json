@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Pride#persi",
-      "nivel": 368,
+      "nivel": 369,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 984,
-      "victorias": 228,
-      "derrotas": 189,
-      "ultima_partida": 1753115547660
+      "lp": 976,
+      "victorias": 230,
+      "derrotas": 191,
+      "ultima_partida": 1753469960225
     }
   ],
   "campeones_recientes": [
@@ -34,18 +34,11 @@
       "kda_promedio": 1
     },
     {
-      "nombre": "Sion",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 1.5294117647058822
-    },
-    {
       "nombre": "Jhin",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.2
+      "winrate": "66.7%",
+      "kda_promedio": 2.4615384615384617
     },
     {
       "nombre": "Kennen",
@@ -53,6 +46,20 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7692307692307692
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
     },
     {
       "nombre": "Ambessa",
@@ -83,17 +90,17 @@
       "kda_promedio": 1.25
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Rumble",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.8333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
+    "games": 17,
     "wins": 10,
-    "losses": 5,
-    "timePlayed": 22193
+    "losses": 7,
+    "timePlayed": 25903
   }
 }

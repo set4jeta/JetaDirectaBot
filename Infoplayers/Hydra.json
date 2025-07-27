@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Po Gap#EUW",
-      "nivel": 880,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1485,
-      "victorias": 450,
-      "derrotas": 380,
-      "ultima_partida": 1753400596548
-    },
-    {
       "nombre": "Bollito de Cacao#EUW",
-      "nivel": 851,
+      "nivel": 852,
       "region": "EUW1",
       "liga": "MASTER I",
       "lp": 60,
       "victorias": 65,
       "derrotas": 54,
-      "ultima_partida": 1753268666784
+      "ultima_partida": 1753461551481
+    },
+    {
+      "nombre": "Po Gap#EUW",
+      "nivel": 880,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1505,
+      "victorias": 451,
+      "derrotas": 380,
+      "ultima_partida": 1753444937021
     }
   ],
   "campeones_recientes": [
@@ -58,11 +58,18 @@
       "kda_promedio": 2.576923076923077
     },
     {
-      "nombre": "Yone",
-      "partidas": 6,
+      "nombre": "Syndra",
+      "partidas": 5,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.2222222222222223
+      "winrate": "100.0%",
+      "kda_promedio": 7.7272727272727275
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.619047619047619
     },
     {
       "nombre": "Akali",
@@ -70,13 +77,6 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.6923076923076925
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 7.111111111111111
     },
     {
       "nombre": "Orianna",
@@ -109,8 +109,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 52,
-    "wins": 35,
-    "losses": 17,
-    "timePlayed": 81815
+    "wins": 36,
+    "losses": 16,
+    "timePlayed": 82008
   }
 }

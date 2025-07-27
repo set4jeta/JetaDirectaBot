@@ -22,17 +22,17 @@
       "lp": 1346,
       "victorias": 413,
       "derrotas": 341,
-      "ultima_partida": 1753380152054
+      "ultima_partida": 1753455596981
     },
     {
       "nombre": "noobsuppp#noob",
       "nivel": 741,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 139,
+      "lp": 122,
       "victorias": 71,
-      "derrotas": 64,
-      "ultima_partida": 1753262872843
+      "derrotas": 65,
+      "ultima_partida": 1753447948149
     }
   ],
   "campeones_recientes": [
@@ -41,7 +41,7 @@
       "partidas": 17,
       "victorias": 9,
       "winrate": "52.9%",
-      "kda_promedio": 4.410958904109589
+      "kda_promedio": 4.285714285714286
     },
     {
       "nombre": "Rell",
@@ -58,18 +58,18 @@
       "kda_promedio": 10.142857142857142
     },
     {
-      "nombre": "Karma",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.428571428571429
-    },
-    {
       "nombre": "Nautilus",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
     },
     {
       "nombre": "Thresh",
@@ -93,14 +93,14 @@
       "kda_promedio": 6.5
     },
     {
-      "nombre": "Alistar",
+      "nombre": "KSante",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 1
     },
     {
-      "nombre": "KSante",
+      "nombre": "Lucian",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
+    "games": 49,
     "wins": 33,
-    "losses": 18,
-    "timePlayed": 81058
+    "losses": 16,
+    "timePlayed": 79525
   }
 }

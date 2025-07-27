@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Decay0#EUW",
-      "nivel": 1458,
+      "nivel": 1459,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1093,
+      "lp": 1014,
       "victorias": 533,
-      "derrotas": 484,
-      "ultima_partida": 1753372624949
+      "derrotas": 488,
+      "ultima_partida": 1753455486719
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Annie",
       "partidas": 17,
-      "victorias": 10,
-      "winrate": "58.8%",
-      "kda_promedio": 4.237288135593221
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 3.737704918032787
     },
     {
       "nombre": "Ahri",
@@ -69,18 +69,18 @@
       "kda_promedio": 0.9761904761904762
     },
     {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
       "nombre": "Sylas",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
       "kda_promedio": 2.4411764705882355
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.933333333333334
     },
     {
       "nombre": "Nautilus",
@@ -92,15 +92,15 @@
     {
       "nombre": "Taliyah",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.6875
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.92
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 87,
-    "wins": 44,
-    "losses": 43,
-    "timePlayed": 143270
+    "games": 88,
+    "wins": 41,
+    "losses": 47,
+    "timePlayed": 144721
   }
 }

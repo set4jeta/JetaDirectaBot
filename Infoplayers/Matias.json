@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "GW Matias#971",
-      "nivel": 976,
+      "nivel": 977,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1105,
-      "victorias": 501,
-      "derrotas": 459,
-      "ultima_partida": 1753394705562
+      "lp": 1054,
+      "victorias": 503,
+      "derrotas": 463,
+      "ultima_partida": 1753447241319
     },
     {
       "nombre": "matiaslaclasse#EUW",
@@ -62,10 +62,17 @@
     },
     {
       "nombre": "Aphelios",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9777777777777779
+      "winrate": "44.4%",
+      "kda_promedio": 1.8823529411764706
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.9310344827586206
     },
     {
       "nombre": "Yunara",
@@ -75,18 +82,11 @@
       "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Renekton",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.0526315789473686
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4285714285714284
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.4
     },
     {
       "nombre": "Kalista",
@@ -103,24 +103,24 @@
       "kda_promedio": 2.3076923076923075
     },
     {
-      "nombre": "Renekton",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.4
+      "nombre": "Ashe",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Corki",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 4
+      "kda_promedio": 2.5454545454545454
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 44,
-    "losses": 47,
-    "timePlayed": 139352
+    "games": 95,
+    "wins": 46,
+    "losses": 49,
+    "timePlayed": 145347
   }
 }

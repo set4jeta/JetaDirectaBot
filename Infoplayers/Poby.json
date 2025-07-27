@@ -16,17 +16,17 @@
       "nivel": 35,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 320,
-      "victorias": 39,
-      "derrotas": 5,
-      "ultima_partida": 1753385960500
+      "lp": 415,
+      "victorias": 44,
+      "derrotas": 6,
+      "ultima_partida": 1753477449044
     },
     {
       "nombre": "피오비와이#0207",
       "nivel": 322,
       "region": "KR",
       "liga": "MASTER I",
-      "lp": 270,
+      "lp": 195,
       "victorias": 271,
       "derrotas": 241,
       "ultima_partida": 1751729461947
@@ -35,31 +35,31 @@
   "campeones_recientes": [
     {
       "nombre": "Annie",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 8,
-      "winrate": "100.0%",
-      "kda_promedio": 5.714285714285714
-    },
-    {
-      "nombre": "Viktor",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 10.625
+      "winrate": "88.9%",
+      "kda_promedio": 5.08
     },
     {
       "nombre": "Azir",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 6.545454545454546
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 5.1
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 7.846153846153846
     },
     {
       "nombre": "Orianna",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 7.1
     },
     {
       "nombre": "Ryze",
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 39,
-    "losses": 5,
-    "timePlayed": 65226
+    "games": 50,
+    "wins": 44,
+    "losses": 6,
+    "timePlayed": 75158
   }
 }

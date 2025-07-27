@@ -19,10 +19,10 @@
       "nivel": 245,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1285,
-      "victorias": 213,
-      "derrotas": 168,
-      "ultima_partida": 1753369886934
+      "lp": 1284,
+      "victorias": 214,
+      "derrotas": 169,
+      "ultima_partida": 1753454580372
     },
     {
       "nombre": "xLinayaa#EUW",
@@ -79,18 +79,18 @@
       "kda_promedio": 2.2142857142857144
     },
     {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
       "nombre": "Gangplank",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.7777777777777777
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3
     },
     {
       "nombre": "Renekton",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
+    "games": 41,
     "wins": 21,
-    "losses": 19,
-    "timePlayed": 58303
+    "losses": 20,
+    "timePlayed": 59718
   }
 }

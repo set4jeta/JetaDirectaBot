@@ -19,10 +19,10 @@
       "nivel": 1394,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 930,
+      "lp": 887,
       "victorias": 300,
-      "derrotas": 260,
-      "ultima_partida": 1753358938842
+      "derrotas": 262,
+      "ultima_partida": 1753462506059
     }
   ],
   "campeones_recientes": [
@@ -34,18 +34,18 @@
       "kda_promedio": 3.933333333333333
     },
     {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1739130434782608
+    },
+    {
       "nombre": "Zac",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3846153846153846
     },
     {
       "nombre": "Poppy",
@@ -60,12 +60,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
+    "games": 14,
     "wins": 5,
-    "losses": 7,
-    "timePlayed": 18972
+    "losses": 9,
+    "timePlayed": 21605
   }
 }

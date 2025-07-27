@@ -8,31 +8,31 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/thebausffs\\t",
-      "twitch": "https://twitch.tv/thebausffs"
+      "twitch": "\\thttps://twitch.tv/thebausffs\\t"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/baus.webp",
     "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
   },
   "cuentas": [
     {
-      "nombre": "Thebausffs#COOL",
-      "nivel": 1791,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 339,
-      "victorias": 297,
-      "derrotas": 280,
-      "ultima_partida": 1753400658487
-    },
-    {
       "nombre": "Dangerous Dork#Lick",
       "nivel": 99,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 825,
-      "victorias": 278,
+      "lp": 865,
+      "victorias": 280,
       "derrotas": 227,
-      "ultima_partida": 1753394822937
+      "ultima_partida": 1753478047547
+    },
+    {
+      "nombre": "Thebausffs#COOL",
+      "nivel": 1792,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 379,
+      "victorias": 300,
+      "derrotas": 281,
+      "ultima_partida": 1753466890582
     },
     {
       "nombre": "Streaming Badboy#INT",
@@ -57,18 +57,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gragas",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 2.0538461538461537
+      "nombre": "Sion",
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 1.7014925373134329
     },
     {
-      "nombre": "Sion",
+      "nombre": "Gragas",
       "partidas": 15,
-      "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 1.6722689075630253
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 2.0661157024793386
     },
     {
       "nombre": "Poppy",
@@ -79,10 +79,10 @@
     },
     {
       "nombre": "Vi",
-      "partidas": 10,
+      "partidas": 9,
       "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 0.9444444444444444
+      "winrate": "33.3%",
+      "kda_promedio": 1.0434782608695652
     },
     {
       "nombre": "Kayn",
@@ -92,25 +92,18 @@
       "kda_promedio": 1.0657894736842106
     },
     {
+      "nombre": "Kennen",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.3777777777777778
+    },
+    {
       "nombre": "Chogath",
       "partidas": 6,
       "victorias": 2,
       "winrate": "33.3%",
       "kda_promedio": 1.098360655737705
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2045454545454546
-    },
-    {
-      "nombre": "Kennen",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 0.803921568627451
     },
     {
       "nombre": "Quinn",
@@ -120,17 +113,24 @@
       "kda_promedio": 2.441860465116279
     },
     {
-      "nombre": "Ambessa",
+      "nombre": "Jax",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 0.725
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.0625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 117,
-    "wins": 57,
-    "losses": 60,
-    "timePlayed": 197275
+    "games": 112,
+    "wins": 60,
+    "losses": 52,
+    "timePlayed": 187761
   }
 }

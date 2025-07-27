@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "pickaboowhatchu#doing",
+      "nivel": 248,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1103,
+      "victorias": 214,
+      "derrotas": 166,
+      "ultima_partida": 1753438483056
+    },
+    {
       "nombre": "ESCIK#EU1",
       "nivel": 801,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 254,
       "derrotas": 210,
       "ultima_partida": 1753389238777
-    },
-    {
-      "nombre": "pickaboowhatchu#doing",
-      "nivel": 248,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1084,
-      "victorias": 213,
-      "derrotas": 166,
-      "ultima_partida": 1753364216762
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.72
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.586206896551724
     },
     {
       "nombre": "Yone",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
-    "wins": 28,
+    "games": 54,
+    "wins": 29,
     "losses": 25,
-    "timePlayed": 84183
+    "timePlayed": 86073
   }
 }

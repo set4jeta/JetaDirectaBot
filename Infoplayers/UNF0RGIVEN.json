@@ -51,13 +51,6 @@
       "kda_promedio": 3.8333333333333335
     },
     {
-      "nombre": "Xayah",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.9
-    },
-    {
       "nombre": "Yunara",
       "partidas": 3,
       "victorias": 1,
@@ -86,6 +79,13 @@
       "kda_promedio": 11
     },
     {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.6
+    },
+    {
       "nombre": "XinZhao",
       "partidas": 2,
       "victorias": 0,
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
+    "games": 23,
     "wins": 7,
-    "losses": 17,
-    "timePlayed": 39102
+    "losses": 16,
+    "timePlayed": 37608
   }
 }

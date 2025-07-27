@@ -16,29 +16,22 @@
   "cuentas": [
     {
       "nombre": "Walid Georgey#EUW",
-      "nivel": 1020,
+      "nivel": 1021,
       "region": "EUW1",
       "liga": "CHALLENGER I",
       "lp": 1844,
       "victorias": 304,
       "derrotas": 227,
-      "ultima_partida": 1753375254991
+      "ultima_partida": 1753467669393
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 3.54
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.129032258064516
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.217391304347826
     },
     {
       "nombre": "Nautilus",
@@ -48,18 +41,18 @@
       "kda_promedio": 2.7037037037037037
     },
     {
+      "nombre": "Neeko",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
       "nombre": "Alistar",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.0625
     },
     {
       "nombre": "Lulu",
@@ -90,6 +83,13 @@
       "kda_promedio": 3.3333333333333335
     },
     {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
       "nombre": "Blitzcrank",
       "partidas": 1,
       "victorias": 1,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 23,
-    "losses": 18,
-    "timePlayed": 64490
+    "games": 37,
+    "wins": 20,
+    "losses": 17,
+    "timePlayed": 58378
   }
 }

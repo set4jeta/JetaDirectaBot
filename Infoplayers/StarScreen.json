@@ -19,10 +19,10 @@
       "nivel": 955,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 901,
-      "victorias": 518,
-      "derrotas": 481,
-      "ultima_partida": 1753362563851
+      "lp": 880,
+      "victorias": 519,
+      "derrotas": 483,
+      "ultima_partida": 1753439211532
     },
     {
       "nombre": "EL TURCO#1702",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Yorick",
-      "partidas": 13,
+      "partidas": 15,
       "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 2.607142857142857
+      "winrate": "53.3%",
+      "kda_promedio": 2.6153846153846154
     },
     {
       "nombre": "Gwen",
@@ -51,18 +51,18 @@
       "kda_promedio": 2.0579710144927534
     },
     {
-      "nombre": "Jayce",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.176470588235294
-    },
-    {
       "nombre": "Tryndamere",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
       "kda_promedio": 1.08
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Ambessa",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 32,
-    "losses": 28,
-    "timePlayed": 93240
+    "games": 62,
+    "wins": 33,
+    "losses": 29,
+    "timePlayed": 97551
   }
 }

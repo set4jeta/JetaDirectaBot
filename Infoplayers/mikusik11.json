@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "mikusik11#2012",
-      "nivel": 158,
+      "nivel": 159,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1135,
-      "victorias": 222,
+      "lp": 1175,
+      "victorias": 224,
       "derrotas": 162,
-      "ultima_partida": 1753397393163
+      "ultima_partida": 1753453948683
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 10,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 3.12
+      "winrate": "44.4%",
+      "kda_promedio": 3.441860465116279
     },
     {
       "nombre": "LeeSin",
       "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.6923076923076925
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.8974358974358974
     },
     {
       "nombre": "Kindred",
@@ -59,7 +59,7 @@
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 3.259259259259259
+      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Ekko",
@@ -76,31 +76,31 @@
       "kda_promedio": 1.608695652173913
     },
     {
-      "nombre": "Talon",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Belveth",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.5555555555555554
-    },
-    {
       "nombre": "Pantheon",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 62,
-    "wins": 31,
-    "losses": 31,
-    "timePlayed": 101515
+    "games": 57,
+    "wins": 29,
+    "losses": 28,
+    "timePlayed": 92929
   }
 }

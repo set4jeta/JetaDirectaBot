@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Hiragana#8888",
-      "nivel": 1078,
+      "nivel": 1079,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 954,
-      "victorias": 456,
-      "derrotas": 408,
-      "ultima_partida": 1753363466175
+      "lp": 971,
+      "victorias": 459,
+      "derrotas": 410,
+      "ultima_partida": 1753472700974
     }
   ],
   "campeones_recientes": [
@@ -35,17 +35,24 @@
     },
     {
       "nombre": "Alistar",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.736842105263158
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.048780487804878
     },
     {
       "nombre": "Rell",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5
+      "winrate": "60.0%",
+      "kda_promedio": 3.3461538461538463
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Bard",
@@ -62,11 +69,18 @@
       "kda_promedio": 12
     },
     {
-      "nombre": "Poppy",
+      "nombre": "Jhin",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.7777777777777777
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0555555555555554
     },
     {
       "nombre": "Rakan",
@@ -74,20 +88,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 12
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8888888888888888
     },
     {
       "nombre": "Maokai",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 21,
-    "losses": 18,
-    "timePlayed": 65647
+    "games": 44,
+    "wins": 24,
+    "losses": 20,
+    "timePlayed": 75049
   }
 }

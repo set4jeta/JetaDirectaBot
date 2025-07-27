@@ -47,13 +47,6 @@
       "kda_promedio": 1.25
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.6
-    },
-    {
       "nombre": "Fiora",
       "partidas": 1,
       "victorias": 0,
@@ -94,12 +87,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 6,
-    "losses": 15,
-    "timePlayed": 35544
+    "games": 19,
+    "wins": 5,
+    "losses": 14,
+    "timePlayed": 32817
   }
 }

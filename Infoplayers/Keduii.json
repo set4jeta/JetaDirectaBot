@@ -19,10 +19,10 @@
       "nivel": 1579,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1003,
-      "victorias": 634,
-      "derrotas": 595,
-      "ultima_partida": 1753392537177
+      "lp": 1002,
+      "victorias": 635,
+      "derrotas": 596,
+      "ultima_partida": 1753476883502
     },
     {
       "nombre": "202220222#EUW",
@@ -45,10 +45,10 @@
     },
     {
       "nombre": "Lucian",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 4.735849056603773
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 4.68
     },
     {
       "nombre": "Yunara",
@@ -58,18 +58,18 @@
       "kda_promedio": 3.1025641025641026
     },
     {
-      "nombre": "Xayah",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5517241379310347
-    },
-    {
       "nombre": "Ezreal",
       "partidas": 7,
       "victorias": 5,
       "winrate": "71.4%",
       "kda_promedio": 3.586206896551724
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Kaisa",
@@ -87,17 +87,10 @@
     },
     {
       "nombre": "Jhin",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 4.352941176470588
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.380952380952381
+      "winrate": "33.3%",
+      "kda_promedio": 4.833333333333333
     },
     {
       "nombre": "MissFortune",
@@ -105,12 +98,19 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.1739130434782608
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.846153846153846
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 90,
-    "wins": 51,
-    "losses": 39,
-    "timePlayed": 148520
+    "games": 86,
+    "wins": 50,
+    "losses": 36,
+    "timePlayed": 143639
   }
 }

@@ -8,12 +8,22 @@
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/xagog42",
-      "twitch": "https://twitch.tv/xagog005"
+      "twitch": "https://twitch.tv/xagog005\\t"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
     "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
   },
   "cuentas": [
+    {
+      "nombre": "decay arc#EUW",
+      "nivel": 105,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1287,
+      "victorias": 224,
+      "derrotas": 139,
+      "ultima_partida": 1753469960225
+    },
     {
       "nombre": "ANKARAI0MESSI#EUW",
       "nivel": 311,
@@ -22,17 +32,7 @@
       "lp": 45,
       "victorias": 9,
       "derrotas": 17,
-      "ultima_partida": 1753393331702
-    },
-    {
-      "nombre": "decay arc#EUW",
-      "nivel": 105,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1307,
-      "victorias": 224,
-      "derrotas": 138,
-      "ultima_partida": 1753389491932
+      "ultima_partida": 1753443652681
     },
     {
       "nombre": "Xagog#EUW",
@@ -54,18 +54,18 @@
       "kda_promedio": 3.3043478260869565
     },
     {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.896551724137931
+    },
+    {
       "nombre": "Pantheon",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 4.6875
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.590909090909091
     },
     {
       "nombre": "XinZhao",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
+    "games": 31,
     "wins": 17,
-    "losses": 13,
-    "timePlayed": 46321
+    "losses": 14,
+    "timePlayed": 48784
   }
 }

@@ -46,13 +46,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Sylas",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.52
-    },
-    {
       "nombre": "Yunara",
       "partidas": 4,
       "victorias": 1,
@@ -67,11 +60,11 @@
       "kda_promedio": 2.933333333333333
     },
     {
-      "nombre": "Ryze",
+      "nombre": "Sylas",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.75
+      "kda_promedio": 2.1333333333333333
     },
     {
       "nombre": "Taliyah",
@@ -102,24 +95,31 @@
       "kda_promedio": 2.142857142857143
     },
     {
-      "nombre": "Gragas",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1764705882352942
-    },
-    {
       "nombre": "Irelia",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4444444444444446
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 28,
-    "losses": 27,
-    "timePlayed": 90950
+    "games": 45,
+    "wins": 23,
+    "losses": 22,
+    "timePlayed": 73808
   }
 }

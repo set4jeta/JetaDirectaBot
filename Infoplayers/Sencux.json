@@ -12,6 +12,16 @@
   },
   "cuentas": [
     {
+      "nombre": "QloTrGeSdV#EUW",
+      "nivel": 378,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1184,
+      "victorias": 256,
+      "derrotas": 211,
+      "ultima_partida": 1753473042870
+    },
+    {
       "nombre": "Sencux#123",
       "nivel": 704,
       "region": "EUW1",
@@ -20,16 +30,6 @@
       "victorias": 190,
       "derrotas": 157,
       "ultima_partida": 1753382943661
-    },
-    {
-      "nombre": "QloTrGeSdV#EUW",
-      "nivel": 378,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1167,
-      "victorias": 254,
-      "derrotas": 210,
-      "ultima_partida": 1753276808371
     }
   ],
   "campeones_recientes": [
@@ -55,13 +55,6 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "TwistedFate",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.2
-    },
-    {
       "nombre": "Annie",
       "partidas": 3,
       "victorias": 1,
@@ -80,7 +73,7 @@
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.7857142857142856
+      "kda_promedio": 3.2
     },
     {
       "nombre": "Azir",
@@ -90,24 +83,31 @@
       "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Gangplank",
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "TwistedFate",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.8666666666666667
+      "kda_promedio": 5.5
     },
     {
-      "nombre": "Hwei",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8666666666666667
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 30,
-    "losses": 25,
-    "timePlayed": 89055
+    "games": 51,
+    "wins": 28,
+    "losses": 23,
+    "timePlayed": 83437
   }
 }

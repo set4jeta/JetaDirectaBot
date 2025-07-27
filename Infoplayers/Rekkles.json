@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "LR Rekkles#SUP",
-      "nivel": 181,
+      "nivel": 182,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 895,
-      "victorias": 172,
+      "lp": 915,
+      "victorias": 173,
       "derrotas": 142,
-      "ultima_partida": 1753434777072
+      "ultima_partida": 1753438506559
     },
     {
       "nombre": "LR Rekkles#LRAT",
@@ -99,18 +99,18 @@
       "kda_promedio": 5.615384615384615
     },
     {
+      "nombre": "Janna",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 11.166666666666666
+    },
+    {
       "nombre": "Braum",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 7.125
-    },
-    {
-      "nombre": "Janna",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 8.833333333333334
     },
     {
       "nombre": "Senna",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 84,
-    "wins": 51,
+    "games": 85,
+    "wins": 52,
     "losses": 33,
-    "timePlayed": 137347
+    "timePlayed": 138967
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Drututt#MAKS",
-      "nivel": 559,
+      "nivel": 560,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 996,
-      "victorias": 185,
-      "derrotas": 138,
-      "ultima_partida": 1753368046554
+      "lp": 1016,
+      "victorias": 189,
+      "derrotas": 141,
+      "ultima_partida": 1753453948683
     },
     {
       "nombre": "WINTER SOLIDER#AGAIN",
@@ -48,38 +48,45 @@
   "campeones_recientes": [
     {
       "nombre": "Akshan",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 6,
-      "winrate": "100.0%",
-      "kda_promedio": 3.1
+      "winrate": "85.7%",
+      "kda_promedio": 2.8285714285714287
     },
     {
       "nombre": "Jayce",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.103448275862069
+      "winrate": "57.1%",
+      "kda_promedio": 1.8108108108108107
     },
     {
       "nombre": "Vayne",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.2439024390243902
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.6
     },
     {
       "nombre": "Gwen",
-      "partidas": 4,
-      "victorias": 4,
+      "partidas": 5,
+      "victorias": 5,
       "winrate": "100.0%",
-      "kda_promedio": 3.7333333333333334
+      "kda_promedio": 4.125
     },
     {
       "nombre": "Camille",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Kaisa",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.111111111111111
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.076923076923077
     },
     {
       "nombre": "Briar",
@@ -87,13 +94,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.6842105263157894
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.1818181818181817
     },
     {
       "nombre": "Quinn",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 28,
-    "losses": 11,
-    "timePlayed": 65293
+    "games": 46,
+    "wins": 32,
+    "losses": 14,
+    "timePlayed": 75303
   }
 }

@@ -28,17 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 14,
-      "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 3.979591836734694
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.4411764705882355
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 3.739130434782609
     },
     {
       "nombre": "Ezreal",
@@ -46,6 +39,13 @@
       "victorias": 5,
       "winrate": "62.5%",
       "kda_promedio": 2.515151515151515
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.8666666666666667
     },
     {
       "nombre": "Jayce",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 79,
-    "wins": 38,
-    "losses": 41,
-    "timePlayed": 125316
+    "games": 75,
+    "wins": 35,
+    "losses": 40,
+    "timePlayed": 119444
   }
 }

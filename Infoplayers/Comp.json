@@ -19,10 +19,10 @@
       "nivel": 105,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1301,
-      "victorias": 439,
-      "derrotas": 331,
-      "ultima_partida": 1753398958330
+      "lp": 1298,
+      "victorias": 441,
+      "derrotas": 333,
+      "ultima_partida": 1753474519011
     },
     {
       "nombre": "Kite Machine#2015",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 26,
-      "victorias": 15,
-      "winrate": "57.7%",
-      "kda_promedio": 4.670731707317073
+      "partidas": 23,
+      "victorias": 12,
+      "winrate": "52.2%",
+      "kda_promedio": 4.4868421052631575
     },
     {
       "nombre": "Senna",
@@ -51,18 +51,11 @@
       "kda_promedio": 5
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.578947368421052
-    },
-    {
       "nombre": "Jhin",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 13
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 12.090909090909092
     },
     {
       "nombre": "Lux",
@@ -70,6 +63,20 @@
       "victorias": 4,
       "winrate": "66.7%",
       "kda_promedio": 3.9545454545454546
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2222222222222223
     },
     {
       "nombre": "Yunara",
@@ -86,31 +93,24 @@
       "kda_promedio": 5.866666666666666
     },
     {
-      "nombre": "Caitlyn",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.736842105263158
-    },
-    {
       "nombre": "Corki",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.588235294117647
+      "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Rakan",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.1333333333333333
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6153846153846154
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 108,
-    "wins": 55,
-    "losses": 53,
-    "timePlayed": 169131
+    "games": 105,
+    "wins": 51,
+    "losses": 54,
+    "timePlayed": 166004
   }
 }

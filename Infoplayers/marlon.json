@@ -71,13 +71,6 @@
       "kda_promedio": 2.0714285714285716
     },
     {
-      "nombre": "Nami",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 6.5
-    },
-    {
       "nombre": "Nautilus",
       "partidas": 2,
       "victorias": 0,
@@ -92,24 +85,31 @@
       "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
       "nombre": "Taliyah",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 25,
-    "losses": 27,
-    "timePlayed": 82481
+    "games": 49,
+    "wins": 23,
+    "losses": 26,
+    "timePlayed": 78182
   }
 }

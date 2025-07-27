@@ -37,18 +37,11 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.210526315789474
-    },
-    {
       "nombre": "Azir",
-      "partidas": 2,
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5
+      "winrate": "100.0%",
+      "kda_promedio": 1.875
     },
     {
       "nombre": "Galio",
@@ -80,9 +73,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 6,
-    "losses": 3,
-    "timePlayed": 14951
+    "games": 5,
+    "wins": 3,
+    "losses": 2,
+    "timePlayed": 8128
   }
 }

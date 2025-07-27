@@ -18,19 +18,26 @@
       "nivel": 586,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 778,
+      "lp": 738,
       "victorias": 362,
-      "derrotas": 318,
-      "ultima_partida": 1753357717491
+      "derrotas": 320,
+      "ultima_partida": 1753445798476
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Varus",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 1.8160919540229885
+      "winrate": "33.3%",
+      "kda_promedio": 1.8229166666666667
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 1.986842105263158
     },
     {
       "nombre": "Corki",
@@ -38,13 +45,6 @@
       "victorias": 7,
       "winrate": "70.0%",
       "kda_promedio": 2.869565217391304
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 1.9696969696969697
     },
     {
       "nombre": "Kaisa",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
+    "games": 55,
     "wins": 30,
-    "losses": 23,
-    "timePlayed": 85825
+    "losses": 25,
+    "timePlayed": 89725
   }
 }

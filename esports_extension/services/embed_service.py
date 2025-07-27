@@ -9,7 +9,7 @@ from typing import Optional
 class EmbedService:
     
     @staticmethod
-    async def create_live_match_embed(match: TrackedMatch, is_notification: bool = False) -> Embed:
+    async def create_live_match_embed(match: TrackedMatch, is_notification: bool = False) -> Optional[Embed]:
         
         tracked_game = None
         for g in reversed(match.trackedGames):
@@ -23,12 +23,9 @@ class EmbedService:
                 tracked_game = g
                 break
         if not tracked_game:
-            return Embed(title="No hay datos de juego en vivo")
-                        
-    
-        
-        
-        
+            print(f"[DEBUG] No hay juego en vivo para match_id={match.match_id}, league={match.league_name}")
+            return None
+
             
         blue_metadata = tracked_game.live_blue_metadata
         red_metadata = tracked_game.live_red_metadata

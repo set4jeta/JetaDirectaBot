@@ -16,32 +16,32 @@
   "cuentas": [
     {
       "nombre": "Suceur2Tentacule#VKOZ",
-      "nivel": 966,
+      "nivel": 967,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 788,
-      "victorias": 163,
-      "derrotas": 125,
-      "ultima_partida": 1753350891379
+      "lp": 802,
+      "victorias": 165,
+      "derrotas": 126,
+      "ultima_partida": 1753693575359
     },
     {
       "nombre": "Rhobebou#UwU",
       "nivel": 333,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 251,
-      "victorias": 117,
+      "lp": 269,
+      "victorias": 118,
       "derrotas": 101,
-      "ultima_partida": 1753285456605
+      "ultima_partida": 1753643393121
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Velkoz",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 1.9137931034482758
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.543859649122807
     },
     {
       "nombre": "Akshan",
@@ -53,9 +53,9 @@
     {
       "nombre": "Mel",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.75
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Zed",
@@ -63,20 +63,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.8
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Leblanc",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
     },
     {
       "nombre": "Lux",
@@ -108,9 +94,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
-    "wins": 14,
+    "games": 22,
+    "wins": 12,
     "losses": 10,
-    "timePlayed": 37111
+    "timePlayed": 35357
   }
 }

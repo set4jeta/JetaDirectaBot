@@ -15,6 +15,26 @@
   },
   "cuentas": [
     {
+      "nombre": "No Life is Enoug#YLA",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 122,
+      "victorias": 199,
+      "derrotas": 192,
+      "ultima_partida": 1753736662904
+    },
+    {
+      "nombre": "Algerian Keria#213",
+      "nivel": 42,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 150,
+      "victorias": 39,
+      "derrotas": 22,
+      "ultima_partida": 1753560123852
+    },
+    {
       "nombre": "KC NEXT SUP KING#KCWIN",
       "nivel": 745,
       "region": "EUW1",
@@ -22,37 +42,10 @@
       "lp": 812,
       "victorias": 393,
       "derrotas": 368,
-      "ultima_partida": 1753457264988
-    },
-    {
-      "nombre": "No Life is Enoug#YLA",
-      "nivel": 146,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 41,
-      "victorias": 189,
-      "derrotas": 185,
-      "ultima_partida": 1753444038137
-    },
-    {
-      "nombre": "Algerian Keria#213",
-      "nivel": 41,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 65,
-      "victorias": 34,
-      "derrotas": 21,
-      "ultima_partida": 1753285196621
+      "ultima_partida": 1753554088942
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Bard",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 6.541666666666667
-    },
     {
       "nombre": "Alistar",
       "partidas": 6,
@@ -61,11 +54,11 @@
       "kda_promedio": 4.230769230769231
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Bard",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.657142857142857
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 6.75
     },
     {
       "nombre": "Neeko",
@@ -76,10 +69,17 @@
     },
     {
       "nombre": "Senna",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.189189189189189
+      "winrate": "33.3%",
+      "kda_promedio": 2.533333333333333
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.962962962962963
     },
     {
       "nombre": "Poppy",
@@ -89,11 +89,11 @@
       "kda_promedio": 2.2333333333333334
     },
     {
-      "nombre": "Rell",
-      "partidas": 4,
+      "nombre": "Rakan",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.217391304347826
+      "winrate": "66.7%",
+      "kda_promedio": 5.7
     },
     {
       "nombre": "Jayce",
@@ -103,24 +103,24 @@
       "kda_promedio": 2.5454545454545454
     },
     {
-      "nombre": "Karma",
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Jinx",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.8181818181818183
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4166666666666667
+      "kda_promedio": 2.111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 26,
-    "losses": 24,
-    "timePlayed": 84478
+    "games": 64,
+    "wins": 38,
+    "losses": 26,
+    "timePlayed": 106494
   }
 }

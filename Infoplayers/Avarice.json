@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Avarice",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/avarice61",
+      "twitch": "https://www.twitch.tv/avarice61"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Greed#1031",
+      "nivel": 111,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1285,
+      "victorias": 234,
+      "derrotas": 192,
+      "ultima_partida": 1753645223496
+    },
+    {
+      "nombre": "avarice61#PCS",
+      "nivel": 889,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1311,
+      "victorias": 247,
+      "derrotas": 192,
+      "ultima_partida": 1753559504160
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KogMaw",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6129032258064515
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.571428571428571
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 25,
+    "losses": 25,
+    "timePlayed": 82128
+  }
+}

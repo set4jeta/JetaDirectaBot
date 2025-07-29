@@ -16,63 +16,43 @@
   "cuentas": [
     {
       "nombre": "Skream#ZZZ",
-      "nivel": 724,
-      "liga": "MASTER I",
-      "lp": 729,
-      "victorias": 231,
-      "derrotas": 206,
-      "ultima_partida": 1753289091482
+      "nivel": 725,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 807,
+      "victorias": 239,
+      "derrotas": 210,
+      "ultima_partida": 1753627203171
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Jhin",
-      "partidas": 12,
+      "nombre": "Yunara",
+      "partidas": 13,
       "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.7567567567567566
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 4.095238095238095
+      "winrate": "61.5%",
+      "kda_promedio": 2.3375
     },
     {
       "nombre": "Ezreal",
-      "partidas": 10,
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 3.810810810810811
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.5901639344262297
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.0232558139534884
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.361111111111111
+      "winrate": "66.7%",
+      "kda_promedio": 5.466666666666667
     },
     {
       "nombre": "Aphelios",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.72
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5517241379310345
     },
     {
       "nombre": "Caitlyn",
@@ -82,24 +62,45 @@
       "kda_promedio": 3.1904761904761907
     },
     {
-      "nombre": "Tristana",
+      "nombre": "Lucian",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 4.588235294117647
+      "kda_promedio": 2.227272727272727
     },
     {
-      "nombre": "Zeri",
-      "partidas": 4,
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3157894736842106
+      "winrate": "66.7%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 90,
-    "wins": 55,
-    "losses": 35,
-    "timePlayed": 148274
+    "games": 63,
+    "wins": 37,
+    "losses": 26,
+    "timePlayed": 99903
   }
 }

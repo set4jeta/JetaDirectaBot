@@ -21,16 +21,16 @@
       "lp": 1248,
       "victorias": 890,
       "derrotas": 829,
-      "ultima_partida": 1753484666636
+      "ultima_partida": 1753743762413
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 14,
-      "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4150943396226414
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.5538461538461537
     },
     {
       "nombre": "Nami",
@@ -38,13 +38,6 @@
       "victorias": 5,
       "winrate": "62.5%",
       "kda_promedio": 3.2708333333333335
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.3658536585365852
     },
     {
       "nombre": "Braum",
@@ -61,11 +54,11 @@
       "kda_promedio": 2.95
     },
     {
-      "nombre": "Elise",
+      "nombre": "Pantheon",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1176470588235294
+      "kda_promedio": 1.7692307692307692
     },
     {
       "nombre": "Alistar",
@@ -73,6 +66,13 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     },
     {
       "nombre": "Karma",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 22,
-    "losses": 19,
-    "timePlayed": 66307
+    "games": 32,
+    "wins": 19,
+    "losses": 13,
+    "timePlayed": 49814
   }
 }

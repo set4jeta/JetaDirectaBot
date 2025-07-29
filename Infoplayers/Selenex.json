@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "마지막 시도#XVVII",
-      "nivel": 1097,
+      "nivel": 1098,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1262,
-      "victorias": 513,
+      "lp": 1331,
+      "victorias": 517,
       "derrotas": 465,
-      "ultima_partida": 1753447208044
+      "ultima_partida": 1753696161646
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Gragas",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.6923076923076925
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 10.4
     },
     {
       "nombre": "Aurora",
@@ -39,6 +39,20 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 5.571428571428571
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Akali",
@@ -62,31 +76,17 @@
       "kda_promedio": 1.5
     },
     {
-      "nombre": "Jayce",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
       "nombre": "Rumble",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 9,
-    "losses": 4,
-    "timePlayed": 23569
+    "games": 14,
+    "wins": 11,
+    "losses": 3,
+    "timePlayed": 24582
   }
 }

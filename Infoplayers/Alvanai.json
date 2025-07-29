@@ -47,31 +47,17 @@
   "campeones_recientes": [
     {
       "nombre": "Ryze",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 4
+      "winrate": "75.0%",
+      "kda_promedio": 3.823529411764706
     },
     {
       "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.40625
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 3.121212121212121
-    },
-    {
-      "nombre": "Yone",
       "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 2.1818181818181817
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.4285714285714284
     },
     {
       "nombre": "Azir",
@@ -81,11 +67,11 @@
       "kda_promedio": 3.5416666666666665
     },
     {
-      "nombre": "Vladimir",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.466666666666667
     },
     {
       "nombre": "Sylas",
@@ -95,6 +81,13 @@
       "kda_promedio": 4.636363636363637
     },
     {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
       "nombre": "Aurora",
       "partidas": 2,
       "victorias": 1,
@@ -102,24 +95,31 @@
       "kda_promedio": 21
     },
     {
-      "nombre": "Akali",
+      "nombre": "KogMaw",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.666666666666667
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.5
     },
     {
-      "nombre": "Blitzcrank",
+      "nombre": "Sejuani",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Yunara",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 6.2
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 30,
-    "losses": 19,
-    "timePlayed": 79636
+    "games": 32,
+    "wins": 23,
+    "losses": 9,
+    "timePlayed": 51036
   }
 }

@@ -16,39 +16,32 @@
   "cuentas": [
     {
       "nombre": "Furuy#EUW",
-      "nivel": 1070,
+      "nivel": 1071,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 849,
-      "victorias": 224,
-      "derrotas": 195,
-      "ultima_partida": 1753524157822
+      "lp": 818,
+      "victorias": 227,
+      "derrotas": 199,
+      "ultima_partida": 1753717758414
     },
     {
       "nombre": "Berry Bulk#BULK",
-      "nivel": 316,
+      "nivel": 317,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1052,
-      "victorias": 199,
+      "lp": 1070,
+      "victorias": 200,
       "derrotas": 151,
-      "ultima_partida": 1753468545951
+      "ultima_partida": 1753612996528
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 4.814814814814815
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.739130434782609
+      "winrate": "66.7%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Ziggs",
@@ -56,6 +49,20 @@
       "victorias": 4,
       "winrate": "66.7%",
       "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.157894736842105
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5.428571428571429
     },
     {
       "nombre": "Azir",
@@ -69,14 +76,7 @@
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 2.0526315789473686
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 5.2
+      "kda_promedio": 1.9285714285714286
     },
     {
       "nombre": "Annie",
@@ -93,24 +93,24 @@
       "kda_promedio": 10.5
     },
     {
-      "nombre": "Hwei",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 6.75
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.785714285714286
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 41,
-    "losses": 25,
-    "timePlayed": 104688
+    "games": 61,
+    "wins": 37,
+    "losses": 24,
+    "timePlayed": 97599
   }
 }

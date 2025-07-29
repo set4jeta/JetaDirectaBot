@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "fubgun#exile",
-      "nivel": 969,
+      "nivel": 973,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 722,
-      "victorias": 229,
-      "derrotas": 211,
-      "ultima_partida": 1753477195613
+      "lp": 802,
+      "victorias": 247,
+      "derrotas": 224,
+      "ultima_partida": 1753747652901
     },
     {
       "nombre": "Jeonkook#EUW",
@@ -37,80 +37,80 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Mel",
-      "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 2.136986301369863
+      "nombre": "Tristana",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.1578947368421053
     },
     {
       "nombre": "Azir",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 1.9636363636363636
+      "winrate": "54.5%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "TwistedFate",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.6956521739130435
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.980769230769231
     },
     {
       "nombre": "Yunara",
-      "partidas": 9,
+      "partidas": 11,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.3728813559322033
+      "winrate": "45.5%",
+      "kda_promedio": 1.853658536585366
     },
     {
-      "nombre": "Tristana",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3863636363636362
+      "nombre": "Mel",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Ryze",
       "partidas": 7,
       "victorias": 2,
       "winrate": "28.6%",
-      "kda_promedio": 2.9705882352941178
+      "kda_promedio": 3.28125
     },
     {
-      "nombre": "Ahri",
+      "nombre": "Ambessa",
       "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3.1785714285714284
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.878787878787879
     },
     {
       "nombre": "Aurora",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 3.6
     },
     {
-      "nombre": "Ambessa",
+      "nombre": "Orianna",
       "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.5757575757575757
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.129032258064516
+      "winrate": "50.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 110,
-    "wins": 55,
-    "losses": 55,
-    "timePlayed": 171278
+    "games": 125,
+    "wins": 66,
+    "losses": 59,
+    "timePlayed": 195550
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "HARD RICO#EUW12",
-      "nivel": 436,
+      "nivel": 437,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 232,
-      "victorias": 139,
+      "lp": 322,
+      "victorias": 142,
       "derrotas": 96,
-      "ultima_partida": 1753409215873
+      "ultima_partida": 1753672396999
     },
     {
       "nombre": "NIP Freeze#cze",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7894736842105263
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3846153846153846
     },
     {
       "nombre": "Senna",
@@ -62,10 +62,10 @@
     },
     {
       "nombre": "Aphelios",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8181818181818183
     },
     {
       "nombre": "Corki",
@@ -80,6 +80,13 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 7
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
     },
     {
       "nombre": "Nautilus",
@@ -97,9 +104,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
-    "wins": 5,
+    "games": 14,
+    "wins": 8,
     "losses": 6,
-    "timePlayed": 17001
+    "timePlayed": 22129
   }
 }

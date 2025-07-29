@@ -275,18 +275,6 @@ class EsportsCommands(commands.Cog):
 
 
 
-    @commands.command(name="testapi", help="Testea la conexión con lolesports-ink")
-    async def testapi(self, ctx):
-        try:
-            data = firestore_query_matches()
-            print("Respuesta Firestore:", data)  # <--- Agrega esto para ver la respuesta real en consola
-            if data and "documents" in data:
-                await ctx.send(f"✅ Conexión exitosa. Documentos recibidos: {len(data['documents'])}")
-            else:
-                await ctx.send("⚠️ Conectado, pero no se encontraron documentos o respuesta inesperada.")
-        except Exception as e:
-            await ctx.send(f"❌ Error al conectar con lolesports-ink:\n`{str(e)}`")
-            
 
 
 async def setup(bot):

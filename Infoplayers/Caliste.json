@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "KC NEXT ADKING#EUW",
-      "nivel": 668,
+      "nivel": 669,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1862,
-      "victorias": 301,
-      "derrotas": 208,
-      "ultima_partida": 1753563898608
+      "lp": 1851,
+      "victorias": 303,
+      "derrotas": 210,
+      "ultima_partida": 1753733055314
     },
     {
       "nombre": "I NEED SOLOQ#EUW",
-      "nivel": 227,
+      "nivel": 228,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 830,
-      "victorias": 137,
-      "derrotas": 74,
-      "ultima_partida": 1753438506559
+      "lp": 823,
+      "victorias": 139,
+      "derrotas": 77,
+      "ultima_partida": 1753641224052
     },
     {
       "nombre": "KC Caliste#0001",
@@ -48,66 +48,52 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 14,
-      "victorias": 10,
-      "winrate": "71.4%",
-      "kda_promedio": 4.035087719298246
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 4.1
     },
     {
       "nombre": "Aphelios",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.764705882352941
+    },
+    {
+      "nombre": "Corki",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 2.3181818181818183
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 3.9
+      "kda_promedio": 4
     },
     {
       "nombre": "Lucian",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.583333333333333
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4
+      "kda_promedio": 3.3636363636363638
     },
     {
       "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5238095238095237
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.181818181818182
+    },
+    {
+      "nombre": "Kaisa",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.625
-    },
-    {
-      "nombre": "Caitlyn",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.75
+      "kda_promedio": 4.25
     },
     {
       "nombre": "KSante",
@@ -115,12 +101,26 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.571428571428571
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
+    "games": 56,
     "wins": 35,
-    "losses": 22,
-    "timePlayed": 88530
+    "losses": 21,
+    "timePlayed": 88868
   }
 }

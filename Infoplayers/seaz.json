@@ -19,20 +19,20 @@
       "nivel": 308,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 974,
-      "victorias": 302,
-      "derrotas": 262,
-      "ultima_partida": 1753387697899
+      "lp": 983,
+      "victorias": 304,
+      "derrotas": 263,
+      "ultima_partida": 1753700419911
     },
     {
       "nombre": "PLUTO#1589",
-      "nivel": 757,
+      "nivel": 758,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1228,
-      "victorias": 173,
-      "derrotas": 114,
-      "ultima_partida": 1753179940056
+      "lp": 1058,
+      "victorias": 178,
+      "derrotas": 126,
+      "ultima_partida": 1753611335955
     },
     {
       "nombre": "blq#EUW",
@@ -54,32 +54,60 @@
       "kda_promedio": 13.75
     },
     {
-      "nombre": "Neeko",
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.1333333333333333
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9047619047619047
+    },
+    {
+      "nombre": "Lulu",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.444444444444445
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6.6
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 8.428571428571429
     },
     {
       "nombre": "Rell",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.444444444444445
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5
     },
     {
-      "nombre": "Blitzcrank",
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.9166666666666665
+    },
+    {
+      "nombre": "Neeko",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.7142857142857142
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 7.2
+      "kda_promedio": 2.5714285714285716
     },
     {
       "nombre": "Nidalee",
@@ -87,40 +115,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.4
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 10
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.666666666666667
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9.5
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.9166666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 27,
-    "wins": 18,
-    "losses": 9,
-    "timePlayed": 44111
+    "games": 40,
+    "wins": 20,
+    "losses": 20,
+    "timePlayed": 67823
   }
 }

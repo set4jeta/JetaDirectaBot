@@ -35,24 +35,17 @@
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 15,
-      "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 3.183098591549296
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.838709677419355
     },
     {
       "nombre": "Yasuo",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 1.8529411764705883
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 10
+      "winrate": "66.7%",
+      "kda_promedio": 1.7307692307692308
     },
     {
       "nombre": "Camille",
@@ -83,6 +76,13 @@
       "kda_promedio": 1
     },
     {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
       "nombre": "Nidalee",
       "partidas": 1,
       "victorias": 1,
@@ -105,9 +105,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 18,
+    "games": 28,
+    "wins": 14,
     "losses": 14,
-    "timePlayed": 52656
+    "timePlayed": 45764
   }
 }

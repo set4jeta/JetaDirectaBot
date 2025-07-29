@@ -16,67 +16,67 @@
   "cuentas": [
     {
       "nombre": "Yami Sukehiro#3309",
-      "nivel": 105,
+      "nivel": 108,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1298,
-      "victorias": 441,
-      "derrotas": 333,
-      "ultima_partida": 1753474519011
+      "lp": 1316,
+      "victorias": 454,
+      "derrotas": 343,
+      "ultima_partida": 1753738913708
     },
     {
       "nombre": "Kite Machine#2015",
-      "nivel": 894,
+      "nivel": 895,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 129,
+      "liga": "DIAMOND I",
+      "lp": 65,
       "victorias": 111,
-      "derrotas": 101,
-      "ultima_partida": 1752017548997
+      "derrotas": 102,
+      "ultima_partida": 1753636991329
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 23,
-      "victorias": 12,
-      "winrate": "52.2%",
-      "kda_promedio": 4.4868421052631575
+      "partidas": 25,
+      "victorias": 13,
+      "winrate": "52.0%",
+      "kda_promedio": 4.676056338028169
     },
     {
       "nombre": "Senna",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
       "kda_promedio": 5
     },
     {
       "nombre": "Jhin",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 12.090909090909092
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 8.476190476190476
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 6.2631578947368425
     },
     {
       "nombre": "Lux",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.9545454545454546
-    },
-    {
-      "nombre": "Ezreal",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.666666666666667
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5833333333333335
     },
     {
       "nombre": "Rakan",
       "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.2222222222222223
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.588235294117647
     },
     {
       "nombre": "Yunara",
@@ -86,31 +86,31 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.866666666666666
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.214285714285714
     },
     {
-      "nombre": "Corki",
+      "nombre": "Lucian",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 3.1333333333333333
     },
     {
-      "nombre": "Caitlyn",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6153846153846154
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 9.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 51,
-    "losses": 54,
-    "timePlayed": 166004
+    "games": 111,
+    "wins": 55,
+    "losses": 56,
+    "timePlayed": 174557
   }
 }

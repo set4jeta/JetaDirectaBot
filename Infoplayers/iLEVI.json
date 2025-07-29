@@ -16,36 +16,29 @@
   "cuentas": [
     {
       "nombre": "ALBANIAN#iLevi",
-      "nivel": 806,
+      "nivel": 807,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1382,
-      "victorias": 359,
-      "derrotas": 307,
-      "ultima_partida": 1753550801660
+      "lp": 1413,
+      "victorias": 363,
+      "derrotas": 309,
+      "ultima_partida": 1753721494127
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Pyke",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.1375
+      "winrate": "41.7%",
+      "kda_promedio": 2.2134831460674156
     },
     {
       "nombre": "Rell",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.490566037735849
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.5
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.672727272727273
     },
     {
       "nombre": "Braum",
@@ -62,18 +55,18 @@
       "kda_promedio": 2.45
     },
     {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
       "nombre": "Leona",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.0833333333333335
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
     },
     {
       "nombre": "Elise",
@@ -90,6 +83,13 @@
       "kda_promedio": 1.125
     },
     {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    },
+    {
       "nombre": "Soraka",
       "partidas": 1,
       "victorias": 1,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
-    "wins": 21,
-    "losses": 16,
-    "timePlayed": 61533
+    "games": 38,
+    "wins": 23,
+    "losses": 15,
+    "timePlayed": 63705
   }
 }

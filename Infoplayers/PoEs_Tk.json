@@ -14,47 +14,40 @@
   },
   "cuentas": [
     {
-      "nombre": "Po3s#Tilt",
-      "nivel": 180,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 624,
-      "victorias": 131,
-      "derrotas": 105,
-      "ultima_partida": 1753455533795
-    },
-    {
       "nombre": "PoEs tk#EUW",
-      "nivel": 575,
+      "nivel": 578,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1155,
-      "victorias": 499,
-      "derrotas": 454,
-      "ultima_partida": 1753395667067
+      "lp": 1106,
+      "victorias": 508,
+      "derrotas": 465,
+      "ultima_partida": 1753755960769
+    },
+    {
+      "nombre": "Po3s#Tilt",
+      "nivel": 181,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 643,
+      "victorias": 134,
+      "derrotas": 107,
+      "ultima_partida": 1753663440115
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Riven",
-      "partidas": 77,
-      "victorias": 47,
-      "winrate": "61.0%",
-      "kda_promedio": 2.6588235294117646
+      "partidas": 89,
+      "victorias": 52,
+      "winrate": "58.4%",
+      "kda_promedio": 2.52
     },
     {
       "nombre": "Ambessa",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.25
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9268292682926829
     },
     {
       "nombre": "MonkeyKing",
@@ -72,9 +65,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 87,
-    "wins": 53,
-    "losses": 34,
-    "timePlayed": 147575
+    "games": 101,
+    "wins": 56,
+    "losses": 45,
+    "timePlayed": 166383
   }
 }

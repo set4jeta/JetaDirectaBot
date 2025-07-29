@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Vetheo",
     "nombre_real": "Vincent Berrié",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Vitality.Bee",
     "pais": "France",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Percy Magic#1234",
-      "nivel": 894,
+      "nivel": 897,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 970,
-      "victorias": 211,
-      "derrotas": 168,
-      "ultima_partida": 1753478000521
+      "liga": "CHALLENGER I",
+      "lp": 1131,
+      "victorias": 229,
+      "derrotas": 178,
+      "ultima_partida": 1753740974699
     },
     {
       "nombre": "Vetheø#4321",
@@ -32,17 +32,7 @@
       "lp": 75,
       "victorias": 451,
       "derrotas": 386,
-      "ultima_partida": 1748004704273
-    },
-    {
-      "nombre": "Oriøn#soloq",
-      "nivel": 49,
-      "region": "EUW1",
-      "liga": "Unranked",
-      "lp": null,
-      "victorias": null,
-      "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1753531798011
     },
     {
       "nombre": "Atlas#KRKR",
@@ -53,64 +43,67 @@
       "victorias": null,
       "derrotas": null,
       "ultima_partida": null
+    },
+    {
+      "nombre": "Oriøn#soloq",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ryze",
-      "partidas": 22,
-      "victorias": 15,
-      "winrate": "68.2%",
-      "kda_promedio": 3.857142857142857
+      "partidas": 29,
+      "victorias": 20,
+      "winrate": "69.0%",
+      "kda_promedio": 3.78494623655914
     },
     {
       "nombre": "Azir",
       "partidas": 19,
-      "victorias": 10,
-      "winrate": "52.6%",
-      "kda_promedio": 2.8266666666666667
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 3.125
     },
     {
       "nombre": "Aurora",
-      "partidas": 13,
+      "partidas": 12,
       "victorias": 5,
-      "winrate": "38.5%",
-      "kda_promedio": 2.857142857142857
+      "winrate": "41.7%",
+      "kda_promedio": 2.764705882352941
     },
     {
       "nombre": "Annie",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.9655172413793105
-    },
-    {
-      "nombre": "Taliyah",
       "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 4.470588235294118
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.043478260869565
     },
     {
       "nombre": "Orianna",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.380952380952381
+    },
+    {
+      "nombre": "Taliyah",
       "partidas": 6,
       "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 4.75
+      "kda_promedio": 2.925925925925926
     },
     {
-      "nombre": "TwistedFate",
+      "nombre": "Ziggs",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.153846153846154
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.125
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.647058823529412
     },
     {
       "nombre": "Smolder",
@@ -120,17 +113,24 @@
       "kda_promedio": 2.310344827586207
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.357142857142857
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.230769230769231
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 121,
-    "wins": 63,
-    "losses": 58,
-    "timePlayed": 191441
+    "games": 123,
+    "wins": 68,
+    "losses": 55,
+    "timePlayed": 194414
   }
 }

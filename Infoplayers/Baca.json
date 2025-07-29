@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Zhuo Ding#ARC",
-      "nivel": 994,
+      "nivel": 995,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1002,
-      "victorias": 384,
-      "derrotas": 349,
-      "ultima_partida": 1753439211532
+      "lp": 990,
+      "victorias": 387,
+      "derrotas": 353,
+      "ultima_partida": 1753740746504
     },
     {
       "nombre": "Vera Xavier#EUW",
@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Orianna",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 4.423076923076923
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 8,
-      "victorias": 4,
       "winrate": "50.0%",
-      "kda_promedio": 2.688888888888889
+      "kda_promedio": 3.903225806451613
     },
     {
       "nombre": "Annie",
@@ -58,18 +51,32 @@
       "kda_promedio": 3.2857142857142856
     },
     {
-      "nombre": "Taliyah",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 7
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
     },
     {
-      "nombre": "Viktor",
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.818181818181818
+    },
+    {
+      "nombre": "Taliyah",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 5
+      "kda_promedio": 3.1538461538461537
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7777777777777777
     },
     {
       "nombre": "Azir",
@@ -79,38 +86,31 @@
       "kda_promedio": 2.4
     },
     {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
       "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9230769230769231
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.166666666666667
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.066666666666667
-    },
-    {
-      "nombre": "Ahri",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.8
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 24,
-    "losses": 21,
-    "timePlayed": 73592
+    "games": 41,
+    "wins": 22,
+    "losses": 19,
+    "timePlayed": 66968
   }
 }

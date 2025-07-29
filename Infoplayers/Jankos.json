@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "CantMissAuto#Qxdd",
-      "nivel": 67,
-      "region": "EUN1",
-      "liga": "Unranked",
-      "lp": null,
-      "victorias": null,
-      "derrotas": null,
-      "ultima_partida": 1753532384293
+      "nivel": 113,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 448,
+      "victorias": 256,
+      "derrotas": 225,
+      "ultima_partida": 1753723836527
     },
     {
       "nombre": "Jankos#MYBAD",
-      "nivel": 1059,
+      "nivel": 1060,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1054,
-      "victorias": 349,
-      "derrotas": 303,
-      "ultima_partida": 1752920744179
+      "liga": "GRANDMASTER I",
+      "lp": 1036,
+      "victorias": 355,
+      "derrotas": 309,
+      "ultima_partida": 1753637778782
     },
     {
       "nombre": "Brickwall#big",
@@ -48,31 +48,45 @@
   "campeones_recientes": [
     {
       "nombre": "Nidalee",
-      "partidas": 14,
-      "victorias": 10,
-      "winrate": "71.4%",
-      "kda_promedio": 3.8840579710144927
+      "partidas": 16,
+      "victorias": 11,
+      "winrate": "68.8%",
+      "kda_promedio": 4.070422535211268
     },
     {
       "nombre": "LeeSin",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 3.8275862068965516
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Viego",
-      "partidas": 8,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.469387755102041
+      "partidas": 10,
+      "victorias": 2,
+      "winrate": "20.0%",
+      "kda_promedio": 1.894736842105263
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.631578947368421
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8823529411764706
     },
     {
       "nombre": "JarvanIV",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.5555555555555554
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2380952380952381
     },
     {
       "nombre": "Nocturne",
@@ -82,25 +96,18 @@
       "kda_promedio": 7
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Poppy",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.4210526315789473
+      "kda_promedio": 4
     },
     {
       "nombre": "Zed",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 5.6
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5454545454545454
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9473684210526314
     },
     {
       "nombre": "Fizz",
@@ -108,19 +115,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5333333333333334
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 36,
-    "losses": 35,
-    "timePlayed": 116729
+    "games": 81,
+    "wins": 41,
+    "losses": 40,
+    "timePlayed": 131660
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "eeZaZ#333",
-      "nivel": 621,
+      "nivel": 622,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1059,
-      "victorias": 469,
-      "derrotas": 427,
-      "ultima_partida": 1753466708608
+      "lp": 955,
+      "victorias": 476,
+      "derrotas": 438,
+      "ultima_partida": 1753742504267
     },
     {
       "nombre": "SGE ZaZee#SGEJP",
@@ -38,24 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Annie",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.489795918367347
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.253968253968254
     },
     {
-      "nombre": "Viktor",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Orianna",
+      "nombre": "Aurora",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9666666666666666
     },
     {
       "nombre": "Syndra",
@@ -65,25 +58,25 @@
       "kda_promedio": 2.3461538461538463
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Nautilus",
       "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
-      "kda_promedio": 1.96
+      "kda_promedio": 1.4146341463414633
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6818181818181817
+    },
+    {
+      "nombre": "Ziggs",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 2.230769230769231
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4761904761904763
+      "kda_promedio": 2.36
     },
     {
       "nombre": "Jhin",
@@ -93,24 +86,31 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Ryze",
+      "nombre": "Leblanc",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5185185185185186
+    },
+    {
+      "nombre": "Orianna",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 6.888888888888889
+      "kda_promedio": 3.0454545454545454
     },
     {
-      "nombre": "Yone",
+      "nombre": "Viktor",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0588235294117645
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8823529411764706
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 78,
-    "wins": 43,
-    "losses": 35,
-    "timePlayed": 124084
+    "games": 76,
+    "wins": 42,
+    "losses": 34,
+    "timePlayed": 119597
   }
 }

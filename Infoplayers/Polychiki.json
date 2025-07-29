@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "Snoop Dogg#PLYCK",
-      "nivel": 1395,
+      "nivel": 1396,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 887,
-      "victorias": 300,
-      "derrotas": 262,
-      "ultima_partida": 1753564455318
+      "lp": 899,
+      "victorias": 302,
+      "derrotas": 263,
+      "ultima_partida": 1753733032378
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rakan",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.933333333333333
+      "winrate": "60.0%",
+      "kda_promedio": 3.0416666666666665
     },
     {
       "nombre": "Zac",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.652173913043478
     },
     {
       "nombre": "Nautilus",
@@ -48,31 +48,17 @@
       "kda_promedio": 1.3529411764705883
     },
     {
-      "nombre": "Blitzcrank",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.9090909090909092
-    },
-    {
       "nombre": "Lulu",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
-    "wins": 3,
-    "losses": 9,
-    "timePlayed": 18185
+    "games": 13,
+    "wins": 5,
+    "losses": 8,
+    "timePlayed": 19220
   }
 }

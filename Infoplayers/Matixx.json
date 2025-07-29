@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Matixx#EUW",
-      "nivel": 704,
+      "nivel": 707,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 825,
-      "victorias": 478,
-      "derrotas": 425,
-      "ultima_partida": 1753459697229
+      "lp": 807,
+      "victorias": 488,
+      "derrotas": 436,
+      "ultima_partida": 1753726018823
     },
     {
       "nombre": "memento mori#EUW0",
@@ -41,21 +41,28 @@
       "partidas": 12,
       "victorias": 6,
       "winrate": "50.0%",
-      "kda_promedio": 1.4303797468354431
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 1.190909090909091
+      "kda_promedio": 1.4871794871794872
     },
     {
       "nombre": "Jax",
-      "partidas": 9,
+      "partidas": 11,
       "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.7872340425531914
+      "winrate": "36.4%",
+      "kda_promedio": 1.6612903225806452
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.19672131147541
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2307692307692308
     },
     {
       "nombre": "Ornn",
@@ -65,52 +72,45 @@
       "kda_promedio": 3.793103448275862
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.090909090909091
-    },
-    {
       "nombre": "Renekton",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.225
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.3255813953488373
     },
     {
       "nombre": "Ambessa",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.2972972972972974
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.9545454545454546
     },
     {
-      "nombre": "Darius",
+      "nombre": "KSante",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.103448275862069
+    },
+    {
+      "nombre": "Shen",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.666666666666667
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2142857142857144
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.75
+      "kda_promedio": 2.6363636363636362
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 76,
-    "wins": 34,
-    "losses": 42,
-    "timePlayed": 117950
+    "games": 92,
+    "wins": 42,
+    "losses": 50,
+    "timePlayed": 143518
   }
 }

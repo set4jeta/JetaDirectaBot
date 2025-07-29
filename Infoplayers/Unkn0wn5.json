@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "LOCK TF INNNNNNN#6802",
-      "nivel": 126,
+      "nivel": 127,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1357,
-      "victorias": 338,
-      "derrotas": 268,
-      "ultima_partida": 1753276808371
+      "lp": 1326,
+      "victorias": 339,
+      "derrotas": 270,
+      "ultima_partida": 1753641927740
     },
     {
       "nombre": "Unkn0wn#EUW11",
@@ -37,39 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Lucian",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.395348837209302
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8125
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.333333333333333
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
       "nombre": "Jhin",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.6
+      "winrate": "66.7%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8695652173913044
     },
     {
       "nombre": "Ambessa",
@@ -86,6 +65,13 @@
       "kda_promedio": 1.1428571428571428
     },
     {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
       "nombre": "Kaisa",
       "partidas": 1,
       "victorias": 0,
@@ -93,11 +79,11 @@
       "kda_promedio": 1.9090909090909092
     },
     {
-      "nombre": "Varus",
+      "nombre": "MissFortune",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 0.5454545454545454
+      "kda_promedio": 5.2
     },
     {
       "nombre": "Yunara",
@@ -108,9 +94,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 20,
-    "losses": 8,
-    "timePlayed": 47505
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 21029
   }
 }

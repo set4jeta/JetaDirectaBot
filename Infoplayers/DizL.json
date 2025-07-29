@@ -48,10 +48,10 @@
     },
     {
       "nombre": "Gnar",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 1.5
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.3333333333333333
     },
     {
       "nombre": "Jinx",
@@ -61,13 +61,6 @@
       "kda_promedio": 2.857142857142857
     },
     {
-      "nombre": "Orianna",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.15
-    },
-    {
       "nombre": "Xayah",
       "partidas": 3,
       "victorias": 3,
@@ -75,31 +68,38 @@
       "kda_promedio": 2.4285714285714284
     },
     {
-      "nombre": "Zeri",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5217391304347827
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2857142857142858
-    },
-    {
-      "nombre": "Kaisa",
+      "nombre": "Orianna",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.8333333333333335
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 37,
-    "losses": 26,
-    "timePlayed": 104635
+    "games": 57,
+    "wins": 35,
+    "losses": 22,
+    "timePlayed": 92537
   }
 }

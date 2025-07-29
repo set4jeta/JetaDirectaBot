@@ -16,81 +16,88 @@
   "cuentas": [
     {
       "nombre": "You are amazing#9517",
-      "nivel": 497,
+      "nivel": 499,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 982,
-      "victorias": 304,
-      "derrotas": 252,
-      "ultima_partida": 1753454034726
+      "victorias": 316,
+      "derrotas": 263,
+      "ultima_partida": 1753733563006
     },
     {
       "nombre": "Daksider#FOCUS",
-      "nivel": 847,
+      "nivel": 848,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1219,
-      "victorias": 268,
-      "derrotas": 210,
-      "ultima_partida": 1753451373210
+      "lp": 1183,
+      "victorias": 273,
+      "derrotas": 216,
+      "ultima_partida": 1753726980579
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 27,
+      "nombre": "Lucian",
+      "partidas": 28,
       "victorias": 16,
-      "winrate": "59.3%",
-      "kda_promedio": 3.7363636363636363
+      "winrate": "57.1%",
+      "kda_promedio": 2.88
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.329113924050633
     },
     {
       "nombre": "Karma",
       "partidas": 17,
       "victorias": 12,
       "winrate": "70.6%",
-      "kda_promedio": 7.113636363636363
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 3.014925373134328
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 14,
-      "victorias": 6,
-      "winrate": "42.9%",
-      "kda_promedio": 4.596153846153846
+      "kda_promedio": 7.465116279069767
     },
     {
       "nombre": "Tristana",
-      "partidas": 12,
+      "partidas": 13,
       "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3.6739130434782608
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 4.777777777777778
+      "winrate": "61.5%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Jhin",
-      "partidas": 9,
-      "victorias": 9,
-      "winrate": "100.0%",
-      "kda_promedio": 7.565217391304348
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 6.205882352941177
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 3.574468085106383
     },
     {
       "nombre": "Sivir",
-      "partidas": 8,
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.5813953488372094
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.193548387096774
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
       "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8518518518518516
+      "winrate": "100.0%",
+      "kda_promedio": 7
     },
     {
       "nombre": "Leona",
@@ -98,19 +105,12 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 4.315789473684211
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 137,
-    "wins": 85,
-    "losses": 52,
-    "timePlayed": 220427
+    "games": 147,
+    "wins": 87,
+    "losses": 60,
+    "timePlayed": 235087
   }
 }

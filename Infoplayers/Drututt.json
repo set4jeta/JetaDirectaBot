@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "Drututt#MAKS",
-      "nivel": 560,
+      "nivel": 562,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1016,
-      "victorias": 189,
-      "derrotas": 141,
-      "ultima_partida": 1753453948683
+      "liga": "CHALLENGER I",
+      "lp": 1051,
+      "victorias": 196,
+      "derrotas": 146,
+      "ultima_partida": 1753735891889
     },
     {
       "nombre": "WINTER SOLIDER#AGAIN",
-      "nivel": 258,
+      "nivel": 259,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 161,
-      "derrotas": 131,
-      "ultima_partida": 1750434755478
+      "liga": "MASTER I",
+      "lp": 10,
+      "victorias": 167,
+      "derrotas": 135,
+      "ultima_partida": 1753714336665
     },
     {
       "nombre": "I DOND DOG#DOG",
@@ -47,80 +47,80 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Akshan",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 2.8285714285714287
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 2.5454545454545454
     },
     {
       "nombre": "Jayce",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 1.8108108108108107
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4358974358974357
     },
     {
       "nombre": "Vayne",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 4.125
-    },
-    {
-      "nombre": "Camille",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.076923076923077
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7924528301886793
     },
     {
       "nombre": "Briar",
-      "partidas": 2,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6842105263157894
+      "winrate": "25.0%",
+      "kda_promedio": 1.2307692307692308
     },
     {
       "nombre": "Quinn",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4583333333333335
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Kaisa",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 1.5833333333333333
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.2
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.875
+      "kda_promedio": 2.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 46,
-    "wins": 32,
-    "losses": 14,
-    "timePlayed": 75303
+    "games": 63,
+    "wins": 40,
+    "losses": 23,
+    "timePlayed": 103546
   }
 }

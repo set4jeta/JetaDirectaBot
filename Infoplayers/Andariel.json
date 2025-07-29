@@ -16,46 +16,46 @@
   "cuentas": [
     {
       "nombre": "ANDA#RIEL",
-      "nivel": 713,
+      "nivel": 714,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1011,
-      "victorias": 515,
-      "derrotas": 467,
-      "ultima_partida": 1753465486460
+      "lp": 1025,
+      "victorias": 522,
+      "derrotas": 473,
+      "ultima_partida": 1753726980579
     },
     {
       "nombre": "BRlNG IT BACK#1WAY",
-      "nivel": 131,
+      "nivel": 132,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 91,
-      "victorias": 53,
+      "lp": 183,
+      "victorias": 57,
       "derrotas": 44,
-      "ultima_partida": 1753307754261
+      "ultima_partida": 1753694424186
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ezreal",
-      "partidas": 24,
-      "victorias": 16,
-      "winrate": "66.7%",
-      "kda_promedio": 3.289719626168224
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 3.4
     },
     {
       "nombre": "Kaisa",
-      "partidas": 14,
+      "partidas": 11,
       "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 4.365384615384615
+      "winrate": "81.8%",
+      "kda_promedio": 4.295454545454546
     },
     {
       "nombre": "Jhin",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.586206896551724
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.736842105263158
     },
     {
       "nombre": "Varus",
@@ -65,6 +65,13 @@
       "kda_promedio": 1.8928571428571428
     },
     {
+      "nombre": "Xayah",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.75
+    },
+    {
       "nombre": "Sivir",
       "partidas": 4,
       "victorias": 1,
@@ -72,25 +79,25 @@
       "kda_promedio": 1.9
     },
     {
-      "nombre": "Xayah",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.363636363636363
-    },
-    {
-      "nombre": "Zeri",
+      "nombre": "Corki",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9333333333333333
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5625
     },
     {
       "nombre": "Gnar",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3333333333333333
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7857142857142858
     },
     {
       "nombre": "Yunara",
@@ -98,19 +105,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 78,
-    "wins": 41,
-    "losses": 37,
-    "timePlayed": 118438
+    "games": 70,
+    "wins": 40,
+    "losses": 30,
+    "timePlayed": 109366
   }
 }

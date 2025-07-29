@@ -16,42 +16,42 @@
   "cuentas": [
     {
       "nombre": "Sinerias#EUW",
-      "nivel": 453,
+      "nivel": 454,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1353,
-      "victorias": 432,
-      "derrotas": 366,
-      "ultima_partida": 1753468545951
+      "lp": 1175,
+      "victorias": 436,
+      "derrotas": 377,
+      "ultima_partida": 1753646068325
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "MasterYi",
-      "partidas": 51,
-      "victorias": 24,
-      "winrate": "47.1%",
-      "kda_promedio": 2.088145896656535
+      "partidas": 40,
+      "victorias": 17,
+      "winrate": "42.5%",
+      "kda_promedio": 2.0643939393939394
     },
     {
       "nombre": "Viego",
-      "partidas": 37,
-      "victorias": 16,
-      "winrate": "43.2%",
-      "kda_promedio": 2.582010582010582
+      "partidas": 26,
+      "victorias": 11,
+      "winrate": "42.3%",
+      "kda_promedio": 2.4444444444444446
     },
     {
       "nombre": "Belveth",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.9607843137254901
+      "partidas": 12,
+      "victorias": 3,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7936507936507937
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 44,
-    "losses": 53,
-    "timePlayed": 156869
+    "games": 78,
+    "wins": 31,
+    "losses": 47,
+    "timePlayed": 125238
   }
 }

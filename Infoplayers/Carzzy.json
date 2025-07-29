@@ -15,61 +15,54 @@
   },
   "cuentas": [
     {
-      "nombre": "lego ninjago#vape",
-      "nivel": 931,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1555,
-      "victorias": 320,
-      "derrotas": 256,
-      "ultima_partida": 1753477523516
-    },
-    {
       "nombre": "hello bro#EUW",
       "nivel": 161,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 26,
+      "liga": "MASTER I",
+      "lp": 59,
+      "victorias": 29,
       "derrotas": 6,
-      "ultima_partida": 1751030239798
+      "ultima_partida": 1753741349602
+    },
+    {
+      "nombre": "lego ninjago#vape",
+      "nivel": 933,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1576,
+      "victorias": 324,
+      "derrotas": 258,
+      "ultima_partida": 1753733055314
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.8214285714285716
-    },
-    {
       "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Brand",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.933333333333333
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5555555555555554
     },
     {
-      "nombre": "Mel",
+      "nombre": "Senna",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.071428571428571
+      "kda_promedio": 3.7058823529411766
     },
     {
-      "nombre": "Smolder",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Ezreal",
+      "nombre": "Jhin",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 7.25
+      "kda_promedio": 2.5833333333333335
     },
     {
       "nombre": "KogMaw",
@@ -79,25 +72,32 @@
       "kda_promedio": 2.857142857142857
     },
     {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.75
+    },
+    {
       "nombre": "Varus",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
-    },
-    {
-      "nombre": "Brand",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.666666666666667
     },
     {
       "nombre": "Corki",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 17,
-    "losses": 13,
-    "timePlayed": 49176
+    "games": 32,
+    "wins": 20,
+    "losses": 12,
+    "timePlayed": 51956
   }
 }

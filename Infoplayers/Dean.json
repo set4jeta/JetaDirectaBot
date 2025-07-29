@@ -15,47 +15,40 @@
   },
   "cuentas": [
     {
-      "nombre": "low expectations#TUN",
-      "nivel": 137,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1039,
-      "victorias": 243,
-      "derrotas": 193,
-      "ultima_partida": 1753534345265
-    },
-    {
       "nombre": "HomeIαnder#EUW",
       "nivel": 1022,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 272,
+      "lp": 252,
       "victorias": 225,
-      "derrotas": 217,
-      "ultima_partida": 1753288839578
+      "derrotas": 218,
+      "ultima_partida": 1753629347330
+    },
+    {
+      "nombre": "low expectations#TUN",
+      "nivel": 138,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1035,
+      "victorias": 244,
+      "derrotas": 194,
+      "ultima_partida": 1753571885132
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.5952380952380953
+      "winrate": "25.0%",
+      "kda_promedio": 1.7272727272727273
     },
     {
       "nombre": "Pantheon",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.8
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6666666666666665
+      "kda_promedio": 2.9375
     },
     {
       "nombre": "Ziggs",
@@ -65,11 +58,11 @@
       "kda_promedio": 1.375
     },
     {
-      "nombre": "Garen",
+      "nombre": "Ivern",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.75
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.666666666666667
     },
     {
       "nombre": "Lulu",
@@ -79,18 +72,18 @@
       "kda_promedio": 2.473684210526316
     },
     {
-      "nombre": "Naafiri",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1666666666666665
-    },
-    {
       "nombre": "Nocturne",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 6.166666666666667
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Viktor",
@@ -100,17 +93,24 @@
       "kda_promedio": 0.9166666666666666
     },
     {
-      "nombre": "Vladimir",
-      "partidas": 2,
+      "nombre": "Aatrox",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
+      "winrate": "100.0%",
       "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.875
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
-    "wins": 18,
-    "losses": 19,
-    "timePlayed": 64060
+    "games": 32,
+    "wins": 16,
+    "losses": 16,
+    "timePlayed": 56915
   }
 }

@@ -16,101 +16,101 @@
   "cuentas": [
     {
       "nombre": "Sebeks#EUW",
-      "nivel": 593,
+      "nivel": 595,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 709,
-      "victorias": 160,
-      "derrotas": 134,
-      "ultima_partida": 1753547152308
+      "liga": "GRANDMASTER I",
+      "lp": 797,
+      "victorias": 173,
+      "derrotas": 142,
+      "ultima_partida": 1753727740596
     },
     {
       "nombre": "Konaern#EUW",
-      "nivel": 466,
+      "nivel": 467,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 755,
-      "victorias": 582,
-      "derrotas": 540,
-      "ultima_partida": 1753439593569
+      "lp": 772,
+      "victorias": 584,
+      "derrotas": 541,
+      "ultima_partida": 1753622263392
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Leblanc",
-      "partidas": 17,
-      "victorias": 11,
-      "winrate": "64.7%",
-      "kda_promedio": 4.673469387755102
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 16,
-      "victorias": 6,
-      "winrate": "37.5%",
-      "kda_promedio": 2.7051282051282053
-    },
-    {
       "nombre": "Tristana",
-      "partidas": 15,
-      "victorias": 6,
-      "winrate": "40.0%",
-      "kda_promedio": 2.3484848484848486
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 2.185185185185185
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 4.906976744186046
     },
     {
       "nombre": "Sion",
-      "partidas": 14,
+      "partidas": 15,
       "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5692307692307694
+      "winrate": "46.7%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Syndra",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.6862745098039214
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9846153846153847
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 14,
+      "victorias": 5,
+      "winrate": "35.7%",
+      "kda_promedio": 2.140845070422535
     },
     {
       "nombre": "Annie",
-      "partidas": 7,
-      "victorias": 7,
+      "partidas": 10,
+      "victorias": 10,
       "winrate": "100.0%",
-      "kda_promedio": 4.821428571428571
+      "kda_promedio": 4.209302325581396
     },
     {
       "nombre": "Malphite",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 4.041666666666667
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Ryze",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.2142857142857144
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.142857142857143
     },
     {
       "nombre": "Hwei",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7741935483870968
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.5172413793103448
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Vayne",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2758620689655173
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 114,
-    "wins": 57,
-    "losses": 57,
-    "timePlayed": 188172
+    "games": 121,
+    "wins": 67,
+    "losses": 54,
+    "timePlayed": 195860
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Madres Enjoyer#MILK",
-      "nivel": 1136,
+      "nivel": 1138,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 800,
-      "victorias": 539,
-      "derrotas": 508,
-      "ultima_partida": 1753455766627
+      "lp": 851,
+      "victorias": 544,
+      "derrotas": 510,
+      "ultima_partida": 1753714369137
     },
     {
       "nombre": "무료 유방 촬영#KR69",
@@ -37,38 +37,52 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Poppy",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 2.6375
-    },
-    {
       "nombre": "Ambessa",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.75
     },
     {
-      "nombre": "Smolder",
+      "nombre": "DrMundo",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 1.6666666666666667
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.8333333333333334
     },
     {
       "nombre": "Teemo",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5714285714285714
+      "kda_promedio": 0.6666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 10,
-    "losses": 7,
-    "timePlayed": 28890
+    "games": 7,
+    "wins": 5,
+    "losses": 2,
+    "timePlayed": 13584
   }
 }

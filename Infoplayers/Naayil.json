@@ -10,29 +10,29 @@
       "twitter": "https://twitter.com/NAAAYIL",
       "twitch": "https://twitch.tv/naayil"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/naayil.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "NAAYIL#S67",
-      "nivel": 1143,
+      "nombre": "GLAAZING#3215",
+      "nivel": 44,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1022,
-      "victorias": 725,
-      "derrotas": 673,
-      "ultima_partida": 1753409215873
+      "liga": "MASTER I",
+      "lp": 262,
+      "victorias": 93,
+      "derrotas": 51,
+      "ultima_partida": 1753755105591
     },
     {
-      "nombre": "Little Issa #EUW",
-      "nivel": 67,
+      "nombre": "NAAYIL#S67",
+      "nivel": 1144,
       "region": "EUW1",
-      "liga": "DIAMOND IV",
-      "lp": 55,
-      "victorias": 7,
-      "derrotas": 3,
-      "ultima_partida": 1752187700553
+      "liga": "GRANDMASTER I",
+      "lp": 991,
+      "victorias": 732,
+      "derrotas": 681,
+      "ultima_partida": 1753653400330
     },
     {
       "nombre": "NAAYIL#KOREA",
@@ -48,17 +48,38 @@
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 40,
-      "victorias": 20,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2721518987341773
+      "partidas": 73,
+      "victorias": 47,
+      "winrate": "64.4%",
+      "kda_promedio": 2.9625468164794007
     },
     {
       "nombre": "KSante",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.9534883720930232
+      "winrate": "40.0%",
+      "kda_promedio": 3.2058823529411766
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.04
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 11.5
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Hwei",
@@ -70,9 +91,9 @@
     {
       "nombre": "Kayle",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
     },
     {
       "nombre": "Malphite",
@@ -80,33 +101,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 18
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7.5
-    },
-    {
-      "nombre": "Seraphine",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 26,
-    "losses": 29,
-    "timePlayed": 88884
+    "games": 95,
+    "wins": 58,
+    "losses": 37,
+    "timePlayed": 153694
   }
 }

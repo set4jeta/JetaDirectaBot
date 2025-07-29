@@ -16,39 +16,46 @@
   "cuentas": [
     {
       "nombre": "StarScreen#1702",
-      "nivel": 955,
+      "nivel": 956,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 880,
-      "victorias": 519,
-      "derrotas": 483,
-      "ultima_partida": 1753439211532
+      "lp": 891,
+      "victorias": 523,
+      "derrotas": 486,
+      "ultima_partida": 1753743990866
     },
     {
       "nombre": "EL TURCO#1702",
-      "nivel": 124,
+      "nivel": 125,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 496,
-      "victorias": 169,
-      "derrotas": 133,
-      "ultima_partida": 1753265670550
+      "lp": 470,
+      "victorias": 172,
+      "derrotas": 137,
+      "ultima_partida": 1753715473492
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yorick",
-      "partidas": 15,
-      "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 2.6153846153846154
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 2.8
     },
     {
       "nombre": "Gwen",
       "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.0579710144927534
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.7037037037037037
     },
     {
       "nombre": "Tryndamere",
@@ -58,32 +65,39 @@
       "kda_promedio": 1.08
     },
     {
-      "nombre": "Jayce",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
       "nombre": "Ambessa",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.8
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8666666666666667
     },
     {
       "nombre": "Renekton",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.8
+      "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Jax",
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Aurora",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.5555555555555554
+      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "KSante",
@@ -91,26 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.1428571428571428
-    },
-    {
-      "nombre": "Shen",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.7142857142857144
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 62,
+    "games": 65,
     "wins": 33,
-    "losses": 29,
-    "timePlayed": 97551
+    "losses": 32,
+    "timePlayed": 100763
   }
 }

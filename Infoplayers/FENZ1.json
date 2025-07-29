@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "fever dream#0507",
-      "nivel": 754,
+      "nivel": 755,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1160,
-      "victorias": 356,
-      "derrotas": 311,
-      "ultima_partida": 1753551879474
+      "lp": 1104,
+      "victorias": 358,
+      "derrotas": 315,
+      "ultima_partida": 1753728931758
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Taliyah",
-      "partidas": 10,
-      "victorias": 9,
-      "winrate": "90.0%",
-      "kda_promedio": 3.857142857142857
+      "partidas": 11,
+      "victorias": 10,
+      "winrate": "90.9%",
+      "kda_promedio": 3.8863636363636362
     },
     {
       "nombre": "Syndra",
@@ -41,18 +41,18 @@
       "kda_promedio": 2.372093023255814
     },
     {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8666666666666667
+    },
+    {
       "nombre": "Ezreal",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 3.1333333333333333
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.35
     },
     {
       "nombre": "Aurora",
@@ -63,10 +63,17 @@
     },
     {
       "nombre": "Yone",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.1875
+      "winrate": "25.0%",
+      "kda_promedio": 1.1363636363636365
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.35
     },
     {
       "nombre": "Akali",
@@ -88,19 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.4615384615384615
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 30,
-    "losses": 21,
-    "timePlayed": 83142
+    "games": 57,
+    "wins": 32,
+    "losses": 25,
+    "timePlayed": 92093
   }
 }

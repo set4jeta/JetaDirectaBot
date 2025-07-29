@@ -18,10 +18,10 @@
       "nivel": 275,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 901,
-      "victorias": 203,
+      "lp": 953,
+      "victorias": 206,
       "derrotas": 146,
-      "ultima_partida": 1753466782407
+      "ultima_partida": 1753724317883
     },
     {
       "nombre": "Veigar v2#0000",
@@ -38,16 +38,9 @@
     {
       "nombre": "Veigar",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8.333333333333334
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.4210526315789473
     },
     {
       "nombre": "Caitlyn",
@@ -78,6 +71,20 @@
       "kda_promedio": 1.4285714285714286
     },
     {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Shaco",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    },
+    {
       "nombre": "Smolder",
       "partidas": 1,
       "victorias": 0,
@@ -93,9 +100,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
-    "wins": 5,
-    "losses": 7,
-    "timePlayed": 19056
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "timePlayed": 20444
   }
 }

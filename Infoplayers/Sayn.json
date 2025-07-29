@@ -16,50 +16,57 @@
   "cuentas": [
     {
       "nombre": "Sayn CHOKBAR 1#EUW",
-      "nivel": 656,
+      "nivel": 658,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1065,
-      "victorias": 581,
-      "derrotas": 541,
-      "ultima_partida": 1753559504160
+      "lp": 1033,
+      "victorias": 591,
+      "derrotas": 552,
+      "ultima_partida": 1753753311808
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3902439024390243
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.406779661016949
     },
     {
       "nombre": "Kaisa",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.4210526315789473
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.8888888888888888
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.6792452830188678
     },
     {
       "nombre": "Hwei",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.25
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
     },
     {
       "nombre": "Orianna",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.8
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1578947368421053
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.3
     },
     {
       "nombre": "Viktor",
@@ -69,18 +76,18 @@
       "kda_promedio": 2.0526315789473686
     },
     {
-      "nombre": "Aurora",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9
-    },
-    {
-      "nombre": "Taliyah",
+      "nombre": "Sylas",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4705882352941178
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
     },
     {
       "nombre": "Annie",
@@ -88,19 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.142857142857143
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 15,
-    "losses": 16,
-    "timePlayed": 50277
+    "games": 46,
+    "wins": 23,
+    "losses": 23,
+    "timePlayed": 73493
   }
 }

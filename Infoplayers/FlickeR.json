@@ -15,40 +15,61 @@
   },
   "cuentas": [
     {
+      "nombre": "qweasdqweasdqwq#KR3",
+      "nivel": 75,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 334,
+      "victorias": 81,
+      "derrotas": 40,
+      "ultima_partida": 1753747054257
+    },
+    {
       "nombre": "FlickeR#1337",
       "nivel": 716,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 909,
-      "victorias": 407,
-      "derrotas": 377,
-      "ultima_partida": 1753465155704
-    },
-    {
-      "nombre": "qweasdqweasdqwq#KR3",
-      "nivel": 73,
-      "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 63,
-      "derrotas": 33,
-      "ultima_partida": 1752438212895
+      "lp": 882,
+      "victorias": 408,
+      "derrotas": 379,
+      "ultima_partida": 1753717930631
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Zeri",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.9444444444444446
+    },
+    {
       "nombre": "Corki",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Ezreal",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4871794871794872
     },
     {
       "nombre": "Varus",
       "partidas": 5,
       "victorias": 5,
       "winrate": "100.0%",
-      "kda_promedio": 4.85
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.117647058823529
     },
     {
       "nombre": "Tristana",
@@ -58,39 +79,25 @@
       "kda_promedio": 2.44
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Lucian",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.4615384615384617
+      "kda_promedio": 3.3684210526315788
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 3,
+      "nombre": "MissFortune",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4.583333333333333
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.894736842105263
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Nautilus",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.65
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Ahri",
@@ -98,19 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 36,
-    "wins": 20,
-    "losses": 16,
-    "timePlayed": 59098
+    "games": 53,
+    "wins": 33,
+    "losses": 20,
+    "timePlayed": 84842
   }
 }

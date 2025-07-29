@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Ryuk#adc",
-      "nivel": 839,
+      "nivel": 841,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1257,
+      "lp": 1192,
       "victorias": 360,
-      "derrotas": 306,
-      "ultima_partida": 1753475040878
+      "derrotas": 309,
+      "ultima_partida": 1753653472074
     }
   ],
   "campeones_recientes": [
@@ -34,25 +34,11 @@
       "kda_promedio": 2.9
     },
     {
-      "nombre": "Varus",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 6,
-      "victorias": 6,
-      "winrate": "100.0%",
-      "kda_promedio": 3.130434782608696
-    },
-    {
       "nombre": "Corki",
       "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
-      "kda_promedio": 2.161290322580645
+      "kda_promedio": 2.52
     },
     {
       "nombre": "Ezreal",
@@ -62,11 +48,18 @@
       "kda_promedio": 1.5217391304347827
     },
     {
-      "nombre": "Sivir",
+      "nombre": "Varus",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.84
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6923076923076925
     },
     {
       "nombre": "Jinx",
@@ -76,11 +69,18 @@
       "kda_promedio": 1.1428571428571428
     },
     {
-      "nombre": "KogMaw",
-      "partidas": 2,
+      "nombre": "Sivir",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3076923076923075
+      "winrate": "33.3%",
+      "kda_promedio": 1.9047619047619047
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.857142857142857
     },
     {
       "nombre": "Mel",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 31,
-    "losses": 26,
-    "timePlayed": 94135
+    "games": 47,
+    "wins": 22,
+    "losses": 25,
+    "timePlayed": 77910
   }
 }

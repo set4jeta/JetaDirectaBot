@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "G2 SkewMond#3327",
-      "nivel": 527,
+      "nivel": 528,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1871,
-      "victorias": 533,
-      "derrotas": 428,
-      "ultima_partida": 1753476883502
+      "lp": 1885,
+      "victorias": 540,
+      "derrotas": 433,
+      "ultima_partida": 1753742932508
     },
     {
       "nombre": "G2 Hydreigon#9452",
@@ -46,25 +46,46 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Vi",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.7142857142857144
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.4
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.066666666666667
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 4.8
     },
     {
       "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Sejuani",
       "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.363636363636363
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.6666666666666665
+      "winrate": "50.0%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.769230769230769
     },
     {
       "nombre": "Nidalee",
@@ -74,25 +95,11 @@
       "kda_promedio": 7.25
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Skarner",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 5.5
-    },
-    {
-      "nombre": "Sejuani",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.888888888888889
-    },
-    {
-      "nombre": "Skarner",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.5
+      "kda_promedio": 5
     },
     {
       "nombre": "Zed",
@@ -102,24 +109,17 @@
       "kda_promedio": 9
     },
     {
-      "nombre": "Chogath",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Ivern",
+      "nombre": "DrMundo",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
-    "wins": 16,
-    "losses": 13,
-    "timePlayed": 48564
+    "games": 35,
+    "wins": 17,
+    "losses": 18,
+    "timePlayed": 58957
   }
 }

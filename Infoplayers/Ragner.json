@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Brook#rago",
-      "nivel": 436,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 827,
-      "victorias": 173,
-      "derrotas": 120,
-      "ultima_partida": 1753565183924
-    },
-    {
       "nombre": "Rosinante#Rago",
       "nivel": 631,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1151,
-      "victorias": 400,
-      "derrotas": 348,
-      "ultima_partida": 1753289230337
+      "lp": 1184,
+      "victorias": 403,
+      "derrotas": 349,
+      "ultima_partida": 1753737901039
+    },
+    {
+      "nombre": "Brook#rago",
+      "nivel": 437,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 832,
+      "victorias": 178,
+      "derrotas": 126,
+      "ultima_partida": 1753732578512
     },
     {
       "nombre": "Sousuke Aizen#RAGO",
@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4761904761904763
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 2.3375
     },
     {
       "nombre": "Aatrox",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.5813953488372094
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.3529411764705883
     },
     {
       "nombre": "Rengar",
@@ -68,25 +68,18 @@
       "kda_promedio": 1.6595744680851063
     },
     {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.125
+    },
+    {
       "nombre": "Kled",
       "partidas": 6,
       "victorias": 4,
       "winrate": "66.7%",
       "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Garen",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.55
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.2142857142857142
     },
     {
       "nombre": "Varus",
@@ -96,11 +89,11 @@
       "kda_promedio": 2.32
     },
     {
-      "nombre": "Sett",
+      "nombre": "Fiora",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.2857142857142858
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.9
     },
     {
       "nombre": "Ambessa",
@@ -108,6 +101,13 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
     },
     {
       "nombre": "Gragas",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 112,
-    "wins": 61,
-    "losses": 51,
-    "timePlayed": 171083
+    "games": 114,
+    "wins": 65,
+    "losses": 49,
+    "timePlayed": 175630
   }
 }

@@ -5,7 +5,7 @@
     "edad": 25,
     "equipo": "Movistar KOI",
     "pais": "Spain",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Elyoya_LoL",
       "twitch": "https://twitch.tv/elyoyalol"
@@ -19,7 +19,7 @@
       "nivel": 1056,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 426,
+      "lp": 276,
       "victorias": 376,
       "derrotas": 339,
       "ultima_partida": 1753446470342
@@ -37,41 +37,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "MonkeyKing",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.2727272727272727
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5714285714285714
-    },
-    {
       "nombre": "Yunara",
       "partidas": 1,
       "victorias": 1,
@@ -80,9 +45,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 6,
-    "wins": 2,
-    "losses": 4,
-    "timePlayed": 10188
+    "games": 1,
+    "wins": 1,
+    "losses": 0,
+    "timePlayed": 1746
   }
 }

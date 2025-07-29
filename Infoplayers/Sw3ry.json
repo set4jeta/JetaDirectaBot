@@ -16,53 +16,60 @@
   "cuentas": [
     {
       "nombre": "noobsupp#noob",
-      "nivel": 160,
+      "nivel": 162,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1346,
-      "victorias": 413,
-      "derrotas": 341,
-      "ultima_partida": 1753455596981
+      "lp": 1366,
+      "victorias": 424,
+      "derrotas": 350,
+      "ultima_partida": 1753735423887
     },
     {
       "nombre": "noobsuppp#noob",
       "nivel": 741,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 122,
-      "victorias": 71,
-      "derrotas": 65,
-      "ultima_partida": 1753447948149
+      "lp": 127,
+      "victorias": 72,
+      "derrotas": 66,
+      "ultima_partida": 1753704590106
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 17,
-      "victorias": 9,
-      "winrate": "52.9%",
-      "kda_promedio": 4.285714285714286
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 10
+      "partidas": 20,
+      "victorias": 12,
+      "winrate": "60.0%",
+      "kda_promedio": 4.432098765432099
     },
     {
       "nombre": "Nami",
-      "partidas": 6,
-      "victorias": 6,
-      "winrate": "100.0%",
-      "kda_promedio": 10.142857142857142
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 6.4375
     },
     {
       "nombre": "Nautilus",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 8,
+      "victorias": 4,
       "winrate": "50.0%",
-      "kda_promedio": 2.4
+      "kda_promedio": 2.1707317073170733
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 7
     },
     {
       "nombre": "Karma",
@@ -93,24 +100,17 @@
       "kda_promedio": 6.5
     },
     {
-      "nombre": "KSante",
+      "nombre": "Braum",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 0.8333333333333334
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 33,
-    "losses": 16,
-    "timePlayed": 79525
+    "games": 65,
+    "wins": 41,
+    "losses": 24,
+    "timePlayed": 104442
   }
 }

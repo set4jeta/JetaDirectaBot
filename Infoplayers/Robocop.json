@@ -18,33 +18,40 @@
       "nivel": 588,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 836,
+      "lp": 764,
       "victorias": 276,
-      "derrotas": 250,
-      "ultima_partida": 1753358938842
+      "derrotas": 254,
+      "ultima_partida": 1753698240542
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yorick",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.871794871794872
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 3,
-      "victorias": 2,
+      "partidas": 9,
+      "victorias": 6,
       "winrate": "66.7%",
-      "kda_promedio": 3.1818181818181817
+      "kda_promedio": 2.730769230769231
     },
     {
       "nombre": "Renekton",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.125
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1538461538461537
     },
     {
       "nombre": "Ambessa",
@@ -54,24 +61,24 @@
       "kda_promedio": 16
     },
     {
-      "nombre": "Gwen",
+      "nombre": "Gnar",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.25
+      "kda_promedio": 12
     },
     {
-      "nombre": "Rumble",
+      "nombre": "Sion",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 0.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 13,
-    "losses": 8,
-    "timePlayed": 33078
+    "games": 19,
+    "wins": 10,
+    "losses": 9,
+    "timePlayed": 29062
   }
 }

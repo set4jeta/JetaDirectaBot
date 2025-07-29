@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "G2 Hans Sama#12838",
-      "nivel": 248,
+      "nivel": 250,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 922,
-      "victorias": 408,
-      "derrotas": 349,
-      "ultima_partida": 1753462411745
+      "lp": 1006,
+      "victorias": 420,
+      "derrotas": 362,
+      "ultima_partida": 1753641620196
     },
     {
       "nombre": "G2 12838712#1234",
@@ -37,18 +37,32 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2857142857142856
+      "nombre": "Yunara",
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 2.25
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Varus",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.7
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
     },
     {
       "nombre": "Alistar",
@@ -58,11 +72,25 @@
       "kda_promedio": 1.5555555555555556
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Kaisa",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.142857142857143
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Senna",
@@ -77,19 +105,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.4
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.7142857142857142
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
-    "wins": 6,
-    "losses": 4,
-    "timePlayed": 15781
+    "games": 34,
+    "wins": 17,
+    "losses": 17,
+    "timePlayed": 56811
   }
 }

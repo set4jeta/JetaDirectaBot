@@ -15,101 +15,101 @@
   "cuentas": [
     {
       "nombre": "Tea#2299",
-      "nivel": 1259,
+      "nivel": 1262,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1192,
-      "victorias": 876,
-      "derrotas": 815,
-      "ultima_partida": 1753477358214
+      "lp": 1077,
+      "victorias": 889,
+      "derrotas": 832,
+      "ultima_partida": 1753743240548
     },
     {
       "nombre": "T34#mid",
       "nivel": 97,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 114,
-      "victorias": 32,
-      "derrotas": 8,
-      "ultima_partida": 1753274133730
+      "lp": 116,
+      "victorias": 34,
+      "derrotas": 11,
+      "ultima_partida": 1753719482706
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Vladimir",
-      "partidas": 78,
+      "partidas": 82,
       "victorias": 48,
-      "winrate": "61.5%",
-      "kda_promedio": 2.4809384164222874
+      "winrate": "58.5%",
+      "kda_promedio": 2.398230088495575
     },
     {
       "nombre": "Malphite",
       "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.4782608695652173
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.142857142857143
     },
     {
       "nombre": "Sylas",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.142857142857143
+      "winrate": "37.5%",
+      "kda_promedio": 2.204081632653061
     },
     {
       "nombre": "Sett",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 0.7291666666666666
-    },
-    {
-      "nombre": "Galio",
       "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
-      "kda_promedio": 1.75
+      "kda_promedio": 0.875
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Aatrox",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 0.8
+      "kda_promedio": 1.28
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.608695652173913
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.75
     },
     {
       "nombre": "Varus",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 2.6363636363636362
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3157894736842106
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4
+      "kda_promedio": 3.0588235294117645
     },
     {
       "nombre": "Kassadin",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7142857142857142
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 149,
-    "wins": 79,
-    "losses": 70,
-    "timePlayed": 238213
+    "games": 153,
+    "wins": 76,
+    "losses": 77,
+    "timePlayed": 241695
   }
 }

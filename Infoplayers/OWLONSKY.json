@@ -19,10 +19,10 @@
       "nivel": 116,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 825,
-      "victorias": 194,
-      "derrotas": 148,
-      "ultima_partida": 1753444651399
+      "lp": 791,
+      "victorias": 195,
+      "derrotas": 151,
+      "ultima_partida": 1753733362808
     },
     {
       "nombre": "owlonsky#winn",
@@ -48,7 +48,7 @@
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 4.190476190476191
+      "kda_promedio": 4.611111111111111
     },
     {
       "nombre": "Varus",
@@ -56,6 +56,13 @@
       "victorias": 4,
       "winrate": "80.0%",
       "kda_promedio": 3.1363636363636362
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.636363636363637
     },
     {
       "nombre": "Zed",
@@ -86,13 +93,6 @@
       "kda_promedio": 2.1
     },
     {
-      "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.5
-    },
-    {
       "nombre": "Akali",
       "partidas": 1,
       "victorias": 1,
@@ -100,17 +100,17 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Ashe",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1428571428571428
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 22,
+    "games": 43,
+    "wins": 23,
     "losses": 20,
-    "timePlayed": 65971
+    "timePlayed": 67068
   }
 }

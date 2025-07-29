@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "v lyncas1#lync1",
-      "nivel": 1020,
+      "nivel": 1021,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1508,
-      "victorias": 402,
-      "derrotas": 312,
-      "ultima_partida": 1753564731166
+      "lp": 1643,
+      "victorias": 411,
+      "derrotas": 314,
+      "ultima_partida": 1753735423887
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 5.75
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 6.481481481481482
     },
     {
       "nombre": "Vi",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 3.2051282051282053
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.341463414634146
     },
     {
       "nombre": "Trundle",
@@ -48,25 +48,32 @@
       "kda_promedio": 5.482758620689655
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "nombre": "Poppy",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.105263157894737
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 8.222222222222221
     },
     {
       "nombre": "Nocturne",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.9473684210526314
+      "winrate": "75.0%",
+      "kda_promedio": 4.166666666666667
     },
     {
-      "nombre": "Poppy",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.4375
     },
     {
       "nombre": "Zed",
@@ -76,31 +83,24 @@
       "kda_promedio": 3.5625
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 8
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
       "nombre": "Khazix",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.75
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 36,
-    "losses": 30,
-    "timePlayed": 107914
+    "games": 70,
+    "wins": 43,
+    "losses": 27,
+    "timePlayed": 112862
   }
 }

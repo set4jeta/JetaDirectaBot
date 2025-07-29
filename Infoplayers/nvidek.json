@@ -18,40 +18,33 @@
       "nivel": 995,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1168,
-      "victorias": 529,
-      "derrotas": 474,
-      "ultima_partida": 1753557753727
+      "lp": 1203,
+      "victorias": 532,
+      "derrotas": 475,
+      "ultima_partida": 1753618490702
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Volibear",
-      "partidas": 38,
-      "victorias": 24,
-      "winrate": "63.2%",
-      "kda_promedio": 3.611111111111111
+      "partidas": 41,
+      "victorias": 26,
+      "winrate": "63.4%",
+      "kda_promedio": 3.6374269005847952
     },
     {
       "nombre": "DrMundo",
-      "partidas": 33,
-      "victorias": 15,
-      "winrate": "45.5%",
-      "kda_promedio": 3.789473684210526
+      "partidas": 29,
+      "victorias": 13,
+      "winrate": "44.8%",
+      "kda_promedio": 3.7755102040816326
     },
     {
       "nombre": "Viktor",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 1.5471698113207548
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 3.303030303030303
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 1.7272727272727273
     },
     {
       "nombre": "Pantheon",
@@ -61,11 +54,18 @@
       "kda_promedio": 2.0294117647058822
     },
     {
+      "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 3.0384615384615383
+    },
+    {
       "nombre": "Lillia",
-      "partidas": 4,
-      "victorias": 4,
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 10.6
+      "kda_promedio": 7
     },
     {
       "nombre": "Sivir",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 110,
-    "wins": 54,
-    "losses": 56,
-    "timePlayed": 178982
+    "games": 106,
+    "wins": 52,
+    "losses": 54,
+    "timePlayed": 171512
   }
 }

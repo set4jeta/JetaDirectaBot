@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "PatrickJane#Supp",
-      "nivel": 782,
+      "nivel": 783,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1106,
-      "victorias": 620,
-      "derrotas": 568,
-      "ultima_partida": 1753472417133
+      "lp": 1095,
+      "victorias": 625,
+      "derrotas": 573,
+      "ultima_partida": 1753653038923
     },
     {
       "nombre": "Kamusari#EUW11",
@@ -38,45 +38,45 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 24,
-      "victorias": 13,
-      "winrate": "54.2%",
-      "kda_promedio": 2.496732026143791
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 2.4125874125874125
     },
     {
       "nombre": "Alistar",
-      "partidas": 12,
+      "partidas": 13,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 3.239130434782609
+      "winrate": "46.2%",
+      "kda_promedio": 3.061224489795918
     },
     {
       "nombre": "Rell",
       "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 4.3584905660377355
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.5245901639344264
     },
     {
       "nombre": "Rakan",
-      "partidas": 11,
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 5.157894736842105
+      "winrate": "60.0%",
+      "kda_promedio": 5.5
     },
     {
       "nombre": "Neeko",
-      "partidas": 9,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.525
+      "winrate": "71.4%",
+      "kda_promedio": 2.78125
     },
     {
       "nombre": "Varus",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.16
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.9705882352941178
     },
     {
       "nombre": "Karma",
@@ -86,31 +86,31 @@
       "kda_promedio": 3.8260869565217392
     },
     {
-      "nombre": "Pyke",
+      "nombre": "Leona",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.6153846153846154
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4444444444444446
     },
     {
-      "nombre": "Braum",
+      "nombre": "Lulu",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.4375
+      "kda_promedio": 2
     },
     {
-      "nombre": "Leona",
+      "nombre": "Pyke",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.136363636363637
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.789473684210526
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 104,
-    "wins": 54,
-    "losses": 50,
-    "timePlayed": 170868
+    "games": 97,
+    "wins": 50,
+    "losses": 47,
+    "timePlayed": 161264
   }
 }

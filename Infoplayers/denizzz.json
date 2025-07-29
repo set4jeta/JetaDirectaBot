@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "denizzz",
+    "nombre_real": "Egedeniz Mutlu",
+    "edad": 18,
+    "equipo": "Austrian Force willhaben",
+    "pais": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/denizzzlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AFW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Ayt Tyt Yks#4056",
+      "nivel": 170,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 760,
+      "victorias": 401,
+      "derrotas": 364,
+      "ultima_partida": 1753743113716
+    },
+    {
+      "nombre": "Hey You#11111",
+      "nivel": 447,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 388,
+      "victorias": 576,
+      "derrotas": 570,
+      "ultima_partida": 1753648338324
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.3037974683544302
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 3.0851063829787235
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.5641025641025643
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.772727272727273
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.12
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8085106382978724
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.3529411764705883
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.36
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 5.166666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 104,
+    "wins": 49,
+    "losses": 55,
+    "timePlayed": 165581
+  }
+}

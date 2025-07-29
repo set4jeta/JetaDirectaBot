@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Nisqy",
     "nombre_real": "Yasin Dinçer",
-    "edad": 26,
+    "edad": 27,
     "equipo": "Karmine Corp",
     "pais": "Belgium",
     "contrato_hasta": null,
@@ -16,78 +16,78 @@
   "cuentas": [
     {
       "nombre": "KC Subsqy#KCORP",
-      "nivel": 713,
+      "nivel": 715,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 935,
-      "victorias": 489,
-      "derrotas": 447,
-      "ultima_partida": 1753459041289
+      "lp": 850,
+      "victorias": 497,
+      "derrotas": 459,
+      "ultima_partida": 1753740915271
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Orianna",
-      "partidas": 16,
-      "victorias": 9,
-      "winrate": "56.2%",
-      "kda_promedio": 3.217391304347826
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.207547169811321
     },
     {
       "nombre": "Syndra",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.588235294117647
+      "winrate": "62.5%",
+      "kda_promedio": 3.0476190476190474
     },
     {
       "nombre": "Aurora",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.2439024390243905
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.9782608695652173
     },
     {
       "nombre": "Ryze",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.6774193548387095
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.027027027027027
     },
     {
       "nombre": "Taliyah",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.875
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.264705882352941
     },
     {
-      "nombre": "Yone",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3714285714285714
-    },
-    {
-      "nombre": "Annie",
+      "nombre": "Senna",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 1.6875
+      "kda_promedio": 4.423076923076923
     },
     {
-      "nombre": "Azir",
+      "nombre": "Smolder",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 1.875
+      "kda_promedio": 3.5625
     },
     {
       "nombre": "TwistedFate",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.25
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8333333333333335
     },
     {
       "nombre": "Corki",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 125,
-    "wins": 64,
-    "losses": 61,
-    "timePlayed": 198228
+    "games": 108,
+    "wins": 52,
+    "losses": 56,
+    "timePlayed": 173198
   }
 }

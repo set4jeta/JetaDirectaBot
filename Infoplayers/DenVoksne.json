@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Mαster Oogwαy#EUW",
-      "nivel": 324,
+      "nivel": 326,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1469,
-      "victorias": 184,
-      "derrotas": 110,
-      "ultima_partida": 1753568954993
+      "lp": 1441,
+      "victorias": 192,
+      "derrotas": 118,
+      "ultima_partida": 1753743252445
     },
     {
       "nombre": "Ignacarious#5232",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 37,
-      "victorias": 28,
-      "winrate": "75.7%",
-      "kda_promedio": 4.2265625
+      "partidas": 42,
+      "victorias": 30,
+      "winrate": "71.4%",
+      "kda_promedio": 4.073825503355705
     },
     {
       "nombre": "Draven",
@@ -51,66 +51,66 @@
       "kda_promedio": 3.6486486486486487
     },
     {
-      "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.782608695652174
-    },
-    {
-      "nombre": "MissFortune",
+      "nombre": "Aphelios",
       "partidas": 6,
       "victorias": 5,
       "winrate": "83.3%",
-      "kda_promedio": 3.074074074074074
+      "kda_promedio": 4.5
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Corki",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 2.9583333333333335
+      "kda_promedio": 3.5294117647058822
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 3,
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.388888888888889
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 5
+      "winrate": "75.0%",
+      "kda_promedio": 2.4761904761904763
     },
     {
       "nombre": "Alistar",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.272727272727273
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 7.5
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Kaisa",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 2.411764705882353
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
     },
     {
       "nombre": "Senna",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 20
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 93,
-    "wins": 57,
-    "losses": 36,
-    "timePlayed": 146813
+    "games": 98,
+    "wins": 60,
+    "losses": 38,
+    "timePlayed": 157152
   }
 }

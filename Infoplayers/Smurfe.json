@@ -16,64 +16,57 @@
   "cuentas": [
     {
       "nombre": "smurfeee#OSRS",
-      "nivel": 894,
+      "nivel": 897,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1279,
-      "victorias": 380,
-      "derrotas": 321,
-      "ultima_partida": 1753460737668
+      "lp": 1321,
+      "victorias": 393,
+      "derrotas": 330,
+      "ultima_partida": 1753739187705
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 16,
-      "victorias": 11,
-      "winrate": "68.8%",
-      "kda_promedio": 1.6724137931034482
+      "nombre": "Jax",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 1.8055555555555556
     },
     {
-      "nombre": "Jax",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 1.8431372549019607
+      "nombre": "Gwen",
+      "partidas": 14,
+      "victorias": 12,
+      "winrate": "85.7%",
+      "kda_promedio": 2.4285714285714284
     },
     {
       "nombre": "Jayce",
       "partidas": 7,
       "victorias": 4,
       "winrate": "57.1%",
-      "kda_promedio": 2.9722222222222223
+      "kda_promedio": 2.0454545454545454
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2142857142857144
     },
     {
       "nombre": "Aatrox",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.1764705882352942
+      "kda_promedio": 2.35
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Gnar",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 0.6363636363636364
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5833333333333335
-    },
-    {
-      "nombre": "Anivia",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4285714285714284
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.555555555555555
     },
     {
       "nombre": "Camille",
@@ -83,24 +76,31 @@
       "kda_promedio": 2.5833333333333335
     },
     {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
       "nombre": "Ambessa",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.2
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 30,
-    "losses": 21,
-    "timePlayed": 79370
+    "games": 56,
+    "wins": 38,
+    "losses": 18,
+    "timePlayed": 88545
   }
 }

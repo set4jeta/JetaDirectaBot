@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Twtv Major Alexa#nder",
+      "nivel": 606,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 831,
+      "victorias": 179,
+      "derrotas": 137,
+      "ultima_partida": 1753703020579
+    },
+    {
       "nombre": "Twtv Major Alex#ander",
       "nivel": 172,
       "region": "EUW1",
@@ -23,25 +33,15 @@
       "victorias": 17,
       "derrotas": 11,
       "ultima_partida": 1753278584827
-    },
-    {
-      "nombre": "Twtv Major Alexa#nder",
-      "nivel": 606,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 810,
-      "victorias": 178,
-      "derrotas": 137,
-      "ultima_partida": 1753190741674
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Samira",
-      "partidas": 22,
-      "victorias": 14,
-      "winrate": "63.6%",
-      "kda_promedio": 2.935483870967742
+      "partidas": 23,
+      "victorias": 15,
+      "winrate": "65.2%",
+      "kda_promedio": 2.9921875
     },
     {
       "nombre": "Yunara",
@@ -66,9 +66,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 19,
+    "games": 32,
+    "wins": 20,
     "losses": 12,
-    "timePlayed": 47158
+    "timePlayed": 48744
   }
 }

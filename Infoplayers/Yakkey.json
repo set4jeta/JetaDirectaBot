@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "red sky#14J",
-      "nivel": 554,
+      "nivel": 555,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 994,
-      "victorias": 388,
-      "derrotas": 353,
-      "ultima_partida": 1753553765035
+      "lp": 904,
+      "victorias": 391,
+      "derrotas": 360,
+      "ultima_partida": 1753740915271
     },
     {
       "nombre": "Peyz#1401",
@@ -38,59 +38,59 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 15,
+      "partidas": 16,
       "victorias": 7,
-      "winrate": "46.7%",
-      "kda_promedio": 1.9069767441860466
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 9,
-      "victorias": 2,
-      "winrate": "22.2%",
-      "kda_promedio": 1.8653846153846154
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.090909090909091
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.8108108108108107
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.9047619047619047
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.3658536585365855
+      "winrate": "43.8%",
+      "kda_promedio": 1.8494623655913978
     },
     {
       "nombre": "Jinx",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.0357142857142856
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 1.9152542372881356
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Zeri",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 2
+      "kda_promedio": 2.0344827586206895
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7142857142857142
     },
     {
       "nombre": "Ziggs",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.76
+      "winrate": "100.0%",
+      "kda_promedio": 4.8125
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Vi",
@@ -100,17 +100,17 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 75,
-    "wins": 32,
-    "losses": 43,
-    "timePlayed": 120187
+    "games": 72,
+    "wins": 30,
+    "losses": 42,
+    "timePlayed": 114260
   }
 }

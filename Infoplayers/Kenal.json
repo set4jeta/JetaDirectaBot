@@ -16,43 +16,36 @@
   "cuentas": [
     {
       "nombre": "Kenal#EUW",
-      "nivel": 857,
+      "nivel": 859,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1315,
-      "victorias": 581,
-      "derrotas": 517,
-      "ultima_partida": 1753526078369
+      "lp": 1309,
+      "victorias": 587,
+      "derrotas": 522,
+      "ultima_partida": 1753737146271
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.6511627906976742
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.6
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6875
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.1728395061728394
     },
     {
       "nombre": "Xayah",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Jhin",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.5294117647058822
+      "kda_promedio": 3
     },
     {
       "nombre": "Ziggs",
@@ -69,25 +62,18 @@
       "kda_promedio": 1.8148148148148149
     },
     {
-      "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "Varus",
+      "nombre": "Sivir",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 4.363636363636363
+      "kda_promedio": 4.2727272727272725
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.263157894736842
     },
     {
       "nombre": "Aphelios",
@@ -95,12 +81,26 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.3846153846153846
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
     }
   ],
   "estadisticas_2_semanas": {
     "games": 61,
-    "wins": 31,
-    "losses": 30,
-    "timePlayed": 94116
+    "wins": 29,
+    "losses": 32,
+    "timePlayed": 95070
   }
 }

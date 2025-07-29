@@ -28,24 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Orianna",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 2.577777777777778
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.25
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.78125
     },
     {
       "nombre": "JarvanIV",
@@ -60,12 +46,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 16,
-    "wins": 7,
-    "losses": 9,
-    "timePlayed": 24449
+    "games": 11,
+    "wins": 4,
+    "losses": 7,
+    "timePlayed": 16848
   }
 }

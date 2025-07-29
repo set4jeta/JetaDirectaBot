@@ -16,50 +16,36 @@
   "cuentas": [
     {
       "nombre": "David Lirola#goatツ",
-      "nivel": 1315,
+      "nivel": 1316,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1442,
-      "victorias": 578,
-      "derrotas": 528,
-      "ultima_partida": 1753477358214
+      "lp": 1453,
+      "victorias": 580,
+      "derrotas": 529,
+      "ultima_partida": 1753649093024
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Mel",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6153846153846154
+      "nombre": "Naafiri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4285714285714284
     },
     {
       "nombre": "MissFortune",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.333333333333333
+      "kda_promedio": 8.333333333333334
     },
     {
-      "nombre": "Naafiri",
+      "nombre": "Yunara",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5.571428571428571
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8333333333333334
+      "kda_promedio": 6.428571428571429
     },
     {
       "nombre": "Kaisa",
@@ -67,6 +53,13 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
     },
     {
       "nombre": "Tristana",
@@ -83,24 +76,17 @@
       "kda_promedio": 0.8
     },
     {
-      "nombre": "Viego",
+      "nombre": "Ziggs",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.75
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6.666666666666667
+      "kda_promedio": 0.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
+    "games": 12,
     "wins": 8,
-    "losses": 7,
-    "timePlayed": 24430
+    "losses": 4,
+    "timePlayed": 18933
   }
 }

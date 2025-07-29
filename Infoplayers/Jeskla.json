@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Jeskla",
     "nombre_real": "Jesper Klarin Strömberg",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Kaufland Hangry Knights",
     "pais": "Sweden",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "Jesklaa#EUW",
-      "nivel": 1052,
+      "nivel": 1053,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 874,
-      "victorias": 372,
-      "derrotas": 332,
-      "ultima_partida": 1753559857725
+      "lp": 861,
+      "victorias": 373,
+      "derrotas": 334,
+      "ultima_partida": 1753721177059
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Sivir",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1777777777777776
+    },
     {
       "nombre": "Corki",
       "partidas": 6,
       "victorias": 6,
       "winrate": "100.0%",
-      "kda_promedio": 4.6
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5517241379310347
+      "kda_promedio": 5.625
     },
     {
       "nombre": "Gragas",
@@ -46,13 +46,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8333333333333334
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 4
     },
     {
       "nombre": "JarvanIV",
@@ -84,9 +77,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
+    "games": 21,
     "wins": 12,
-    "losses": 8,
-    "timePlayed": 31218
+    "losses": 9,
+    "timePlayed": 32933
   }
 }

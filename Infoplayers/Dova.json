@@ -19,65 +19,37 @@
       "lp": 1055,
       "victorias": 306,
       "derrotas": 262,
-      "ultima_partida": 1753552889640
+      "ultima_partida": 1753698725225
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1363636363636362
+      "winrate": "80.0%",
+      "kda_promedio": 2.588235294117647
     },
     {
       "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.8125
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.9166666666666665
     },
     {
       "nombre": "DrMundo",
-      "partidas": 4,
-      "victorias": 4,
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 7.142857142857143
+      "kda_promedio": 9.25
     },
     {
       "nombre": "Jayce",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.25
-    },
-    {
-      "nombre": "Mordekaiser",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.7692307692307693
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7058823529411764
+      "kda_promedio": 0.6666666666666666
     },
     {
       "nombre": "Yorick",
@@ -92,12 +64,40 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 36,
-    "wins": 22,
-    "losses": 14,
-    "timePlayed": 55120
+    "games": 23,
+    "wins": 14,
+    "losses": 9,
+    "timePlayed": 36885
   }
 }

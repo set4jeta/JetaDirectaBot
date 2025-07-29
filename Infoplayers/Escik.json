@@ -15,47 +15,61 @@
   },
   "cuentas": [
     {
-      "nombre": "pickaboowhatchu#doing",
-      "nivel": 248,
+      "nombre": "ESCIK#EU1",
+      "nivel": 802,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1103,
-      "victorias": 214,
-      "derrotas": 166,
-      "ultima_partida": 1753438483056
+      "lp": 1192,
+      "victorias": 257,
+      "derrotas": 212,
+      "ultima_partida": 1753615626015
     },
     {
-      "nombre": "ESCIK#EU1",
-      "nivel": 801,
+      "nombre": "pickaboowhatchu#doing",
+      "nivel": 249,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1181,
-      "victorias": 254,
-      "derrotas": 210,
-      "ultima_partida": 1753389238777
+      "liga": "GRANDMASTER I",
+      "lp": 1030,
+      "victorias": 216,
+      "derrotas": 171,
+      "ultima_partida": 1753552327367
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 8,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.586206896551724
+      "winrate": "66.7%",
+      "kda_promedio": 4.777777777777778
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1875
     },
     {
       "nombre": "Yone",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.142857142857143
+      "winrate": "50.0%",
+      "kda_promedio": 2.259259259259259
     },
     {
-      "nombre": "Sylas",
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Corki",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 2.0454545454545454
+      "kda_promedio": 4.333333333333333
     },
     {
       "nombre": "Azir",
@@ -65,52 +79,38 @@
       "kda_promedio": 4.294117647058823
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Sylas",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.28
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.652173913043478
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3125
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.454545454545454
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 16
+      "kda_promedio": 2
     },
     {
       "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.230769230769231
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Taliyah",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3
+      "kda_promedio": 2.235294117647059
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 29,
-    "losses": 25,
-    "timePlayed": 86073
+    "games": 51,
+    "wins": 28,
+    "losses": 23,
+    "timePlayed": 78948
   }
 }

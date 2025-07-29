@@ -18,17 +18,17 @@
       "nivel": 573,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 996,
-      "victorias": 177,
-      "derrotas": 130,
-      "ultima_partida": 1753546778634
+      "lp": 994,
+      "victorias": 178,
+      "derrotas": 131,
+      "ultima_partida": 1753717305395
     },
     {
       "nombre": "RUMBLEKING#C2W",
       "nivel": 67,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 591,
+      "lp": 441,
       "victorias": 163,
       "derrotas": 107,
       "ultima_partida": 1753479986730
@@ -37,17 +37,17 @@
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 9,
-      "victorias": 2,
-      "winrate": "22.2%",
-      "kda_promedio": 1.2297297297297298
+      "partidas": 6,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9821428571428571
     },
     {
       "nombre": "Volibear",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 0.896551724137931
+      "winrate": "33.3%",
+      "kda_promedio": 1.2121212121212122
     },
     {
       "nombre": "KSante",
@@ -59,9 +59,9 @@
     {
       "nombre": "Yorick",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8666666666666667
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1
     },
     {
       "nombre": "Gangplank",
@@ -69,13 +69,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.3333333333333333
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
     },
     {
       "nombre": "Jayce",
@@ -100,9 +93,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
-    "wins": 5,
-    "losses": 18,
-    "timePlayed": 40098
+    "games": 20,
+    "wins": 4,
+    "losses": 16,
+    "timePlayed": 34258
   }
 }

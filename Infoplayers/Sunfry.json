@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 14,
-      "victorias": 10,
-      "winrate": "71.4%",
-      "kda_promedio": 2.7157894736842105
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.511904761904762
     },
     {
       "nombre": "Alistar",
@@ -42,17 +42,10 @@
     },
     {
       "nombre": "Poppy",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.72972972972973
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6842105263157894
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5294117647058822
     },
     {
       "nombre": "Braum",
@@ -90,6 +83,13 @@
       "kda_promedio": 3.75
     },
     {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
       "nombre": "Seraphine",
       "partidas": 1,
       "victorias": 0,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 25,
-    "losses": 17,
-    "timePlayed": 67021
+    "games": 37,
+    "wins": 22,
+    "losses": 15,
+    "timePlayed": 58246
   }
 }

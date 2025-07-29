@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Maelle#melon",
-      "nivel": 884,
+      "nivel": 885,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 815,
-      "victorias": 357,
-      "derrotas": 312,
-      "ultima_partida": 1753556261262
+      "lp": 766,
+      "victorias": 360,
+      "derrotas": 317,
+      "ultima_partida": 1753711864425
     }
   ],
   "campeones_recientes": [
@@ -31,14 +31,14 @@
       "partidas": 10,
       "victorias": 4,
       "winrate": "40.0%",
-      "kda_promedio": 1.7894736842105263
+      "kda_promedio": 1.7317073170731707
     },
     {
       "nombre": "Aatrox",
-      "partidas": 8,
-      "victorias": 4,
+      "partidas": 6,
+      "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 2.1951219512195124
+      "kda_promedio": 2.259259259259259
     },
     {
       "nombre": "Ambessa",
@@ -48,18 +48,25 @@
       "kda_promedio": 1.878787878787879
     },
     {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1904761904761905
+    },
+    {
       "nombre": "Gragas",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2.0526315789473686
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.125
     },
     {
       "nombre": "Sion",
@@ -88,19 +95,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.6923076923076925
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 29,
-    "losses": 22,
-    "timePlayed": 78118
+    "games": 55,
+    "wins": 30,
+    "losses": 25,
+    "timePlayed": 84041
   }
 }

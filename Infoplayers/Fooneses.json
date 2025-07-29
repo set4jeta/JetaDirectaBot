@@ -12,6 +12,16 @@
   },
   "cuentas": [
     {
+      "nombre": "BIN ICH NICHT#FIXED",
+      "nivel": 153,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 740,
+      "victorias": 175,
+      "derrotas": 126,
+      "ultima_partida": 1753741243905
+    },
+    {
       "nombre": "Fooneses#Fonsi",
       "nivel": 557,
       "region": "EUW1",
@@ -19,17 +29,7 @@
       "lp": 1000,
       "victorias": 148,
       "derrotas": 98,
-      "ultima_partida": 1753552877718
-    },
-    {
-      "nombre": "BIN ICH NICHT#FIXED",
-      "nivel": 153,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 753,
-      "victorias": 172,
-      "derrotas": 123,
-      "ultima_partida": 1753040352931
+      "ultima_partida": 1753655495861
     }
   ],
   "campeones_recientes": [
@@ -39,6 +39,13 @@
       "victorias": 5,
       "winrate": "83.3%",
       "kda_promedio": 2.6956521739130435
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.1
     },
     {
       "nombre": "Annie",
@@ -69,11 +76,11 @@
       "kda_promedio": 1.4285714285714286
     },
     {
-      "nombre": "Hwei",
+      "nombre": "Jayce",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
     },
     {
       "nombre": "Jhin",
@@ -83,31 +90,24 @@
       "kda_promedio": 1.8
     },
     {
-      "nombre": "Jinx",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 14
-    },
-    {
       "nombre": "Orianna",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 27,
-    "wins": 19,
-    "losses": 8,
-    "timePlayed": 44195
+    "games": 30,
+    "wins": 20,
+    "losses": 10,
+    "timePlayed": 47778
   }
 }

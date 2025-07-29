@@ -19,50 +19,43 @@
       "nivel": 652,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1119,
-      "victorias": 169,
-      "derrotas": 118,
-      "ultima_partida": 1753447241319
+      "lp": 1095,
+      "victorias": 170,
+      "derrotas": 120,
+      "ultima_partida": 1753729165613
     },
     {
       "nombre": "Foutriquet#FOU",
-      "nivel": 346,
+      "nivel": 347,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1574,
-      "victorias": 186,
-      "derrotas": 127,
-      "ultima_partida": 1753358297468
+      "lp": 1581,
+      "victorias": 188,
+      "derrotas": 128,
+      "ultima_partida": 1753726787721
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "MonkeyKing",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 4.354838709677419
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 8.076923076923077
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4.033333333333333
     },
     {
       "nombre": "LeeSin",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 7.866666666666666
+      "winrate": "75.0%",
+      "kda_promedio": 5.166666666666667
     },
     {
       "nombre": "Pantheon",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.052631578947368
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.863636363636363
     },
     {
       "nombre": "Zed",
@@ -70,6 +63,13 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 2.2962962962962963
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.2
     },
     {
       "nombre": "Trundle",
@@ -100,17 +100,17 @@
       "kda_promedio": 1.625
     },
     {
-      "nombre": "Sejuani",
+      "nombre": "Ekko",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.2
+      "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 30,
-    "losses": 18,
-    "timePlayed": 71877
+    "games": 47,
+    "wins": 26,
+    "losses": 21,
+    "timePlayed": 73092
   }
 }

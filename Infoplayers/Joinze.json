@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Joinze",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Joinzelol",
+      "twitch": "https://www.twitch.tv/joinzelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Nuno Mendes#2171",
+      "nivel": 255,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1286,
+      "victorias": 378,
+      "derrotas": 303,
+      "ultima_partida": 1753655100047
+    },
+    {
+      "nombre": "Joinze#EUW",
+      "nivel": 697,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 93,
+      "derrotas": 82,
+      "ultima_partida": 1750343126502
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Taliyah",
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 3.548780487804878
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 3.1176470588235294
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1739130434782608
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.571428571428571
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7857142857142858
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 24,
+    "losses": 27,
+    "timePlayed": 82940
+  }
+}

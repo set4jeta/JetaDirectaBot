@@ -15,43 +15,29 @@
   "cuentas": [
     {
       "nombre": "FNC Mikyx#1998",
-      "nivel": 1101,
+      "nivel": 1102,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1657,
-      "victorias": 331,
-      "derrotas": 258,
-      "ultima_partida": 1753351838451
+      "lp": 1626,
+      "victorias": 332,
+      "derrotas": 260,
+      "ultima_partida": 1753697289709
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.0476190476190474
-    },
-    {
-      "nombre": "Thresh",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.4642857142857144
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0416666666666667
-    },
     {
       "nombre": "Rakan",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6818181818181817
     },
     {
       "nombre": "Alistar",
@@ -61,6 +47,20 @@
       "kda_promedio": 2.8461538461538463
     },
     {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
       "nombre": "FiddleSticks",
       "partidas": 2,
       "victorias": 1,
@@ -68,25 +68,25 @@
       "kda_promedio": 3.8333333333333335
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Poppy",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2666666666666666
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.428571428571429
     },
     {
-      "nombre": "Blitzcrank",
+      "nombre": "Amumu",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 1.3
     },
     {
-      "nombre": "Braum",
+      "nombre": "Elise",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1428571428571428
+      "kda_promedio": 0.9
     },
     {
       "nombre": "Gragas",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
-    "wins": 12,
-    "losses": 17,
-    "timePlayed": 49349
+    "games": 23,
+    "wins": 10,
+    "losses": 13,
+    "timePlayed": 39369
   }
 }

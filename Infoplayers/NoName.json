@@ -19,26 +19,19 @@
       "nivel": 1296,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1074,
-      "victorias": 275,
-      "derrotas": 237,
-      "ultima_partida": 1753375871778
+      "lp": 1047,
+      "victorias": 276,
+      "derrotas": 239,
+      "ultima_partida": 1753735288277
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 7,
       "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.7714285714285714
+      "winrate": "62.5%",
+      "kda_promedio": 3.8285714285714287
     },
     {
       "nombre": "XinZhao",
@@ -48,18 +41,25 @@
       "kda_promedio": 2.1379310344827585
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.285714285714286
     },
     {
-      "nombre": "Lillia",
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "LeeSin",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 9.2
+      "kda_promedio": 3.8
     },
     {
       "nombre": "MonkeyKing",
@@ -69,13 +69,6 @@
       "kda_promedio": 11.5
     },
     {
-      "nombre": "Trundle",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Zed",
       "partidas": 2,
       "victorias": 2,
@@ -83,11 +76,11 @@
       "kda_promedio": 16
     },
     {
-      "nombre": "Aatrox",
+      "nombre": "JarvanIV",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1428571428571428
+      "kda_promedio": 11
     },
     {
       "nombre": "Jax",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 20,
-    "losses": 18,
-    "timePlayed": 62890
+    "games": 31,
+    "wins": 15,
+    "losses": 16,
+    "timePlayed": 51500
   }
 }

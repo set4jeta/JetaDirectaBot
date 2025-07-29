@@ -15,43 +15,29 @@
   "cuentas": [
     {
       "nombre": "Goliath#2002",
-      "nivel": 439,
+      "nivel": 440,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1160,
-      "victorias": 466,
-      "derrotas": 376,
-      "ultima_partida": 1753553567809
+      "lp": 1058,
+      "victorias": 469,
+      "derrotas": 383,
+      "ultima_partida": 1753753311808
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 10,
-      "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 2.324675324675325
-    },
-    {
-      "nombre": "Camille",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.0163934426229506
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.9736842105263157
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Neeko",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.611111111111111
+      "winrate": "60.0%",
+      "kda_promedio": 2.9285714285714284
     },
     {
       "nombre": "Pyke",
@@ -82,6 +68,20 @@
       "kda_promedio": 1.9545454545454546
     },
     {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9545454545454546
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0384615384615383
+    },
+    {
       "nombre": "Jhin",
       "partidas": 3,
       "victorias": 2,
@@ -89,17 +89,17 @@
       "kda_promedio": 4.7272727272727275
     },
     {
-      "nombre": "Bard",
-      "partidas": 2,
+      "nombre": "Rell",
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.7777777777777777
+      "kda_promedio": 1.4210526315789473
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 34,
-    "losses": 32,
-    "timePlayed": 107617
+    "games": 60,
+    "wins": 27,
+    "losses": 33,
+    "timePlayed": 98899
   }
 }

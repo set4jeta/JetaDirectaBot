@@ -15,22 +15,36 @@
   "cuentas": [
     {
       "nombre": "Panda#32111",
-      "nivel": 651,
+      "nivel": 656,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1323,
+      "lp": 1182,
       "victorias": 309,
-      "derrotas": 260,
-      "ultima_partida": 1753445826973
+      "derrotas": 266,
+      "ultima_partida": 1753709701116
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
       "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 6.818181818181818
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.55
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
     },
     {
       "nombre": "Akali",
@@ -40,11 +54,18 @@
       "kda_promedio": 2.6923076923076925
     },
     {
-      "nombre": "Yasuo",
+      "nombre": "Jhin",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5833333333333333
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4444444444444446
     },
     {
       "nombre": "Aurora",
@@ -52,13 +73,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 11
-    },
-    {
-      "nombre": "Draven",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     },
     {
       "nombre": "Ezreal",
@@ -75,31 +89,17 @@
       "kda_promedio": 4.75
     },
     {
-      "nombre": "JarvanIV",
+      "nombre": "Jax",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.375
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.2
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 0.6153846153846154
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 13,
-    "losses": 7,
-    "timePlayed": 36292
+    "games": 29,
+    "wins": 12,
+    "losses": 17,
+    "timePlayed": 50743
   }
 }

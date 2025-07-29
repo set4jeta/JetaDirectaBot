@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Rhilech#15105",
-      "nivel": 1015,
+      "nivel": 1016,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1322,
-      "victorias": 479,
-      "derrotas": 417,
-      "ultima_partida": 1753566725859
+      "lp": 1318,
+      "victorias": 480,
+      "derrotas": 418,
+      "ultima_partida": 1753716466666
     },
     {
       "nombre": "bomboboks#15105",
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
       "nombre": "DrMundo",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 4.7
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3846153846153846
     },
     {
       "nombre": "Viego",
@@ -101,9 +101,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
+    "games": 19,
     "wins": 10,
-    "losses": 8,
-    "timePlayed": 29546
+    "losses": 9,
+    "timePlayed": 30457
   }
 }

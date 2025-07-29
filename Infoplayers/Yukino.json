@@ -29,7 +29,7 @@
       "nivel": 68,
       "region": "NA1",
       "liga": "MASTER I",
-      "lp": 294,
+      "lp": 219,
       "victorias": 70,
       "derrotas": 26,
       "ultima_partida": 1751761161382
@@ -47,13 +47,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3275862068965516
-    },
-    {
       "nombre": "LeeSin",
       "partidas": 3,
       "victorias": 1,
@@ -66,6 +59,13 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 6.333333333333333
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2
     },
     {
       "nombre": "Gragas",
@@ -90,9 +90,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 9,
-    "losses": 5,
-    "timePlayed": 24227
+    "games": 10,
+    "wins": 6,
+    "losses": 4,
+    "timePlayed": 15245
   }
 }

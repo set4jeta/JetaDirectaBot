@@ -16,39 +16,39 @@
   "cuentas": [
     {
       "nombre": "Lancelot#4150",
-      "nivel": 267,
+      "nivel": 268,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 841,
       "victorias": 284,
       "derrotas": 252,
-      "ultima_partida": 1753577661386
+      "ultima_partida": 1753743225403
     },
     {
       "nombre": "Carnagε#EUW",
-      "nivel": 1030,
+      "nivel": 1031,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 872,
-      "victorias": 184,
+      "lp": 909,
+      "victorias": 186,
       "derrotas": 158,
-      "ultima_partida": 1753561455673
+      "ultima_partida": 1753737901039
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 13,
+      "partidas": 12,
       "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 3.4328358208955225
+      "winrate": "66.7%",
+      "kda_promedio": 3.622950819672131
     },
     {
       "nombre": "Poppy",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.6206896551724137
+      "winrate": "33.3%",
+      "kda_promedio": 2.909090909090909
     },
     {
       "nombre": "Trundle",
@@ -86,6 +86,13 @@
       "kda_promedio": 1.8181818181818181
     },
     {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
       "nombre": "Aurora",
       "partidas": 1,
       "victorias": 1,
@@ -98,19 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.2
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 21,
-    "losses": 26,
-    "timePlayed": 68521
+    "games": 50,
+    "wins": 25,
+    "losses": 25,
+    "timePlayed": 74438
   }
 }

@@ -16,36 +16,36 @@
   "cuentas": [
     {
       "nombre": "bamboocleaner#kamil",
-      "nivel": 1073,
+      "nivel": 1074,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1233,
-      "victorias": 418,
-      "derrotas": 371,
-      "ultima_partida": 1753431091625
+      "lp": 1198,
+      "victorias": 420,
+      "derrotas": 374,
+      "ultima_partida": 1753716365156
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
       "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 2.7586206896551726
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 4.363636363636363
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.8524590163934427
     },
     {
       "nombre": "Rell",
-      "partidas": 9,
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 4.229166666666667
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 4.638888888888889
+      "winrate": "60.0%",
+      "kda_promedio": 3.9743589743589745
     },
     {
       "nombre": "Alistar",
@@ -55,25 +55,18 @@
       "kda_promedio": 2.5652173913043477
     },
     {
-      "nombre": "Senna",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2222222222222223
-    },
-    {
-      "nombre": "Neeko",
+      "nombre": "Bard",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.1818181818181817
+      "kda_promedio": 4.333333333333333
     },
     {
-      "nombre": "Bard",
-      "partidas": 1,
+      "nombre": "Senna",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Blitzcrank",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 28,
-    "losses": 22,
-    "timePlayed": 78519
+    "games": 48,
+    "wins": 25,
+    "losses": 23,
+    "timePlayed": 75117
   }
 }

@@ -16,10 +16,10 @@
       "nivel": 231,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 809,
+      "lp": 768,
       "victorias": 365,
-      "derrotas": 323,
-      "ultima_partida": 1753148699217
+      "derrotas": 325,
+      "ultima_partida": 1753722727806
     },
     {
       "nombre": "Kijo73#ZTC",
@@ -35,10 +35,10 @@
   "campeones_recientes": [
     {
       "nombre": "Belveth",
-      "partidas": 12,
+      "partidas": 13,
       "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.45
+      "winrate": "53.8%",
+      "kda_promedio": 2.3076923076923075
     },
     {
       "nombre": "Ivern",
@@ -48,11 +48,18 @@
       "kda_promedio": 3
     },
     {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
       "nombre": "Rakan",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6470588235294117
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.5
     },
     {
       "nombre": "Zyra",
@@ -60,13 +67,6 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.2941176470588234
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5294117647058822
     },
     {
       "nombre": "Neeko",
@@ -83,13 +83,6 @@
       "kda_promedio": 2.8181818181818183
     },
     {
-      "nombre": "Shyvana",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.533333333333333
-    },
-    {
       "nombre": "Taric",
       "partidas": 2,
       "victorias": 2,
@@ -102,12 +95,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 26,
-    "losses": 23,
-    "timePlayed": 78987
+    "games": 46,
+    "wins": 25,
+    "losses": 21,
+    "timePlayed": 71114
   }
 }

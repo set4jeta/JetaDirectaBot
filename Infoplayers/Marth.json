@@ -16,22 +16,29 @@
   "cuentas": [
     {
       "nombre": "Marth#ADC",
-      "nivel": 798,
+      "nivel": 800,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 928,
-      "victorias": 262,
-      "derrotas": 232,
-      "ultima_partida": 1753455073568
+      "liga": "CHALLENGER I",
+      "lp": 1050,
+      "victorias": 271,
+      "derrotas": 234,
+      "ultima_partida": 1753568660786
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jhin",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 5.958333333333333
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.28
     },
     {
       "nombre": "Lucian",
@@ -41,13 +48,6 @@
       "kda_promedio": 9.444444444444445
     },
     {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.6923076923076925
-    },
-    {
       "nombre": "Annie",
       "partidas": 3,
       "victorias": 1,
@@ -55,18 +55,32 @@
       "kda_promedio": 3.4285714285714284
     },
     {
-      "nombre": "Karma",
+      "nombre": "Corki",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.923076923076923
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.375
     },
     {
-      "nombre": "Corki",
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Sivir",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3636363636363635
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.166666666666667
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.375
     },
     {
       "nombre": "Ziggs",
@@ -81,26 +95,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 7
-    },
-    {
-      "nombre": "Chogath",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 23,
-    "losses": 15,
-    "timePlayed": 62019
+    "games": 48,
+    "wins": 32,
+    "losses": 16,
+    "timePlayed": 79202
   }
 }

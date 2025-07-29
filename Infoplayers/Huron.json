@@ -15,16 +15,23 @@
   "cuentas": [
     {
       "nombre": "BadgerOnPlane#EUW",
-      "nivel": 279,
+      "nivel": 280,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 950,
-      "victorias": 208,
-      "derrotas": 165,
-      "ultima_partida": 1753196004292
+      "lp": 968,
+      "victorias": 213,
+      "derrotas": 168,
+      "ultima_partida": 1753622760053
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 6.266666666666667
+    },
     {
       "nombre": "Rell",
       "partidas": 5,
@@ -33,46 +40,46 @@
       "kda_promedio": 5
     },
     {
-      "nombre": "Alistar",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 7.416666666666667
-    },
-    {
-      "nombre": "Neeko",
+      "nombre": "Rakan",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.130434782608696
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 8.375
+      "kda_promedio": 3.9285714285714284
     },
     {
       "nombre": "Braum",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8461538461538463
     },
     {
       "nombre": "Nautilus",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.0714285714285716
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 2,
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 8.25
+      "kda_promedio": 7.428571428571429
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.142857142857143
     },
     {
       "nombre": "Ashe",
@@ -80,13 +87,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4.333333333333333
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
     },
     {
       "nombre": "Karma",
@@ -97,9 +97,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 20,
-    "losses": 12,
-    "timePlayed": 48910
+    "games": 33,
+    "wins": 19,
+    "losses": 14,
+    "timePlayed": 48810
   }
 }

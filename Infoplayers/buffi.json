@@ -15,33 +15,40 @@
   },
   "cuentas": [
     {
-      "nombre": "buffi#1505",
-      "nivel": 1011,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1061,
-      "victorias": 184,
-      "derrotas": 149,
-      "ultima_partida": 1753463567799
-    },
-    {
       "nombre": "lecefurabezdachu#EUW",
       "nivel": 177,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 881,
+      "lp": 815,
       "victorias": 139,
-      "derrotas": 97,
-      "ultima_partida": 1753457110242
+      "derrotas": 100,
+      "ultima_partida": 1753729662385
+    },
+    {
+      "nombre": "buffi#1505",
+      "nivel": 1011,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1049,
+      "victorias": 186,
+      "derrotas": 151,
+      "ultima_partida": 1753714894756
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viktor",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.76
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2
     },
     {
       "nombre": "Azir",
@@ -55,35 +62,42 @@
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.466666666666667
+      "kda_promedio": 2.9285714285714284
     },
     {
-      "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.555555555555555
-    },
-    {
-      "nombre": "Orianna",
+      "nombre": "Taliyah",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.619047619047619
+      "kda_promedio": 0.7083333333333334
     },
     {
       "nombre": "Ahri",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.076923076923077
+      "kda_promedio": 8.25
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Aurora",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
+      "kda_promedio": 1.4666666666666666
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.6
     },
     {
       "nombre": "Ziggs",
@@ -91,26 +105,12 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 16,
+    "games": 29,
+    "wins": 14,
     "losses": 15,
-    "timePlayed": 47242
+    "timePlayed": 45545
   }
 }

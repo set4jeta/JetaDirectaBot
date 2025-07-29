@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "KOI 13#Tukan",
-      "nivel": 152,
+      "nivel": 154,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1070,
-      "victorias": 328,
-      "derrotas": 280,
-      "ultima_partida": 1753459773436
+      "lp": 1037,
+      "victorias": 338,
+      "derrotas": 290,
+      "ultima_partida": 1753763460354
     },
     {
       "nombre": "TEDDY VIPER1#박도현",
       "nivel": 145,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 125,
-      "victorias": 161,
-      "derrotas": 123,
-      "ultima_partida": 1753442039057
+      "lp": 139,
+      "victorias": 162,
+      "derrotas": 124,
+      "ultima_partida": 1753642775253
     },
     {
       "nombre": "JUGKING#DWG13",
@@ -48,38 +48,38 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 11,
+      "partidas": 13,
       "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.343283582089552
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.1666666666666665
-    },
-    {
-      "nombre": "Caitlyn",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.2222222222222223
+      "winrate": "46.2%",
+      "kda_promedio": 2.769230769230769
     },
     {
       "nombre": "Kaisa",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.1785714285714284
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.341463414634146
     },
     {
-      "nombre": "Varus",
+      "nombre": "Aphelios",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.066666666666667
+    },
+    {
+      "nombre": "Sivir",
       "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.037037037037037
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
     },
     {
       "nombre": "Jhin",
@@ -89,38 +89,38 @@
       "kda_promedio": 3.772727272727273
     },
     {
-      "nombre": "Sivir",
+      "nombre": "Varus",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0454545454545454
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 2,
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 5.5
+      "kda_promedio": 7
     },
     {
       "nombre": "Ezreal",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3333333333333333
+      "winrate": "33.3%",
+      "kda_promedio": 0.8571428571428571
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Caitlyn",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5.428571428571429
+      "kda_promedio": 4.714285714285714
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 69,
-    "wins": 33,
-    "losses": 36,
-    "timePlayed": 112469
+    "games": 76,
+    "wins": 36,
+    "losses": 40,
+    "timePlayed": 125183
   }
 }

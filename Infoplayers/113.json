@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "113#Kuri",
-      "nivel": 716,
+      "nivel": 718,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 2047,
-      "victorias": 382,
-      "derrotas": 286,
-      "ultima_partida": 1753409215873
+      "lp": 2027,
+      "victorias": 389,
+      "derrotas": 291,
+      "ultima_partida": 1753743252445
     },
     {
       "nombre": "Panky Buruk#CURSE",
       "nivel": 260,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 219,
-      "victorias": 103,
-      "derrotas": 62,
-      "ultima_partida": 1753323847038
+      "lp": 257,
+      "victorias": 106,
+      "derrotas": 65,
+      "ultima_partida": 1753727198942
     },
     {
       "nombre": "Who is thisss1#EUW",
@@ -58,45 +58,31 @@
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 12,
+      "partidas": 11,
       "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 3.064516129032258
+      "winrate": "45.5%",
+      "kda_promedio": 3.4347826086956523
     },
     {
       "nombre": "Nidalee",
       "partidas": 10,
       "victorias": 6,
       "winrate": "60.0%",
-      "kda_promedio": 5.702702702702703
+      "kda_promedio": 4.658536585365853
     },
     {
-      "nombre": "Naafiri",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 4.518518518518518
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.285714285714286
+      "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Pantheon",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.727272727272727
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1739130434782608
+      "kda_promedio": 3.6315789473684212
     },
     {
       "nombre": "DrMundo",
@@ -113,24 +99,38 @@
       "kda_promedio": 2.0588235294117645
     },
     {
-      "nombre": "Zed",
+      "nombre": "JarvanIV",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5.375
+      "kda_promedio": 8.285714285714286
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 1,
+      "nombre": "Naafiri",
+      "partidas": 2,
       "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 8
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
     "games": 61,
-    "wins": 31,
-    "losses": 30,
-    "timePlayed": 98571
+    "wins": 29,
+    "losses": 32,
+    "timePlayed": 98551
   }
 }

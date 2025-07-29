@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Typhoon",
+    "nombre_real": "Tayfun Gümüş",
+    "edad": 25,
+    "equipo": "CGN Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/typhoon.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Typhoon#caca",
+      "nivel": 982,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 776,
+      "victorias": 454,
+      "derrotas": 422,
+      "ultima_partida": 1753748812378
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Diana",
+      "partidas": 30,
+      "victorias": 22,
+      "winrate": "73.3%",
+      "kda_promedio": 4.697478991596639
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 26,
+      "victorias": 16,
+      "winrate": "61.5%",
+      "kda_promedio": 4.078431372549019
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 4.057142857142857
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6129032258064515
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2758620689655173
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.433333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3684210526315788
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.4210526315789473
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 10.833333333333334
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.6153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 121,
+    "wins": 70,
+    "losses": 51,
+    "timePlayed": 197804
+  }
+}

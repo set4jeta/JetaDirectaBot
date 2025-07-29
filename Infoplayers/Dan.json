@@ -19,26 +19,26 @@
       "nivel": 297,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 907,
-      "victorias": 218,
-      "derrotas": 188,
-      "ultima_partida": 1753452789378
+      "lp": 939,
+      "victorias": 221,
+      "derrotas": 189,
+      "ultima_partida": 1753653313694
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Volibear",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.9166666666666667
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5.045454545454546
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 2,
+      "nombre": "Skarner",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 6
+      "winrate": "33.3%",
+      "kda_promedio": 2.5555555555555554
     },
     {
       "nombre": "MonkeyKing",
@@ -48,11 +48,11 @@
       "kda_promedio": 5.428571428571429
     },
     {
-      "nombre": "Skarner",
+      "nombre": "Volibear",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.3636363636363638
+      "kda_promedio": 1.2307692307692308
     },
     {
       "nombre": "XinZhao",
@@ -60,13 +60,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.875
     },
     {
       "nombre": "Pantheon",
@@ -77,9 +70,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 4,
-    "losses": 10,
-    "timePlayed": 22229
+    "games": 15,
+    "wins": 6,
+    "losses": 9,
+    "timePlayed": 25064
   }
 }

@@ -17,8 +17,8 @@
       "nombre": "XXXXXXXXY1#EUW",
       "nivel": 274,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1110,
+      "liga": "GRANDMASTER I",
+      "lp": 960,
       "victorias": 305,
       "derrotas": 249,
       "ultima_partida": 1753476607441
@@ -27,17 +27,10 @@
   "campeones_recientes": [
     {
       "nombre": "Irelia",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.3870967741935485
-    },
-    {
-      "nombre": "Yasuo",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.625
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2413793103448274
     },
     {
       "nombre": "Azir",
@@ -61,6 +54,13 @@
       "kda_promedio": 0.3333333333333333
     },
     {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
       "nombre": "Yone",
       "partidas": 1,
       "victorias": 0,
@@ -69,9 +69,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 8,
+    "games": 11,
+    "wins": 6,
     "losses": 5,
-    "timePlayed": 17918
+    "timePlayed": 13972
   }
 }

@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Vzz",
     "nombre_real": "Teodor Cholakov",
-    "edad": 24,
+    "edad": 25,
     "equipo": "TeamOrangeGaming",
     "pais": "Bulgaria",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,57 +16,36 @@
   "cuentas": [
     {
       "nombre": "SOGEKING#EUW11",
-      "nivel": 677,
+      "nivel": 682,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 910,
-      "victorias": 426,
-      "derrotas": 398,
-      "ultima_partida": 1753388723845
+      "lp": 849,
+      "victorias": 437,
+      "derrotas": 412,
+      "ultima_partida": 1753735288277
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Corki",
-      "partidas": 27,
-      "victorias": 16,
-      "winrate": "59.3%",
-      "kda_promedio": 4.291666666666667
+      "partidas": 44,
+      "victorias": 25,
+      "winrate": "56.8%",
+      "kda_promedio": 3.888235294117647
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.689655172413793
     },
     {
       "nombre": "Varus",
-      "partidas": 10,
-      "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 2.5294117647058822
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.875
-    },
-    {
-      "nombre": "Xayah",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.4615384615384615
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 32
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.9722222222222223
     },
     {
       "nombre": "Orianna",
@@ -76,31 +55,52 @@
       "kda_promedio": 2.75
     },
     {
-      "nombre": "Viego",
+      "nombre": "Senna",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.875
+      "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Sivir",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.375
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 19
+    },
+    {
+      "nombre": "Gnar",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.8
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 32,
-    "losses": 29,
-    "timePlayed": 95050
+    "games": 69,
+    "wins": 35,
+    "losses": 34,
+    "timePlayed": 109448
   }
 }

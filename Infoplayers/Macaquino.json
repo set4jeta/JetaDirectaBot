@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "MARIABECERRA FAN#MACA",
-      "nivel": 1538,
+      "nivel": 1539,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1146,
-      "victorias": 467,
-      "derrotas": 421,
-      "ultima_partida": 1753548585222
+      "lp": 1168,
+      "victorias": 472,
+      "derrotas": 424,
+      "ultima_partida": 1753731239552
     },
     {
       "nombre": "PERREO FURIOSO#EUW",
       "nivel": 73,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 67,
+      "liga": "MASTER I",
+      "lp": 5,
+      "victorias": 68,
       "derrotas": 36,
-      "ultima_partida": 1752686969158
+      "ultima_partida": 1753700788780
     }
   ],
   "campeones_recientes": [
@@ -41,21 +41,28 @@
       "partidas": 12,
       "victorias": 7,
       "winrate": "58.3%",
-      "kda_promedio": 4
+      "kda_promedio": 4.181818181818182
     },
     {
       "nombre": "Taliyah",
       "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3.8983050847457625
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 4.6
     },
     {
       "nombre": "Aurora",
       "partidas": 10,
       "victorias": 3,
       "winrate": "30.0%",
-      "kda_promedio": 2.861111111111111
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.8048780487804876
     },
     {
       "nombre": "Annie",
@@ -65,11 +72,11 @@
       "kda_promedio": 1.864864864864865
     },
     {
-      "nombre": "Lux",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 4.4375
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.736842105263158
     },
     {
       "nombre": "Akali",
@@ -79,38 +86,31 @@
       "kda_promedio": 1.9
     },
     {
-      "nombre": "Syndra",
-      "partidas": 3,
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.8461538461538463
+      "winrate": "100.0%",
+      "kda_promedio": 3.076923076923077
     },
     {
       "nombre": "Mel",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.5384615384615383
-    },
-    {
-      "nombre": "Caitlyn",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2222222222222223
-    },
-    {
-      "nombre": "Cassiopeia",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
+      "kda_promedio": 1.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 37,
+    "games": 75,
+    "wins": 41,
     "losses": 34,
-    "timePlayed": 115896
+    "timePlayed": 121276
   }
 }

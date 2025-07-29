@@ -5,7 +5,7 @@
     "edad": 24,
     "equipo": "ULF Esports",
     "pais": "Turkey",
-    "contrato_hasta": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/KaoriLoL",
       "twitch": "https://twitch.tv/kaori123"
@@ -16,36 +16,43 @@
   "cuentas": [
     {
       "nombre": "古月方源#33333",
-      "nivel": 1197,
+      "nivel": 1198,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1061,
-      "victorias": 464,
-      "derrotas": 414,
-      "ultima_partida": 1753469372064
+      "liga": "GRANDMASTER I",
+      "lp": 884,
+      "victorias": 467,
+      "derrotas": 425,
+      "ultima_partida": 1753747435371
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jhin",
-      "partidas": 12,
+      "partidas": 14,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5689655172413794
+      "winrate": "42.9%",
+      "kda_promedio": 2.92
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.369565217391304
     },
     {
       "nombre": "Varus",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 2.7857142857142856
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.7916666666666665
     },
     {
-      "nombre": "Senna",
+      "nombre": "Kaisa",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.444444444444445
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2777777777777777
     },
     {
       "nombre": "Sivir",
@@ -76,31 +83,24 @@
       "kda_promedio": 1.25
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6923076923076923
-    },
-    {
-      "nombre": "Lucian",
+      "nombre": "Ezreal",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.888888888888889
+      "kda_promedio": 2.2
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Taliyah",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.7333333333333334
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
-    "wins": 30,
-    "losses": 23,
-    "timePlayed": 83942
+    "games": 57,
+    "wins": 28,
+    "losses": 29,
+    "timePlayed": 91065
   }
 }

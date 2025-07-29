@@ -16,50 +16,43 @@
   "cuentas": [
     {
       "nombre": "Dealersz#EUW",
-      "nivel": 395,
+      "nivel": 397,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 943,
-      "victorias": 325,
-      "derrotas": 265,
-      "ultima_partida": 1753394822937
+      "lp": 887,
+      "victorias": 337,
+      "derrotas": 278,
+      "ultima_partida": 1753743240548
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Draven",
-      "partidas": 61,
-      "victorias": 36,
-      "winrate": "59.0%",
-      "kda_promedio": 2.4904109589041097
+      "partidas": 64,
+      "victorias": 35,
+      "winrate": "54.7%",
+      "kda_promedio": 2.3557951482479784
     },
     {
       "nombre": "Kalista",
-      "partidas": 18,
-      "victorias": 12,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2747252747252746
+      "partidas": 23,
+      "victorias": 15,
+      "winrate": "65.2%",
+      "kda_promedio": 3.1322314049586777
     },
     {
       "nombre": "Ezreal",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.0232558139534884
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.875
     },
     {
       "nombre": "Karthus",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.1818181818181817
-    },
-    {
-      "nombre": "Akshan",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.769230769230769
+      "kda_promedio": 7.666666666666667
     },
     {
       "nombre": "Zilean",
@@ -67,6 +60,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 6
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4444444444444446
     },
     {
       "nombre": "Caitlyn",
@@ -77,9 +77,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 94,
+    "games": 95,
     "wins": 55,
-    "losses": 39,
-    "timePlayed": 151036
+    "losses": 40,
+    "timePlayed": 153145
   }
 }

@@ -18,11 +18,11 @@
       "nombre": "GRF Viper#1310",
       "nivel": 1579,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1022,
-      "victorias": 637,
+      "liga": "CHALLENGER I",
+      "lp": 1041,
+      "victorias": 638,
       "derrotas": 597,
-      "ultima_partida": 1753566411360
+      "ultima_partida": 1753694396496
     },
     {
       "nombre": "202220222#EUW",
@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Varus",
-      "partidas": 22,
-      "victorias": 11,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1704545454545454
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 4.888888888888889
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2.712121212121212
     },
     {
       "nombre": "Yunara",
@@ -58,39 +51,32 @@
       "kda_promedio": 3.1025641025641026
     },
     {
+      "nombre": "Lucian",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 5.454545454545454
+    },
+    {
       "nombre": "Ezreal",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.8095238095238093
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Xayah",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.05
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.8666666666666667
     },
     {
       "nombre": "Kaisa",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.2727272727272725
-    },
-    {
-      "nombre": "Jhin",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4.833333333333333
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.846153846153846
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 7
     },
     {
       "nombre": "Aphelios",
@@ -105,12 +91,26 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 6
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 8.75
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
-    "wins": 44,
-    "losses": 33,
-    "timePlayed": 127459
+    "games": 59,
+    "wins": 33,
+    "losses": 26,
+    "timePlayed": 94734
   }
 }

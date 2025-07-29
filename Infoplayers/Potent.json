@@ -16,43 +16,43 @@
   "cuentas": [
     {
       "nombre": "BATMAN ALGERIEN#FEET",
-      "nivel": 634,
+      "nivel": 636,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1051,
-      "victorias": 331,
-      "derrotas": 271,
-      "ultima_partida": 1753468872871
+      "lp": 952,
+      "victorias": 339,
+      "derrotas": 283,
+      "ultima_partida": 1753720345427
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Ambessa",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.6
+    },
+    {
       "nombre": "Fiora",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 1.88
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 1.7272727272727273
     },
     {
       "nombre": "Gwen",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.7083333333333335
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.1176470588235294
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.7142857142857144
     },
     {
       "nombre": "KSante",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.0952380952380953
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8857142857142857
     },
     {
       "nombre": "Garen",
@@ -60,6 +60,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.7368421052631579
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Malphite",
@@ -76,6 +83,13 @@
       "kda_promedio": 0.5555555555555556
     },
     {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Yorick",
       "partidas": 1,
       "victorias": 1,
@@ -84,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 27,
-    "wins": 16,
-    "losses": 11,
-    "timePlayed": 42714
+    "games": 47,
+    "wins": 24,
+    "losses": 23,
+    "timePlayed": 78353
   }
 }

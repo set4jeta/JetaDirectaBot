@@ -15,33 +15,33 @@
   },
   "cuentas": [
     {
+      "nombre": "B O O S H I#STAR",
+      "nivel": 868,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1088,
+      "victorias": 578,
+      "derrotas": 530,
+      "ultima_partida": 1753738913708
+    },
+    {
       "nombre": "B2O#NEW",
       "nivel": 149,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 255,
-      "victorias": 94,
+      "lp": 275,
+      "victorias": 95,
       "derrotas": 85,
-      "ultima_partida": 1753568422859
-    },
-    {
-      "nombre": "B O O S H I#STAR",
-      "nivel": 867,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1057,
-      "victorias": 571,
-      "derrotas": 525,
-      "ultima_partida": 1753564157744
+      "ultima_partida": 1753644335300
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 57,
-      "victorias": 28,
-      "winrate": "49.1%",
-      "kda_promedio": 3.790960451977401
+      "partidas": 51,
+      "victorias": 26,
+      "winrate": "51.0%",
+      "kda_promedio": 4.134751773049645
     },
     {
       "nombre": "Yunara",
@@ -52,10 +52,17 @@
     },
     {
       "nombre": "Ezreal",
-      "partidas": 20,
+      "partidas": 19,
       "victorias": 10,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1298701298701297
+      "winrate": "52.6%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 4.589743589743589
     },
     {
       "nombre": "Varus",
@@ -65,18 +72,11 @@
       "kda_promedio": 3.6363636363636362
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 3.857142857142857
-    },
-    {
       "nombre": "Aurora",
       "partidas": 7,
       "victorias": 1,
       "winrate": "14.3%",
-      "kda_promedio": 3.5625
+      "kda_promedio": 4.266666666666667
     },
     {
       "nombre": "Aphelios",
@@ -90,27 +90,27 @@
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.230769230769231
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.875
+      "kda_promedio": 4.166666666666667
     },
     {
       "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Jhin",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
+      "victorias": 1,
+      "winrate": "50.0%",
       "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 145,
-    "wins": 74,
-    "losses": 71,
-    "timePlayed": 229963
+    "games": 141,
+    "wins": 75,
+    "losses": 66,
+    "timePlayed": 219205
   }
 }

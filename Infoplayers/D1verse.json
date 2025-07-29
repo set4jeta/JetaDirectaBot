@@ -12,33 +12,33 @@
   },
   "cuentas": [
     {
-      "nombre": "EXA D1verse#Tacos",
-      "nivel": 585,
+      "nombre": "Not QuiteMyTempo#Kebab",
+      "nivel": 649,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 756,
-      "victorias": 120,
-      "derrotas": 76,
-      "ultima_partida": 1753564926958
+      "lp": 807,
+      "victorias": 242,
+      "derrotas": 210,
+      "ultima_partida": 1753734662340
     },
     {
-      "nombre": "Not QuiteMyTempo#Kebab",
-      "nivel": 648,
+      "nombre": "EXA D1verse#Tacos",
+      "nivel": 586,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 769,
-      "victorias": 237,
-      "derrotas": 207,
-      "ultima_partida": 1753457762449
+      "lp": 789,
+      "victorias": 123,
+      "derrotas": 77,
+      "ultima_partida": 1753719515826
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 4.931034482758621
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 4.444444444444445
     },
     {
       "nombre": "Azir",
@@ -46,6 +46,20 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 1.0833333333333333
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.238095238095238
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.8
     },
     {
       "nombre": "Pantheon",
@@ -60,13 +74,6 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.8461538461538463
-    },
-    {
-      "nombre": "Yasuo",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.111111111111111
     },
     {
       "nombre": "Ziggs",
@@ -95,19 +102,12 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 3.909090909090909
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3636363636363638
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 31,
-    "losses": 18,
-    "timePlayed": 76933
+    "games": 61,
+    "wins": 39,
+    "losses": 22,
+    "timePlayed": 96731
   }
 }

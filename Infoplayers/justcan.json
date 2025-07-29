@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "justcan#00000",
-      "nivel": 217,
+      "nombre": "no chat justcan#deaf",
+      "nivel": 372,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 670,
-      "victorias": 181,
-      "derrotas": 145,
-      "ultima_partida": 1753573409511
+      "lp": 150,
+      "victorias": 97,
+      "derrotas": 87,
+      "ultima_partida": 1753720948277
     },
     {
-      "nombre": "no chat justcan#deaf",
-      "nivel": 371,
+      "nombre": "justcan#00000",
+      "nivel": 218,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 97,
-      "victorias": 94,
-      "derrotas": 86,
-      "ultima_partida": 1753535473176
+      "lp": 748,
+      "victorias": 185,
+      "derrotas": 145,
+      "ultima_partida": 1753715132577
     },
     {
       "nombre": "justcant#EUW",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 23,
+      "partidas": 22,
       "victorias": 15,
-      "winrate": "65.2%",
-      "kda_promedio": 4.373831775700935
+      "winrate": "68.2%",
+      "kda_promedio": 5.01063829787234
     },
     {
       "nombre": "Alistar",
@@ -62,17 +62,17 @@
     },
     {
       "nombre": "Nautilus",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.078125
+      "winrate": "36.4%",
+      "kda_promedio": 2.22972972972973
     },
     {
       "nombre": "Lulu",
-      "partidas": 9,
+      "partidas": 8,
       "victorias": 8,
-      "winrate": "88.9%",
-      "kda_promedio": 5.419354838709677
+      "winrate": "100.0%",
+      "kda_promedio": 5.785714285714286
     },
     {
       "nombre": "Shaco",
@@ -90,10 +90,10 @@
     },
     {
       "nombre": "Nami",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.9130434782608696
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.269230769230769
     },
     {
       "nombre": "Rakan",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 94,
-    "wins": 53,
-    "losses": 41,
-    "timePlayed": 146707
+    "games": 93,
+    "wins": 56,
+    "losses": 37,
+    "timePlayed": 146458
   }
 }

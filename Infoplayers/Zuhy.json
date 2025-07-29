@@ -13,22 +13,22 @@
   "cuentas": [
     {
       "nombre": "Zuhy#Zuhy",
-      "nivel": 339,
+      "nivel": 340,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 972,
-      "victorias": 166,
-      "derrotas": 127,
-      "ultima_partida": 1753400612352
+      "lp": 985,
+      "victorias": 168,
+      "derrotas": 128,
+      "ultima_partida": 1753702393254
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Azir",
+      "nombre": "Aurora",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.4166666666666665
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.714285714285714
     },
     {
       "nombre": "Ahri",
@@ -38,18 +38,25 @@
       "kda_promedio": 3.1666666666666665
     },
     {
-      "nombre": "Galio",
+      "nombre": "Azir",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 6.75
+      "kda_promedio": 2.857142857142857
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4375
+    },
+    {
+      "nombre": "Galio",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 0.75
     },
     {
       "nombre": "Leblanc",
@@ -64,13 +71,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.111111111111111
     },
     {
       "nombre": "Smolder",
@@ -88,9 +88,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 6,
+    "games": 14,
+    "wins": 7,
     "losses": 7,
-    "timePlayed": 22385
+    "timePlayed": 23362
   }
 }

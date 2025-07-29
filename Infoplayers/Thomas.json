@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "KappaChungiLungi#DELUX",
-      "nivel": 663,
+      "nivel": 664,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 964,
       "victorias": 170,
       "derrotas": 133,
-      "ultima_partida": 1753572474984
+      "ultima_partida": 1753739250830
     },
     {
       "nombre": "Thomas#13579",
@@ -37,24 +37,10 @@
   "campeones_recientes": [
     {
       "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 8.285714285714286
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
+      "winrate": "50.0%",
+      "kda_promedio": 4.142857142857143
     },
     {
       "nombre": "Rakan",
@@ -76,26 +62,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 9
-    },
-    {
-      "nombre": "Taric",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.5
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8333333333333334
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
-    "wins": 7,
-    "losses": 3,
-    "timePlayed": 15907
+    "games": 5,
+    "wins": 3,
+    "losses": 2,
+    "timePlayed": 7334
   }
 }

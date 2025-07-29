@@ -19,75 +19,61 @@
       "nivel": 2187,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 780,
-      "victorias": 650,
+      "lp": 879,
+      "victorias": 655,
       "derrotas": 624,
-      "ultima_partida": 1753443113907
+      "ultima_partida": 1753719672149
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rumble",
-      "partidas": 17,
-      "victorias": 7,
-      "winrate": "41.2%",
-      "kda_promedio": 1.6153846153846154
+      "partidas": 16,
+      "victorias": 6,
+      "winrate": "37.5%",
+      "kda_promedio": 1.5862068965517242
     },
     {
       "nombre": "Aatrox",
-      "partidas": 15,
-      "victorias": 7,
-      "winrate": "46.7%",
-      "kda_promedio": 1.7236842105263157
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 1.8732394366197183
     },
     {
       "nombre": "Jayce",
-      "partidas": 15,
-      "victorias": 5,
-      "winrate": "33.3%",
-      "kda_promedio": 1.595959595959596
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.475
     },
     {
       "nombre": "Aurora",
-      "partidas": 10,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.239130434782609
+      "winrate": "75.0%",
+      "kda_promedio": 3.6176470588235294
     },
     {
       "nombre": "Sion",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 2.9166666666666665
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.2
-    },
-    {
-      "nombre": "Sett",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 1.85
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.823529411764706
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.903225806451613
     },
     {
       "nombre": "Renekton",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 1.2105263157894737
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.090909090909091
     },
     {
       "nombre": "Akali",
@@ -95,12 +81,26 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 1.9375
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1176470588235294
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 108,
-    "wins": 58,
-    "losses": 50,
-    "timePlayed": 170148
+    "games": 86,
+    "wins": 46,
+    "losses": 40,
+    "timePlayed": 136019
   }
 }

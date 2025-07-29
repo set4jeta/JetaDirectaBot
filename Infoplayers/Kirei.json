@@ -19,71 +19,64 @@
       "nivel": 800,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 974,
-      "victorias": 211,
-      "derrotas": 169,
-      "ultima_partida": 1753358509882
+      "lp": 952,
+      "victorias": 212,
+      "derrotas": 171,
+      "ultima_partida": 1753703707775
     },
     {
       "nombre": "Kirei smurfer#SMURF",
       "nivel": 520,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 97,
-      "victorias": 64,
+      "liga": "MASTER I",
+      "lp": 25,
+      "victorias": 65,
       "derrotas": 40,
-      "ultima_partida": 1753271607046
+      "ultima_partida": 1753698288712
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "MonkeyKing",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.722222222222222
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.789473684210526
     },
     {
       "nombre": "Volibear",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.933333333333333
-    },
-    {
-      "nombre": "Kindred",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.12
-    },
-    {
-      "nombre": "Lillia",
-      "partidas": 2,
-      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.2222222222222223
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.625
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7692307692307693
+    },
+    {
+      "nombre": "Lillia",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 10.5
+      "kda_promedio": 8
     },
     {
       "nombre": "Pantheon",
@@ -108,9 +101,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 11,
-    "losses": 9,
-    "timePlayed": 33791
+    "games": 18,
+    "wins": 10,
+    "losses": 8,
+    "timePlayed": 29004
   }
 }

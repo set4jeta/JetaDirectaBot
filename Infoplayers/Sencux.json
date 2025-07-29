@@ -16,10 +16,10 @@
       "nivel": 378,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1184,
-      "victorias": 256,
+      "lp": 1201,
+      "victorias": 257,
       "derrotas": 211,
-      "ultima_partida": 1753473042870
+      "ultima_partida": 1753723205921
     },
     {
       "nombre": "Sencux#123",
@@ -35,31 +35,10 @@
   "campeones_recientes": [
     {
       "nombre": "Orianna",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 3.5531914893617023
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 3,
+      "partidas": 10,
+      "victorias": 5,
       "winrate": "50.0%",
-      "kda_promedio": 2.3157894736842106
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9285714285714286
+      "kda_promedio": 3.6136363636363638
     },
     {
       "nombre": "Aphelios",
@@ -83,31 +62,52 @@
       "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Galio",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "TwistedFate",
+      "nombre": "Corki",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 5.5
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Ezreal",
       "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 1.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 28,
-    "losses": 23,
-    "timePlayed": 83437
+    "games": 35,
+    "wins": 19,
+    "losses": 16,
+    "timePlayed": 57563
   }
 }

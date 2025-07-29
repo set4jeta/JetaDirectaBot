@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Deletus#000",
-      "nivel": 696,
+      "nivel": 697,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 34,
-      "victorias": 72,
-      "derrotas": 59,
-      "ultima_partida": 1753567328955
+      "lp": 52,
+      "victorias": 74,
+      "derrotas": 65,
+      "ultima_partida": 1753743881966
     },
     {
       "nombre": "AFW Deletus#AFW",
@@ -54,6 +54,13 @@
       "kda_promedio": 2.1
     },
     {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
       "nombre": "Lillia",
       "partidas": 2,
       "victorias": 0,
@@ -70,9 +77,30 @@
     {
       "nombre": "Aphelios",
       "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 6
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
     },
     {
       "nombre": "Kaisa",
@@ -87,40 +115,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.75
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.75
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
+    "games": 28,
     "wins": 10,
-    "losses": 13,
-    "timePlayed": 36729
+    "losses": 18,
+    "timePlayed": 46437
   }
 }

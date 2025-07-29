@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Drofan",
     "nombre_real": "Avraam Tsakiridis",
-    "edad": 19,
+    "edad": 20,
     "equipo": "GOAL",
     "pais": "Greece",
     "contrato_hasta": null,
@@ -64,32 +64,11 @@
       "kda_promedio": 3.3
     },
     {
-      "nombre": "Naafiri",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.0833333333333335
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5625
-    },
-    {
       "nombre": "DrMundo",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.7
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2857142857142856
     },
     {
       "nombre": "Lillia",
@@ -104,12 +83,33 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 25,
-    "losses": 16,
-    "timePlayed": 65161
+    "games": 34,
+    "wins": 19,
+    "losses": 15,
+    "timePlayed": 53658
   }
 }

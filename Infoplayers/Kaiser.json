@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "zta#EUW",
-      "nivel": 456,
+      "nivel": 457,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 850,
-      "victorias": 184,
-      "derrotas": 122,
-      "ultima_partida": 1753371848327
+      "lp": 889,
+      "victorias": 187,
+      "derrotas": 124,
+      "ultima_partida": 1753693741170
     },
     {
       "nombre": "kvothefanboy#EUW",
@@ -37,39 +37,32 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
+      "nombre": "Elise",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.4166666666666665
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.3333333333333335
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1818181818181817
     },
     {
       "nombre": "Rakan",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 4.777777777777778
+      "kda_promedio": 4.7272727272727275
     },
     {
-      "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.8181818181818183
-    },
-    {
-      "nombre": "Elise",
+      "nombre": "Alistar",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.411764705882353
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Nami",
@@ -79,6 +72,13 @@
       "kda_promedio": 10
     },
     {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
       "nombre": "TwistedFate",
       "partidas": 2,
       "victorias": 2,
@@ -86,18 +86,11 @@
       "kda_promedio": 2.9285714285714284
     },
     {
-      "nombre": "Braum",
+      "nombre": "Bard",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.6
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 16
+      "kda_promedio": 0.4
     },
     {
       "nombre": "Kennen",
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
-    "wins": 14,
-    "losses": 12,
-    "timePlayed": 41934
+    "games": 23,
+    "wins": 12,
+    "losses": 11,
+    "timePlayed": 38132
   }
 }

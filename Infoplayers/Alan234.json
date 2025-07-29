@@ -22,23 +22,16 @@
       "lp": 1078,
       "victorias": 169,
       "derrotas": 111,
-      "ultima_partida": 1753559504160
+      "ultima_partida": 1753628931844
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Teemo",
-      "partidas": 20,
-      "victorias": 13,
-      "winrate": "65.0%",
-      "kda_promedio": 1.7647058823529411
-    },
-    {
-      "nombre": "Kennen",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.142857142857143
     },
     {
       "nombre": "Janna",
@@ -56,9 +49,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
-    "wins": 14,
-    "losses": 10,
-    "timePlayed": 37862
+    "games": 12,
+    "wins": 8,
+    "losses": 4,
+    "timePlayed": 18373
   }
 }

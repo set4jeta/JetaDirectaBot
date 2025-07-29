@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Baashh",
     "nombre_real": "Oliver Klitfelt",
-    "edad": 19,
+    "edad": 20,
     "equipo": "Karmine Corp Blue Stars",
     "pais": "Denmark",
     "contrato_hasta": "2025-09-21T00:00:00.000Z",
@@ -16,43 +16,36 @@
   "cuentas": [
     {
       "nombre": "TTV BAASHH#EUW",
-      "nivel": 760,
+      "nivel": 762,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 902,
-      "victorias": 276,
-      "derrotas": 240,
-      "ultima_partida": 1753458264517
+      "lp": 972,
+      "victorias": 283,
+      "derrotas": 242,
+      "ultima_partida": 1753741872660
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Vi",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.3846153846153846
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.9285714285714284
-    },
-    {
       "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.428571428571429
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.9
+    },
+    {
+      "nombre": "Lillia",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 5.25
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6153846153846154
+      "kda_promedio": 4.857142857142857
     },
     {
       "nombre": "MonkeyKing",
@@ -69,6 +62,13 @@
       "kda_promedio": 2
     },
     {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
       "nombre": "Trundle",
       "partidas": 1,
       "victorias": 0,
@@ -76,24 +76,17 @@
       "kda_promedio": 8
     },
     {
-      "nombre": "Viego",
+      "nombre": "Vi",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 13
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
     }
   ],
   "estadisticas_2_semanas": {
     "games": 18,
-    "wins": 7,
-    "losses": 11,
-    "timePlayed": 28032
+    "wins": 10,
+    "losses": 8,
+    "timePlayed": 27977
   }
 }

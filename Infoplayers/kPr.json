@@ -16,53 +16,53 @@
   "cuentas": [
     {
       "nombre": "KPR kpR#ZATUP",
-      "nivel": 327,
+      "nivel": 328,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 842,
-      "victorias": 237,
-      "derrotas": 210,
-      "ultima_partida": 1753223168480
+      "lp": 852,
+      "victorias": 240,
+      "derrotas": 212,
+      "ultima_partida": 1753646244917
     },
     {
       "nombre": "Hailrake#77777",
       "nivel": 166,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 662,
-      "victorias": 118,
-      "derrotas": 76,
-      "ultima_partida": 1753056596991
+      "lp": 670,
+      "victorias": 120,
+      "derrotas": 78,
+      "ultima_partida": 1753634923508
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aatrox",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 0.8461538461538461
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.358974358974359
     },
     {
       "nombre": "Jayce",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.7428571428571429
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3076923076923077
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.3333333333333333
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 0.5833333333333334
     },
     {
       "nombre": "Gwen",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.1875
+      "kda_promedio": 0.8518518518518519
     },
     {
       "nombre": "Renekton",
@@ -70,6 +70,13 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.3333333333333333
     },
     {
       "nombre": "Yone",
@@ -86,24 +93,17 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Varus",
+      "nombre": "Syndra",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Vayne",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 0.6
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
-    "wins": 13,
+    "games": 28,
+    "wins": 15,
     "losses": 13,
-    "timePlayed": 41455
+    "timePlayed": 46633
   }
 }

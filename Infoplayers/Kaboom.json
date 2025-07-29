@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "S2mIE100LeSH#sigma",
-      "nivel": 76,
+      "nivel": 79,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1290,
-      "victorias": 246,
-      "derrotas": 144,
-      "ultima_partida": 1753568356882
+      "lp": 1206,
+      "victorias": 253,
+      "derrotas": 154,
+      "ultima_partida": 1753736558170
     },
     {
       "nombre": "S2p601KeNaRa#kboom",
       "nivel": 202,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 73,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 143,
       "derrotas": 108,
       "ultima_partida": 1753212341427
@@ -38,8 +38,8 @@
       "nombre": "yedi24pompa#ALPHA",
       "nivel": 141,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 40,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 145,
       "derrotas": 132,
       "ultima_partida": 1753037928801
@@ -48,31 +48,38 @@
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 4.11864406779661
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 4.684210526315789
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 3.891891891891892
     },
     {
       "nombre": "Trundle",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 3.341463414634146
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 3.292307692307692
     },
     {
       "nombre": "Vi",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.490566037735849
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 5.303030303030303
+    },
+    {
+      "nombre": "MonkeyKing",
       "partidas": 10,
       "victorias": 4,
       "winrate": "40.0%",
-      "kda_promedio": 2.8444444444444446
+      "kda_promedio": 4.194444444444445
     },
     {
       "nombre": "LeeSin",
@@ -82,25 +89,11 @@
       "kda_promedio": 1.3103448275862069
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 4.2631578947368425
-    },
-    {
       "nombre": "Olaf",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.1666666666666665
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0714285714285716
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4666666666666666
     },
     {
       "nombre": "Kayn",
@@ -115,12 +108,19 @@
       "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 1.9523809523809523
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 102,
-    "wins": 43,
-    "losses": 59,
-    "timePlayed": 164602
+    "games": 107,
+    "wins": 45,
+    "losses": 62,
+    "timePlayed": 173199
   }
 }

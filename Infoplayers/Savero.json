@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Kusakabe Shinra#win",
-      "nivel": 861,
+      "nombre": "Meguru Bachira#win",
+      "nivel": 292,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1123,
-      "victorias": 251,
-      "derrotas": 197,
-      "ultima_partida": 1753535293499
+      "liga": "DIAMOND I",
+      "lp": 95,
+      "victorias": 197,
+      "derrotas": 164,
+      "ultima_partida": 1753730694688
     },
     {
-      "nombre": "Meguru Bachira#win",
-      "nivel": 291,
+      "nombre": "Kusakabe Shinra#win",
+      "nivel": 862,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 147,
-      "victorias": 196,
-      "derrotas": 163,
-      "ultima_partida": 1753216617592
+      "liga": "CHALLENGER I",
+      "lp": 1134,
+      "victorias": 253,
+      "derrotas": 198,
+      "ultima_partida": 1753713875556
     }
   ],
   "campeones_recientes": [
@@ -48,28 +48,28 @@
       "partidas": 10,
       "victorias": 5,
       "winrate": "50.0%",
-      "kda_promedio": 3.611111111111111
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.948717948717949
+      "kda_promedio": 4.108108108108108
     },
     {
       "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.1153846153846154
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.6206896551724137
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.15625
     },
     {
       "nombre": "MonkeyKing",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.347826086956522
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.125
     },
     {
       "nombre": "Trundle",
@@ -93,11 +93,11 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Nocturne",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8333333333333334
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.75
     },
     {
       "nombre": "Poppy",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 34,
-    "losses": 36,
-    "timePlayed": 109309
+    "games": 71,
+    "wins": 37,
+    "losses": 34,
+    "timePlayed": 110333
   }
 }

@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "White",
     "nombre_real": "Aslan Panglose",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Unicorns of Love Sexy Edition",
     "pais": "France",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,33 +16,33 @@
   "cuentas": [
     {
       "nombre": "Aslan#945",
-      "nivel": 327,
+      "nivel": 330,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1429,
-      "victorias": 257,
-      "derrotas": 197,
-      "ultima_partida": 1753470722911
+      "lp": 1330,
+      "victorias": 262,
+      "derrotas": 206,
+      "ultima_partida": 1753734830402
     },
     {
       "nombre": "W1111#1111",
       "nivel": 146,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 980,
-      "victorias": 98,
-      "derrotas": 47,
-      "ultima_partida": 1753010652960
+      "lp": 974,
+      "victorias": 100,
+      "derrotas": 49,
+      "ultima_partida": 1753609537075
     },
     {
       "nombre": "Meruem#945",
       "nivel": 166,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 41,
+      "liga": "MASTER I",
+      "lp": 5,
+      "victorias": 42,
       "derrotas": 15,
-      "ultima_partida": 1749802794442
+      "ultima_partida": 1753548329152
     },
     {
       "nombre": "no more trouble#333",
@@ -61,14 +61,21 @@
       "partidas": 11,
       "victorias": 6,
       "winrate": "54.5%",
-      "kda_promedio": 6.064516129032258
+      "kda_promedio": 5.766666666666667
     },
     {
       "nombre": "LeeSin",
-      "partidas": 7,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.416666666666667
+      "winrate": "44.4%",
+      "kda_promedio": 4.454545454545454
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 6.083333333333333
     },
     {
       "nombre": "Pantheon",
@@ -78,11 +85,18 @@
       "kda_promedio": 2.75
     },
     {
-      "nombre": "JarvanIV",
+      "nombre": "Naafiri",
       "partidas": 6,
       "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 5.782608695652174
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4864864864864864
     },
     {
       "nombre": "Amumu",
@@ -92,11 +106,11 @@
       "kda_promedio": 3.5
     },
     {
-      "nombre": "Naafiri",
+      "nombre": "MonkeyKing",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 4.285714285714286
+      "kda_promedio": 2.0555555555555554
     },
     {
       "nombre": "Poppy",
@@ -104,20 +118,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6470588235294117
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7692307692307692
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5
     },
     {
       "nombre": "Skarner",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 32,
-    "losses": 26,
-    "timePlayed": 93635
+    "games": 65,
+    "wins": 37,
+    "losses": 28,
+    "timePlayed": 107413
   }
 }

@@ -18,10 +18,10 @@
       "nivel": 246,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 788,
-      "victorias": 236,
+      "lp": 824,
+      "victorias": 238,
       "derrotas": 199,
-      "ultima_partida": 1753403616458
+      "ultima_partida": 1753737498294
     },
     {
       "nombre": "Falleo#Fall",
@@ -65,17 +65,17 @@
     },
     {
       "nombre": "Jax",
-      "partidas": 2,
-      "victorias": 2,
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 3.1666666666666665
+      "kda_promedio": 4.857142857142857
     },
     {
       "nombre": "Yorick",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0833333333333335
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Akali",
@@ -107,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 21,
+    "games": 33,
+    "wins": 23,
     "losses": 10,
-    "timePlayed": 50553
+    "timePlayed": 53501
   }
 }

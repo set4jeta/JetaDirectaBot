@@ -14,6 +14,16 @@
   },
   "cuentas": [
     {
+      "nombre": "Naak Pado#VIT",
+      "nivel": 91,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1316,
+      "victorias": 369,
+      "derrotas": 245,
+      "ultima_partida": 1753734255854
+    },
+    {
       "nombre": "Dele Alli#VIT",
       "nivel": 698,
       "region": "EUW1",
@@ -22,16 +32,6 @@
       "victorias": 139,
       "derrotas": 89,
       "ultima_partida": 1753466107548
-    },
-    {
-      "nombre": "Naak Pado#VIT",
-      "nivel": 89,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1233,
-      "victorias": 360,
-      "derrotas": 237,
-      "ultima_partida": 1753038346549
     },
     {
       "nombre": "E Q D E Q A R#EUW",
@@ -47,24 +47,24 @@
   "campeones_recientes": [
     {
       "nombre": "Irelia",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9827586206896552
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 1.974025974025974
     },
     {
       "nombre": "Zed",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.2542372881355934
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.441860465116279
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.5714285714285716
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Jayce",
@@ -74,25 +74,32 @@
       "kda_promedio": 2.111111111111111
     },
     {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 3.473684210526316
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.1470588235294117
+    },
+    {
       "nombre": "Gwen",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 2.6956521739130435
+      "kda_promedio": 2.217391304347826
     },
     {
-      "nombre": "KSante",
+      "nombre": "Yone",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.142857142857143
-    },
-    {
-      "nombre": "Yasuo",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.3157894736842106
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     },
     {
       "nombre": "Ambessa",
@@ -102,24 +109,17 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Riven",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 9.5
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.357142857142857
+      "kda_promedio": 5.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 36,
-    "losses": 22,
-    "timePlayed": 95140
+    "games": 62,
+    "wins": 37,
+    "losses": 25,
+    "timePlayed": 101668
   }
 }

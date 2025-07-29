@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "IvanDragovic#2002",
-      "nivel": 992,
+      "nivel": 993,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1004,
-      "victorias": 308,
+      "liga": "CHALLENGER I",
+      "lp": 1041,
+      "victorias": 310,
       "derrotas": 260,
-      "ultima_partida": 1753457762449
+      "ultima_partida": 1753742451643
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Zeri",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.625
-    },
     {
       "nombre": "MissFortune",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Draven",
@@ -81,12 +81,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Yuumi",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
-    "wins": 7,
+    "games": 12,
+    "wins": 8,
     "losses": 4,
-    "timePlayed": 16468
+    "timePlayed": 18311
   }
 }

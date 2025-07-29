@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "G2 Caps#1323",
-      "nivel": 1152,
+      "nivel": 1153,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1004,
-      "victorias": 460,
-      "derrotas": 406,
-      "ultima_partida": 1753568954993
+      "lp": 990,
+      "victorias": 463,
+      "derrotas": 410,
+      "ultima_partida": 1753649549511
     },
     {
       "nombre": "G2 Caps#LOL1",
@@ -37,6 +37,20 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4166666666666667
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8125
+    },
+    {
       "nombre": "Azir",
       "partidas": 2,
       "victorias": 2,
@@ -44,25 +58,25 @@
       "kda_promedio": 2.111111111111111
     },
     {
-      "nombre": "Galio",
+      "nombre": "Corki",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.36363636363636365
     },
     {
       "nombre": "Ryze",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.555555555555555
     },
     {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.5
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Aurora",
@@ -72,13 +86,6 @@
       "kda_promedio": 0.9230769230769231
     },
     {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5384615384615384
-    },
-    {
       "nombre": "LeeSin",
       "partidas": 1,
       "victorias": 1,
@@ -86,24 +93,24 @@
       "kda_promedio": 4.8
     },
     {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
       "nombre": "Shaco",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.1111111111111112
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
-    "wins": 5,
-    "losses": 7,
-    "timePlayed": 18713
+    "games": 18,
+    "wins": 8,
+    "losses": 10,
+    "timePlayed": 28014
   }
 }

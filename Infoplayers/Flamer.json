@@ -3,7 +3,7 @@
     "nombre": "Flamer",
     "nombre_real": "Julien Berschuck",
     "edad": 26,
-    "equipo": "AKA HERO",
+    "equipo": "Könige der Meere",
     "pais": "Germany",
     "contrato_hasta": null,
     "redes_sociales": {
@@ -15,64 +15,64 @@
   "cuentas": [
     {
       "nombre": "qweasdx#EUW",
-      "nivel": 492,
+      "nivel": 496,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1188,
-      "victorias": 295,
-      "derrotas": 226,
-      "ultima_partida": 1753448822139
+      "lp": 1210,
+      "victorias": 316,
+      "derrotas": 243,
+      "ultima_partida": 1753738913708
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ambessa",
-      "partidas": 19,
-      "victorias": 15,
-      "winrate": "78.9%",
-      "kda_promedio": 3.1818181818181817
+      "partidas": 30,
+      "victorias": 24,
+      "winrate": "80.0%",
+      "kda_promedio": 2.519230769230769
     },
     {
       "nombre": "KSante",
-      "partidas": 16,
-      "victorias": 7,
-      "winrate": "43.8%",
-      "kda_promedio": 2.1866666666666665
+      "partidas": 18,
+      "victorias": 8,
+      "winrate": "44.4%",
+      "kda_promedio": 2.341463414634146
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.1475409836065573
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.066666666666667
     },
     {
       "nombre": "Aurora",
       "partidas": 9,
       "victorias": 3,
       "winrate": "33.3%",
-      "kda_promedio": 2.125
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 1.7291666666666667
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.24
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.6
+      "kda_promedio": 1.9473684210526316
     },
     {
       "nombre": "Gwen",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.5238095238095237
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9285714285714286
     },
     {
       "nombre": "Akali",
@@ -82,24 +82,24 @@
       "kda_promedio": 1.6470588235294117
     },
     {
-      "nombre": "Gnar",
+      "nombre": "Aatrox",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.7272727272727273
+      "kda_promedio": 2.5833333333333335
     },
     {
-      "nombre": "Aatrox",
+      "nombre": "Gnar",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1428571428571428
+      "kda_promedio": 0.6666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 74,
-    "wins": 38,
-    "losses": 36,
-    "timePlayed": 119684
+    "games": 105,
+    "wins": 55,
+    "losses": 50,
+    "timePlayed": 175892
   }
 }

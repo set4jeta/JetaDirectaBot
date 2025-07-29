@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Sheo",
     "nombre_real": "Théo Borile",
-    "edad": 23,
+    "edad": 24,
     "equipo": "Team Heretics",
     "pais": "France",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Iguchi Tatsuya#gang",
-      "nivel": 40,
+      "nivel": 41,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 500,
-      "victorias": 70,
-      "derrotas": 28,
-      "ultima_partida": 1753459701360
+      "lp": 460,
+      "victorias": 72,
+      "derrotas": 32,
+      "ultima_partida": 1753654878430
     },
     {
       "nombre": "dont mind me#faith",
@@ -38,17 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Lillia",
-      "partidas": 17,
-      "victorias": 10,
-      "winrate": "58.8%",
-      "kda_promedio": 3.792207792207792
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.86046511627907
     },
     {
       "nombre": "LeeSin",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.933333333333333
+      "winrate": "71.4%",
+      "kda_promedio": 3.4473684210526314
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Jax",
@@ -58,11 +65,11 @@
       "kda_promedio": 5.75
     },
     {
-      "nombre": "Karthus",
+      "nombre": "MonkeyKing",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.6470588235294117
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 10.6
     },
     {
       "nombre": "Diana",
@@ -70,13 +77,6 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 9
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 9.25
     },
     {
       "nombre": "Kindred",
@@ -94,9 +94,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
-    "wins": 24,
-    "losses": 11,
-    "timePlayed": 54858
+    "games": 41,
+    "wins": 26,
+    "losses": 15,
+    "timePlayed": 65004
   }
 }

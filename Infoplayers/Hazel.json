@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Hazel",
     "nombre_real": "Costin Pestrițu",
-    "edad": 17,
+    "edad": 18,
     "equipo": "Karmine Corp Blue Stars",
     "pais": "Romania",
     "contrato_hasta": null,
@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "KC NOISETTE#HZL",
-      "nivel": 759,
+      "nivel": 760,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1202,
-      "victorias": 319,
-      "derrotas": 263,
-      "ultima_partida": 1753563697243
+      "lp": 1133,
+      "victorias": 321,
+      "derrotas": 268,
+      "ultima_partida": 1753709701116
     },
     {
       "nombre": "one last dance#114",
@@ -47,38 +47,31 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 22,
-      "victorias": 16,
-      "winrate": "72.7%",
-      "kda_promedio": 3.448717948717949
+      "partidas": 27,
+      "victorias": 18,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3191489361702127
     },
     {
       "nombre": "Jhin",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 3.5671641791044775
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.7547169811320753
     },
     {
       "nombre": "Kaisa",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3333333333333335
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.4827586206896552
     },
     {
       "nombre": "Aphelios",
-      "partidas": 6,
-      "victorias": 4,
+      "partidas": 3,
+      "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2.3846153846153846
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4.636363636363637
     },
     {
       "nombre": "Azir",
@@ -88,18 +81,11 @@
       "kda_promedio": 2.75
     },
     {
-      "nombre": "Caitlyn",
+      "nombre": "Jinx",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.9285714285714286
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Hwei",
@@ -113,13 +99,27 @@
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 39,
-    "losses": 32,
-    "timePlayed": 114474
+    "games": 60,
+    "wins": 33,
+    "losses": 27,
+    "timePlayed": 96013
   }
 }

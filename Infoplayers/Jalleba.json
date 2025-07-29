@@ -18,53 +18,32 @@
       "nivel": 844,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 802,
+      "lp": 779,
       "victorias": 332,
-      "derrotas": 291,
-      "ultima_partida": 1752760955658
+      "derrotas": 292,
+      "ultima_partida": 1753719895470
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
       "nombre": "Lucian",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.5789473684210527
-    },
-    {
-      "nombre": "Kaisa",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4545454545454546
-    },
-    {
-      "nombre": "Lux",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.4285714285714284
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
+      "kda_promedio": 0.7142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 7,
-    "wins": 3,
-    "losses": 4,
-    "timePlayed": 13555
+    "games": 2,
+    "wins": 0,
+    "losses": 2,
+    "timePlayed": 3128
   }
 }

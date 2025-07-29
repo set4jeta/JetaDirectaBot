@@ -15,71 +15,78 @@
   "cuentas": [
     {
       "nombre": "Αrtoria Prime#eProd",
-      "nivel": 1705,
+      "nivel": 1707,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 810,
-      "victorias": 647,
-      "derrotas": 610,
-      "ultima_partida": 1753546454384
+      "lp": 809,
+      "victorias": 657,
+      "derrotas": 619,
+      "ultima_partida": 1753729043268
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.7941176470588236
+      "nombre": "Ahri",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3.877551020408163
     },
     {
       "nombre": "Syndra",
       "partidas": 9,
       "victorias": 3,
       "winrate": "33.3%",
-      "kda_promedio": 1.9245283018867925
+      "kda_promedio": 2.1346153846153846
     },
     {
       "nombre": "Taliyah",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.574074074074074
-    },
-    {
-      "nombre": "Ahri",
       "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 4.303030303030303
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9272727272727272
     },
     {
-      "nombre": "Viktor",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.375
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7555555555555555
     },
     {
-      "nombre": "Hwei",
+      "nombre": "TwistedFate",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Jhin",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 1.4
+      "kda_promedio": 2.5454545454545454
     },
     {
       "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.347826086956522
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
+      "nombre": "Hwei",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.176470588235294
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Akali",
@@ -87,19 +94,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.8
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
     "games": 102,
     "wins": 49,
     "losses": 53,
-    "timePlayed": 174245
+    "timePlayed": 174184
   }
 }

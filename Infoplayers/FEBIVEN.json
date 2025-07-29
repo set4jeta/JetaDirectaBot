@@ -34,27 +34,6 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Azir",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5833333333333335
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.9375
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2857142857142856
-    },
-    {
       "nombre": "Ziggs",
       "partidas": 3,
       "victorias": 3,
@@ -62,25 +41,25 @@
       "kda_promedio": 6
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Azir",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.8
+      "kda_promedio": 2.25
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Orianna",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5833333333333333
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Tristana",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0909090909090908
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
     },
     {
       "nombre": "Akali",
@@ -95,12 +74,33 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 15,
-    "losses": 16,
-    "timePlayed": 48525
+    "games": 20,
+    "wins": 11,
+    "losses": 9,
+    "timePlayed": 30606
   }
 }

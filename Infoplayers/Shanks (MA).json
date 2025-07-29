@@ -38,24 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Trundle",
-      "partidas": 18,
-      "victorias": 9,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8383838383838382
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 2.7244897959183674
     },
     {
       "nombre": "Naafiri",
-      "partidas": 12,
+      "partidas": 11,
       "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3.608695652173913
+      "winrate": "72.7%",
+      "kda_promedio": 4.105263157894737
     },
     {
       "nombre": "Pantheon",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.046511627906977
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9444444444444444
     },
     {
       "nombre": "Lillia",
@@ -87,9 +87,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 22,
-    "losses": 20,
-    "timePlayed": 67489
+    "games": 36,
+    "wins": 20,
+    "losses": 16,
+    "timePlayed": 57908
   }
 }

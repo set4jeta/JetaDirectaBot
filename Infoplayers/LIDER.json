@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "emtwfwydw#9999",
-      "nivel": 181,
+      "nivel": 184,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1245,
-      "victorias": 332,
-      "derrotas": 262,
-      "ultima_partida": 1753472669343
+      "lp": 1290,
+      "victorias": 343,
+      "derrotas": 270,
+      "ultima_partida": 1753732472816
     },
     {
       "nombre": "soothing breeze#EUW",
@@ -38,31 +38,38 @@
   "campeones_recientes": [
     {
       "nombre": "Irelia",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 1.9523809523809523
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 1.9253731343283582
     },
     {
       "nombre": "Sylas",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 2.6176470588235294
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 2.5365853658536586
     },
     {
       "nombre": "Yasuo",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 1.206896551724138
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.6857142857142857
     },
     {
-      "nombre": "Kassadin",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0526315789473684
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.24
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Diana",
@@ -79,38 +86,31 @@
       "kda_promedio": 4.166666666666667
     },
     {
-      "nombre": "Akali",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.4285714285714284
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 1,
+      "nombre": "Kassadin",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 0.5714285714285714
     },
     {
-      "nombre": "Lucian",
+      "nombre": "AurelionSol",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5
     },
     {
-      "nombre": "Malzahar",
+      "nombre": "Cassiopeia",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1111111111111112
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 33,
-    "wins": 20,
-    "losses": 13,
-    "timePlayed": 52904
+    "games": 51,
+    "wins": 31,
+    "losses": 20,
+    "timePlayed": 79678
   }
 }

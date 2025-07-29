@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Τadej Pogačar#Soria",
-      "nivel": 1574,
+      "nivel": 1577,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 942,
-      "victorias": 302,
-      "derrotas": 263,
-      "ultima_partida": 1753561157214
+      "lp": 961,
+      "victorias": 309,
+      "derrotas": 268,
+      "ultima_partida": 1753728266719
     },
     {
       "nombre": "Keep Trying#Soria",
@@ -39,44 +39,44 @@
     {
       "nombre": "Rakan",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.782608695652174
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9130434782608696
     },
     {
       "nombre": "Alistar",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.6470588235294117
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2631578947368425
     },
     {
       "nombre": "Bard",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.5789473684210527
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.238095238095238
     },
     {
       "nombre": "Nautilus",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.90625
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.189189189189189
     },
     {
       "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7333333333333334
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8611111111111112
     },
     {
       "nombre": "Rell",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.9166666666666665
+      "winrate": "20.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Galio",
@@ -84,6 +84,13 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.227272727272727
     },
     {
       "nombre": "Neeko",
@@ -95,22 +102,15 @@
     {
       "nombre": "Braum",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.625
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.272727272727273
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 23,
-    "losses": 24,
-    "timePlayed": 76537
+    "games": 54,
+    "wins": 27,
+    "losses": 27,
+    "timePlayed": 87867
   }
 }

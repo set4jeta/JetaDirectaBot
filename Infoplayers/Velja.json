@@ -15,92 +15,85 @@
   },
   "cuentas": [
     {
-      "nombre": "Abracadabra#2203",
-      "nivel": 479,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1020,
-      "victorias": 296,
-      "derrotas": 226,
-      "ultima_partida": 1753541271574
-    },
-    {
       "nombre": "LR Velja#2203",
       "nivel": 357,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 39,
-      "victorias": 138,
-      "derrotas": 144,
-      "ultima_partida": 1750534844401
+      "liga": "DIAMOND I",
+      "lp": 13,
+      "victorias": 141,
+      "derrotas": 145,
+      "ultima_partida": 1753741467843
     },
     {
       "nombre": "VELJA DEL REY#2203",
-      "nivel": 275,
+      "nivel": 276,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 291,
-      "derrotas": 263,
-      "ultima_partida": 1749766358724
+      "liga": "MASTER I",
+      "lp": 105,
+      "victorias": 296,
+      "derrotas": 265,
+      "ultima_partida": 1753734907888
+    },
+    {
+      "nombre": "Abracadabra#2203",
+      "nivel": 480,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 893,
+      "victorias": 297,
+      "derrotas": 233,
+      "ultima_partida": 1753655908804
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "LeeSin",
-      "partidas": 32,
-      "victorias": 15,
-      "winrate": "46.9%",
-      "kda_promedio": 3.6953125
+      "nombre": "Viego",
+      "partidas": 26,
+      "victorias": 16,
+      "winrate": "61.5%",
+      "kda_promedio": 3.0081967213114753
     },
     {
-      "nombre": "Viego",
-      "partidas": 19,
-      "victorias": 12,
-      "winrate": "63.2%",
-      "kda_promedio": 3.2325581395348837
+      "nombre": "LeeSin",
+      "partidas": 24,
+      "victorias": 10,
+      "winrate": "41.7%",
+      "kda_promedio": 3.2149532710280373
     },
     {
       "nombre": "Volibear",
-      "partidas": 19,
-      "victorias": 14,
-      "winrate": "73.7%",
-      "kda_promedio": 3.2911392405063293
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9743589743589745
     },
     {
       "nombre": "Khazix",
-      "partidas": 18,
-      "victorias": 9,
+      "partidas": 16,
+      "victorias": 8,
       "winrate": "50.0%",
-      "kda_promedio": 3.216867469879518
+      "kda_promedio": 3.232876712328767
     },
     {
       "nombre": "Nidalee",
-      "partidas": 16,
-      "victorias": 6,
-      "winrate": "37.5%",
-      "kda_promedio": 3.3043478260869565
+      "partidas": 14,
+      "victorias": 4,
+      "winrate": "28.6%",
+      "kda_promedio": 2.857142857142857
     },
     {
       "nombre": "Ekko",
       "partidas": 10,
       "victorias": 7,
       "winrate": "70.0%",
-      "kda_promedio": 3.4347826086956523
+      "kda_promedio": 3.7674418604651163
     },
     {
       "nombre": "Zed",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Kindred",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.2777777777777777
+      "winrate": "33.3%",
+      "kda_promedio": 2.682926829268293
     },
     {
       "nombre": "Hecarim",
@@ -108,6 +101,13 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7
     },
     {
       "nombre": "Sylas",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 157,
-    "wins": 82,
-    "losses": 75,
-    "timePlayed": 261034
+    "games": 156,
+    "wins": 78,
+    "losses": 78,
+    "timePlayed": 257628
   }
 }

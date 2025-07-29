@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "DnDn123#123",
-      "nivel": 133,
+      "nivel": 134,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1274,
-      "victorias": 378,
-      "derrotas": 266,
-      "ultima_partida": 1753561106533
+      "lp": 1242,
+      "victorias": 379,
+      "derrotas": 269,
+      "ultima_partida": 1753732806223
     },
     {
       "nombre": "13の冬#0518",
@@ -50,7 +50,7 @@
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 3.0833333333333335
+      "kda_promedio": 3.611111111111111
     },
     {
       "nombre": "KSante",
@@ -81,6 +81,13 @@
       "kda_promedio": 5
     },
     {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
       "nombre": "Gnar",
       "partidas": 1,
       "victorias": 1,
@@ -107,19 +114,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.111111111111111
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 11,
-    "losses": 9,
-    "timePlayed": 34194
+    "games": 23,
+    "wins": 12,
+    "losses": 11,
+    "timePlayed": 37788
   }
 }

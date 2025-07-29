@@ -16,78 +16,64 @@
   "cuentas": [
     {
       "nombre": "SNSH Mahonix#BROCK",
-      "nivel": 1361,
+      "nivel": 1365,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 900,
-      "victorias": 548,
-      "derrotas": 514,
-      "ultima_partida": 1753399398711
+      "lp": 870,
+      "victorias": 563,
+      "derrotas": 529,
+      "ultima_partida": 1753744334127
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nautilus",
-      "partidas": 14,
-      "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 3.7704918032786887
-    },
-    {
       "nombre": "Rell",
-      "partidas": 12,
-      "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 3.793103448275862
+      "partidas": 19,
+      "victorias": 8,
+      "winrate": "42.1%",
+      "kda_promedio": 3.586206896551724
     },
     {
       "nombre": "Leona",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.2916666666666665
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.9583333333333335
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.8813559322033897
     },
     {
       "nombre": "Braum",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 5.461538461538462
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 4.88
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 4.909090909090909
     },
     {
       "nombre": "Neeko",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.870967741935484
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4.256410256410256
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Rakan",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 5.705882352941177
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.863636363636363
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 4.0588235294117645
+      "winrate": "57.1%",
+      "kda_promedio": 5.476190476190476
     },
     {
       "nombre": "TahmKench",
@@ -95,12 +81,26 @@
       "victorias": 3,
       "winrate": "75.0%",
       "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.076923076923077
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 89,
-    "wins": 53,
-    "losses": 36,
-    "timePlayed": 143882
+    "games": 103,
+    "wins": 55,
+    "losses": 48,
+    "timePlayed": 166896
   }
 }

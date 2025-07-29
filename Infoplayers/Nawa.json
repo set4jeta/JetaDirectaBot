@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "never give up#1412",
-      "nivel": 270,
+      "nivel": 271,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 767,
-      "victorias": 227,
-      "derrotas": 186,
-      "ultima_partida": 1753578051974
+      "lp": 844,
+      "victorias": 235,
+      "derrotas": 190,
+      "ultima_partida": 1753749062045
     },
     {
       "nombre": "Ghost Face#33333",
@@ -37,7 +37,7 @@
       "nombre": "sad and bad#2k25",
       "nivel": 137,
       "region": "EUW1",
-      "liga": "DIAMOND I",
+      "liga": "DIAMOND II",
       "lp": 75,
       "victorias": 166,
       "derrotas": 145,
@@ -47,24 +47,31 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 10,
+      "partidas": 11,
       "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 3.652173913043478
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3947368421052633
+      "winrate": "72.7%",
+      "kda_promedio": 3.5306122448979593
     },
     {
       "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.185185185185185
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Varus",
       "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.44
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.375
     },
     {
       "nombre": "Viego",
@@ -74,11 +81,18 @@
       "kda_promedio": 1.7297297297297298
     },
     {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Nautilus",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7391304347826086
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.142857142857143
     },
     {
       "nombre": "Xayah",
@@ -95,31 +109,17 @@
       "kda_promedio": 1.5333333333333334
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.6
-    },
-    {
       "nombre": "Yunara",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.2857142857142858
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1818181818181817
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 68,
-    "wins": 31,
-    "losses": 37,
-    "timePlayed": 104607
+    "games": 77,
+    "wins": 37,
+    "losses": 40,
+    "timePlayed": 118970
   }
 }

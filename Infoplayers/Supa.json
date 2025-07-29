@@ -5,7 +5,7 @@
     "edad": 24,
     "equipo": "Movistar KOI",
     "pais": "Spain",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Supa_LoL",
       "twitch": "https://twitch.tv/supa_lol"
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "tukaan#tukan",
-      "nivel": 1474,
+      "nivel": 1475,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1471,
-      "victorias": 327,
+      "lp": 1417,
+      "victorias": 328,
       "derrotas": 259,
-      "ultima_partida": 1752920668375
+      "ultima_partida": 1753739898369
     },
     {
       "nombre": "Tukaan#tuknn",
@@ -37,52 +37,17 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Caitlyn",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5
-    },
-    {
       "nombre": "Alistar",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 8
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 10
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 10
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 7,
-    "wins": 5,
-    "losses": 2,
-    "timePlayed": 9785
+    "games": 1,
+    "wins": 1,
+    "losses": 0,
+    "timePlayed": 1393
   }
 }

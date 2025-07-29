@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "SMRADOCH ZICSSI#EUW",
-      "nivel": 1012,
+      "nivel": 1013,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1146,
-      "victorias": 342,
+      "lp": 1241,
+      "victorias": 347,
       "derrotas": 303,
-      "ultima_partida": 1753554207790
+      "ultima_partida": 1753731230384
     },
     {
       "nombre": "Sir Leywin#EUW",
       "nivel": 507,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 85,
+      "lp": 10,
       "victorias": 56,
       "derrotas": 37,
       "ultima_partida": 1752617111421
@@ -47,13 +47,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "JarvanIV",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 4.142857142857143
-    },
-    {
       "nombre": "Zed",
       "partidas": 7,
       "victorias": 3,
@@ -68,25 +61,32 @@
       "kda_promedio": 3.2941176470588234
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "JarvanIV",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 4.2631578947368425
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5.2
     },
     {
       "nombre": "Vi",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.785714285714286
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.25
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Trundle",
@@ -96,13 +96,6 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Akali",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4166666666666667
-    },
-    {
       "nombre": "Diana",
       "partidas": 2,
       "victorias": 2,
@@ -110,17 +103,24 @@
       "kda_promedio": 11.333333333333334
     },
     {
-      "nombre": "Jax",
+      "nombre": "Poppy",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 4.222222222222222
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 24,
-    "losses": 30,
-    "timePlayed": 84103
+    "games": 52,
+    "wins": 27,
+    "losses": 25,
+    "timePlayed": 80294
   }
 }

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "bakisa",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/BakisaCale"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BE5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Cale je cale#CJA",
+      "nivel": 264,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 766,
+      "victorias": 496,
+      "derrotas": 457,
+      "ultima_partida": 1753750772428
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 18,
+      "victorias": 8,
+      "winrate": "44.4%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 18,
+      "victorias": 10,
+      "winrate": "55.6%",
+      "kda_promedio": 2.792452830188679
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 2.227722772277228
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 4.758620689655173
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1904761904761907
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.2142857142857142
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0833333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 91,
+    "wins": 52,
+    "losses": 39,
+    "timePlayed": 144069
+  }
+}

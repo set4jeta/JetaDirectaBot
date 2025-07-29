@@ -19,33 +19,26 @@
       "nivel": 881,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 853,
+      "lp": 832,
       "victorias": 325,
-      "derrotas": 289,
-      "ultima_partida": 1753367613058
+      "derrotas": 290,
+      "ultima_partida": 1753633385879
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.764705882352941
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.577777777777778
-    },
-    {
-      "nombre": "XinZhao",
       "partidas": 9,
       "victorias": 5,
       "winrate": "55.6%",
-      "kda_promedio": 3.2127659574468086
+      "kda_promedio": 3.1458333333333335
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.161290322580645
     },
     {
       "nombre": "Viego",
@@ -55,11 +48,11 @@
       "kda_promedio": 2.5142857142857142
     },
     {
-      "nombre": "Nidalee",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.923076923076923
+      "nombre": "XinZhao",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.8333333333333335
     },
     {
       "nombre": "Diana",
@@ -69,11 +62,11 @@
       "kda_promedio": 2.25
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Nidalee",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.5
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9565217391304346
     },
     {
       "nombre": "Ezreal",
@@ -95,12 +88,19 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 2
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 74,
-    "wins": 41,
-    "losses": 33,
-    "timePlayed": 119203
+    "games": 63,
+    "wins": 34,
+    "losses": 29,
+    "timePlayed": 100425
   }
 }

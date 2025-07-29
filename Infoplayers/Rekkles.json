@@ -16,13 +16,23 @@
   "cuentas": [
     {
       "nombre": "LR Rekkles#SUP",
-      "nivel": 182,
+      "nivel": 186,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 915,
-      "victorias": 173,
-      "derrotas": 142,
-      "ultima_partida": 1753438506559
+      "lp": 908,
+      "victorias": 181,
+      "derrotas": 150,
+      "ultima_partida": 1753732578512
+    },
+    {
+      "nombre": "LR Rekkles#ADC",
+      "nivel": 172,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 925,
+      "victorias": 275,
+      "derrotas": 223,
+      "ultima_partida": 1753570930726
     },
     {
       "nombre": "LR Rekkles#LRAT",
@@ -33,16 +43,6 @@
       "victorias": 271,
       "derrotas": 235,
       "ultima_partida": 1753356009359
-    },
-    {
-      "nombre": "LR Rekkles#ADC",
-      "nivel": 171,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 893,
-      "victorias": 273,
-      "derrotas": 223,
-      "ultima_partida": 1753266641912
     },
     {
       "nombre": "Latias#SUP",
@@ -58,45 +58,38 @@
   "campeones_recientes": [
     {
       "nombre": "Rakan",
-      "partidas": 28,
+      "partidas": 26,
       "victorias": 13,
-      "winrate": "46.4%",
-      "kda_promedio": 7.264150943396227
+      "winrate": "50.0%",
+      "kda_promedio": 6.660377358490566
     },
     {
       "nombre": "Jhin",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 8.88
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 10.714285714285714
     },
     {
       "nombre": "Nami",
       "partidas": 10,
-      "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 10.3125
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 8.4
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 16.2
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 9.058823529411764
     },
     {
       "nombre": "Alistar",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 6,
+      "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 5.615384615384615
+      "kda_promedio": 5.3
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 9.153846153846153
     },
     {
       "nombre": "Janna",
@@ -106,31 +99,38 @@
       "kda_promedio": 11.166666666666666
     },
     {
-      "nombre": "Braum",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 7.125
-    },
-    {
       "nombre": "Senna",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.714285714285714
+      "winrate": "50.0%",
+      "kda_promedio": 4.444444444444445
     },
     {
       "nombre": "Bard",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 12.4
+      "winrate": "66.7%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 16
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 85,
-    "wins": 52,
+    "games": 82,
+    "wins": 49,
     "losses": 33,
-    "timePlayed": 138967
+    "timePlayed": 135016
   }
 }

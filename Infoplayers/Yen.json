@@ -15,68 +15,54 @@
   },
   "cuentas": [
     {
+      "nombre": "KISS OF DEATH#YEN",
+      "nivel": 422,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 711,
+      "victorias": 291,
+      "derrotas": 259,
+      "ultima_partida": 1753746076522
+    },
+    {
       "nombre": "Yen is my Wife#EUW",
       "nivel": 826,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1096,
-      "victorias": 298,
-      "derrotas": 245,
-      "ultima_partida": 1753537224399
-    },
-    {
-      "nombre": "KISS OF DEATH#YEN",
-      "nivel": 421,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 864,
-      "victorias": 288,
-      "derrotas": 249,
-      "ultima_partida": 1753452870378
+      "lp": 1115,
+      "victorias": 300,
+      "derrotas": 246,
+      "ultima_partida": 1753735423887
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 19,
-      "victorias": 14,
-      "winrate": "73.7%",
-      "kda_promedio": 3.6027397260273974
+      "partidas": 25,
+      "victorias": 16,
+      "winrate": "64.0%",
+      "kda_promedio": 3.0258620689655173
     },
     {
       "nombre": "Yunara",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.763157894736842
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.84
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Ezreal",
-      "partidas": 4,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.64
+      "winrate": "33.3%",
+      "kda_promedio": 1.0975609756097562
     },
     {
-      "nombre": "Zeri",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5555555555555554
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.4
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Jax",
@@ -86,11 +72,18 @@
       "kda_promedio": 1.0555555555555556
     },
     {
-      "nombre": "Azir",
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Corki",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4285714285714284
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.166666666666667
     },
     {
       "nombre": "Ryze",
@@ -105,12 +98,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1538461538461537
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 31,
-    "losses": 28,
-    "timePlayed": 99209
+    "games": 72,
+    "wins": 35,
+    "losses": 37,
+    "timePlayed": 120421
   }
 }

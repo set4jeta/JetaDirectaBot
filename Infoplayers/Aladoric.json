@@ -19,10 +19,10 @@
       "nivel": 110,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 791,
-      "victorias": 320,
-      "derrotas": 268,
-      "ultima_partida": 1753570177553
+      "lp": 788,
+      "victorias": 322,
+      "derrotas": 270,
+      "ultima_partida": 1753740712664
     }
   ],
   "campeones_recientes": [
@@ -36,16 +36,30 @@
     {
       "nombre": "LeeSin",
       "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.736842105263158
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.8421052631578947
     },
     {
       "nombre": "Nautilus",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.125
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.0952380952380953
+      "kda_promedio": 4.111111111111111
     },
     {
       "nombre": "Bard",
@@ -53,27 +67,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.2
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3636363636363638
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.666666666666667
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.25
     },
     {
       "nombre": "Rumble",
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 6.4
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.857142857142857
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 20,
-    "losses": 19,
-    "timePlayed": 65385
+    "games": 37,
+    "wins": 19,
+    "losses": 18,
+    "timePlayed": 61493
   }
 }

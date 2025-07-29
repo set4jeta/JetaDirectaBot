@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "ISMA",
     "nombre_real": "Ismaïl Boualem",
-    "edad": 23,
+    "edad": 24,
     "equipo": "GIANTX",
     "pais": null,
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "ismααα#EUW",
-      "nivel": 855,
+      "nivel": 856,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1174,
-      "victorias": 446,
-      "derrotas": 404,
-      "ultima_partida": 1753460990763
+      "lp": 1151,
+      "victorias": 451,
+      "derrotas": 410,
+      "ultima_partida": 1753731643145
     },
     {
       "nombre": "786786786#LEC1",
@@ -36,39 +36,39 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Trundle",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 10.909090909090908
+    },
+    {
       "nombre": "Vi",
       "partidas": 8,
       "victorias": 3,
       "winrate": "37.5%",
-      "kda_promedio": 2.4146341463414633
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 8.428571428571429
+      "kda_promedio": 2.45
     },
     {
       "nombre": "XinZhao",
-      "partidas": 6,
-      "victorias": 6,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.111111111111111
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 3.3846153846153846
-    },
-    {
-      "nombre": "Pantheon",
+      "nombre": "Nidalee",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.3529411764705883
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.263157894736842
     },
     {
       "nombre": "LeeSin",
@@ -78,11 +78,11 @@
       "kda_promedio": 3.1666666666666665
     },
     {
-      "nombre": "Nidalee",
+      "nombre": "Pantheon",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.4
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
     },
     {
       "nombre": "Diana",
@@ -90,6 +90,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
     },
     {
       "nombre": "MonkeyKing",
@@ -100,9 +107,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 18,
+    "games": 37,
+    "wins": 21,
     "losses": 16,
-    "timePlayed": 57574
+    "timePlayed": 62443
   }
 }

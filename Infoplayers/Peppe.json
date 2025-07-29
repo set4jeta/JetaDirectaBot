@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Peppe",
     "nombre_real": "Petros Berdebes",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Team Phantasma",
     "pais": "Greece",
     "contrato_hasta": null,
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "ΠΑΣΟΚΟΣ#EUW",
-      "nivel": 261,
+      "nivel": 264,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 850,
-      "victorias": 400,
-      "derrotas": 369,
-      "ultima_partida": 1753467126281
+      "lp": 889,
+      "victorias": 414,
+      "derrotas": 380,
+      "ultima_partida": 1753720918002
     },
     {
       "nombre": "escape dystopia#EUW",
@@ -37,80 +37,80 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3.25
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.074074074074074
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.1515151515151514
     },
     {
       "nombre": "Ahri",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.625
+      "winrate": "80.0%",
+      "kda_promedio": 3
     },
     {
-      "nombre": "Orianna",
-      "partidas": 6,
+      "nombre": "Aurora",
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.3870967741935485
+      "winrate": "40.0%",
+      "kda_promedio": 3
     },
     {
-      "nombre": "Azir",
+      "nombre": "Corki",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.9310344827586208
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.136363636363637
     },
     {
       "nombre": "Ryze",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.3181818181818183
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6666666666666667
     },
     {
       "nombre": "Taliyah",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 1.6785714285714286
+      "kda_promedio": 1.71875
     },
     {
-      "nombre": "Corki",
-      "partidas": 3,
+      "nombre": "Azir",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5555555555555554
+      "winrate": "50.0%",
+      "kda_promedio": 2.230769230769231
     },
     {
-      "nombre": "Galio",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.125
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8076923076923077
     },
     {
-      "nombre": "Leblanc",
+      "nombre": "Ezreal",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.1538461538461537
+      "kda_promedio": 2.4375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 69,
-    "wins": 37,
-    "losses": 32,
-    "timePlayed": 109344
+    "games": 72,
+    "wins": 39,
+    "losses": 33,
+    "timePlayed": 111731
   }
 }

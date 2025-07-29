@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Zubac",
     "nombre_real": "Tomáš Kyselák",
-    "edad": 18,
+    "edad": 19,
     "equipo": "Zero Tenacity",
     "pais": "Czech Republic",
     "contrato_hasta": null,
@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "UnwaveringShadow#ALONE",
-      "nivel": 785,
+      "nivel": 786,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 792,
-      "victorias": 428,
-      "derrotas": 405,
-      "ultima_partida": 1753567527247
+      "lp": 893,
+      "victorias": 440,
+      "derrotas": 411,
+      "ultima_partida": 1753737822455
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 52,
-      "victorias": 31,
-      "winrate": "59.6%",
-      "kda_promedio": 2.759450171821306
+      "partidas": 64,
+      "victorias": 38,
+      "winrate": "59.4%",
+      "kda_promedio": 2.7387640449438204
     },
     {
       "nombre": "Pantheon",
-      "partidas": 18,
-      "victorias": 10,
-      "winrate": "55.6%",
-      "kda_promedio": 3.202127659574468
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.5454545454545454
     },
     {
       "nombre": "Poppy",
@@ -50,9 +50,9 @@
     {
       "nombre": "Trundle",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.578947368421052
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.65
     },
     {
       "nombre": "JarvanIV",
@@ -67,6 +67,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1666666666666665
     },
     {
       "nombre": "Naafiri",
@@ -88,19 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.7
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 101,
-    "wins": 57,
-    "losses": 44,
-    "timePlayed": 167791
+    "games": 107,
+    "wins": 61,
+    "losses": 46,
+    "timePlayed": 177888
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "JL Yong#077",
-      "nivel": 274,
+      "nivel": 276,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 795,
-      "victorias": 315,
-      "derrotas": 278,
-      "ultima_partida": 1753468418204
+      "lp": 889,
+      "victorias": 324,
+      "derrotas": 282,
+      "ultima_partida": 1753740392791
     },
     {
       "nombre": "AIba Madalyon#EUW",
@@ -38,59 +38,52 @@
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 24,
-      "victorias": 14,
-      "winrate": "58.3%",
-      "kda_promedio": 3.616822429906542
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 3.6419753086419755
     },
     {
       "nombre": "LeeSin",
-      "partidas": 20,
-      "victorias": 11,
-      "winrate": "55.0%",
-      "kda_promedio": 3.489795918367347
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 11,
-      "victorias": 3,
-      "winrate": "27.3%",
-      "kda_promedio": 3.192982456140351
+      "partidas": 16,
+      "victorias": 6,
+      "winrate": "37.5%",
+      "kda_promedio": 2.784090909090909
     },
     {
       "nombre": "JarvanIV",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.3658536585365852
+    },
+    {
+      "nombre": "Zed",
       "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.96875
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.689655172413793
     },
     {
       "nombre": "Pantheon",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.428571428571429
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.5925925925925926
     },
     {
       "nombre": "Taliyah",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.641025641025641
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1153846153846154
     },
     {
       "nombre": "DrMundo",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.7
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.6153846153846154
+      "kda_promedio": 2.4444444444444446
     },
     {
       "nombre": "Naafiri",
@@ -100,17 +93,24 @@
       "kda_promedio": 1.875
     },
     {
-      "nombre": "Nidalee",
+      "nombre": "Trundle",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.375
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 92,
-    "wins": 42,
-    "losses": 50,
-    "timePlayed": 141191
+    "games": 71,
+    "wins": 31,
+    "losses": 40,
+    "timePlayed": 109270
   }
 }

@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "sdfsdfsgert#EUW",
-      "nivel": 224,
+      "nivel": 226,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 913,
-      "victorias": 413,
-      "derrotas": 367,
-      "ultima_partida": 1753568038250
+      "liga": "CHALLENGER I",
+      "lp": 1063,
+      "victorias": 424,
+      "derrotas": 370,
+      "ultima_partida": 1753725978175
     },
     {
       "nombre": "Co24#KR1",
@@ -36,39 +36,39 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Rell",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 5.2272727272727275
+    },
+    {
       "nombre": "Alistar",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 3.9555555555555557
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 4.1875
     },
     {
       "nombre": "Leona",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.15
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 9,
+      "partidas": 11,
       "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 7.090909090909091
+      "winrate": "63.6%",
+      "kda_promedio": 3.5208333333333335
     },
     {
       "nombre": "Nautilus",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 2.5384615384615383
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.0535714285714284
     },
     {
       "nombre": "Rakan",
-      "partidas": 8,
-      "victorias": 1,
-      "winrate": "12.5%",
-      "kda_promedio": 2.7419354838709675
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 3.176470588235294
     },
     {
       "nombre": "Sett",
@@ -85,6 +85,13 @@
       "kda_promedio": 4.230769230769231
     },
     {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 10.571428571428571
+    },
+    {
       "nombre": "Neeko",
       "partidas": 4,
       "victorias": 2,
@@ -92,24 +99,17 @@
       "kda_promedio": 3.4
     },
     {
-      "nombre": "Karma",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.272727272727273
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 7.714285714285714
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5833333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 83,
-    "wins": 41,
-    "losses": 42,
-    "timePlayed": 134952
+    "games": 92,
+    "wins": 51,
+    "losses": 41,
+    "timePlayed": 149551
   }
 }

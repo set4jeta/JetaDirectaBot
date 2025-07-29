@@ -13,20 +13,20 @@
   "cuentas": [
     {
       "nombre": "XPoby#0207",
-      "nivel": 35,
+      "nivel": 37,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 415,
-      "victorias": 44,
-      "derrotas": 6,
-      "ultima_partida": 1753477449044
+      "lp": 507,
+      "victorias": 55,
+      "derrotas": 13,
+      "ultima_partida": 1753737100860
     },
     {
       "nombre": "피오비와이#0207",
       "nivel": 322,
       "region": "KR",
-      "liga": "MASTER I",
-      "lp": 195,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 271,
       "derrotas": 241,
       "ultima_partida": 1751729461947
@@ -35,59 +35,52 @@
   "campeones_recientes": [
     {
       "nombre": "Annie",
-      "partidas": 9,
-      "victorias": 8,
-      "winrate": "88.9%",
-      "kda_promedio": 5.08
+      "partidas": 10,
+      "victorias": 9,
+      "winrate": "90.0%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Azir",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 5.1
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2
     },
     {
       "nombre": "Viktor",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 7.846153846153846
+      "winrate": "75.0%",
+      "kda_promedio": 7.214285714285714
     },
     {
       "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 7.1
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 8.444444444444445
     },
     {
       "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3125
+    },
+    {
+      "nombre": "Yone",
       "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 4.571428571428571
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.411764705882353
     },
     {
       "nombre": "Akali",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 6.857142857142857
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     },
     {
       "nombre": "Aurora",
@@ -99,15 +92,22 @@
     {
       "nombre": "Galio",
       "partidas": 2,
-      "victorias": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 22
+      "kda_promedio": 1.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 44,
-    "losses": 6,
-    "timePlayed": 75158
+    "games": 55,
+    "wins": 42,
+    "losses": 13,
+    "timePlayed": 86015
   }
 }

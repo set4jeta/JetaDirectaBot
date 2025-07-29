@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "TwitchTVxKenzuke#EUW",
+      "nivel": 287,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1229,
+      "victorias": 219,
+      "derrotas": 173,
+      "ultima_partida": 1753704849003
+    },
+    {
       "nombre": "xKenzuke#1453",
       "nivel": 944,
       "region": "EUW1",
@@ -22,33 +32,23 @@
       "lp": 1212,
       "victorias": 142,
       "derrotas": 92,
-      "ultima_partida": 1753573172706
-    },
-    {
-      "nombre": "TwitchTVxKenzuke#EUW",
-      "nivel": 287,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1216,
-      "victorias": 217,
-      "derrotas": 172,
-      "ultima_partida": 1753522112127
+      "ultima_partida": 1753605393612
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Leona",
+      "nombre": "Hwei",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6382978723404256
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9047619047619047
     },
     {
-      "nombre": "Hwei",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.6486486486486487
+      "nombre": "Leona",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3823529411764706
     },
     {
       "nombre": "Syndra",
@@ -65,11 +65,11 @@
       "kda_promedio": 1.7333333333333334
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Yone",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6923076923076925
     },
     {
       "nombre": "Gragas",
@@ -79,38 +79,38 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.333333333333333
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5454545454545454
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
       "nombre": "Akali",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 18,
-    "losses": 21,
-    "timePlayed": 64685
+    "games": 34,
+    "wins": 16,
+    "losses": 18,
+    "timePlayed": 56469
   }
 }

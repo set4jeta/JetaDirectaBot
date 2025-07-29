@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "James Doakes#BOAT",
-      "nivel": 932,
+      "nivel": 934,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1333,
-      "victorias": 250,
-      "derrotas": 205,
-      "ultima_partida": 1753351446648
+      "lp": 1245,
+      "victorias": 251,
+      "derrotas": 209,
+      "ultima_partida": 1753733989678
     }
   ],
   "campeones_recientes": [
@@ -36,9 +36,16 @@
     {
       "nombre": "Lucian",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.25
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
     },
     {
       "nombre": "Azir",
@@ -62,13 +69,6 @@
       "kda_promedio": 5.25
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "TwistedFate",
       "partidas": 1,
       "victorias": 0,
@@ -90,17 +90,17 @@
       "kda_promedio": 0
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Yone",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.7142857142857142
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5454545454545454
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 6,
-    "losses": 7,
-    "timePlayed": 22125
+    "games": 14,
+    "wins": 5,
+    "losses": 9,
+    "timePlayed": 22235
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 454,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1708,
-      "victorias": 650,
-      "derrotas": 576,
-      "ultima_partida": 1753562139978
+      "lp": 1670,
+      "victorias": 652,
+      "derrotas": 579,
+      "ultima_partida": 1753726561759
     },
     {
       "nombre": "Sunflower#2509",
@@ -37,18 +37,32 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 5.142857142857143
+    },
+    {
       "nombre": "Viego",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
       "kda_promedio": 5.666666666666667
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 4.433333333333334
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6842105263157894
     },
     {
       "nombre": "Maokai",
@@ -58,18 +72,11 @@
       "kda_promedio": 6.5
     },
     {
-      "nombre": "Vi",
+      "nombre": "Pantheon",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.2
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 4.266666666666667
     },
     {
       "nombre": "Kindred",
@@ -86,18 +93,11 @@
       "kda_promedio": 3.230769230769231
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 3,
+      "nombre": "Khazix",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4.583333333333333
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 6.875
+      "winrate": "50.0%",
+      "kda_promedio": 3.1
     },
     {
       "nombre": "Naafiri",
@@ -111,6 +111,6 @@
     "games": 55,
     "wins": 33,
     "losses": 22,
-    "timePlayed": 86644
+    "timePlayed": 85716
   }
 }

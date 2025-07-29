@@ -18,33 +18,19 @@
       "nivel": 293,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1100,
+      "lp": 1056,
       "victorias": 151,
-      "derrotas": 110,
-      "ultima_partida": 1753211111714
+      "derrotas": 112,
+      "ultima_partida": 1753717154890
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.7142857142857142
-    },
     {
       "nombre": "Bard",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.222222222222222
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.875
     },
     {
       "nombre": "Alistar",
@@ -54,6 +40,13 @@
       "kda_promedio": 5
     },
     {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Nautilus",
       "partidas": 1,
       "victorias": 1,
@@ -61,11 +54,18 @@
       "kda_promedio": 3.1
     },
     {
-      "nombre": "Singed",
+      "nombre": "Rakan",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1111111111111112
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
     },
     {
       "nombre": "Taric",
@@ -76,9 +76,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 8,
-    "losses": 5,
-    "timePlayed": 22321
+    "games": 8,
+    "wins": 6,
+    "losses": 2,
+    "timePlayed": 12765
   }
 }

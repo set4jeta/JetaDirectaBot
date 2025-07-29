@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "RaiderGO",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RaiderEUW",
+      "twitch": "https://twitch.tv/raidergo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/raidergo.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "RaiderGO#TWTV1",
+      "nivel": 519,
+      "region": "EUN1",
+      "liga": "GRANDMASTER I",
+      "lp": 575,
+      "victorias": 53,
+      "derrotas": 14,
+      "ultima_partida": 1753723606842
+    },
+    {
+      "nombre": "R1 Raider#R1GO",
+      "nivel": 113,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1402,
+      "victorias": 409,
+      "derrotas": 317,
+      "ultima_partida": 1753721494127
+    },
+    {
+      "nombre": "RaiderGO#2004",
+      "nivel": 333,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 152,
+      "derrotas": 133,
+      "ultima_partida": 1741445335426
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Darius",
+      "partidas": 76,
+      "victorias": 45,
+      "winrate": "59.2%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 29,
+      "victorias": 18,
+      "winrate": "62.1%",
+      "kda_promedio": 2.6194690265486726
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.8541666666666665
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7045454545454546
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 5.7
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 160,
+    "wins": 94,
+    "losses": 66,
+    "timePlayed": 266769
+  }
+}

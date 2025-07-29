@@ -16,43 +16,29 @@
   "cuentas": [
     {
       "nombre": "Skillshot Lander#EUW",
-      "nivel": 621,
+      "nivel": 625,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1125,
-      "victorias": 530,
-      "derrotas": 490,
-      "ultima_partida": 1753419746646
+      "liga": "GRANDMASTER I",
+      "lp": 903,
+      "victorias": 542,
+      "derrotas": 512,
+      "ultima_partida": 1753738325712
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ezreal",
-      "partidas": 46,
-      "victorias": 24,
-      "winrate": "52.2%",
-      "kda_promedio": 2.911764705882353
+      "partidas": 55,
+      "victorias": 22,
+      "winrate": "40.0%",
+      "kda_promedio": 2.612403100775194
     },
     {
       "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.875
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.7
-    },
-    {
-      "nombre": "DrMundo",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.909090909090909
     },
     {
       "nombre": "JarvanIV",
@@ -69,38 +55,17 @@
       "kda_promedio": 1.4444444444444444
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.375
-    },
-    {
-      "nombre": "Lillia",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
-    },
-    {
-      "nombre": "Senna",
+      "nombre": "Ziggs",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.125
+      "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 27,
-    "losses": 32,
-    "timePlayed": 95103
+    "games": 63,
+    "wins": 26,
+    "losses": 37,
+    "timePlayed": 103294
   }
 }

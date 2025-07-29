@@ -5,7 +5,7 @@
     "edad": 25,
     "equipo": "Eintracht Frankfurt",
     "pais": "France",
-    "contrato_hasta": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Veignorem_lol",
       "twitch": "https://twitch.tv/veignorem"
@@ -19,10 +19,10 @@
       "nivel": 1199,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 897,
-      "victorias": 339,
-      "derrotas": 308,
-      "ultima_partida": 1753574484074
+      "lp": 876,
+      "victorias": 340,
+      "derrotas": 310,
+      "ultima_partida": 1753580492575
     },
     {
       "nombre": "Veignorenn#EUW",
@@ -47,13 +47,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Renata",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.953488372093023
-    },
-    {
       "nombre": "Lulu",
       "partidas": 5,
       "victorias": 3,
@@ -61,18 +54,18 @@
       "kda_promedio": 6
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 4,
+      "nombre": "Renata",
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.8846153846153846
+      "winrate": "20.0%",
+      "kda_promedio": 2.1
     },
     {
-      "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 1,
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.642857142857143
+      "kda_promedio": 4.285714285714286
     },
     {
       "nombre": "Alistar",
@@ -80,13 +73,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 4
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 23
     },
     {
       "nombre": "Leona",
@@ -103,11 +89,25 @@
       "kda_promedio": 20
     },
     {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.875
+    },
+    {
       "nombre": "Ornn",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 10
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
     },
     {
       "nombre": "Thresh",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
-    "wins": 13,
-    "losses": 12,
-    "timePlayed": 39688
+    "games": 21,
+    "wins": 10,
+    "losses": 11,
+    "timePlayed": 30803
   }
 }

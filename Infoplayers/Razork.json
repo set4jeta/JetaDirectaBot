@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Razørk Activoo#razzz",
-      "nivel": 785,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1377,
-      "victorias": 214,
-      "derrotas": 139,
-      "ultima_partida": 1753559391357
-    },
-    {
       "nombre": "Mu Yanling#Sky",
-      "nivel": 35,
+      "nivel": 36,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 341,
-      "victorias": 38,
-      "derrotas": 6,
-      "ultima_partida": 1753524610555
+      "lp": 391,
+      "victorias": 41,
+      "derrotas": 7,
+      "ultima_partida": 1753697171467
+    },
+    {
+      "nombre": "Razørk Activoo#razzz",
+      "nivel": 786,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1384,
+      "victorias": 215,
+      "derrotas": 140,
+      "ultima_partida": 1753653236509
     },
     {
       "nombre": "Cachorro Alpha#razzz",
@@ -48,24 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "MonkeyKing",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.1219512195121952
+      "winrate": "66.7%",
+      "kda_promedio": 3.021276595744681
     },
     {
       "nombre": "Zed",
       "partidas": 7,
       "victorias": 6,
       "winrate": "85.7%",
-      "kda_promedio": 5.782608695652174
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.8636363636363638
+      "kda_promedio": 4.586206896551724
     },
     {
       "nombre": "Viego",
@@ -75,6 +68,13 @@
       "kda_promedio": 6.75
     },
     {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.380952380952381
+    },
+    {
       "nombre": "Shen",
       "partidas": 4,
       "victorias": 1,
@@ -82,25 +82,32 @@
       "kda_promedio": 2.5
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.2
-    },
-    {
-      "nombre": "Trundle",
+      "nombre": "LeeSin",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 5.625
+      "kda_promedio": 8.571428571428571
     },
     {
-      "nombre": "LeeSin",
+      "nombre": "Lillia",
       "partidas": 2,
-      "victorias": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 9.75
+      "kda_promedio": 4
     },
     {
       "nombre": "Nocturne",
@@ -108,19 +115,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 8
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
     "games": 43,
-    "wins": 34,
-    "losses": 9,
-    "timePlayed": 65577
+    "wins": 32,
+    "losses": 11,
+    "timePlayed": 66869
   }
 }

@@ -19,40 +19,26 @@
       "nivel": 913,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 988,
-      "victorias": 478,
-      "derrotas": 441,
-      "ultima_partida": 1752654986449
+      "lp": 1003,
+      "victorias": 480,
+      "derrotas": 442,
+      "ultima_partida": 1753732942708
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "LeeSin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.7777777777777777
-    },
-    {
-      "nombre": "Rengar",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "DrMundo",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.333333333333333
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7.5
+      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Nami",
@@ -62,17 +48,17 @@
       "kda_promedio": 3.75
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Rakan",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.25
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 6,
-    "losses": 3,
-    "timePlayed": 15769
+    "games": 4,
+    "wins": 3,
+    "losses": 1,
+    "timePlayed": 6921
   }
 }

@@ -15,22 +15,29 @@
   "cuentas": [
     {
       "nombre": "naau1#EUW",
-      "nivel": 441,
+      "nivel": 442,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
       "lp": 835,
       "victorias": 242,
       "derrotas": 207,
-      "ultima_partida": 1753586739524
+      "ultima_partida": 1753724384657
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.392857142857143
+    },
+    {
+      "nombre": "Kindred",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.3333333333333333
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1333333333333333
     },
     {
       "nombre": "Viego",
@@ -40,11 +47,32 @@
       "kda_promedio": 2.6666666666666665
     },
     {
-      "nombre": "Kindred",
+      "nombre": "LeeSin",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5454545454545454
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
     },
     {
       "nombre": "Aurora",
@@ -54,52 +82,24 @@
       "kda_promedio": 1.4
     },
     {
+      "nombre": "Belveth",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
       "nombre": "Hecarim",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 4.25
-    },
-    {
-      "nombre": "Kayn",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6.75
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 4.333333333333333
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 13.5
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 10,
-    "losses": 11,
-    "timePlayed": 34702
+    "games": 32,
+    "wins": 16,
+    "losses": 16,
+    "timePlayed": 51891
   }
 }

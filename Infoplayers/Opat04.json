@@ -15,20 +15,20 @@
   "cuentas": [
     {
       "nombre": "Patrick Jane#Tea",
-      "nivel": 462,
+      "nivel": 464,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 725,
-      "victorias": 183,
-      "derrotas": 155,
-      "ultima_partida": 1753464817638
+      "lp": 885,
+      "victorias": 199,
+      "derrotas": 164,
+      "ultima_partida": 1753740609954
     },
     {
       "nombre": "Jirka Král#King",
       "nivel": 138,
       "region": "EUN1",
-      "liga": "MASTER I",
-      "lp": 227,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 152,
       "derrotas": 84,
       "ultima_partida": 1753288930116
@@ -47,24 +47,31 @@
   "campeones_recientes": [
     {
       "nombre": "Vladimir",
-      "partidas": 47,
-      "victorias": 25,
-      "winrate": "53.2%",
-      "kda_promedio": 2.6626506024096384
+      "partidas": 50,
+      "victorias": 28,
+      "winrate": "56.0%",
+      "kda_promedio": 2.6897959183673468
     },
     {
       "nombre": "Ahri",
-      "partidas": 4,
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.2333333333333334
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5483870967741935
+      "winrate": "66.7%",
+      "kda_promedio": 2.0476190476190474
     },
     {
       "nombre": "Annie",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     },
     {
       "nombre": "Yunara",
@@ -74,13 +81,6 @@
       "kda_promedio": 2.8
     },
     {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1764705882352942
-    },
-    {
       "nombre": "Kassadin",
       "partidas": 1,
       "victorias": 0,
@@ -88,11 +88,25 @@
       "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Lucian",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 0.7142857142857143
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
     },
     {
       "nombre": "Ryze",
@@ -100,19 +114,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 1.375
-    },
-    {
-      "nombre": "Viktor",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4545454545454546
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 31,
-    "losses": 29,
-    "timePlayed": 98402
+    "games": 68,
+    "wins": 37,
+    "losses": 31,
+    "timePlayed": 105047
   }
 }

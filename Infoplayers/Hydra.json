@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Po Gap#EUW",
-      "nivel": 880,
+      "nivel": 882,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1524,
-      "victorias": 453,
-      "derrotas": 381,
-      "ultima_partida": 1753568356882
+      "lp": 1452,
+      "victorias": 455,
+      "derrotas": 386,
+      "ultima_partida": 1753745831214
     },
     {
       "nombre": "Bollito de Cacao#EUW",
@@ -38,59 +38,45 @@
   "campeones_recientes": [
     {
       "nombre": "Taliyah",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.3461538461538463
+      "winrate": "50.0%",
+      "kda_promedio": 2.375
     },
     {
       "nombre": "Ahri",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 2.8857142857142857
+      "winrate": "66.7%",
+      "kda_promedio": 2.925
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Azir",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 3.5517241379310347
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.3846153846153846
     },
     {
       "nombre": "Syndra",
       "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 7.7272727272727275
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.9375
     },
     {
       "nombre": "Yone",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 2.619047619047619
-    },
-    {
-      "nombre": "Akali",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6923076923076925
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2222222222222223
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2222222222222223
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
     },
     {
       "nombre": "Ekko",
@@ -105,12 +91,26 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
     }
   ],
   "estadisticas_2_semanas": {
     "games": 53,
-    "wins": 36,
-    "losses": 17,
-    "timePlayed": 83125
+    "wins": 34,
+    "losses": 19,
+    "timePlayed": 85863
   }
 }

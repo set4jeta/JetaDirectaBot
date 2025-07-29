@@ -13,29 +13,29 @@
   "cuentas": [
     {
       "nombre": "Noksu#404",
-      "nivel": 1020,
+      "nivel": 1021,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 857,
-      "victorias": 197,
-      "derrotas": 155,
-      "ultima_partida": 1753572438469
+      "lp": 859,
+      "victorias": 204,
+      "derrotas": 161,
+      "ultima_partida": 1753726018823
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Gragas",
-      "partidas": 37,
-      "victorias": 21,
-      "winrate": "56.8%",
-      "kda_promedio": 2.9743589743589745
+      "partidas": 47,
+      "victorias": 26,
+      "winrate": "55.3%",
+      "kda_promedio": 2.965034965034965
     },
     {
       "nombre": "Karma",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3.423076923076923
+      "winrate": "40.0%",
+      "kda_promedio": 3.7
     },
     {
       "nombre": "Maokai",
@@ -67,9 +67,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 26,
-    "losses": 22,
-    "timePlayed": 72140
+    "games": 57,
+    "wins": 31,
+    "losses": 26,
+    "timePlayed": 86361
   }
 }

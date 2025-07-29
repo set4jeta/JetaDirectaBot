@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "BERND DAS BROT#PASU",
-      "nivel": 846,
+      "nivel": 847,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 790,
-      "victorias": 258,
-      "derrotas": 223,
-      "ultima_partida": 1753457647759
+      "lp": 760,
+      "victorias": 263,
+      "derrotas": 228,
+      "ultima_partida": 1753740609954
     },
     {
       "nombre": "MEIN GEDUDEL#PASU",
@@ -34,32 +34,39 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "LeeSin",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 5.388888888888889
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.85
-    },
-    {
       "nombre": "Viego",
-      "partidas": 5,
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.264705882352941
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.111111111111111
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
     },
     {
       "nombre": "Trundle",
-      "partidas": 3,
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3
+      "winrate": "50.0%",
+      "kda_promedio": 12.5
     },
     {
       "nombre": "XinZhao",
@@ -76,6 +83,13 @@
       "kda_promedio": 1.1111111111111112
     },
     {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
       "nombre": "MonkeyKing",
       "partidas": 1,
       "victorias": 1,
@@ -88,26 +102,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 3.142857142857143
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
-    "wins": 14,
-    "losses": 12,
-    "timePlayed": 44399
+    "games": 33,
+    "wins": 18,
+    "losses": 15,
+    "timePlayed": 54017
   }
 }

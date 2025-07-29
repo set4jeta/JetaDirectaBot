@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Whistle",
+    "nombre_real": "Cho Jong-hwi",
+    "edad": 22,
+    "equipo": "Partizan Sangal",
+    "pais": "South Korea",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/whistle_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/whistle.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/PXS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Sakurajima Mai#2428",
+      "nivel": 107,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1368,
+      "victorias": 339,
+      "derrotas": 253,
+      "ultima_partida": 1753749062045
+    },
+    {
+      "nombre": "katarinabluu#zfs",
+      "nivel": 524,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 156,
+      "derrotas": 124,
+      "ultima_partida": 1742412663844
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Azir",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.130434782608696
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.115384615384615
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.230769230769231
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.95
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.75
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 40,
+    "losses": 27,
+    "timePlayed": 103200
+  }
+}

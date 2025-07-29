@@ -19,10 +19,10 @@
       "nivel": 48,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 279,
-      "victorias": 70,
-      "derrotas": 16,
-      "ultima_partida": 1753537400510
+      "lp": 332,
+      "victorias": 74,
+      "derrotas": 19,
+      "ultima_partida": 1753732912597
     },
     {
       "nombre": "NattyNatt#2005",
@@ -38,10 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Rengar",
-      "partidas": 14,
-      "victorias": 10,
-      "winrate": "71.4%",
-      "kda_promedio": 3.619718309859155
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 3.1
     },
     {
       "nombre": "DrMundo",
@@ -52,65 +52,65 @@
     },
     {
       "nombre": "Viego",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.4827586206896552
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.185185185185185
     },
     {
       "nombre": "JarvanIV",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 13.5
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.611111111111111
-    },
-    {
-      "nombre": "Volibear",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.347826086956522
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.212121212121212
-    },
-    {
-      "nombre": "XinZhao",
       "partidas": 4,
       "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 5.235294117647059
+      "kda_promedio": 10.125
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 3,
+      "nombre": "Nidalee",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.666666666666667
+      "winrate": "50.0%",
+      "kda_promedio": 4.3125
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Volibear",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8636363636363638
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0434782608695654
+    },
+    {
+      "nombre": "XinZhao",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 5.75
+      "kda_promedio": 4.0625
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.166666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 95,
-    "wins": 73,
-    "losses": 22,
-    "timePlayed": 150066
+    "games": 73,
+    "wins": 48,
+    "losses": 25,
+    "timePlayed": 118933
   }
 }

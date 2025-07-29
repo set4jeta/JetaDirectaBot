@@ -15,57 +15,50 @@
   "cuentas": [
     {
       "nombre": "GNOME#MAGIC",
-      "nivel": 925,
+      "nivel": 926,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1025,
-      "victorias": 364,
-      "derrotas": 329,
-      "ultima_partida": 1753448237142
+      "lp": 963,
+      "victorias": 365,
+      "derrotas": 333,
+      "ultima_partida": 1753698315386
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6451612903225805
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.3823529411764706
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Rell",
       "partidas": 8,
       "victorias": 3,
       "winrate": "37.5%",
-      "kda_promedio": 3.0277777777777777
+      "kda_promedio": 3.090909090909091
     },
     {
-      "nombre": "Bard",
+      "nombre": "Poppy",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 4.681818181818182
+      "kda_promedio": 2.5806451612903225
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 4.388888888888889
     },
     {
       "nombre": "Rakan",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.9411764705882355
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6363636363636365
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.928571428571429
     },
     {
       "nombre": "Leona",
@@ -75,31 +68,38 @@
       "kda_promedio": 7.6
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6363636363636365
-    },
-    {
       "nombre": "Pyke",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 24,
+    "games": 42,
+    "wins": 19,
     "losses": 23,
-    "timePlayed": 72946
+    "timePlayed": 64711
   }
 }

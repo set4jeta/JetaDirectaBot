@@ -16,53 +16,53 @@
   "cuentas": [
     {
       "nombre": "Mountain Wolf#wagmi",
-      "nivel": 680,
+      "nivel": 681,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1152,
-      "victorias": 294,
-      "derrotas": 253,
-      "ultima_partida": 1753462819364
+      "lp": 1086,
+      "victorias": 295,
+      "derrotas": 257,
+      "ultima_partida": 1753732806223
     },
     {
       "nombre": "BIG Daddy#wagmi",
       "nivel": 381,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 616,
-      "victorias": 83,
-      "derrotas": 53,
-      "ultima_partida": 1753047822974
+      "lp": 637,
+      "victorias": 85,
+      "derrotas": 54,
+      "ultima_partida": 1753541885542
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 11,
-      "victorias": 3,
-      "winrate": "27.3%",
-      "kda_promedio": 2.4545454545454546
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5892857142857144
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 6.8
+      "winrate": "75.0%",
+      "kda_promedio": 6
     },
     {
       "nombre": "Trundle",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.75
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.235294117647059
     },
     {
       "nombre": "Viego",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.1
+      "winrate": "20.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "DrMundo",
@@ -72,6 +72,13 @@
       "kda_promedio": 2.888888888888889
     },
     {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
       "nombre": "Naafiri",
       "partidas": 2,
       "victorias": 1,
@@ -79,28 +86,21 @@
       "kda_promedio": 4.333333333333333
     },
     {
-      "nombre": "Belveth",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 11
-    },
-    {
       "nombre": "Ryze",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2857142857142858
+      "kda_promedio": 1.2666666666666666
     },
     {
       "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.181818181818182
+    },
+    {
+      "nombre": "Belveth",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 17,
-    "losses": 17,
-    "timePlayed": 51555
+    "games": 42,
+    "wins": 20,
+    "losses": 22,
+    "timePlayed": 63192
   }
 }

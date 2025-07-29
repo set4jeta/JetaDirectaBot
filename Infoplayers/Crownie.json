@@ -16,111 +16,111 @@
   "cuentas": [
     {
       "nombre": "getogetogeto#EUW",
-      "nivel": 896,
+      "nivel": 898,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 669,
-      "victorias": 247,
-      "derrotas": 209,
-      "ultima_partida": 1753367113880
+      "lp": 691,
+      "victorias": 258,
+      "derrotas": 217,
+      "ultima_partida": 1753768548492
+    },
+    {
+      "nombre": "LR Crownie#LRAT",
+      "nivel": 572,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 93,
+      "victorias": 128,
+      "derrotas": 131,
+      "ultima_partida": 1753720458651
     },
     {
       "nombre": "Yveltal#ADC",
       "nivel": 115,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 630,
+      "lp": 606,
       "victorias": 357,
-      "derrotas": 311,
-      "ultima_partida": 1753357106262
-    },
-    {
-      "nombre": "LR Crownie#LRAT",
-      "nivel": 571,
-      "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 79,
-      "victorias": 123,
-      "derrotas": 130,
-      "ultima_partida": 1753293486901
+      "derrotas": 312,
+      "ultima_partida": 1753532971848
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 31,
-      "victorias": 12,
-      "winrate": "38.7%",
-      "kda_promedio": 2.434285714285714
+      "partidas": 48,
+      "victorias": 23,
+      "winrate": "47.9%",
+      "kda_promedio": 2.588235294117647
     },
     {
       "nombre": "KogMaw",
-      "partidas": 26,
-      "victorias": 17,
-      "winrate": "65.4%",
-      "kda_promedio": 2.625
+      "partidas": 21,
+      "victorias": 14,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6048387096774195
     },
     {
       "nombre": "Sivir",
-      "partidas": 20,
-      "victorias": 14,
-      "winrate": "70.0%",
-      "kda_promedio": 3.169811320754717
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 2.89
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7027027027027026
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.1923076923076925
-    },
-    {
-      "nombre": "Zeri",
+      "nombre": "Twitch",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6363636363636362
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 5,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.891891891891892
+      "winrate": "66.7%",
+      "kda_promedio": 3.2
     },
     {
       "nombre": "Corki",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.9259259259259258
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
-      "kda_promedio": 1.6153846153846154
+      "kda_promedio": 1.4615384615384615
     },
     {
-      "nombre": "Twitch",
-      "partidas": 5,
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2083333333333335
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 3,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.033333333333333
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2777777777777777
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6875
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 134,
-    "wins": 70,
-    "losses": 64,
-    "timePlayed": 214413
+    "games": 124,
+    "wins": 67,
+    "losses": 57,
+    "timePlayed": 196440
   }
 }

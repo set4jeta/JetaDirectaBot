@@ -19,10 +19,10 @@
       "nivel": 118,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 438,
+      "lp": 401,
       "victorias": 211,
-      "derrotas": 178,
-      "ultima_partida": 1753553910554
+      "derrotas": 180,
+      "ultima_partida": 1753709702702
     },
     {
       "nombre": "Afriibi#AFB",
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zeri",
+      "nombre": "Yunara",
       "partidas": 19,
-      "victorias": 13,
-      "winrate": "68.4%",
-      "kda_promedio": 2.6324786324786325
+      "victorias": 9,
+      "winrate": "47.4%",
+      "kda_promedio": 1.6346153846153846
     },
     {
-      "nombre": "Yunara",
-      "partidas": 18,
-      "victorias": 9,
-      "winrate": "50.0%",
-      "kda_promedio": 1.662162162162162
+      "nombre": "Zeri",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.3883495145631066
     },
     {
       "nombre": "Draven",
@@ -56,13 +56,6 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 1.6551724137931034
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7619047619047619
     },
     {
       "nombre": "Xayah",
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 37,
-    "losses": 30,
-    "timePlayed": 107294
+    "games": 60,
+    "wins": 32,
+    "losses": 28,
+    "timePlayed": 97494
   }
 }

@@ -7,7 +7,7 @@
     "pais": null,
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://twitter.com/koalachan_lol",
+      "twitter": "https://twitter.com/Koalachan_lol",
       "twitch": "https://twitch.tv/koalachanlol"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/koalachan.webp",
@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "Weakside King#Koala",
-      "nivel": 547,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 110,
-      "victorias": 186,
-      "derrotas": 146,
-      "ultima_partida": 1753356663485
-    },
-    {
       "nombre": "Ttv KoalachanLoL#TTV",
-      "nivel": 99,
+      "nivel": 101,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 820,
-      "victorias": 290,
-      "derrotas": 222,
-      "ultima_partida": 1753339252311
+      "lp": 931,
+      "victorias": 299,
+      "derrotas": 228,
+      "ultima_partida": 1753763460354
+    },
+    {
+      "nombre": "Weakside King#Koala",
+      "nivel": 548,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 179,
+      "victorias": 189,
+      "derrotas": 148,
+      "ultima_partida": 1753646606733
     },
     {
       "nombre": "Awful Things#Koala",
@@ -48,24 +48,45 @@
   "campeones_recientes": [
     {
       "nombre": "Irelia",
-      "partidas": 30,
-      "victorias": 17,
-      "winrate": "56.7%",
-      "kda_promedio": 1.4104803493449782
+      "partidas": 41,
+      "victorias": 24,
+      "winrate": "58.5%",
+      "kda_promedio": 1.4503311258278146
     },
     {
       "nombre": "Gwen",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.7906976744186047
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.75
     },
     {
       "nombre": "Rumble",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4761904761904763
+      "winrate": "25.0%",
+      "kda_promedio": 1.8928571428571428
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
     },
     {
       "nombre": "Akali",
@@ -82,13 +103,6 @@
       "kda_promedio": 0.7857142857142857
     },
     {
-      "nombre": "KSante",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
       "nombre": "Pyke",
       "partidas": 1,
       "victorias": 1,
@@ -101,26 +115,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.1428571428571428
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 21,
-    "losses": 24,
-    "timePlayed": 70682
+    "games": 65,
+    "wins": 33,
+    "losses": 32,
+    "timePlayed": 99473
   }
 }

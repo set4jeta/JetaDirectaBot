@@ -16,77 +16,70 @@
   "cuentas": [
     {
       "nombre": "Oguzkhand#FREE",
-      "nivel": 522,
+      "nivel": 524,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1067,
-      "victorias": 444,
-      "derrotas": 399,
-      "ultima_partida": 1753382341329
+      "liga": "GRANDMASTER I",
+      "lp": 1031,
+      "victorias": 449,
+      "derrotas": 405,
+      "ultima_partida": 1753748174425
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "JarvanIV",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.838235294117647
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.22
     },
     {
       "nombre": "XinZhao",
-      "partidas": 4,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.583333333333333
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 3,
-      "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.4615384615384617
-    },
-    {
-      "nombre": "Nasus",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 3.1379310344827585
     },
     {
       "nombre": "Ziggs",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.8
+      "winrate": "66.7%",
+      "kda_promedio": 4.125
     },
     {
       "nombre": "Trundle",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 17
+      "kda_promedio": 15
     },
     {
-      "nombre": "Vayne",
-      "partidas": 1,
-      "victorias": 1,
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.4
+      "kda_promedio": 6.2
     },
     {
       "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 14.5
+    },
+    {
+      "nombre": "Nocturne",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
-    "wins": 18,
-    "losses": 7,
-    "timePlayed": 39993
+    "games": 23,
+    "wins": 15,
+    "losses": 8,
+    "timePlayed": 35609
   }
 }

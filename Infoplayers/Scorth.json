@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Scorth",
     "nombre_real": "Sergen Eke",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Bushido Wildcats",
     "pais": "Turkey",
     "contrato_hasta": "2025-10-20T00:00:00.000Z",
@@ -19,10 +19,20 @@
       "nivel": 121,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 820,
-      "victorias": 349,
-      "derrotas": 290,
-      "ultima_partida": 1753370547291
+      "lp": 810,
+      "victorias": 352,
+      "derrotas": 293,
+      "ultima_partida": 1753737402321
+    },
+    {
+      "nombre": "Scorth1#EUW",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 276,
+      "victorias": 61,
+      "derrotas": 29,
+      "ultima_partida": 1753717513771
     },
     {
       "nombre": "Scorth#EUW",
@@ -37,32 +47,46 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Jhin",
-      "partidas": 14,
-      "victorias": 4,
-      "winrate": "28.6%",
-      "kda_promedio": 2.5733333333333333
+      "nombre": "Lucian",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.68
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0161290322580645
     },
     {
       "nombre": "Ezreal",
-      "partidas": 9,
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.0816326530612246
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 10,
+      "victorias": 2,
+      "winrate": "20.0%",
+      "kda_promedio": 3.0816326530612246
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.3333333333333335
+      "winrate": "62.5%",
+      "kda_promedio": 1.719298245614035
     },
     {
       "nombre": "Kaisa",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.5833333333333335
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.7428571428571429
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.40625
     },
     {
       "nombre": "Corki",
@@ -72,45 +96,31 @@
       "kda_promedio": 3.5625
     },
     {
-      "nombre": "Lulu",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2857142857142856
-    },
-    {
       "nombre": "Varus",
       "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.714285714285714
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.4
+      "kda_promedio": 5.333333333333333
     },
     {
-      "nombre": "Gnar",
+      "nombre": "Caitlyn",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 0.9166666666666666
-    },
-    {
-      "nombre": "Vayne",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8571428571428572
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.8
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 26,
-    "losses": 34,
-    "timePlayed": 94788
+    "games": 84,
+    "wins": 46,
+    "losses": 38,
+    "timePlayed": 131689
   }
 }

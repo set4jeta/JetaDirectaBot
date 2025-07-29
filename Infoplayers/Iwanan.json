@@ -46,17 +46,10 @@
     },
     {
       "nombre": "Vladimir",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.56
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 6,
+      "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 2.411764705882353
+      "kda_promedio": 3.3181818181818183
     },
     {
       "nombre": "Hwei",
@@ -66,11 +59,11 @@
       "kda_promedio": 4.909090909090909
     },
     {
-      "nombre": "Gwen",
-      "partidas": 2,
+      "nombre": "Yone",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0714285714285716
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Aphelios",
@@ -80,11 +73,11 @@
       "kda_promedio": 2.857142857142857
     },
     {
-      "nombre": "Ryze",
+      "nombre": "Gwen",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 0.875
     },
     {
       "nombre": "Smolder",
@@ -92,12 +85,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 24
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 23,
-    "losses": 26,
-    "timePlayed": 83440
+    "games": 45,
+    "wins": 20,
+    "losses": 25,
+    "timePlayed": 75944
   }
 }

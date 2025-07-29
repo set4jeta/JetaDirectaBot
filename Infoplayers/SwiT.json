@@ -13,50 +13,50 @@
   "cuentas": [
     {
       "nombre": "SwiT#ZEUS",
-      "nivel": 791,
+      "nivel": 792,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1039,
-      "victorias": 403,
-      "derrotas": 359,
-      "ultima_partida": 1753462961125
+      "liga": "GRANDMASTER I",
+      "lp": 945,
+      "victorias": 406,
+      "derrotas": 366,
+      "ultima_partida": 1753739239005
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.3529411764705883
-    },
-    {
       "nombre": "Rumble",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.5609756097560976
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 6,
-      "victorias": 2,
+      "partidas": 9,
+      "victorias": 3,
       "winrate": "33.3%",
-      "kda_promedio": 2.3846153846153846
+      "kda_promedio": 2.8541666666666665
     },
     {
-      "nombre": "Renekton",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.7272727272727273
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.65625
     },
     {
       "nombre": "KSante",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 6.25
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1363636363636362
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6470588235294117
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2380952380952381
     },
     {
       "nombre": "Nautilus",
@@ -67,9 +67,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
+    "games": 33,
     "wins": 12,
-    "losses": 17,
-    "timePlayed": 49168
+    "losses": 21,
+    "timePlayed": 56337
   }
 }

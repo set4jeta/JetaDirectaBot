@@ -16,50 +16,43 @@
   "cuentas": [
     {
       "nombre": "Venour#EUW",
-      "nivel": 962,
+      "nivel": 964,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 918,
-      "victorias": 352,
-      "derrotas": 321,
-      "ultima_partida": 1753465155704
+      "lp": 907,
+      "victorias": 355,
+      "derrotas": 324,
+      "ultima_partida": 1753746261634
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 11,
+      "partidas": 12,
       "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 2.549019607843137
+      "winrate": "66.7%",
+      "kda_promedio": 2.5576923076923075
     },
     {
       "nombre": "Ambessa",
-      "partidas": 9,
-      "victorias": 6,
+      "partidas": 6,
+      "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 1.9285714285714286
+      "kda_promedio": 2.08
     },
     {
       "nombre": "Jayce",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 1.825
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Fiora",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.25
+      "winrate": "66.7%",
+      "kda_promedio": 1.6875
     },
     {
       "nombre": "Gragas",
@@ -76,31 +69,38 @@
       "kda_promedio": 3.3333333333333335
     },
     {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0769230769230769
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
       "nombre": "Gnar",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.25
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 23,
-    "losses": 21,
-    "timePlayed": 72765
+    "games": 41,
+    "wins": 21,
+    "losses": 20,
+    "timePlayed": 66060
   }
 }

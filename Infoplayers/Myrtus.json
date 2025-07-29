@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "serein#MP7",
-      "nivel": 1062,
+      "nivel": 1063,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1577,
+      "lp": 1510,
       "victorias": 555,
-      "derrotas": 481,
-      "ultima_partida": 1753525226818
+      "derrotas": 484,
+      "ultima_partida": 1753701978928
     },
     {
       "nombre": "Abatteur2kafard#soloq",
@@ -38,17 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 16,
-      "victorias": 8,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0526315789473686
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 2.6724137931034484
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.576923076923077
     },
     {
       "nombre": "Alistar",
@@ -58,39 +51,11 @@
       "kda_promedio": 3.4038461538461537
     },
     {
-      "nombre": "Lulu",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3214285714285716
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 3,
-      "victorias": 3,
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 5,
       "winrate": "100.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.5789473684210527
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.9375
+      "kda_promedio": 2.9642857142857144
     },
     {
       "nombre": "Braum",
@@ -100,17 +65,52 @@
       "kda_promedio": 3.4444444444444446
     },
     {
-      "nombre": "Elise",
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.333333333333333
+    },
+    {
+      "nombre": "Lulu",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.8421052631578947
+      "kda_promedio": 4.133333333333334
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 36,
-    "losses": 24,
-    "timePlayed": 99641
+    "games": 44,
+    "wins": 26,
+    "losses": 18,
+    "timePlayed": 73036
   }
 }

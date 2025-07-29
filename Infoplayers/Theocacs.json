@@ -16,64 +16,64 @@
   "cuentas": [
     {
       "nombre": "Theocacs#EUW",
-      "nivel": 886,
+      "nivel": 889,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1228,
-      "victorias": 422,
-      "derrotas": 375,
-      "ultima_partida": 1753460415100
+      "lp": 1118,
+      "victorias": 433,
+      "derrotas": 391,
+      "ultima_partida": 1753728835038
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "MonkeyKing",
-      "partidas": 19,
-      "victorias": 10,
-      "winrate": "52.6%",
-      "kda_promedio": 3.1547619047619047
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 2.9066666666666667
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.893939393939394
     },
     {
       "nombre": "Trundle",
       "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 3.6041666666666665
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.7209302325581395
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.2745098039215685
     },
     {
       "nombre": "Viego",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.65
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.081081081081081
-    },
-    {
-      "nombre": "Skarner",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.117647058823529
+      "winrate": "44.4%",
+      "kda_promedio": 2.7555555555555555
     },
     {
       "nombre": "Vi",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.45
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Pantheon",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8518518518518516
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.212121212121212
     },
     {
       "nombre": "Lillia",
@@ -91,16 +91,16 @@
     },
     {
       "nombre": "XinZhao",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.8
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6956521739130435
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 81,
-    "wins": 43,
-    "losses": 38,
-    "timePlayed": 131514
+    "games": 90,
+    "wins": 44,
+    "losses": 46,
+    "timePlayed": 146010
   }
 }

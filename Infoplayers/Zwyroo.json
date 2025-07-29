@@ -16,39 +16,39 @@
   "cuentas": [
     {
       "nombre": "Zwyrøø#soul",
-      "nivel": 1265,
+      "nivel": 1266,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1099,
-      "victorias": 551,
-      "derrotas": 496,
-      "ultima_partida": 1753565183924
+      "lp": 1057,
+      "victorias": 552,
+      "derrotas": 499,
+      "ultima_partida": 1753742990460
     },
     {
       "nombre": "søuleater#søul",
       "nivel": 202,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 557,
-      "victorias": 151,
-      "derrotas": 116,
-      "ultima_partida": 1753517952084
+      "lp": 526,
+      "victorias": 152,
+      "derrotas": 119,
+      "ultima_partida": 1753696565767
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ziggs",
       "partidas": 26,
-      "victorias": 14,
-      "winrate": "53.8%",
-      "kda_promedio": 3.6842105263157894
+      "victorias": 13,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3564356435643563
     },
     {
       "nombre": "Syndra",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 3.5098039215686274
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6818181818181817
     },
     {
       "nombre": "Ahri",
@@ -65,39 +65,11 @@
       "kda_promedio": 1.7
     },
     {
-      "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4
-    },
-    {
       "nombre": "TwistedFate",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.5
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.642857142857143
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 3,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.3076923076923077
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Taliyah",
@@ -105,12 +77,40 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3529411764705883
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 88,
-    "wins": 52,
+    "games": 81,
+    "wins": 45,
     "losses": 36,
-    "timePlayed": 141554
+    "timePlayed": 130347
   }
 }

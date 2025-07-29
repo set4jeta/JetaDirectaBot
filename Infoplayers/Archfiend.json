@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "S levche#Italy",
-      "nivel": 257,
+      "nivel": 259,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 929,
-      "victorias": 298,
-      "derrotas": 256,
-      "ultima_partida": 1753435308555
+      "lp": 877,
+      "victorias": 308,
+      "derrotas": 270,
+      "ultima_partida": 1753720085054
     },
     {
       "nombre": "AαrchΦiend#666",
@@ -38,24 +38,24 @@
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 26,
-      "victorias": 14,
-      "winrate": "53.8%",
-      "kda_promedio": 2.0902255639097747
+      "partidas": 24,
+      "victorias": 12,
+      "winrate": "50.0%",
+      "kda_promedio": 2.163793103448276
     },
     {
       "nombre": "Ambessa",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.682926829268293
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7169811320754715
     },
     {
       "nombre": "KSante",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.085714285714286
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.380952380952381
     },
     {
       "nombre": "Galio",
@@ -66,24 +66,31 @@
     },
     {
       "nombre": "Renekton",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.3103448275862069
     },
     {
       "nombre": "Warwick",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.6875
+      "winrate": "50.0%",
+      "kda_promedio": 1.380952380952381
     },
     {
       "nombre": "Yorick",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.6666666666666667
+      "winrate": "50.0%",
+      "kda_promedio": 1.24
     },
     {
       "nombre": "Camille",
@@ -93,24 +100,17 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Rell",
+      "nombre": "Gwen",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8823529411764706
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 1.0588235294117647
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 40,
-    "losses": 26,
-    "timePlayed": 105044
+    "games": 76,
+    "wins": 42,
+    "losses": 34,
+    "timePlayed": 121705
   }
 }

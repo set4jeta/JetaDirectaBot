@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "unforgiven#12321",
-      "nivel": 1388,
+      "nivel": 1392,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 922,
-      "victorias": 206,
-      "derrotas": 177,
-      "ultima_partida": 1753572900738
+      "liga": "CHALLENGER I",
+      "lp": 1078,
+      "victorias": 227,
+      "derrotas": 188,
+      "ultima_partida": 1753754916826
     },
     {
       "nombre": "2 K#0000",
@@ -37,32 +37,53 @@
   ],
   "campeones_recientes": [
     {
+      "nombre": "Corki",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.9523809523809523
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.62962962962963
+    },
+    {
       "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 4.5
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.772727272727273
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.310344827586207
     },
     {
       "nombre": "Senna",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.7
+      "winrate": "20.0%",
+      "kda_promedio": 2.259259259259259
     },
     {
       "nombre": "Yunara",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.0714285714285714
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.238095238095238
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7857142857142857
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
     },
     {
       "nombre": "Draven",
@@ -79,38 +100,17 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 11
-    },
-    {
-      "nombre": "Xayah",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.6
-    },
-    {
-      "nombre": "Sion",
+      "nombre": "Ezreal",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.6
+      "kda_promedio": 0.6666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 24,
-    "wins": 7,
-    "losses": 17,
-    "timePlayed": 39791
+    "games": 54,
+    "wins": 27,
+    "losses": 27,
+    "timePlayed": 85956
   }
 }

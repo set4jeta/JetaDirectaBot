@@ -1,0 +1,63 @@
+{
+  "info_jugador": {
+    "nombre": "Krimson",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Krimson_R"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Falling Flower#SVT13",
+      "nivel": 1201,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1295,
+      "victorias": 370,
+      "derrotas": 308,
+      "ultima_partida": 1753729137140
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.04
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.15625
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.3684210526315788
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 7,
+    "losses": 9,
+    "timePlayed": 28195
+  }
+}

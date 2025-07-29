@@ -16,39 +16,53 @@
   "cuentas": [
     {
       "nombre": "vovalaclasse#EUW",
-      "nivel": 339,
+      "nivel": 340,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 959,
-      "victorias": 274,
-      "derrotas": 243,
-      "ultima_partida": 1753563307551
+      "lp": 894,
+      "victorias": 276,
+      "derrotas": 248,
+      "ultima_partida": 1753742685654
     },
     {
       "nombre": "Maynter#EUW",
       "nivel": 692,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1724,
+      "lp": 1652,
       "victorias": 356,
-      "derrotas": 284,
-      "ultima_partida": 1753551362459
+      "derrotas": 287,
+      "ultima_partida": 1753737635893
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 16,
-      "victorias": 6,
-      "winrate": "37.5%",
-      "kda_promedio": 2.3214285714285716
+      "partidas": 21,
+      "victorias": 7,
+      "winrate": "33.3%",
+      "kda_promedio": 2.317757009345794
     },
     {
       "nombre": "Gwen",
-      "partidas": 13,
+      "partidas": 14,
       "victorias": 9,
-      "winrate": "69.2%",
-      "kda_promedio": 3.36734693877551
+      "winrate": "64.3%",
+      "kda_promedio": 3.0714285714285716
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4736842105263157
     },
     {
       "nombre": "Yorick",
@@ -65,32 +79,11 @@
       "kda_promedio": 6.2727272727272725
     },
     {
-      "nombre": "Jax",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.1923076923076925
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6785714285714286
-    },
-    {
       "nombre": "Gnar",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 5
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Aatrox",
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.2
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
-    "wins": 35,
-    "losses": 42,
-    "timePlayed": 122246
+    "games": 84,
+    "wins": 36,
+    "losses": 48,
+    "timePlayed": 134552
   }
 }

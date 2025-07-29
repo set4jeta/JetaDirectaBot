@@ -16,121 +16,121 @@
   "cuentas": [
     {
       "nombre": "Évangelyne#ADC",
-      "nivel": 101,
+      "nivel": 102,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 650,
-      "victorias": 125,
-      "derrotas": 80,
-      "ultima_partida": 1753416175237
-    },
-    {
-      "nombre": "Évangelyne#BELGE",
-      "nivel": 879,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1056,
-      "victorias": 228,
-      "derrotas": 187,
-      "ultima_partida": 1753385563228
+      "lp": 541,
+      "victorias": 126,
+      "derrotas": 86,
+      "ultima_partida": 1753749519647
     },
     {
       "nombre": "Évangelyne#ULB",
-      "nivel": 148,
+      "nivel": 150,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 677,
+      "victorias": 136,
+      "derrotas": 100,
+      "ultima_partida": 1753741203885
+    },
+    {
+      "nombre": "Évangelyne#BELGE",
+      "nivel": 880,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 770,
-      "victorias": 129,
-      "derrotas": 89,
-      "ultima_partida": 1753310244325
+      "lp": 1023,
+      "victorias": 231,
+      "derrotas": 191,
+      "ultima_partida": 1753715803978
     },
     {
       "nombre": "Évangelyne#ZNT",
       "nivel": 77,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 766,
+      "liga": "MASTER I",
+      "lp": 741,
       "victorias": 138,
-      "derrotas": 99,
-      "ultima_partida": 1753061457348
+      "derrotas": 100,
+      "ultima_partida": 1753541572816
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 72,
-      "victorias": 46,
-      "winrate": "63.9%",
-      "kda_promedio": 3.5501618122977345
+      "partidas": 84,
+      "victorias": 49,
+      "winrate": "58.3%",
+      "kda_promedio": 3.437325905292479
     },
     {
       "nombre": "Lucian",
       "partidas": 24,
-      "victorias": 15,
-      "winrate": "62.5%",
-      "kda_promedio": 3.9518072289156625
+      "victorias": 12,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5294117647058822
     },
     {
       "nombre": "Ziggs",
       "partidas": 20,
       "victorias": 10,
       "winrate": "50.0%",
-      "kda_promedio": 3.3
+      "kda_promedio": 3.7083333333333335
     },
     {
-      "nombre": "Tristana",
-      "partidas": 16,
-      "victorias": 10,
-      "winrate": "62.5%",
-      "kda_promedio": 3.6470588235294117
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 2.08
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.35
     },
     {
       "nombre": "Zeri",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8064516129032258
-    },
-    {
-      "nombre": "Senna",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.833333333333333
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Sivir",
-      "partidas": 5,
+      "partidas": 4,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 6.384615384615385
+      "winrate": "100.0%",
+      "kda_promedio": 7.714285714285714
     },
     {
-      "nombre": "Annie",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.142857142857143
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.8
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
+      "nombre": "Jinx",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.2222222222222223
+      "winrate": "66.7%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4285714285714284
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 172,
-    "wins": 104,
-    "losses": 68,
-    "timePlayed": 284025
+    "games": 169,
+    "wins": 96,
+    "losses": 73,
+    "timePlayed": 273620
   }
 }

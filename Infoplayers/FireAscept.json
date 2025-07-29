@@ -15,40 +15,40 @@
   },
   "cuentas": [
     {
-      "nombre": "BGT FireAscept#1310",
-      "nivel": 571,
+      "nombre": "FireAscept#1013",
+      "nivel": 219,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 834,
-      "victorias": 285,
-      "derrotas": 252,
-      "ultima_partida": 1753561270135
+      "lp": 766,
+      "victorias": 276,
+      "derrotas": 246,
+      "ultima_partida": 1753738778771
     },
     {
-      "nombre": "FireAscept#1013",
-      "nivel": 218,
+      "nombre": "BGT FireAscept#1310",
+      "nivel": 572,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 770,
-      "victorias": 273,
-      "derrotas": 244,
-      "ultima_partida": 1753471136657
+      "lp": 787,
+      "victorias": 287,
+      "derrotas": 256,
+      "ultima_partida": 1753686076963
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 1.7553191489361701
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 1.8235294117647058
     },
     {
       "nombre": "Yone",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.1
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 1.972972972972973
     },
     {
       "nombre": "Ryze",
@@ -65,13 +65,6 @@
       "kda_promedio": 1.7407407407407407
     },
     {
-      "nombre": "Akali",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.2413793103448274
-    },
-    {
       "nombre": "Azir",
       "partidas": 5,
       "victorias": 3,
@@ -79,38 +72,45 @@
       "kda_promedio": 1.5517241379310345
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.7714285714285714
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.6153846153846154
-    },
-    {
       "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5294117647058822
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8636363636363638
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Akali",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.84
+      "kda_promedio": 2.4583333333333335
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.269230769230769
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 47,
-    "losses": 44,
-    "timePlayed": 149906
+    "games": 87,
+    "wins": 45,
+    "losses": 42,
+    "timePlayed": 144148
   }
 }

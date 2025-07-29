@@ -37,20 +37,6 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Annie",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7575757575757576
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6818181818181819
-    },
-    {
       "nombre": "Zoe",
       "partidas": 4,
       "victorias": 2,
@@ -58,11 +44,11 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Annie",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.7391304347826086
+      "kda_promedio": 1.2105263157894737
     },
     {
       "nombre": "Alistar",
@@ -93,6 +79,13 @@
       "kda_promedio": 3.125
     },
     {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
       "nombre": "Ahri",
       "partidas": 1,
       "victorias": 1,
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 17,
-    "losses": 25,
-    "timePlayed": 68230
+    "games": 30,
+    "wins": 11,
+    "losses": 19,
+    "timePlayed": 48402
   }
 }

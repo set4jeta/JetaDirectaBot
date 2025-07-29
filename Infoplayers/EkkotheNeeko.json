@@ -16,36 +16,50 @@
   "cuentas": [
     {
       "nombre": "Ekko the Neeko#EUW",
-      "nivel": 2279,
+      "nivel": 2283,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 795,
-      "victorias": 683,
-      "derrotas": 660,
-      "ultima_partida": 1753456475641
+      "lp": 945,
+      "victorias": 701,
+      "derrotas": 669,
+      "ultima_partida": 1753748498912
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ekko",
-      "partidas": 113,
-      "victorias": 63,
-      "winrate": "55.8%",
-      "kda_promedio": 2.472644376899696
+      "partidas": 118,
+      "victorias": 69,
+      "winrate": "58.5%",
+      "kda_promedio": 2.5083969465648854
     },
     {
       "nombre": "Jinx",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 1.5084745762711864
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     },
     {
       "nombre": "Jhin",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9411764705882355
+      "winrate": "66.7%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3478260869565217
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7083333333333333
     },
     {
       "nombre": "Viktor",
@@ -53,26 +67,12 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 1.55
-    },
-    {
-      "nombre": "Thresh",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 131,
-    "wins": 71,
+    "games": 134,
+    "wins": 74,
     "losses": 60,
-    "timePlayed": 218129
+    "timePlayed": 220271
   }
 }

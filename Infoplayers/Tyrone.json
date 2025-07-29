@@ -15,34 +15,27 @@
   },
   "cuentas": [
     {
-      "nombre": "SOLOQ#GRIND",
-      "nivel": 195,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 782,
-      "victorias": 216,
-      "derrotas": 189,
-      "ultima_partida": 1753463428182
-    },
-    {
       "nombre": "vengeance#carry",
-      "nivel": 1100,
+      "nivel": 1101,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 635,
-      "victorias": 265,
-      "derrotas": 234,
-      "ultima_partida": 1752674792963
+      "lp": 608,
+      "victorias": 266,
+      "derrotas": 236,
+      "ultima_partida": 1753752127053
+    },
+    {
+      "nombre": "SOLOQ#GRIND",
+      "nivel": 196,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 759,
+      "victorias": 217,
+      "derrotas": 191,
+      "ultima_partida": 1753750272862
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Ezreal",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2
-    },
     {
       "nombre": "Corki",
       "partidas": 3,
@@ -51,18 +44,25 @@
       "kda_promedio": 1.7391304347826086
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Yunara",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.9333333333333333
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.05
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Nautilus",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.916666666666667
+      "kda_promedio": 7
     },
     {
       "nombre": "Ziggs",
@@ -70,6 +70,13 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 6.8
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Blitzcrank",
@@ -86,31 +93,24 @@
       "kda_promedio": 7.5
     },
     {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
       "nombre": "Jhin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.5
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.875
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 22,
-    "losses": 9,
-    "timePlayed": 52079
+    "games": 30,
+    "wins": 19,
+    "losses": 11,
+    "timePlayed": 49402
   }
 }

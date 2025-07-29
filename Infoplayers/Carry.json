@@ -15,50 +15,74 @@
   "cuentas": [
     {
       "nombre": "SUP Carry#999",
-      "nivel": 194,
+      "nivel": 195,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1270,
-      "victorias": 446,
-      "derrotas": 394,
-      "ultima_partida": 1753452040425
+      "lp": 1266,
+      "victorias": 447,
+      "derrotas": 395,
+      "ultima_partida": 1753746018472
+    },
+    {
+      "nombre": "Carry#99975",
+      "nivel": 92,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 335,
+      "victorias": 48,
+      "derrotas": 25,
+      "ultima_partida": 1753739726598
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
       "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.5609756097560976
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.292682926829268
     },
     {
       "nombre": "Bard",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.7
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.9
     },
     {
-      "nombre": "Braum",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.458333333333333
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
+      "nombre": "Camille",
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1666666666666665
+      "winrate": "33.3%",
+      "kda_promedio": 1.709090909090909
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.857142857142857
     },
     {
       "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.689655172413793
+    },
+    {
+      "nombre": "Blitzcrank",
       "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.133333333333334
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.9523809523809526
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.466666666666667
     },
     {
       "nombre": "Rell",
@@ -68,38 +92,24 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Blitzcrank",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.3529411764705883
-    },
-    {
-      "nombre": "Karma",
+      "nombre": "Jhin",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 5.125
+      "kda_promedio": 3.4615384615384617
     },
     {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.7222222222222223
-    },
-    {
-      "nombre": "Lux",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.75
+      "nombre": "Nami",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.7272727272727275
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 29,
-    "losses": 22,
-    "timePlayed": 82395
+    "games": 80,
+    "wins": 51,
+    "losses": 29,
+    "timePlayed": 129703
   }
 }

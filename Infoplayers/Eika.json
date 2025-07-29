@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Eika",
     "nombre_real": "Jérémy Valdenaire",
-    "edad": 28,
+    "edad": 29,
     "equipo": "Gentle Mates",
     "pais": "France",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,43 +16,57 @@
   "cuentas": [
     {
       "nombre": "Jonathan Bailey#zzz",
-      "nivel": 1084,
+      "nivel": 1085,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 921,
-      "victorias": 477,
-      "derrotas": 435,
-      "ultima_partida": 1753454164585
+      "lp": 780,
+      "victorias": 481,
+      "derrotas": 445,
+      "ultima_partida": 1753734911705
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 15,
-      "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 3.3088235294117645
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 6.5
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6315789473684212
     },
     {
       "nombre": "Corki",
       "partidas": 6,
       "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 2.289473684210526
+      "kda_promedio": 2.4358974358974357
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 5.0588235294117645
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.44
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2580645161290323
     },
     {
       "nombre": "Annie",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.8666666666666667
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.380952380952381
     },
     {
       "nombre": "Syndra",
@@ -62,25 +76,18 @@
       "kda_promedio": 3.6315789473684212
     },
     {
-      "nombre": "Azir",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Ryze",
+      "nombre": "Galio",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.7857142857142856
+      "kda_promedio": 3.8
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Tristana",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6470588235294117
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7333333333333334
     },
     {
       "nombre": "Ziggs",
@@ -88,19 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.1333333333333333
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3636363636363635
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 36,
-    "losses": 31,
-    "timePlayed": 110934
+    "games": 66,
+    "wins": 27,
+    "losses": 39,
+    "timePlayed": 104786
   }
 }

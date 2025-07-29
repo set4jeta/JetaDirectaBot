@@ -19,40 +19,40 @@
       "nivel": 602,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 908,
-      "victorias": 412,
-      "derrotas": 379,
-      "ultima_partida": 1753522322099
+      "lp": 949,
+      "victorias": 415,
+      "derrotas": 380,
+      "ultima_partida": 1753691626689
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Trundle",
-      "partidas": 11,
-      "victorias": 2,
-      "winrate": "18.2%",
-      "kda_promedio": 2.6
+      "partidas": 9,
+      "victorias": 1,
+      "winrate": "11.1%",
+      "kda_promedio": 2.325
     },
     {
       "nombre": "Pantheon",
-      "partidas": 10,
-      "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 3.62
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.48
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 3.575
     },
     {
       "nombre": "JarvanIV",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 4.5
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.222222222222222
     },
     {
       "nombre": "MonkeyKing",
@@ -71,9 +71,9 @@
     {
       "nombre": "Nocturne",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.8
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.25
     },
     {
       "nombre": "Maokai",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 46,
-    "wins": 16,
-    "losses": 30,
-    "timePlayed": 79595
+    "games": 40,
+    "wins": 15,
+    "losses": 25,
+    "timePlayed": 68452
   }
 }

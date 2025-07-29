@@ -19,10 +19,10 @@
       "nivel": 783,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 875,
+      "lp": 853,
       "victorias": 374,
-      "derrotas": 338,
-      "ultima_partida": 1753457264988
+      "derrotas": 339,
+      "ultima_partida": 1753723673246
     }
   ],
   "campeones_recientes": [
@@ -35,10 +35,10 @@
     },
     {
       "nombre": "Zeri",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.473684210526316
+      "winrate": "33.3%",
+      "kda_promedio": 1.92
     },
     {
       "nombre": "Aphelios",
@@ -48,18 +48,18 @@
       "kda_promedio": 3.1666666666666665
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.48
-    },
-    {
       "nombre": "Jhin",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2857142857142856
     },
     {
       "nombre": "Syndra",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
-    "wins": 19,
+    "games": 34,
+    "wins": 18,
     "losses": 16,
-    "timePlayed": 57974
+    "timePlayed": 56406
   }
 }

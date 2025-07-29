@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "hahaha#lul",
-      "nivel": 905,
+      "nivel": 906,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 929,
-      "victorias": 345,
-      "derrotas": 283,
-      "ultima_partida": 1753567082622
+      "lp": 911,
+      "victorias": 346,
+      "derrotas": 285,
+      "ultima_partida": 1753661530623
     }
   ],
   "campeones_recientes": [
@@ -38,7 +38,7 @@
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 4.533333333333333
+      "kda_promedio": 2.8461538461538463
     },
     {
       "nombre": "Pantheon",
@@ -69,11 +69,18 @@
       "kda_promedio": 8.666666666666666
     },
     {
-      "nombre": "Rakan",
+      "nombre": "Maokai",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.8
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
     },
     {
       "nombre": "Viktor",
@@ -84,9 +91,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 10,
-    "losses": 4,
-    "timePlayed": 22340
+    "games": 15,
+    "wins": 9,
+    "losses": 6,
+    "timePlayed": 23529
   }
 }

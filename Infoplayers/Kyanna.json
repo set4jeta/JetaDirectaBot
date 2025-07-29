@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "R5TOPDiE1v1iINT#XDDDD",
+      "nivel": 883,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 774,
+      "victorias": 272,
+      "derrotas": 233,
+      "ultima_partida": 1753712261716
+    },
+    {
       "nombre": "Kyanna#miki",
       "nivel": 240,
       "region": "EUW1",
@@ -23,39 +33,22 @@
       "victorias": 187,
       "derrotas": 171,
       "ultima_partida": 1753464573088
-    },
-    {
-      "nombre": "R5TOPDiE1v1iINT#XDDDD",
-      "nivel": 882,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 757,
-      "victorias": 270,
-      "derrotas": 232,
-      "ultima_partida": 1753456832055
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nami",
-      "partidas": 25,
-      "victorias": 15,
-      "winrate": "60.0%",
-      "kda_promedio": 3.585185185185185
+      "partidas": 27,
+      "victorias": 17,
+      "winrate": "63.0%",
+      "kda_promedio": 3.578231292517007
     },
     {
       "nombre": "Janna",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.673469387755102
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.2325581395348837
+      "winrate": "30.0%",
+      "kda_promedio": 2.5344827586206895
     },
     {
       "nombre": "Bard",
@@ -66,31 +59,31 @@
     },
     {
       "nombre": "Braum",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.53125
+      "winrate": "66.7%",
+      "kda_promedio": 2.590909090909091
     },
     {
       "nombre": "Milio",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.193548387096774
+      "winrate": "33.3%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
     },
     {
       "nombre": "Rakan",
-      "partidas": 4,
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2692307692307692
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.076923076923077
+      "kda_promedio": 1.6923076923076923
     },
     {
       "nombre": "Soraka",
@@ -100,17 +93,24 @@
       "kda_promedio": 8
     },
     {
-      "nombre": "Karma",
+      "nombre": "Leona",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 69,
-    "wins": 30,
-    "losses": 39,
-    "timePlayed": 115136
+    "games": 60,
+    "wins": 27,
+    "losses": 33,
+    "timePlayed": 101784
   }
 }

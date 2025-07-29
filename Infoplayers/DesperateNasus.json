@@ -8,41 +8,51 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/DesperateNasus",
-      "twitch": "https://twitch.tv/DesperateNasus"
+      "twitch": "https://twitch.tv/desperatenasus\\t"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/desperatenasus.webp",
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "DesperateNasus#TWTV",
-      "nivel": 201,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 860,
-      "victorias": 278,
-      "derrotas": 239,
-      "ultima_partida": 1753568954993
-    },
-    {
-      "nombre": "Desperate Nasus#EUW",
-      "nivel": 259,
+      "nombre": "DesperateNasus#TWTV1",
+      "nivel": 69,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1364,
-      "victorias": 285,
-      "derrotas": 225,
-      "ultima_partida": 1753564731166
+      "lp": 1299,
+      "victorias": 207,
+      "derrotas": 114,
+      "ultima_partida": 1753756149496
     },
     {
       "nombre": "DesperateNasus#R 1",
       "nivel": 488,
       "region": "EUN1",
       "liga": "CHALLENGER I",
-      "lp": 2066,
-      "victorias": 178,
+      "lp": 2082,
+      "victorias": 179,
       "derrotas": 80,
-      "ultima_partida": 1753293116295
+      "ultima_partida": 1753752170434
+    },
+    {
+      "nombre": "Desperate Nasus#EUW",
+      "nivel": 261,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1356,
+      "victorias": 294,
+      "derrotas": 233,
+      "ultima_partida": 1753747435371
+    },
+    {
+      "nombre": "DesperateNasus#TWTV",
+      "nivel": 202,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 970,
+      "victorias": 284,
+      "derrotas": 240,
+      "ultima_partida": 1753726787721
     },
     {
       "nombre": "絶望的なナサス#DESPE",
@@ -58,23 +68,30 @@
   "campeones_recientes": [
     {
       "nombre": "Kayle",
-      "partidas": 71,
-      "victorias": 39,
-      "winrate": "54.9%",
-      "kda_promedio": 3.198237885462555
+      "partidas": 117,
+      "victorias": 73,
+      "winrate": "62.4%",
+      "kda_promedio": 3.4184782608695654
     },
     {
       "nombre": "Nasus",
-      "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 2.744186046511628
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 3.0344827586206895
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 83,
-    "wins": 43,
-    "losses": 40,
-    "timePlayed": 136255
+    "games": 135,
+    "wins": 82,
+    "losses": 53,
+    "timePlayed": 217359
   }
 }

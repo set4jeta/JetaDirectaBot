@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "Ado fan#EUW",
-      "nivel": 242,
+      "nivel": 243,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 788,
-      "victorias": 204,
-      "derrotas": 161,
-      "ultima_partida": 1753353571807
+      "lp": 785,
+      "victorias": 208,
+      "derrotas": 165,
+      "ultima_partida": 1753745809803
     },
     {
       "nombre": "Nubobo#EUW",
-      "nivel": 280,
+      "nivel": 281,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 960,
-      "victorias": 190,
-      "derrotas": 161,
-      "ultima_partida": 1752521271722
+      "lp": 995,
+      "victorias": 196,
+      "derrotas": 164,
+      "ultima_partida": 1753733722057
     },
     {
       "nombre": "Gorubo fan#EUW",
@@ -48,38 +48,45 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 16,
+      "partidas": 19,
       "victorias": 12,
-      "winrate": "75.0%",
-      "kda_promedio": 4
+      "winrate": "63.2%",
+      "kda_promedio": 3.868131868131868
     },
     {
       "nombre": "Rell",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 4.51063829787234
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 4.609756097560975
     },
     {
       "nombre": "Alistar",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 3.3947368421052633
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 5.846153846153846
     },
     {
       "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 5.461538461538462
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.526315789473684
     },
     {
       "nombre": "Rumble",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4.25
+      "winrate": "25.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
     },
     {
       "nombre": "TwistedFate",
@@ -89,31 +96,24 @@
       "kda_promedio": 10
     },
     {
-      "nombre": "Lulu",
+      "nombre": "Bard",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 18
+      "kda_promedio": 7.75
     },
     {
-      "nombre": "Maokai",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 22
-    },
-    {
-      "nombre": "Neeko",
+      "nombre": "Braum",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.3333333333333335
+      "kda_promedio": 3.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 27,
+    "games": 51,
+    "wins": 29,
     "losses": 22,
-    "timePlayed": 83066
+    "timePlayed": 88478
   }
 }

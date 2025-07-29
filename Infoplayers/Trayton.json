@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "TraYtoN#EUW",
-      "nivel": 1066,
+      "nivel": 1067,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 847,
-      "victorias": 292,
-      "derrotas": 257,
-      "ultima_partida": 1753450975864
+      "lp": 844,
+      "victorias": 293,
+      "derrotas": 258,
+      "ultima_partida": 1753625518215
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.8333333333333335
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.473684210526316
     },
     {
       "nombre": "Alistar",
@@ -69,6 +69,13 @@
       "kda_promedio": 2.6153846153846154
     },
     {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
       "nombre": "Karma",
       "partidas": 1,
       "victorias": 0,
@@ -84,9 +91,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
-    "wins": 9,
-    "losses": 14,
-    "timePlayed": 35925
+    "games": 25,
+    "wins": 10,
+    "losses": 15,
+    "timePlayed": 38875
   }
 }

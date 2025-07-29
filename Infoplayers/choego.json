@@ -18,17 +18,17 @@
       "nivel": 574,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1074,
-      "victorias": 236,
-      "derrotas": 199,
-      "ultima_partida": 1753460990763
+      "lp": 1111,
+      "victorias": 239,
+      "derrotas": 200,
+      "ultima_partida": 1753724448962
     },
     {
       "nombre": "choego#0001",
       "nivel": 665,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 381,
+      "lp": 156,
       "victorias": 237,
       "derrotas": 215,
       "ultima_partida": 1751893948343
@@ -38,16 +38,16 @@
     {
       "nombre": "MissFortune",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.172413793103448
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5.217391304347826
     },
     {
       "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2857142857142858
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.75
     },
     {
       "nombre": "Xayah",
@@ -55,6 +55,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.375
     },
     {
       "nombre": "Varus",
@@ -65,9 +72,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 8,
+    "games": 17,
+    "wins": 10,
     "losses": 7,
-    "timePlayed": 20053
+    "timePlayed": 22962
   }
 }

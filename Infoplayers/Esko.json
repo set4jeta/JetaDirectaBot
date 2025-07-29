@@ -18,10 +18,10 @@
       "nivel": 168,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 824,
-      "victorias": 254,
+      "lp": 863,
+      "victorias": 256,
       "derrotas": 221,
-      "ultima_partida": 1753582525950
+      "ultima_partida": 1753705183068
     },
     {
       "nombre": "StickerD#OOOOO",
@@ -35,13 +35,6 @@
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Gragas",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.2432432432432432
-    },
     {
       "nombre": "Jhin",
       "partidas": 5,
@@ -57,46 +50,46 @@
       "kda_promedio": 2.8
     },
     {
-      "nombre": "Aphelios",
+      "nombre": "Gragas",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 1.6333333333333333
+      "kda_promedio": 1.411764705882353
     },
     {
-      "nombre": "Jinx",
+      "nombre": "Aphelios",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.473684210526316
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6923076923076923
+      "kda_promedio": 1.1785714285714286
     },
     {
       "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.235294117647059
+    },
+    {
+      "nombre": "Jinx",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.8
+      "kda_promedio": 1.7222222222222223
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Kaisa",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.6923076923076923
+      "kda_promedio": 2.4285714285714284
     },
     {
-      "nombre": "Senna",
+      "nombre": "Lucian",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.909090909090909
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2083333333333333
     },
     {
       "nombre": "Varus",
@@ -104,12 +97,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
-    "wins": 19,
-    "losses": 21,
-    "timePlayed": 63078
+    "games": 35,
+    "wins": 17,
+    "losses": 18,
+    "timePlayed": 54602
   }
 }

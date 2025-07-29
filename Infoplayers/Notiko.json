@@ -19,10 +19,10 @@
       "nivel": 878,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 865,
-      "victorias": 369,
-      "derrotas": 329,
-      "ultima_partida": 1753466782407
+      "lp": 815,
+      "victorias": 371,
+      "derrotas": 333,
+      "ultima_partida": 1753695209452
     }
   ],
   "campeones_recientes": [
@@ -55,18 +55,25 @@
       "kda_promedio": 2.75
     },
     {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.8461538461538463
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
       "nombre": "Lucian",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.25
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Yunara",
@@ -76,31 +83,24 @@
       "kda_promedio": 2.8
     },
     {
-      "nombre": "Jax",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.857142857142857
     },
     {
-      "nombre": "Nilah",
+      "nombre": "Alistar",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7142857142857143
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.25
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 12,
-    "losses": 20,
-    "timePlayed": 52847
+    "games": 38,
+    "wins": 14,
+    "losses": 24,
+    "timePlayed": 63181
   }
 }

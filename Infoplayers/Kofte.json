@@ -19,10 +19,10 @@
       "nivel": 336,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 934,
-      "victorias": 260,
-      "derrotas": 222,
-      "ultima_partida": 1753535293499
+      "lp": 848,
+      "victorias": 261,
+      "derrotas": 227,
+      "ultima_partida": 1753734248069
     },
     {
       "nombre": "indoor fish#EUW",
@@ -51,14 +51,7 @@
       "partidas": 7,
       "victorias": 4,
       "winrate": "57.1%",
-      "kda_promedio": 2.7777777777777777
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1923076923076925
+      "kda_promedio": 2.7037037037037037
     },
     {
       "nombre": "Lucian",
@@ -79,7 +72,14 @@
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 1.6551724137931034
+      "kda_promedio": 1.7586206896551724
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Galio",
@@ -87,13 +87,6 @@
       "victorias": 1,
       "winrate": "25.0%",
       "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Orianna",
@@ -115,12 +108,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.125
     }
   ],
   "estadisticas_2_semanas": {
     "games": 57,
-    "wins": 30,
-    "losses": 27,
-    "timePlayed": 89056
+    "wins": 29,
+    "losses": 28,
+    "timePlayed": 88280
   }
 }

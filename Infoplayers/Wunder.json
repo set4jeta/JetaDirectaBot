@@ -45,31 +45,10 @@
     },
     {
       "nombre": "Jayce",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.8333333333333335
-    },
-    {
-      "nombre": "Gangplank",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.6842105263157894
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.2962962962962963
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4210526315789473
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.625
     },
     {
       "nombre": "Aurora",
@@ -86,31 +65,52 @@
       "kda_promedio": 1.6
     },
     {
-      "nombre": "TwistedFate",
+      "nombre": "Gangplank",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 0.95
+      "kda_promedio": 1.8888888888888888
     },
     {
-      "nombre": "Aatrox",
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5238095238095237
+    },
+    {
+      "nombre": "Ambessa",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3
+      "kda_promedio": 2.2
     },
     {
-      "nombre": "Anivia",
+      "nombre": "Ryze",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.111111111111111
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2307692307692308
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 33,
-    "losses": 31,
-    "timePlayed": 99796
+    "games": 52,
+    "wins": 26,
+    "losses": 26,
+    "timePlayed": 81943
   }
 }

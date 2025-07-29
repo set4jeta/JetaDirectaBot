@@ -16,101 +16,101 @@
   "cuentas": [
     {
       "nombre": "Wicked#Tun",
-      "nivel": 1024,
+      "nivel": 1026,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 798,
-      "victorias": 461,
-      "derrotas": 436,
-      "ultima_partida": 1753581321428
+      "lp": 791,
+      "victorias": 465,
+      "derrotas": 440,
+      "ultima_partida": 1753755075136
     },
     {
       "nombre": "Moula STEG#STEG",
       "nivel": 120,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 277,
+      "lp": 243,
       "victorias": 135,
-      "derrotas": 116,
-      "ultima_partida": 1753544295481
+      "derrotas": 118,
+      "ultima_partida": 1753639926393
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Taliyah",
-      "partidas": 14,
+      "partidas": 13,
       "victorias": 6,
-      "winrate": "42.9%",
-      "kda_promedio": 1.9270833333333333
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.2465753424657535
+      "winrate": "46.2%",
+      "kda_promedio": 1.898876404494382
     },
     {
       "nombre": "Akali",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.5
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.152542372881356
     },
     {
       "nombre": "Qiyana",
       "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 2.8181818181818183
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.9285714285714284
     },
     {
-      "nombre": "Aurora",
-      "partidas": 10,
+      "nombre": "Sylas",
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.4313725490196076
+      "winrate": "66.7%",
+      "kda_promedio": 2.418181818181818
     },
     {
       "nombre": "Viego",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.2222222222222223
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.395348837209302
     },
     {
-      "nombre": "KSante",
-      "partidas": 6,
+      "nombre": "Aurora",
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.2
+      "winrate": "62.5%",
+      "kda_promedio": 2.9555555555555557
     },
     {
       "nombre": "Hwei",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9090909090909092
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5263157894736843
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Mel",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.9545454545454546
+      "winrate": "33.3%",
+      "kda_promedio": 2.0714285714285716
     },
     {
       "nombre": "Neeko",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.5
+      "winrate": "33.3%",
+      "kda_promedio": 1.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 94,
-    "wins": 50,
+    "games": 87,
+    "wins": 43,
     "losses": 44,
-    "timePlayed": 148546
+    "timePlayed": 136899
   }
 }

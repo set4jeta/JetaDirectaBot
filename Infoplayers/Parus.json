@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "Thumbs Down#4847",
-      "nivel": 848,
+      "nivel": 849,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1277,
-      "victorias": 277,
+      "lp": 1327,
+      "victorias": 280,
       "derrotas": 220,
-      "ultima_partida": 1753464967107
+      "ultima_partida": 1753742447455
     },
     {
       "nombre": "Zanka no Tachı#EUW",
@@ -37,45 +37,31 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 15,
-      "victorias": 5,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8933333333333333
+      "partidas": 16,
+      "victorias": 6,
+      "winrate": "37.5%",
+      "kda_promedio": 1.8181818181818181
     },
     {
       "nombre": "Jhin",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6551724137931036
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.7142857142857144
     },
     {
       "nombre": "Lulu",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.4375
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8947368421052633
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.3
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1875
     },
     {
       "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 5
+      "kda_promedio": 5.333333333333333
     },
     {
       "nombre": "Bard",
@@ -83,6 +69,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.9
     },
     {
       "nombre": "Neeko",
@@ -96,20 +89,27 @@
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 8.4
+      "kda_promedio": 8.333333333333334
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Karma",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 46,
-    "wins": 26,
-    "losses": 20,
-    "timePlayed": 70974
+    "games": 38,
+    "wins": 20,
+    "losses": 18,
+    "timePlayed": 60450
   }
 }

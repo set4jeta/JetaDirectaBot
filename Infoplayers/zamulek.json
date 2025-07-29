@@ -15,47 +15,47 @@
   },
   "cuentas": [
     {
-      "nombre": "zamul333k#2024",
-      "nivel": 307,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 242,
-      "victorias": 145,
-      "derrotas": 124,
-      "ultima_partida": 1753546636243
-    },
-    {
       "nombre": "lysa kuяva#FMS",
-      "nivel": 721,
+      "nivel": 722,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 797,
-      "victorias": 382,
-      "derrotas": 340,
-      "ultima_partida": 1753543823976
+      "lp": 772,
+      "victorias": 383,
+      "derrotas": 342,
+      "ultima_partida": 1753700063539
+    },
+    {
+      "nombre": "zamul333k#2024",
+      "nivel": 308,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 262,
+      "victorias": 146,
+      "derrotas": 124,
+      "ultima_partida": 1753693631094
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 20,
-      "victorias": 8,
-      "winrate": "40.0%",
-      "kda_promedio": 1.6793893129770991
+      "partidas": 22,
+      "victorias": 9,
+      "winrate": "40.9%",
+      "kda_promedio": 1.6758620689655173
     },
     {
       "nombre": "Lucian",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.730769230769231
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.024390243902439
     },
     {
       "nombre": "Khazix",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.25
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Tristana",
@@ -67,9 +67,9 @@
     {
       "nombre": "Ezreal",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0384615384615385
     },
     {
       "nombre": "Kaisa",
@@ -77,13 +77,6 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2.4545454545454546
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2352941176470589
     },
     {
       "nombre": "Corki",
@@ -105,12 +98,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 25,
-    "losses": 27,
-    "timePlayed": 83054
+    "games": 51,
+    "wins": 23,
+    "losses": 28,
+    "timePlayed": 80050
   }
 }

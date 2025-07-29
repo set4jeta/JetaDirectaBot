@@ -16,16 +16,23 @@
   "cuentas": [
     {
       "nombre": "Pride#persi",
-      "nivel": 369,
+      "nivel": 370,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 976,
-      "victorias": 230,
-      "derrotas": 191,
-      "ultima_partida": 1753469960225
+      "lp": 904,
+      "victorias": 231,
+      "derrotas": 195,
+      "ultima_partida": 1753693741170
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0833333333333335
+    },
     {
       "nombre": "Aurora",
       "partidas": 3,
@@ -35,10 +42,10 @@
     },
     {
       "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4615384615384617
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1818181818181819
     },
     {
       "nombre": "Kennen",
@@ -48,11 +55,18 @@
       "kda_promedio": 1
     },
     {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
       "nombre": "Renekton",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 1.7692307692307692
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6153846153846154
     },
     {
       "nombre": "Aatrox",
@@ -60,13 +74,6 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.142857142857143
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
     },
     {
       "nombre": "Chogath",
@@ -83,24 +90,17 @@
       "kda_promedio": 1.7142857142857142
     },
     {
-      "nombre": "Ornn",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.25
-    },
-    {
-      "nombre": "Rumble",
+      "nombre": "Ezreal",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.8333333333333335
+      "kda_promedio": 1.1111111111111112
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 10,
-    "losses": 7,
-    "timePlayed": 25903
+    "games": 20,
+    "wins": 9,
+    "losses": 11,
+    "timePlayed": 30559
   }
 }

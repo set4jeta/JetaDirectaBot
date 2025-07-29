@@ -16,50 +16,50 @@
   "cuentas": [
     {
       "nombre": "flow state#6996",
-      "nivel": 1630,
+      "nivel": 1632,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 872,
-      "victorias": 746,
-      "derrotas": 712,
-      "ultima_partida": 1753558854485
+      "lp": 767,
+      "victorias": 749,
+      "derrotas": 720,
+      "ultima_partida": 1753734415101
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yorick",
-      "partidas": 15,
+      "partidas": 14,
       "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 1.986842105263158
+      "winrate": "57.1%",
+      "kda_promedio": 1.9275362318840579
     },
     {
       "nombre": "Sion",
-      "partidas": 12,
+      "partidas": 13,
       "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.5483870967741935
+      "winrate": "53.8%",
+      "kda_promedio": 2.3972602739726026
     },
     {
       "nombre": "Ambessa",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 1.608695652173913
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 1.5238095238095237
     },
     {
       "nombre": "Shen",
       "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.5428571428571427
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5277777777777777
     },
     {
       "nombre": "Gragas",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.3636363636363635
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.358974358974359
     },
     {
       "nombre": "Gwen",
@@ -69,25 +69,25 @@
       "kda_promedio": 1.7428571428571429
     },
     {
-      "nombre": "Ornn",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.3461538461538463
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.84
-    },
-    {
       "nombre": "Sett",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.3448275862068966
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3055555555555554
+    },
+    {
+      "nombre": "Volibear",
       "partidas": 5,
       "victorias": 1,
       "winrate": "20.0%",
-      "kda_promedio": 1.608695652173913
+      "kda_promedio": 0.7894736842105263
     },
     {
       "nombre": "Galio",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 109,
-    "wins": 50,
-    "losses": 59,
-    "timePlayed": 170919
+    "games": 111,
+    "wins": 48,
+    "losses": 63,
+    "timePlayed": 172208
   }
 }

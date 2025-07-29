@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Metroflox#EUW",
-      "nivel": 926,
+      "nivel": 928,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 966,
+      "lp": 921,
       "victorias": 195,
-      "derrotas": 153,
-      "ultima_partida": 1753454434723
+      "derrotas": 155,
+      "ultima_partida": 1753653673415
     }
   ],
   "campeones_recientes": [
@@ -55,11 +55,11 @@
       "kda_promedio": 14
     },
     {
-      "nombre": "Ahri",
-      "partidas": 1,
+      "nombre": "Zed",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "winrate": "50.0%",
+      "kda_promedio": 7
     },
     {
       "nombre": "Alistar",
@@ -69,6 +69,13 @@
       "kda_promedio": 18
     },
     {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 26
+    },
+    {
       "nombre": "Fizz",
       "partidas": 1,
       "victorias": 1,
@@ -76,31 +83,24 @@
       "kda_promedio": 3.4285714285714284
     },
     {
-      "nombre": "Hwei",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
       "nombre": "LeeSin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 27,
-    "wins": 15,
-    "losses": 12,
-    "timePlayed": 48837
+    "games": 26,
+    "wins": 13,
+    "losses": 13,
+    "timePlayed": 46874
   }
 }

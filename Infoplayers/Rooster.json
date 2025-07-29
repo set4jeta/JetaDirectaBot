@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "BDS Rooster#2005",
-      "nivel": 40,
+      "nivel": 41,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 504,
-      "victorias": 72,
-      "derrotas": 35,
-      "ultima_partida": 1753480904572
+      "lp": 580,
+      "victorias": 79,
+      "derrotas": 38,
+      "ultima_partida": 1753664393447
     },
     {
       "nombre": "편 민 기#박 규 용",
@@ -35,24 +35,17 @@
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 21,
-      "victorias": 14,
-      "winrate": "66.7%",
-      "kda_promedio": 2.784
+      "partidas": 19,
+      "victorias": 15,
+      "winrate": "78.9%",
+      "kda_promedio": 3.196078431372549
     },
     {
       "nombre": "Nidalee",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.122448979591837
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.7096774193548387
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 3.125
     },
     {
       "nombre": "Irelia",
@@ -70,17 +63,17 @@
     },
     {
       "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.888888888888889
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.090909090909091
     },
     {
-      "nombre": "Smolder",
+      "nombre": "Gnar",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.9090909090909092
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Gwen",
@@ -90,24 +83,31 @@
       "kda_promedio": 2.3
     },
     {
-      "nombre": "Kennen",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Yone",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.6
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 42,
-    "losses": 24,
-    "timePlayed": 103664
+    "games": 62,
+    "wins": 41,
+    "losses": 21,
+    "timePlayed": 97997
   }
 }

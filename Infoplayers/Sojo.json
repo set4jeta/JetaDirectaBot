@@ -15,91 +15,91 @@
   "cuentas": [
     {
       "nombre": "JDS 2115#EUW",
-      "nivel": 560,
+      "nivel": 562,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 795,
-      "victorias": 417,
-      "derrotas": 388,
-      "ultima_partida": 1753387890071
+      "lp": 896,
+      "victorias": 429,
+      "derrotas": 394,
+      "ultima_partida": 1753751562751
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ivern",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 7.8125
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 5.045454545454546
+    },
+    {
+      "nombre": "Zyra",
       "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 8.476190476190476
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.127659574468085
     },
     {
       "nombre": "Lillia",
       "partidas": 8,
       "victorias": 5,
       "winrate": "62.5%",
-      "kda_promedio": 3.5625
+      "kda_promedio": 3.15625
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Vi",
       "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 4.526315789473684
-    },
-    {
-      "nombre": "Zyra",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.918918918918919
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.8478260869565217
     },
     {
       "nombre": "MonkeyKing",
       "partidas": 6,
       "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 3.272727272727273
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9
+      "kda_promedio": 3.45
     },
     {
       "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Pantheon",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.3333333333333335
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 4.055555555555555
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.526315789473684
     },
     {
       "nombre": "Maokai",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
-      "nombre": "Malzahar",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5454545454545454
+      "kda_promedio": 2.588235294117647
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 66,
-    "wins": 34,
-    "losses": 32,
-    "timePlayed": 109780
+    "games": 78,
+    "wins": 43,
+    "losses": 35,
+    "timePlayed": 128198
   }
 }

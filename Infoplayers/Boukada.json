@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Boukada#EUW",
-      "nivel": 935,
+      "nivel": 938,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1105,
-      "victorias": 281,
-      "derrotas": 243,
-      "ultima_partida": 1753431811807
+      "lp": 1123,
+      "victorias": 294,
+      "derrotas": 253,
+      "ultima_partida": 1753734248069
     },
     {
       "nombre": "Le mec du 91#EUW",
@@ -47,39 +47,32 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 13,
-      "victorias": 3,
-      "winrate": "23.1%",
-      "kda_promedio": 2.4318181818181817
-    },
-    {
       "nombre": "XinZhao",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 5.545454545454546
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.304347826086956
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 3.5084745762711864
     },
     {
       "nombre": "Viego",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 6
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 4.0754716981132075
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 5,
+      "nombre": "Pantheon",
+      "partidas": 11,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.269230769230769
+      "winrate": "18.2%",
+      "kda_promedio": 2.282051282051282
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.5476190476190474
     },
     {
       "nombre": "JarvanIV",
@@ -89,38 +82,45 @@
       "kda_promedio": 3.75
     },
     {
-      "nombre": "Taliyah",
-      "partidas": 3,
+      "nombre": "MonkeyKing",
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.4814814814814814
+      "winrate": "25.0%",
+      "kda_promedio": 2.0476190476190474
     },
     {
       "nombre": "Trundle",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2380952380952381
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.454545454545454
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6451612903225807
     },
     {
       "nombre": "Lillia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Galio",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.2
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5454545454545454
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.555555555555555
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 56,
-    "wins": 27,
-    "losses": 29,
-    "timePlayed": 97447
+    "games": 72,
+    "wins": 36,
+    "losses": 36,
+    "timePlayed": 121250
   }
 }

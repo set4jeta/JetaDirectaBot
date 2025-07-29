@@ -5,7 +5,7 @@
     "edad": 27,
     "equipo": "E WIE EINFACH E-SPORTS",
     "pais": "Vietnam",
-    "contrato_hasta": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Rocklho",
       "twitch": "https://twitch.tv/rocklho"
@@ -18,7 +18,7 @@
       "nombre": "Rocklho#Stein",
       "nivel": 485,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
+      "liga": "CHALLENGER I",
       "lp": 1046,
       "victorias": 220,
       "derrotas": 180,
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 22,
+    "games": 21,
     "wins": 11,
-    "losses": 11,
-    "timePlayed": 36511
+    "losses": 10,
+    "timePlayed": 34519
   }
 }

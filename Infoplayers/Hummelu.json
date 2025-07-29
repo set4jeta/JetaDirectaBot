@@ -15,82 +15,75 @@
   },
   "cuentas": [
     {
-      "nombre": "Bob Loss#Hum",
-      "nivel": 1607,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 889,
-      "victorias": 555,
-      "derrotas": 518,
-      "ultima_partida": 1753446166714
-    },
-    {
       "nombre": "Bullwark#Posch",
-      "nivel": 347,
+      "nivel": 348,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 595,
-      "victorias": 106,
-      "derrotas": 79,
-      "ultima_partida": 1753443634820
+      "lp": 566,
+      "victorias": 109,
+      "derrotas": 83,
+      "ultima_partida": 1753715335599
+    },
+    {
+      "nombre": "Bob Loss#Hum",
+      "nivel": 1608,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 826,
+      "victorias": 561,
+      "derrotas": 527,
+      "ultima_partida": 1753709536854
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 39,
-      "victorias": 21,
-      "winrate": "53.8%",
-      "kda_promedio": 2.684931506849315
+      "partidas": 41,
+      "victorias": 24,
+      "winrate": "58.5%",
+      "kda_promedio": 2.7610619469026547
     },
     {
       "nombre": "Udyr",
-      "partidas": 26,
-      "victorias": 16,
-      "winrate": "61.5%",
-      "kda_promedio": 2.4393939393939394
+      "partidas": 27,
+      "victorias": 15,
+      "winrate": "55.6%",
+      "kda_promedio": 2.4044117647058822
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Naafiri",
       "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 3.116279069767442
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.1363636363636362
     },
     {
       "nombre": "Khazix",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.4444444444444446
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4642857142857144
     },
     {
       "nombre": "Pantheon",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8461538461538463
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0697674418604652
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.5714285714285714
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1379310344827587
     },
     {
-      "nombre": "Naafiri",
+      "nombre": "XinZhao",
       "partidas": 3,
       "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 7.25
+      "kda_promedio": 2.727272727272727
     },
     {
       "nombre": "Diana",
@@ -100,17 +93,24 @@
       "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Nocturne",
+      "nombre": "Trundle",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1052631578947367
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 113,
-    "wins": 66,
-    "losses": 47,
-    "timePlayed": 181092
+    "games": 108,
+    "wins": 59,
+    "losses": 49,
+    "timePlayed": 172075
   }
 }

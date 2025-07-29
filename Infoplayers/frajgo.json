@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "frajgo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/frajgo",
+      "twitch": "https://www.twitch.tv/frajgo_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FMS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "10k hours wasted#LIFE",
+      "nivel": 272,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 790,
+      "victorias": 449,
+      "derrotas": 413,
+      "ultima_partida": 1753751149593
+    },
+    {
+      "nombre": "10k hrs invested#LIFE",
+      "nivel": 675,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 312,
+      "victorias": 194,
+      "derrotas": 188,
+      "ultima_partida": 1753478056211
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 26,
+      "victorias": 14,
+      "winrate": "53.8%",
+      "kda_promedio": 1.6868686868686869
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 0.9433962264150944
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.944444444444445
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.107142857142857
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5333333333333334
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5897435897435896
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7407407407407407
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 127,
+    "wins": 68,
+    "losses": 59,
+    "timePlayed": 205270
+  }
+}

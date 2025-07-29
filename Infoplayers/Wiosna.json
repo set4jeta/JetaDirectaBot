@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Wiosna",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Wiosnaaaa"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GLP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "pepi#seal",
+      "nivel": 345,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 308,
+      "victorias": 457,
+      "derrotas": 441,
+      "ultima_partida": 1753728751945
+    },
+    {
+      "nombre": "Wiosna#seal",
+      "nivel": 1183,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 768,
+      "victorias": 295,
+      "derrotas": 256,
+      "ultima_partida": 1753618147387
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 1.640625
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.347826086956522
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.636363636363637
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5625
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.545454545454546
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 26,
+    "losses": 15,
+    "timePlayed": 70947
+  }
+}

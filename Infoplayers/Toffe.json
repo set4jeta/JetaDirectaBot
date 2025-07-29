@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "bald by 2026#hair",
-      "nivel": 147,
+      "nivel": 148,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1201,
-      "victorias": 220,
-      "derrotas": 162,
-      "ultima_partida": 1753445581048
+      "lp": 1216,
+      "victorias": 222,
+      "derrotas": 163,
+      "ultima_partida": 1753734830402
     },
     {
       "nombre": "Toto The Totoro#Toffe",
       "nivel": 545,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1307,
-      "victorias": 234,
-      "derrotas": 188,
-      "ultima_partida": 1753440672807
+      "lp": 1278,
+      "victorias": 235,
+      "derrotas": 190,
+      "ultima_partida": 1753701420355
     },
     {
       "nombre": "oompa loompa mid#tofu",
@@ -48,24 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Syndra",
-      "partidas": 13,
-      "victorias": 11,
-      "winrate": "84.6%",
-      "kda_promedio": 3.98
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.4166666666666665
     },
     {
       "nombre": "Sylas",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.388888888888889
+      "kda_promedio": 3.6315789473684212
     },
     {
       "nombre": "Corki",
@@ -73,6 +66,13 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 9.666666666666666
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
     },
     {
       "nombre": "Akali",
@@ -89,18 +89,25 @@
       "kda_promedio": 4.25
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Orianna",
       "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.3333333333333335
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
     },
     {
       "nombre": "XinZhao",
@@ -108,19 +115,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 8
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 22,
+    "games": 27,
+    "wins": 19,
     "losses": 8,
-    "timePlayed": 49417
+    "timePlayed": 44568
   }
 }

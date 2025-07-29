@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "드리머#DREAM",
-      "nivel": 499,
+      "nivel": 501,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 854,
-      "victorias": 481,
-      "derrotas": 457,
-      "ultima_partida": 1753366708340
+      "lp": 917,
+      "victorias": 489,
+      "derrotas": 461,
+      "ultima_partida": 1753730410054
     },
     {
       "nombre": "567024574567#9600",
@@ -38,24 +38,10 @@
   "campeones_recientes": [
     {
       "nombre": "Sylas",
-      "partidas": 10,
-      "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 2.6140350877192984
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3684210526315788
-    },
-    {
-      "nombre": "Viktor",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1333333333333333
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 2.671875
     },
     {
       "nombre": "Annie",
@@ -65,6 +51,27 @@
       "kda_promedio": 2.8260869565217392
     },
     {
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.076923076923077
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.823529411764706
+    },
+    {
       "nombre": "Aurora",
       "partidas": 3,
       "victorias": 0,
@@ -72,11 +79,18 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Azir",
+      "nombre": "Hwei",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6428571428571429
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.818181818181818
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.269230769230769
     },
     {
       "nombre": "Ryze",
@@ -91,26 +105,12 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 1.1428571428571428
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.2777777777777777
-    },
-    {
-      "nombre": "AurelionSol",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 31,
-    "losses": 30,
-    "timePlayed": 96082
+    "games": 64,
+    "wins": 35,
+    "losses": 29,
+    "timePlayed": 99929
   }
 }

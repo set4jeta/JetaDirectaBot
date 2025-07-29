@@ -62,13 +62,6 @@
       "kda_promedio": 1.25
     },
     {
-      "nombre": "Nami",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
       "nombre": "Xerath",
       "partidas": 1,
       "victorias": 1,
@@ -77,9 +70,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
+    "games": 56,
     "wins": 29,
-    "losses": 28,
-    "timePlayed": 98622
+    "losses": 27,
+    "timePlayed": 97146
   }
 }

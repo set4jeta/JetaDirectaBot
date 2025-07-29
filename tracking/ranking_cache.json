@@ -1,5 +1,5 @@
 {
-  "timestamp": 1753335220.9736483,
+  "timestamp": 1753760920.3925974,
   "ranking": [
     {
       "player": "Vladi",
@@ -11,18 +11,18 @@
       "role": "MIDDLE",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 2096,
-      "winrate": 62.925851703406806,
-      "kda": 3.26,
+      "lp": 2211,
+      "winrate": 63.1578947368421,
+      "kda": 3.29,
       "best_champions": [
         "Trist",
-        "Twisted F",
-        "Ryze"
+        "Orianna",
+        "Twisted F"
       ],
       "profile_icon": 29,
-      "wins": 314,
-      "losses": 185,
-      "total_games": 499
+      "wins": 336,
+      "losses": 196,
+      "total_games": 532
     },
     {
       "player": "SkewMond",
@@ -34,18 +34,18 @@
       "role": "JUNGLE",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1970,
-      "winrate": 55.73248407643312,
-      "kda": 4.29,
+      "lp": 1885,
+      "winrate": 55.49845837615622,
+      "kda": 4.28,
       "best_champions": [
         "Vi",
         "Xin Zhao",
         "Pantheon"
       ],
       "profile_icon": 6497,
-      "wins": 525,
-      "losses": 417,
-      "total_games": 942
+      "wins": 540,
+      "losses": 433,
+      "total_games": 973
     },
     {
       "player": "Caliste",
@@ -57,18 +57,18 @@
       "role": "BOTTOM",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1825,
-      "winrate": 59.009900990099005,
-      "kda": 3.42,
+      "lp": 1851,
+      "winrate": 59.06432748538012,
+      "kda": 3.41,
       "best_champions": [
         "Kai'Sa",
-        "Miss F",
-        "Corki"
+        "Corki",
+        "Miss F"
       ],
       "profile_icon": 29,
-      "wins": 298,
-      "losses": 207,
-      "total_games": 505
+      "wins": 303,
+      "losses": 210,
+      "total_games": 513
     },
     {
       "player": "Labrov",
@@ -80,41 +80,18 @@
       "role": "UTILITY",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1755,
-      "winrate": 55.18617021276596,
-      "kda": 2.92,
+      "lp": 1783,
+      "winrate": 55.32194480946123,
+      "kda": 2.91,
       "best_champions": [
         "Rell",
         "Neeko",
         "Poppy"
       ],
       "profile_icon": 4379,
-      "wins": 415,
-      "losses": 337,
-      "total_games": 752
-    },
-    {
-      "player": "Mikyx",
-      "team": "FNC",
-      "riot_id": {
-        "game_name": "FNC Mikyx",
-        "tag_line": "1998"
-      },
-      "role": "UTILITY",
-      "tier": "CHALLENGER",
-      "division": "I",
-      "lp": 1640,
-      "winrate": 56.12244897959183,
-      "kda": 2.64,
-      "best_champions": [
-        "Poppy",
-        "Rell",
-        "Elise"
-      ],
-      "profile_icon": 682,
-      "wins": 330,
-      "losses": 258,
-      "total_games": 588
+      "wins": 421,
+      "losses": 340,
+      "total_games": 761
     },
     {
       "player": "Skeanz",
@@ -126,8 +103,8 @@
       "role": "JUNGLE",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1629,
-      "winrate": 52.8395061728395,
+      "lp": 1670,
+      "winrate": 52.96506904955321,
       "kda": 3.78,
       "best_champions": [
         "Vi",
@@ -135,101 +112,9 @@
         "Pantheon"
       ],
       "profile_icon": 4027,
-      "wins": 642,
-      "losses": 573,
-      "total_games": 1215
-    },
-    {
-      "player": "Carzzy",
-      "team": "VIT",
-      "riot_id": {
-        "game_name": "lego ninjago",
-        "tag_line": "vape"
-      },
-      "role": "BOTTOM",
-      "tier": "CHALLENGER",
-      "division": "I",
-      "lp": 1561,
-      "winrate": 55.59440559440559,
-      "kda": 2.91,
-      "best_champions": [
-        "Jhin",
-        "Kai'Sa",
-        "Varus"
-      ],
-      "profile_icon": 581,
-      "wins": 318,
-      "losses": 254,
-      "total_games": 572
-    },
-    {
-      "player": "Jackies",
-      "team": "GX",
-      "riot_id": {
-        "game_name": "hahahahah",
-        "tag_line": "2218"
-      },
-      "role": "MIDDLE",
-      "tier": "CHALLENGER",
-      "division": "I",
-      "lp": 1549,
-      "winrate": 59.375,
-      "kda": 2.86,
-      "best_champions": [
-        "Sylas",
-        "Yone",
-        "Thresh"
-      ],
-      "profile_icon": 29,
-      "wins": 285,
-      "losses": 195,
-      "total_games": 480
-    },
-    {
-      "player": "Supa",
-      "team": "MKOI",
-      "riot_id": {
-        "game_name": "tukaan",
-        "tag_line": "tukan"
-      },
-      "role": "BOTTOM",
-      "tier": "CHALLENGER",
-      "division": "I",
-      "lp": 1471,
-      "winrate": 55.80204778156996,
-      "kda": 3.33,
-      "best_champions": [
-        "Ez",
-        "Kai'Sa",
-        "Corki"
-      ],
-      "profile_icon": 5489,
-      "wins": 327,
-      "losses": 259,
-      "total_games": 586
-    },
-    {
-      "player": "Flakked",
-      "team": "TH",
-      "riot_id": {
-        "game_name": "David Lirola",
-        "tag_line": "goatツ"
-      },
-      "role": "BOTTOM",
-      "tier": "CHALLENGER",
-      "division": "I",
-      "lp": 1428,
-      "winrate": 52.22121486854034,
-      "kda": 2.89,
-      "best_champions": [
-        "Miss F",
-        "Viego",
-        "Ez"
-      ],
-      "profile_icon": 2076,
-      "wins": 576,
-      "losses": 527,
-      "total_games": 1103
+      "wins": 652,
+      "losses": 579,
+      "total_games": 1231
     },
     {
       "player": "Lyncas",
@@ -241,18 +126,133 @@
       "role": "JUNGLE",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1423,
-      "winrate": 56.1877667140825,
-      "kda": 4.0,
+      "lp": 1643,
+      "winrate": 56.68965517241379,
+      "kda": 4.03,
       "best_champions": [
         "Vi",
         "Lillia",
         "Viego"
       ],
       "profile_icon": 654,
-      "wins": 395,
-      "losses": 308,
-      "total_games": 703
+      "wins": 411,
+      "losses": 314,
+      "total_games": 725
+    },
+    {
+      "player": "Mikyx",
+      "team": "FNC",
+      "riot_id": {
+        "game_name": "FNC Mikyx",
+        "tag_line": "1998"
+      },
+      "role": "UTILITY",
+      "tier": "CHALLENGER",
+      "division": "I",
+      "lp": 1626,
+      "winrate": 56.08108108108109,
+      "kda": 2.64,
+      "best_champions": [
+        "Poppy",
+        "Rell",
+        "Elise"
+      ],
+      "profile_icon": 682,
+      "wins": 332,
+      "losses": 260,
+      "total_games": 592
+    },
+    {
+      "player": "Lot",
+      "team": "GX",
+      "riot_id": {
+        "game_name": "chenzelot",
+        "tag_line": "LOT"
+      },
+      "role": "TOP",
+      "tier": "CHALLENGER",
+      "division": "I",
+      "lp": 1552,
+      "winrate": 59.34065934065934,
+      "kda": 2.6,
+      "best_champions": [
+        "Gnar",
+        "Jayce",
+        "Gwen"
+      ],
+      "profile_icon": 6487,
+      "wins": 216,
+      "losses": 148,
+      "total_games": 364
+    },
+    {
+      "player": "Jackies",
+      "team": "GX",
+      "riot_id": {
+        "game_name": "hahahahah",
+        "tag_line": "2218"
+      },
+      "role": "MIDDLE",
+      "tier": "CHALLENGER",
+      "division": "I",
+      "lp": 1492,
+      "winrate": 58.91783567134269,
+      "kda": 2.84,
+      "best_champions": [
+        "Sylas",
+        "Yone",
+        "Thresh"
+      ],
+      "profile_icon": 29,
+      "wins": 294,
+      "losses": 205,
+      "total_games": 499
+    },
+    {
+      "player": "Stend",
+      "team": "TH",
+      "riot_id": {
+        "game_name": "Stendinho JR 10",
+        "tag_line": "lrd"
+      },
+      "role": "UTILITY",
+      "tier": "CHALLENGER",
+      "division": "I",
+      "lp": 1489,
+      "winrate": 55.23059617547806,
+      "kda": 3.24,
+      "best_champions": [
+        "Rell",
+        "Neeko",
+        "Thresh"
+      ],
+      "profile_icon": 641,
+      "wins": 491,
+      "losses": 398,
+      "total_games": 889
+    },
+    {
+      "player": "Flakked",
+      "team": "TH",
+      "riot_id": {
+        "game_name": "David Lirola",
+        "tag_line": "goatツ"
+      },
+      "role": "BOTTOM",
+      "tier": "CHALLENGER",
+      "division": "I",
+      "lp": 1453,
+      "winrate": 52.29936880072137,
+      "kda": 2.9,
+      "best_champions": [
+        "Miss F",
+        "Viego",
+        "Ez"
+      ],
+      "profile_icon": 2076,
+      "wins": 580,
+      "losses": 529,
+      "total_games": 1109
     },
     {
       "player": "Thayger",
@@ -264,8 +264,8 @@
       "role": "JUNGLE",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1416,
-      "winrate": 55.909943714821765,
+      "lp": 1448,
+      "winrate": 55.97826086956522,
       "kda": 3.43,
       "best_champions": [
         "Viego",
@@ -273,9 +273,32 @@
         "Jarvan IV"
       ],
       "profile_icon": 1640,
-      "wins": 298,
-      "losses": 235,
-      "total_games": 533
+      "wins": 309,
+      "losses": 243,
+      "total_games": 552
+    },
+    {
+      "player": "Supa",
+      "team": "MKOI",
+      "riot_id": {
+        "game_name": "tukaan",
+        "tag_line": "tukan"
+      },
+      "role": "BOTTOM",
+      "tier": "CHALLENGER",
+      "division": "I",
+      "lp": 1417,
+      "winrate": 55.877342419080065,
+      "kda": 3.33,
+      "best_champions": [
+        "Ez",
+        "Kai'Sa",
+        "Corki"
+      ],
+      "profile_icon": 5489,
+      "wins": 328,
+      "losses": 259,
+      "total_games": 587
     },
     {
       "player": "Parus",
@@ -288,86 +311,40 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1415,
-      "winrate": 56.09756097560976,
-      "kda": 2.66,
+      "winrate": 56.00000000000001,
+      "kda": 2.65,
       "best_champions": [
         "Elise",
         "Rell",
-        "Pantheon"
+        "Nauty"
       ],
       "profile_icon": 3582,
-      "wins": 276,
-      "losses": 216,
-      "total_games": 492
+      "wins": 280,
+      "losses": 220,
+      "total_games": 500
     },
     {
-      "player": "Stend",
-      "team": "TH",
+      "player": "Fleshy",
+      "team": "VIT",
       "riot_id": {
-        "game_name": "Stendinho JR 10",
-        "tag_line": "lrd"
+        "game_name": "Fleshy",
+        "tag_line": "EU1"
       },
       "role": "UTILITY",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1409,
-      "winrate": 55.09964830011723,
-      "kda": 3.21,
+      "lp": 1385,
+      "winrate": 53.6869340232859,
+      "kda": 3.42,
       "best_champions": [
         "Rell",
-        "Neeko",
-        "Thresh"
+        "Nauty",
+        "Pyke"
       ],
-      "profile_icon": 641,
-      "wins": 470,
-      "losses": 383,
-      "total_games": 853
-    },
-    {
-      "player": "Razork",
-      "team": "FNC",
-      "riot_id": {
-        "game_name": "Razørk Activoo",
-        "tag_line": "razzz"
-      },
-      "role": "JUNGLE",
-      "tier": "CHALLENGER",
-      "division": "I",
-      "lp": 1377,
-      "winrate": 60.62322946175638,
-      "kda": 3.49,
-      "best_champions": [
-        "Zed",
-        "Pantheon",
-        "Nocturne"
-      ],
-      "profile_icon": 6760,
-      "wins": 214,
-      "losses": 139,
-      "total_games": 353
-    },
-    {
-      "player": "Carlsen",
-      "team": "TH",
-      "riot_id": {
-        "game_name": "skygge kriger",
-        "tag_line": "EUV"
-      },
-      "role": "TOP",
-      "tier": "CHALLENGER",
-      "division": "I",
-      "lp": 1371,
-      "winrate": 55.3030303030303,
-      "kda": 2.75,
-      "best_champions": [
-        "Jayce",
-        "Ambessa",
-        "Rumble"
-      ],
-      "profile_icon": 1596,
-      "wins": 292,
-      "losses": 236,
-      "total_games": 528
+      "profile_icon": 5021,
+      "wins": 415,
+      "losses": 358,
+      "total_games": 773
     },
     {
       "player": "Yike",
@@ -379,8 +356,8 @@
       "role": "JUNGLE",
       "tier": "CHALLENGER",
       "division": "I",
-      "lp": 1357,
-      "winrate": 53.383458646616546,
+      "lp": 1355,
+      "winrate": 53.357314148681056,
       "kda": 2.95,
       "best_champions": [
         "Vi",
@@ -388,9 +365,9 @@
         "Lillia"
       ],
       "profile_icon": 29,
-      "wins": 426,
-      "losses": 372,
-      "total_games": 798
+      "wins": 445,
+      "losses": 389,
+      "total_games": 834
     },
     {
       "player": "Upset",
@@ -403,17 +380,40 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1341,
-      "winrate": 57.86407766990291,
-      "kda": 3.03,
+      "winrate": 57.54189944134078,
+      "kda": 3.0,
       "best_champions": [
         "Ez",
         "Kaisa",
-        "Zeri"
+        "Lucian"
       ],
       "profile_icon": 29,
-      "wins": 298,
-      "losses": 217,
-      "total_games": 515
+      "wins": 309,
+      "losses": 228,
+      "total_games": 537
+    },
+    {
+      "player": "Carlsen",
+      "team": "TH",
+      "riot_id": {
+        "game_name": "skygge kriger",
+        "tag_line": "EUV"
+      },
+      "role": "Top",
+      "tier": "Challenger",
+      "division": "I",
+      "lp": 1296,
+      "winrate": 55.1789077212806,
+      "kda": 2.75,
+      "best_champions": [
+        "Jayce",
+        "Ambessa",
+        "Rumble"
+      ],
+      "profile_icon": 1596,
+      "wins": 293,
+      "losses": 238,
+      "total_games": 531
     },
     {
       "player": "NightSlayer",
@@ -426,7 +426,7 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1291,
-      "winrate": 52.604611443210935,
+      "winrate": 52.55658005029338,
       "kda": 1.74,
       "best_champions": [
         "Ambessa",
@@ -434,32 +434,9 @@
         "Jayce"
       ],
       "profile_icon": 4087,
-      "wins": 616,
-      "losses": 555,
-      "total_games": 1171
-    },
-    {
-      "player": "Fleshy",
-      "team": "VIT",
-      "riot_id": {
-        "game_name": "Fleshy",
-        "tag_line": "EU1"
-      },
-      "role": "Support",
-      "tier": "Challenger",
-      "division": "I",
-      "lp": 1232,
-      "winrate": 53.36856010568032,
-      "kda": 3.42,
-      "best_champions": [
-        "Rell",
-        "Nauty",
-        "Pyke"
-      ],
-      "profile_icon": 5021,
-      "wins": 404,
-      "losses": 353,
-      "total_games": 757
+      "wins": 627,
+      "losses": 566,
+      "total_games": 1193
     },
     {
       "player": "Abbedagge",
@@ -472,17 +449,17 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1201,
-      "winrate": 65.2439024390244,
-      "kda": 3.65,
+      "winrate": 63.06818181818182,
+      "kda": 3.59,
       "best_champions": [
+        "Ryze",
         "Ez",
-        "Leblanc",
-        "Lucian"
+        "Azir"
       ],
       "profile_icon": 7,
-      "wins": 107,
-      "losses": 57,
-      "total_games": 164
+      "wins": 111,
+      "losses": 65,
+      "total_games": 176
     },
     {
       "player": "Targamas",
@@ -495,17 +472,17 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1183,
-      "winrate": 54.51807228915663,
-      "kda": 3.09,
+      "winrate": 54.54545454545454,
+      "kda": 3.07,
       "best_champions": [
         "Rell",
         "Senna",
         "Neeko"
       ],
       "profile_icon": 22,
-      "wins": 362,
-      "losses": 302,
-      "total_games": 664
+      "wins": 372,
+      "losses": 310,
+      "total_games": 682
     },
     {
       "player": "DnDn",
@@ -518,17 +495,17 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1177,
-      "winrate": 58.72274143302181,
-      "kda": 2.41,
+      "winrate": 58.48765432098766,
+      "kda": 2.4,
       "best_champions": [
         "Jayce",
         "Ambessa",
         "Gangplank"
       ],
       "profile_icon": 3795,
-      "wins": 377,
-      "losses": 265,
-      "total_games": 642
+      "wins": 379,
+      "losses": 269,
+      "total_games": 648
     },
     {
       "player": "Nemesis",
@@ -541,17 +518,17 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1151,
-      "winrate": 56.559766763848394,
-      "kda": 2.72,
+      "winrate": 57.18390804597702,
+      "kda": 2.74,
       "best_champions": [
         "Akshan",
         "Mel",
         "Xerath"
       ],
       "profile_icon": 22,
-      "wins": 194,
+      "wins": 199,
       "losses": 149,
-      "total_games": 343
+      "total_games": 348
     },
     {
       "player": "Caps",
@@ -564,17 +541,17 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1129,
-      "winrate": 53.379953379953385,
-      "kda": 2.17,
+      "winrate": 53.03550973654067,
+      "kda": 2.16,
       "best_champions": [
         "Ahri",
         "Taliyah",
         "Yone"
       ],
       "profile_icon": 23,
-      "wins": 458,
-      "losses": 400,
-      "total_games": 858
+      "wins": 463,
+      "losses": 410,
+      "total_games": 873
     },
     {
       "player": "ISMA",
@@ -587,17 +564,40 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1120,
-      "winrate": 52.55041518386714,
-      "kda": 3.74,
+      "winrate": 52.50875145857643,
+      "kda": 3.75,
       "best_champions": [
         "Vi",
         "XinZhao",
         "Nidalee"
       ],
       "profile_icon": 1442,
-      "wins": 443,
-      "losses": 400,
-      "total_games": 843
+      "wins": 450,
+      "losses": 407,
+      "total_games": 857
+    },
+    {
+      "player": "Naak Nako",
+      "team": "VIT",
+      "riot_id": {
+        "game_name": "Naak Pado",
+        "tag_line": "VIT"
+      },
+      "role": "Top",
+      "tier": "Challenger",
+      "division": "I",
+      "lp": 1116,
+      "winrate": 60.1957585644372,
+      "kda": 2.33,
+      "best_champions": [
+        "Jayce",
+        "Yone",
+        "Yasuo"
+      ],
+      "profile_icon": 29,
+      "wins": 369,
+      "losses": 244,
+      "total_games": 613
     },
     {
       "player": "Alvaro",
@@ -610,7 +610,7 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1103,
-      "winrate": 53.30330330330331,
+      "winrate": 53.273809523809526,
       "kda": 2.91,
       "best_champions": [
         "Rell",
@@ -618,32 +618,9 @@
         "Rakan"
       ],
       "profile_icon": 16,
-      "wins": 355,
-      "losses": 311,
-      "total_games": 666
-    },
-    {
-      "player": "Lot",
-      "team": "GX",
-      "riot_id": {
-        "game_name": "GX Francisco",
-        "tag_line": "GOAT"
-      },
-      "role": "Top",
-      "tier": "Challenger",
-      "division": "I",
-      "lp": 1071,
-      "winrate": 55.16431924882629,
-      "kda": 2.58,
-      "best_champions": [
-        "Jayce",
-        "Gnar",
-        "Rumble"
-      ],
-      "profile_icon": 4417,
-      "wins": 235,
-      "losses": 191,
-      "total_games": 426
+      "wins": 358,
+      "losses": 314,
+      "total_games": 672
     },
     {
       "player": "Hans Sama",
@@ -656,17 +633,17 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1068,
-      "winrate": 53.8563829787234,
-      "kda": 3.13,
+      "winrate": 53.70843989769821,
+      "kda": 3.12,
       "best_champions": [
         "Varus",
         "Ez",
         "MissFortune"
       ],
       "profile_icon": 6881,
-      "wins": 405,
-      "losses": 347,
-      "total_games": 752
+      "wins": 420,
+      "losses": 362,
+      "total_games": 782
     },
     {
       "player": "Fresskowy",
@@ -679,17 +656,17 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1067,
-      "winrate": 51.29224652087475,
-      "kda": 3.0,
+      "winrate": 51.40913508260447,
+      "kda": 3.01,
       "best_champions": [
         "Yone",
         "Ahri",
         "Taliyah"
       ],
       "profile_icon": 5178,
-      "wins": 516,
-      "losses": 490,
-      "total_games": 1006
+      "wins": 529,
+      "losses": 500,
+      "total_games": 1029
     },
     {
       "player": "13",
@@ -702,63 +679,40 @@
       "tier": "Challenger",
       "division": "I",
       "lp": 1066,
-      "winrate": 54.0,
-      "kda": 3.16,
+      "winrate": 53.833865814696495,
+      "kda": 3.18,
       "best_champions": [
         "Ez",
         "Kalista",
         "Corki"
       ],
       "profile_icon": 22,
-      "wins": 324,
-      "losses": 276,
-      "total_games": 600
+      "wins": 337,
+      "losses": 289,
+      "total_games": 626
     },
     {
-      "player": "Velja",
-      "team": "LR",
+      "player": "Boukada",
+      "team": "BDS",
       "riot_id": {
-        "game_name": "VELJA THE MENACE",
-        "tag_line": "2203"
+        "game_name": "Boukada",
+        "tag_line": "EUW"
       },
       "role": "Jungle",
-      "tier": "Grandmaster",
+      "tier": "Challenger",
       "division": "I",
-      "lp": 1040,
-      "winrate": 57.08582834331337,
-      "kda": 2.88,
+      "lp": 1039,
+      "winrate": 53.74771480804388,
+      "kda": 3.26,
       "best_champions": [
-        "Nidalee",
-        "LeeSin",
-        "Ekko"
+        "Viego",
+        "Zyra",
+        "XinZhao"
       ],
-      "profile_icon": 5489,
-      "wins": 286,
-      "losses": 215,
-      "total_games": 501
-    },
-    {
-      "player": "Rekkles",
-      "team": "LR",
-      "riot_id": {
-        "game_name": "LR Rekkles",
-        "tag_line": "LRAT"
-      },
-      "role": "Support",
-      "tier": "Grandmaster",
-      "division": "I",
-      "lp": 972,
-      "winrate": 53.47912524850894,
-      "kda": 7.08,
-      "best_champions": [
-        "Rakan",
-        "Rell",
-        "Alistar"
-      ],
-      "profile_icon": 5950,
-      "wins": 269,
-      "losses": 234,
-      "total_games": 503
+      "profile_icon": 539,
+      "wins": 294,
+      "losses": 253,
+      "total_games": 547
     },
     {
       "player": "Keduii",
@@ -771,7 +725,7 @@
       "tier": "Grandmaster",
       "division": "I",
       "lp": 965,
-      "winrate": 51.7724649629019,
+      "winrate": 51.74371451743715,
       "kda": 3.1,
       "best_champions": [
         "Corki",
@@ -779,9 +733,9 @@
         "MissFortune"
       ],
       "profile_icon": 4144,
-      "wins": 628,
-      "losses": 585,
-      "total_games": 1213
+      "wins": 638,
+      "losses": 595,
+      "total_games": 1233
     },
     {
       "player": "BrokenBlade",
@@ -794,7 +748,7 @@
       "tier": "Grandmaster",
       "division": "I",
       "lp": 947,
-      "winrate": 52.50305250305251,
+      "winrate": 52.17391304347826,
       "kda": 2.17,
       "best_champions": [
         "Jayce",
@@ -802,9 +756,9 @@
         "Ambessa"
       ],
       "profile_icon": 4606,
-      "wins": 430,
-      "losses": 389,
-      "total_games": 819
+      "wins": 444,
+      "losses": 407,
+      "total_games": 851
     },
     {
       "player": "Malrang",
@@ -817,17 +771,40 @@
       "tier": "Grandmaster",
       "division": "I",
       "lp": 929,
-      "winrate": 53.125,
+      "winrate": 53.34174022698613,
       "kda": 3.89,
       "best_champions": [
         "Alistar",
-        "LeeSin",
-        "Rell"
+        "Rell",
+        "LeeSin"
       ],
       "profile_icon": 29,
-      "wins": 408,
-      "losses": 360,
-      "total_games": 768
+      "wins": 423,
+      "losses": 370,
+      "total_games": 793
+    },
+    {
+      "player": "Rekkles",
+      "team": "LR",
+      "riot_id": {
+        "game_name": "LR Rekkles",
+        "tag_line": "SUP"
+      },
+      "role": "Support",
+      "tier": "Grandmaster",
+      "division": "I",
+      "lp": 874,
+      "winrate": 54.68277945619335,
+      "kda": 6.78,
+      "best_champions": [
+        "Rakan",
+        "Jhin",
+        "Rell"
+      ],
+      "profile_icon": 6888,
+      "wins": 181,
+      "losses": 150,
+      "total_games": 331
     },
     {
       "player": "Jun",
@@ -840,17 +817,17 @@
       "tier": "Grandmaster",
       "division": "I",
       "lp": 785,
-      "winrate": 59.44444444444444,
-      "kda": 3.1,
+      "winrate": 58.490566037735846,
+      "kda": 3.06,
       "best_champions": [
         "Elise",
         "Poppy",
         "Rell"
       ],
       "profile_icon": 23,
-      "wins": 214,
-      "losses": 146,
-      "total_games": 360
+      "wins": 217,
+      "losses": 154,
+      "total_games": 371
     },
     {
       "player": "Kamiloo",
@@ -863,7 +840,7 @@
       "tier": "Grandmaster",
       "division": "I",
       "lp": 784,
-      "winrate": 53.7433155080214,
+      "winrate": 53.713527851458885,
       "kda": 2.07,
       "best_champions": [
         "Yone",
@@ -871,9 +848,9 @@
         "Sylas"
       ],
       "profile_icon": 1670,
-      "wins": 402,
-      "losses": 346,
-      "total_games": 748
+      "wins": 405,
+      "losses": 349,
+      "total_games": 754
     },
     {
       "player": "Oscarinin",
@@ -886,17 +863,17 @@
       "tier": "Grandmaster",
       "division": "I",
       "lp": 781,
-      "winrate": 55.0351288056206,
-      "kda": 1.81,
+      "winrate": 55.01113585746103,
+      "kda": 1.82,
       "best_champions": [
         "Jayce",
         "Gangplank",
         "Warwick"
       ],
       "profile_icon": 4096,
-      "wins": 235,
-      "losses": 192,
-      "total_games": 427
+      "wins": 247,
+      "losses": 202,
+      "total_games": 449
     },
     {
       "player": "Noah",
@@ -909,17 +886,17 @@
       "tier": "Grandmaster",
       "division": "I",
       "lp": 738,
-      "winrate": 53.032440056417485,
-      "kda": 2.63,
+      "winrate": 53.28767123287671,
+      "kda": 2.64,
       "best_champions": [
         "Corki",
         "Ez",
         "Pantheon"
       ],
       "profile_icon": 1386,
-      "wins": 376,
-      "losses": 333,
-      "total_games": 709
+      "wins": 389,
+      "losses": 341,
+      "total_games": 730
     },
     {
       "player": "Ice",
@@ -932,7 +909,7 @@
       "tier": "Master",
       "division": "I",
       "lp": 734,
-      "winrate": 53.00546448087432,
+      "winrate": 52.820053715308866,
       "kda": 2.61,
       "best_champions": [
         "Corki",
@@ -940,9 +917,9 @@
         "Varus"
       ],
       "profile_icon": 29,
-      "wins": 582,
-      "losses": 516,
-      "total_games": 1098
+      "wins": 590,
+      "losses": 527,
+      "total_games": 1117
     },
     {
       "player": "Canna",
@@ -955,17 +932,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 718,
-      "winrate": 58.88030888030889,
-      "kda": 2.52,
+      "winrate": 59.66542750929368,
+      "kda": 2.53,
       "best_champions": [
         "Ambessa",
         "Jayce",
         "Gangplank"
       ],
       "profile_icon": 29,
-      "wins": 305,
-      "losses": 213,
-      "total_games": 518
+      "wins": 321,
+      "losses": 217,
+      "total_games": 538
     },
     {
       "player": "Czajek",
@@ -978,17 +955,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 645,
-      "winrate": 62.21498371335505,
-      "kda": 2.82,
+      "winrate": 61.6822429906542,
+      "kda": 2.8,
       "best_champions": [
+        "Aurora",
         "Syndra",
-        "Sylas",
-        "Yone"
+        "Sylas"
       ],
       "profile_icon": 4552,
-      "wins": 191,
-      "losses": 116,
-      "total_games": 307
+      "wins": 198,
+      "losses": 123,
+      "total_games": 321
     },
     {
       "player": "Time",
@@ -1001,17 +978,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 641,
-      "winrate": 55.095541401273884,
-      "kda": 3.24,
+      "winrate": 54.79876160990712,
+      "kda": 3.2,
       "best_champions": [
         "LeeSin",
         "Vi",
         "Viego"
       ],
       "profile_icon": 696,
-      "wins": 173,
-      "losses": 141,
-      "total_games": 314
+      "wins": 177,
+      "losses": 146,
+      "total_games": 323
     },
     {
       "player": "Adam",
@@ -1024,63 +1001,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 633,
-      "winrate": 55.73770491803278,
-      "kda": 1.94,
+      "winrate": 54.93827160493827,
+      "kda": 1.91,
       "best_champions": [
         "Aurora",
         "Ambessa",
         "Jayce"
       ],
       "profile_icon": 6811,
-      "wins": 238,
-      "losses": 189,
-      "total_games": 427
-    },
-    {
-      "player": "Naak Nako",
-      "team": "VIT",
-      "riot_id": {
-        "game_name": "Dele Alli",
-        "tag_line": "VIT"
-      },
-      "role": "Top",
-      "tier": "Master",
-      "division": "I",
-      "lp": 492,
-      "winrate": 61.16071428571429,
-      "kda": 2.03,
-      "best_champions": [
-        "Yone",
-        "LeeSin",
-        "Yasuo"
-      ],
-      "profile_icon": 4568,
-      "wins": 137,
-      "losses": 87,
-      "total_games": 224
-    },
-    {
-      "player": "Crownie",
-      "team": "LR",
-      "riot_id": {
-        "game_name": "getogetogeto",
-        "tag_line": "EUW"
-      },
-      "role": "Bot",
-      "tier": "Master",
-      "division": "I",
-      "lp": 431,
-      "winrate": 54.01785714285714,
-      "kda": 2.4,
-      "best_champions": [
-        "Corki",
-        "Sivir",
-        "Zeri"
-      ],
-      "profile_icon": 5435,
-      "wins": 242,
-      "losses": 206,
-      "total_games": 448
+      "wins": 267,
+      "losses": 219,
+      "total_games": 486
     },
     {
       "player": "Elyoya",
@@ -1116,17 +1047,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 388,
-      "winrate": 70.96774193548387,
-      "kda": 4.33,
+      "winrate": 69.23076923076923,
+      "kda": 4.29,
       "best_champions": [
         "Lillia",
         "MonkeyKing",
         "LeeSin"
       ],
       "profile_icon": 29,
-      "wins": 66,
-      "losses": 27,
-      "total_games": 93
+      "wins": 72,
+      "losses": 32,
+      "total_games": 104
     },
     {
       "player": "Baus",
@@ -1139,17 +1070,40 @@
       "tier": "Master",
       "division": "I",
       "lp": 320,
-      "winrate": 51.388888888888886,
-      "kda": 1.09,
+      "winrate": 51.618398637137986,
+      "kda": 1.1,
       "best_champions": [
         "Sion",
         "Jax",
         "Ambessa"
       ],
       "profile_icon": 6635,
-      "wins": 296,
-      "losses": 280,
-      "total_games": 576
+      "wins": 303,
+      "losses": 284,
+      "total_games": 587
+    },
+    {
+      "player": "Razork",
+      "team": "FNC",
+      "riot_id": {
+        "game_name": "Mu Yanling",
+        "tag_line": "Sky"
+      },
+      "role": "Jungle",
+      "tier": "Master",
+      "division": "I",
+      "lp": 292,
+      "winrate": 85.41666666666666,
+      "kda": 5.13,
+      "best_champions": [
+        "Zed",
+        "JarvanIV",
+        "MonkeyKing"
+      ],
+      "profile_icon": 29,
+      "wins": 41,
+      "losses": 7,
+      "total_games": 48
     },
     {
       "player": "Rooster",
@@ -1162,17 +1116,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 285,
-      "winrate": 70.2127659574468,
-      "kda": 2.81,
+      "winrate": 67.52136752136752,
+      "kda": 2.73,
       "best_champions": [
         "Jayce",
         "Nidalee",
-        "Irelia"
+        "Rumble"
       ],
       "profile_icon": 29,
-      "wins": 66,
-      "losses": 28,
-      "total_games": 94
+      "wins": 79,
+      "losses": 38,
+      "total_games": 117
     },
     {
       "player": "Larssen",
@@ -1185,17 +1139,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 270,
-      "winrate": 50.46153846153846,
-      "kda": 2.45,
+      "winrate": 50.30120481927711,
+      "kda": 2.46,
       "best_champions": [
         "Yone",
         "Ahri",
         "Sylas"
       ],
       "profile_icon": 3460,
-      "wins": 328,
-      "losses": 322,
-      "total_games": 650
+      "wins": 334,
+      "losses": 330,
+      "total_games": 664
     },
     {
       "player": "Poby",
@@ -1208,17 +1162,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 249,
-      "winrate": 88.37209302325581,
-      "kda": 5.34,
+      "winrate": 80.88235294117648,
+      "kda": 4.28,
       "best_champions": [
+        "Azir",
         "Annie",
-        "Viktor",
-        "Azir"
+        "Viktor"
       ],
       "profile_icon": 29,
-      "wins": 38,
-      "losses": 5,
-      "total_games": 43
+      "wins": 55,
+      "losses": 13,
+      "total_games": 68
     },
     {
       "player": "Patrik",
@@ -1231,17 +1185,17 @@
       "tier": "Master",
       "division": "I",
       "lp": 192,
-      "winrate": 59.48275862068966,
-      "kda": 2.56,
+      "winrate": 59.91561181434599,
+      "kda": 2.58,
       "best_champions": [
         "Jhin",
         "Kaisa",
         "MissFortune"
       ],
       "profile_icon": 6585,
-      "wins": 138,
-      "losses": 94,
-      "total_games": 232
+      "wins": 142,
+      "losses": 95,
+      "total_games": 237
     },
     {
       "player": "nuc",
@@ -1254,7 +1208,7 @@
       "tier": "Master",
       "division": "I",
       "lp": 185,
-      "winrate": 55.41561712846348,
+      "winrate": 55.85365853658537,
       "kda": 2.55,
       "best_champions": [
         "Sylas",
@@ -1262,32 +1216,9 @@
         "Azir"
       ],
       "profile_icon": 1151,
-      "wins": 220,
-      "losses": 177,
-      "total_games": 397
-    },
-    {
-      "player": "Boukada",
-      "team": "BDS",
-      "riot_id": {
-        "game_name": "Le mec du 91",
-        "tag_line": "EUW"
-      },
-      "role": "Jungle",
-      "tier": "Master",
-      "division": "I",
-      "lp": 170,
-      "winrate": 61.72839506172839,
-      "kda": 3.15,
-      "best_champions": [
-        "Pantheon",
-        "Belveth",
-        "Khazix"
-      ],
-      "profile_icon": 29,
-      "wins": 50,
-      "losses": 31,
-      "total_games": 81
+      "wins": 229,
+      "losses": 181,
+      "total_games": 410
     },
     {
       "player": "Jojopyun",
@@ -1336,73 +1267,27 @@
       "total_games": 126
     },
     {
-      "player": "Thomas",
-      "team": "KOI",
+      "player": "Crownie",
+      "team": "LR",
       "riot_id": {
-        "game_name": "KappaChungiLungi",
-        "tag_line": "DELUX"
+        "game_name": "LR Crownie",
+        "tag_line": "LRAT"
       },
-      "role": "Support",
-      "tier": "Unranked",
-      "division": "",
-      "lp": 0,
-      "winrate": 56.29139072847682,
-      "kda": 2.64,
+      "role": "Bot",
+      "tier": "Diamond",
+      "division": "II",
+      "lp": 55,
+      "winrate": 49.42084942084942,
+      "kda": 2.39,
       "best_champions": [
-        "Elise",
-        "Nauty",
-        "Alistar"
+        "Corki",
+        "Ez",
+        "Jinx"
       ],
-      "profile_icon": 3157,
-      "wins": 170,
-      "losses": 132,
-      "total_games": 302
-    },
-    {
-      "player": "Hylissang",
-      "team": "VIT",
-      "riot_id": {
-        "game_name": "SomethingNew",
-        "tag_line": "123"
-      },
-      "role": "Support",
-      "tier": "Unranked",
-      "division": "",
-      "lp": 0,
-      "winrate": 56.03217158176944,
-      "kda": 2.63,
-      "best_champions": [
-        "Elise",
-        "Rell",
-        "Pyke"
-      ],
-      "profile_icon": 29,
-      "wins": 209,
-      "losses": 164,
-      "total_games": 373
-    },
-    {
-      "player": "RKR",
-      "team": "SK",
-      "riot_id": {
-        "game_name": "rkr",
-        "tag_line": "EUW"
-      },
-      "role": "Mid",
-      "tier": "Unranked",
-      "division": "",
-      "lp": 0,
-      "winrate": 80.64516129032258,
-      "kda": 4.1,
-      "best_champions": [
-        "Ahri",
-        "Pyke",
-        "Elise"
-      ],
-      "profile_icon": 29,
-      "wins": 25,
-      "losses": 6,
-      "total_games": 31
+      "profile_icon": 1456,
+      "wins": 128,
+      "losses": 131,
+      "total_games": 259
     },
     {
       "player": "Execute",
@@ -1438,17 +1323,132 @@
       "tier": "Unranked",
       "division": "",
       "lp": 0,
-      "winrate": 57.49999999999999,
-      "kda": 2.91,
+      "winrate": 58.536585365853654,
+      "kda": 2.94,
       "best_champions": [
         "Ez",
-        "MissFortune",
-        "Corki"
+        "Corki",
+        "MissFortune"
       ],
       "profile_icon": 3494,
-      "wins": 115,
+      "wins": 120,
       "losses": 85,
-      "total_games": 200
+      "total_games": 205
+    },
+    {
+      "player": "Velja",
+      "team": "LR",
+      "riot_id": {
+        "game_name": "LR Velja",
+        "tag_line": "2203"
+      },
+      "role": "Jungle",
+      "tier": "Unranked",
+      "division": "",
+      "lp": 0,
+      "winrate": 49.473684210526315,
+      "kda": 2.49,
+      "best_champions": [
+        "MonkeyKing",
+        "LeeSin",
+        "Viego"
+      ],
+      "profile_icon": 3152,
+      "wins": 141,
+      "losses": 144,
+      "total_games": 285
+    },
+    {
+      "player": "RKR",
+      "team": "SK",
+      "riot_id": {
+        "game_name": "rkr",
+        "tag_line": "EUW"
+      },
+      "role": "Mid",
+      "tier": "Unranked",
+      "division": "",
+      "lp": 0,
+      "winrate": 80.64516129032258,
+      "kda": 4.1,
+      "best_champions": [
+        "Ahri",
+        "Pyke",
+        "Elise"
+      ],
+      "profile_icon": 29,
+      "wins": 25,
+      "losses": 6,
+      "total_games": 31
+    },
+    {
+      "player": "Thomas",
+      "team": "KOI",
+      "riot_id": {
+        "game_name": "KappaChungiLungi",
+        "tag_line": "DELUX"
+      },
+      "role": "Support",
+      "tier": "Unranked",
+      "division": "",
+      "lp": 0,
+      "winrate": 56.29139072847682,
+      "kda": 2.64,
+      "best_champions": [
+        "Elise",
+        "Nauty",
+        "Alistar"
+      ],
+      "profile_icon": 3157,
+      "wins": 170,
+      "losses": 132,
+      "total_games": 302
+    },
+    {
+      "player": "Carzzy",
+      "team": "VIT",
+      "riot_id": {
+        "game_name": "hello bro",
+        "tag_line": "EUW"
+      },
+      "role": "Bot",
+      "tier": "Unranked",
+      "division": "",
+      "lp": 0,
+      "winrate": 85.29411764705883,
+      "kda": 3.4,
+      "best_champions": [
+        "AurelionSol",
+        "Senna",
+        "Lucian"
+      ],
+      "profile_icon": 1298,
+      "wins": 29,
+      "losses": 5,
+      "total_games": 34
+    },
+    {
+      "player": "Hylissang",
+      "team": "VIT",
+      "riot_id": {
+        "game_name": "SomethingNew",
+        "tag_line": "123"
+      },
+      "role": "Support",
+      "tier": "Unranked",
+      "division": "",
+      "lp": 0,
+      "winrate": 56.03217158176944,
+      "kda": 2.63,
+      "best_champions": [
+        "Elise",
+        "Rell",
+        "Pyke"
+      ],
+      "profile_icon": 29,
+      "wins": 209,
+      "losses": 164,
+      "total_games": 373
     }
   ]
 }

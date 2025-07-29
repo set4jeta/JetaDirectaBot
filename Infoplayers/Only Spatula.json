@@ -15,23 +15,23 @@
   "cuentas": [
     {
       "nombre": "Peter Parkour#999",
-      "nivel": 911,
+      "nivel": 912,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 99,
-      "victorias": 264,
-      "derrotas": 270,
-      "ultima_partida": 1753440673855
+      "lp": 42,
+      "victorias": 269,
+      "derrotas": 278,
+      "ultima_partida": 1753730488458
     },
     {
       "nombre": "Only Spatula#999",
       "nivel": 312,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
+      "liga": "CHALLENGER I",
       "lp": 1061,
       "victorias": 577,
       "derrotas": 526,
-      "ultima_partida": 1753426341064
+      "ultima_partida": 1753543959007
     },
     {
       "nombre": "Demon Fish#999",
@@ -47,24 +47,24 @@
   "campeones_recientes": [
     {
       "nombre": "Hwei",
-      "partidas": 38,
-      "victorias": 23,
-      "winrate": "60.5%",
-      "kda_promedio": 2.953125
+      "partidas": 33,
+      "victorias": 20,
+      "winrate": "60.6%",
+      "kda_promedio": 2.9877300613496933
     },
     {
       "nombre": "Fizz",
-      "partidas": 23,
-      "victorias": 14,
-      "winrate": "60.9%",
-      "kda_promedio": 2.096
+      "partidas": 24,
+      "victorias": 15,
+      "winrate": "62.5%",
+      "kda_promedio": 2.180451127819549
     },
     {
       "nombre": "Talon",
-      "partidas": 12,
+      "partidas": 15,
       "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 1.7640449438202248
+      "winrate": "33.3%",
+      "kda_promedio": 1.6140350877192982
     },
     {
       "nombre": "Vex",
@@ -78,14 +78,7 @@
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 2.15625
-    },
-    {
-      "nombre": "Sett",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 2.0833333333333335
     },
     {
       "nombre": "Zilean",
@@ -96,9 +89,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 88,
-    "wins": 47,
+    "games": 86,
+    "wins": 45,
     "losses": 41,
-    "timePlayed": 144677
+    "timePlayed": 141201
   }
 }

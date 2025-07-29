@@ -15,6 +15,16 @@
   },
   "cuentas": [
     {
+      "nombre": "TwTv BZ EUW#INSHL",
+      "nivel": 284,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1073,
+      "victorias": 281,
+      "derrotas": 229,
+      "ultima_partida": 1753741160991
+    },
+    {
       "nombre": "B Z#ZED",
       "nivel": 1361,
       "region": "EUW1",
@@ -22,24 +32,14 @@
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": 1753462113219
-    },
-    {
-      "nombre": "TwTv BZ EUW#INSHL",
-      "nivel": 283,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1041,
-      "victorias": 276,
-      "derrotas": 226,
-      "ultima_partida": 1753459041289
+      "ultima_partida": 1753507838988
     },
     {
       "nombre": "curse#nazr",
       "nivel": 340,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 22,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 279,
       "derrotas": 225,
       "ultima_partida": 1751412219962
@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 23,
-      "victorias": 10,
-      "winrate": "43.5%",
-      "kda_promedio": 2.3838383838383836
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7301587301587302
     },
     {
       "nombre": "Sylas",
-      "partidas": 9,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "22.2%",
-      "kda_promedio": 2.659090909090909
+      "winrate": "50.0%",
+      "kda_promedio": 1.8695652173913044
     },
     {
       "nombre": "Taliyah",
@@ -76,9 +76,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 13,
-    "losses": 21,
-    "timePlayed": 53819
+    "games": 22,
+    "wins": 11,
+    "losses": 11,
+    "timePlayed": 36236
   }
 }

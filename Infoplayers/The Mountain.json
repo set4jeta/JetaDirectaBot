@@ -15,29 +15,29 @@
   "cuentas": [
     {
       "nombre": "The Mountain#IRH",
-      "nivel": 1441,
+      "nivel": 1442,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1150,
-      "victorias": 693,
-      "derrotas": 653,
-      "ultima_partida": 1753394191279
+      "lp": 1140,
+      "victorias": 696,
+      "derrotas": 656,
+      "ultima_partida": 1753721353519
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ornn",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5454545454545454
+      "winrate": "42.9%",
+      "kda_promedio": 2.5405405405405403
     },
     {
-      "nombre": "KSante",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.2142857142857144
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2352941176470589
     },
     {
       "nombre": "Sion",
@@ -54,17 +54,31 @@
       "kda_promedio": 6
     },
     {
-      "nombre": "Renekton",
+      "nombre": "DrMundo",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.75
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.625
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
+    "games": 15,
     "wins": 8,
-    "losses": 5,
-    "timePlayed": 23857
+    "losses": 7,
+    "timePlayed": 28163
   }
 }

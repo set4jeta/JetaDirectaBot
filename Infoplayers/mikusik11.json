@@ -16,50 +16,36 @@
   "cuentas": [
     {
       "nombre": "mikusik11#2012",
-      "nivel": 159,
+      "nivel": 160,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1175,
-      "victorias": 225,
-      "derrotas": 163,
-      "ultima_partida": 1753560675846
+      "lp": 1141,
+      "victorias": 229,
+      "derrotas": 168,
+      "ultima_partida": 1753751982114
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 3.441860465116279
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.5625
     },
     {
       "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.8974358974358974
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.043478260869565
-    },
-    {
-      "nombre": "Kindred",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 3.85
+      "kda_promedio": 3.68
     },
     {
       "nombre": "Viego",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 3.6666666666666665
+      "kda_promedio": 3.8947368421052633
     },
     {
       "nombre": "Ekko",
@@ -69,18 +55,39 @@
       "kda_promedio": 4.0588235294117645
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 3,
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.916666666666667
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0555555555555554
+      "winrate": "50.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Syndra",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.0625
+      "winrate": "50.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
     },
     {
       "nombre": "Ambessa",
@@ -88,19 +95,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.42857142857142855
-    },
-    {
-      "nombre": "Belveth",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 27,
-    "losses": 27,
-    "timePlayed": 87146
+    "games": 48,
+    "wins": 25,
+    "losses": 23,
+    "timePlayed": 75516
   }
 }

@@ -16,50 +16,64 @@
   "cuentas": [
     {
       "nombre": "c0cky movement#tukan",
-      "nivel": 1130,
+      "nivel": 1131,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 853,
-      "victorias": 522,
-      "derrotas": 497,
-      "ultima_partida": 1753561981318
+      "lp": 908,
+      "victorias": 529,
+      "derrotas": 501,
+      "ultima_partida": 1753733284650
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.4782608695652173
+      "winrate": "37.5%",
+      "kda_promedio": 3.1714285714285713
     },
     {
       "nombre": "Annie",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5454545454545454
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.45
     },
     {
-      "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.9583333333333333
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.95
     },
     {
       "nombre": "Ryze",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.071428571428571
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.65
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8125
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5238095238095237
     },
     {
       "nombre": "Sylas",
@@ -81,26 +95,12 @@
       "victorias": 2,
       "winrate": "50.0%",
       "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.7142857142857144
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 30,
+    "games": 73,
+    "wins": 33,
     "losses": 40,
-    "timePlayed": 110597
+    "timePlayed": 114534
   }
 }

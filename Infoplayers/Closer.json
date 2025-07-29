@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Closer",
+    "nombre_real": "Can Çelik",
+    "edad": 26,
+    "equipo": "Misa Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/closerlol\\t",
+      "twitch": "https://twitch.tv/closer"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/closer.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kral Closer#0707",
+      "nivel": 69,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1205,
+      "victorias": 237,
+      "derrotas": 161,
+      "ultima_partida": 1753742504267
+    },
+    {
+      "nombre": "Closer#kral",
+      "nivel": 118,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 65,
+      "victorias": 192,
+      "derrotas": 155,
+      "ultima_partida": 1753310753053
+    },
+    {
+      "nombre": "C1oser#EUW",
+      "nivel": 219,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 16,
+      "derrotas": 11,
+      "ultima_partida": 1745867981027
+    },
+    {
+      "nombre": "C1oser#kral",
+      "nivel": 246,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1744232429903
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 23,
+      "victorias": 14,
+      "winrate": "60.9%",
+      "kda_promedio": 2.705357142857143
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2054794520547945
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.5098039215686274
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 10.923076923076923
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.789473684210526
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.9411764705882355
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.076923076923077
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 86,
+    "wins": 51,
+    "losses": 35,
+    "timePlayed": 136799
+  }
+}

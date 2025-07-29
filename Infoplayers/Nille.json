@@ -16,71 +16,78 @@
   "cuentas": [
     {
       "nombre": "Frank Lundy#AGENT",
-      "nivel": 1490,
+      "nivel": 1492,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 993,
-      "victorias": 558,
-      "derrotas": 521,
-      "ultima_partida": 1753391638195
+      "liga": "CHALLENGER I",
+      "lp": 1040,
+      "victorias": 574,
+      "derrotas": 533,
+      "ultima_partida": 1753730374365
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jayce",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Aurora",
       "partidas": 12,
-      "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 1.606060606060606
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 4.258064516129032
     },
     {
       "nombre": "Aatrox",
       "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3170731707317074
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.4166666666666665
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4782608695652173
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3846153846153846
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.605263157894737
     },
     {
       "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.3666666666666667
+    },
+    {
+      "nombre": "Gwen",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.576923076923077
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.238095238095238
     },
     {
       "nombre": "Gangplank",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.4285714285714284
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.769230769230769
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0952380952380953
     },
     {
       "nombre": "KSante",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.642857142857143
+      "kda_promedio": 2.6
     },
     {
       "nombre": "Galio",
@@ -88,19 +95,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.8333333333333335
-    },
-    {
-      "nombre": "Irelia",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 36,
-    "losses": 31,
-    "timePlayed": 102773
+    "games": 78,
+    "wins": 45,
+    "losses": 33,
+    "timePlayed": 115875
   }
 }

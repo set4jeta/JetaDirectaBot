@@ -19,74 +19,39 @@
       "nivel": 1170,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1448,
-      "victorias": 454,
-      "derrotas": 387,
-      "ultima_partida": 1753443652681
+      "lp": 1473,
+      "victorias": 457,
+      "derrotas": 388,
+      "ultima_partida": 1753658381083
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Annie",
+      "nombre": "Ryze",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.875
+      "kda_promedio": 3
     },
     {
-      "nombre": "Cassiopeia",
-      "partidas": 2,
-      "victorias": 2,
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 1.9
+      "kda_promedio": 5.75
     },
     {
-      "nombre": "Ahri",
+      "nombre": "Nautilus",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.8
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
+    "games": 4,
     "wins": 3,
-    "losses": 7,
-    "timePlayed": 16969
+    "losses": 1,
+    "timePlayed": 6272
   }
 }

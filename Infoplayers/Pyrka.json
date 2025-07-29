@@ -18,26 +18,19 @@
       "nivel": 815,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1095,
-      "victorias": 366,
-      "derrotas": 327,
-      "ultima_partida": 1753530042478
+      "lp": 1063,
+      "victorias": 367,
+      "derrotas": 329,
+      "ultima_partida": 1753713883589
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jhin",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2222222222222223
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 13.333333333333334
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9090909090909091
     },
     {
       "nombre": "Alistar",
@@ -52,12 +45,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 29
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
     }
   ],
   "estadisticas_2_semanas": {
     "games": 6,
-    "wins": 4,
-    "losses": 2,
-    "timePlayed": 9830
+    "wins": 2,
+    "losses": 4,
+    "timePlayed": 9452
   }
 }

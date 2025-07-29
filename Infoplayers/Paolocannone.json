@@ -16,57 +16,57 @@
   "cuentas": [
     {
       "nombre": "Paolocannone#EUW",
-      "nivel": 1237,
+      "nivel": 1240,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 839,
-      "victorias": 492,
-      "derrotas": 465,
-      "ultima_partida": 1753453516514
+      "lp": 943,
+      "victorias": 508,
+      "derrotas": 475,
+      "ultima_partida": 1753745353944
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Blitzcrank",
-      "partidas": 48,
-      "victorias": 27,
-      "winrate": "56.2%",
-      "kda_promedio": 3.5868544600938965
+      "partidas": 44,
+      "victorias": 22,
+      "winrate": "50.0%",
+      "kda_promedio": 3.527918781725888
     },
     {
       "nombre": "Rakan",
-      "partidas": 16,
-      "victorias": 10,
-      "winrate": "62.5%",
-      "kda_promedio": 2.848101265822785
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 11,
-      "victorias": 3,
-      "winrate": "27.3%",
-      "kda_promedio": 2.1142857142857143
+      "partidas": 29,
+      "victorias": 20,
+      "winrate": "69.0%",
+      "kda_promedio": 3.763358778625954
     },
     {
       "nombre": "Braum",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 5.884615384615385
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 6.612903225806452
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.6363636363636362
     },
     {
       "nombre": "Alistar",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.125
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.210526315789474
     },
     {
       "nombre": "Karma",
       "partidas": 4,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.6857142857142857
+      "kda_promedio": 1.75
     },
     {
       "nombre": "Taric",
@@ -80,14 +80,7 @@
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.142857142857143
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8947368421052632
+      "kda_promedio": 2.727272727272727
     },
     {
       "nombre": "Morgana",
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 53,
+    "games": 111,
+    "wins": 59,
     "losses": 52,
-    "timePlayed": 174964
+    "timePlayed": 182979
   }
 }

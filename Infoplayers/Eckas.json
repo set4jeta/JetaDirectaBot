@@ -18,10 +18,10 @@
       "nivel": 837,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1189,
-      "victorias": 313,
-      "derrotas": 267,
-      "ultima_partida": 1753539216395
+      "lp": 1182,
+      "victorias": 314,
+      "derrotas": 268,
+      "ultima_partida": 1753720345427
     },
     {
       "nombre": "1333LP#EUW",
@@ -36,17 +36,24 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Viego",
+      "nombre": "Naafiri",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 4.166666666666667
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 22
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 1,
-    "wins": 0,
+    "games": 2,
+    "wins": 1,
     "losses": 1,
-    "timePlayed": 2982
+    "timePlayed": 3161
   }
 }

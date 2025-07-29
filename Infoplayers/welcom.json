@@ -19,33 +19,33 @@
       "nivel": 540,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1212,
-      "victorias": 203,
-      "derrotas": 152,
-      "ultima_partida": 1753450751091
+      "lp": 1199,
+      "victorias": 205,
+      "derrotas": 154,
+      "ultima_partida": 1753738501984
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 0.8181818181818182
-    },
-    {
-      "nombre": "Shen",
-      "partidas": 2,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
+      "winrate": "50.0%",
+      "kda_promedio": 1.28
     },
     {
       "nombre": "Ambessa",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3
+      "kda_promedio": 5.142857142857143
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
     },
     {
       "nombre": "Gwen",
@@ -53,6 +53,13 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
     },
     {
       "nombre": "KSante",
@@ -83,13 +90,6 @@
       "kda_promedio": 2.1
     },
     {
-      "nombre": "Renekton",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
       "nombre": "Rumble",
       "partidas": 1,
       "victorias": 1,
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
+    "games": 16,
     "wins": 10,
-    "losses": 4,
-    "timePlayed": 21153
+    "losses": 6,
+    "timePlayed": 24173
   }
 }

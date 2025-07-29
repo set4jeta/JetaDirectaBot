@@ -16,57 +16,50 @@
   "cuentas": [
     {
       "nombre": "fantomisto#MID",
-      "nivel": 748,
+      "nivel": 749,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 800,
-      "victorias": 465,
-      "derrotas": 428,
-      "ultima_partida": 1753366442670
+      "lp": 771,
+      "victorias": 468,
+      "derrotas": 432,
+      "ultima_partida": 1753714105006
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Cassiopeia",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.272727272727273
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8518518518518519
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 6,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.25
+      "winrate": "44.4%",
+      "kda_promedio": 2.65625
     },
     {
       "nombre": "Taliyah",
-      "partidas": 6,
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0357142857142856
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 7,
       "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6666666666666667
+      "winrate": "28.6%",
+      "kda_promedio": 1.6111111111111112
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.130434782608696
     },
     {
       "nombre": "Galio",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 6.785714285714286
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.923076923076923
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Ahri",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
     "games": 46,
     "wins": 22,
     "losses": 24,
-    "timePlayed": 73663
+    "timePlayed": 71941
   }
 }

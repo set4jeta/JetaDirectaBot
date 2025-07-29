@@ -16,23 +16,23 @@
   "cuentas": [
     {
       "nombre": "focus yourself#2025",
-      "nivel": 361,
+      "nivel": 362,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1156,
-      "victorias": 235,
-      "derrotas": 189,
-      "ultima_partida": 1753458466499
+      "lp": 1188,
+      "victorias": 238,
+      "derrotas": 190,
+      "ultima_partida": 1753693741170
     },
     {
       "nombre": "LUA Shy Carry#2025",
-      "nivel": 478,
+      "nivel": 479,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 869,
-      "victorias": 313,
-      "derrotas": 283,
-      "ultima_partida": 1753044081421
+      "lp": 946,
+      "victorias": 318,
+      "derrotas": 284,
+      "ultima_partida": 1753606663139
     },
     {
       "nombre": "자신을 믿으세요#2104",
@@ -48,38 +48,38 @@
   "campeones_recientes": [
     {
       "nombre": "Lucian",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 3.3833333333333333
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5974025974025974
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.466666666666667
     },
     {
       "nombre": "Jhin",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.0344827586206895
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.5833333333333335
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0303030303030303
     },
     {
       "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5897435897435896
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5517241379310345
     },
     {
       "nombre": "Senna",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.526315789473684
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Sivir",
@@ -87,6 +87,13 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Aphelios",
@@ -98,9 +105,9 @@
     {
       "nombre": "Kaisa",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7272727272727273
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Varus",
@@ -108,19 +115,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.625
-    },
-    {
-      "nombre": "Xayah",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
-    "wins": 25,
-    "losses": 28,
-    "timePlayed": 87537
+    "games": 55,
+    "wins": 29,
+    "losses": 26,
+    "timePlayed": 94037
   }
 }

@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "suppasszi#owo",
-      "nivel": 449,
+      "nivel": 450,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 890,
-      "victorias": 441,
-      "derrotas": 396,
-      "ultima_partida": 1753530342162
+      "lp": 897,
+      "victorias": 444,
+      "derrotas": 398,
+      "ultima_partida": 1753706128855
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.7142857142857144
     },
     {
       "nombre": "Bard",
@@ -48,6 +48,20 @@
       "kda_promedio": 4.4
     },
     {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.777777777777778
+    },
+    {
       "nombre": "Leona",
       "partidas": 2,
       "victorias": 1,
@@ -55,11 +69,11 @@
       "kda_promedio": 2.6666666666666665
     },
     {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 11.333333333333334
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
     },
     {
       "nombre": "Blitzcrank",
@@ -69,13 +83,6 @@
       "kda_promedio": 1.2222222222222223
     },
     {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
       "nombre": "Milio",
       "partidas": 1,
       "victorias": 1,
@@ -83,24 +90,17 @@
       "kda_promedio": 6.666666666666667
     },
     {
-      "nombre": "Neeko",
+      "nombre": "Nautilus",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.75
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1111111111111112
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 12,
-    "losses": 8,
-    "timePlayed": 31728
+    "games": 25,
+    "wins": 15,
+    "losses": 10,
+    "timePlayed": 39125
   }
 }

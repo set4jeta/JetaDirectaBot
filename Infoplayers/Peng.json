@@ -16,13 +16,23 @@
   "cuentas": [
     {
       "nombre": "twtv Peng04#Aespa",
-      "nivel": 394,
+      "nivel": 395,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1181,
-      "victorias": 502,
-      "derrotas": 452,
-      "ultima_partida": 1753563898608
+      "lp": 1254,
+      "victorias": 508,
+      "derrotas": 454,
+      "ultima_partida": 1753732472816
+    },
+    {
+      "nombre": "TWTV Peng04#Yuqi",
+      "nivel": 378,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 533,
+      "victorias": 67,
+      "derrotas": 46,
+      "ultima_partida": 1753729302153
     },
     {
       "nombre": "twtv Peng04#NMIXX",
@@ -33,39 +43,15 @@
       "victorias": 325,
       "derrotas": 265,
       "ultima_partida": 1753285750172
-    },
-    {
-      "nombre": "TWTV Peng04#Yuqi",
-      "nivel": 377,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 536,
-      "victorias": 61,
-      "derrotas": 39,
-      "ultima_partida": 1753177126621
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 85,
-      "victorias": 42,
-      "winrate": "49.4%",
-      "kda_promedio": 3.971631205673759
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 17,
-      "victorias": 7,
-      "winrate": "41.2%",
-      "kda_promedio": 3.0689655172413794
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 8,
-      "victorias": 1,
-      "winrate": "12.5%",
-      "kda_promedio": 2.966666666666667
+      "partidas": 94,
+      "victorias": 47,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8990536277602525
     },
     {
       "nombre": "Ziggs",
@@ -75,18 +61,32 @@
       "kda_promedio": 3.8333333333333335
     },
     {
-      "nombre": "Aurora",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3
+      "nombre": "Mel",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.9
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.2631578947368425
+    },
+    {
+      "nombre": "Sion",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 2.2903225806451615
+      "kda_promedio": 2.4545454545454546
     },
     {
       "nombre": "Orianna",
@@ -103,24 +103,24 @@
       "kda_promedio": 1.6842105263157894
     },
     {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.130434782608696
+    },
+    {
       "nombre": "Azir",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.8181818181818183
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 152,
-    "wins": 73,
-    "losses": 79,
-    "timePlayed": 253088
+    "games": 154,
+    "wins": 78,
+    "losses": 76,
+    "timePlayed": 254988
   }
 }

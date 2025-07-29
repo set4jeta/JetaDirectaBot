@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "SUPdoss#EUW",
-      "nivel": 304,
+      "nivel": 307,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1019,
-      "victorias": 477,
-      "derrotas": 407,
-      "ultima_partida": 1753561981318
+      "lp": 776,
+      "victorias": 480,
+      "derrotas": 421,
+      "ultima_partida": 1753748389869
     },
     {
       "nombre": "IsAiSDaAS#123",
@@ -58,24 +58,24 @@
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 34,
-      "victorias": 23,
-      "winrate": "67.6%",
-      "kda_promedio": 4.9071428571428575
+      "partidas": 35,
+      "victorias": 22,
+      "winrate": "62.9%",
+      "kda_promedio": 4.8561643835616435
     },
     {
       "nombre": "Braum",
       "partidas": 11,
       "victorias": 6,
       "winrate": "54.5%",
-      "kda_promedio": 5.526315789473684
+      "kda_promedio": 5.146341463414634
     },
     {
       "nombre": "Rell",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.862068965517241
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.806451612903226
     },
     {
       "nombre": "Karma",
@@ -106,31 +106,31 @@
       "kda_promedio": 5.933333333333334
     },
     {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    },
+    {
       "nombre": "TwistedFate",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 3.2
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4285714285714286
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.818181818181818
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 60,
-    "losses": 37,
-    "timePlayed": 154894
+    "games": 100,
+    "wins": 56,
+    "losses": 44,
+    "timePlayed": 160715
   }
 }

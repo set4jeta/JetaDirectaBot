@@ -34,7 +34,7 @@ def register_historial_command(bot: commands.Bot):
 
                     print(f"[DEBUG] Consultando historial en DPM.lol para PUUID: {puuid_dpmlol} ({cuenta_str})")
                     data = await get_match_history_from_dpmlol(puuid_dpmlol)
-                    print(f"[DEBUG] Respuesta DPM LOL para {puuid_dpmlol}: {data}")
+                    #print(f"[DEBUG] Respuesta DPM LOL para {puuid_dpmlol}: {data}")
                     if not data or "matches" not in data or not data["matches"]:
                         continue
                     for match in data["matches"]:

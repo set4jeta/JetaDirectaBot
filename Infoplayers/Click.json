@@ -16,36 +16,36 @@
   "cuentas": [
     {
       "nombre": "Hiragana#8888",
-      "nivel": 1079,
+      "nivel": 1080,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 971,
-      "victorias": 459,
+      "lp": 991,
+      "victorias": 460,
       "derrotas": 410,
-      "ultima_partida": 1753472700974
+      "ultima_partida": 1753701807096
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.142857142857143
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.8548387096774193
     },
     {
       "nombre": "Alistar",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.048780487804878
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3863636363636362
     },
     {
       "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.3461538461538463
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7916666666666665
     },
     {
       "nombre": "Poppy",
@@ -62,13 +62,6 @@
       "kda_promedio": 3.9
     },
     {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 12
-    },
-    {
       "nombre": "Jhin",
       "partidas": 2,
       "victorias": 1,
@@ -76,18 +69,18 @@
       "kda_promedio": 2.6
     },
     {
-      "nombre": "Leona",
-      "partidas": 2,
+      "nombre": "Braum",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0555555555555554
+      "winrate": "100.0%",
+      "kda_promedio": 19
     },
     {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2222222222222223
     },
     {
       "nombre": "Maokai",
@@ -95,12 +88,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 24,
-    "losses": 20,
-    "timePlayed": 75049
+    "games": 39,
+    "wins": 21,
+    "losses": 18,
+    "timePlayed": 66243
   }
 }

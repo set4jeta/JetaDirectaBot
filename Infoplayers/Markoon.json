@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Markoon",
     "nombre_real": "Mark van Woensel",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Solary",
     "pais": "Netherlands",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Michiel deRuyter#NLNLN",
-      "nivel": 1461,
+      "nivel": 1462,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1437,
-      "victorias": 608,
-      "derrotas": 540,
-      "ultima_partida": 1753448822139
+      "lp": 1279,
+      "victorias": 609,
+      "derrotas": 548,
+      "ultima_partida": 1753739682175
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zed",
-      "partidas": 18,
-      "victorias": 12,
-      "winrate": "66.7%",
-      "kda_promedio": 5.392857142857143
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 4.919354838709677
     },
     {
       "nombre": "Viego",
@@ -43,9 +43,9 @@
     {
       "nombre": "JarvanIV",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 8.25
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 12.666666666666666
     },
     {
       "nombre": "Naafiri",
@@ -55,32 +55,32 @@
       "kda_promedio": 7.9
     },
     {
-      "nombre": "Nidalee",
+      "nombre": "Skarner",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6875
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5294117647058822
     },
     {
-      "nombre": "Vi",
+      "nombre": "Nidalee",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 6.75
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4705882352941178
     },
     {
       "nombre": "LeeSin",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 5.25
-    },
-    {
-      "nombre": "Lillia",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 10.2
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Nocturne",
@@ -90,17 +90,17 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Orianna",
+      "nombre": "Sejuani",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.75
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 41,
-    "losses": 29,
-    "timePlayed": 109040
+    "games": 69,
+    "wins": 38,
+    "losses": 31,
+    "timePlayed": 110047
   }
 }

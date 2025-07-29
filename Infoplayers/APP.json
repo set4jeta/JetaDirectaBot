@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "CZV APP#Nina",
-      "nivel": 439,
+      "nivel": 441,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 967,
-      "victorias": 369,
-      "derrotas": 329,
-      "ultima_partida": 1753483819678
+      "lp": 973,
+      "victorias": 374,
+      "derrotas": 333,
+      "ultima_partida": 1753750528234
     }
   ],
   "campeones_recientes": [
@@ -33,25 +33,25 @@
       "kda_promedio": 1.92
     },
     {
-      "nombre": "Gwen",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3255813953488373
-    },
-    {
       "nombre": "Ambessa",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.8518518518518516
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.0638297872340425
     },
     {
-      "nombre": "Gnar",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.210526315789474
+      "nombre": "Gwen",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.326923076923077
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.933333333333333
     },
     {
       "nombre": "Ornn",
@@ -68,11 +68,25 @@
       "kda_promedio": 2.923076923076923
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 3,
-      "victorias": 3,
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8235294117647058
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.142857142857143
+      "kda_promedio": 2.5555555555555554
     },
     {
       "nombre": "Jax",
@@ -80,26 +94,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Skarner",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7777777777777778
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 25,
-    "losses": 25,
-    "timePlayed": 78083
+    "games": 56,
+    "wins": 28,
+    "losses": 28,
+    "timePlayed": 87729
   }
 }

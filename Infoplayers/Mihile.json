@@ -15,57 +15,36 @@
   "cuentas": [
     {
       "nombre": "Smolder Dad#0301",
-      "nivel": 132,
+      "nivel": 135,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 726,
-      "victorias": 415,
-      "derrotas": 358,
-      "ultima_partida": 1753397096069
+      "liga": "GRANDMASTER I",
+      "lp": 783,
+      "victorias": 426,
+      "derrotas": 365,
+      "ultima_partida": 1753753019621
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
+      "nombre": "Jayce",
       "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 2.1551724137931036
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.836734693877551
     },
     {
       "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4482758620689653
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.1785714285714284
     },
     {
-      "nombre": "Jayce",
+      "nombre": "Gwen",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.837837837837838
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2727272727272727
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4827586206896552
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.4583333333333333
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.5416666666666665
     },
     {
       "nombre": "Chogath",
@@ -82,24 +61,45 @@
       "kda_promedio": 0.7727272727272727
     },
     {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
       "nombre": "Smolder",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.5454545454545454
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 26,
+    "games": 65,
+    "wins": 31,
     "losses": 34,
-    "timePlayed": 98437
+    "timePlayed": 101752
   }
 }

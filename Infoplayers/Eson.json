@@ -13,36 +13,36 @@
   "cuentas": [
     {
       "nombre": "BabtouElMordjené#twixy",
-      "nivel": 141,
+      "nivel": 142,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 754,
-      "victorias": 245,
-      "derrotas": 204,
-      "ultima_partida": 1753480904572
+      "lp": 763,
+      "victorias": 248,
+      "derrotas": 206,
+      "ultima_partida": 1753708338975
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
       "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 4.6
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.933333333333333
     },
     {
       "nombre": "Thresh",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 3.9285714285714284
+      "kda_promedio": 3.7
     },
     {
       "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.9375
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.125
     },
     {
       "nombre": "Braum",
@@ -59,6 +59,13 @@
       "kda_promedio": 4.714285714285714
     },
     {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
       "nombre": "Syndra",
       "partidas": 1,
       "victorias": 1,
@@ -67,9 +74,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
-    "wins": 15,
-    "losses": 4,
-    "timePlayed": 34020
+    "games": 22,
+    "wins": 17,
+    "losses": 5,
+    "timePlayed": 39172
   }
 }

@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "elramir#kofte",
-      "nivel": 700,
+      "nivel": 701,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 783,
-      "victorias": 614,
-      "derrotas": 569,
-      "ultima_partida": 1753581321428
+      "lp": 802,
+      "victorias": 616,
+      "derrotas": 570,
+      "ultima_partida": 1753718973494
     },
     {
       "nombre": "DJ AATROX#DEATH",
       "nivel": 717,
       "region": "EUW1",
       "liga": "DIAMOND I",
-      "lp": 75,
+      "lp": 25,
       "victorias": 169,
       "derrotas": 151,
       "ultima_partida": 1749844402032
@@ -52,10 +52,17 @@
     },
     {
       "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Gwen",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.5555555555555554
+      "kda_promedio": 1.5789473684210527
     },
     {
       "nombre": "Yorick",
@@ -70,13 +77,6 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.5384615384615385
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2307692307692308
     },
     {
       "nombre": "Jayce",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 17,
-    "losses": 22,
-    "timePlayed": 64573
+    "games": 42,
+    "wins": 19,
+    "losses": 23,
+    "timePlayed": 70089
   }
 }

@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Kolinahr Master#EUW",
-      "nivel": 85,
+      "nivel": 87,
       "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 84,
-      "victorias": 55,
-      "derrotas": 23,
-      "ultima_partida": 1753544306401
+      "liga": "DIAMOND II",
+      "lp": 18,
+      "victorias": 69,
+      "derrotas": 29,
+      "ultima_partida": 1753728629635
     },
     {
       "nombre": "Azzapp#31415",
@@ -54,73 +54,73 @@
       "kda_promedio": 3.925
     },
     {
-      "nombre": "Velkoz",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.225
-    },
-    {
       "nombre": "Smolder",
-      "partidas": 5,
-      "victorias": 5,
+      "partidas": 8,
+      "victorias": 8,
       "winrate": "100.0%",
-      "kda_promedio": 5.473684210526316
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.6774193548387095
+      "kda_promedio": 5.533333333333333
     },
     {
       "nombre": "Caitlyn",
-      "partidas": 4,
+      "partidas": 7,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.15
+      "winrate": "42.9%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0588235294117645
     },
     {
       "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 4,
+      "partidas": 5,
+      "victorias": 5,
       "winrate": "100.0%",
-      "kda_promedio": 6
+      "kda_promedio": 5.714285714285714
+    },
+    {
+      "nombre": "Velkoz",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.739130434782609
     },
     {
       "nombre": "Jinx",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
+      "winrate": "75.0%",
+      "kda_promedio": 3.2941176470588234
     },
     {
-      "nombre": "Lucian",
-      "partidas": 3,
+      "nombre": "Samira",
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 9.2
+      "winrate": "75.0%",
+      "kda_promedio": 4.1
     },
     {
       "nombre": "Vayne",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 3.1666666666666665
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Zeri",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2777777777777777
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 80,
-    "wins": 56,
-    "losses": 24,
-    "timePlayed": 137432
+    "games": 95,
+    "wins": 67,
+    "losses": 28,
+    "timePlayed": 164611
   }
 }

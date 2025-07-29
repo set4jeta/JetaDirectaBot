@@ -1,0 +1,50 @@
+{
+  "info_jugador": {
+    "nombre": "Lwaq",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/flolwaq",
+      "twitch": "https://www.twitch.tv/flolwaq"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Element Empress#ADO",
+      "nivel": 228,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1341,
+      "victorias": 176,
+      "derrotas": 114,
+      "ultima_partida": 1753653342698
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 35,
+      "victorias": 24,
+      "winrate": "68.6%",
+      "kda_promedio": 3.0794701986754967
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 36,
+    "wins": 24,
+    "losses": 12,
+    "timePlayed": 57544
+  }
+}

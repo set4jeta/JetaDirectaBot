@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "whiteinnn#EUW",
-      "nivel": 998,
+      "nivel": 999,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 791,
+      "lp": 749,
       "victorias": 264,
-      "derrotas": 239,
-      "ultima_partida": 1753436602891
+      "derrotas": 241,
+      "ultima_partida": 1753701087070
     }
   ],
   "campeones_recientes": [
@@ -40,32 +40,18 @@
       "kda_promedio": 5
     },
     {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2941176470588236
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4
-    },
-    {
       "nombre": "Rell",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
     },
     {
       "nombre": "Ezreal",
@@ -94,12 +80,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 9,
+    "games": 17,
+    "wins": 8,
     "losses": 9,
-    "timePlayed": 27915
+    "timePlayed": 25771
   }
 }

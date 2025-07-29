@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Targamas",
     "nombre_real": "Raphaël Crabbé",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Karmine Corp",
     "pais": "Belgium",
     "contrato_hasta": "2025-11-17T00:00:00.000Z",
@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Targamas#5555",
-      "nivel": 1173,
+      "nivel": 1174,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1232,
-      "victorias": 367,
+      "lp": 1334,
+      "victorias": 372,
       "derrotas": 310,
-      "ultima_partida": 1753565824217
+      "ultima_partida": 1753697289709
     },
     {
       "nombre": "Grizzly Hills#123",
@@ -38,17 +38,17 @@
   "campeones_recientes": [
     {
       "nombre": "Neeko",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 2.1772151898734178
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8857142857142857
     },
     {
-      "nombre": "Bard",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.74
+      "nombre": "Thresh",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.5849056603773586
     },
     {
       "nombre": "Rell",
@@ -58,18 +58,11 @@
       "kda_promedio": 4.967741935483871
     },
     {
-      "nombre": "Poppy",
-      "partidas": 4,
+      "nombre": "Bard",
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.133333333333334
-    },
-    {
-      "nombre": "Thresh",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.625
+      "winrate": "50.0%",
+      "kda_promedio": 2.511627906976744
     },
     {
       "nombre": "Nami",
@@ -86,6 +79,13 @@
       "kda_promedio": 2.45
     },
     {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
       "nombre": "Galio",
       "partidas": 2,
       "victorias": 0,
@@ -93,24 +93,24 @@
       "kda_promedio": 1.4444444444444444
     },
     {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2857142857142856
-    },
-    {
-      "nombre": "Senna",
+      "nombre": "Pyke",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.4545454545454546
+      "kda_promedio": 6.4
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 31,
-    "losses": 23,
-    "timePlayed": 88998
+    "games": 51,
+    "wins": 29,
+    "losses": 22,
+    "timePlayed": 83504
   }
 }

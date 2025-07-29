@@ -15,29 +15,36 @@
   "cuentas": [
     {
       "nombre": "Shredder#SHRD",
-      "nivel": 1133,
+      "nivel": 1135,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1050,
-      "victorias": 187,
-      "derrotas": 140,
-      "ultima_partida": 1753565961094
+      "liga": "GRANDMASTER I",
+      "lp": 915,
+      "victorias": 190,
+      "derrotas": 149,
+      "ultima_partida": 1753708661530
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rakan",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.2272727272727275
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.461538461538462
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 4.151515151515151
     },
     {
       "nombre": "Alistar",
       "partidas": 5,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 1.826086956521739
     },
     {
       "nombre": "Bard",
@@ -47,18 +54,18 @@
       "kda_promedio": 4.055555555555555
     },
     {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.2272727272727275
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
     },
     {
-      "nombre": "Leona",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.3529411764705883
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.111111111111111
     },
     {
       "nombre": "Braum",
@@ -82,17 +89,17 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Neeko",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 19
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 18,
-    "losses": 14,
-    "timePlayed": 54174
+    "games": 41,
+    "wins": 19,
+    "losses": 22,
+    "timePlayed": 68270
   }
 }

@@ -6,7 +6,7 @@ from esports_extension.models.live import LiveStats
 from esports_extension.models.tracker import TrackedMatch, TrackedStatus
 from esports_extension.services.api import APIClient
 from esports_extension.utils.time_utils import get_network_time, round_down_to_10_seconds
-from esports_extension.services.storage import save_tracked_matches, load_tracked_matches, cleanup_completed_matches_in_memory, save_firestore_data, load_firestore_data # Asegúrate de que tu api.py esté en services/
+from esports_extension.services.storage import save_tracked_matches, load_tracked_matches, cleanup_completed_matches_in_memory # Asegúrate de que tu api.py esté en services/
 from esports_extension.services.embed_service import EmbedService
 from esports_extension.services.chat_winner_detector import analyze_chat_and_update_wins
 from esports_extension.services.storage import load_notified_games, save_notified_games
@@ -33,7 +33,7 @@ class TrackerService:
         self.tracked_matches = {
             m.match_id: m for m in load_tracked_matches("tracked_matches.json")
         }
-        self.firestore_data = load_firestore_data()# 🔹 Carga partidos previamente trackeados
+        
         self.SLUG_PRIORITY = (
     "worlds", "first_stand", "msi", "lck", "lpl", "lec", "lta_cross", "lta_n", "lta_s", "emea_masters",
     "lcs", "lck_challengers_league", "nacl", "superliga", "nlc", "lfl", "north_regional_league",
@@ -112,8 +112,7 @@ class TrackerService:
                         print(f"[📊] LiveStats para game {tracked_game.number}: game_id={tracked_game.game_id}")
                         # Si responde 200, la partida ha comenzado (o está en draft)
                         await tracked_game.enrich_from_live_stats(LiveStats(live_stats_raw_simple))
-                        print(f"[Firestore] Forzando guardado para game_id: {tracked_game.game_id}")
-                        await self._update_firestore_game(tracked_game.game_id)
+                       
                         if not tracked_game.live_blue_metadata or not tracked_game.live_red_metadata:
                             print(f"[⚠️] No hay metadata disponible para game {tracked_game.number}")
                         
@@ -150,8 +149,7 @@ class TrackerService:
                         live_stats_raw = await self.api_client.get_livestats(tracked_game.game_id, starting_time=starting_time)
                         await tracked_game.enrich_from_live_stats(LiveStats(live_stats_raw))
                         print(f"[TRACKER] Post-LiveStats: game_id={tracked_game.game_id}, has_participants={tracked_game.has_participants}, draft_in_progress={tracked_game.draft_in_progress}, state={tracked_game.state}")
-                        print(f"[Firestore] Forzando guardado para game_id: {tracked_game.game_id}")
-                        await self._update_firestore_game(tracked_game.game_id)                                    # Si no hay participantes, sigue siendo draft
+                                                           # Si no hay participantes, sigue siendo draft
                       
                                     # --- NUEVO: Si LiveStats responde y el estado es "unstarted", forzar a "inProgress" ---
                         if tracked_game.state == "unstarted":
@@ -160,15 +158,15 @@ class TrackerService:
                             # Opcional: también puedes marcar la serie como inProgress si al menos un juego lo está
                             tracked.state = "inProgress"  
                             # Si no hay real_start_time, asígnalo ahora
-                            if not tracked_game.real_start_time:
-                                tracked_game.real_start_time = await get_network_time()        
+                            if tracked_game.real_start_time is None:
+                                tracked_game.real_start_time = await get_network_time()
+                            else:
+                                print(f"[⏱️] real_start_time ya estaba asignado: {tracked_game.real_start_time}")     
                         
                         
                                             # --- BLOQUE NUEVO ---
                         print(f"[DEBUG] game_id={tracked_game.game_id} has_participants={tracked_game.has_participants} draft_in_progress={tracked_game.draft_in_progress}")
-                        if tracked_game.has_participants and not tracked_game.draft_in_progress:
-                            print(f"[Firestore] Actualizando datos para game_id: {tracked_game.game_id}")
-                            await self._update_firestore_game(tracked_game.game_id)
+                        
                            
                         # --- FIN BLOQUE NUEVO ---
                         
@@ -238,6 +236,8 @@ class TrackerService:
         await self.update_completed_matches()
         print(f"[+] Actualizando partidos completados en memoria")
         await cleanup_completed_matches_in_memory(self.tracked_matches, hours=2)
+        
+        
         print(f"[+] Guardando partidos trackeados en tracked_matches.json")
         await save_tracked_matches(list(self.tracked_matches.values()), "tracked_matches.json")
         
@@ -315,10 +315,16 @@ class TrackerService:
                 tracked.state = "completed"
                 updated = True
 
-        # 7. Guardar solo si hubo cambios
-        if updated:
+        # 7. Eliminar partidos completados de self.tracked_matches
+        completed_ids = [match_id for match_id, match in self.tracked_matches.items() if match.status == TrackedStatus.COMPLETED]
+        for match_id in completed_ids:
+            print(f"[🧹] Eliminando match completado de memoria: {match_id}")
+            del self.tracked_matches[match_id]
+
+        # 8. Guardar si hubo cambios
+        if updated or completed_ids:
             await save_tracked_matches(list(self.tracked_matches.values()), "tracked_matches.json")
-            print("[💾] Guardado exitoso de partidos completados")
+            print("[💾] Guardado exitoso de partidos completados y limpieza de memoria")
 
         
     
@@ -381,30 +387,7 @@ class TrackerService:
         if updated:
             print("[💾] Guardado post-notificación exitoso")
             
-    
-    async def _update_firestore_game(self, game_id: str) -> None:
-        print(f"[Firestore] _update_firestore_game llamado para {game_id}")
-        """Actualiza y guarda datos de Firestore para un game_id"""
-        if not game_id:
-            return
-            
-        try:
-            # 1. Obtener datos de Firestore
-            data = await self.api_client.get_firestore_game_data(game_id)
-            if not data:
-                return
-
-            # 2. Guardar en memoria y disco
-            self.firestore_data[game_id] = data
-            await save_firestore_data(game_id, data)  # Guarda TODO el archivo
-            
-        except Exception as e:
-            print(f"[Firestore] Error en game_id {game_id}: {str(e)}")
-        
-        
-            
-        
-          
+   
 
 
 ## 🟢 Creamos el cliente que sabe cómo llamar a la API

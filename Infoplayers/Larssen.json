@@ -18,47 +18,54 @@
       "nivel": 671,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 173,
-      "victorias": 329,
-      "derrotas": 327,
-      "ultima_partida": 1753471833020
+      "lp": 194,
+      "victorias": 334,
+      "derrotas": 331,
+      "ultima_partida": 1753695501981
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yone",
+      "nombre": "Leblanc",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 2.5757575757575757
-    },
-    {
-      "nombre": "Leblanc",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.0833333333333335
+      "kda_promedio": 3.3333333333333335
     },
     {
       "nombre": "Ahri",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.769230769230769
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.7058823529411766
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.608695652173913
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
     },
     {
       "nombre": "Akali",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.7916666666666667
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 1.6956521739130435
     },
     {
       "nombre": "Sylas",
@@ -66,20 +73,6 @@
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 1.0666666666666667
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3846153846153846
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8
     },
     {
       "nombre": "Cassiopeia",
@@ -94,12 +87,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 14,
-    "losses": 18,
-    "timePlayed": 50351
+    "games": 34,
+    "wins": 15,
+    "losses": 19,
+    "timePlayed": 53565
   }
 }

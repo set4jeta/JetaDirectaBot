@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Noah7#3977",
-      "nivel": 112,
+      "nivel": 114,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 956,
-      "victorias": 380,
-      "derrotas": 339,
-      "ultima_partida": 1753568485123
+      "liga": "CHALLENGER I",
+      "lp": 1070,
+      "victorias": 389,
+      "derrotas": 343,
+      "ultima_partida": 1753741160991
     },
     {
       "nombre": "숨바꼭질#Noah",
@@ -58,10 +58,17 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 18,
-      "victorias": 12,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3916666666666666
+      "partidas": 20,
+      "victorias": 14,
+      "winrate": "70.0%",
+      "kda_promedio": 2.484126984126984
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.5918367346938775
     },
     {
       "nombre": "Lucian",
@@ -71,11 +78,11 @@
       "kda_promedio": 2.6666666666666665
     },
     {
-      "nombre": "Aphelios",
+      "nombre": "Ryze",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.730769230769231
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.92
     },
     {
       "nombre": "Sivir",
@@ -92,11 +99,18 @@
       "kda_promedio": 2.764705882352941
     },
     {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    },
+    {
       "nombre": "Kaisa",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1875
     },
     {
       "nombre": "LeeSin",
@@ -106,31 +120,17 @@
       "kda_promedio": 2.1818181818181817
     },
     {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4285714285714284
-    },
-    {
-      "nombre": "Caitlyn",
+      "nombre": "Jhin",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 4.5
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
+      "kda_promedio": 5.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 29,
-    "losses": 20,
-    "timePlayed": 73349
+    "games": 59,
+    "wins": 37,
+    "losses": 22,
+    "timePlayed": 87998
   }
 }

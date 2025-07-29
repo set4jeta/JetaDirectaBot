@@ -16,60 +16,46 @@
   "cuentas": [
     {
       "nombre": "ToongE#FSK",
-      "nivel": 238,
+      "nivel": 240,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1347,
-      "victorias": 613,
-      "derrotas": 546,
-      "ultima_partida": 1753469960225
+      "lp": 1294,
+      "victorias": 619,
+      "derrotas": 554,
+      "ultima_partida": 1753744516325
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 17,
-      "victorias": 11,
-      "winrate": "64.7%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 15,
-      "victorias": 5,
-      "winrate": "33.3%",
-      "kda_promedio": 2.197802197802198
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 2.4642857142857144
+      "partidas": 21,
+      "victorias": 12,
+      "winrate": "57.1%",
+      "kda_promedio": 2.5166666666666666
     },
     {
       "nombre": "Ashe",
       "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.625
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.4375
     },
     {
       "nombre": "Yasuo",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.59375
+    },
+    {
+      "nombre": "Lucian",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.227272727272727
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5675675675675675
     },
     {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Draven",
+      "nombre": "Corki",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
@@ -78,16 +64,16 @@
     {
       "nombre": "Leblanc",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3076923076923075
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.263157894736842
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4
     },
     {
       "nombre": "Caitlyn",
@@ -95,12 +81,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.6153846153846154
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.923076923076923
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4166666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 53,
-    "losses": 44,
-    "timePlayed": 162394
+    "games": 77,
+    "wins": 40,
+    "losses": 37,
+    "timePlayed": 125261
   }
 }

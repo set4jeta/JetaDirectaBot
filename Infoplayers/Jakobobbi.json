@@ -13,46 +13,74 @@
   "cuentas": [
     {
       "nombre": "Truman#42069",
-      "nivel": 621,
+      "nivel": 622,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 822,
-      "victorias": 134,
-      "derrotas": 81,
-      "ultima_partida": 1753457647759
+      "lp": 838,
+      "victorias": 136,
+      "derrotas": 82,
+      "ultima_partida": 1753726460283
     },
     {
       "nombre": "DarkandDarker123#42069",
-      "nivel": 351,
+      "nivel": 353,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 28,
-      "victorias": 174,
-      "derrotas": 166,
-      "ultima_partida": 1753395183263
+      "lp": 103,
+      "victorias": 180,
+      "derrotas": 172,
+      "ultima_partida": 1753659925097
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.55
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.5641025641025643
     },
     {
-      "nombre": "Pyke",
+      "nombre": "Nidalee",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.7826086956521738
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Blitzcrank",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.2
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7333333333333334
     },
     {
       "nombre": "Rell",
@@ -69,45 +97,17 @@
       "kda_promedio": 1
     },
     {
-      "nombre": "Elise",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Galio",
+      "nombre": "Braum",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.8
-    },
-    {
-      "nombre": "Taric",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7.5
+      "kda_promedio": 2.2857142857142856
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 11,
-    "losses": 6,
-    "timePlayed": 25625
+    "games": 27,
+    "wins": 15,
+    "losses": 12,
+    "timePlayed": 42133
   }
 }

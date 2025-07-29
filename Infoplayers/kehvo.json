@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "Kehvo#EUW",
-      "nivel": 786,
+      "nivel": 789,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 850,
-      "victorias": 239,
-      "derrotas": 202,
-      "ultima_partida": 1753455687393
+      "lp": 789,
+      "victorias": 243,
+      "derrotas": 209,
+      "ultima_partida": 1753726396777
     },
     {
       "nombre": "Jeesus III#EUW",
       "nivel": 131,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 81,
+      "lp": 6,
       "victorias": 127,
       "derrotas": 112,
       "ultima_partida": 1753388852566
@@ -44,73 +44,73 @@
       "kda_promedio": 2.8333333333333335
     },
     {
-      "nombre": "Aphelios",
+      "nombre": "Ziggs",
       "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.7857142857142856
     },
     {
-      "nombre": "Corki",
+      "nombre": "Aphelios",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.05
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6923076923076925
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4.9
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.7777777777777777
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Senna",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.6153846153846154
+      "winrate": "80.0%",
+      "kda_promedio": 3.0526315789473686
     },
     {
-      "nombre": "Ziggs",
+      "nombre": "Corki",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.4285714285714284
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.9411764705882355
     },
     {
       "nombre": "Jinx",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0714285714285716
+      "winrate": "25.0%",
+      "kda_promedio": 1.9375
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.2
     },
     {
       "nombre": "Lucian",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.2105263157894737
+      "kda_promedio": 1.1176470588235294
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9375
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.090909090909091
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
-    "wins": 36,
-    "losses": 29,
-    "timePlayed": 101997
+    "games": 61,
+    "wins": 33,
+    "losses": 28,
+    "timePlayed": 95244
   }
 }

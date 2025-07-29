@@ -8,38 +8,38 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/HansSamD2001",
-      "twitch": "\\thttps://www.twitch.tv/lol_samd"
+      "twitch": "\\thttps://www.twitch.tv/lol_samd\\t"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/hanssamd.webp",
     "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
   },
   "cuentas": [
     {
-      "nombre": "Son heungmin#GODS",
-      "nivel": 73,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 947,
-      "victorias": 82,
-      "derrotas": 33,
-      "ultima_partida": 1753393337801
-    },
-    {
       "nombre": "Hans SamD#KRKR",
       "nivel": 107,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 115,
+      "liga": "MASTER I",
+      "lp": 25,
+      "victorias": 120,
       "derrotas": 85,
-      "ultima_partida": 1752744463237
+      "ultima_partida": 1753738501984
+    },
+    {
+      "nombre": "Son heungmin#GODS",
+      "nivel": 74,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1041,
+      "victorias": 88,
+      "derrotas": 34,
+      "ultima_partida": 1753725978175
     },
     {
       "nombre": "Kimchi sama#123",
       "nivel": 103,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 0,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 136,
       "derrotas": 62,
       "ultima_partida": 1752436977951
@@ -65,17 +65,10 @@
     },
     {
       "nombre": "Lucian",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.285714285714286
+      "winrate": "71.4%",
+      "kda_promedio": 3.3214285714285716
     },
     {
       "nombre": "Viego",
@@ -87,16 +80,16 @@
     {
       "nombre": "Xayah",
       "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.7096774193548385
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.076923076923077
     },
     {
       "nombre": "Aphelios",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6875
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.117647058823529
     },
     {
       "nombre": "Caitlyn",
@@ -106,18 +99,25 @@
       "kda_promedio": 4.125
     },
     {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.833333333333333
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.625
     },
     {
       "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Sivir",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.8181818181818183
     },
     {
       "nombre": "Vi",
@@ -128,9 +128,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 45,
-    "losses": 26,
-    "timePlayed": 110582
+    "games": 72,
+    "wins": 49,
+    "losses": 23,
+    "timePlayed": 112277
   }
 }

@@ -28,31 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "JarvanIV",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.772727272727273
-    },
-    {
-      "nombre": "Vi",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 5.818181818181818
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 2,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.125
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
+      "winrate": "33.3%",
+      "kda_promedio": 1.9
     },
     {
       "nombre": "Ivern",
@@ -62,25 +41,11 @@
       "kda_promedio": 1.4
     },
     {
-      "nombre": "Khazix",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 17
-    },
-    {
-      "nombre": "Kindred",
+      "nombre": "LeeSin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.8
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 7
+      "kda_promedio": 1.1666666666666667
     },
     {
       "nombre": "Skarner",
@@ -90,17 +55,24 @@
       "kda_promedio": 1.375
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Vi",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 11,
-    "losses": 7,
-    "timePlayed": 28280
+    "games": 8,
+    "wins": 3,
+    "losses": 5,
+    "timePlayed": 13552
   }
 }

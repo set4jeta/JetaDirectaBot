@@ -15,54 +15,61 @@
   },
   "cuentas": [
     {
-      "nombre": "Angel#EUW7",
-      "nivel": 980,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 269,
-      "victorias": 356,
-      "derrotas": 340,
-      "ultima_partida": 1753576942836
-    },
-    {
       "nombre": "Karina#Real",
       "nivel": 341,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 793,
-      "victorias": 477,
-      "derrotas": 426,
-      "ultima_partida": 1753196513765
+      "lp": 814,
+      "victorias": 482,
+      "derrotas": 429,
+      "ultima_partida": 1753726370619
+    },
+    {
+      "nombre": "Angel#EUW7",
+      "nivel": 980,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 230,
+      "victorias": 356,
+      "derrotas": 342,
+      "ultima_partida": 1753603078043
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Kayn",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.7833333333333334
+    },
+    {
       "nombre": "Pantheon",
       "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Kayn",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6727272727272726
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.7
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 4,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3
+      "winrate": "42.9%",
+      "kda_promedio": 2.108108108108108
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.03125
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8823529411764706
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.75
     },
     {
       "nombre": "JarvanIV",
@@ -72,25 +79,11 @@
       "kda_promedio": 2.0588235294117645
     },
     {
-      "nombre": "Karthus",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4166666666666665
-    },
-    {
-      "nombre": "Nocturne",
+      "nombre": "Naafiri",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.7407407407407407
-    },
-    {
-      "nombre": "Soraka",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9166666666666667
+      "kda_promedio": 1.875
     },
     {
       "nombre": "Ziggs",
@@ -98,6 +91,13 @@
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5833333333333335
     },
     {
       "nombre": "Nami",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 28,
+    "games": 54,
+    "wins": 27,
     "losses": 27,
-    "timePlayed": 96433
+    "timePlayed": 92571
   }
 }

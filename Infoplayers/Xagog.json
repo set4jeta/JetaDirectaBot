@@ -15,71 +15,43 @@
   },
   "cuentas": [
     {
+      "nombre": "Xagog#EUW",
+      "nivel": 348,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 631,
+      "victorias": 63,
+      "derrotas": 35,
+      "ultima_partida": 1753743769674
+    },
+    {
       "nombre": "decay arc#EUW",
-      "nivel": 105,
+      "nivel": 106,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1287,
-      "victorias": 224,
+      "lp": 1337,
+      "victorias": 227,
       "derrotas": 139,
-      "ultima_partida": 1753469960225
+      "ultima_partida": 1753737146271
     },
     {
       "nombre": "ANKARAI0MESSI#EUW",
-      "nivel": 311,
+      "nivel": 312,
       "region": "EUW1",
       "liga": "EMERALD I",
       "lp": 45,
       "victorias": 9,
       "derrotas": 17,
-      "ultima_partida": 1753443652681
-    },
-    {
-      "nombre": "Xagog#EUW",
-      "nivel": 348,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 587,
-      "victorias": 61,
-      "derrotas": 35,
-      "ultima_partida": 1753189553753
+      "ultima_partida": 1753627213050
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Naafiri",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3043478260869565
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.896551724137931
-    },
     {
       "nombre": "Pantheon",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 4.6875
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 5.7272727272727275
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.8636363636363635
+      "kda_promedio": 4.111111111111111
     },
     {
       "nombre": "Ekko",
@@ -89,11 +61,11 @@
       "kda_promedio": 2.5833333333333335
     },
     {
-      "nombre": "JarvanIV",
+      "nombre": "Trundle",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 4.25
+      "kda_promedio": 5.6
     },
     {
       "nombre": "Graves",
@@ -103,24 +75,52 @@
       "kda_promedio": 1.4444444444444444
     },
     {
-      "nombre": "Jax",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "LeeSin",
+      "nombre": "JarvanIV",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 19
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
-    "wins": 17,
-    "losses": 14,
-    "timePlayed": 48784
+    "games": 18,
+    "wins": 11,
+    "losses": 7,
+    "timePlayed": 31019
   }
 }

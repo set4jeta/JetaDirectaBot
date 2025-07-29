@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "Brevitate Vitae#EUW",
-      "nivel": 739,
+      "nivel": 740,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 803,
-      "victorias": 325,
-      "derrotas": 283,
-      "ultima_partida": 1753367741454
+      "lp": 871,
+      "victorias": 330,
+      "derrotas": 285,
+      "ultima_partida": 1753699734787
     },
     {
       "nombre": "Bucht#EUW",
@@ -37,17 +37,17 @@
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.9230769230769231
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.4324324324324325
     },
     {
       "nombre": "Kaisa",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.789473684210526
+      "winrate": "20.0%",
+      "kda_promedio": 3.8076923076923075
     },
     {
       "nombre": "Nautilus",
@@ -55,6 +55,20 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
     },
     {
       "nombre": "Bard",
@@ -85,31 +99,17 @@
       "kda_promedio": 1
     },
     {
-      "nombre": "Rakan",
+      "nombre": "Rell",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 8
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 15
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 7,
-    "losses": 10,
-    "timePlayed": 28759
+    "games": 24,
+    "wins": 12,
+    "losses": 12,
+    "timePlayed": 41266
   }
 }

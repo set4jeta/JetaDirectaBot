@@ -16,36 +16,22 @@
   "cuentas": [
     {
       "nombre": "ToothIess#EUW",
-      "nivel": 1334,
+      "nivel": 1335,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 965,
-      "victorias": 647,
-      "derrotas": 605,
-      "ultima_partida": 1753462961125
+      "lp": 884,
+      "victorias": 651,
+      "derrotas": 613,
+      "ultima_partida": 1753701978928
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rumble",
-      "partidas": 21,
-      "victorias": 11,
-      "winrate": "52.4%",
-      "kda_promedio": 3.1931818181818183
-    },
-    {
-      "nombre": "Shen",
-      "partidas": 13,
+      "partidas": 15,
       "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 3.5121951219512195
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1343283582089554
+      "winrate": "53.3%",
+      "kda_promedio": 3.3492063492063493
     },
     {
       "nombre": "Gwen",
@@ -55,52 +41,66 @@
       "kda_promedio": 2.1463414634146343
     },
     {
-      "nombre": "Jayce",
-      "partidas": 9,
-      "victorias": 9,
-      "winrate": "100.0%",
-      "kda_promedio": 3.6341463414634148
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Jax",
+      "nombre": "Renekton",
       "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.9
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.9210526315789473
     },
     {
       "nombre": "Camille",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.071428571428571
+      "winrate": "66.7%",
+      "kda_promedio": 3.388888888888889
     },
     {
-      "nombre": "Gnar",
-      "partidas": 4,
+      "nombre": "Jax",
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.9166666666666667
+      "winrate": "20.0%",
+      "kda_promedio": 1.36
     },
     {
-      "nombre": "KSante",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1875
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.774193548387097
     },
     {
-      "nombre": "Kennen",
-      "partidas": 4,
+      "nombre": "Shen",
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.473684210526316
+      "winrate": "60.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8095238095238095
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 119,
-    "wins": 66,
-    "losses": 53,
-    "timePlayed": 198132
+    "games": 89,
+    "wins": 42,
+    "losses": 47,
+    "timePlayed": 147641
   }
 }

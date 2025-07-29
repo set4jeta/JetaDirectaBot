@@ -19,26 +19,26 @@
       "nivel": 786,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1023,
-      "victorias": 429,
-      "derrotas": 395,
-      "ultima_partida": 1753368145110
+      "lp": 1021,
+      "victorias": 431,
+      "derrotas": 396,
+      "ultima_partida": 1753730164507
     }
   ],
   "campeones_recientes": [
-    {
-      "nombre": "Ezreal",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.5
-    },
     {
       "nombre": "Lucian",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1818181818181817
     },
     {
       "nombre": "Yunara",
@@ -55,11 +55,11 @@
       "kda_promedio": 1.1428571428571428
     },
     {
-      "nombre": "MissFortune",
+      "nombre": "Jinx",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.6
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     },
     {
       "nombre": "Senna",
@@ -73,20 +73,13 @@
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6
+      "kda_promedio": 7.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 6,
+    "games": 10,
+    "wins": 2,
     "losses": 8,
-    "timePlayed": 23282
+    "timePlayed": 17776
   }
 }

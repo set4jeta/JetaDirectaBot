@@ -17,11 +17,11 @@
       "nombre": "Spellbook Reader#book",
       "nivel": 161,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1022,
-      "victorias": 136,
+      "liga": "CHALLENGER I",
+      "lp": 1039,
+      "victorias": 137,
       "derrotas": 96,
-      "ultima_partida": 1753525073388
+      "ultima_partida": 1753691626689
     },
     {
       "nombre": "Autumn Leaf#Seal",
@@ -37,24 +37,17 @@
   "campeones_recientes": [
     {
       "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.8125
+      "kda_promedio": 2.7142857142857144
     },
     {
       "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7.333333333333333
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1538461538461537
     },
     {
       "nombre": "Elise",
@@ -62,6 +55,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Leona",
@@ -72,9 +72,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 6,
+    "games": 7,
+    "wins": 4,
     "losses": 3,
-    "timePlayed": 14554
+    "timePlayed": 11990
   }
 }

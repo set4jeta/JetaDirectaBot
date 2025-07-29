@@ -16,91 +16,91 @@
   "cuentas": [
     {
       "nombre": "c0st0m#dane",
-      "nivel": 815,
+      "nivel": 816,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 958,
-      "victorias": 226,
-      "derrotas": 184,
-      "ultima_partida": 1753404911565
+      "lp": 965,
+      "victorias": 231,
+      "derrotas": 188,
+      "ultima_partida": 1753754845748
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aurora",
-      "partidas": 12,
+      "partidas": 11,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 2.78
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4375
+      "winrate": "54.5%",
+      "kda_promedio": 2.84
     },
     {
       "nombre": "Sylas",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.3333333333333333
+      "winrate": "33.3%",
+      "kda_promedio": 1.5555555555555556
     },
     {
       "nombre": "Syndra",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.9411764705882353
+      "kda_promedio": 2.5555555555555554
     },
     {
-      "nombre": "Ahri",
+      "nombre": "Varus",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.2222222222222223
+      "kda_promedio": 1.75
     },
     {
-      "nombre": "Akali",
+      "nombre": "Ziggs",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 6.166666666666667
+      "kda_promedio": 2.5
     },
     {
-      "nombre": "Annie",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8333333333333333
-    },
-    {
-      "nombre": "Kassadin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.8
-    },
-    {
-      "nombre": "Leblanc",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4
-    },
-    {
-      "nombre": "Azir",
+      "nombre": "Ahri",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 18,
-    "losses": 26,
-    "timePlayed": 69571
+    "games": 28,
+    "wins": 14,
+    "losses": 14,
+    "timePlayed": 44560
   }
 }

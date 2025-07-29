@@ -15,57 +15,57 @@
   },
   "cuentas": [
     {
-      "nombre": "Hybradge#ADL",
-      "nivel": 163,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 787,
-      "victorias": 410,
-      "derrotas": 356,
-      "ultima_partida": 1753537596884
-    },
-    {
-      "nombre": "YOUTUBE HYBRADGE#ADL",
-      "nivel": 614,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1129,
-      "victorias": 367,
-      "derrotas": 315,
-      "ultima_partida": 1753535561133
-    },
-    {
       "nombre": "TTV HYBRADGE#AUSSI",
       "nivel": 99,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 312,
-      "victorias": 254,
-      "derrotas": 243,
-      "ultima_partida": 1753489481472
+      "lp": 251,
+      "victorias": 255,
+      "derrotas": 247,
+      "ultima_partida": 1753730761544
+    },
+    {
+      "nombre": "Hybradge#ADL",
+      "nivel": 164,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 734,
+      "victorias": 413,
+      "derrotas": 361,
+      "ultima_partida": 1753724448962
+    },
+    {
+      "nombre": "YOUTUBE HYBRADGE#ADL",
+      "nivel": 615,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1106,
+      "victorias": 367,
+      "derrotas": 316,
+      "ultima_partida": 1753630176555
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Volibear",
-      "partidas": 100,
-      "victorias": 57,
-      "winrate": "57.0%",
-      "kda_promedio": 2.703770197486535
+      "partidas": 92,
+      "victorias": 49,
+      "winrate": "53.3%",
+      "kda_promedio": 2.4249084249084247
     },
     {
       "nombre": "JarvanIV",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.9322033898305087
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.142857142857143
     },
     {
       "nombre": "Belveth",
       "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7777777777777777
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.5294117647058822
     },
     {
       "nombre": "Viego",
@@ -76,10 +76,10 @@
     },
     {
       "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.1153846153846154
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Kindred",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 137,
-    "wins": 74,
-    "losses": 63,
-    "timePlayed": 223877
+    "games": 130,
+    "wins": 66,
+    "losses": 64,
+    "timePlayed": 215707
   }
 }

@@ -16,101 +16,101 @@
   "cuentas": [
     {
       "nombre": "alkLFG#777",
-      "nivel": 68,
+      "nivel": 70,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 998,
-      "victorias": 224,
-      "derrotas": 159,
-      "ultima_partida": 1753456121620
+      "lp": 994,
+      "victorias": 234,
+      "derrotas": 169,
+      "ultima_partida": 1753722562818
     },
     {
       "nombre": "Malevolence#HAZE",
       "nivel": 80,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 615,
+      "lp": 576,
       "victorias": 241,
-      "derrotas": 216,
-      "ultima_partida": 1753181575631
+      "derrotas": 218,
+      "ultima_partida": 1753662641817
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Karthus",
-      "partidas": 35,
-      "victorias": 25,
-      "winrate": "71.4%",
-      "kda_promedio": 3.0728155339805827
+      "partidas": 44,
+      "victorias": 31,
+      "winrate": "70.5%",
+      "kda_promedio": 3.205533596837945
     },
     {
       "nombre": "Udyr",
-      "partidas": 21,
-      "victorias": 14,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8392857142857144
+      "partidas": 22,
+      "victorias": 13,
+      "winrate": "59.1%",
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "Sion",
-      "partidas": 16,
-      "victorias": 8,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3185840707964602
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 1.268041237113402
     },
     {
       "nombre": "JarvanIV",
       "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 4.371428571428571
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 3.4318181818181817
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6842105263157894
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8857142857142857
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.5238095238095237
     },
     {
       "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.2203389830508473
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6315789473684212
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.28125
+    },
+    {
+      "nombre": "LeeSin",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4375
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.0357142857142856
     },
     {
-      "nombre": "Poppy",
+      "nombre": "Blitzcrank",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.7083333333333333
+      "kda_promedio": 2.1904761904761907
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Karma",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.0714285714285716
+      "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 121,
-    "wins": 73,
-    "losses": 48,
-    "timePlayed": 191659
+    "games": 128,
+    "wins": 76,
+    "losses": 52,
+    "timePlayed": 205219
   }
 }

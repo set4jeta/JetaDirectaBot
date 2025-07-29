@@ -16,53 +16,53 @@
   "cuentas": [
     {
       "nombre": "HERETICS MERCY9#0303",
-      "nivel": 231,
+      "nivel": 232,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1259,
-      "victorias": 541,
-      "derrotas": 481,
-      "ultima_partida": 1753397820489
+      "lp": 1262,
+      "victorias": 545,
+      "derrotas": 484,
+      "ultima_partida": 1753753019621
     },
     {
       "nombre": "Katherine Pierce#HRTS",
       "nivel": 162,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 720,
+      "lp": 675,
       "victorias": 57,
-      "derrotas": 13,
-      "ultima_partida": 1753142094927
+      "derrotas": 15,
+      "ultima_partida": 1753660989097
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Azir",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
       "nombre": "Ryze",
-      "partidas": 7,
+      "partidas": 6,
       "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.340909090909091
+      "winrate": "83.3%",
+      "kda_promedio": 2.6470588235294117
     },
     {
       "nombre": "Taliyah",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.5853658536585367
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.515151515151515
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4838709677419355
     },
     {
       "nombre": "Aurora",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 5.333333333333333
+      "winrate": "40.0%",
+      "kda_promedio": 2.6551724137931036
     },
     {
       "nombre": "Yone",
@@ -72,25 +72,11 @@
       "kda_promedio": 0.8
     },
     {
-      "nombre": "Akali",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 15
-    },
-    {
       "nombre": "Galio",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Irelia",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5
     },
     {
       "nombre": "Jayce",
@@ -100,17 +86,31 @@
       "kda_promedio": 2.8333333333333335
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Mel",
       "partidas": 2,
-      "victorias": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 6.666666666666667
+      "kda_promedio": 3.8333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 30,
-    "losses": 18,
-    "timePlayed": 79163
+    "games": 44,
+    "wins": 24,
+    "losses": 20,
+    "timePlayed": 72653
   }
 }

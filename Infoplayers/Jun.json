@@ -16,10 +16,10 @@
       "nivel": 66,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 910,
-      "victorias": 216,
-      "derrotas": 152,
-      "ultima_partida": 1753566655905
+      "lp": 868,
+      "victorias": 217,
+      "derrotas": 155,
+      "ultima_partida": 1753645316100
     },
     {
       "nombre": "Don Benito#KING",
@@ -61,32 +61,32 @@
       "kda_promedio": 2.7674418604651163
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.5384615384615383
-    },
-    {
       "nombre": "Rakan",
-      "partidas": 7,
+      "partidas": 8,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.9565217391304346
+      "winrate": "50.0%",
+      "kda_promedio": 3.730769230769231
     },
     {
       "nombre": "Bard",
-      "partidas": 6,
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.48
+      "winrate": "71.4%",
+      "kda_promedio": 3.5294117647058822
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.757575757575758
     },
     {
       "nombre": "Elise",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.186046511627907
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.7142857142857144
     },
     {
       "nombre": "Galio",
@@ -107,7 +107,14 @@
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.125
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2
     },
     {
       "nombre": "Sion",
@@ -115,19 +122,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.4285714285714286
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.75
     }
   ],
   "estadisticas_2_semanas": {
     "games": 43,
-    "wins": 24,
-    "losses": 19,
-    "timePlayed": 67245
+    "wins": 23,
+    "losses": 20,
+    "timePlayed": 66172
   }
 }

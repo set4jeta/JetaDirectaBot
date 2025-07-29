@@ -1,0 +1,50 @@
+{
+  "info_jugador": {
+    "nombre": "Yuros",
+    "nombre_real": "Alp Kağan Ercan",
+    "edad": 21,
+    "equipo": "Galakticos Academy",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Yuros19",
+      "twitch": "https://www.twitch.tv/yurosmid"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "yuros#1205",
+      "nivel": 869,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1441,
+      "victorias": 466,
+      "derrotas": 399,
+      "ultima_partida": 1753543048784
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3220338983050848
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8181818181818182
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "timePlayed": 21670
+  }
+}

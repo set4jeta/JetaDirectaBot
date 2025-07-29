@@ -16,53 +16,53 @@
   "cuentas": [
     {
       "nombre": "PmK#Smile",
-      "nivel": 963,
+      "nivel": 964,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 377,
-      "victorias": 324,
-      "derrotas": 319,
-      "ultima_partida": 1753448081155
+      "lp": 434,
+      "victorias": 328,
+      "derrotas": 320,
+      "ultima_partida": 1753757040068
     },
     {
       "nombre": "JACKPOT#GAMBA",
-      "nivel": 88,
+      "nivel": 89,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 904,
-      "victorias": 147,
-      "derrotas": 106,
-      "ultima_partida": 1753200832164
+      "lp": 910,
+      "victorias": 155,
+      "derrotas": 112,
+      "ultima_partida": 1753592105120
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yone",
+      "nombre": "Ambessa",
       "partidas": 10,
       "victorias": 6,
       "winrate": "60.0%",
-      "kda_promedio": 2.44
+      "kda_promedio": 2.3055555555555554
     },
     {
       "nombre": "Naafiri",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.7777777777777777
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3125
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 5,
-      "victorias": 3,
+      "partidas": 10,
+      "victorias": 6,
       "winrate": "60.0%",
-      "kda_promedio": 2.0689655172413794
+      "kda_promedio": 3.116279069767442
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.361111111111111
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.16
     },
     {
       "nombre": "Kled",
@@ -72,25 +72,11 @@
       "kda_promedio": 1.24
     },
     {
-      "nombre": "Gnar",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4444444444444444
-    },
-    {
-      "nombre": "Jayce",
+      "nombre": "Aatrox",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.411764705882353
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 8.375
+      "kda_promedio": 2.35
     },
     {
       "nombre": "Renekton",
@@ -105,12 +91,26 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 62,
-    "wins": 33,
+    "games": 65,
+    "wins": 36,
     "losses": 29,
-    "timePlayed": 102465
+    "timePlayed": 106009
   }
 }

@@ -19,10 +19,10 @@
       "nivel": 840,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 952,
-      "victorias": 263,
-      "derrotas": 238,
-      "ultima_partida": 1753463067514
+      "lp": 944,
+      "victorias": 266,
+      "derrotas": 241,
+      "ultima_partida": 1753702273536
     },
     {
       "nombre": "bitsuMishi#0001",
@@ -38,31 +38,52 @@
   "campeones_recientes": [
     {
       "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2058823529411766
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1785714285714284
     },
     {
       "nombre": "Senna",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.25
+      "winrate": "33.3%",
+      "kda_promedio": 2.6842105263157894
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     },
     {
       "nombre": "Lucian",
-      "partidas": 3,
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1071428571428572
+      "kda_promedio": 0.2857142857142857
     },
     {
-      "nombre": "Nilah",
+      "nombre": "Renekton",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.333333333333333
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
     },
     {
       "nombre": "Twitch",
@@ -72,11 +93,11 @@
       "kda_promedio": 1.5
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Varus",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.5
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Zeri",
@@ -84,19 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.5714285714285714
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
+    "games": 17,
     "wins": 7,
-    "losses": 11,
-    "timePlayed": 29293
+    "losses": 10,
+    "timePlayed": 26606
   }
 }

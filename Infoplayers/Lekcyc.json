@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Lekcyc",
     "nombre_real": "Alexander Leksikov",
-    "edad": 28,
+    "edad": 29,
     "equipo": "IziDream",
     "pais": "Russia",
     "contrato_hasta": null,
@@ -15,36 +15,22 @@
   "cuentas": [
     {
       "nombre": "Izi Lekcyc#111",
-      "nivel": 749,
+      "nivel": 750,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1066,
-      "victorias": 331,
-      "derrotas": 294,
-      "ultima_partida": 1753397820489
+      "lp": 1060,
+      "victorias": 332,
+      "derrotas": 295,
+      "ultima_partida": 1753669910230
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 43,
-      "victorias": 25,
-      "winrate": "58.1%",
-      "kda_promedio": 4.197452229299363
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
+      "partidas": 28,
+      "victorias": 16,
+      "winrate": "57.1%",
+      "kda_promedio": 4.3238095238095235
     },
     {
       "nombre": "Leona",
@@ -83,9 +69,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 28,
-    "losses": 22,
-    "timePlayed": 81606
+    "games": 33,
+    "wins": 18,
+    "losses": 15,
+    "timePlayed": 54260
   }
 }

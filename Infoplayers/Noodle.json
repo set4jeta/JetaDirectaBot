@@ -15,88 +15,88 @@
   },
   "cuentas": [
     {
-      "nombre": "fill and chill#bakir",
-      "nivel": 300,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 246,
-      "victorias": 214,
-      "derrotas": 193,
-      "ultima_partida": 1753433479344
-    },
-    {
       "nombre": "BETTER SUPP WINS#Baker",
-      "nivel": 496,
+      "nivel": 497,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 876,
-      "victorias": 324,
-      "derrotas": 281,
-      "ultima_partida": 1753381531296
+      "lp": 913,
+      "victorias": 333,
+      "derrotas": 287,
+      "ultima_partida": 1753736698045
     },
     {
       "nombre": "XiaoHuaSheng7#BAKER",
       "nivel": 174,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1003,
-      "victorias": 196,
-      "derrotas": 144,
-      "ultima_partida": 1753209914562
+      "lp": 1008,
+      "victorias": 197,
+      "derrotas": 145,
+      "ultima_partida": 1753636472870
+    },
+    {
+      "nombre": "fill and chill#bakir",
+      "nivel": 301,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 280,
+      "victorias": 218,
+      "derrotas": 196,
+      "ultima_partida": 1753622402311
     },
     {
       "nombre": "2920139538#baker",
-      "nivel": 167,
+      "nivel": 168,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 534,
-      "victorias": 122,
-      "derrotas": 91,
-      "ultima_partida": 1753168809051
+      "lp": 537,
+      "victorias": 123,
+      "derrotas": 92,
+      "ultima_partida": 1753526500566
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Naafiri",
-      "partidas": 14,
-      "victorias": 6,
-      "winrate": "42.9%",
-      "kda_promedio": 4.603448275862069
+      "nombre": "Alistar",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.1714285714285713
     },
     {
       "nombre": "Viego",
       "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.8421052631578947
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1904761904761907
     },
     {
-      "nombre": "Alistar",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 4.380952380952381
+      "nombre": "Naafiri",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 3.657142857142857
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 5,
+      "partidas": 6,
       "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 5.380952380952381
+      "winrate": "83.3%",
+      "kda_promedio": 4.535714285714286
     },
     {
       "nombre": "Pantheon",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.4444444444444446
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.72972972972973
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "JarvanIV",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 4.5
+      "kda_promedio": 4.333333333333333
     },
     {
       "nombre": "Ryze",
@@ -106,31 +106,31 @@
       "kda_promedio": 2.1363636363636362
     },
     {
-      "nombre": "Trundle",
-      "partidas": 3,
+      "nombre": "XinZhao",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5384615384615383
+      "winrate": "50.0%",
+      "kda_promedio": 3.533333333333333
     },
     {
-      "nombre": "Lulu",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3684210526315788
     },
     {
-      "nombre": "Poppy",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.4285714285714284
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.7777777777777777
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 86,
-    "wins": 43,
-    "losses": 43,
-    "timePlayed": 138793
+    "games": 95,
+    "wins": 46,
+    "losses": 49,
+    "timePlayed": 147965
   }
 }

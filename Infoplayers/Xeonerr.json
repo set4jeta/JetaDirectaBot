@@ -16,67 +16,60 @@
   "cuentas": [
     {
       "nombre": "xeonerr#EU1",
-      "nivel": 810,
+      "nivel": 811,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 762,
-      "victorias": 413,
-      "derrotas": 376,
-      "ultima_partida": 1753443599318
+      "lp": 778,
+      "victorias": 416,
+      "derrotas": 378,
+      "ultima_partida": 1753699607174
     },
     {
       "nombre": "dejfDawid1#EUW",
       "nivel": 598,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1001,
-      "victorias": 198,
-      "derrotas": 155,
-      "ultima_partida": 1753440453606
+      "lp": 995,
+      "victorias": 199,
+      "derrotas": 156,
+      "ultima_partida": 1753528310886
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Pantheon",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 3.0526315789473686
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.689655172413793
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.6176470588235294
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.1176470588235294
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.15625
     },
     {
       "nombre": "Trundle",
       "partidas": 6,
       "victorias": 5,
       "winrate": "83.3%",
-      "kda_promedio": 5.866666666666666
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.764705882352941
     },
     {
       "nombre": "Gragas",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.9473684210526314
-    },
-    {
-      "nombre": "Zyra",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.733333333333333
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.45
     },
     {
       "nombre": "XinZhao",
@@ -86,11 +79,18 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Viego",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.4444444444444444
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
     },
     {
       "nombre": "Lillia",
@@ -108,9 +108,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 27,
-    "losses": 21,
-    "timePlayed": 76498
+    "games": 43,
+    "wins": 24,
+    "losses": 19,
+    "timePlayed": 69164
   }
 }

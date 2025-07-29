@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Akashi#FXG",
-      "nivel": 573,
+      "nivel": 574,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 911,
-      "victorias": 318,
-      "derrotas": 275,
-      "ultima_partida": 1753446844409
+      "lp": 886,
+      "victorias": 321,
+      "derrotas": 279,
+      "ultima_partida": 1753538058844
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Galio",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0833333333333335
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Lucian",
@@ -41,25 +41,32 @@
       "kda_promedio": 1.605263157894737
     },
     {
-      "nombre": "Annie",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.727272727272727
-    },
-    {
       "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Orianna",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.1538461538461537
+      "kda_promedio": 6.142857142857143
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Ahri",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
     },
     {
       "nombre": "Azir",
@@ -67,6 +74,13 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Sylas",
@@ -78,29 +92,15 @@
     {
       "nombre": "Taliyah",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.375
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 31,
+    "games": 34,
     "wins": 16,
-    "losses": 15,
-    "timePlayed": 44952
+    "losses": 18,
+    "timePlayed": 48956
   }
 }

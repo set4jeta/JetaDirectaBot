@@ -28,10 +28,10 @@
   "campeones_recientes": [
     {
       "nombre": "Gwen",
-      "partidas": 21,
-      "victorias": 12,
-      "winrate": "57.1%",
-      "kda_promedio": 2.0350877192982457
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 1.972972972972973
     },
     {
       "nombre": "Ambessa",
@@ -42,17 +42,10 @@
     },
     {
       "nombre": "Jax",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6363636363636365
-    },
-    {
-      "nombre": "Aatrox",
       "partidas": 7,
       "victorias": 4,
       "winrate": "57.1%",
-      "kda_promedio": 2.357142857142857
+      "kda_promedio": 1.8888888888888888
     },
     {
       "nombre": "Sion",
@@ -62,18 +55,18 @@
       "kda_promedio": 2.230769230769231
     },
     {
-      "nombre": "Jayce",
+      "nombre": "Aatrox",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.6875
+      "kda_promedio": 1.7777777777777777
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Jayce",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Rumble",
@@ -88,12 +81,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 34,
-    "losses": 23,
-    "timePlayed": 87148
+    "games": 49,
+    "wins": 30,
+    "losses": 19,
+    "timePlayed": 75984
   }
 }

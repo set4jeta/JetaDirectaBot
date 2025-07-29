@@ -1,0 +1,67 @@
+{
+  "info_jugador": {
+    "nombre": "SloppyWalrus",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "\\thttps://twitter.com/SloppyWalrusX\\t",
+      "twitch": "\\thttps://twitch.tv/sloppywalrusx\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "poffor#EUW",
+      "nivel": 335,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 483,
+      "victorias": 238,
+      "derrotas": 207,
+      "ultima_partida": 1753749366758
+    },
+    {
+      "nombre": "never trust a#fart",
+      "nivel": 530,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1248,
+      "victorias": 228,
+      "derrotas": 172,
+      "ultima_partida": 1753736116793
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 72,
+      "victorias": 38,
+      "winrate": "52.8%",
+      "kda_promedio": 2.114206128133705
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1764705882352942
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.1111111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 76,
+    "wins": 39,
+    "losses": 37,
+    "timePlayed": 123037
+  }
+}

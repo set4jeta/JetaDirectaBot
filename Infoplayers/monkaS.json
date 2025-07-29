@@ -18,19 +18,19 @@
       "nivel": 307,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1206,
-      "victorias": 298,
+      "lp": 1225,
+      "victorias": 299,
       "derrotas": 237,
-      "ultima_partida": 1753451373210
+      "ultima_partida": 1753730374365
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "FiddleSticks",
-      "partidas": 17,
-      "victorias": 13,
-      "winrate": "76.5%",
-      "kda_promedio": 4.098360655737705
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Lulu",
@@ -52,13 +52,6 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 3
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6.5
     },
     {
       "nombre": "Nunu",
@@ -83,9 +76,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
-    "wins": 16,
-    "losses": 9,
-    "timePlayed": 36432
+    "games": 19,
+    "wins": 12,
+    "losses": 7,
+    "timePlayed": 27807
   }
 }

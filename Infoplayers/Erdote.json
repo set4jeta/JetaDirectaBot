@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "wariacik lolowy#2008",
-      "nivel": 576,
+      "nivel": 577,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1401,
-      "victorias": 259,
-      "derrotas": 187,
-      "ultima_partida": 1753454749851
+      "lp": 1465,
+      "victorias": 264,
+      "derrotas": 188,
+      "ultima_partida": 1753739682175
     },
     {
       "nombre": "erdt#EUW",
@@ -37,39 +37,25 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 4.5588235294117645
-    },
-    {
       "nombre": "Nautilus",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 4
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 4.065217391304348
     },
     {
       "nombre": "Senna",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.125
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.5681818181818183
     },
     {
-      "nombre": "Rakan",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 3.1538461538461537
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.8076923076923075
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.533333333333333
     },
     {
       "nombre": "Braum",
@@ -86,18 +72,32 @@
       "kda_promedio": 1.8888888888888888
     },
     {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.764705882352941
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.7222222222222223
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.727272727272727
     },
     {
       "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.916666666666667
+    },
+    {
+      "nombre": "Poppy",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 5
+      "kda_promedio": 3
     },
     {
       "nombre": "Pyke",
@@ -109,8 +109,8 @@
   ],
   "estadisticas_2_semanas": {
     "games": 53,
-    "wins": 27,
-    "losses": 26,
-    "timePlayed": 85665
+    "wins": 28,
+    "losses": 25,
+    "timePlayed": 85163
   }
 }

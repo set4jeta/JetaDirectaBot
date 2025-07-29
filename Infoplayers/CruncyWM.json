@@ -15,20 +15,20 @@
   "cuentas": [
     {
       "nombre": "twtv CruncyWM#BLACK",
-      "nivel": 64,
+      "nivel": 67,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 850,
-      "victorias": 75,
-      "derrotas": 21,
-      "ultima_partida": 1753575632401
+      "lp": 996,
+      "victorias": 94,
+      "derrotas": 31,
+      "ultima_partida": 1753751982114
     },
     {
       "nombre": "Tw tv CruncyWM#clown",
       "nivel": 51,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 757,
+      "liga": "MASTER I",
+      "lp": 607,
       "victorias": 136,
       "derrotas": 58,
       "ultima_partida": 1752024147674
@@ -38,7 +38,7 @@
       "nivel": 45,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 738,
+      "lp": 588,
       "victorias": 101,
       "derrotas": 34,
       "ultima_partida": 1751814061867
@@ -47,17 +47,17 @@
   "campeones_recientes": [
     {
       "nombre": "Sylas",
-      "partidas": 83,
-      "victorias": 66,
-      "winrate": "79.5%",
-      "kda_promedio": 5.698245614035088
+      "partidas": 102,
+      "victorias": 78,
+      "winrate": "76.5%",
+      "kda_promedio": 5.543352601156069
     },
     {
       "nombre": "Viego",
-      "partidas": 7,
-      "victorias": 7,
-      "winrate": "100.0%",
-      "kda_promedio": 4.517241379310345
+      "partidas": 14,
+      "victorias": 13,
+      "winrate": "92.9%",
+      "kda_promedio": 4.603448275862069
     },
     {
       "nombre": "Leblanc",
@@ -72,12 +72,33 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 96,
-    "wins": 75,
-    "losses": 21,
-    "timePlayed": 146944
+    "games": 125,
+    "wins": 94,
+    "losses": 31,
+    "timePlayed": 191407
   }
 }

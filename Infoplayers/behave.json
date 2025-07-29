@@ -11,27 +11,27 @@
       "twitch": "https://www.twitch.tv/behavelol"
     },
     "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BE5.webp"
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "behave#ARAM",
-      "nivel": 547,
+      "nivel": 548,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1021,
-      "victorias": 126,
+      "liga": "CHALLENGER I",
+      "lp": 1057,
+      "victorias": 128,
       "derrotas": 88,
-      "ultima_partida": 1753583638382
+      "ultima_partida": 1753720085054
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Viego",
       "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.5238095238095237
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.8275862068965516
     },
     {
       "nombre": "Pantheon",
@@ -60,12 +60,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 16,
-    "wins": 9,
-    "losses": 7,
-    "timePlayed": 27735
+    "games": 17,
+    "wins": 12,
+    "losses": 5,
+    "timePlayed": 28685
   }
 }

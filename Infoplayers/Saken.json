@@ -18,37 +18,44 @@
       "nombre": "Storm Peaks#0001",
       "nivel": 170,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 20,
+      "liga": "MASTER I",
+      "lp": 5,
+      "victorias": 21,
       "derrotas": 11,
-      "ultima_partida": 1753482690057
+      "ultima_partida": 1753742858081
     },
     {
       "nombre": "Mazs#EUW",
-      "nivel": 882,
+      "nivel": 883,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1212,
-      "victorias": 456,
-      "derrotas": 418,
-      "ultima_partida": 1753458466499
+      "lp": 1221,
+      "victorias": 459,
+      "derrotas": 420,
+      "ultima_partida": 1753734248069
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Azir",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.7692307692307692
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.8636363636363638
     },
     {
       "nombre": "Taliyah",
-      "partidas": 3,
-      "victorias": 3,
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 6.888888888888889
+      "kda_promedio": 5.642857142857143
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5714285714285716
     },
     {
       "nombre": "Alistar",
@@ -72,6 +79,13 @@
       "kda_promedio": 2.6
     },
     {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
       "nombre": "Zed",
       "partidas": 2,
       "victorias": 2,
@@ -79,11 +93,11 @@
       "kda_promedio": 4
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.875
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
     },
     {
       "nombre": "AurelionSol",
@@ -91,26 +105,12 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.3333333333333333
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 14,
-    "losses": 14,
-    "timePlayed": 44995
+    "games": 34,
+    "wins": 18,
+    "losses": 16,
+    "timePlayed": 55831
   }
 }

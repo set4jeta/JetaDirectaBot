@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Kittxnly alt#Jork",
-      "nivel": 115,
+      "nivel": 116,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 462,
-      "victorias": 116,
-      "derrotas": 107,
-      "ultima_partida": 1753452528235
+      "lp": 416,
+      "victorias": 120,
+      "derrotas": 113,
+      "ultima_partida": 1753663479076
     },
     {
       "nombre": "Kittxnly#Luna",
@@ -37,18 +37,18 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nami",
-      "partidas": 23,
-      "victorias": 8,
-      "winrate": "34.8%",
-      "kda_promedio": 3.0069444444444446
+      "nombre": "Soraka",
+      "partidas": 30,
+      "victorias": 16,
+      "winrate": "53.3%",
+      "kda_promedio": 3.61744966442953
     },
     {
-      "nombre": "Soraka",
-      "partidas": 23,
-      "victorias": 13,
-      "winrate": "56.5%",
-      "kda_promedio": 3.824074074074074
+      "nombre": "Nami",
+      "partidas": 18,
+      "victorias": 4,
+      "winrate": "22.2%",
+      "kda_promedio": 2.492063492063492
     },
     {
       "nombre": "Mel",
@@ -66,9 +66,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 23,
-    "losses": 26,
-    "timePlayed": 80105
+    "games": 51,
+    "wins": 22,
+    "losses": 29,
+    "timePlayed": 82543
   }
 }

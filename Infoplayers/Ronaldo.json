@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Ronaldo",
+    "nombre_real": "Ronaldo Betea",
+    "edad": 26,
+    "equipo": "Bushido Wildcats",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/RonaldoL0L",
+      "twitch": "https://www.twitch.tv/ronaldoo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ronaldo.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "kick ronaldolol#123",
+      "nivel": 483,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 856,
+      "victorias": 1004,
+      "derrotas": 965,
+      "ultima_partida": 1753737463073
+    },
+    {
+      "nombre": "SUP COCONUT#3131",
+      "nivel": 177,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 54,
+      "derrotas": 49,
+      "ultima_partida": 1746613799915
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.675675675675676
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.511627906976744
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9189189189189189
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3043478260869565
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.388888888888889
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 97,
+    "wins": 50,
+    "losses": 47,
+    "timePlayed": 155980
+  }
+}

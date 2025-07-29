@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "timeless#INF",
-      "nivel": 1218,
+      "nivel": 1219,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 255,
-      "victorias": 222,
-      "derrotas": 177,
-      "ultima_partida": 1753366570183
+      "lp": 417,
+      "victorias": 229,
+      "derrotas": 181,
+      "ultima_partida": 1753722241469
     },
     {
       "nombre": "Xiao C6R5#bds",
@@ -36,6 +36,41 @@
     }
   ],
   "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4782608695652173
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.05
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6842105263157895
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9047619047619047
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8888888888888888
+    },
     {
       "nombre": "Jayce",
       "partidas": 2,
@@ -58,13 +93,6 @@
       "kda_promedio": 1.2666666666666666
     },
     {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.9
-    },
-    {
       "nombre": "Azir",
       "partidas": 1,
       "victorias": 0,
@@ -72,45 +100,17 @@
       "kda_promedio": 0.75
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6.75
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
-    },
-    {
-      "nombre": "Graves",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.5
-    },
-    {
       "nombre": "LeeSin",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 12.5
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 8,
-    "losses": 7,
-    "timePlayed": 23612
+    "games": 24,
+    "wins": 13,
+    "losses": 11,
+    "timePlayed": 36532
   }
 }

@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Agresivoo",
     "nombre_real": "Tobiasz Ciba",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Back2TheGame",
     "pais": "Poland",
     "contrato_hasta": null,
@@ -16,29 +16,36 @@
   "cuentas": [
     {
       "nombre": "agrsv#EUW",
-      "nivel": 532,
+      "nivel": 533,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 891,
-      "victorias": 407,
-      "derrotas": 362,
-      "ultima_partida": 1753544867206
+      "lp": 853,
+      "victorias": 413,
+      "derrotas": 369,
+      "ultima_partida": 1753736923354
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 9,
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.0526315789473686
+      "winrate": "60.0%",
+      "kda_promedio": 2.5625
     },
     {
       "nombre": "Ambessa",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 2.0851063829787235
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.794871794871795
     },
     {
       "nombre": "Gwen",
@@ -48,25 +55,25 @@
       "kda_promedio": 1.7826086956521738
     },
     {
-      "nombre": "Jax",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 2.111111111111111
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.0833333333333335
     },
     {
       "nombre": "Sion",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 8.5
+      "winrate": "80.0%",
+      "kda_promedio": 5.642857142857143
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Gangplank",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.4375
+      "kda_promedio": 1.1904761904761905
     },
     {
       "nombre": "Orianna",
@@ -88,19 +95,12 @@
       "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 1.1333333333333333
-    },
-    {
-      "nombre": "Gangplank",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.8235294117647058
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 33,
-    "losses": 19,
-    "timePlayed": 88223
+    "games": 62,
+    "wins": 37,
+    "losses": 25,
+    "timePlayed": 105240
   }
 }

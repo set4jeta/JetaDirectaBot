@@ -1,0 +1,56 @@
+{
+  "info_jugador": {
+    "nombre": "Gordinho",
+    "nombre_real": "Simão Valente",
+    "edad": 19,
+    "equipo": "Caldya Esport",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/GordinhoComF0me"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Rush B P90#PT1",
+      "nivel": 244,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1299,
+      "victorias": 288,
+      "derrotas": 233,
+      "ultima_partida": 1753746692777
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4210526315789473
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 7,
+    "wins": 2,
+    "losses": 5,
+    "timePlayed": 12708
+  }
+}

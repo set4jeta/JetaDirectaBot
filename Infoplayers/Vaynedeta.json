@@ -16,10 +16,10 @@
       "nivel": 507,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 824,
-      "victorias": 170,
-      "derrotas": 122,
-      "ultima_partida": 1753557359967
+      "lp": 831,
+      "victorias": 173,
+      "derrotas": 124,
+      "ultima_partida": 1753738501984
     },
     {
       "nombre": "OLA MESΑ#EUW",
@@ -42,10 +42,10 @@
     },
     {
       "nombre": "Kaisa",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.522727272727273
     },
     {
       "nombre": "Jhin",
@@ -69,6 +69,13 @@
       "kda_promedio": 1.3333333333333333
     },
     {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
       "nombre": "Corki",
       "partidas": 2,
       "victorias": 2,
@@ -90,24 +97,17 @@
       "kda_promedio": 0.8823529411764706
     },
     {
-      "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.4705882352941178
-    },
-    {
-      "nombre": "Nautilus",
+      "nombre": "Aphelios",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 22,
-    "losses": 25,
-    "timePlayed": 75544
+    "games": 52,
+    "wins": 25,
+    "losses": 27,
+    "timePlayed": 82313
   }
 }

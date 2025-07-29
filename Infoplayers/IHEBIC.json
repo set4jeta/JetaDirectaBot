@@ -27,31 +27,31 @@
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 22,
-      "victorias": 11,
-      "winrate": "50.0%",
-      "kda_promedio": 2.39375
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.2613636363636362
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Rell",
-      "partidas": 12,
-      "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 2.8970588235294117
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6984126984126986
     },
     {
       "nombre": "Braum",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 5.485714285714286
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 5.32258064516129
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.85
     },
     {
       "nombre": "Rakan",
@@ -62,17 +62,10 @@
     },
     {
       "nombre": "Alistar",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 6.4
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 0.9696969696969697
+      "winrate": "100.0%",
+      "kda_promedio": 9.666666666666666
     },
     {
       "nombre": "Karma",
@@ -94,12 +87,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 18.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7727272727272727
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 87,
-    "wins": 46,
-    "losses": 41,
-    "timePlayed": 146078
+    "games": 69,
+    "wins": 36,
+    "losses": 33,
+    "timePlayed": 117599
   }
 }

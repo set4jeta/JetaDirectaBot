@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Rabble Arouser#EUW",
-      "nivel": 671,
+      "nivel": 672,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 851,
-      "victorias": 166,
-      "derrotas": 107,
-      "ultima_partida": 1753536215401
+      "lp": 900,
+      "victorias": 169,
+      "derrotas": 109,
+      "ultima_partida": 1753696161646
     },
     {
       "nombre": "Multirole Talent#EUW",
@@ -38,24 +38,31 @@
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.4285714285714284
-    },
-    {
-      "nombre": "Pantheon",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 13.4
+      "kda_promedio": 3.4583333333333335
     },
     {
-      "nombre": "Sion",
+      "nombre": "Naafiri",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 5.833333333333333
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.083333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.125
     },
     {
       "nombre": "Gragas",
@@ -67,9 +74,9 @@
     {
       "nombre": "JarvanIV",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Kayn",
@@ -79,18 +86,11 @@
       "kda_promedio": 3.8666666666666667
     },
     {
-      "nombre": "Naafiri",
+      "nombre": "Sion",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.4
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.111111111111111
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Chogath",
@@ -100,17 +100,17 @@
       "kda_promedio": 1.0714285714285714
     },
     {
-      "nombre": "Malphite",
+      "nombre": "Lillia",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8888888888888888
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 7.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 25,
+    "games": 42,
+    "wins": 23,
     "losses": 19,
-    "timePlayed": 67409
+    "timePlayed": 64368
   }
 }

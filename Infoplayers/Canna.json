@@ -13,13 +13,13 @@
   "cuentas": [
     {
       "nombre": "K C#kcwin",
-      "nivel": 79,
+      "nivel": 80,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 922,
-      "victorias": 308,
-      "derrotas": 217,
-      "ultima_partida": 1753469200743
+      "liga": "CHALLENGER I",
+      "lp": 1221,
+      "victorias": 321,
+      "derrotas": 218,
+      "ultima_partida": 1753746018472
     },
     {
       "nombre": "칸 나#0211",
@@ -44,25 +44,25 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.4166666666666665
+      "nombre": "Yunara",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5294117647058822
     },
     {
-      "nombre": "Gwen",
-      "partidas": 7,
+      "nombre": "Ambessa",
+      "partidas": 8,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.46875
+      "winrate": "50.0%",
+      "kda_promedio": 2.1025641025641026
     },
     {
       "nombre": "Jayce",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 5.318181818181818
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 5.043478260869565
     },
     {
       "nombre": "Chogath",
@@ -72,18 +72,11 @@
       "kda_promedio": 3.75
     },
     {
-      "nombre": "Jax",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.933333333333333
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 4,
+      "nombre": "Aurora",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.1071428571428572
+      "winrate": "33.3%",
+      "kda_promedio": 2.923076923076923
     },
     {
       "nombre": "Jhin",
@@ -93,11 +86,11 @@
       "kda_promedio": 3.2142857142857144
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Gwen",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.272727272727273
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
     },
     {
       "nombre": "Irelia",
@@ -107,17 +100,24 @@
       "kda_promedio": 0.5294117647058824
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Jax",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 5
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 56,
-    "wins": 28,
-    "losses": 28,
-    "timePlayed": 90448
+    "games": 55,
+    "wins": 32,
+    "losses": 23,
+    "timePlayed": 87392
   }
 }

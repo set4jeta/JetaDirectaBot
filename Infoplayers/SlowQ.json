@@ -15,24 +15,24 @@
   },
   "cuentas": [
     {
-      "nombre": "yebit#haha",
-      "nivel": 969,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1276,
-      "victorias": 478,
-      "derrotas": 431,
-      "ultima_partida": 1753477721691
-    },
-    {
       "nombre": "Y Golem Y#EUW",
       "nivel": 207,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 600,
-      "victorias": 129,
+      "lp": 626,
+      "victorias": 130,
       "derrotas": 71,
-      "ultima_partida": 1753175756233
+      "ultima_partida": 1753739506187
+    },
+    {
+      "nombre": "yebit#haha",
+      "nivel": 971,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1358,
+      "victorias": 486,
+      "derrotas": 434,
+      "ultima_partida": 1753735423887
     }
   ],
   "campeones_recientes": [
@@ -44,32 +44,25 @@
       "kda_promedio": 2.86046511627907
     },
     {
-      "nombre": "Ryze",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.9444444444444446
-    },
-    {
       "nombre": "Aurora",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.574468085106383
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.764705882352941
     },
     {
       "nombre": "Azir",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.28125
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6285714285714286
     },
     {
-      "nombre": "Corki",
+      "nombre": "Ambessa",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.5348837209302326
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4545454545454546
     },
     {
       "nombre": "Jhin",
@@ -79,38 +72,45 @@
       "kda_promedio": 3
     },
     {
-      "nombre": "Sylas",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 5.3076923076923075
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.652173913043478
     },
     {
-      "nombre": "Ambessa",
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Ryze",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3
+      "kda_promedio": 2.5555555555555554
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3333333333333335
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.416666666666667
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Akali",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.375
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.555555555555555
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 103,
-    "wins": 64,
-    "losses": 39,
-    "timePlayed": 162879
+    "games": 92,
+    "wins": 58,
+    "losses": 34,
+    "timePlayed": 146339
   }
 }

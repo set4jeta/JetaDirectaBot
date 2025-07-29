@@ -19,10 +19,10 @@
       "nivel": 471,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1229,
+      "lp": 1151,
       "victorias": 111,
-      "derrotas": 61,
-      "ultima_partida": 1753475482981
+      "derrotas": 65,
+      "ultima_partida": 1753695088161
     },
     {
       "nombre": "Abbedagge23#EUW",
@@ -47,25 +47,11 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Taliyah",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.8947368421052633
-    },
-    {
       "nombre": "Azir",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.25
+      "winrate": "40.0%",
+      "kda_promedio": 2.9375
     },
     {
       "nombre": "Galio",
@@ -73,6 +59,27 @@
       "victorias": 4,
       "winrate": "100.0%",
       "kda_promedio": 6.285714285714286
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.9166666666666665
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8
     },
     {
       "nombre": "Ahri",
@@ -83,24 +90,10 @@
     },
     {
       "nombre": "Akali",
-      "partidas": 2,
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8666666666666667
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.857142857142857
+      "winrate": "100.0%",
+      "kda_promedio": 3.2857142857142856
     },
     {
       "nombre": "Alistar",
@@ -115,12 +108,19 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 23,
-    "losses": 19,
-    "timePlayed": 72803
+    "games": 37,
+    "wins": 19,
+    "losses": 18,
+    "timePlayed": 62156
   }
 }

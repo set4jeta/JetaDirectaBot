@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "Adryh#4841",
-      "nivel": 936,
+      "nivel": 938,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 896,
-      "victorias": 313,
-      "derrotas": 281,
-      "ultima_partida": 1753438851285
+      "lp": 861,
+      "victorias": 319,
+      "derrotas": 288,
+      "ultima_partida": 1753703977439
     },
     {
       "nombre": "A POR EL BOTE#EUW",
@@ -38,79 +38,79 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 2.9361702127659575
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 7,
-      "victorias": 7,
-      "winrate": "100.0%",
-      "kda_promedio": 4.481481481481482
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.15625
+      "partidas": 22,
+      "victorias": 12,
+      "winrate": "54.5%",
+      "kda_promedio": 2.463917525773196
     },
     {
       "nombre": "Ziggs",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4878048780487805
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.422222222222222
     },
     {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.05
-    },
-    {
-      "nombre": "Aurora",
+      "nombre": "Corki",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.8
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.2
     },
     {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 2,
+      "nombre": "MissFortune",
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
       "kda_promedio": 4
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1578947368421053
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "Aurora",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.08
+      "kda_promedio": 2.2
     },
     {
-      "nombre": "Quinn",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.875
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     },
     {
-      "nombre": "Senna",
-      "partidas": 2,
+      "nombre": "Hwei",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
     }
   ],
   "estadisticas_2_semanas": {
     "games": 53,
-    "wins": 32,
-    "losses": 21,
-    "timePlayed": 82966
+    "wins": 30,
+    "losses": 23,
+    "timePlayed": 80466
   }
 }

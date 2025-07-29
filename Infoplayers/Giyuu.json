@@ -16,50 +16,57 @@
   "cuentas": [
     {
       "nombre": "Dekap#EUW2",
-      "nivel": 444,
+      "nivel": 445,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1299,
-      "victorias": 231,
-      "derrotas": 180,
-      "ultima_partida": 1753397820489
+      "lp": 1164,
+      "victorias": 233,
+      "derrotas": 188,
+      "ultima_partida": 1753541135480
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3448275862068964
-    },
-    {
       "nombre": "Azir",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 1.8636363636363635
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.6363636363636365
     },
     {
-      "nombre": "Annie",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.888888888888889
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3043478260869565
     },
     {
       "nombre": "Akali",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
+      "winrate": "50.0%",
+      "kda_promedio": 2.4705882352941178
     },
     {
       "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
     },
     {
       "nombre": "Galio",
@@ -69,11 +76,18 @@
       "kda_promedio": 3.2
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Irelia",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.8
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0833333333333333
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
     },
     {
       "nombre": "Ornn",
@@ -81,26 +95,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 2.888888888888889
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
-    },
-    {
-      "nombre": "Zilean",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 20
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 16,
-    "losses": 5,
-    "timePlayed": 33095
+    "games": 27,
+    "wins": 14,
+    "losses": 13,
+    "timePlayed": 44632
   }
 }

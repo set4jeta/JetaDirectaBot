@@ -5,7 +5,7 @@
     "edad": 23,
     "equipo": "G2 Esports",
     "pais": "Greece",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Labrov12"
     },
@@ -15,13 +15,13 @@
   "cuentas": [
     {
       "nombre": "G2 Labrov#8085",
-      "nivel": 420,
+      "nivel": 421,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1755,
-      "victorias": 415,
-      "derrotas": 337,
-      "ultima_partida": 1752441416794
+      "lp": 1783,
+      "victorias": 421,
+      "derrotas": 340,
+      "ultima_partida": 1753742932508
     },
     {
       "nombre": "G2 Labrov#ltyol",
@@ -46,17 +46,66 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nautilus",
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3846153846153846
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Shen",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.6666666666666665
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 1,
-    "wins": 0,
-    "losses": 1,
-    "timePlayed": 1673
+    "games": 9,
+    "wins": 6,
+    "losses": 3,
+    "timePlayed": 13462
   }
 }

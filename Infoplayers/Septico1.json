@@ -16,91 +16,91 @@
   "cuentas": [
     {
       "nombre": "septico1#EUW",
-      "nivel": 799,
+      "nivel": 801,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 916,
-      "victorias": 428,
-      "derrotas": 386,
-      "ultima_partida": 1753405737386
+      "lp": 773,
+      "victorias": 432,
+      "derrotas": 397,
+      "ultima_partida": 1753637386645
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Fiora",
-      "partidas": 16,
-      "victorias": 12,
-      "winrate": "75.0%",
-      "kda_promedio": 1.9589041095890412
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 1.8571428571428572
     },
     {
       "nombre": "Gwen",
-      "partidas": 13,
+      "partidas": 12,
       "victorias": 5,
-      "winrate": "38.5%",
-      "kda_promedio": 1.4177215189873418
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "winrate": "41.7%",
+      "kda_promedio": 1.5142857142857142
     },
     {
       "nombre": "Jayce",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1627906976744187
+    },
+    {
+      "nombre": "Yorick",
       "partidas": 9,
       "victorias": 4,
       "winrate": "44.4%",
-      "kda_promedio": 0.7910447761194029
+      "kda_promedio": 2.823529411764706
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8
     },
     {
       "nombre": "Olaf",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.076923076923077
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.52
     },
     {
-      "nombre": "Gnar",
+      "nombre": "Rumble",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.1666666666666667
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.75
+      "kda_promedio": 1.375
     },
     {
       "nombre": "Aatrox",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 0.8333333333333334
+      "kda_promedio": 0.6923076923076923
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Kled",
+      "nombre": "Gnar",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.55
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2857142857142858
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 81,
-    "wins": 38,
+    "games": 77,
+    "wins": 34,
     "losses": 43,
-    "timePlayed": 122392
+    "timePlayed": 119606
   }
 }

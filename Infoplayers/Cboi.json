@@ -16,36 +16,43 @@
   "cuentas": [
     {
       "nombre": "Cboi#EUW",
-      "nivel": 342,
+      "nivel": 343,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 824,
-      "victorias": 189,
-      "derrotas": 154,
-      "ultima_partida": 1753448237142
+      "lp": 799,
+      "victorias": 190,
+      "derrotas": 156,
+      "ultima_partida": 1753728866955
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6538461538461537
+    },
+    {
       "nombre": "Volibear",
-      "partidas": 7,
-      "victorias": 7,
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 8.071428571428571
+      "kda_promedio": 14.25
     },
     {
       "nombre": "LeeSin",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.1739130434782608
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6875
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3846153846153846
     },
     {
       "nombre": "Pantheon",
@@ -55,13 +62,6 @@
       "kda_promedio": 6.5
     },
     {
-      "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
       "nombre": "Akshan",
       "partidas": 1,
       "victorias": 0,
@@ -69,18 +69,18 @@
       "kda_promedio": 1
     },
     {
+      "nombre": "FiddleSticks",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
       "nombre": "Irelia",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Ivern",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 10.5
     },
     {
       "nombre": "Naafiri",
@@ -98,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 26,
-    "wins": 19,
-    "losses": 7,
-    "timePlayed": 42146
+    "games": 23,
+    "wins": 15,
+    "losses": 8,
+    "timePlayed": 38175
   }
 }

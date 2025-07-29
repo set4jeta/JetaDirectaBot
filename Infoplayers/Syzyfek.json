@@ -19,10 +19,10 @@
       "nivel": 88,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 27,
-      "victorias": 160,
+      "lp": 79,
+      "victorias": 162,
       "derrotas": 144,
-      "ultima_partida": 1753440100883
+      "ultima_partida": 1753610977050
     },
     {
       "nombre": "SilentResolve#RESET",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Varus",
-      "partidas": 13,
-      "victorias": 10,
-      "winrate": "76.9%",
-      "kda_promedio": 2.9295774647887325
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8028169014084505
     },
     {
       "nombre": "Corki",
@@ -62,17 +62,17 @@
     },
     {
       "nombre": "Tristana",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 1.3166666666666667
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.4558823529411764
     },
     {
       "nombre": "Jhin",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 2.1666666666666665
+      "winrate": "20.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Ziggs",
@@ -80,13 +80,6 @@
       "victorias": 2,
       "winrate": "40.0%",
       "kda_promedio": 1.6551724137931034
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5833333333333333
     },
     {
       "nombre": "Senna",
@@ -110,17 +103,24 @@
       "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Caitlyn",
-      "partidas": 1,
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5555555555555556
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.75
+      "winrate": "50.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 30,
-    "losses": 29,
-    "timePlayed": 96303
+    "games": 57,
+    "wins": 31,
+    "losses": 26,
+    "timePlayed": 93299
   }
 }

@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from esports_extension.utils.time_utils import get_network_time 
 from esports_extension.models.tracker import TrackedMatch, TrackedStatus  #  # Ajusta si la importación es distinta
 
-FIREBASE_JSON = "firestore_matches.json"
+
 
 
 async def save_tracked_matches(matches: List[TrackedMatch], file_path: str) -> None:
@@ -136,39 +136,8 @@ def load_notification_channel(guild_id: int):
 
 
 
-async def save_firestore_data(game_id: str, data: dict) -> None:
-    print(f"[Firestore] Guardando datos para game_id={game_id} en firestore_data.json")
-    """Guarda datos de Firestore para un game_id específico"""
-    try:
-        all_data = {}
-        file_path = "firestore_data.json"
-        
-        # Cargar datos existentes si el archivo existe
-        if os.path.exists(file_path):
-            with open(file_path, "r", encoding="utf-8") as f:
-                all_data = json.load(f)
-        
-        # Actualizar con nuevos datos
-        all_data[game_id] = data
-        
-        # Guardar
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(all_data, f, indent=2, ensure_ascii=False)
-            
-    except Exception as e:
-        print(f"[Firestore] Error guardando datos: {str(e)}")
 
-def load_firestore_data() -> Dict[str, dict]:
-    """Carga todos los datos de Firestore guardados"""
-    file_path = "firestore_data.json"
-    if not os.path.exists(file_path):
-        return {}
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"[Firestore] Error cargando datos: {str(e)}")
-        return {}
+
 
 
 NOTIFIED_GAMES_FILE = "notified_games.json"

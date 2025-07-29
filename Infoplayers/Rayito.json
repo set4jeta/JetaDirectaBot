@@ -16,22 +16,22 @@
   "cuentas": [
     {
       "nombre": "Rayito#EUW",
-      "nivel": 895,
+      "nivel": 896,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 977,
-      "victorias": 309,
-      "derrotas": 264,
-      "ultima_partida": 1753179324112
+      "lp": 975,
+      "victorias": 310,
+      "derrotas": 265,
+      "ultima_partida": 1753636472870
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Senna",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.606060606060606
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.676470588235294
     },
     {
       "nombre": "Sivir",
@@ -41,13 +41,6 @@
       "kda_promedio": 4.269230769230769
     },
     {
-      "nombre": "Smolder",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.68
-    },
-    {
       "nombre": "Jinx",
       "partidas": 2,
       "victorias": 1,
@@ -55,11 +48,11 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Tristana",
+      "nombre": "Smolder",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.6923076923076923
+      "kda_promedio": 1.5333333333333334
     },
     {
       "nombre": "Corki",
@@ -74,26 +67,12 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.8
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5714285714285716
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8333333333333334
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 12,
-    "losses": 9,
-    "timePlayed": 36431
+    "games": 15,
+    "wins": 10,
+    "losses": 5,
+    "timePlayed": 24973
   }
 }

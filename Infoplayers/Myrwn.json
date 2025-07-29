@@ -21,14 +21,14 @@
       "lp": 60,
       "victorias": 73,
       "derrotas": 53,
-      "ultima_partida": 1753411780523
+      "ultima_partida": 1753591526446
     },
     {
       "nombre": "Lamine Yamal#Myrwn",
       "nivel": 53,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 35,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 155,
       "derrotas": 83,
       "ultima_partida": 1752420884207
@@ -47,8 +47,8 @@
       "nombre": "Bb trickz#Tipz",
       "nivel": 37,
       "region": "NA1",
-      "liga": "MASTER I",
-      "lp": 17,
+      "liga": "DIAMOND I",
+      "lp": 75,
       "victorias": 46,
       "derrotas": 7,
       "ultima_partida": 1751700647691
@@ -74,40 +74,11 @@
       "ultima_partida": null
     }
   ],
-  "campeones_recientes": [
-    {
-      "nombre": "Aurora",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5555555555555556
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 0.8
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
-    }
-  ],
+  "campeones_recientes": [],
   "estadisticas_2_semanas": {
-    "games": 5,
-    "wins": 1,
-    "losses": 4,
-    "timePlayed": 7656
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
   }
 }

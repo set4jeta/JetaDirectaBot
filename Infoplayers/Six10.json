@@ -16,20 +16,20 @@
   "cuentas": [
     {
       "nombre": "TOG Six10#EUW3",
-      "nivel": 327,
+      "nivel": 331,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1167,
-      "victorias": 397,
-      "derrotas": 342,
-      "ultima_partida": 1753459270858
+      "lp": 1187,
+      "victorias": 405,
+      "derrotas": 348,
+      "ultima_partida": 1753738325712
     },
     {
       "nombre": "Six10#euw2",
       "nivel": 931,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 45,
+      "liga": "DIAMOND III",
+      "lp": 75,
       "victorias": 34,
       "derrotas": 28,
       "ultima_partida": 1751812161425
@@ -37,32 +37,32 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Taliyah",
+      "nombre": "Azir",
       "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9444444444444444
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 2.8421052631578947
     },
     {
-      "nombre": "Azir",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 3
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.210526315789474
     },
     {
       "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.25
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4
     },
     {
-      "nombre": "Annie",
+      "nombre": "Ahri",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 5.0625
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.0833333333333335
     },
     {
       "nombre": "Corki",
@@ -72,32 +72,25 @@
       "kda_promedio": 1.9473684210526316
     },
     {
-      "nombre": "Ahri",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4285714285714286
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0952380952380953
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Aurora",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.777777777777778
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4
+      "winrate": "66.7%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Tristana",
@@ -105,12 +98,19 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 24,
+    "games": 46,
+    "wins": 25,
     "losses": 21,
-    "timePlayed": 75798
+    "timePlayed": 74787
   }
 }

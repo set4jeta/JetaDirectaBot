@@ -16,43 +16,43 @@
   "cuentas": [
     {
       "nombre": "Ersin#643",
-      "nivel": 859,
+      "nivel": 860,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1093,
-      "victorias": 492,
-      "derrotas": 443,
-      "ultima_partida": 1753417996259
+      "lp": 1037,
+      "victorias": 496,
+      "derrotas": 449,
+      "ultima_partida": 1753747435371
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Volibear",
       "partidas": 12,
-      "victorias": 10,
-      "winrate": "83.3%",
-      "kda_promedio": 2.8679245283018866
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3777777777777778
     },
     {
       "nombre": "Fiora",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 1.697674418604651
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.020408163265306
     },
     {
       "nombre": "Rumble",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.59375
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.4871794871794872
     },
     {
       "nombre": "Gwen",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2
+      "winrate": "25.0%",
+      "kda_promedio": 1.4074074074074074
     },
     {
       "nombre": "Camille",
@@ -69,24 +69,17 @@
       "kda_promedio": 6
     },
     {
-      "nombre": "Jayce",
+      "nombre": "Kennen",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Malphite",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.8333333333333333
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 21,
-    "losses": 11,
-    "timePlayed": 53925
+    "games": 35,
+    "wins": 20,
+    "losses": 15,
+    "timePlayed": 55793
   }
 }

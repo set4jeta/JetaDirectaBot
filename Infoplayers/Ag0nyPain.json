@@ -16,50 +16,43 @@
   "cuentas": [
     {
       "nombre": "ItsOKtoBeNotOK#eProd",
-      "nivel": 865,
+      "nivel": 867,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 997,
-      "victorias": 415,
-      "derrotas": 375,
-      "ultima_partida": 1753467805951
+      "liga": "CHALLENGER I",
+      "lp": 1097,
+      "victorias": 427,
+      "derrotas": 381,
+      "ultima_partida": 1753731643145
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Vex",
-      "partidas": 50,
-      "victorias": 27,
-      "winrate": "54.0%",
-      "kda_promedio": 2.421455938697318
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 34,
-      "victorias": 16,
-      "winrate": "47.1%",
-      "kda_promedio": 2.519230769230769
+      "partidas": 44,
+      "victorias": 25,
+      "winrate": "56.8%",
+      "kda_promedio": 2.4127659574468083
     },
     {
       "nombre": "AurelionSol",
-      "partidas": 29,
-      "victorias": 16,
-      "winrate": "55.2%",
-      "kda_promedio": 2.396103896103896
+      "partidas": 24,
+      "victorias": 14,
+      "winrate": "58.3%",
+      "kda_promedio": 2.6416666666666666
     },
     {
       "nombre": "Viktor",
-      "partidas": 25,
+      "partidas": 24,
       "victorias": 13,
-      "winrate": "52.0%",
-      "kda_promedio": 3.1386138613861387
+      "winrate": "54.2%",
+      "kda_promedio": 3.4285714285714284
     },
     {
-      "nombre": "Orianna",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5714285714285716
+      "nombre": "Syndra",
+      "partidas": 19,
+      "victorias": 9,
+      "winrate": "47.4%",
+      "kda_promedio": 2.146067415730337
     },
     {
       "nombre": "Qiyana",
@@ -83,24 +76,17 @@
       "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Annie",
+      "nombre": "Kassadin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 151,
-    "wins": 79,
-    "losses": 72,
-    "timePlayed": 242332
+    "games": 118,
+    "wins": 65,
+    "losses": 53,
+    "timePlayed": 189973
   }
 }

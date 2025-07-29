@@ -16,29 +16,29 @@
   "cuentas": [
     {
       "nombre": "saudade#ana",
-      "nivel": 1223,
+      "nivel": 1224,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 996,
-      "victorias": 409,
-      "derrotas": 369,
-      "ultima_partida": 1753570388546
+      "liga": "CHALLENGER I",
+      "lp": 1107,
+      "victorias": 416,
+      "derrotas": 370,
+      "ultima_partida": 1753737901039
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Alistar",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.966666666666667
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.511111111111111
     },
     {
       "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.782608695652174
     },
     {
       "nombre": "Karma",
@@ -50,16 +50,23 @@
     {
       "nombre": "Nautilus",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.76
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
     },
     {
-      "nombre": "Blitzcrank",
+      "nombre": "Taric",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.066666666666666
+    },
+    {
+      "nombre": "Bard",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.2
+      "kda_promedio": 10.4
     },
     {
       "nombre": "Braum",
@@ -76,13 +83,6 @@
       "kda_promedio": 1.7
     },
     {
-      "nombre": "Taric",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6363636363636362
-    },
-    {
       "nombre": "Ashe",
       "partidas": 1,
       "victorias": 0,
@@ -90,17 +90,17 @@
       "kda_promedio": 1.2222222222222223
     },
     {
-      "nombre": "Bard",
+      "nombre": "Blitzcrank",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 19
+      "kda_promedio": 4.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 21,
-    "losses": 20,
-    "timePlayed": 64755
+    "games": 47,
+    "wins": 26,
+    "losses": 21,
+    "timePlayed": 74784
   }
 }

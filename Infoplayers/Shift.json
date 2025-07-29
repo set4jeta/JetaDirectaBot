@@ -19,10 +19,10 @@
       "nivel": 57,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 804,
-      "victorias": 139,
-      "derrotas": 69,
-      "ultima_partida": 1753560975919
+      "lp": 805,
+      "victorias": 143,
+      "derrotas": 73,
+      "ultima_partida": 1753751379306
     },
     {
       "nombre": "Shift#kaipo",
@@ -48,10 +48,10 @@
   "campeones_recientes": [
     {
       "nombre": "Viego",
-      "partidas": 14,
+      "partidas": 13,
       "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 3.9846153846153847
+      "winrate": "61.5%",
+      "kda_promedio": 4.120689655172414
     },
     {
       "nombre": "Pantheon",
@@ -61,25 +61,39 @@
       "kda_promedio": 2.857142857142857
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.75
-    },
-    {
       "nombre": "Trundle",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 4.777777777777778
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 5.2631578947368425
     },
     {
-      "nombre": "JarvanIV",
+      "nombre": "MonkeyKing",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "XinZhao",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 5
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1666666666666665
     },
     {
       "nombre": "Sylas",
@@ -96,31 +110,17 @@
       "kda_promedio": 3.3846153846153846
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.133333333333334
-    },
-    {
       "nombre": "Zed",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.416666666666667
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
+      "kda_promedio": 4.636363636363637
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 61,
-    "wins": 28,
+    "games": 62,
+    "wins": 29,
     "losses": 33,
-    "timePlayed": 99590
+    "timePlayed": 100856
   }
 }

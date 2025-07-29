@@ -15,57 +15,57 @@
   },
   "cuentas": [
     {
-      "nombre": "Pun1sher#Demon",
-      "nivel": 321,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1100,
-      "victorias": 198,
-      "derrotas": 130,
-      "ultima_partida": 1753536830538
-    },
-    {
       "nombre": "Pun1sher Reborn#EUW",
       "nivel": 808,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 486,
-      "victorias": 301,
-      "derrotas": 265,
-      "ultima_partida": 1753534031321
+      "lp": 490,
+      "victorias": 302,
+      "derrotas": 266,
+      "ultima_partida": 1753737402597
+    },
+    {
+      "nombre": "Pun1sher#Demon",
+      "nivel": 321,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1135,
+      "victorias": 200,
+      "derrotas": 130,
+      "ultima_partida": 1753732942708
     },
     {
       "nombre": "Demon Reborn#RRR",
       "nivel": 391,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 827,
-      "victorias": 188,
-      "derrotas": 133,
-      "ultima_partida": 1753406901832
+      "lp": 826,
+      "victorias": 189,
+      "derrotas": 134,
+      "ultima_partida": 1753728866955
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Cassiopeia",
-      "partidas": 75,
-      "victorias": 48,
-      "winrate": "64.0%",
-      "kda_promedio": 2.163755458515284
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 1.9821428571428572
+      "partidas": 56,
+      "victorias": 39,
+      "winrate": "69.6%",
+      "kda_promedio": 2.1408045977011496
     },
     {
       "nombre": "Irelia",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 1.4923076923076923
+    },
+    {
+      "nombre": "Tristana",
       "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 1.360655737704918
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5217391304347827
     },
     {
       "nombre": "Jhin",
@@ -75,18 +75,18 @@
       "kda_promedio": 2.75
     },
     {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
       "nombre": "Ryze",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
       "kda_promedio": 4.076923076923077
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3181818181818183
     },
     {
       "nombre": "Annie",
@@ -118,9 +118,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 108,
-    "wins": 70,
-    "losses": 38,
-    "timePlayed": 170829
+    "games": 89,
+    "wins": 60,
+    "losses": 29,
+    "timePlayed": 139733
   }
 }

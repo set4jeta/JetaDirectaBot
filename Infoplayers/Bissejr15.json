@@ -19,19 +19,19 @@
       "nivel": 463,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 788,
+      "lp": 767,
       "victorias": 256,
-      "derrotas": 219,
-      "ultima_partida": 1753353383922
+      "derrotas": 220,
+      "ultima_partida": 1753698933091
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Sion",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.9166666666666667
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.619047619047619
     },
     {
       "nombre": "Syndra",
@@ -76,13 +76,6 @@
       "kda_promedio": 6.25
     },
     {
-      "nombre": "Hwei",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
       "nombre": "Maokai",
       "partidas": 1,
       "victorias": 0,
@@ -95,12 +88,19 @@
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 16
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.1111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
-    "wins": 13,
+    "games": 23,
+    "wins": 11,
     "losses": 12,
-    "timePlayed": 40954
+    "timePlayed": 38122
   }
 }

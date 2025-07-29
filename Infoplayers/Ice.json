@@ -16,13 +16,13 @@
   "cuentas": [
     {
       "nombre": "happy game#qwer",
-      "nivel": 148,
+      "nivel": 149,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 723,
-      "victorias": 585,
-      "derrotas": 523,
-      "ultima_partida": 1753475552259
+      "liga": "GRANDMASTER I",
+      "lp": 769,
+      "victorias": 590,
+      "derrotas": 527,
+      "ultima_partida": 1753741160991
     },
     {
       "nombre": "happy game#12321",
@@ -48,17 +48,17 @@
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 12,
-      "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 2.0166666666666666
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1944444444444446
     },
     {
       "nombre": "Kaisa",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 3.25
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.9285714285714284
     },
     {
       "nombre": "Talon",
@@ -72,21 +72,21 @@
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 1.8095238095238095
+      "kda_promedio": 1.6764705882352942
     },
     {
       "nombre": "Jhin",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 1.9666666666666666
+      "kda_promedio": 2.3181818181818183
     },
     {
       "nombre": "Smolder",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.8333333333333335
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.588235294117647
     },
     {
       "nombre": "Xayah",
@@ -94,6 +94,13 @@
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.36363636363636365
     },
     {
       "nombre": "Jinx",
@@ -108,19 +115,12 @@
       "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 2
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5555555555555556
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 58,
-    "wins": 29,
-    "losses": 29,
-    "timePlayed": 94794
+    "games": 57,
+    "wins": 26,
+    "losses": 31,
+    "timePlayed": 89771
   }
 }

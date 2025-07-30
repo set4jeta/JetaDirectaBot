@@ -3,6 +3,8 @@
 import asyncio
 from nextcord.ext import tasks
 import aiohttp
+import gc
+import cloudscraper  #
 
 
 
@@ -166,11 +168,14 @@ async def actualizar_infoplayers_poco_a_poco():
     intervalo = 3600 / total
 
     print(f"[BG] Actualizando {total} jugadores durante 1 hora, intervalo: {intervalo:.2f} segundos")
+    
+    scraper = cloudscraper.create_scraper()
 
     for i, nombre in enumerate(nombres_jugadores, start=1):
         print(f"[BG] ({i}/{total}) Actualizando datos de {nombre}...")
-        guardar_datos_jugador_en_json(nombre)
+        guardar_datos_jugador_en_json(nombre, scraper)
         print(f"[BG] ({i}/{total}) Datos de {nombre} actualizados.")
+        gc.collect()
         await asyncio.sleep(intervalo)
 
     print("[BG] Actualización completa de Infoplayers.")

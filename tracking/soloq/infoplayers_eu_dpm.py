@@ -47,10 +47,14 @@ def extraer_datos_nextjs(html):
 
     return datos_brutos, redes, imagen_jugador, logo_equipo
 
-def obtener_datos_jugador(nombre_jugador: str) -> dict | None:
+
+
+
+
+def obtener_datos_jugador(nombre_jugador: str, scraper) -> dict | None:
     """Obtiene y estructura todos los datos del jugador"""
     url = f"https://dpm.lol/pro/{nombre_jugador}"
-    scraper = cloudscraper.create_scraper()
+    
 
     try:
         print(f"⬇️ Descargando datos de {nombre_jugador}...")
@@ -128,9 +132,18 @@ def obtener_datos_jugador(nombre_jugador: str) -> dict | None:
         print(f"🚨 Error al obtener datos de {nombre_jugador}: {e}")
         return None
 
-def guardar_datos_jugador_en_json(nombre_jugador: str):
+import tracemalloc
+
+def guardar_datos_jugador_en_json(nombre_jugador: str, scraper):
+    tracemalloc.start()
     """Guarda los datos del jugador en un archivo JSON en la carpeta Infoplayers"""
-    datos = obtener_datos_jugador(nombre_jugador)
+    datos = obtener_datos_jugador(nombre_jugador, scraper)
+    
+    current, peak = tracemalloc.get_traced_memory()
+    print(f"📈 Memoria usada por {nombre_jugador}: actual={current / 10**6:.2f}MB | pico={peak / 10**6:.2f}MB")
+
+    tracemalloc.stop()
+    
     if datos is None:
         print(f"❌ No se pudo guardar datos para {nombre_jugador}")
         return
@@ -142,6 +155,7 @@ def guardar_datos_jugador_en_json(nombre_jugador: str):
 
 # Uso directo si se ejecuta este archivo
 if __name__ == "__main__":
+    scraper = cloudscraper.create_scraper()
     jugadores = ["Faker", "Caps", "113"]  # Puedes modificar esta lista
     for jugador in jugadores:
-        guardar_datos_jugador_en_json(jugador)
+        guardar_datos_jugador_en_json(jugador, scraper)

@@ -77,7 +77,7 @@ class EsportsCommands(commands.Cog):
         prioritized = await self.tracker._prioritize_matches(live_matches)
         any_embed_sent = False
 
-        for match in prioritized[:4]:  # Limitar a los primeros 4 partidos
+        for match in prioritized[:3]:  # Limitar a los primeros 4 partidos
             sent_for_this_match = False
 
             # 1. ¿Hay juego en progreso con participantes? (partida en vivo)

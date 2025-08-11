@@ -367,16 +367,6 @@ class TrackerService:
                 ):
                     try:
                         embed = await EmbedService.create_live_match_embed(match, is_notification=True)
-                        # Extrae los equipos igual que en el embed
-                        tracked_game = next(
-                            (g for g in reversed(match.trackedGames)
-                            if g.state == "inProgress"
-                            and g.live_blue_metadata
-                            and g.live_red_metadata
-                            and g.live_blue_metadata.participants
-                            and g.live_red_metadata.participants),
-                            None
-                        )
                         if tracked_game and match.teamsEventDetails:
                             blue_team = next((t for t in match.teamsEventDetails if tracked_game.live_blue_metadata and t.id == tracked_game.live_blue_metadata.team_id), None)
                             red_team = next((t for t in match.teamsEventDetails if tracked_game.live_red_metadata and t.id == tracked_game.live_red_metadata.team_id), None)

@@ -211,8 +211,15 @@ class TrackerService:
             
             
             # Al final, si algún juego está en progreso, marca la serie como inProgress    
-            if any(g.state == "inProgress" for g in tracked.trackedGames):
-                tracked.state = "inProgress"    
+            # Refuerzo: el estado de la serie debe reflejar el estado real de los juegos
+            if tracked.trackedGames:
+                if all(g.state in ("completed", "unneeded") for g in tracked.trackedGames):
+                    tracked.state = "completed"
+                elif any(g.state == "inProgress" for g in tracked.trackedGames):
+                    tracked.state = "inProgress"
+                else:
+                    tracked.state = "notStarted"
+            # ...existing code...    
                             
             await self._update_tracking(tracked)
             print(f"[🧠] Tracking actualizado para match_id: {tracked.match_id}")

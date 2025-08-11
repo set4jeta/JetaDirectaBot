@@ -471,8 +471,14 @@ class TrackedMatch:
                         tracked_game.number = game_event.number
                         tracked_game.vods = game_event.vods
             # <-- Añade esto al final del método -->
-        if self.trackedGames and all(g.state in ("completed", "unneeded") for g in self.trackedGames):
-            self.state = "completed"                
+        if self.trackedGames:
+            if all(g.state in ("completed", "unneeded") for g in self.trackedGames):
+                self.state = "completed"
+            elif any(g.state == "inProgress" for g in self.trackedGames):
+                self.state = "inProgress"
+            else:
+                # Si hay juegos "unstarted" pero ninguno en progreso, puedes dejarlo como está o poner otro estado
+                self.state = "notStarted"           
 
         # --- BLOQUE NUEVO: Forzar siguiente juego a inProgress si el anterior terminó ---
         for idx, game in enumerate(self.trackedGames):

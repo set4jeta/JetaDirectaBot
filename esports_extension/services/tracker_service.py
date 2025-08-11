@@ -291,6 +291,19 @@ class TrackerService:
                 raw_events = schedule_data.get("data", {}).get("schedule", {}).get("events", [])
                 current_event = next((e for e in raw_events if e.get("match", {}).get("id") == match_id), None)
                 if current_event and current_event.get("state") == "completed":
+                    # --- NUEVO: Verifica EventDetails antes de marcar como completado ---
+                    try:
+                        event_data = await self.api_client.get_event_details(match_id)
+                        event_details = EventDetails(event_data.get("data", {}).get("event", {}))
+                        # Si hay algún juego inProgress, NO marcar como completado
+                        if any(g.state == "inProgress" for g in event_details.gamesEventDetails):
+                            print(f"[⚠️] Schedule dice completed pero EventDetails tiene juegos activos: {match_id}")
+                            continue  # No marcar como completado
+                    except Exception as e:
+                        print(f"[❌] Error verificando EventDetails para {match_id}: {e}")
+                        # Si falla la API, mejor no marcar como completado
+                        continue
+
                     print(f"[📅] Serie completada según Schedule: {match_id}")
                     tracked.status = TrackedStatus.COMPLETED
                     updated = True

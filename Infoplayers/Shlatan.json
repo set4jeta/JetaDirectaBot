@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Shlatan",
+    "nombre_real": "Lucjan Ahmad",
+    "edad": 24,
+    "equipo": "Team BDS Academy",
+    "pais": "Poland",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ShlatanLoL",
+      "twitch": "https://www.twitch.tv/shlatan"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/shlatan.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "10k EGO#LPL",
+      "nivel": 287,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1201,
+      "victorias": 622,
+      "derrotas": 543,
+      "ultima_partida": 1760897125991
+    },
+    {
+      "nombre": "ShIatan#EUW",
+      "nivel": 469,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 143,
+      "derrotas": 145,
+      "ultima_partida": 1760833742858
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 101,
+      "victorias": 63,
+      "winrate": "62.4%",
+      "kda_promedio": 4.494594594594594
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 3.772727272727273
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 2.5945945945945947
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.4782608695652173
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.193548387096774
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5588235294117645
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.32
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 180,
+    "wins": 100,
+    "losses": 80,
+    "timePlayed": 283353
+  }
+}

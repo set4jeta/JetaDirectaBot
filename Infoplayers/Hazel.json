@@ -1,0 +1,122 @@
+{
+  "info_jugador": {
+    "nombre": "Hazel",
+    "nombre_real": "Costin Pestrițu",
+    "edad": 18,
+    "equipo": "Karmine Corp Blue Stars",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/hazel1euw",
+      "twitch": "https://www.twitch.tv/hazeltn"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hazel.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Antarctica#S B",
+      "nivel": 90,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1335,
+      "victorias": 286,
+      "derrotas": 176,
+      "ultima_partida": 1760790291717
+    },
+    {
+      "nombre": "Rose#HZL",
+      "nivel": 771,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 65,
+      "victorias": 363,
+      "derrotas": 313,
+      "ultima_partida": 1760371354278
+    },
+    {
+      "nombre": "one last dance#114",
+      "nivel": 76,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 129,
+      "derrotas": 96,
+      "ultima_partida": 1756405451977
+    },
+    {
+      "nombre": "114#1405",
+      "nivel": 147,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 224,
+      "derrotas": 161,
+      "ultima_partida": 1756208962372
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Smolder",
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 2.09375
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.0408163265306123
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.391304347826087
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7619047619047619
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.3076923076923075
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 25,
+    "losses": 32,
+    "timePlayed": 96994
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Macaquino",
+    "nombre_real": "Sergio Bouzende Rodrigues",
+    "edad": 22,
+    "equipo": "Guasones",
+    "pais": "Spain",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/macaquino_lol",
+      "twitch": "https://twitch.tv/macaquino_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GSNS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "CALIPPO DE LIMÓN#ÑAM",
+      "nivel": 1571,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1244,
+      "victorias": 579,
+      "derrotas": 519,
+      "ultima_partida": 1760794482315
+    },
+    {
+      "nombre": "PERREO FURIOSO#EUW",
+      "nivel": 73,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 69,
+      "derrotas": 37,
+      "ultima_partida": 1754140383990
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Mel",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.2941176470588234
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.736842105263158
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.466666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 31,
+    "losses": 23,
+    "timePlayed": 85010
+  }
+}

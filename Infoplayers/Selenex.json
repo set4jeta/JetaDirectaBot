@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Selenex",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/selenexlol",
+      "twitch": "https://www.twitch.tv/selenexlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GSNS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "selenex#ツツツ",
+      "nivel": 1141,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1336,
+      "victorias": 623,
+      "derrotas": 556,
+      "ultima_partida": 1760890259326
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.5853658536585367
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.5172413793103448
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.571428571428571
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7272727272727273
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 28,
+    "losses": 22,
+    "timePlayed": 83639
+  }
+}

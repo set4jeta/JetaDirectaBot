@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "Kubuś",
+    "nombre_real": "Jakub Gumiński",
+    "edad": 16,
+    "equipo": "Orbit Anonymo Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Kubus__lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OAE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kubuś#okok",
+      "nivel": 834,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 841,
+      "victorias": 452,
+      "derrotas": 423,
+      "ultima_partida": 1753474225778
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 22,
+      "victorias": 14,
+      "winrate": "63.6%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 2.413793103448276
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.2916666666666665
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.55
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 37,
+    "losses": 21,
+    "timePlayed": 91408
+  }
+}

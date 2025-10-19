@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "kPr",
+    "nombre_real": "Maxim Grebonos",
+    "edad": 22,
+    "equipo": "FN Esports",
+    "pais": "Moldova",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/kpr_lol",
+      "twitch": "https://twitch.tv/kprlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KPR kpR#ZATUP",
+      "nivel": 354,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 904,
+      "victorias": 346,
+      "derrotas": 306,
+      "ultima_partida": 1760825808768
+    },
+    {
+      "nombre": "Hailrake#77777",
+      "nivel": 173,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 448,
+      "victorias": 169,
+      "derrotas": 116,
+      "ultima_partida": 1760818854883
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.1052631578947367
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.206896551724138
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.44
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 31,
+    "losses": 23,
+    "timePlayed": 86823
+  }
+}

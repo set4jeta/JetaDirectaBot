@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "behave",
+    "nombre_real": "Marcin Pawlak",
+    "edad": 27,
+    "equipo": "BeFive",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/behavelol",
+      "twitch": "https://www.twitch.tv/behavelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "behave#ARAM",
+      "nivel": 548,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1057,
+      "victorias": 128,
+      "derrotas": 88,
+      "ultima_partida": 1753720085054
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.8275862068965516
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 12,
+    "losses": 5,
+    "timePlayed": 28685
+  }
+}

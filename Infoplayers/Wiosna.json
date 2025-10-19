@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Wiosna",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Wiosnaaaa",
+      "twitch": "https://twitch.tv/wiosnaa_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/wiosna.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GLP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Wiosna#seal",
+      "nivel": 1196,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 822,
+      "victorias": 352,
+      "derrotas": 306,
+      "ultima_partida": 1760634262018
+    },
+    {
+      "nombre": "pepi#seal",
+      "nivel": 357,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 75,
+      "victorias": 523,
+      "derrotas": 509,
+      "ultima_partida": 1760625296531
+    },
+    {
+      "nombre": "BUVEUSE 2 RÈGLES#SLURP",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 306,
+      "victorias": 96,
+      "derrotas": 66,
+      "ultima_partida": 1760303567207
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vladimir",
+      "partidas": 13,
+      "victorias": 3,
+      "winrate": "23.1%",
+      "kda_promedio": 1.8983050847457628
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.1578947368421053
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.2586206896551726
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.6428571428571428
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.6829268292682926
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8064516129032258
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6774193548387097
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.833333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 88,
+    "wins": 50,
+    "losses": 38,
+    "timePlayed": 145586
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "info_jugador": {
+    "nombre": "Lekcyc",
+    "nombre_real": "Alexander Leksikov",
+    "edad": 29,
+    "equipo": "IziDream",
+    "pais": "Russia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lekcycc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lekcyc.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IZI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Izi Lekcyc#111",
+      "nivel": 765,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 967,
+      "victorias": 379,
+      "derrotas": 341,
+      "ultima_partida": 1760886245258
+    },
+    {
+      "nombre": "Lekcycc#EUW",
+      "nivel": 293,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 105,
+      "victorias": 83,
+      "derrotas": 68,
+      "ultima_partida": 1760745074441
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 25,
+      "victorias": 14,
+      "winrate": "56.0%",
+      "kda_promedio": 6.05
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.923076923076923
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 24,
+    "losses": 24,
+    "timePlayed": 76379
+  }
+}

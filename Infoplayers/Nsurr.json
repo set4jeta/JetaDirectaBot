@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Nsurr",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Nsurr2",
+      "twitch": "https://twitch.tv/nsurr1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nsurr.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "TripleMonstre#EUWFR",
+      "nivel": 151,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1010,
+      "victorias": 264,
+      "derrotas": 215,
+      "ultima_partida": 1760714900960
+    },
+    {
+      "nombre": "Full Drip Nsurr#EUW",
+      "nivel": 320,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1112,
+      "victorias": 322,
+      "derrotas": 266,
+      "ultima_partida": 1760699781683
+    },
+    {
+      "nombre": "Nsurr#EUWFR",
+      "nivel": 1221,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 85,
+      "victorias": 101,
+      "derrotas": 92,
+      "ultima_partida": 1757930343074
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 3.2403846153846154
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.58
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.324324324324324
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 26,
+    "losses": 18,
+    "timePlayed": 73229
+  }
+}

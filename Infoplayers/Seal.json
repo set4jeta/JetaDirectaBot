@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Seal",
+    "nombre_real": "Fabian de Lint",
+    "edad": 24,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/DealerSeal"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Autumn Leaf#Seal",
+      "nivel": 777,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1523,
+      "victorias": 254,
+      "derrotas": 181,
+      "ultima_partida": 1760896816786
+    },
+    {
+      "nombre": "Spellbook Reader#book",
+      "nivel": 175,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1106,
+      "victorias": 187,
+      "derrotas": 134,
+      "ultima_partida": 1760890543030
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 6.583333333333333
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.074074074074074
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.823529411764706
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 14,
+    "losses": 14,
+    "timePlayed": 44904
+  }
+}

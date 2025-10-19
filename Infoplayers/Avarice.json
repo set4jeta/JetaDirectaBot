@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Avarice",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/avarice61",
+      "twitch": "https://www.twitch.tv/avarice61"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/PCS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Greed#1031",
+      "nivel": 124,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1501,
+      "victorias": 307,
+      "derrotas": 244,
+      "ultima_partida": 1760891125773
+    },
+    {
+      "nombre": "avarice61#51483",
+      "nivel": 910,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1496,
+      "victorias": 352,
+      "derrotas": 276,
+      "ultima_partida": 1760658262529
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 3.323529411764706
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 6.04
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.7419354838709675
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.933333333333333
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9473684210526314
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8888888888888888
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 37,
+    "losses": 30,
+    "timePlayed": 110382
+  }
+}

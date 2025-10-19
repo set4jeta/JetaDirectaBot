@@ -1,0 +1,89 @@
+{
+  "info_jugador": {
+    "nombre": "SwiT",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AFW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SwiT#ZEUS",
+      "nivel": 821,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1093,
+      "victorias": 552,
+      "derrotas": 496,
+      "ultima_partida": 1760887830487
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sion",
+      "partidas": 24,
+      "victorias": 18,
+      "winrate": "75.0%",
+      "kda_promedio": 5.648148148148148
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 20,
+      "victorias": 9,
+      "winrate": "45.0%",
+      "kda_promedio": 2.220183486238532
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 2.2452830188679247
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.0476190476190474
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.9473684210526314
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 75,
+    "wins": 42,
+    "losses": 33,
+    "timePlayed": 119345
+  }
+}

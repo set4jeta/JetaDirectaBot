@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Splinter",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MrSplinterlol",
+      "twitch": "https://twitch.tv/splinter"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/splinter.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Splinter#TAFE",
+      "nivel": 852,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 100,
+      "victorias": 114,
+      "derrotas": 91,
+      "ultima_partida": 1760797121793
+    },
+    {
+      "nombre": "HE IS BACK#KIFF",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 848,
+      "victorias": 101,
+      "derrotas": 43,
+      "ultima_partida": 1760306205780
+    },
+    {
+      "nombre": "La Splintance#TAFE",
+      "nivel": 197,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 315,
+      "derrotas": 267,
+      "ultima_partida": 1757752426644
+    },
+    {
+      "nombre": "Kiffeur#KR7",
+      "nivel": 81,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 266,
+      "derrotas": 163,
+      "ultima_partida": 1746872806030
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kennen",
+      "partidas": 45,
+      "victorias": 28,
+      "winrate": "62.2%",
+      "kda_promedio": 2.792682926829268
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6315789473684212
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5333333333333334
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 34,
+    "losses": 25,
+    "timePlayed": 98064
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Cape",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lolcapee"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TFF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Insomnia#531",
+      "nivel": 821,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 958,
+      "victorias": 279,
+      "derrotas": 236,
+      "ultima_partida": 1753662145531
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.2613636363636362
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.318181818181818
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.526315789473684
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.1904761904761907
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.857142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 43,
+    "losses": 36,
+    "timePlayed": 128874
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "info_jugador": {
+    "nombre": "Jalleba",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/JallebaEuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Katerina Petrova#XD1",
+      "nivel": 844,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 779,
+      "victorias": 332,
+      "derrotas": 292,
+      "ultima_partida": 1753719895470
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 2,
+    "wins": 0,
+    "losses": 2,
+    "timePlayed": 3128
+  }
+}

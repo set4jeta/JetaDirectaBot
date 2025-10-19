@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Woldjo",
+    "nombre_real": "William Donatzky",
+    "edad": 20,
+    "equipo": "One More Esports",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lolWoldjo",
+      "twitch": "https://www.twitch.tv/woldjo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "sselatnep#NSCG7",
+      "nivel": 120,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 795,
+      "victorias": 525,
+      "derrotas": 451,
+      "ultima_partida": 1760675502573
+    },
+    {
+      "nombre": "Woldjo#2005",
+      "nivel": 343,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 637,
+      "derrotas": 614,
+      "ultima_partida": 1758728454024
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nunu",
+      "partidas": 119,
+      "victorias": 69,
+      "winrate": "58.0%",
+      "kda_promedio": 3.843984962406015
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.1052631578947367
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8421052631578947
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.36
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 23
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8666666666666667
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.6
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 145,
+    "wins": 82,
+    "losses": 63,
+    "timePlayed": 226265
+  }
+}

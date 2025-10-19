@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Lyrokun",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lyrokun"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Lyrokun#EUW",
+      "nivel": 1405,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 913,
+      "victorias": 441,
+      "derrotas": 395,
+      "ultima_partida": 1760895318808
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nami",
+      "partidas": 44,
+      "victorias": 25,
+      "winrate": "56.8%",
+      "kda_promedio": 4.73202614379085
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 31,
+      "victorias": 18,
+      "winrate": "58.1%",
+      "kda_promedio": 4.020408163265306
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.0714285714285716
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.5454545454545454
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.36
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 94,
+    "wins": 49,
+    "losses": 45,
+    "timePlayed": 145283
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Dajor",
+    "nombre_real": "Oliver Ryppa",
+    "edad": 22,
+    "equipo": "Berlin International Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/dajorlol",
+      "twitch": "https://twitch.tv/dajor25"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dajor.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BIG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "fubgun#exile",
+      "nivel": 1027,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1089,
+      "victorias": 455,
+      "derrotas": 411,
+      "ultima_partida": 1760903685187
+    },
+    {
+      "nombre": "Jeonkook#EUW",
+      "nivel": 198,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 286,
+      "derrotas": 257,
+      "ultima_partida": 1759599750331
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 12,
+      "victorias": 3,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4375
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 0.7567567567567568
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.294117647058823
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.3076923076923075
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.7619047619047619
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 29,
+    "losses": 30,
+    "timePlayed": 95751
+  }
+}

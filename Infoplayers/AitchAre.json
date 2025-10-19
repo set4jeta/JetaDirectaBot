@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "AitchAre",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/AitchAre_top"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Artix von#12345",
+      "nivel": 312,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 872,
+      "victorias": 672,
+      "derrotas": 620,
+      "ultima_partida": 1760897357298
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Darius",
+      "partidas": 31,
+      "victorias": 12,
+      "winrate": "38.7%",
+      "kda_promedio": 2.2238805970149254
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7272727272727273
+    },
+    {
+      "nombre": "Teemo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 16,
+    "losses": 26,
+    "timePlayed": 66832
+  }
+}

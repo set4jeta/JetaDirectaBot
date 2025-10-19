@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "moe",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Moekkr"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DRG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Purple Place#Moe",
+      "nivel": 448,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 907,
+      "victorias": 311,
+      "derrotas": 272,
+      "ultima_partida": 1760893850992
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rengar",
+      "partidas": 24,
+      "victorias": 14,
+      "winrate": "58.3%",
+      "kda_promedio": 2.7203389830508473
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4918032786885247
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0588235294117645
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1777777777777776
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.0303030303030303
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9772727272727273
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.045454545454546
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6315789473684212
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3181818181818183
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 112,
+    "wins": 56,
+    "losses": 56,
+    "timePlayed": 168499
+  }
+}

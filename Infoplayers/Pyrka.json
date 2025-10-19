@@ -1,0 +1,70 @@
+{
+  "info_jugador": {
+    "nombre": "Pyrka",
+    "nombre_real": "Łukasz Grześkowiak",
+    "edad": 25,
+    "equipo": "Ramboot Club",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Pyrka_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Pyrka#EUW4",
+      "nivel": 815,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1063,
+      "victorias": 367,
+      "derrotas": 329,
+      "ultima_partida": 1753713883589
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9090909090909091
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 29
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 6,
+    "wins": 2,
+    "losses": 4,
+    "timePlayed": 9452
+  }
+}

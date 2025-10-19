@@ -1,0 +1,95 @@
+{
+  "info_jugador": {
+    "nombre": "Kaiser",
+    "nombre_real": "Norman Kaiser",
+    "edad": 26,
+    "equipo": "Los Heretics",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/KaiserLoL",
+      "twitch": "https://www.twitch.tv/kaiserlol6"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kaiser.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/HRTS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "zta#EUW",
+      "nivel": 471,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 856,
+      "victorias": 238,
+      "derrotas": 157,
+      "ultima_partida": 1760876548210
+    },
+    {
+      "nombre": "kvothefanboy#EUW",
+      "nivel": 114,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 594,
+      "victorias": 217,
+      "derrotas": 136,
+      "ultima_partida": 1759482035826
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.75
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 29
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 7,
+    "losses": 2,
+    "timePlayed": 12245
+  }
+}

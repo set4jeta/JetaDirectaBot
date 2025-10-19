@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Detdert",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/detdert",
+      "twitch": "https://twitch.tv/detdert"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/detdert.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TWTV DETDERT#12MAJ",
+      "nivel": 471,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 948,
+      "victorias": 891,
+      "derrotas": 864,
+      "ultima_partida": 1753745130792
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 89,
+      "victorias": 53,
+      "winrate": "59.6%",
+      "kda_promedio": 4.0233644859813085
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 39,
+      "victorias": 16,
+      "winrate": "41.0%",
+      "kda_promedio": 2.86784140969163
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.869565217391305
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.84375
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.789473684210526
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0588235294117647
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 154,
+    "wins": 81,
+    "losses": 73,
+    "timePlayed": 255469
+  }
+}

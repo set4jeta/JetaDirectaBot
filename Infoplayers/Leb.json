@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Leb",
+    "nombre_real": "Dimitar Kostadinov",
+    "edad": 25,
+    "equipo": "Berlin International Gaming",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MeLeBron1",
+      "twitch": "https://twitch.tv/melebron"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BIG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Mountain Wolf#wagmi",
+      "nivel": 681,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1086,
+      "victorias": 295,
+      "derrotas": 257,
+      "ultima_partida": 1753732806223
+    },
+    {
+      "nombre": "BIG Daddy#wagmi",
+      "nivel": 381,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 637,
+      "victorias": 85,
+      "derrotas": 54,
+      "ultima_partida": 1753541885542
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5892857142857144
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.235294117647059
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2666666666666666
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.181818181818182
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 20,
+    "losses": 22,
+    "timePlayed": 63192
+  }
+}

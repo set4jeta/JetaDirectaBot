@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Guggu",
+    "nombre_real": "Guga Tsertsvadze",
+    "edad": 20,
+    "equipo": "WLGaming Esports",
+    "pais": "Georgia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/suppgaming",
+      "twitch": "https://www.twitch.tv/guggu777"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Guggu#gaga",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1239,
+      "victorias": 422,
+      "derrotas": 330,
+      "ultima_partida": 1760603679150
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 14,
+      "victorias": 12,
+      "winrate": "85.7%",
+      "kda_promedio": 4.253731343283582
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 3.107142857142857
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.823529411764706
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.411764705882353
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.7916666666666667
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9444444444444446
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 38,
+    "losses": 14,
+    "timePlayed": 83242
+  }
+}

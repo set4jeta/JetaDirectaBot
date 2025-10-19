@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "Exofeng",
+    "nombre_real": "Mario Emilov Strugov",
+    "edad": 18,
+    "equipo": "GIANTX Academy",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2025-10-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/EX0F3NG",
+      "twitch": "https://www.twitch.tv/exofeng"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "euw owner0123721#444",
+      "nivel": 120,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1064,
+      "victorias": 427,
+      "derrotas": 330,
+      "ultima_partida": 1760821521770
+    },
+    {
+      "nombre": "ВОЛЯ#000",
+      "nivel": 155,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 216,
+      "derrotas": 193,
+      "ultima_partida": 1760280438317
+    },
+    {
+      "nombre": "practise1#euww",
+      "nivel": 221,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 70,
+      "victorias": 96,
+      "derrotas": 87,
+      "ultima_partida": 1757184028791
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Draven",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.5208333333333335
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4166666666666667
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Samira",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 7,
+    "losses": 8,
+    "timePlayed": 22847
+  }
+}

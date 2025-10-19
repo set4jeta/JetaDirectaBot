@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "MidBeast",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "\\thttps://twitter.com/Midbeast",
+      "twitch": "https://twitch.tv/midbeast"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/midbeast.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "kapsalon lover22#HEHE",
+      "nivel": 45,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 844,
+      "victorias": 114,
+      "derrotas": 56,
+      "ultima_partida": 1760275852367
+    },
+    {
+      "nombre": "MIDBEAST#LION",
+      "nivel": 167,
+      "region": "OC1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 224,
+      "derrotas": 192,
+      "ultima_partida": 1757572534222
+    },
+    {
+      "nombre": "WASHED STREAMER#7777",
+      "nivel": 439,
+      "region": "OC1",
+      "liga": "EMERALD III",
+      "lp": 12,
+      "victorias": 389,
+      "derrotas": 433,
+      "ultima_partida": 1756459983288
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 42,
+      "victorias": 26,
+      "winrate": "61.9%",
+      "kda_promedio": 3.4759036144578315
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 33,
+      "victorias": 20,
+      "winrate": "60.6%",
+      "kda_promedio": 2.696629213483146
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.3928571428571428
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.368421052631579
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 99,
+    "wins": 58,
+    "losses": 41,
+    "timePlayed": 166030
+  }
+}

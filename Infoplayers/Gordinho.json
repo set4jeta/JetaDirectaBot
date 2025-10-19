@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "Gordinho",
+    "nombre_real": "Simão Valente",
+    "edad": 20,
+    "equipo": "FlameHard",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/GordinhoComF0me"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FLH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Rush B P90#PT1",
+      "nivel": 282,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1180,
+      "victorias": 330,
+      "derrotas": 274,
+      "ultima_partida": 1760896931693
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.1052631578947367
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5652173913043477
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.277777777777778
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 12,
+    "losses": 7,
+    "timePlayed": 31678
+  }
+}

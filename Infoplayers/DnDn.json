@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "DnDn",
+    "nombre_real": "Park Geun-woo",
+    "edad": 22,
+    "equipo": "SK Gaming",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/dndnone23"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dndn.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "DNDN#0518",
+      "nivel": 169,
+      "region": "KR",
+      "liga": "MASTER I",
+      "lp": 525,
+      "victorias": 85,
+      "derrotas": 49,
+      "ultima_partida": 1760853274138
+    },
+    {
+      "nombre": "dancedoalittledo#11111",
+      "nivel": 1365,
+      "region": "KR",
+      "liga": "DIAMOND I",
+      "lp": 15,
+      "victorias": 20,
+      "derrotas": 13,
+      "ultima_partida": 1760050214601
+    },
+    {
+      "nombre": "팔협지또일등이야#8888",
+      "nivel": 149,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 446,
+      "derrotas": 323,
+      "ultima_partida": 1756403909681
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.214285714285714
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 34
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 24,
+    "wins": 19,
+    "losses": 5,
+    "timePlayed": 38995
+  }
+}

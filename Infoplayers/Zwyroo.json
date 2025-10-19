@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Zwyroo",
+    "nombre_real": "Artur Trojan",
+    "edad": 26,
+    "equipo": "NORD Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Zwyrooo",
+      "twitch": "https://www.twitch.tv/zwyro"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/zwyroo.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "søuleater#søul",
+      "nivel": 212,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 361,
+      "victorias": 201,
+      "derrotas": 171,
+      "ultima_partida": 1760894485023
+    },
+    {
+      "nombre": "Zwyrøø#soul",
+      "nivel": 1307,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 842,
+      "victorias": 760,
+      "derrotas": 712,
+      "ultima_partida": 1760824019890
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.926829268292683
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.7254901960784315
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4.085714285714285
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.090909090909091
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.473684210526316
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.0588235294117645
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8888888888888888
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 86,
+    "wins": 38,
+    "losses": 48,
+    "timePlayed": 142174
+  }
+}

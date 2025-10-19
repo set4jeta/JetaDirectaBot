@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Rhilech",
+    "nombre_real": "Enes Uçan",
+    "edad": 20,
+    "equipo": "Natus Vincere",
+    "pais": "Turkey",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Rhilechlol",
+      "twitch": "https://www.twitch.tv/rhilechlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Rhilech#15105",
+      "nivel": 1043,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1203,
+      "victorias": 627,
+      "derrotas": 561,
+      "ultima_partida": 1760898295009
+    },
+    {
+      "nombre": "ribzuto#3131",
+      "nivel": 74,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 88,
+      "derrotas": 29,
+      "ultima_partida": 1759175719645
+    },
+    {
+      "nombre": "bomboboks#15105",
+      "nivel": 218,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 90,
+      "derrotas": 49,
+      "ultima_partida": 1756675704350
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 30,
+      "victorias": 20,
+      "winrate": "66.7%",
+      "kda_promedio": 3.38
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.341463414634147
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9444444444444446
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.103448275862069
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.625
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 33,
+    "losses": 26,
+    "timePlayed": 91696
+  }
+}

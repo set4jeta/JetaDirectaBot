@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "adi1",
+    "nombre_real": "Adrian Jackowski",
+    "edad": 23,
+    "equipo": "Nightbirds",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/adrianint",
+      "twitch": "https://www.twitch.tv/adrianint"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/adi1.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Iiz#IVE",
+      "nivel": 198,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 659,
+      "victorias": 109,
+      "derrotas": 87,
+      "ultima_partida": 1760895128060
+    },
+    {
+      "nombre": "inspired1#78141",
+      "nivel": 382,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1085,
+      "victorias": 173,
+      "derrotas": 107,
+      "ultima_partida": 1760892837017
+    },
+    {
+      "nombre": "Ailurus fulgens#78141",
+      "nivel": 820,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 111,
+      "derrotas": 83,
+      "ultima_partida": 1759875331424
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.5625
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.588235294117647
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.555555555555555
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7647058823529411
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 10,
+    "losses": 13,
+    "timePlayed": 36493
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "info_jugador": {
+    "nombre": "Elite500",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Elite5002",
+      "twitch": "https://twitch.tv/elite500"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/elite500.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Elite500#E500",
+      "nivel": 845,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 851,
+      "victorias": 283,
+      "derrotas": 216,
+      "ultima_partida": 1760635794256
+    },
+    {
+      "nombre": "Elit5#EUW",
+      "nivel": 150,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 25,
+      "victorias": 187,
+      "derrotas": 128,
+      "ultima_partida": 1760555800558
+    },
+    {
+      "nombre": "ADC IS EASY#E500",
+      "nivel": 62,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 151,
+      "derrotas": 111,
+      "ultima_partida": 1758038739280
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vladimir",
+      "partidas": 28,
+      "victorias": 11,
+      "winrate": "39.3%",
+      "kda_promedio": 2.9611650485436893
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 11,
+    "losses": 18,
+    "timePlayed": 45991
+  }
+}

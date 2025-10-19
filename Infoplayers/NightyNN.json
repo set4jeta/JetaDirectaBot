@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "NightyNN",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/NightyNN7"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "NightyNN1#361",
+      "nivel": 110,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1179,
+      "victorias": 393,
+      "derrotas": 300,
+      "ultima_partida": 1760128970287
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Olaf",
+      "partidas": 29,
+      "victorias": 14,
+      "winrate": "48.3%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.857142857142857
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Kayn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 16,
+    "losses": 24,
+    "timePlayed": 62571
+  }
+}

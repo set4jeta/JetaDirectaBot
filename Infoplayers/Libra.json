@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Libra",
+    "nombre_real": "Emre Ercan Güler",
+    "edad": 22,
+    "equipo": "Team Insidious",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Libra1v1",
+      "twitch": "https://www.twitch.tv/libra1v1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IN5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Gluttony#Wrath",
+      "nivel": 700,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 162,
+      "victorias": 365,
+      "derrotas": 347,
+      "ultima_partida": 1760898612466
+    },
+    {
+      "nombre": "Libra#Noxus",
+      "nivel": 366,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 754,
+      "victorias": 217,
+      "derrotas": 166,
+      "ultima_partida": 1760824809360
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.696969696969697
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.210526315789474
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 6.153846153846154
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7058823529411764
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3636363636363635
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.083333333333333
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 74,
+    "wins": 44,
+    "losses": 30,
+    "timePlayed": 119973
+  }
+}

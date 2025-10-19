@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Yuros",
+    "nombre_real": "Alp Kağan Ercan",
+    "edad": 21,
+    "equipo": "The Forbidden Five",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Yuros19",
+      "twitch": "https://www.twitch.tv/yurosmid"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "yuros#1205",
+      "nivel": 877,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1453,
+      "victorias": 512,
+      "derrotas": 435,
+      "ultima_partida": 1760896522077
+    },
+    {
+      "nombre": "RAGEQ#ACC",
+      "nivel": 422,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1183,
+      "victorias": 471,
+      "derrotas": 396,
+      "ultima_partida": 1760883756089
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 34,
+      "victorias": 17,
+      "winrate": "50.0%",
+      "kda_promedio": 3.896551724137931
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7586206896551726
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.9285714285714284
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.7222222222222223
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.444444444444445
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 66,
+    "wins": 30,
+    "losses": 36,
+    "timePlayed": 99385
+  }
+}

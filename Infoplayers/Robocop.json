@@ -1,0 +1,77 @@
+{
+  "info_jugador": {
+    "nombre": "Robocop",
+    "nombre_real": "Ondřej Sklenička",
+    "edad": 25,
+    "equipo": "Entropiq",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Robocoplol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SMRADOCH ROBO#EUW",
+      "nivel": 614,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 923,
+      "victorias": 388,
+      "derrotas": 353,
+      "ultima_partida": 1760876116235
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 2.129032258064516
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.696969696969697
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 17,
+    "losses": 14,
+    "timePlayed": 49093
+  }
+}

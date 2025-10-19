@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Tobi4",
+    "nombre_real": "Louis Spiser",
+    "edad": 25,
+    "equipo": "Cicadas Gaming",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/SpiserL",
+      "twitch": "https://www.twitch.tv/tobi4lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "eLS Tobi#EUW04",
+      "nivel": 805,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 919,
+      "victorias": 521,
+      "derrotas": 466,
+      "ultima_partida": 1760874505008
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shen",
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 3.425925925925926
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1052631578947367
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 17,
+    "losses": 26,
+    "timePlayed": 62743
+  }
+}

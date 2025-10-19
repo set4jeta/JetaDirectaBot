@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Dehaste",
+    "nombre_real": "Sven Vidović",
+    "edad": 25,
+    "equipo": "Rich Gang (Norwegian Team)",
+    "pais": "Croatia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/dehastee",
+      "twitch": "https://www.twitch.tv/dehasteee"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Harry Tipper#2010",
+      "nivel": 121,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 793,
+      "victorias": 260,
+      "derrotas": 207,
+      "ultima_partida": 1760809423078
+    },
+    {
+      "nombre": "Illyrian#2000",
+      "nivel": 614,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1107,
+      "victorias": 129,
+      "derrotas": 75,
+      "ultima_partida": 1760807032605
+    },
+    {
+      "nombre": "holy diver#X9B",
+      "nivel": 222,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 64,
+      "victorias": 129,
+      "derrotas": 100,
+      "ultima_partida": 1760788959467
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Xerath",
+      "partidas": 20,
+      "victorias": 10,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4310344827586206
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4186046511627908
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Samira",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4838709677419355
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 26,
+    "losses": 27,
+    "timePlayed": 86127
+  }
+}

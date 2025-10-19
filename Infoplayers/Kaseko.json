@@ -1,0 +1,53 @@
+{
+  "info_jugador": {
+    "nombre": "Kaseko",
+    "nombre_real": "Konrad Szewczak",
+    "edad": 27,
+    "equipo": "Forsaken (Polish Team)",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KasekoEB",
+      "twitch": "https://twitch.tv/kaseko"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kaseko.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FSK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "twojstary2komary#win",
+      "nivel": 717,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 208,
+      "derrotas": 183,
+      "ultima_partida": 1760867986396
+    },
+    {
+      "nombre": "goroncywir62#rank1",
+      "nivel": 60,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 864,
+      "victorias": 181,
+      "derrotas": 102,
+      "ultima_partida": 1760740808507
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lulu",
+      "partidas": 41,
+      "victorias": 22,
+      "winrate": "53.7%",
+      "kda_promedio": 3.5294117647058822
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 22,
+    "losses": 19,
+    "timePlayed": 60110
+  }
+}

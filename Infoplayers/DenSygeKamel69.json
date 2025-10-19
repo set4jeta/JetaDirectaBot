@@ -1,0 +1,49 @@
+{
+  "info_jugador": {
+    "nombre": "DenSygeKamel69",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://twitch.tv/densygekamel69"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "DenSygeKamel69#EUW",
+      "nivel": 1501,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 976,
+      "victorias": 756,
+      "derrotas": 709,
+      "ultima_partida": 1760180010497
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Udyr",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 3,
+    "wins": 1,
+    "losses": 2,
+    "timePlayed": 3327
+  }
+}

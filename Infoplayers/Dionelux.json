@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Dionelux",
+    "nombre_real": "Yağız Özvarna",
+    "edad": 19,
+    "equipo": "Project Conquerors",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/dionelux",
+      "twitch": "https://www.twitch.tv/dioneluxx"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/PCS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "John Cena#19634",
+      "nivel": 698,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 784,
+      "victorias": 451,
+      "derrotas": 424,
+      "ultima_partida": 1760890646808
+    },
+    {
+      "nombre": "CM Punk#1963",
+      "nivel": 268,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 340,
+      "victorias": 353,
+      "derrotas": 334,
+      "ultima_partida": 1760466220637
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 32,
+      "victorias": 23,
+      "winrate": "71.9%",
+      "kda_promedio": 3.045801526717557
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 22,
+      "victorias": 12,
+      "winrate": "54.5%",
+      "kda_promedio": 2.4939759036144578
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.4827586206896552
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5294117647058822
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5757575757575757
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1538461538461537
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 135,
+    "wins": 58,
+    "losses": 77,
+    "timePlayed": 203714
+  }
+}

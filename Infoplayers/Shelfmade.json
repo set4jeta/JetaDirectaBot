@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Shelfmade",
+    "nombre_real": "Francesco Cardia",
+    "edad": 19,
+    "equipo": "Berlin International Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ShelfmadeLoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/shelfmade.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BIG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KDF DuDu#KING1",
+      "nivel": 454,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1055,
+      "victorias": 656,
+      "derrotas": 609,
+      "ultima_partida": 1760893138793
+    },
+    {
+      "nombre": "BIG Pig#Oink5",
+      "nivel": 693,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 85,
+      "victorias": 7,
+      "derrotas": 3,
+      "ultima_partida": 1760828948279
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 37,
+      "victorias": 17,
+      "winrate": "45.9%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 1.4691358024691359
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.4761904761904763
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 0.967741935483871
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.772727272727273
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3181818181818181
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 108,
+    "wins": 55,
+    "losses": 53,
+    "timePlayed": 162553
+  }
+}

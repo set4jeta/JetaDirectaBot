@@ -1,0 +1,67 @@
+{
+  "info_jugador": {
+    "nombre": "Koussay",
+    "nombre_real": "Koussay Soltani",
+    "edad": 20,
+    "equipo": "GnG Amazigh",
+    "pais": "Tunisia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/SoltaniKoussay",
+      "twitch": "https://twitch.tv/koussay3tn"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GNG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Koυssay3#EUW",
+      "nivel": 979,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 875,
+      "victorias": 578,
+      "derrotas": 532,
+      "ultima_partida": 1760471041183
+    },
+    {
+      "nombre": "Maribeth Monroe#EUW",
+      "nivel": 175,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 65,
+      "victorias": 118,
+      "derrotas": 81,
+      "ultima_partida": 1758748674240
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4375
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 4,
+    "losses": 7,
+    "timePlayed": 16739
+  }
+}

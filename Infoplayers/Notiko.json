@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Notiko",
+    "nombre_real": "Nick Celombitko",
+    "edad": 24,
+    "equipo": "CGN Esports",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Notikolol",
+      "twitch": "https://twitch.tv/notikolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/notiko.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZER.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Notiko#EUW01",
+      "nivel": 915,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1372,
+      "victorias": 585,
+      "derrotas": 510,
+      "ultima_partida": 1760896931693
+    },
+    {
+      "nombre": "Monopoly#PS500",
+      "nivel": 139,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 500,
+      "victorias": 125,
+      "derrotas": 94,
+      "ultima_partida": 1760778655363
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 31,
+      "victorias": 14,
+      "winrate": "45.2%",
+      "kda_promedio": 2.9097744360902253
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7962962962962963
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 4.575757575757576
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6785714285714284
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.48
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7241379310344827
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 120,
+    "wins": 64,
+    "losses": 56,
+    "timePlayed": 191613
+  }
+}

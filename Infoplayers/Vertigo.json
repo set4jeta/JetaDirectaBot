@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Vertigo",
+    "nombre_real": "Maximilian Rassi",
+    "edad": 22,
+    "equipo": "Beşiktaş Esports",
+    "pais": "Austria",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/rassi_max",
+      "twitch": "https://www.twitch.tv/vertigo_riven"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/vertigo.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BJK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Vertigo#4810",
+      "nivel": 868,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 57,
+      "victorias": 55,
+      "derrotas": 66,
+      "ultima_partida": 1753736367742
+    },
+    {
+      "nombre": "fear dagger#4810",
+      "nivel": 187,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1172,
+      "victorias": 561,
+      "derrotas": 508,
+      "ultima_partida": 1753371376575
+    },
+    {
+      "nombre": "Vertigo#KR3",
+      "nivel": 37,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.4642857142857144
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.3409090909090908
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.64
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7391304347826086
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 22,
+    "losses": 26,
+    "timePlayed": 83378
+  }
+}

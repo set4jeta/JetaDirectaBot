@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Opossos",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/opossos",
+      "twitch": "https://twitch.tv/opossos"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Opossos#侘 寂",
+      "nivel": 1711,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1066,
+      "victorias": 390,
+      "derrotas": 339,
+      "ultima_partida": 1760826209033
+    },
+    {
+      "nombre": "Abyssal Mask#侘 寂",
+      "nivel": 306,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 709,
+      "victorias": 236,
+      "derrotas": 189,
+      "ultima_partida": 1760819126044
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zilean",
+      "partidas": 52,
+      "victorias": 26,
+      "winrate": "50.0%",
+      "kda_promedio": 4.615942028985507
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 18,
+      "victorias": 9,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1794871794871793
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.347826086956522
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.2777777777777777
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.892857142857143
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0909090909090908
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 121,
+    "wins": 61,
+    "losses": 60,
+    "timePlayed": 196004
+  }
+}

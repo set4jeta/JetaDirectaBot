@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Armut",
+    "nombre_real": "İrfan&nbsp;Berk Tükek",
+    "edad": 26,
+    "equipo": "Papara SuperMassive",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/armutlol",
+      "twitch": "https://twitch.tv/armutlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/armut.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SUP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "PAPARA ARMUT#123",
+      "nivel": 524,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 774,
+      "victorias": 369,
+      "derrotas": 341,
+      "ultima_partida": 1753740288269
+    },
+    {
+      "nombre": "ARMUTONG#EUW",
+      "nivel": 352,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1741732416986
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.5813953488372092
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.380952380952381
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.263157894736842
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.764705882352941
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 10.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 40,
+    "losses": 39,
+    "timePlayed": 126163
+  }
+}

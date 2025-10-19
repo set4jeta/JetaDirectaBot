@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Adryh",
+    "nombre_real": "Adrian&nbsp;Rahi Herrera Otero",
+    "edad": 26,
+    "equipo": "Lightning Esports",
+    "pais": "Peru",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/mcadryh",
+      "twitch": "https://twitch.tv/mcadryh"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Adryh#4841",
+      "nivel": 968,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 854,
+      "victorias": 443,
+      "derrotas": 408,
+      "ultima_partida": 1760719356842
+    },
+    {
+      "nombre": "A POR EL BOTE#EUW",
+      "nivel": 120,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 119,
+      "derrotas": 109,
+      "ultima_partida": 1756942539982
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Caitlyn",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5106382978723403
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.68
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7333333333333334
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.951219512195122
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0476190476190477
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 11.5
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 24,
+    "losses": 30,
+    "timePlayed": 87979
+  }
+}

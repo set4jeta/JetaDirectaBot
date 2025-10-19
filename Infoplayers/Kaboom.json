@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Kaboom",
+    "nombre_real": "Osman Onur Korkmaz",
+    "edad": 19,
+    "equipo": "Papara SuperMassive",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/kaboomxxd",
+      "twitch": "https://www.twitch.tv/kaboomxxd\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SUP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kaboom#EUW1a",
+      "nivel": 143,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1148,
+      "victorias": 464,
+      "derrotas": 361,
+      "ultima_partida": 1760896931693
+    },
+    {
+      "nombre": "siber atlet#dafuq",
+      "nivel": 208,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 364,
+      "victorias": 172,
+      "derrotas": 131,
+      "ultima_partida": 1760664682953
+    },
+    {
+      "nombre": "bombo#ALPHA",
+      "nivel": 143,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 146,
+      "victorias": 161,
+      "derrotas": 145,
+      "ultima_partida": 1760368396269
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4025974025974026
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 3.3048780487804876
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.8225806451612905
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.457142857142857
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3111111111111111
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0625
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.769230769230769
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.625
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.611111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 112,
+    "wins": 60,
+    "losses": 52,
+    "timePlayed": 171980
+  }
+}

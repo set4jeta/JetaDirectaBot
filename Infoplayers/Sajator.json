@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Sajator",
+    "nombre_real": "Jan Zítek",
+    "edad": 20,
+    "equipo": "CITA Kaizen",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sajator"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sajator.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "UMA JAN ZÍTEK#ANTMN",
+      "nivel": 906,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 915,
+      "victorias": 290,
+      "derrotas": 245,
+      "ultima_partida": 1760462617566
+    },
+    {
+      "nombre": "caffeineaddict#58Gym",
+      "nivel": 267,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 188,
+      "victorias": 258,
+      "derrotas": 216,
+      "ultima_partida": 1759660093378
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.896551724137931
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5384615384615383
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.466666666666667
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.777777777777778
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.833333333333333
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 27
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.833333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 36,
+    "losses": 15,
+    "timePlayed": 76450
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Chompy",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Chhompyy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "fading echoes#julia",
+      "nivel": 198,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 969,
+      "victorias": 265,
+      "derrotas": 221,
+      "ultima_partida": 1760881077693
+    },
+    {
+      "nombre": "Until I Die#chmpy",
+      "nivel": 57,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 282,
+      "victorias": 155,
+      "derrotas": 116,
+      "ultima_partida": 1760802878511
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Taric",
+      "partidas": 22,
+      "victorias": 8,
+      "winrate": "36.4%",
+      "kda_promedio": 3.2100840336134455
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.774193548387097
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.166666666666667
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 21,
+    "losses": 20,
+    "timePlayed": 65859
+  }
+}

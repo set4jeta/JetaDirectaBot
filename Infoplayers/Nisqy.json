@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nisqy",
+    "nombre_real": "Yasin Dinçer",
+    "edad": 27,
+    "equipo": "Karmine Corp",
+    "pais": "Belgium",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Nisqy",
+      "twitch": "https://www.twitch.tv/nisqyy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nisqy.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "KC Subsqy#KCORP",
+      "nivel": 715,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 850,
+      "victorias": 497,
+      "derrotas": 459,
+      "ultima_partida": 1753740915271
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.207547169811321
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.0476190476190474
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.9782608695652173
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.027027027027027
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.264705882352941
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.423076923076923
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5217391304347827
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 108,
+    "wins": 52,
+    "losses": 56,
+    "timePlayed": 173198
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Myrtus",
+    "nombre_real": "Mohamed Rahli",
+    "edad": 20,
+    "equipo": "Team BDS Academy",
+    "pais": "Italy",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/myrtus_lol",
+      "twitch": "https://twitch.tv/myrtus_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/myrtus.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "永恒的折磨#M16",
+      "nivel": 1119,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1288,
+      "victorias": 744,
+      "derrotas": 671,
+      "ultima_partida": 1760573105103
+    },
+    {
+      "nombre": "HACHETTE#MOMO",
+      "nivel": 52,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 823,
+      "victorias": 117,
+      "derrotas": 62,
+      "ultima_partida": 1760406024259
+    },
+    {
+      "nombre": "Abatteur2kafard#soloq",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Elise",
+      "partidas": 30,
+      "victorias": 19,
+      "winrate": "63.3%",
+      "kda_promedio": 2.7135922330097086
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.732394366197183
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.925925925925926
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 99,
+    "wins": 58,
+    "losses": 41,
+    "timePlayed": 150850
+  }
+}

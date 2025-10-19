@@ -1,0 +1,64 @@
+{
+  "info_jugador": {
+    "nombre": "Savesta",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Savestalol",
+      "twitch": "https://twitch.tv/savestalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Savesta#EUW2",
+      "nivel": 531,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 873,
+      "victorias": 239,
+      "derrotas": 189,
+      "ultima_partida": 1760886874444
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Kayn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 8,
+    "wins": 4,
+    "losses": 4,
+    "timePlayed": 12821
+  }
+}

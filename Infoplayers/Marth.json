@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Marth",
+    "nombre_real": "Julian Maletzky",
+    "edad": 27,
+    "equipo": "TeamOrangeGaming Academy",
+    "pais": "Austria",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/AustrianMarth",
+      "twitch": "https://www.twitch.tv/MarthADC"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Marth#ADC",
+      "nivel": 809,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1027,
+      "victorias": 313,
+      "derrotas": 271,
+      "ultima_partida": 1760817399406
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 9,
+    "losses": 5,
+    "timePlayed": 23017
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "info_jugador": {
+    "nombre": "Maximal Blobfish",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://twitch.tv/maximalblobfish"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MaXiMaL BlobFish#EUW",
+      "nivel": 683,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 815,
+      "victorias": 156,
+      "derrotas": 120,
+      "ultima_partida": 1760829060321
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shen",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.7058823529411766
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "timePlayed": 21942
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "JNX",
+    "nombre_real": "Janik Bartels",
+    "edad": 26,
+    "equipo": "Vitality.Bee",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Jenax_LoL",
+      "twitch": "https://twitch.tv/jenax"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/jnx.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "potato Sweet#Fizzy",
+      "nivel": 792,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1466,
+      "victorias": 168,
+      "derrotas": 95,
+      "ultima_partida": 1760891550664
+    },
+    {
+      "nombre": "Lee Sin Top#JENAX",
+      "nivel": 223,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 15,
+      "victorias": 161,
+      "derrotas": 122,
+      "ultima_partida": 1760709978423
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "RekSai",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6315789473684212
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.75
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7857142857142857
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 18,
+    "losses": 11,
+    "timePlayed": 48452
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Dome",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Dome_Euw",
+      "twitch": "https://twitch.tv/domeeuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TTV DomeEuw#LEC",
+      "nivel": 78,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 969,
+      "victorias": 293,
+      "derrotas": 212,
+      "ultima_partida": 1760807605373
+    },
+    {
+      "nombre": "Issykul#KGZ",
+      "nivel": 77,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 63,
+      "derrotas": 47,
+      "ultima_partida": 1759254377768
+    },
+    {
+      "nombre": "Domeeee#1806",
+      "nivel": 581,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 97,
+      "victorias": 325,
+      "derrotas": 303,
+      "ultima_partida": 1757503061517
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Talon",
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 3.097560975609756
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 3.306451612903226
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5813953488372094
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.88
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.230769230769231
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 33,
+    "losses": 30,
+    "timePlayed": 101551
+  }
+}

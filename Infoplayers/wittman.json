@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "wittman",
+    "nombre_real": "Mikołaj Kuta",
+    "edad": 22,
+    "equipo": "EXILE esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/wittmanlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EXE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "moon river#0110",
+      "nivel": 391,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 789,
+      "victorias": 483,
+      "derrotas": 434,
+      "ultima_partida": 1753474880534
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 7,
+    "losses": 9,
+    "timePlayed": 24590
+  }
+}

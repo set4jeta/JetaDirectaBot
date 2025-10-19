@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "StarScreen",
+    "nombre_real": "Soner Kaya",
+    "edad": 24,
+    "equipo": "Dragons Esports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/StarScreenLoL",
+      "twitch": "https://twitch.tv/starscreenlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DRG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "MEGABONK#1702",
+      "nivel": 969,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 703,
+      "victorias": 583,
+      "derrotas": 552,
+      "ultima_partida": 1760874150601
+    },
+    {
+      "nombre": "StarScreen2#1702",
+      "nivel": 198,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 847,
+      "victorias": 213,
+      "derrotas": 157,
+      "ultima_partida": 1760825811586
+    },
+    {
+      "nombre": "EL TURCO#1702",
+      "nivel": 128,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 25,
+      "victorias": 190,
+      "derrotas": 155,
+      "ultima_partida": 1757682356130
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.347826086956522
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Tryndamere",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4761904761904763
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 13,
+    "losses": 19,
+    "timePlayed": 51639
+  }
+}

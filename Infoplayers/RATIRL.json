@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "RATIRL",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Aatroxcarry",
+      "twitch": "https://twitch.tv/ratirl"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ratirl.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jennifer Holland#EUW11",
+      "nivel": 179,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 811,
+      "victorias": 188,
+      "derrotas": 136,
+      "ultima_partida": 1760886764750
+    },
+    {
+      "nombre": "Era Istrefi#EUW",
+      "nivel": 218,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 862,
+      "victorias": 514,
+      "derrotas": 442,
+      "ultima_partida": 1760884476855
+    },
+    {
+      "nombre": "Αrt The Clοwn#EUW",
+      "nivel": 642,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1035,
+      "victorias": 350,
+      "derrotas": 293,
+      "ultima_partida": 1760843655173
+    },
+    {
+      "nombre": "DynamiteLarry63#EUW",
+      "nivel": 160,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 80,
+      "victorias": 2,
+      "derrotas": 5,
+      "ultima_partida": 1736459218582
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Twitch",
+      "partidas": 82,
+      "victorias": 38,
+      "winrate": "46.3%",
+      "kda_promedio": 2.65947242206235
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 34,
+      "victorias": 16,
+      "winrate": "47.1%",
+      "kda_promedio": 4.070921985815603
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 28,
+      "victorias": 17,
+      "winrate": "60.7%",
+      "kda_promedio": 4.02
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 23,
+      "victorias": 12,
+      "winrate": "52.2%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Teemo",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.467741935483871
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.5833333333333335
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.631578947368421
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8421052631578947
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.5217391304347827
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 208,
+    "wins": 103,
+    "losses": 105,
+    "timePlayed": 336903
+  }
+}

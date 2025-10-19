@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Built",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/builteuw",
+      "twitch": "https://twitch.tv/builteuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "YOUAREPERFECT#PRFCT",
+      "nivel": 426,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1121,
+      "victorias": 295,
+      "derrotas": 234,
+      "ultima_partida": 1753642601265
+    },
+    {
+      "nombre": "哈哈哈哈哈哈#BUILT",
+      "nivel": 499,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 20,
+      "derrotas": 23,
+      "ultima_partida": 1750978917132
+    },
+    {
+      "nombre": "Built#2609",
+      "nivel": 439,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 117,
+      "derrotas": 91,
+      "ultima_partida": 1744307975342
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Riven",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.28
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.85
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 22,
+    "wins": 9,
+    "losses": 13,
+    "timePlayed": 32501
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "info_jugador": {
+    "nombre": "Nemesis",
+    "nombre_real": "Tim Lipovšek",
+    "edad": 26,
+    "equipo": "Los Ratones",
+    "pais": "Slovenia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/nemesis_lol",
+      "twitch": "https://twitch.tv/lol_nemesis"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nemesis.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "the inescapable#RAT",
+      "nivel": 397,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1236,
+      "victorias": 296,
+      "derrotas": 239,
+      "ultima_partida": 1760815341479
+    },
+    {
+      "nombre": "LR Nemesis#LRAT",
+      "nivel": 507,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1067,
+      "victorias": 247,
+      "derrotas": 196,
+      "ultima_partida": 1760805569405
+    },
+    {
+      "nombre": "Caedrel#ADS",
+      "nivel": 43,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 338,
+      "victorias": 81,
+      "derrotas": 47,
+      "ultima_partida": 1760377587511
+    },
+    {
+      "nombre": "Alexander Duggan#Red",
+      "nivel": 60,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 136,
+      "derrotas": 81,
+      "ultima_partida": 1755788074485
+    },
+    {
+      "nombre": "Mr Ascendant#EUW",
+      "nivel": 179,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 90,
+      "derrotas": 63,
+      "ultima_partida": 1754850981978
+    },
+    {
+      "nombre": "Dzukill#KISS",
+      "nivel": 269,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 80,
+      "derrotas": 47,
+      "ultima_partida": 1754841933467
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 3.6136363636363638
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 3.051282051282051
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.3157894736842106
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.95
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.95
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9166666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 89,
+    "wins": 52,
+    "losses": 37,
+    "timePlayed": 141557
+  }
+}

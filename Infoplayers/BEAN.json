@@ -1,0 +1,109 @@
+{
+  "info_jugador": {
+    "nombre": "BEAN",
+    "nombre_real": "Louis Schmitz",
+    "edad": 25,
+    "equipo": "Berlin International Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Beaneuw",
+      "twitch": "https://twitch.tv/beaneuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/bean.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BIG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Noodle Tree#2025",
+      "nivel": 1265,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1420,
+      "victorias": 550,
+      "derrotas": 469,
+      "ultima_partida": 1760788816287
+    },
+    {
+      "nombre": "Beanovich#bean",
+      "nivel": 428,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 238,
+      "derrotas": 207,
+      "ultima_partida": 1753737667174
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6923076923076925
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 10,
+    "losses": 13,
+    "timePlayed": 35735
+  }
+}

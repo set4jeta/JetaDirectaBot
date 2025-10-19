@@ -1,0 +1,42 @@
+{
+  "info_jugador": {
+    "nombre": "Omni",
+    "nombre_real": "Thomas Trinh Dung",
+    "edad": 32,
+    "equipo": "Chiefs Academy",
+    "pais": "New Caledonia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ez_timothy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Zeri#Omni",
+      "nivel": 493,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1120,
+      "victorias": 422,
+      "derrotas": 365,
+      "ultima_partida": 1760641300521
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zeri",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7446808510638299
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 8,
+    "wins": 2,
+    "losses": 6,
+    "timePlayed": 13243
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Yakkey",
+    "nombre_real": "Darius Eduard Bistrian",
+    "edad": 20,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/YakkeyLoL",
+      "twitch": "https://www.twitch.tv/yakkeylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Focus#14J",
+      "nivel": 587,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 892,
+      "victorias": 551,
+      "derrotas": 521,
+      "ultima_partida": 1760711904038
+    },
+    {
+      "nombre": "Tenebris#14J",
+      "nivel": 116,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 129,
+      "derrotas": 100,
+      "ultima_partida": 1758620676837
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ashe",
+      "partidas": 31,
+      "victorias": 16,
+      "winrate": "51.6%",
+      "kda_promedio": 2.3031914893617023
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 23,
+      "victorias": 11,
+      "winrate": "47.8%",
+      "kda_promedio": 2.7615384615384615
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6764705882352942
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.3478260869565217
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.4444444444444444
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 89,
+    "wins": 42,
+    "losses": 47,
+    "timePlayed": 143660
+  }
+}

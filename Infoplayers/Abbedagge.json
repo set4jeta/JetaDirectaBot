@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Abbedagge",
+    "nombre_real": "Felix&nbsp;Alfred Braun",
+    "edad": 26,
+    "equipo": "SK Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Abbedagge",
+      "twitch": "https://twitch.tv/abbedagge"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/abbedagge.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "AbbedaggÆ#EUW",
+      "nivel": 488,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 45,
+      "victorias": 192,
+      "derrotas": 141,
+      "ultima_partida": 1760876991896
+    },
+    {
+      "nombre": "Mein Königreich#917n3",
+      "nivel": 199,
+      "region": "EUW1",
+      "liga": "EMERALD II",
+      "lp": 95,
+      "victorias": 11,
+      "derrotas": 5,
+      "ultima_partida": 1760698981609
+    },
+    {
+      "nombre": "Abbedagge23#EUW",
+      "nivel": 144,
+      "region": "EUW1",
+      "liga": "EMERALD II",
+      "lp": 57,
+      "victorias": 6,
+      "derrotas": 1,
+      "ultima_partida": 1749034329789
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8461538461538461
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.75
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 20
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 23
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 6,
+    "losses": 6,
+    "timePlayed": 18970
+  }
+}

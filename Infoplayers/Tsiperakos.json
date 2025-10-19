@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Tsiperakos",
+    "nombre_real": "Vasilis Lalas",
+    "edad": 23,
+    "equipo": "Gamespace Mediterranean College Esports",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/TsiperakosLol",
+      "twitch": "https://www.twitch.tv/tsiperakoslol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "LetMe1v2Plz#EUW",
+      "nivel": 110,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 870,
+      "victorias": 141,
+      "derrotas": 90,
+      "ultima_partida": 1760890331763
+    },
+    {
+      "nombre": "Tsiperakos#MID",
+      "nivel": 524,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1096,
+      "victorias": 270,
+      "derrotas": 222,
+      "ultima_partida": 1760869000396
+    },
+    {
+      "nombre": "Tsipourakos#tsprk",
+      "nivel": 497,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 683,
+      "victorias": 195,
+      "derrotas": 159,
+      "ultima_partida": 1760131299029
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.6885245901639343
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7027027027027026
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4074074074074074
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.176470588235294
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.7
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.434782608695652
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.65
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 76,
+    "wins": 43,
+    "losses": 33,
+    "timePlayed": 122146
+  }
+}

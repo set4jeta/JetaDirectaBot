@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Lulas",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lulaslol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DMG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "NORTH STAR#L1R1",
+      "nivel": 487,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 945,
+      "victorias": 457,
+      "derrotas": 400,
+      "ultima_partida": 1760874505008
+    },
+    {
+      "nombre": "Insubstituível#EUW",
+      "nivel": 334,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 303,
+      "derrotas": 289,
+      "ultima_partida": 1756392348233
+    },
+    {
+      "nombre": "Llama#LL1",
+      "nivel": 779,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 152,
+      "derrotas": 150,
+      "ultima_partida": 1748021174970
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 44,
+      "victorias": 21,
+      "winrate": "47.7%",
+      "kda_promedio": 3.657754010695187
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 34,
+      "victorias": 23,
+      "winrate": "67.6%",
+      "kda_promedio": 4.515873015873016
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 4.390243902439025
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 10,
+      "victorias": 9,
+      "winrate": "90.0%",
+      "kda_promedio": 3.2954545454545454
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.555555555555555
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 116,
+    "wins": 66,
+    "losses": 50,
+    "timePlayed": 181270
+  }
+}

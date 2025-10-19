@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Yen",
+    "nombre_real": "Zara Rainey",
+    "edad": 26,
+    "equipo": "Illinois State University",
+    "pais": "United States",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Yen_aka_Fadi",
+      "twitch": "https://www.twitch.tv/yen_ch"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Yen is my Wife#EUW",
+      "nivel": 857,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 703,
+      "victorias": 412,
+      "derrotas": 381,
+      "ultima_partida": 1760853526601
+    },
+    {
+      "nombre": "KISS OF DEATH#YEN",
+      "nivel": 444,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1075,
+      "victorias": 419,
+      "derrotas": 360,
+      "ultima_partida": 1760740563940
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jinx",
+      "partidas": 21,
+      "victorias": 10,
+      "winrate": "47.6%",
+      "kda_promedio": 2.5869565217391304
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.611940298507463
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2549019607843137
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.735294117647059
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 77,
+    "wins": 38,
+    "losses": 39,
+    "timePlayed": 121907
+  }
+}

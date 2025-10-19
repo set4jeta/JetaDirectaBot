@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Ronaldo",
+    "nombre_real": "Ronaldo Betea",
+    "edad": 26,
+    "equipo": "Bushido Wildcats",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/RonaldoL0L",
+      "twitch": "https://www.twitch.tv/ronaldoo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ronaldo.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "kick ronaldolol#123",
+      "nivel": 579,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 874,
+      "victorias": 1391,
+      "derrotas": 1344,
+      "ultima_partida": 1760880622899
+    },
+    {
+      "nombre": "SUP COCONUT#3131",
+      "nivel": 177,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 54,
+      "derrotas": 49,
+      "ultima_partida": 1746613799915
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 2.581081081081081
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.56140350877193
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9156626506024097
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.7058823529411766
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.810810810810811
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.84375
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.339622641509434
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.545454545454546
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7058823529411766
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 143,
+    "wins": 69,
+    "losses": 74,
+    "timePlayed": 222645
+  }
+}

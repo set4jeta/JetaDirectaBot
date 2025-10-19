@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Kio",
+    "nombre_real": "Simon Králik",
+    "edad": 21,
+    "equipo": "eSuba",
+    "pais": "Slovakia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lol_Kioo",
+      "twitch": "https://www.twitch.tv/lol_kioo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kio.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ESB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Jastor Gallywix#ASD",
+      "nivel": 496,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1194,
+      "victorias": 357,
+      "derrotas": 286,
+      "ultima_partida": 1760810203986
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 9,
+    "losses": 8,
+    "timePlayed": 26580
+  }
+}

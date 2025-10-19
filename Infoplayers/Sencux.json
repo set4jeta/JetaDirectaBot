@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Sencux",
+    "nombre_real": "Chres Laursen",
+    "edad": 26,
+    "equipo": "Verdant",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/sencux.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VER.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "QloTrGeSdV#EUW",
+      "nivel": 378,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1201,
+      "victorias": 257,
+      "derrotas": 211,
+      "ultima_partida": 1753723205921
+    },
+    {
+      "nombre": "Sencux#123",
+      "nivel": 704,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 661,
+      "victorias": 190,
+      "derrotas": 157,
+      "ultima_partida": 1753382943661
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6136363636363638
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 35,
+    "wins": 19,
+    "losses": 16,
+    "timePlayed": 57563
+  }
+}

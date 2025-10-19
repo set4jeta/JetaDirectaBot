@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "ISMA",
+    "nombre_real": "Ismaïl Boualem",
+    "edad": 24,
+    "equipo": "GIANTX",
+    "pais": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ismaa_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/isma.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GX.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ismααα#EUW",
+      "nivel": 856,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1151,
+      "victorias": 451,
+      "derrotas": 410,
+      "ultima_partida": 1753731643145
+    },
+    {
+      "nombre": "786786786#LEC1",
+      "nivel": 87,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Trundle",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 10.909090909090908
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.45
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.263157894736842
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 21,
+    "losses": 16,
+    "timePlayed": 62443
+  }
+}

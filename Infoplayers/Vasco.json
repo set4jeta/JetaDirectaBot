@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Vasco",
+    "nombre_real": "Paweł Machnik",
+    "edad": 21,
+    "equipo": "Zero Tenacity",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LVasco01"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/Z10.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ocsaV#EUW",
+      "nivel": 667,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1208,
+      "victorias": 459,
+      "derrotas": 403,
+      "ultima_partida": 1760895238884
+    },
+    {
+      "nombre": "L Vasco O #EUW",
+      "nivel": 878,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1149,
+      "victorias": 649,
+      "derrotas": 599,
+      "ultima_partida": 1760543713872
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 47,
+      "victorias": 30,
+      "winrate": "63.8%",
+      "kda_promedio": 3.723404255319149
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 3.0588235294117645
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.833333333333333
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1538461538461537
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 109,
+    "wins": 62,
+    "losses": 47,
+    "timePlayed": 173020
+  }
+}

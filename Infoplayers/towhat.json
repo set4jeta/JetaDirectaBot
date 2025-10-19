@@ -1,0 +1,81 @@
+{
+  "info_jugador": {
+    "nombre": "towhat",
+    "nombre_real": "Tomás Pereira",
+    "edad": 21,
+    "equipo": "Odivelas Sports Club",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/towhatlol",
+      "twitch": "https://www.twitch.tv/towhatlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OSC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Vento#TAIF",
+      "nivel": 384,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 754,
+      "victorias": 509,
+      "derrotas": 475,
+      "ultima_partida": 1760865820654
+    },
+    {
+      "nombre": "towhat#EUW",
+      "nivel": 956,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 44,
+      "derrotas": 33,
+      "ultima_partida": 1759611818082
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5625
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 7,
+    "wins": 4,
+    "losses": 3,
+    "timePlayed": 13141
+  }
+}

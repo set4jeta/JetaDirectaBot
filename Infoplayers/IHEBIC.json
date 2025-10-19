@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "IHEBIC",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ihebiclol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "IHEBIC#0000",
+      "nivel": 305,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 826,
+      "victorias": 641,
+      "derrotas": 601,
+      "ultima_partida": 1753469761630
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6984126984126986
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 5.32258064516129
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.85
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.791666666666667
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.666666666666666
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8823529411764706
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 18.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7727272727272727
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 69,
+    "wins": 36,
+    "losses": 33,
+    "timePlayed": 117599
+  }
+}

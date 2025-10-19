@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Nuc",
+    "nombre_real": "Ilias Bizriken",
+    "edad": 22,
+    "equipo": "Team BDS",
+    "pais": "Morocco",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Nuclear_int",
+      "twitch": "https://www.twitch.tv/bdsnuc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nuc.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "New Monkey#AGAIN",
+      "nivel": 1241,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 151,
+      "victorias": 316,
+      "derrotas": 258,
+      "ultima_partida": 1760889066987
+    },
+    {
+      "nombre": "Vectør#KRISS",
+      "nivel": 46,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 516,
+      "victorias": 86,
+      "derrotas": 47,
+      "ultima_partida": 1760295699757
+    },
+    {
+      "nombre": "Spectre#GIGN",
+      "nivel": 30,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1758554027329
+    },
+    {
+      "nombre": "Xiao C6R5#bds",
+      "nivel": null,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Draven",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.425531914893617
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.121212121212121
+    },
+    {
+      "nombre": "Kayn",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.9772727272727273
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8214285714285714
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5833333333333334
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 24,
+    "losses": 24,
+    "timePlayed": 74657
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Daksider",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/daksider3",
+      "twitch": "https://www.twitch.tv/daksider13"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "You are amazing#9517",
+      "nivel": 499,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 982,
+      "victorias": 316,
+      "derrotas": 263,
+      "ultima_partida": 1753733563006
+    },
+    {
+      "nombre": "Daksider#FOCUS",
+      "nivel": 848,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1183,
+      "victorias": 273,
+      "derrotas": 216,
+      "ultima_partida": 1753726980579
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 28,
+      "victorias": 16,
+      "winrate": "57.1%",
+      "kda_promedio": 2.88
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.329113924050633
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 7.465116279069767
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 6.205882352941177
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 3.574468085106383
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.5813953488372094
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.193548387096774
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.315789473684211
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 147,
+    "wins": 87,
+    "losses": 60,
+    "timePlayed": 235087
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kaymin",
+    "nombre_real": "Armin Kaymer",
+    "edad": 22,
+    "equipo": "GLORE",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kaymin_lol",
+      "twitch": "https://twitch.tv/kaymin_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kaymin.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "K Man#EUW12",
+      "nivel": 587,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1013,
+      "victorias": 244,
+      "derrotas": 202,
+      "ultima_partida": 1753720727038
+    },
+    {
+      "nombre": "KayminShowmaker#EUW12",
+      "nivel": 653,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 251,
+      "derrotas": 244,
+      "ultima_partida": 1752436826651
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.5185185185185186
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 10,
+    "losses": 7,
+    "timePlayed": 26403
+  }
+}

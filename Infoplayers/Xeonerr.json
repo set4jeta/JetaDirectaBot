@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Xeonerr",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/xeonerr",
+      "twitch": "https://www.twitch.tv/xeonerr_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/xeonerr.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "dejfDawid1#EUW",
+      "nivel": 616,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 955,
+      "victorias": 291,
+      "derrotas": 247,
+      "ultima_partida": 1760709851337
+    },
+    {
+      "nombre": "qweasdfzxc#EU1",
+      "nivel": 833,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 743,
+      "victorias": 502,
+      "derrotas": 461,
+      "ultima_partida": 1760452975904
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vi",
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 2.9603960396039604
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.578125
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 4.605263157894737
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.615384615384615
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.72
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 33,
+    "losses": 34,
+    "timePlayed": 105818
+  }
+}

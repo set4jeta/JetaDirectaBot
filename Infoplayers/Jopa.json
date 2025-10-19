@@ -1,0 +1,135 @@
+{
+  "info_jugador": {
+    "nombre": "Jopa",
+    "nombre_real": "Josip Čančar",
+    "edad": 21,
+    "equipo": "Vitality.Bee",
+    "pais": "Croatia",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ADCJopa"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/jopa.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "asdcxz#11111",
+      "nivel": 182,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1122,
+      "victorias": 597,
+      "derrotas": 535,
+      "ultima_partida": 1760274160369
+    },
+    {
+      "nombre": "Jopa1#EUW",
+      "nivel": 783,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 74,
+      "derrotas": 64,
+      "ultima_partida": 1756991119279
+    },
+    {
+      "nombre": "Kovacic#MK8",
+      "nivel": 361,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 148,
+      "derrotas": 107,
+      "ultima_partida": 1752775862794
+    },
+    {
+      "nombre": "Jopa#KR3",
+      "nivel": 42,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Smolder",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9545454545454546
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.47619047619047616
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4615384615384617
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 25,
+    "wins": 10,
+    "losses": 15,
+    "timePlayed": 40348
+  }
+}

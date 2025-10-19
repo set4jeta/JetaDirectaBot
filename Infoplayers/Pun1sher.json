@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Pun1sher",
+    "nombre_real": "Konstantinos Katsikadakos",
+    "edad": 26,
+    "equipo": "Team Paradox",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Pun1sher_S",
+      "twitch": "https://twitch.tv/pun1shers_tv"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Pun1sher Reborn#EUW",
+      "nivel": 824,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1166,
+      "victorias": 414,
+      "derrotas": 347,
+      "ultima_partida": 1760836179809
+    },
+    {
+      "nombre": "Pun1sher#Demon",
+      "nivel": 328,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 10,
+      "victorias": 233,
+      "derrotas": 173,
+      "ultima_partida": 1760827170607
+    },
+    {
+      "nombre": "Demon Reborn#RRR",
+      "nivel": 398,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 511,
+      "victorias": 236,
+      "derrotas": 178,
+      "ultima_partida": 1760820233948
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 71,
+      "victorias": 48,
+      "winrate": "67.6%",
+      "kda_promedio": 1.8285714285714285
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 1.6385542168674698
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.945945945945946
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4054054054054055
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1538461538461537
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 110,
+    "wins": 66,
+    "losses": 44,
+    "timePlayed": 172671
+  }
+}

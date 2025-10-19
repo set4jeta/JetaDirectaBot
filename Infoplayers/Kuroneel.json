@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kuroneel",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kuroneel_",
+      "twitch": "https://twitch.tv/kuroneel_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kuroneel.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/PCS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ACAリ#ZTMY",
+      "nivel": 1405,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1022,
+      "victorias": 700,
+      "derrotas": 644,
+      "ultima_partida": 1760892935301
+    },
+    {
+      "nombre": "Ado#ZTMY",
+      "nivel": 87,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 127,
+      "derrotas": 82,
+      "ultima_partida": 1758206250630
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Taliyah",
+      "partidas": 25,
+      "victorias": 18,
+      "winrate": "72.0%",
+      "kda_promedio": 3.201388888888889
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0309278350515463
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 3.5348837209302326
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7096774193548385
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.074074074074074
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.8780487804878048
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.466666666666667
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.5769230769230769
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 3.4583333333333335
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.48
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 132,
+    "wins": 72,
+    "losses": 60,
+    "timePlayed": 218768
+  }
+}

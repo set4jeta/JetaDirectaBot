@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "UNF0RGIVEN",
+    "nombre_real": "William Nieminen",
+    "edad": 24,
+    "equipo": "Geekay Esports",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/UnforgivenLoL",
+      "twitch": "https://twitch.tv/UnforgivenL0L"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/unf0rgiven.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "unforgiven#12321",
+      "nivel": 1392,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1078,
+      "victorias": 227,
+      "derrotas": 188,
+      "ultima_partida": 1753754916826
+    },
+    {
+      "nombre": "2 K#0000",
+      "nivel": 183,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 122,
+      "derrotas": 86,
+      "ultima_partida": 1750531890992
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.9523809523809523
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.62962962962963
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.772727272727273
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.310344827586207
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.259259259259259
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.238095238095238
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 27,
+    "losses": 27,
+    "timePlayed": 85956
+  }
+}

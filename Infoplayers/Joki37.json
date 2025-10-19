@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Joki37",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Joki_37",
+      "twitch": "\\thttps://www.twitch.tv/jokey37"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kijo73#ZTC",
+      "nivel": 254,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 750,
+      "victorias": 269,
+      "derrotas": 236,
+      "ultima_partida": 1760646396684
+    },
+    {
+      "nombre": "Joki37#EUW",
+      "nivel": 248,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 663,
+      "victorias": 453,
+      "derrotas": 414,
+      "ultima_partida": 1760375852800
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shen",
+      "partidas": 32,
+      "victorias": 21,
+      "winrate": "65.6%",
+      "kda_promedio": 4.786885245901639
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.688888888888889
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.0588235294117645
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.1
+    },
+    {
+      "nombre": "Briar",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9428571428571428
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 94,
+    "wins": 53,
+    "losses": 41,
+    "timePlayed": 153409
+  }
+}

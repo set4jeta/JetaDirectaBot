@@ -1,0 +1,42 @@
+{
+  "info_jugador": {
+    "nombre": "Poby",
+    "nombre_real": "Yoon Sung-won",
+    "edad": 19,
+    "equipo": "Fnatic",
+    "pais": "South Korea",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/poby.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "XPoby#0207",
+      "nivel": 54,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 884,
+      "victorias": 157,
+      "derrotas": 90,
+      "ultima_partida": 1759498227820
+    },
+    {
+      "nombre": "피오비와이#0207",
+      "nivel": 322,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 271,
+      "derrotas": 241,
+      "ultima_partida": 1751729461947
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

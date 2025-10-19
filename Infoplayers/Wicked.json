@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Wicked",
+    "nombre_real": "Emily Leckie",
+    "edad": 29,
+    "equipo": "Lundqvist Lightside",
+    "pais": "United States",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/EuwWicked",
+      "twitch": "https://www.twitch.tv/wicked_euw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Ey Wicked bac#szn",
+      "nivel": 1072,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1080,
+      "victorias": 681,
+      "derrotas": 644,
+      "ultima_partida": 1760829044618
+    },
+    {
+      "nombre": "Yekhi Wicked bac#2007",
+      "nivel": 135,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 172,
+      "victorias": 206,
+      "derrotas": 178,
+      "ultima_partida": 1760653382966
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 26,
+      "victorias": 16,
+      "winrate": "61.5%",
+      "kda_promedio": 3.4298245614035086
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.8157894736842106
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.48
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4827586206896552
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.212121212121212
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.259259259259259
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4666666666666666
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5384615384615385
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 47,
+    "losses": 43,
+    "timePlayed": 144318
+  }
+}

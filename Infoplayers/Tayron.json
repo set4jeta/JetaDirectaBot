@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Tayron",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tayronlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TFF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Tayron#12345",
+      "nivel": 741,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1067,
+      "victorias": 694,
+      "derrotas": 648,
+      "ultima_partida": 1760811618768
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 26,
+      "victorias": 16,
+      "winrate": "61.5%",
+      "kda_promedio": 2.7666666666666666
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 18,
+      "victorias": 13,
+      "winrate": "72.2%",
+      "kda_promedio": 2.364864864864865
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3076923076923077
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 93,
+    "wins": 53,
+    "losses": 40,
+    "timePlayed": 147800
+  }
+}

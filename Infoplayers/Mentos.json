@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Mentos",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/TheFatherMentos",
+      "twitch": "https://www.twitch.tv/mentos__xd"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "드리머#DREAM",
+      "nivel": 561,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1368,
+      "victorias": 720,
+      "derrotas": 662,
+      "ultima_partida": 1760901352454
+    },
+    {
+      "nombre": "Mentos#1323",
+      "nivel": 99,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1346,
+      "victorias": 373,
+      "derrotas": 275,
+      "ultima_partida": 1760713739054
+    },
+    {
+      "nombre": "567024574567#9600",
+      "nivel": 290,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 147,
+      "derrotas": 122,
+      "ultima_partida": 1758621249290
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 20,
+      "victorias": 10,
+      "winrate": "50.0%",
+      "kda_promedio": 2.963636363636364
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 18,
+      "victorias": 13,
+      "winrate": "72.2%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.394230769230769
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 10,
+      "victorias": 9,
+      "winrate": "90.0%",
+      "kda_promedio": 2.488372093023256
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.0425531914893615
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1621621621621623
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0344827586206897
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 141,
+    "wins": 81,
+    "losses": 60,
+    "timePlayed": 228601
+  }
+}

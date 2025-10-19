@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Flakked",
+    "nombre_real": "Víctor Lirola Tortosa",
+    "edad": 24,
+    "equipo": "Team Heretics",
+    "pais": "Spain",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Flakked_LoL",
+      "twitch": "https://twitch.tv/getFlakked\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/flakked.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Hector Pertegal#goatツ",
+      "nivel": 63,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 797,
+      "victorias": 215,
+      "derrotas": 160,
+      "ultima_partida": 1760899212243
+    },
+    {
+      "nombre": "IWILLMAKEIT1#2509",
+      "nivel": 1348,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1391,
+      "victorias": 684,
+      "derrotas": 622,
+      "ultima_partida": 1760817536646
+    },
+    {
+      "nombre": "Marc Lirola#goatツ",
+      "nivel": 40,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 57,
+      "derrotas": 36,
+      "ultima_partida": 1759627759929
+    },
+    {
+      "nombre": "Sol Tortosa#goatツ",
+      "nivel": 65,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 197,
+      "derrotas": 147,
+      "ultima_partida": 1757340363147
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8987341772151898
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 4.101449275362318
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5873015873015874
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.283333333333333
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.235294117647059
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8636363636363638
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.181818181818182
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.736842105263158
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 109,
+    "wins": 53,
+    "losses": 56,
+    "timePlayed": 170462
+  }
+}

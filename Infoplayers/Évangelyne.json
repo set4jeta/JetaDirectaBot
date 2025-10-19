@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Évangelyne",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Evangelyne_lol",
+      "twitch": "https://www.twitch.tv/evangeiyne\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Évangelyne#ULB",
+      "nivel": 168,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 224,
+      "derrotas": 177,
+      "ultima_partida": 1760883408460
+    },
+    {
+      "nombre": "Évangelyne#BELGE",
+      "nivel": 917,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1073,
+      "victorias": 356,
+      "derrotas": 302,
+      "ultima_partida": 1760828088079
+    },
+    {
+      "nombre": "Évangelyne#ZNT",
+      "nivel": 84,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 5,
+      "victorias": 168,
+      "derrotas": 125,
+      "ultima_partida": 1760552958884
+    },
+    {
+      "nombre": "Évangelyne#ADC",
+      "nivel": 111,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 177,
+      "derrotas": 127,
+      "ultima_partida": 1758363162492
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Caitlyn",
+      "partidas": 27,
+      "victorias": 17,
+      "winrate": "63.0%",
+      "kda_promedio": 3.3008849557522124
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 20,
+      "victorias": 9,
+      "winrate": "45.0%",
+      "kda_promedio": 2.954022988505747
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.4634146341463414
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.818181818181818
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.6785714285714284
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.833333333333333
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.857142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 83,
+    "wins": 50,
+    "losses": 33,
+    "timePlayed": 139800
+  }
+}

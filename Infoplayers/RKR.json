@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "RKR",
+    "nombre_real": "Steven Chen",
+    "edad": 24,
+    "equipo": "SK Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ReekerKaizen",
+      "twitch": "https://twitch.tv/ReekerKaizen"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/rkr.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Purple#3UVV",
+      "nivel": 1047,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1165,
+      "victorias": 690,
+      "derrotas": 612,
+      "ultima_partida": 1760813056852
+    },
+    {
+      "nombre": "rkr#EUW",
+      "nivel": 336,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 62,
+      "derrotas": 17,
+      "ultima_partida": 1758967841570
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.44
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.588235294117647
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.55
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5555555555555556
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4444444444444444
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 18,
+    "losses": 21,
+    "timePlayed": 62016
+  }
+}

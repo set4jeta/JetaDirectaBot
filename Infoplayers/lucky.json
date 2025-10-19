@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "lucky",
+    "nombre_real": "Luca Santos Fontinha",
+    "edad": 26,
+    "equipo": "CGN Esports",
+    "pais": "Switzerland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LuckyEUW",
+      "twitch": "https://www.twitch.tv/lucky_euw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "keia#moon",
+      "nivel": 1250,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1194,
+      "victorias": 510,
+      "derrotas": 456,
+      "ultima_partida": 1760824914437
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pyke",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3214285714285716
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.1153846153846154
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.642857142857143
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.08
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0357142857142856
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.4347826086956523
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4761904761904763
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.0625
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.583333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 29,
+    "losses": 33,
+    "timePlayed": 99197
+  }
+}

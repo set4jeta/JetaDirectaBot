@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Baca",
+    "nombre_real": "João&nbsp;Miguel Novais Bigas",
+    "edad": 25,
+    "equipo": "Ramboot Club",
+    "pais": "Portugal",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/BacaMid",
+      "twitch": "https://twitch.tv/bacamid"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/baca.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RBT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Zhuo Ding#ARC",
+      "nivel": 995,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 990,
+      "victorias": 387,
+      "derrotas": 353,
+      "ultima_partida": 1753740746504
+    },
+    {
+      "nombre": "Vera Xavier#EUW",
+      "nivel": 303,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 62,
+      "victorias": 100,
+      "derrotas": 88,
+      "ultima_partida": 1753354074120
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.903225806451613
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.818181818181818
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1538461538461537
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 22,
+    "losses": 19,
+    "timePlayed": 66968
+  }
+}

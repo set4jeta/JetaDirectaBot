@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kozi",
+    "nombre_real": "Jarosław Marchewka",
+    "edad": 20,
+    "equipo": "Zero Tenacity",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KozPolski",
+      "twitch": "https://www.twitch.tv/polskikoz"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kozi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/Z10.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kozi#Z10",
+      "nivel": 905,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1489,
+      "victorias": 459,
+      "derrotas": 384,
+      "ultima_partida": 1760727744460
+    },
+    {
+      "nombre": "gorillajones#123",
+      "nivel": 353,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1320,
+      "victorias": 307,
+      "derrotas": 241,
+      "ultima_partida": 1760645346141
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Fiora",
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 1.338235294117647
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.962962962962963
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 1.6901408450704225
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.161290322580645
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.4814814814814814
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.5789473684210527
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 88,
+    "wins": 43,
+    "losses": 45,
+    "timePlayed": 136730
+  }
+}

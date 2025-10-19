@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Hydra",
+    "nombre_real": "Luca Grieco",
+    "edad": 30,
+    "equipo": "Galactic Gamers",
+    "pais": "Argentina",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/HydraWasTaken",
+      "twitch": "https://twitch.tv/hydramv"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LUA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Po Gap#EUW",
+      "nivel": 968,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1100,
+      "victorias": 688,
+      "derrotas": 629,
+      "ultima_partida": 1760893138793
+    },
+    {
+      "nombre": "Bollito de Cacao#EUW",
+      "nivel": 852,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 67,
+      "derrotas": 58,
+      "ultima_partida": 1757522994647
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Akali",
+      "partidas": 22,
+      "victorias": 14,
+      "winrate": "63.6%",
+      "kda_promedio": 2.616822429906542
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 17,
+      "victorias": 6,
+      "winrate": "35.3%",
+      "kda_promedio": 2.0941176470588236
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1578947368421053
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.4130434782608696
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.586206896551724
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.372549019607843
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6944444444444444
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1538461538461537
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 122,
+    "wins": 63,
+    "losses": 59,
+    "timePlayed": 191142
+  }
+}

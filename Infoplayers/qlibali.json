@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "qlibali",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/qlibali"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "INT qLibali#EUW",
+      "nivel": 1072,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 836,
+      "victorias": 187,
+      "derrotas": 135,
+      "ultima_partida": 1760830990794
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.133333333333334
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 10,
+    "losses": 10,
+    "timePlayed": 33111
+  }
+}

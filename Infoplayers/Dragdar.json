@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "Dragdar",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Dragdar_",
+      "twitch": "https://twitch.tv/dragdar"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dragdar.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Skillshot Lander#EUW",
+      "nivel": 682,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1141,
+      "victorias": 782,
+      "derrotas": 730,
+      "ultima_partida": 1760896599229
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 38,
+      "victorias": 20,
+      "winrate": "52.6%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.1875
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4444444444444444
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 28,
+    "losses": 25,
+    "timePlayed": 89566
+  }
+}

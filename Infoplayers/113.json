@@ -1,0 +1,146 @@
+{
+  "info_jugador": {
+    "nombre": "113",
+    "nombre_real": "Doğukan Balcı",
+    "edad": 21,
+    "equipo": "Barça eSports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/113bumm",
+      "twitch": "https://twitch.tv/113bumm"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/113.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "113#Kuri",
+      "nivel": 736,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1313,
+      "victorias": 430,
+      "derrotas": 355,
+      "ultima_partida": 1760664125754
+    },
+    {
+      "nombre": "113 BUMM#113",
+      "nivel": 79,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1029,
+      "victorias": 175,
+      "derrotas": 116,
+      "ultima_partida": 1760542461282
+    },
+    {
+      "nombre": "CXIII#113",
+      "nivel": 264,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 70,
+      "victorias": 130,
+      "derrotas": 79,
+      "ultima_partida": 1760406167091
+    },
+    {
+      "nombre": "Who is thisss1#EUW",
+      "nivel": 169,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 212,
+      "derrotas": 135,
+      "ultima_partida": 1752793856128
+    },
+    {
+      "nombre": "113 2#113",
+      "nivel": 110,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 30,
+      "derrotas": 17,
+      "ultima_partida": 1750166046765
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.8059701492537314
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.576923076923077
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1739130434782608
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3703703703703705
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7333333333333334
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 24
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 47,
+    "wins": 23,
+    "losses": 24,
+    "timePlayed": 76238
+  }
+}

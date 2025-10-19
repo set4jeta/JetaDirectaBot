@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pinki",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Pinki__lol",
+      "twitch": "https://www.twitch.tv/pinki__lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SPK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Pinki#PPPPP",
+      "nivel": 1080,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 801,
+      "victorias": 749,
+      "derrotas": 716,
+      "ultima_partida": 1760893692223
+    },
+    {
+      "nombre": "Last rite#final",
+      "nivel": 75,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 281,
+      "derrotas": 212,
+      "ultima_partida": 1758904462924
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jinx",
+      "partidas": 46,
+      "victorias": 27,
+      "winrate": "58.7%",
+      "kda_promedio": 3.8121546961325965
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 30,
+      "victorias": 17,
+      "winrate": "56.7%",
+      "kda_promedio": 2.628787878787879
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 15,
+      "victorias": 5,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8805970149253732
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.0677966101694913
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.7547169811320753
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.638888888888889
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 141,
+    "wins": 67,
+    "losses": 74,
+    "timePlayed": 224701
+  }
+}

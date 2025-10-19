@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Eyliph",
+    "nombre_real": "Cédric Robert",
+    "edad": 25,
+    "equipo": "Skillcamp",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Eyliph_lol",
+      "twitch": "https://www.twitch.tv/eyliph"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Abyss Enjoyer#7777",
+      "nivel": 613,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1010,
+      "victorias": 216,
+      "derrotas": 165,
+      "ultima_partida": 1760711797739
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7083333333333333
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 4,
+    "losses": 11,
+    "timePlayed": 22034
+  }
+}

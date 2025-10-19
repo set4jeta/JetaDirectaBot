@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Fornoreason",
+    "nombre_real": "Felix Schummel",
+    "edad": 21,
+    "equipo": "Unicorns of Love Sexy Edition",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/schummel_felix",
+      "twitch": "https://www.twitch.tv/fornoreasontv"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "FornoReason#Gap",
+      "nivel": 1346,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 845,
+      "victorias": 448,
+      "derrotas": 406,
+      "ultima_partida": 1760900939561
+    },
+    {
+      "nombre": "FNR#gap",
+      "nivel": 272,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 924,
+      "victorias": 415,
+      "derrotas": 369,
+      "ultima_partida": 1760517980991
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 1.8064516129032258
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.1785714285714284
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.55
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2142857142857142
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 24,
+    "losses": 28,
+    "timePlayed": 90280
+  }
+}

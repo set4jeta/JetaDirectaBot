@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "EUNE",
+    "nombre_real": "Alexandros Kanarias",
+    "edad": 22,
+    "equipo": "Actions Per Minute",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/EUNE_l0l",
+      "twitch": "https://www.twitch.tv/euneproplays0"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/APM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "clicking forward#12321",
+      "nivel": 319,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 865,
+      "victorias": 272,
+      "derrotas": 216,
+      "ultima_partida": 1760894422010
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 37,
+      "victorias": 21,
+      "winrate": "56.8%",
+      "kda_promedio": 2.553672316384181
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 22,
+      "victorias": 10,
+      "winrate": "45.5%",
+      "kda_promedio": 3.663265306122449
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3962264150943398
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5925925925925926
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.769230769230769
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5789473684210527
+    },
+    {
+      "nombre": "Samira",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 98,
+    "wins": 50,
+    "losses": 48,
+    "timePlayed": 152719
+  }
+}

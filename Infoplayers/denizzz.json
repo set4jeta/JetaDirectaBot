@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "denizzz",
+    "nombre_real": "Egedeniz Mutlu",
+    "edad": 18,
+    "equipo": "Austrian Force willhaben",
+    "pais": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/denizzzlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AFW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Espresso#4726",
+      "nivel": 217,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 728,
+      "victorias": 662,
+      "derrotas": 626,
+      "ultima_partida": 1760885682497
+    },
+    {
+      "nombre": "Hey You#11111",
+      "nivel": 476,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 52,
+      "victorias": 746,
+      "derrotas": 729,
+      "ultima_partida": 1760816827428
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 22,
+      "victorias": 12,
+      "winrate": "54.5%",
+      "kda_promedio": 3.672727272727273
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 2.56
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.9736842105263157
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.893617021276596
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.380952380952381
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.16
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.909090909090909
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 138,
+    "wins": 66,
+    "losses": 72,
+    "timePlayed": 223274
+  }
+}

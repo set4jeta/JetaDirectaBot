@@ -1,0 +1,81 @@
+{
+  "info_jugador": {
+    "nombre": "Willyrex Fanboy",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/willyrex_fanboy",
+      "twitch": "https://www.twitch.tv/willyrex_fanboy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "WiIIyrex Fanboy#EUW",
+      "nivel": 1132,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1109,
+      "victorias": 452,
+      "derrotas": 394,
+      "ultima_partida": 1760903831137
+    },
+    {
+      "nombre": "ojitos lindos#Willy",
+      "nivel": 166,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 129,
+      "derrotas": 89,
+      "ultima_partida": 1760826724677
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Taric",
+      "partidas": 27,
+      "victorias": 18,
+      "winrate": "66.7%",
+      "kda_promedio": 5.827160493827161
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 22,
+    "losses": 10,
+    "timePlayed": 51037
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Andariel",
+    "nombre_real": "Mert Kılıç",
+    "edad": 21,
+    "equipo": "UCAM Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/andarielzz",
+      "twitch": "https://www.twitch.tv/andariel1x"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/andariel.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ANDA#RIEL",
+      "nivel": 739,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1292,
+      "victorias": 643,
+      "derrotas": 572,
+      "ultima_partida": 1760838251303
+    },
+    {
+      "nombre": "BRlNG IT BACK#1WAY",
+      "nivel": 133,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 62,
+      "derrotas": 45,
+      "ultima_partida": 1755118524599
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zeri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8181818181818183
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.1
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4666666666666666
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 22,
+    "wins": 11,
+    "losses": 11,
+    "timePlayed": 35200
+  }
+}

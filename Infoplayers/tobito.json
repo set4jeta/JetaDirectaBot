@@ -1,0 +1,49 @@
+{
+  "info_jugador": {
+    "nombre": "tobito",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/xtobitoo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Szustki#666",
+      "nivel": 56,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1134,
+      "victorias": 180,
+      "derrotas": 96,
+      "ultima_partida": 1760899592633
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nunu",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 5.766666666666667
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 9,
+    "losses": 4,
+    "timePlayed": 20219
+  }
+}

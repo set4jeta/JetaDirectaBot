@@ -1,0 +1,93 @@
+{
+  "info_jugador": {
+    "nombre": "Raiko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "\\thttps://twitch.tv/raikoolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/raiko.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "zero bailong#raiko",
+      "nivel": 158,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 350,
+      "victorias": 324,
+      "derrotas": 274,
+      "ultima_partida": 1760892891557
+    },
+    {
+      "nombre": "raikooooo#EUW",
+      "nivel": 310,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 666,
+      "victorias": 354,
+      "derrotas": 318,
+      "ultima_partida": 1760789721972
+    },
+    {
+      "nombre": "raiko XD HAHA#RAIKO",
+      "nivel": 220,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1106,
+      "victorias": 239,
+      "derrotas": 181,
+      "ultima_partida": 1760712283286
+    },
+    {
+      "nombre": "RAIKO TE OWN MDR#kata",
+      "nivel": 92,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1215,
+      "victorias": 344,
+      "derrotas": 222,
+      "ultima_partida": 1760455434567
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Katarina",
+      "partidas": 104,
+      "victorias": 65,
+      "winrate": "62.5%",
+      "kda_promedio": 2.736013986013986
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 65,
+    "losses": 42,
+    "timePlayed": 169963
+  }
+}

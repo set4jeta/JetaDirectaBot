@@ -1,0 +1,112 @@
+{
+  "info_jugador": {
+    "nombre": "Xagog",
+    "nombre_real": "Isa Arda Dagli",
+    "edad": 21,
+    "equipo": "ROSSMANN Centaurs",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/xagog42",
+      "twitch": "https://twitch.tv/xagog005\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "decay arc#EUW",
+      "nivel": 117,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1346,
+      "victorias": 276,
+      "derrotas": 173,
+      "ultima_partida": 1760817561592
+    },
+    {
+      "nombre": "Xagog#EUW",
+      "nivel": 354,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 5,
+      "victorias": 85,
+      "derrotas": 45,
+      "ultima_partida": 1760715091701
+    },
+    {
+      "nombre": "ANKARAI0MESSI#EUW",
+      "nivel": 313,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 45,
+      "victorias": 9,
+      "derrotas": 17,
+      "ultima_partida": 1758968344198
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 7.571428571428571
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 4,
+    "losses": 6,
+    "timePlayed": 15751
+  }
+}

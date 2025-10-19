@@ -1,0 +1,74 @@
+{
+  "info_jugador": {
+    "nombre": "Makkro",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MakkroLoL",
+      "twitch": "https://twitch.tv/makkro0"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/makkro.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Makkor#EUW",
+      "nivel": 667,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 971,
+      "victorias": 397,
+      "derrotas": 337,
+      "ultima_partida": 1760904960071
+    },
+    {
+      "nombre": "Makkro#EUW",
+      "nivel": 125,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 60,
+      "victorias": 100,
+      "derrotas": 86,
+      "ultima_partida": 1760576415177
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ornn",
+      "partidas": 76,
+      "victorias": 45,
+      "winrate": "59.2%",
+      "kda_promedio": 2.883495145631068
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7586206896551724
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.36363636363636365
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 82,
+    "wins": 46,
+    "losses": 36,
+    "timePlayed": 131102
+  }
+}

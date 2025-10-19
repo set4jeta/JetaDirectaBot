@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "shibi",
+    "nombre_real": "Jakub Przybylski",
+    "edad": 23,
+    "equipo": "ZennIT",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/pshybyl"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Farmazoniarz#EUW",
+      "nivel": 435,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 769,
+      "victorias": 653,
+      "derrotas": 619,
+      "ultima_partida": 1760878030063
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 4.825
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7083333333333335
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.416666666666667
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.75
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4444444444444444
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 30,
+    "losses": 20,
+    "timePlayed": 79894
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Nata",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nata.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "nat#mrrd",
+      "nivel": 918,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 822,
+      "victorias": 246,
+      "derrotas": 202,
+      "ultima_partida": 1753437393619
+    },
+    {
+      "nombre": "哈哈哈哈哈哈#NATA",
+      "nivel": 460,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 138,
+      "victorias": 71,
+      "derrotas": 48,
+      "ultima_partida": 1753015209755
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.230769230769231
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 8,
+    "wins": 5,
+    "losses": 3,
+    "timePlayed": 15262
+  }
+}

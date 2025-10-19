@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Anonymouss",
+    "nombre_real": "Konstantin Kain",
+    "edad": 24,
+    "equipo": "CGN Esports",
+    "pais": "Austria",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/LolAnonymouss",
+      "twitch": "https://www.twitch.tv/anonymouss1v9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "asfdwrqe#999",
+      "nivel": 195,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1023,
+      "victorias": 560,
+      "derrotas": 509,
+      "ultima_partida": 1760889541652
+    },
+    {
+      "nombre": "Red block#999",
+      "nivel": 1119,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 758,
+      "victorias": 864,
+      "derrotas": 824,
+      "ultima_partida": 1760635128931
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Belveth",
+      "partidas": 41,
+      "victorias": 21,
+      "winrate": "51.2%",
+      "kda_promedio": 2.350597609561753
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 25,
+      "victorias": 16,
+      "winrate": "64.0%",
+      "kda_promedio": 3.0806451612903225
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 18,
+      "victorias": 8,
+      "winrate": "44.4%",
+      "kda_promedio": 2.0234375
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.3195876288659796
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.7160493827160495
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.6460176991150441
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 10,
+      "victorias": 2,
+      "winrate": "20.0%",
+      "kda_promedio": 1.8717948717948718
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.4339622641509435
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0952380952380953
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 205,
+    "wins": 96,
+    "losses": 109,
+    "timePlayed": 328503
+  }
+}

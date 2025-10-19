@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "Berkan",
+    "nombre_real": "Yusuf&nbsp;Emir Türkden",
+    "edad": 24,
+    "equipo": "NASR eSports Turkey",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/berkanlol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/berkan.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "JOHN WICK#BRKN",
+      "nivel": 173,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 936,
+      "victorias": 168,
+      "derrotas": 112,
+      "ultima_partida": 1760898295009
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Anivia",
+      "partidas": 30,
+      "victorias": 16,
+      "winrate": "53.3%",
+      "kda_promedio": 4.488636363636363
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 47,
+    "wins": 27,
+    "losses": 20,
+    "timePlayed": 72652
+  }
+}

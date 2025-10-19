@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "iBo",
+    "nombre_real": "Marcin Lebuda",
+    "edad": 28,
+    "equipo": "Veni Vidi Vici (Spanish Team)",
+    "pais": "Poland",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/iBoToplaner"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ibo.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VVV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "waterenjoyer123#EUW",
+      "nivel": 751,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1035,
+      "victorias": 560,
+      "derrotas": 512,
+      "ultima_partida": 1760703798573
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Renekton",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 2.1714285714285713
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.28125
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.7894736842105265
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.565217391304348
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6153846153846154
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 34,
+    "losses": 21,
+    "timePlayed": 84046
+  }
+}

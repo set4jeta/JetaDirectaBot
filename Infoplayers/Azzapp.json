@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "Azzapp",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Azzapp_LoL",
+      "twitch": "https://twitch.tv/azzapp"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/azzapp.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Azzapp#31415",
+      "nivel": 740,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1205,
+      "victorias": 453,
+      "derrotas": 376,
+      "ultima_partida": 1760452930452
+    },
+    {
+      "nombre": "Kolinahr Master#EUW",
+      "nivel": 105,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 176,
+      "derrotas": 121,
+      "ultima_partida": 1758472010715
+    },
+    {
+      "nombre": "aVoid the FF#31415",
+      "nivel": 136,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 183,
+      "derrotas": 143,
+      "ultima_partida": 1745446324431
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Velkoz",
+      "partidas": 48,
+      "victorias": 28,
+      "winrate": "58.3%",
+      "kda_promedio": 2.5076923076923077
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 28,
+    "losses": 23,
+    "timePlayed": 81858
+  }
+}

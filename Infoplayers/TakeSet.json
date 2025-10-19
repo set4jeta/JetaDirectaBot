@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "TakeSet",
+    "nombre_real": "Belan Ahour",
+    "edad": 23,
+    "equipo": "Solary",
+    "pais": "Denmark",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/TakeSet1",
+      "twitch": "https://twitch.tv/takeset7"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/takeset.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SLY.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "TakeSet sama#stine",
+      "nivel": 998,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 880,
+      "victorias": 246,
+      "derrotas": 196,
+      "ultima_partida": 1753732102953
+    },
+    {
+      "nombre": "takeset smurfer#EUW",
+      "nivel": 255,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1255,
+      "victorias": 141,
+      "derrotas": 80,
+      "ultima_partida": 1753647750714
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.125
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.176470588235294
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.48
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 6.4
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 7.545454545454546
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.08
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.153846153846154
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.083333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 68,
+    "wins": 45,
+    "losses": 23,
+    "timePlayed": 112086
+  }
+}

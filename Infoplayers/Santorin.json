@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "Santorin",
+    "nombre_real": "Lucas Tao Kilmer Larsen",
+    "edad": 28,
+    "equipo": "Eintracht Spandau",
+    "pais": "Denmark",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Santorin",
+      "twitch": "https://twitch.tv/santorin"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/santorin.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EINS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "HotGuy6Pack#MUTE",
+      "nivel": 249,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1166,
+      "victorias": 209,
+      "derrotas": 174,
+      "ultima_partida": 1753462149189
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 8,
+    "wins": 3,
+    "losses": 5,
+    "timePlayed": 13552
+  }
+}

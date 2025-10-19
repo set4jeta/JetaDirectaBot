@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Malice",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/LolMalice",
+      "twitch": "https://www.twitch.tv/lolmalice"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/malice.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "alkLFG#777",
+      "nivel": 92,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 970,
+      "victorias": 357,
+      "derrotas": 289,
+      "ultima_partida": 1760889117794
+    },
+    {
+      "nombre": "Malevolence#HAZE",
+      "nivel": 91,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 310,
+      "derrotas": 264,
+      "ultima_partida": 1757770431536
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Udyr",
+      "partidas": 43,
+      "victorias": 24,
+      "winrate": "55.8%",
+      "kda_promedio": 2.5346534653465347
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 30,
+      "victorias": 15,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5628415300546448
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 8,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.098360655737705
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.690909090909091
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.027027027027027
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7333333333333334
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.65
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 109,
+    "wins": 53,
+    "losses": 56,
+    "timePlayed": 171228
+  }
+}

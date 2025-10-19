@@ -1,0 +1,45 @@
+{
+  "info_jugador": {
+    "nombre": "Oscarinin",
+    "nombre_real": "Óscar Muñoz Jiménez",
+    "edad": 22,
+    "equipo": "Fnatic",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/OscarininXD",
+      "twitch": "https://twitch.tv/Oscarinin"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/oscarinin.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "chopper lover#EUW",
+      "nivel": 294,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1075,
+      "victorias": 408,
+      "derrotas": 338,
+      "ultima_partida": 1759530012713
+    },
+    {
+      "nombre": "Byron Love#1v9",
+      "nivel": 1142,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 294,
+      "derrotas": 259,
+      "ultima_partida": 1757937110984
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

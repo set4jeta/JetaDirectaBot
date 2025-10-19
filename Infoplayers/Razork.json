@@ -1,0 +1,55 @@
+{
+  "info_jugador": {
+    "nombre": "Razork",
+    "nombre_real": "Iván Martín Díaz",
+    "edad": 25,
+    "equipo": "Fnatic",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RazorkLoL",
+      "twitch": "https://twitch.tv/Razorklol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/razork.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Razørk Activoo#razzz",
+      "nivel": 810,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 564,
+      "victorias": 261,
+      "derrotas": 174,
+      "ultima_partida": 1759531726521
+    },
+    {
+      "nombre": "Mu Yanling#Sky",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 510,
+      "victorias": 119,
+      "derrotas": 47,
+      "ultima_partida": 1758972919447
+    },
+    {
+      "nombre": "Cachorro Alpha#razzz",
+      "nivel": 262,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 134,
+      "derrotas": 80,
+      "ultima_partida": 1749069382504
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

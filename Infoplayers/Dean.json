@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Dean",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/DeanGekz",
+      "twitch": "https://www.twitch.tv/deangekz"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GNG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "HomeIαnder#EUW",
+      "nivel": 1029,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 280,
+      "victorias": 267,
+      "derrotas": 250,
+      "ultima_partida": 1760875046492
+    },
+    {
+      "nombre": "low expectations#TUN",
+      "nivel": 165,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 943,
+      "victorias": 344,
+      "derrotas": 279,
+      "ultima_partida": 1760651369724
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Naafiri",
+      "partidas": 10,
+      "victorias": 9,
+      "winrate": "90.0%",
+      "kda_promedio": 8.074074074074074
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.730769230769231
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.2777777777777777
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.8095238095238093
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3684210526315788
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 87,
+    "wins": 49,
+    "losses": 38,
+    "timePlayed": 139777
+  }
+}

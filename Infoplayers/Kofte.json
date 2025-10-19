@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Kofte",
+    "nombre_real": "Emre Akça",
+    "edad": 24,
+    "equipo": "Bushido Wildcats",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/koftelol",
+      "twitch": "https://www.twitch.tv/koftelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kofte.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "killer tune#zzz",
+      "nivel": 349,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1217,
+      "victorias": 336,
+      "derrotas": 279,
+      "ultima_partida": 1760901352454
+    },
+    {
+      "nombre": "indoor fish#EUW",
+      "nivel": 587,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1369,
+      "victorias": 336,
+      "derrotas": 267,
+      "ultima_partida": 1760898295009
+    },
+    {
+      "nombre": "yüzenköfte#EUW",
+      "nivel": 742,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 18,
+      "derrotas": 13,
+      "ultima_partida": 1748051667600
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.857142857142857
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 26,
+    "losses": 22,
+    "timePlayed": 78876
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "info_jugador": {
+    "nombre": "Sati",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sati_M_",
+      "twitch": "https://twitch.tv/satim__"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/1M.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Sati M#JNGL",
+      "nivel": 769,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 891,
+      "victorias": 665,
+      "derrotas": 623,
+      "ultima_partida": 1760888282184
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "XinZhao",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.7058823529411766
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.269230769230769
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "timePlayed": 16976
+  }
+}

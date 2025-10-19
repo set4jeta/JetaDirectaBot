@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Rutzou",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/PatrickRutzou",
+      "twitch": "https://www.twitch.tv/Rutzou"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OSC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Rutzou#EUW",
+      "nivel": 449,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 793,
+      "victorias": 196,
+      "derrotas": 148,
+      "ultima_partida": 1760829452911
+    },
+    {
+      "nombre": "Winston#RUTZ",
+      "nivel": 88,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 166,
+      "derrotas": 113,
+      "ultima_partida": 1760014620191
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 3.3666666666666667
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.22
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5641025641025643
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.583333333333333
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.368421052631579
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7777777777777777
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 69,
+    "wins": 40,
+    "losses": 29,
+    "timePlayed": 106020
+  }
+}

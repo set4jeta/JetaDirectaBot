@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "OWLONSKY",
+    "nombre_real": "Dmitry Rusu",
+    "edad": 20,
+    "equipo": "FN Esports",
+    "pais": "Moldova",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/owlonsky",
+      "twitch": "https://www.twitch.tv/owlonsky"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "nida lee#EUW0",
+      "nivel": 153,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 894,
+      "victorias": 354,
+      "derrotas": 296,
+      "ultima_partida": 1760894422010
+    },
+    {
+      "nombre": "SN SofM#2020",
+      "nivel": 349,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 97,
+      "victorias": 213,
+      "derrotas": 212,
+      "ultima_partida": 1757624306093
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.042105263157895
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 6.0181818181818185
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.208333333333333
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4166666666666667
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 94,
+    "wins": 48,
+    "losses": 46,
+    "timePlayed": 149512
+  }
+}

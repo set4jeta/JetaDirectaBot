@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "xddyuki",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/akawaiipotat",
+      "twitch": "https://www.twitch.tv/xddyuki"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "xddyuki#LINA",
+      "nivel": 584,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 244,
+      "derrotas": 211,
+      "ultima_partida": 1753368501510
+    },
+    {
+      "nombre": "TSC GOVNA#K1NG",
+      "nivel": 116,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 64,
+      "derrotas": 42,
+      "ultima_partida": 1750859869660
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8955223880597014
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.282051282051282
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5217391304347827
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 27,
+    "losses": 34,
+    "timePlayed": 98733
+  }
+}

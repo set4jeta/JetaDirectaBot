@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "Yokah",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/yokah_lol",
+      "twitch": "https://twitch.tv/yokah"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/yokah.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TwTv Yokah#AKALI",
+      "nivel": 1148,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 629,
+      "victorias": 488,
+      "derrotas": 464,
+      "ultima_partida": 1753390876646
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Akali",
+      "partidas": 60,
+      "victorias": 25,
+      "winrate": "41.7%",
+      "kda_promedio": 3.0617760617760617
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 26,
+    "losses": 41,
+    "timePlayed": 109137
+  }
+}

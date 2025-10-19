@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Mafro",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Mafro_lol",
+      "twitch": "https://www.twitch.tv/mafr0o"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IZI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Change Is Good#Mafro",
+      "nivel": 624,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 857,
+      "victorias": 515,
+      "derrotas": 460,
+      "ultima_partida": 1760734174844
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Diana",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.495049504950495
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.08
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0769230769230769
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 22,
+    "losses": 20,
+    "timePlayed": 66441
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Camana",
+    "nombre_real": "Burak Erdem Uçar",
+    "edad": 23,
+    "equipo": "The Forbidden Five",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/camanalol",
+      "twitch": "\\thttps://www.twitch.tv/camanalol\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "qweasd1#cmna",
+      "nivel": 503,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 996,
+      "victorias": 607,
+      "derrotas": 532,
+      "ultima_partida": 1760889117794
+    },
+    {
+      "nombre": "Aurelius#1211",
+      "nivel": 193,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 160,
+      "victorias": 506,
+      "derrotas": 472,
+      "ultima_partida": 1760882157257
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 24,
+      "victorias": 16,
+      "winrate": "66.7%",
+      "kda_promedio": 2.939655172413793
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 21,
+      "victorias": 12,
+      "winrate": "57.1%",
+      "kda_promedio": 2.058333333333333
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.8354430379746836
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9824561403508771
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.673076923076923
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.6538461538461537
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.484375
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.3666666666666667
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.148936170212766
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.6333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 195,
+    "wins": 97,
+    "losses": 98,
+    "timePlayed": 310548
+  }
+}

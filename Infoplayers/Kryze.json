@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kryze",
+    "nombre_real": "Felix Hellström",
+    "edad": 26,
+    "equipo": "Solary",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KryzeLoL",
+      "twitch": "https://twitch.tv/kryzelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kryze.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SLY.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "stardewvalley67#EUW",
+      "nivel": 245,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1309,
+      "victorias": 218,
+      "derrotas": 171,
+      "ultima_partida": 1753725157016
+    },
+    {
+      "nombre": "xLinayaa#EUW",
+      "nivel": 308,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 50,
+      "victorias": 1,
+      "derrotas": 5,
+      "ultima_partida": 1751053410537
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yorick",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.7241379310344827
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.789473684210526
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3571428571428572
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4375
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 20,
+    "losses": 19,
+    "timePlayed": 57547
+  }
+}

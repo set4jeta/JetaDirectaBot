@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "RustySniper",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/RustySniper_EUW",
+      "twitch": "https://www.twitch.tv/rustysniperrrr"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "RustySniper#Zeri",
+      "nivel": 815,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1018,
+      "victorias": 425,
+      "derrotas": 361,
+      "ultima_partida": 1760658088625
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Xayah",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.5428571428571427
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8732394366197183
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9565217391304348
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 38,
+    "wins": 23,
+    "losses": 15,
+    "timePlayed": 59174
+  }
+}

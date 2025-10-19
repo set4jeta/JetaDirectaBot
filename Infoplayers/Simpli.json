@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Simpli",
+    "nombre_real": "Anselmi Rintanen",
+    "edad": 24,
+    "equipo": "Unicorns of Love Sexy Edition",
+    "pais": "Finland",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/SimpliLoL",
+      "twitch": "https://www.twitch.tv/simplilol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Simpli#Jasmi",
+      "nivel": 1147,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 779,
+      "victorias": 284,
+      "derrotas": 250,
+      "ultima_partida": 1753742685654
+    },
+    {
+      "nombre": "Rintanen#EUW",
+      "nivel": 132,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 10,
+      "derrotas": 3,
+      "ultima_partida": 1744564498174
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 20,
+      "victorias": 13,
+      "winrate": "65.0%",
+      "kda_promedio": 3.8815789473684212
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.2903225806451615
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.175438596491228
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.1132075471698113
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.8412698412698412
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.3777777777777778
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.52
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.0476190476190474
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 118,
+    "wins": 66,
+    "losses": 52,
+    "timePlayed": 193025
+  }
+}

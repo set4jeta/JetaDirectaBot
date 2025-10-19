@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "Polychiki",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Polychikii",
+      "twitch": "https://www.twitch.tv/polychiki"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/JMGG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Law#PLYCK",
+      "nivel": 1434,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 870,
+      "victorias": 421,
+      "derrotas": 376,
+      "ultima_partida": 1760894015740
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zac",
+      "partidas": 47,
+      "victorias": 21,
+      "winrate": "44.7%",
+      "kda_promedio": 2.0031948881789137
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 25,
+    "losses": 29,
+    "timePlayed": 85950
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Scuffed",
+    "nombre_real": "Max Løwe Skovfoged Scherer",
+    "edad": 23,
+    "equipo": "KAOS e-sport",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/scuffedlss",
+      "twitch": "https://www.twitch.tv/scuffedlss"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jerry Tingler#Linn",
+      "nivel": 1074,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 926,
+      "victorias": 345,
+      "derrotas": 296,
+      "ultima_partida": 1760894106568
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.902439024390244
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5555555555555556
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9230769230769231
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 20,
+    "losses": 13,
+    "timePlayed": 53344
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Jackspektra",
+    "nombre_real": "Jakob Gullvag Kepple",
+    "edad": 24,
+    "equipo": "Team Heretics",
+    "pais": "Norway",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Jackspektra",
+      "twitch": "https://twitch.tv/jackspektra"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/jackspektra.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SPKTR#SPKTR",
+      "nivel": 719,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1102,
+      "victorias": 304,
+      "derrotas": 241,
+      "ultima_partida": 1760882155789
+    },
+    {
+      "nombre": "PRESTIGE CAEDREL#LEC",
+      "nivel": 488,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 820,
+      "victorias": 215,
+      "derrotas": 163,
+      "ultima_partida": 1760543407074
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Smolder",
+      "partidas": 32,
+      "victorias": 21,
+      "winrate": "65.6%",
+      "kda_promedio": 2.6906077348066297
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 2.904255319148936
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 16,
+      "victorias": 6,
+      "winrate": "37.5%",
+      "kda_promedio": 2.1714285714285713
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.46
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.057142857142857
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.310344827586207
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.24
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1851851851851851
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 130,
+    "wins": 72,
+    "losses": 58,
+    "timePlayed": 213853
+  }
+}

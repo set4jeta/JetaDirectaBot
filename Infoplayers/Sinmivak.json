@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Sinmivak",
+    "nombre_real": "Jakub Rucki",
+    "edad": 24,
+    "equipo": "UCAM Esports",
+    "pais": "Poland",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Sinmivak",
+      "twitch": "https://www.twitch.tv/sinmivak"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sinmivak.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "polski herkules#EUW",
+      "nivel": 166,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 156,
+      "victorias": 108,
+      "derrotas": 91,
+      "ultima_partida": 1760696169398
+    },
+    {
+      "nombre": "Sinmivak#777",
+      "nivel": 1067,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1160,
+      "victorias": 615,
+      "derrotas": 576,
+      "ultima_partida": 1760473444596
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.7857142857142858
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5357142857142858
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.8461538461538463
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Tryndamere",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4285714285714284
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 28,
+    "losses": 26,
+    "timePlayed": 89154
+  }
+}

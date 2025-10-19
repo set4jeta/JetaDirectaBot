@@ -1,0 +1,45 @@
+{
+  "info_jugador": {
+    "nombre": "Supa",
+    "nombre_real": "David Martínez García",
+    "edad": 24,
+    "equipo": "Movistar KOI",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Supa_LoL",
+      "twitch": "https://twitch.tv/supa_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/supa.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "tukaan#tukan",
+      "nivel": 1516,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 579,
+      "victorias": 434,
+      "derrotas": 369,
+      "ultima_partida": 1759063850639
+    },
+    {
+      "nombre": "Tukaan#tuknn",
+      "nivel": 35,
+      "region": "NA1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 36,
+      "derrotas": 13,
+      "ultima_partida": 1751655496658
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

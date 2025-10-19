@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Steeelback",
+    "nombre_real": "Pierre Medjaldi",
+    "edad": 29,
+    "equipo": "Caldya Esport",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Steeelb4ck",
+      "twitch": "https://twitch.tv/steeelback"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/steeelback.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CLA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SteeelBackON#317",
+      "nivel": 767,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 729,
+      "victorias": 735,
+      "derrotas": 693,
+      "ultima_partida": 1760898145855
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 32,
+      "victorias": 17,
+      "winrate": "53.1%",
+      "kda_promedio": 2.828125
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 3.1129032258064515
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.1379310344827585
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8548387096774195
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 3.1296296296296298
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.9148936170212765
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9666666666666666
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.324324324324324
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9583333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 129,
+    "wins": 67,
+    "losses": 62,
+    "timePlayed": 212594
+  }
+}

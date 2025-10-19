@@ -1,0 +1,100 @@
+{
+  "info_jugador": {
+    "nombre": "CruncyWM",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/cruncywm"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "CruncyWM#TW TV",
+      "nivel": 70,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1287,
+      "victorias": 262,
+      "derrotas": 159,
+      "ultima_partida": 1760636819308
+    },
+    {
+      "nombre": "twtv CruncyWM#BLACK",
+      "nivel": 68,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 100,
+      "derrotas": 39,
+      "ultima_partida": 1753830105387
+    },
+    {
+      "nombre": "Tw tv CruncyWM#clown",
+      "nivel": 51,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 136,
+      "derrotas": 58,
+      "ultima_partida": 1752024147674
+    },
+    {
+      "nombre": "CruncyWM#1737",
+      "nivel": 45,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 101,
+      "derrotas": 34,
+      "ultima_partida": 1751814061867
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 12,
+      "victorias": 11,
+      "winrate": "91.7%",
+      "kda_promedio": 5.2926829268292686
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Teemo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7777777777777777
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 12,
+    "losses": 4,
+    "timePlayed": 25242
+  }
+}

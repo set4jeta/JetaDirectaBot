@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Malrang",
+    "nombre_real": "Kim Geun-seong",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Malrang12"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/malrang.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Co24#KR1",
+      "nivel": 345,
+      "region": "KR",
+      "liga": "GRANDMASTER I",
+      "lp": 1038,
+      "victorias": 196,
+      "derrotas": 158,
+      "ultima_partida": 1760805839581
+    },
+    {
+      "nombre": "sdfsdfsgert#EUW",
+      "nivel": 249,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 512,
+      "derrotas": 451,
+      "ultima_partida": 1756215717966
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leona",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.097560975609756
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.789473684210526
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 5.111111111111111
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 7.75
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 47,
+    "wins": 25,
+    "losses": 22,
+    "timePlayed": 70029
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "info_jugador": {
+    "nombre": "Carzzy",
+    "nombre_real": "Matyáš Orság",
+    "edad": 23,
+    "equipo": "Team Vitality",
+    "pais": "Czech Republic",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Carzzylol",
+      "twitch": "https://twitch.tv/carzzy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/carzzy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "lego ninjago#vape",
+      "nivel": 993,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1162,
+      "victorias": 382,
+      "derrotas": 330,
+      "ultima_partida": 1760841372360
+    },
+    {
+      "nombre": "hello bro#EUW",
+      "nivel": 164,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 42,
+      "derrotas": 18,
+      "ultima_partida": 1759351311790
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.642857142857143
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 8,
+    "losses": 8,
+    "timePlayed": 24605
+  }
+}

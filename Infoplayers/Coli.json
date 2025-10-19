@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Coli",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Coli797"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BE5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BE5 Coli#SUP",
+      "nivel": 256,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 766,
+      "victorias": 714,
+      "derrotas": 661,
+      "ultima_partida": 1753752323758
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 20,
+      "victorias": 16,
+      "winrate": "80.0%",
+      "kda_promedio": 4.651685393258427
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.116883116883117
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 12,
+      "victorias": 3,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0697674418604652
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.595744680851064
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.7346938775510203
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 3.189189189189189
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.973684210526316
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.566666666666667
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.816326530612245
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 115,
+    "wins": 58,
+    "losses": 57,
+    "timePlayed": 186737
+  }
+}

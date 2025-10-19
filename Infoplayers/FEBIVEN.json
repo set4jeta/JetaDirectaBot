@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "FEBIVEN",
+    "nombre_real": "Fabian Diepstraten",
+    "edad": 28,
+    "equipo": "NORD Esports",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/FEBIVEN",
+      "twitch": "https://twitch.tv/febiven"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/febiven.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "FEBIVEN#EUWW",
+      "nivel": 462,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1179,
+      "victorias": 489,
+      "derrotas": 448,
+      "ultima_partida": 1753296112522
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.111111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 11,
+    "losses": 9,
+    "timePlayed": 30606
+  }
+}

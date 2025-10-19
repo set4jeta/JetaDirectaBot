@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "Noz2k",
+    "nombre_real": "Noah Richter",
+    "edad": 21,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/noz2k_lol",
+      "twitch": "https://twitch.tv/noz2k"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EWI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Reiji Beiteu#2000",
+      "nivel": 92,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1060,
+      "victorias": 238,
+      "derrotas": 175,
+      "ultima_partida": 1760733697400
+    },
+    {
+      "nombre": "noz#2000",
+      "nivel": 811,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 5,
+      "victorias": 282,
+      "derrotas": 250,
+      "ultima_partida": 1759610130651
+    },
+    {
+      "nombre": "noz2k#EWI",
+      "nivel": 149,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 34,
+      "derrotas": 15,
+      "ultima_partida": 1748027790808
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 4,
+    "wins": 2,
+    "losses": 2,
+    "timePlayed": 7364
+  }
+}

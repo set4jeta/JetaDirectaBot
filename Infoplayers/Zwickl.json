@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Zwickl",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Zwickl18"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Zwickl#VAMOS",
+      "nivel": 1014,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 913,
+      "victorias": 428,
+      "derrotas": 382,
+      "ultima_partida": 1760884195116
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 3.017543859649123
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.4651162790697674
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.264705882352941
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.59375
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 8.285714285714286
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.096774193548387
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2692307692307692
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.357142857142857
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 49,
+    "wins": 25,
+    "losses": 24,
+    "timePlayed": 73878
+  }
+}

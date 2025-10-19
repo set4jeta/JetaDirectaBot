@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Pann",
+    "nombre_real": "Maximilian Abels",
+    "edad": 23,
+    "equipo": "eSuba",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/PanMaximilian"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/pann.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ESB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Tom Brady#IAM",
+      "nivel": 1029,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 681,
+      "victorias": 523,
+      "derrotas": 494,
+      "ultima_partida": 1760904409488
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pyke",
+      "partidas": 32,
+      "victorias": 15,
+      "winrate": "46.9%",
+      "kda_promedio": 2.630952380952381
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 26,
+      "victorias": 10,
+      "winrate": "38.5%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 24,
+      "victorias": 14,
+      "winrate": "58.3%",
+      "kda_promedio": 3.855855855855856
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 3.011111111111111
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 4.088235294117647
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 2.1296296296296298
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 1.7428571428571429
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.4186046511627906
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3571428571428572
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 149,
+    "wins": 62,
+    "losses": 87,
+    "timePlayed": 232117
+  }
+}

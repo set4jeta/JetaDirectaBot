@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Bissejr15",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Bisgaardjr",
+      "twitch": "https://www.twitch.tv/bisgaardjr"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LLS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Bissejr15#EUW",
+      "nivel": 463,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 767,
+      "victorias": 256,
+      "derrotas": 220,
+      "ultima_partida": 1753698933091
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.619047619047619
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.95
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.85
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.1111111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 11,
+    "losses": 12,
+    "timePlayed": 38122
+  }
+}

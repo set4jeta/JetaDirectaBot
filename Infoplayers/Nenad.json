@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nenad",
+    "nombre_real": "Nenad Tatalović",
+    "edad": 21,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Serbia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/nenad1v9",
+      "twitch": "https://www.twitch.tv/nenad1v9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Nenad#1v9",
+      "nivel": 354,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1164,
+      "victorias": 378,
+      "derrotas": 330,
+      "ultima_partida": 1753692152805
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 2.267857142857143
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.7096774193548385
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.5217391304347827
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6176470588235294
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0555555555555554
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8125
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 71,
+    "wins": 41,
+    "losses": 30,
+    "timePlayed": 109052
+  }
+}

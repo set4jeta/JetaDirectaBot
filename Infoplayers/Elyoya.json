@@ -1,0 +1,45 @@
+{
+  "info_jugador": {
+    "nombre": "Elyoya",
+    "nombre_real": "Javier Prades Batalla",
+    "edad": 25,
+    "equipo": "Movistar KOI",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Elyoya_LoL",
+      "twitch": "https://twitch.tv/elyoyalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/elyoya.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "komanche uchiha#elite",
+      "nivel": 1086,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 332,
+      "victorias": 480,
+      "derrotas": 424,
+      "ultima_partida": 1759063850639
+    },
+    {
+      "nombre": "Dani Flow#myrwn",
+      "nivel": 36,
+      "region": "NA1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 42,
+      "derrotas": 8,
+      "ultima_partida": 1751697763757
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "info_jugador": {
+    "nombre": "DawidSSonek",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/dawidsoneklol",
+      "twitch": "https://twitch.tv/dawidssonek"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dawidssonek.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Dawidsonek#2137",
+      "nivel": 1504,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 651,
+      "victorias": 507,
+      "derrotas": 476,
+      "ultima_partida": 1760876067825
+    },
+    {
+      "nombre": "styropianzserem#EUW",
+      "nivel": 260,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 498,
+      "victorias": 343,
+      "derrotas": 315,
+      "ultima_partida": 1760641377033
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nasus",
+      "partidas": 109,
+      "victorias": 55,
+      "winrate": "50.5%",
+      "kda_promedio": 3.007518796992481
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.6333333333333333
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 133,
+    "wins": 64,
+    "losses": 69,
+    "timePlayed": 212188
+  }
+}

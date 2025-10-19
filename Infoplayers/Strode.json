@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Strode",
+    "nombre_real": "Šimon Povýšil",
+    "edad": 19,
+    "equipo": "Nightbirds",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/strodeadc",
+      "twitch": "https://www.twitch.tv/strode_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NBS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ad gap im sorry#Mango",
+      "nivel": 128,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1209,
+      "victorias": 492,
+      "derrotas": 402,
+      "ultima_partida": 1760793817886
+    },
+    {
+      "nombre": "Kwon Jae Sung#TOPG",
+      "nivel": 500,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 381,
+      "derrotas": 340,
+      "ultima_partida": 1760791883224
+    },
+    {
+      "nombre": "lck material ad#EUW",
+      "nivel": 123,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 79,
+      "derrotas": 40,
+      "ultima_partida": 1757598238500
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 16,
+      "victorias": 11,
+      "winrate": "68.8%",
+      "kda_promedio": 3.1857142857142855
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 1.796875
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.72
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.761904761904762
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8709677419354838
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.8636363636363638
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.15
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 101,
+    "wins": 52,
+    "losses": 49,
+    "timePlayed": 160170
+  }
+}

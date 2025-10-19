@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Skream",
+    "nombre_real": "Youssef Abdellatif",
+    "edad": 21,
+    "equipo": "Dragons Esports",
+    "pais": "Tunisia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Skream_euw",
+      "twitch": "https://www.twitch.tv/skreamm"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DRG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Skream#ZZZ",
+      "nivel": 725,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 807,
+      "victorias": 239,
+      "derrotas": 210,
+      "ultima_partida": 1753627203171
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.3375
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.466666666666667
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5517241379310345
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1904761904761907
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.227272727272727
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 37,
+    "losses": 26,
+    "timePlayed": 99903
+  }
+}

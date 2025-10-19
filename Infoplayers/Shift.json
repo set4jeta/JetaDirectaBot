@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Shift",
+    "nombre_real": "Marcel Bąk",
+    "edad": 20,
+    "equipo": "Entropiq",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Shift_lol5",
+      "twitch": "https://www.twitch.tv/shift_lol5"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "twtv shiftlol5#2005",
+      "nivel": 84,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1629,
+      "victorias": 254,
+      "derrotas": 139,
+      "ultima_partida": 1760893319431
+    },
+    {
+      "nombre": "EIQ Shift#GOAT",
+      "nivel": 759,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 175,
+      "victorias": 84,
+      "derrotas": 51,
+      "ultima_partida": 1760656170297
+    },
+    {
+      "nombre": "Shift#kaipo",
+      "nivel": 96,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 66,
+      "derrotas": 49,
+      "ultima_partida": 1759921637237
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 5.340909090909091
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 11,
+      "victorias": 10,
+      "winrate": "90.9%",
+      "kda_promedio": 5.428571428571429
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 4.857142857142857
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.675675675675676
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.0526315789473686
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 35,
+    "losses": 18,
+    "timePlayed": 86400
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Rocklho",
+    "nombre_real": "Felix Bao Duy Ho",
+    "edad": 27,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Vietnam",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Rocklho",
+      "twitch": "https://twitch.tv/rocklho"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EWI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Rocklho#Stein",
+      "nivel": 485,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1046,
+      "victorias": 220,
+      "derrotas": 180,
+      "ultima_partida": 1753570388546
+    },
+    {
+      "nombre": "TwTv Rocklho#EUW",
+      "nivel": 227,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 55,
+      "derrotas": 39,
+      "ultima_partida": 1745965418833
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.4615384615384617
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 21,
+    "wins": 11,
+    "losses": 10,
+    "timePlayed": 34519
+  }
+}

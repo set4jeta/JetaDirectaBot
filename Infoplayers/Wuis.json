@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Wuis",
+    "nombre_real": "Luís Pereira",
+    "edad": 21,
+    "equipo": "Zena Esports",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/WuisLoL",
+      "twitch": "https://www.twitch.tv/wuislol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Wuiš#Iris",
+      "nivel": 1106,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 977,
+      "victorias": 284,
+      "derrotas": 239,
+      "ultima_partida": 1760752776020
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.75
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.125
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 8,
+    "losses": 7,
+    "timePlayed": 24172
+  }
+}

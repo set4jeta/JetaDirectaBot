@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "Tommy",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Tommy_XDXD",
+      "twitch": "https://twitch.tv/tommyg33"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/tommy.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "LiL TommyG#EUW",
+      "nivel": 1290,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1343,
+      "victorias": 530,
+      "derrotas": 466,
+      "ultima_partida": 1760807032605
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.12
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 5,
+    "losses": 8,
+    "timePlayed": 20693
+  }
+}

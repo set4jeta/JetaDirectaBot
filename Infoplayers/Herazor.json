@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Herazor",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/HeRaZoR_Lol",
+      "twitch": "https://www.twitch.tv/herazor_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "RCS Herazor#RCS",
+      "nivel": 981,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 762,
+      "victorias": 611,
+      "derrotas": 571,
+      "ultima_partida": 1760897054688
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Karma",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 3.169491525423729
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 2.5686274509803924
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 10,
+      "victorias": 9,
+      "winrate": "90.0%",
+      "kda_promedio": 2.975
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.2195121951219514
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 2.5306122448979593
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.2285714285714286
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.975609756097561
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 4.583333333333333
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 108,
+    "wins": 51,
+    "losses": 57,
+    "timePlayed": 166207
+  }
+}

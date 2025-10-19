@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Sw3ry",
+    "nombre_real": "Denis Neumann",
+    "edad": 18,
+    "equipo": "Fox Gaming",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Sw3ry_lol",
+      "twitch": "https://www.twitch.tv/sw3ry__"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/F0X.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "noobsupp#noob",
+      "nivel": 209,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1384,
+      "victorias": 620,
+      "derrotas": 541,
+      "ultima_partida": 1760899592633
+    },
+    {
+      "nombre": "noobsuppp#noob",
+      "nivel": 745,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 89,
+      "derrotas": 79,
+      "ultima_partida": 1759675968800
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 34,
+      "victorias": 20,
+      "winrate": "58.8%",
+      "kda_promedio": 4.338235294117647
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 4.404255319148936
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.682926829268293
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.736842105263158
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5625
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5833333333333335
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 78,
+    "wins": 44,
+    "losses": 34,
+    "timePlayed": 119937
+  }
+}

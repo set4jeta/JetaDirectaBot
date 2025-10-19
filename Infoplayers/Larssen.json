@@ -1,0 +1,34 @@
+{
+  "info_jugador": {
+    "nombre": "Larssen",
+    "nombre_real": "Emil Larsson",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "Sweden",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Larssen00"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/larssen.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "george kittle#EUW",
+      "nivel": 684,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 370,
+      "derrotas": 366,
+      "ultima_partida": 1760560835077
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

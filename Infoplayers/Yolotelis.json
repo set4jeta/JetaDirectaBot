@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Yolotelis",
+    "nombre_real": "Aristotelis Sakellakis",
+    "edad": 21,
+    "equipo": "Spartans EU",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/yolotelis"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Unlucky Life#itsok",
+      "nivel": 522,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 652,
+      "victorias": 309,
+      "derrotas": 267,
+      "ultima_partida": 1760809182505
+    },
+    {
+      "nombre": "ΓΙΟΛΟΤΕΛΗΣ#GRE",
+      "nivel": 189,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 593,
+      "victorias": 488,
+      "derrotas": 441,
+      "ultima_partida": 1760807004885
+    },
+    {
+      "nombre": "MissedPotential#GRE",
+      "nivel": 131,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 759,
+      "victorias": 250,
+      "derrotas": 153,
+      "ultima_partida": 1760643888877
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Samira",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 3.632183908045977
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.0757575757575757
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.268292682926829
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.574074074074074
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.0208333333333335
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0754716981132075
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.2972972972972974
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.68
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.1153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 122,
+    "wins": 65,
+    "losses": 57,
+    "timePlayed": 188479
+  }
+}

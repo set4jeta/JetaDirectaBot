@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Tracyn",
+    "nombre_real": "Sebastian Wojtoń",
+    "edad": 20,
+    "equipo": "Los Heretics",
+    "pais": "Poland",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tracynlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/tracyn.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/HRTS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "blueskies777#EUW",
+      "nivel": 429,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 55,
+      "victorias": 188,
+      "derrotas": 169,
+      "ultima_partida": 1760835531973
+    },
+    {
+      "nombre": "래그돌 고양이#1811",
+      "nivel": 111,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1378,
+      "victorias": 487,
+      "derrotas": 377,
+      "ultima_partida": 1760825941793
+    },
+    {
+      "nombre": "highlighter#eyeez",
+      "nivel": 865,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 36,
+      "derrotas": 23,
+      "ultima_partida": 1746199952150
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6470588235294117
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3125
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 12,
+    "losses": 8,
+    "timePlayed": 30142
+  }
+}

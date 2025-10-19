@@ -1,0 +1,119 @@
+{
+  "info_jugador": {
+    "nombre": "Toffe",
+    "nombre_real": "Tautvydas Gegeckas",
+    "edad": 20,
+    "equipo": "Team BDS Academy",
+    "pais": "Lithuania",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Toffe_lol",
+      "twitch": "https://www.twitch.tv/toffe_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Toto The Totoro#Toffe",
+      "nivel": 559,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1522,
+      "victorias": 300,
+      "derrotas": 232,
+      "ultima_partida": 1760736474309
+    },
+    {
+      "nombre": "Rabadon Merchant#3500",
+      "nivel": 164,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1282,
+      "victorias": 285,
+      "derrotas": 213,
+      "ultima_partida": 1760609227560
+    },
+    {
+      "nombre": "oompa loompa mid#tofu",
+      "nivel": 422,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 149,
+      "derrotas": 126,
+      "ultima_partida": 1743629751174
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ziggs",
+      "partidas": 16,
+      "victorias": 11,
+      "winrate": "68.8%",
+      "kda_promedio": 3.514705882352941
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.38
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9090909090909091
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 45,
+    "wins": 25,
+    "losses": 20,
+    "timePlayed": 78289
+  }
+}

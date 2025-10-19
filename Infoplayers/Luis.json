@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Luis",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Brother__Luis"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GTZ.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Brother Luis#EUW",
+      "nivel": 697,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 753,
+      "victorias": 431,
+      "derrotas": 393,
+      "ultima_partida": 1760730147931
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3529411764705883
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5357142857142856
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.714285714285714
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.2
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 19,
+    "losses": 18,
+    "timePlayed": 59279
+  }
+}

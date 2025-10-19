@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "SaintSamson",
+    "nombre_real": "Jonathan Samson",
+    "edad": 26,
+    "equipo": "Lundqvist Lightside",
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/SaintedSamson",
+      "twitch": "https://www.twitch.tv/saintedsamson"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Samson#4000",
+      "nivel": 461,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 702,
+      "victorias": 188,
+      "derrotas": 146,
+      "ultima_partida": 1760892032815
+    },
+    {
+      "nombre": "SAMSONOSMASAMSON#OPTUR",
+      "nivel": 614,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 635,
+      "victorias": 151,
+      "derrotas": 111,
+      "ultima_partida": 1760703239955
+    },
+    {
+      "nombre": "nosmaS#JSAP",
+      "nivel": 186,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 810,
+      "victorias": 259,
+      "derrotas": 216,
+      "ultima_partida": 1760209197897
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shen",
+      "partidas": 24,
+      "victorias": 10,
+      "winrate": "41.7%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 16,
+    "losses": 25,
+    "timePlayed": 63874
+  }
+}

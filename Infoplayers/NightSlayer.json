@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "NightSlayer",
+    "nombre_real": "Ivan Bilous",
+    "edad": 17,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Ukraine",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Slayerloll9",
+      "twitch": "https://twitch.tv/slayer_lol_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Night Slayer#SLAAY",
+      "nivel": 763,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1296,
+      "victorias": 990,
+      "derrotas": 914,
+      "ultima_partida": 1760898548007
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 37,
+      "victorias": 17,
+      "winrate": "45.9%",
+      "kda_promedio": 2.3273809523809526
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 34,
+      "victorias": 19,
+      "winrate": "55.9%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 30,
+      "victorias": 18,
+      "winrate": "60.0%",
+      "kda_promedio": 2.361111111111111
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 28,
+      "victorias": 13,
+      "winrate": "46.4%",
+      "kda_promedio": 1.5301204819277108
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 20,
+      "victorias": 10,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9894736842105263
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 12,
+      "victorias": 3,
+      "winrate": "25.0%",
+      "kda_promedio": 2.3857142857142857
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.3928571428571428
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4615384615384617
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5454545454545454
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 182,
+    "wins": 88,
+    "losses": 94,
+    "timePlayed": 292179
+  }
+}

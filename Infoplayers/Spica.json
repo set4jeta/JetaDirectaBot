@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Spica",
+    "nombre_real": "Mingyi Lu",
+    "edad": 24,
+    "equipo": "Near Airport",
+    "pais": "China",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Spicalol",
+      "twitch": "https://twitch.tv/spicalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/spica.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "astroboy#003",
+      "nivel": 83,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1461,
+      "victorias": 285,
+      "derrotas": 174,
+      "ultima_partida": 1760752479442
+    },
+    {
+      "nombre": "Spica#001",
+      "nivel": 511,
+      "region": "NA1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 383,
+      "derrotas": 319,
+      "ultima_partida": 1757562187655
+    },
+    {
+      "nombre": "ASTROBOY99#NA1",
+      "nivel": 501,
+      "region": "NA1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 310,
+      "derrotas": 268,
+      "ultima_partida": 1755581717178
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 48,
+      "victorias": 23,
+      "winrate": "47.9%",
+      "kda_promedio": 4.684210526315789
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 26,
+      "victorias": 17,
+      "winrate": "65.4%",
+      "kda_promedio": 4.673684210526316
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 25,
+      "victorias": 9,
+      "winrate": "36.0%",
+      "kda_promedio": 4.481481481481482
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 13,
+      "victorias": 11,
+      "winrate": "84.6%",
+      "kda_promedio": 4.659090909090909
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.066666666666666
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6.222222222222222
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 165,
+    "wins": 83,
+    "losses": 82,
+    "timePlayed": 260907
+  }
+}

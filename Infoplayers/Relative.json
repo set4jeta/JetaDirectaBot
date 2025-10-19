@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Relative",
+    "nombre_real": "Leon Van",
+    "edad": 23,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Relativelol",
+      "twitch": "https://www.twitch.tv/relativelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/relative.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EWI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Relative#00002",
+      "nivel": 699,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1122,
+      "victorias": 251,
+      "derrotas": 188,
+      "ultima_partida": 1760814296643
+    },
+    {
+      "nombre": "Relative#00003",
+      "nivel": 145,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1099,
+      "victorias": 304,
+      "derrotas": 228,
+      "ultima_partida": 1760807196062
+    },
+    {
+      "nombre": "Relative#00001",
+      "nivel": 231,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1030,
+      "victorias": 230,
+      "derrotas": 171,
+      "ultima_partida": 1760803704919
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 3.78125
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.5161290322580645
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 8.3
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.777777777777778
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.85
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.08
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.6875
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4347826086956523
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 129,
+    "wins": 80,
+    "losses": 49,
+    "timePlayed": 200689
+  }
+}

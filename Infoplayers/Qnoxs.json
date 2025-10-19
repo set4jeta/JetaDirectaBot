@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Qnoxs",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/qnoxs"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Qnoxs#17165",
+      "nivel": 2850,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 806,
+      "victorias": 1253,
+      "derrotas": 1228,
+      "ultima_partida": 1753765665258
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sona",
+      "partidas": 85,
+      "victorias": 45,
+      "winrate": "52.9%",
+      "kda_promedio": 2.484536082474227
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 55,
+      "victorias": 29,
+      "winrate": "52.7%",
+      "kda_promedio": 2.7640845070422535
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.050632911392405
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.4528301886792452
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.0930232558139537
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.21875
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5757575757575757
+    },
+    {
+      "nombre": "Heimerdinger",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.782608695652174
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.615384615384615
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.38461538461538464
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 191,
+    "wins": 100,
+    "losses": 91,
+    "timePlayed": 301391
+  }
+}

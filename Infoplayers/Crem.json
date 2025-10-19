@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Crem",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/cremlol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GMBL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "crem1#EUW",
+      "nivel": 389,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 769,
+      "victorias": 318,
+      "derrotas": 277,
+      "ultima_partida": 1753632368543
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 16,
+      "victorias": 15,
+      "winrate": "93.8%",
+      "kda_promedio": 3.6956521739130435
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.3461538461538463
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 32,
+    "losses": 22,
+    "timePlayed": 83043
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Zicssi",
+    "nombre_real": "Lanzo Ciajolo",
+    "edad": 23,
+    "equipo": "Gentle Mates",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/zicssiflay",
+      "twitch": "https://twitch.tv/zicssi"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/zicssi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SMRADOCH ZICSSI#EUW",
+      "nivel": 1060,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1356,
+      "victorias": 479,
+      "derrotas": 423,
+      "ultima_partida": 1760386029465
+    },
+    {
+      "nombre": "GROS ZIZICSSI#MIAM",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 937,
+      "victorias": 106,
+      "derrotas": 39,
+      "ultima_partida": 1760099153280
+    },
+    {
+      "nombre": "Sir Leywin#EUW",
+      "nivel": 507,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 57,
+      "derrotas": 37,
+      "ultima_partida": 1758210871985
+    },
+    {
+      "nombre": "AØH#EUW",
+      "nivel": 216,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.121212121212121
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.533333333333333
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 6.105263157894737
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.733333333333333
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.909090909090909
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8947368421052633
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.5625
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6470588235294117
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 31,
+    "losses": 29,
+    "timePlayed": 95390
+  }
+}

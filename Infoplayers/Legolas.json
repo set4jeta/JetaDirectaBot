@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Legolas",
+    "nombre_real": "Sergio Vicente Gispert",
+    "edad": 24,
+    "equipo": "Barça eSports",
+    "pais": "Spain",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Legolas1v9",
+      "twitch": "https://twitch.tv/legolas1v9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/legolas.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BAR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Byron Love#CHAMP",
+      "nivel": 296,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 812,
+      "victorias": 340,
+      "derrotas": 287,
+      "ultima_partida": 1760810632907
+    },
+    {
+      "nombre": "From One To Five#7650",
+      "nivel": 1209,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 68,
+      "victorias": 105,
+      "derrotas": 88,
+      "ultima_partida": 1760282619357
+    },
+    {
+      "nombre": "Lego#11313",
+      "nivel": 255,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 65,
+      "victorias": 361,
+      "derrotas": 347,
+      "ultima_partida": 1758399802641
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 29,
+      "victorias": 18,
+      "winrate": "62.1%",
+      "kda_promedio": 2.6770186335403725
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 2.453846153846154
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.024390243902439
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6451612903225807
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2608695652173914
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8333333333333335
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 87,
+    "wins": 47,
+    "losses": 40,
+    "timePlayed": 138755
+  }
+}

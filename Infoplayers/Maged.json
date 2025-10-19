@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Maged",
+    "nombre_real": "Maged Marawan Mohamed",
+    "edad": 24,
+    "equipo": "Anubis Gaming",
+    "pais": "Egypt",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/maged_lol",
+      "twitch": "https://www.twitch.tv/maged_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ANB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "elramir#kofte",
+      "nivel": 701,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 802,
+      "victorias": 616,
+      "derrotas": 570,
+      "ultima_partida": 1753718973494
+    },
+    {
+      "nombre": "DJ AATROX#DEATH",
+      "nivel": 717,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 25,
+      "victorias": 169,
+      "derrotas": 151,
+      "ultima_partida": 1749844402032
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sion",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.0869565217391304
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5789473684210527
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0625
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.466666666666667
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.4
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0526315789473684
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 19,
+    "losses": 23,
+    "timePlayed": 70089
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "info_jugador": {
+    "nombre": "Husum",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/HusumCSGO",
+      "twitch": "https://twitch.tv/husumlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/husum.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Husum#EUW",
+      "nivel": 664,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1225,
+      "victorias": 232,
+      "derrotas": 171,
+      "ultima_partida": 1760898548007
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Swain",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 6,
+    "wins": 3,
+    "losses": 3,
+    "timePlayed": 10341
+  }
+}

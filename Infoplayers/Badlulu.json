@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Badlulu",
+    "nombre_real": "Lucas Piochaud",
+    "edad": 23,
+    "equipo": "GIANTX Academy",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/badlullu",
+      "twitch": "https://www.twitch.tv/badluluu"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/badlulu.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "never again#UPDWN",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 968,
+      "victorias": 112,
+      "derrotas": 50,
+      "ultima_partida": 1760290193716
+    },
+    {
+      "nombre": "Badlulu00#EUW",
+      "nivel": 422,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 907,
+      "victorias": 339,
+      "derrotas": 265,
+      "ultima_partida": 1760048273527
+    },
+    {
+      "nombre": "cadianNN#EUW",
+      "nivel": 593,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 103,
+      "derrotas": 91,
+      "ultima_partida": 1756155122241
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 20,
+      "victorias": 14,
+      "winrate": "70.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.227272727272727
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.3035714285714286
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.129032258064516
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.782608695652174
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3684210526315788
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4615384615384617
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.9285714285714284
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8181818181818182
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8571428571428572
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 66,
+    "wins": 41,
+    "losses": 25,
+    "timePlayed": 100853
+  }
+}

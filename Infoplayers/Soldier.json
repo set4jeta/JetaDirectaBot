@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Soldier",
+    "nombre_real": "Thomas Haudecoeur",
+    "edad": 22,
+    "equipo": "Caldya Esport",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Soldier___LoL",
+      "twitch": "https://twitch.tv/soldierlol_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/soldier.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CLA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Soldier#Asu",
+      "nivel": 214,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 20,
+      "victorias": 254,
+      "derrotas": 220,
+      "ultima_partida": 1760875263422
+    },
+    {
+      "nombre": "Soldier#0710",
+      "nivel": 349,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1458,
+      "victorias": 308,
+      "derrotas": 230,
+      "ultima_partida": 1760854923673
+    },
+    {
+      "nombre": "Him#0905",
+      "nivel": 73,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1316,
+      "victorias": 276,
+      "derrotas": 171,
+      "ultima_partida": 1760712283286
+    },
+    {
+      "nombre": "Petitsoldat#inwar",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 642,
+      "victorias": 91,
+      "derrotas": 45,
+      "ultima_partida": 1760273927850
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 10,
+      "victorias": 10,
+      "winrate": "100.0%",
+      "kda_promedio": 5.607142857142857
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7045454545454546
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9838709677419355
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.7027027027027026
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.6296296296296298
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 6.4
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.764705882352941
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.0588235294117645
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 101,
+    "wins": 55,
+    "losses": 46,
+    "timePlayed": 163052
+  }
+}

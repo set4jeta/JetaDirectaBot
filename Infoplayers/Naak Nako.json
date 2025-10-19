@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Naak Nako",
+    "nombre_real": "Kaan Okan",
+    "edad": 20,
+    "equipo": "Team Vitality",
+    "pais": "Turkey",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/naaknakolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Naak Pado#VIT",
+      "nivel": 107,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1682,
+      "victorias": 468,
+      "derrotas": 324,
+      "ultima_partida": 1760832608533
+    },
+    {
+      "nombre": "Dele Alli#VIT",
+      "nivel": 699,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 144,
+      "derrotas": 94,
+      "ultima_partida": 1755966885019
+    },
+    {
+      "nombre": "E Q D E Q A R#EUW",
+      "nivel": 239,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pyke",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.833333333333333
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 12,
+    "losses": 7,
+    "timePlayed": 32490
+  }
+}

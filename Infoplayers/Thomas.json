@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Thomas",
+    "nombre_real": "Tomislav Nanjara",
+    "edad": 22,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Croatia",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ThomasFatelol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KappaChungiLungi#DELUX",
+      "nivel": 696,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 466,
+      "victorias": 212,
+      "derrotas": 170,
+      "ultima_partida": 1760835398211
+    },
+    {
+      "nombre": "Thomas#13579",
+      "nivel": 349,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 124,
+      "derrotas": 96,
+      "ultima_partida": 1759188652655
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leblanc",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 3.536231884057971
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.1923076923076925
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8181818181818182
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 19,
+    "losses": 13,
+    "timePlayed": 51732
+  }
+}

@@ -1,0 +1,349 @@
+Aquí tienes la estructura reorganizada siguiendo las mejores prácticas de modularización:
+
+lol_esports_bot/
+├── models/
+│   ├── __init__.py
+│   ├── match.py
+│   └── live.py
+├── services/
+│   ├── __init__.py
+│   ├── api_client.py
+│   ├── tracker_service.py
+│   └── embed_service.py
+├── bot/
+│   ├── __init__.py
+│   ├── commands.py
+│   └── bot.py
+└── main.py
+1. models/match.py (Definiciones de datos básicos):
+
+python
+from datetime import datetime
+import pytz
+
+class Match:
+    def __init__(self, event_data):
+        self.id = event_data.get('match', {}).get('id')
+        self.league = event_data.get('league', {})
+        self.start_time = datetime.fromisoformat(
+            event_data['startTime'].replace('Z', '+00:00')
+        ).astimezone(pytz.UTC)
+        self.teams = event_data.get('match', {}).get('teams', [])
+        self.state = event_data.get('state', 'unstarted')
+        self.strategy = event_data.get('match', {}).get('strategy', {})
+        
+class MatchDetails:
+    def __init__(self, details_data):
+        self.games = details_data.get('data', {}).get('event', {}).get('match', {}).get('games', [])
+        self.teams = details_data.get('data', {}).get('event', {}).get('match', {}).get('teams', [])
+2. models/live.py (Datos en tiempo real):
+
+python
+from datetime import datetime
+import pytz
+
+class LiveMatch:
+    def __init__(self, game_data, match_data):
+        self.game_id = game_data.get('id')
+        self.state = game_data.get('state', 'inProgress')
+        self.game_number = game_data.get('number', 1)
+        self.blue_team_id = None
+        self.red_team_id = None
+        self.start_time = datetime.now(pytz.UTC)
+        self.match_data = match_data
+
+class TrackedMatch:
+    def __init__(self, detection_time, match_data):
+        self.game_id = match_data.game_id
+        self.detection_time = detection_time
+        self.last_checked = detection_time
+        self.status = "detected"
+        self.match_data = match_data
+3. services/api_client.py (Interacción con APIs):
+
+python
+import aiohttp
+import json
+import os
+from models.match import Match, MatchDetails
+
+class APIClient:
+    def __init__(self, test_mode=False):
+        self.API_KEY = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z"
+        self.HEADERS = {"x-api-key": self.API_KEY}
+        self.test_mode = test_mode
+        self.mock_data = None
+        
+    async def load_mock(self, file_path):
+        with open(file_path, 'r') as f:
+            self.mock_data = json.load(f)
+            
+    async def get_schedule(self):
+        if self.test_mode:
+            return self.mock_data.get("getSchedule", {})
+        
+        async with aiohttp.ClientSession() as session:
+            async with session.get(
+                "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US",
+                headers=self.HEADERS
+            ) as response:
+                return await response.json() if response.status == 200 else {}
+
+    async def get_event_details(self, event_id):
+        if self.test_mode:
+            return self.mock_data.get("getEventDetails", {}).get(event_id, {})
+            
+        async with aiohttp.ClientSession() as session:
+            async with session.get(
+                f"https://esports-api.lolesports.com/persisted/gw/getEventDetails?hl=en-US&id={event_id}",
+                headers=self.HEADERS
+            ) as response:
+                return await response.json() if response.status == 200 else {}
+
+    async def get_livestats(self, game_id):
+        if self.test_mode:
+            return self.mock_data.get("livestats", {}).get(game_id, {})
+            
+        async with aiohttp.ClientSession() as session:
+            async with session.get(
+                f"https://feed.lolesports.com/livestats/v1/window/{game_id}",
+                headers=self.HEADERS
+            ) as response:
+                if response.status == 200:
+                    return await response.json()
+                return {}
+4. services/tracker_service.py (Lógica de seguimiento):
+
+python
+from datetime import datetime, timedelta
+import pytz
+import asyncio
+from models.live import LiveMatch, TrackedMatch
+
+class TrackerService:
+    def __init__(self, api_client):
+        self.api_client = api_client
+        self.tracked_matches = {}
+        self.SLUG_PRIORITY = ("worlds", "msi", "lck", "lpl", "lec", "lcs")
+        
+    async def detect_live_matches(self, schedule_data):
+        current_time = datetime.now(pytz.UTC)
+        live_matches = []
+        
+        for event in schedule_data.get('data', {}).get('schedule', {}).get('events', []):
+            match = Match(event)
+            details = await self.api_client.get_event_details(match.id)
+            match_details = MatchDetails(details)
+            
+            for game in match_details.games:
+                if game.get('state') == 'inProgress':
+                    live_match = LiveMatch(game, match)
+                    live_stats = await self.api_client.get_livestats(live_match.game_id)
+                    
+                    if live_stats.get('status') == 'in_progress':
+                        self._update_tracking(live_match, current_time)
+                        live_matches.append(live_match)
+        
+        return self._prioritize_matches(live_matches)
+
+    def _update_tracking(self, live_match, current_time):
+        if live_match.game_id not in self.tracked_matches:
+            self.tracked_matches[live_match.game_id] = TrackedMatch(current_time, live_match)
+        else:
+            self.tracked_matches[live_match.game_id].last_checked = current_time
+
+    def _prioritize_matches(self, matches):
+        return sorted(
+            matches,
+            key=lambda x: (
+                self.SLUG_PRIORITY.index(x.match_data.league.get('slug', '').lower())
+                if x.match_data.league.get('slug', '').lower() in self.SLUG_PRIORITY
+                else 999,
+                x.start_time
+            )
+        )
+5. services/embed_service.py (Generación de Embeds):
+
+python
+import nextcord
+from datetime import datetime
+
+class EmbedService:
+    @staticmethod
+    def create_match_embed(match, is_new=False):
+        embed = nextcord.Embed(
+            title=f"{match.league.get('name')} - {match.teams[0]['name']} vs {match.teams[1]['name']}",
+            color=0x0099ff if not is_new else 0x00ff00
+        )
+        
+        # Add common fields
+        embed.add_field(
+            name="Estado",
+            value="🚨 Nuevo partido detectado!" if is_new else "En progreso",
+            inline=False
+        )
+        
+        # Add timestamp
+        embed.timestamp = datetime.now()
+        return embed
+
+    @staticmethod
+    def create_live_embed(live_match):
+        embed = nextcord.Embed(
+            title=f"Juego {live_match.game_number} - {live_match.blue_team_id} vs {live_match.red_team_id}",
+            color=0xff0000
+        )
+        # Add live specific data
+        return embed
+6. bot/commands.py (Comandos de Discord):
+
+python
+from nextcord.ext import commands
+from services import EmbedService
+
+class EsportsCommands(commands.Cog):
+    def __init__(self, bot, tracker_service):
+        self.bot = bot
+        self.tracker = tracker_service
+        self.embed_service = EmbedService()
+
+    @commands.command(name="partida")
+    async def live_match(self, ctx):
+        live_matches = await self.tracker.detect_live_matches()
+        for match in live_matches[:3]:
+            embed = self.embed_service.create_match_embed(match)
+            await ctx.send(embed=embed)
+
+    @commands.command(name="next")
+    async def upcoming_matches(self, ctx):
+        # Implementar lógica de próximos partidos
+        pass
+
+    @commands.command(name="setchannel")
+    @commands.has_permissions(administrator=True)
+    async def set_notification_channel(self, ctx):
+        # Implementar lógica de configuración
+        pass
+7. bot/bot.py (Configuración del Bot):
+
+python
+import nextcord
+from nextcord.ext import commands
+from services import APIClient, TrackerService
+
+class EsportsBot(commands.Bot):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.api_client = APIClient(test_mode=False)
+        self.tracker_service = TrackerService(self.api_client)
+        
+    async def on_ready(self):
+        print(f'Bot conectado como {self.user.name}')
+        self.add_cog(EsportsCommands(self, self.tracker_service))
+8. main.py (Punto de entrada principal):
+
+python
+from bot.bot import EsportsBot
+from flask import Flask
+from threading import Thread
+import os
+
+app = Flask(__name__)
+
+def run_flask():
+    app.run(host='0.0.0.0', port=8080)
+
+if __name__ == "__main__":
+    bot = EsportsBot(command_prefix="/", intents=nextcord.Intents.default())
+    flask_thread = Thread(target=run_flask, daemon=True)
+    flask_thread.start()
+    
+    if os.path.exists("config.json"):
+        bot.api_client.test_mode = True
+        bot.api_client.load_mock("test_data/full_flow.json")
+    
+    bot.run(os.getenv("DISCORD_TOKEN"))
+Esta estructura ofrece:
+
+Separación clara de responsabilidades: Cada componente maneja una parte específica de la funcionalidad
+
+Facilidad de mantenimiento: Los cambios en una capa no afectan a las demás
+
+Escalabilidad: Se pueden añadir nuevas funcionalidades fácilmente
+
+Testabilidad: Los componentes pueden ser probados de forma aislada
+
+Configuración centralizada: La inyección de dependencias maneja la configuración compleja
+
+Para implementar completamente todas las funciones originales, deberías:
+
+Completar los métodos faltantes en los servicios
+
+Añadir manejo de errores detallado
+
+Implementar la persistencia de configuración
+
+Mejorar el sistema de tracking con tiempo real
+
+Añadir más validaciones de datos
+
+¿Necesitas que profundice en alguna parte específica de la implementación?
+
+lol_esports_bot/
+├── models/
+│   ├── __init__.py
+│   ├── match.py
+│   └── live.py
+├── services/
+│   ├── __init__.py
+│   ├── api.py
+│   ├── tracker.py
+│   └── embed.py
+├── bot/
+│   ├── __init__.py
+│   ├── commands.py
+│   └── bot.py
+└── main.py . Si le quiero llamar asi da igual? afecta en algo al codigo que mandaste o no? gracias.
+Bueno, el usuario está preguntando si el nombre del directorio "lol_esports_bot" afecta al código que le envié anteriormente. Primero, recuerdo que en mi respuesta anterior propuse una estructura de carpetas con nombres específicos como "models", "services", etc. Ahora el usuario quiere saber si cambiar el nombre del directorio principal a "lol_esports_bot" tiene algún impacto.
+
+Primero, debo asegurarme de que el usuario entiende que el nombre del directorio raíz no afecta el funcionamiento del código, siempre y cuando las importaciones internas estén correctamente configuradas. En Python, las importaciones se basan en la estructura de paquetes y módulos, no en el nombre del directorio raíz. Por ejemplo, si el directorio principal se llama "lol_esports_bot", pero en el código se importa como un paquete con ese nombre, no debería haber problemas.
+
+Luego, pienso en cómo se manejan las importaciones en Python. Si el usuario tiene un archivo __init__.py en cada subdirectorio, eso los convierte en paquetes, y las importaciones relativas o absolutas dependen de cómo estén estructuradas. El nombre del directorio raíz solo afectaría si se está utilizando como un paquete instalable, pero en este caso, probablemente el usuario está ejecutando el código localmente, así que el nombre no debería ser un problema.
+
+También considero la posibilidad de que el usuario esté confundiendo el nombre del directorio con los nombres de los módulos internos. Es importante aclarar que mientras las rutas internas (como "models", "services", etc.) se mantengan igual, el nombre del directorio raíz puede ser cualquiera sin afectar el código.
+
+Además, recuerdo que en la estructura propuesta, el punto de entrada es main.py, que importa los módulos de bot, services, etc. Mientras las referencias dentro de main.py y los demás archivos estén correctas (usando imports relativos o absolutos según corresponda), el nombre del directorio raíz no influye.
+
+Finalmente, pienso en posibles excepciones, como si el usuario está utilizando entornos virtuales o configuraciones específicas de PYTHONPATH, pero asumo que el usuario está trabajando en un entorno estándar donde el directorio raíz está en el path de Python, por lo que el nombre no debería causar conflictos.
+
+En resumen, el nombre del directorio raíz no afecta el código siempre que las importaciones internas estén bien configuradas y las estructuras de los subdirectorios se mantengan.
+
+El nombre del directorio raíz no afecta en absoluto al funcionamiento del código mientras mantengas la estructura interna. Podrías llamarlo de cualquier manera (mi_bot, esports_manager, proyecto_final, etc.) sin ningún problema.
+
+Detalles importantes:
+
+Sobre las importaciones (lo único relevante):
+
+Las importaciones internas se basan en la estructura de carpetas dentro del directorio raíz
+
+Ejemplo: from services.api import APIClient funcionará igual si el directorio raíz se llama lol_esports_bot o bot_esports
+
+Ejemplo visual de tu estructura actual:
+
+python
+# main.py
+from bot.bot import EsportsBot  # ← Esta importación sigue siendo válida
+# independientemente del nombre del directorio raíz
+Recomendación adicional:
+
+Si usas Git, asegúrate de que el nombre del repositorio sea claro
+
+Si vas a hacer instalaciones con pip, el nombre del directorio raíz debería coincidir con el nombre del paquete (pero no es tu caso)
+
+¡Tu propuesta de nombre lol_esports_bot es perfectamente válida y no causa ningún conflicto! ✅
+
+¿Necesitas que ajuste algún aspecto específico de la estructura para adaptarlo mejor a tus necesidades? 😊
+
+
+
+

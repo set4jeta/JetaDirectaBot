@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Fede",
+    "nombre_real": "Federico Lecca",
+    "edad": 21,
+    "equipo": "Apocalypse e-Sports",
+    "pais": "Italy",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/F3Deric00",
+      "twitch": "https://www.twitch.tv/federic02k"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/F0X.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Fiixing mistakes#EIW",
+      "nivel": 1092,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1139,
+      "victorias": 623,
+      "derrotas": 572,
+      "ultima_partida": 1760617207718
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.703703703703703
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.08
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.8823529411764706
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3846153846153846
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.6
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 38,
+    "losses": 17,
+    "timePlayed": 85228
+  }
+}

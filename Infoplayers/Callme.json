@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Callme",
+    "nombre_real": "Oh Ji-hoon",
+    "edad": 22,
+    "equipo": "Misa Esports",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/callme.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "MIDKING#kkkk",
+      "nivel": 295,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1137,
+      "victorias": 1147,
+      "derrotas": 1068,
+      "ultima_partida": 1760627079781
+    },
+    {
+      "nombre": "whoami#0530",
+      "nivel": 33,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 29,
+      "derrotas": 3,
+      "ultima_partida": 1756309140152
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Graves",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.4814814814814814
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6842105263157894
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4761904761904763
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 64,
+    "wins": 32,
+    "losses": 32,
+    "timePlayed": 95135
+  }
+}

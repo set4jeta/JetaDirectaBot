@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Zubac",
+    "nombre_real": "Tomáš Kyselák",
+    "edad": 19,
+    "equipo": "Zero Tenacity",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ZubacLOL",
+      "twitch": "https://www.twitch.tv/zubaclive"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/Z10.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "UnwaveringShadow#ALONE",
+      "nivel": 786,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 893,
+      "victorias": 440,
+      "derrotas": 411,
+      "ultima_partida": 1753737822455
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 64,
+      "victorias": 38,
+      "winrate": "59.4%",
+      "kda_promedio": 2.7387640449438204
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.2962962962962963
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.65
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 7.625
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.142857142857143
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 61,
+    "losses": 46,
+    "timePlayed": 177888
+  }
+}

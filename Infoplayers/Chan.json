@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Chan",
+    "nombre_real": "Jang  Chan-ho",
+    "edad": 21,
+    "equipo": "Partizan Sangal",
+    "pais": "South Korea",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/jangchanho3"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/PXS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Chan#PAR",
+      "nivel": 205,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1116,
+      "victorias": 721,
+      "derrotas": 641,
+      "ultima_partida": 1760887510418
+    },
+    {
+      "nombre": "딸기따르트으#KR1",
+      "nivel": 660,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 282,
+      "derrotas": 264,
+      "ultima_partida": 1743337840130
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7083333333333333
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.696969696969697
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.0277777777777777
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 0.9795918367346939
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.3428571428571427
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 77,
+    "wins": 39,
+    "losses": 38,
+    "timePlayed": 122882
+  }
+}

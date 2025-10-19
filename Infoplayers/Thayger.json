@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "Thayger",
+    "nombre_real": "Francisco Mazo Sánchez",
+    "edad": 23,
+    "equipo": "Natus Vincere",
+    "pais": "Spain",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Thayger_",
+      "twitch": "https://www.twitch.tv/thaygerlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/thayger.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Thayger#SOUL",
+      "nivel": 995,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1939,
+      "victorias": 419,
+      "derrotas": 316,
+      "ultima_partida": 1760730458625
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4.552631578947368
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 6,
+    "losses": 9,
+    "timePlayed": 23098
+  }
+}

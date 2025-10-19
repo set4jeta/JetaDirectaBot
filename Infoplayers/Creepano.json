@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Creepano",
+    "nombre_real": "Bredon Quentin",
+    "edad": 20,
+    "equipo": "Otter Side",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Creepan0",
+      "twitch": "https://www.twitch.tv/creepano"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OTS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Creepano#gfghs",
+      "nivel": 1070,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 910,
+      "victorias": 1199,
+      "derrotas": 1148,
+      "ultima_partida": 1760883756089
+    },
+    {
+      "nombre": "Creepano#EUW",
+      "nivel": 454,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 543,
+      "victorias": 472,
+      "derrotas": 430,
+      "ultima_partida": 1760705140194
+    },
+    {
+      "nombre": "Depressed Player#Sad1",
+      "nivel": 370,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 177,
+      "victorias": 292,
+      "derrotas": 281,
+      "ultima_partida": 1759780169963
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 70,
+      "victorias": 41,
+      "winrate": "58.6%",
+      "kda_promedio": 3.601973684210526
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 28,
+      "victorias": 16,
+      "winrate": "57.1%",
+      "kda_promedio": 2.930817610062893
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 19,
+      "victorias": 8,
+      "winrate": "42.1%",
+      "kda_promedio": 2.0661157024793386
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 19,
+      "victorias": 8,
+      "winrate": "42.1%",
+      "kda_promedio": 2.020408163265306
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 1.935897435897436
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.6769230769230767
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 1.6493506493506493
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.7083333333333333
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 191,
+    "wins": 101,
+    "losses": 90,
+    "timePlayed": 296820
+  }
+}

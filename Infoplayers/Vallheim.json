@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "Vallheim",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/vallheimlol",
+      "twitch": "https://www.twitch.tv/vallheimlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Vallheim#KING",
+      "nivel": 1057,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 923,
+      "victorias": 534,
+      "derrotas": 487,
+      "ultima_partida": 1760867745770
+    },
+    {
+      "nombre": "FilsAlderiate#CHALL",
+      "nivel": 103,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 121,
+      "victorias": 59,
+      "derrotas": 37,
+      "ultima_partida": 1760642396576
+    },
+    {
+      "nombre": "Godfrey#GOW",
+      "nivel": 142,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 10,
+      "derrotas": 10,
+      "ultima_partida": 1759682492030
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 39,
+      "victorias": 25,
+      "winrate": "64.1%",
+      "kda_promedio": 2.0861244019138754
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.45454545454545453
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 27,
+    "losses": 17,
+    "timePlayed": 75783
+  }
+}

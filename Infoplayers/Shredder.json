@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Shredder",
+    "nombre_real": "Gabriele Iannarelli",
+    "edad": 24,
+    "equipo": "Skillcamp",
+    "pais": "Italy",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/shredderloll"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/shredder.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Shredder#SHRD",
+      "nivel": 1173,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1055,
+      "victorias": 274,
+      "derrotas": 224,
+      "ultima_partida": 1760729573471
+    },
+    {
+      "nombre": "DELIGHT#SHRDR",
+      "nivel": 262,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 657,
+      "victorias": 392,
+      "derrotas": 354,
+      "ultima_partida": 1760544976471
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.9655172413793105
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 4.074074074074074
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.1923076923076925
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.757575757575758
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.526315789473684
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.466666666666667
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 46,
+    "wins": 27,
+    "losses": 19,
+    "timePlayed": 77000
+  }
+}

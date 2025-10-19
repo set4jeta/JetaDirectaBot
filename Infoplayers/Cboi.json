@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Cboi",
+    "nombre_real": "Casper Bo Simonsen",
+    "edad": 27,
+    "equipo": "TeamOrangeGaming",
+    "pais": "Denmark",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Cboilol",
+      "twitch": "https://www.twitch.tv/Cboi_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TOG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Cboi#EUW",
+      "nivel": 358,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 948,
+      "victorias": 239,
+      "derrotas": 193,
+      "ultima_partida": 1760807997971
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7333333333333334
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Heimerdinger",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6363636363636364
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 7,
+    "losses": 6,
+    "timePlayed": 22111
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Speedy1",
+    "nombre_real": "Loukas Prekas",
+    "edad": 26,
+    "equipo": "Team Insidious",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lo_speedy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IN5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "atelophobia4#EUW",
+      "nivel": 195,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 800,
+      "victorias": 277,
+      "derrotas": 228,
+      "ultima_partida": 1760890231749
+    },
+    {
+      "nombre": "KER1A MODE#OLY",
+      "nivel": 201,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 423,
+      "victorias": 317,
+      "derrotas": 285,
+      "ultima_partida": 1760807004885
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2.7976190476190474
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.823529411764706
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.466666666666667
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.0555555555555554
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 81,
+    "wins": 40,
+    "losses": 41,
+    "timePlayed": 132816
+  }
+}

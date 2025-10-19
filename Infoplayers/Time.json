@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Time",
+    "nombre_real": "Tiago Almeida",
+    "edad": 22,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Portugal",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tiagoalmeida_92",
+      "twitch": "https://www.twitch.tv/time_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "CR7#Time",
+      "nivel": 686,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 907,
+      "victorias": 294,
+      "derrotas": 255,
+      "ultima_partida": 1760832777333
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 4.5423728813559325
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.392857142857143
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.185185185185185
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 5.375
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.916666666666667
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1794871794871793
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.357142857142857
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2727272727272727
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0833333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 74,
+    "wins": 43,
+    "losses": 31,
+    "timePlayed": 121159
+  }
+}

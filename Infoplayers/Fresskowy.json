@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Fresskowy",
+    "nombre_real": "Bartłomiej Przewoźnik",
+    "edad": 25,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Poland",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/FresskowyLoL",
+      "twitch": "https://www.twitch.tv/fresskowy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/fresskowy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "c0cky movement#tukan",
+      "nivel": 1181,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 913,
+      "victorias": 721,
+      "derrotas": 683,
+      "ultima_partida": 1760893600170
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Galio",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.8285714285714287
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.268292682926829
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5185185185185186
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.972972972972973
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.857142857142857
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 27,
+    "losses": 36,
+    "timePlayed": 102210
+  }
+}

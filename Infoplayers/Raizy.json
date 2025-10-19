@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "Raizy",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RaizyChan",
+      "twitch": "https://twitch.tv/raizychan"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Raizy Reborn#0303",
+      "nivel": 578,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1085,
+      "victorias": 666,
+      "derrotas": 607,
+      "ultima_partida": 1760865252242
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 99,
+      "victorias": 54,
+      "winrate": "54.5%",
+      "kda_promedio": 2.3098859315589353
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 106,
+    "wins": 57,
+    "losses": 49,
+    "timePlayed": 169442
+  }
+}

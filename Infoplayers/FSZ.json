@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "FSZ",
+    "nombre_real": "Simar Nashidov",
+    "edad": 21,
+    "equipo": "GMBLERS Esports",
+    "pais": "Bulgaria",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/FrostSize",
+      "twitch": "https://www.twitch.tv/frost_size"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GMBL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Dkdldb#000",
+      "nivel": 1299,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1134,
+      "victorias": 400,
+      "derrotas": 348,
+      "ultima_partida": 1753458064355
+    },
+    {
+      "nombre": "dlwldms#1010",
+      "nivel": 467,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 490,
+      "victorias": 162,
+      "derrotas": 129,
+      "ultima_partida": 1753296867255
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aurora",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.6382978723404253
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.433333333333333
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6.285714285714286
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.428571428571429
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 30,
+    "losses": 25,
+    "timePlayed": 91189
+  }
+}

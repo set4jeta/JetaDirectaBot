@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Krest",
+    "nombre_real": "Hassine Abdssamad",
+    "edad": 18,
+    "equipo": "One More Esports",
+    "pais": "Morocco",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/KrestV9",
+      "twitch": "https://www.twitch.tv/krestv9"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Zelligien Sucré#WC030",
+      "nivel": 651,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 959,
+      "victorias": 487,
+      "derrotas": 437,
+      "ultima_partida": 1760898548007
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 39,
+      "victorias": 22,
+      "winrate": "56.4%",
+      "kda_promedio": 2.228426395939086
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 36,
+      "victorias": 19,
+      "winrate": "52.8%",
+      "kda_promedio": 1.9893048128342246
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.7538461538461538
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.8148148148148149
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 53,
+    "losses": 54,
+    "timePlayed": 169770
+  }
+}

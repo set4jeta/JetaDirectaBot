@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "SenSen",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/I_SenSen_I"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "XERJOFF ENJOYER#NAXOS",
+      "nivel": 1217,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 852,
+      "victorias": 629,
+      "derrotas": 573,
+      "ultima_partida": 1760648163153
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nidalee",
+      "partidas": 104,
+      "victorias": 52,
+      "winrate": "50.0%",
+      "kda_promedio": 2.692434210526316
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.2962962962962963
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.36363636363636365
+    },
+    {
+      "nombre": "Zac",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 121,
+    "wins": 56,
+    "losses": 65,
+    "timePlayed": 187046
+  }
+}

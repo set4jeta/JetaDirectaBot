@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Infoneral",
+    "nombre_real": "Radoslav Georgiev",
+    "edad": 26,
+    "equipo": "TeamOrangeGaming",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/infoneral"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/infoneral.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TOG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "GNOME#MAGIC",
+      "nivel": 926,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 963,
+      "victorias": 365,
+      "derrotas": 333,
+      "ultima_partida": 1753698315386
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5806451612903225
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 4.388888888888889
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.928571428571429
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.6
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 19,
+    "losses": 23,
+    "timePlayed": 64711
+  }
+}

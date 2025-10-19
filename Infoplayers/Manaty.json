@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Manaty",
+    "nombre_real": "Stéphane Dimier",
+    "edad": 23,
+    "equipo": "Team Phantasma",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Manaty_LoL",
+      "twitch": "https://twitch.tv/manatylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/manaty.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TRONÇONNEUSE1#TUER",
+      "nivel": 54,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1156,
+      "victorias": 132,
+      "derrotas": 58,
+      "ultima_partida": 1760894422010
+    },
+    {
+      "nombre": "MANATY 2#LPLKR",
+      "nivel": 236,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 740,
+      "victorias": 146,
+      "derrotas": 95,
+      "ultima_partida": 1760800201323
+    },
+    {
+      "nombre": "MANATY#LPLKR",
+      "nivel": 143,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 201,
+      "derrotas": 171,
+      "ultima_partida": 1757695997665
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Volibear",
+      "partidas": 63,
+      "victorias": 40,
+      "winrate": "63.5%",
+      "kda_promedio": 3.7674418604651163
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.212121212121212
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.44
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.5161290322580645
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9523809523809526
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.923076923076923
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 63,
+    "losses": 44,
+    "timePlayed": 166685
+  }
+}

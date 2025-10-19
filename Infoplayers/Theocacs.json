@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Theocacs",
+    "nombre_real": "Theo Sauda",
+    "edad": 18,
+    "equipo": "Ici Japon Corp. Esport",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Theocacao01",
+      "twitch": "https://www.twitch.tv/theocacs"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/theocacs.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IJC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Theocacs#EUW",
+      "nivel": 913,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1075,
+      "victorias": 546,
+      "derrotas": 507,
+      "ultima_partida": 1760407486311
+    },
+    {
+      "nombre": "Despair#9387",
+      "nivel": 54,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 887,
+      "victorias": 122,
+      "derrotas": 62,
+      "ultima_partida": 1760305121298
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 23,
+      "victorias": 13,
+      "winrate": "56.5%",
+      "kda_promedio": 4.4774774774774775
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 21,
+      "victorias": 12,
+      "winrate": "57.1%",
+      "kda_promedio": 3.257142857142857
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 21,
+      "victorias": 13,
+      "winrate": "61.9%",
+      "kda_promedio": 3.925531914893617
+    },
+    {
+      "nombre": "Zac",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 5.057142857142857
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.173913043478261
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.482758620689655
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 109,
+    "wins": 64,
+    "losses": 45,
+    "timePlayed": 172529
+  }
+}

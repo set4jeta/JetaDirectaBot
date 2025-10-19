@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Zuhy",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lol_Zuhy",
+      "twitch": "https://www.twitch.tv/lol_zuhy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OSC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Zuhy#Zuhy",
+      "nivel": 349,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 811,
+      "victorias": 210,
+      "derrotas": 174,
+      "ultima_partida": 1760742112090
+    },
+    {
+      "nombre": "Fiskermand#Zuhy",
+      "nivel": 156,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 122,
+      "derrotas": 77,
+      "ultima_partida": 1757002353881
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4166666666666667
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 18,
+    "wins": 7,
+    "losses": 11,
+    "timePlayed": 30761
+  }
+}

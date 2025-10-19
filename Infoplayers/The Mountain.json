@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "The Mountain",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ItsReallyHard00"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/AAXL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "The Mountain#IRH",
+      "nivel": 1511,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 848,
+      "victorias": 959,
+      "derrotas": 926,
+      "ultima_partida": 1760894231703
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sion",
+      "partidas": 77,
+      "victorias": 40,
+      "winrate": "51.9%",
+      "kda_promedio": 2.3806818181818183
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 15,
+      "victorias": 3,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5977011494252873
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0166666666666666
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 14,
+      "victorias": 5,
+      "winrate": "35.7%",
+      "kda_promedio": 1.9841269841269842
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.2321428571428572
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9310344827586206
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7894736842105263
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 150,
+    "wins": 72,
+    "losses": 78,
+    "timePlayed": 237165
+  }
+}

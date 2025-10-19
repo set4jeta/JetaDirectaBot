@@ -1,0 +1,57 @@
+{
+  "info_jugador": {
+    "nombre": "Calmsky",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/calmskyy",
+      "twitch": "https://www.twitch.tv/calmskyy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DMG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Calmsky#meow",
+      "nivel": 775,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 855,
+      "victorias": 233,
+      "derrotas": 202,
+      "ultima_partida": 1760819279742
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Sona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 8,
+    "losses": 6,
+    "timePlayed": 22383
+  }
+}

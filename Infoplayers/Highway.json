@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Highway",
+    "nombre_real": "Jakub Baranowski",
+    "edad": 25,
+    "equipo": "Back2TheGame",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/highway_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/highway.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/B2TG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "bestow mercy#hhwy",
+      "nivel": 751,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 841,
+      "victorias": 285,
+      "derrotas": 253,
+      "ultima_partida": 1753725530182
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Braum",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.210526315789474
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.393939393939394
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.7222222222222223
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 7.6
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8125
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5384615384615384
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 22,
+    "losses": 21,
+    "timePlayed": 65537
+  }
+}

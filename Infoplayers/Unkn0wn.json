@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Unkn0wn",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Unkn0wn5_lol",
+      "twitch": "https://www.twitch.tv/unkn0wn_adc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SGE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "LOCK TF INNNNNNN#6802",
+      "nivel": 143,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1321,
+      "victorias": 407,
+      "derrotas": 330,
+      "ultima_partida": 1760892329121
+    },
+    {
+      "nombre": "Unkn0wn#EUW11",
+      "nivel": 372,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 439,
+      "victorias": 267,
+      "derrotas": 217,
+      "ultima_partida": 1759569397935
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2.0285714285714285
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.76
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.892857142857143
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.5789473684210527
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0434782608695654
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9090909090909092
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 23,
+    "losses": 25,
+    "timePlayed": 71450
+  }
+}

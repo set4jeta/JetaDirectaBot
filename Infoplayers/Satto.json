@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Satto",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/SattoLoL",
+      "twitch": "https://twitch.tv/sattolol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Satto#happy",
+      "nivel": 254,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 883,
+      "victorias": 431,
+      "derrotas": 373,
+      "ultima_partida": 1760882969007
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Elise",
+      "partidas": 21,
+      "victorias": 12,
+      "winrate": "57.1%",
+      "kda_promedio": 2.838235294117647
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 2.522727272727273
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4782608695652173
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7058823529411764
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2083333333333335
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.857142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 30,
+    "losses": 24,
+    "timePlayed": 95491
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Color",
+    "nombre_real": "Sebastian Czyżyk",
+    "edad": 24,
+    "equipo": "Macko Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/NowyColor",
+      "twitch": "https://www.twitch.tv/nowycolor"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Go Ha Go Ha#EUW",
+      "nivel": 904,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 760,
+      "victorias": 354,
+      "derrotas": 314,
+      "ultima_partida": 1760889426923
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rumble",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.557377049180328
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.1746031746031744
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.3823529411764706
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.606060606060606
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.05
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0434782608695652
+    },
+    {
+      "nombre": "Warwick",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2857142857142858
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 110,
+    "wins": 53,
+    "losses": 57,
+    "timePlayed": 178126
+  }
+}

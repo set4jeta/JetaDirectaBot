@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sn1lle",
+    "nombre_real": "William Andersson",
+    "edad": 22,
+    "equipo": "LUA Gaming",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sn1lle2",
+      "twitch": "https://www.twitch.tv/sn1ll3"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sn1lle.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LUA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Senne Lammens#keeps",
+      "nivel": 1237,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1195,
+      "victorias": 567,
+      "derrotas": 510,
+      "ultima_partida": 1760874286559
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nocturne",
+      "partidas": 21,
+      "victorias": 18,
+      "winrate": "85.7%",
+      "kda_promedio": 4.349397590361446
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 2.7282608695652173
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9565217391304346
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9130434782608696
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 40,
+    "losses": 22,
+    "timePlayed": 97291
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Paixdia",
+    "nombre_real": "Taha Barış Elmas",
+    "edad": 25,
+    "equipo": "The Forbidden Five",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/PaixdiaLoL",
+      "twitch": "https://www.twitch.tv/paixdia_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/paixdia.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "PatrickJane#Supp",
+      "nivel": 830,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 860,
+      "victorias": 809,
+      "derrotas": 760,
+      "ultima_partida": 1760892837017
+    },
+    {
+      "nombre": "aidxiaP#EUW11",
+      "nivel": 165,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 247,
+      "victorias": 147,
+      "derrotas": 127,
+      "ultima_partida": 1760607691422
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 2.0510204081632653
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.1538461538461537
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8222222222222224
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 1.7321428571428572
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.6041666666666665
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.395348837209302
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.441860465116279
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.354838709677419
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.1153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 125,
+    "wins": 68,
+    "losses": 57,
+    "timePlayed": 210531
+  }
+}

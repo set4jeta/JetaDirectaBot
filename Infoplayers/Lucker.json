@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Lucker",
+    "nombre_real": "Damian Konefał",
+    "edad": 27,
+    "equipo": "Zerance",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Lucker",
+      "twitch": "https://www.twitch.tv/lucker_adc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZER.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Lucker#067",
+      "nivel": 917,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 918,
+      "victorias": 399,
+      "derrotas": 331,
+      "ultima_partida": 1760828887602
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.948717948717949
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.777777777777778
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.368421052631579
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.166666666666667
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 17,
+    "losses": 15,
+    "timePlayed": 53311
+  }
+}

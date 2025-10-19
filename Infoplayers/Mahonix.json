@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Mahonix",
+    "nombre_real": "Anthonie van Bemmelen",
+    "edad": 23,
+    "equipo": "Senshi eSports (Benelux Team)",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/MahonixMan",
+      "twitch": "https://www.twitch.tv/mahonixman"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SNSH Mahonix#BROCK",
+      "nivel": 1416,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 844,
+      "victorias": 747,
+      "derrotas": 708,
+      "ultima_partida": 1760874449220
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leona",
+      "partidas": 14,
+      "victorias": 5,
+      "winrate": "35.7%",
+      "kda_promedio": 2.4204545454545454
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 3.9423076923076925
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 5.111111111111111
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.642857142857143
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 73,
+    "wins": 37,
+    "losses": 36,
+    "timePlayed": 126025
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "info_jugador": {
+    "nombre": "PlayCabex",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/playcabex",
+      "twitch": "https://twitch.tv/playcabex"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/playcabex.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Cabex#EUW",
+      "nivel": 492,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 865,
+      "victorias": 307,
+      "derrotas": 254,
+      "ultima_partida": 1760694821284
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.838235294117647
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 4,
+    "losses": 7,
+    "timePlayed": 18208
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Fleshy",
+    "nombre_real": "Kadir Kemiksiz",
+    "edad": 24,
+    "equipo": "Team Vitality",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/fleshyylol",
+      "twitch": "https://twitch.tv/fleshylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/fleshy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Fleshy#EU1",
+      "nivel": 808,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1551,
+      "victorias": 524,
+      "derrotas": 450,
+      "ultima_partida": 1760818274692
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4583333333333335
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3157894736842106
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 8.142857142857142
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.533333333333333
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.8
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 11,
+    "losses": 6,
+    "timePlayed": 26178
+  }
+}

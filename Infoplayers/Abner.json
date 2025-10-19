@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Abner",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Abneer0",
+      "twitch": "https://www.twitch.tv/abnerinprocess"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Boring Cycle#Abner",
+      "nivel": 1561,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1053,
+      "victorias": 962,
+      "derrotas": 914,
+      "ultima_partida": 1760878463610
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ashe",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 2.4234234234234235
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 3.1447368421052633
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.458823529411765
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9423076923076923
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.2241379310344827
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.434782608695652
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.41025641025641
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.9302325581395348
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8235294117647058
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 189,
+    "wins": 98,
+    "losses": 91,
+    "timePlayed": 300098
+  }
+}

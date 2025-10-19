@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "zorenous",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/zorenous"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "FA zorenous#LFT",
+      "nivel": 272,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1080,
+      "victorias": 429,
+      "derrotas": 355,
+      "ultima_partida": 1760795539708
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sion",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.769230769230769
+    },
+    {
+      "nombre": "Urgot",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 27,
+    "losses": 21,
+    "timePlayed": 79041
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "info_jugador": {
+    "nombre": "Finn",
+    "nombre_real": "Finn Wiestål",
+    "edad": 26,
+    "equipo": "Rogue (European Team)",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/FinnLoL",
+      "twitch": "https://twitch.tv/f1nn_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/finn.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Finn#0306",
+      "nivel": 720,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1205,
+      "victorias": 288,
+      "derrotas": 236,
+      "ultima_partida": 1753547987674
+    },
+    {
+      "nombre": "ThorFinn#0303",
+      "nivel": 209,
+      "region": "EUW1",
+      "liga": "DIAMOND III",
+      "lp": 65,
+      "victorias": 20,
+      "derrotas": 19,
+      "ultima_partida": 1753533748523
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kled",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Heimerdinger",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8888888888888888
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 18185
+  }
+}

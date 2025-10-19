@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Jeskla",
+    "nombre_real": "Jesper Klarin Strömberg",
+    "edad": 25,
+    "equipo": "Kaufland Hangry Knights",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Jesklaa",
+      "twitch": "https://www.twitch.tv/jeskla1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/jeskla.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KHK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Jesklaa#EUW",
+      "nivel": 1053,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 861,
+      "victorias": 373,
+      "derrotas": 334,
+      "ultima_partida": 1753721177059
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sivir",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1777777777777776
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 5.625
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 21,
+    "wins": 12,
+    "losses": 9,
+    "timePlayed": 32933
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "iTer",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/iTer_lol",
+      "twitch": "https://twitch.tv/iter_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "A FADING DREAM#777",
+      "nivel": 156,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 892,
+      "victorias": 203,
+      "derrotas": 156,
+      "ultima_partida": 1760744962976
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 8,
+    "wins": 3,
+    "losses": 5,
+    "timePlayed": 12872
+  }
+}

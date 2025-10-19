@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "marlon",
+    "nombre_real": "Igor Tomczyk",
+    "edad": 21,
+    "equipo": "Baam Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/marlonkox"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/marlon.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "marlοn#EUW",
+      "nivel": 663,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 983,
+      "victorias": 391,
+      "derrotas": 342,
+      "ultima_partida": 1760889972997
+    },
+    {
+      "nombre": "goroncywir60#łysy",
+      "nivel": 202,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 10,
+      "victorias": 11,
+      "derrotas": 9,
+      "ultima_partida": 1756691555891
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7096774193548385
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.380952380952381
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.928571428571429
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7647058823529411
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 26,
+    "wins": 9,
+    "losses": 17,
+    "timePlayed": 42342
+  }
+}

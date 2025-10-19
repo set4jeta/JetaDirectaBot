@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Crownie",
+    "nombre_real": "Juš Marušič",
+    "edad": 27,
+    "equipo": "Los Ratones",
+    "pais": "Slovenia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/CrownshotLoL",
+      "twitch": "https://twitch.tv/crownsh0t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/crownie.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "getogetogeto#EUW",
+      "nivel": 943,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 755,
+      "victorias": 441,
+      "derrotas": 395,
+      "ultima_partida": 1760829227483
+    },
+    {
+      "nombre": "Umbreon#1601",
+      "nivel": 31,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 52,
+      "victorias": 16,
+      "derrotas": 1,
+      "ultima_partida": 1759669027728
+    },
+    {
+      "nombre": "LR Crownie#LRAT",
+      "nivel": 583,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 179,
+      "derrotas": 172,
+      "ultima_partida": 1758021959457
+    },
+    {
+      "nombre": "Yveltal#ADC",
+      "nivel": 119,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 372,
+      "derrotas": 333,
+      "ultima_partida": 1755723555453
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 24,
+      "victorias": 13,
+      "winrate": "54.2%",
+      "kda_promedio": 2.5491803278688523
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 13,
+      "victorias": 4,
+      "winrate": "30.8%",
+      "kda_promedio": 2.2253521126760565
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25531914893617
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.814814814814815
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 70,
+    "wins": 34,
+    "losses": 36,
+    "timePlayed": 111438
+  }
+}

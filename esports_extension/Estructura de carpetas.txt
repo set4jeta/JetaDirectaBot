@@ -1,0 +1,108 @@
+tu_bot/                  ⇦ Biblioteca completa
+├── models/              ⇦ Sección de Diccionarios (Definiciones)
+│   ├── __init__.py      ⇦ Índice de esta sección
+│   ├── match.py         ⇦ Diccionario de Partidos
+│   └── live.py          ⇦ Diccionario de Juegos en Vivo
+│
+├── services/            ⇦ Sección de Servicios
+│   ├── __init__.py      ⇦ Índice de esta sección
+│   ├── api.py           ⇦ Encargado de llamar a la API
+│   └── tracker.py       ⇦ Vigilante que sigue los partidos
+│
+├── bot/                 ⇦ Sección de Atención al Usuario
+│   ├── __init__.py      ⇦ Índice de esta sección
+│   └── commands.py      ⇦ Funciones que responden a comandos
+│
+└── main.py              ⇦ Recepcionista Principal
+
+
+8. Buenas Prácticas de Diseño
+Encapsulamiento:
+
+python
+def _parse_schedule(self, raw_data):
+    # Método interno (usar _ al inicio)
+Validación de Datos:
+
+python
+if not isinstance(raw_data, dict):
+    raise ValueError("Datos inválidos recibidos")
+Manejo de Errores:
+
+python
+try:
+    return self._parse_schedule(data)
+except KeyError as e:
+    print(f"Error en estructura de datos: {e}")
+9. Ejercicio Práctico
+Crea una clase Partido con:
+
+
+
+9. Ejercicio Práctico
+Crea una clase Partido con:
+
+Atributos:
+
+id
+
+equipo_local
+
+equipo_visitante
+
+estado
+
+Métodos:
+
+actualizar_estado()
+
+mostrar_info()
+
+python
+class Partido:
+    def __init__(self, id, local, visitante):
+        self.id = id
+        self.equipo_local = local
+        self.equipo_visitante = visitante
+        self.estado = "Programado"
+
+    def comenzar_partido(self):
+        self.estado = "En juego"
+        print(f"Partido {self.id} ha comenzado!")
+
+    def mostrar_info(self):
+        print(f"{self.equipo_local} vs {self.equipo_visitante} - {self.estado}")
+
+# Uso
+final = Partido(1, "T1", "DWG KIA")
+final.comenzar_partido()
+final.mostrar_info()
+10. Recursos de Aprendizaje
+
+
+
+
+
+
+
+
+1. Acceso a Valores en Diccionarios: variable["clave"]
+Imagina que datos es una caja de herramientas con compartimentos etiquetados:
+
+python
+datos = {
+    "temperatura": 25.5,   # Compartimento "temperatura" con valor 25.5
+    "humedad": 60,         # Compartimento "humedad" con valor 60
+    "ciudad": "Madrid"     # Compartimento "ciudad" con valor "Madrid"
+}
+datos["temperatura"]:
+Es como abrir el compartimento etiquetado "temperatura" y tomar su contenido.
+Resultado: 25.5 (float).
+
+Si datos["temperatura"] fuera un string:
+
+python
+datos = {"temperatura": "25.5"}  # Ahora es texto
+datos["temperatura"] devolvería "25.5" (string), no un número.
+
+2. ¿Qué Retorna return datos["temperatura"]?

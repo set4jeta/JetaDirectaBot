@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Aetinoth",
+    "nombre_real": "Berat Tıknazoğlu",
+    "edad": 19,
+    "equipo": "GIANTX Academy",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Aetinoth",
+      "twitch": "https://www.twitch.tv/aetinoth"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Cekeliniomzumdan#62343",
+      "nivel": 286,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 995,
+      "victorias": 194,
+      "derrotas": 159,
+      "ultima_partida": 1753635594491
+    },
+    {
+      "nombre": "AETI#0000",
+      "nivel": 283,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3125
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.380952380952381
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 9,
+    "losses": 6,
+    "timePlayed": 25115
+  }
+}

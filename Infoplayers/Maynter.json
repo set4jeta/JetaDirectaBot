@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Maynter",
+    "nombre_real": "Volodymyr Sorokin",
+    "edad": 24,
+    "equipo": "Karmine Corp Blue",
+    "pais": "Ukraine",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Maynter_LOL",
+      "twitch": "https://twitch.tv/lol_maynter"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/maynter.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/KCB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Maynter#EUW",
+      "nivel": 733,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1812,
+      "victorias": 459,
+      "derrotas": 365,
+      "ultima_partida": 1760894787821
+    },
+    {
+      "nombre": "vovalaclasse#EUW",
+      "nivel": 359,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 856,
+      "victorias": 377,
+      "derrotas": 351,
+      "ultima_partida": 1760824341408
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.824561403508772
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.239130434782609
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.1224489795918366
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.3529411764705883
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 68,
+    "wins": 38,
+    "losses": 30,
+    "timePlayed": 110172
+  }
+}

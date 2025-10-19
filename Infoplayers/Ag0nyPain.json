@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Ag0nyPain",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Ag0nyP",
+      "twitch": "https://twitch.tv/ag0nypain"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "ItsOKtoBeNotOK#eProd",
+      "nivel": 867,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1097,
+      "victorias": 427,
+      "derrotas": 381,
+      "ultima_partida": 1753731643145
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vex",
+      "partidas": 44,
+      "victorias": 25,
+      "winrate": "56.8%",
+      "kda_promedio": 2.4127659574468083
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 24,
+      "victorias": 14,
+      "winrate": "58.3%",
+      "kda_promedio": 2.6416666666666666
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 24,
+      "victorias": 13,
+      "winrate": "54.2%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 19,
+      "victorias": 9,
+      "winrate": "47.4%",
+      "kda_promedio": 2.146067415730337
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 118,
+    "wins": 65,
+    "losses": 53,
+    "timePlayed": 189973
+  }
+}

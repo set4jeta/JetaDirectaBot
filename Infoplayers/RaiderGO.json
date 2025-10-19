@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "RaiderGO",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RaiderEUW",
+      "twitch": "https://twitch.tv/raidergo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/raidergo.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "RaiderGO#TWTV2",
+      "nivel": 124,
+      "region": "KR",
+      "liga": "CHALLENGER I",
+      "lp": 1288,
+      "victorias": 566,
+      "derrotas": 474,
+      "ultima_partida": 1760884708927
+    },
+    {
+      "nombre": "RaiderGO#TWTV3",
+      "nivel": 166,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 955,
+      "victorias": 704,
+      "derrotas": 587,
+      "ultima_partida": 1759075457063
+    },
+    {
+      "nombre": "RaiderGO#TWTV1",
+      "nivel": 523,
+      "region": "EUN1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 82,
+      "derrotas": 29,
+      "ultima_partida": 1758318094193
+    },
+    {
+      "nombre": "RaiderGO#2004",
+      "nivel": 333,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 156,
+      "derrotas": 135,
+      "ultima_partida": 1758230701930
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Darius",
+      "partidas": 130,
+      "victorias": 74,
+      "winrate": "56.9%",
+      "kda_promedio": 3.671641791044776
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 28,
+      "victorias": 13,
+      "winrate": "46.4%",
+      "kda_promedio": 2.211864406779661
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 24,
+      "victorias": 12,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3423423423423424
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.4150943396226414
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.4038461538461537
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 6.15
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.1052631578947367
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1071428571428572
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 231,
+    "wins": 120,
+    "losses": 111,
+    "timePlayed": 367482
+  }
+}

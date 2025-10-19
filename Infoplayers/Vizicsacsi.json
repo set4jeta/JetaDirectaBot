@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Vizicsacsi",
+    "nombre_real": "Tamás Kiss",
+    "edad": 32,
+    "equipo": "Lenovo Legion Honvéd",
+    "pais": "Hungary",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Vizicsacsi",
+      "twitch": "\\thttps://www.twitch.tv/vizicsacsi\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/vizicsacsi.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Morgenstern#009",
+      "nivel": 286,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1183,
+      "victorias": 348,
+      "derrotas": 284,
+      "ultima_partida": 1760891065755
+    },
+    {
+      "nombre": "NORD Vizicsacsi#TOP",
+      "nivel": 529,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1295,
+      "victorias": 342,
+      "derrotas": 285,
+      "ultima_partida": 1760724880974
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3714285714285714
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3103448275862069
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.4375
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1578947368421053
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6875
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 45,
+    "wins": 22,
+    "losses": 23,
+    "timePlayed": 72217
+  }
+}

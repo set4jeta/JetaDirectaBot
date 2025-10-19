@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Keduii",
+    "nombre_real": "Tim Willers",
+    "edad": 24,
+    "equipo": "SK Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Keduii",
+      "twitch": "https://twitch.tv/keduii1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/keduii.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KED1111111#1310",
+      "nivel": 1627,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 905,
+      "victorias": 896,
+      "derrotas": 856,
+      "ultima_partida": 1760879781145
+    },
+    {
+      "nombre": "202220222#EUW",
+      "nivel": 112,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 85,
+      "victorias": 66,
+      "derrotas": 53,
+      "ultima_partida": 1755460007833
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 21,
+      "victorias": 8,
+      "winrate": "38.1%",
+      "kda_promedio": 2.514851485148515
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 21,
+      "victorias": 9,
+      "winrate": "42.9%",
+      "kda_promedio": 3.46875
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 3.084507042253521
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 2.710843373493976
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 4.458333333333333
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.32
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6428571428571428
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 118,
+    "wins": 56,
+    "losses": 62,
+    "timePlayed": 187131
+  }
+}

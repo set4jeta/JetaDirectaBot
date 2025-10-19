@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Stend",
+    "nombre_real": "Paul Lardin",
+    "edad": 24,
+    "equipo": "Team Heretics",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Stend_lol",
+      "twitch": "https://twitch.tv/stend_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/stend.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Stendinho JR 10#lrd",
+      "nivel": 139,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 881,
+      "victorias": 592,
+      "derrotas": 525,
+      "ultima_partida": 1760570732730
+    },
+    {
+      "nombre": "TERREUR NOCTURNE#shhh",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 628,
+      "victorias": 100,
+      "derrotas": 56,
+      "ultima_partida": 1760307227685
+    },
+    {
+      "nombre": "TH Stend#lrd",
+      "nivel": 583,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 22,
+      "derrotas": 6,
+      "ultima_partida": 1757798679039
+    },
+    {
+      "nombre": "TH Stend#000",
+      "nivel": 248,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 144,
+      "derrotas": 134,
+      "ultima_partida": 1756074529433
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 4.915492957746479
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 11,
+      "victorias": 10,
+      "winrate": "90.9%",
+      "kda_promedio": 2.372093023255814
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.391304347826087
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.65
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 35,
+    "losses": 24,
+    "timePlayed": 94317
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Mihile",
+    "nombre_real": "Baek Sang-hwi",
+    "edad": 22,
+    "equipo": "Misa Esports",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/baeksanghwi"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/mihile.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Smolder Dad#0301",
+      "nivel": 135,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 783,
+      "victorias": 426,
+      "derrotas": 365,
+      "ultima_partida": 1753753019621
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.836734693877551
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.1785714285714284
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.5416666666666665
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2380952380952381
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7727272727272727
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 31,
+    "losses": 34,
+    "timePlayed": 101752
+  }
+}

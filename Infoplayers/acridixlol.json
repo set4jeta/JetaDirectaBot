@@ -1,0 +1,74 @@
+{
+  "info_jugador": {
+    "nombre": "acridixlol",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Fear_Pyke",
+      "twitch": "\\thttps://www.twitch.tv/acridixlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "cross the edge#fear",
+      "nivel": 182,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 792,
+      "victorias": 196,
+      "derrotas": 147,
+      "ultima_partida": 1760889541652
+    },
+    {
+      "nombre": "under execute#EUW",
+      "nivel": 99,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 833,
+      "victorias": 212,
+      "derrotas": 159,
+      "ultima_partida": 1760812501941
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pyke",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1016949152542375
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 4,
+    "losses": 7,
+    "timePlayed": 18171
+  }
+}

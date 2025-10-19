@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Deadhound",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Deadhound6",
+      "twitch": "https://www.twitch.tv/deadhoundc"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "DeadhoundC#Alyxi",
+      "nivel": 1123,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1073,
+      "victorias": 505,
+      "derrotas": 446,
+      "ultima_partida": 1760786765426
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kassadin",
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 2.6495726495726495
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 14,
+      "victorias": 11,
+      "winrate": "78.6%",
+      "kda_promedio": 3.2470588235294118
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.0898876404494384
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.417910447761194
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.488372093023256
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.214285714285714
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.739130434782609
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.727272727272727
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 123,
+    "wins": 75,
+    "losses": 48,
+    "timePlayed": 199474
+  }
+}

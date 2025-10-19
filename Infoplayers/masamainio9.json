@@ -1,0 +1,89 @@
+{
+  "info_jugador": {
+    "nombre": "masamainio9",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Noksu#404",
+      "nivel": 1037,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 770,
+      "victorias": 292,
+      "derrotas": 237,
+      "ultima_partida": 1760566370748
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 30,
+      "victorias": 15,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6412213740458017
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.022727272727273
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.32
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 26,
+    "losses": 26,
+    "timePlayed": 83737
+  }
+}

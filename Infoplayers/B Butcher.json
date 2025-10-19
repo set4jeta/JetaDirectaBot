@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "B Butcher",
+    "nombre_real": "Abdulkader Halwani",
+    "edad": 25,
+    "equipo": "Geekay Esports",
+    "pais": "Syria",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Bloody1Butcher"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "B Butcher#EUW",
+      "nivel": 332,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1101,
+      "victorias": 464,
+      "derrotas": 394,
+      "ultima_partida": 1760842499987
+    },
+    {
+      "nombre": "Bloody Butcherr#EUW",
+      "nivel": 306,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 180,
+      "derrotas": 132,
+      "ultima_partida": 1756598673526
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.4705882352941178
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.696969696969697
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.296296296296297
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.103448275862069
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5833333333333335
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1176470588235294
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 56,
+    "wins": 31,
+    "losses": 25,
+    "timePlayed": 87545
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "APP",
+    "nombre_real": "Nemanja Mirčić",
+    "edad": 18,
+    "equipo": "Crvena zvezda Esports",
+    "pais": "Serbia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/EUWApp"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "GOONERKING#LFT",
+      "nivel": 474,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 801,
+      "victorias": 492,
+      "derrotas": 452,
+      "ultima_partida": 1760880319879
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 21,
+      "victorias": 10,
+      "winrate": "47.6%",
+      "kda_promedio": 2.841463414634146
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 3.1176470588235294
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 3.14
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.6551724137931036
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 68,
+    "wins": 39,
+    "losses": 29,
+    "timePlayed": 114450
+  }
+}

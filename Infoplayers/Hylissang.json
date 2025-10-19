@@ -1,0 +1,45 @@
+{
+  "info_jugador": {
+    "nombre": "Hylissang",
+    "nombre_real": "Zdravets Iliev Galabov",
+    "edad": 30,
+    "equipo": "Team Vitality",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Hylissang_lol",
+      "twitch": "https://twitch.tv/hylissanglol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hylissang.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Peshon#EUW",
+      "nivel": 520,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1759513300014
+    },
+    {
+      "nombre": "SomethingNew#123",
+      "nivel": 69,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 209,
+      "derrotas": 165,
+      "ultima_partida": 1753957290410
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

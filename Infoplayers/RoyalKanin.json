@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "RoyalKanin",
+    "nombre_real": "Linus Grönlund",
+    "edad": 23,
+    "equipo": "ROSSMANN Centaurs",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/TheRoyalKanin",
+      "twitch": "https://twitch.tv/theroyalkanin"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/royalkanin.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "TheRoyalKanin#EUW",
+      "nivel": 1181,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1149,
+      "victorias": 495,
+      "derrotas": 434,
+      "ultima_partida": 1760875834997
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5833333333333334
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7647058823529411
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 5,
+    "losses": 5,
+    "timePlayed": 13308
+  }
+}

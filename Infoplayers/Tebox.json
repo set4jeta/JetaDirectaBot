@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Tebox",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Tebox_LOL",
+      "twitch": "https://twitch.tv/tebox_7"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Tebox#00007",
+      "nivel": 649,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 835,
+      "victorias": 367,
+      "derrotas": 332,
+      "ultima_partida": 1753648792579
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.0416666666666665
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2777777777777777
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.625
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.222222222222222
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 36,
+    "wins": 24,
+    "losses": 12,
+    "timePlayed": 58139
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "info_jugador": {
+    "nombre": "Iwanan",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/iwananlol",
+      "twitch": "https://www.twitch.tv/iwananlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jon Snow#7596",
+      "nivel": 240,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1151,
+      "victorias": 393,
+      "derrotas": 332,
+      "ultima_partida": 1760881650376
+    },
+    {
+      "nombre": "KFCNXTBURGERKING#7596",
+      "nivel": 141,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 93,
+      "victorias": 117,
+      "derrotas": 81,
+      "ultima_partida": 1759878530993
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.111111111111111
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 5,
+    "losses": 5,
+    "timePlayed": 15947
+  }
+}

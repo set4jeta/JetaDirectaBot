@@ -1,0 +1,94 @@
+{
+  "info_jugador": {
+    "nombre": "Strey",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Streyito",
+      "twitch": "https://twitch.tv/strey_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/strey.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "STREYITO#EUW",
+      "nivel": 331,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 85,
+      "victorias": 248,
+      "derrotas": 207,
+      "ultima_partida": 1760441391666
+    },
+    {
+      "nombre": "STREYYY#777",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 793,
+      "victorias": 110,
+      "derrotas": 52,
+      "ultima_partida": 1760307670324
+    },
+    {
+      "nombre": "Strey en mission#EUW",
+      "nivel": 274,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 122,
+      "derrotas": 87,
+      "ultima_partida": 1755970886879
+    },
+    {
+      "nombre": "Hustleur#KR7",
+      "nivel": 91,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 251,
+      "derrotas": 175,
+      "ultima_partida": 1746872806030
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Garen",
+      "partidas": 57,
+      "victorias": 30,
+      "winrate": "52.6%",
+      "kda_promedio": 2.4101694915254237
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1538461538461537
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.1666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 36,
+    "losses": 29,
+    "timePlayed": 108495
+  }
+}

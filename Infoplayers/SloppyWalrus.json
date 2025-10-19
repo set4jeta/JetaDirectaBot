@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "SloppyWalrus",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/SloppyWalrusX",
+      "twitch": "https://twitch.tv/sloppywalrusx"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "John Poffor#FART",
+      "nivel": 96,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 507,
+      "victorias": 122,
+      "derrotas": 98,
+      "ultima_partida": 1760835779681
+    },
+    {
+      "nombre": "Sloppy#BOMB",
+      "nivel": 546,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1091,
+      "victorias": 268,
+      "derrotas": 215,
+      "ultima_partida": 1760822355336
+    },
+    {
+      "nombre": "poffor#EUW",
+      "nivel": 353,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 335,
+      "derrotas": 308,
+      "ultima_partida": 1757852414202
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gragas",
+      "partidas": 72,
+      "victorias": 41,
+      "winrate": "56.9%",
+      "kda_promedio": 2.462724935732648
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.1688311688311688
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 84,
+    "wins": 47,
+    "losses": 37,
+    "timePlayed": 143034
+  }
+}

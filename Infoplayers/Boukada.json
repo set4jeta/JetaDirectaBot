@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Boukada",
+    "nombre_real": "Mehdi Lahlou",
+    "edad": 23,
+    "equipo": "Team BDS",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Boukadaaa",
+      "twitch": "https://twitch.tv/Boukadaaa"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/boukada.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Le mec du 91#EUW",
+      "nivel": 207,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 22,
+      "victorias": 56,
+      "derrotas": 38,
+      "ultima_partida": 1760895601410
+    },
+    {
+      "nombre": "Shαwn Frost#EUW",
+      "nivel": 430,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 627,
+      "victorias": 88,
+      "derrotas": 64,
+      "ultima_partida": 1760733766414
+    },
+    {
+      "nombre": "Boukada#EUW",
+      "nivel": 953,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1119,
+      "victorias": 354,
+      "derrotas": 310,
+      "ultima_partida": 1760709513971
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3529411764705883
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8709677419354838
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.642857142857143
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7297297297297298
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.470588235294118
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1333333333333333
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3666666666666667
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.6
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 45,
+    "wins": 23,
+    "losses": 22,
+    "timePlayed": 74715
+  }
+}

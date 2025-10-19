@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "HungryPanda",
+    "nombre_real": "Nikos Nikolaidis",
+    "edad": 26,
+    "equipo": "Partizan Sangal",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/HungryPandaLoL",
+      "twitch": "https://twitch.tv/hungrypandalol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hungrypanda.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Peak Level#444",
+      "nivel": 224,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1381,
+      "victorias": 402,
+      "derrotas": 325,
+      "ultima_partida": 1760875664004
+    },
+    {
+      "nombre": "Toumpa Prodigy#031",
+      "nivel": 837,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 942,
+      "victorias": 377,
+      "derrotas": 324,
+      "ultima_partida": 1760803518411
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.4696969696969697
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 9,
+      "victorias": 9,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25531914893617
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.717391304347826
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.8095238095238095
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4571428571428573
+    },
+    {
+      "nombre": "Swain",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5185185185185186
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.846153846153846
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7272727272727273
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 36,
+    "losses": 26,
+    "timePlayed": 99796
+  }
+}

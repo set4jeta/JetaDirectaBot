@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Inugami",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Inugamilol",
+      "twitch": "https://www.twitch.tv/inugami_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "PlayAloneForever#loser",
+      "nivel": 1314,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1054,
+      "victorias": 519,
+      "derrotas": 469,
+      "ultima_partida": 1760883741977
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yasuo",
+      "partidas": 48,
+      "victorias": 27,
+      "winrate": "56.2%",
+      "kda_promedio": 1.6948529411764706
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 1.9428571428571428
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.823529411764706
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8076923076923075
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 82,
+    "wins": 47,
+    "losses": 35,
+    "timePlayed": 132361
+  }
+}

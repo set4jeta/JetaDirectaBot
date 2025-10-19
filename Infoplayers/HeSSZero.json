@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "HeSSZero",
+    "nombre_real": "Paweł Karwot",
+    "edad": 21,
+    "equipo": "Bulldog Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/HeSSZero",
+      "twitch": "https://www.twitch.tv/hesszer0"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/hesszero.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "hesszero#PAWEL",
+      "nivel": 875,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 822,
+      "victorias": 373,
+      "derrotas": 333,
+      "ultima_partida": 1760811864612
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "RekSai",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 3.9411764705882355
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.08333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 10,
+    "losses": 4,
+    "timePlayed": 20823
+  }
+}

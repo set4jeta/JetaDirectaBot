@@ -1,0 +1,88 @@
+{
+  "info_jugador": {
+    "nombre": "Air",
+    "nombre_real": "Shenghao He",
+    "edad": 24,
+    "equipo": "Venomcrest Esports",
+    "pais": "China",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lolair0607",
+      "twitch": "https://www.twitch.tv/lol_air"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/air.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "夜晚的大雨fan#00914",
+      "nivel": 624,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 925,
+      "victorias": 206,
+      "derrotas": 164,
+      "ultima_partida": 1753306544244
+    },
+    {
+      "nombre": "厚米pw Air#60952",
+      "nivel": 298,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 186,
+      "derrotas": 162,
+      "ultima_partida": 1745897698002
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 6,
+    "wins": 1,
+    "losses": 5,
+    "timePlayed": 8003
+  }
+}

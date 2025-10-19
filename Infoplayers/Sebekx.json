@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Sebekx",
+    "nombre_real": "Sebastian Smejkal",
+    "edad": 29,
+    "equipo": "GOAL",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Sebekx02",
+      "twitch": "\\thttps://www.twitch.tv/sebekx"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GOAL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Konaern#EUW",
+      "nivel": 511,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 619,
+      "victorias": 824,
+      "derrotas": 781,
+      "ultima_partida": 1760888852171
+    },
+    {
+      "nombre": "Sebeks#EUW",
+      "nivel": 646,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 760,
+      "victorias": 373,
+      "derrotas": 336,
+      "ultima_partida": 1760609100533
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KogMaw",
+      "partidas": 58,
+      "victorias": 38,
+      "winrate": "65.5%",
+      "kda_promedio": 3.00354609929078
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 51,
+      "victorias": 19,
+      "winrate": "37.3%",
+      "kda_promedio": 3.22
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.6041666666666665
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 4.5625
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.8524590163934427
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6818181818181817
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 3.0689655172413794
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.133333333333334
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 186,
+    "wins": 95,
+    "losses": 91,
+    "timePlayed": 315426
+  }
+}

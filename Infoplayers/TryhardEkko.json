@@ -1,0 +1,42 @@
+{
+  "info_jugador": {
+    "nombre": "TryhardEkko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/TryhardEkkoXD"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TryhardEkko#XDD",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1076,
+      "victorias": 247,
+      "derrotas": 193,
+      "ultima_partida": 1760730005481
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ekko",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 4.109756097560975
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 12,
+    "losses": 7,
+    "timePlayed": 30259
+  }
+}

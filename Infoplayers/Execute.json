@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Execute",
+    "nombre_real": "Lee Jeong-hoon",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Execute_LOL_JHL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/execute.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "엑스큐트#LOL",
+      "nivel": 213,
+      "region": "KR",
+      "liga": "MASTER I",
+      "lp": 746,
+      "victorias": 54,
+      "derrotas": 23,
+      "ultima_partida": 1753756181255
+    },
+    {
+      "nombre": "OKR1PXBCLP#EUW",
+      "nivel": 94,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 235,
+      "derrotas": 189,
+      "ultima_partida": 1746524473568
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.6052631578947367
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.242424242424242
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.2142857142857144
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1481481481481484
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 8.8
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.333333333333333
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 27,
+    "losses": 14,
+    "timePlayed": 61938
+  }
+}

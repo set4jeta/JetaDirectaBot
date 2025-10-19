@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Banino",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/daibanino"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "DriesMertens#NAPL",
+      "nivel": 932,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 411,
+      "derrotas": 375,
+      "ultima_partida": 1760868132423
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pyke",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.484848484848485
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.0588235294117645
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.615384615384615
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7666666666666666
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 15
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 13,
+    "losses": 18,
+    "timePlayed": 51377
+  }
+}

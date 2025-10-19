@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "frajgo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/frajgo",
+      "twitch": "https://www.twitch.tv/frajgo_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "frajgo#AFERA",
+      "nivel": 334,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 824,
+      "victorias": 685,
+      "derrotas": 640,
+      "ultima_partida": 1760897231363
+    },
+    {
+      "nombre": "10k hrs invested#LIFE",
+      "nivel": 686,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 57,
+      "victorias": 248,
+      "derrotas": 254,
+      "ultima_partida": 1760843777514
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yorick",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 1.4770642201834863
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 1.8313253012048192
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.565217391304348
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4375
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.5365853658536586
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 0.7567567567567568
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.92
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.28
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 124,
+    "wins": 57,
+    "losses": 67,
+    "timePlayed": 186579
+  }
+}

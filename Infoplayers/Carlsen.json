@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Carlsen",
+    "nombre_real": "Carl&nbsp;Ulsted Carlsen",
+    "edad": 19,
+    "equipo": "Team Heretics",
+    "pais": "Denmark",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LoLCarlsen"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/carlsen.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "skygge kriger#EUV",
+      "nivel": 978,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1309,
+      "victorias": 421,
+      "derrotas": 356,
+      "ultima_partida": 1760193696688
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6388888888888888
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2777777777777777
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 27,
+    "wins": 13,
+    "losses": 14,
+    "timePlayed": 39690
+  }
+}

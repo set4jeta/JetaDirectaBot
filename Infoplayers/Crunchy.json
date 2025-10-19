@@ -1,0 +1,66 @@
+{
+  "info_jugador": {
+    "nombre": "Crunchy",
+    "nombre_real": "Danny Vlug",
+    "edad": 29,
+    "equipo": "Varona Esports",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/CrunchyNL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Fluffy Hooker#EUW",
+      "nivel": 141,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 973,
+      "victorias": 300,
+      "derrotas": 211,
+      "ultima_partida": 1760887830487
+    },
+    {
+      "nombre": "Crunchy#073",
+      "nivel": 295,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 44,
+      "victorias": 87,
+      "derrotas": 76,
+      "ultima_partida": 1760871940094
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Taric",
+      "partidas": 25,
+      "victorias": 15,
+      "winrate": "60.0%",
+      "kda_promedio": 4.163461538461538
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 27,
+    "wins": 15,
+    "losses": 12,
+    "timePlayed": 43370
+  }
+}

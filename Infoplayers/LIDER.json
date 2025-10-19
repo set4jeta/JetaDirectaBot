@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "LIDER",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LIDERlol\\t",
+      "twitch": "https://twitch.tv/llder"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lider.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "emtwfwydw#9999",
+      "nivel": 216,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1884,
+      "victorias": 487,
+      "derrotas": 375,
+      "ultima_partida": 1760896522077
+    },
+    {
+      "nombre": "soothing breeze#EUW",
+      "nivel": 97,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 104,
+      "victorias": 47,
+      "derrotas": 17,
+      "ultima_partida": 1759303702281
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Irelia",
+      "partidas": 21,
+      "victorias": 14,
+      "winrate": "66.7%",
+      "kda_promedio": 1.598639455782313
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 2.524193548387097
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 3.473684210526316
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 3.7735849056603774
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5238095238095237
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 96,
+    "wins": 60,
+    "losses": 36,
+    "timePlayed": 152292
+  }
+}

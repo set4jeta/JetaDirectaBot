@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "GoBGG",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/GoB_GG",
+      "twitch": "https://twitch.tv/gobgg"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/gobgg.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "V GoB#EUW",
+      "nivel": 229,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 643,
+      "victorias": 523,
+      "derrotas": 486,
+      "ultima_partida": 1760689013502
+    },
+    {
+      "nombre": "GoBGG#GoBGG",
+      "nivel": 1138,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 928,
+      "victorias": 377,
+      "derrotas": 328,
+      "ultima_partida": 1760355744810
+    },
+    {
+      "nombre": "Ehpad Patrouille#Vieux",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 846,
+      "victorias": 97,
+      "derrotas": 43,
+      "ultima_partida": 1760089894018
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kled",
+      "partidas": 49,
+      "victorias": 29,
+      "winrate": "59.2%",
+      "kda_promedio": 2.0952380952380953
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 0.5833333333333334
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8095238095238095
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6470588235294117
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2380952380952381
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 93,
+    "wins": 47,
+    "losses": 46,
+    "timePlayed": 145525
+  }
+}

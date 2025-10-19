@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Noodle",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/NoodleL0L1",
+      "twitch": "https://twitch.tv/hedonisten1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/IN5.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BETTER SUPP WINS#Baker",
+      "nivel": 510,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 532,
+      "victorias": 385,
+      "derrotas": 343,
+      "ultima_partida": 1760811446900
+    },
+    {
+      "nombre": "XiaoHuaSheng7#BAKER",
+      "nivel": 192,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 858,
+      "victorias": 243,
+      "derrotas": 197,
+      "ultima_partida": 1760736259359
+    },
+    {
+      "nombre": "Ben Shelton#baker",
+      "nivel": 171,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 142,
+      "derrotas": 112,
+      "ultima_partida": 1758796297736
+    },
+    {
+      "nombre": "fill and chill#bakir",
+      "nivel": 307,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 241,
+      "derrotas": 212,
+      "ultima_partida": 1758715880547
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.619047619047619
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4761904761904763
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6875
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.888888888888889
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.36363636363636365
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 17,
+    "losses": 13,
+    "timePlayed": 46250
+  }
+}

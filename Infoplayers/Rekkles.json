@@ -1,0 +1,146 @@
+{
+  "info_jugador": {
+    "nombre": "Rekkles",
+    "nombre_real": "Carl&nbsp;Martin&nbsp;Erik Larsson",
+    "edad": 29,
+    "equipo": "Los Ratones",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RekklesLoL",
+      "twitch": "https://twitch.tv/rekkles"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/rekkles.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "LR Rekkles#ADC",
+      "nivel": 198,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 752,
+      "victorias": 368,
+      "derrotas": 314,
+      "ultima_partida": 1760901408502
+    },
+    {
+      "nombre": "LR Rekkles#LRAT",
+      "nivel": 2013,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1380,
+      "victorias": 350,
+      "derrotas": 286,
+      "ultima_partida": 1760703303479
+    },
+    {
+      "nombre": "LR Rekkles#SUP",
+      "nivel": 216,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1089,
+      "victorias": 265,
+      "derrotas": 220,
+      "ultima_partida": 1760023464107
+    },
+    {
+      "nombre": "Doma#SUP",
+      "nivel": 30,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 57,
+      "victorias": 16,
+      "derrotas": 1,
+      "ultima_partida": 1759671145548
+    },
+    {
+      "nombre": "Latias#SUP",
+      "nivel": 39,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 45,
+      "derrotas": 12,
+      "ultima_partida": 1740822815728
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 25,
+      "victorias": 9,
+      "winrate": "36.0%",
+      "kda_promedio": 6.245283018867925
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 3.8135593220338984
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 4.9523809523809526
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 6.24
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 3.4074074074074074
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 7.235294117647059
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 103,
+    "wins": 47,
+    "losses": 56,
+    "timePlayed": 168923
+  }
+}

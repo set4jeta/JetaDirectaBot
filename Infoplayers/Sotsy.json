@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sotsy",
+    "nombre_real": "John Sicre",
+    "edad": 26,
+    "equipo": "GameWard",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sotsy_",
+      "twitch": "https://www.twitch.tv/sotsy_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sotsy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Sotsy92i#ZER",
+      "nivel": 1721,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 776,
+      "victorias": 1033,
+      "derrotas": 1002,
+      "ultima_partida": 1760899212243
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shen",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 2.4299065420560746
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 2.0689655172413794
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5737704918032787
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.90625
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.2972972972972974
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.894736842105263
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5416666666666667
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9565217391304348
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 109,
+    "wins": 44,
+    "losses": 65,
+    "timePlayed": 170337
+  }
+}

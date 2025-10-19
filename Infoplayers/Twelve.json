@@ -1,0 +1,75 @@
+{
+  "info_jugador": {
+    "nombre": "Twelve",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Phantom Scythe#Aimer",
+      "nivel": 118,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1114,
+      "victorias": 359,
+      "derrotas": 292,
+      "ultima_partida": 1760473096143
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Fiora",
+      "partidas": 23,
+      "victorias": 12,
+      "winrate": "52.2%",
+      "kda_promedio": 2.3592233009708736
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 13,
+    "losses": 15,
+    "timePlayed": 45087
+  }
+}

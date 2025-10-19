@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Ragner",
+    "nombre_real": "Onurcan Aslan",
+    "edad": 24,
+    "equipo": "Galions",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/RagnerLoL",
+      "twitch": "https://twitch.tv/ragner"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ragner.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Rosinante#Rago",
+      "nivel": 631,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1184,
+      "victorias": 403,
+      "derrotas": 349,
+      "ultima_partida": 1753737901039
+    },
+    {
+      "nombre": "Brook#rago",
+      "nivel": 437,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 832,
+      "victorias": 178,
+      "derrotas": 126,
+      "ultima_partida": 1753732578512
+    },
+    {
+      "nombre": "Sousuke Aizen#RAGO",
+      "nivel": 191,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 55,
+      "victorias": 100,
+      "derrotas": 85,
+      "ultima_partida": 1752917191771
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gwen",
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 2.3375
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.3529411764705883
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6595744680851063
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.32
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1578947368421053
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 114,
+    "wins": 65,
+    "losses": 49,
+    "timePlayed": 175630
+  }
+}

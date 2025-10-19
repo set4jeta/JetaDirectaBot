@@ -1,0 +1,66 @@
+{
+  "info_jugador": {
+    "nombre": "Zest",
+    "nombre_real": "Kim Dong-min",
+    "edad": 21,
+    "equipo": "Bushido Wildcats",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Zestlol03"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/zest.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BW.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ALLRIGHT24#Zest",
+      "nivel": 88,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1080,
+      "victorias": 185,
+      "derrotas": 113,
+      "ultima_partida": 1759933404688
+    },
+    {
+      "nombre": "Zest#D P",
+      "nivel": 146,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 216,
+      "derrotas": 162,
+      "ultima_partida": 1758496316684
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 4,
+    "wins": 0,
+    "losses": 4,
+    "timePlayed": 5356
+  }
+}

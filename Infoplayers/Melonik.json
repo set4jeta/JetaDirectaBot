@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Melonik",
+    "nombre_real": "Dawid Ślęczka",
+    "edad": 23,
+    "equipo": "Forsaken (Polish Team)",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/meloniklol",
+      "twitch": "https://twitch.tv/melonik"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/melonik.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FSK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Maelle#melon",
+      "nivel": 885,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 766,
+      "victorias": 360,
+      "derrotas": 317,
+      "ultima_partida": 1753711864425
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.7317073170731707
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.259259259259259
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.878787878787879
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1904761904761905
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0526315789473686
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6923076923076925
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 55,
+    "wins": 30,
+    "losses": 25,
+    "timePlayed": 84041
+  }
+}

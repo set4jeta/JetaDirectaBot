@@ -1,0 +1,70 @@
+{
+  "info_jugador": {
+    "nombre": "KoxTroll",
+    "nombre_real": "Kacper Rumiński",
+    "edad": 21,
+    "equipo": "DOCISK",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/koxtroll"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/DOC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "KOXTROLL#meow",
+      "nivel": 498,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 836,
+      "victorias": 396,
+      "derrotas": 357,
+      "ultima_partida": 1760792507228
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.441860465116279
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.4375
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 6,
+    "losses": 5,
+    "timePlayed": 18735
+  }
+}

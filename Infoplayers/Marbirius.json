@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Marbirius",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Marbirius",
+      "twitch": "https://www.twitch.tv/marbirius"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Godskin Apostle#EUW",
+      "nivel": 286,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1014,
+      "victorias": 311,
+      "derrotas": 260,
+      "ultima_partida": 1760891466190
+    },
+    {
+      "nombre": "마지막 불씨#EUW2",
+      "nivel": 184,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 65,
+      "victorias": 220,
+      "derrotas": 187,
+      "ultima_partida": 1760881650376
+    },
+    {
+      "nombre": "dyjkbysb#EUW3",
+      "nivel": 116,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 488,
+      "victorias": 195,
+      "derrotas": 143,
+      "ultima_partida": 1760639969329
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 3.183673469387755
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 22,
+    "losses": 22,
+    "timePlayed": 72752
+  }
+}

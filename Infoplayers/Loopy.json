@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Loopy",
+    "nombre_real": "Kim Dong-hyeon",
+    "edad": 21,
+    "equipo": "SK Gaming",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/gim_Loopy",
+      "twitch": "https://twitch.tv/chikuk06"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/loopy.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Loopy#1813",
+      "nivel": 813,
+      "region": "KR",
+      "liga": "CHALLENGER I",
+      "lp": 1421,
+      "victorias": 274,
+      "derrotas": 187,
+      "ultima_partida": 1760712145460
+    },
+    {
+      "nombre": "D M#N K",
+      "nivel": 99,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 367,
+      "derrotas": 321,
+      "ultima_partida": 1755714870309
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.7916666666666665
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.0625
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 26,
+    "wins": 12,
+    "losses": 14,
+    "timePlayed": 43215
+  }
+}

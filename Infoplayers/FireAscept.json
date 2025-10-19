@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "FireAscept",
+    "nombre_real": "Resul Polat",
+    "edad": 19,
+    "equipo": "BoostGate Esports",
+    "pais": null,
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/FireAscept",
+      "twitch": "https://www.twitch.tv/fireasceptlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BGT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BGT FireAscept#1310",
+      "nivel": 583,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 986,
+      "victorias": 350,
+      "derrotas": 305,
+      "ultima_partida": 1760718007008
+    },
+    {
+      "nombre": "FireAscept#1013",
+      "nivel": 236,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 750,
+      "victorias": 375,
+      "derrotas": 340,
+      "ultima_partida": 1759921528432
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.588235294117647
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.45
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 20,
+    "losses": 10,
+    "timePlayed": 44727
+  }
+}

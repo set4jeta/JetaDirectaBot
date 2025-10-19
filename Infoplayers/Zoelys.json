@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Zoelys",
+    "nombre_real": "Théo Le Scornec",
+    "edad": 22,
+    "equipo": "Galions",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Zoelys_LoL",
+      "twitch": "https://www.twitch.tv/zoelys_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/zoelys.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Walid Georgey#EUW",
+      "nivel": 1050,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1558,
+      "victorias": 374,
+      "derrotas": 299,
+      "ultima_partida": 1760893112731
+    },
+    {
+      "nombre": "John Abruzzi#777",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1087,
+      "victorias": 108,
+      "derrotas": 34,
+      "ultima_partida": 1760267996969
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.361111111111111
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 2.891304347826087
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.72
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.066666666666666
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9545454545454546
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 39,
+    "losses": 19,
+    "timePlayed": 89439
+  }
+}

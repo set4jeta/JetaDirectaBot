@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Alvanai",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/AlvanaiLoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/WLG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SLERTS#EUW",
+      "nivel": 540,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 890,
+      "victorias": 297,
+      "derrotas": 234,
+      "ultima_partida": 1753573593974
+    },
+    {
+      "nombre": "reaver mid acc#BOZO",
+      "nivel": 199,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 305,
+      "derrotas": 298,
+      "ultima_partida": 1753052254310
+    },
+    {
+      "nombre": "paintingpictures#polog",
+      "nivel": 139,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 108,
+      "derrotas": 88,
+      "ultima_partida": 1749505168408
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.823529411764706
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5416666666666665
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.466666666666667
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.636363636363637
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 21
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 23,
+    "losses": 9,
+    "timePlayed": 51036
+  }
+}

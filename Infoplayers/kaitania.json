@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "kaitania",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/kaiitania",
+      "twitch": "https://www.twitch.tv/kaiitania"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "perseverance#kait",
+      "nivel": 166,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1022,
+      "victorias": 706,
+      "derrotas": 611,
+      "ultima_partida": 1760828887602
+    },
+    {
+      "nombre": "TWTV KAIITANIA#MASTA",
+      "nivel": 91,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 123,
+      "derrotas": 108,
+      "ultima_partida": 1758937200876
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 58,
+      "victorias": 38,
+      "winrate": "65.5%",
+      "kda_promedio": 2.713467048710602
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 31,
+      "victorias": 14,
+      "winrate": "45.2%",
+      "kda_promedio": 2.013953488372093
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.189189189189189
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3103448275862069
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 123,
+    "wins": 72,
+    "losses": 51,
+    "timePlayed": 199706
+  }
+}

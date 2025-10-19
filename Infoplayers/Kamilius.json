@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Kamilius",
+    "nombre_real": "Kamil Košťál",
+    "edad": 25,
+    "equipo": "CITA Kaizen",
+    "pais": "Slovakia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/kamilius1_\\t",
+      "twitch": "https://twitch.tv/kamilius1\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kamilius.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "bamboocleaner#kamil",
+      "nivel": 1094,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1010,
+      "victorias": 523,
+      "derrotas": 480,
+      "ultima_partida": 1760889066987
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pyke",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.5185185185185186
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.735294117647059
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9047619047619047
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7272727272727273
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 15,
+    "losses": 22,
+    "timePlayed": 58128
+  }
+}

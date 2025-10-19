@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Kaori",
+    "nombre_real": "Muhammed&nbsp;Hasan Şentürk",
+    "edad": 24,
+    "equipo": "ULF Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KaoriLoL",
+      "twitch": "https://twitch.tv/kaori123"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kaori.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ULF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "古月方源#33333",
+      "nivel": 1198,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 884,
+      "victorias": 467,
+      "derrotas": 425,
+      "ultima_partida": 1753747435371
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.92
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.369565217391304
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.7916666666666665
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2777777777777777
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4642857142857142
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.555555555555555
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 28,
+    "losses": 29,
+    "timePlayed": 91065
+  }
+}

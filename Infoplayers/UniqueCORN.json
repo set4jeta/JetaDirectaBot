@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "UniqueCORN",
+    "nombre_real": "Lukas Bauer",
+    "edad": 24,
+    "equipo": "FlameHard",
+    "pais": "Austria",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ItsUniqueC0RN\\t",
+      "twitch": "\\thttps://www.twitch.tv/itsuniquecorn\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FLH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Roro Farmer#EUW",
+      "nivel": 321,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 899,
+      "victorias": 327,
+      "derrotas": 275,
+      "ultima_partida": 1760895036331
+    },
+    {
+      "nombre": "FLH UniqueCORN#IMPRV",
+      "nivel": 1070,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1379,
+      "victorias": 626,
+      "derrotas": 558,
+      "ultima_partida": 1760545367719
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 24,
+      "victorias": 16,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6179775280898876
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.7714285714285714
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 8,
+      "victorias": 8,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3703703703703702
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.457142857142857
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.210526315789474
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3461538461538463
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 20.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 102,
+    "wins": 55,
+    "losses": 47,
+    "timePlayed": 162828
+  }
+}

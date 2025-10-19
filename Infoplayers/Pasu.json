@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Pasu",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/A41G.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "BERND DAS BROT#PASU",
+      "nivel": 847,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 760,
+      "victorias": 263,
+      "derrotas": 228,
+      "ultima_partida": 1753740609954
+    },
+    {
+      "nombre": "MEIN GEDUDEL#PASU",
+      "nivel": 98,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 73,
+      "victorias": 53,
+      "derrotas": 36,
+      "ultima_partida": 1753366176429
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.264705882352941
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 12.5
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 15
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 18,
+    "losses": 15,
+    "timePlayed": 54017
+  }
+}

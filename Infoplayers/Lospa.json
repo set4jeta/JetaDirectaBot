@@ -1,0 +1,87 @@
+{
+  "info_jugador": {
+    "nombre": "Lospa",
+    "nombre_real": "Park Joon-hyeong",
+    "edad": 23,
+    "equipo": "GIANTX Academy",
+    "pais": "South Korea",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LospalolKR"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lospa.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ALLRIGHT24#Pig",
+      "nivel": 118,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1115,
+      "victorias": 347,
+      "derrotas": 277,
+      "ultima_partida": 1760115430794
+    },
+    {
+      "nombre": "FUT Lospa#FUT",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 9,
+      "derrotas": 10,
+      "ultima_partida": 1742301867691
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1052631578947367
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.375
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.25
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 18543
+  }
+}

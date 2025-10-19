@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Afriibi",
+    "nombre_real": "Atis Fridensteins-Bridins",
+    "edad": 21,
+    "equipo": "ZETA",
+    "pais": "Latvia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Afriibi1",
+      "twitch": "https://twitch.tv/afriibi"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "YellowSnow#Chill",
+      "nivel": 490,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1116,
+      "victorias": 411,
+      "derrotas": 361,
+      "ultima_partida": 1760896522077
+    },
+    {
+      "nombre": "ResnaaEvoChiepa#w4ze",
+      "nivel": 124,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 459,
+      "victorias": 248,
+      "derrotas": 213,
+      "ultima_partida": 1760451349863
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6744186046511627
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.876923076923077
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.554054054054054
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 3.066666666666667
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.32
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8620689655172413
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1923076923076925
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 8.222222222222221
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8421052631578947
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 52,
+    "losses": 38,
+    "timePlayed": 139436
+  }
+}

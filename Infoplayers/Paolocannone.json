@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Paolocannone",
+    "nombre_real": "Paolo Marcucci",
+    "edad": 29,
+    "equipo": "aNc Legends",
+    "pais": "Italy",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Paolocannone12",
+      "twitch": "https://www.twitch.tv/paoloidolo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ANC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Paolocannone#EUW",
+      "nivel": 1240,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 943,
+      "victorias": 508,
+      "derrotas": 475,
+      "ultima_partida": 1753745353944
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 44,
+      "victorias": 22,
+      "winrate": "50.0%",
+      "kda_promedio": 3.527918781725888
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 29,
+      "victorias": 20,
+      "winrate": "69.0%",
+      "kda_promedio": 3.763358778625954
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 6.612903225806452
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.210526315789474
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 111,
+    "wins": 59,
+    "losses": 52,
+    "timePlayed": 182979
+  }
+}

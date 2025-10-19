@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sunfry",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sunfry_lol",
+      "twitch": "https://twitch.tv/sunfry_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "KC Subfry#KCORP",
+      "nivel": 1074,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1306,
+      "victorias": 543,
+      "derrotas": 481,
+      "ultima_partida": 1760887200588
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.8732394366197185
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.083333333333333
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.121212121212121
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.2777777777777777
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8823529411764706
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 27,
+    "losses": 15,
+    "timePlayed": 64380
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Centu",
+    "nombre_real": "Spyridon Pantelopoulos",
+    "edad": 21,
+    "equipo": "Gamespace Mediterranean College Esports",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/CentuGRE",
+      "twitch": "https://twitch.tv/centu_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Centu#0107",
+      "nivel": 1590,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 867,
+      "victorias": 1021,
+      "derrotas": 1004,
+      "ultima_partida": 1760896816635
+    },
+    {
+      "nombre": "SP4#084",
+      "nivel": 160,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 694,
+      "victorias": 295,
+      "derrotas": 258,
+      "ultima_partida": 1760823181537
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 23,
+      "victorias": 11,
+      "winrate": "47.8%",
+      "kda_promedio": 3.433333333333333
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.52991452991453
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 4.923076923076923
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.533333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.84
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.782608695652174
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.8157894736842106
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.133333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 131,
+    "wins": 74,
+    "losses": 57,
+    "timePlayed": 206694
+  }
+}

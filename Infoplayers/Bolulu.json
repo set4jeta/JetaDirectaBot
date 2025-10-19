@@ -1,0 +1,35 @@
+{
+  "info_jugador": {
+    "nombre": "Bolulu",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/BoluluLol",
+      "twitch": "https://twitch.tv/bolululol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/bolulu.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "B0LULU#EUW",
+      "nivel": 1153,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 902,
+      "victorias": 197,
+      "derrotas": 154,
+      "ultima_partida": 1752784270400
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

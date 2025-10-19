@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Matixx",
+    "nombre_real": "Mateusz Dworakowski",
+    "edad": 19,
+    "equipo": "Rich Gang (Norwegian Team)",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Matixxlol",
+      "twitch": "https://www.twitch.tv/matixxlol_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/matixx.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Matixx#EUW",
+      "nivel": 742,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 807,
+      "victorias": 625,
+      "derrotas": 573,
+      "ultima_partida": 1760869178920
+    },
+    {
+      "nombre": "memento mori#EUW0",
+      "nivel": 111,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 97,
+      "victorias": 109,
+      "derrotas": 84,
+      "ultima_partida": 1758716244052
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Renekton",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4646464646464648
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4761904761904763
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7692307692307692
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 19,
+    "losses": 20,
+    "timePlayed": 65942
+  }
+}

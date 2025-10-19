@@ -1,0 +1,81 @@
+{
+  "info_jugador": {
+    "nombre": "Afroboi",
+    "nombre_real": "Adrian Kaymer",
+    "edad": 25,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/4froboi",
+      "twitch": "https://www.twitch.tv/afroboilol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/afroboi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EWI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Afroboi#depu",
+      "nivel": 750,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1207,
+      "victorias": 464,
+      "derrotas": 397,
+      "ultima_partida": 1760837322561
+    },
+    {
+      "nombre": "Afro Junior#EUW",
+      "nivel": 220,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 252,
+      "victorias": 87,
+      "derrotas": 82,
+      "ultima_partida": 1760542838565
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.981132075471698
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 11,
+    "losses": 8,
+    "timePlayed": 29668
+  }
+}

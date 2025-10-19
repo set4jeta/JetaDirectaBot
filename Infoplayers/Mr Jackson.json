@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Mr Jackson",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MrJacksonLol",
+      "twitch": "https://twitch.tv/mrjacksonlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "aarontheplumber#MrJay",
+      "nivel": 1159,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1010,
+      "victorias": 441,
+      "derrotas": 384,
+      "ultima_partida": 1760884697411
+    },
+    {
+      "nombre": "DIREKT EIN BAUEN#kerem",
+      "nivel": 116,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1073,
+      "victorias": 256,
+      "derrotas": 185,
+      "ultima_partida": 1760876095459
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9310344827586206
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.7241379310344827
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 24,
+    "wins": 11,
+    "losses": 13,
+    "timePlayed": 38401
+  }
+}

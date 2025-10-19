@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "choego",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/choego123\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "choego#0001",
+      "nivel": 682,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 732,
+      "victorias": 312,
+      "derrotas": 277,
+      "ultima_partida": 1760884118165
+    },
+    {
+      "nombre": "chöego#EUW",
+      "nivel": 582,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 868,
+      "victorias": 272,
+      "derrotas": 241,
+      "ultima_partida": 1760879473119
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.488888888888889
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.526315789473684
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.617021276595745
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.6346153846153846
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.714285714285714
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 30,
+    "losses": 23,
+    "timePlayed": 84914
+  }
+}

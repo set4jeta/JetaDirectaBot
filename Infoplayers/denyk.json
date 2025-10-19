@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "denyk",
+    "nombre_real": "Petr Haramach",
+    "edad": 30,
+    "equipo": "Entropiq",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/DenykLoL",
+      "twitch": "https://www.twitch.tv/denyklol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "denyk#dnk",
+      "nivel": 796,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 808,
+      "victorias": 407,
+      "derrotas": 369,
+      "ultima_partida": 1753734415101
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.76
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.153846153846154
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 7.086956521739131
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.717948717948718
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 5.733333333333333
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 4.933333333333334
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 39,
+    "losses": 40,
+    "timePlayed": 133102
+  }
+}

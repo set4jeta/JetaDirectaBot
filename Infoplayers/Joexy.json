@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Joexy",
+    "nombre_real": "Bedirhan Kalkan",
+    "edad": 22,
+    "equipo": "BBL Dark Passage",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Joexylol\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "hmm#Jy99",
+      "nivel": 595,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 908,
+      "victorias": 305,
+      "derrotas": 248,
+      "ultima_partida": 1760859884616
+    },
+    {
+      "nombre": "Joexy#746",
+      "nivel": 267,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 25,
+      "victorias": 334,
+      "derrotas": 295,
+      "ultima_partida": 1760400752013
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Thresh",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 4.434782608695652
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 3.011764705882353
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.074074074074074
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.235294117647059
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.125
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "Shaco",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.1
+    },
+    {
+      "nombre": "Velkoz",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9230769230769231
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 74,
+    "wins": 41,
+    "losses": 33,
+    "timePlayed": 119012
+  }
+}

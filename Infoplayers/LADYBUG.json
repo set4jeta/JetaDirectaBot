@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "LADYBUG",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/nestor13lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Nae14#NMS",
+      "nivel": 984,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 792,
+      "victorias": 501,
+      "derrotas": 450,
+      "ultima_partida": 1760899212243
+    },
+    {
+      "nombre": "favorite crime#nae",
+      "nivel": 86,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 422,
+      "victorias": 257,
+      "derrotas": 223,
+      "ultima_partida": 1760393981003
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 2.6493506493506493
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.9607843137254901
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.34375
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.311111111111111
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5945945945945945
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8181818181818181
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 100,
+    "wins": 44,
+    "losses": 56,
+    "timePlayed": 165779
+  }
+}

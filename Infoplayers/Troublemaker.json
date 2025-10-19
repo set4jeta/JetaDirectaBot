@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Troublemaker",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/AlxandrosChatz1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Ruthless#SOS",
+      "nivel": 61,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 385,
+      "victorias": 152,
+      "derrotas": 118,
+      "ultima_partida": 1753438456282
+    },
+    {
+      "nombre": "Unforgettable#GGS",
+      "nivel": 70,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 793,
+      "victorias": 160,
+      "derrotas": 122,
+      "ultima_partida": 1753432022624
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.3714285714285714
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9259259259259258
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.619047619047619
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 27,
+    "wins": 14,
+    "losses": 13,
+    "timePlayed": 45966
+  }
+}

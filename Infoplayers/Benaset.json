@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Benaset",
+    "nombre_real": "Benoît Mergny",
+    "edad": 27,
+    "equipo": "One More Esports",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Benasetlol",
+      "twitch": "https://www.twitch.tv/benaset"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Road2Narnia#EUW",
+      "nivel": 308,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1031,
+      "victorias": 237,
+      "derrotas": 162,
+      "ultima_partida": 1760883251845
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 3.6021505376344085
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.046875
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.8923076923076922
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.276595744680851
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.5217391304347827
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4615384615384617
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8823529411764706
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 72,
+    "wins": 36,
+    "losses": 36,
+    "timePlayed": 119241
+  }
+}

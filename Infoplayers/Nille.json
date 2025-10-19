@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Nille",
+    "nombre_real": "Juho Janhunen Wilhelm",
+    "edad": 25,
+    "equipo": "Caldya Esport",
+    "pais": "Finland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/NilleLoL",
+      "twitch": "https://twitch.tv/nillenalley"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CLA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Frank Lundy#AGENT",
+      "nivel": 1542,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1110,
+      "victorias": 852,
+      "derrotas": 805,
+      "ultima_partida": 1760889117794
+    },
+    {
+      "nombre": "Mia Lapierre#DEXTA",
+      "nivel": 365,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 549,
+      "victorias": 220,
+      "derrotas": 184,
+      "ultima_partida": 1760663279237
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 22,
+      "victorias": 13,
+      "winrate": "59.1%",
+      "kda_promedio": 2.1485148514851486
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 1.4782608695652173
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.6206896551724137
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.152542372881356
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.8620689655172415
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.0697674418604652
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 6.545454545454546
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.96
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 137,
+    "wins": 70,
+    "losses": 67,
+    "timePlayed": 212080
+  }
+}

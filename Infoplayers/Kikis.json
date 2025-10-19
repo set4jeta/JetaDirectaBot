@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Kikis",
+    "nombre_real": "Mateusz Szkudlarek",
+    "edad": 29,
+    "equipo": "GMBLERS Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/kikis1205",
+      "twitch": "https://www.twitch.tv/kikis1205"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kikis.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GMBL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kikis#QQ5",
+      "nivel": 650,
+      "liga": "MASTER I",
+      "lp": 751,
+      "victorias": 270,
+      "derrotas": 244,
+      "ultima_partida": 1753268477516
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 5.433333333333334
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 15.5
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 26,
+    "wins": 15,
+    "losses": 11,
+    "timePlayed": 42347
+  }
+}

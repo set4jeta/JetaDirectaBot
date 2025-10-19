@@ -1,0 +1,87 @@
+{
+  "info_jugador": {
+    "nombre": "Aspect",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/aspectlol777"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/LUP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Eye#1990",
+      "nivel": 419,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 425,
+      "victorias": 98,
+      "derrotas": 51,
+      "ultima_partida": 1752913913255
+    },
+    {
+      "nombre": "aspect#ooooo",
+      "nivel": 117,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 903,
+      "victorias": 220,
+      "derrotas": 167,
+      "ultima_partida": 1752909160717
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 8.636363636363637
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 18708
+  }
+}

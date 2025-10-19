@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Carnage",
+    "nombre_real": "Vasilis Syrianos",
+    "edad": 22,
+    "equipo": "Tan'i eSports CZ",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Lol_Carnage",
+      "twitch": "https://www.twitch.tv/lol_carnage"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Carnagε#EUW",
+      "nivel": 1042,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1058,
+      "victorias": 251,
+      "derrotas": 211,
+      "ultima_partida": 1760823898133
+    },
+    {
+      "nombre": "Lancelot#4150",
+      "nivel": 301,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1250,
+      "victorias": 384,
+      "derrotas": 326,
+      "ultima_partida": 1760707718269
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 4.225
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.511627906976744
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5517241379310347
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.565217391304348
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 27,
+    "losses": 23,
+    "timePlayed": 84503
+  }
+}

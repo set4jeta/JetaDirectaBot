@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Wunder",
+    "nombre_real": "Martin Nordahl Hansen",
+    "edad": 26,
+    "equipo": "The Ruddy Sack",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/wunderlol",
+      "twitch": "https://www.twitch.tv/wunderlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/wunder.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "notgoodenough#1SEPT",
+      "nivel": 96,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 167,
+      "derrotas": 112,
+      "ultima_partida": 1753482519660
+    },
+    {
+      "nombre": "Wunderwear#GOAT",
+      "nivel": 523,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 945,
+      "victorias": 194,
+      "derrotas": 165,
+      "ultima_partida": 1753458007885
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Camille",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5238095238095237
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2307692307692308
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 26,
+    "losses": 26,
+    "timePlayed": 81943
+  }
+}

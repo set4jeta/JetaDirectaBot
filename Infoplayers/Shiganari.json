@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Shiganari",
+    "nombre_real": "Artjoms Pervušins",
+    "edad": 26,
+    "equipo": "Anubis Gaming",
+    "pais": "Latvia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/shiganari",
+      "twitch": "https://twitch.tv/shiganari"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ANB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Januaryneverends#EU1",
+      "nivel": 310,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 937,
+      "victorias": 950,
+      "derrotas": 881,
+      "ultima_partida": 1760894422010
+    },
+    {
+      "nombre": "januaryneverends#1339",
+      "nivel": 262,
+      "region": "EUW1",
+      "liga": "EMERALD III",
+      "lp": 85,
+      "victorias": 2,
+      "derrotas": 5,
+      "ultima_partida": 1744629531908
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 49,
+      "victorias": 25,
+      "winrate": "51.0%",
+      "kda_promedio": 1.9538461538461538
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 37,
+      "victorias": 18,
+      "winrate": "48.6%",
+      "kda_promedio": 2.6882352941176473
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.096774193548387
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2142857142857144
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 116,
+    "wins": 56,
+    "losses": 60,
+    "timePlayed": 186074
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "info_jugador": {
+    "nombre": "Peppe",
+    "nombre_real": "Petros Berdebes",
+    "edad": 23,
+    "equipo": "Team Phantasma",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Peppe_Gre",
+      "twitch": "https://www.twitch.tv/peppeloc0"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "ΠΑΣΟΚΟΣ#EUW",
+      "nivel": 300,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 882,
+      "victorias": 563,
+      "derrotas": 520,
+      "ultima_partida": 1760808310926
+    },
+    {
+      "nombre": "escape dystopia#EUW",
+      "nivel": 666,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 68,
+      "derrotas": 63,
+      "ultima_partida": 1757494525906
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7647058823529411
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 5,
+    "losses": 5,
+    "timePlayed": 15465
+  }
+}

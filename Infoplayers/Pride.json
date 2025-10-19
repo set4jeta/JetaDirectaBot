@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Pride",
+    "nombre_real": "Franco&nbsp;Jesús Sanzana Villarroel",
+    "edad": 29,
+    "equipo": "Azules Esports",
+    "pais": "Chile",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/pride__lol",
+      "twitch": "https://twitch.tv/prideh"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/pride.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EINS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Pride#persi",
+      "nivel": 370,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 904,
+      "victorias": 231,
+      "derrotas": 195,
+      "ultima_partida": 1753693741170
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 9,
+    "losses": 11,
+    "timePlayed": 30559
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "info_jugador": {
+    "nombre": "Rooster",
+    "nombre_real": "Shin Yun-hwan",
+    "edad": 20,
+    "equipo": "Team BDS",
+    "pais": "South Korea",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {},
+    "imagen_jugador": "https://dpm.lol/esport/players/rooster.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "편 민 기#박 규 용",
+      "nivel": 861,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 242,
+      "derrotas": 196,
+      "ultima_partida": 1760222508605
+    },
+    {
+      "nombre": "BDS Rooster#2005",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 132,
+      "derrotas": 77,
+      "ultima_partida": 1757159323489
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

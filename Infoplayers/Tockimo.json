@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Tockimo",
+    "nombre_real": "Timo Bock",
+    "edad": 23,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Tockimolol",
+      "twitch": "https://twitch.tv/tockimo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/EWI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Tockimo#freak",
+      "nivel": 912,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1098,
+      "victorias": 346,
+      "derrotas": 299,
+      "ultima_partida": 1760893686785
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Poppy",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.485294117647059
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 4.033898305084746
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.235294117647059
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4814814814814814
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6944444444444444
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.740740740740741
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 32,
+    "losses": 30,
+    "timePlayed": 97997
+  }
+}

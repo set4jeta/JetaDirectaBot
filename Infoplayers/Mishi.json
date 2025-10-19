@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Mishi",
+    "nombre_real": "Kevin Westerbacka",
+    "edad": 23,
+    "equipo": "Team BDS Academy",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Mishigulol",
+      "twitch": "https://twitch.tv/mishigulol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/mishi.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Mishi#001",
+      "nivel": 840,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 944,
+      "victorias": 266,
+      "derrotas": 241,
+      "ultima_partida": 1753702273536
+    },
+    {
+      "nombre": "bitsuMishi#0001",
+      "nivel": 95,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 17,
+      "victorias": 64,
+      "derrotas": 41,
+      "ultima_partida": 1752957187863
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1785714285714284
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6842105263157894
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2857142857142857
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 7,
+    "losses": 10,
+    "timePlayed": 26606
+  }
+}

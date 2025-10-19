@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Wao",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Waolol",
+      "twitch": "https://twitch.tv/waolol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/wao.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "WAO KING 1#EUW",
+      "nivel": 643,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 946,
+      "victorias": 174,
+      "derrotas": 107,
+      "ultima_partida": 1760904269498
+    },
+    {
+      "nombre": "onepiece#kram",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 649,
+      "victorias": 110,
+      "derrotas": 61,
+      "ultima_partida": 1760272081261
+    },
+    {
+      "nombre": "wao#0000",
+      "nivel": 863,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 607,
+      "derrotas": 580,
+      "ultima_partida": 1758433110119
+    },
+    {
+      "nombre": "CHINAAAA#123",
+      "nivel": 34,
+      "region": "KR",
+      "liga": "EMERALD IV",
+      "lp": 63,
+      "victorias": 33,
+      "derrotas": 7,
+      "ultima_partida": 1742777175488
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 102,
+      "victorias": 56,
+      "winrate": "54.9%",
+      "kda_promedio": 2.234608985024958
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 28,
+      "victorias": 12,
+      "winrate": "42.9%",
+      "kda_promedio": 2.381443298969072
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.575
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0476190476190474
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.95
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2727272727272727
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 161,
+    "wins": 86,
+    "losses": 75,
+    "timePlayed": 254748
+  }
+}

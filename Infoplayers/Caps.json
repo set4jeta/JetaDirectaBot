@@ -1,0 +1,45 @@
+{
+  "info_jugador": {
+    "nombre": "Caps",
+    "nombre_real": "Rasmus Borregaard Winther",
+    "edad": 25,
+    "equipo": "G2 Esports",
+    "pais": "Denmark",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/G2Caps",
+      "twitch": "https://twitch.tv/caps"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/caps.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/G2.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "G2 Caps#1323",
+      "nivel": 1199,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1055,
+      "victorias": 655,
+      "derrotas": 563,
+      "ultima_partida": 1759004193313
+    },
+    {
+      "nombre": "G2 Caps#LOL1",
+      "nivel": 31,
+      "region": "NA1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 15,
+      "derrotas": 3,
+      "ultima_partida": 1751681542034
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

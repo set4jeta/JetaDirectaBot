@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "EkkotheNeeko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/EkkoTheNeekoTW",
+      "twitch": "https://twitch.tv/ekkotheneeko"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ekkotheneeko.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Ekko the Neeko#EUW",
+      "nivel": 2326,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 835,
+      "victorias": 851,
+      "derrotas": 820,
+      "ultima_partida": 1760845844208
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ekko",
+      "partidas": 116,
+      "victorias": 58,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2685185185185186
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.1935483870967742
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2941176470588236
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 133,
+    "wins": 63,
+    "losses": 70,
+    "timePlayed": 220905
+  }
+}

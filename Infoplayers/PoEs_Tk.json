@@ -1,0 +1,73 @@
+{
+  "info_jugador": {
+    "nombre": "PoEs_Tk",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://twitch.tv/poes_tk"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/poes_tk.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "PoEs tk#EUW",
+      "nivel": 623,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1141,
+      "victorias": 745,
+      "derrotas": 695,
+      "ultima_partida": 1760824019890
+    },
+    {
+      "nombre": "Po3s#Tilt",
+      "nivel": 186,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 35,
+      "victorias": 165,
+      "derrotas": 130,
+      "ultima_partida": 1760159812472
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Riven",
+      "partidas": 80,
+      "victorias": 46,
+      "winrate": "57.5%",
+      "kda_promedio": 3.1333333333333333
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.45
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3636363636363635
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 89,
+    "wins": 50,
+    "losses": 39,
+    "timePlayed": 142579
+  }
+}

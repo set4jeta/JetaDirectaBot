@@ -1,0 +1,65 @@
+{
+  "info_jugador": {
+    "nombre": "Myrwn",
+    "nombre_real": "Alex Pastor Villarejo",
+    "edad": 22,
+    "equipo": "Movistar KOI",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Myrwnn",
+      "twitch": "https://www.twitch.tv/myrwnn"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/myrwn.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Terra Branford#FFVI",
+      "nivel": 1063,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 126,
+      "derrotas": 92,
+      "ultima_partida": 1759063850639
+    },
+    {
+      "nombre": "Lamine Yamal#Myrwn",
+      "nivel": 53,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 65,
+      "victorias": 155,
+      "derrotas": 84,
+      "ultima_partida": 1758880729390
+    },
+    {
+      "nombre": "California Gurls#MRWN",
+      "nivel": 41,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 76,
+      "derrotas": 38,
+      "ultima_partida": 1756420766172
+    },
+    {
+      "nombre": "Bb trickz#Tipz",
+      "nivel": 37,
+      "region": "NA1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 46,
+      "derrotas": 7,
+      "ultima_partida": 1751700647691
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

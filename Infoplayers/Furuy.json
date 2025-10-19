@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Furuy",
+    "nombre_real": "Mike&nbsp;Petrus&nbsp;Franciscus Wils",
+    "edad": 24,
+    "equipo": "Skillcamp",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/FuruyLoL",
+      "twitch": "https://www.twitch.tv/furuy"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Furuy#EUW",
+      "nivel": 1086,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1066,
+      "victorias": 289,
+      "derrotas": 246,
+      "ultima_partida": 1760734625882
+    },
+    {
+      "nombre": "pokermeester#XDD",
+      "nivel": 331,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 851,
+      "victorias": 242,
+      "derrotas": 198,
+      "ultima_partida": 1760636464734
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0714285714285714
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 15,
+    "losses": 26,
+    "timePlayed": 64425
+  }
+}

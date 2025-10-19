@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Baul",
+    "nombre_real": "Lucas Westermark",
+    "edad": 25,
+    "equipo": "Myth Esports",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/INTBaul"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MYTH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "INT Baul#EUW",
+      "nivel": 871,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 830,
+      "victorias": 257,
+      "derrotas": 214,
+      "ultima_partida": 1760796893251
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.736842105263158
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.2
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.166666666666667
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 21
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 9,
+    "losses": 11,
+    "timePlayed": 30918
+  }
+}

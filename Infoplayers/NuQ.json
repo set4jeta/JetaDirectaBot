@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "NuQ",
+    "nombre_real": "Erkmen Erdoğdu",
+    "edad": 22,
+    "equipo": "BBL Dark Passage",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/NuQlol",
+      "twitch": "https://www.twitch.tv/nuqlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BDP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "NuQ#1305",
+      "nivel": 527,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 998,
+      "victorias": 278,
+      "derrotas": 221,
+      "ultima_partida": 1760894503223
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8860759493670887
+    },
+    {
+      "nombre": "Warwick",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.046511627906977
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 0.7878787878787878
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0714285714285714
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.619047619047619
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 35,
+    "losses": 23,
+    "timePlayed": 87018
+  }
+}

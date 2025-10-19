@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Cha0s",
+    "nombre_real": "Alec Jablonski",
+    "edad": 21,
+    "equipo": "A One Man Army Prime",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/chaossenpai4",
+      "twitch": "https://www.twitch.tv/Chaoseuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Mental Buddah#EUW",
+      "nivel": 247,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 983,
+      "victorias": 354,
+      "derrotas": 312,
+      "ultima_partida": 1760858512861
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.296875
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7058823529411764
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.235294117647059
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.391304347826087
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.1875
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 46,
+    "wins": 21,
+    "losses": 25,
+    "timePlayed": 78014
+  }
+}

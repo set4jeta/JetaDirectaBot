@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "hybradge",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/hybradge",
+      "twitch": "https://www.twitch.tv/hybradge"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Kindred 2 CHALLY#HYBRA",
+      "nivel": 125,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 463,
+      "victorias": 407,
+      "derrotas": 387,
+      "ultima_partida": 1760899454369
+    },
+    {
+      "nombre": "TTV HYBRADGE#ADL",
+      "nivel": 630,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1086,
+      "victorias": 450,
+      "derrotas": 391,
+      "ultima_partida": 1760837677112
+    },
+    {
+      "nombre": "Robert Whittaker#GOAT",
+      "nivel": 182,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 59,
+      "victorias": 507,
+      "derrotas": 473,
+      "ultima_partida": 1760452486542
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kindred",
+      "partidas": 45,
+      "victorias": 25,
+      "winrate": "55.6%",
+      "kda_promedio": 2.201320132013201
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 2.1149425287356323
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 3.588235294117647
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.67
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.725
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7857142857142858
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.8095238095238093
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.484848484848485
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9130434782608696
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 148,
+    "wins": 79,
+    "losses": 69,
+    "timePlayed": 239890
+  }
+}

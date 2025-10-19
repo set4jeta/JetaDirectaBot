@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Axelent",
+    "nombre_real": "Nikola Petrusev",
+    "edad": 21,
+    "equipo": "Partizan Sangal",
+    "pais": "North Macedonia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/AxelentLOL",
+      "twitch": "https://twitch.tv/axelenteu"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/axelent.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Sexelent#typsh",
+      "nivel": 1062,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 235,
+      "derrotas": 211,
+      "ultima_partida": 1753368837817
+    },
+    {
+      "nombre": "BlizardTheWizard#Grujo",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 697,
+      "victorias": 94,
+      "derrotas": 58,
+      "ultima_partida": 1753364755197
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 11,
+    "losses": 19,
+    "timePlayed": 52603
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Farfetch",
+    "nombre_real": "Berk Badur",
+    "edad": 26,
+    "equipo": "ULF Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/FarfetchLOL",
+      "twitch": "https://twitch.tv/farfetchlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/farfetch.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ULF.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "farfetch#296",
+      "nivel": 977,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 938,
+      "victorias": 316,
+      "derrotas": 282,
+      "ultima_partida": 1753747974197
+    },
+    {
+      "nombre": "ff ad acc#farf",
+      "nivel": 383,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 25,
+      "victorias": 119,
+      "derrotas": 104,
+      "ultima_partida": 1750899277402
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.095238095238095
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.736842105263158
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.238095238095238
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5714285714285716
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 26,
+    "losses": 22,
+    "timePlayed": 79354
+  }
+}

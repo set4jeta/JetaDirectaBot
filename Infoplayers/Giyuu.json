@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Giyuu",
+    "nombre_real": "Ahmad Charif",
+    "edad": 23,
+    "equipo": "Geekay Esports",
+    "pais": "Lebanon",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Giyuu_lol",
+      "twitch": "https://www.twitch.tv/giyuu_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Dekap#EUW2",
+      "nivel": 445,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1164,
+      "victorias": 233,
+      "derrotas": 188,
+      "ultima_partida": 1753541135480
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Azir",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3043478260869565
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4705882352941178
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0833333333333333
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 27,
+    "wins": 14,
+    "losses": 13,
+    "timePlayed": 44632
+  }
+}

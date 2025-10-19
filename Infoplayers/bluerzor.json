@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "bluerzor",
+    "nombre_real": "Dániel Subicz",
+    "edad": 26,
+    "equipo": "UCAM Esports",
+    "pais": "Hungary",
+    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/bluerzor",
+      "twitch": "https://twitch.tv/bluerzor"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/bluerzor.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "bluerzor#grind",
+      "nivel": 721,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 812,
+      "victorias": 636,
+      "derrotas": 602,
+      "ultima_partida": 1760735244514
+    },
+    {
+      "nombre": "its not me#DTB",
+      "nivel": 373,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 74,
+      "derrotas": 63,
+      "ultima_partida": 1753889116601
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Volibear",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 3.4714285714285715
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 4.358974358974359
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.548387096774194
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2777777777777777
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.56
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7407407407407407
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4705882352941178
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 66,
+    "wins": 35,
+    "losses": 31,
+    "timePlayed": 104693
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Peng",
+    "nombre_real": "Pengcheng Shen",
+    "edad": 21,
+    "equipo": "The Ruddy Sack",
+    "pais": "China",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MidPeng",
+      "twitch": "https://twitch.tv/peng04"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/peng.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TWTV Peng04#Yuqi",
+      "nivel": 409,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1522,
+      "victorias": 253,
+      "derrotas": 172,
+      "ultima_partida": 1760893138793
+    },
+    {
+      "nombre": "twtv Peng04#Aespa",
+      "nivel": 404,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1512,
+      "victorias": 562,
+      "derrotas": 490,
+      "ultima_partida": 1760885144090
+    },
+    {
+      "nombre": "twtv Peng04#NMIXX",
+      "nivel": 1119,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1377,
+      "victorias": 374,
+      "derrotas": 309,
+      "ultima_partida": 1760879704579
+    },
+    {
+      "nombre": "TWTV Peng04#Hanni",
+      "nivel": 267,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 984,
+      "victorias": 139,
+      "derrotas": 74,
+      "ultima_partida": 1760874293622
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Neeko",
+      "partidas": 16,
+      "victorias": 13,
+      "winrate": "81.2%",
+      "kda_promedio": 4.213114754098361
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 3.152542372881356
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.9615384615384617
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.0232558139534884
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9285714285714284
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.074074074074074
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.0689655172413794
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 10
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 106,
+    "wins": 60,
+    "losses": 46,
+    "timePlayed": 170597
+  }
+}

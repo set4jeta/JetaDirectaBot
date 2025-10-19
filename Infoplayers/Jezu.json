@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Jezu",
+    "nombre_real": "Jean Massol",
+    "edad": 25,
+    "equipo": "Galions",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Jezu_lol",
+      "twitch": "https://twitch.tv/jezuuuuuuuu"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/jezu.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "JEZUUU#0814",
+      "nivel": 787,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1150,
+      "victorias": 393,
+      "derrotas": 330,
+      "ultima_partida": 1760894106568
+    },
+    {
+      "nombre": "Jezuuu#EUW",
+      "nivel": 634,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1759138642535
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 37,
+      "victorias": 23,
+      "winrate": "62.2%",
+      "kda_promedio": 3.6646341463414633
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 16,
+      "victorias": 7,
+      "winrate": "43.8%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 3.619718309859155
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7555555555555555
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 1.5862068965517242
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.3555555555555556
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.3684210526315788
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 125,
+    "wins": 70,
+    "losses": 55,
+    "timePlayed": 207399
+  }
+}

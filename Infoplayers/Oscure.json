@@ -1,0 +1,63 @@
+{
+  "info_jugador": {
+    "nombre": "Oscure",
+    "nombre_real": "Víctor Guzmán Fernández",
+    "edad": 25,
+    "equipo": "Barça eSports",
+    "pais": "Spain",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Oscure_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/oscure.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Oscure#PLAY",
+      "nivel": 979,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 783,
+      "victorias": 274,
+      "derrotas": 238,
+      "ultima_partida": 1752495564626
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 26
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.857142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 6,
+    "wins": 3,
+    "losses": 3,
+    "timePlayed": 10888
+  }
+}

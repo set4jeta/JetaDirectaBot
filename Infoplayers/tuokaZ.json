@@ -1,0 +1,77 @@
+{
+  "info_jugador": {
+    "nombre": "tuokaZ",
+    "nombre_real": "Muhammed Zakout",
+    "edad": 24,
+    "equipo": "NONAME (Turkish Team)",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Zakout12"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "tuokaZ#ece",
+      "nivel": 130,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 784,
+      "victorias": 136,
+      "derrotas": 87,
+      "ultima_partida": 1760791492590
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Varus",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.689189189189189
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 24,
+    "wins": 15,
+    "losses": 9,
+    "timePlayed": 34732
+  }
+}

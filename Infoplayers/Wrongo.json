@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Wrongo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/WrongoLoL",
+      "twitch": "https://www.twitch.tv/wrongo"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Wrongo#1234",
+      "nivel": 931,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 912,
+      "victorias": 230,
+      "derrotas": 189,
+      "ultima_partida": 1760807336923
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.950617283950617
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.9594594594594597
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.666666666666666
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 15,
+    "losses": 16,
+    "timePlayed": 51890
+  }
+}

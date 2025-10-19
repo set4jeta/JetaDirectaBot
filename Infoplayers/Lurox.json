@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Lurox",
+    "nombre_real": "Lukas Thoma",
+    "edad": 26,
+    "equipo": "Vitality.Bee",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LuroxLoL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lurox.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Lurox#Lurox",
+      "nivel": 1147,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 802,
+      "victorias": 680,
+      "derrotas": 648,
+      "ultima_partida": 1760898155334
+    },
+    {
+      "nombre": "Lurox#LRX76",
+      "nivel": 396,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 70,
+      "victorias": 103,
+      "derrotas": 61,
+      "ultima_partida": 1759352529834
+    },
+    {
+      "nombre": "Lurox#LRX",
+      "nivel": 42,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.731707317073171
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 9.294117647058824
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 1.9487179487179487
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 5.619047619047619
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.2727272727272725
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 24,
+    "losses": 26,
+    "timePlayed": 76016
+  }
+}

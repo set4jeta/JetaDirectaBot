@@ -1,0 +1,150 @@
+{
+  "info_jugador": {
+    "nombre": "Reptile",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Reptile9LoL",
+      "twitch": "\\thttps://twitch.tv/reptile9lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/reptile.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/CGN.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "GOONARA#AURA",
+      "nivel": 38,
+      "liga": "DIAMOND III",
+      "lp": 45,
+      "victorias": 54,
+      "derrotas": 21,
+      "ultima_partida": 1753317434145
+    },
+    {
+      "nombre": "Reptile#Nein9",
+      "nivel": 311,
+      "liga": "MASTER I",
+      "lp": 555,
+      "victorias": 192,
+      "derrotas": 166,
+      "ultima_partida": 1753304760420
+    },
+    {
+      "nombre": "BACKSHOTSDEMON#DELUX",
+      "nivel": 572,
+      "liga": "MASTER I",
+      "lp": 700,
+      "victorias": 488,
+      "derrotas": 444,
+      "ultima_partida": 1753300909315
+    },
+    {
+      "nombre": "Reptiledevourer9#EUW",
+      "nivel": 131,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1752812658461
+    },
+    {
+      "nombre": "WHITE MONSTER#M69",
+      "nivel": 60,
+      "liga": "DIAMOND I",
+      "lp": 55,
+      "victorias": 153,
+      "derrotas": 152,
+      "ultima_partida": 1750442258843
+    },
+    {
+      "nombre": "Neo#EUW9",
+      "nivel": 97,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 70,
+      "victorias": 42,
+      "winrate": "60.0%",
+      "kda_promedio": 2.7120181405895694
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 24,
+      "victorias": 10,
+      "winrate": "41.7%",
+      "kda_promedio": 1.7125
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 2.4935064935064934
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 15,
+      "victorias": 12,
+      "winrate": "80.0%",
+      "kda_promedio": 3.432098765432099
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.9661016949152543
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.5245901639344264
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.423076923076923
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 167,
+    "wins": 98,
+    "losses": 69,
+    "timePlayed": 269990
+  }
+}

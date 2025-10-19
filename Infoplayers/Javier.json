@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "Javier",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/JavierrLoL",
+      "twitch": "https://twitch.tv/javierrlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/javier.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/RBLS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Javier#RITO",
+      "nivel": 1066,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1172,
+      "victorias": 302,
+      "derrotas": 240,
+      "ultima_partida": 1760797581596
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 7,
+    "wins": 5,
+    "losses": 2,
+    "timePlayed": 11246
+  }
+}

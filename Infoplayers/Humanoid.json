@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Humanoid",
+    "nombre_real": "Marek Brázda",
+    "edad": 25,
+    "equipo": "Forsaken (Polish Team)",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Humanoidlol",
+      "twitch": "https://twitch.tv/humanoiidd"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/humanoid.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Marek Brazda1#DOG",
+      "nivel": 1013,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1171,
+      "victorias": 494,
+      "derrotas": 433,
+      "ultima_partida": 1760901352454
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8055555555555554
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.878787878787879
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 6.095238095238095
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6086956521739131
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 74,
+    "wins": 41,
+    "losses": 33,
+    "timePlayed": 114726
+  }
+}

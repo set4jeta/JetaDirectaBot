@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Ferret",
+    "nombre_real": "Hakan Mert Çakmak",
+    "edad": 23,
+    "equipo": "GIANTX Academy",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/psychoferrett",
+      "twitch": "https://www.twitch.tv/psychoferrett"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/ferret.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Ferret25#8725",
+      "nivel": 492,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1025,
+      "victorias": 593,
+      "derrotas": 543,
+      "ultima_partida": 1760824019890
+    },
+    {
+      "nombre": "METROOOOOOOOO#EUW",
+      "nivel": 706,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 250,
+      "derrotas": 217,
+      "ultima_partida": 1760038829864
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6774193548387095
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.245614035087719
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 4.638888888888889
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1739130434782608
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2941176470588236
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.727272727272727
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 73,
+    "wins": 38,
+    "losses": 35,
+    "timePlayed": 111899
+  }
+}

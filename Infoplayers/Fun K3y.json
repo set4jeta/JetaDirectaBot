@@ -1,0 +1,78 @@
+{
+  "info_jugador": {
+    "nombre": "Fun K3y",
+    "nombre_real": "Johannes Werner",
+    "edad": 26,
+    "equipo": "ROSSMANN Centaurs",
+    "pais": "Germany",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/funk3ylol",
+      "twitch": "https://www.twitch.tv/funk3ylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "FUN k3y#EUW",
+      "nivel": 715,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 998,
+      "victorias": 315,
+      "derrotas": 267,
+      "ultima_partida": 1760885572600
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 6,
+    "losses": 6,
+    "timePlayed": 17473
+  }
+}

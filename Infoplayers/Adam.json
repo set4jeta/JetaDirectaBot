@@ -1,0 +1,156 @@
+{
+  "info_jugador": {
+    "nombre": "Adam",
+    "nombre_real": "Adam Maanane",
+    "edad": 23,
+    "equipo": "Natus Vincere",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Ricadam_lol",
+      "twitch": "https://twitch.tv/ricadam_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/adam.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": " Nothing much#EUW",
+      "nivel": 652,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1366,
+      "victorias": 595,
+      "derrotas": 512,
+      "ultima_partida": 1760896931693
+    },
+    {
+      "nombre": "ネフェルピトー#9083",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 907,
+      "victorias": 122,
+      "derrotas": 61,
+      "ultima_partida": 1760297023672
+    },
+    {
+      "nombre": "Edahn Khun#Aura",
+      "nivel": 39,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 61,
+      "derrotas": 24,
+      "ultima_partida": 1755107488655
+    },
+    {
+      "nombre": "Make a wish#EU1",
+      "nivel": 70,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 235,
+      "derrotas": 191,
+      "ultima_partida": 1748898173843
+    },
+    {
+      "nombre": "Neuvillette#Xiao",
+      "nivel": 69,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 226,
+      "derrotas": 185,
+      "ultima_partida": 1746307650645
+    },
+    {
+      "nombre": "EUBEST#KR2",
+      "nivel": 54,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 143,
+      "derrotas": 113,
+      "ultima_partida": 1740530679875
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Elise",
+      "partidas": 43,
+      "victorias": 29,
+      "winrate": "67.4%",
+      "kda_promedio": 2.3680555555555554
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 28,
+      "victorias": 15,
+      "winrate": "53.6%",
+      "kda_promedio": 2.475862068965517
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 2.2956521739130435
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 1.8793103448275863
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1702127659574466
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 2.819277108433735
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.5121951219512195
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.326086956521739
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 254,
+    "wins": 137,
+    "losses": 117,
+    "timePlayed": 411004
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "XnS",
+    "nombre_real": "Enes Hansu",
+    "edad": 22,
+    "equipo": "BK ROG Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/XnSlol",
+      "twitch": "https://www.twitch.tv/xnslol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/xns.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BKR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "SeXnS#XnS",
+      "nivel": 346,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1350,
+      "victorias": 463,
+      "derrotas": 392,
+      "ultima_partida": 1760606805387
+    },
+    {
+      "nombre": "XnS#XnS",
+      "nivel": 642,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 539,
+      "victorias": 193,
+      "derrotas": 165,
+      "ultima_partida": 1760274738993
+    },
+    {
+      "nombre": "Thomas Shelby#SOLOQ",
+      "nivel": 64,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 95,
+      "victorias": 85,
+      "derrotas": 61,
+      "ultima_partida": 1757248426012
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.810810810810811
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.892857142857143
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.380952380952381
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.4705882352941178
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.466666666666667
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.888888888888889
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 70,
+    "wins": 31,
+    "losses": 39,
+    "timePlayed": 116688
+  }
+}

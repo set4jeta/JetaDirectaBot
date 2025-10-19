@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Kappa1",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kappa72473769",
+      "twitch": "https://twitch.tv/kappa__euw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TheodoreJea#EUW",
+      "nivel": 246,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1135,
+      "victorias": 379,
+      "derrotas": 327,
+      "ultima_partida": 1760793996796
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 1.6636363636363636
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.048780487804878
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.1707317073170733
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9523809523809523
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5625
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.526315789473684
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 50,
+    "wins": 32,
+    "losses": 18,
+    "timePlayed": 80236
+  }
+}

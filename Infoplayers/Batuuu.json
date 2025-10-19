@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Batuuu",
+    "nombre_real": "Batu Kaygusuz",
+    "edad": 20,
+    "equipo": "Misa Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Batuuulol",
+      "twitch": "https://www.twitch.tv/batuuulol1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/batuuu.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Kral Batuuu#kral",
+      "nivel": 895,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1103,
+      "victorias": 711,
+      "derrotas": 658,
+      "ultima_partida": 1760653008576
+    },
+    {
+      "nombre": "Bâtuuu#EUW",
+      "nivel": 129,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 120,
+      "victorias": 235,
+      "derrotas": 220,
+      "ultima_partida": 1760234572558
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 6.162162162162162
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.6818181818181817
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.066666666666667
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.282051282051282
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0476190476190474
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 32,
+    "losses": 28,
+    "timePlayed": 95832
+  }
+}

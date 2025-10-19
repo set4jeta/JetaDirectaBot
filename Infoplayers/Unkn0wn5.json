@@ -1,0 +1,102 @@
+{
+  "info_jugador": {
+    "nombre": "Unkn0wn5",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Unkn0wn5_lol",
+      "twitch": "https://www.twitch.tv/unkn0wn05"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SGE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "LOCK TF INNNNNNN#6802",
+      "nivel": 127,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1326,
+      "victorias": 339,
+      "derrotas": 270,
+      "ultima_partida": 1753641927740
+    },
+    {
+      "nombre": "Unkn0wn#EUW11",
+      "nivel": 354,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 25,
+      "victorias": 151,
+      "derrotas": 126,
+      "ultima_partida": 1752833495791
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8695652173913044
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 21029
+  }
+}

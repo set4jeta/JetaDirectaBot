@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Eika",
+    "nombre_real": "Jérémy Valdenaire",
+    "edad": 29,
+    "equipo": "Gentle Mates",
+    "pais": "France",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Eikalol",
+      "twitch": "https://twitch.tv/eikap"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/eika.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Jonathan Bailey#zzz",
+      "nivel": 1108,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1016,
+      "victorias": 611,
+      "derrotas": 554,
+      "ultima_partida": 1760704612436
+    },
+    {
+      "nombre": "Captain AmerEika#M8WIN",
+      "nivel": 46,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 627,
+      "victorias": 87,
+      "derrotas": 42,
+      "ultima_partida": 1760279214607
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 5.151515151515151
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2058823529411766
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0714285714285714
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.235294117647059
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 49,
+    "wins": 30,
+    "losses": 19,
+    "timePlayed": 82437
+  }
+}

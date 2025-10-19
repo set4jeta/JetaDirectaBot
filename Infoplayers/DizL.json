@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "DizL",
+    "nombre_real": "Timothy Warscher",
+    "edad": 23,
+    "equipo": "All for One Gaming",
+    "pais": "Austria",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LoL_DizL"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/dizl.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/A41G.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "DizL#2297",
+      "nivel": 947,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 869,
+      "victorias": 165,
+      "derrotas": 130,
+      "ultima_partida": 1753565183924
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 27,
+      "victorias": 17,
+      "winrate": "63.0%",
+      "kda_promedio": 2.9172413793103447
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8857142857142857
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0444444444444445
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 35,
+    "losses": 22,
+    "timePlayed": 92537
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Dreilix",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/dreilix"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/NXT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Light#CN3",
+      "nivel": 731,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 903,
+      "victorias": 839,
+      "derrotas": 782,
+      "ultima_partida": 1760874997422
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Xayah",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 2.652173913043478
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.2916666666666665
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.5853658536585367
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5789473684210527
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.05
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7826086956521738
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.636363636363637
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4444444444444446
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 70,
+    "wins": 38,
+    "losses": 32,
+    "timePlayed": 120261
+  }
+}

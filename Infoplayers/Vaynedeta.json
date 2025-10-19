@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Vaynedeta",
+    "nombre_real": "Stavros Giannoulakis",
+    "edad": 24,
+    "equipo": "Team Phantasma",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/vaynedeta27"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "VΥD#EUW",
+      "nivel": 527,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 888,
+      "victorias": 285,
+      "derrotas": 233,
+      "ultima_partida": 1760678240063
+    },
+    {
+      "nombre": "OLA MESΑ#EUW",
+      "nivel": 312,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 109,
+      "derrotas": 84,
+      "ultima_partida": 1756555928194
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4901960784313726
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.42
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7560975609756095
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.083333333333333
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.166666666666667
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 24,
+    "losses": 20,
+    "timePlayed": 67541
+  }
+}

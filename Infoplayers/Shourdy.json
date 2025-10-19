@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Shourdy",
+    "nombre_real": "Lucas Santos",
+    "edad": 19,
+    "equipo": "Odivelas Sports Club",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ShourdyLOL",
+      "twitch": "https://www.twitch.tv/shourdylol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/OSC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Shourdy#EUW",
+      "nivel": 1199,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 787,
+      "victorias": 828,
+      "derrotas": 794,
+      "ultima_partida": 1760825218096
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 39,
+      "victorias": 23,
+      "winrate": "59.0%",
+      "kda_promedio": 2.358288770053476
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 21,
+      "victorias": 8,
+      "winrate": "38.1%",
+      "kda_promedio": 1.6827586206896552
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 19,
+      "victorias": 8,
+      "winrate": "42.1%",
+      "kda_promedio": 1.5365853658536586
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.532258064516129
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7258064516129032
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.411764705882353
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 111,
+    "wins": 52,
+    "losses": 59,
+    "timePlayed": 177967
+  }
+}

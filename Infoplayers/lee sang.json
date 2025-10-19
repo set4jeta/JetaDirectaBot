@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "lee sang",
+    "nombre_real": "Patryk Kozłowski",
+    "edad": 21,
+    "equipo": "Komil and Friends",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Iee_Sang1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "악몽천사운명#LPL",
+      "nivel": 1127,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1072,
+      "victorias": 526,
+      "derrotas": 481,
+      "ultima_partida": 1760894106568
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6140350877192984
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.7733333333333334
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.6785714285714286
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6296296296296298
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.9047619047619047
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.022222222222222
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5869565217391304
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.586206896551724
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 106,
+    "wins": 58,
+    "losses": 48,
+    "timePlayed": 171764
+  }
+}

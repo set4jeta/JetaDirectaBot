@@ -1,0 +1,77 @@
+{
+  "info_jugador": {
+    "nombre": "Dunks",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sigma_Dunks"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Optimus Prime#FEUR",
+      "nivel": 1124,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 925,
+      "victorias": 393,
+      "derrotas": 346,
+      "ultima_partida": 1760820777636
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sett",
+      "partidas": 21,
+      "victorias": 15,
+      "winrate": "71.4%",
+      "kda_promedio": 2.953271028037383
+    },
+    {
+      "nombre": "Urgot",
+      "partidas": 18,
+      "victorias": 7,
+      "winrate": "38.9%",
+      "kda_promedio": 2.4430379746835444
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.259259259259259
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 29,
+    "losses": 24,
+    "timePlayed": 93215
+  }
+}

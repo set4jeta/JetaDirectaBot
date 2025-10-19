@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sleyer",
+    "nombre_real": "Eric Xie",
+    "edad": 19,
+    "equipo": "Lille Esport",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/SLEYERCOOL",
+      "twitch": "https://www.twitch.tv/sleyercool"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "神耶稣圣灵#YHWH",
+      "nivel": 986,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1354,
+      "victorias": 528,
+      "derrotas": 458,
+      "ultima_partida": 1760780705206
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Riven",
+      "partidas": 39,
+      "victorias": 21,
+      "winrate": "53.8%",
+      "kda_promedio": 3.3185185185185184
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.3793103448275863
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5172413793103448
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 68,
+    "wins": 35,
+    "losses": 33,
+    "timePlayed": 116094
+  }
+}

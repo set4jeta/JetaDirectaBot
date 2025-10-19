@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Septico1",
+    "nombre_real": "Cristian Axinte",
+    "edad": 24,
+    "equipo": "GnG Amazigh",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/septico11",
+      "twitch": "https://www.twitch.tv/septico1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GNG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "septico1#EUW",
+      "nivel": 833,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1034,
+      "victorias": 569,
+      "derrotas": 514,
+      "ultima_partida": 1760883251845
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.08
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 2.53125
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5357142857142858
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1162790697674418
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2105263157894737
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4166666666666667
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 40,
+    "losses": 27,
+    "timePlayed": 106930
+  }
+}

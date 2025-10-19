@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "zamulek",
+    "nombre_real": "Dominik&nbsp;Paweł Biela",
+    "edad": 21,
+    "equipo": "StormMedia Fajnie Mieć Skład",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/zamuleklol",
+      "twitch": "https://www.twitch.tv/zamulek"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FMS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "lysa kuяva#FMS",
+      "nivel": 722,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 772,
+      "victorias": 383,
+      "derrotas": 342,
+      "ultima_partida": 1753700063539
+    },
+    {
+      "nombre": "zamul333k#2024",
+      "nivel": 308,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 262,
+      "victorias": 146,
+      "derrotas": 124,
+      "ultima_partida": 1753693631094
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 22,
+      "victorias": 9,
+      "winrate": "40.9%",
+      "kda_promedio": 1.6758620689655173
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.024390243902439
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0384615384615385
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 23,
+    "losses": 28,
+    "timePlayed": 80050
+  }
+}

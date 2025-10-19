@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Rin",
+    "nombre_real": "Khalil Sahraoui",
+    "edad": 22,
+    "equipo": "Los Heretics",
+    "pais": "Algeria",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/adcRin",
+      "twitch": "https://twitch.tv/rin_ad"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/rin.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/HRTS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "frank castle#hrts",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1187,
+      "victorias": 113,
+      "derrotas": 34,
+      "ultima_partida": 1760874828253
+    },
+    {
+      "nombre": "한 배치#rin",
+      "nivel": 712,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 193,
+      "victorias": 463,
+      "derrotas": 408,
+      "ultima_partida": 1760549656983
+    },
+    {
+      "nombre": "7546723453#EUW",
+      "nivel": 244,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 11,
+      "derrotas": 6,
+      "ultima_partida": 1741691517085
+    },
+    {
+      "nombre": "Happy#KR333",
+      "nivel": 113,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 14,
+      "derrotas": 11,
+      "ultima_partida": 1736868717012
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 3.2577319587628866
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.606060606060606
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.2432432432432434
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0909090909090908
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 40,
+    "losses": 17,
+    "timePlayed": 93232
+  }
+}

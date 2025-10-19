@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Joinze",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Joinzelol\\t",
+      "twitch": "\\thttps://www.twitch.tv/joinzelol\\t"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/joinze.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Vitinha#VITI",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 886,
+      "victorias": 109,
+      "derrotas": 47,
+      "ultima_partida": 1760269658137
+    },
+    {
+      "nombre": "Nuno Mendes#2171",
+      "nivel": 274,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 804,
+      "victorias": 476,
+      "derrotas": 397,
+      "ultima_partida": 1760195665575
+    },
+    {
+      "nombre": "Joinze#EUW",
+      "nivel": 698,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 97,
+      "derrotas": 82,
+      "ultima_partida": 1755084174963
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 18,
+      "victorias": 9,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7422680412371134
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 3.3376623376623376
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.423076923076923
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.1
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.666666666666666
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 35,
+    "losses": 27,
+    "timePlayed": 102932
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Panda2",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Pandaazz"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Panda#32111",
+      "nivel": 743,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1202,
+      "victorias": 519,
+      "derrotas": 464,
+      "ultima_partida": 1760890062308
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 2.9857142857142858
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 13,
+      "victorias": 9,
+      "winrate": "69.2%",
+      "kda_promedio": 4.084745762711864
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 1.972972972972973
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.242424242424242
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.638888888888889
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0952380952380953
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 102,
+    "wins": 58,
+    "losses": 44,
+    "timePlayed": 164528
+  }
+}

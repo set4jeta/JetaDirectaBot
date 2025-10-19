@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Twiizt",
+    "nombre_real": "Elton Richie Garcia Spetsig",
+    "edad": 24,
+    "equipo": "Joblife",
+    "pais": "Sweden",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Twiiztlol",
+      "twitch": "https://www.twitch.tv/twiiztlol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/twiizt.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/JL.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Nubobo#EUW",
+      "nivel": 297,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 821,
+      "victorias": 258,
+      "derrotas": 225,
+      "ultima_partida": 1760745335963
+    },
+    {
+      "nombre": "Ado fan#EUW",
+      "nivel": 254,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1149,
+      "victorias": 278,
+      "derrotas": 211,
+      "ultima_partida": 1760742351857
+    },
+    {
+      "nombre": "Gorubo fan#EUW",
+      "nivel": 172,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 5,
+      "derrotas": 5,
+      "ultima_partida": 1741213859445
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rakan",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.731707317073171
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5.48
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.823529411764706
+    },
+    {
+      "nombre": "Sona",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 6.8125
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.285714285714286
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 22,
+    "losses": 26,
+    "timePlayed": 82904
+  }
+}

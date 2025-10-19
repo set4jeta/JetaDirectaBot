@@ -1,0 +1,49 @@
+{
+  "info_jugador": {
+    "nombre": "Trez",
+    "nombre_real": "Georgia Wheeler",
+    "edad": 27,
+    "equipo": "SK Gaming Avarosa",
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Trez_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/SNC.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Phil Hellmuth#brat",
+      "nivel": 699,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 924,
+      "victorias": 278,
+      "derrotas": 234,
+      "ultima_partida": 1760791605838
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ivern",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 6.782608695652174
+    },
+    {
+      "nombre": "Nunu",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5833333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 5,
+    "losses": 6,
+    "timePlayed": 19871
+  }
+}

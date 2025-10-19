@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Petersen",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Petersen_lol",
+      "twitch": "https://www.twitch.tv/petersen_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/UNIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "404 Petersén#Adc",
+      "nivel": 645,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 953,
+      "victorias": 379,
+      "derrotas": 319,
+      "ultima_partida": 1760719696594
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7692307692307692
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13.5
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 8,
+    "losses": 7,
+    "timePlayed": 22971
+  }
+}

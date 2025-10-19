@@ -1,0 +1,71 @@
+{
+  "info_jugador": {
+    "nombre": "Kituruken",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/kituruken",
+      "twitch": "https://www.twitch.tv/Kituruken"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "kituruken#1717",
+      "nivel": 886,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 750,
+      "victorias": 176,
+      "derrotas": 146,
+      "ultima_partida": 1753725695930
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.392857142857143
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2083333333333335
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.4
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 8,
+    "losses": 6,
+    "timePlayed": 24027
+  }
+}

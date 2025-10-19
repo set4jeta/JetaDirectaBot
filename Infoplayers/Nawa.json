@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Nawa",
+    "nombre_real": "Mahmut Zitto",
+    "edad": 19,
+    "equipo": "Gamespace Mediterranean College Esports",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Nawa_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nawa.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Whiplash#zzzzz",
+      "nivel": 706,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 750,
+      "victorias": 578,
+      "derrotas": 525,
+      "ultima_partida": 1760892228383
+    },
+    {
+      "nombre": "sad and bad#2k25",
+      "nivel": 143,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 439,
+      "victorias": 208,
+      "derrotas": 176,
+      "ultima_partida": 1760700442718
+    },
+    {
+      "nombre": "never give up#1412",
+      "nivel": 273,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 245,
+      "derrotas": 207,
+      "ultima_partida": 1755821897281
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Smolder",
+      "partidas": 27,
+      "victorias": 18,
+      "winrate": "66.7%",
+      "kda_promedio": 3.393939393939394
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 16,
+      "victorias": 5,
+      "winrate": "31.2%",
+      "kda_promedio": 2.1296296296296298
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 14,
+      "victorias": 5,
+      "winrate": "35.7%",
+      "kda_promedio": 2.4022988505747125
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 3.4047619047619047
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.176470588235294
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.1746031746031744
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.1029411764705883
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6111111111111112
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 151,
+    "wins": 71,
+    "losses": 80,
+    "timePlayed": 236783
+  }
+}

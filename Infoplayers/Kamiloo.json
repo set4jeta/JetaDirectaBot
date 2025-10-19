@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kamiloo",
+    "nombre_real": "Kamil Haudegond",
+    "edad": 20,
+    "equipo": "Team Heretics",
+    "pais": "France",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kamiloo_LoL",
+      "twitch": "https://twitch.tv/kamiloo_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/kamiloo.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Labubu IRL#macha",
+      "nivel": 53,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1435,
+      "victorias": 132,
+      "derrotas": 43,
+      "ultima_partida": 1760720543781
+    },
+    {
+      "nombre": "Limitless limits#FIRE",
+      "nivel": 897,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 508,
+      "derrotas": 452,
+      "ultima_partida": 1760214522479
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5675675675675675
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.65625
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 9.454545454545455
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.217391304347826
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.652173913043478
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.111111111111111
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 82,
+    "wins": 54,
+    "losses": 28,
+    "timePlayed": 131986
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "DenVoksne",
+    "nombre_real": "Nikolaj&nbsp;Asbjorn Meilby",
+    "edad": 24,
+    "equipo": "Unicorns of Love Sexy Edition",
+    "pais": "Denmark",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/DenVoksneLoL",
+      "twitch": "https://www.twitch.tv/denvoksne"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Mαster Oogwαy#EUW",
+      "nivel": 367,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1901,
+      "victorias": 362,
+      "derrotas": 254,
+      "ultima_partida": 1760904270331
+    },
+    {
+      "nombre": "ronort59#Oog",
+      "nivel": 827,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1360,
+      "victorias": 475,
+      "derrotas": 407,
+      "ultima_partida": 1760734746258
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 53,
+      "victorias": 34,
+      "winrate": "64.2%",
+      "kda_promedio": 3.8177083333333335
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.8846153846153846
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.526315789473684
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5714285714285714
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 93,
+    "wins": 57,
+    "losses": 36,
+    "timePlayed": 151344
+  }
+}

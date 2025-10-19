@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Kirei",
+    "nombre_real": "Thomas Yuen",
+    "edad": 28,
+    "equipo": "CGN Esports",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/KireiLoL",
+      "twitch": "https://twitch.tv/kireiop"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Coach Kirei#Coach",
+      "nivel": 813,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 781,
+      "victorias": 277,
+      "derrotas": 231,
+      "ultima_partida": 1760793982387
+    },
+    {
+      "nombre": "GrandpaMentals#T2BOT",
+      "nivel": 532,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 410,
+      "victorias": 132,
+      "derrotas": 103,
+      "ultima_partida": 1760705520748
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lillia",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.5671641791044775
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6805555555555554
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7647058823529411
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 27
+    },
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 18,
+    "losses": 23,
+    "timePlayed": 66176
+  }
+}

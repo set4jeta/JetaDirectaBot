@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Czekolad",
+    "nombre_real": "Paweł Szczepanik",
+    "edad": 25,
+    "equipo": "Barça eSports",
+    "pais": "Poland",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/CzekoladLol",
+      "twitch": "https://twitch.tv/czekolad_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/czekolad.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/BAR.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "LEC 2026#OLD",
+      "nivel": 568,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 869,
+      "victorias": 153,
+      "derrotas": 99,
+      "ultima_partida": 1760714784121
+    },
+    {
+      "nombre": "Czekolad#BAR",
+      "nivel": 514,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 282,
+      "derrotas": 253,
+      "ultima_partida": 1758746965464
+    },
+    {
+      "nombre": "Mambeppé#EUW",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 8,
+      "derrotas": 9,
+      "ultima_partida": 1757424610770
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.5625
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.2962962962962963
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6428571428571428
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5384615384615384
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 15,
+    "losses": 13,
+    "timePlayed": 46437
+  }
+}

@@ -1,0 +1,50 @@
+
+- Crear to dict en cada clase que use objetos instanciados 
+
+- crear storage carpeta y los save and load data, hacer el flujo de carpeta Fotos
+
+- crear el dict from to 
+https://chat.deepseek.com/a/chat/s/39797c6c-7f88-4c8e-a60b-3edefc1d6b3c
+
+https://chat.deepseek.com/a/chat/s/cf429756-b230-41cd-ad54-3a0f565592de
+
+
+    class MatchTracker:
+        def __init__(self, api: LolEsportsAPI):
+            self.api = api
+            self.tracked_matches: Dict[str, Match] = {}
+            self.live_games: Dict[str, LiveGameData] = {}
+        
+        async def update_matches(self):
+            """Actualiza todos los partidos trackeados"""
+            schedule = await self.api.get_schedule()
+            
+            # Actualizar partidos existentes
+            for match in schedule:
+                if match.id in self.tracked_matches:
+                    self._update_match_data(match)
+                else:
+                    self.tracked_matches[match.id] = match
+                    
+            # Verificar estado de juegos en vivo
+            await self._check_live_games()
+        
+        def _update_match_data(self, new_data: Match):
+            """Actualiza los datos de un partido existente"""
+            existing = self.tracked_matches[new_data.id]
+            existing.state = new_data.state
+            existing.games = new_data.games
+            existing.teams = new_data.teams
+        
+        async def _check_live_games(self):
+            """Verifica y actualiza el estado de los juegos en vivo"""
+            for game in list(self.live_games.values()):
+                updated_data = await self.api.get_live_stats(game.game_id)
+                
+                # Actualizar frames y estado del juego
+                game.frames = updated_data.frames
+                game.game_state = updated_data.game_state
+                
+                # Si el juego terminó, dejar de trackear
+                if game.game_state == "finished":
+                    del self.live_games[game.game_id]

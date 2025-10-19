@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "many",
+    "nombre_real": "Jakub Tylman",
+    "edad": 22,
+    "equipo": "Back2TheGame",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Kralzer1"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/B2TG.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Jim Lindsay#dexta",
+      "nivel": 521,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 864,
+      "victorias": 422,
+      "derrotas": 388,
+      "ultima_partida": 1760857198716
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.3125
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 6,
+    "losses": 9,
+    "timePlayed": 23741
+  }
+}

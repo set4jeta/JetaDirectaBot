@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Erdote",
+    "nombre_real": "Robert Nowak",
+    "edad": 26,
+    "equipo": "Gentle Mates",
+    "pais": "Poland",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Erdote_lol",
+      "twitch": "https://www.twitch.tv/erdote_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/erdote.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Erdote#001",
+      "nivel": 596,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1156,
+      "victorias": 368,
+      "derrotas": 299,
+      "ultima_partida": 1760800613710
+    },
+    {
+      "nombre": "JD ROBERCIK#OKS",
+      "nivel": 426,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 261,
+      "derrotas": 242,
+      "ultima_partida": 1758726933912
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 4.282051282051282
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 2.5841584158415842
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 2.593220338983051
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.481481481481482
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.2413793103448274
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.1666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 83,
+    "wins": 40,
+    "losses": 43,
+    "timePlayed": 130519
+  }
+}

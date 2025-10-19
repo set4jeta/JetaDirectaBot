@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Tea",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Teamid17"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Tea#2299",
+      "nivel": 1324,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1066,
+      "victorias": 1244,
+      "derrotas": 1182,
+      "ultima_partida": 1760891550664
+    },
+    {
+      "nombre": "NS Callme#KR11",
+      "nivel": 125,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 548,
+      "victorias": 204,
+      "derrotas": 161,
+      "ultima_partida": 1760644315267
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vladimir",
+      "partidas": 55,
+      "victorias": 28,
+      "winrate": "50.9%",
+      "kda_promedio": 2.69327731092437
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 17,
+      "victorias": 8,
+      "winrate": "47.1%",
+      "kda_promedio": 2.3703703703703702
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 16,
+      "victorias": 11,
+      "winrate": "68.8%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 2.0806451612903225
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.6122448979591835
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5185185185185186
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 172,
+    "wins": 85,
+    "losses": 87,
+    "timePlayed": 263026
+  }
+}

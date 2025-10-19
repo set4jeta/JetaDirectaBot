@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Archfiend",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/666Aarchfiend",
+      "twitch": "\\thttps://www.twitch.tv/aaarchfiend"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "AαrchΦiend#666",
+      "nivel": 115,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1059,
+      "victorias": 337,
+      "derrotas": 256,
+      "ultima_partida": 1760886538535
+    },
+    {
+      "nombre": "S levche#Italy",
+      "nivel": 272,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 375,
+      "derrotas": 353,
+      "ultima_partida": 1756888517288
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 60,
+      "victorias": 34,
+      "winrate": "56.7%",
+      "kda_promedio": 2.303030303030303
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 24,
+      "victorias": 11,
+      "winrate": "45.8%",
+      "kda_promedio": 2.268041237113402
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.148936170212766
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.225
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.05
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 0.90625
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.0740740740740742
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.1875
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 147,
+    "wins": 71,
+    "losses": 76,
+    "timePlayed": 234157
+  }
+}

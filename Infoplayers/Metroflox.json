@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Metroflox",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Metroflox1",
+      "twitch": "https://www.twitch.tv/metroflox"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ZENA.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "Metroflox#EUW",
+      "nivel": 928,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 921,
+      "victorias": 195,
+      "derrotas": 155,
+      "ultima_partida": 1753653673415
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ziggs",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.402439024390244
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9411764705882355
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 26
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 26,
+    "wins": 13,
+    "losses": 13,
+    "timePlayed": 46874
+  }
+}

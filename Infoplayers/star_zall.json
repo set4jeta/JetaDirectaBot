@@ -1,0 +1,42 @@
+{
+  "info_jugador": {
+    "nombre": "star_zall",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://twitch.tv/star_zall"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/star_zall.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "star zall#twtv",
+      "nivel": 424,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 766,
+      "victorias": 495,
+      "derrotas": 466,
+      "ultima_partida": 1753665581201
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Veigar",
+      "partidas": 88,
+      "victorias": 42,
+      "winrate": "47.7%",
+      "kda_promedio": 2.04868154158215
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 88,
+    "wins": 42,
+    "losses": 46,
+    "timePlayed": 136629
+  }
+}

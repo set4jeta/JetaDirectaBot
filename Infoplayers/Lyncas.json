@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Lyncas",
+    "nombre_real": "Linas Nauncikas",
+    "edad": 21,
+    "equipo": "Team Vitality",
+    "pais": "Lithuania",
+    "contrato_hasta": "2026-11-26T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lyncaslol",
+      "twitch": "https://twitch.tv/lyncaslol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/lyncas.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "JG top boy#lync1",
+      "nivel": 1049,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1518,
+      "victorias": 526,
+      "derrotas": 427,
+      "ultima_partida": 1760884056917
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 14,
+      "victorias": 12,
+      "winrate": "85.7%",
+      "kda_promedio": 7.128205128205129
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.742857142857143
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 18,
+    "losses": 15,
+    "timePlayed": 51924
+  }
+}

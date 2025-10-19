@@ -1,0 +1,95 @@
+{
+  "info_jugador": {
+    "nombre": "4zr",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/oh4zr",
+      "twitch": "https://twitch.tv/4zrr"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/4zr.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "4zr#99999",
+      "nivel": 222,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 45,
+      "victorias": 84,
+      "derrotas": 49,
+      "ultima_partida": 1760860390064
+    },
+    {
+      "nombre": "Little Giant#4zr",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 841,
+      "victorias": 101,
+      "derrotas": 43,
+      "ultima_partida": 1760325472969
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 21,
+      "victorias": 15,
+      "winrate": "71.4%",
+      "kda_promedio": 4.156626506024097
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 37,
+    "losses": 22,
+    "timePlayed": 92178
+  }
+}

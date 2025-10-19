@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Sheo",
+    "nombre_real": "Théo Borile",
+    "edad": 24,
+    "equipo": "Team Heretics",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sheo_lol",
+      "twitch": "https://twitch.tv/sheo_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/sheo.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "ping moi je te#tue",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 828,
+      "victorias": 103,
+      "derrotas": 42,
+      "ultima_partida": 1760280607541
+    },
+    {
+      "nombre": "worthless pride#fear",
+      "nivel": 612,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 977,
+      "victorias": 501,
+      "derrotas": 466,
+      "ultima_partida": 1759787993280
+    },
+    {
+      "nombre": "Iguchi Tatsuya#gang",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 125,
+      "derrotas": 65,
+      "ultima_partida": 1758120262909
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jax",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.1914893617021276
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.775
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.263157894736842
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1904761904761907
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.9473684210526315
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.142857142857143
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 34,
+    "losses": 26,
+    "timePlayed": 94000
+  }
+}

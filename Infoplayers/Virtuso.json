@@ -1,0 +1,95 @@
+{
+  "info_jugador": {
+    "nombre": "Virtuso",
+    "nombre_real": "Magnus Bonde",
+    "edad": 23,
+    "equipo": "regnum4games",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/VirtusoEUW",
+      "twitch": "https://www.twitch.tv/virtusoeuw"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Virtuso#4444",
+      "nivel": 805,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 878,
+      "victorias": 202,
+      "derrotas": 159,
+      "ultima_partida": 1760872310572
+    },
+    {
+      "nombre": "150 ms dirt hut#4444",
+      "nivel": 128,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 136,
+      "derrotas": 109,
+      "ultima_partida": 1755731550000
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sion",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.88
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 15,
+    "wins": 7,
+    "losses": 8,
+    "timePlayed": 23650
+  }
+}

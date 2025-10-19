@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "shidolovell",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/shidolovell"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "shido lovell#966",
+      "nivel": 522,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1218,
+      "victorias": 935,
+      "derrotas": 885,
+      "ultima_partida": 1760897350112
+    },
+    {
+      "nombre": "살인자살인자살인자살인자살인자살#살인자살인",
+      "nivel": 63,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 61,
+      "derrotas": 49,
+      "ultima_partida": 1743120381578
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 12,
+      "victorias": 11,
+      "winrate": "91.7%",
+      "kda_promedio": 4.869565217391305
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1555555555555554
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.6444444444444444
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.8837209302325582
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.7666666666666666
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7058823529411764
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.4
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 106,
+    "wins": 61,
+    "losses": 45,
+    "timePlayed": 173523
+  }
+}

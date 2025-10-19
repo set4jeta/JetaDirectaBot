@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Passzi",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/VPasszi",
+      "twitch": "https://www.twitch.tv/passzi_"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/GSNS.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "suppasszi#owo",
+      "nivel": 497,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 811,
+      "victorias": 581,
+      "derrotas": 533,
+      "ultima_partida": 1760883395783
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.6875
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.95
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.619047619047619
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.608695652173913
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 45,
+    "wins": 20,
+    "losses": 25,
+    "timePlayed": 73615
+  }
+}

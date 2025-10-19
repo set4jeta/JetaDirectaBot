@@ -1,0 +1,64 @@
+{
+  "info_jugador": {
+    "nombre": "Caucha",
+    "nombre_real": "Carlos Martinho",
+    "edad": 24,
+    "equipo": "FlameHard",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Caucha5",
+      "twitch": "https://www.twitch.tv/caucha"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/FLH.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "FLH Caucha#148",
+      "nivel": 1520,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 822,
+      "victorias": 897,
+      "derrotas": 856,
+      "ultima_partida": 1760872537099
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 33,
+      "victorias": 18,
+      "winrate": "54.5%",
+      "kda_promedio": 2.6504065040650406
+    },
+    {
+      "nombre": "Riven",
+      "partidas": 28,
+      "victorias": 17,
+      "winrate": "60.7%",
+      "kda_promedio": 3.215686274509804
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6129032258064515
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2727272727272727
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 70,
+    "wins": 37,
+    "losses": 33,
+    "timePlayed": 116088
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Empyros",
+    "nombre_real": "Panagiotis Tantis",
+    "edad": 21,
+    "equipo": "Gentle Mates",
+    "pais": "Greece",
+    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/EmpyrosGRE",
+      "twitch": "https://www.twitch.tv/empyros_lol"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "platamon prodigy#0000",
+      "nivel": 343,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 933,
+      "victorias": 242,
+      "derrotas": 192,
+      "ultima_partida": 1760892018834
+    },
+    {
+      "nombre": "pt4#000",
+      "nivel": 912,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1301,
+      "victorias": 548,
+      "derrotas": 494,
+      "ultima_partida": 1760888353483
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.95
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.9047619047619048
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.125
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 11,
+    "losses": 17,
+    "timePlayed": 42028
+  }
+}

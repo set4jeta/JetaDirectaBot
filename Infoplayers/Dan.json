@@ -1,0 +1,57 @@
+{
+  "info_jugador": {
+    "nombre": "Dan",
+    "nombre_real": "Daniel Hockley",
+    "edad": 29,
+    "equipo": "Anubis Gaming",
+    "pais": "United Kingdom",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/DanHockley_lol",
+      "twitch": "https://www.twitch.tv/Dan4114"
+    },
+    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "logo_equipo": "https://dpm.lol/esport/teams/ANB.webp"
+  },
+  "cuentas": [
+    {
+      "nombre": "4114#EUW",
+      "nivel": 308,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 845,
+      "victorias": 265,
+      "derrotas": 231,
+      "ultima_partida": 1760639860408
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "XinZhao",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.1139240506329116
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 9,
+    "losses": 8,
+    "timePlayed": 27013
+  }
+}

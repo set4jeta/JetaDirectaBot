@@ -64,13 +64,24 @@ def extraer_datos_nextjs(pagina: str):
 
 
 
-def obtener_datos_jugador(nombre_jugador: str, scraper) -> dict | None:
-    """Obtiene y estructura todos los datos del jugador"""
+def obtener_datos_jugador(nombre_jugador: str, scraper=None) -> dict | None:
+    """Obtiene y estructura todos los datos del jugador.
+
+    `scraper` se acepta y **se ignora**: antes se pasaba un cloudscraper desde
+    quien llamaba, y desde Render Cloudflare le contestaba 403. Ahora la petición
+    va por `apis.transporte_dpm`, que lleva el respaldo de curl_cffi. El parámetro
+    se mantiene para no romper a los scripts que lo pasan.
+    """
+    from apis import transporte_dpm
+
     url = f"https://dpm.lol/pro/{nombre_jugador}"
 
     try:
         log.debug("Descargando datos de %s", nombre_jugador)
-        response = scraper.get(url)
+        response = transporte_dpm.pedir(url, timeout=25)
+        if response is None:
+            log.debug("Sin respuesta para %s", nombre_jugador)
+            return None
         response.raise_for_status()
 
         datos_brutos, redes, imagen_jugador, logo_equipo = extraer_datos_nextjs(response.text)
@@ -144,7 +155,7 @@ def obtener_datos_jugador(nombre_jugador: str, scraper) -> dict | None:
         log.debug("Error obteniendo datos de %s: %s", nombre_jugador, e)
         return None
 
-def guardar_datos_jugador_en_json(nombre_jugador: str, scraper):
+def guardar_datos_jugador_en_json(nombre_jugador: str, scraper=None):
     """Guarda los datos del jugador en un JSON dentro de `Infoplayers/`.
 
     Aquí había una medición de memoria con `tracemalloc` que **hacía caer el
@@ -196,7 +207,7 @@ def guardar_datos_jugador_en_json(nombre_jugador: str, scraper):
 
 # Uso directo si se ejecuta este archivo
 if __name__ == "__main__":
-    scraper = cloudscraper.create_scraper()
+    # Sin scraper: `obtener_datos_jugador` pide por `transporte_dpm`.
     for jugador in ("Faker", "Caps", "113"):
-        guardar_datos_jugador_en_json(jugador, scraper)
+        guardar_datos_jugador_en_json(jugador)
 

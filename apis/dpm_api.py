@@ -36,7 +36,6 @@ from typing import Any
 from urllib.parse import urlencode
 
 import aiohttp
-import cloudscraper
 
 from apis import transporte_dpm
 
@@ -58,15 +57,6 @@ _TIMEOUT = config.DPM_TIMEOUT
 _local = threading.local()
 
 
-def _get_scraper():
-    """Devuelve el scraper del hilo actual, creándolo solo la primera vez."""
-    scraper = getattr(_local, "scraper", None)
-    if scraper is None:
-        scraper = cloudscraper.create_scraper(
-            browser={"browser": "chrome", "platform": "windows", "mobile": False}
-        )
-        _local.scraper = scraper
-    return scraper
 
 
 # Una sola sesión aiohttp para todo el proceso, con el conector limitado para

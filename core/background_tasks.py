@@ -482,20 +482,14 @@ async def actualizar_infoplayers_por_lotes():
 
     log.info("Infoplayers: actualizando %d de %d jugadores.", len(lote), len(nombres))
 
-    scraper = None
-    try:
-        import cloudscraper
-
-        scraper = await asyncio.to_thread(cloudscraper.create_scraper)
-    except Exception:
-        log.exception("No se pudo crear el scraper de Infoplayers.")
-        return
-
+    # Sin scraper propio: `guardar_datos_jugador_en_json` pide por
+    # `apis.transporte_dpm`, que lleva el respaldo de curl_cffi. Antes se creaba
+    # aquí un cloudscraper y desde Render Cloudflare le contestaba 403.
     ok = 0
     for nombre in lote:
         try:
             # Bloqueante: va a un hilo para no congelar el bot.
-            await asyncio.to_thread(guardar_datos_jugador_en_json, nombre, scraper)
+            await asyncio.to_thread(guardar_datos_jugador_en_json, nombre)
             ok += 1
         except Exception:
             log.debug("No se pudo actualizar Infoplayers de %s", nombre)

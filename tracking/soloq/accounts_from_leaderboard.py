@@ -34,8 +34,6 @@ import os
 from collections import defaultdict
 from typing import Any
 
-import cloudscraper
-
 from models.bootcamp_player import BootcampPlayer
 from utils.logger import get_logger
 from utils.safe_json import cargar_lista_json, guardar_lista_json
@@ -65,33 +63,40 @@ MAX_PAGES = 40
 TIMEOUT = 25
 
 
-def _fetch_plataforma(scraper, plataforma: str) -> tuple[list[dict[str, Any]], bool]:
+def _fetch_plataforma(plataforma: str) -> tuple[list[dict[str, Any]], bool]:
     """Todas las páginas de UNA plataforma. Devuelve `(filas, completo)`.
+
+    Va por `apis.transporte_dpm`, que intenta cloudscraper y **reintenta con
+    curl_cffi** cuando Cloudflare no deja pasar. Este módulo tenía su propio
+    `cloudscraper` y era el último que seguía fallando desde Render: los logs
+    decían `Leaderboard: 0 cuentas de 8 plataformas` mientras el resto del
+    scraping ya se había recuperado con el respaldo.
 
     `completo=False` significa que la descarga se cortó a mitad, y quien llame no
     debe tratar el resultado como definitivo.
     """
+    from apis import transporte_dpm
+
     todos: list[dict[str, Any]] = []
     vistos: set[str] = set()
     completo = True
     page = 0
 
     for page in range(1, MAX_PAGES + 1):
-        try:
-            resp = scraper.get(
-                ENDPOINT.format(page=page, platform=plataforma), timeout=TIMEOUT
-            )
-        except Exception as exc:
-            log.error("%s página %d: fallo de red (%s). Incompleta.", plataforma, page, exc)
+        resp = transporte_dpm.pedir(
+            ENDPOINT.format(page=page, platform=plataforma), timeout=TIMEOUT
+        )
+        if resp is None:
+            log.error("%s página %d: sin respuesta. Incompleta.", plataforma, page)
             completo = False
             break
 
-        if resp.status_code != 200:
+        if resp.status != 200:
             # 422 en una plataforma que dpm no conoce: no es un fallo de la
             # descarga entera, es que esa escalera no existe.
             log.warning(
                 "%s: HTTP %s en la página %d. Se salta esa escalera.",
-                plataforma, resp.status_code, page,
+                plataforma, resp.status, page,
             )
             return todos, True
 
@@ -130,15 +135,16 @@ def _fetch_plataforma(scraper, plataforma: str) -> tuple[list[dict[str, Any]], b
 def fetch_players() -> tuple[list[dict[str, Any]], bool]:
     """Descarga la escalera de pros de cada plataforma. `(jugadores, completo)`.
 
-    Un solo scraper para todas: crear uno por plataforma construye una sesión TLS
-    completa cada vez, y son ocho.
+    Sin cliente propio: cada petición va por `transporte_dpm`, que ya lleva el
+    respaldo de curl_cffi. Antes se creaba aquí un `cloudscraper` (con el
+    comentario de que uno solo valía para todas, que era cierto) y desde Render
+    Cloudflare le contestaba 403 a todas.
     """
-    scraper = cloudscraper.create_scraper()
     todos: list[dict[str, Any]] = []
     completo = True
 
     for plataforma in PLATAFORMAS:
-        filas, ok = _fetch_plataforma(scraper, plataforma)
+        filas, ok = _fetch_plataforma(plataforma)
         # La API ya manda `platform` en cada fila, pero se reescribe con la que se
         # ha pedido: es de lo que depende que la cuenta se consulte contra el
         # servidor correcto, y no se deja al criterio de un campo que puede

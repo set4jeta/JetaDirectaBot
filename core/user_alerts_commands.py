@@ -100,11 +100,11 @@ _TODO = {"todo", "todos", "todas", "all", "everything", "*"}
 #: `lck`, que es lo que hay guardado.
 _EJES_DE_LIGA = ("ligas", "partidos_ligas")
 
-#: Ejes que guardan nombres propios: nicks de pro y tricodes de equipo. Un valor
-#: que no es una liga puede estar en cualquiera de los dos, así que
-#: `/dejarseguir` los mira los dos en vez de exigirle al usuario que recuerde por
-#: qué comando se suscribió.
-_EJES_DE_NOMBRE = ("jugadores", "partidos_equipos")
+#: Ejes que guardan nombres propios: nicks de pro, tricodes de equipo y tricodes
+#: de partido. Un valor que no es una liga puede estar en cualquiera de los tres,
+#: así que `/untrack` los mira todos en vez de exigirle al usuario que recuerde
+#: por qué comando se suscribió.
+_EJES_DE_NOMBRE = ("jugadores", "equipos", "partidos_equipos")
 
 
 # ---------------------------------------------------------------------- #
@@ -149,6 +149,40 @@ def _pro_rastreado(nombre: str):
         # Un JSON a medio escribir no puede impedir que alguien se suscriba: se
         # guarda igual y se le avisa de que no se ha podido comprobar.
         log.exception("No se pudo leer accounts_from_teams.json para validar %r", nombre)
+    return None
+
+
+def _equipo_rastreado(nombre: str) -> tuple[str, str, str] | None:
+    """El equipo que coincide con lo escrito: `(tricode, nombre, liga)`.
+
+    Se busca en el roster ya descargado —lo que el bot está barriendo de verdad—
+    y se compara **el tricode y el nombre completo** (`T1` y `T1`, `FNC` y
+    `Fnatic`): la gente escribe las dos cosas y ninguna es más correcta.
+
+    Lo que se guarda es el tricode, porque es lo que trae la pasada en
+    `player.team` y con lo que compara `dm_notifier.destinatarios`. Guardar el
+    nombre completo dejaría una suscripción que no coincide nunca.
+
+    Devuelve `None` si no hay ningún equipo así, y entonces quien llama trata el
+    valor como un nick.
+    """
+    from tracking.soloq.accounts_io import load_tracked_accounts
+
+    objetivo = (nombre or "").strip().casefold()
+    if not objetivo:
+        return None
+    try:
+        for jugador in load_tracked_accounts():
+            tricode = (getattr(jugador, "team", "") or "").strip()
+            completo = (getattr(jugador, "team_name", "") or "").strip()
+            if objetivo in {tricode.casefold(), completo.casefold()} - {""}:
+                return (
+                    tricode,
+                    completo or tricode,
+                    (getattr(jugador, "league", "") or "").strip(),
+                )
+    except Exception:
+        log.exception("No se pudo leer el roster para validar el equipo %r", nombre)
     return None
 
 
@@ -260,7 +294,7 @@ def _descargar_roster_en_fondo(codigo: str) -> bool:
     las cuentas entran en el fichero en minutos, y la pasada siguiente (30 s) ya
     las consulta.
 
-    Se hace con `asyncio.to_thread` porque `anadir_ligas` va por `cloudscraper`
+    Se hace con `asyncio.to_thread` porque `refrescar_ligas` va por `cloudscraper`
     (bloquea) y con `create_task` para no meter minutos de scraping dentro de la
     respuesta a una interacción, que caduca a los 15 s. Si no hay bucle de
     eventos no se pierde nada: la tarea diaria lo hará igual.
@@ -271,11 +305,11 @@ def _descargar_roster_en_fondo(codigo: str) -> bool:
         return False
     _ultimo_alta = ahora
 
-    from tracking.soloq.accounts_from_teams import anadir_ligas
+    from tracking.soloq.accounts_from_teams import refrescar_ligas
 
     async def _tarea() -> None:
         try:
-            await asyncio.to_thread(anadir_ligas, [codigo])
+            await asyncio.to_thread(refrescar_ligas, [codigo])
         except Exception:
             # Un fallo aquí no puede tumbar el comando ni la pasada: la tarea
             # diaria lo reintenta con todas las ligas en uso.
@@ -312,14 +346,26 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
         return
 
     liga = resolver(texto)
-    eje = "ligas" if liga else "jugadores"
-    # Lo que se guarda de una liga es su código canónico (`korea` -> `lck`),
-    # porque es con lo que compara el reparto de avisos. De un pro se guarda el
-    # nombre tal cual lo trae la pasada cuando se reconoce; si no, lo que escribió
-    # el usuario, que es la única forma de que la suscripción sobreviva a que su
-    # liga se empiece a rastrear más tarde.
+    # Tres cosas se pueden escribir aquí, y el orden de comprobación importa:
+    # liga (por nombre, alias o código) → jugador del roster → equipo del roster.
+    # De lo que se guarda: de una liga su código canónico (`korea` -> `lck`),
+    # porque es con lo que compara el reparto; de un pro su nombre tal cual lo
+    # trae la pasada; de un equipo su tricode (`T1`), que es lo que trae la
+    # pasada en `player.team`.
     jugador = None if liga else _pro_rastreado(texto)
-    guardar = liga.codigo if liga else (getattr(jugador, "name", None) or texto)
+    equipo = None if (liga or jugador is not None) else _equipo_rastreado(texto)
+
+    if liga:
+        eje, guardar = "ligas", liga.codigo
+    elif jugador is not None:
+        eje, guardar = "jugadores", (getattr(jugador, "name", None) or texto)
+    elif equipo is not None:
+        eje, guardar = "equipos", equipo[0]
+    else:
+        # Ni liga, ni pro ni equipo del roster: se guarda como nick igual que
+        # antes —puede ser alguien de una liga que aún no se ha descargado— y se
+        # le dice claramente que todavía no le va a llegar nada.
+        eje, guardar = "jugadores", texto
 
     resultado, tope = usuarios.agregar(res.autor_id, eje, guardar)
 
@@ -355,6 +401,13 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
             jugador=guardar,
             equipo=getattr(jugador, "team", "") or "—",
             liga=(getattr(jugador, "league", "") or "").upper() or "—",
+        ))
+    elif equipo is not None:
+        lineas.append(_(
+            "seguir.ok_equipo",
+            equipo=equipo[0],
+            nombre=equipo[1],
+            liga=(equipo[2] or "").upper() or "—",
         ))
     else:
         # El caso importante: se ha guardado, pero no hay nada rastreando a esta
@@ -487,6 +540,7 @@ def _bloque_ejes(datos: dict, _) -> list[str]:
     lineas: list[str] = []
     for eje, clave in (
         ("jugadores", "misavisos.eje_jugadores"),
+        ("equipos", "misavisos.eje_equipos"),
         ("ligas", "misavisos.eje_ligas"),
         ("partidos_ligas", "misavisos.eje_partidos_ligas"),
         ("partidos_equipos", "misavisos.eje_partidos_equipos"),

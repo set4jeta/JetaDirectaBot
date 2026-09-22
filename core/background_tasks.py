@@ -71,6 +71,8 @@ def start_background_tasks(bot):
         actualizar_accounts_diario,
         actualizar_pickrates_semanal,
         actualizar_infoplayers_por_lotes,
+        sembrar_rosters_faltantes,
+        refrescar_rosters_por_tanda,
     ):
         if not loop.is_running():
             loop.start()
@@ -169,7 +171,8 @@ async def actualizar_accounts_diario():
     quiere, se configura con `.before_loop`, no durmiendo dentro.
     """
     from tracking.soloq.accounts_from_leaderboard import main as update_leaderboard
-    from tracking.soloq.accounts_from_teams import main as update_teams
+    from tracking.soloq.accounts_from_teams import refrescar_ligas
+    from tracking.soloq.leagues import ligas_en_uso
 
     log.info("Actualizando cuentas desde dpm.lol...")
 
@@ -177,7 +180,13 @@ async def actualizar_accounts_diario():
     # durante toda la descarga. asyncio.to_thread lo saca del event loop.
     try:
         await asyncio.to_thread(update_leaderboard)
-        await asyncio.to_thread(update_teams)
+        # `refrescar_ligas` y no `accounts_from_teams.main`: `main` **reemplaza**
+        # el fichero con las ligas que le pases, así que con `ligas_en_uso()` (que
+        # son solo las que alguien sigue) borraría los rosters de las otras 18
+        # ligas cada día — justo las que hacen falta para que `/track Faker` o
+        # `/track t1` encuentren a alguien. Aquí se refrescan esas y se conservan
+        # las demás; de mantenerlas al día se encarga la rotación horaria.
+        await asyncio.to_thread(refrescar_ligas, ligas_en_uso())
     except Exception:
         log.exception("Fallo descargando cuentas desde dpm.lol.")
         salud.registrar("cuentas", False, "dpm.lol no respondió")
@@ -206,6 +215,112 @@ async def actualizar_accounts_diario():
         await puuid_repair.repair_all(dry_run=False, make_backup=False)
     except Exception:
         log.exception("Fallo reparando PUUIDs tras la descarga de cuentas.")
+
+
+# ---------------------------------------------------------------------- #
+# 3b · Rosters de TODAS las ligas, poco a poco
+# ---------------------------------------------------------------------- #
+#
+# Por qué existe
+# --------------
+# `/track` resuelve nicks y equipos contra `accounts_from_teams.json`. Si solo se
+# descargan las ligas que alguien sigue, quien escriba `/track Faker` sin que
+# nadie siga la LCK se encuentra con "no tengo datos de ese nombre" — y no es que
+# no los tenga: es que no los ha bajado. Lo mismo con `/track t1`.
+#
+# Así que se descargan **todas** las ligas rastreadas y se mantienen al día de
+# una en una. Dos tareas, y las dos van despacio a propósito:
+#
+#   · `sembrar_rosters_faltantes` — una vez, al arrancar: baja las ligas que no
+#     estén en el fichero, de una en una y guardando entre medias, así que si
+#     falla una las demás quedan.
+#   · `refrescar_rosters_por_tanda` — cada hora refresca **una** liga, rotando.
+#     Con 20 ligas, cada una se refresca ~una vez al día y ninguna tanda es
+#     grande. Es lo contrario de rehacer las 20 cada día de golpe.
+#
+# Esto NO toca la API de Riot: los rosters salen de dpm.lol, que no comparte
+# cupo. Y el **barrido de partidas no se ensancha aquí**: sigue yendo solo a las
+# ligas en uso, porque las 20 ligas son ~3154 cuentas y ~63 s medidos por pasada
+# contra un intervalo de 30 s. Descargar todo sí; barrer todo, no.
+
+LIGAS_INDEX_PATH = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "tracking", "soloq", "ligas_index.json")
+)
+
+#: Pausa entre ligas al sembrar, para no encadenar 20 scrapes sin respirar.
+PAUSA_SIEMBRA = float(os.getenv("ROSTERS_PAUSA_SIEMBRA", "5"))
+
+
+def _ligas_descargadas() -> set[str]:
+    """Códigos de liga que ya están en `accounts_from_teams.json`."""
+    from tracking.soloq.accounts_from_teams import cargar_existentes_teams
+
+    return {
+        (p.get("league") or "").strip().lower()
+        for p in cargar_existentes_teams()
+        if p.get("league")
+    }
+
+
+@tasks.loop(count=1)
+async def sembrar_rosters_faltantes():
+    """Baja de una en una los rosters de las ligas que aún no están en disco.
+
+    `count=1` porque es una siembra, no una tarea periódica: mantenerlas al día
+    después es cosa de la rotación horaria.
+    """
+    from tracking.soloq.accounts_from_teams import refrescar_ligas
+    from tracking.soloq.leagues import LIGAS
+
+    faltan = [codigo for codigo in LIGAS if codigo not in _ligas_descargadas()]
+    if not faltan:
+        log.info("Rosters: las %d ligas del catálogo ya están descargadas.", len(LIGAS))
+        return
+
+    log.info(
+        "Rosters: faltan %d ligas (%s). Se bajan de una en una.",
+        len(faltan), ", ".join(faltan),
+    )
+    for i, codigo in enumerate(faltan, 1):
+        try:
+            await asyncio.to_thread(refrescar_ligas, [codigo])
+            log.info("Rosters: %s hecha (%d/%d).", codigo, i, len(faltan))
+        except Exception:
+            # Una liga que falla no puede dejar sin descargar las demás.
+            log.exception("Rosters: fallo con %s; se sigue con la siguiente.", codigo)
+        if i < len(faltan):
+            await asyncio.sleep(PAUSA_SIEMBRA)
+
+
+@sembrar_rosters_faltantes.before_loop
+async def _antes_de_sembrar():
+    """Deja arrancar al bot antes de ponerse a scrapear."""
+    await asyncio.sleep(90)
+
+
+@tasks.loop(hours=1)
+async def refrescar_rosters_por_tanda():
+    """Refresca **una** liga por vuelta, rotando por el catálogo.
+
+    El puntero va a disco (`ligas_index.json`) para que un redespliegue no
+    reinicie la rotación por la primera liga y deje a las últimas sin refrescar
+    nunca: en el plan gratuito el bot se reinicia a diario.
+    """
+    from tracking.soloq.accounts_from_teams import refrescar_ligas
+    from tracking.soloq.index_tracker import load_last_index, save_last_index
+    from tracking.soloq.leagues import LIGAS
+
+    codigos = list(LIGAS)
+    if not codigos:
+        return
+    indice = load_last_index(LIGAS_INDEX_PATH) % len(codigos)
+    codigo = codigos[indice]
+    try:
+        await asyncio.to_thread(refrescar_ligas, [codigo])
+        log.info("Rosters: turno de %s (%d/%d).", codigo, indice + 1, len(codigos))
+    except Exception:
+        log.exception("Rosters: fallo refrescando %s.", codigo)
+    save_last_index((indice + 1) % len(codigos), LIGAS_INDEX_PATH)
 
 
 # ---------------------------------------------------------------------- #

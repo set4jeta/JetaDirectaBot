@@ -135,29 +135,40 @@ async def enviar_dm(bot, user_id: int, **kwargs) -> bool:
 # A quién le interesa una partida
 # ---------------------------------------------------------------------- #
 
-def destinatarios(nombre_pro: str, liga: str) -> list[int]:
+def destinatarios(nombre_pro: str, liga: str, equipo: str = "") -> list[int]:
     """Ids de quien quiere saber que este jugador ha entrado en partida.
 
-    Dos motivos independientes para recibir el aviso, y basta uno:
+    Tres motivos independientes para recibir el aviso, y basta uno:
 
-    * sigue a **este jugador** por su nombre (`/seguir Elyoya`);
-    * sigue **su liga** entera (`/seguir lec`), y entonces recibe cualquier
-      partida de cualquier jugador de ahí, que es lo que hace el bot en un canal.
+    * sigue a **este jugador** por su nombre (`/track Elyoya`);
+    * sigue a **este equipo** (`/track t1`), y entonces recibe a cualquiera de sus
+      jugadores — el equipo lo trae la propia pasada, del roster;
+    * sigue **su liga** entera (`/track lec`), y entonces recibe cualquier partida
+      de cualquier jugador de ahí, que es lo que hace el bot en un canal.
 
-    Quien cumpla los dos aparece **una vez**. Sin eso, alguien suscrito a Chovy y
-    a la LCK recibiría dos DM idénticos de la misma partida, que es la forma más
-    rápida de que desactive los avisos.
+    Quien cumpla varios aparece **una vez**. Sin eso, alguien suscrito a Chovy, a
+    Gen.G y a la LCK recibiría tres DM idénticos de la misma partida, que es la
+    forma más rápida de que desactive los avisos.
 
     La comparación de nombres ignora mayúsculas: el nick que guarda el usuario lo
-    escribió él a mano y el que trae el leaderboard viene de dpm.lol.
+    escribió él a mano y el que trae el leaderboard viene de dpm.lol. En los
+    equipos pasa lo mismo, y por eso `equipo` se compara también en minúsculas:
+    el roster guarda el tricode en mayúsculas (`T1`, `FNC`).
     """
     objetivo = (nombre_pro or "").strip().casefold()
     codigo = (liga or "").strip().casefold()
+    tricode = (equipo or "").strip().casefold()
 
     ids: list[int] = []
     if objetivo:
         for user_id, nicks in usuarios.usuarios_con("jugadores").items():
             if objetivo in {n.casefold() for n in nicks}:
+                ids.append(user_id)
+
+    if tricode:
+        ya = set(ids)
+        for user_id, equipos in usuarios.usuarios_con("equipos").items():
+            if user_id not in ya and tricode in {e.casefold() for e in equipos}:
                 ids.append(user_id)
 
     if codigo:

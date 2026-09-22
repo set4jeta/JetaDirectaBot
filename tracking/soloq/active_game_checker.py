@@ -413,6 +413,9 @@ class ActiveGameTracker:
         from utils.player_filters import _liga_de
 
         liga_jugador = _liga_de(player)
+        # El equipo sale del roster (tricode: `T1`, `FNC`). Hace falta para que
+        # quien sigue un equipo reciba a sus jugadores: ver `dm_notifier`.
+        equipo_jugador = (getattr(player, "team", "") or "").strip()
 
         # Antes aquí había un `return False` cuando no había ningún canal
         # configurado. Ya no puede estar: con suscripciones personales, el caso
@@ -477,7 +480,9 @@ class ActiveGameTracker:
         # de los canales a propósito: los canales son el producto que ya
         # funciona, y si el reparto por DM se atasca (Discord frena la apertura
         # de DM con un 40003) no puede retrasar lo que ya iba bien.
-        if await self._notificar_por_dm(match, ranked_map, player_name, liga_jugador):
+        if await self._notificar_por_dm(
+            match, ranked_map, player_name, liga_jugador, equipo_jugador
+        ):
             sent = True
 
         # El registro va al final y solo si algo se envió: es un histórico de
@@ -493,7 +498,12 @@ class ActiveGameTracker:
         return sent
 
     async def _notificar_por_dm(
-        self, match: SoloQMatch, ranked_map: dict, player_name: str, liga: str
+        self,
+        match: SoloQMatch,
+        ranked_map: dict,
+        player_name: str,
+        liga: str,
+        equipo: str = "",
     ) -> bool:
         """Manda la partida a los usuarios suscritos. True si llegó a alguno.
 
@@ -511,7 +521,7 @@ class ActiveGameTracker:
         from tracking.soloq.dm_notifier import clave_dedupe, destinatarios, repartir
 
         ids = [
-            uid for uid in destinatarios(player_name, liga)
+            uid for uid in destinatarios(player_name, liga, equipo)
             if not already_announced(self.announced_games, match.game_id, clave_dedupe(uid))
         ]
         if not ids:

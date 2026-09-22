@@ -412,6 +412,72 @@ def establecer_ligas(guild_id: int | str | None, codigos: list[str]) -> list[str
     return en_uso
 
 
+def ligas_de_seguidos() -> set[str]:
+    """Ligas de los **jugadores y equipos** que sigue la gente por su cuenta.
+
+    Por qué hace falta
+    ------------------
+    Seguir una liga ya metía esa liga en la unión (`ligas_de_usuarios`). Seguir a
+    un jugador o a un equipo **no**, y el efecto era el peor posible: el aviso se
+    guardaba, el usuario veía "te avisaré", y no le llegaba nunca nada — porque la
+    pasada solo consulta las cuentas de las ligas en uso, y Faker no aparece si la
+    LCK no se barre. Silencio sin error.
+
+    Así que la suscripción arrastra su liga: es la única forma de que el aviso
+    pueda existir.
+
+    Se resuelve contra los rosters ya descargados (`accounts_from_teams.json`), que
+    traen `name`, `team`, `team_name` y `league` por jugador: lectura de disco, sin
+    red. Un nombre que no esté en el fichero no aporta nada, y eso es correcto:
+    sin cuentas descargadas no hay nada que barrer de todas formas.
+
+    Coste: esto ensancha la unión, y la unión no tiene techo (4 ligas por servidor
+    y por usuario, pero la suma de todos no). Es la misma vigilancia que ya existe
+    en la pasada: si no cabe en su intervalo, se ve en el log y en `/health`.
+    """
+    from tracking.soloq.user_config import usuarios_con
+
+    nombres = {
+        n.strip().casefold()
+        for valores in usuarios_con("jugadores").values()
+        for n in valores
+        if n and n.strip()
+    }
+    equipos = {
+        t.strip().casefold()
+        for valores in usuarios_con("equipos").values()
+        for t in valores
+        if t and t.strip()
+    }
+    if not nombres and not equipos:
+        return set()
+
+    from tracking.soloq.accounts_io import load_tracked_accounts
+
+    codigos: set[str] = set()
+    try:
+        for jugador in load_tracked_accounts():
+            liga = (getattr(jugador, "league", "") or "").strip().lower()
+            if liga not in LIGAS:
+                continue
+            nombre = (getattr(jugador, "name", "") or "").strip().casefold()
+            if nombre and nombre in nombres:
+                codigos.add(liga)
+                continue
+            # El equipo se compara por tricode y por nombre completo: la gente
+            # escribe `t1` o `T1`, no "T1 Esports".
+            for campo in ("team", "team_name"):
+                valor = (getattr(jugador, campo, "") or "").strip().casefold()
+                if valor and valor in equipos:
+                    codigos.add(liga)
+                    break
+    except Exception:
+        # Un JSON a medio escribir no puede tumbar la pasada: sin esto se pierde
+        # el ensanchado, no los avisos que ya funcionaban.
+        log.exception("No se pudieron resolver las ligas de los seguidos.")
+    return codigos
+
+
 def ligas_en_uso() -> list[str]:
     """Unión de las ligas que sigue algún servidor **o alguna persona**.
 
@@ -463,6 +529,9 @@ def ligas_en_uso() -> list[str]:
     for guild_id in todos_los_canales():
         codigos.update(ligas_de(guild_id))
     codigos.update(ligas_de_usuarios())
+    # Y las de los jugadores y equipos que sigue la gente: sin esto, `/track
+    # Faker` guarda la suscripción y no avisa nunca. Ver `ligas_de_seguidos`.
+    codigos.update(ligas_de_seguidos())
 
     if not codigos:
         codigos = {LIGA_POR_DEFECTO}

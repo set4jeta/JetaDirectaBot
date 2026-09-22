@@ -1131,6 +1131,14 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "⏳ I didn't have its accounts downloaded — fetching them now. "
               "The first alerts may take a few minutes.",
     },
+    # Un equipo: se avisa de todos sus jugadores. El tricode se enseña porque es
+    # lo que se ha guardado y lo que se ve en el resto del bot.
+    "seguir.ok_equipo": {
+        "es": "✅ Te avisaré por privado de las SoloQ de **{nombre}** (`{equipo}`, "
+              "{liga}): todos sus jugadores.",
+        "en": "✅ I'll DM you about the SoloQ games of **{nombre}** (`{equipo}`, "
+              "{liga}): every player on the roster.",
+    },
     # La liga existe y se puede elegir, pero la API de Riot no cubre sus
     # servidores: no habrá detección de partidas nunca.
     "seguir.liga_no_rastreable": {
@@ -1208,6 +1216,10 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "misavisos.eje_jugadores": {
         "es": "👤 Jugadores (SoloQ)",
         "en": "👤 Players (SoloQ)",
+    },
+    "misavisos.eje_equipos": {
+        "es": "🛡️ Equipos (SoloQ)",
+        "en": "🛡️ Teams (SoloQ)",
     },
     "misavisos.eje_ligas": {
         "es": "🏆 Ligas enteras (SoloQ)",

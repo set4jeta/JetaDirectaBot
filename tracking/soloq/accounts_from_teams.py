@@ -337,8 +337,8 @@ def main(ligas: list[str] | None = None) -> bool:
     )
 
 
-def anadir_ligas(codigos: list[str]) -> bool:
-    """Añade los rosters de estas ligas al fichero **sin tocar las demás**.
+def refrescar_ligas(codigos: list[str]) -> bool:
+    """Refresca los rosters de estas ligas **sin tocar los de las demás**.
 
     Por qué existe, si ya está `main()`
     -----------------------------------
@@ -347,15 +347,14 @@ def anadir_ligas(codigos: list[str]) -> bool:
     sin argumentos rehace todas las ligas en uso, que son minutos de scraping y
     cientos de peticiones.
 
-    Esto es para el caso de `/track <liga>`: alguien acaba de suscribirse a una
-    liga que hasta ahora no se barría y hay que traer sus cuentas **ya**, no en la
-    vuelta siguiente de la tarea diaria (hasta 24 h después; mientras tanto el
-    usuario no recibe nada y da por hecho que el comando no funciona). Trae solo
-    las ligas nuevas y las fusiona con lo que ya había.
+    Esto hace lo que hace falta para tener **las 20 ligas descargadas** sin
+    volver a bajarlas todas cada vez: quita del fichero los jugadores de las
+    ligas que se van a refrescar, trae los nuevos y deja intacto el resto. Así la
+    tarea de fondo puede ir liga por liga, de una en una, y en una vuelta del
+    reloj están todas al día sin que ninguna tanda sea grande.
 
     Devuelve `True` si escribió. Nunca lanza hacia arriba: quien lo llama es una
-    tarea de fondo lanzada desde un comando, y un fallo de scraping no puede
-    tumbar nada — si va mal, la tarea diaria lo reintenta.
+    tarea de fondo o un comando, y un fallo de scraping no puede tumbar nada.
     """
     try:
         from tracking.soloq.leagues import resolver
@@ -363,44 +362,50 @@ def anadir_ligas(codigos: list[str]) -> bool:
         log.exception("No se pudo importar el catálogo de ligas.")
         return False
 
+    pedidas: list[str] = []
+    for c in codigos:
+        liga = resolver(c)
+        if liga and liga.codigo not in pedidas:
+            pedidas.append(liga.codigo)
+    if not pedidas:
+        return False
+
     existentes = cargar_existentes_teams()
     if not existentes:
         # Sin fichero previo esto es un alta completa: que lo haga `main()`, que
         # ya sabe de deduplicación, PUUIDs heredados y ligas sin datos.
         log.info("Sin fichero previo de equipos; se deja el alta completa a main().")
-        return main()
+        return main(pedidas)
 
-    ligas_ya = {(p.get("league") or "").lower() for p in existentes}
-    nuevas: list[str] = []
-    for c in codigos:
-        liga = resolver(c)
-        if liga and liga.codigo not in ligas_ya and liga.codigo not in nuevas:
-            nuevas.append(liga.codigo)
-
-    if not nuevas:
-        log.info("Las ligas %s ya están en el fichero; no hay nada que añadir.", codigos)
-        return False
-
-    log.info("Añadiendo rosters nuevos: %s", ", ".join(nuevas))
     try:
-        jugadores = get_pro_players(nuevas)
+        jugadores = get_pro_players(pedidas)
     except Exception:
-        log.exception("Fallo trayendo los rosters de %s.", ", ".join(nuevas))
+        log.exception("Fallo trayendo los rosters de %s.", ", ".join(pedidas))
         return False
 
     if not jugadores:
+        # Un scraping que no devuelve nada (Cloudflare, cambio de HTML) no puede
+        # borrar lo que ya había: se deja el fichero como estaba.
         log.warning(
-            "Sin jugadores para %s; no se toca el fichero.", ", ".join(nuevas)
+            "Sin jugadores para %s; no se toca el fichero.", ", ".join(pedidas)
         )
         return False
+
+    # Se quitan del fichero los jugadores de las ligas refrescadas y se vuelven a
+    # poner con lo recién traído. Las demás ligas se copian tal cual.
+    pedidas_set = set(pedidas)
+    conservados = [
+        p for p in existentes
+        if (p.get("league") or "").lower() not in pedidas_set
+    ]
 
     # Clave (nombre, liga) y no solo nombre: un suplente puede estar en la liga
     # principal y en la regional, y entonces el nombre no distingue sus cuentas.
     vistos = {
         (p.get("name", "").lower(), (p.get("league") or "").lower())
-        for p in existentes
+        for p in conservados
     }
-    combinado = list(existentes)
+    nuevos: list[dict] = []
     for jugador in jugadores:
         if not jugador.accounts:
             continue
@@ -408,16 +413,24 @@ def anadir_ligas(codigos: list[str]) -> bool:
         if clave in vistos:
             continue
         vistos.add(clave)
-        combinado.append(jugador.to_dict())
+        nuevos.append(jugador.to_dict())
 
-    anadidos = len(combinado) - len(existentes)
-    if anadidos <= 0:
-        log.info("Los rosters de %s no aportaron jugadores nuevos.", ", ".join(nuevas))
+    if not nuevos:
+        log.warning(
+            "Los rosters de %s no trajeron ningún jugador utilizable; se deja el "
+            "fichero como estaba.", ", ".join(pedidas),
+        )
         return False
 
+    combinado = conservados + nuevos
     log.info(
-        "Rosters de %s añadidos: %d jugadores (total %d).",
-        ", ".join(nuevas), anadidos, len(combinado),
+        "Rosters de %s refrescados: %d jugadores (antes %d en esas ligas, ahora "
+        "%d; total %d).",
+        ", ".join(pedidas),
+        len(nuevos),
+        len(existentes) - len(conservados),
+        len(nuevos),
+        len(combinado),
     )
     return guardar_lista_json(
         JSON_PATH, combinado, etiqueta="accounts_from_teams"

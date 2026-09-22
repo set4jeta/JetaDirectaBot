@@ -97,7 +97,7 @@ DM_SIN_PROBAR = "sin_probar"
 DM_CERRADO = "cerrado"       # Discord 50007
 DM_SIN_GUILD = "sin_guild"   # Discord 50278
 
-#: Las cuatro listas que puede tener un usuario. Están declaradas en un solo
+#: Las cinco listas que puede tener un usuario. Están declaradas en un solo
 #: sitio porque el lector, el escritor, el borrado y `resumen()` tienen que
 #: coincidir; cuando cada uno llevaba su propia lista de claves, añadir un eje
 #: nuevo significaba tocar cuatro funciones y olvidarse de una.
@@ -106,8 +106,15 @@ DM_SIN_GUILD = "sin_guild"   # Discord 50278
 #: cupo propio: los partidos oficiales no cuestan peticiones a Riot (salen del
 #: calendario de lolesports, que se pide una vez para todos), así que limitarlos
 #: sería un cupo inventado.
+#:
+#: `equipos` comparte el cupo de `jugadores_seguidos` a propósito: para el bot un
+#: equipo no cuesta más que un jugador. La pasada es **por liga**, no por
+#: suscripción —seguir a un jugador de la LCK ya obliga a barrer la LCK entera— y
+#: el reparto solo cambia el filtro con el que se decide si el aviso es para ti.
+#: Inventar un cupo aparte sería una cuota de producto, no un coste real.
 EJES: dict[str, str | None] = {
     "jugadores": "jugadores_seguidos",
+    "equipos": "jugadores_seguidos",
     "ligas": "ligas",
     "partidos_ligas": None,
     "partidos_equipos": None,

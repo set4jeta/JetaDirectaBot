@@ -22,17 +22,25 @@ en un activo que **genere tráfico y dinero**, con tres patas:
 
 1. **Web esports "espectacular"** que enseñe los datos en vivo y atraiga
    audiencia (hecho: rediseño `web/` con tema Arena + `socios.html`).
-2. **Patrocinios / casas de apuestas.** La web avisa en el momento exacto de la
+2. **Patrocinios de marcas.** La web avisa en el momento exacto de la
    partida → intención en tiempo real → público cualificado. `socios.html` es la
-   landing de alianzas (afiliado / embed patrocinado / socio oficial).
+   landing de alianzas (afiliado / embed patrocinado / socio principal).
 3. **SEO automático + tráfico.** Sentar la web para que posicione (sitemap,
    JSON-LD, canonical, metas) y cosechar conocimiento SEO de referentes para
    aplicarlo al contenido.
 
 **Restricción legal que nunca se salta:** Riot Games no avala el bot ni el sitio
-(no somos partner oficial). Las casas de apuestas tienen regulación por país.
-`socios.html` y `legal.html` lo declaran. Los números de alcance son privados
-(NDA de hecho con los patrocinadores) → no se publican cifras inventadas.
+(no somos partner oficial). Y sobre todo: **nada de apuestas ni juegos de azar**.
+La política de Riot para productos de terceros (revisión del 29-05-2025) dice
+literalmente, en *Monetization*: *"Your product cannot feature betting or
+gambling functionality"*, y en torneos: *"Not include any gambling"*. Las formas
+aceptables de cobrar son suscripciones, donaciones o crowdfunding. Por eso el
+22-09-2026 se quitaron **todas** las referencias a casas de apuestas de la web
+(`index.html` y `socios.html`): no volver a introducirlas, ni como "afiliado de
+apuestas", ni como "enlace de apuesta en el aviso", ni en el copy de marketing.
+Lo único que puede mencionar apuestas es la **negación** (que no hay), como en
+`legal.html` y en la nota legal de `socios.html`. Los números de alcance son
+privados (NDA de hecho con los patrocinadores) → no se publican cifras inventadas.
 
 ---
 
@@ -105,8 +113,10 @@ lanzar no existe. No reintentar salvo que el usuario instale Opera y lo pida.
   `#teams-strip`, `#feed`, `styles-esports.css` y `<script src="live.js" defer>`.
 - `web/styles-esports.css` — estilos esports (neón, grid, glow), cargado tras
   `styles.css`. No reemplaza a `styles.css`, lo complementa.
-- `web/socios.html` — landing de patrocinios/casas de apuestas (planes de alianza
-  + nota legal Riot/regulación + CTA mailto `socios@jetadirecta.example`).
+- `web/socios.html` — landing de patrocinios de marcas (planes de alianza +
+  nota legal Riot, que excluye expresamente apuestas y juegos de azar + CTA
+  mailto `socios@jetadirecta.example`). **Es un fichero a mano: no lo genera
+  ningún script**, así que editarlo es seguro.
 
 ### SEO automático
 - `scripts/cosechar_seo_x.py` — cosecha posts útiles de referentes SEO en X
@@ -167,7 +177,8 @@ web/live.js  ->  pinta #teams-strip y #feed en index.html
 
 **Hecho en esta sesión**
 - [x] Rediseño esports de `web/index.html` + `web/styles-esports.css`.
-- [x] `web/socios.html` (landing de patrocinios/casas de apuestas).
+- [x] `web/socios.html` (landing de patrocinios de marcas; sin apuestas desde
+  el 22-09-2026, por la política de Riot).
 - [x] `web/live.js` + contrato `api/live.json`.
 - [x] `scripts/bridge_web.py` (puente bot→web, sin tocar el generador).
 - [x] `web/api/live.json` generado y servido (HTTP 200) en localhost:8899.

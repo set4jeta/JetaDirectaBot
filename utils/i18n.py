@@ -1139,6 +1139,17 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "✅ I'll DM you about the SoloQ games of **{nombre}** (`{equipo}`, "
               "{liga}): every player on the roster.",
     },
+    # Los partidos oficiales van en ejes aparte, y como no tienen cupo se añaden
+    # solos al seguir una liga o un equipo. Se dice, porque el usuario no lo ha
+    # pedido por separado y tiene que saber que puede quitarlo.
+    "seguir.ok_partidos": {
+        "es": "🗓️ Y también de sus **partidos oficiales** (`{valor}`), desde que "
+              "empieza la serie. Si solo querías lo de SoloQ, quita esa parte con "
+              "`/untrack {valor}` y vuelve a pedir la otra.",
+        "en": "🗓️ Also their **official matches** (`{valor}`), from the start of "
+              "the series. If you only wanted SoloQ, remove that part with "
+              "`/untrack {valor}` and ask for the other again.",
+    },
     # La liga existe y se puede elegir, pero la API de Riot no cubre sus
     # servidores: no habrá detección de partidas nunca.
     "seguir.liga_no_rastreable": {

@@ -409,6 +409,18 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
             nombre=equipo[1],
             liga=(equipo[2] or "").upper() or "—",
         ))
+
+    # Y los **partidos oficiales**, en los ejes aparte. Se añaden aquí y no en un
+    # comando nuevo porque para el usuario "seguir la LEC" o "seguir a T1" es una
+    # sola idea: quiere enterarse de lo que pasa con eso, juegue SoloQ o juegue
+    # liga. Los ejes siguen separados por dentro (no tienen cupo, no cuestan
+    # peticiones a Riot y se quitan igual con `/untrack`), así que quien solo
+    # quiera una de las dos cosas puede quitarla y la otra se queda.
+    if liga or equipo is not None:
+        eje_partidos = "partidos_ligas" if liga else "partidos_equipos"
+        valor_partidos = liga.codigo if liga else equipo[0]  # type: ignore[index]
+        if usuarios.agregar(res.autor_id, eje_partidos, valor_partidos)[0] == "añadido":
+            lineas.append(_("seguir.ok_partidos", valor=valor_partidos))
     else:
         # El caso importante: se ha guardado, pero no hay nada rastreando a esta
         # persona, así que no le va a llegar ningún aviso y hay que decirlo con

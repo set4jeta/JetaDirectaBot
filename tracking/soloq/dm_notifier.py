@@ -180,6 +180,43 @@ def destinatarios(nombre_pro: str, liga: str, equipo: str = "") -> list[int]:
     return ids
 
 
+def destinatarios_partidos(liga: str, equipos) -> list[int]:
+    """Ids de quien quiere los **partidos oficiales** de esta liga o de estos equipos.
+
+    Es el equivalente de `destinatarios` para el otro producto: aquí no se avisa
+    de que alguien entró en SoloQ, sino de que empieza un partido de liga. Los
+    ejes son otros (`partidos_ligas` y `partidos_equipos`) y por eso está aquí
+    aparte: mezclarlos haría que quien sigue la LEC en SoloQ recibiera también
+    todos los partidos oficiales sin haberlo pedido.
+
+    `equipos` son los tricodes del partido (`T1`, `FNC`): basta con que **uno** de
+    los dos equipos sea seguido por esa persona, porque un partido de T1 contra
+    quien sea es un partido de T1.
+
+    Quien cumpla los dos motivos aparece una vez, igual que en `destinatarios`.
+    """
+    codigo = (liga or "").strip().casefold()
+    tricodes = {
+        str(e).strip().casefold() for e in (equipos or []) if str(e).strip()
+    }
+
+    ids: list[int] = []
+    if codigo:
+        for user_id, ligas in usuarios.usuarios_con("partidos_ligas").items():
+            if codigo in {c.casefold() for c in ligas}:
+                ids.append(user_id)
+
+    if tricodes:
+        ya = set(ids)
+        for user_id, seguidos in usuarios.usuarios_con("partidos_equipos").items():
+            if user_id in ya:
+                continue
+            if tricodes & {e.casefold() for e in seguidos}:
+                ids.append(user_id)
+
+    return ids
+
+
 def alcanzable(user_id: int) -> bool:
     """¿Merece la pena intentar el DM?
 

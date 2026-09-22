@@ -9474,6 +9474,13 @@
         "avg_kda": 2.4615384615384617
       },
       {
+        "champion_name": "Sylas",
+        "games": 2,
+        "wins": 1,
+        "avg_dpm_score": 70.82999992370605,
+        "avg_kda": 4.714285714285714
+      },
+      {
         "champion_name": "TwistedFate",
         "games": 2,
         "wins": 0,
@@ -9509,13 +9516,6 @@
         "avg_kda": 1.6
       },
       {
-        "champion_name": "Sylas",
-        "games": 1,
-        "wins": 0,
-        "avg_dpm_score": 41.65999984741211,
-        "avg_kda": 1.3333333333333333
-      },
-      {
         "champion_name": "Taliyah",
         "games": 1,
         "wins": 1,
@@ -9531,6 +9531,29 @@
       }
     ],
     "accounts": [
+      {
+        "riot_id": {
+          "game_name": "songman",
+          "tag_line": "누가진짤까"
+        },
+        "rank": {
+          "tier": "GRANDMASTER",
+          "rank": "I",
+          "lp": 1478,
+          "wins": 305,
+          "losses": 285
+        },
+        "puuid": null,
+        "leaderboard_position": null,
+        "champion_ids": [],
+        "kda": null,
+        "is_live": null,
+        "platform": "KR",
+        "profile_icon": 23,
+        "summoner_level": 265,
+        "last_match_timestamp": 1790051256447,
+        "stale": false
+      },
       {
         "riot_id": {
           "game_name": "Daystar",
@@ -9552,29 +9575,6 @@
         "profile_icon": 6872,
         "summoner_level": 431,
         "last_match_timestamp": 1790049956980,
-        "stale": false
-      },
-      {
-        "riot_id": {
-          "game_name": "songman",
-          "tag_line": "누가진짤까"
-        },
-        "rank": {
-          "tier": "GRANDMASTER",
-          "rank": "I",
-          "lp": 1459,
-          "wins": 304,
-          "losses": 285
-        },
-        "puuid": null,
-        "leaderboard_position": null,
-        "champion_ids": [],
-        "kda": null,
-        "is_live": null,
-        "platform": "KR",
-        "profile_icon": 23,
-        "summoner_level": 265,
-        "last_match_timestamp": 1789996095124,
         "stale": false
       }
     ]

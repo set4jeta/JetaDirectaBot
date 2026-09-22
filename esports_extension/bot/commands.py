@@ -150,6 +150,86 @@ class EsportsCommands(commands.Cog):
         except Exception:
             log.exception("Error repartiendo las notificaciones de esports.")
 
+        # Y el mismo aviso, a quien lo haya pedido por su cuenta. Va **fuera** del
+        # bucle de canales a propósito: la detección ya es global y el embed es el
+        # mismo, así que esto se hace una vez por ciclo y no una por servidor.
+        # Si falla, no puede llevarse por delante los avisos de los canales, que
+        # son los que ya funcionaban.
+        try:
+            await self._avisar_partidos_por_dm()
+        except Exception:
+            log.exception("Error repartiendo los partidos de esports por DM.")
+
+    async def _avisar_partidos_por_dm(self) -> None:
+        """Manda los partidos oficiales a quien los sigue por privado.
+
+        Los canales reciben todo lo que se detecta; esto es la otra mitad: la
+        gente que pidió con `/track lec` o `/track t1` y no tiene por qué estar en
+        un servidor con el canal configurado.
+
+        El registro de "ya avisado" (`notified_games`) es el mismo que usan los
+        canales y está indexado por `game_id`, así que los destinatarios se
+        guardan con el prefijo `u` de `dm_notifier.clave_dedupe`: un id de usuario
+        y uno de canal no coinciden nunca, pero así al abrir el JSON se ve qué es
+        cada cosa. Sin ese registro, esta función —que corre cada 30 s— mandaría
+        el mismo DM en cada vuelta.
+        """
+        from esports_extension.services.storage import (
+            load_notified_games,
+            save_notified_games,
+        )
+        from tracking.soloq.dm_notifier import (
+            clave_dedupe,
+            destinatarios_partidos,
+            repartir,
+        )
+
+        notificados = load_notified_games()
+        cambiado = False
+
+        for match in list(self.tracker.tracked_matches.values()):
+            equipos = [
+                getattr(t, "code", "") for t in (match.teamsEventDetails or [])
+            ]
+            ids = destinatarios_partidos(match.slug, equipos)
+            if not ids:
+                continue
+
+            for tracked_game in reversed(match.trackedGames):
+                if tracked_game.state != "inProgress":
+                    continue
+                if not (tracked_game.live_blue_metadata and tracked_game.live_red_metadata):
+                    continue
+
+                ya = set(notificados.get(tracked_game.game_id, []))
+                pendientes = [u for u in ids if clave_dedupe(u) not in ya]
+                if not pendientes:
+                    continue
+
+                embed = await EmbedService.create_live_match_embed(
+                    match, is_notification=True
+                )
+                if embed is None:
+                    continue
+
+                # El mismo embed para todos: los de esports no están traducidos
+                # (a diferencia de los de SoloQ), así que no hay nada que cachear
+                # por idioma y el objeto se puede reutilizar tal cual.
+                entregados = await repartir(
+                    self.bot, pendientes, lambda _idioma: {"embed": embed}
+                )
+                if entregados:
+                    ya.update(clave_dedupe(u) for u in entregados)
+                    notificados[tracked_game.game_id] = list(ya)
+                    cambiado = True
+                    log.info(
+                        "Partido %s avisado por DM a %d persona(s).",
+                        tracked_game.game_id, len(entregados),
+                    )
+
+        if cambiado:
+            save_notified_games(notificados)
+
     @bg_task.before_loop
     async def _esperar_bot(self):
         """No arrancar hasta que el bot esté conectado.

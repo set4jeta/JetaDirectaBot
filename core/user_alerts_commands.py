@@ -274,6 +274,69 @@ def _aviso_liga(liga: Liga, _) -> str:
 # /seguir
 # ---------------------------------------------------------------------- #
 
+async def _seguir_cuenta_suelta(res: Respuesta, texto: str) -> None:
+    """`/track Nombre#TAG [region]`: sigue una cuenta concreta, no un roster.
+
+    Es el caso de la cuenta de un streamer, de un smurf o de alguien que no está
+    en ningún equipo. La cuenta se guarda en su propio fichero
+    (`cuentas_sueltas.json`) y se le añade a la pasada **siempre**, sin depender
+    de ninguna liga: por eso no gasta cupo de ligas, solo el de jugadores.
+
+    La región es opcional y va como segundo trozo (`eu`, `na`, `kr`…). Se admite
+    porque la plataforma **no la da ningún endpoint de Riot**: hay que probarla, y
+    con el atajo se prueban una o dos en vez de siete. Sin atajo, el bot le
+    pregunta el clúster a Riot para acotar; el resultado queda guardado, así que
+    esto se paga una sola vez.
+    """
+    _ = res.traductor()
+
+    if res.autor_id is None:
+        await res.error(_("avisos.sin_usuario"))
+        return
+
+    trozos = texto.split()
+    riot_id = trozos[0]
+    atajo = trozos[1] if len(trozos) > 1 else ""
+
+    from tracking.soloq import cuentas_sueltas
+    from tracking.soloq.accounts_io import guardar_cuenta_suelta
+
+    try:
+        jugador, error = await cuentas_sueltas.resolver(riot_id, atajo)
+    except Exception:
+        # `resolver` ya se protege, pero esto corre dentro de una interacción:
+        # una traza aquí dejaría al usuario sin respuesta.
+        log.exception("Fallo resolviendo la cuenta suelta %r", riot_id)
+        jugador, error = None, "avisos.cuenta_sin_respuesta"
+
+    if jugador is None:
+        await res.send_privado(_(error or "error.generico"))
+        return
+
+    if not guardar_cuenta_suelta(jugador):
+        await res.error(_("error.generico"))
+        return
+
+    resultado, tope = usuarios.agregar(res.autor_id, "jugadores", jugador.name)
+    if resultado == "cupo":
+        await res.send_privado(
+            _("seguir.cupo_jugadores", n=tope)
+            + "\n"
+            + _("seguir.cupo_salida", plan=plan_de_usuario(res.autor_id).nombre)
+        )
+        return
+    if resultado == "invalido":
+        await res.error(_("error.generico"))
+        return
+
+    plataforma = jugador.accounts[0].platform if jugador.accounts else "?"
+    lineas = [
+        _("seguir.ok_cuenta_suelta", jugador=jugador.name, plataforma=plataforma)
+    ]
+    lineas.extend(_cola_registro(res, _))
+    await res.send_privado("\n".join(lineas))
+
+
 #: Marca de tiempo del último alta de roster lanzada desde un comando.
 #: `time.monotonic` y no `time.time` porque lo único que se mide es un intervalo.
 _ultimo_alta = 0.0
@@ -343,6 +406,13 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
     texto = (valor or "").strip()
     if not texto:
         await _mostrar_estado(res, _)
+        return
+
+    # Una cuenta suelta (`Nombre#TAG`, con la región opcional detrás). Se mira
+    # antes que nada porque un Riot ID no puede ser una liga, ni un pro del
+    # roster, ni un equipo: lleva `#` y eso no lo tiene ninguno de los tres.
+    if "#" in texto:
+        await _seguir_cuenta_suelta(res, texto)
         return
 
     liga = resolver(texto)
@@ -522,13 +592,29 @@ async def _cuerpo_dejarseguir(res: Respuesta, valor: str) -> None:
     liga = resolver(texto)
     # De una liga se quita su código canónico —es lo que está guardado— y de un
     # nombre lo que escribió el usuario, que `user_config.quitar` compara sin
-    # distinguir mayúsculas.
+    # distinguir mayúsculas. Si escribió el Riot ID completo (`Nombre#TAG`), lo
+    # que hay guardado es solo el nombre: sin esto, `/untrack MIDKING#7273`
+    # diría "no lo seguías" con la suscripción delante.
+    if "#" in texto:
+        texto = texto.split("#", 1)[0].strip()
     objetivo = liga.codigo if liga else texto
     ejes = _EJES_DE_LIGA if liga else _EJES_DE_NOMBRE
 
     quitados = [eje for eje in ejes if usuarios.quitar(res.autor_id, eje, objetivo)]
 
-    if not quitados:
+    # Y si era una cuenta suelta, se va también del fichero de cuentas: si no,
+    # la pasada la seguiría consultando en cada vuelta para nadie. Va aquí y no
+    # antes porque el texto sin `#` es lo que se guardó como nombre del jugador.
+    suelta_quitada = False
+    if not liga:
+        from tracking.soloq.accounts_io import quitar_cuenta_suelta
+
+        try:
+            suelta_quitada = quitar_cuenta_suelta(texto)
+        except Exception:
+            log.exception("No se pudo quitar la cuenta suelta %r", texto)
+
+    if not quitados and not suelta_quitada:
         await res.send_privado(_("dejarseguir.no_estaba", valor=texto))
         return
 

@@ -90,6 +90,80 @@ def save_tracked_accounts(players: list[BootcampPlayer]) -> bool:
         [p.to_dict() for p in players],
         etiqueta="accounts_from_teams.json",
     )
+
+
+# ---------------------------------------------------------------------- #
+# Cuentas sueltas: las que alguien pidió seguir a mano
+# ---------------------------------------------------------------------- #
+
+#: Fichero propio, y el motivo importa: `accounts_from_teams.json` lo
+#: **regeneran** las tareas de rosters (una liga por hora, y el refresco diario),
+#: así que una cuenta que no pertenece a ningún roster —la de un streamer, un
+#: smurf— desaparecería en el primer refresco. Aquí no la toca nadie.
+JSON_SUELTAS_PATH = os.path.join(os.path.dirname(__file__), "cuentas_sueltas.json")
+
+
+def load_cuentas_sueltas() -> list[BootcampPlayer]:
+    """Cuentas seguidas una a una (`/track Nombre#TAG`).
+
+    Se devuelven como `BootcampPlayer` para que la pasada las trate igual que a
+    las del catálogo: el tracker no tiene que saber de dónde sale cada cuenta.
+    Un fichero ilegible no puede tumbar la pasada, así que se sigue sin ellas.
+    """
+    if not os.path.exists(JSON_SUELTAS_PATH):
+        return []
+    try:
+        with open(JSON_SUELTAS_PATH, encoding="utf-8") as f:
+            raw = json.load(f)
+    except (OSError, json.JSONDecodeError) as exc:
+        log.warning("cuentas_sueltas.json ilegible (%s): se sigue sin ellas", exc)
+        return []
+    if not isinstance(raw, list):
+        return []
+    return [BootcampPlayer.from_dict(p) for p in raw if isinstance(p, dict)]
+
+
+def guardar_cuenta_suelta(player: BootcampPlayer) -> bool:
+    """Añade o reemplaza una cuenta suelta (por nombre). False si no se pudo.
+
+    Se reemplaza en vez de acumular porque volver a pedir la misma cuenta suele
+    ser una corrección (cambió de plataforma, se resolvió mal la primera vez), y
+    duplicarla haría que la pasada la consultara dos veces por vuelta.
+    """
+    actuales = [p.to_dict() for p in load_cuentas_sueltas()]
+    objetivo = (player.name or "").casefold()
+    actuales = [p for p in actuales if (p.get("name") or "").casefold() != objetivo]
+    actuales.append(player.to_dict())
+    return guardar_lista_json(JSON_SUELTAS_PATH, actuales, etiqueta="cuentas_sueltas")
+
+
+def quitar_cuenta_suelta(nombre: str) -> bool:
+    """Quita una cuenta suelta. `False` si no estaba.
+
+    Con `permitir_vacio=True` y `min_ratio=0` a propósito: en este fichero
+    quedarse sin nada **es un estado normal** (alguien deja de seguir su última
+    cuenta suelta), y las guardas de `safe_json` —que existen para no machacar los
+    ficheros de cuentas cuando un scraping devuelve vacío— aquí bloquearían el
+    borrado en silencio: la suscripción desaparecería y la cuenta seguiría
+    consultándose en cada pasada para nadie.
+    """
+    actuales = load_cuentas_sueltas()
+    objetivo = (nombre or "").strip().casefold()
+    quedan = [p for p in actuales if (p.name or "").casefold() != objetivo]
+    if len(quedan) == len(actuales):
+        return False
+    return guardar_lista_json(
+        JSON_SUELTAS_PATH,
+        [p.to_dict() for p in quedan],
+        etiqueta="cuentas_sueltas",
+        permitir_vacio=True,
+        min_ratio=0.0,
+    )
+
+
+def nombres_cuentas_sueltas() -> list[str]:
+    """Nombres de las cuentas sueltas, para los comandos."""
+    return [p.name for p in load_cuentas_sueltas() if p.name]
     
     
     

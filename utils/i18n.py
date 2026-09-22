@@ -1150,6 +1150,49 @@ _CATALOGO: dict[str, dict[str, str]] = {
               "the series. If you only wanted SoloQ, remove that part with "
               "`/untrack {valor}` and ask for the other again.",
     },
+    # ---- Cuentas sueltas (`/track Nombre#TAG [region]`) ------------------ #
+    # El comando tiene que decir **qué** ha fallado: "esa cuenta no existe" y "no
+    # he podido hablar con Riot" son problemas distintos, y solo el primero lo
+    # puede arreglar quien lo escribe.
+    "seguir.ok_cuenta_suelta": {
+        "es": "✅ Cuenta encontrada y añadida: **{jugador}** (plataforma "
+              "`{plataforma}`). Te avisaré por privado cuando entre en partida.",
+        "en": "✅ Account found and added: **{jugador}** (platform "
+              "`{plataforma}`). I'll DM you when they get into a game.",
+    },
+    "avisos.cuenta_formato": {
+        "es": "Para seguir una cuenta concreta necesito el Riot ID completo, con "
+              "el tag: `/track Nombre#TAG`. Por ejemplo `/track Hideonbush#KR1`. "
+              "Si lo que quieres es una liga o un equipo, escríbelo sin `#`.",
+        "en": "To follow one specific account I need the full Riot ID, with the "
+              "tag: `/track Name#TAG`. For example `/track Hideonbush#KR1`. If "
+              "you meant a league or a team, write it without `#`.",
+    },
+    "avisos.cuenta_no_existe": {
+        "es": "Riot no reconoce ninguna cuenta con ese Riot ID. Comprueba el "
+              "nombre y el tag (`Nombre#TAG`), que distinguen mayúsculas y "
+              "espacios.",
+        "en": "Riot doesn't know any account with that Riot ID. Check the name "
+              "and the tag (`Name#TAG`) — they're case and space sensitive.",
+    },
+    "avisos.cuenta_sin_plataforma": {
+        "es": "Encontré el PUUID pero no he dado con su servidor. Prueba a "
+              "decírmelo: `/track {jugador} eu`, `na`, `kr`, `br`…",
+        "en": "I found the PUUID but not which server it's on. Try telling me: "
+              "`/track {jugador} eu`, `na`, `kr`, `br`…",
+    },
+    "avisos.cuenta_sin_respuesta": {
+        "es": "No he podido hablar con Riot ahora mismo (o la clave está "
+              "limitada). Vuelve a intentarlo en un minuto.",
+        "en": "I couldn't reach Riot just now (or the key is rate limited). Try "
+              "again in a minute.",
+    },
+    "avisos.cuenta_sin_cliente": {
+        "es": "El cliente de Riot no está disponible en este arranque. Prueba "
+              "más tarde o avisa en el servidor de soporte.",
+        "en": "The Riot client isn't available on this boot. Try later or report "
+              "it in the support server.",
+    },
     # La liga existe y se puede elegir, pero la API de Riot no cubre sus
     # servidores: no habrá detección de partidas nunca.
     "seguir.liga_no_rastreable": {

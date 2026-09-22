@@ -56,7 +56,7 @@ from core import health as salud
 from core.rank_data import get_cached_rank, save_rank_data
 from core.ranked_cache import get_rank_data_or_cache
 from models.soloq_match import SoloQMatch
-from tracking.soloq.accounts_io import load_tracked_accounts
+from tracking.soloq.accounts_io import load_cuentas_sueltas, load_tracked_accounts
 from tracking.soloq.active_game_cache import olvidar, set_active_game_with_ranked
 from tracking.soloq.avisos_log import registrar as registrar_aviso
 from tracking.soloq.channel_config import todos_los_canales
@@ -186,14 +186,52 @@ class ActiveGameTracker:
     # ------------------------------------------------------------------ #
 
     def refresh_players(self) -> None:
-        """Recarga las cuentas para recoger cambios sin reiniciar el bot."""
-        self._players = get_tracked_players(load_tracked_accounts())
+        """Recarga las cuentas para recoger cambios sin reiniciar el bot.
+
+        **Se barre solo lo que alguien sigue**, no todo el catálogo.
+
+        Esto no era evidente y se rompió el 22-09-2026: hasta entonces
+        `accounts_from_teams.json` contenía únicamente las ligas en uso (la LEC),
+        así que "barrer el fichero" y "barrer lo que se sigue" eran lo mismo por
+        casualidad. Al descargar las 20 ligas para que `/track` pueda resolver a
+        cualquiera, el fichero pasó a 908 jugadores y **1948 cuentas**: barrer eso
+        cada 30 s son ~43 s medidos, o sea vueltas perdidas y avisos tarde, en
+        silencio. De ahí el filtro explícito.
+
+        El filtro es `ligas_en_uso()`, que ya es la unión de lo que siguen los
+        servidores, lo que siguen los usuarios por liga **y la liga de cada
+        jugador o equipo seguido** (`leagues.ligas_de_seguidos`). O sea: lo que se
+        barre es exactamente lo que alguien puede llegar a recibir.
+
+        Las **cuentas sueltas** (`/track Nombre#TAG`) se añaden siempre y sin
+        filtro: si están ahí es porque alguien las pidió una a una, y no
+        pertenecen a ninguna liga.
+        """
+        from tracking.soloq.leagues import ligas_en_uso
+        from utils.player_filters import _liga_de
+
+        catalogo = get_tracked_players(load_tracked_accounts())
+        permitidas = set(ligas_en_uso())
+        seguidas = [p for p in catalogo if _liga_de(p) in permitidas]
+        sueltas = load_cuentas_sueltas()
+
+        self._players = seguidas + sueltas
         self._puuid_to_player = {
             acc.puuid: player
             for player in self._players
             for acc in player.accounts
             if acc.puuid
         }
+
+        log.debug(
+            "A barrer: %d cuentas (%d jugadores) de las %d del catálogo, +%d "
+            "sueltas · ligas en uso: %s",
+            sum(len(p.accounts) for p in self._players),
+            len(self._players),
+            sum(len(p.accounts) for p in catalogo),
+            sum(len(p.accounts) for p in sueltas),
+            ", ".join(sorted(permitidas)) or "ninguna",
+        )
 
     # ------------------------------------------------------------------ #
     # Una pasada

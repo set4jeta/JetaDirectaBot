@@ -71,14 +71,6 @@ _scraper = None
 _sesion_cffi: Any = None
 _cffi_disponible: bool | None = None
 
-#: Hasta cuándo se salta cloudscraper. Ver `pedir`: cuando falla y curl_cffi
-#: resuelve, se deja de intentar el primero durante un rato.
-_cloudscraper_hasta: float = 0.0
-
-#: Cuánto se salta cloudscraper después de que falle y curl_cffi funcione. Se
-#: vuelve a probar pasado ese rato, por si el bloqueo era temporal.
-COOLDOWN_CLOUDSCRAPER = 900.0
-
 #: Cuántas veces ha hecho falta el respaldo desde que arrancó el proceso. Sirve
 #: para verlo en el log sin tener que rebuscar entre líneas.
 _veces_respaldo = 0
@@ -182,44 +174,34 @@ def pedir(
     timeout: float = TIMEOUT_POR_DEFECTO,
     valido: Callable[[str], bool] | None = None,
 ) -> Respuesta | None:
-    """GET con cloudscraper y, si la respuesta no sirve, con curl_cffi.
+    """GET con **curl_cffi** y, si no sirve, con cloudscraper.
 
-    Devuelve la respuesta que **sirve**, o la última que se obtuvo (para que quien
-    llame pueda ver el estado y decidir), o `None` si no hubo ni respuesta.
+    Orden invertido el 22-09-2026 (antes iba cloudscraper primero). El motivo está
+    medido en los logs de Render: cloudscraper recibe **403 de Cloudflare en todas
+    las peticiones** desde la IP del datacenter, así que como principal solo servía
+    para gastar el doble de peticiones (la que falla y la que sirve), tardar el
+    doble y agotar el pool de conexiones del scraper — de ahí los
+    `Connection pool is full, discarding connection: dpm.lol`.
+
+    curl_cffi pasa siempre, y desde casa también. Se queda de respaldo por si algún
+    día es al revés: es una librería más nueva y no está de más tener dos caminos.
     """
-    global _veces_respaldo, _cloudscraper_hasta
+    principal = _pedir_una(url, timeout, "curl_cffi")
+    if _sirve(principal, valido):
+        return principal
 
-    ahora = time.time()
-
-    # Si cloudscraper falló hace poco, ni se intenta. Esto no es un adorno: en
-    # Render **falla siempre** (403 de Cloudflare) y sin esto cada petición a
-    # dpm.lol gastaba dos (la que falla y la que sirve), tardaba el doble y
-    # llenaba el log de "Connection pool is full" al agotarse las conexiones
-    # reutilizables del scraper. Se vuelve a probar pasado el enfriamiento, por si
-    # el bloqueo era temporal.
-    principal = None
-    if ahora >= _cloudscraper_hasta:
-        principal = _pedir_una(url, timeout, "cloudscraper")
-        if _sirve(principal, valido):
-            return principal
-
-    respaldo = _pedir_una(url, timeout, "curl_cffi")
+    respaldo = _pedir_una(url, timeout, "cloudscraper")
     if _sirve(respaldo, valido):
-        if principal is not None:
-            with _lock:
-                _veces_respaldo += 1
-                veces = _veces_respaldo
-                primera = _cloudscraper_hasta == 0.0
-                _cloudscraper_hasta = ahora + COOLDOWN_CLOUDSCRAPER
-            # Se avisa al empezar el enfriamiento y luego solo de vez en cuando:
-            # si no, esto saldría en cada petición y taparía el resto del log.
-            if primera or veces % 50 == 0:
-                log.warning(
-                    "dpm.lol: cloudscraper no sirvió (estado %s); respondió curl_cffi. "
-                    "Se le deja de intentar %.0f min (van %d respaldos).",
-                    principal.status if principal else "sin respuesta",
-                    COOLDOWN_CLOUDSCRAPER / 60, veces,
-                )
+        with _lock:
+            global _veces_respaldo
+            _veces_respaldo += 1
+            veces = _veces_respaldo
+        if veces <= 5 or veces % 50 == 0:
+            log.warning(
+                "dpm.lol: curl_cffi no sirvió (estado %s); respondió cloudscraper "
+                "(van %d respaldos).",
+                principal.status if principal else "sin respuesta", veces,
+            )
         return respaldo
 
     return respaldo or principal
@@ -228,4 +210,4 @@ def pedir(
 def resumen() -> str:
     """Para el log de arranque: qué transportes hay y cuántas veces hizo falta el respaldo."""
     cffi = "sí" if _cliente_cffi() is not None else "no instalado"
-    return f"cloudscraper + curl_cffi ({cffi}) · respaldos usados: {_veces_respaldo}"
+    return f"curl_cffi ({cffi}) + cloudscraper de respaldo · respaldos usados: {_veces_respaldo}"

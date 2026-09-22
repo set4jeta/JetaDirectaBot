@@ -333,6 +333,20 @@ async def refrescar_rosters_por_tanda():
     except Exception:
         log.exception("Rosters: fallo refrescando %s.", codigo)
 
+    # Y se reparan los PUUIDs de lo que acaba de entrar. Esto era el hueco: una
+    # liga recién bajada trae cuentas **sin PUUID**, y sin esto se quedaban así
+    # hasta el arranque siguiente o hasta que les tocara el turno de 200/h — que
+    # con 1973 pendientes son ~10 h. El arranque y la tarea diaria sí reparaban,
+    # pero la rotación horaria no, y es la que añade cuentas nuevas cada hora.
+    #
+    # `repair_all` es idempotente y salta lo que ya tiene PUUID, así que cuando no
+    # hay nada pendiente no gasta ni una petición.
+    try:
+        resumen = await puuid_repair.repair_all(dry_run=False, make_backup=False)
+        log.info("Rosters: PUUIDs reparados tras %s -> %s", codigo, resumen)
+    except Exception:
+        log.exception("Rosters: fallo reparando PUUIDs tras refrescar %s.", codigo)
+
 
 # ---------------------------------------------------------------------- #
 # 3c · La escalera de pros, una vez por semana

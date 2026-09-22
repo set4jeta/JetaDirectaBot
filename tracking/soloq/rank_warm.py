@@ -86,11 +86,33 @@ def cuentas_seguidas() -> list[Cuenta]:
 
 
 def _fraccion_por_vuelta() -> int:
-    """En cuántas vueltas se recorre la lista entera."""
+    """En cuántas vueltas se recorre la lista de pendientes.
+
+    Se mide contra `RANK_WARM_WINDOW` (6 h por defecto) y **no** contra
+    `RANK_CACHE_MAX_AGE`. Estaban atadas y ya no tiene sentido: desde que la
+    validez es por actividad, ese TTL habla de cuentas que han jugado, mientras
+    que lo que se refresca aquí son cuentas que **no tienen dato**. Atarlas hacía
+    que bajar el TTL de 6 h a 30 min multiplicara por 18 el trabajo de esta tarea
+    sin ninguna ganancia.
+    """
     intervalo = max(1, config.RANK_WARM_INTERVAL)
-    # Margen del 20 %: mejor pasar por todas antes de que caduquen.
-    ventana = max(intervalo, int(config.RANK_CACHE_MAX_AGE * 0.8))
+    # Margen del 20 %: mejor pasar por todas antes de que cumplan la ventana.
+    ventana = max(intervalo, int(config.RANK_WARM_WINDOW * 0.8))
     return max(1, ventana // intervalo)
+
+
+def _pendientes(cuentas: list[Cuenta]) -> list[Cuenta]:
+    """Las que de verdad necesitan una petición: sin rango válido.
+
+    Con la regla de actividad de `core/rank_store`, un rango guardado después del
+    último partido observado **no caduca**, así que una cuenta que lleva días sin
+    jugar no aparece aquí y no gasta nada. Las que sí aparecen son las que no
+    tienen rango, las que jugaron después de guardarlo y las que quedaron
+    sospechosas por un apagón.
+    """
+    from core.rank_store import obtener_fresco
+
+    return [c for c in cuentas if not obtener_fresco(c[0])]
 
 
 async def refrescar(cuentas: list[Cuenta], concurrencia: int | None = None) -> dict:
@@ -154,7 +176,14 @@ async def refrescar(cuentas: list[Cuenta], concurrencia: int | None = None) -> d
 
 
 async def siguiente_lote() -> dict:
-    """Refresca la siguiente fracción de cuentas. Una unidad de trabajo."""
+    """Refresca la siguiente fracción de cuentas **que no tienen dato válido**.
+
+    Antes recorría la lista entera rotando, porque la validez era una ventana de
+    tiempo y había que pasar por todas antes de que caducaran. Eso era trabajo
+    inútil todos los días: pedir el Elo de cuentas que no habían jugado. Ahora la
+    lista de trabajo es la de las que no sirven, así que si no hay ninguna esta
+    función **no gasta ni una petición**.
+    """
     global _offset, _estado
 
     cuentas = cuentas_seguidas()
@@ -162,22 +191,29 @@ async def siguiente_lote() -> dict:
         log.debug("Rangos: no hay cuentas que refrescar.")
         return {"total": 0, "ok": 0, "sin_rango": 0, "errores": 0, "segundos": 0.0}
 
-    partes = _fraccion_por_vuelta()
-    tamano = max(1, -(-len(cuentas) // partes))  # techo de la división
+    pendientes = _pendientes(cuentas)
+    if not pendientes:
+        log.debug("Rangos: las %d cuentas seguidas ya tienen dato válido.", len(cuentas))
+        return {"total": 0, "ok": 0, "sin_rango": 0, "errores": 0, "segundos": 0.0}
 
-    inicio = _offset % len(cuentas)
-    lote = (cuentas[inicio:] + cuentas[:inicio])[:tamano]
-    _offset = (inicio + len(lote)) % len(cuentas)
+    partes = _fraccion_por_vuelta()
+    tamano = max(1, -(-len(pendientes) // partes))  # techo de la división
+
+    inicio = _offset % len(pendientes)
+    lote = (pendientes[inicio:] + pendientes[:inicio])[:tamano]
+    _offset = (inicio + len(lote)) % len(pendientes)
 
     resumen = await refrescar(lote)
     resumen["de"] = len(cuentas)
+    resumen["pendientes"] = len(pendientes)
     resumen["partes"] = partes
     _estado = resumen
 
     log.info(
-        "Rangos refrescados: %d/%d (%d sin clasificar, %d errores) en %.1fs · %d de %d cuentas",
+        "Rangos refrescados: %d/%d (%d sin clasificar, %d errores) en %.1fs · "
+        "%d de %d pendientes (%d cuentas seguidas)",
         resumen["ok"], resumen["total"], resumen["sin_rango"], resumen["errores"],
-        resumen["segundos"], len(lote), len(cuentas),
+        resumen["segundos"], len(lote), len(pendientes), len(cuentas),
     )
     return resumen
 

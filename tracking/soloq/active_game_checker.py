@@ -53,11 +53,16 @@ from dataclasses import dataclass, field
 import config
 from apis.riot_client import RiotApiError, get_riot_client, normalizar_plataforma
 from core import health as salud
+from core import rank_store
 from core.rank_data import get_cached_rank, save_rank_data
 from core.ranked_cache import get_rank_data_or_cache
 from models.soloq_match import SoloQMatch
 from tracking.soloq.accounts_io import load_cuentas_sueltas, load_tracked_accounts
-from tracking.soloq.active_game_cache import olvidar, set_active_game_with_ranked
+from tracking.soloq.active_game_cache import (
+    get_active_game_cache,
+    olvidar,
+    set_active_game_with_ranked,
+)
 from tracking.soloq.avisos_log import registrar as registrar_aviso
 from tracking.soloq.channel_config import todos_los_canales
 from tracking.soloq.notifier import (
@@ -294,6 +299,10 @@ class ActiveGameTracker:
             await asyncio.gather(*(guarded(p, a) for p, a in targets))
 
             self.cleanup()
+            # Marca de continuidad: es lo que permite detectar después un apagón
+            # (ver `rank_store._calcular_hueco`). Va al final y no al principio:
+            # solo cuenta como "pasada hecha" si terminó.
+            rank_store.marcar_pasada()
         finally:
             self._running = False
             stats.duracion = time.perf_counter() - started
@@ -361,6 +370,28 @@ class ActiveGameTracker:
     # Comprobación de una cuenta
     # ------------------------------------------------------------------ #
 
+    async def _refrescar_rango(self, account) -> None:
+        """Pide el rango de una cuenta que acaba de terminar partida y lo anota.
+
+        Reutiliza `rank_warm.refrescar`, que ya sabe consultar **en el servidor de
+        la cuenta** (las de KR/NA/BR daban 404 contra euw1) y convertir la
+        respuesta al formato del almacén. Duplicar esa conversión aquí sería la
+        forma más fácil de que las dos se separaran.
+
+        Un fallo no puede romper la pasada: si esto va mal, el rango se vuelve a
+        pedir por el camino normal (`rank_warm`) y nadie se entera.
+        """
+        from tracking.soloq.rank_warm import refrescar as refrescar_rangos
+
+        plataforma = normalizar_plataforma(getattr(account, "platform", None))
+        try:
+            await refrescar_rangos([(account.puuid, plataforma)])
+        except Exception:
+            log.debug(
+                "No se pudo refrescar el rango tras la partida de %s",
+                (account.puuid or "")[:12],
+            )
+
     async def _check_account(self, player, account, stats: SweepStats) -> None:
         """Mira si una cuenta está en partida y avisa si corresponde."""
         client = await get_riot_client()
@@ -388,6 +419,13 @@ class ActiveGameTracker:
 
         # 404 = no está en partida. Es el caso normal, no ensuciamos el log.
         if not game_data:
+            # Pero si estaba en la caché de partidas activas, **acaba de
+            # terminar una**, y ese es el instante exacto en el que cambian sus
+            # LP. Se pide el rango aquí: una petición por partida, y a cambio el
+            # dato queda exacto hasta que vuelva a jugar, así que no habrá que
+            # preguntar por él en días (ver la cabecera de `core/rank_store`).
+            if get_active_game_cache(account.puuid):
+                await self._refrescar_rango(account)
             # `olvidar` limpia también el índice por nombre: con `pop` a secas
             # la entrada por nombre sobrevivía y `!match` podía servir una
             # partida ya terminada al caer a ese respaldo.
@@ -396,6 +434,12 @@ class ActiveGameTracker:
 
         if not is_valid_game(game_data):
             return
+
+        # Marca de actividad: el tracker es el único que sabe de primera mano que
+        # esta cuenta está jugando, y es lo que después permite decidir si el
+        # rango guardado sigue valiendo **sin gastar una petición**. No escribe
+        # en disco por cada pasada: ver `rank_store.marcar_en_partida`.
+        rank_store.marcar_en_partida(account.puuid)
 
         match = SoloQMatch.from_riot_game_data(game_data)
         stats.en_partida += 1

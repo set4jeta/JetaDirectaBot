@@ -97,9 +97,31 @@ RANK_DATA_MAX_AGE_DAYS = _int("RANK_DATA_MAX_AGE_DAYS", 30)
 # crece para siempre.
 RANK_DATA_MAX_ENTRIES = _int("RANK_DATA_MAX_ENTRIES", 4000)
 
-# Antigüedad máxima para dar por bueno un rango cacheado sin volver a pedirlo.
-# Se usa en los embeds: enseñar un rango de hace días es peor que pedirlo.
-RANK_CACHE_MAX_AGE = _int("RANK_CACHE_MAX_AGE", 6 * 3600)
+# Antigüedad máxima para dar por bueno un rango cacheado **que se sabe que ha
+# jugado**. Se usa en los embeds: enseñar un rango de antes de su último partido
+# es enseñar un dato que ya no es.
+#
+# Ojo con lo que significa ahora (22-09-2026): esto **ya no** es la ventana de
+# validez general. La validez la decide la actividad —un rango guardado después
+# del último partido observado no caduca nunca, juegue o no— y este número solo
+# entra cuando consta que la cuenta ha jugado después de guardarlo, o cuando no
+# hay ninguna señal de actividad. Por eso puede ser 30 min en vez de 6 h: antes
+# 6 h era el compromiso entre datos viejos y peticiones de más; ahora solo se
+# aplica a cuentas que sí han jugado, y ahí lo correcto es pedirlo ya.
+#   Ver `core/rank_store.py` (cabecera) y `tracking/soloq/rank_warm.py`.
+RANK_CACHE_MAX_AGE = _int("RANK_CACHE_MAX_AGE", 1800)
+
+# Ventana de `rank_warm`: en cuánto tiempo tiene que pasar por todas las cuentas
+# **sin dato válido**. Estaba atada a `RANK_CACHE_MAX_AGE` y se ha separado: con
+# la validez por actividad, atarlas multiplicaba por 18 el trabajo de esa tarea
+# (de 9 a ~160 peticiones por vuelta) sin ganar nada, porque lo que refresca son
+# cuentas que no tienen rango, no cuentas que caducan.
+RANK_WARM_WINDOW = _int("RANK_WARM_WINDOW", 6 * 3600)
+
+# Hueco máximo sin pasadas antes de dar por sospechosos los rangos guardados. Si
+# el bot estuvo apagado más que esto, una partida pudo pasar sin que nadie la
+# viera y no se puede afirmar que los rangos de antes sigan valiendo.
+RANK_HUECO_MAX = _int("RANK_HUECO_MAX", 900)
 
 # Cada cuánto, como máximo, se vuelca el almacén a disco. Antes cada
 # `save_rank_data` reescribía los 316 KB completos: un `!team` de 25 cuentas

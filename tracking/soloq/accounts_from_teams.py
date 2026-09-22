@@ -399,16 +399,28 @@ def refrescar_ligas(codigos: list[str]) -> bool:
         )
         return False
 
-    # Se quitan del fichero los jugadores de las ligas refrescadas y se vuelven a
-    # poner con lo recién traído. Las demás ligas se copian tal cual.
+    # Se heredan los PUUIDs de las cuentas que ya se conocían. Esto **faltaba** y
+    # era un fallo gordo (22-09-2026): `main()` lo hacía y `refrescar_ligas` no,
+    # así que cada refresco devolvía las cuentas **sin PUUID** y se perdía el
+    # trabajo de la reparación. El efecto se veía en el log: la LCK se refrescó,
+    # se quedó con 0 PUUIDs y el tracker dejó de poder consultarla — seguías la
+    # LCK y no llegaba ni un aviso, porque `spectator-v5` necesita el PUUID.
+    # Se casa por (nombre, liga) y, si no, por nombre, y cuenta por riot_id.
+    indice_previo = {
+        (p.get("name", "").lower(), (p.get("league") or "").lower()): p
+        for p in existentes
+    }
+    indice_sin_liga = {p.get("name", "").lower(): p for p in existentes}
+    heredados = 0
+
+    # Clave (nombre, liga) y no solo nombre: un suplente puede estar en la liga
+    # principal y en la regional, y entonces el nombre no distingue sus cuentas.
     pedidas_set = set(pedidas)
     conservados = [
         p for p in existentes
         if (p.get("league") or "").lower() not in pedidas_set
     ]
 
-    # Clave (nombre, liga) y no solo nombre: un suplente puede estar en la liga
-    # principal y en la regional, y entonces el nombre no distingue sus cuentas.
     vistos = {
         (p.get("name", "").lower(), (p.get("league") or "").lower())
         for p in conservados
@@ -421,6 +433,27 @@ def refrescar_ligas(codigos: list[str]) -> bool:
         if clave in vistos:
             continue
         vistos.add(clave)
+
+        previo = indice_previo.get(clave) or indice_sin_liga.get(jugador.name.lower())
+        if previo:
+            por_riot_id = {
+                (
+                    ((a.get("riot_id") or {}).get("game_name") or "").lower(),
+                    ((a.get("riot_id") or {}).get("tag_line") or "").lower(),
+                ): a
+                for a in (previo.get("accounts") or [])
+                if a.get("puuid")
+            }
+            for acc in jugador.accounts:
+                riot = acc.riot_id or {}
+                antes = por_riot_id.get(
+                    ((riot.get("game_name") or "").lower(), (riot.get("tag_line") or "").lower())
+                )
+                if antes:
+                    acc.puuid = antes["puuid"]
+                    acc.stale = antes.get("stale", False)
+                    heredados += 1
+
         nuevos.append(jugador.to_dict())
 
     if not nuevos:
@@ -433,12 +466,13 @@ def refrescar_ligas(codigos: list[str]) -> bool:
     combinado = conservados + nuevos
     log.info(
         "Rosters de %s refrescados: %d jugadores (antes %d en esas ligas, ahora "
-        "%d; total %d).",
+        "%d; total %d) · %d PUUIDs heredados.",
         ", ".join(pedidas),
         len(nuevos),
         len(existentes) - len(conservados),
         len(nuevos),
         len(combinado),
+        heredados,
     )
     return guardar_lista_json(
         JSON_PATH, combinado, etiqueta="accounts_from_teams"

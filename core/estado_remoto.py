@@ -57,6 +57,13 @@ ARCHIVOS: tuple[str, ...] = (
     "tracking/soloq/announced_games.json",
     "tracking/soloq/notify_config.json",
     "tracking/soloq/plans_users.json",
+    # La caché de PUUIDs (65 kB). Parece un dato reconstruible y **no lo es en la
+    # práctica**: sin ella, tras cada despliegue la reparación tiene que volver a
+    # preguntarle a Riot por ~1500 cuentas (7 minutos, y de paso los 429 de
+    # `account-v1`). Y mientras tanto las ligas que no son la LEC se quedan sin
+    # PUUID y **el tracker no puede consultarlas**: se veía en el log como el
+    # barrido cayendo de 237 cuentas a 129 tras cada despliegue.
+    "puuid_cache.json",
 )
 
 API = "https://api.github.com"

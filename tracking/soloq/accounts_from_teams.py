@@ -99,6 +99,26 @@ def _get_scraper():
     La versión anterior creaba un `cloudscraper` nuevo **en cada reintento de cada
     jugador**: con 9 equipos y 5 jugadores por equipo eso son decenas de
     resoluciones del challenge de Cloudflare por pasada, todas idénticas.
+
+    Por qué sigue siendo cloudscraper y no curl_cffi (probado el 22-09-2026)
+    -----------------------------------------------------------------------
+    curl_cffi se probó porque se recomienda como el reemplazo moderno de
+    cloudscraper (imita la huella TLS/JA3 de Chrome). **Funciona** —mismo HTML,
+    mismos jugadores— pero **no mejora nada aquí**, medido sobre el scrape real de
+    una liga (41 jugadores, 42 peticiones), alternando los dos transportes:
+
+        curl_cffi    16,7 s · 15,4 s · 14,6 s
+        cloudscraper 15,9 s · 14,7 s · 15,5 s
+
+    Son el mismo número. La razón: con una sola petición aislada sí se veía
+    diferencia (599 ms contra 272 ms), pero eso mide **la primera**, que incluye el
+    saludo a Cloudflare; en el scrape de verdad el tiempo lo pone la latencia de
+    dpm.lol (~370 ms por petición) y no el cliente. Añadir una dependencia y una
+    rama de código para no ganar nada no compensa.
+
+    Queda apuntado por si algún día cloudscraper deja de pasar el challenge: el
+    cambio son ~20 líneas (`curl_cffi.requests.Session(impersonate="chrome")` con
+    el mismo `safe_request`), y ya está probado que devuelve los mismos datos.
     """
     global _scraper
     if _scraper is None:

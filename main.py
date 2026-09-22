@@ -124,6 +124,17 @@ def main() -> int:
     # Puerto de salud para los PaaS que esperan uno abierto (hilo demonio).
     keep_alive()
 
+    # Los módulos de scraping se importan **aquí**, en el arranque, y no en el
+    # comando que los usa. Pesa (cloudscraper, bs4 y curl_cffi) y `/track <liga>`
+    # lo importaba en frío dentro del propio comando: medido, 188 ms en un PC
+    # normal y segundos en un plan de 0,1 CPU, comiéndose el plazo de 3 s que
+    # Discord da para la primera respuesta. Aquí no hay nadie esperando.
+    try:
+        from tracking.soloq import accounts_from_teams  # noqa: F401
+        from tracking.soloq import accounts_from_leaderboard  # noqa: F401
+    except Exception:
+        log.exception("No se pudieron precalentar los módulos de scraping.")
+
     log.info("Iniciando bot de Discord...")
     from core.bot_launcher import main as run_bot
 

@@ -1,5 +1,7 @@
 # Ignorar archivos y carpetas sensibles
 .env
+.env.*
+!.env.example
 __pycache__/
 *.pyc
 *.pyo
@@ -16,3 +18,35 @@ bugs y mejoras.txt
 
 # Ignorar carpeta secrets completa
 secrets/
+
+# Cualquier credencial de cuenta de servicio que quede suelta
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+
+# Cachés y artefactos generados
+cache/__pycache__/
+.archify/
+.backups/
+
+# Backups sueltos
+*.bak
+*.orig
+*~
+
+# Temporales de la escritura atómica (`.tmp` + os.replace). Si el proceso muere
+# a mitad del volcado el `.tmp` sobrevive; no debe acabar en el repo.
+*.tmp
+
+# Carpetas de los asistentes/agentes que se usan para trabajar en el proyecto.
+# No son código del bot: son notas y configuración local de cada herramienta.
+# `.workbuddy-ai/memory/` guarda el diario de trabajo y la estrategia del
+# proyecto (monetización, patrocinadores), y el repo es PÚBLICO → fuera.
+.workbuddy-ai/
+.agents/
+.claude/
+.continue/
+
+# Previsualización suelta de la imagen OG que genera `scripts/web_og.py`.
+_og_preview.png

@@ -1,56 +1,80 @@
-#core/rank_data.py
+"""Utilidades de rangos y construcción del ranking.
+
+El almacén persistente vive en `core/rank_store.py`. Aquí solo quedan los
+envoltorios que usa el resto del bot (`get_cached_rank`, `save_rank_data`,
+`get_rank_from_ranked_data`) y la construcción del ranking.
+
+Cambio importante de comportamiento
+-----------------------------------
+
+`get_cached_rank` ya **no** devuelve cualquier entrada del histórico: solo la
+devuelve si es reciente (`RANK_CACHE_MAX_AGE`). Antes daba por bueno un rango
+guardado hacía un año, así que los embeds podían enseñar el Elo que un jugador
+tenía en julio de 2025 como si fuera el de hoy. Si está caducado se devuelve
+`None` y el llamador lo pide a la API, que es lo que ya hacía cuando no había
+nada cacheado.
+"""
+
 import json
 import os
-import aiohttp
 import time
-from tracking.soloq.accounts_io import load_tracked_accounts
-from utils.cache_utils import save_ranking_cache, load_puuid_cache
-from apis.dpm_api import get_rank_from_dpmlol, fetch_lec_leaderboard, fetch_pro_leaderboard, fetch_champion_stats
 import asyncio
 
-RANKED_DATA_FILE = "ranked_data.json"
+import aiohttp
 
-# Cargar datos persistentes al inicio
-if os.path.exists(RANKED_DATA_FILE):
-    with open(RANKED_DATA_FILE, "r") as f:
-        saved_ranks = json.load(f)
-else:
-    saved_ranks = {}
+import config
+from core import health as salud
+from core import rank_store
+from tracking.soloq.accounts_io import load_tracked_accounts
+from utils.cache_utils import save_ranking_cache, load_puuid_cache
+from utils.logger import get_logger
+from apis.dpm_api import (
+    LIGAS,
+    fetch_champion_stats,
+    fetch_league_leaderboard,
+    fetch_lec_leaderboard,
+    fetch_pro_leaderboard,
+    get_rank_from_dpmlol,
+)
 
-def get_cached_rank(account):
-    puuid = account.puuid
-    # Siempre recarga desde disco para asegurar persistencia
-    if os.path.exists(RANKED_DATA_FILE):
-        with open(RANKED_DATA_FILE, "r") as f:
-            saved_ranks_disk = json.load(f)
-        return saved_ranks_disk.get(puuid)
-    return None
+log = get_logger("core.rank_data")
 
-import time
+RANKED_DATA_FILE = rank_store.RANKED_DATA_FILE
 
-def save_rank_data(account):
-    puuid = account.puuid
-    # Solo guarda si el rank es válido
-    if account.rank and account.rank.get("tier") and account.rank.get("tier") != "Desconocido":
-        saved_ranks[puuid] = {
-            "tier": account.rank["tier"],
-            "division": account.rank["division"],
-            "lp": account.rank["lp"],
-            "timestamp": int(time.time())
-        }
-        with open(RANKED_DATA_FILE, "w") as f:
-            json.dump(saved_ranks, f, indent=2)
-            
-            
-            
-            
+
+def get_cached_rank(account, max_edad: int | None = None):
+    """Rango cacheado de una cuenta, solo si sigue siendo válido."""
+    puuid = getattr(account, "puuid", None)
+    if not puuid:
+        return None
+    return rank_store.obtener_fresco(puuid, max_edad)
+
+
+def save_rank_data(account) -> bool:
+    """Anota el rango de una cuenta en el histórico.
+
+    La escritura es diferida: se acumula y se vuelca cada
+    `RANK_FLUSH_INTERVAL` segundos. Antes cada llamada reescribía los 316 KB
+    del fichero completo, así que un `!team` de 25 cuentas escribía casi 8 MB.
+    """
+    puuid = getattr(account, "puuid", None)
+    rank = getattr(account, "rank", None)
+    if not puuid or not isinstance(rank, dict):
+        return False
+    return rank_store.guardar(puuid, rank)
+
+
 def get_rank_from_ranked_data(puuid):
-    if os.path.exists(RANKED_DATA_FILE):
-        with open(RANKED_DATA_FILE, "r") as f:
-            data = json.load(f)
-        return data.get(puuid)
-    return None
+    """Último rango conocido, aunque sea antiguo.
 
+    Lo usa el ranking, que prefiere un dato viejo a una casilla vacía.
+    """
+    return rank_store.obtener_crudo(puuid)
+
+
+def flush_rank_data(forzar: bool = True) -> bool:
+    """Vuelca a disco lo que quede pendiente. Se llama al cerrar el bot."""
+    return rank_store.volcar(forzar=forzar)
 
 
 # Abreviaciones de campeones
@@ -105,160 +129,86 @@ def build_pro_index(pro_data):
 
 
 
-async def build_and_cache_ranking():
-    players = load_tracked_accounts()
-    puuid_cache = load_puuid_cache()
-    now = int(time.time())
+async def build_and_cache_ranking(liga: str = "lec"):
+    """Construye el ranking de una liga y lo deja en caché.
 
-    # 1. Carga los datos de LEC y PRO leaderboard
-    lec_data, pro_data = await asyncio.gather(
-        fetch_lec_leaderboard(),
-        fetch_pro_leaderboard()
-    )
+    Reescrito. La versión anterior exigía, para **cada** jugador, tener a la vez
+    un PUUID de dpm.lol en `puuid_cache.json` y un PUUID de Riot en la cuenta,
+    y hacía `break` en la primera coincidencia en vez de en la mejor. De los 46
+    jugadores seguidos solo 33 cumplían las dos condiciones, así que el ranking
+    salía incompleto incluso cuando la red funcionaba. Además cruzaba tres
+    fuentes (`lec_leaderboard`, `pro_leaderboard` y `champion_stats` por jugador)
+    para reconstruir datos que el leaderboard de liga ya trae juntos.
 
-    # 2. Indexa por PUUID para lookup rápido
-    lec_by_name = build_lec_index(lec_data)
-    pro_by_name = build_pro_index(pro_data)
+    Ahora se pide una sola cosa: `/v1/esport/soloq/leagues/<liga>/leaderboard`,
+    que devuelve por jugador displayName, team, lane, tier, rank, leaguePoints,
+    wins, losses, kda y mostChamps. Una petición, cero dependencia de los dos
+    espacios de PUUID, y sirve igual para LEC que para LCK o LPL.
+    """
+    from cache.champion_cache import CHAMPION_ID_TO_NAME
+
+    liga = (liga or "lec").lower().strip()
+    entradas = await fetch_league_leaderboard(liga)
+    if not entradas:
+        log.warning("El leaderboard de %s vino vacío; no se cachea nada.", liga.upper())
+        # Vacío sin excepción es el fallo silencioso típico de dpm.lol: si no se
+        # apunta, `/ranking` responde con la caché vieja y nadie se enteraría.
+        salud.registrar("leaderboard", False, f"{liga.upper()} vino vacío")
+        return []
 
     ranking = []
-    missing_players = []
+    for e in entradas:
+        wins = e.get("wins") or 0
+        losses = e.get("losses") or 0
+        partidas = wins + losses
 
-    for player in players:
-        main_acc = None
-        puuid_riot = None
-        puuid_dpmlol = None
-        for acc in player.accounts:
-            acc_name = acc.riot_id.get("game_name", "")
-            acc_tag = acc.riot_id.get("tag_line", "")
-            key = f"{acc_name}#{acc_tag}"
-            puuid_dpm = puuid_cache.get(key)
-            if puuid_dpm and acc.puuid:
-                main_acc = acc
-                puuid_riot = acc.puuid
-                puuid_dpmlol = puuid_dpm
-                break
-        if not main_acc or not puuid_riot or not puuid_dpmlol:
-            continue
-
-        
-        # --- 1. Busca en LEC leaderboard por PUUID ---
-        acc_name = main_acc.riot_id.get("game_name", "").lower()
-        acc_tag = main_acc.riot_id.get("tag_line", "").lower()
-        lec_entry = lec_by_name.get((acc_name, acc_tag))
-        if lec_entry:
-            champs = lec_entry.get("mostChamps", [])[:3]
-            from cache.champion_cache import CHAMPION_ID_TO_NAME
-            champ_names = [
-                abbreviate_champion_name(CHAMPION_ID_TO_NAME.get(str(cid), str(cid)))
-                for cid in champs
-            ]
-            ranking.append({
-                "player": lec_entry.get("displayName", player.name),
-                "team": lec_entry.get("team", player.team or ""),
-                "riot_id": main_acc.riot_id,
-                "role": lec_entry.get("lane", player.role),
-                "tier": lec_entry.get("tier", "Unranked"),
-                "division": lec_entry.get("rank", ""),
-                "lp": lec_entry.get("leaguePoints", 0),
-                "winrate": (lec_entry["wins"] / (lec_entry["wins"] + lec_entry["losses"]) * 100) if (lec_entry["wins"] + lec_entry["losses"]) > 0 else 0,
-                "kda": round(lec_entry.get("kda", 0), 2),
-                "best_champions": champ_names,
-                "profile_icon": main_acc.profile_icon,
-                "wins": lec_entry.get("wins", 0),
-                "losses": lec_entry.get("losses", 0),
-                "total_games": lec_entry.get("wins", 0) + lec_entry.get("losses", 0),
-            })
-            continue
-
-        
-        # --- 2. Busca en PRO leaderboard por PUUID ---
-        pro_entry = pro_by_name.get((acc_name, acc_tag))
-        if pro_entry:
-            champs = pro_entry.get("championIds", [])[:3]
-            from cache.champion_cache import CHAMPION_ID_TO_NAME
-            champ_names = [
-                abbreviate_champion_name(CHAMPION_ID_TO_NAME.get(str(cid), str(cid)))
-                for cid in champs
-            ]
-            rank = pro_entry.get("rank", {})
-            # lane puede ser dict o string
-            lane = pro_entry.get("lane")
-            if isinstance(lane, dict):
-                lane_value = lane.get("value", player.role)
-            else:
-                lane_value = lane or player.role
-            ranking.append({
-                "player": pro_entry.get("displayName", player.name),
-                "team": pro_entry.get("team", player.team or ""),
-                "riot_id": main_acc.riot_id,
-                "role": lane_value,
-                "tier": rank.get("tier", "Unranked"),
-                "division": rank.get("rank", ""),
-                "lp": rank.get("leaguePoints", 0),
-                "winrate": (rank.get("wins", 0) / (rank.get("wins", 0) + rank.get("losses", 0)) * 100) if (rank.get("wins", 0) + rank.get("losses", 0)) > 0 else 0,
-                "kda": round(pro_entry.get("kda", 0), 2),
-                "best_champions": champ_names,
-                "profile_icon": main_acc.profile_icon,
-                "wins": rank.get("wins", 0),
-                "losses": rank.get("losses", 0),
-                "total_games": rank.get("wins", 0) + rank.get("losses", 0),
-            })
-            continue
-
-        # --- 3. Si no está en ninguna, usa champion stats ---
-        missing_players.append((player, main_acc, puuid_dpmlol, puuid_riot))
-
-    # 4. Para los que faltan, consulta champion stats como antes (en paralelo)
-    tasks = [fetch_champion_stats(puuid_dpmlol) for (_, _, puuid_dpmlol, _) in missing_players]
-    champ_stats_list = await asyncio.gather(*tasks) if tasks else []
-
-    for idx, (player, main_acc, puuid_dpmlol, puuid_riot) in enumerate(missing_players):
-        champ_stats = champ_stats_list[idx]
-        total_wins = sum(c.get("win", 0) for c in champ_stats)
-        total_games = sum(c.get("gamesPlayed", 0) for c in champ_stats)
-        total_kills = sum(c.get("kills", 0) * c.get("gamesPlayed", 0) for c in champ_stats)
-        total_deaths = sum(c.get("deaths", 0) * c.get("gamesPlayed", 0) for c in champ_stats)
-        total_assists = sum(c.get("assists", 0) * c.get("gamesPlayed", 0) for c in champ_stats)
-        kda = (total_kills + total_assists) / max(1, total_deaths)
-        winrate = (total_wins / total_games * 100) if total_games else 0
-        best_champs = sorted(champ_stats, key=lambda c: c.get("gamesPlayed", 0), reverse=True)[:3]
-    
-        # --- ABREVIATURAS DE CAMPEONES ---
-        best_champ_names = [
-            abbreviate_champion_name(c.get("championName", "?"))
-            for c in best_champs
+        champs = [
+            abbreviate_champion_name(CHAMPION_ID_TO_NAME.get(str(cid), str(cid)))
+            for cid in (e.get("mostChamps") or [])[:3]
         ]
-            
-        # --- BUSCA RANK EN ranked_data.json POR PUUID ---
-        rank_data = get_rank_from_ranked_data(puuid_riot)
-        if rank_data and rank_data.get("lp", 0) > 0:
-            tier = rank_data.get("tier", "Unranked")
-            division = rank_data.get("division", "")
-            lp = rank_data.get("lp", 0)
-        else:
-            tier = "Unranked"
-            division = ""
-            lp = 0
-    
-        wins = total_wins
-        losses = total_games - total_wins
-    
+
         ranking.append({
-            "player": player.name,
-            "team": (player.team or "").upper(),
-            "riot_id": main_acc.riot_id,
-            "role": player.role,
-            "tier": tier,
-            "division": division,
-            "lp": lp,
-            "winrate": winrate,
-            "kda": round(kda, 2),
-            "best_champions": best_champ_names,
-            "profile_icon": main_acc.profile_icon,
+            "player": e.get("displayName") or e.get("gameName") or "?",
+            "team": (e.get("team") or "").upper(),
+            "riot_id": {
+                "game_name": e.get("gameName", ""),
+                "tag_line": e.get("tagLine", ""),
+            },
+            "role": e.get("lane") or "",
+            "tier": e.get("tier") or "Unranked",
+            "division": e.get("rank") or "",
+            "lp": e.get("leaguePoints") or 0,
+            "winrate": (wins / partidas * 100) if partidas else 0,
+            "kda": round(e.get("kda") or 0, 2),
+            "best_champions": champs,
+            "profile_icon": e.get("profileIcon"),
             "wins": wins,
             "losses": losses,
-            "total_games": wins + losses,
+            "total_games": partidas,
+            "puuid": e.get("puuid"),
         })
-    ranking.sort(key=lambda x: x["lp"], reverse=True)
-    save_ranking_cache(ranking)
+
+    # Orden por Elo real: el tier manda sobre los LP, porque 90 LP en Diamante no
+    # están por encima de 10 LP en Challenger. Antes se ordenaba solo por `lp`.
+    ranking.sort(key=lambda x: (_peso_tier(x["tier"]), x["lp"]), reverse=True)
+
+    save_ranking_cache(ranking, liga)
+    log.info("Ranking de %s: %d jugadores.", liga.upper(), len(ranking))
+    salud.registrar("leaderboard", True, f"{liga.upper()}: {len(ranking)} jugadores")
     return ranking
+
+
+#: Orden de los tiers de LoL, de menor a mayor. Un tier desconocido va al final.
+_ORDEN_TIERS = [
+    "IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "EMERALD",
+    "DIAMOND", "MASTER", "GRANDMASTER", "CHALLENGER",
+]
+
+
+def _peso_tier(tier: str | None) -> int:
+    if not tier:
+        return -1
+    try:
+        return _ORDEN_TIERS.index(tier.strip().upper())
+    except ValueError:
+        return -1

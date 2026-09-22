@@ -1,30 +1,43 @@
 #tracking/soloq/infoplayers_eu_dpm.py
 
-import re
+import html
 import json
 import os
+import re
+
 import cloudscraper
-import html
+
+from utils.logger import get_logger
+
+log = get_logger("tracking.infoplayers")
 
 # Crear carpeta de salida si no existe
 OUTPUT_DIR = "Infoplayers"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def extraer_datos_nextjs(html):
-    """Extrae el JSON interno de Next.js con la data estructurada del jugador"""
+def extraer_datos_nextjs(pagina: str):
+    """Extrae el JSON interno de Next.js con la data estructurada del jugador.
+
+    El parámetro se llamaba `html` y tapaba al módulo `html` importado arriba:
+    dentro de esta función, `html.unescape(...)` habría petado con
+    `AttributeError: 'str' object has no attribute 'unescape'`.
+    """
     patron_json = r'self\.__next_f\.push\(\[1,"5:\[.*?\\"data\\":\s*({.*?})\s*}\]\\n"\]\)'
-    match_json = re.search(patron_json, html, re.DOTALL)
-    
+    match_json = re.search(patron_json, pagina, re.DOTALL)
+
     if not match_json:
-        print("❌ No se encontró el JSON en el HTML")
+        # Pasa constantemente: dpm.lol no tiene página para muchos jugadores.
+        # Era un print por cada uno, 60 por hora.
+        log.debug("Sin JSON de Next.js en el HTML (jugador sin página en dpm.lol).")
         return None, None, None, None
 
     try:
         json_str = match_json.group(1).replace('\\"', '"').replace('\\n', '')
         datos_brutos = json.loads(json_str)
     except json.JSONDecodeError as e:
-        print(f"❌ Error al decodificar JSON: {e}")
+        log.debug("JSON de dpm.lol no válido: %s", e)
         return None, None, None, None
+
 
     # Redes sociales
     redes = {}
@@ -38,11 +51,11 @@ def extraer_datos_nextjs(html):
                     redes["twitch"] = link
 
     # Imagen del jugador
-    match_imagen = re.search(r'<img alt="[^"]*" [^>]*src="(/esport/players/[^"]+\.webp)"', html)
+    match_imagen = re.search(r'<img alt="[^"]*" [^>]*src="(/esport/players/[^"]+\.webp)"', pagina)
     imagen_jugador = f"https://dpm.lol{match_imagen.group(1)}" if match_imagen else None
 
     # Logo del equipo
-    match_logo = re.search(r'<img alt="Team Icon"[^>]*src="(/esport/teams/[^"]+\.webp)"', html)
+    match_logo = re.search(r'<img alt="Team Icon"[^>]*src="(/esport/teams/[^"]+\.webp)"', pagina)
     logo_equipo = f"https://dpm.lol{match_logo.group(1)}" if match_logo else None
 
     return datos_brutos, redes, imagen_jugador, logo_equipo
@@ -54,16 +67,15 @@ def extraer_datos_nextjs(html):
 def obtener_datos_jugador(nombre_jugador: str, scraper) -> dict | None:
     """Obtiene y estructura todos los datos del jugador"""
     url = f"https://dpm.lol/pro/{nombre_jugador}"
-    
 
     try:
-        print(f"⬇️ Descargando datos de {nombre_jugador}...")
+        log.debug("Descargando datos de %s", nombre_jugador)
         response = scraper.get(url)
         response.raise_for_status()
 
         datos_brutos, redes, imagen_jugador, logo_equipo = extraer_datos_nextjs(response.text)
         if not datos_brutos:
-            print("⚠️ No se encontraron datos válidos para", nombre_jugador)
+            log.debug("Sin datos válidos para %s", nombre_jugador)
             return None
 
         esport_player = datos_brutos.get("esportPlayer")
@@ -129,33 +141,62 @@ def obtener_datos_jugador(nombre_jugador: str, scraper) -> dict | None:
         }
 
     except Exception as e:
-        print(f"🚨 Error al obtener datos de {nombre_jugador}: {e}")
+        log.debug("Error obteniendo datos de %s: %s", nombre_jugador, e)
         return None
 
-import tracemalloc
-
 def guardar_datos_jugador_en_json(nombre_jugador: str, scraper):
-    tracemalloc.start()
-    """Guarda los datos del jugador en un archivo JSON en la carpeta Infoplayers"""
-    datos = obtener_datos_jugador(nombre_jugador, scraper)
-    
-    current, peak = tracemalloc.get_traced_memory()
-    print(f"📈 Memoria usada por {nombre_jugador}: actual={current / 10**6:.2f}MB | pico={peak / 10**6:.2f}MB")
+    """Guarda los datos del jugador en un JSON dentro de `Infoplayers/`.
 
-    tracemalloc.stop()
-    
+    Aquí había una medición de memoria con `tracemalloc` que **hacía caer el
+    proceso entero** con `access violation` (segfault). Motivo:
+
+    * `tracemalloc.start()` / `.stop()` cambian los *allocators* de CPython a
+      nivel de **proceso**, no de hilo (comprobado: `is_tracing()` puesto en un
+      hilo se ve `True` desde otro).
+    * Esta función la llama `actualizar_infoplayers_por_lotes` mediante
+      `asyncio.to_thread`, 60 veces por hora, así que esos `start`/`stop`
+      ocurrían en hilos de un pool mientras el hilo principal estaba dentro de
+      `zlib` descomprimiendo respuestas gzip de `aiohttp`.
+    * Cambiar el allocator con una descompresión en vuelo libera con un
+      allocator distinto del que reservó: memoria corrupta.
+
+    Reproducido y aislado en un A/B de 3+3 ejecuciones: con las llamadas a
+    `tracemalloc` los tres intentos murieron por segfault; sin ellas, los tres
+    terminaron bien. En el bot real fallaba 1 de cada 3 arranques, siempre con
+    `Current thread` dentro de `aiohttp/compression_utils.py decompress_sync`.
+
+    Si hace falta medir memoria otra vez, hay que hacerlo desde el hilo
+    principal y una sola vez (`PYTHONTRACEMALLOC=1` al arrancar), nunca por
+    lote y nunca desde un hilo secundario.
+    """
+    datos = obtener_datos_jugador(nombre_jugador, scraper)
+
     if datos is None:
-        print(f"❌ No se pudo guardar datos para {nombre_jugador}")
+        log.debug("No se pudo guardar datos de %s", nombre_jugador)
         return
 
     archivo_salida = os.path.join(OUTPUT_DIR, f"{nombre_jugador}.json")
-    with open(archivo_salida, "w", encoding="utf-8") as f:
-        json.dump(datos, f, ensure_ascii=False, indent=2)
-    print(f"✅ Datos de {nombre_jugador} guardados en {archivo_salida}")
+    # Escritura atómica: el fichero lo lee `!info` en cualquier momento y un
+    # corte a media escritura dejaba un JSON truncado que rompía el comando.
+    tmp = archivo_salida + ".tmp"
+    try:
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(datos, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, archivo_salida)
+    except OSError as exc:
+        log.warning("No se pudo escribir %s: %s", archivo_salida, exc)
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+        return
+
+    log.debug("Datos de %s guardados.", nombre_jugador)
+
 
 # Uso directo si se ejecuta este archivo
 if __name__ == "__main__":
     scraper = cloudscraper.create_scraper()
-    jugadores = ["Faker", "Caps", "113"]  # Puedes modificar esta lista
-    for jugador in jugadores:
+    for jugador in ("Faker", "Caps", "113"):
         guardar_datos_jugador_en_json(jugador, scraper)
+

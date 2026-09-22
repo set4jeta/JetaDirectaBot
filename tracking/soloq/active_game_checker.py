@@ -1,152 +1,555 @@
-#traking/soloq/active_game_checker.py
+"""Tracker de partidas en curso de los jugadores seguidos.
+
+Qué estaba roto antes
+---------------------
+`run()` era un `while True` que nunca terminaba. Como `core/background_tasks.py`
+lo llamaba desde un `@tasks.loop(seconds=60)`, ocurría esto:
+
+* la primera llamada entraba en `run()` y ya no salía nunca;
+* el loop de 60 s no volvía a dispararse jamás (nextcord espera a que el cuerpo
+  termine para programar la siguiente vuelta);
+* en la práctica el intervalo real quedaba fijado por el `sleep(5)` del final
+  del `while`, no por el decorador.
+
+Además:
+* `self.index = 0` al principio de cada vuelta anulaba el índice persistido en
+  `last_index.json`, así que ese mecanismo de reanudación era código muerto.
+* Cada pasada era secuencial con `sleep(0.5)` por jugador: con 55 jugadores,
+  más de 30 s por vuelta.
+* Ante un 429 hacía `sleep(8)` y reintentaba en un bucle interior.
+* Los jugadores se cargaban una sola vez en `__init__`, así que cualquier
+  cambio en los ficheros de cuentas exigía reiniciar el bot.
+
+Cómo queda ahora
+----------------
+`run()` hace **una pasada** y devuelve: el `tasks.loop` es quien manda.
+Las peticiones van con concurrencia acotada y el rate limiting vive en
+`apis/riot_client.py`, no aquí. Los PUUIDs inválidos se marcan como `stale`
+para no volver a gastar una petición en ellos.
+
+Cuando la pasada no cabe en su intervalo
+----------------------------------------
+El tope de ligas por servidor (`MAX_LIGAS_POR_SERVIDOR`) **no acota** el coste
+real: la pasada recorre la unión de las ligas de todos los servidores, así que
+20 servidores con 4 ligas distintas cada uno cuestan las 20 ligas. Medido en
+`scripts/_coste_ligas.py`: las 20 son ~3154 cuentas, unos 63 s al cupo de Riot,
+contra un `CHECK_GAMES_INTERVAL` de 30.
+
+Lo que pasaba entonces era degradación en silencio: la vuelta siguiente
+encontraba `self._running` en True, escribía una línea de log y se saltaba. Sin
+contarlas, la única forma de enterarse de que los avisos llegan tarde era leer
+el log. Ahora la pasada se mide contra su intervalo, las vueltas perdidas se
+cuentan y el resultado se registra en `core.health`, que es donde `/health`
+puede decirlo.
+"""
+
+from __future__ import annotations
 
 import asyncio
-import aiohttp
+import os
+import time
+from dataclasses import dataclass, field
 
-from tracking.soloq.accounts_io import load_accounts_cached
-from tracking.soloq.active_game_cache import set_active_game_with_ranked, ACTIVE_GAME_CACHE
-from utils.cache_utils import limpiar_cache_partidas_viejas
-from utils.spectate_bat import generar_bat_spectate
-from ui.active_match_embed import create_match_embed
-from core.retry_handler import add_to_retry_queue
-from core.ranked_cache import get_rank_data_or_cache 
-from apis.riot_api import get_active_game
-from tracking.soloq.notifier import (
-    load_announced_games,
-    save_announced_games,
-    already_announced,
-    mark_announced,
-    clean_old_announcements,
-)
-from tracking.soloq.index_tracker import load_last_index, save_last_index
-from models.soloq_match import SoloQMatch
-from tracking.soloq.channel_config import load_channel_ids
-from tracking.soloq.tracker_utils import is_valid_game
-from utils.player_filters import get_tracked_players
-from tracking.soloq.accounts_io import load_tracked_accounts
-from utils.player_filters import get_tracked_players
+import config
+from apis.riot_client import RiotApiError, get_riot_client, normalizar_plataforma
+from core import health as salud
 from core.rank_data import get_cached_rank, save_rank_data
+from core.ranked_cache import get_rank_data_or_cache
+from models.soloq_match import SoloQMatch
+from tracking.soloq.accounts_io import load_tracked_accounts
+from tracking.soloq.active_game_cache import olvidar, set_active_game_with_ranked
+from tracking.soloq.avisos_log import registrar as registrar_aviso
+from tracking.soloq.channel_config import todos_los_canales
+from tracking.soloq.notifier import (
+    already_announced,
+    clean_old_announcements,
+    load_announced_games,
+    mark_announced,
+    save_announced_games,
+)
+from tracking.soloq.tracker_utils import is_valid_game
+from ui.active_match_embed import create_match_embed
+from utils.cache_utils import limpiar_cache_partidas_viejas
+from utils.game_clock import desde_partida
+from utils.logger import get_logger
+from utils.player_filters import get_tracked_players
+
+log = get_logger("tracking.active_game_checker")
+
+# Cuántas cuentas se consultan a la vez. El límite real lo impone el rate
+# limiter del cliente; esto solo evita abrir cientos de conexiones a la vez.
+MAX_CONCURRENCY = int(os.getenv("TRACKER_CONCURRENCY", "12"))
+
+
+@dataclass
+class SweepStats:
+    """Resultado de una pasada: sirve para el log y para diagnosticar."""
+
+    revisadas: int = 0
+    en_partida: int = 0
+    notificadas: int = 0
+    omitidas_stale: int = 0
+    marcadas_stale: int = 0
+    errores: int = 0
+    duracion: float = 0.0
+    #: Segundos que tiene la pasada antes de que toque la siguiente vuelta.
+    #: Se copia de `CHECK_GAMES_INTERVAL` al terminar, no se lee al mirarlo, para
+    #: que la cifra guardada sea la que estaba en vigor en esa pasada.
+    presupuesto: float = 0.0
+    #: True si esta "pasada" no llegó a correr porque la anterior seguía viva.
+    solapada: bool = False
+    #: Vueltas perdidas por solapamiento desde que arrancó el proceso.
+    vueltas_perdidas: int = 0
+    detalle: list[str] = field(default_factory=list)
+
+    @property
+    def cabe(self) -> bool:
+        """¿Terminó dentro de su intervalo?
+
+        Sin presupuesto conocido se responde que sí: es una pasada suelta
+        (un script, un test) y no hay nada contra lo que compararla.
+        """
+        return self.presupuesto <= 0 or self.duracion <= self.presupuesto
+
+    @property
+    def uso(self) -> float:
+        """Fracción del intervalo consumida. 1.0 = justo en el límite."""
+        if self.presupuesto <= 0:
+            return 0.0
+        return self.duracion / self.presupuesto
+
+
+#: A partir de qué fracción del intervalo se avisa de que la pasada raspa. No
+#: es un número redondo por gusto: con 6 ligas la medición daba ~24 s sobre un
+#: intervalo de 30 (0,8), y ese es justo el caso que hay que ver venir antes de
+#: que empiecen a perderse vueltas.
+UMBRAL_AVISO = 0.8
+
+#: Última pasada terminada, para que `/health` pueda decir "tarda 41 s y el
+#: intervalo es 30". Antes esto solo existía en una línea de log: el bot se
+#: degradaba (avisos con un minuto de retraso) sin que ninguna superficie lo
+#: dijera. Es de módulo y no del tracker porque `/health` no tiene la instancia.
+ultima_pasada: SweepStats | None = None
+
+#: Acumulado del proceso. Una vuelta perdida suelta puede ser un pico de la API;
+#: que el contador suba sin parar es que la pasada ya no cabe.
+_vueltas_perdidas = 0
+
+
+def _presupuesto() -> float:
+    """Segundos entre vueltas. Se lee en caliente para respetar el `.env`."""
+    return float(getattr(config, "CHECK_GAMES_INTERVAL", 0) or 0)
+
+
+def _rutas_de(files) -> list[tuple[str, str]]:
+    """`(ruta_en_disco, nombre_en_discord)` de cada adjunto del embed.
+
+    Hace falta para poder mandar el mismo embed a varios servidores: un
+    `nextcord.File` solo sirve para un envío.
+    """
+    rutas: list[tuple[str, str]] = []
+    for f in files or []:
+        ruta = getattr(getattr(f, "fp", None), "name", None)
+        if isinstance(ruta, str) and os.path.exists(ruta):
+            rutas.append((ruta, f.filename))
+    return rutas
+
+
+def _reabrir(rutas: list[tuple[str, str]]):
+    """Adjuntos nuevos a partir de las rutas, para el siguiente envío."""
+    import nextcord
+
+    nuevos = []
+    for ruta, nombre in rutas:
+        try:
+            nuevos.append(nextcord.File(ruta, filename=nombre))
+        except OSError as exc:
+            log.debug("No se pudo reabrir el adjunto %s: %s", ruta, exc)
+    return nuevos
 
 
 class ActiveGameTracker:
-    def __init__(self, bot):
-        self.bot = bot
-        self.players = get_tracked_players(load_tracked_accounts())  # Solo trackeados
-        self.total_players = len(self.players)
-        self.index = load_last_index()
-        self.announced_games = load_announced_games()
-        self.embed_cache = {}
+    """Comprueba quién está en partida y avisa en los canales configurados."""
 
-        self.puuid_to_player = {
+    def __init__(self, bot, concurrency: int = MAX_CONCURRENCY):
+        self.bot = bot
+        self.concurrency = concurrency
+        self.announced_games = load_announced_games()
+        self._puuid_to_player: dict[str, object] = {}
+        self._players: list = []
+        self._running = False
+
+        self.refresh_players()
+
+    # ------------------------------------------------------------------ #
+    # Carga de jugadores
+    # ------------------------------------------------------------------ #
+
+    def refresh_players(self) -> None:
+        """Recarga las cuentas para recoger cambios sin reiniciar el bot."""
+        self._players = get_tracked_players(load_tracked_accounts())
+        self._puuid_to_player = {
             acc.puuid: player
-            for player in self.players
+            for player in self._players
             for acc in player.accounts
             if acc.puuid
         }
 
-    async def run(self):
-        while True:
-            self.index = 0
-            async with aiohttp.ClientSession() as session:
-                while self.index < self.total_players:
-                    player = self.players[self.index]
-                    await self.check_player(player, session)
-                    self.index += 1
-                    await asyncio.sleep(0.5)
-            self.cleanup()
-            print("✅ Revisión de partidas finalizada.")
-            await asyncio.sleep(5)
+    # ------------------------------------------------------------------ #
+    # Una pasada
+    # ------------------------------------------------------------------ #
 
-    async def check_player(self, player, session):
-        for account in player.accounts:
-            if not account.puuid:
+    async def run(self) -> SweepStats:
+        """Hace UNA pasada sobre todas las cuentas y devuelve estadísticas.
+
+        Devuelve siempre: quien la llame (`check_games_loop`) es responsable de
+        la cadencia. Un `while True` aquí rompería el `tasks.loop`.
+        """
+        global ultima_pasada, _vueltas_perdidas
+
+        started = time.perf_counter()
+        stats = SweepStats(presupuesto=_presupuesto())
+
+        # Si una pasada anterior sigue viva, no solapamos trabajo.
+        if self._running:
+            _vueltas_perdidas += 1
+            stats.solapada = True
+            stats.vueltas_perdidas = _vueltas_perdidas
+            log.warning(
+                "Pasada anterior aún en curso: se pierde esta vuelta (%d en total). "
+                "La pasada no cabe en los %.0fs de intervalo.",
+                _vueltas_perdidas, stats.presupuesto,
+            )
+            salud.registrar(
+                "pasada", False,
+                f"{_vueltas_perdidas} vuelta(s) perdidas por solapamiento",
+            )
+            return stats
+
+        self._running = True
+        try:
+            self.refresh_players()
+
+            all_accounts = [acc for p in self._players for acc in p.accounts]
+            stats.omitidas_stale = sum(
+                1 for acc in all_accounts if getattr(acc, "stale", False)
+            )
+
+            targets = [
+                (player, account)
+                for player in self._players
+                for account in player.accounts
+                if account.puuid and not getattr(account, "stale", False)
+            ]
+            stats.revisadas = len(targets)
+
+            if not targets:
+                log.warning("No hay cuentas que revisar. Revisa accounts_from_teams.json")
+                return stats
+
+            semaphore = asyncio.Semaphore(self.concurrency)
+
+            async def guarded(player, account):
+                async with semaphore:
+                    return await self._check_account(player, account, stats)
+
+            await asyncio.gather(*(guarded(p, a) for p, a in targets))
+
+            self.cleanup()
+        finally:
+            self._running = False
+            stats.duracion = time.perf_counter() - started
+            stats.vueltas_perdidas = _vueltas_perdidas
+            ultima_pasada = stats
+
+        log.info(
+            "Pasada: %.1fs | %d cuentas | %d en partida | %d notificadas | "
+            "%d stale omitidas | %d errores",
+            stats.duracion, stats.revisadas, stats.en_partida,
+            stats.notificadas, stats.omitidas_stale, stats.errores,
+        )
+        for line in stats.detalle:
+            log.info("   %s", line)
+
+        self._avisar_si_no_cabe(stats)
+        return stats
+
+    def _avisar_si_no_cabe(self, stats: SweepStats) -> None:
+        """Compara la pasada con su intervalo y lo registra en `core.health`.
+
+        Se separa de `run()` porque son dos preguntas distintas: `run()` dice qué
+        encontró, esto dice si va a tiempo. Y hace falta porque el tope de ligas
+        por servidor no acota el coste global (ver la cabecera del módulo): el
+        bot puede acabar con 20 ligas en la unión y degradarse sin quejarse.
+
+        No se toca la cadencia automáticamente. Bajar la frecuencia de sondeo o
+        recortar ligas por decisión propia cambiaría el producto que el servidor
+        contrató sin decírselo; lo que hace falta es que se **vea**, y de eso ya
+        se encarga `/health`.
+        """
+        if stats.presupuesto <= 0:
+            return
+
+        if not stats.cabe:
+            log.warning(
+                "La pasada tardó %.1fs y el intervalo es %.0fs (%.0f %%): los avisos "
+                "van a llegar tarde. Reduce ligas seguidas o sube CHECK_GAMES_INTERVAL.",
+                stats.duracion, stats.presupuesto, stats.uso * 100,
+            )
+            salud.registrar(
+                "pasada", False,
+                f"{stats.duracion:.0f}s sobre {stats.presupuesto:.0f}s de intervalo",
+            )
+            return
+
+        if stats.uso >= UMBRAL_AVISO:
+            # Todavía cabe, así que no es una avería: es el aviso previo. Se
+            # registra como "ok" con detalle para no encender `/health` en rojo
+            # por algo que aún funciona.
+            log.warning(
+                "La pasada ocupa el %.0f %% de su intervalo (%.1fs de %.0fs). "
+                "Con una liga más deja de caber.",
+                stats.uso * 100, stats.duracion, stats.presupuesto,
+            )
+            salud.registrar(
+                "pasada", True,
+                f"al {stats.uso * 100:.0f} % del intervalo ({stats.duracion:.0f}s)",
+            )
+            return
+
+        salud.registrar("pasada", True, f"{stats.duracion:.1f}s de {stats.presupuesto:.0f}s")
+
+    # ------------------------------------------------------------------ #
+    # Comprobación de una cuenta
+    # ------------------------------------------------------------------ #
+
+    async def _check_account(self, player, account, stats: SweepStats) -> None:
+        """Mira si una cuenta está en partida y avisa si corresponde."""
+        client = await get_riot_client()
+        rid = account.riot_id or {}
+        label = f"{rid.get('game_name', '?')}#{rid.get('tag_line', '?')}"
+
+        # Cada cuenta se consulta en SU servidor. Antes todas iban contra
+        # `DEFAULT_PLATFORM` (euw1): con la LEC no se notaba, pero las cuentas
+        # de KR/NA/BR daban 404 aunque el jugador estuviera en partida.
+        plataforma = normalizar_plataforma(getattr(account, "platform", None))
+
+        try:
+            game_data = await client.get_active_game(account.puuid, platform=plataforma)
+        except RiotApiError as exc:
+            # 400 = PUUID que Riot no puede descifrar. Es permanente: marcamos
+            # la cuenta para no volver a gastar una petición en cada pasada.
+            if exc.status == 400:
+                account.stale = True
+                stats.marcadas_stale += 1
+                log.warning("PUUID inválido en %s -> marcada stale: %s", label, exc.message[:90])
+            else:
+                stats.errores += 1
+                log.debug("Error consultando %s: %s", label, exc)
+            return
+
+        # 404 = no está en partida. Es el caso normal, no ensuciamos el log.
+        if not game_data:
+            # `olvidar` limpia también el índice por nombre: con `pop` a secas
+            # la entrada por nombre sobrevivía y `!match` podía servir una
+            # partida ya terminada al caer a ese respaldo.
+            olvidar(account.puuid, getattr(player, "name", None))
+            return
+
+        if not is_valid_game(game_data):
+            return
+
+        match = SoloQMatch.from_riot_game_data(game_data)
+        stats.en_partida += 1
+        if await self.notificar_partida(account, match):
+            stats.notificadas += 1
+        # El log llevaba `gameLength` en crudo, que es el reloj del espectador y
+        # sale negativo al principio de la partida: en el log aparecía
+        # "CLASSIC -134s". Ahora va el mismo texto que ve el usuario.
+        stats.detalle.append(
+            f"{getattr(player, 'name', '?')} · {label} · {game_data.get('gameMode')} "
+            f"{desde_partida(game_data).texto_corto()}"
+        )
+
+    # ------------------------------------------------------------------ #
+    # Notificación
+    # ------------------------------------------------------------------ #
+
+    async def notificar_partida(self, account, match: SoloQMatch) -> bool:
+        """Envía el embed a cada canal suscrito. True si se envió al menos uno."""
+        game_id = match.game_id
+        ranked_map: dict[str, dict] = {}
+
+        # Los 10 participantes están en el servidor de la partida. Se pasa
+        # `platformId` en vez de dejar que el cliente caiga a euw1: en una
+        # partida de KR eso devolvía 404 diez veces y el embed salía sin Elo.
+        plataforma = match.platform or getattr(account, "platform", None)
+
+        for participant in match.participants:
+            if not participant.puuid:
+                continue
+            cached = get_cached_rank(participant)
+            if cached:
+                ranked_map[participant.puuid] = cached
                 continue
 
-            found = False
-            while True:
-                print(f"🔍 Revisando {player.name} | {account.riot_id['game_name']}#{account.riot_id['tag_line']}")
+            rank_data = await get_rank_data_or_cache(
+                participant.puuid, platform=plataforma
+            )
+            ranked_map[participant.puuid] = rank_data
+            if rank_data.get("tier") not in (None, "Desconocido"):
+                participant.rank = rank_data
+                save_rank_data(participant)
 
-                try:
-                    game_data, status = await get_active_game(account.puuid, session)
-                except Exception as e:
-                    print(f"[ERROR] Excepción consultando Riot API: {e}")
-                    break
+        player = self._puuid_to_player.get(account.puuid)
+        player_name = getattr(player, "name", None) or account.riot_id["game_name"]
+        set_active_game_with_ranked(account.puuid, match.datos_extra, ranked_map, player_name)
 
-                if status == 429:
-                    print("⚠️ Rate Limit alcanzado. Reintentando en 8s...")
-                    await asyncio.sleep(8)
+        # La pasada es global (abarca las ligas de todos los servidores), pero
+        # cada servidor solo recibe las que eligió. Sin este filtro, quien
+        # siguiera solo la LEC recibiría también las partidas de la LCK.
+        from tracking.soloq.leagues import ligas_de
+        from utils.i18n import idioma_de
+        from utils.player_filters import _liga_de
+
+        liga_jugador = _liga_de(player)
+
+        # Antes aquí había un `return False` cuando no había ningún canal
+        # configurado. Ya no puede estar: con suscripciones personales, el caso
+        # "cero canales y un usuario que se instaló el bot en su cuenta" es
+        # exactamente el que hay que atender, y ese atajo lo dejaba sin avisos.
+        canales_por_servidor = todos_los_canales()
+        if not canales_por_servidor:
+            log.debug("Partida detectada y ningún canal suscrito: solo DM.")
+
+        sent = False
+        # Un embed **por idioma**, no por servidor: dos servidores en inglés
+        # comparten el mismo. Montarlo cuesta lectura de ficheros de cuentas y
+        # de imágenes, así que se cachea aquí. Los adjuntos sí van aparte
+        # (`nextcord.File` solo sirve para un envío).
+        por_idioma: dict[str, tuple[object, list[tuple[str, str]]]] = {}
+
+        for guild_id, canales in canales_por_servidor.items():
+            if liga_jugador not in ligas_de(guild_id):
+                log.debug(
+                    "Servidor %s: %s es de la liga '%s', que no sigue.",
+                    guild_id, player_name, liga_jugador,
+                )
+                continue
+
+            idioma = idioma_de(guild_id)
+
+            # Un servidor puede tener varios canales de avisos (cupo del plan),
+            # así que el filtro por liga y el idioma se resuelven una vez por
+            # servidor y el envío se repite por canal.
+            for channel_id in canales:
+                if already_announced(self.announced_games, game_id, channel_id):
                     continue
 
-                if status == 404:
-                    ACTIVE_GAME_CACHE.pop(account.puuid, None)
-                    break
+                channel = self.bot.get_channel(channel_id)
+                if not channel:
+                    log.debug("Canal %s no accesible.", channel_id)
+                    continue
 
-                if not game_data:
-                    print(f"❌ No se encontró partida en vivo para {player.name} | {account.riot_id['game_name']}#{account.riot_id['tag_line']}")
-                    break
+                # El embed se construye una vez por idioma, pero los adjuntos NO
+                # se pueden reutilizar: nextcord cierra el descriptor tras
+                # enviarlo, así que el segundo `channel.send` con los mismos
+                # `File` moría con `ValueError: seek of closed file` (comprobado
+                # reproduciendo el ciclo reset/close de nextcord). Con un solo
+                # canal nunca se vio; con dos, el segundo se quedaba sin aviso.
+                if idioma not in por_idioma:
+                    embed, files = await create_match_embed(
+                        match, self._puuid_to_player, ranked_map, idioma=idioma
+                    )
+                    por_idioma[idioma] = (embed, _rutas_de(files))
+                else:
+                    embed, rutas = por_idioma[idioma]
+                    files = _reabrir(rutas)
 
-                if not is_valid_game(game_data):
-                    print(f"❌ Partida encontrada pero no válida para {player.name} | {account.riot_id['game_name']}#{account.riot_id['tag_line']}")
-                    break
+                try:
+                    await channel.send(embed=embed, files=files)
+                    mark_announced(self.announced_games, game_id, channel_id)
+                    sent = True
+                except Exception as exc:
+                    log.error("No se pudo enviar al canal %s: %s", channel_id, exc)
 
-                match = SoloQMatch.from_riot_game_data(game_data)
-                await self.notificar_partida(account, match, session)  # <-- PASA session AQUÍ
-                print(f"✅ Partida activa encontrada para {player.name} | {account.riot_id['game_name']}#{account.riot_id['tag_line']}")
-                found = True
-                break
+        # El mismo aviso, a quien lo haya pedido en su chat privado. Va después
+        # de los canales a propósito: los canales son el producto que ya
+        # funciona, y si el reparto por DM se atasca (Discord frena la apertura
+        # de DM con un 40003) no puede retrasar lo que ya iba bien.
+        if await self._notificar_por_dm(match, ranked_map, player_name, liga_jugador):
+            sent = True
 
-            if not found:
-                print(f"⏹️ {player.name} | {account.riot_id['game_name']}#{account.riot_id['tag_line']} NO tiene partida activa.")
+        # El registro va al final y solo si algo se envió: es un histórico de
+        # avisos publicados, no de partidas detectadas. Una partida que nadie
+        # sigue se detecta pero no se anuncia, y anotarla haría que la web
+        # publicara avisos que nunca existieron.
+        #
+        # No guarda ningún canal, servidor ni usuario: este fichero se publica
+        # en la web. Ver la cabecera de `avisos_log.py`.
+        if sent:
+            registrar_aviso(match, account, player, liga_jugador, ranked_map)
 
+        return sent
 
-    import aiohttp
+    async def _notificar_por_dm(
+        self, match: SoloQMatch, ranked_map: dict, player_name: str, liga: str
+    ) -> bool:
+        """Manda la partida a los usuarios suscritos. True si llegó a alguno.
 
-    async def notificar_partida(self, account, match: SoloQMatch, session):  # <-- AGREGA session AQUÍ
-        game_id = match.game_id
+        Esto es el eje por usuario: alguien puede seguir a un jugador suelto o
+        una liga entera y recibirlo en su DM sin que haya ningún servidor de por
+        medio. Ver `tracking/soloq/dm_notifier.py`, y en particular por qué la
+        entrega **no está garantizada** por Discord.
 
-        msi_puuids = {p.puuid for p in match.participants if p.puuid}
-        ranked_map = {}
+        El embed se cachea por idioma igual que en los canales, y por el mismo
+        motivo: montarlo lee ficheros de cuentas e imágenes. Los adjuntos no se
+        pueden reutilizar entre envíos, así que se guardan las rutas y se
+        reabren; es literalmente el fallo que ya se arregló para el segundo canal
+        de un servidor (`ValueError: seek of closed file`).
+        """
+        from tracking.soloq.dm_notifier import clave_dedupe, destinatarios, repartir
 
-        for p in match.participants:
-            if not p.puuid:
-                continue
+        ids = [
+            uid for uid in destinatarios(player_name, liga)
+            if not already_announced(self.announced_games, match.game_id, clave_dedupe(uid))
+        ]
+        if not ids:
+            return False
 
-            cached_rank = get_cached_rank(p)
+        cache: dict[str, tuple[object, list[tuple[str, str]]]] = {}
 
-            if cached_rank:
-                ranked_map[p.puuid] = cached_rank
-            else:
-                rank_data = await get_rank_data_or_cache(p.puuid, session)
-                ranked_map[p.puuid] = rank_data
+        def construir(idioma: str) -> dict:
+            # Síncrona porque `repartir` la llama por destinatario y no debe
+            # esperar E/S: el embed ya está hecho tras el primer idioma.
+            embed, rutas = cache[idioma]
+            return {"embed": embed, "files": _reabrir(rutas)}
 
-                # Guardar en el JSON
-                if rank_data["tier"] != "Desconocido":
-                    p.rank = rank_data
-                    save_rank_data(p)
+        # Se precalienta la caché aquí, donde sí se puede esperar, con un embed
+        # por idioma distinto que haya entre los destinatarios y no uno por
+        # persona.
+        from utils.i18n import idioma_efectivo
 
-        player = self.puuid_to_player.get(account.puuid)
-        player_name = player.name if player else account.riot_id["game_name"]
-        set_active_game_with_ranked(account.puuid, match.datos_extra, ranked_map, player_name)
-        
-        for guild_id_str, channel_id in load_channel_ids().items():
-            if already_announced(self.announced_games, game_id, channel_id):
-                continue
+        for idioma in {idioma_efectivo(uid) for uid in ids}:
+            embed, files = await create_match_embed(
+                match, self._puuid_to_player, ranked_map, idioma=idioma
+            )
+            cache[idioma] = (embed, _rutas_de(files))
 
-            channel = self.bot.get_channel(channel_id)
-            if not channel:
-                continue
+        entregados = await repartir(self.bot, ids, construir)
+        for uid in entregados:
+            mark_announced(self.announced_games, match.game_id, clave_dedupe(uid))
+        if entregados:
+            log.info("Partida %s enviada por DM a %d usuario(s)",
+                     match.game_id, len(entregados))
+        return bool(entregados)
 
-            embed, files = await create_match_embed(match, self.puuid_to_player, ranked_map)
+    # ------------------------------------------------------------------ #
+    # Cierre de pasada
+    # ------------------------------------------------------------------ #
 
-            try:
-                await channel.send(embed=embed, files=files)
-                mark_announced(self.announced_games, game_id, channel_id)
-            except Exception as e:
-                print(f"[ERROR] No se pudo enviar mensaje a canal {channel_id}: {e}")
-
-    def cleanup(self):
+    def cleanup(self) -> None:
+        """Persiste estado y limpia caches. Se llama al final de cada pasada."""
         clean_old_announcements(self.announced_games)
         save_announced_games(self.announced_games)
         limpiar_cache_partidas_viejas()
-        save_last_index(self.index if self.index < self.total_players else 0)
-        print("✅ Revisión de partidas finalizada.")

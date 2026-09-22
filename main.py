@@ -1,71 +1,135 @@
 # main.py
+"""Punto de entrada del bot.
+
+Qué hacía antes y por qué se ha cambiado
+----------------------------------------
+1. **Lanzaba el bot como proceso hijo** (`subprocess.run(["python", "-m",
+   "core.bot_launcher"])`). Eso tenía tres problemas:
+
+   * Las señales van al **padre**. Render manda SIGTERM al proceso principal, el
+     hijo no se enteraba, y el cierre ordenado de `core.bot_launcher` (volcar los
+     rangos pendientes, cerrar las sesiones HTTP) no se ejecutaba nunca.
+   * Dos intérpretes de Python a la vez en un plan de 512 MB, con el padre
+     manteniendo en memoria las cuentas ya cargadas sin usarlas para nada.
+   * `"python"` a pelo depende del PATH; si el entorno solo tiene `python3` el
+     arranque fallaba con `FileNotFoundError` después de haber hecho todo el
+     trabajo de descarga.
+
+2. **Descargaba el leaderboard y los equipos de dpm.lol antes de conectar.** Son
+   dos scrapes con `cloudscraper` que tardan minutos; el bot no aparecía en
+   Discord hasta que acababan. Y es trabajo **duplicado**: la tarea
+   `actualizar_accounts_diario` de `core/background_tasks.py` hace exactamente lo
+   mismo, en un hilo aparte, y su primera vuelta salta al arrancar.
+
+3. **Resolvía los PUUIDs con el camino viejo** (`update_puuids_in_accounts`), que
+   abre su propia `aiohttp.ClientSession`, reintenta con `sleep(8)` y no pasa por
+   el limitador de la key nueva. `puuid_repair.repair_all()` hace lo mismo con el
+   cliente compartido y las ~690 cuentas salen en segundos.
+
+Ahora esto solo comprueba la configuración, abre el puerto de salud y arranca el
+bot **en este mismo proceso**. El refresco de datos lo llevan las tareas de
+fondo, salvo el caso en el que de verdad hace falta hacerlo antes: que no haya
+ficheros de cuentas todavía (primer despliegue).
+"""
+
+from __future__ import annotations
 
 import asyncio
-import subprocess
-from config import DISCORD_TOKEN
+import json
+import os
+import sys
+from pathlib import Path
+
+import config
 from keep_alive import keep_alive
-from tracking.soloq.accounts_from_leaderboard import main as update_accounts_from_leaderboard
-from tracking.soloq.update_puuids import update_puuids_in_accounts
-from tracking.soloq.update_tracked_puuids import update_puuids_in_tracked_accounts
-from tracking.soloq.accounts_io import load_accounts, load_tracked_accounts      
+from utils.logger import get_logger
 
-from tracking.soloq.accounts_from_teams import main as update_accounts_from_teams
+log = get_logger("main")
 
-if __name__ == "__main__":
-    # 0) Actualiza accounts.json desde el leaderboard
-    print("🔄 Actualizando accounts.json desde leaderboard externo…")
-    update_accounts_from_leaderboard()
-    print("✅ accounts.json actualizado.")
-    
-    print("🔄 Actualizando accounts_from_teams.json desde equipos…")
-    update_accounts_from_teams()
-    print("✅ accounts_from_teams.json actualizado.")
+BASE_DIR = Path(__file__).resolve().parent
+ACCOUNTS = BASE_DIR / "tracking" / "soloq" / "accounts.json"
+ACCOUNTS_TEAMS = BASE_DIR / "tracking" / "soloq" / "accounts_from_teams.json"
 
-    # 1) Verifica y actualiza PUUIDs SOLO si falta alguno
-    
-    players = load_accounts()
-    needs_update = any(
-        not account.puuid
-        for player in players
-        for account in player.accounts
-    )
-    if needs_update:
-        print("🔄 Hay cuentas sin PUUID, actualizando antes de iniciar el bot...")
-        asyncio.run(update_puuids_in_accounts())
-        print("✅ PUUIDs verificados/corregidos.")
+# Fuerza el refresco síncrono al arrancar (comportamiento antiguo). Solo útil
+# para depurar los scrapers: en producción retrasa la conexión a Discord.
+STARTUP_REFRESH = os.getenv("STARTUP_REFRESH", "0") == "1"
+
+
+def _vacio(path: Path) -> bool:
+    """True si el fichero no existe, está vacío o no es una lista con datos."""
+    if not path.exists() or path.stat().st_size == 0:
+        return True
+    try:
+        with path.open(encoding="utf-8") as f:
+            return not json.load(f)
+    except (json.JSONDecodeError, OSError):
+        # Un JSON roto es peor que uno ausente: mejor volver a bajarlo.
+        log.warning("%s no se puede leer; se tratará como vacío.", path.name)
+        return True
+
+
+def _sembrar_cuentas() -> None:
+    """Descarga las cuentas de forma síncrona. Solo en el primer arranque."""
+    from tracking.soloq.accounts_from_leaderboard import main as update_leaderboard
+    from tracking.soloq.accounts_from_teams import main as update_teams
+
+    log.info("No hay ficheros de cuentas: descargando por primera vez...")
+    for nombre, fn in (("leaderboard", update_leaderboard), ("equipos", update_teams)):
+        try:
+            fn()
+            log.info("Cuentas de %s descargadas.", nombre)
+        except Exception:
+            # Sin cuentas el bot arranca igual: el tracker no encontrará a nadie
+            # y la tarea diaria volverá a intentarlo.
+            log.exception("Fallo descargando las cuentas de %s.", nombre)
+
+
+async def _reparar_puuids() -> None:
+    """Resuelve los PUUIDs con el cliente compartido y su limitador."""
+    from apis.riot_client import close_riot_client
+    from tracking.soloq import puuid_repair
+
+    try:
+        resumen = await puuid_repair.repair_all(dry_run=False, make_backup=False)
+    except Exception:
+        log.exception("Fallo reparando PUUIDs; el bot arranca con lo que haya.")
+        return
+    finally:
+        # Este cliente pertenece a un event loop que se cierra al salir de
+        # `asyncio.run`; si se dejara vivo, el bot lo heredaría atado a un loop
+        # muerto y toda petición fallaría con "Event loop is closed".
+        await close_riot_client()
+
+    reparadas = sum(s.get("reparadas", 0) for s in resumen.values())
+    log.info("PUUIDs verificados (%d corregidos).", reparadas)
+
+
+def main() -> int:
+    falta = config.missing_required()
+    if falta:
+        log.error("Faltan variables obligatorias en .env: %s", ", ".join(falta))
+        return 1
+
+    log.info("Configuración:\n%s", config.resumen())
+
+    primera_vez = _vacio(ACCOUNTS) and _vacio(ACCOUNTS_TEAMS)
+    if primera_vez or STARTUP_REFRESH:
+        _sembrar_cuentas()
+        asyncio.run(_reparar_puuids())
     else:
-        print("✅ Todas las cuentas tienen PUUID.")
+        # La tarea `actualizar_accounts_diario` refresca esto en su primera
+        # vuelta, y `actualizar_puuids_periodico` repara los PUUIDs cada 6 h.
+        log.info("Cuentas presentes; el refresco lo hacen las tareas de fondo.")
 
-
-
-    # 1.1) Verifica y actualiza PUUIDs en accounts_from_teams.json
-    tracked_players = load_tracked_accounts()
-    needs_update_tracked = any(
-        not account.puuid
-        for player in tracked_players
-        for account in player.accounts
-    )
-    if needs_update_tracked:
-        print("🔄 Hay cuentas sin PUUID en accounts_from_teams.json, actualizando...")
-        asyncio.run(update_puuids_in_tracked_accounts())
-        print("✅ PUUIDs verificados/corregidos en accounts_from_teams.json.")
-    else:
-        print("✅ Todas las cuentas de accounts_from_teams.json tienen PUUID.")
-
-
-
-
-
-
-
-
-    # 2) Comprueba token
-    if DISCORD_TOKEN is None:
-        raise RuntimeError("❌ La variable DISCORD_TOKEN no está definida en .env")
-
-    # 3) Mantiene el bot activo (solo para entornos como Discloud o Replit)
+    # Puerto de salud para los PaaS que esperan uno abierto (hilo demonio).
     keep_alive()
 
-    # 4) Ejecuta el bot desde bot_launcher
-    print("🚀 Iniciando bot de Discord…")
-    subprocess.run(["python", "-m", "core.bot_launcher"], check=True)
+    log.info("Iniciando bot de Discord...")
+    from core.bot_launcher import main as run_bot
+
+    asyncio.run(run_bot())
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

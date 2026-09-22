@@ -5,6 +5,9 @@ from esports_extension.models.live import LiveStats, LiveTeamMetadata, LiveFrame
 from esports_extension.utils.time_utils import get_network_time
 from enum import Enum
 import copy
+from utils.logger import get_logger
+
+log = get_logger("esports.tracker_model")
 
 class TrackedStatus(Enum):
     DETECTED = "detected"
@@ -44,7 +47,7 @@ class TrackedGame :
       
             # Verifica que el game_id coincide
         if liveStats_obj.game_id and liveStats_obj.game_id != self.game_id:
-            print(f"[⚠️] LiveStats game_id ({liveStats_obj.game_id}) no coincide con tracked_game.game_id ({self.game_id})")
+            log.warning(f"LiveStats game_id ({liveStats_obj.game_id}) no coincide con tracked_game.game_id ({self.game_id})")
             return
 
         # Solo actualiza metadata si corresponde a este juego
@@ -57,7 +60,7 @@ class TrackedGame :
             self.live_blue_metadata = None
             self.live_red_metadata = None
             self.has_participants = False
-            print(f"[🔄] Limpiando metadata vieja para game_id={self.game_id}")
+            log.debug(f"Limpiando metadata vieja para game_id={self.game_id}")
  
         
         
@@ -70,24 +73,24 @@ class TrackedGame :
         # Detectar inicio real por oro
         if liveStats_obj.frames:
             for frame in liveStats_obj.frames:
-                print(f"[FRAME] {frame.timestamp} | {frame.gameState}")
+                log.debug(f"[FRAME] {frame.timestamp} | {frame.gameState}")
             
             last_frame = liveStats_obj.frames[-1]
             blue_gold = getattr(last_frame.blue_team, "total_gold", 0)
             red_gold = getattr(last_frame.red_team, "total_gold", 0)
-            print(f"[DEBUG] blue_gold={blue_gold}, red_gold={red_gold}, real_start_time={self.real_start_time}")
+            log.debug(f"blue_gold={blue_gold}, red_gold={red_gold}, real_start_time={self.real_start_time}")
             if (
                 self.state == "inProgress" or
                 (self.state == "unstarted" and (blue_gold > 2500 or red_gold > 2500))
             ):
                 self.state = "inProgress"   
                 if self.has_participants and not self.real_start_time:
-                    print("[DEBUG] Asignando real_start_time por participantes")
+                    log.debug("Asignando real_start_time por participantes")
                     self.real_start_time = await get_network_time()
                 
                 # Solo asigna el inicio real si aún no está asignado y el oro subió
                 #if (blue_gold > 2500 or red_gold > 2500) and not self.real_start_time:
-                   #print("[DEBUG] Asignando real_start_time")
+                   #print("Asignando real_start_time")
                     #self.real_start_time = await get_network_time()
         
         
@@ -120,7 +123,7 @@ class TrackedGame :
                     if not self.paused:
                         self.paused = True
                         self.pause_start_time = await get_network_time()
-                        print(f"[PAUSA-FORZADA] Juego {self.game_id} detectado como PAUSADO por oro estancado")
+                        log.debug(f"[PAUSA-FORZADA] Juego {self.game_id} detectado como PAUSADO por oro estancado")
                 else:
                     if self.paused:
                         # Si se reanuda el oro, quitar pausa
@@ -129,7 +132,7 @@ class TrackedGame :
                             self.total_paused_duration += (pause_end - self.pause_start_time).total_seconds()
                         self.paused = False
                         self.pause_start_time = None
-                        print(f"[REANUDADO-FORZADO] Juego {self.game_id} reanudado por oro en movimiento")
+                        log.debug(f"[REANUDADO-FORZADO] Juego {self.game_id} reanudado por oro en movimiento")
             
             
         
@@ -156,23 +159,23 @@ class TrackedGame :
         ):
             self.has_participants = True
             self.draft_in_progress = False
-            print(f"[ESTADO] Juego EN VIVO: has_participants=True, draft_in_progress=False")
+            log.debug(f"[ESTADO] Juego EN VIVO: has_participants=True, draft_in_progress=False")
         elif self.state == "completed":
             self.has_participants = False
             self.draft_in_progress = False
-            print(f"[ESTADO] Juego COMPLETADO: has_participants=False, draft_in_progress=False")
+            log.debug(f"[ESTADO] Juego COMPLETADO: has_participants=False, draft_in_progress=False")
         elif self.live_blue_metadata or self.live_red_metadata:
             # Solo marca draft si NUNCA hubo participantes antes
             if not self.has_participants:
                 self.has_participants = False
                 self.draft_in_progress = True
-                print(f"[ESTADO] DRAFT REAL: has_participants=False, draft_in_progress=True")
+                log.debug(f"[ESTADO] DRAFT REAL: has_participants=False, draft_in_progress=True")
         else:
             # Solo marca esperando partida si NUNCA hubo participantes antes
             if not self.has_participants:
                 self.has_participants = False
                 self.draft_in_progress = False
-                print(f"[ESTADO] ESPERANDO PARTIDA: has_participants=False, draft_in_progress=False")
+                log.debug(f"[ESTADO] ESPERANDO PARTIDA: has_participants=False, draft_in_progress=False")
         self.live_frames = liveStats_obj.frames
         if liveStats_obj.frames:
             last_frame = liveStats_obj.frames[-1]
@@ -189,7 +192,7 @@ class TrackedGame :
                 for frame in liveStats_obj.frames
             )
             if finished_found and self.state != "completed":
-                print(f"[🟢] Juego {self.game_id} detectado como terminado por frame (gameState=finished en algún frame)")
+                log.info(f"Juego {self.game_id} detectado como terminado por frame (gameState=finished en algún frame)")
                 self.state = "completed"
                 
                 self.finished_time = await get_network_time()
@@ -204,7 +207,7 @@ class TrackedGame :
             # --- DEDUCCIÓN DE GANADOR: SIEMPRE QUE EL JUEGO ESTÉ COMPLETADO ---
             if self.state == "completed":
                 if self.has_participants:
-                    print(f"[FIX] Poniendo en False has_participants en juego completado: {self.game_id}")
+                    log.warning(f"[FIX] Poniendo en False has_participants en juego completado: {self.game_id}")
                 self.has_participants = False
                 self.draft_in_progress = False
             
@@ -216,7 +219,7 @@ class TrackedGame :
                 
                 
                 
-                print(f"[DEBUG] Entrando a deducción de ganador para game_id={self.game_id}")
+                log.debug(f"Entrando a deducción de ganador para game_id={self.game_id}")
                 finished_frame = next((f for f in liveStats_obj.frames if getattr(f, "gameState", "") == "finished"), None)
                 if finished_frame:
                     blue_dead = sum(1 for p in finished_frame.blue_team.participants if getattr(p, "hp", 1) == 0)
@@ -228,7 +231,7 @@ class TrackedGame :
                     blue_towers = getattr(finished_frame.blue_team, "towers", 0)
                     red_towers = getattr(finished_frame.red_team, "towers", 0)
 
-                    print(f"[DEDUCCIÓN] Muertos: blue={blue_dead}, red={red_dead} | Oro: blue={blue_gold}, red={red_gold} | Inhibidores: blue={blue_inhib}, red={red_inhib} | Torres: blue={blue_towers}, red={red_towers}")
+                    log.debug(f"[DEDUCCIÓN] Muertos: blue={blue_dead}, red={red_dead} | Oro: blue={blue_gold}, red={red_gold} | Inhibidores: blue={blue_inhib}, red={red_inhib} | Torres: blue={blue_towers}, red={red_towers}")
 
                     match = getattr(self, "parent_match", None)
                     if match and hasattr(match, "teamsEventDetails") and len(match.teamsEventDetails) == 2:
@@ -242,11 +245,11 @@ class TrackedGame :
                             # 1. Si un equipo tiene 2+ muertos y el otro no, ese pierde
                             if blue_dead >= 2 and red_dead < 2:
                                 red_team.game_wins += 1
-                                print(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por 2+ muertos en BLUE")
+                                log.debug(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por 2+ muertos en BLUE")
                                 self.deduced_winner = "red"
                             elif red_dead >= 2 and blue_dead < 2:
                                 blue_team.game_wins += 1
-                                print(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por 2+ muertos en RED")
+                                log.debug(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por 2+ muertos en RED")
                                 self.deduced_winner = "blue"
                             else:
                                 # 2. Si ambos tienen menos de 2 muertos, gana el que tenga más de 5k de oro de diferencia
@@ -254,37 +257,37 @@ class TrackedGame :
                                 if abs(gold_diff) >= 5000:
                                     if blue_gold > red_gold:
                                         blue_team.game_wins += 1
-                                        print(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por ventaja de oro >= 5k")
+                                        log.debug(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por ventaja de oro >= 5k")
                                         self.deduced_winner = "blue"
                                     else:
                                         red_team.game_wins += 1
-                                        print(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por ventaja de oro >= 5k")
+                                        log.debug(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por ventaja de oro >= 5k")
                                         self.deduced_winner = "red"
                                 else:
                                     # 3. Si oro < 5k, gana el de más inhibidores
                                     if blue_inhib > red_inhib:
                                         blue_team.game_wins += 1
-                                        print(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por más inhibidores")
+                                        log.debug(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por más inhibidores")
                                         self.deduced_winner = "blue"
                                     elif red_inhib > blue_inhib:
                                         red_team.game_wins += 1
-                                        print(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por más inhibidores")
+                                        log.debug(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por más inhibidores")
                                         self.deduced_winner = "red"
                                     else:
                                         # 4. Si inhibidores empatados, gana el de más torres
                                         if blue_towers > red_towers:
                                             blue_team.game_wins += 1
-                                            print(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por más torres")
+                                            log.debug(f"[DEDUCCIÓN] Se asigna victoria a BLUE ({blue_team.name}) por más torres")
                                             self.deduced_winner = "blue"
                                         elif red_towers > blue_towers:
                                             red_team.game_wins += 1
-                                            print(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por más torres")
+                                            log.debug(f"[DEDUCCIÓN] Se asigna victoria a RED ({red_team.name}) por más torres")
                                             self.deduced_winner = "red"
                                         else:
-                                            print("[DEDUCCIÓN] No se puede deducir ganador (empate en todo)")
+                                            log.debug("[DEDUCCIÓN] No se puede deducir ganador (empate en todo)")
                                             self.deduced_winner = None
                         else:
-                            print("[DEDUCCIÓN] La API ya actualizó el score, no se deduce nada")
+                            log.debug("[DEDUCCIÓN] La API ya actualizó el score, no se deduce nada")
         
                     
                 
@@ -306,7 +309,7 @@ class TrackedGame :
 
                         if blue_team and red_team:
                             if getattr(blue_team, "game_wins", 0) >= victorias_necesarias or getattr(red_team, "game_wins", 0) >= victorias_necesarias:
-                                print(f"[🏁] Serie completada por deducción: {getattr(parent, 'match_id', '?')}")
+                                log.info(f"[🏁] Serie completada por deducción: {getattr(parent, 'match_id', '?')}")
                                 parent.state = "completed"
                                 parent.status = TrackedStatus.COMPLETED
                                 for g in getattr(parent, "trackedGames", []):
@@ -334,7 +337,7 @@ class TrackedGame :
             if not self.paused:
                 self.paused = True
                 self.pause_start_time = await get_network_time()
-                print(f"[PAUSA] Juego {self.game_id} detectado como PAUSADO")
+                log.info(f"[PAUSA] Juego {self.game_id} detectado como PAUSADO")
         else:
             if self.paused:
                 # Se reanuda el juego, suma la duración de la pausa
@@ -343,7 +346,7 @@ class TrackedGame :
                     self.total_paused_duration += (pause_end - self.pause_start_time).total_seconds()
                 self.paused = False
                 self.pause_start_time = None
-                print(f"[REANUDADO] Juego {self.game_id} reanudado, pausa acumulada: {self.total_paused_duration} segundos")
+                log.info(f"[REANUDADO] Juego {self.game_id} reanudado, pausa acumulada: {self.total_paused_duration} segundos")
                 # Asigna real_start_time si aún no está asignado
                 if not self.real_start_time:
                     self.real_start_time = pause_end
@@ -448,7 +451,7 @@ class TrackedMatch:
                 old_team = old_teams_by_id.get(new_team.id)
                 if old_team:
                     if old_team.game_wins > new_team.game_wins:
-                        print(f"[PROTECCIÓN] Manteniendo score deducido para {old_team.name}: {old_team.game_wins} (API traía {new_team.game_wins})")
+                        log.warning(f"[PROTECCIÓN] Manteniendo score deducido para {old_team.name}: {old_team.game_wins} (API traía {new_team.game_wins})")
                         new_team.game_wins = old_team.game_wins
         self.teamsEventDetails = eventDetails_obj.teamsEventDetails
                     
@@ -471,8 +474,14 @@ class TrackedMatch:
                         tracked_game.number = game_event.number
                         tracked_game.vods = game_event.vods
             # <-- Añade esto al final del método -->
-        if self.trackedGames and all(g.state in ("completed", "unneeded") for g in self.trackedGames):
-            self.state = "completed"                
+        if self.trackedGames:
+            if all(g.state in ("completed", "unneeded") for g in self.trackedGames):
+                self.state = "completed"
+            elif any(g.state == "inProgress" for g in self.trackedGames):
+                self.state = "inProgress"
+            else:
+                # Si hay juegos "unstarted" pero ninguno en progreso, puedes dejarlo como está o poner otro estado
+                self.state = "notStarted"           
 
         # --- BLOQUE NUEVO: Forzar siguiente juego a inProgress si el anterior terminó ---
         for idx, game in enumerate(self.trackedGames):
@@ -490,7 +499,7 @@ class TrackedMatch:
                         and red_wins < self.best_of_count // 2 + 1
                         and next_game.has_participants  # <
                     ):
-                        print(f"[FORZADO] Juego {next_game.game_id} forzado a inProgress porque el anterior terminó.")
+                        log.debug(f"[FORZADO] Juego {next_game.game_id} forzado a inProgress porque el anterior terminó.")
                         next_game.state = "inProgress"
         
         
@@ -518,7 +527,7 @@ class TrackedMatch:
                     and next_game.has_participants
                     and not ((blue_wins or 0) + (red_wins or 0) >= self.best_of_count // 2 + 1)
                 ):
-                    print(f"[FORZADO][METADATA] Juego {next_game.game_id} forzado a inProgress por presencia de jugadores en LiveStats.")
+                    log.debug(f"[FORZADO][METADATA] Juego {next_game.game_id} forzado a inProgress por presencia de jugadores en LiveStats.")
                     next_game.state = "inProgress"                
         
             # --- BLOQUE DE SCORE MÍNIMO SEGÚN NÚMERO DE MAPAS ---
@@ -531,7 +540,7 @@ class TrackedMatch:
             if num_completed > (blue_team.game_wins + red_team.game_wins):
                 min_score = num_completed // 2
                 if blue_team.game_wins < min_score or red_team.game_wins < min_score:
-                    print(f"[AUTO-SCORE] Forzando score mínimo {min_score}-{min_score} por {num_completed} mapas completados (antes: {blue_team.game_wins}-{red_team.game_wins})")
+                    log.warning(f"[AUTO-SCORE] Forzando score mínimo {min_score}-{min_score} por {num_completed} mapas completados (antes: {blue_team.game_wins}-{red_team.game_wins})")
                     blue_team.game_wins = min_score
                     red_team.game_wins = min_score
         

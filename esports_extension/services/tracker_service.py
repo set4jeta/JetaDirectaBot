@@ -1,11 +1,11 @@
 
-from datetime import datetime, timezone
-from typing import Any, List, Dict, Optional
+from datetime import datetime
+from typing import List
 from esports_extension.models.match import ScheduleEvent, EventDetails   # Asegúrate de que tu api.py esté en models/
 from esports_extension.models.live import LiveStats
 from esports_extension.models.tracker import TrackedMatch, TrackedStatus
-from esports_extension.services.api import APIClient
-from esports_extension.utils.time_utils import get_network_time, round_down_to_10_seconds
+from esports_extension.services.api import APIClient, LolEsportsError
+from esports_extension.utils.time_utils import get_network_time
 from esports_extension.services.storage import save_tracked_matches, load_tracked_matches, cleanup_completed_matches_in_memory # Asegúrate de que tu api.py esté en services/
 from esports_extension.services.embed_service import EmbedService
 from esports_extension.services.chat_winner_detector import analyze_chat_and_update_wins
@@ -13,9 +13,9 @@ from esports_extension.services.storage import load_notified_games, save_notifie
 
 from esports_extension.utils.buttons import ScoreButtonView
 
-from datetime import datetime, timedelta, timezone
-from enum import Enum
-import copy
+from utils.logger import get_logger
+
+log = get_logger("esports.tracker")
    
 
 
@@ -48,9 +48,9 @@ class TrackerService:
         start_time = datetime.now()  # Marca el inicio
         now = await get_network_time()
         if now is not None:
-            print(f"[DEBUG] Network time: {now.isoformat()}")
+            log.debug(f"Network time: {now.isoformat()}")
         else:
-            print("[DEBUG] Network time: None")
+            log.debug("Network time: None")
         data = await self.api_client.get_schedule()
         
         raw_events = data.get("data", {}).get("schedule", {}).get("events", [])
@@ -63,10 +63,10 @@ class TrackerService:
 
             # Salta eventos sin match o con match=None
             if "match" not in raw_event or raw_event.get("match") is None:
-                print("[DEBUG] Evento sin match o match=None:", raw_event)
+                log.debug("Evento sin match o match=None: %s", raw_event)
                 continue
             elif not isinstance(raw_event.get("match"), dict):
-                print("[DEBUG] Evento con match no dict:", raw_event)
+                log.debug("Evento con match no dict: %s", raw_event)
                 continue
 
             evento = ScheduleEvent(raw_event)
@@ -85,122 +85,92 @@ class TrackerService:
                 tracked = self.tracked_matches[evento.match_id]
                 await tracked.update_last_checked() 
             else:
-                print(f"[👀] Partido en vivo detectado: {evento.league_name} (match_id: {evento.match_id})")
-                print(f"[📌] Estado cambiado a DETECTED")
+                log.debug(f"[👀] Partido en vivo detectado: {evento.league_name} (match_id: {evento.match_id})")
+                log.debug(f"[📌] Estado cambiado a DETECTED")
                 tracked = await TrackedMatch.from_schedule_event(evento)
 
             
-            print(f"[📥] Obteniendo EventDetails para match_id: {evento.match_id}")
+            log.debug(f"[📥] Obteniendo EventDetails para match_id: {evento.match_id}")
             try:
                 event_data = await self.api_client.get_event_details(evento.match_id)
             except Exception as e:
-                print(f"[❌] Error API: {str(e)}")
+                log.error(f"Error API: {str(e)}")
                 continue
             
             await tracked.enrich_from_event_details(EventDetails(event_data.get("data", {}).get("event", {})))
-            print(f"[TRACKER] Procesando match_id={evento.match_id}, estado={evento.state}, best_of={evento.best_of_count}")
+            log.debug(f"[TRACKER] Procesando match_id={evento.match_id}, estado={evento.state}, best_of={evento.best_of_count}")
             # Buscar algún juego inProgress dentro de EventDetails
             for tracked_game in tracked.trackedGames:
-                if tracked_game.state in ("inProgress", "unstarted"):
-                    print(f"[🎮] Juego en progreso detectado: game_id={tracked_game.game_id}")
-                    print(f"[📡] Obteniendo datos de LiveStats para game_id={tracked_game.game_id}, state={tracked_game.state}")
-                    
-                 
-                    # --- NUEVO: Consulta LiveStats SIN startingTime ---
-                    try:
-                        live_stats_raw_simple = await self.api_client.get_livestats(tracked_game.game_id)
-                        print(f"[📊] LiveStats para game {tracked_game.number}: game_id={tracked_game.game_id}")
-                        # Si responde 200, la partida ha comenzado (o está en draft)
-                        await tracked_game.enrich_from_live_stats(LiveStats(live_stats_raw_simple))
-                       
-                        if not tracked_game.live_blue_metadata or not tracked_game.live_red_metadata:
-                            print(f"[⚠️] No hay metadata disponible para game {tracked_game.number}")
-                        
-                        if tracked_game.state == "unstarted":
-                            print(f"[⚡] Forzando estado a inProgress por LiveStats (sin startingTime) para game_id={tracked_game.game_id}")
-                            tracked_game.state = "inProgress"
-                            tracked.state = "inProgress"
-                            
-                    except Exception as e:
-                        if getattr(e, "status", None) == 204:
-                            print(f"[TRACKER] LiveStats 204: game_id={tracked_game.game_id} -> Esperando partida (has_participants={tracked_game.has_participants}, draft_in_progress={tracked_game.draft_in_progress})")
-                            tracked_game.draft_in_progress = False
-                            tracked_game.has_participants = False
-                        else:
-                            print(f"[INFO] No hay partida activa para activa aún para esta Serie (LiveStats 204).")
-                                
-               
-                    
-                  
-                    
-                if tracked_game.state == "inProgress": 
-                    
-                    try:
-                                    # Siempre pide el frame más reciente posible
-                        dt = await get_network_time()
-                        if dt is not None:
-                            dt = dt - timedelta(seconds=37)
-                            dt = round_down_to_10_seconds(dt)
-                            starting_time = dt.strftime("%Y-%m-%dT%H:%M:%S.000Z")
-                        else:
-                            print("[❌] Error: get_network_time() returned None")
-                            continue
+                if tracked_game.state not in ("inProgress", "unstarted"):
+                    if tracked_game.state == "completed":
+                        await self._completar_por_frames(tracked, tracked_game)
+                    continue
 
-                        live_stats_raw = await self.api_client.get_livestats(tracked_game.game_id, starting_time=starting_time)
-                        await tracked_game.enrich_from_live_stats(LiveStats(live_stats_raw))
-                        print(f"[TRACKER] Post-LiveStats: game_id={tracked_game.game_id}, has_participants={tracked_game.has_participants}, draft_in_progress={tracked_game.draft_in_progress}, state={tracked_game.state}")
-                                                           # Si no hay participantes, sigue siendo draft
-                      
-                                    # --- NUEVO: Si LiveStats responde y el estado es "unstarted", forzar a "inProgress" ---
-                        if tracked_game.state == "unstarted":
-                            print(f"[⚡] Forzando estado a inProgress por LiveStats para game_id={tracked_game.game_id}")
-                            tracked_game.state = "inProgress"
-                            # Opcional: también puedes marcar la serie como inProgress si al menos un juego lo está
-                            tracked.state = "inProgress"  
-                            # Si no hay real_start_time, asígnalo ahora
-                            if tracked_game.real_start_time is None:
-                                tracked_game.real_start_time = await get_network_time()
-                            else:
-                                print(f"[⏱️] real_start_time ya estaba asignado: {tracked_game.real_start_time}")     
-                        
-                        
-                                            # --- BLOQUE NUEVO ---
-                        print(f"[DEBUG] game_id={tracked_game.game_id} has_participants={tracked_game.has_participants} draft_in_progress={tracked_game.draft_in_progress}")
-                        
-                           
-                        # --- FIN BLOQUE NUEVO ---
-                        
-                        
-                        
-                    except Exception as e:
-                        if hasattr(e, "status") and e.status == 404: # type: ignore
-                            # Aquí llamas a la función de chat winner detector
-                            
-                            print(f"[TRACKER] LiveStats 404: game_id={tracked_game.game_id} -> Intentando detectar ganador por chat")
-                            # Asegúrate de tener el EventDetails actualizado en tracked
-                            winner_code = await analyze_chat_and_update_wins(tracked.eventDetails) # type: ignore
-                            if winner_code:
-                                print(f"[🏆] Ganador detectado por chat: {winner_code}")
-                                # El game_wins ya fue sumado en teamsEventDetails
-                        elif getattr(e, "status", None) == 204:
-                            print(f"[🟡] Esperando partida para game_id={tracked_game.game_id}, aún no hay datos de partida (sin startingTime).")
-                            tracked_game.draft_in_progress = False
-                            tracked_game.has_participants = False
-                        else:
-                            print(f"[❌] Error al obtener LiveStats: {e}")
-            
-                if tracked_game.state == "completed":
-                    # Solo si el score no está actualizado (ejemplo: ambos equipos tienen menos wins de los que deberían)
-                    if tracked.teamsEventDetails and len(tracked.teamsEventDetails) >= 2:
-                        blue_wins = tracked.teamsEventDetails[0].game_wins
-                        red_wins = tracked.teamsEventDetails[1].game_wins
-                        if (blue_wins + red_wins) < tracked_game.number:
-                            try:
-                                live_stats_raw = await self.api_client.get_livestats(tracked_game.game_id)
-                                await tracked_game.enrich_from_live_stats(LiveStats(live_stats_raw))
-                                print(f"[DEDUCCIÓN] Forzando deducción de ganador por frames para game_id={tracked_game.game_id}")
-                            except Exception as e:
-                                print(f"[❌] Error al deducir ganador por frames en juego terminado: {e}")
+                log.debug(
+                    "[🎮] Juego activo: game_id=%s state=%s",
+                    tracked_game.game_id, tracked_game.state,
+                )
+
+                # UNA sola petición por juego y por vuelta.
+                #
+                # Antes había dos: una sin `startingTime` y otra, unas líneas más
+                # abajo, con `ahora - 37s`. La segunda pedía **los mismos datos**
+                # y encima el feed la rechazaba siempre con 400 (exige que la
+                # ventana termine hace 600 s o más; ver `api.get_livestats`). Eso
+                # es lo que llenaba la consola de
+                # "ERROR | esports.tracker | Error al obtener LiveStats: Error 400".
+                try:
+                    crudo = await self.api_client.get_livestats(tracked_game.game_id)
+                except LolEsportsError as e:
+                    if e.status == 204:
+                        # La partida existe pero aún no manda datos: es el estado
+                        # normal antes del inicio, no una avería.
+                        log.debug(
+                            "[🟡] game_id=%s sin datos todavía (204).", tracked_game.game_id
+                        )
+                        tracked_game.draft_in_progress = False
+                        tracked_game.has_participants = False
+                    elif e.status == 404:
+                        # El feed ya no sirve esta partida: normalmente ha
+                        # terminado y el marcador oficial tarda en actualizarse.
+                        # Esta rama existía desde siempre y **nunca se ejecutaba**,
+                        # porque el error que llegaba no llevaba `status`.
+                        log.debug(
+                            "[TRACKER] 404 en game_id=%s -> ganador por chat.",
+                            tracked_game.game_id,
+                        )
+                        winner_code = await analyze_chat_and_update_wins(tracked.eventDetails)  # type: ignore
+                        if winner_code:
+                            log.debug(f"[🏆] Ganador detectado por chat: {winner_code}")
+                    else:
+                        log.error("Error al obtener LiveStats: %s", e)
+                    continue
+                except Exception as e:
+                    log.error("Error al obtener LiveStats: %s", e)
+                    continue
+
+                await tracked_game.enrich_from_live_stats(LiveStats(crudo))
+
+                if not tracked_game.live_blue_metadata or not tracked_game.live_red_metadata:
+                    log.warning(f"No hay metadata disponible para game {tracked_game.number}")
+
+                # El feed contesta 200: la partida ha empezado (o está en draft),
+                # así que un "unstarted" del calendario está desactualizado.
+                if tracked_game.state == "unstarted":
+                    log.debug(
+                        "[⚡] Forzando inProgress por LiveStats: game_id=%s",
+                        tracked_game.game_id,
+                    )
+                    tracked_game.state = "inProgress"
+                    tracked.state = "inProgress"
+                    if tracked_game.real_start_time is None:
+                        tracked_game.real_start_time = await get_network_time()
+
+                log.debug(
+                    "[TRACKER] game_id=%s has_participants=%s draft=%s state=%s",
+                    tracked_game.game_id, tracked_game.has_participants,
+                    tracked_game.draft_in_progress, tracked_game.state,
+                )
                         
             
             
@@ -211,11 +181,18 @@ class TrackerService:
             
             
             # Al final, si algún juego está en progreso, marca la serie como inProgress    
-            if any(g.state == "inProgress" for g in tracked.trackedGames):
-                tracked.state = "inProgress"    
+            # Refuerzo: el estado de la serie debe reflejar el estado real de los juegos
+            if tracked.trackedGames:
+                if all(g.state in ("completed", "unneeded") for g in tracked.trackedGames):
+                    tracked.state = "completed"
+                elif any(g.state == "inProgress" for g in tracked.trackedGames):
+                    tracked.state = "inProgress"
+                else:
+                    tracked.state = "notStarted"
+            # ...existing code...    
                             
             await self._update_tracking(tracked)
-            print(f"[🧠] Tracking actualizado para match_id: {tracked.match_id}")
+            log.debug(f"[🧠] Tracking actualizado para match_id: {tracked.match_id}")
             
             live_matches.append(tracked)   
         
@@ -232,22 +209,69 @@ class TrackerService:
         
         
          
-        print(f"[+] Actualizando partidos del tracker: {len(self.tracked_matches)}")    
+        log.debug(f"[+] Actualizando partidos del tracker: {len(self.tracked_matches)}")    
         await self.update_completed_matches()
-        print(f"[+] Actualizando partidos completados en memoria")
+        log.debug(f"[+] Actualizando partidos completados en memoria")
         await cleanup_completed_matches_in_memory(self.tracked_matches, hours=2)
         
         
-        print(f"[+] Guardando partidos trackeados en tracked_matches.json")
+        log.debug(f"[+] Guardando partidos trackeados en tracked_matches.json")
         await save_tracked_matches(list(self.tracked_matches.values()), "tracked_matches.json")
         
        
         
         end_time = datetime.now()  # Marca el final
         duration = (end_time - start_time).total_seconds()
-        print(f"[⏱️] detect_live_matches tardó {duration:.2f} segundos en ejecutarse")
+        log.debug(f"[⏱️] detect_live_matches tardó {duration:.2f} segundos en ejecutarse")
         return await self._prioritize_matches(live_matches)
         
+
+    async def _completar_por_frames(self, tracked: TrackedMatch, tracked_game) -> None:
+        """Deduce el ganador de un mapa ya terminado leyendo sus últimos frames.
+
+        Solo actúa cuando el marcador oficial va por detrás de los mapas
+        jugados: si se han jugado 2 mapas pero `game_wins` suma 1, falta un
+        resultado. El feed de LiveStats sigue sirviendo la partida un rato
+        después del final, y en el último frame ya viene quién ganó.
+
+        Estaba en línea dentro del bucle de `detect_live_matches`, mezclado con
+        las dos ramas de partida activa. Se saca aparte porque el bucle ahora
+        descarta de golpe todo lo que no está activo (`continue`), y porque así
+        el caso "mapa terminado" se lee de una vez en lugar de rastrearlo entre
+        los `if` de los otros estados.
+        """
+        equipos = tracked.teamsEventDetails
+        if not equipos or len(equipos) < 2:
+            return
+
+        jugados = equipos[0].game_wins + equipos[1].game_wins
+        if jugados >= tracked_game.number:
+            # El marcador ya está al día: no hay nada que deducir y no se gasta
+            # una petición.
+            return
+
+        try:
+            crudo = await self.api_client.get_livestats(tracked_game.game_id)
+        except LolEsportsError as e:
+            if e.status in (204, 404):
+                # El feed ya no guarda esta partida. No es una avería: el
+                # marcador se acabará actualizando por el schedule.
+                log.debug(
+                    "[TRACKER] Sin frames para deducir game_id=%s (HTTP %s).",
+                    tracked_game.game_id, e.status,
+                )
+            else:
+                log.error("Error al deducir ganador por frames: %s", e)
+            return
+        except Exception as e:
+            log.error("Error al deducir ganador por frames: %s", e)
+            return
+
+        await tracked_game.enrich_from_live_stats(LiveStats(crudo))
+        log.debug(
+            "[DEDUCCIÓN] Ganador por frames para game_id=%s (marcador %s de %s mapas).",
+            tracked_game.game_id, jugados, tracked_game.number,
+        )
 
     async def _update_tracking(self, tracked: TrackedMatch):
         
@@ -267,7 +291,7 @@ class TrackerService:
     async def update_completed_matches(self):
         updated = False
         now = await get_network_time()
-        print(f"[DEBUG] Network time: {now.isoformat() if now else 'None'}")
+        log.debug(f"Network time: {now.isoformat() if now else 'None'}")
         
         
 
@@ -280,7 +304,7 @@ class TrackerService:
 
             # 3. Si el estado general del partido es "completed" (por la API)
             if tracked.state == "completed":
-                print(f"[+] Partido completado: {tracked.match_id}")
+                log.debug(f"[+] Partido completado: {tracked.match_id}")
                 tracked.status = TrackedStatus.COMPLETED
                 updated = True
                 continue  # Ya está completado, no hace falta revisar más
@@ -291,12 +315,25 @@ class TrackerService:
                 raw_events = schedule_data.get("data", {}).get("schedule", {}).get("events", [])
                 current_event = next((e for e in raw_events if e.get("match", {}).get("id") == match_id), None)
                 if current_event and current_event.get("state") == "completed":
-                    print(f"[📅] Serie completada según Schedule: {match_id}")
+                    # --- NUEVO: Verifica EventDetails antes de marcar como completado ---
+                    try:
+                        event_data = await self.api_client.get_event_details(match_id)
+                        event_details = EventDetails(event_data.get("data", {}).get("event", {}))
+                        # Si hay algún juego inProgress, NO marcar como completado
+                        if any(g.state == "inProgress" for g in event_details.gamesEventDetails):
+                            log.warning(f"Schedule dice completed pero EventDetails tiene juegos activos: {match_id}")
+                            continue  # No marcar como completado
+                    except Exception as e:
+                        log.error(f"Error verificando EventDetails para {match_id}: {e}")
+                        # Si falla la API, mejor no marcar como completado
+                        continue
+
+                    log.debug(f"[📅] Serie completada según Schedule: {match_id}")
                     tracked.status = TrackedStatus.COMPLETED
                     updated = True
                     continue  # Ya está completado, no hace falta revisar más
             except Exception as e:
-                print(f"[❌] Error al obtener schedule: {e}")
+                log.error(f"Error al obtener schedule: {e}")
 
             
             
@@ -310,7 +347,7 @@ class TrackerService:
 
             # 6. Si TODOS los juegos están completados o no se jugaron, marca el partido como COMPLETED
             if all(game.state in ("completed", "unneeded") for game in tracked.trackedGames):
-                print(f"[🏆] Todos los juegos completados: {match_id}")
+                log.debug(f"[🏆] Todos los juegos completados: {match_id}")
                 tracked.status = TrackedStatus.COMPLETED
                 tracked.state = "completed"
                 updated = True
@@ -318,13 +355,13 @@ class TrackerService:
         # 7. Eliminar partidos completados de self.tracked_matches
         completed_ids = [match_id for match_id, match in self.tracked_matches.items() if match.status == TrackedStatus.COMPLETED]
         for match_id in completed_ids:
-            print(f"[🧹] Eliminando match completado de memoria: {match_id}")
+            log.debug(f"[🧹] Eliminando match completado de memoria: {match_id}")
             del self.tracked_matches[match_id]
 
         # 8. Guardar si hubo cambios
         if updated or completed_ids:
             await save_tracked_matches(list(self.tracked_matches.values()), "tracked_matches.json")
-            print("[💾] Guardado exitoso de partidos completados y limpieza de memoria")
+            log.debug("Guardado exitoso de partidos completados y limpieza de memoria")
 
         
     
@@ -374,18 +411,24 @@ class TrackerService:
                         notified_games[game_id] = list(notified_channels)
                         save_notified_games(notified_games)
                         if tracked_game and hasattr(tracked_game, "number"):
-                            print(f"[✅] Juego {tracked_game.number} notificado correctamente en canal {channel.id}")
+                            log.info(
+                                "Juego %s notificado en el canal %s",
+                                tracked_game.number, channel.id,
+                            )
                         else:
-                            print(f"[✅] Juego notificado correctamente en canal {channel.id} (no se pudo obtener número)")
+                            log.info(
+                                "Juego notificado en el canal %s (sin número de mapa)",
+                                channel.id,
+                            )
                         updated = True
                     except Exception as e:
                         if tracked_game and hasattr(tracked_game, "number"):
-                            print(f"[❌] Error notificando juego {tracked_game.number}: {e}")
+                            log.error(f"Error notificando juego {tracked_game.number}: {e}")
                         else:
-                            print(f"[❌] Error notificando juego: {e}")
+                            log.error(f"Error notificando juego: {e}")
                         continue
         if updated:
-            print("[💾] Guardado post-notificación exitoso")
+            log.debug("Guardado post-notificación exitoso")
             
    
 

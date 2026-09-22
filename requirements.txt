@@ -2,8 +2,6 @@ nextcord
 aiohttp
 numpy
 cloudscraper
-gspread
-oauth2client
 python-dotenv
 python-dateutil
 requests
@@ -11,9 +9,7 @@ pytchat
 twitchio
 Pillow
 scipy
-numpy
 flask
 lxml
 beautifulsoup4
 pytz
-

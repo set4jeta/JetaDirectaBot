@@ -2,9 +2,9 @@
 
 ## Descripción
 
-JetaDirectaBot es un bot avanzado para Discord que permite **trackear jugadores profesionales y amateurs de League of Legends**, mostrar partidas en vivo, consultar estadísticas, gestionar inscripciones para torneos y recibir notificaciones automáticas de partidas competitivas (LEC, LCS, LCK, MSI, Worlds, etc).
+JetaDirectaBot es un bot avanzado para Discord que permite **trackear jugadores profesionales y amateurs de League of Legends**, mostrar partidas en vivo, consultar estadísticas y recibir notificaciones automáticas de partidas competitivas (LEC, LCS, LCK, MSI, Worlds, etc).
 
-Incluye integración con APIs de Riot, DPM.lol y LoL Esports, scraping de datos, gestión de cuentas y comandos para torneos personalizados como la Jetacup.
+Incluye integración con APIs de Riot, DPM.lol y LoL Esports, scraping de datos y gestión de cuentas.
 
 ---
 
@@ -14,8 +14,6 @@ Incluye integración con APIs de Riot, DPM.lol y LoL Esports, scraping de datos,
 - **Notificaciones automáticas de partidas en vivo**
 - **Historial y ranking de SoloQ europeo**
 - **Comandos para ver partidas activas, próximas y estadísticas**
-- **Gestión de inscripciones y registro para torneos (Jetacup)**
-- **Integración con Google Sheets para inscripciones**
 - **Scraping y actualización automática de datos de jugadores**
 - **Soporte para imágenes de jugadores y equipos**
 - **Comandos para admins y usuarios**
@@ -77,13 +75,6 @@ JetaDirectaBot/
 │   ├── player_image_utils.py
 │   └── utils_embed.py
 │
-├── copa/                  # Lógica de torneos Jetacup
-│   ├── registro.py
-│   ├── validacion.py
-│   ├── datos.py
-│   ├── sheets.py
-│   └── ...
-│
 ├── cache/                 # Cache de campeones y datos
 │   └── champion_cache.py
 │
@@ -129,51 +120,68 @@ JetaDirectaBot/
     LOL_API_KEY=tu_api_key_de_lol_esports
     ```
 
-4. **(Opcional) Configura credenciales de Google Sheets para Jetacup:**
-    - Coloca tu archivo `credentials.json` en la carpeta `secrets/` y define la variable `CREDENTIALS_PATH` en `.env` si usas Render u otro host.
+4. **(Opcional) Ajusta los intervalos de las tareas:** todas las variables de
+   funcionamiento (`CHECK_GAMES_INTERVAL`, `TRACKER_CONCURRENCY`,
+   `DPM_PATCH`...) se leen de `.env` y tienen valor por defecto en `config.py`.
 
 ---
 
 ## Uso
 
-1. **Arranca el bot:**
-    ```bash
-    python main.py
-    ```
+**Arrancar el bot:**
+```bash
+python main.py
+```
 
-2. **El bot actualizará los datos y lanzará el bot de Discord automáticamente.**
+Eso es todo: un solo proceso. `main.py` comprueba la configuración, abre el
+puerto de salud, arranca las tareas automáticas y conecta con Discord.
+
+En Windows, si `python` no apunta al intérprete correcto, usa la ruta completa:
+```bash
+"C:/Users/Chino/AppData/Local/Programs/Python/Python312/python.exe" main.py
+```
+
+Al arrancar, la consola imprime un resumen: comandos registrados, jugadores
+seguidos, tareas activas con su intervalo, y servidores con avisos si les falta
+canal o permisos. Para pararlo, `Ctrl+C` (hace un cierre ordenado: vuelca los
+rangos pendientes y cierra las sesiones HTTP).
+
+**Variables útiles:**
+
+| Variable | Para qué |
+|---|---|
+| `LOG_LEVEL=DEBUG` | Ver el detalle interno del tracker. Por defecto `INFO`. |
+| `STARTUP_REFRESH=1` | Forzar la descarga de cuentas antes de conectar. Retrasa el arranque; solo para depurar los scrapers. |
 
 ---
 
 ## Comandos disponibles
 
-### **Comandos generales**
-- `!help` — Muestra la ayuda y lista de comandos
-- `!setchannel` — Configura el canal para notificaciones de partidas SoloQ
-- `!unsubscribe` — Elimina el canal de notificaciones SoloQ
+Todos existen en las dos formas: **`/comando`** (recomendado, Discord lo
+autocompleta) y **`!comando`** (la forma antigua, sigue funcionando igual).
 
-### **Trackeo y partidas**
-- `!team <equipo>` — Muestra los jugadores de un equipo LEC/LEC+
-- `!live` — Muestra los jugadores en partida en ese momento
-- `!info <jugador>` — Muestra información detallada de un jugador
-- `!match <jugador>` — Muestra la partida activa de un jugador
-- `!historial` — Muestra el historial general de partidas
-- `!historial <jugador>` — Muestra el historial de un jugador
-- `!historial <cuenta>` — Muestra el historial de una cuenta específica
-- `!ranking` — Muestra el ranking de jugadores trackeados
+### Generales
+- `/help` — Lista de comandos
+- `/health` — Estado del bot: si las fuentes de datos van bien y cuándo se actualizaron
 
-### **Comandos Esports (partidas competitivas)**
-- `!setlivechannel` — Configura el canal para notificaciones de partidas de esports (LEC, Worlds, etc)
-- `!removelivechannel` — Elimina el canal de notificaciones de esports
-- `!partida` — Muestra partidas en vivo de esports
-- `!next` — Muestra las próximas partidas competitivas
+### Trackeo y partidas SoloQ
+- `/live` — Jugadores trackeados que están en partida ahora mismo
+- `/match <jugador>` — La partida en vivo de un jugador concreto
+- `/info <jugador>` — Cuentas, elo y partida actual de un jugador
+- `/team <equipo>` — Jugadores de un equipo
+- `/historial` — Últimas partidas trackeadas de todos
+- `/historial <jugador>` — Últimas partidas de un jugador o de una de sus cuentas
+- `/ranking <liga>` — Tabla de SoloQ de una liga (selector con las ligas disponibles)
 
-### **Comandos Jetacup (torneo personalizado)**
-- `!jetacup` — Muestra información sobre la Jetacup
-- `!jetacup registro` — Inicia el registro paso a paso
-- `!jetacup cancelarregistro` — Cancela el registro en curso
-- `!jetacup cancelarinscripcion` — Elimina tu inscripción
-- `!jetacup registrados` — Muestra la lista de inscritos
+### Esports (partidos profesionales)
+- `/partida` — Partidos profesionales en vivo o a punto de empezar
+- `/next` — Horario de los próximos partidos
+
+### Configuración · requiere *Gestionar servidor*
+- `/setchannel` — Usar este canal para las notificaciones de SoloQ
+- `/unsubscribe` — Dejar de recibir notificaciones de SoloQ
+- `/setlivechannel` — Usar este canal para las notificaciones de esports
+- `/removelivechannel` — Dejar de recibir notificaciones de esports
 
 ---
 

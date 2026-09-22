@@ -4,7 +4,8 @@ class Account:
     def __init__(
         self, game_name, tag_line, rank=None, puuid=None,
         leaderboard_position=None, champion_ids=None, kda=None, is_live=None,
-        platform=None, profile_icon=None, summoner_level=None, last_match_timestamp=None
+        platform=None, profile_icon=None, summoner_level=None, last_match_timestamp=None,
+        stale=False
     ):
         self.riot_id = {
             "game_name": game_name,
@@ -16,6 +17,12 @@ class Account:
         self.champion_ids = champion_ids or []
         self.kda = kda
         self.is_live = is_live
+
+        # True cuando Riot ya no reconoce esta cuenta (renombrada o borrada) o
+        # cuando su PUUID es ilegible (HTTP 400 "Exception decrypting").
+        # El tracker la salta para no gastar una petición en cada pasada.
+        # Se reintenta en la reparación periódica: una cuenta puede volver.
+        self.stale = stale
 
         # Nuevos campos para cuentas de pro API
         self.platform = platform
@@ -50,7 +57,8 @@ class Account:
             "platform": self.platform,
             "profile_icon": self.profile_icon,
             "summoner_level": self.summoner_level,
-            "last_match_timestamp": self.last_match_timestamp
+            "last_match_timestamp": self.last_match_timestamp,
+            "stale": self.stale,
         }
 
     @classmethod
@@ -69,15 +77,22 @@ class Account:
             profile_icon=data.get("profile_icon"),
             summoner_level=data.get("summoner_level"),
             last_match_timestamp=data.get("last_match_timestamp"),
+            stale=data.get("stale", False),
         )
 
 
 class BootcampPlayer:
-    def __init__(self, name, team="", role=""):
+    def __init__(self, name, team="", role="", league=""):
         self.name = name
         self.team = team
         self.role = role
         self.accounts = []
+
+        # Código de la liga por la que este jugador entró en seguimiento
+        # ("lec", "lck"...). Hace falta porque el bot puede seguir varias ligas
+        # a la vez y cada servidor elige las suyas: sin esta etiqueta no hay
+        # forma de saber a qué servidor hay que avisar de este jugador.
+        self.league = league
 
         # Nuevos campos desde /pros/
         self.age = None
@@ -110,13 +125,13 @@ class BootcampPlayer:
         return player
 
     @classmethod
-    def from_pro_api(cls, name, data):
+    def from_pro_api(cls, name, data, league=""):
         esport_info = data.get("esportPlayer") or {}
         accounts_data = data.get("players", [])
         team = accounts_data[0].get("team", "") if accounts_data else ""
         role = esport_info.get("role", "")
 
-        player = cls(name=name, team=team, role=role)
+        player = cls(name=name, team=team, role=role, league=league)
         player.age = esport_info.get("age")
         player.birthdate = esport_info.get("birthdate")
         player.contract = esport_info.get("contract")
@@ -160,6 +175,7 @@ class BootcampPlayer:
             "name": self.name,
             "team": self.team,
             "role": self.role,
+            "league": self.league,
             "age": self.age,
             "birthdate": self.birthdate,
             "contract": self.contract,
@@ -177,7 +193,12 @@ class BootcampPlayer:
         player = cls(
             name=data["name"],
             team=data.get("team", ""),
-            role=data.get("role", "")
+            role=data.get("role", ""),
+            # Los JSON anteriores no tienen este campo: caen en "", y el filtro
+            # por liga los trata como "sin liga" (se mantiene el seguimiento
+            # cuando el servidor no ha elegido nada, que es el caso LEC-only
+            # de siempre).
+            league=data.get("league", ""),
         )
         player.age = data.get("age")
         player.birthdate = data.get("birthdate")

@@ -6,6 +6,11 @@ from esports_extension.models.tracker import TrackedMatch
 from esports_extension.services.storage import format_elapsed_time
 from typing import Optional
 
+from utils.logger import get_logger
+
+log = get_logger("esports.embeds")
+
+
 class EmbedService:
     
     @staticmethod
@@ -23,7 +28,10 @@ class EmbedService:
                 tracked_game = g
                 break
         if not tracked_game:
-            print(f"[DEBUG] No hay juego en vivo para match_id={match.match_id}, league={match.league_name}")
+            log.debug(
+                "Sin juego en vivo para match_id=%s (%s)",
+                match.match_id, match.league_name,
+            )
             return None
 
             

@@ -8,7 +8,10 @@ from core.help_commands import register_help_command
 from core.ranking_command import register_ranking_command
 from core.notification_config_commands import register_notification_config_commands
 from core.historial_commands import register_historial_command
-from copa.registro import register_copa_commands
+from core.health_command import register_health_command
+from core.league_commands import register_league_commands
+from core.premium_command import register_premium_command
+from core.user_alerts_commands import register_user_alerts_commands
 
 
 async def register_esports_commands(bot):
@@ -20,9 +23,12 @@ async def register_commands(bot):
     register_match_command(bot)
     register_info_command(bot)
     register_live_command(bot)
-    register_help_command(bot)  # <-- agrega esto
+    register_help_command(bot)
     register_notification_config_commands(bot)
     register_ranking_command(bot)
     register_historial_command(bot)
-    register_copa_commands(bot)
+    register_health_command(bot)
+    register_league_commands(bot)
+    register_premium_command(bot)
+    register_user_alerts_commands(bot)
     await register_esports_commands(bot)

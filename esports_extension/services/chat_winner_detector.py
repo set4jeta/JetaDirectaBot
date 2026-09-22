@@ -3,6 +3,10 @@ from collections import Counter
 from twitchio.ext import commands
 import asyncio
 
+from utils.logger import get_logger
+
+log = get_logger("esports.chat_winner_detector")
+
 async def analyze_chat_and_update_wins(event_details, min_mentions=20, max_messages=500):
     """
     Analiza el chat del stream principal (YouTube o Twitch), detecta el equipo ganador y suma game_wins.
@@ -61,10 +65,22 @@ async def analyze_chat_and_update_wins(event_details, min_mentions=20, max_messa
 
 # Twitch helper
 async def analyze_twitch_chat(channel_name, team_codes, min_mentions, max_messages):
+    # El token se lee de la configuración central (TWITCH_OAUTH_TOKEN en el
+    # .env). Antes estaba escrito aquí y por tanto quedó expuesto en el
+    # histórico de git: hay que revocarlo y generar uno nuevo.
+    import config
+
+    token = config.TWITCH_OAUTH_TOKEN
+    if not token:
+        log.warning(
+            "TWITCH_OAUTH_TOKEN no configurado: se omite la detección de ganador por chat."
+        )
+        return Counter()
+
     class Bot(commands.Bot):
         def __init__(self):
             super().__init__(
-                token='oauth:7fvxj3ra255umt5d4h8zlfvbfq5jfp',  # <-- Cambia por tu token
+                token=token,
                 prefix='!',
                 initial_channels=[channel_name]
             )

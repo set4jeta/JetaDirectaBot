@@ -15,8 +15,17 @@ def load_last_index(path=LAST_INDEX_PATH) -> int:
     return 0
 
 def save_last_index(index: int, path=LAST_INDEX_PATH):
+    # Atómico como el resto del proyecto: son 25 bytes, pero es el puntero de la
+    # rotación por lotes de Infoplayers. Truncado a 0 vuelve a empezar por el
+    # jugador 0 y los del final de la lista no se refrescan nunca.
+    tmp = f"{path}.tmp"
     try:
-        with open(path, "w", encoding="utf-8") as f:
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump({"last_checked_index": index}, f)
+        os.replace(tmp, path)
     except Exception as e:
         print(f"[ERROR] No se pudo guardar el índice: {e}")
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass

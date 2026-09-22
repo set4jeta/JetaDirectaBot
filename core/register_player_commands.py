@@ -1,129 +1,222 @@
-# core/register_player_commands.py
+"""Comando `!match` / `/match`: partida activa de un jugador.
+
+Qué se cambió
+-------------
+0. **Ahora también es `/match jugador:elk`.**
+
+1. **La lista de jugadores se recarga en cada uso.** Estaba en el nivel del
+   módulo (`players = load_tracked_accounts()` al importar), así que un jugador
+   nuevo no existía para el comando hasta reiniciar el bot. Es el mismo fallo
+   que ya se corrigió en `!team`.
+
+2. **Se acabaron los 8 intentos con `sleep(2)` por cuenta.** El bucle podía
+   tardar 16 segundos *por cuenta* antes de pasar a la siguiente, y la mayoría
+   de esos reintentos eran contra un 404 que ya se sabía definitivo. Ahora se
+   consultan todas las cuentas en paralelo con el cliente compartido, que ya
+   tiene su propio limitador y sus reintentos.
+
+3. **Se usa el cliente central de Riot.** Antes abría un `aiohttp.ClientSession`
+   por invocación, fuera del rate limiter de la key nueva.
+
+4. **El rate limit se resuelve una vez, no por cuenta.** Si Riot limita, se cae
+   a la caché de partidas activas igual que antes, pero sin repetir el intento
+   por cada cuenta del jugador.
+"""
+
+from __future__ import annotations
 
 import asyncio
-import time
-import nextcord
+
 from nextcord.ext import commands
-import aiohttp
 
-from tracking.soloq.accounts_io import load_tracked_accounts
-from core.retry_handler import add_to_retry_queue
-from tracking.soloq.active_game_cache import get_active_game_cache, get_active_game_cache_by_name
+import config
 from apis.riot_api import get_active_game
-from ui.active_match_embed import create_match_embed
+from core.dual_command import dual_texto
+from core.rank_data import get_cached_rank, save_rank_data
+from core.responder import Respuesta
+from core.retry_handler import add_to_retry_queue
 from models.soloq_match import SoloQMatch
-from core.rank_data import save_rank_data
+from tracking.soloq.accounts_io import load_tracked_accounts
+from tracking.soloq.active_game_cache import (
+    get_active_game_cache,
+    get_active_game_cache_by_name,
+)
+from ui.active_match_embed import create_match_embed
+from utils.game_clock import desde_cache
+from utils.i18n import idioma_de, tr
+from utils.logger import get_logger
 
-players = load_tracked_accounts()
-name_to_players = {p.name.lower().replace(" ", ""): p for p in players}
+log = get_logger("core.match")
+
+
+def _buscar_jugador(nombre: str):
+    """Jugador seguido cuyo nick coincide, ignorando espacios y mayúsculas.
+
+    Se recarga el fichero en cada llamada a propósito: la tarea diaria lo
+    reescribe y antes esto se leía una sola vez al importar el módulo.
+    """
+    objetivo = (nombre or "").lower().replace(" ", "")
+    if not objetivo:
+        return None
+    for jugador in load_tracked_accounts():
+        if jugador.name.lower().replace(" ", "") == objetivo:
+            return jugador
+    return None
+
+
+def _mapa_de_rangos(match: SoloQMatch) -> dict:
+    """`{puuid: rango}` para los participantes que tengan uno conocido."""
+    mapa = {}
+    for part in match.participants:
+        puuid = getattr(part, "puuid", None)
+        if not puuid:
+            continue
+        rank = getattr(part, "rank", None) or get_cached_rank(part)
+        if rank and rank.get("tier") and rank.get("lp") is not None:
+            mapa[puuid] = rank
+    return mapa
+
+
+async def _partida_de_cuenta(cuenta, semaforo: asyncio.Semaphore):
+    """Devuelve `(cuenta, partida, estado)` de una sola cuenta."""
+    if not cuenta.puuid:
+        return cuenta, None, 404
+    async with semaforo:
+        try:
+            # En SU servidor: sin `platform` el cliente pregunta a euw1 y una
+            # cuenta de KR/NA1/BR1 da 404, así que `!match` contestaba
+            # "no está en partida" con el jugador jugando.
+            partida, estado = await get_active_game(
+                cuenta.puuid, platform=getattr(cuenta, "platform", None)
+            )
+        except Exception as exc:
+            log.debug("Fallo consultando %s: %s", cuenta.puuid[:12], exc)
+            return cuenta, None, 0
+    return cuenta, partida, estado
+
+
+async def _cuerpo_match(res: Respuesta, nombre: str) -> None:
+    """Cuerpo compartido por `!match` y `/match`."""
+    _ = tr(res.guild_id)
+    idioma = idioma_de(res.guild_id)
+
+    if not nombre:
+        await res.error(_("match.falta_nombre"))
+        return
+
+    jugador = _buscar_jugador(nombre)
+    if not jugador:
+        await res.error(_("match.no_encontrado", nombre=nombre))
+        return
+
+    await res.esperando(_("match.buscando", nombre=jugador.name))
+
+    # Todas las cuentas a la vez: antes se recorrían en serie con hasta 8
+    # reintentos y `sleep(2)` cada una.
+    semaforo = asyncio.Semaphore(config.TRACKER_CONCURRENCY)
+    resultados = await asyncio.gather(
+        *[_partida_de_cuenta(c, semaforo) for c in jugador.accounts],
+        return_exceptions=True,
+    )
+
+    limitado = False
+    for resultado in resultados:
+        if isinstance(resultado, Exception):
+            log.debug("Cuenta con excepción: %s", resultado)
+            continue
+        cuenta, partida, estado = resultado
+        if estado == 429:
+            limitado = True
+        if not partida:
+            continue
+
+        try:
+            match = SoloQMatch.from_riot_game_data(partida)
+            await match.load_ranks()
+        except Exception:
+            log.exception("Error procesando la partida activa de %s", jugador.name)
+            await res.error(_("match.fallo_embed"))
+            return
+
+        puuid_to_player = {a.puuid: jugador for a in jugador.accounts if a.puuid}
+        embed, files = await create_match_embed(
+            match, puuid_to_player, _mapa_de_rangos(match), idioma=idioma
+        )
+        cuenta_txt = (
+            f"{cuenta.riot_id.get('game_name','?')}#{cuenta.riot_id.get('tag_line','?')}"
+        )
+        embed.title = _("match.titulo", nombre=jugador.name, cuenta=cuenta_txt)
+        await res.send(embed=embed, files=files)
+        return
+
+    # Ninguna cuenta dio partida. Si hubo rate limit, se intenta con la caché.
+    if limitado:
+        await _responder_desde_cache(res, jugador)
+        return
+
+    await res.error(_("match.sin_partida", nombre=jugador.name))
+
+
+async def _responder_desde_cache(res: Respuesta, jugador) -> None:
+    """Respuesta de respaldo cuando Riot limita: la última partida cacheada."""
+    _ = tr(res.guild_id)
+    idioma = idioma_de(res.guild_id)
+
+    entrada = None
+    for cuenta in jugador.accounts:
+        if cuenta.puuid:
+            entrada = get_active_game_cache(cuenta.puuid)
+            if entrada:
+                break
+    if not entrada:
+        entrada = get_active_game_cache_by_name(jugador.name)
+        if entrada:
+            log.debug("Recuperado desde caché por nombre: %s", jugador.name)
+
+    if not entrada:
+        await res.error(_("match.sin_cache"))
+        return
+
+    try:
+        match = SoloQMatch.from_riot_game_data(entrada["active_game"])
+    except Exception:
+        log.exception("Error leyendo la partida cacheada de %s", jugador.name)
+        await res.error(_("match.cache_ilegible"))
+        return
+
+    for part in match.participants:
+        if getattr(part, "puuid", None) and getattr(part, "rank", None):
+            save_rank_data(part)
+
+    # Mismo reloj que `/live` y el embed: antes se sumaba a mano `game_length`
+    # (el reloj del espectador) al tiempo en caché, sin contar el delay.
+    reloj = desde_cache(entrada)
+    match.game_length = reloj.visible
+
+    puuid_to_player = {a.puuid: jugador for a in jugador.accounts if a.puuid}
+    embed, files = await create_match_embed(
+        match, puuid_to_player, _mapa_de_rangos(match), idioma=idioma
+    )
+    embed.add_field(
+        name=_("match.campo_cache"),
+        value=_("match.valor_cache", tiempo=reloj.texto_embed(idioma)),
+        inline=False,
+    )
+    embed.title = _("match.titulo_cache", nombre=jugador.name)
+    await res.send(embed=embed, files=files)
+
+    for cuenta in jugador.accounts:
+        if cuenta.puuid:
+            add_to_retry_queue(cuenta.puuid, getattr(cuenta, "platform", None))
+            break
 
 
 def register_match_command(bot: commands.Bot):
-
-    @bot.command(name="match")
-    async def match_cmd(ctx, *, player_name: str = ""):
-        if not player_name:
-            await ctx.send("❌ Debes indicar un nombre de jugador. Ej: `!match stend`")
-            return
-
-        normalized_name = player_name.lower().replace(" ", "")
-        player = name_to_players.get(normalized_name)
-
-        if not player:
-            await ctx.send(f"❌ No se encontró ningún jugador con el nombre '{player_name}'.")
-            return
-
-        found = False
-        async with aiohttp.ClientSession() as session:
-            for account in player.accounts:
-                puuid = account.puuid
-                if not puuid:
-                    continue
-
-                for intento in range(8):
-                    active_game, status = await get_active_game(puuid, session)
-                    if active_game:
-                        found = True
-                        try:
-                            match = SoloQMatch.from_riot_game_data(active_game)
-                            # Aquí cargas los rangos **antes** de crear el embed
-                            await match.load_ranks(session)
-                        except Exception as e:
-                            await ctx.send(f"⚠️ Error procesando partida activa: {e}")
-                            return
-
-                        ranked_data_map = {}
-                        for part in match.participants:
-                            if hasattr(part, "puuid") and part.puuid:
-                                from core.rank_data import get_cached_rank
-                                rank = getattr(part, "rank", None) or get_cached_rank(part)
-                                if rank and rank.get("tier") and rank.get("lp") is not None:
-                                    ranked_data_map[part.puuid] = rank
-
-                        puuid_to_player = {a.puuid: player for a in player.accounts if a.puuid}
-                        embed, files = await create_match_embed(match, puuid_to_player, ranked_data_map)
-                        embed.title = f"Partida de {player.name} ({account.riot_id['game_name']}#{account.riot_id['tag_line']}) 🎮"
-                        await ctx.send(embed=embed, files=files)
-                        return  # Termina después de enviar embed exitoso
-
-                    if status == 429:  # Rate Limit
-                        # 1. Intenta primero con PUUID
-                        cache_entry = get_active_game_cache(puuid)
-
-                        # 2. Si falla, intenta con el nombre del jugador
-                        if not cache_entry:
-                            cache_entry = get_active_game_cache_by_name(player.name)
-                            if cache_entry:
-                                print(f"[CACHE] Recuperado desde cache por nombre: {player.name}")
-                            else:
-                                await ctx.send("⚠️ Rate limit detectado, pero no hay datos en caché disponibles.")
-                                return
-
-                        try:
-                            match = SoloQMatch.from_riot_game_data(cache_entry["active_game"])
-                        except Exception as e:
-                            await ctx.send(f"⚠️ Error leyendo datos en caché: {e}")
-                            return
-
-                        
-                        # Para cada participante, si tiene puuid y rank, guarda el rank
-                        for part in match.participants:
-                            if hasattr(part, "puuid") and hasattr(part, "rank") and part.rank:
-                                save_rank_data(part)
-                     
-                        
-                        ranked_data_map = {}
-                        for part in match.participants:
-                            if hasattr(part, "puuid") and part.puuid:
-                                from core.rank_data import get_cached_rank
-                                rank = getattr(part, "rank", None) or get_cached_rank(part)
-                                if rank and rank.get("tier") and rank.get("lp") is not None:
-                                    ranked_data_map[part.puuid] = rank
-                        
-                         
-                        
-                        
-                        # Recalcula tiempo estimado
-                        game_length = int((cache_entry.get("game_length") or 0) + (time.time() - cache_entry["timestamp"]))
-                        match.game_length = game_length
-
-                        puuid_to_player = {a.puuid: player for a in player.accounts if a.puuid}
-                        embed, files = await create_match_embed(match, puuid_to_player, ranked_data_map)
-                        mins, secs = divmod(game_length, 60)
-                        embed.add_field(
-                            name="⏳ Tiempo estimado desde notificación",
-                            value=f"{mins}m {secs}s (estimado, por rate limit)",
-                            inline=False
-                        )
-                        embed.title = f"Partida de {player.name} ({account.riot_id['game_name']}#{account.riot_id['tag_line']}) 🎮 (rate limit)"
-                        await ctx.send(embed=embed, files=files)
-                        add_to_retry_queue(puuid)
-                        return
-
-                    if status == 404:
-                        break  # Jugador no está en partida
-
-                    await asyncio.sleep(2)
-
-        if not found:
-            await ctx.send(f"❌ {player.name} no está en ninguna partida activa en ninguna de sus cuentas.")
+    dual_texto(
+        bot,
+        "match",
+        "cmd.match.desc",
+        _cuerpo_match,
+        arg_nombre="cmd.match.arg",
+        arg_desc="cmd.match.arg_desc",
+    )

@@ -1,0 +1,7347 @@
+{
+  "LLA": {
+    "total": 13,
+    "resueltos": 1,
+    "cuentas": 1,
+    "pct": 7.7,
+    "detalle": [
+      {
+        "nombre": "KDV",
+        "equipo": "UCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "N N",
+        "equipo": "UCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Xypherz",
+        "equipo": "UCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "5kid",
+        "equipo": "6K",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ChinX",
+        "equipo": "6K",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "IgnaVilu",
+        "equipo": "6K",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dimitry",
+        "equipo": "6K",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ben01",
+        "equipo": "WCXX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nothing",
+        "equipo": "R7",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Summit",
+        "equipo": "R7",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Estral Esports"
+      },
+      {
+        "nombre": "ikRyong",
+        "equipo": "XTN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Gankk",
+        "equipo": "XTN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zlekt",
+        "equipo": "XTN",
+        "ok": false,
+        "motivo": "404"
+      }
+    ]
+  },
+  "NACL": {
+    "total": 79,
+    "resueltos": 32,
+    "cuentas": 55,
+    "pct": 40.5,
+    "detalle": [
+      {
+        "nombre": "Crimson",
+        "equipo": "MU",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Galatasaray Esports"
+      },
+      {
+        "nombre": "Yuuji",
+        "equipo": "MU",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Maryville University"
+      },
+      {
+        "nombre": "Spirax",
+        "equipo": "MU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Scary Jerry",
+        "equipo": "MU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Obstinatus",
+        "equipo": "MU",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Maryville University"
+      },
+      {
+        "nombre": "Niles",
+        "equipo": "MU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "AoJune",
+        "equipo": "MU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shimmer",
+        "equipo": "MU",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Maryville University"
+      },
+      {
+        "nombre": "Wilson",
+        "equipo": "WU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zach",
+        "equipo": "WU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tails",
+        "equipo": "WU",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Tomo",
+        "equipo": "WU",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1",
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Winthrop University"
+      },
+      {
+        "nombre": "Blight",
+        "equipo": "WU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Owaga",
+        "equipo": "WU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kim Down",
+        "equipo": "WU",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Winthrop University"
+      },
+      {
+        "nombre": "Berik",
+        "equipo": "WU",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Winthrop University"
+      },
+      {
+        "nombre": "Samikin",
+        "equipo": "WU",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Fulls",
+        "equipo": "WU",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Cody Sun",
+        "equipo": "CNV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zyko",
+        "equipo": "CNV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Perry",
+        "equipo": "CNV",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Conviction"
+      },
+      {
+        "nombre": "Sniper",
+        "equipo": "CNV",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Conviction"
+      },
+      {
+        "nombre": "Tomio",
+        "equipo": "CNV",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "EUW1",
+          "NA1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "Conviction"
+      },
+      {
+        "nombre": "Insanity",
+        "equipo": "CNV",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Conviction"
+      },
+      {
+        "nombre": "Meech",
+        "equipo": "CNV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fiji",
+        "equipo": "CCG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "CCG Esports"
+      },
+      {
+        "nombre": "Only35",
+        "equipo": "CCG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "CCG Esports"
+      },
+      {
+        "nombre": "AeonCrystal",
+        "equipo": "CCG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Leza",
+        "equipo": "CCG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "CCG Esports"
+      },
+      {
+        "nombre": "Spawn",
+        "equipo": "CCG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Philip",
+        "equipo": "BLUE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Blue Otter"
+      },
+      {
+        "nombre": "Young",
+        "equipo": "BLUE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Levitate",
+        "equipo": "BLUE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Minui",
+        "equipo": "BLUE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chad",
+        "equipo": "BLUE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Munchy",
+        "equipo": "BLUE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "FakeGod",
+        "equipo": "LG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tactical",
+        "equipo": "LG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Cloud9"
+      },
+      {
+        "nombre": "Zeyzal",
+        "equipo": "LG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Shopify Rebellion"
+      },
+      {
+        "nombre": "Soligo",
+        "equipo": "LG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mixtsure",
+        "equipo": "NRG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Savannah College of Art and Design"
+      },
+      {
+        "nombre": "Shogo",
+        "equipo": "NRG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Zamudo",
+        "equipo": "NRG",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "NRG"
+      },
+      {
+        "nombre": "Kisno",
+        "equipo": "NRG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "NRG"
+      },
+      {
+        "nombre": "Phymini",
+        "equipo": "NRG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sushee",
+        "equipo": "NRG",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "NRG"
+      },
+      {
+        "nombre": "Spica",
+        "equipo": "NRG",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "NRG"
+      },
+      {
+        "nombre": "Siroinai",
+        "equipo": "NRG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lojaz",
+        "equipo": "DOG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "aadam",
+        "equipo": "DOG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hub",
+        "equipo": "DOG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Dorado Gaming"
+      },
+      {
+        "nombre": "Redemption",
+        "equipo": "DOG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "NeedyHenry",
+        "equipo": "DOG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dcoy",
+        "equipo": "DOG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "InFlame",
+        "equipo": "DOG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bio",
+        "equipo": "DOG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nukez",
+        "equipo": "VI",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sudzzi",
+        "equipo": "VI",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dragoon",
+        "equipo": "VI",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zev",
+        "equipo": "VI",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "JRockets",
+        "equipo": "CONT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kaido",
+        "equipo": "CONT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Asilah",
+        "equipo": "CONT",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Daption",
+        "equipo": "CONT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tub",
+        "equipo": "CONT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Biostir",
+        "equipo": "CONT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Arbrio",
+        "equipo": "CONT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Strai",
+        "equipo": "OME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Griffin",
+        "equipo": "OME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bradley",
+        "equipo": "OME",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "University of Mississippi"
+      },
+      {
+        "nombre": "Array",
+        "equipo": "OME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bounty",
+        "equipo": "OME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Retrozing",
+        "equipo": "OME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ariana",
+        "equipo": "OME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Horder",
+        "equipo": "CPD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Music",
+        "equipo": "CPD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Cupid Esports"
+      },
+      {
+        "nombre": "Ablazeolive",
+        "equipo": "CPD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Cupid Esports"
+      },
+      {
+        "nombre": "Mobility",
+        "equipo": "CPD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Breezy",
+        "equipo": "CPD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Cupid Esports"
+      }
+    ]
+  },
+  "LTA North": {
+    "total": 0,
+    "resueltos": 0,
+    "detalle": []
+  },
+  "LTA South": {
+    "total": 0,
+    "resueltos": 0,
+    "detalle": []
+  },
+  "LJL": {
+    "total": 201,
+    "resueltos": 9,
+    "cuentas": 15,
+    "pct": 4.5,
+    "detalle": [
+      {
+        "nombre": "Paz",
+        "equipo": "PGM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Moyashi",
+        "equipo": "PGM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ramune",
+        "equipo": "PGM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Once",
+        "equipo": "PGM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "GAENG",
+        "equipo": "PGM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "hAFu",
+        "equipo": "PGM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Keymaker",
+        "equipo": "USG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Arumik",
+        "equipo": "USG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Enapon",
+        "equipo": "BCT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "R0se",
+        "equipo": "BCT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Isuka",
+        "equipo": "BCT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bruce",
+        "equipo": "BCT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "L1mit",
+        "equipo": "BCT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "tol2",
+        "equipo": "BCT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Acee",
+        "equipo": "V3",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Awaker",
+        "equipo": "V3",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "89",
+        "equipo": "V3",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ezman",
+        "equipo": "V3",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sh1vq",
+        "equipo": "V3",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "sucuranbul",
+        "equipo": "V3",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Taicho",
+        "equipo": "V3",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bruce",
+        "equipo": "FL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "kkkkkkkkk",
+        "equipo": "FL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "DICE",
+        "equipo": "FL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ellim",
+        "equipo": "FL",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "FENNEL"
+      },
+      {
+        "nombre": "MayR",
+        "equipo": "FL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chitan",
+        "equipo": "KCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "OkerumoN",
+        "equipo": "KCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Racon",
+        "equipo": "KCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "TenT",
+        "equipo": "KCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yuu",
+        "equipo": "KCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Alleycat",
+        "equipo": "KCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Jericho",
+        "equipo": "KCH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "iu",
+        "equipo": "YYG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dopaminw",
+        "equipo": "YYG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yosida",
+        "equipo": "YYG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "kumuo",
+        "equipo": "YYG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "wada1",
+        "equipo": "YYG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nagi",
+        "equipo": "YYG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ReaperBabe",
+        "equipo": "YYG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "besu",
+        "equipo": "WIN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Senmary",
+        "equipo": "WIN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tatsu",
+        "equipo": "WIN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Wasteland",
+        "equipo": "WIN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fubuki",
+        "equipo": "VLY",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Vox",
+        "equipo": "VLY",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "antana",
+        "equipo": "VLY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "claude",
+        "equipo": "VLY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "GukBo",
+        "equipo": "VLY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "BEEHIV3",
+        "equipo": "VEL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "fuki",
+        "equipo": "VEL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "hanya",
+        "equipo": "VEL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lambda",
+        "equipo": "VEL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Skinny",
+        "equipo": "VEL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fubuki",
+        "equipo": "BVL",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "MayR",
+        "equipo": "BVL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "uwaaaa",
+        "equipo": "BVL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "udon",
+        "equipo": "BVL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "tetu1",
+        "equipo": "BVL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "FAKE1",
+        "equipo": "BVL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mutton",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "peakey",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fantasyleaf",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "koisi",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sag1",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "EMPTY2",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Jmicta",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "motimotti11",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "noran",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sag1rii",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "velbellys",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Eria",
+        "equipo": "VK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "anakin",
+        "equipo": "BKD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "chilioil",
+        "equipo": "BKD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Eria",
+        "equipo": "BKD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Meii",
+        "equipo": "BKD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rando",
+        "equipo": "BKD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "razu",
+        "equipo": "BKD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "yokiha",
+        "equipo": "BKD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kenma",
+        "equipo": "SQG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Odessa",
+        "equipo": "SQG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Saii",
+        "equipo": "SQG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sassappel",
+        "equipo": "SQG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "popon",
+        "equipo": "SQG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "chico",
+        "equipo": "RCK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fluid",
+        "equipo": "RCK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Razer",
+        "equipo": "RCK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Gecko",
+        "equipo": "RCK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kangkuk",
+        "equipo": "RCK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "autefu",
+        "equipo": "RCK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "YSDS",
+        "equipo": "RCK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lchallenge",
+        "equipo": "NCP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nangning",
+        "equipo": "NCP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "saru",
+        "equipo": "NCP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bera",
+        "equipo": "HNS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ekkusu",
+        "equipo": "HNS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Maruko",
+        "equipo": "HNS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nakamoto",
+        "equipo": "HNS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "R1to",
+        "equipo": "HNS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rumi",
+        "equipo": "HNS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "phast",
+        "equipo": "HNS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Potential",
+        "equipo": "DFMA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Grit",
+        "equipo": "DFMA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ravvy",
+        "equipo": "DFMA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Damocles",
+        "equipo": "DFMA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "tobi",
+        "equipo": "DFMA",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "kurahuto",
+        "equipo": "DFMA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "p1ng",
+        "equipo": "DM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Charley",
+        "equipo": "DM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dragonblood",
+        "equipo": "DM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "history",
+        "equipo": "DM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "poesy",
+        "equipo": "DM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ramune",
+        "equipo": "DM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "StarRanger",
+        "equipo": "DM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "socceryakyu",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "kumuo",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "applepasta",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "suyahime",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "W1ng",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "toraneko",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "arthur1",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Etude",
+        "equipo": "DG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Eve",
+        "equipo": "BOO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "FuraFura",
+        "equipo": "BOO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Razer",
+        "equipo": "BOO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yosida",
+        "equipo": "BOO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Snow Panda",
+        "equipo": "BOO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Blender",
+        "equipo": "BOO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Perle",
+        "equipo": "VT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tima",
+        "equipo": "VT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Magus",
+        "equipo": "VT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tele",
+        "equipo": "VT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "saru",
+        "equipo": "VT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nangning",
+        "equipo": "VT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hannah",
+        "equipo": "F8",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "MayR",
+        "equipo": "F8",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Karaage",
+        "equipo": "F8",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ice1",
+        "equipo": "F8",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mcf",
+        "equipo": "F8",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "raku",
+        "equipo": "F8",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "wanan",
+        "equipo": "IDT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Enapon",
+        "equipo": "IDT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "PiNK",
+        "equipo": "IDT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Imagine",
+        "equipo": "IDT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "JustFocus",
+        "equipo": "IDT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "rre",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "NaiNa",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sassappel",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Saki",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "SnowRabbit",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Amel",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Karaage",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Imagine",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "wanan",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "JustFocus",
+        "equipo": "LGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "tol2",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Enapon",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "L1mit",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "R0se",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "uKyo",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zlatan",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "koisi",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "advance",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "mb",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Alps",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Godot",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Eria",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ham",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "HRK",
+        "equipo": "NM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kreative",
+        "equipo": "NX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sh1vq",
+        "equipo": "NX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "PonG",
+        "equipo": "NX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Cryo",
+        "equipo": "NX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Aquila",
+        "equipo": "NX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ramune",
+        "equipo": "RGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Charley",
+        "equipo": "RGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "hetel",
+        "equipo": "RGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "YellowYoshi",
+        "equipo": "RGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "EL",
+        "equipo": "RGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Archer",
+        "equipo": "RGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Ankochan",
+        "equipo": "RGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ace9",
+        "equipo": "RGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "udon",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "anakin",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Gimi",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Elative",
+        "equipo": "UWS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Uwinks"
+      },
+      {
+        "nombre": "ichida",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Outlaw",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "sign",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Jericho",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Skinny",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "f4ke",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "hanya",
+        "equipo": "UWS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "leaf",
+        "equipo": "ARB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kania",
+        "equipo": "ARB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Daemi",
+        "equipo": "ARB",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Arneb"
+      },
+      {
+        "nombre": "dresscode",
+        "equipo": "ARB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Taiyaki",
+        "equipo": "ARB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dara",
+        "equipo": "RPG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Moyashi",
+        "equipo": "RPG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ramune",
+        "equipo": "RPG",
+        "ok": false,
+        "motivo": "404"
+      }
+    ]
+  },
+  "PCS": {
+    "total": 156,
+    "resueltos": 20,
+    "cuentas": 29,
+    "pct": 12.8,
+    "detalle": [
+      {
+        "nombre": "Annnnn",
+        "equipo": "ALF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "3z",
+        "equipo": "ALF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kiy1n9",
+        "equipo": "ALF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "XiaotuXXD",
+        "equipo": "ALF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sheng",
+        "equipo": "ALF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Keres",
+        "equipo": "BJD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "yijie",
+        "equipo": "BJD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shinsekai",
+        "equipo": "RSG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Raven",
+        "equipo": "RSG",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Quake",
+        "equipo": "RSG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mexi",
+        "equipo": "RSG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "BoxeR",
+        "equipo": "RSG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kusuo",
+        "equipo": "RSG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rockky",
+        "equipo": "NOV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Merlyy",
+        "equipo": "NOV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ryan",
+        "equipo": "NOV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "G4",
+        "equipo": "NOV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Coldenfeet",
+        "equipo": "NOV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Pop",
+        "equipo": "NOV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "DoeDoii",
+        "equipo": "LYB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Speltz",
+        "equipo": "LYB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kanji",
+        "equipo": "LYB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Xyliath",
+        "equipo": "LYB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dawn PCS",
+        "equipo": "LYB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Aeiden ARCH",
+        "equipo": "LYB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Holo",
+        "equipo": "BME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rockky",
+        "equipo": "BME",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Alex",
+        "equipo": "BME",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Nate9527"
+      },
+      {
+        "nombre": "Taizan",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "LJW",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Arashi",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shera",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Blaze",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Smerv",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Felia",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Atlen",
+        "equipo": "IMP",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "N0name",
+        "equipo": "S9",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "XieDoDo",
+        "equipo": "S9",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Axin",
+        "equipo": "S9",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lezar",
+        "equipo": "S9",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "QaspieL",
+        "equipo": "S9",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Arashi",
+        "equipo": "S9",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Felia",
+        "equipo": "S9",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "1SSUE",
+        "equipo": "MFT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "RenHao",
+        "equipo": "MFT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hong2",
+        "equipo": "MFT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "665",
+        "equipo": "MFT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Taco",
+        "equipo": "MFT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Wen",
+        "equipo": "MFT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Whale",
+        "equipo": "MFT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Pretender",
+        "equipo": "FAK",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Frank Esports"
+      },
+      {
+        "nombre": "MnM",
+        "equipo": "FAK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "YSKM",
+        "equipo": "FAK",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Frank Esports"
+      },
+      {
+        "nombre": "Holo",
+        "equipo": "FAK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "kingpo54",
+        "equipo": "FAK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "JP6RU8",
+        "equipo": "DWT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hako",
+        "equipo": "DWT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Pepero",
+        "equipo": "DWT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "WSL",
+        "equipo": "DWT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "xiaotu",
+        "equipo": "DWT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "BioPanther",
+        "equipo": "TB",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Chiefs Esports Club"
+      },
+      {
+        "nombre": "Kevy",
+        "equipo": "TB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Haeri",
+        "equipo": "TB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Violet",
+        "equipo": "TB",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "OC1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Team EnVyUs"
+      },
+      {
+        "nombre": "Aladoric",
+        "equipo": "TB",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "OC1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Austrian Force willhaben"
+      },
+      {
+        "nombre": "Decoy",
+        "equipo": "TB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sailuo",
+        "equipo": "HPS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "TA0",
+        "equipo": "HPS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "godfan",
+        "equipo": "HPS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "XiaoYang",
+        "equipo": "HPS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "EnHoa",
+        "equipo": "HPS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Swip3rR",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ryoma",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "k1ng",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dragku",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Toppy",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Incursio",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Raes",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "destiny",
+        "equipo": "ANCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dotmm",
+        "equipo": "PSGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Orca",
+        "equipo": "PSGA",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Ground Zero Gaming"
+      },
+      {
+        "nombre": "Weizhe",
+        "equipo": "PSGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dinai",
+        "equipo": "PSGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION Challengers"
+      },
+      {
+        "nombre": "Adiogs",
+        "equipo": "PSGA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zkai",
+        "equipo": "CFOA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "2274",
+        "equipo": "CFOA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "CTBC Flying Oyster Academy"
+      },
+      {
+        "nombre": "Leaky",
+        "equipo": "CFOA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yuhe",
+        "equipo": "CFOA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tracy",
+        "equipo": "CFOA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "1116",
+        "equipo": "SSG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "SillySilly Gaming"
+      },
+      {
+        "nombre": "yaoyao",
+        "equipo": "SSG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "SillySilly Gaming"
+      },
+      {
+        "nombre": "Tianzhen",
+        "equipo": "SSG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "SillySilly Gaming"
+      },
+      {
+        "nombre": "Wako",
+        "equipo": "SSG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "SillySilly Gaming"
+      },
+      {
+        "nombre": "Driver",
+        "equipo": "SSG",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "SillySilly Gaming"
+      },
+      {
+        "nombre": "Chain1",
+        "equipo": "GZA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "0131",
+        "equipo": "GZA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Emok1ng",
+        "equipo": "GZA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sabisu",
+        "equipo": "GZA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "PeanutCoco",
+        "equipo": "GZA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Magicpig",
+        "equipo": "GZA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "XiaoChiao",
+        "equipo": "GZA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Epic",
+        "equipo": "EWH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zoey",
+        "equipo": "EWH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lucifer",
+        "equipo": "EWH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yue",
+        "equipo": "EWH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zer0Fa",
+        "equipo": "EWH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dengleng",
+        "equipo": "EWH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Xi lai",
+        "equipo": "EWH",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "AIex",
+        "equipo": "RSM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hedonist",
+        "equipo": "RSM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Roger",
+        "equipo": "RSM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Xiao Yu",
+        "equipo": "RSM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "WindBlows",
+        "equipo": "RSM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "RenYe",
+        "equipo": "SG7",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Adiza1",
+        "equipo": "SG7",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "NuL1",
+        "equipo": "SG7",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sniper1",
+        "equipo": "SG7",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "TNS",
+        "equipo": "SG7",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Sponge Gaming"
+      },
+      {
+        "nombre": "Dinoo",
+        "equipo": "SG7",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Prage",
+        "equipo": "SG7",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "BuLuKaKa",
+        "equipo": "RNF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "MadDogg9",
+        "equipo": "RNF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Goldc",
+        "equipo": "RNF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Liang",
+        "equipo": "RNF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "OverT1me",
+        "equipo": "RNF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Abmam",
+        "equipo": "RNF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "K B",
+        "equipo": "RNF",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Leaky",
+        "equipo": "AHQ",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ziv",
+        "equipo": "AHQ",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kongyue",
+        "equipo": "AHQ",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Apex",
+        "equipo": "AHQ",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Doggo",
+        "equipo": "AHQ",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "CTBC Flying Oyster"
+      },
+      {
+        "nombre": "Wako",
+        "equipo": "AHQ",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "SillySilly Gaming"
+      },
+      {
+        "nombre": "Ysera",
+        "equipo": "AHQ",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rock",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "HongSuo",
+        "equipo": "HKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Deep Cross Gaming"
+      },
+      {
+        "nombre": "S1aytrue",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Stardust",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "K",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hsien",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Wen",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Biven",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "MnM",
+        "equipo": "HKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Enso",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kongyue",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ChiCh1",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lauva",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "SoCool",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yursan",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Likai",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "minji",
+        "equipo": "JT",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dee",
+        "equipo": "MCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "JimieN",
+        "equipo": "MCX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Ground Zero Gaming"
+      },
+      {
+        "nombre": "Gemini",
+        "equipo": "MCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Koala",
+        "equipo": "MCX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Atlen",
+        "equipo": "MCX",
+        "ok": false,
+        "motivo": "404"
+      }
+    ]
+  },
+  "VCS": {
+    "total": 97,
+    "resueltos": 14,
+    "cuentas": 25,
+    "pct": 14.4,
+    "detalle": [
+      {
+        "nombre": "Nper",
+        "equipo": "SBTE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "DNK",
+        "equipo": "SBTE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dia1",
+        "equipo": "SBTE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Vinboiz",
+        "equipo": "SBTE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Penguin",
+        "equipo": "SBTE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Palette",
+        "equipo": "SBTE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Coated",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Killerqueen",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Blazes",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shine",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Vit",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Calm",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "H3",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "CBL",
+        "equipo": "LX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Richard I",
+        "equipo": "CES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "TT789",
+        "equipo": "CES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Pun",
+        "equipo": "CES",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "KR"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "Team Secret Whales"
+      },
+      {
+        "nombre": "Hieu3",
+        "equipo": "CES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Slowz",
+        "equipo": "CES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tahahy",
+        "equipo": "CES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Meliodas",
+        "equipo": "CES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yume",
+        "equipo": "CES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Boong",
+        "equipo": "SKY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yashiro2",
+        "equipo": "SKY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Aomine",
+        "equipo": "SKY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Means",
+        "equipo": "SKY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Karma",
+        "equipo": "SKY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Cehin",
+        "equipo": "SKY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Biggi",
+        "equipo": "ASES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "LLT",
+        "equipo": "ASES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hyo",
+        "equipo": "ASES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ouzi",
+        "equipo": "ASES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Easylove",
+        "equipo": "ASES",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Saigon Dino"
+      },
+      {
+        "nombre": "2T",
+        "equipo": "ASES",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rigel",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sparda",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Phuc1",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "TQ",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Vin",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zodiac",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nogo",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sty1e",
+        "equipo": "MBE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zin",
+        "equipo": "RW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "N0way",
+        "equipo": "RW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "SJW",
+        "equipo": "RW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sparda",
+        "equipo": "HVE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "POUT",
+        "equipo": "HVE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "CTBC Flying Oyster"
+      },
+      {
+        "nombre": "Aomine",
+        "equipo": "HVE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bie",
+        "equipo": "HVE",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "BR1",
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Team Secret Whales"
+      },
+      {
+        "nombre": "Tomrio",
+        "equipo": "HVE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Vin",
+        "equipo": "HVE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "rayq",
+        "equipo": "DINO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Easylove",
+        "equipo": "DINO",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Saigon Dino"
+      },
+      {
+        "nombre": "Nanaue",
+        "equipo": "DINO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "tiphat",
+        "equipo": "DINO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "TT",
+        "equipo": "DINO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Vinboiz",
+        "equipo": "DINO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tahahy",
+        "equipo": "DINO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Wady",
+        "equipo": "DINO",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sparda",
+        "equipo": "SCBC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rikk",
+        "equipo": "SCBC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yashiro2",
+        "equipo": "SCBC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kairi",
+        "equipo": "SCBC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yongbel",
+        "equipo": "SCBC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Vin",
+        "equipo": "SCBC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Callian",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports Academy"
+      },
+      {
+        "nombre": "Nuna",
+        "equipo": "MVKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "SanSan",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports"
+      },
+      {
+        "nombre": "NPC",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports Academy"
+      },
+      {
+        "nombre": "Hy",
+        "equipo": "MVKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Umi",
+        "equipo": "MVKA",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Harky",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports"
+      },
+      {
+        "nombre": "Steller",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports Academy"
+      },
+      {
+        "nombre": "Chika",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports"
+      },
+      {
+        "nombre": "Seany",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "VN2"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports Academy"
+      },
+      {
+        "nombre": "SiuLoong",
+        "equipo": "MVKA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "MVK Esports"
+      },
+      {
+        "nombre": "Hasmed",
+        "equipo": "9G",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "SCP",
+        "equipo": "9G",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "GiaQui",
+        "equipo": "9G",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Charlington",
+        "equipo": "9G",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zin",
+        "equipo": "9G",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "PTM",
+        "equipo": "9G",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Elio",
+        "equipo": "SGW",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Saigon Dino"
+      },
+      {
+        "nombre": "Salvaje",
+        "equipo": "SGW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nern",
+        "equipo": "SGW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "LDK",
+        "equipo": "SGW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "monkey0",
+        "equipo": "SGW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "AisyL",
+        "equipo": "SGW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "j1n5",
+        "equipo": "SGW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Aomine",
+        "equipo": "SGW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Solis",
+        "equipo": "ZEN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "SCP",
+        "equipo": "ZEN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "GiaQui",
+        "equipo": "ZEN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Charlington",
+        "equipo": "ZEN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Zin",
+        "equipo": "ZEN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "PTM",
+        "equipo": "ZEN",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Haaland",
+        "equipo": "ZEN",
+        "ok": false,
+        "motivo": "404"
+      }
+    ]
+  },
+  "LCO": {
+    "total": 73,
+    "resueltos": 5,
+    "cuentas": 9,
+    "pct": 6.8,
+    "detalle": [
+      {
+        "nombre": "Rineko",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "4ever",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Praedyth",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "gunkrab",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Voice",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hardstyle",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "DaJeung",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Goodo",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "eHopp",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Duck1",
+        "equipo": "MEC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Llenia",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Floppy",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Toppy",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tyran",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "DaJeung",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Vxpir",
+        "equipo": "GRV",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "OC1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Entrust",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "N0body",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Piglet",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Thomas Shen",
+        "equipo": "GRV",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chippys",
+        "equipo": "PGG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Shernfire",
+        "equipo": "PGG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Lotus (North American Team)"
+      },
+      {
+        "nombre": "DONGGY",
+        "equipo": "PGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Violet",
+        "equipo": "PGG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "OC1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Team EnVyUs"
+      },
+      {
+        "nombre": "Apii",
+        "equipo": "PGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Udysof",
+        "equipo": "PGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chopley",
+        "equipo": "PGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "foreigner",
+        "equipo": "PGG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Woodon",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Invictis",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Reufury",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Realer",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Styx",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Cadence",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "9God",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sovereign",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yojin",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "VENDRICK",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "gabn",
+        "equipo": "KNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tomasino",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Woodon",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "4ever",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chirp",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Realer",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "styled",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rosey5",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hysterics",
+        "equipo": "VTX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Medica",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Danteh",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Siuman",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Goodo",
+        "equipo": "VTX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Maple Syrup",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "prey",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Spinda",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tomasino",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "nox1",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chirp",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hoopa",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Findo",
+        "equipo": "FRY",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shinki",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Guapi",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Meifan",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "m0chi",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chungy",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "River1",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "LeeSA",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sasi",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "mfis",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Katsurii",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chenxuan",
+        "equipo": "DW",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Raid",
+        "equipo": "LGC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Maximize",
+        "equipo": "ORD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Puma",
+        "equipo": "ORD",
+        "ok": false,
+        "motivo": "404"
+      }
+    ]
+  },
+  "Arabian League": {
+    "total": 162,
+    "resueltos": 55,
+    "cuentas": 85,
+    "pct": 34.0,
+    "detalle": [
+      {
+        "nombre": "Santa9",
+        "equipo": "RAAD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Deceiving",
+        "equipo": "RAAD",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Lunatic",
+        "equipo": "RAAD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sivvy",
+        "equipo": "RAAD",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Presence",
+        "equipo": "RAAD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hazem",
+        "equipo": "RAAD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mangoo",
+        "equipo": "RAAD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Palacsinta",
+        "equipo": "3E",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "wicked",
+        "equipo": "3E",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Insane1",
+        "equipo": "3E",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kudy",
+        "equipo": "3E",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Froky",
+        "equipo": "GNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tayron",
+        "equipo": "GNG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Dean",
+        "equipo": "GNG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Juggernaut",
+        "equipo": "GNG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "GnG Amazigh"
+      },
+      {
+        "nombre": "Lelouch2",
+        "equipo": "GNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ihebic",
+        "equipo": "GNG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "maged",
+        "equipo": "ANB",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shy Carry",
+        "equipo": "ANB",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Anubis Gaming"
+      },
+      {
+        "nombre": "Theocacs",
+        "equipo": "ANB",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Anubis Gaming"
+      },
+      {
+        "nombre": "Giyuu",
+        "equipo": "ANB",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Anubis Gaming"
+      },
+      {
+        "nombre": "B Butcher",
+        "equipo": "ANB",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Anubis Gaming"
+      },
+      {
+        "nombre": "Shanks2",
+        "equipo": "F0X",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sw3ry",
+        "equipo": "F0X",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Caldya Esport"
+      },
+      {
+        "nombre": "Chakroun",
+        "equipo": "F0X",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Improver",
+        "equipo": "F0X",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Narukya",
+        "equipo": "F0X",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fede",
+        "equipo": "F0X",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Apocalypse e-Sports"
+      },
+      {
+        "nombre": "Eckas",
+        "equipo": "GK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Geekay Esports"
+      },
+      {
+        "nombre": "Giyuu",
+        "equipo": "GK",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Anubis Gaming"
+      },
+      {
+        "nombre": "Santa9",
+        "equipo": "3BL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "KlownZ",
+        "equipo": "3BL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Antos",
+        "equipo": "3BL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Deceiving",
+        "equipo": "3BL",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Biskoo",
+        "equipo": "3BL",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Zeal",
+        "equipo": "3BL",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "CPM",
+        "equipo": "3BL",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "3BL Esports"
+      },
+      {
+        "nombre": "Antonio",
+        "equipo": "3BL",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "3BL Esports"
+      },
+      {
+        "nombre": "Revenger",
+        "equipo": "3BL",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Darky2",
+        "equipo": "1M",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ZERO",
+        "equipo": "1M",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Blueboar",
+        "equipo": "1M",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Robenong",
+        "equipo": "1M",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "One More Esports"
+      },
+      {
+        "nombre": "Mune",
+        "equipo": "1M",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "One More Esports"
+      },
+      {
+        "nombre": "Fr0zen",
+        "equipo": "1M",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Flini",
+        "equipo": "1M",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Angel 1",
+        "equipo": "WST",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "missipissi",
+        "equipo": "WST",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Stryg",
+        "equipo": "WST",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mando",
+        "equipo": "WST",
+        "ok": false,
+        "motivo": "ProxyError"
+      },
+      {
+        "nombre": "Mimic1",
+        "equipo": "TWIS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sloth",
+        "equipo": "TWIS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Wufo",
+        "equipo": "TWIS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Selfmade",
+        "equipo": "TWIS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "M G",
+        "equipo": "TWIS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "OniiKhan",
+        "equipo": "TWIS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Legendary",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Frizi",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "3MK MAX",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "7amoodchi",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Ace1",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Big Daddy",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Corazon",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yourzedx",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "maYma",
+        "equipo": "WESC",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Baran",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Deibjerg",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "chuba",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Medo",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shtegre",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mirage",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Agran",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Imjustpro",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Parein",
+        "equipo": "GAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Trobax",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Aqua2",
+        "equipo": "PGS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Trifan",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Brightsteel",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Edi2",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Picasso",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bashq",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Moka",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Bunnyhub",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shadow5",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "PapilGRE",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sundax",
+        "equipo": "PGS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Ibrahimzzz",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nakimura",
+        "equipo": "PGS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Spear",
+        "equipo": "TAE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "HUNTER2",
+        "equipo": "TAE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Drago",
+        "equipo": "TAE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sebal",
+        "equipo": "TAE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Petoska",
+        "equipo": "OGL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Astrai",
+        "equipo": "OGL",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "One More Esports"
+      },
+      {
+        "nombre": "Pocok",
+        "equipo": "OGL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "TYSON",
+        "equipo": "OGL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Saikek",
+        "equipo": "OGL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "handm",
+        "equipo": "BAM",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "choego",
+        "equipo": "BAM",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Baam Esports"
+      },
+      {
+        "nombre": "ShizuOo",
+        "equipo": "BAM",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Seneca",
+        "equipo": "BAM",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Koussay",
+        "equipo": "BAM",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Baam Esports"
+      },
+      {
+        "nombre": "Noltey",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Astrai",
+        "equipo": "VDS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "One More Esports"
+      },
+      {
+        "nombre": "Xbix",
+        "equipo": "VDS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Lamoula1",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Yazan",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "ShiningSun",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rizzler",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Choka",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "JRachel",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fr0m02Her0",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Walker1",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "doomlance",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "I CLARK I",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "MuffinMan",
+        "equipo": "VDS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shadow12",
+        "equipo": "CL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Fynox",
+        "equipo": "CL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Sworm",
+        "equipo": "CL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Guffe",
+        "equipo": "CL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lightshaw",
+        "equipo": "CL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dargod",
+        "equipo": "CL",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "CHALEEED",
+        "equipo": "OXR",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Lelouch1",
+        "equipo": "OXR",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Akashii",
+        "equipo": "DRAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "CoBiT",
+        "equipo": "DRAG",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Dragons Esports"
+      },
+      {
+        "nombre": "slayder",
+        "equipo": "DRAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "moe",
+        "equipo": "DRAG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "maged",
+        "equipo": "DRAG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "MAXI",
+        "equipo": "FNE",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Forsaken (Polish Team)"
+      },
+      {
+        "nombre": "Aymen",
+        "equipo": "FNE",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Wickedd",
+        "equipo": "FNE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Insane1",
+        "equipo": "FNE",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Magic2",
+        "equipo": "NG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Shinluv",
+        "equipo": "NG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Rust",
+        "equipo": "NG",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "ME1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "NextGeneration Esports"
+      },
+      {
+        "nombre": "Greedy",
+        "equipo": "NG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kaizen2",
+        "equipo": "NG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Tricky",
+        "equipo": "NG",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Dionelux",
+        "equipo": "JSK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "JSK Esports"
+      },
+      {
+        "nombre": "Shanks2",
+        "equipo": "JSK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "VAEII",
+        "equipo": "JSK",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Aeru",
+        "equipo": "JSK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "marlon",
+        "equipo": "JSK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "JSK Esports"
+      },
+      {
+        "nombre": "Spo1ler",
+        "equipo": "JSK",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Chakroun",
+        "equipo": "DS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "OWLONSKY",
+        "equipo": "DS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Disruptors"
+      },
+      {
+        "nombre": "Random",
+        "equipo": "DS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Disruptors"
+      },
+      {
+        "nombre": "Skream",
+        "equipo": "DS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Disruptors"
+      },
+      {
+        "nombre": "sas",
+        "equipo": "DS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Airen",
+        "equipo": "P4",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "SCRlPTER",
+        "equipo": "P4",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Invincible2",
+        "equipo": "P4",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Jasten",
+        "equipo": "P4",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "lyrokun",
+        "equipo": "P4",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Mahonix",
+        "equipo": "P4",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Reveal Multigaming"
+      },
+      {
+        "nombre": "StarScreen",
+        "equipo": "P4",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Pyramid IV Esports"
+      },
+      {
+        "nombre": "Akashii",
+        "equipo": "P4",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Jalleba",
+        "equipo": "P4",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "BipolarXD",
+        "equipo": "P4",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Pyramid IV Esports"
+      },
+      {
+        "nombre": "Pyke0nbike",
+        "equipo": "P4",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "moe",
+        "equipo": "P4",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      }
+    ]
+  },
+  "LCK Challengers": {
+    "total": 116,
+    "resueltos": 116,
+    "cuentas": 217,
+    "pct": 100.0,
+    "detalle": [
+      {
+        "nombre": "DuDu",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "DN SOOPers"
+      },
+      {
+        "nombre": "Lancer",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "DN SOOPers Challengers"
+      },
+      {
+        "nombre": "Quantum",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Sharvel",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "DN SOOPers"
+      },
+      {
+        "nombre": "Clozer",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "DN SOOPers"
+      },
+      {
+        "nombre": "deokdam",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "DN SOOPers"
+      },
+      {
+        "nombre": "Peter",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "DN SOOPers"
+      },
+      {
+        "nombre": "Flip",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "DN SOOPers Challengers"
+      },
+      {
+        "nombre": "Enosh",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "DN SOOPers Challengers"
+      },
+      {
+        "nombre": "DDoiV",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "DN SOOPers Challengers"
+      },
+      {
+        "nombre": "Life",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "DN SOOPers"
+      },
+      {
+        "nombre": "Pyosik",
+        "equipo": "DNS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "DN SOOPers"
+      },
+      {
+        "nombre": "Nevid",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Dplus Kia Challengers"
+      },
+      {
+        "nombre": "Smash",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Career",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Dplus Kia"
+      },
+      {
+        "nombre": "Loopy",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Dplus Kia Challengers"
+      },
+      {
+        "nombre": "Lucid",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Dplus Kia"
+      },
+      {
+        "nombre": "Solid",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "ShowMaker",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Dplus Kia"
+      },
+      {
+        "nombre": "Siwoo",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Dplus Kia"
+      },
+      {
+        "nombre": "Garden",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Wayne",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Dplus Kia Challengers"
+      },
+      {
+        "nombre": "Jaehyuk",
+        "equipo": "DK",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Dplus Kia Challengers"
+      },
+      {
+        "nombre": "Rich",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Kiwoom DRX Challengers"
+      },
+      {
+        "nombre": "Ucal",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Kiwoom DRX"
+      },
+      {
+        "nombre": "Andil",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Kiwoom DRX"
+      },
+      {
+        "nombre": "LazyFeel",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Kiwoom DRX Challengers"
+      },
+      {
+        "nombre": "Vincenzo",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Kiwoom DRX"
+      },
+      {
+        "nombre": "Willer",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Kiwoom DRX"
+      },
+      {
+        "nombre": "Minous",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Kiwoom DRX Challengers"
+      },
+      {
+        "nombre": "Winner",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Frog",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Kiwoom DRX"
+      },
+      {
+        "nombre": "AKaJe",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Kiwoom DRX Challengers"
+      },
+      {
+        "nombre": "Aiming",
+        "equipo": "KRX",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Kiwoom DRX"
+      },
+      {
+        "nombre": "Pungyeon",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION"
+      },
+      {
+        "nombre": "Casting",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "HANJIN BRION"
+      },
+      {
+        "nombre": "GIDEON",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION"
+      },
+      {
+        "nombre": "Teddy",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION"
+      },
+      {
+        "nombre": "Namgung",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION"
+      },
+      {
+        "nombre": "PlanB",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION Challengers"
+      },
+      {
+        "nombre": "Tempester",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "HANJIN BRION Challengers"
+      },
+      {
+        "nombre": "OddEye",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION Challengers"
+      },
+      {
+        "nombre": "Dinai",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "HANJIN BRION Challengers"
+      },
+      {
+        "nombre": "Roamer",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "HANJIN BRION"
+      },
+      {
+        "nombre": "DDahyuk",
+        "equipo": "BRO",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "HANJIN BRION Challengers"
+      },
+      {
+        "nombre": "Lumos",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Gen.G Global Academy"
+      },
+      {
+        "nombre": "SIRIUSS",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Gen.G Global Academy"
+      },
+      {
+        "nombre": "Ripple",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Gen.G Global Academy"
+      },
+      {
+        "nombre": "Courage",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "100 Thieves"
+      },
+      {
+        "nombre": "MUDAI",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Gen.G Global Academy"
+      },
+      {
+        "nombre": "Kemish",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Gen.G Global Academy"
+      },
+      {
+        "nombre": "Kiin",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 5,
+        "plataformas": [
+          "BR1",
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 5,
+        "equipo_dpm": "Gen.G"
+      },
+      {
+        "nombre": "Canyon",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "Gen.G"
+      },
+      {
+        "nombre": "Chovy",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "Gen.G"
+      },
+      {
+        "nombre": "Ruler",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "BR1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Gen.G"
+      },
+      {
+        "nombre": "Duro",
+        "equipo": "GGA",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "BR1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Gen.G"
+      },
+      {
+        "nombre": "Zeus",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Hanwha Life Esports"
+      },
+      {
+        "nombre": "Pyeonsik",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Hanwha Life Esports Challengers"
+      },
+      {
+        "nombre": "Bluffing",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Hanwha Life Esports Challengers"
+      },
+      {
+        "nombre": "Jackal",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Hanwha Life Esports Challengers"
+      },
+      {
+        "nombre": "Gumayusi",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 5,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 5,
+        "equipo_dpm": "Hanwha Life Esports"
+      },
+      {
+        "nombre": "Cracker",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Hanwha Life Esports Challengers"
+      },
+      {
+        "nombre": "Valiant",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Hanwha Life Esports Challengers"
+      },
+      {
+        "nombre": "Panther",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Hanwha Life Esports Challengers"
+      },
+      {
+        "nombre": "Kanavi",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Hanwha Life Esports"
+      },
+      {
+        "nombre": "Zeka",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Hanwha Life Esports"
+      },
+      {
+        "nombre": "Delight",
+        "equipo": "HLE",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Hanwha Life Esports"
+      },
+      {
+        "nombre": "Bdd",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KT Rolster"
+      },
+      {
+        "nombre": "Cuzz",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "KT Rolster"
+      },
+      {
+        "nombre": "PerfecT",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "KT Rolster"
+      },
+      {
+        "nombre": "Ghost",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KT Rolster Challengers"
+      },
+      {
+        "nombre": "Pollu",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "KT Rolster Challengers"
+      },
+      {
+        "nombre": "Sylvie",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KT Rolster Challengers"
+      },
+      {
+        "nombre": "Hwichan",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "KT Rolster Challengers"
+      },
+      {
+        "nombre": "FenRir",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KT Rolster"
+      },
+      {
+        "nombre": "Effort",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KT Rolster"
+      },
+      {
+        "nombre": "Sero",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KT Rolster Challengers"
+      },
+      {
+        "nombre": "Jiwoo",
+        "equipo": "KT",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "KT Rolster Challengers"
+      },
+      {
+        "nombre": "Grizzly",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "BNK FEARX Youth"
+      },
+      {
+        "nombre": "MG",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "BR1",
+          "KR"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "BNK FEARX Youth"
+      },
+      {
+        "nombre": "VicLa",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "BNK FEARX"
+      },
+      {
+        "nombre": "Kellin",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "BNK FEARX"
+      },
+      {
+        "nombre": "Taeyoon",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "BNK FEARX"
+      },
+      {
+        "nombre": "Clear",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "BNK FEARX"
+      },
+      {
+        "nombre": "Daystar",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "BNK FEARX"
+      },
+      {
+        "nombre": "Raptor",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "BNK FEARX"
+      },
+      {
+        "nombre": "Kangin",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "BNK FEARX Youth"
+      },
+      {
+        "nombre": "Zephyr",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "BNK FEARX Youth"
+      },
+      {
+        "nombre": "Slayer",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "UCAM Esports"
+      },
+      {
+        "nombre": "Luon",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "BNK FEARX Youth"
+      },
+      {
+        "nombre": "Diable",
+        "equipo": "BFX",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "Nongshim RedForce"
+      },
+      {
+        "nombre": "Diable",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "Nongshim RedForce"
+      },
+      {
+        "nombre": "Lucy",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Nongshim Esports Academy"
+      },
+      {
+        "nombre": "MihawK",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Nongshim Esports Academy"
+      },
+      {
+        "nombre": "Sponge",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Nongshim RedForce"
+      },
+      {
+        "nombre": "Scout",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Nongshim RedForce"
+      },
+      {
+        "nombre": "Janus",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Nongshim Esports Academy"
+      },
+      {
+        "nombre": "SeTab",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Nongshim Esports Academy"
+      },
+      {
+        "nombre": "Pleata",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Nongshim Esports Academy"
+      },
+      {
+        "nombre": "Lehends",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Nongshim RedForce"
+      },
+      {
+        "nombre": "Kingen",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Nongshim RedForce"
+      },
+      {
+        "nombre": "Calix",
+        "equipo": "NS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "KT Rolster Academy"
+      },
+      {
+        "nombre": "Jinbeom",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "T1 Esports Academy Rookies"
+      },
+      {
+        "nombre": "Eclipse",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "NA1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "T1 Esports Academy"
+      },
+      {
+        "nombre": "Carim",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "T1 Esports Academy"
+      },
+      {
+        "nombre": "Doran",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "T1"
+      },
+      {
+        "nombre": "Oner",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "T1"
+      },
+      {
+        "nombre": "Faker",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "T1"
+      },
+      {
+        "nombre": "Peyz",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "T1"
+      },
+      {
+        "nombre": "Keria",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "T1"
+      },
+      {
+        "nombre": "Painter",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "T1 Esports Academy"
+      },
+      {
+        "nombre": "Cypher",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "T1 Esports Academy"
+      },
+      {
+        "nombre": "Guardian",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "T1 Esports Academy"
+      },
+      {
+        "nombre": "Haetae",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "T1 Esports Academy"
+      },
+      {
+        "nombre": "Cloud",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "T1 Esports Academy"
+      },
+      {
+        "nombre": "Guti",
+        "equipo": "T1A",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "T1 Esports Academy"
+      }
+    ]
+  },
+  "Circuito Desafiante": {
+    "total": 55,
+    "resueltos": 45,
+    "cuentas": 83,
+    "pct": 81.8,
+    "detalle": [
+      {
+        "nombre": "Kisee",
+        "equipo": "EST",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Estral Esports"
+      },
+      {
+        "nombre": "Telas",
+        "equipo": "EST",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Estral Esports"
+      },
+      {
+        "nombre": "Brance",
+        "equipo": "EST",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Estral Esports"
+      },
+      {
+        "nombre": "Bwipo",
+        "equipo": "EST",
+        "ok": true,
+        "cuentas": 7,
+        "plataformas": [
+          "BR1",
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 7,
+        "equipo_dpm": "Estral Esports"
+      },
+      {
+        "nombre": "Oddie",
+        "equipo": "EST",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "EUW1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Estral Esports"
+      },
+      {
+        "nombre": "Envy",
+        "equipo": "EST",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Epic Avalanche"
+      },
+      {
+        "nombre": "Grevthar",
+        "equipo": "KBM",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "KaBuM! Ilha das Lendas"
+      },
+      {
+        "nombre": "Guigs",
+        "equipo": "KBM",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KaBuM! Ilha das Lendas"
+      },
+      {
+        "nombre": "Scary",
+        "equipo": "KBM",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kojima",
+        "equipo": "KBM",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KaBuM! Ilha das Lendas"
+      },
+      {
+        "nombre": "Yupps",
+        "equipo": "KBM",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "KaBuM! Ilha das Lendas"
+      },
+      {
+        "nombre": "Zoen",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "paiN Gaming Academy"
+      },
+      {
+        "nombre": "CarioK",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "EUW1",
+          "KR",
+          "NA1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "paiN Gaming"
+      },
+      {
+        "nombre": "Marvin",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "paiN Gaming Academy"
+      },
+      {
+        "nombre": "Gatovisck",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "paiN Gaming Academy"
+      },
+      {
+        "nombre": "Samkz",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "paiN Gaming Academy"
+      },
+      {
+        "nombre": "Keine",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "EUW1",
+          "KR"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "paiN Gaming"
+      },
+      {
+        "nombre": "Namiru",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "paiN Gaming"
+      },
+      {
+        "nombre": "Levizin",
+        "equipo": "PAIN",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "paiN Gaming Academy"
+      },
+      {
+        "nombre": "jmz",
+        "equipo": "RED",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "RED Academy"
+      },
+      {
+        "nombre": "smooth",
+        "equipo": "RED",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "GnG Amazigh"
+      },
+      {
+        "nombre": "Nanashi",
+        "equipo": "RED",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Nukenin",
+        "equipo": "RED",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "RED Academy"
+      },
+      {
+        "nombre": "Manel",
+        "equipo": "RED",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "RED Academy"
+      },
+      {
+        "nombre": "BUERO",
+        "equipo": "VKS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Qats",
+        "equipo": "VKS",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Vivo Keyd Stars Academy"
+      },
+      {
+        "nombre": "sarolu",
+        "equipo": "VKS",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Vivo Keyd Stars Academy"
+      },
+      {
+        "nombre": "zay",
+        "equipo": "VKS",
+        "ok": true,
+        "cuentas": 3,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 3,
+        "equipo_dpm": "Vivo Keyd Stars Academy"
+      },
+      {
+        "nombre": "SUPERCLEBER",
+        "equipo": "VKS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hirotto",
+        "equipo": "7REX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "7REX"
+      },
+      {
+        "nombre": "aikawa",
+        "equipo": "7REX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Hakari",
+        "equipo": "7REX",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "7REX"
+      },
+      {
+        "nombre": "Lolo",
+        "equipo": "7REX",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "bulas",
+        "equipo": "7REX",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "7REX"
+      },
+      {
+        "nombre": "BLACKY",
+        "equipo": "RMD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Celo",
+        "equipo": "RMD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "RMD Gaming"
+      },
+      {
+        "nombre": "Hidan",
+        "equipo": "RMD",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "RMD Gaming"
+      },
+      {
+        "nombre": "Nero",
+        "equipo": "RMD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "murilao",
+        "equipo": "RMD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "RMD Gaming"
+      },
+      {
+        "nombre": "Drakehero",
+        "equipo": "NERD",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Ei Nerd Esports"
+      },
+      {
+        "nombre": "Elkinhoo",
+        "equipo": "NERD",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Kog",
+        "equipo": "NERD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Ei Nerd Esports"
+      },
+      {
+        "nombre": "Makes",
+        "equipo": "NERD",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "Ei Nerd Esports"
+      },
+      {
+        "nombre": "Pilot",
+        "equipo": "NERD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Damage",
+        "equipo": "NERD",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Ei Nerd Esports"
+      },
+      {
+        "nombre": "bipi",
+        "equipo": "TSS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Team Solid (Brazilian Team)"
+      },
+      {
+        "nombre": "Aegis",
+        "equipo": "TSS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": null
+      },
+      {
+        "nombre": "Tyrin",
+        "equipo": "TSS",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "Team Solid (Brazilian Team)"
+      },
+      {
+        "nombre": "randomgap",
+        "equipo": "TSS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "houndin",
+        "equipo": "TSS",
+        "ok": false,
+        "motivo": "404"
+      },
+      {
+        "nombre": "Netuno",
+        "equipo": "INTZ",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1",
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "INTZ"
+      },
+      {
+        "nombre": "Kiari",
+        "equipo": "INTZ",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "INTZ"
+      },
+      {
+        "nombre": "StineR",
+        "equipo": "INTZ",
+        "ok": true,
+        "cuentas": 2,
+        "plataformas": [
+          "BR1",
+          "KR"
+        ],
+        "con_puuid": 2,
+        "equipo_dpm": "INTZ"
+      },
+      {
+        "nombre": "Leleko",
+        "equipo": "INTZ",
+        "ok": true,
+        "cuentas": 4,
+        "plataformas": [
+          "BR1",
+          "KR"
+        ],
+        "con_puuid": 4,
+        "equipo_dpm": "INTZ"
+      },
+      {
+        "nombre": "konseki",
+        "equipo": "INTZ",
+        "ok": true,
+        "cuentas": 1,
+        "plataformas": [
+          "BR1"
+        ],
+        "con_puuid": 1,
+        "equipo_dpm": "INTZ"
+      }
+    ]
+  }
+}

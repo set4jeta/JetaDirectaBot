@@ -1,6 +1,11 @@
 import requests
 import os
 
+# La clave se lee de la configuración central (.env), no del código.
+import config
+API_KEY = config.LOL_API_KEY
+
+
 # Tricodes y nombres de los equipos MSI 2025
 TEAM_TRICODES = {
     "FLY": "FlyQuest",
@@ -22,7 +27,7 @@ os.makedirs(SAVE_DIR, exist_ok=True)
 
 # API key y headers
 HEADERS = {
-    "x-api-key": "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z"
+    "x-api-key": API_KEY
 }
 
 # Endpoint con parámetro obligatorio

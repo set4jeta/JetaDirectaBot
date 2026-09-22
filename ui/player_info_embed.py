@@ -1,10 +1,27 @@
 # ui/player_info_embed.py
+"""Ficha de un jugador profesional (`/info`).
+
+Sobre el idioma
+---------------
+`crear_embed_infoplayer(..., idioma=...)` monta la ficha en el idioma que se le
+pida y cae al español si no se le pide ninguno, igual que el embed de partida.
+Antes estaba en español a pelo, así que un servidor con `/lang en` veía
+«Victorias: 12W - Derrotas: 3L».
+
+Un detalle que ya venía torcido: el tiempo relativo («3 days ago») **estaba en
+inglés también en la versión española**, porque se construía a mano con un
+condicional dentro de la f-string. Se ha traducido por clave —una para singular
+y otra para plural, que es lo que ese condicional hacía— pero el valor español
+se ha dejado como estaba: esto es un refactor y la salida en español no debe
+cambiar. Corregirlo es una decisión aparte.
+"""
 import nextcord
 from datetime import datetime, timezone
 from dateutil.relativedelta import relativedelta
 from utils.cache_utils import formatear_fecha
 from ui.team_image_utils import get_team_image_path
 from urllib.parse import urlparse
+from utils.i18n import t
 import os
 
 def calcular_winrate(wins, losses):
@@ -13,21 +30,27 @@ def calcular_winrate(wins, losses):
         return "0%"
     return f"{round((wins / total) * 100)}%"
 
-def tiempo_relativo_desde_timestamp(timestamp_ms):
+def tiempo_relativo_desde_timestamp(timestamp_ms, idioma=None):
     now = datetime.now(timezone.utc)
     dt = datetime.fromtimestamp(timestamp_ms / 1000, timezone.utc)
     diff = relativedelta(now, dt)
+    # Singular y plural son claves distintas: el `'s' if n > 1 else ''` de antes
+    # no se puede expresar en una sola plantilla.
     if diff.years > 0:
-        return f"{diff.years} year{'s' if diff.years > 1 else ''} ago"
+        clave = "info.hace_anios" if diff.years > 1 else "info.hace_anio"
+        return t(clave, idioma, n=diff.years)
     if diff.months > 0:
-        return f"{diff.months} month{'s' if diff.months > 1 else ''} ago"
+        clave = "info.hace_meses" if diff.months > 1 else "info.hace_mes"
+        return t(clave, idioma, n=diff.months)
     if diff.days > 0:
-        return f"{diff.days} day{'s' if diff.days > 1 else ''} ago"
+        clave = "info.hace_dias" if diff.days > 1 else "info.hace_dia"
+        return t(clave, idioma, n=diff.days)
     if diff.hours > 0:
-        return f"{diff.hours} hour{'s' if diff.hours > 1 else ''} ago"
+        clave = "info.hace_horas" if diff.hours > 1 else "info.hace_hora"
+        return t(clave, idioma, n=diff.hours)
     if diff.minutes > 0:
-        return f"{diff.minutes} min ago"
-    return "just now"
+        return t("info.hace_min", idioma, n=diff.minutes)
+    return t("info.ahora_mismo", idioma)
 
 def extraer_tricode_desde_url(url):
     try:
@@ -37,14 +60,18 @@ def extraer_tricode_desde_url(url):
     except Exception:
         return None
 
-def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadisticas_2_semanas=None):
+def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadisticas_2_semanas=None, idioma=None):
+    def _(clave, **kw):
+        """Atajo local: traduce con el idioma de esta ficha."""
+        return t(clave, idioma, **kw)
+
     nombre = p.get("nombre", "?")
     nombre_real = p.get("nombre_real", "")
     edad = p.get("edad")
-    birthday = formatear_fecha(p.get("birthdate") or p.get("birthday")) or "Desconocido"
-    equipo = p.get("equipo", "Sin equipo")
-    pais = p.get("pais", "Desconocido")
-    contrato = formatear_fecha(p.get("contrato_hasta") or p.get("contrato")) or "Desconocido"
+    birthday = formatear_fecha(p.get("birthdate") or p.get("birthday")) or _("info.desconocido")
+    equipo = p.get("equipo", _("info.sin_equipo"))
+    pais = p.get("pais", _("info.desconocido"))
+    contrato = formatear_fecha(p.get("contrato_hasta") or p.get("contrato")) or _("info.desconocido")
     redes = p.get("redes_sociales", {})
     twitter_url = redes.get("twitter")
     twitch_url = redes.get("twitch")
@@ -54,7 +81,7 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
 
     embed = nextcord.Embed(
         title=f"{nombre} ({nombre_real})",
-        description=f"Equipo: **{equipo}** | País: {pais}",
+        description=_("info.embed_descripcion", equipo=equipo, pais=pais),
         color=nextcord.Color.blue()
     )
     embed.set_thumbnail(url=imagen_jugador or "")
@@ -73,10 +100,10 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
         else:
             embed.set_image(url=logo_equipo)
 
-    embed.add_field(name="🎂 Nacimiento", value=birthday or "Desconocido", inline=True)
+    embed.add_field(name=_("info.campo_nacimiento"), value=birthday or _("info.desconocido"), inline=True)
     if edad is not None:
-        embed.add_field(name="👶 Edad", value=str(edad), inline=True)
-    embed.add_field(name="📄 Contrato", value=contrato or "Desconocido", inline=True)
+        embed.add_field(name=_("info.campo_edad"), value=str(edad), inline=True)
+    embed.add_field(name=_("info.campo_contrato"), value=contrato or _("info.desconocido"), inline=True)
 
     redes_texto = []
     if twitch_url:
@@ -84,8 +111,8 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
     if twitter_url:
         redes_texto.append(f"🔗 [Twitter]({twitter_url})")
     if not redes_texto:
-        redes_texto.append("🙅 Sin redes públicas conocidas.")
-    embed.add_field(name="Redes Sociales", value="\n".join(redes_texto), inline=False)
+        redes_texto.append(_("info.sin_redes"))
+    embed.add_field(name=_("info.campo_redes"), value="\n".join(redes_texto), inline=False)
 
     cuentas_texto = []
     if cuentas:
@@ -94,19 +121,19 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
         
         
         for acc in cuentas:
-            nombre_cuenta = acc.get("nombre") or "Desconocida"
-            liga = acc.get("liga") or "Sin liga"
+            nombre_cuenta = acc.get("nombre") or _("info.desconocida")
+            liga = acc.get("liga") or _("info.sin_liga")
             lp = acc.get("lp")  # No pongo valor por defecto aquí para detectar None
             victorias = acc.get("victorias") or 0
             derrotas = acc.get("derrotas") or 0
             winrate = calcular_winrate(victorias, derrotas)
             ultima_partida = acc.get("ultima_partida")
             if isinstance(ultima_partida, (int, float)) and ultima_partida > 0:
-                tiempo_ultimo = tiempo_relativo_desde_timestamp(ultima_partida)
+                tiempo_ultimo = tiempo_relativo_desde_timestamp(ultima_partida, idioma)
             else:
-                tiempo_ultimo = "Desconocido"
+                tiempo_ultimo = _("info.desconocido")
 
-            region = acc.get("region", "Desconocida")
+            region = acc.get("region", _("info.desconocida"))
 
             # Aquí chequeamos si lp es válido para mostrarlo
             if lp is not None:
@@ -115,27 +142,30 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
                 liga_texto = liga
 
             cuentas_texto.append(
-                f"**{nombre_cuenta}** ({region}) — {liga_texto}\n"
-                f"Victorias: {victorias}W - Derrotas: {derrotas}L ({winrate})\n"
-                f"Última partida: {tiempo_ultimo}"
+                _("info.cuenta_cabecera", cuenta=nombre_cuenta, region=region,
+                  liga=liga_texto) + "\n"
+                + _("info.cuenta_balance", victorias=victorias, derrotas=derrotas,
+                    winrate=winrate) + "\n"
+                + _("info.cuenta_ultima", tiempo=tiempo_ultimo)
             )
     else:
-        cuentas_texto.append("Sin cuentas registradas.")
+        cuentas_texto.append(_("info.sin_cuentas"))
 
-    embed.add_field(name="🎮 Cuentas SoloQ", value="\n\n".join(cuentas_texto), inline=False)
+    embed.add_field(name=_("info.campo_cuentas"), value="\n\n".join(cuentas_texto), inline=False)
 
     if campeones_recientes:
         champs_texto = []
         for champ in campeones_recientes[:3]:
-            nombre_champ = champ.get("nombre", "Desconocido")
+            nombre_champ = champ.get("nombre", _("info.desconocido"))
             partidas = champ.get("partidas", 0)
             victorias = champ.get("victorias", 0)
             winrate = calcular_winrate(victorias, partidas - victorias)
             kda = champ.get("kda_promedio", 0)
             champs_texto.append(
-                f"**{nombre_champ}** — {victorias}W-{partidas - victorias}L ({winrate}) | KDA Promedio: {kda:.2f}"
+                _("info.champ_linea", campeon=nombre_champ, victorias=victorias,
+                  derrotas=partidas - victorias, winrate=winrate, kda=f"{kda:.2f}")
             )
-        embed.add_field(name="🔥 Campeones recientes", value="\n".join(champs_texto), inline=False)
+        embed.add_field(name=_("info.campo_champs"), value="\n".join(champs_texto), inline=False)
 
     if estadisticas_2_semanas:
         games = estadisticas_2_semanas.get("games") or 0
@@ -149,8 +179,9 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
         tiempo_jugado = f"{horas}h {minutos}m" if horas > 0 else f"{minutos}m"
 
         embed.add_field(
-            name=f"📊 Estadísticas últimas 2 semanas",
-            value=f"{wins}W - {losses}L ({winrate_2s})\nTiempo jugado: {tiempo_jugado}",
+            name=_("info.campo_stats"),
+            value=_("info.stats_valor", victorias=wins, derrotas=losses,
+                    winrate=winrate_2s, tiempo=tiempo_jugado),
             inline=False
         )
 

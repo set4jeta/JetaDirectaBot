@@ -1,13 +1,18 @@
 import requests
 import os
 
+# La clave se lee de la configuración central (.env), no del código.
+import config
+API_KEY = config.LOL_API_KEY
+
+
 # Carpeta destino
 SAVE_DIR = "assets/msi_images"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # Headers con API key
 HEADERS = {
-    "x-api-key": "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z"
+    "x-api-key": API_KEY
 }
 
 # Endpoint de equipos

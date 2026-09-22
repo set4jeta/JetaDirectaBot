@@ -1,0 +1,2331 @@
+{
+ "generado": "2026-09-03T14:57:12Z",
+ "fuente": "esports-api.lolesports.com/persisted/gw/getSchedule",
+ "partidos": [
+  {
+   "inicio": "2026-09-03T14:00:00Z",
+   "liga": "hm",
+   "liga_nombre": "Hitpoint Masters",
+   "fase": "Week 4",
+   "estado": "inProgress",
+   "bo": 3,
+   "partido_id": "117054582581341048",
+   "equipos": [
+    {
+     "nombre": "NightBirds",
+     "codigo": "NBS",
+     "logo": "https://static.lolesports.com/teams/1739978270852_NBS_BIG.png",
+     "victorias": 6,
+     "derrotas": 0
+    },
+    {
+     "nombre": "BRUTE",
+     "codigo": "BRT",
+     "logo": "https://static.lolesports.com/teams/1643479836323_HM_BRT_white.png",
+     "victorias": 2,
+     "derrotas": 3
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T15:00:00Z",
+   "liga": "tcl",
+   "liga_nombre": "TCL",
+   "fase": "Playoffs",
+   "estado": "inProgress",
+   "bo": 5,
+   "partido_id": "116838284885536054",
+   "equipos": [
+    {
+     "nombre": "Avella SU Esports",
+     "codigo": "SU",
+     "logo": "https://static.lolesports.com/teams/1767800932248_suprema-logo-3.png",
+     "victorias": 2,
+     "derrotas": 1
+    },
+    {
+     "nombre": "PCIFIC Esports",
+     "codigo": "PCF",
+     "logo": "https://static.lolesports.com/teams/1767800848871_PcificLogo2.png",
+     "victorias": 2,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T15:00:00Z",
+   "liga": "prm",
+   "liga_nombre": "Prime League",
+   "fase": "Playoffs",
+   "estado": "inProgress",
+   "bo": 5,
+   "partido_id": "116713193618227901",
+   "equipos": [
+    {
+     "nombre": "Kaufland Hangry Knights",
+     "codigo": "KHK",
+     "logo": "https://static.lolesports.com/teams/1734307355268_KHK.png",
+     "victorias": 2,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Berlin International Gaming",
+     "codigo": "BIG",
+     "logo": "https://static.lolesports.com/teams/1674839453682_PRM_BIG-MonochromeLightBG.png",
+     "victorias": 1,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T15:00:00Z",
+   "liga": "rl",
+   "liga_nombre": "Rift Legends",
+   "fase": "Round 2",
+   "estado": "inProgress",
+   "bo": 3,
+   "partido_id": "116895891142270585",
+   "equipos": [
+    {
+     "nombre": "Barcząca Esports",
+     "codigo": "BCE",
+     "logo": "https://static.lolesports.com/teams/1752041346581_KSB_LOGO_GLOWNE.png",
+     "victorias": 1,
+     "derrotas": 0
+    },
+    {
+     "nombre": "DOCISK",
+     "codigo": "DOC",
+     "logo": "https://static.lolesports.com/teams/1743505234603_LOGOTYP_DOCISK.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T16:00:00Z",
+   "liga": "lit",
+   "liga_nombre": "LoL Italian Tournament",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116696189685662287",
+   "equipos": [
+    {
+     "nombre": "Colossal Gaming",
+     "codigo": "CG",
+     "logo": "https://static.lolesports.com/teams/1742216184064_Logomark-FullcolourfordarkBG.png",
+     "victorias": 1,
+     "derrotas": 0
+    },
+    {
+     "nombre": "HMBLE",
+     "codigo": "HMB",
+     "logo": "https://static.lolesports.com/teams/1767616780850_HMBLE_Submark_White.png",
+     "victorias": 1,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T16:00:00Z",
+   "liga": "rol",
+   "liga_nombre": "Road of Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116793933806066942",
+   "equipos": [
+    {
+     "nombre": "Senshi eSports",
+     "codigo": "SNSH",
+     "logo": "https://static.lolesports.com/teams/1737451831210_SNSH_COLOR_LIGHTDARKBG.png",
+     "victorias": 0,
+     "derrotas": 1
+    },
+    {
+     "nombre": "Myth Esports",
+     "codigo": "MYTH",
+     "logo": "https://static.lolesports.com/teams/1704706801199_Myth_Esports_2023_Nov_allmode.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T16:30:00Z",
+   "liga": "hm",
+   "liga_nombre": "Hitpoint Masters",
+   "fase": "Week 4",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116996464901636950",
+   "equipos": [
+    {
+     "nombre": "EXILE Esports",
+     "codigo": "EXE",
+     "logo": "https://static.lolesports.com/teams/1739089858844_exile_color.png",
+     "victorias": 2,
+     "derrotas": 3
+    },
+    {
+     "nombre": "eSuba",
+     "codigo": "ESB",
+     "logo": "https://static.lolesports.com/teams/1705300013762_HM_ESB_logo.png",
+     "victorias": 2,
+     "derrotas": 2
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T17:00:00Z",
+   "liga": "rl",
+   "liga_nombre": "Rift Legends",
+   "fase": "Round 2",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116895891142270577",
+   "equipos": [
+    {
+     "nombre": "DV1 inStreamly",
+     "codigo": "DV1",
+     "logo": "https://static.lolesports.com/teams/1785588517304_dv1_w.png",
+     "victorias": 0,
+     "derrotas": 1
+    },
+    {
+     "nombre": "LODIS",
+     "codigo": "LDS",
+     "logo": "https://static.lolesports.com/teams/1641900765750_lodis.png",
+     "victorias": 0,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-03T18:00:00Z",
+   "liga": "rol",
+   "liga_nombre": "Road of Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116793933806066946",
+   "equipos": [
+    {
+     "nombre": "The Bandits",
+     "codigo": "BAN",
+     "logo": "https://static.lolesports.com/teams/1760942281523_tgFWzVsV_400x400.png",
+     "victorias": 0,
+     "derrotas": 1
+    },
+    {
+     "nombre": "ZennIT",
+     "codigo": "ZNT",
+     "logo": "https://static.lolesports.com/teams/1671442841824_ZennIT.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-04T08:00:00Z",
+   "liga": "lck",
+   "liga_nombre": "LCK",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117030752644841625",
+   "equipos": [
+    {
+     "nombre": "kt Rolster",
+     "codigo": "KT",
+     "logo": "https://static.lolesports.com/teams/kt_darkbackground.png",
+     "victorias": 1,
+     "derrotas": 1
+    },
+    {
+     "nombre": "Dplus KIA",
+     "codigo": "DK",
+     "logo": "https://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+     "victorias": 1,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-04T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202148",
+   "equipos": [
+    {
+     "nombre": "LGD GAMING",
+     "codigo": "LGD",
+     "logo": "https://static.lolesports.com/teams/LGD-FullonDark-1.png",
+     "victorias": 1,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Anyone's Legend",
+     "codigo": "AL",
+     "logo": "https://static.lolesports.com/teams/1641199582689_.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-04T14:00:00Z",
+   "liga": "hm",
+   "liga_nombre": "Hitpoint Masters",
+   "fase": "Week 4",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116996464901636966",
+   "equipos": [
+    {
+     "nombre": "Onion Team",
+     "codigo": "ONT",
+     "logo": "https://static.lolesports.com/teams/1770636854068_image.png",
+     "victorias": 0,
+     "derrotas": 6
+    },
+    {
+     "nombre": "EXILE Esports",
+     "codigo": "EXE",
+     "logo": "https://static.lolesports.com/teams/1739089858844_exile_color.png",
+     "victorias": 2,
+     "derrotas": 3
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-04T16:30:00Z",
+   "liga": "hm",
+   "liga_nombre": "Hitpoint Masters",
+   "fase": "Week 4",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116996464901571350",
+   "equipos": [
+    {
+     "nombre": "eSuba",
+     "codigo": "ESB",
+     "logo": "https://static.lolesports.com/teams/1705300013762_HM_ESB_logo.png",
+     "victorias": 2,
+     "derrotas": 2
+    },
+    {
+     "nombre": "Bohemian Guardians",
+     "codigo": "BG",
+     "logo": "https://static.lolesports.com/teams/1776718185398_bohemian.png",
+     "victorias": 1,
+     "derrotas": 5
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-04T17:00:00Z",
+   "liga": "rl",
+   "liga_nombre": "Rift Legends",
+   "fase": "Round 2",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116895891142270589",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T06:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202160",
+   "equipos": [
+    {
+     "nombre": "Invictus Gaming",
+     "codigo": "IG",
+     "logo": "https://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "TOP ESPORTS",
+     "codigo": "TES",
+     "logo": "https://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+     "victorias": 0,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T08:00:00Z",
+   "liga": "lck",
+   "liga_nombre": "LCK",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117030752644841619",
+   "equipos": [
+    {
+     "nombre": "Gen.G Esports",
+     "codigo": "GEN",
+     "logo": "https://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+     "victorias": 1,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Hanwha Life Esports",
+     "codigo": "HLE",
+     "logo": "https://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+     "victorias": 1,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202166",
+   "equipos": [
+    {
+     "nombre": "Shenzhen NINJAS IN PYJAMAS",
+     "codigo": "NIP",
+     "logo": "https://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Beijing JDG Esports",
+     "codigo": "JDG",
+     "logo": "https://static.lolesports.com/teams/1627457924722_29.png",
+     "victorias": 0,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T10:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406297",
+   "equipos": [
+    {
+     "nombre": "Team Vitality",
+     "codigo": "VIT",
+     "logo": "https://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "G2 Esports",
+     "codigo": "G2",
+     "logo": "https://static.lolesports.com/teams/G2-FullonDark.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T15:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406291",
+   "equipos": [
+    {
+     "nombre": "Karmine Corp",
+     "codigo": "KC",
+     "logo": "https://static.lolesports.com/teams/1704714951336_KC.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "GIANTX",
+     "codigo": "GX",
+     "logo": "https://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526403063",
+   "equipos": [
+    {
+     "nombre": "Vivo Keyd Stars",
+     "codigo": "VKS",
+     "logo": "https://static.lolesports.com/teams/1670542079678_vks.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "paiN Gaming",
+     "codigo": "PAIN",
+     "logo": "https://static.lolesports.com/teams/1674657011011_pain_logo_white.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Week 7",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "115564797163821175",
+   "equipos": [
+    {
+     "nombre": "Sentinels",
+     "codigo": "SEN",
+     "logo": "https://static.lolesports.com/teams/1767769784669_Sentinels_2020_Icon.png",
+     "victorias": 4,
+     "derrotas": 2
+    },
+    {
+     "nombre": "Cloud9 Kia",
+     "codigo": "C9",
+     "logo": "https://static.lolesports.com/teams/1736924120254_C9Kia_IconBlue_Transparent_2000x2000.png",
+     "victorias": 4,
+     "derrotas": 2
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-05T23:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Week 7",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "115564797163886779",
+   "equipos": [
+    {
+     "nombre": "Dignitas",
+     "codigo": "DIG",
+     "logo": "https://static.lolesports.com/teams/DIG-FullonDark.png",
+     "victorias": 0,
+     "derrotas": 6
+    },
+    {
+     "nombre": "Team Liquid Alienware",
+     "codigo": "TLAW",
+     "logo": "https://static.lolesports.com/teams/1769357207762_TLAlienware_Minimal_Bug-White.png",
+     "victorias": 5,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T06:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202178",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Xi'an Team WE",
+     "codigo": "WE",
+     "logo": "https://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+     "victorias": 1,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T08:00:00Z",
+   "liga": "lck",
+   "liga_nombre": "LCK",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117030752644841631",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "T1",
+     "codigo": "T1",
+     "logo": "https://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+     "victorias": 1,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202184",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T10:00:00Z",
+   "liga": "les",
+   "liga_nombre": "LES",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116833506932324845",
+   "equipos": [
+    {
+     "nombre": "Movistar KOI Fénix",
+     "codigo": "MKF",
+     "logo": "https://static.lolesports.com/teams/1704458610869_6596f892741d1355702004.png",
+     "victorias": 1,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Heretics Academy",
+     "codigo": "HRTS",
+     "logo": "https://static.lolesports.com/teams/1661502137823_LOGOHERETICSPNG.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T10:00:00Z",
+   "liga": "hm",
+   "liga_nombre": "Hitpoint Masters",
+   "fase": "Week 5",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116996464901636906",
+   "equipos": [
+    {
+     "nombre": "CITA Kaizen",
+     "codigo": "CKZ",
+     "logo": "https://static.lolesports.com/teams/1768642464138_ckz.png",
+     "victorias": 5,
+     "derrotas": 1
+    },
+    {
+     "nombre": "BRUTE",
+     "codigo": "BRT",
+     "logo": "https://static.lolesports.com/teams/1643479836323_HM_BRT_white.png",
+     "victorias": 2,
+     "derrotas": 3
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T12:00:00Z",
+   "liga": "hm",
+   "liga_nombre": "Hitpoint Masters",
+   "fase": "Week 5",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116996464901636958",
+   "equipos": [
+    {
+     "nombre": "UP2U Meavedron",
+     "codigo": "MVE",
+     "logo": "https://static.lolesports.com/teams/1704376811202_Meavedronlogo.png",
+     "victorias": 4,
+     "derrotas": 2
+    },
+    {
+     "nombre": "eSuba",
+     "codigo": "ESB",
+     "logo": "https://static.lolesports.com/teams/1705300013762_HM_ESB_logo.png",
+     "victorias": 2,
+     "derrotas": 2
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T15:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406303",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526403057",
+   "equipos": [
+    {
+     "nombre": "FURIA",
+     "codigo": "FUR",
+     "logo": "https://static.lolesports.com/teams/FURIA---black.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "RED Kalunga",
+     "codigo": "RED",
+     "logo": "https://static.lolesports.com/teams/1631820575924_red-2021-worlds.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Week 7",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "115564797164345555",
+   "equipos": [
+    {
+     "nombre": "FlyQuest",
+     "codigo": "FLY",
+     "logo": "https://static.lolesports.com/teams/flyquest-new-on-dark.png",
+     "victorias": 2,
+     "derrotas": 4
+    },
+    {
+     "nombre": "Shopify Rebellion",
+     "codigo": "SR",
+     "logo": "https://static.lolesports.com/teams/1701424227458_Teams204_Shopify_1632869404072.png",
+     "victorias": 3,
+     "derrotas": 3
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-06T23:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Week 7",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "115564797163886787",
+   "equipos": [
+    {
+     "nombre": "Disguised",
+     "codigo": "DSG",
+     "logo": "https://static.lolesports.com/teams/1731496922454_Disguised-Wordmark-Yellow-Main.png",
+     "victorias": 1,
+     "derrotas": 5
+    },
+    {
+     "nombre": "LYON",
+     "codigo": "LYON",
+     "logo": "https://static.lolesports.com/teams/1743717443673_isotypelyon-03.png",
+     "victorias": 5,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-07T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202172",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "BILIBILI GAMING",
+     "codigo": "BLG",
+     "logo": "https://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+     "victorias": 1,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-07T16:00:00Z",
+   "liga": "nlc",
+   "liga_nombre": "NLC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116878159559860091",
+   "equipos": [
+    {
+     "nombre": "Arctic Pandas",
+     "codigo": "AP",
+     "logo": "https://static.lolesports.com/teams/1767707446482_ap.png",
+     "victorias": 2,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Ruddy Corporation",
+     "codigo": "RUD",
+     "logo": "https://static.lolesports.com/teams/1767962931112_rud.png",
+     "victorias": 2,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-07T20:00:00Z",
+   "liga": "cd",
+   "liga_nombre": "Circuito Desafiante",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116809554933343394",
+   "equipos": [
+    {
+     "nombre": "KaBuM! Eports",
+     "codigo": "KBM",
+     "logo": "https://static.lolesports.com/teams/1774199720854_kbm_c_w.png",
+     "victorias": 2,
+     "derrotas": 1
+    },
+    {
+     "nombre": "INTZ",
+     "codigo": "INTZ",
+     "logo": "https://static.lolesports.com/teams/1770801521472_LOGOINTZ2026COMESTRELAS.png",
+     "victorias": 2,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-08T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202190",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-08T15:00:00Z",
+   "liga": "rl",
+   "liga_nombre": "Rift Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116895891142270593",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-08T16:00:00Z",
+   "liga": "rol",
+   "liga_nombre": "Road of Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116793933806066936",
+   "equipos": [
+    {
+     "nombre": "mCon Esports",
+     "codigo": "MCON",
+     "logo": "https://static.lolesports.com/teams/MCon_esportslogo_square.png",
+     "victorias": 1,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Frites Esports Club",
+     "codigo": "FEC",
+     "logo": "https://static.lolesports.com/teams/1767711449006_Frites_Esports_Club_Black-removebg-preview.png",
+     "victorias": 1,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-08T20:00:00Z",
+   "liga": "cd",
+   "liga_nombre": "Circuito Desafiante",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116809554933343400",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Vivo Keyd Stars Academy",
+     "codigo": "VKS",
+     "logo": "https://static.lolesports.com/teams/1774200249450_vks_c.png",
+     "victorias": 2,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-09T15:00:00Z",
+   "liga": "rl",
+   "liga_nombre": "Rift Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116895891142270599",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-09T16:00:00Z",
+   "liga": "nlc",
+   "liga_nombre": "NLC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116878159559860105",
+   "equipos": [
+    {
+     "nombre": "Verdant",
+     "codigo": "VER",
+     "logo": "https://static.lolesports.com/teams/1736206402275_VER1.png",
+     "victorias": 2,
+     "derrotas": 1
+    },
+    {
+     "nombre": "Deer Gaming",
+     "codigo": "DEER",
+     "logo": "https://static.lolesports.com/teams/1778583831293_COLORED_FINAL.png",
+     "victorias": 2,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-09T16:00:00Z",
+   "liga": "lit",
+   "liga_nombre": "LoL Italian Tournament",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116696189685662305",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Zena Esports",
+     "codigo": "ZENA",
+     "logo": "https://static.lolesports.com/teams/1737015447766_ZenaRedlogo-ValerioPietroMarchisotta.png",
+     "victorias": 1,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-10T15:00:00Z",
+   "liga": "rl",
+   "liga_nombre": "Rift Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116895891142270605",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-10T16:00:00Z",
+   "liga": "lit",
+   "liga_nombre": "LoL Italian Tournament",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116696189685662311",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-10T16:00:00Z",
+   "liga": "rol",
+   "liga_nombre": "Road of Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116793933806066950",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-11T14:30:00Z",
+   "liga": "hll",
+   "liga_nombre": "Hellenic Legends League",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117030847537428758",
+   "equipos": [
+    {
+     "nombre": "Team Phantasma",
+     "codigo": "TP",
+     "logo": "https://static.lolesports.com/teams/TeamPhantasma.png",
+     "victorias": 1,
+     "derrotas": 1
+    },
+    {
+     "nombre": "Gamespace M.C.",
+     "codigo": "GSMC",
+     "logo": "https://static.lolesports.com/teams/GameSpaceMediterraneanCollegeeSports.png",
+     "victorias": 2,
+     "derrotas": 1
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-11T14:30:00Z",
+   "liga": "tcl",
+   "liga_nombre": "TCL",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116838284885536060",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Bushido Wildcats",
+     "codigo": "BW",
+     "logo": "https://static.lolesports.com/teams/1767799893163_BW-KEDI-SARI-2.png",
+     "victorias": 3,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-11T15:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406309",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Natus Vincere",
+     "codigo": "NAVI",
+     "logo": "https://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-12T05:00:00Z",
+   "liga": "lck",
+   "liga_nombre": "LCK",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117030752644841637",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-12T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202196",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-12T12:00:00Z",
+   "liga": "prm",
+   "liga_nombre": "Prime League",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116713193618227907",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "G2 NORD",
+     "codigo": "G2N",
+     "logo": "https://static.lolesports.com/teams/1767714240621_G2_Nord_White.png",
+     "victorias": 2,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-12T15:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406315",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Movistar KOI",
+     "codigo": "MKOI",
+     "logo": "https://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-12T15:00:00Z",
+   "liga": "hll",
+   "liga_nombre": "Hellenic Legends League",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117030847537494300",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Valerion",
+     "codigo": "VLR",
+     "logo": "https://static.lolesports.com/teams/1782280666367_ValerionGold.png",
+     "victorias": 2,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-12T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526403069",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-12T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949375",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-13T05:00:00Z",
+   "liga": "lck",
+   "liga_nombre": "LCK",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117030752644841643",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-13T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "117155436343202202",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-13T13:00:00Z",
+   "liga": "al",
+   "liga_nombre": "Arabian League",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116764875786772502",
+   "equipos": [
+    {
+     "nombre": "Anubis Gaming",
+     "codigo": "ANB",
+     "logo": "https://static.lolesports.com/teams/1738571697908_logo.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "Pyramid IV Esports",
+     "codigo": "P4",
+     "logo": "https://static.lolesports.com/teams/1783864745315_Full-Color-for-Dark-BG-removebg-preview.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-13T15:30:00Z",
+   "liga": "al",
+   "liga_nombre": "Arabian League",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116764875786772506",
+   "equipos": [
+    {
+     "nombre": "JSK Gamefy",
+     "codigo": "JSK",
+     "logo": "https://static.lolesports.com/teams/1775517135066_JSK_c.png",
+     "victorias": 0,
+     "derrotas": 0
+    },
+    {
+     "nombre": "BAAM Esports",
+     "codigo": "BAM",
+     "logo": "https://static.lolesports.com/teams/1738571384294_.png",
+     "victorias": 0,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-13T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526403075",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-13T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949381",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-14T13:00:00Z",
+   "liga": "al",
+   "liga_nombre": "Arabian League",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 3,
+   "partido_id": "116764875786772516",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-14T16:00:00Z",
+   "liga": "nlc",
+   "liga_nombre": "NLC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116878159559860111",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-14T20:00:00Z",
+   "liga": "cd",
+   "liga_nombre": "Circuito Desafiante",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116809554933343406",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "Estral Esports",
+     "codigo": "EST",
+     "logo": "https://static.lolesports.com/teams/1774200288247_estral_c.png",
+     "victorias": 3,
+     "derrotas": 0
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-15T13:00:00Z",
+   "liga": "al",
+   "liga_nombre": "Arabian League",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116764875786772510",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-15T16:00:00Z",
+   "liga": "rol",
+   "liga_nombre": "Road of Legends",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116793933806066956",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-16T13:00:00Z",
+   "liga": "al",
+   "liga_nombre": "Arabian League",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116764875786772520",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-16T16:00:00Z",
+   "liga": "nlc",
+   "liga_nombre": "NLC",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116878159559860117",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-17T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Regional Qualifier",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116957100120526824",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-17T13:00:00Z",
+   "liga": "al",
+   "liga_nombre": "Arabian League",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116764875786772526",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-17T16:00:00Z",
+   "liga": "rol",
+   "liga_nombre": "Road of Legends",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116793933806066962",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-18T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Regional Qualifier",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116957100120526830",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-18T15:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406321",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-18T16:00:00Z",
+   "liga": "lit",
+   "liga_nombre": "LoL Italian Tournament",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116696189685662317",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-18T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949399",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-19T09:00:00Z",
+   "liga": "lpl",
+   "liga_nombre": "LPL",
+   "fase": "Regional Qualifier",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116957100120526836",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-19T15:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406327",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-19T15:00:00Z",
+   "liga": "rl",
+   "liga_nombre": "Rift Legends",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116895891142270611",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-19T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526403081",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-19T16:00:00Z",
+   "liga": "lit",
+   "liga_nombre": "LoL Italian Tournament",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "116696189685662323",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-19T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949387",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-20T15:00:00Z",
+   "liga": "lec",
+   "liga_nombre": "LEC",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115548681803406333",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-20T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526468629",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-20T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949393",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-25T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949411",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-26T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526468623",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-26T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949417",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-27T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526468635",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-09-27T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949405",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-10-03T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526468641",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-10-03T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Playoffs",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949423",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-10-04T20:00:00Z",
+   "liga": "lcs",
+   "liga_nombre": "LCS",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565004607949429",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  },
+  {
+   "inicio": "2026-10-10T16:00:00Z",
+   "liga": "cblol",
+   "liga_nombre": "CBLOL",
+   "fase": "Finals",
+   "estado": "unstarted",
+   "bo": 5,
+   "partido_id": "115565671526468647",
+   "equipos": [
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    },
+    {
+     "nombre": "TBD",
+     "codigo": "TBD",
+     "logo": "https://static.lolesports.com/teams/team-tbd.png",
+     "victorias": null,
+     "derrotas": null
+    }
+   ]
+  }
+ ]
+}

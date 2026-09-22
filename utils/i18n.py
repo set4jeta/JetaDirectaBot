@@ -1185,6 +1185,12 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "✅ Account found and added: **{jugador}** (platform "
               "`{plataforma}`). I'll DM you when they get into a game.",
     },
+    # Texto de espera de los comandos personales, en la forma `!` (en `/` el
+    # `defer` no manda texto, solo el "pensando..." nativo).
+    "avisos.un_momento": {
+        "es": "⏳ Un momento...",
+        "en": "⏳ One moment...",
+    },
     "avisos.cuenta_formato": {
         "es": "Para seguir una cuenta concreta necesito el Riot ID completo, con "
               "el tag: `/track Nombre#TAG`. Por ejemplo `/track Hideonbush#KR1`. "

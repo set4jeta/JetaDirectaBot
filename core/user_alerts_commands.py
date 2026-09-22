@@ -435,6 +435,25 @@ class AlternarEjes(nextcord.ui.View):
         return _callback
 
 
+async def _enviar_con_selector(
+    res: Respuesta, _, lineas: list[str], liga, equipo, jugador, guardar: str
+) -> None:
+    """Manda la confirmación con el selector de ejes, si hay algo que alternar.
+
+    El selector se manda **también cuando el valor ya estaba seguido**. Antes esa
+    rama contestaba "ya seguías a lck" y se iba, así que quien quería apagar una de
+    las dos cosas —o encender los partidos del equipo— se quedaba sin botones y
+    sin forma de hacerlo desde ahí. Y es justo el momento en el que más falta
+    hacen: acabas de ver que ya lo seguías y quieres ajustarlo.
+    """
+    opciones = _opciones_de_alternancia(liga, equipo, jugador, guardar)
+    if not opciones:
+        await res.send_privado("\n".join(lineas))
+        return
+    lineas.append(_("ejes.pie"))
+    await res.send_privado("\n".join(lineas), view=AlternarEjes(res.autor_id, opciones))
+
+
 def _opciones_de_alternancia(
     liga, equipo, jugador, guardar: str
 ) -> list[tuple[str, str, str, dict]]:
@@ -531,6 +550,14 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
     """
     _ = res.traductor()
 
+    # Lo primero de todo, y en privado: este comando lee un JSON de 2,5 MB varias
+    # veces, puede importar módulos pesados en frío y (con un Riot ID) llama a
+    # Riot. Discord solo da **3 segundos** para la primera respuesta, y en un plan
+    # de 0,1 CPU eso se agota: el síntoma era "La aplicación no ha respondido".
+    # El `defer` compra 15 minutos y es invisible en `/`; en `!` manda el
+    # "Un momento..." y lo edita con la respuesta.
+    await res.esperando(_("avisos.un_momento"), privado=True)
+
     if res.autor_id is None:
         await res.error(_("avisos.sin_usuario"))
         return
@@ -572,7 +599,9 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
     resultado, tope = usuarios.agregar(res.autor_id, eje, guardar)
 
     if resultado == "repetido":
-        await res.send_privado(_("seguir.repetido", valor=guardar))
+        await _enviar_con_selector(
+            res, _, [_("seguir.repetido", valor=guardar)], liga, equipo, jugador, guardar
+        )
         return
     if resultado == "cupo":
         clave = "seguir.cupo_ligas" if liga else "seguir.cupo_jugadores"
@@ -631,18 +660,7 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
         lineas.append(_("seguir.sin_datos_salida", jugador=guardar))
 
     lineas.extend(_cola_registro(res, _))
-
-    # El selector: lo que se acaba de suscribir se puede apagar desde aquí, y lo
-    # que no —los partidos del equipo de un jugador, que son de todo el equipo—
-    # se puede encender. Va con el mismo mensaje de confirmación para no tener que
-    # leer dos cosas distintas.
-    opciones = _opciones_de_alternancia(liga, equipo, jugador, guardar)
-    vista = AlternarEjes(res.autor_id, opciones) if opciones else None
-    if vista is not None:
-        lineas.append(_("ejes.pie"))
-        await res.send_privado("\n".join(lineas), view=vista)
-        return
-    await res.send_privado("\n".join(lineas))
+    await _enviar_con_selector(res, _, lineas, liga, equipo, jugador, guardar)
 
 
 def _cola_registro(res: Respuesta, _) -> list[str]:

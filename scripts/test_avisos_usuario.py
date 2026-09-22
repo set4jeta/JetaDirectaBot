@@ -83,6 +83,8 @@ class RespuestaFalsa:
         self.origen = object()
         self.bot = bot
         self.enviados: list[str] = []
+        #: `(texto, privado)` del `defer`, o `None` si el cuerpo no difirió.
+        self.defer: tuple[str, bool] | None = None
 
     @property
     def es_privado(self) -> bool:
@@ -91,8 +93,12 @@ class RespuestaFalsa:
     def traductor(self):
         return tr_usuario(self.autor_id, self.guild_id, self.locale)
 
-    async def esperando(self, texto: str = "") -> None:
-        pass
+    async def esperando(self, texto: str = "", privado: bool = False) -> None:
+        """El `defer` de verdad: `/track` lo hace lo primero para no pasarse del
+        plazo de 3 s de Discord, y aquí solo se apunta que se hizo y con qué
+        visibilidad — diferir en público un comando cuyas respuestas son privadas
+        mandaría las suscripciones de alguien al canal."""
+        self.defer = (texto, privado)
 
     async def send(self, content=None, **kwargs):
         if content:
@@ -193,6 +199,14 @@ def prueba_seguir_jugador() -> None:
     res = RespuestaFalsa()
     asyncio.run(avisos._cuerpo_seguir(res, "caps"))
     salida = res.todo()
+
+    # Lo primero que hace el comando: diferir, y en privado. Discord solo da 3 s
+    # para la primera respuesta y este cuerpo lee un JSON de 2,5 MB varias veces
+    # (y con un Riot ID llama a Riot): sin `defer` salía "La aplicación no ha
+    # respondido". Y diferir en público mandaría las suscripciones al canal.
+    ok(res.defer is not None and res.defer[1] is True,
+       "difiere la interacción antes de trabajar, y en privado",
+       repr(res.defer))
 
     ok(usuarios.seguidos(USUARIO, "jugadores") == ["Caps"],
        "guarda el nombre canónico de la plantilla, no lo que escribió el usuario",

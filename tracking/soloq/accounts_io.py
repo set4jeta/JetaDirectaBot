@@ -12,6 +12,9 @@ JSON_PATH = os.path.join(os.path.dirname(__file__), "accounts.json")
 
 _cached_players = None
 
+#: Caché del fichero de rosters: `(mtime, jugadores)`.
+_tracked_cache: tuple[float, list[BootcampPlayer]] | None = None
+
 def load_accounts() -> list[BootcampPlayer]:
     global _cached_players
     if os.path.exists(JSON_PATH):
@@ -70,13 +73,35 @@ def reload_accounts():
 JSON_TEAMS_PATH = os.path.join(os.path.dirname(__file__), "accounts_from_teams.json")
 
 def load_tracked_accounts() -> list[BootcampPlayer]:
-    if os.path.exists(JSON_TEAMS_PATH):
-        log.debug("Cargando accounts_from_teams.json desde disco")
-        with open(JSON_TEAMS_PATH, "r", encoding="utf-8") as f:
-            raw_players = json.load(f)
-        return [BootcampPlayer.from_dict(p) for p in raw_players]
-    log.warning("accounts_from_teams.json no existe, devolviendo lista vacía")
-    return []
+    """Jugadores del fichero de rosters, con caché por fecha del fichero.
+
+    Antes se volvía a parsear en **cada** llamada: 2,5 MB y 908 objetos con sus
+    cuentas, unos 50 ms en un PC normal y bastante más en un plan de 0,1 CPU. Y
+    hay 16 sitios que lo llaman, varios dentro del mismo comando: `/track lck` lo
+    pedía cuatro veces seguidas.
+
+    La caché es por `mtime`, no por tiempo: el fichero se relee **solo cuando
+    cambia de verdad**, así que quien acaba de escribir (los refrescos de rosters)
+    ve el dato nuevo y quien solo lee no paga el parseo. Es el mismo criterio que
+    usa `load_accounts_cached` con `accounts.json`.
+    """
+    global _tracked_cache
+
+    try:
+        mtime = os.path.getmtime(JSON_TEAMS_PATH)
+    except OSError:
+        log.warning("accounts_from_teams.json no existe, devolviendo lista vacía")
+        return []
+
+    if _tracked_cache is not None and _tracked_cache[0] == mtime:
+        return _tracked_cache[1]
+
+    log.debug("Cargando accounts_from_teams.json desde disco")
+    with open(JSON_TEAMS_PATH, "r", encoding="utf-8") as f:
+        raw_players = json.load(f)
+    jugadores = [BootcampPlayer.from_dict(p) for p in raw_players]
+    _tracked_cache = (mtime, jugadores)
+    return jugadores
     
     
 def save_tracked_accounts(players: list[BootcampPlayer]) -> bool:

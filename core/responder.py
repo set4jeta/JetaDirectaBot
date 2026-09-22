@@ -170,18 +170,30 @@ class Respuesta:
     # Envío
     # ---------------------------------------------------------------- #
 
-    async def esperando(self, texto: str = "⏳ Un momento...") -> None:
+    async def esperando(self, texto: str = "⏳ Un momento...", privado: bool = False) -> None:
         """Avisa de que el comando está trabajando.
 
         En slash hace `defer()` (el "pensando..." nativo, que además compra los
         15 minutos de plazo para responder). En prefijo manda `texto` y lo deja
         apuntado para que el primer `send()` lo edite, que es como se comportaba
         `!live` antes de esto.
+
+        `privado` **solo importa en la forma slash**, y hay que decirlo: el
+        `defer()` no es efímero por defecto, y lo que se responda después hereda
+        esa visibilidad. Un comando cuyas respuestas son privadas (`/seguir`,
+        `/track`, `/misavisos`) tiene que diferir en privado o la respuesta acaba
+        en el canal. Los de consulta (`/live`, `/ranking`, `/team`) sí contestan
+        en público y por eso el valor por defecto es `False`.
+
+        Sin esto, un comando que tarde más de 3 segundos se queda con un "La
+        aplicación no ha respondido" de Discord: el plazo para **la primera**
+        respuesta es de 3 s, y en un plan de 0,1 CPU un import en frío o el
+        parseo de un JSON grande se lo comen.
         """
         if self.es_slash:
             try:
                 if not self.origen.response.is_done():
-                    await self.origen.response.defer()
+                    await self.origen.response.defer(ephemeral=privado)
             except nextcord.HTTPException as exc:
                 log.debug("No se pudo diferir la interacción: %s", exc)
             return

@@ -1,0 +1,42 @@
+# Archify ignore rules
+.git/
+node_modules/
+.venv/
+.archify/
+dist/
+build/
+
+# --- Runtime data / caches (no son codigo) ---
+Infoplayers/
+assets/
+cache/champion_data_raw.json
+__pycache__/
+*.pyc
+*.log
+*.ipynb
+
+# --- Estado persistente generado por el bot ---
+ranked_data.json
+tracked_matches.json
+notified_games.json
+puuid_cache.json
+champion_lane_pickrates.json
+tracking/soloq/accounts.json
+tracking/soloq/accounts_from_teams.json
+tracking/soloq/infoplayers_eu.json
+tracking/ranking_cache.json
+esports_extension/firestore_data.json
+esports_extension/dev_experiments.ipynb
+
+# --- Secretos / credenciales ---
+secrets/
+.env
+.env.*
+env.example
+
+# --- Scrapers one-off y experimentos (no forman parte del runtime) ---
+scripts/
+test.py
+test2.py
+copa/datos.py
+spectate_lol.bat

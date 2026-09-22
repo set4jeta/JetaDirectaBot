@@ -44,6 +44,7 @@ Cuándo se cambia de transporte
 from __future__ import annotations
 
 import threading
+import time
 from typing import Any, Callable
 
 import cloudscraper
@@ -69,6 +70,14 @@ _lock = threading.Lock()
 _scraper = None
 _sesion_cffi: Any = None
 _cffi_disponible: bool | None = None
+
+#: Hasta cuándo se salta cloudscraper. Ver `pedir`: cuando falla y curl_cffi
+#: resuelve, se deja de intentar el primero durante un rato.
+_cloudscraper_hasta: float = 0.0
+
+#: Cuánto se salta cloudscraper después de que falle y curl_cffi funcione. Se
+#: vuelve a probar pasado ese rato, por si el bloqueo era temporal.
+COOLDOWN_CLOUDSCRAPER = 900.0
 
 #: Cuántas veces ha hecho falta el respaldo desde que arrancó el proceso. Sirve
 #: para verlo en el log sin tener que rebuscar entre líneas.
@@ -178,25 +187,39 @@ def pedir(
     Devuelve la respuesta que **sirve**, o la última que se obtuvo (para que quien
     llame pueda ver el estado y decidir), o `None` si no hubo ni respuesta.
     """
-    global _veces_respaldo
+    global _veces_respaldo, _cloudscraper_hasta
 
-    principal = _pedir_una(url, timeout, "cloudscraper")
-    if _sirve(principal, valido):
-        return principal
+    ahora = time.time()
+
+    # Si cloudscraper falló hace poco, ni se intenta. Esto no es un adorno: en
+    # Render **falla siempre** (403 de Cloudflare) y sin esto cada petición a
+    # dpm.lol gastaba dos (la que falla y la que sirve), tardaba el doble y
+    # llenaba el log de "Connection pool is full" al agotarse las conexiones
+    # reutilizables del scraper. Se vuelve a probar pasado el enfriamiento, por si
+    # el bloqueo era temporal.
+    principal = None
+    if ahora >= _cloudscraper_hasta:
+        principal = _pedir_una(url, timeout, "cloudscraper")
+        if _sirve(principal, valido):
+            return principal
 
     respaldo = _pedir_una(url, timeout, "curl_cffi")
     if _sirve(respaldo, valido):
-        with _lock:
-            _veces_respaldo += 1
-            veces = _veces_respaldo
-        # Solo se avisa las primeras veces: si Cloudflare empieza a bloquear,
-        # esto saldría en cada petición y taparía el resto del log.
-        if veces <= 5:
-            log.warning(
-                "dpm.lol: cloudscraper no sirvió (estado %s)%s; respondió curl_cffi.",
-                principal.status if principal else "sin respuesta",
-                f" · van {veces} veces" if veces > 1 else "",
-            )
+        if principal is not None:
+            with _lock:
+                _veces_respaldo += 1
+                veces = _veces_respaldo
+                primera = _cloudscraper_hasta == 0.0
+                _cloudscraper_hasta = ahora + COOLDOWN_CLOUDSCRAPER
+            # Se avisa al empezar el enfriamiento y luego solo de vez en cuando:
+            # si no, esto saldría en cada petición y taparía el resto del log.
+            if primera or veces % 50 == 0:
+                log.warning(
+                    "dpm.lol: cloudscraper no sirvió (estado %s); respondió curl_cffi. "
+                    "Se le deja de intentar %.0f min (van %d respaldos).",
+                    principal.status if principal else "sin respuesta",
+                    COOLDOWN_CLOUDSCRAPER / 60, veces,
+                )
         return respaldo
 
     return respaldo or principal

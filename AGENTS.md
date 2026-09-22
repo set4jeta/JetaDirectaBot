@@ -193,7 +193,7 @@ web/live.js  ->  pinta #teams-strip y #feed en index.html
 
 ---
 
-### Estado de la publicación (verificado 21-09-2026)
+### Estado de la publicación (verificado 21/22-09-2026)
 
 El código funciona; **la publicación es lo que está roto**. Medido, no supuesto:
 
@@ -207,12 +207,32 @@ El código funciona; **la publicación es lo que está roto**. Medido, no supues
   la raíz de Pages responde 200 (es el README pasado por Jekyll),
   `ligas.html` y `api/live.json` responden **404**.
 - **828 ficheros sin commitear** en la carpeta local: todo el trabajo de
-  sept-2026. Si se pierde la máquina, se pierde el proyecto.
-- `.python-version` (3.13) y `render.yaml` reescrito (`runtime: python`,
-  `healthCheckPath: /`, `envVars` con `sync: false`, región Frankfurt). Render
-  usa **3.14.3** por defecto desde el 11-02-2026: por eso el pin.
+  sept-2026. Ya están commiteados en 4 commits sobre `9b0f57d` (limpieza, datos,
+  código, web+despliegue). Falta el push, que **se rechaza con `git push` a
+  secas** por las historias no relacionadas: hace falta rama nueva o
+  `--force-with-lease` (comandos en `DESPLIEGUE.md` §4).
+- `.python-version` (3.13): Render usa **3.14.3** por defecto desde el
+  11-02-2026 y el bot solo está probado en 3.13.
+- `render.yaml`: **el nombre del servicio se queda en `discord-bot`** (Render
+  empareja por `name`; cambiarlo crearía un servicio duplicado) y la región va
+  comentada porque **no se puede cambiar después de crear el servicio**. Sí se
+  añadió `healthCheckPath: /`. Las variables de entorno NO se declaran en el YAML
+  a propósito: con `value:` sobrescribirían las del panel y con `sync: false`
+  Render las ignora en las actualizaciones. Render **conserva** las variables del
+  panel aunque no estén en el fichero.
 - Plan gratuito de Render: **0,1 CPU / 512 MB** y se **duerme a los 15 min sin
-  tráfico entrante** (un bot no recibe tráfico entrante → deja de avisar).
+  tráfico entrante**. El dueño ya usa **UptimeRobot**, que lo mantiene despierto
+  → el sueño no es un problema real. El aviso que sigue en pie es el otro:
+  Render puede suspender un servicio gratuito que genera mucho tráfico de salida.
+- **La clave de Riot del `.env` es de producción**, verificado contra la API
+  (`X-App-Rate-Limit: 500:10,30000:600`). Los 429 de la prueba no eran por clave
+  de desarrollo: el log imprime los contadores **consumidos**, y eran 1001 de
+  30.000 en la ventana de 600 s. Causa probable: el bot de Render seguía
+  corriendo con la misma clave durante la prueba local.
+- **El bot funciona sin disco persistente** (así estuvo un año). El disco solo
+  importa si algún día se quiere persistencia, y **no se puede montar en
+  `tracking/soloq`** porque taparía `leagues.py`/`plans.py`/`notifier.py`. Ese es
+  el único escenario en el que el bot no arrancaría.
 - El bot **arranca bien**: 129 cuentas, pasadas de 2,9 s, 0 errores, 508
   jugadores en memoria. Los 429 de `spectator-v5` que salen en el log se
   reintentan solos.

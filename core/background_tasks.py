@@ -243,10 +243,6 @@ async def actualizar_accounts_diario():
 # ligas en uso, porque las 20 ligas son ~3154 cuentas y ~63 s medidos por pasada
 # contra un intervalo de 30 s. Descargar todo sí; barrer todo, no.
 
-LIGAS_INDEX_PATH = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "tracking", "soloq", "ligas_index.json")
-)
-
 #: Pausa entre ligas al sembrar, para no encadenar 20 scrapes sin respirar.
 PAUSA_SIEMBRA = float(os.getenv("ROSTERS_PAUSA_SIEMBRA", "5"))
 
@@ -302,25 +298,29 @@ async def _antes_de_sembrar():
 async def refrescar_rosters_por_tanda():
     """Refresca **una** liga por vuelta, rotando por el catálogo.
 
-    El puntero va a disco (`ligas_index.json`) para que un redespliegue no
-    reinicie la rotación por la primera liga y deje a las últimas sin refrescar
-    nunca: en el plan gratuito el bot se reinicia a diario.
+    El turno sale de **la hora**, no de un puntero en disco, y eso es a propósito:
+    en el plan gratuito el bot se reinicia a diario, así que un puntero guardado
+    volvería a empezar por la primera liga en cada arranque y **las últimas del
+    catálogo no se refrescarían nunca**. Con la hora, cada vuelta del reloj le
+    toca a una distinta y en ~24 h pasan todas, se reinicie o no el bot.
+
+    Se importa `time` aquí y no arriba porque el resto del módulo no lo usa.
     """
+    import time
+
     from tracking.soloq.accounts_from_teams import refrescar_ligas
-    from tracking.soloq.index_tracker import load_last_index, save_last_index
     from tracking.soloq.leagues import LIGAS
 
     codigos = list(LIGAS)
     if not codigos:
         return
-    indice = load_last_index(LIGAS_INDEX_PATH) % len(codigos)
+    indice = int(time.time() // 3600) % len(codigos)
     codigo = codigos[indice]
     try:
         await asyncio.to_thread(refrescar_ligas, [codigo])
         log.info("Rosters: turno de %s (%d/%d).", codigo, indice + 1, len(codigos))
     except Exception:
         log.exception("Rosters: fallo refrescando %s.", codigo)
-    save_last_index((indice + 1) % len(codigos), LIGAS_INDEX_PATH)
 
 
 # ---------------------------------------------------------------------- #

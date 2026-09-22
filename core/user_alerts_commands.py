@@ -71,6 +71,7 @@ from __future__ import annotations
 import asyncio
 import time
 
+import nextcord
 from nextcord.ext import commands
 
 from core.dual_command import dual, dual_texto
@@ -337,6 +338,137 @@ async def _seguir_cuenta_suelta(res: Respuesta, texto: str) -> None:
     await res.send_privado("\n".join(lineas))
 
 
+# ---------------------------------------------------------------------- #
+# Elegir qué te llega: SoloQ, partidos oficiales, o las dos
+# ---------------------------------------------------------------------- #
+
+#: Cómo se ve cada botón. Verde y con ✓ = encendido; gris y con ✗ = apagado. El
+#: estilo **es** la información: si el usuario no ve de un vistazo si tiene los
+#: partidos oficiales puestos, no sabe qué le va a llegar y acaba desuscribiéndose
+#: de todo para asegurarse.
+_ESTILO_ON = nextcord.ButtonStyle.success
+_ESTILO_OFF = nextcord.ButtonStyle.secondary
+
+
+class AlternarEjes(nextcord.ui.View):
+    """Dos botones para encender y apagar cada tipo de aviso.
+
+    Por qué botones y no un menú desplegable
+    ---------------------------------------
+    Es el patrón que usan los bots de Discord para una elección de dos. Un menú
+    obliga a abrirlo, elegir y volver a mirar para cada opción, y **esconde el
+    estado**: no se sabe si algo está puesto sin abrirlo. Dos botones que se
+    alternan se resuelven en un clic y enseñan el estado sin abrir nada.
+
+    Por qué el callback comprueba quién pulsa
+    -----------------------------------------
+    En la forma `/` el mensaje es efímero y los botones solo los ve su dueño, pero
+    en la forma `!` no hay efímero: el mensaje queda en el canal y cualquiera
+    podría pulsar los botones de otra persona y cambiarle las suscripciones. El
+    mensaje se manda **igual** en las dos formas a propósito (un `!track` que no
+    contesta nada es peor), así que la comprobación va aquí.
+
+    `timeout=600`: diez minutos para decidir. Pasados, los botones dejan de
+    responder y hay que volver a escribir el comando; la suscripción ya hecha no
+    se toca, que es lo que importa.
+    """
+
+    def __init__(self, autor_id: int, opciones: list[tuple[str, str, str, dict]]):
+        super().__init__(timeout=600)
+        self.autor_id = autor_id
+        self.opciones = opciones
+        for indice, _opcion in enumerate(opciones):
+            boton = nextcord.ui.Button(
+                custom_id=f"alertas:{indice}",
+                label="…",
+                style=_ESTILO_OFF,
+            )
+            boton.callback = self._alternar(indice)
+            self.add_item(boton)
+        self._pintar()
+
+    # -- estado --------------------------------------------------------- #
+
+    def _activo(self, eje: str, valor: str) -> bool:
+        return valor.casefold() in {
+            v.casefold() for v in usuarios.seguidos(self.autor_id, eje)
+        }
+
+    def _pintar(self) -> None:
+        """Pone la etiqueta y el color de cada botón según el estado de ahora."""
+        from utils.i18n import idioma_efectivo, t
+
+        idioma = idioma_efectivo(self.autor_id)
+        for boton, (eje, valor, clave, formato) in zip(self.children, self.opciones):
+            activo = self._activo(eje, valor)
+            nombre = t(clave, idioma, **formato)
+            boton.label = f"{nombre} {'✓' if activo else '✗'}"
+            boton.style = _ESTILO_ON if activo else _ESTILO_OFF
+
+    # -- callback ------------------------------------------------------- #
+
+    def _alternar(self, indice: int):
+        async def _callback(interaction: nextcord.Interaction) -> None:
+            from utils.i18n import idioma_efectivo, t
+
+            if interaction.user and interaction.user.id != self.autor_id:
+                await interaction.response.send_message(
+                    t("ejes.ajeno", idioma_efectivo(interaction.user.id)),
+                    ephemeral=True,
+                )
+                return
+
+            eje, valor, _clave, _formato = self.opciones[indice]
+            if self._activo(eje, valor):
+                usuarios.quitar(self.autor_id, eje, valor)
+            else:
+                usuarios.agregar(self.autor_id, eje, valor)
+
+            self._pintar()
+            # Se edita el mensaje en vez de mandar otro: si no, cada clic dejaría
+            # un mensaje nuevo en el canal con la forma `!`.
+            try:
+                await interaction.response.edit_message(view=self)
+            except nextcord.HTTPException as exc:
+                log.debug("No se pudo repintar el selector de ejes: %s", exc)
+
+        return _callback
+
+
+def _opciones_de_alternancia(
+    liga, equipo, jugador, guardar: str
+) -> list[tuple[str, str, str, dict]]:
+    """Qué se puede encender y apagar con botones, en orden.
+
+    Siempre primero SoloQ y después los partidos oficiales, que es el orden en el
+    que se lee la frase de confirmación.
+
+    En un **jugador** los partidos oficiales son los de **su equipo**, y el bot lo
+    sabe porque el roster lo trae (`player.team`): quien sigue a Faker quiere
+    enterarse de los partidos de T1. Esa opción empieza apagada —sus partidos de
+    liga son de todo el equipo, no suyos— y se enciende con un clic.
+    """
+    if liga is not None:
+        return [
+            ("ligas", liga.codigo, "ejes.boton_soloq", {}),
+            ("partidos_ligas", liga.codigo, "ejes.boton_partidos", {}),
+        ]
+    if equipo is not None:
+        return [
+            ("equipos", equipo[0], "ejes.boton_soloq", {}),
+            ("partidos_equipos", equipo[0], "ejes.boton_partidos", {}),
+        ]
+    if jugador is not None:
+        suyo = (getattr(jugador, "team", "") or "").strip()
+        opciones = [("jugadores", guardar, "ejes.boton_soloq", {})]
+        if suyo:
+            opciones.append(
+                ("partidos_equipos", suyo, "ejes.boton_partidos_equipo", {"equipo": suyo})
+            )
+        return opciones
+    return []
+
+
 #: Marca de tiempo del último alta de roster lanzada desde un comando.
 #: `time.monotonic` y no `time.time` porque lo único que se mide es un intervalo.
 _ultimo_alta = 0.0
@@ -499,6 +631,17 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
         lineas.append(_("seguir.sin_datos_salida", jugador=guardar))
 
     lineas.extend(_cola_registro(res, _))
+
+    # El selector: lo que se acaba de suscribir se puede apagar desde aquí, y lo
+    # que no —los partidos del equipo de un jugador, que son de todo el equipo—
+    # se puede encender. Va con el mismo mensaje de confirmación para no tener que
+    # leer dos cosas distintas.
+    opciones = _opciones_de_alternancia(liga, equipo, jugador, guardar)
+    vista = AlternarEjes(res.autor_id, opciones) if opciones else None
+    if vista is not None:
+        lineas.append(_("ejes.pie"))
+        await res.send_privado("\n".join(lineas), view=vista)
+        return
     await res.send_privado("\n".join(lineas))
 
 

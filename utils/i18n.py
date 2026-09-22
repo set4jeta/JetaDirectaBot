@@ -1150,6 +1150,31 @@ _CATALOGO: dict[str, dict[str, str]] = {
               "the series. If you only wanted SoloQ, remove that part with "
               "`/untrack {valor}` and ask for the other again.",
     },
+    # ---- El selector de qué te llega (botones) ------------------------- #
+    # Las etiquetas de los botones: cortas, porque un botón de Discord se corta.
+    # El ✓/✗ y el color los pone el código, no el texto.
+    "ejes.boton_soloq": {
+        "es": "SoloQ",
+        "en": "SoloQ",
+    },
+    "ejes.boton_partidos": {
+        "es": "Partidos oficiales",
+        "en": "Official matches",
+    },
+    "ejes.boton_partidos_equipo": {
+        "es": "Partidos de {equipo}",
+        "en": "{equipo} matches",
+    },
+    "ejes.pie": {
+        "es": "Con los botones de abajo enciendes o apagas cada cosa por separado.",
+        "en": "Use the buttons below to turn each one on or off separately.",
+    },
+    "ejes.ajeno": {
+        "es": "Esos botones son de quien escribió el comando. Escribe tú el tuyo "
+              "para tener los tuyos.",
+        "en": "Those buttons belong to whoever ran the command. Run your own to "
+              "get yours.",
+    },
     # ---- Cuentas sueltas (`/track Nombre#TAG [region]`) ------------------ #
     # El comando tiene que decir **qué** ha fallado: "esa cuenta no existe" y "no
     # he podido hablar con Riot" son problemas distintos, y solo el primero lo

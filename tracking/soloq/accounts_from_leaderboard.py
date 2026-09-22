@@ -1,4 +1,4 @@
-"""Cuentas de pros europeos desde el leaderboard de SoloQ de dpm.lol.
+"""Cuentas de pros desde las escaleras de SoloQ de dpm.lol.
 
 Cambios respecto a la versión anterior
 --------------------------------------
@@ -13,6 +13,19 @@ Cambios respecto a la versión anterior
 3. **La escritura era incondicional.** `json.dump(nuevos, ...)` sin comprobar
    nada. Ahora pasa por `utils.safe_json.guardar_lista_json`.
 4. Los `print` pasan a `log`, para que el arranque de la consola sea legible.
+5. **Ya no es solo Europa.** La plataforma estaba escrita a mano (`platform=euw1`)
+   y el resto del mundo no existía para `/info` ni `/ranking`. Ahora se baja la
+   escalera de varias plataformas (`PLATAFORMAS`) y se guarda **la plataforma de
+   cada cuenta**, que la API manda en cada fila y antes se descartaba. Medido:
+   EUW1 539, KR 271, BR1 140, NA1 108, y unas pocas en EUN1/LA1/JP1.
+
+Qué es y qué no es este fichero
+-------------------------------
+Es una **lista de nombres, equipo y plataforma** para poder resolver a alguien en
+`/info` y `/ranking`. **No trae rangos**: las filas del leaderboard no los dan
+(`rank` sale `None`), y los rangos de verdad viven en `ranked_data.json`, que se
+llena consultando a Riot y tiene su propio TTL. Por eso este fichero se puede
+refrescar despacio: lo que caduca rápido son los LP, no la lista.
 """
 
 from __future__ import annotations
@@ -29,42 +42,63 @@ from utils.safe_json import cargar_lista_json, guardar_lista_json
 
 log = get_logger(__name__)
 
-ENDPOINT = "https://dpm.lol/v1/leaderboards/soloq?page={page}&platform=euw1&isPro=true"
+ENDPOINT = (
+    "https://dpm.lol/v1/leaderboards/soloq"
+    "?page={page}&platform={platform}&isPro=true"
+)
 JSON_PATH = os.path.join(os.path.dirname(__file__), "accounts.json")
 
-#: Tope de seguridad. Con ~520 jugadores y 50 por página sobra de largo.
+#: Plataformas de las que se baja la escalera. Son las que tienen liga en el
+#: catálogo (`leagues.LIGAS`): EUW1 y EUN1 cubren la LEC y las nueve europeas,
+#: NA1 la LCS, BR1 la CBLOL, LA1/LA2 la LLA (que no se puede soportar para avisos
+#: pero su escalera existe y sirve para consultar), KR la LCK y JP1 la LJL.
+#:
+#: Se puede acortar sin tocar código: `LEADERBOARD_PLATFORMS=euw1,kr`.
+PLATAFORMAS: tuple[str, ...] = tuple(
+    p.strip().lower()
+    for p in os.getenv("LEADERBOARD_PLATFORMS", "euw1,eun1,na1,br1,la1,la2,kr,jp1").split(",")
+    if p.strip()
+)
+
+#: Tope de seguridad por plataforma. Con ~540 jugadores y 50 por página sobra.
 MAX_PAGES = 40
 TIMEOUT = 25
 
 
-def fetch_players() -> tuple[list[dict[str, Any]], bool]:
-    """Descarga el leaderboard paginado.
+def _fetch_plataforma(scraper, plataforma: str) -> tuple[list[dict[str, Any]], bool]:
+    """Todas las páginas de UNA plataforma. Devuelve `(filas, completo)`.
 
-    Devuelve `(jugadores, completo)`. `completo=False` significa que la descarga
-    se cortó a mitad, y quien llame no debe tratar el resultado como definitivo.
+    `completo=False` significa que la descarga se cortó a mitad, y quien llame no
+    debe tratar el resultado como definitivo.
     """
-    scraper = cloudscraper.create_scraper()
     todos: list[dict[str, Any]] = []
     vistos: set[str] = set()
     completo = True
+    page = 0
 
     for page in range(1, MAX_PAGES + 1):
         try:
-            resp = scraper.get(ENDPOINT.format(page=page), timeout=TIMEOUT)
+            resp = scraper.get(
+                ENDPOINT.format(page=page, platform=plataforma), timeout=TIMEOUT
+            )
         except Exception as exc:
-            log.error("Página %d: fallo de red (%s). Descarga incompleta.", page, exc)
+            log.error("%s página %d: fallo de red (%s). Incompleta.", plataforma, page, exc)
             completo = False
             break
 
         if resp.status_code != 200:
-            log.error("Página %d: HTTP %s. Descarga incompleta.", page, resp.status_code)
-            completo = False
-            break
+            # 422 en una plataforma que dpm no conoce: no es un fallo de la
+            # descarga entera, es que esa escalera no existe.
+            log.warning(
+                "%s: HTTP %s en la página %d. Se salta esa escalera.",
+                plataforma, resp.status_code, page,
+            )
+            return todos, True
 
         try:
             data = resp.json()
         except ValueError as exc:
-            log.error("Página %d: respuesta no-JSON (%s). Descarga incompleta.", page, exc)
+            log.error("%s página %d: respuesta no-JSON (%s). Incompleta.", plataforma, page, exc)
             completo = False
             break
 
@@ -76,21 +110,48 @@ def fetch_players() -> tuple[list[dict[str, Any]], bool]:
         # dejaría el bucle girando hasta MAX_PAGES duplicando datos.
         claves = {f"{p.get('gameName')}#{p.get('tagLine')}" for p in players}
         if claves and claves <= vistos:
-            log.warning("Página %d repite jugadores ya vistos; se corta ahí.", page)
+            log.warning(
+                "%s página %d repite jugadores ya vistos; se corta ahí.", plataforma, page
+            )
             break
         vistos |= claves
 
         todos.extend(players)
-        log.debug("Página %d: %d jugadores.", page, len(players))
+        log.debug("%s página %d: %d jugadores.", plataforma, page, len(players))
     else:
-        log.warning("Se alcanzó el tope de %d páginas; puede faltar gente.", MAX_PAGES)
+        log.warning("%s: se alcanzó el tope de %d páginas.", plataforma, MAX_PAGES)
         completo = False
 
+    log.info("%s: %d cuentas en %d páginas%s.", plataforma, len(todos), page,
+             "" if completo else " (INCOMPLETA)")
+    return todos, completo
+
+
+def fetch_players() -> tuple[list[dict[str, Any]], bool]:
+    """Descarga la escalera de pros de cada plataforma. `(jugadores, completo)`.
+
+    Un solo scraper para todas: crear uno por plataforma construye una sesión TLS
+    completa cada vez, y son ocho.
+    """
+    scraper = cloudscraper.create_scraper()
+    todos: list[dict[str, Any]] = []
+    completo = True
+
+    for plataforma in PLATAFORMAS:
+        filas, ok = _fetch_plataforma(scraper, plataforma)
+        # La API ya manda `platform` en cada fila, pero se reescribe con la que se
+        # ha pedido: es de lo que depende que la cuenta se consulte contra el
+        # servidor correcto, y no se deja al criterio de un campo que puede
+        # desaparecer.
+        for fila in filas:
+            fila["platform"] = plataforma
+        todos.extend(filas)
+        if not ok:
+            completo = False
+
     log.info(
-        "Leaderboard: %d cuentas en %d páginas%s.",
-        len(todos),
-        page,
-        "" if completo else " (INCOMPLETO)",
+        "Leaderboard: %d cuentas de %d plataformas%s.",
+        len(todos), len(PLATAFORMAS), "" if completo else " (INCOMPLETO)",
     )
     return todos, completo
 

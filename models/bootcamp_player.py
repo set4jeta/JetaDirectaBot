@@ -43,6 +43,11 @@ class Account:
             champion_ids=raw_data.get("championIds", []),
             kda=raw_data.get("kda"),
             is_live=raw_data.get("isLive"),
+            # La plataforma viene en cada fila del leaderboard y **antes se
+            # tiraba**: sin ella no se sabe contra qué servidor consultar la
+            # cuenta, que es lo que hace falta desde que la escalera se baja de
+            # varias regiones y no solo de EUW1.
+            platform=(raw_data.get("platform") or "").strip().lower() or None,
         )
 
     def to_dict(self):

@@ -69,6 +69,7 @@ def start_background_tasks(bot):
         check_games_loop,
         actualizar_puuids_periodico,
         actualizar_accounts_diario,
+        actualizar_leaderboard_semanal,
         actualizar_pickrates_semanal,
         actualizar_infoplayers_por_lotes,
         sembrar_rosters_faltantes,
@@ -164,22 +165,25 @@ async def actualizar_puuids_periodico():
 
 @tasks.loop(hours=24)
 async def actualizar_accounts_diario():
-    """Refresca accounts.json y accounts_from_teams.json.
+    """Refresca los rosters de las ligas en uso.
 
     Antes tenía un `sleep(24h)` dentro del propio cuerpo de un loop de 24 h,
     así que la primera ejecución llegaba a las 48 h. El descanso inicial, si se
     quiere, se configura con `.before_loop`, no durmiendo dentro.
+
+    La **escalera** de pros (`accounts.json`) ya no se baja aquí: es una lista de
+    nombres que se mueve despacio, así que pasó a `actualizar_leaderboard_semanal`
+    (ver allí por qué). Lo que sí es diario son los rosters, porque de ellos sale
+    el barrido y los fichajes se mueven de verdad.
     """
-    from tracking.soloq.accounts_from_leaderboard import main as update_leaderboard
     from tracking.soloq.accounts_from_teams import refrescar_ligas
     from tracking.soloq.leagues import ligas_en_uso
 
-    log.info("Actualizando cuentas desde dpm.lol...")
+    log.info("Actualizando rosters desde dpm.lol...")
 
     # cloudscraper es síncrono y bloqueante: sin esto, el bot se congela
     # durante toda la descarga. asyncio.to_thread lo saca del event loop.
     try:
-        await asyncio.to_thread(update_leaderboard)
         # `refrescar_ligas` y no `accounts_from_teams.main`: `main` **reemplaza**
         # el fichero con las ligas que le pases, así que con `ligas_en_uso()` (que
         # son solo las que alguien sigue) borraría los rosters de las otras 18
@@ -321,6 +325,61 @@ async def refrescar_rosters_por_tanda():
         log.info("Rosters: turno de %s (%d/%d).", codigo, indice + 1, len(codigos))
     except Exception:
         log.exception("Rosters: fallo refrescando %s.", codigo)
+
+
+# ---------------------------------------------------------------------- #
+# 3c · La escalera de pros, una vez por semana
+# ---------------------------------------------------------------------- #
+#
+# `accounts.json` es la lista de pros de las escaleras de SoloQ (EUW1, KR, NA1,
+# BR1...) que usan `/info` y `/ranking` para resolver a alguien. **No se barre**:
+# el barrido sale del fichero de rosters, así que esto no cuesta peticiones a
+# Riot.
+#
+# Por qué semanal y no diario
+# ---------------------------
+# Es una **lista de nombres**, no datos vivos: las filas del leaderboard no traen
+# ni rango ni LP (los rangos están en `ranked_data.json`, con su TTL). Lo que
+# cambia de un día para otro son los LP, no quién está en la escalera. Bajarla a
+# diario eran ~90 peticiones al día para refrescar algo que se mueve en semanas.
+#
+# Se puede cambiar la cadencia sin tocar código: `LEADERBOARD_HORAS`.
+
+LEADERBOARD_HORAS = int(os.getenv("LEADERBOARD_HORAS", "168"))
+
+
+@tasks.loop(hours=LEADERBOARD_HORAS)
+async def actualizar_leaderboard_semanal():
+    """Baja la escalera de pros de todas las plataformas configuradas."""
+    from tracking.soloq.accounts_from_leaderboard import main as update_leaderboard
+
+    log.info("Actualizando la escalera de pros (cada %d h)...", LEADERBOARD_HORAS)
+    try:
+        await asyncio.to_thread(update_leaderboard)
+    except Exception:
+        log.exception("Fallo bajando la escalera de pros.")
+        return
+
+    global _players
+    anterior = len(_players)
+    _players = load_accounts()
+    log.info("Escalera de pros: %d jugadores (antes %d).", len(_players), anterior)
+
+    if not _players:
+        log.error(
+            "La escalera dejó 0 jugadores (antes había %d). dpm.lol ha devuelto "
+            "algo vacío o con otro formato.",
+            anterior,
+        )
+        salud.registrar("cuentas", False, "0 jugadores tras la escalera")
+        return
+
+    # Los que entran nuevos no tienen PUUID: sin él no se puede consultar su
+    # rango, así que se resuelven aquí y no se espera al ciclo de 6 h.
+    try:
+        await puuid_repair.repair_all(dry_run=False, make_backup=False)
+    except Exception:
+        log.exception("Fallo reparando PUUIDs tras la escalera.")
 
 
 # ---------------------------------------------------------------------- #

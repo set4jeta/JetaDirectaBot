@@ -1,5 +1,5 @@
 {
-  "generado": 1788467609,
+  "generado": 1790048282,
   "total_avisos": 0,
   "avisos": [],
   "equipos": [
@@ -19,24 +19,19 @@
       "imagen": "img/teams/SHFT.webp"
     },
     {
-      "code": "TH",
-      "nombre": "Team Heretics",
-      "imagen": "img/teams/TH.webp"
-    },
-    {
       "code": "G2",
       "nombre": "G2 Esports",
       "imagen": "img/teams/G2.webp"
     },
     {
+      "code": "TH",
+      "nombre": "Team Heretics",
+      "imagen": "img/teams/TH.webp"
+    },
+    {
       "code": "SK",
       "nombre": "SK Gaming",
       "imagen": "img/teams/SK.webp"
-    },
-    {
-      "code": "VIT",
-      "nombre": "Team Vitality",
-      "imagen": "img/teams/VIT.webp"
     },
     {
       "code": "NAVI",
@@ -47,6 +42,11 @@
       "code": "MKOI",
       "nombre": "Movistar KOI",
       "imagen": "img/teams/MKOI.webp"
+    },
+    {
+      "code": "VIT",
+      "nombre": "Team Vitality",
+      "imagen": "img/teams/VIT.webp"
     },
     {
       "code": "KC",

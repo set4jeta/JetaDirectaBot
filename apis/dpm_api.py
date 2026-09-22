@@ -38,6 +38,8 @@ from urllib.parse import urlencode
 import aiohttp
 import cloudscraper
 
+from apis import transporte_dpm
+
 import config
 from utils.logger import get_logger
 
@@ -224,39 +226,42 @@ async def _get_json(path: str, params: dict[str, Any] | None = None) -> Any:
 
 
 def _scraper_get(url: str) -> tuple[int, Any]:
-    """GET con cloudscraper. Devuelve `(estado, json)`; estado 0 = no hubo respuesta.
+    """GET a dpm.lol. Devuelve `(estado, json)`; estado 0 = no hubo respuesta.
+
+    Va por `transporte_dpm.pedir`, que intenta cloudscraper y **reintenta con
+    curl_cffi** cuando la respuesta no sirve. Hace falta desde que se comprobó que
+    desde una IP de datacenter (Render) Cloudflare no deja pasar con cloudscraper:
+    los logs estaban llenos de "El leaderboard devolvió 0 cuentas".
 
     Se separa de `_scraper_get_json` porque `_get_json` necesita distinguir "404,
     no existe" de "no pude ni conectar", para decidir si reintenta.
     """
-    try:
-        resp = _get_scraper().get(url, timeout=_TIMEOUT)
-    except Exception as exc:  # cloudscraper lanza de todo
-        log.debug("dpm.lol (scraper) error en %s: %s", url, exc)
+    resp = transporte_dpm.pedir(url, timeout=_TIMEOUT)
+    if resp is None:
         return 0, None
-
-    if resp.status_code != 200:
-        return resp.status_code, None
-
+    if resp.status != 200:
+        return resp.status, None
     try:
         return 200, resp.json()
     except ValueError as exc:
-        log.debug("dpm.lol (scraper) respuesta no-JSON en %s: %s", url, exc)
+        log.debug("dpm.lol respuesta no-JSON en %s: %s", url, exc)
         return 0, None
 
 
 def _scraper_get_json(url: str) -> Any:
-    """GET JSON con cloudscraper, ejecutado en hilo. Reutiliza el scraper."""
+    """GET JSON a dpm.lol, ejecutado en hilo. Con respaldo de transporte."""
+    resp = transporte_dpm.pedir(url, timeout=_TIMEOUT)
+    if resp is None:
+        return None
+    if resp.status == 404:
+        return None
+    if resp.status != 200:
+        log.debug("dpm.lol %s -> HTTP %s", url, resp.status)
+        return None
     try:
-        resp = _get_scraper().get(url, timeout=_TIMEOUT)
-        if resp.status_code == 200:
-            return resp.json()
-        if resp.status_code == 404:
-            return None
-        log.debug("dpm.lol (scraper) %s -> HTTP %s", url, resp.status_code)
-    except Exception as exc:  # cloudscraper lanza de todo
-        log.debug("dpm.lol (scraper) error en %s: %s", url, exc)
-    return None
+        return resp.json()
+    except ValueError:
+        return None
 
 
 # ---------------------------------------------------------------------- #

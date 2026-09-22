@@ -58,7 +58,6 @@ import os
 import time
 from urllib.parse import quote
 
-import cloudscraper
 from bs4 import BeautifulSoup
 
 from apis.dpm_payload import extraer_jugadores, resumen
@@ -90,54 +89,43 @@ TIMEOUT = 20
 #: Selector heredado. Se mantiene solo como respaldo de la vía del payload.
 SELECTOR_LEGACY = "font-semibold text-bm lg:text-bxl"
 
-_scraper = None
 
+# El cliente HTTP de este módulo se fue a `apis/transporte_dpm.py` (22-09-2026),
+# que intenta cloudscraper y **reintenta con curl_cffi** cuando la respuesta no
+# sirve. Aquí vivía un `_get_scraper()` con un solo scraper de cloudscraper
+# reutilizado; se quedó sin uso al unificar el transporte, y se borró en vez de
+# dejarlo ahí.
+#
+# Contexto de por qué hizo falta el respaldo: se había medido curl_cffi contra
+# cloudscraper para ver si convenía cambiar y daba **empate** (una liga entera:
+# 16,7/15,4/14,6 s contra 15,9/14,7/15,5 s), así que se descartó. Pero eso medía
+# latencia **desde casa**, donde los dos pasan. Lo que no se había medido es si el
+# segundo **llega**: desde la IP de Render, Cloudflare no deja pasar con
+# cloudscraper y los rosters dejaron de refrescarse en silencio.
 
-def _get_scraper():
-    """Un solo scraper reutilizado.
-
-    La versión anterior creaba un `cloudscraper` nuevo **en cada reintento de cada
-    jugador**: con 9 equipos y 5 jugadores por equipo eso son decenas de
-    resoluciones del challenge de Cloudflare por pasada, todas idénticas.
-
-    Por qué sigue siendo cloudscraper y no curl_cffi (probado el 22-09-2026)
-    -----------------------------------------------------------------------
-    curl_cffi se probó porque se recomienda como el reemplazo moderno de
-    cloudscraper (imita la huella TLS/JA3 de Chrome). **Funciona** —mismo HTML,
-    mismos jugadores— pero **no mejora nada aquí**, medido sobre el scrape real de
-    una liga (41 jugadores, 42 peticiones), alternando los dos transportes:
-
-        curl_cffi    16,7 s · 15,4 s · 14,6 s
-        cloudscraper 15,9 s · 14,7 s · 15,5 s
-
-    Son el mismo número. La razón: con una sola petición aislada sí se veía
-    diferencia (599 ms contra 272 ms), pero eso mide **la primera**, que incluye el
-    saludo a Cloudflare; en el scrape de verdad el tiempo lo pone la latencia de
-    dpm.lol (~370 ms por petición) y no el cliente. Añadir una dependencia y una
-    rama de código para no ganar nada no compensa.
-
-    Queda apuntado por si algún día cloudscraper deja de pasar el challenge: el
-    cambio son ~20 líneas (`curl_cffi.requests.Session(impersonate="chrome")` con
-    el mismo `safe_request`), y ya está probado que devuelve los mismos datos.
-    """
-    global _scraper
-    if _scraper is None:
-        _scraper = cloudscraper.create_scraper(browser={"custom": "Chrome"}, delay=10)
-    return _scraper
 
 
 def safe_request(url: str):
-    """GET con reintentos. Devuelve la respuesta o `None`."""
-    scraper = _get_scraper()
+    """GET a dpm.lol con reintentos y **respaldo de transporte**. `None` si falla.
+
+    Va por `apis.transporte_dpm`, que intenta cloudscraper y reintenta con
+    curl_cffi cuando la respuesta no sirve (excepción, estado distinto de 200 o
+    un desafío de Cloudflare). No es una optimización: es que **desde la IP de
+    Render Cloudflare no deja pasar con cloudscraper**, y los rosters dejaron de
+    refrescarse. Se comprobó en los logs del servicio el 22-09-2026.
+    """
+    from apis import transporte_dpm
+
     for intento in range(1, MAX_RETRIES + 1):
-        try:
-            resp = scraper.get(url, timeout=TIMEOUT)
-            resp.raise_for_status()
+        resp = transporte_dpm.pedir(url, timeout=TIMEOUT)
+        if resp is not None and resp.status == 200:
             return resp
-        except Exception as exc:
-            log.warning("Intento %d/%d falló para %s: %s", intento, MAX_RETRIES, url, exc)
-            if intento < MAX_RETRIES:
-                time.sleep(2)
+        log.warning(
+            "Intento %d/%d falló para %s (estado %s)",
+            intento, MAX_RETRIES, url, resp.status if resp else "sin respuesta",
+        )
+        if intento < MAX_RETRIES:
+            time.sleep(2)
     log.error("No se pudo acceder a %s tras %d intentos.", url, MAX_RETRIES)
     return None
 

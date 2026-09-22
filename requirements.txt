@@ -2,6 +2,10 @@ nextcord
 aiohttp
 numpy
 cloudscraper
+# Respaldo de transporte para dpm.lol: desde una IP de datacenter Cloudflare no
+# deja pasar con cloudscraper, y curl_cffi (huella TLS de Chrome) si. Ver
+# apis/transporte_dpm.py.
+curl_cffi
 python-dotenv
 python-dateutil
 requests

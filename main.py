@@ -141,6 +141,16 @@ def main() -> int:
     except Exception:
         log.exception("No se pudo restaurar el estado remoto; se sigue con el local.")
 
+    # Los transportes de dpm.lol, en el arranque: en el log de Render se ve si
+    # curl_cffi está instalado (es el respaldo para cuando Cloudflare bloquea a
+    # cloudscraper desde una IP de datacenter) y cuántas veces ha hecho falta.
+    try:
+        from apis import transporte_dpm
+
+        log.info("Transporte dpm.lol: %s", transporte_dpm.resumen())
+    except Exception:
+        log.exception("No se pudo preparar el transporte de dpm.lol.")
+
     # Los módulos de scraping se importan **aquí**, en el arranque, y no en el
     # comando que los usa. Pesa (cloudscraper, bs4 y curl_cffi) y `/track <liga>`
     # lo importaba en frío dentro del propio comando: medido, 188 ms en un PC

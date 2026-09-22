@@ -1,0 +1,5 @@
+# Todo el sitio es público y estático: no hay nada que bloquear.
+User-agent: *
+Allow: /
+
+Sitemap: https://set4jeta.github.io/JetaDirectaBot/sitemap.xml

@@ -1,0 +1,58 @@
+# Publica `web/` en GitHub Pages.
+#
+# Por qué existe este fichero
+# ---------------------------
+# GitHub Pages, configurado como "deploy from a branch", sirve la raíz del repo
+# y la pasa por Jekyll: hoy https://set4jeta.github.io/JetaDirectaBot/ devuelve
+# el README convertido en página, y /ligas.html devuelve 404. La web está en
+# `web/`, que es una subcarpeta que Pages no publica en ese modo.
+#
+# Este workflow cambia el modo a "GitHub Actions" y sube **solo `web/`** como
+# artefacto, así que la raíz del sitio pasa a ser `web/index.html` y todos los
+# enlaces internos (`ligas.html`, `liga-lec.html`, …) resuelven sin tocar nada.
+#
+# El `.nojekyll` es obligatorio: sin él Pages pasa el artefacto por Jekyll, que
+# ignora los ficheros y carpetas que empiezan por `_` y puede romper rutas de
+# `img/`. La web es HTML estático ya generado; Jekyll no tiene nada que hacer.
+name: Publicar web
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - '.github/workflows/publicar-web.yml'
+  # Permite publicar a mano desde la pestaña Actions sin hacer un commit.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Si se empujan dos commits seguidos, que el segundo espere en vez de pelearse
+# con el primero por el despliegue.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Marcar como sitio estático (sin Jekyll)
+        run: touch web/.nojekyll
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - id: despliegue
+        uses: actions/deploy-pages@v4

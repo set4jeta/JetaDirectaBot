@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cómo es el aviso de SoloQ que llega a tu Discord</title>
+  <meta name="description" content="Qué lleva el aviso que publica JetaDirectaBot cuando un profesional entra en SoloQ, cuánto tarda (30 s de intervalo) y por qué el reloj de la partida va por detrás.">
+  <link rel="canonical" href="https://set4jeta.github.io/JetaDirectaBot/avisos.html">
+  <meta property="og:title" content="Cómo es el aviso de SoloQ que llega a tu Discord">
+  <meta property="og:description" content="Qué lleva el aviso que publica JetaDirectaBot cuando un profesional entra en SoloQ, cuánto tarda (30 s de intervalo) y por qué el reloj de la partida va por detrás.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://set4jeta.github.io/JetaDirectaBot/avisos.html">
+  <meta property="og:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cómo es el aviso de SoloQ que llega a tu Discord">
+  <meta name="twitter:description" content="Qué lleva el aviso que publica JetaDirectaBot cuando un profesional entra en SoloQ, cuánto tarda (30 s de intervalo) y por qué el reloj de la partida va por detrás.">
+  <meta name="twitter:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cómo es el aviso de SoloQ que llega a tu Discord",
+    "description": "Qué lleva el aviso que publica JetaDirectaBot cuando un profesional entra en SoloQ, cuánto tarda (30 s de intervalo) y por qué el reloj de la partida va por detrás.",
+    "mainEntityOfPage": "https://set4jeta.github.io/JetaDirectaBot/avisos.html",
+    "datePublished": "2026-09-03",
+    "dateModified": "2026-09-03",
+    "inLanguage": "es-ES",
+    "image": "https://set4jeta.github.io/JetaDirectaBot/og.png",
+    "author": {
+      "@type": "Organization",
+      "name": "JetaDirectaBot"
+    },
+    "publisher": {
+      "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Cómo son los avisos",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/avisos.html"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tarda en llegar el aviso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El bot comprueba las cuentas cada 30 segundos, así que el aviso llega como máximo 30 segundos después de que la partida aparezca en la API de Riot. La partida en sí ya lleva un poco empezada cuando aparece: eso lo pone Riot, no el bot."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Por qué el tiempo de partida del aviso no coincide con el del juego?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Porque el reloj que devuelve la API es el del servidor de espectadores, que va unos tres minutos por detrás y empieza en negativo. El aviso muestra el tiempo real y avisa aparte de cuándo se puede espectar, en vez de pintar el número tal cual y parecer que está mal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Hace falta ser administrador del servidor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para elegir el canal de avisos sí, hace falta el permiso Gestionar servidor. Para recibirlos en tu chat privado no: se añade el bot a tu cuenta y funciona en cualquier sitio, sin depender de ningún servidor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Puedo recibir solo a un jugador en vez de una liga entera?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Con /seguir y el nombre del pro llegan solo sus partidas al chat privado; con el nombre de una liga, todas las de esa liga."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué pasa si la API de Riot se cae?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se dejan de detectar partidas hasta que vuelva, y /health dice qué fuente está fallando y cuándo se actualizó por última vez. No se inventan avisos ni se reenvían los viejos."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav class="migas" aria-label="Ruta">
+    <div class="envoltura"><a href="index.html">Inicio</a> › <span aria-current="page">Cómo son los avisos</span></div>
+  </nav>
+  <header class="pagina">
+    <div class="envoltura">
+      <h1>Cómo es el aviso que llega a tu Discord</h1>
+    <div class="resumen">
+      <p><strong>En resumen</strong></p>
+      <ul>
+      <li>Un mensaje en tu canal con <b>campeón, rol, Elo, equipo y los diez participantes</b>, en cuanto la partida empieza.</li>
+      <li>El bot mira las cuentas cada <b>30 segundos</b>: ese es el retardo máximo.</li>
+      <li>Funciona en un canal del servidor o en tu chat privado, sin depender de ningún servidor.</li>
+      </ul>
+    </div>
+    </div>
+  </header>
+  <section>
+    <div class="envoltura">
+      <h2>¿Qué información lleva el aviso?</h2>
+      <p class="intro">Esta es la forma del mensaje, con un jugador real de la base de datos del bot. En Discord llega como un embed con la foto del jugador y el logo de su equipo.</p>
+    <div class="embed" role="img" aria-label="Ejemplo de aviso de Vladi en partida">
+      <div class="embed-cabeza">
+        <img class="avatar" src="img/players/Vladi.webp" alt="Vladi" width="64" height="51" loading="lazy" decoding="async">
+        <div>
+          <p class="embed-titulo">🔴 Vladi (J1HUIV#000) está en partida</p>
+          <p class="embed-sub">Equipo: Fnatic</p>
+        </div>
+      </div>
+      <dl class="embed-datos">
+        <dt>Cola</dt><dd>Solo/Duo clasificatoria</dd>
+        <dt>Campeón</dt><dd>Ryze</dd>
+        <dt>Rol</dt><dd>Mid</dd>
+        <dt>Elo</dt><dd>Challenger · 5399 LP</dd>
+        <dt>Transcurrido</dt><dd>2 min</dd>
+      </dl>
+      <p class="embed-pie">Los diez participantes con su rango, un <code>.bat</code> para espectar la partida desde el cliente y el aviso de cuándo estará disponible el modo espectador.</p>
+      <p class="embed-marca">JetaDirectaBot · No avalado por Riot Games</p>
+    </div>
+      <p class="nota">El nombre, la cuenta, el rango y el campeón de este ejemplo son datos reales de Vladi; la partida no. En este despliegue todavía no hay avisos registrados, así que aquí se enseña el formato y no una partida concreta.</p>
+    </div>
+  </section>
+  <section>
+    <div class="envoltura">
+      <h2>¿Cómo se activa?</h2>
+      <ol class="pasos">
+      <li><b>Añades el bot.</b> Un clic y el bot entra en tu servidor. No pide permisos de administrador ni leer el historial.</li>
+      <li><b>Eliges liga y canal.</b> <code>/ligas lec</code> y <code>/setchannel</code> en el canal donde quieras los avisos.</li>
+      <li><b>Ya está.</b> No hay nada más que hacer. El aviso aparece solo cuando alguien entra en cola.</li>
+      </ol>
+    </div>
+  </section>
+  <section>
+    <div class="envoltura">
+      <h2>Preguntas frecuentes</h2>
+      <h3>¿Cuánto tarda en llegar el aviso?</h3>
+      <p>El bot comprueba las cuentas cada 30 segundos, así que el aviso llega como máximo 30 segundos después de que la partida aparezca en la API de Riot. La partida en sí ya lleva un poco empezada cuando aparece: eso lo pone Riot, no el bot.</p>
+      <h3>¿Por qué el tiempo de partida del aviso no coincide con el del juego?</h3>
+      <p>Porque el reloj que devuelve la API es el del servidor de espectadores, que va unos tres minutos por detrás y empieza en negativo. El aviso muestra el tiempo real y avisa aparte de cuándo se puede espectar, en vez de pintar el número tal cual y parecer que está mal.</p>
+      <h3>¿Hace falta ser administrador del servidor?</h3>
+      <p>Para elegir el canal de avisos sí, hace falta el permiso Gestionar servidor. Para recibirlos en tu chat privado no: se añade el bot a tu cuenta y funciona en cualquier sitio, sin depender de ningún servidor.</p>
+      <h3>¿Puedo recibir solo a un jugador en vez de una liga entera?</h3>
+      <p>Sí. Con /seguir y el nombre del pro llegan solo sus partidas al chat privado; con el nombre de una liga, todas las de esa liga.</p>
+      <h3>¿Qué pasa si la API de Riot se cae?</h3>
+      <p>Se dejan de detectar partidas hasta que vuelva, y /health dice qué fuente está fallando y cuándo se actualizó por última vez. No se inventan avisos ni se reenvían los viejos.</p>
+    <div class="anuncio">Espacio reservado para publicidad (sin activar)</div>
+    </div>
+  </section>
+  <section class="cierre">
+    <div class="envoltura">
+      <h2>¿Y si esto te llegara solo?</h2>
+      <p class="intro">JetaDirectaBot publica este aviso en tu canal de Discord —o en tu chat privado— en cuanto el jugador entra en partida, con las 20 ligas del catálogo. Gratis.</p>
+      <div class="botones">
+        <a class="boton primario" href="#" data-sin-url>Añadir a Discord y probarlo</a>
+        <a class="boton" href="avisos.html">Ver cómo es el aviso</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="envoltura">
+      <nav>
+      <a href="index.html">Inicio</a>
+      <a href="ligas.html">Ligas</a>
+      <a href="avisos.html">Cómo son los avisos</a>
+      <a href="alternativas-bots-lol-discord.html">Comparativa</a>
+      <a href="legal.html">Términos y privacidad</a>
+      </nav>
+      <p class="legal">JetaDirectaBot no está avalado por Riot Games y no refleja las opiniones ni los puntos de vista de Riot Games ni de nadie involucrado oficialmente en la producción o gestión de las propiedades de Riot Games. Riot Games y todas sus propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.<br><br><em>JetaDirectaBot isn&#x27;t endorsed by Riot Games and doesn&#x27;t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</em></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,315 @@
+/* =====================================================================
+ * JetaDirectaBot · Tema "Arena" (esports)
+ * ----------------------------------------------------------------
+ * Hoja complementaria a styles.css. Se carga DESPUÉS para que sus
+ * reglas esports (neón, esquinas cortadas, glow) ganen a las base.
+ *
+ * No toca el tema de lectura de las páginas interiores: index.html y
+ * socios.html usan esta hoja; ligas.html/avisos.html siguen con la
+ * styles.css original para no romper el SEO de contenido.
+ * ===================================================================== */
+
+:root {
+  --neon: #00e5ff;          /* cian eléctrico */
+  --neon-2: #ff2d75;        /* magenta esports */
+  --oro: #ffcf3a;
+  --verde: #1f8b4c;
+  --fondo: #07090f;
+  --fondo-2: #0c1018;
+  --fondo-3: #121826;
+  --borde: #1d2638;
+  --texto: #eaf2ff;
+  --texto-suave: #93a3bd;
+  --ancho: 1100px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body.arena {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Fondo de rejilla + glow, típico de overlays de esports */
+body.arena::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(1200px 600px at 15% -10%, rgba(0, 229, 255, 0.16), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgba(255, 45, 117, 0.14), transparent 55%),
+    linear-gradient(180deg, var(--fondo) 0%, var(--fondo-2) 100%);
+}
+body.arena::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(120, 160, 220, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 160, 220, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(900px 600px at 50% 0%, #000 30%, transparent 80%);
+}
+
+.arena .envoltura { max-width: var(--ancho); margin: 0 auto; padding: 0 20px; }
+
+/* ---------- Barra superior ---------- */
+.arena .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 12px 20px;
+  background: rgba(7, 9, 15, 0.82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--borde);
+}
+.arena .topbar .marca {
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  font-size: 1.05rem;
+}
+.arena .topbar .marca b { color: var(--neon); }
+.arena .topbar nav {
+  margin-left: auto;
+  display: flex;
+  gap: 18px;
+  font-size: 0.9rem;
+}
+.arena .topbar nav a { color: var(--texto-suave); text-decoration: none; }
+.arena .topbar nav a:hover { color: var(--neon); }
+
+/* ---------- Hero ---------- */
+.arena .hero {
+  position: relative;
+  padding: 90px 0 70px;
+  text-align: center;
+}
+.arena .hero .onair {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  border: 1px solid rgba(0, 229, 255, 0.5);
+  border-radius: 999px;
+  background: rgba(0, 229, 255, 0.08);
+  color: var(--neon);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.arena .hero .onair .punto {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--neon);
+  box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.7);
+  animation: pulso 1.6s infinite;
+}
+@keyframes pulso {
+  0%   { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.6); }
+  70%  { box-shadow: 0 0 0 12px rgba(0, 229, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0); }
+}
+.arena .hero h1 {
+  margin: 22px 0 10px;
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.arena .hero h1 .grad {
+  background: linear-gradient(90deg, var(--neon), var(--neon-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.arena .hero .lema {
+  max-width: 680px;
+  margin: 0 auto 30px;
+  color: var(--texto-suave);
+  font-size: 1.12rem;
+}
+.arena .hero .botones {
+  display: flex; flex-wrap: wrap; gap: 14px; justify-content: center;
+}
+
+/* Botón esports: esquina cortada + glow */
+.arena .btn {
+  --c: var(--neon);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 26px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #06121a;
+  background: var(--c);
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 0 18px rgba(0, 229, 255, 0.35);
+}
+.arena .btn:hover { transform: translateY(-2px); box-shadow: 0 0 28px rgba(0, 229, 255, 0.6); }
+.arena .btn.sec {
+  color: var(--texto);
+  background: transparent;
+  border: 1px solid var(--borde);
+  box-shadow: none;
+}
+.arena .btn.sec:hover { border-color: var(--neon); color: var(--neon); }
+.arena .btn.magenta { --c: var(--neon-2); box-shadow: 0 0 18px rgba(255, 45, 117, 0.4); }
+
+/* ---------- Stats ---------- */
+.arena .stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+  margin: 50px 0 10px;
+}
+.arena .stat {
+  padding: 20px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--fondo-3), var(--fondo-2));
+  text-align: center;
+}
+.arena .stat .n {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--neon);
+  font-variant-numeric: tabular-nums;
+}
+.arena .stat .l { color: var(--texto-suave); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+/* ---------- Secciones ---------- */
+.arena section { padding: 60px 0; }
+.arena section h2 {
+  margin: 0 0 6px;
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+.arena section h2 .res {
+  color: var(--neon);
+}
+.arena .sub { color: var(--texto-suave); margin: 0 0 30px; }
+
+/* Tarjetas esports con esquina cortada */
+.arena .grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.arena .card {
+  position: relative;
+  padding: 22px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: var(--fondo-3);
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.arena .card:hover { border-color: var(--neon); transform: translateY(-3px); }
+.arena .card .ico {
+  width: 42px; height: 42px;
+  display: grid; place-items: center;
+  border-radius: 10px;
+  background: rgba(0, 229, 255, 0.12);
+  color: var(--neon);
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+.arena .card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+.arena .card p { margin: 0; color: var(--texto-suave); font-size: 0.94rem; }
+
+/* ---------- Ticker de equipos ---------- */
+.arena .teams {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+.arena .team {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 14px;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: var(--fondo-2);
+  font-size: 0.9rem;
+}
+.arena .team img { width: 28px; height: 28px; border-radius: 6px; }
+
+/* ---------- Live feed placeholder ---------- */
+.arena .feed {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+.arena .feed .vacio {
+  padding: 28px;
+  text-align: center;
+  border: 1px dashed var(--borde);
+  border-radius: 12px;
+  color: var(--texto-suave);
+}
+
+/* ---------- Sponsors CTA ---------- */
+.arena .sponsor-cta {
+  margin-top: 40px;
+  padding: 40px;
+  border: 1px solid rgba(255, 45, 117, 0.4);
+  border-radius: 16px;
+  background:
+    radial-gradient(600px 240px at 85% 0%, rgba(255, 45, 117, 0.14), transparent 60%),
+    var(--fondo-3);
+  text-align: center;
+}
+.arena .sponsor-cta h2 { color: var(--neon-2); }
+
+/* ---------- Footer ---------- */
+.arena footer {
+  padding: 44px 0 60px;
+  border-top: 1px solid var(--borde);
+  color: var(--texto-suave);
+  font-size: 0.86rem;
+}
+.arena footer nav { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 14px; }
+.arena footer nav a { color: var(--texto-suave); text-decoration: none; }
+.arena footer nav a:hover { color: var(--neon); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 560px) {
+  .arena .topbar nav { display: none; }
+  .arena .hero { padding: 60px 0 40px; }
+}
+
+/* Sponsors page specifics */
+.arena .plan-grid {
+  display: grid; gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.arena .plan {
+  padding: 26px;
+  border: 1px solid var(--borde);
+  border-radius: 14px;
+  background: var(--fondo-3);
+}
+.arena .plan.dest { border-color: var(--neon-2); box-shadow: 0 0 24px rgba(255, 45, 117, 0.18); }
+.arena .plan .precio { color: var(--oro); font-weight: 800; font-size: 1.5rem; }
+.arena .plan ul { color: var(--texto-suave); padding-left: 18px; font-size: 0.92rem; }
+.arena .plan .tag {
+  display: inline-block; margin-bottom: 10px; padding: 3px 10px;
+  border-radius: 999px; background: rgba(255, 45, 117, 0.16);
+  color: var(--neon-2); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+}

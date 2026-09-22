@@ -1,0 +1,555 @@
+/* Estilos de la web de JetaDirectaBot.
+ *
+ * Una sola hoja para las dos páginas. Sin framework y sin build: la web es
+ * estática a propósito, para que se pueda publicar gratis en GitHub Pages o
+ * Cloudflare Pages y no haya un servidor más que mantener ni que pagar.
+ *
+ * Tema oscuro fijo, no por gusto: la superficie que la gente ya conoce es el
+ * embed dentro de Discord, y una landing clara con capturas oscuras se ve
+ * incoherente. Los colores salen del propio bot (COLOR = 0x1F8B4C en /help). */
+
+:root {
+  --fondo: #0f1115;
+  --fondo-alto: #161a21;
+  --borde: #262c36;
+  --texto: #e6e9ef;
+  --texto-suave: #9aa4b2;
+  --verde: #1f8b4c;
+  --verde-claro: #2ecc71;
+  --oro: #f1c40f;
+  --ancho: 960px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+a { color: var(--verde-claro); }
+a:hover { color: var(--oro); }
+
+.envoltura {
+  max-width: var(--ancho);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header.principal {
+  padding: 72px 0 56px;
+  text-align: center;
+  border-bottom: 1px solid var(--borde);
+  background:
+    radial-gradient(900px 320px at 50% -80px, rgba(31, 139, 76, 0.28), transparent);
+}
+
+header.principal h1 {
+  margin: 0 0 8px;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.02em;
+}
+
+.lema {
+  margin: 0 auto 28px;
+  max-width: 660px;
+  color: var(--texto-suave);
+  font-size: 1.1rem;
+}
+
+/* Botones. El primario es el de invitar: es la única acción que importa en la
+ * página, así que no compite con nada más del mismo color. */
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.boton {
+  display: inline-block;
+  padding: 13px 24px;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: var(--fondo-alto);
+  color: var(--texto);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.boton:hover { border-color: var(--verde-claro); color: var(--texto); }
+
+.boton.primario {
+  background: var(--verde);
+  border-color: var(--verde);
+  color: #fff;
+}
+.boton.primario:hover { background: var(--verde-claro); border-color: var(--verde-claro); color: #06210f; }
+
+/* Un enlace sin configurar no se enseña roto: `data-sin-url` lo apaga desde el
+ * propio HTML, para que la web se pueda publicar antes de tener el invite. */
+.boton[data-sin-url] {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+section { padding: 56px 0; border-bottom: 1px solid var(--borde); }
+section h2 { margin: 0 0 6px; font-size: 1.6rem; }
+section > .envoltura > p.intro { margin: 0 0 28px; color: var(--texto-suave); }
+
+.rejilla {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.tarjeta {
+  padding: 20px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: var(--fondo-alto);
+}
+.tarjeta h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.tarjeta p { margin: 0; color: var(--texto-suave); font-size: 0.95rem; }
+.tarjeta code {
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: #0b0d11;
+  color: var(--verde-claro);
+  font-size: 0.9em;
+}
+
+/* Ligas: son 20 y crecen, así que van como etiquetas y no como tabla. */
+.ligas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0 0 16px;
+  list-style: none;
+}
+.ligas li {
+  padding: 6px 12px;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  background: var(--fondo-alto);
+  font-size: 0.9rem;
+}
+.ligas li b { color: var(--verde-claro); font-weight: 600; }
+
+.nota {
+  padding: 14px 16px;
+  border: 1px solid var(--borde);
+  border-left: 3px solid var(--oro);
+  border-radius: 8px;
+  background: var(--fondo-alto);
+  color: var(--texto-suave);
+  font-size: 0.92rem;
+}
+
+/* Planes. El gratuito va marcado porque la política de Riot exige un tier
+ * gratis y porque es el que hay que ver primero. */
+.planes { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.plan {
+  padding: 22px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: var(--fondo-alto);
+}
+.plan.destacado { border-color: var(--verde); }
+.plan h3 { margin: 0 0 2px; }
+.plan .precio { margin: 0 0 14px; color: var(--oro); font-weight: 600; }
+.plan ul { margin: 0; padding-left: 18px; color: var(--texto-suave); font-size: 0.94rem; }
+.plan .etiqueta {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: rgba(31, 139, 76, 0.18);
+  color: var(--verde-claro);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Hueco reservado para el anuncio. Tiene tamaño propio para que la página no
+ * salte cuando el script de AdSense mete el iframe (CLS), y no hay ningún
+ * script de terceros cargado por defecto: ver el comentario del HTML. */
+.anuncio {
+  min-height: 100px;
+  margin: 40px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--borde);
+  border-radius: 10px;
+  color: #5b6472;
+  font-size: 0.82rem;
+}
+
+footer {
+  padding: 40px 0 56px;
+  color: var(--texto-suave);
+  font-size: 0.88rem;
+}
+footer nav { margin-bottom: 14px; display: flex; flex-wrap: wrap; gap: 16px; }
+footer .legal { max-width: 760px; font-size: 0.8rem; line-height: 1.6; color: #6f7887; }
+
+/* Páginas legales: columna estrecha, que es texto para leer.
+ *
+ * Dos niveles de título a propósito: `h2` son los dos documentos (términos y
+ * privacidad) y `h3` sus apartados numerados. Antes eran todos `h2`, así que un
+ * lector de pantalla anunciaba "Política de privacidad" y "1. Quién responde"
+ * al mismo nivel y no había forma de saber dónde acababa un documento. */
+.documento { max-width: 760px; padding: 48px 20px 72px; margin: 0 auto; }
+.documento h1 { font-size: 1.9rem; }
+.documento h2 {
+  margin-top: 48px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--borde);
+  font-size: 1.45rem;
+  color: var(--verde-claro);
+}
+.documento h3 { margin-top: 30px; font-size: 1.05rem; }
+.documento .fecha { color: var(--texto-suave); font-size: 0.88rem; }
+.documento table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.92rem; }
+.documento th, .documento td {
+  padding: 10px 12px;
+  border: 1px solid var(--borde);
+  text-align: left;
+  vertical-align: top;
+}
+.documento th { background: var(--fondo-alto); }
+
+/* ===================================================================== *
+ * Páginas interiores (ligas, avisos, comparativa, 404)
+ * ===================================================================== *
+ *
+ * Sin tipografía web y por tanto sin `@font-face`. La lista de SEO pide
+ * `font-display: swap`, y la forma de cumplirlo sin coste es no descargar
+ * ninguna fuente: `system-ui` ya está en el dispositivo, así que no hay texto
+ * invisible que "swappear" ni una petición más que bloquee el pintado. Si
+ * algún día se añade una fuente propia, `test_web.py` obliga a que su
+ * `@font-face` lleve `font-display: swap`. */
+
+/* La cabecera de una página interior no es la portada: no lleva degradado ni
+ * 72px de aire. Quien llega aquí desde Google viene a por un dato, y cuanto
+ * antes lo vea, mejor. */
+header.pagina {
+  padding: 40px 0 32px;
+  border-bottom: 1px solid var(--borde);
+}
+header.pagina h1 {
+  margin: 0 0 8px;
+  font-size: clamp(1.6rem, 4vw, 2.3rem);
+  letter-spacing: -0.02em;
+}
+header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
+
+/* Migas. Pequeñas y sin adorno: son orientación, no navegación principal. */
+.migas {
+  padding: 14px 0 0;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+}
+.migas a { color: var(--texto-suave); text-decoration: none; }
+.migas a:hover { color: var(--verde-claro); }
+.migas [aria-current="page"] { color: var(--texto); }
+
+/* El bloque "En resumen" (TL;DR). Es el que se lee y el que se cita, así que
+ * está delimitado a la vista igual que lo está en el HTML. */
+.resumen {
+  margin: 0;
+  padding: 18px 20px;
+  border: 1px solid var(--borde);
+  border-left: 3px solid var(--verde);
+  border-radius: 10px;
+  background: var(--fondo-alto);
+}
+.resumen > p { margin: 0 0 8px; color: var(--verde-claro); font-size: 0.82rem;
+  text-transform: uppercase; letter-spacing: 0.08em; }
+.resumen ul { margin: 0; padding-left: 20px; color: var(--texto-suave); }
+.resumen li { margin: 4px 0; }
+.resumen b { color: var(--texto); }
+
+/* Tablas de datos. `tabular-nums` en las columnas numéricas para que los
+ * dígitos no bailen de fila en fila. */
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+.tabla th, .tabla td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--borde);
+  text-align: left;
+  vertical-align: middle;
+}
+.tabla thead th {
+  position: sticky;
+  top: 0;
+  background: var(--fondo-alto);
+  color: var(--texto-suave);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.tabla tbody tr:hover { background: rgba(31, 139, 76, 0.07); }
+.tabla .pos { width: 2.4rem; color: var(--texto-suave); font-variant-numeric: tabular-nums; }
+.tabla .rango { color: var(--oro); white-space: nowrap; }
+.tabla .cuenta { color: var(--texto-suave); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; }
+.tabla b { font-weight: 600; }
+
+/* Fotos dentro de una tabla o una tarjeta. El `<img>` ya trae `width` y
+ * `height` reales medidos en la generación, así que aquí solo se limita el
+ * tamaño; `height: auto` evita deformarlas cuando el CSS y el atributo no
+ * coinciden. */
+.mini, .logo, .avatar {
+  height: auto;
+  vertical-align: middle;
+  border-radius: 6px;
+  background: #0b0d11;
+}
+.mini { width: 28px; margin-right: 8px; }
+.logo { max-width: 48px; max-height: 48px; width: auto; border-radius: 8px; }
+.avatar { width: 64px; border-radius: 10px; }
+
+/* Una tabla de 6 columnas no cabe en un móvil. En vez de esconder columnas
+ * —que sería esconder datos—, se hace desplazable en horizontal. */
+.scroll-x {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-x .tabla { min-width: 720px; }
+
+/* Comparativa: nuestra columna marcada, y las de los rivales sin adornar. */
+.comparativa th[scope="row"] {
+  min-width: 8rem;
+  color: var(--texto-suave);
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+.comparativa .propio {
+  background: rgba(31, 139, 76, 0.1);
+  border-left: 2px solid var(--verde);
+  border-right: 1px solid var(--borde);
+}
+.comparativa thead th:nth-child(2) { color: var(--verde-claro); }
+
+/* Equipos de una liga. */
+.equipos {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.equipo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: var(--fondo-alto);
+  font-size: 0.9rem;
+}
+.equipo b { color: var(--verde-claro); }
+.equipo span { margin-left: auto; color: var(--texto-suave); font-size: 0.8rem; white-space: nowrap; }
+
+/* Próximos partidos: los «cuadraditos». Rejilla de tarjetas pequeñas agrupadas
+ * por día, porque la pregunta que trae a alguien aquí es «¿juega hoy?» y una
+ * lista de 93 filas seguidas no la contesta.
+ *
+ * `minmax(190px, 1fr)`: caben cuatro en escritorio y dos en un móvil de 360 px
+ * sin media query. El ancho mínimo lo fija el contenido más largo, que es la
+ * línea de etiquetas («Playoffs · Bo5»). */
+.dia {
+  margin: 26px 0 10px;
+  color: var(--texto-suave);
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+.dia:first-child { margin-top: 0; }
+.partidos {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.partido {
+  padding: 12px 14px;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: var(--fondo-alto);
+  font-size: 0.9rem;
+}
+.partido .cuando {
+  margin: 0 0 8px;
+  color: var(--texto-suave);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+.partido .lado {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+}
+.partido .lado b { color: var(--texto); font-weight: 600; }
+.partido .lado span { margin-left: auto; color: var(--texto-suave); font-size: 0.8rem; }
+.partido .etiquetas {
+  margin: 8px 0 0;
+  padding-top: 8px;
+  border-top: 1px solid var(--borde);
+  color: var(--texto-suave);
+  font-size: 0.78rem;
+}
+/* «en juego» es el único estado que cambia solo, así que es lo único que va en
+ * color. Sin animación: un punto que late en 20 tarjetas es ruido. */
+.partido .vivo {
+  color: var(--verde-claro);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* El histórico de avisos publicados. Es una `.tabla` normal con dos cosas
+ * propias: la columna de la hora no se parte nunca (una fecha cortada en dos
+ * líneas deja de leerse de un golpe) y va en cifras tabulares para que las
+ * filas se puedan comparar en vertical.
+ *
+ * `.cuando` lleva el `<time datetime>` con la marca ISO completa; lo que se ve
+ * es la versión corta en UTC. */
+.tabla.avisos .cuando {
+  color: var(--texto-suave);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.tabla.avisos .cuando time { border-bottom: 1px dotted var(--borde); }
+
+/* El aviso de ejemplo, imitando un embed de Discord.
+ *
+ * Es HTML y no una captura por dos motivos: pesa 2 kB en vez de 80, y el texto
+ * que lleva dentro (nombre, cuenta, rango) es texto real que se indexa y que un
+ * modelo puede leer. Una captura de pantalla es opaca para los dos.
+ *
+ * La barra verde de la izquierda es la del propio bot (COLOR = 0x1F8B4C). */
+.embed {
+  max-width: 480px;
+  padding: 14px 16px;
+  border: 1px solid var(--borde);
+  border-left: 4px solid var(--verde);
+  border-radius: 8px;
+  background: #1a1d23;
+  font-size: 0.92rem;
+}
+.embed-cabeza { display: flex; align-items: center; gap: 12px; }
+.embed-titulo { margin: 0; color: var(--verde-claro); font-weight: 600; }
+.embed-sub { margin: 2px 0 0; color: var(--texto-suave); font-size: 0.85rem; }
+.embed-datos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 14px;
+  margin: 14px 0 0;
+  font-size: 0.88rem;
+}
+.embed-datos dt { color: var(--texto-suave); }
+.embed-datos dd { margin: 0; }
+.embed-pie {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--borde);
+  color: var(--texto-suave);
+  font-size: 0.84rem;
+}
+.embed-pie code {
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: #0b0d11;
+  color: var(--verde-claro);
+  font-size: 0.9em;
+}
+.embed-marca { margin: 10px 0 0; color: #6f7887; font-size: 0.75rem; }
+
+/* Los pasos de activación. Numerados de verdad con `<ol>`: el orden es parte
+ * de la información. */
+.pasos { margin: 0; padding-left: 22px; color: var(--texto-suave); }
+.pasos li { margin: 10px 0; }
+.pasos b, .pasos code { color: var(--texto); }
+.pasos code {
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: #0b0d11;
+  color: var(--verde-claro);
+  font-size: 0.9em;
+}
+
+/* Lista de enlaces sin viñeta (la salida del 404). */
+.lista-simple { padding: 0; margin: 0; list-style: none; }
+.lista-simple li { padding: 8px 0; border-bottom: 1px solid var(--borde); }
+
+/* Enlaces laterales entre ligas hermanas. Van en rejilla y no en columna
+ * porque son cuatro destinos equivalentes: apilados, el primero se lee como
+ * el principal, y aquí ninguno lo es. */
+.vecinas {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.vecinas li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: var(--fondo-alto);
+  font-size: 0.94rem;
+}
+.vecinas a { color: var(--texto); text-decoration: none; }
+.vecinas li:hover { border-color: var(--verde-claro); }
+.vecinas li:hover a { color: var(--verde-claro); }
+.vecinas span {
+  margin-left: auto;
+  color: var(--texto-suave);
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+/* El cierre. Es la conversión, así que se separa del contenido con fondo
+ * propio en vez de ser otra sección más. */
+.cierre {
+  background:
+    radial-gradient(700px 240px at 50% 0, rgba(31, 139, 76, 0.16), transparent);
+}
+.cierre h2 { font-size: 1.45rem; }
+.cierre .botones { justify-content: flex-start; margin-top: 20px; }
+.cierre .nota { margin-top: 20px; }
+
+@media (max-width: 560px) {
+  header.principal { padding: 48px 0 40px; }
+  header.pagina { padding: 28px 0 24px; }
+  section { padding: 40px 0; }
+  .tabla th, .tabla td { padding: 8px 9px; }
+  .equipos { grid-template-columns: 1fr; }
+  .embed-datos { grid-template-columns: 1fr; gap: 2px; }
+  .embed-datos dt { margin-top: 8px; }
+}
+
+
+

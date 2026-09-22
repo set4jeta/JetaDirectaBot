@@ -1,0 +1,76 @@
+{
+  "project": {
+    "name": "JetaDirectaBot",
+    "description": "Bot de Discord en Python para trackear jugadores profesionales/amateur de League of Legends (Riot API), partidas en vivo de SoloQ y calendario competitivo de LoL Esports."
+  },
+  "defaults": {
+    "sourceRoot": ".",
+    "outputDir": ".archify"
+  },
+  "skillInstall": {
+    "mode": "project",
+    "platform": "codex",
+    "platforms": [
+      "codex",
+      "claude-code"
+    ],
+    "installedAt": "2026-08-31T17:34:48.831Z",
+    "version": 1,
+    "target": {
+      "platform": "codex",
+      "path": "C:\\jetabot res 8\\JetaDirectaBot\\.agents\\skills\\archify",
+      "projectRoot": "C:\\jetabot res 8\\JetaDirectaBot"
+    },
+    "targets": [
+      {
+        "platform": "codex",
+        "path": "C:\\jetabot res 8\\JetaDirectaBot\\.agents\\skills\\archify",
+        "projectRoot": "C:\\jetabot res 8\\JetaDirectaBot"
+      },
+      {
+        "platform": "claude-code",
+        "path": "C:\\jetabot res 8\\JetaDirectaBot\\.claude\\skills\\archify",
+        "projectRoot": "C:\\jetabot res 8\\JetaDirectaBot"
+      }
+    ]
+  },
+  "analysis": {
+    "enabled": true,
+    "pipeline": {
+      "detect": true,
+      "extract": true,
+      "build": true,
+      "cluster": true,
+      "analyze": true,
+      "export": true
+    },
+    "detect": {
+      "followSymlinks": false,
+      "includeHidden": false,
+      "maxFileSizeBytes": 1048576,
+      "includeGlobs": [],
+      "excludeGlobs": []
+    },
+    "semantic": {
+      "enabled": false,
+      "mode": "docs_first",
+      "includeFileTypes": [
+        "document"
+      ],
+      "includeExtensions": [
+        ".md",
+        ".mdx",
+        ".txt",
+        ".rst"
+      ],
+      "maxDocumentBytes": 262144,
+      "maxChunksPerDocument": 32,
+      "maxChunkBytes": 8192,
+      "backend": "none"
+    }
+  },
+  "languageScope": {
+    "include": [],
+    "exclude": []
+  }
+}

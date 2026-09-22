@@ -1,7 +1,104 @@
+# Blueprint de Render para JetaDirectaBot.
+#
+# Se usa al crear el servicio con **New → Blueprint** (Render lee este fichero
+# del repo). Si el servicio se crea a mano con **New → Web Service**, Render
+# ignora este fichero y hay que rellenar los campos en el panel; el resultado
+# tiene que ser el mismo que está aquí.
+#
+# Lo que NO se puede poner aquí y hay que hacer en el panel de Render:
+#   · Las variables marcadas con `sync: false` se piden **solo al crear** el
+#     Blueprint. Si añades una después, se ignora: se mete a mano en
+#     Environment → Environment Variables.
+#   · El plan se puede cambiar después sin tocar el repo.
+#
+# Aviso importante sobre `plan: free` (ver DESPLIEGUE.md §6):
+#   Un servicio web gratuito se **duerme a los 15 minutos sin tráfico entrante**
+#   y tarda ~1 minuto en volver. Un bot de Discord no recibe tráfico entrante
+#   nunca, así que en el plan gratuito se duerme solo y deja de avisar. Además
+#   son 0,1 CPU y 512 MB, y Render puede suspender el servicio si genera mucho
+#   tráfico de salida (este bot hace ~130 llamadas a Riot cada 30 s).
+#   Para que esté siempre despierto hace falta un plan de pago (0.5c-512mb).
+
 services:
   - type: web
-    name: discord-bot
-    env: python
+    name: jetadirecta-bot
+    runtime: python
     plan: free
+    # Frankfurt: el bot vive de la API europea (EUW1) y de dpm.lol. Oregón añade
+    # ~120 ms por petición, y el tracker hace miles.
+    region: frankfurt
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
+    # `keep_alive.py` sirve "Bot is alive!" en `/`, y respeta `$PORT`.
+    healthCheckPath: /
+    autoDeploy: true
+
+    # La versión de Python la fija el fichero `.python-version` de la raíz
+    # (3.13), que es la que se ha probado. Sin él, Render usaría 3.14 por
+    # defecto en servicios creados a partir del 2026-02-11, y no está probado.
+
+    envVars:
+      # --- Obligatorias -------------------------------------------------
+      # `config.missing_required()` las exige: sin ellas el bot sale con
+      # código 1 y lo dice en el log en vez de fallar a media ejecución.
+      - key: RIOT_API_KEY
+        sync: false
+      - key: DISCORD_TOKEN
+        sync: false
+
+      # --- Marca y enlaces públicos -------------------------------------
+      # Salen en `/help`, `/premium` y en la web. Vacíos a propósito: el bot
+      # omite el enlace que no está en vez de enseñar uno roto. Rellénalos en
+      # el panel cuando los tengas; el más importante es BOT_INVITE_URL, que es
+      # el botón "Añadir a Discord" de la web.
+      - key: BOT_NOMBRE
+        value: JetaDirectaBot
+      - key: BOT_INVITE_URL
+        value: ""
+      - key: BOT_WEB_URL
+        value: https://set4jeta.github.io/JetaDirectaBot/
+      - key: BOT_DONATE_URL
+        value: ""
+      - key: BOT_SOPORTE_URL
+        value: ""
+
+      # --- Opcionales ---------------------------------------------------
+      # Tienen valor por defecto en `config.py`. Solo hay que ponerlas si Riot
+      # rota la clave pública o si se usa el detector de ganador por chat.
+      # - key: LOL_API_KEY
+      #   sync: false
+      # - key: FIREBASE_API_KEY
+      #   sync: false
+      # - key: TWITCH_OAUTH_TOKEN
+      #   sync: false
+
+      # --- Ajustes que conviene vigilar en producción -------------------
+      # Nivel de detalle del log. INFO es lo razonable; DEBUG llena el log.
+      - key: LOG_LEVEL
+        value: INFO
+
+    # SOBRE LA PERSISTENCIA (leer antes de tocar nada; ver DESPLIEGUE.md §7)
+    #
+    # El bot guarda su estado en JSON **dentro de la carpeta del código**
+    # (`tracking/soloq/`): `notify_config.json` (qué servidores reciben avisos),
+    # `users_config.json` (suscripciones por DM), `plans_users.json` (planes de
+    # pago dados a mano), `accounts*.json`, `announced_games.json`.
+    #
+    # El disco persistente de Render se monta como una carpeta que **tapa** lo
+    # que hubiera debajo. Montarlo en `tracking/soloq` escondería también
+    # `leagues.py`, `plans.py` y `notifier.py` → el bot no arrancaría. Así que
+    # NO se puede añadir un disco sin antes mover esos JSON a una carpeta
+    # aparte (por ejemplo `datos/`) y hacer que las rutas se lean de una
+    # variable de entorno. Está sin hacer.
+    #
+    # En el plan gratuito los discos no existen, y además el servicio se duerme
+    # a los 15 min: cada arranque en frío pierde los cambios locales. El único
+    # fichero que sobrevive a un redespliegue es el que está **commiteado**:
+    # `notify_config.json` sí lo está (con los 2 servidores actuales), así que
+    # los avisos a canal vuelven solos. `users_config.json` y `plans_users.json`
+    # no, y se pierden.
+    #
+    # disk:
+    #   name: datos-bot
+    #   mountPath: /opt/render/datos
+    #   sizeGB: 1

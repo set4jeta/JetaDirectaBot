@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Las 20 ligas de LoL que puedes seguir en Discord</title>
+  <meta name="description" content="Catálogo de las 20 ligas profesionales de League of Legends que JetaDirectaBot sigue, con cuántos jugadores y equipos tiene cada una y cuáles permiten avisos de partida en vivo.">
+  <link rel="canonical" href="https://set4jeta.github.io/JetaDirectaBot/ligas.html">
+  <meta property="og:title" content="Las 20 ligas de LoL que puedes seguir en Discord">
+  <meta property="og:description" content="Catálogo de las 20 ligas profesionales de League of Legends que JetaDirectaBot sigue, con cuántos jugadores y equipos tiene cada una y cuáles permiten avisos de partida en vivo.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://set4jeta.github.io/JetaDirectaBot/ligas.html">
+  <meta property="og:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Las 20 ligas de LoL que puedes seguir en Discord">
+  <meta name="twitter:description" content="Catálogo de las 20 ligas profesionales de League of Legends que JetaDirectaBot sigue, con cuántos jugadores y equipos tiene cada una y cuáles permiten avisos de partida en vivo.">
+  <meta name="twitter:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Las 20 ligas de LoL que puedes seguir en Discord",
+    "description": "Catálogo de las 20 ligas profesionales de League of Legends que JetaDirectaBot sigue, con cuántos jugadores y equipos tiene cada una y cuáles permiten avisos de partida en vivo.",
+    "mainEntityOfPage": "https://set4jeta.github.io/JetaDirectaBot/ligas.html",
+    "datePublished": "2026-09-03",
+    "dateModified": "2026-09-03",
+    "inLanguage": "es-ES",
+    "image": "https://set4jeta.github.io/JetaDirectaBot/og.png",
+    "author": {
+      "@type": "Organization",
+      "name": "JetaDirectaBot"
+    },
+    "publisher": {
+      "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ligas",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/ligas.html"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuántas ligas se pueden seguir a la vez?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un servidor puede seguir hasta 4 ligas simultáneas. No es una decisión comercial: es el techo que impone el cupo de peticiones de la API de Riot para que la pasada de detección quepa en su intervalo. El plan gratuito sigue una."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Por qué la LPL no tiene avisos en vivo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Porque los jugadores chinos juegan en servidores que la API de Riot no expone. De la LPL se pueden ver rangos y clasificación, pero no detectar la partida en curso, así que no se promete."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿De dónde salen estos números de jugadores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De medir el leaderboard de cada liga: 919 jugadores distintos entre las 20, medidos el 2026-09-03. Es la misma medición con la que se fijó el tope de ligas por servidor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué diferencia hay entre una liga con ranking y una con cuentas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El ranking sale del leaderboard de la liga: nombre, equipo, rol, Elo, victorias y KDA de 919 jugadores. Las cuentas hay que indexarlas jugador por jugador y añaden el Riot ID de cada uno y su historial de campeones con partidas y daño por minuto. Eso segundo está hecho en la LEC y se hace en una liga cuando un servidor la sigue."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav class="migas" aria-label="Ruta">
+    <div class="envoltura"><a href="index.html">Inicio</a> › <span aria-current="page">Ligas</span></div>
+  </nav>
+  <header class="pagina">
+    <div class="envoltura">
+      <h1>Las 20 ligas que se pueden seguir</h1>
+    <div class="resumen">
+      <p><strong>En resumen</strong></p>
+      <ul>
+      <li><b>20 ligas</b> en el catálogo y <b>919 jugadores profesionales</b> medidos entre todas.</li>
+      <li>20 tienen ya el ranking de Elo publicado, con su equipo, su rol y su racha de victorias.</li>
+      <li>19 permiten detectar la partida en vivo; la LPL solo da rangos porque China no está en la API de Riot.</li>
+      <li>Cada servidor de Discord elige hasta 4 a la vez.</li>
+      </ul>
+    </div>
+    </div>
+  </header>
+  <section>
+    <div class="envoltura">
+      <h2>Todas las ligas, por número de jugadores</h2>
+      <table class="tabla">
+        <thead>
+          <tr><th>Liga</th><th>Región</th><th>Jugadores</th><th>Equipos</th><th>Qué hay publicado</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><a href="liga-nlc.html"><b>NLC</b></a></td>
+          <td>Norte de Europa</td>
+          <td>74</td>
+          <td>15</td>
+          <td>ranking de 74</td>
+        </tr>
+        <tr>
+          <td><a href="liga-lpl.html"><b>LPL</b></a></td>
+          <td>China</td>
+          <td>62</td>
+          <td>12</td>
+          <td>ranking de 62</td>
+        </tr>
+        <tr>
+          <td><a href="liga-msi.html"><b>MSI</b></a></td>
+          <td>Internacional</td>
+          <td>57</td>
+          <td>11</td>
+          <td>ranking de 57</td>
+        </tr>
+        <tr>
+          <td><a href="liga-lck.html"><b>LCK</b></a></td>
+          <td>Corea</td>
+          <td>55</td>
+          <td>10</td>
+          <td>ranking de 55</td>
+        </tr>
+        <tr>
+          <td><a href="liga-prm.html"><b>Prime League</b></a></td>
+          <td>Alemania</td>
+          <td>55</td>
+          <td>10</td>
+          <td>ranking de 55</td>
+        </tr>
+        <tr>
+          <td><a href="liga-lfl.html"><b>LFL</b></a></td>
+          <td>Francia</td>
+          <td>52</td>
+          <td>10</td>
+          <td>ranking de 52</td>
+        </tr>
+        <tr>
+          <td><a href="liga-lec.html"><b>LEC</b></a></td>
+          <td>Europa</td>
+          <td>50</td>
+          <td>10</td>
+          <td>50 con cuenta y Elo</td>
+        </tr>
+        <tr>
+          <td><a href="liga-cd.html"><b>Circuito Desafiante</b></a></td>
+          <td>Brasil</td>
+          <td>45</td>
+          <td>10</td>
+          <td>ranking de 45</td>
+        </tr>
+        <tr>
+          <td><a href="liga-rol.html"><b>Road of Legends</b></a></td>
+          <td>Benelux</td>
+          <td>43</td>
+          <td>8</td>
+          <td>ranking de 43</td>
+        </tr>
+        <tr>
+          <td><a href="liga-al.html"><b>Arabian League</b></a></td>
+          <td>Oriente Medio</td>
+          <td>42</td>
+          <td>8</td>
+          <td>ranking de 42</td>
+        </tr>
+        <tr>
+          <td><a href="liga-lcs.html"><b>LCS</b></a></td>
+          <td>Norteamérica</td>
+          <td>42</td>
+          <td>8</td>
+          <td>ranking de 42</td>
+        </tr>
+        <tr>
+          <td><a href="liga-les.html"><b>LES</b></a></td>
+          <td>España</td>
+          <td>41</td>
+          <td>8</td>
+          <td>ranking de 41</td>
+        </tr>
+        <tr>
+          <td><a href="liga-lit.html"><b>LIT</b></a></td>
+          <td>Italia</td>
+          <td>41</td>
+          <td>8</td>
+          <td>ranking de 41</td>
+        </tr>
+        <tr>
+          <td><a href="liga-tcl.html"><b>TCL</b></a></td>
+          <td>Turquía</td>
+          <td>41</td>
+          <td>8</td>
+          <td>ranking de 41</td>
+        </tr>
+        <tr>
+          <td><a href="liga-hm.html"><b>Hitpoint Masters</b></a></td>
+          <td>Chequia y Eslovaquia</td>
+          <td>40</td>
+          <td>8</td>
+          <td>ranking de 40</td>
+        </tr>
+        <tr>
+          <td><a href="liga-hll.html"><b>HLL</b></a></td>
+          <td>Grecia</td>
+          <td>39</td>
+          <td>8</td>
+          <td>ranking de 39</td>
+        </tr>
+        <tr>
+          <td><a href="liga-cblol.html"><b>CBLOL</b></a></td>
+          <td>Brasil</td>
+          <td>38</td>
+          <td>8</td>
+          <td>ranking de 38</td>
+        </tr>
+        <tr>
+          <td><a href="liga-lcp.html"><b>LCP</b></a></td>
+          <td>Asia-Pacífico</td>
+          <td>38</td>
+          <td>8</td>
+          <td>ranking de 38</td>
+        </tr>
+        <tr>
+          <td><a href="liga-rl.html"><b>Rift Legends</b></a></td>
+          <td>Polonia</td>
+          <td>35</td>
+          <td>7</td>
+          <td>ranking de 35</td>
+        </tr>
+        <tr>
+          <td><a href="liga-ebl.html"><b>EBL</b></a></td>
+          <td>Balcanes</td>
+          <td>29</td>
+          <td>6</td>
+          <td>ranking de 29</td>
+        </tr>
+        </tbody>
+      </table>
+      <p class="nota">Las columnas de jugadores y equipos son mediciones sobre el leaderboard de cada liga, del 2026-09-03. «Ranking de N» es la clasificación de Elo de la liga con su equipo, rol, victorias y KDA. «Con cuenta y Elo» añade el Riot ID de cada jugador y su historial de campeones, y para eso hay que indexar la liga jugador por jugador, lo que se hace cuando un servidor la sigue.</p>
+    </div>
+  </section>
+  <section>
+    <div class="envoltura">
+      <h2>Preguntas frecuentes</h2>
+      <h3>¿Cuántas ligas se pueden seguir a la vez?</h3>
+      <p>Un servidor puede seguir hasta 4 ligas simultáneas. No es una decisión comercial: es el techo que impone el cupo de peticiones de la API de Riot para que la pasada de detección quepa en su intervalo. El plan gratuito sigue una.</p>
+      <h3>¿Por qué la LPL no tiene avisos en vivo?</h3>
+      <p>Porque los jugadores chinos juegan en servidores que la API de Riot no expone. De la LPL se pueden ver rangos y clasificación, pero no detectar la partida en curso, así que no se promete.</p>
+      <h3>¿De dónde salen estos números de jugadores?</h3>
+      <p>De medir el leaderboard de cada liga: 919 jugadores distintos entre las 20, medidos el 2026-09-03. Es la misma medición con la que se fijó el tope de ligas por servidor.</p>
+      <h3>¿Qué diferencia hay entre una liga con ranking y una con cuentas?</h3>
+      <p>El ranking sale del leaderboard de la liga: nombre, equipo, rol, Elo, victorias y KDA de 919 jugadores. Las cuentas hay que indexarlas jugador por jugador y añaden el Riot ID de cada uno y su historial de campeones con partidas y daño por minuto. Eso segundo está hecho en la LEC y se hace en una liga cuando un servidor la sigue.</p>
+    <div class="anuncio">Espacio reservado para publicidad (sin activar)</div>
+    </div>
+  </section>
+  <section class="cierre">
+    <div class="envoltura">
+      <h2>¿Y si esto te llegara solo?</h2>
+      <p class="intro">JetaDirectaBot publica este aviso en tu canal de Discord —o en tu chat privado— en cuanto el jugador entra en partida, con las 20 ligas del catálogo. Gratis.</p>
+      <div class="botones">
+        <a class="boton primario" href="#" data-sin-url>Añadir a Discord</a>
+        <a class="boton" href="avisos.html">Ver cómo es el aviso</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="envoltura">
+      <nav>
+      <a href="index.html">Inicio</a>
+      <a href="ligas.html">Ligas</a>
+      <a href="avisos.html">Cómo son los avisos</a>
+      <a href="alternativas-bots-lol-discord.html">Comparativa</a>
+      <a href="legal.html">Términos y privacidad</a>
+      </nav>
+      <p class="legal">JetaDirectaBot no está avalado por Riot Games y no refleja las opiniones ni los puntos de vista de Riot Games ni de nadie involucrado oficialmente en la producción o gestión de las propiedades de Riot Games. Riot Games y todas sus propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.<br><br><em>JetaDirectaBot isn&#x27;t endorsed by Riot Games and doesn&#x27;t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</em></p>
+    </div>
+  </footer>
+</body>
+</html>

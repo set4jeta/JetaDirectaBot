@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Gaethan",
+    "nombre_real": "Gaëthan Baron",
+    "edad": 21,
+    "equipo": "The Ruddy Sack",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Gaethaaan",
+      "twitch": "https://twitch.tv/gaethaaan"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Xiu4zQAQ#Omnos",
+      "nivel": 934,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1175,
+      "victorias": 466,
+      "derrotas": 414,
+      "ultima_partida": 1766364758865
+    },
+    {
+      "nombre": "CHEVALIER NWAR#GOTAM",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 113,
+      "derrotas": 59,
+      "ultima_partida": 1760286664014
+    },
+    {
+      "nombre": "Xiu#Omnos",
+      "nivel": 118,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 70,
+      "victorias": 53,
+      "derrotas": 39,
+      "ultima_partida": 1760010117762
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aatrox",
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 2.54320987654321
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 17,
+      "victorias": 13,
+      "winrate": "76.5%",
+      "kda_promedio": 2.7058823529411766
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.6
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 39,
+    "losses": 18,
+    "timePlayed": 88697
+  }
+}

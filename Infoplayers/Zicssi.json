@@ -2,125 +2,135 @@
   "info_jugador": {
     "nombre": "Zicssi",
     "nombre_real": "Lanzo Ciajolo",
-    "edad": 23,
-    "equipo": "Gentle Mates",
+    "edad": 24,
+    "equipo": "Solary",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/zicssiflay",
       "twitch": "https://twitch.tv/zicssi"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/zicssi.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "SMRADOCH ZICSSI#EUW",
-      "nivel": 1013,
+      "nivel": 1144,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1241,
-      "victorias": 347,
-      "derrotas": 303,
-      "ultima_partida": 1753731230384
+      "lp": 3249,
+      "victorias": 383,
+      "derrotas": 247,
+      "ultima_partida": 1788370913074
     },
     {
       "nombre": "Sir Leywin#EUW",
-      "nivel": 507,
+      "nivel": 522,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 10,
-      "victorias": 56,
-      "derrotas": 37,
-      "ultima_partida": 1752617111421
+      "lp": 818,
+      "victorias": 119,
+      "derrotas": 44,
+      "ultima_partida": 1788341682347
     },
     {
       "nombre": "AØH#EUW",
-      "nivel": 216,
+      "nivel": 218,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 16,
+      "derrotas": 5,
+      "ultima_partida": 1777384017768
+    },
+    {
+      "nombre": "GROS ZIZICSSI#MIAM",
+      "nivel": 49,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1760099153280
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
-      "partidas": 7,
+      "nombre": "LeeSin",
+      "partidas": 18,
+      "victorias": 15,
+      "winrate": "83.3%",
+      "kda_promedio": 6.169491525423729
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.86046511627907
+      "winrate": "75.0%",
+      "kda_promedio": 3.652173913043478
     },
     {
       "nombre": "Viego",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2941176470588234
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.2631578947368425
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 5.2
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.785714285714286
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Trundle",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.636363636363637
     },
     {
-      "nombre": "Diana",
+      "nombre": "Jayce",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 11.333333333333334
+      "kda_promedio": 10.75
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.166666666666667
     },
     {
       "nombre": "Poppy",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.222222222222222
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 14.333333333333334
     },
     {
-      "nombre": "Akali",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.375
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.15
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 27,
-    "losses": 25,
-    "timePlayed": 80294
+    "games": 50,
+    "wins": 38,
+    "losses": 12,
+    "timePlayed": 81549
   }
 }

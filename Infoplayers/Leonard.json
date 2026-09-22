@@ -1,0 +1,96 @@
+{
+  "info_jugador": {
+    "nombre": "Leonard",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Léonard#1756",
+      "nivel": 1243,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1074,
+      "victorias": 275,
+      "derrotas": 202,
+      "ultima_partida": 1766411952160
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 7,
+    "losses": 10,
+    "timePlayed": 29295
+  }
+}

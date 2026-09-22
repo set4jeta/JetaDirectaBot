@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Hummelu",
     "nombre_real": "Marcus Drechsler",
-    "edad": 22,
-    "equipo": "RLX Esports",
+    "edad": 23,
+    "equipo": "No Need Orga",
     "pais": "Germany",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Lol_Hummelu",
       "twitch": "https://twitch.tv/hummelu"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Bullwark#Posch",
-      "nivel": 348,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 566,
-      "victorias": 109,
-      "derrotas": 83,
-      "ultima_partida": 1753715335599
-    },
-    {
-      "nombre": "Bob Loss#Hum",
-      "nivel": 1608,
+      "nombre": "Hummelu#Hum",
+      "nivel": 1826,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 826,
-      "victorias": 561,
-      "derrotas": 527,
-      "ultima_partida": 1753709536854
+      "lp": 1860,
+      "victorias": 748,
+      "derrotas": 681,
+      "ultima_partida": 1788377085295
+    },
+    {
+      "nombre": "Bullwark#Posch",
+      "nivel": 352,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 5,
+      "derrotas": 3,
+      "ultima_partida": 1780929713702
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Viego",
-      "partidas": 41,
-      "victorias": 24,
-      "winrate": "58.5%",
-      "kda_promedio": 2.7610619469026547
+      "nombre": "Khazix",
+      "partidas": 24,
+      "victorias": 12,
+      "winrate": "50.0%",
+      "kda_promedio": 2.241830065359477
     },
     {
       "nombre": "Udyr",
-      "partidas": 27,
-      "victorias": 15,
-      "winrate": "55.6%",
-      "kda_promedio": 2.4044117647058822
+      "partidas": 18,
+      "victorias": 11,
+      "winrate": "61.1%",
+      "kda_promedio": 2.6538461538461537
     },
     {
-      "nombre": "Naafiri",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.1363636363636362
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4642857142857144
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 6,
+      "nombre": "Viego",
+      "partidas": 9,
       "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0697674418604652
+      "winrate": "22.2%",
+      "kda_promedio": 1.5432098765432098
     },
     {
       "nombre": "MonkeyKing",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "Rell",
       "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1379310344827587
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9534883720930232
     },
     {
-      "nombre": "XinZhao",
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8974358974358975
+    },
+    {
+      "nombre": "Aurora",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.727272727272727
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5714285714285714
     },
     {
-      "nombre": "Diana",
+      "nombre": "Malphite",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 1.6470588235294117
     },
     {
-      "nombre": "Trundle",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6875
-    },
-    {
-      "nombre": "DrMundo",
+      "nombre": "Ashe",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1111111111111112
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 108,
-    "wins": 59,
-    "losses": 49,
-    "timePlayed": 172075
+    "games": 77,
+    "wins": 38,
+    "losses": 39,
+    "timePlayed": 126361
   }
 }

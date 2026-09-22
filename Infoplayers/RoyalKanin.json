@@ -2,56 +2,105 @@
   "info_jugador": {
     "nombre": "RoyalKanin",
     "nombre_real": "Linus Grönlund",
-    "edad": 23,
-    "equipo": "ROSSMANN Centaurs",
+    "edad": 24,
+    "equipo": "Unicorns of Love Sexy Edition",
     "pais": "Sweden",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/TheRoyalKanin",
       "twitch": "https://twitch.tv/theroyalkanin"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/royalkanin.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "TheRoyalKanin#EUW",
-      "nivel": 1170,
+      "nivel": 1299,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1473,
-      "victorias": 457,
-      "derrotas": 388,
-      "ultima_partida": 1753658381083
+      "lp": 3636,
+      "victorias": 305,
+      "derrotas": 243,
+      "ultima_partida": 1788385872532
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ryze",
-      "partidas": 2,
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.1875
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
+      "winrate": "100.0%",
       "kda_promedio": 3
     },
     {
-      "nombre": "Galio",
+      "nombre": "Leona",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.75
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Renekton",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Swain",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 4,
-    "wins": 3,
-    "losses": 1,
-    "timePlayed": 6272
+    "games": 15,
+    "wins": 6,
+    "losses": 9,
+    "timePlayed": 23652
   }
 }

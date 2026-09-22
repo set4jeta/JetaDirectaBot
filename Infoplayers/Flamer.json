@@ -2,104 +2,114 @@
   "info_jugador": {
     "nombre": "Flamer",
     "nombre_real": "Julien Berschuck",
-    "edad": 26,
-    "equipo": "Könige der Meere",
+    "edad": 27,
+    "equipo": "All for One Gaming",
     "pais": "Germany",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/lolFl4mer"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "qweasdx#EUW",
-      "nivel": 496,
+      "nivel": 622,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1210,
-      "victorias": 316,
-      "derrotas": 243,
-      "ultima_partida": 1753738913708
+      "liga": "GRANDMASTER I",
+      "lp": 2087,
+      "victorias": 389,
+      "derrotas": 332,
+      "ultima_partida": 1788386395403
+    },
+    {
+      "nombre": "ybm#Ł354",
+      "nivel": 475,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1285,
+      "victorias": 386,
+      "derrotas": 306,
+      "ultima_partida": 1787493992246
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
+      "nombre": "Olaf",
       "partidas": 30,
-      "victorias": 24,
-      "winrate": "80.0%",
-      "kda_promedio": 2.519230769230769
+      "victorias": 17,
+      "winrate": "56.7%",
+      "kda_promedio": 2.2176870748299318
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.5824175824175826
     },
     {
       "nombre": "KSante",
-      "partidas": 18,
-      "victorias": 8,
-      "winrate": "44.4%",
-      "kda_promedio": 2.341463414634146
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 2.558139534883721
     },
     {
       "nombre": "Rumble",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 2.1475409836065573
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 2.5425531914893615
     },
     {
       "nombre": "Renekton",
       "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 11,
       "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 2
+      "winrate": "36.4%",
+      "kda_promedio": 2.014925373134328
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 1.609375
     },
     {
       "nombre": "Yorick",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.066666666666667
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9473684210526316
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 5,
+      "partidas": 7,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.9285714285714286
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6470588235294117
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5833333333333335
+      "winrate": "28.6%",
+      "kda_promedio": 2.3214285714285716
     },
     {
       "nombre": "Gnar",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9444444444444444
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 105,
-    "wins": 55,
-    "losses": 50,
-    "timePlayed": 175892
+    "games": 140,
+    "wins": 73,
+    "losses": 67,
+    "timePlayed": 227559
   }
 }

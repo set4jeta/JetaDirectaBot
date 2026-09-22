@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Creal",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "full focus#Creal",
+      "nivel": 659,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2227,
+      "victorias": 606,
+      "derrotas": 541,
+      "ultima_partida": 1788347818211
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.3714285714285714
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 2.3255813953488373
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.9166666666666665
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.538461538461538
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.583333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 33,
+    "losses": 26,
+    "timePlayed": 90666
+  }
+}

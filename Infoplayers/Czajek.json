@@ -2,124 +2,71 @@
   "info_jugador": {
     "nombre": "Czajek",
     "nombre_real": "Mateusz Czajka",
-    "edad": 21,
-    "equipo": "Team Vitality",
+    "edad": 22,
+    "equipo": "Vitality.Bee",
     "pais": "Poland",
     "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/czajekklol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/czajek.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "1BADCLICKEQUALS#BOOM",
-      "nivel": 109,
+      "nombre": "MV3#5WDC",
+      "nivel": 171,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 814,
-      "victorias": 198,
-      "derrotas": 123,
-      "ultima_partida": 1753734612954
+      "lp": 2042,
+      "victorias": 239,
+      "derrotas": 167,
+      "ultima_partida": 1788291498592
+    },
+    {
+      "nombre": "DK ShowMaker#CZJK",
+      "nivel": 138,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 168,
+      "derrotas": 118,
+      "ultima_partida": 1785172353222
+    },
+    {
+      "nombre": "Czajek#sosis",
+      "nivel": 113,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 14,
+      "derrotas": 4,
+      "ultima_partida": 1771275733142
     },
     {
       "nombre": "Daglas fangirl#EUW",
       "nivel": 532,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 113,
-      "derrotas": 75,
-      "ultima_partida": 1743501042862
-    },
-    {
-      "nombre": "Czajek#sosis",
-      "nivel": 112,
-      "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1743501042862
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5925925925925926
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.375
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0833333333333335
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 5.285714285714286
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.875
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Corki",
+      "nombre": "Bard",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 0.6666666666666666
-    },
-    {
-      "nombre": "Leblanc",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 11
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 15,
-    "losses": 13,
-    "timePlayed": 41632
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
+    "timePlayed": 1435
   }
 }

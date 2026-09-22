@@ -1,0 +1,110 @@
+{
+  "info_jugador": {
+    "nombre": "mageteaXD",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "\\thttps://www.twitch.tv/mageteaxd"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SpatialAwareness#macro",
+      "nivel": 114,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2030,
+      "victorias": 523,
+      "derrotas": 448,
+      "ultima_partida": 1787957661765
+    },
+    {
+      "nombre": "mageteaXD#ttv",
+      "nivel": 1131,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 165,
+      "derrotas": 169,
+      "ultima_partida": 1781977478829
+    },
+    {
+      "nombre": "mageteaXD#egirl",
+      "nivel": 82,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1779639744847
+    },
+    {
+      "nombre": "mageteaXD#Hehe",
+      "nivel": 177,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 9,
+      "derrotas": 9,
+      "ultima_partida": 1775423450385
+    },
+    {
+      "nombre": "mageteaXD#TWTV",
+      "nivel": 51,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1757470454715
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Janna",
+      "partidas": 37,
+      "victorias": 21,
+      "winrate": "56.8%",
+      "kda_promedio": 3.607142857142857
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 28,
+      "victorias": 16,
+      "winrate": "57.1%",
+      "kda_promedio": 3.4326241134751774
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 6,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7941176470588236
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 41,
+    "losses": 38,
+    "timePlayed": 127849
+  }
+}

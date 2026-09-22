@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Dream",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/yaozeilol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Nightwing#crown",
+      "nivel": 440,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1741,
+      "victorias": 461,
+      "derrotas": 434,
+      "ultima_partida": 1788344021302
+    },
+    {
+      "nombre": "Dream#NA1",
+      "nivel": 437,
+      "region": "NA1",
+      "liga": "MASTER I",
+      "lp": 130,
+      "victorias": 132,
+      "derrotas": 139,
+      "ultima_partida": 1787212288023
+    },
+    {
+      "nombre": "a5aa#2008",
+      "nivel": 1050,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 42,
+      "derrotas": 21,
+      "ultima_partida": 1781471076848
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.186046511627907
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.4375
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4210526315789473
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.125
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 13,
+    "losses": 18,
+    "timePlayed": 45422
+  }
+}

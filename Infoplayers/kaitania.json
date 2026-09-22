@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "kaitania",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/kaiitania",
+      "twitch": "https://www.twitch.tv/kaiitania"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "twtv kaiitania#kait",
+      "nivel": 311,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2361,
+      "victorias": 685,
+      "derrotas": 604,
+      "ultima_partida": 1788193953687
+    },
+    {
+      "nombre": "kaitania#chill",
+      "nivel": 541,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 83,
+      "victorias": 47,
+      "derrotas": 34,
+      "ultima_partida": 1786105094578
+    },
+    {
+      "nombre": "KAITANlA#EUW",
+      "nivel": 288,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 29,
+      "victorias": 76,
+      "derrotas": 73,
+      "ultima_partida": 1784920823435
+    },
+    {
+      "nombre": "TWTV KAIITANIA#MASTA",
+      "nivel": 92,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1771908897657
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 35,
+      "victorias": 23,
+      "winrate": "65.7%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9285714285714284
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Katarina",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 21
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.44
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 39,
+    "losses": 24,
+    "timePlayed": 98857
+  }
+}

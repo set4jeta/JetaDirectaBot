@@ -1,0 +1,96 @@
+{
+  "info_jugador": {
+    "nombre": "Violetta",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "violetta core#1943",
+      "nivel": 350,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2134,
+      "victorias": 371,
+      "derrotas": 328,
+      "ultima_partida": 1788184565149
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kalista",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5454545454545454
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 9,
+    "losses": 5,
+    "timePlayed": 20166
+  }
+}

@@ -2,91 +2,145 @@
   "info_jugador": {
     "nombre": "Flakked",
     "nombre_real": "Víctor Lirola Tortosa",
-    "edad": 24,
-    "equipo": "Team Heretics",
+    "edad": 25,
+    "equipo": "GIANTX",
     "pais": "Spain",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Flakked_LoL",
       "twitch": "https://twitch.tv/getFlakked"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/flakked.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "David Lirola#goatツ",
-      "nivel": 1316,
+      "nombre": "detdert adc acc#RANK1",
+      "nivel": 1597,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1453,
-      "victorias": 580,
-      "derrotas": 529,
-      "ultima_partida": 1753649093024
+      "lp": 3104,
+      "victorias": 963,
+      "derrotas": 859,
+      "ultima_partida": 1788374051912
+    },
+    {
+      "nombre": "LEC#2027",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 143,
+      "derrotas": 72,
+      "ultima_partida": 1783191103346
+    },
+    {
+      "nombre": "Hector Pertegal#goatツ",
+      "nivel": 74,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1765319190899
+    },
+    {
+      "nombre": "Sol Tortosa#goatツ",
+      "nivel": 69,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1765207269565
+    },
+    {
+      "nombre": "Marc Lirola#goatツ",
+      "nivel": 40,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1759627759929
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Naafiri",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.4285714285714284
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.333333333333334
+      "nombre": "Caitlyn",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 1.8932038834951457
     },
     {
       "nombre": "Yunara",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 5.2592592592592595
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.896551724137931
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.5454545454545454
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.037037037037037
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.636363636363637
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9523809523809523
+    },
+    {
+      "nombre": "Cassiopeia",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 6.428571428571429
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7.5
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 19
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
+      "kda_promedio": 1.7777777777777777
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 12,
-    "wins": 8,
-    "losses": 4,
-    "timePlayed": 18933
+    "games": 79,
+    "wins": 39,
+    "losses": 40,
+    "timePlayed": 125083
   }
 }

@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Evangelyne",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Evangelyne_lol",
+      "twitch": "https://www.twitch.tv/evangeiyne\\t"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Évangelyne#APC",
+      "nivel": 200,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1290,
+      "victorias": 175,
+      "derrotas": 124,
+      "ultima_partida": 1788345442266
+    },
+    {
+      "nombre": "Évangelyne#BELGE",
+      "nivel": 1069,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2379,
+      "victorias": 625,
+      "derrotas": 528,
+      "ultima_partida": 1788298059139
+    },
+    {
+      "nombre": "Évangelyne#LOVE",
+      "nivel": 123,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2557,
+      "victorias": 233,
+      "derrotas": 163,
+      "ultima_partida": 1788171982657
+    },
+    {
+      "nombre": "Évangelyne#ADC",
+      "nivel": 133,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1741,
+      "victorias": 148,
+      "derrotas": 90,
+      "ultima_partida": 1787998052826
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 23,
+      "victorias": 16,
+      "winrate": "69.6%",
+      "kda_promedio": 2.6869565217391305
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2711864406779663
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.022222222222222
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.258064516129032
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.033333333333333
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.566666666666666
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.823529411764706
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9183673469387754
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 140,
+    "wins": 90,
+    "losses": 50,
+    "timePlayed": 223570
+  }
+}

@@ -10,96 +10,117 @@
       "twitter": "https://twitter.com/builteuw",
       "twitch": "https://twitch.tv/builteuw"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "YOUAREPERFECT#PRFCT",
-      "nivel": 426,
+      "nombre": "BUILT#2603",
+      "nivel": 616,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1121,
-      "victorias": 295,
-      "derrotas": 234,
-      "ultima_partida": 1753642601265
-    },
-    {
-      "nombre": "哈哈哈哈哈哈#BUILT",
-      "nivel": 499,
-      "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 75,
-      "victorias": 20,
-      "derrotas": 23,
-      "ultima_partida": 1750978917132
+      "lp": 3727,
+      "victorias": 544,
+      "derrotas": 417,
+      "ultima_partida": 1789866961511
     },
     {
       "nombre": "Built#2609",
-      "nivel": 439,
+      "nivel": 469,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 120,
+      "victorias": 125,
+      "derrotas": 87,
+      "ultima_partida": 1789682899133
+    },
+    {
+      "nombre": "YOUAREPERFECT#PRFCT",
+      "nivel": 438,
       "region": "EUW1",
       "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 117,
-      "derrotas": 91,
-      "ultima_partida": 1744307975342
+      "lp": 61,
+      "victorias": 62,
+      "derrotas": 38,
+      "ultima_partida": 1777888891238
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Riven",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.28
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 1.4385964912280702
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 4,
+      "nombre": "Jayce",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.85
+      "winrate": "50.0%",
+      "kda_promedio": 1.4761904761904763
     },
     {
-      "nombre": "Camille",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
-    },
-    {
-      "nombre": "Fiora",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.75
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
-    },
-    {
-      "nombre": "Karma",
+      "nombre": "Aurora",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
     },
     {
-      "nombre": "Malphite",
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Leblanc",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8947368421052632
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 22,
-    "wins": 9,
-    "losses": 13,
-    "timePlayed": 32501
+    "games": 23,
+    "wins": 11,
+    "losses": 12,
+    "timePlayed": 39904
   }
 }

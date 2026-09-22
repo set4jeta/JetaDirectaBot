@@ -1,0 +1,146 @@
+{
+  "info_jugador": {
+    "nombre": "Trymbi",
+    "nombre_real": "Adrian Trybus",
+    "edad": 25,
+    "equipo": "Shifters",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/trymbilol",
+      "twitch": "https://twitch.tv/trymbilol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "AdiTheGoodGuy#EUW",
+      "nivel": 209,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 663,
+      "victorias": 66,
+      "derrotas": 26,
+      "ultima_partida": 1788355470372
+    },
+    {
+      "nombre": "trymboner#2000",
+      "nivel": 875,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2620,
+      "victorias": 287,
+      "derrotas": 174,
+      "ultima_partida": 1788346671950
+    },
+    {
+      "nombre": "VKS Trymbi#LTAS",
+      "nivel": 96,
+      "region": "BR1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1759885774754
+    },
+    {
+      "nombre": "TRYMBOLONA#KoxPL",
+      "nivel": 37,
+      "region": "NA1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1759078270014
+    },
+    {
+      "nombre": "TRYMBIQUEIRO#BENVI",
+      "nivel": 36,
+      "region": "NA1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1752635124210
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.611111111111111
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 4.324324324324325
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.6486486486486487
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.642857142857143
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.6
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 44,
+    "losses": 17,
+    "timePlayed": 96007
+  }
+}

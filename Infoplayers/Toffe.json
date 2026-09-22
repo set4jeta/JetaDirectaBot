@@ -2,47 +2,47 @@
   "info_jugador": {
     "nombre": "Toffe",
     "nombre_real": "Tautvydas Gegeckas",
-    "edad": 20,
-    "equipo": "Team BDS Academy",
+    "edad": 21,
+    "equipo": "TLN Pirates",
     "pais": "Lithuania",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Toffe_lol",
       "twitch": "https://www.twitch.tv/toffe_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "bald by 2026#hair",
-      "nivel": 148,
+      "nombre": "Toffe#ren",
+      "nivel": 620,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1216,
-      "victorias": 222,
-      "derrotas": 163,
-      "ultima_partida": 1753734830402
+      "liga": "MASTER I",
+      "lp": 180,
+      "victorias": 199,
+      "derrotas": 171,
+      "ultima_partida": 1788257903037
     },
     {
-      "nombre": "Toto The Totoro#Toffe",
-      "nivel": 545,
+      "nombre": "Caramel#1811",
+      "nivel": 232,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1278,
-      "victorias": 235,
-      "derrotas": 190,
-      "ultima_partida": 1753701420355
+      "lp": 2402,
+      "victorias": 376,
+      "derrotas": 295,
+      "ultima_partida": 1788206866839
     },
     {
       "nombre": "oompa loompa mid#tofu",
-      "nivel": 422,
+      "nivel": 428,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 149,
-      "derrotas": 126,
-      "ultima_partida": 1743629751174
+      "victorias": 40,
+      "derrotas": 23,
+      "ultima_partida": 1774871814384
     }
   ],
   "campeones_recientes": [
@@ -51,76 +51,76 @@
       "partidas": 11,
       "victorias": 7,
       "winrate": "63.6%",
-      "kda_promedio": 3.4166666666666665
+      "kda_promedio": 2.5084745762711864
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.291666666666667
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4166666666666667
     },
     {
       "nombre": "Sylas",
       "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.259259259259259
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 3.6315789473684212
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 9.666666666666666
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.25
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 4.714285714285714
     },
     {
       "nombre": "Smolder",
-      "partidas": 1,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7
+      "winrate": "25.0%",
+      "kda_promedio": 1.1785714285714286
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 1,
+      "nombre": "Anivia",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
+      "winrate": "33.3%",
+      "kda_promedio": 2.9375
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 27,
-    "wins": 19,
-    "losses": 8,
-    "timePlayed": 44568
+    "games": 70,
+    "wins": 40,
+    "losses": 30,
+    "timePlayed": 114882
   }
 }

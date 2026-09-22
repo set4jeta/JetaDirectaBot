@@ -10,97 +10,90 @@
       "twitter": "https://twitter.com/HeSSZero",
       "twitch": "https://www.twitch.tv/hesszer0"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/hesszero.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BDG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "hesszero#PAWEL",
-      "nivel": 862,
+      "nivel": 888,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 942,
-      "victorias": 317,
-      "derrotas": 275,
-      "ultima_partida": 1753546774983
+      "lp": 939,
+      "victorias": 409,
+      "derrotas": 361,
+      "ultima_partida": 1766413555320
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 1.7391304347826086
-    },
-    {
-      "nombre": "Kled",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9285714285714286
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.9444444444444446
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.05
+      "nombre": "Zaahen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.15
     },
     {
       "nombre": "Yorick",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 0.782608695652174
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9333333333333333
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 2,
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8333333333333333
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
     },
     {
       "nombre": "RekSai",
-      "partidas": 2,
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
+      "winrate": "100.0%",
+      "kda_promedio": 5
     },
     {
-      "nombre": "Shen",
-      "partidas": 2,
-      "victorias": 2,
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.5
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
     },
     {
       "nombre": "Sett",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.125
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 0.9090909090909091
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 23,
-    "losses": 21,
-    "timePlayed": 70419
+    "games": 12,
+    "wins": 5,
+    "losses": 7,
+    "timePlayed": 19488
   }
 }

@@ -1,0 +1,108 @@
+{
+  "info_jugador": {
+    "nombre": "Kolios",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/kolioslol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Calme et Focus#EUW",
+      "nivel": 1718,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1843,
+      "victorias": 463,
+      "derrotas": 408,
+      "ultima_partida": 1788368052855
+    },
+    {
+      "nombre": "Kolios#focus",
+      "nivel": 457,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1025,
+      "victorias": 319,
+      "derrotas": 277,
+      "ultima_partida": 1788353858167
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shen",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 4.510204081632653
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 3.8983050847457625
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.24
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 9.166666666666666
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.533333333333333
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 45,
+    "wins": 27,
+    "losses": 18,
+    "timePlayed": 70268
+  }
+}

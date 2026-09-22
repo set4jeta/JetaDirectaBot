@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "SmallBugi",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SmallBugi#EUW",
+      "nivel": 744,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1882,
+      "victorias": 716,
+      "derrotas": 683,
+      "ultima_partida": 1788386917289
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leblanc",
+      "partidas": 24,
+      "victorias": 15,
+      "winrate": "62.5%",
+      "kda_promedio": 4.030612244897959
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 23,
+      "victorias": 11,
+      "winrate": "47.8%",
+      "kda_promedio": 1.8428571428571427
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 1.9589041095890412
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 11,
+      "victorias": 2,
+      "winrate": "18.2%",
+      "kda_promedio": 2.1341463414634148
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.8923076923076922
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9701492537313433
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.935483870967742
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2962962962962963
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.705882352941177
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 126,
+    "wins": 58,
+    "losses": 68,
+    "timePlayed": 199154
+  }
+}

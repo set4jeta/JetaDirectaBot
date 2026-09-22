@@ -2,135 +2,175 @@
   "info_jugador": {
     "nombre": "Adam",
     "nombre_real": "Adam Maanane",
-    "edad": 23,
-    "equipo": "Natus Vincere",
+    "edad": 24,
+    "equipo": "ZYB Esport",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-09-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Ricadam_lol",
       "twitch": "https://twitch.tv/ricadam_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/adam.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": " Nothing much#EUW",
-      "nivel": 568,
+      "nivel": 896,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 826,
-      "victorias": 267,
-      "derrotas": 218,
-      "ultima_partida": 1753748389869
+      "liga": "CHALLENGER I",
+      "lp": 2354,
+      "victorias": 966,
+      "derrotas": 853,
+      "ultima_partida": 1789686909330
+    },
+    {
+      "nombre": "Adam#1227",
+      "nivel": 61,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 206,
+      "derrotas": 143,
+      "ultima_partida": 1782732788029
+    },
+    {
+      "nombre": "Xiao C6R5#bds",
+      "nivel": 117,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1765137216741
+    },
+    {
+      "nombre": "ネフェルピトー#9083",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760297023672
+    },
+    {
+      "nombre": "Edahn Khun#Aura",
+      "nivel": 39,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1755107488655
     },
     {
       "nombre": "Make a wish#EU1",
       "nivel": 70,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 235,
-      "derrotas": 191,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1748898173843
     },
     {
       "nombre": "Neuvillette#Xiao",
       "nivel": 69,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 226,
-      "derrotas": 185,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1746307650645
     },
     {
       "nombre": "EUBEST#KR2",
       "nivel": 54,
       "region": "KR",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 143,
-      "derrotas": 113,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1740530679875
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 20,
-      "victorias": 14,
-      "winrate": "70.0%",
-      "kda_promedio": 2.7032967032967035
+      "nombre": "Olaf",
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 2.2962962962962963
     },
     {
-      "nombre": "Yunara",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 1.3670886075949367
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 1.911764705882353
+      "nombre": "Sett",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.5892857142857142
     },
     {
       "nombre": "Jayce",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3191489361702127
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 1.868421052631579
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 6,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3870967741935485
+      "winrate": "60.0%",
+      "kda_promedio": 1.9714285714285715
     },
     {
-      "nombre": "DrMundo",
+      "nombre": "Tristana",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.7446808510638299
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.0980392156862746
     },
     {
-      "nombre": "Irelia",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.606060606060606
+      "nombre": "Darius",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5294117647058822
     },
     {
       "nombre": "Gangplank",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7727272727272727
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.4333333333333333
     },
     {
-      "nombre": "LeeSin",
+      "nombre": "Locke",
       "partidas": 4,
-      "victorias": 2,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8611111111111112
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.0384615384615383
+      "kda_promedio": 1.5384615384615385
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 142,
-    "wins": 76,
-    "losses": 66,
-    "timePlayed": 228463
+    "games": 80,
+    "wins": 45,
+    "losses": 35,
+    "timePlayed": 133633
   }
 }

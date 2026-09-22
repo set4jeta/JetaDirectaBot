@@ -2,114 +2,114 @@
   "info_jugador": {
     "nombre": "Shelfmade",
     "nombre_real": "Francesco Cardia",
-    "edad": 18,
-    "equipo": "Berlin International Gaming",
+    "edad": 19,
+    "equipo": "G2 NORD",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/ShelfmadeLoL"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/shelfmade.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BIG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "KDF DuDu#KING1",
-      "nivel": 412,
+      "nivel": 556,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1311,
-      "victorias": 432,
-      "derrotas": 383,
-      "ultima_partida": 1753741255632
+      "liga": "GRANDMASTER I",
+      "lp": 1950,
+      "victorias": 437,
+      "derrotas": 343,
+      "ultima_partida": 1788380136203
     },
     {
       "nombre": "BIG Pig#Oink5",
-      "nivel": 689,
+      "nivel": 697,
       "region": "EUW1",
       "liga": "EMERALD I",
-      "lp": 85,
-      "victorias": 7,
-      "derrotas": 3,
-      "ultima_partida": 1753312246161
+      "lp": 45,
+      "victorias": 3,
+      "derrotas": 10,
+      "ultima_partida": 1783121975877
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 25,
-      "victorias": 11,
-      "winrate": "44.0%",
-      "kda_promedio": 2.0277777777777777
+      "nombre": "Camille",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.6444444444444444
     },
     {
-      "nombre": "Gwen",
+      "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Kled",
       "partidas": 8,
       "victorias": 5,
       "winrate": "62.5%",
-      "kda_promedio": 2.1714285714285713
+      "kda_promedio": 2.073170731707317
     },
     {
-      "nombre": "Aurora",
-      "partidas": 6,
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.2790697674418605
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
       "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.210526315789474
+      "kda_promedio": 1.5789473684210527
     },
     {
       "nombre": "Jax",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.222222222222222
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0588235294117645
-    },
-    {
-      "nombre": "Gragas",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.6470588235294118
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2857142857142858
-    },
-    {
-      "nombre": "DrMundo",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.5
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.4
+      "kda_promedio": 1.4615384615384615
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 30,
-    "losses": 29,
-    "timePlayed": 91634
+    "games": 54,
+    "wins": 32,
+    "losses": 22,
+    "timePlayed": 75025
   }
 }

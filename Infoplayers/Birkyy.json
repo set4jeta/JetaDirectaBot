@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Birkyy",
+    "nombre_real": "Kacper Niemiec",
+    "edad": 19,
+    "equipo": "DOCISK",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/birkyy_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "WannaBeHappy#Birki",
+      "nivel": 1330,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2010,
+      "victorias": 982,
+      "derrotas": 922,
+      "ultima_partida": 1790024137981
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 37,
+      "victorias": 23,
+      "winrate": "62.2%",
+      "kda_promedio": 2.71875
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 34,
+      "victorias": 21,
+      "winrate": "61.8%",
+      "kda_promedio": 2.3383084577114426
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 21,
+      "victorias": 9,
+      "winrate": "42.9%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 13,
+      "victorias": 5,
+      "winrate": "38.5%",
+      "kda_promedio": 1.588235294117647
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.0864197530864197
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 1.775
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.6346153846153846
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4461538461538461
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.3095238095238093
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.888888888888889
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 159,
+    "wins": 86,
+    "losses": 73,
+    "timePlayed": 250323
+  }
+}

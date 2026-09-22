@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Nomi",
+    "nombre_real": "Noman Ahmad",
+    "edad": 26,
+    "equipo": "Volda E-Sport",
+    "pais": "Norway",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/nomilol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Nomi#EUW4",
+      "nivel": 1466,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1811,
+      "victorias": 495,
+      "derrotas": 441,
+      "ultima_partida": 1788370931430
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yasuo",
+      "partidas": 13,
+      "victorias": 4,
+      "winrate": "30.8%",
+      "kda_promedio": 2.5058823529411764
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.3125
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4375
+    },
+    {
+      "nombre": "TahmKench",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5333333333333334
+    },
+    {
+      "nombre": "Swain",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.625
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3478260869565217
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 23,
+    "losses": 30,
+    "timePlayed": 86172
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Cosmic",
+    "nombre_real": "Charlotte Tranquillin",
+    "edad": 25,
+    "equipo": "Vitality Rising Bees",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/cosmiic_lol",
+      "twitch": "https://twitch.tv/cosmiicc_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Céleste#coco",
+      "nivel": 1338,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1920,
+      "victorias": 345,
+      "derrotas": 316,
+      "ultima_partida": 1788383351225
+    },
+    {
+      "nombre": "천사의 깃털#6162",
+      "nivel": 326,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 298,
+      "victorias": 270,
+      "derrotas": 268,
+      "ultima_partida": 1788213790611
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Seraphine",
+      "partidas": 14,
+      "victorias": 12,
+      "winrate": "85.7%",
+      "kda_promedio": 5.489795918367347
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 3.340909090909091
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.2666666666666666
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7222222222222223
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.217391304347826
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.166666666666667
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5714285714285716
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 74,
+    "wins": 37,
+    "losses": 37,
+    "timePlayed": 123096
+  }
+}

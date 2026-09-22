@@ -10,107 +10,117 @@
       "twitter": "https://www.twitter.com/TheFatherMentos",
       "twitch": "https://www.twitch.tv/mentos__xd"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/IN5.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "드리머#DREAM",
-      "nivel": 501,
+      "nombre": "ttv mentosslol#GRE",
+      "nivel": 756,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 917,
-      "victorias": 489,
-      "derrotas": 461,
-      "ultima_partida": 1753730410054
+      "liga": "CHALLENGER I",
+      "lp": 3890,
+      "victorias": 812,
+      "derrotas": 697,
+      "ultima_partida": 1788369062420
+    },
+    {
+      "nombre": "TTV MentossLoL#1323",
+      "nivel": 154,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 223,
+      "derrotas": 203,
+      "ultima_partida": 1776511657884
     },
     {
       "nombre": "567024574567#9600",
-      "nivel": 285,
+      "nivel": 292,
       "region": "EUW1",
-      "liga": "DIAMOND I",
+      "liga": "EMERALD I",
       "lp": 75,
-      "victorias": 112,
-      "derrotas": 94,
-      "ultima_partida": 1751623128836
+      "victorias": 7,
+      "derrotas": 9,
+      "ultima_partida": 1768135167879
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Sylas",
-      "partidas": 11,
-      "victorias": 9,
-      "winrate": "81.8%",
-      "kda_promedio": 2.671875
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.8260869565217392
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.076923076923077
-    },
-    {
       "nombre": "Jayce",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 2.4166666666666665
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.1020408163265305
     },
     {
-      "nombre": "Viktor",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.823529411764706
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 3,
+      "nombre": "Galio",
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.818181818181818
+      "winrate": "50.0%",
+      "kda_promedio": 1.5806451612903225
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7307692307692308
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.6
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
     },
     {
       "nombre": "Poppy",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.269230769230769
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Ryze",
-      "partidas": 3,
+      "nombre": "Syndra",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8823529411764706
+      "winrate": "50.0%",
+      "kda_promedio": 1.2222222222222223
     },
     {
-      "nombre": "Smolder",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.1428571428571428
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 35,
-    "losses": 29,
-    "timePlayed": 99929
+    "games": 33,
+    "wins": 16,
+    "losses": 17,
+    "timePlayed": 51917
   }
 }

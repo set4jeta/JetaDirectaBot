@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Looki",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Looki#KCB",
+      "nivel": 1106,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1951,
+      "victorias": 630,
+      "derrotas": 515,
+      "ultima_partida": 1788196709583
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9411764705882353
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6923076923076923
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.166666666666667
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 4,
+    "losses": 8,
+    "timePlayed": 19318
+  }
+}

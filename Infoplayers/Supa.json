@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Supa",
     "nombre_real": "David Martínez García",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Movistar KOI",
     "pais": "Spain",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -10,44 +10,107 @@
       "twitter": "https://twitter.com/Supa_LoL",
       "twitch": "https://twitch.tv/supa_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/supa.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "tukaan#tukan",
-      "nivel": 1475,
+      "nivel": 1635,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1417,
-      "victorias": 328,
-      "derrotas": 259,
-      "ultima_partida": 1753739898369
+      "lp": 2708,
+      "victorias": 562,
+      "derrotas": 371,
+      "ultima_partida": 1788384296836
     },
     {
       "nombre": "Tukaan#tuknn",
       "nivel": 35,
       "region": "NA1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 36,
-      "derrotas": 13,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1751655496658
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 1,
-      "victorias": 1,
+      "nombre": "Ezreal",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 3
+      "kda_promedio": 5.416666666666667
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.230769230769231
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.9285714285714284
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0952380952380953
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 1,
-    "wins": 1,
-    "losses": 0,
-    "timePlayed": 1393
+    "games": 65,
+    "wins": 32,
+    "losses": 33,
+    "timePlayed": 104426
   }
 }

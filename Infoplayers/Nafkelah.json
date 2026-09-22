@@ -2,105 +2,115 @@
   "info_jugador": {
     "nombre": "Nafkelah",
     "nombre_real": "Andrija Kovačević",
-    "edad": 22,
-    "equipo": "Caldya Esport",
+    "edad": 23,
+    "equipo": "Skillcamp",
     "pais": "Montenegro",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/nafkelah",
       "twitch": "https://twitch.tv/nafkelah"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "James Doakes#BOAT",
-      "nivel": 934,
+      "nombre": "Yuta Okkotsu#BOAT",
+      "nivel": 1061,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1245,
-      "victorias": 251,
-      "derrotas": 209,
-      "ultima_partida": 1753733989678
+      "lp": 3303,
+      "victorias": 417,
+      "derrotas": 301,
+      "ultima_partida": 1788341619238
+    },
+    {
+      "nombre": "Jane Juliet#LARP4",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 35,
+      "derrotas": 22,
+      "ultima_partida": 1776718964975
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.4285714285714286
+      "nombre": "Nasus",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2790697674418605
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Locke",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.9736842105263157
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Anivia",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.8461538461538463
+      "kda_promedio": 2.6
     },
     {
-      "nombre": "Yunara",
+      "nombre": "Galio",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.1666666666666665
+      "kda_promedio": 4.833333333333333
     },
     {
-      "nombre": "Azir",
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Ahri",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.8333333333333335
+      "kda_promedio": 0.5714285714285714
     },
     {
-      "nombre": "Gwen",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.25
-    },
-    {
-      "nombre": "TwistedFate",
+      "nombre": "Akali",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2
     },
     {
-      "nombre": "Viktor",
+      "nombre": "Azir",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5454545454545454
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 5,
-    "losses": 9,
-    "timePlayed": 22235
+    "games": 37,
+    "wins": 17,
+    "losses": 20,
+    "timePlayed": 55625
   }
 }

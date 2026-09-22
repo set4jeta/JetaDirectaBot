@@ -2,95 +2,105 @@
   "info_jugador": {
     "nombre": "Yakkey",
     "nombre_real": "Darius Eduard Bistrian",
-    "edad": 20,
-    "equipo": "Crvena zvezda Esports",
+    "edad": 21,
+    "equipo": "Vitality.Bee",
     "pais": "Romania",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://www.twitter.com/YakkeyLoL",
       "twitch": "https://www.twitch.tv/yakkeylol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "red sky#14J",
-      "nivel": 555,
+      "nombre": "Smile#14J",
+      "nivel": 139,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 904,
-      "victorias": 391,
-      "derrotas": 360,
-      "ultima_partida": 1753740915271
+      "liga": "CHALLENGER I",
+      "lp": 2883,
+      "victorias": 480,
+      "derrotas": 375,
+      "ultima_partida": 1788367054111
     },
     {
-      "nombre": "Peyz#1401",
-      "nivel": 109,
+      "nombre": "Yakkey#PRIME",
+      "nivel": 647,
       "region": "EUW1",
-      "liga": "DIAMOND I",
+      "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 86,
-      "derrotas": 70,
-      "ultima_partida": 1751890563171
+      "victorias": 212,
+      "derrotas": 159,
+      "ultima_partida": 1784806767143
+    },
+    {
+      "nombre": "nervous gulp#14J",
+      "nivel": 117,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 8,
+      "derrotas": 4,
+      "ultima_partida": 1774093411056
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Corki",
+      "partidas": 11,
+      "victorias": 10,
+      "winrate": "90.9%",
+      "kda_promedio": 4.454545454545454
+    },
+    {
       "nombre": "Yunara",
-      "partidas": 16,
-      "victorias": 7,
-      "winrate": "43.8%",
-      "kda_promedio": 1.8494623655913978
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.702127659574468
     },
     {
-      "nombre": "Jinx",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 2.0357142857142856
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 10,
+      "nombre": "Jhin",
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 1.9152542372881356
+      "winrate": "37.5%",
+      "kda_promedio": 2.590909090909091
     },
     {
-      "nombre": "Lucian",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.2
+      "nombre": "Sivir",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.923076923076923
     },
     {
       "nombre": "Zeri",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 2.0344827586206895
+      "kda_promedio": 2.6363636363636362
     },
     {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7142857142857142
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 4.8125
-    },
-    {
-      "nombre": "Corki",
+      "nombre": "Tristana",
       "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8
+      "winrate": "50.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
     },
     {
       "nombre": "Vi",
@@ -100,17 +110,17 @@
       "kda_promedio": 2
     },
     {
-      "nombre": "Viego",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5714285714285716
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
-    "wins": 30,
-    "losses": 42,
-    "timePlayed": 114260
+    "games": 58,
+    "wins": 33,
+    "losses": 25,
+    "timePlayed": 89523
   }
 }

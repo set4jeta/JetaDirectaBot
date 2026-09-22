@@ -1,0 +1,76 @@
+{
+  "info_jugador": {
+    "nombre": "Anguish",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/anguish333"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "GØDSHΔRD DESCΞNT#333",
+      "nivel": 219,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1572,
+      "victorias": 352,
+      "derrotas": 282,
+      "ultima_partida": 1790032334342
+    },
+    {
+      "nombre": "ΔNGΞL ENGINΞ#333",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 47,
+      "victorias": 114,
+      "derrotas": 85,
+      "ultima_partida": 1783085995568
+    },
+    {
+      "nombre": "TIER SSSS十十十十BPM#333",
+      "nivel": 372,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 12,
+      "derrotas": 11,
+      "ultima_partida": 1782817834606
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Akali",
+      "partidas": 26,
+      "victorias": 14,
+      "winrate": "53.8%",
+      "kda_promedio": 2.7203389830508473
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 15,
+    "losses": 14,
+    "timePlayed": 44686
+  }
+}

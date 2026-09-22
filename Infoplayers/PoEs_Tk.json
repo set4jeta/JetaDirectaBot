@@ -9,65 +9,72 @@
     "redes_sociales": {
       "twitch": "https://twitch.tv/poes_tk"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/poes_tk.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "PoEs tk#EUW",
-      "nivel": 578,
+      "nombre": "TwTv PoEs tk#EUW11",
+      "nivel": 735,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1106,
-      "victorias": 508,
-      "derrotas": 465,
-      "ultima_partida": 1753755960769
+      "lp": 3015,
+      "victorias": 565,
+      "derrotas": 473,
+      "ultima_partida": 1788392007758
     },
     {
       "nombre": "Po3s#Tilt",
-      "nivel": 181,
+      "nivel": 198,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 643,
-      "victorias": 134,
-      "derrotas": 107,
-      "ultima_partida": 1753663440115
+      "liga": "DIAMOND I",
+      "lp": 32,
+      "victorias": 18,
+      "derrotas": 4,
+      "ultima_partida": 1788131082062
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Riven",
-      "partidas": 89,
-      "victorias": 52,
-      "winrate": "58.4%",
-      "kda_promedio": 2.52
+      "partidas": 54,
+      "victorias": 38,
+      "winrate": "70.4%",
+      "kda_promedio": 2.82
     },
     {
       "nombre": "Ambessa",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 1.9268292682926829
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 0.9473684210526315
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Janna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Ahri",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 11
+      "kda_promedio": 1.4
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Sion",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 0.8333333333333334
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 101,
-    "wins": 56,
-    "losses": 45,
-    "timePlayed": 166383
+    "games": 62,
+    "wins": 39,
+    "losses": 23,
+    "timePlayed": 92985
   }
 }

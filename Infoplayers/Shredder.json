@@ -2,104 +2,114 @@
   "info_jugador": {
     "nombre": "Shredder",
     "nombre_real": "Gabriele Iannarelli",
-    "edad": 23,
-    "equipo": "Skillcamp",
+    "edad": 24,
+    "equipo": "Colossal Gaming",
     "pais": "Italy",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitch": "https://www.twitch.tv/shredderloll"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/shredder.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Shredder#SHRD",
-      "nivel": 1135,
+      "nombre": "Shredder#mio韩服",
+      "nivel": 1314,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 915,
-      "victorias": 190,
-      "derrotas": 149,
-      "ultima_partida": 1753708661530
+      "lp": 1809,
+      "victorias": 471,
+      "derrotas": 385,
+      "ultima_partida": 1788385549129
+    },
+    {
+      "nombre": "GABRIELINO#SHRDR",
+      "nivel": 269,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 60,
+      "victorias": 4,
+      "derrotas": 4,
+      "ultima_partida": 1774807922149
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rakan",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.461538461538462
+      "nombre": "Bard",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 4.015625
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 3.2
     },
     {
       "nombre": "Rell",
-      "partidas": 8,
+      "partidas": 7,
       "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 4.151515151515151
+      "winrate": "42.9%",
+      "kda_promedio": 1.9607843137254901
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.5
     },
     {
       "nombre": "Alistar",
       "partidas": 5,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.826086956521739
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 4.055555555555555
+      "kda_promedio": 3.5517241379310347
     },
     {
       "nombre": "Leona",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.111111111111111
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.7
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 2,
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2
+      "winrate": "20.0%",
+      "kda_promedio": 2.037037037037037
     },
     {
-      "nombre": "Thresh",
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 14.333333333333334
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9444444444444444
+    },
+    {
+      "nombre": "XinZhao",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.8
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 19,
-    "losses": 22,
-    "timePlayed": 68270
+    "games": 64,
+    "wins": 32,
+    "losses": 32,
+    "timePlayed": 99868
   }
 }

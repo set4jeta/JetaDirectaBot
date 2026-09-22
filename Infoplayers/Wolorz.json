@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Wolorz",
+    "nombre_real": "Krzysztof Kasprzak",
+    "edad": 19,
+    "equipo": "Frites Esports Club",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/wolorzlol",
+      "twitch": "https://www.twitch.tv/wolorzlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "YELLOWSUPERCAR87#1481",
+      "nivel": 178,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1970,
+      "victorias": 257,
+      "derrotas": 179,
+      "ultima_partida": 1788371486040
+    },
+    {
+      "nombre": "i miss csgo#1481",
+      "nivel": 516,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2725,
+      "victorias": 384,
+      "derrotas": 299,
+      "ultima_partida": 1788359106324
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.909090909090909
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.607142857142857
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 6.066666666666666
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.375
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4375
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 81,
+    "wins": 44,
+    "losses": 37,
+    "timePlayed": 124295
+  }
+}

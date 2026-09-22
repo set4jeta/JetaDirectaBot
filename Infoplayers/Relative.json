@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Relative",
+    "nombre_real": "Leon Van",
+    "edad": 24,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Relativelol",
+      "twitch": "https://www.twitch.tv/relativelol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Relative#00003",
+      "nivel": 187,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2689,
+      "victorias": 192,
+      "derrotas": 127,
+      "ultima_partida": 1788277078213
+    },
+    {
+      "nombre": "Relative#00002",
+      "nivel": 762,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2368,
+      "victorias": 340,
+      "derrotas": 242,
+      "ultima_partida": 1788267081448
+    },
+    {
+      "nombre": "Relative#00001",
+      "nivel": 242,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 95,
+      "victorias": 10,
+      "derrotas": 16,
+      "ultima_partida": 1786706639767
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 32
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0526315789473686
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 25,
+    "wins": 16,
+    "losses": 9,
+    "timePlayed": 42355
+  }
+}

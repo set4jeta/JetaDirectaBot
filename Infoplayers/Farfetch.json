@@ -2,115 +2,87 @@
   "info_jugador": {
     "nombre": "Farfetch",
     "nombre_real": "Berk Badur",
-    "edad": 26,
-    "equipo": "ULF Esports",
+    "edad": 27,
+    "equipo": "PvB (Swiss Team)",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/FarfetchLOL",
       "twitch": "https://twitch.tv/farfetchlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/farfetch.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ULF.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "farfetch#296",
-      "nivel": 977,
+      "nivel": 1100,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 938,
-      "victorias": 316,
-      "derrotas": 282,
-      "ultima_partida": 1753747974197
+      "lp": 2101,
+      "victorias": 479,
+      "derrotas": 385,
+      "ultima_partida": 1788359106324
     },
     {
-      "nombre": "ff ad acc#farf",
-      "nivel": 383,
+      "nombre": "夕阳格外伤感  人间多有遗憾#对不起",
+      "nivel": 390,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 25,
-      "victorias": 119,
-      "derrotas": 104,
-      "ultima_partida": 1750899277402
+      "liga": "DIAMOND IV",
+      "lp": 35,
+      "victorias": 7,
+      "derrotas": 5,
+      "ultima_partida": 1786122127564
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Neeko",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.875
-    },
-    {
       "nombre": "Lulu",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.095238095238095
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.6
-    },
-    {
-      "nombre": "Bard",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.736842105263158
+      "kda_promedio": 2.6
     },
     {
-      "nombre": "Braum",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.238095238095238
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Kaisa",
+      "nombre": "Lux",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5384615384615383
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Nautilus",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.4285714285714284
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.4545454545454546
-    },
-    {
-      "nombre": "Pyke",
-      "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.5714285714285716
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6153846153846154
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 48,
-    "wins": 26,
-    "losses": 22,
-    "timePlayed": 79354
+    "games": 10,
+    "wins": 4,
+    "losses": 6,
+    "timePlayed": 16308
   }
 }

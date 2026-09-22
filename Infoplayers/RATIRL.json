@@ -10,117 +10,99 @@
       "twitter": "https://twitter.com/Aatroxcarry",
       "twitch": "https://twitch.tv/ratirl"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/ratirl.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Era Istrefi#EUW",
-      "nivel": 175,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 540,
-      "victorias": 277,
-      "derrotas": 229,
-      "ultima_partida": 1753760236996
-    },
-    {
       "nombre": "Αrt The Clοwn#EUW",
-      "nivel": 625,
+      "nivel": 710,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 824,
-      "victorias": 251,
-      "derrotas": 213,
-      "ultima_partida": 1753560017316
+      "liga": "CHALLENGER I",
+      "lp": 2322,
+      "victorias": 282,
+      "derrotas": 209,
+      "ultima_partida": 1788381533213
     },
     {
       "nombre": "DynamiteLarry63#EUW",
-      "nivel": 160,
+      "nivel": 162,
       "region": "EUW1",
       "liga": "EMERALD I",
-      "lp": 80,
-      "victorias": 2,
-      "derrotas": 5,
-      "ultima_partida": 1736459218582
+      "lp": 75,
+      "victorias": 11,
+      "derrotas": 7,
+      "ultima_partida": 1775941797367
+    },
+    {
+      "nombre": "Era Istrefi#EUW",
+      "nivel": 261,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 6,
+      "derrotas": 9,
+      "ultima_partida": 1773036699904
+    },
+    {
+      "nombre": "Jennifer Holland#EUW11",
+      "nivel": 215,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1767689884227
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Twitch",
-      "partidas": 75,
-      "victorias": 47,
-      "winrate": "62.7%",
-      "kda_promedio": 3.109452736318408
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 19,
-      "victorias": 11,
-      "winrate": "57.9%",
-      "kda_promedio": 3.066666666666667
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 17,
-      "victorias": 9,
-      "winrate": "52.9%",
-      "kda_promedio": 3.635135135135135
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 13,
+      "nombre": "Nami",
+      "partidas": 9,
       "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 3.65
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 13,
-      "victorias": 5,
-      "winrate": "38.5%",
-      "kda_promedio": 2.716417910447761
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 3.7966101694915255
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.734375
+      "winrate": "77.8%",
+      "kda_promedio": 4.8076923076923075
     },
     {
       "nombre": "Brand",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 3
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9473684210526316
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.375
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
     },
     {
       "nombre": "Milio",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3.1666666666666665
-    },
-    {
-      "nombre": "Yuumi",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 5.730769230769231
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 194,
-    "wins": 109,
-    "losses": 85,
-    "timePlayed": 317847
+    "games": 17,
+    "wins": 12,
+    "losses": 5,
+    "timePlayed": 24718
   }
 }

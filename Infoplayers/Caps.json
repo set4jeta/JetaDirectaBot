@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "Caps",
     "nombre_real": "Rasmus Borregaard Winther",
-    "edad": 25,
+    "edad": 26,
     "equipo": "G2 Esports",
     "pais": "Denmark",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/G2Caps",
       "twitch": "https://twitch.tv/caps"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/caps.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/G2.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "G2 Caps#1323",
-      "nivel": 1153,
+      "nivel": 1303,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 990,
-      "victorias": 463,
-      "derrotas": 410,
-      "ultima_partida": 1753649549511
+      "liga": "CHALLENGER I",
+      "lp": 2400,
+      "victorias": 503,
+      "derrotas": 364,
+      "ultima_partida": 1789902988203
+    },
+    {
+      "nombre": "g2caps#g123",
+      "nivel": 42,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 86,
+      "derrotas": 37,
+      "ultima_partida": 1783700057788
     },
     {
       "nombre": "G2 Caps#LOL1",
       "nivel": 31,
       "region": "NA1",
-      "liga": "DIAMOND II",
-      "lp": 2,
-      "victorias": 15,
-      "derrotas": 3,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1751681542034
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Annie",
-      "partidas": 3,
+      "nombre": "Leblanc",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.64
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.4634146341463414
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.212121212121212
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 4,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4166666666666667
+      "kda_promedio": 1.125
     },
     {
-      "nombre": "Galio",
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.7741935483870968
+    },
+    {
+      "nombre": "Pyke",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8125
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7391304347826086
     },
     {
-      "nombre": "Azir",
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Akali",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.111111111111111
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Corki",
+      "nombre": "Annie",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.36363636363636365
+      "kda_promedio": 1.9473684210526316
     },
     {
       "nombre": "Ryze",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.555555555555555
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.9230769230769231
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.8
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.888888888888889
-    },
-    {
-      "nombre": "Shaco",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1111111111111112
+      "kda_promedio": 1.7142857142857142
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 8,
-    "losses": 10,
-    "timePlayed": 28014
+    "games": 47,
+    "wins": 26,
+    "losses": 21,
+    "timePlayed": 77192
   }
 }

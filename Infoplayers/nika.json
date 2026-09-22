@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "nika",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/frogenyalios"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "nika#frog",
+      "nivel": 930,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2330,
+      "victorias": 510,
+      "derrotas": 462,
+      "ultima_partida": 1788377108068
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7058823529411766
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.739130434782609
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2333333333333334
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1538461538461537
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.142857142857142
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 30,
+    "losses": 13,
+    "timePlayed": 68518
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "CaptainSexy",
+    "nombre_real": "Alexander Mielke",
+    "edad": 28,
+    "equipo": "Elysion Esports",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/CaptainSexylol",
+      "twitch": "https://www.twitch.tv/captainsexylol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Bossman 7#Sexy",
+      "nivel": 2007,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1624,
+      "victorias": 670,
+      "derrotas": 625,
+      "ultima_partida": 1789987856731
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 30,
+      "victorias": 15,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2832369942196533
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.2333333333333334
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3103448275862069
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0416666666666665
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Samira",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.75
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 30,
+    "losses": 35,
+    "timePlayed": 107075
+  }
+}

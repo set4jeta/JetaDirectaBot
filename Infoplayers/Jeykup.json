@@ -8,109 +8,119 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/jeykup2",
-      "twitch": "p2\\thttps://www.twitch.tv/jeykuplol"
+      "twitch": "https://www.twitch.tv/jeykuplol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Jeykup#1000",
-      "nivel": 199,
+      "nombre": "jgkng153#9191",
+      "nivel": 479,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1328,
-      "victorias": 335,
-      "derrotas": 255,
-      "ultima_partida": 1753735423887
+      "liga": "GRANDMASTER I",
+      "lp": 2033,
+      "victorias": 660,
+      "derrotas": 558,
+      "ultima_partida": 1788372582380
     },
     {
-      "nombre": "neymarjr#jeykp",
-      "nivel": 367,
+      "nombre": "Jeykup#1000",
+      "nivel": 243,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 72,
-      "victorias": 345,
-      "derrotas": 348,
-      "ultima_partida": 1753609939169
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1769904519759
+    },
+    {
+      "nombre": "talent1919#jey",
+      "nivel": 327,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 30,
+      "victorias": 6,
+      "derrotas": 11,
+      "ultima_partida": 1768092623386
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Qiyana",
+      "partidas": 41,
+      "victorias": 29,
+      "winrate": "70.7%",
+      "kda_promedio": 2.928251121076233
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 23,
+      "victorias": 15,
+      "winrate": "65.2%",
+      "kda_promedio": 2.761904761904762
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 22,
+      "victorias": 12,
+      "winrate": "54.5%",
+      "kda_promedio": 3.0625
+    },
+    {
       "nombre": "Naafiri",
-      "partidas": 28,
-      "victorias": 18,
-      "winrate": "64.3%",
-      "kda_promedio": 4.848484848484849
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 12,
-      "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 11,
+      "partidas": 17,
       "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.1777777777777776
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.2972972972972974
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3225806451612905
+      "winrate": "41.2%",
+      "kda_promedio": 3.032608695652174
     },
     {
       "nombre": "Khazix",
-      "partidas": 4,
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.626865671641791
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 2.869565217391304
-    },
-    {
-      "nombre": "Qiyana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.466666666666667
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.411764705882353
+      "winrate": "40.0%",
+      "kda_promedio": 2.7288135593220337
     },
     {
       "nombre": "LeeSin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.238095238095238
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7777777777777778
+      "nombre": "Ekko",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.461538461538462
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0714285714285716
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 79,
-    "wins": 47,
-    "losses": 32,
-    "timePlayed": 125182
+    "games": 144,
+    "wins": 86,
+    "losses": 58,
+    "timePlayed": 230769
   }
 }

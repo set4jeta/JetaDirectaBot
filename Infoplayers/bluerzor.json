@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "bluerzor",
     "nombre_real": "Dániel Subicz",
-    "edad": 26,
+    "edad": 27,
     "equipo": "UCAM Esports",
     "pais": "Hungary",
-    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "contrato_hasta": "2026-11-18T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/bluerzor",
       "twitch": "https://twitch.tv/bluerzor"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/bluerzor.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "bluerzor#grind",
-      "nivel": 687,
+      "nombre": "nirvana pathing#0906",
+      "nivel": 848,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 748,
-      "victorias": 450,
-      "derrotas": 426,
-      "ultima_partida": 1753476304623
+      "lp": 2022,
+      "victorias": 553,
+      "derrotas": 485,
+      "ultima_partida": 1788355266088
     },
     {
-      "nombre": "its not me#DTB",
-      "nivel": 373,
+      "nombre": "hi im bluerzor#king",
+      "nivel": 394,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 71,
-      "derrotas": 62,
-      "ultima_partida": 1748383891284
+      "victorias": 103,
+      "derrotas": 76,
+      "ultima_partida": 1783354405238
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 22,
+      "nombre": "Zyra",
+      "partidas": 16,
       "victorias": 11,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5757575757575757
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 12,
-      "victorias": 11,
-      "winrate": "91.7%",
-      "kda_promedio": 4.069767441860465
-    },
-    {
-      "nombre": "DrMundo",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 2.5172413793103448
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.294117647058823
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.0588235294117645
+      "winrate": "68.8%",
+      "kda_promedio": 4.2631578947368425
     },
     {
       "nombre": "LeeSin",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 4.830188679245283
     },
     {
       "nombre": "JarvanIV",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.742857142857143
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.2413793103448274
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Renekton",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.111111111111111
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.45454545454545453
+      "kda_promedio": 1.0434782608695652
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Orianna",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 8
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0909090909090908
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 32,
-    "losses": 32,
-    "timePlayed": 101722
+    "games": 61,
+    "wins": 35,
+    "losses": 26,
+    "timePlayed": 95080
   }
 }

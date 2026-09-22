@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pigeonx",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/1callmaster",
+      "twitch": "https://www.twitch.tv/1callmaster"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "ZY77 oo 7YZZ#DJIAI",
+      "nivel": 201,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1247,
+      "victorias": 142,
+      "derrotas": 82,
+      "ultima_partida": 1766329042918
+    },
+    {
+      "nombre": "C1tyN3v3rSL9eps#1337x",
+      "nivel": 259,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 850,
+      "victorias": 276,
+      "derrotas": 222,
+      "ultima_partida": 1766314851569
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leona",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.719298245614035
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.7727272727272727
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.3783783783783783
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9411764705882355
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 17,
+    "losses": 15,
+    "timePlayed": 52735
+  }
+}

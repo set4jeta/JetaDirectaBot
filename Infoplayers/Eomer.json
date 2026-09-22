@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Eomer",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/eomer_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "eomer#FEUR",
+      "nivel": 1283,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1950,
+      "victorias": 601,
+      "derrotas": 570,
+      "ultima_partida": 1788210065836
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Velkoz",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.4186046511627908
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.083333333333333
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 9.4
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 52
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7058823529411765
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 27,
+    "wins": 21,
+    "losses": 6,
+    "timePlayed": 42670
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Color",
+    "nombre_real": "Sebastian Czyżyk",
+    "edad": 25,
+    "equipo": "Forsaken (Polish Team)",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/NowyColor",
+      "twitch": "https://www.twitch.tv/nowycolor"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Go Ha Go Ha#EUW",
+      "nivel": 1165,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1949,
+      "victorias": 937,
+      "derrotas": 848,
+      "ultima_partida": 1788360484250
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Camille",
+      "partidas": 33,
+      "victorias": 24,
+      "winrate": "72.7%",
+      "kda_promedio": 1.6647058823529413
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.52
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0930232558139537
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.911764705882353
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 0.9393939393939394
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 154,
+    "wins": 87,
+    "losses": 67,
+    "timePlayed": 245244
+  }
+}

@@ -2,115 +2,108 @@
   "info_jugador": {
     "nombre": "Sw3ry",
     "nombre_real": "Denis Neumann",
-    "edad": 18,
-    "equipo": "Fox Gaming",
+    "edad": 19,
+    "equipo": "Caldya Esport",
     "pais": "Czech Republic",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Sw3ry_lol",
-      "twitch": "https://www.twitch.tv/sw3ry__"
+      "twitch": "\\thttps://www.twitch.tv/sw3ry__"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/F0X.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "noobsupp#noob",
-      "nivel": 162,
+      "nombre": "noobsuppp#noob",
+      "nivel": 857,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1366,
-      "victorias": 424,
-      "derrotas": 350,
-      "ultima_partida": 1753735423887
+      "liga": "GRANDMASTER I",
+      "lp": 1896,
+      "victorias": 685,
+      "derrotas": 587,
+      "ultima_partida": 1788360144465
     },
     {
-      "nombre": "noobsuppp#noob",
-      "nivel": 741,
+      "nombre": "noobsupp#noob",
+      "nivel": 266,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 127,
-      "victorias": 72,
-      "derrotas": 66,
-      "ultima_partida": 1753704590106
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 83,
+      "derrotas": 68,
+      "ultima_partida": 1786529814127
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 20,
-      "victorias": 12,
-      "winrate": "60.0%",
-      "kda_promedio": 4.432098765432099
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.2
     },
     {
-      "nombre": "Nami",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 6.4375
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8333333333333333
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1707317073170733
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Lulu",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
       "kda_promedio": 7
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 7.5
-    },
-    {
-      "nombre": "Thresh",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.1739130434782608
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.285714285714286
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.5
     },
     {
       "nombre": "Braum",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.8333333333333334
+      "kda_promedio": 0.8888888888888888
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.125
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
-    "wins": 41,
-    "losses": 24,
-    "timePlayed": 104442
+    "games": 19,
+    "wins": 7,
+    "losses": 12,
+    "timePlayed": 29263
   }
 }

@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Kaori",
     "nombre_real": "Muhammed&nbsp;Hasan Şentürk",
-    "edad": 24,
+    "edad": 25,
     "equipo": "ULF Esports",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/KaoriLoL",
       "twitch": "https://twitch.tv/kaori123"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/kaori.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ULF.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "古月方源#33333",
-      "nivel": 1198,
+      "nombre": "Kaori#EUW33",
+      "nivel": 1405,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 884,
-      "victorias": 467,
-      "derrotas": 425,
-      "ultima_partida": 1753747435371
+      "liga": "CHALLENGER I",
+      "lp": 4331,
+      "victorias": 797,
+      "derrotas": 663,
+      "ultima_partida": 1788176822629
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Jhin",
-      "partidas": 14,
-      "victorias": 6,
-      "winrate": "42.9%",
-      "kda_promedio": 2.92
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.369565217391304
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 5,
+      "nombre": "Tristana",
+      "partidas": 4,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.7916666666666665
+      "winrate": "100.0%",
+      "kda_promedio": 3.45
     },
     {
       "nombre": "Kaisa",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2777777777777777
+      "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Sivir",
-      "partidas": 3,
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4642857142857142
+      "winrate": "50.0%",
+      "kda_promedio": 1.5789473684210527
     },
     {
-      "nombre": "Vayne",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.555555555555555
-    },
-    {
-      "nombre": "Aphelios",
+      "nombre": "Viktor",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.090909090909091
+      "kda_promedio": 4.25
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
+      "nombre": "Ashe",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 1.75
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 2,
+      "nombre": "Jhin",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
     },
     {
-      "nombre": "Taliyah",
-      "partidas": 2,
+      "nombre": "Lucian",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 28,
-    "losses": 29,
-    "timePlayed": 91065
+    "games": 17,
+    "wins": 11,
+    "losses": 6,
+    "timePlayed": 27922
   }
 }

@@ -1,0 +1,114 @@
+{
+  "info_jugador": {
+    "nombre": "Mino",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/itsminooooo"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Twtv itsMinooooo#MEOW",
+      "nivel": 282,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 946,
+      "victorias": 192,
+      "derrotas": 167,
+      "ultima_partida": 1788292861426
+    },
+    {
+      "nombre": "Femboy Kitten#hiiii",
+      "nivel": 51,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 65,
+      "victorias": 107,
+      "derrotas": 66,
+      "ultima_partida": 1787682572459
+    },
+    {
+      "nombre": "Mino#GRAWR",
+      "nivel": 391,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1998,
+      "victorias": 717,
+      "derrotas": 650,
+      "ultima_partida": 1787186878179
+    },
+    {
+      "nombre": "No More Games#QUIET",
+      "nivel": 489,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 31,
+      "victorias": 4,
+      "derrotas": 7,
+      "ultima_partida": 1772922009558
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 30,
+      "victorias": 16,
+      "winrate": "53.3%",
+      "kda_promedio": 3.6619718309859155
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 38,
+    "wins": 22,
+    "losses": 16,
+    "timePlayed": 63329
+  }
+}

@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Afriibi",
     "nombre_real": "Atis Fridensteins-Bridins",
-    "edad": 21,
-    "equipo": "ZETA",
+    "edad": 22,
+    "equipo": "Ruddy Corporation",
     "pais": "Latvia",
-    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Afriibi1",
       "twitch": "https://twitch.tv/afriibi"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ZTA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "AFRB#AFB",
-      "nivel": 118,
+      "nombre": "NoobTownMayor#Noobs",
+      "nivel": 258,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 401,
-      "victorias": 211,
-      "derrotas": 180,
-      "ultima_partida": 1753709702702
+      "liga": "CHALLENGER I",
+      "lp": 2653,
+      "victorias": 725,
+      "derrotas": 602,
+      "ultima_partida": 1790028022306
     },
     {
-      "nombre": "Afriibi#AFB",
-      "nivel": 454,
+      "nombre": "Afri#vodzi",
+      "nivel": 544,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 978,
-      "victorias": 216,
-      "derrotas": 176,
-      "ultima_partida": 1753456616700
+      "liga": "MASTER I",
+      "lp": 47,
+      "victorias": 123,
+      "derrotas": 85,
+      "ultima_partida": 1789681095714
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Tristana",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.098360655737705
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.84
+    },
+    {
       "nombre": "Yunara",
-      "partidas": 19,
-      "victorias": 9,
-      "winrate": "47.4%",
-      "kda_promedio": 1.6346153846153846
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.5849056603773586
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1944444444444444
     },
     {
       "nombre": "Zeri",
-      "partidas": 16,
-      "victorias": 10,
-      "winrate": "62.5%",
-      "kda_promedio": 2.3883495145631066
-    },
-    {
-      "nombre": "Draven",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6551724137931034
+      "winrate": "40.0%",
+      "kda_promedio": 1.4666666666666666
     },
     {
-      "nombre": "Xayah",
+      "nombre": "Kaisa",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.263157894736842
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 2,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4
+      "winrate": "33.3%",
+      "kda_promedio": 1.7692307692307692
     },
     {
       "nombre": "Jinx",
       "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 4
     },
     {
-      "nombre": "Malphite",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
-    },
-    {
-      "nombre": "Poppy",
+      "nombre": "Locke",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.210526315789474
+      "kda_promedio": 1.619047619047619
     },
     {
-      "nombre": "Pyke",
-      "partidas": 2,
+      "nombre": "Aphelios",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.125
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.1666666666666665
+      "kda_promedio": 1.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 32,
-    "losses": 28,
-    "timePlayed": 97494
+    "games": 54,
+    "wins": 29,
+    "losses": 25,
+    "timePlayed": 85046
   }
 }

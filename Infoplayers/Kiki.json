@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Kiki",
+    "nombre_real": "Killian Gauchey",
+    "edad": null,
+    "equipo": "Caldya Esport",
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/kikienclaket"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Kiki#MATES",
+      "nivel": 1532,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2364,
+      "victorias": 523,
+      "derrotas": 445,
+      "ultima_partida": 1788363508801
+    },
+    {
+      "nombre": "Eberechi Eze#COYGB",
+      "nivel": 228,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1035,
+      "victorias": 294,
+      "derrotas": 245,
+      "ultima_partida": 1788255285994
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 28,
+      "victorias": 19,
+      "winrate": "67.9%",
+      "kda_promedio": 4.2781954887218046
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 4.2317073170731705
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 4.852941176470588
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.636363636363637
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8461538461538461
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.571428571428571
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 98,
+    "wins": 59,
+    "losses": 39,
+    "timePlayed": 168404
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "info_jugador": {
+    "nombre": "Kagaroo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/kaagaroo"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TWTV KAAGAROO#EUW11",
+      "nivel": 319,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2189,
+      "victorias": 758,
+      "derrotas": 661,
+      "ultima_partida": 1788376090873
+    },
+    {
+      "nombre": "TTV KAAGAROO#kag",
+      "nivel": 171,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1388,
+      "victorias": 302,
+      "derrotas": 226,
+      "ultima_partida": 1787588447374
+    },
+    {
+      "nombre": "TWITCHTV KAGAROO#kag",
+      "nivel": 81,
+      "region": "NA1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 21,
+      "derrotas": 4,
+      "ultima_partida": 1787163262315
+    },
+    {
+      "nombre": "i love KT#goat9",
+      "nivel": 57,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1763548713548
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Trundle",
+      "partidas": 45,
+      "victorias": 24,
+      "winrate": "53.3%",
+      "kda_promedio": 1.54
+    },
+    {
+      "nombre": "Illaoi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.38461538461538464
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 48,
+    "wins": 24,
+    "losses": 24,
+    "timePlayed": 74899
+  }
+}

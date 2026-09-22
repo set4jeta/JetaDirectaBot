@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Shirotulador",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Shirotulador"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "KAKEGURUI MASHO#SAAAA",
+      "nivel": 1606,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2221,
+      "victorias": 330,
+      "derrotas": 274,
+      "ultima_partida": 1788377391944
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.6166666666666667
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.980392156862745
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0476190476190474
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.09090909090909091
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 46,
+    "wins": 27,
+    "losses": 19,
+    "timePlayed": 79297
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Ruep",
+    "nombre_real": "İlker Bilen",
+    "edad": 23,
+    "equipo": "Bushido Wildcats",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/rueplol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "xiaolongxia#3223",
+      "nivel": 494,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2535,
+      "victorias": 715,
+      "derrotas": 617,
+      "ultima_partida": 1788351236093
+    },
+    {
+      "nombre": "wqrfasddqw#7219",
+      "nivel": 509,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 805,
+      "victorias": 104,
+      "derrotas": 45,
+      "ultima_partida": 1787826668895
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1333333333333333
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9375
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.076923076923077
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.0952380952380953
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0357142857142856
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5384615384615383
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 20,
+    "losses": 13,
+    "timePlayed": 53712
+  }
+}

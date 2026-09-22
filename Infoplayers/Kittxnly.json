@@ -8,67 +8,60 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/kittxnly",
-      "twitch": "https://twitch.tv/kittxnlylol"
+      "twitch": "https://www.twitch.tv/kittxnly"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/kittxnly.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Kittxnly alt#Jork",
-      "nivel": 116,
+      "nombre": "Kittxnly#Luna",
+      "nivel": 811,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 416,
-      "victorias": 120,
-      "derrotas": 113,
-      "ultima_partida": 1753663479076
+      "liga": "GRANDMASTER I",
+      "lp": 2176,
+      "victorias": 527,
+      "derrotas": 426,
+      "ultima_partida": 1788374402677
     },
     {
-      "nombre": "Kittxnly#Luna",
-      "nivel": 686,
+      "nombre": "Kittxnly alt#Jork",
+      "nivel": 159,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1212,
-      "victorias": 409,
-      "derrotas": 350,
-      "ultima_partida": 1753188494367
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 122,
+      "derrotas": 91,
+      "ultima_partida": 1787337479841
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Soraka",
-      "partidas": 30,
-      "victorias": 16,
-      "winrate": "53.3%",
-      "kda_promedio": 3.61744966442953
+      "nombre": "Lulu",
+      "partidas": 38,
+      "victorias": 21,
+      "winrate": "55.3%",
+      "kda_promedio": 3.0980392156862746
     },
     {
       "nombre": "Nami",
-      "partidas": 18,
-      "victorias": 4,
-      "winrate": "22.2%",
-      "kda_promedio": 2.492063492063492
+      "partidas": 31,
+      "victorias": 16,
+      "winrate": "51.6%",
+      "kda_promedio": 3.458904109589041
     },
     {
-      "nombre": "Mel",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 23
+      "nombre": "Soraka",
+      "partidas": 29,
+      "victorias": 14,
+      "winrate": "48.3%",
+      "kda_promedio": 3.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 22,
-    "losses": 29,
-    "timePlayed": 82543
+    "games": 98,
+    "wins": 51,
+    "losses": 47,
+    "timePlayed": 156499
   }
 }

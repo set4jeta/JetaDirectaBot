@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Kurama",
+    "nombre_real": "Alp Eren Öğdem",
+    "edad": 21,
+    "equipo": "Otter Side",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Kuramacatlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MR PRINCE#ily12",
+      "nivel": 452,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2692,
+      "victorias": 524,
+      "derrotas": 440,
+      "ultima_partida": 1788202614242
+    },
+    {
+      "nombre": "Kurama#0001",
+      "nivel": 733,
+      "region": "EUW1",
+      "liga": "DIAMOND IV",
+      "lp": 55,
+      "victorias": 10,
+      "derrotas": 11,
+      "ultima_partida": 1787185741657
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.814814814814815
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.411764705882353
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Kayn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 23
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 21,
+    "losses": 8,
+    "timePlayed": 48037
+  }
+}

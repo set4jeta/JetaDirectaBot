@@ -2,115 +2,145 @@
   "info_jugador": {
     "nombre": "Stend",
     "nombre_real": "Paul Lardin",
-    "edad": 24,
-    "equipo": "Team Heretics",
+    "edad": 25,
+    "equipo": "Shifters",
     "pais": "France",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Stend_lol",
       "twitch": "https://twitch.tv/stend_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/stend.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Stendinho JR 10#lrd",
-      "nivel": 116,
+      "nombre": "Stendinho 10#lrd",
+      "nivel": 700,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1489,
-      "victorias": 491,
-      "derrotas": 398,
-      "ultima_partida": 1753745458166
+      "liga": "GRANDMASTER I",
+      "lp": 1971,
+      "victorias": 639,
+      "derrotas": 522,
+      "ultima_partida": 1788205655968
     },
     {
-      "nombre": "TH Stend#000",
-      "nivel": 248,
+      "nombre": "SHIFT Stend#BDS",
+      "nivel": 257,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 143,
-      "derrotas": 134,
-      "ultima_partida": 1744753766646
+      "victorias": 61,
+      "derrotas": 31,
+      "ultima_partida": 1784230878630
+    },
+    {
+      "nombre": "Stendinho JR 10#lrd",
+      "nivel": 140,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1764250972971
+    },
+    {
+      "nombre": "TH Stend#kr2",
+      "nivel": 79,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1763828817388
+    },
+    {
+      "nombre": "TERREUR NOCTURNE#shhh",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760307227685
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Thresh",
-      "partidas": 18,
-      "victorias": 13,
-      "winrate": "72.2%",
-      "kda_promedio": 4.459770114942529
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 14,
-      "victorias": 2,
-      "winrate": "14.3%",
-      "kda_promedio": 2.774193548387097
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 3.5294117647058822
-    },
-    {
       "nombre": "Rell",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 4.823529411764706
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.5
     },
     {
-      "nombre": "Rakan",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 3.6315789473684212
-    },
-    {
-      "nombre": "Gragas",
+      "nombre": "Senna",
       "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8048780487804876
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.24
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.266666666666667
+      "winrate": "60.0%",
+      "kda_promedio": 1.368421052631579
     },
     {
       "nombre": "Nautilus",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.586206896551724
-    },
-    {
-      "nombre": "Lulu",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 7.285714285714286
+      "kda_promedio": 2.8857142857142857
     },
     {
-      "nombre": "Poppy",
+      "nombre": "Thresh",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.9
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 6.769230769230769
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Zoe",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3513513513513513
+    },
+    {
+      "nombre": "Renata",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.6875
+      "kda_promedio": 4.466666666666667
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 55,
-    "losses": 42,
-    "timePlayed": 152086
+    "games": 56,
+    "wins": 29,
+    "losses": 27,
+    "timePlayed": 88082
   }
 }

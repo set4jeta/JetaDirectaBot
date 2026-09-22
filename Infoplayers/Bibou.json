@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Bibou",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/bibou_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Bibou#KCWIN",
+      "nivel": 1197,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2713,
+      "victorias": 536,
+      "derrotas": 445,
+      "ultima_partida": 1789203457415
+    },
+    {
+      "nombre": "French AD#KCWIN",
+      "nivel": 98,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 233,
+      "derrotas": 179,
+      "ultima_partida": 1769927849333
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 4.470588235294118
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.142857142857143
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 21,
+    "wins": 16,
+    "losses": 5,
+    "timePlayed": 32552
+  }
+}

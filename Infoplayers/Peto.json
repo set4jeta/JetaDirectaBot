@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Peto",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Peto_lol",
+      "twitch": "https://www.twitch.tv/peto_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Peto#bald",
+      "nivel": 114,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 915,
+      "victorias": 402,
+      "derrotas": 314,
+      "ultima_partida": 1766364898600
+    },
+    {
+      "nombre": "bald man#monk",
+      "nivel": 443,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 493,
+      "derrotas": 436,
+      "ultima_partida": 1764701326985
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.359375
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1333333333333333
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.103448275862069
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2045454545454546
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.588235294117647
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.857142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 32,
+    "losses": 31,
+    "timePlayed": 97615
+  }
+}

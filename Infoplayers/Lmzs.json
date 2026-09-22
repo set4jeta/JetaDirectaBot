@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Lmzs",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/lamzes"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TwTv LaMzes#LIVE",
+      "nivel": 783,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1802,
+      "victorias": 700,
+      "derrotas": 589,
+      "ultima_partida": 1788199652599
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Akali",
+      "partidas": 31,
+      "victorias": 17,
+      "winrate": "54.8%",
+      "kda_promedio": 2.7964071856287425
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 31,
+      "victorias": 19,
+      "winrate": "61.3%",
+      "kda_promedio": 2.808641975308642
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6582278481012658
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.2037037037037037
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.6511627906976742
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.088235294117647
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.205128205128205
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 130,
+    "wins": 70,
+    "losses": 60,
+    "timePlayed": 214269
+  }
+}

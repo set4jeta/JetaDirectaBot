@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Janis",
+    "nombre_real": "Yanis Le Berre",
+    "edad": 21,
+    "equipo": "Klanik Esport",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/27janis_",
+      "twitch": "https://www.twitch.tv/27_janis"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "EL MATADOR JANIS#270",
+      "nivel": 1115,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2266,
+      "victorias": 731,
+      "derrotas": 659,
+      "ultima_partida": 1788340983699
+    },
+    {
+      "nombre": "Arda Güler#janis",
+      "nivel": 253,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 7,
+      "victorias": 137,
+      "derrotas": 133,
+      "ultima_partida": 1788221812410
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nidalee",
+      "partidas": 33,
+      "victorias": 21,
+      "winrate": "63.6%",
+      "kda_promedio": 4.082644628099174
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 4.096153846153846
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.577777777777778
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.480769230769231
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.2162162162162162
+    },
+    {
+      "nombre": "MasterYi",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.388888888888889
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 102,
+    "wins": 56,
+    "losses": 46,
+    "timePlayed": 153243
+  }
+}

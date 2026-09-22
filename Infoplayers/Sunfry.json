@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/Sunfry_lol",
       "twitch": "https://twitch.tv/sunfry_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Sunfry#BEAM",
-      "nivel": 1041,
+      "nombre": "PCS Moule frite#MIAM",
+      "nivel": 1216,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 951,
-      "victorias": 390,
-      "derrotas": 353,
-      "ultima_partida": 1753561825158
+      "liga": "CHALLENGER I",
+      "lp": 2521,
+      "victorias": 448,
+      "derrotas": 377,
+      "ultima_partida": 1788387153391
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nautilus",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.511904761904762
+      "nombre": "Zoe",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.9019607843137254
     },
     {
       "nombre": "Alistar",
-      "partidas": 10,
-      "victorias": 5,
+      "partidas": 4,
+      "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 3.358974358974359
+      "kda_promedio": 4.1
     },
     {
-      "nombre": "Poppy",
-      "partidas": 6,
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4210526315789473
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5294117647058822
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.285714285714286
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 7.2
+      "kda_promedio": 5.352941176470588
     },
     {
       "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4
+      "kda_promedio": 5.875
     },
     {
-      "nombre": "Neeko",
-      "partidas": 1,
+      "nombre": "Lulu",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 1.4375
     },
     {
-      "nombre": "Rakan",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.75
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1818181818181817
     },
     {
-      "nombre": "Rell",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
     },
     {
-      "nombre": "Seraphine",
-      "partidas": 1,
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.533333333333333
+    },
+    {
+      "nombre": "Velkoz",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.5714285714285716
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 37,
+    "games": 35,
     "wins": 22,
-    "losses": 15,
-    "timePlayed": 58246
+    "losses": 13,
+    "timePlayed": 62726
   }
 }

@@ -2,104 +2,114 @@
   "info_jugador": {
     "nombre": "Bayonetta",
     "nombre_real": "Samet Turak",
-    "edad": 21,
-    "equipo": "Galakticos",
+    "edad": 22,
+    "equipo": "PCIFIC Esports",
     "pais": "Turkey",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/bayonettalol1"
+      "twitter": "https://twitter.com/bayonettalol1\\t"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GAL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
+      "nombre": "Summer#Solo",
+      "nivel": 165,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1322,
+      "victorias": 140,
+      "derrotas": 89,
+      "ultima_partida": 1790015201247
+    },
+    {
       "nombre": "Bayo#x123",
-      "nivel": 841,
+      "nivel": 871,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 946,
-      "victorias": 174,
-      "derrotas": 123,
-      "ultima_partida": 1753131213743
+      "lp": 1934,
+      "victorias": 133,
+      "derrotas": 74,
+      "ultima_partida": 1789825573140
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Vladimir",
+      "nombre": "Trundle",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4193548387096775
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.409090909090909
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Chogath",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.25
+      "winrate": "50.0%",
+      "kda_promedio": 3.6
     },
     {
-      "nombre": "Fiora",
-      "partidas": 1,
+      "nombre": "Irelia",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "kda_promedio": 1.4545454545454546
     },
     {
-      "nombre": "Jax",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.375
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 1,
+      "nombre": "Kled",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.2
+      "winrate": "50.0%",
+      "kda_promedio": 2.076923076923077
     },
     {
-      "nombre": "Rakan",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Shen",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 7.5
-    },
-    {
-      "nombre": "TahmKench",
-      "partidas": 1,
+      "nombre": "Locke",
+      "partidas": 2,
       "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 8.666666666666666
+      "kda_promedio": 8.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 5,
-    "losses": 12,
-    "timePlayed": 28561
+    "games": 60,
+    "wins": 38,
+    "losses": 22,
+    "timePlayed": 93780
   }
 }

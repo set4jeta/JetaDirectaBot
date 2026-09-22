@@ -1,111 +1,146 @@
 {
   "info_jugador": {
     "nombre": "Labrov",
-    "nombre_real": "Labros Papoutsakis",
-    "edad": 23,
+    "nombre_real": "Lampros Papoutsakis",
+    "edad": 24,
     "equipo": "G2 Esports",
     "pais": "Greece",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/Labrov12"
+      "twitter": "https://twitter.com/Labrov12",
+      "twitch": "\\thttps://www.twitch.tv/labrov55"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/labrov.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/G2.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "G2 Labrov#8085",
-      "nivel": 421,
+      "nivel": 541,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1783,
-      "victorias": 421,
-      "derrotas": 340,
-      "ultima_partida": 1753742932508
+      "lp": 2360,
+      "victorias": 504,
+      "derrotas": 347,
+      "ultima_partida": 1788385504757
+    },
+    {
+      "nombre": "12356060564#6767",
+      "nivel": 43,
+      "region": "KR",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 112,
+      "derrotas": 42,
+      "ultima_partida": 1783702276908
+    },
+    {
+      "nombre": "Alexandre Pato#67679",
+      "nivel": 30,
+      "region": "BR1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 6,
+      "derrotas": 3,
+      "ultima_partida": 1773878899566
+    },
+    {
+      "nombre": "school phobia#EUW",
+      "nivel": 691,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1764321659279
     },
     {
       "nombre": "G2 Labrov#ltyol",
       "nivel": 32,
       "region": "NA1",
-      "liga": "DIAMOND II",
-      "lp": 37,
-      "victorias": 16,
-      "derrotas": 3,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1751524299463
-    },
-    {
-      "nombre": "school phobia#EUW",
-      "nivel": 690,
-      "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 30,
-      "derrotas": 12,
-      "ultima_partida": 1742062248422
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3846153846153846
-    },
-    {
       "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 11
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.2857142857142856
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.2
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.9
+      "partidas": 29,
+      "victorias": 12,
+      "winrate": "41.4%",
+      "kda_promedio": 2.817073170731707
     },
     {
       "nombre": "Shen",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2857142857142858
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.3043478260869565
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 1,
+      "nombre": "Alistar",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2758620689655173
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.072463768115942
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.861111111111111
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4375
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5
+      "winrate": "25.0%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7142857142857142
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 9,
-    "wins": 6,
-    "losses": 3,
-    "timePlayed": 13462
+    "games": 97,
+    "wins": 48,
+    "losses": 49,
+    "timePlayed": 145104
   }
 }

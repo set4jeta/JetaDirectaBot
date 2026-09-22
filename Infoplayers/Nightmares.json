@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nightmares",
+    "nombre_real": "Richard Gielisse",
+    "edad": 29,
+    "equipo": "The Bandits",
+    "pais": "Netherlands",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/NightmaresLoL",
+      "twitch": "https://www.twitch.tv/nightmareslol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Nightmares#lol",
+      "nivel": 581,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2044,
+      "victorias": 471,
+      "derrotas": 374,
+      "ultima_partida": 1788388546660
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Seraphine",
+      "partidas": 25,
+      "victorias": 9,
+      "winrate": "36.0%",
+      "kda_promedio": 2.6621621621621623
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 3.5060240963855422
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.051282051282051
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 4.068965517241379
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.36
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.181818181818182
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 86,
+    "wins": 38,
+    "losses": 48,
+    "timePlayed": 136807
+  }
+}

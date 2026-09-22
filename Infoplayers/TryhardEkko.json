@@ -7,36 +7,60 @@
     "pais": null,
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitch": "https://www.twitch.tv/TryhardEkkoXD"
+      "twitch": "\\thttps://www.twitch.tv/TryhardEkkoXD"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "TryhardEkko#XDD",
-      "nivel": 115,
+      "nombre": "TryhardEkko#0407",
+      "nivel": 89,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1301,
+      "victorias": 79,
+      "derrotas": 33,
+      "ultima_partida": 1787956108928
+    },
+    {
+      "nombre": "TryhardEkko#TWTV",
+      "nivel": 176,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1326,
-      "victorias": 207,
-      "derrotas": 148,
-      "ultima_partida": 1753732102953
+      "lp": 2625,
+      "victorias": 292,
+      "derrotas": 219,
+      "ultima_partida": 1787854722860
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ekko",
-      "partidas": 17,
-      "victorias": 10,
-      "winrate": "58.8%",
-      "kda_promedio": 3.6176470588235294
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 3.13265306122449
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 10,
-    "losses": 7,
-    "timePlayed": 27488
+    "games": 22,
+    "wins": 13,
+    "losses": 9,
+    "timePlayed": 34058
   }
 }

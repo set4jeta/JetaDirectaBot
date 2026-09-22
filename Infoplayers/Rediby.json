@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Rediby",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Rediby#EUW",
+      "nivel": 1178,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2367,
+      "victorias": 833,
+      "derrotas": 752,
+      "ultima_partida": 1788364694007
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Caitlyn",
+      "partidas": 20,
+      "victorias": 12,
+      "winrate": "60.0%",
+      "kda_promedio": 2.148936170212766
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 2.743119266055046
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 4.3125
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.9859154929577465
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 2.315068493150685
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8857142857142857
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.68
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.6842105263157894
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 147,
+    "wins": 83,
+    "losses": 64,
+    "timePlayed": 228862
+  }
+}

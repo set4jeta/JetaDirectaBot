@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Kobs",
+    "nombre_real": "Rayan Mahiddine",
+    "edad": 22,
+    "equipo": "ZYB Esport",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Kobs_lol",
+      "twitch": "https://www.twitch.tv/Kobscourtvite"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Zhou Yang Kobs#VEN1",
+      "nivel": 683,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1812,
+      "victorias": 443,
+      "derrotas": 361,
+      "ultima_partida": 1788386338287
+    },
+    {
+      "nombre": "ZYB Kobs#PURE",
+      "nivel": 442,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1334,
+      "victorias": 351,
+      "derrotas": 300,
+      "ultima_partida": 1788195855791
+    },
+    {
+      "nombre": "Zinedine Kobsi#Vista",
+      "nivel": 124,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1758211080312
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 33,
+      "victorias": 17,
+      "winrate": "51.5%",
+      "kda_promedio": 2.813664596273292
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8125
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.933333333333333
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.888888888888889
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 77,
+    "wins": 42,
+    "losses": 35,
+    "timePlayed": 121329
+  }
+}

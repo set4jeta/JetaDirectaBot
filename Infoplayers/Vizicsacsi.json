@@ -2,63 +2,115 @@
   "info_jugador": {
     "nombre": "Vizicsacsi",
     "nombre_real": "Tamás Kiss",
-    "edad": 32,
-    "equipo": "NORD Esports",
+    "edad": 33,
+    "equipo": "E WIE EINFACH E-SPORTS",
     "pais": "Hungary",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Vizicsacsi",
       "twitch": "https://www.twitch.tv/vizicsacsi"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/vizicsacsi.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NORD.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "NORD Vizicsacsi#TOP",
-      "nivel": 516,
+      "nombre": "EWI Vizicsacsi#TOP",
+      "nivel": 598,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1430,
-      "victorias": 291,
-      "derrotas": 239,
-      "ultima_partida": 1753362620587
+      "liga": "GRANDMASTER I",
+      "lp": 2024,
+      "victorias": 369,
+      "derrotas": 308,
+      "ultima_partida": 1788278265669
+    },
+    {
+      "nombre": "Morgenstern#009",
+      "nivel": 300,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1767811683632
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0
-    },
-    {
-      "nombre": "Kennen",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2
-    },
-    {
       "nombre": "Poppy",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.25
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1639344262295084
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4807692307692308
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1463414634146343
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.057142857142857
     },
     {
       "nombre": "Sion",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7037037037037037
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1578947368421053
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7916666666666667
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0833333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 4,
-    "wins": 1,
-    "losses": 3,
-    "timePlayed": 5179
+    "games": 63,
+    "wins": 30,
+    "losses": 33,
+    "timePlayed": 105496
   }
 }

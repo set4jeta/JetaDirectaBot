@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Baus",
     "nombre_real": "Simon Hofverberg",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Los Ratones",
     "pais": "Sweden",
     "contrato_hasta": null,
@@ -10,127 +10,137 @@
       "twitter": "https://twitter.com/thebausffs\\t",
       "twitch": "https://twitch.tv/thebausffs"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/baus.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Thebausffs#COOL",
-      "nivel": 1793,
+      "nivel": 2145,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 396,
-      "victorias": 304,
-      "derrotas": 284,
-      "ultima_partida": 1753744003063
+      "lp": 1277,
+      "victorias": 650,
+      "derrotas": 622,
+      "ultima_partida": 1788281938702
     },
     {
-      "nombre": "Dangerous Dork#Lick",
-      "nivel": 103,
+      "nombre": "RhinoBelly#mmfgh",
+      "nivel": 65,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 971,
-      "victorias": 296,
-      "derrotas": 237,
-      "ultima_partida": 1753732102953
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 228,
+      "derrotas": 176,
+      "ultima_partida": 1774912675678
     },
     {
       "nombre": "Streaming Badboy#INT",
-      "nivel": 281,
+      "nivel": 291,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 64,
+      "derrotas": 47,
+      "ultima_partida": 1774726471898
+    },
+    {
+      "nombre": "Dangerous Dork#Lick",
+      "nivel": 113,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": 1751919058944
+      "ultima_partida": 1755788074485
     },
     {
       "nombre": "e7c3c0fd-cee3-4399-877b-baf89c9f6f46#EUW",
-      "nivel": 62,
+      "nivel": 65,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1736191160437
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Sion",
-      "partidas": 24,
-      "victorias": 15,
-      "winrate": "62.5%",
-      "kda_promedio": 1.7076923076923076
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 19,
-      "victorias": 12,
-      "winrate": "63.2%",
-      "kda_promedio": 1.945945945945946
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 10,
+      "nombre": "Volibear",
+      "partidas": 22,
       "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 1.2564102564102564
+      "winrate": "27.3%",
+      "kda_promedio": 0.8205128205128205
     },
     {
-      "nombre": "Quinn",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.9452054794520548
+      "nombre": "Irelia",
+      "partidas": 18,
+      "victorias": 8,
+      "winrate": "44.4%",
+      "kda_promedio": 0.7887323943661971
     },
     {
-      "nombre": "Vi",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.0833333333333333
-    },
-    {
-      "nombre": "Chogath",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 0.984375
-    },
-    {
-      "nombre": "Kennen",
-      "partidas": 6,
+      "nombre": "Jhin",
+      "partidas": 11,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 1.2058823529411764
+      "winrate": "36.4%",
+      "kda_promedio": 1.595505617977528
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.2638888888888888
     },
     {
       "nombre": "Jax",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.3076923076923077
-    },
-    {
-      "nombre": "Kled",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 0.8529411764705882
-    },
-    {
-      "nombre": "Ambessa",
       "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 1.826086956521739
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
       "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 0.6764705882352942
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Rammus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 125,
-    "wins": 69,
-    "losses": 56,
-    "timePlayed": 206676
+    "games": 79,
+    "wins": 34,
+    "losses": 45,
+    "timePlayed": 129200
   }
 }

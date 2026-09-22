@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Baro",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "KURVISKO#cvl",
+      "nivel": 346,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1663,
+      "victorias": 873,
+      "derrotas": 816,
+      "ultima_partida": 1788365721749
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 18,
+      "victorias": 7,
+      "winrate": "38.9%",
+      "kda_promedio": 1.628787878787879
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 2.630952380952381
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 1.8837209302325582
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0344827586206897
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.45
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8125
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4285714285714286
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 73,
+    "wins": 39,
+    "losses": 34,
+    "timePlayed": 117985
+  }
+}

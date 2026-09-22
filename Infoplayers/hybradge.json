@@ -7,120 +7,120 @@
     "pais": null,
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://www.twitter.com/hybradge",
+      "twitter": "https://twitter.com/hybradge",
       "twitch": "https://www.twitch.tv/hybradge"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "TTV HYBRADGE#AUSSI",
-      "nivel": 99,
+      "nombre": "TTV HYBRADGE#ADL",
+      "nivel": 717,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 251,
-      "victorias": 255,
-      "derrotas": 247,
-      "ultima_partida": 1753730761544
-    },
-    {
-      "nombre": "Hybradge#ADL",
-      "nivel": 164,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 734,
+      "liga": "GRANDMASTER I",
+      "lp": 2341,
       "victorias": 413,
-      "derrotas": 361,
-      "ultima_partida": 1753724448962
+      "derrotas": 349,
+      "ultima_partida": 1788372582380
     },
     {
-      "nombre": "YOUTUBE HYBRADGE#ADL",
-      "nivel": 615,
+      "nombre": "youtube hybradge#VOLI",
+      "nivel": 151,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1106,
-      "victorias": 367,
-      "derrotas": 316,
-      "ultima_partida": 1753630176555
+      "liga": "DIAMOND II",
+      "lp": 42,
+      "victorias": 60,
+      "derrotas": 71,
+      "ultima_partida": 1783338263970
+    },
+    {
+      "nombre": "TTV HYBRADGE#LTOXA",
+      "nivel": 207,
+      "region": "OC1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 95,
+      "derrotas": 90,
+      "ultima_partida": 1783055636192
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Volibear",
-      "partidas": 92,
-      "victorias": 49,
-      "winrate": "53.3%",
-      "kda_promedio": 2.4249084249084247
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 11,
+      "nombre": "Shyvana",
+      "partidas": 17,
       "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.142857142857143
+      "winrate": "41.2%",
+      "kda_promedio": 2.956043956043956
     },
     {
       "nombre": "Belveth",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 1.5294117647058822
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 2.7032967032967035
     },
     {
-      "nombre": "Viego",
-      "partidas": 6,
+      "nombre": "Volibear",
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5454545454545454
+      "winrate": "60.0%",
+      "kda_promedio": 2.0689655172413794
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.142857142857143
     },
     {
       "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Kindred",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
+      "winrate": "66.7%",
+      "kda_promedio": 2.5652173913043477
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.230769230769231
+    },
+    {
+      "nombre": "Zyra",
       "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.4444444444444444
+      "kda_promedio": 3.8
     },
     {
-      "nombre": "Camille",
+      "nombre": "Sion",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.4
-    },
-    {
-      "nombre": "Fiora",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 0.3333333333333333
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.625
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 130,
-    "wins": 66,
-    "losses": 64,
-    "timePlayed": 215707
+    "games": 55,
+    "wins": 28,
+    "losses": 27,
+    "timePlayed": 90355
   }
 }

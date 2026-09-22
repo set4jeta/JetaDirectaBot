@@ -10,62 +10,103 @@
       "twitter": "https://twitter.com/Dragdar_",
       "twitch": "https://twitch.tv/dragdar"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/dragdar.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Skillshot Lander#EUW",
-      "nivel": 625,
+      "nombre": "Dragdar#2902P",
+      "nivel": 1470,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 903,
-      "victorias": 542,
-      "derrotas": 512,
-      "ultima_partida": 1753738325712
+      "liga": "CHALLENGER I",
+      "lp": 2612,
+      "victorias": 576,
+      "derrotas": 479,
+      "ultima_partida": 1788382860461
+    },
+    {
+      "nombre": "AutoAttackLander#DragD",
+      "nivel": 56,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 179,
+      "derrotas": 113,
+      "ultima_partida": 1777321486143
+    },
+    {
+      "nombre": "Skillshot Lander#EUW",
+      "nivel": 752,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1767747078760
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Viktor",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.7796610169491527
+    },
+    {
       "nombre": "Ezreal",
-      "partidas": 55,
-      "victorias": 22,
-      "winrate": "40.0%",
-      "kda_promedio": 2.612403100775194
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9333333333333333
     },
     {
       "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.909090909090909
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
-    },
-    {
-      "nombre": "Ziggs",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 26,
-    "losses": 37,
-    "timePlayed": 103294
+    "games": 32,
+    "wins": 14,
+    "losses": 18,
+    "timePlayed": 50889
   }
 }

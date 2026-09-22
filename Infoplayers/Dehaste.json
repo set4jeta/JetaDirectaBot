@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Dehaste",
+    "nombre_real": "Sven Vidović",
+    "edad": 25,
+    "equipo": "Rich Gang (Norwegian Team)",
+    "pais": "Croatia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/dehastee",
+      "twitch": "https://www.twitch.tv/dehasteee"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Harry Tipper#2010",
+      "nivel": 132,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 730,
+      "victorias": 321,
+      "derrotas": 272,
+      "ultima_partida": 1766339571145
+    },
+    {
+      "nombre": "Illyrian#2000",
+      "nivel": 620,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1250,
+      "victorias": 171,
+      "derrotas": 108,
+      "ultima_partida": 1766331655197
+    },
+    {
+      "nombre": "holy diver#X9B",
+      "nivel": 224,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 0,
+      "victorias": 144,
+      "derrotas": 116,
+      "ultima_partida": 1766259983774
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Xerath",
+      "partidas": 16,
+      "victorias": 7,
+      "winrate": "43.8%",
+      "kda_promedio": 2.911392405063291
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2093023255813953
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.4634146341463414
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.736842105263158
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8666666666666667
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.8
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5882352941176471
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 36,
+    "losses": 25,
+    "timePlayed": 95508
+  }
+}

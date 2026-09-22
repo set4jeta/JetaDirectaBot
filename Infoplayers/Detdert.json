@@ -10,97 +10,117 @@
       "twitter": "https://twitter.com/detdert",
       "twitch": "https://twitch.tv/detdert"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/detdert.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "TWTV DETDERT#12MAJ",
-      "nivel": 471,
+      "nombre": "GENERAL detdert#R1GX",
+      "nivel": 705,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 948,
-      "victorias": 891,
-      "derrotas": 864,
-      "ultima_partida": 1753745130792
+      "liga": "CHALLENGER I",
+      "lp": 2501,
+      "victorias": 1050,
+      "derrotas": 959,
+      "ultima_partida": 1788391202024
+    },
+    {
+      "nombre": "not there yet#FPA",
+      "nivel": 85,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 62,
+      "victorias": 269,
+      "derrotas": 219,
+      "ultima_partida": 1777592797876
+    },
+    {
+      "nombre": "DETDERT IS HERE#TRNUP",
+      "nivel": 123,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1762805538799
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "JarvanIV",
-      "partidas": 89,
-      "victorias": 53,
-      "winrate": "59.6%",
-      "kda_promedio": 4.0233644859813085
-    },
-    {
       "nombre": "Talon",
-      "partidas": 39,
-      "victorias": 16,
-      "winrate": "41.0%",
-      "kda_promedio": 2.86784140969163
+      "partidas": 37,
+      "victorias": 23,
+      "winrate": "62.2%",
+      "kda_promedio": 3.9444444444444446
     },
     {
-      "nombre": "Nidalee",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.869565217391305
+      "nombre": "Khazix",
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 3.7261904761904763
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 4.526315789473684
     },
     {
       "nombre": "Vi",
       "partidas": 6,
       "victorias": 2,
       "winrate": "33.3%",
-      "kda_promedio": 1.84375
+      "kda_promedio": 2.8461538461538463
     },
     {
-      "nombre": "Kindred",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.789473684210526
-    },
-    {
-      "nombre": "Xerath",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0588235294117647
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0454545454545454
     },
     {
       "nombre": "Graves",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 1,
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 154,
-    "wins": 81,
-    "losses": 73,
-    "timePlayed": 255469
+    "games": 103,
+    "wins": 56,
+    "losses": 47,
+    "timePlayed": 172851
   }
 }

@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Septico1",
     "nombre_real": "Cristian Axinte",
-    "edad": 24,
-    "equipo": "GnG Amazigh",
+    "edad": 25,
+    "equipo": "Gamespace Mediterranean College Esports",
     "pais": "Romania",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/septico11",
       "twitch": "https://www.twitch.tv/septico1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GNG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "septico1#EUW",
-      "nivel": 801,
+      "nivel": 941,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 773,
-      "victorias": 432,
-      "derrotas": 397,
-      "ultima_partida": 1753637386645
+      "lp": 2159,
+      "victorias": 501,
+      "derrotas": 416,
+      "ultima_partida": 1788375431116
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Fiora",
-      "partidas": 15,
-      "victorias": 11,
-      "winrate": "73.3%",
-      "kda_promedio": 1.8571428571428572
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.263157894736842
     },
     {
-      "nombre": "Gwen",
-      "partidas": 12,
-      "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 1.5142857142857142
+      "nombre": "Camille",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 0.8285714285714286
     },
     {
       "nombre": "Jayce",
-      "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 1.1627906976744187
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.823529411764706
-    },
-    {
-      "nombre": "Ambessa",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.8
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.2307692307692308
     },
     {
-      "nombre": "Olaf",
+      "nombre": "Jax",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.52
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6666666666666667
     },
     {
       "nombre": "Rumble",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.375
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3846153846153846
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.6923076923076923
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 2,
+      "nombre": "Varus",
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1111111111111112
+      "kda_promedio": 1.1875
     },
     {
-      "nombre": "Jax",
+      "nombre": "Vayne",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Nasus",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.2857142857142858
+      "kda_promedio": 2.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
-    "wins": 34,
-    "losses": 43,
-    "timePlayed": 119606
+    "games": 51,
+    "wins": 28,
+    "losses": 23,
+    "timePlayed": 83245
   }
 }

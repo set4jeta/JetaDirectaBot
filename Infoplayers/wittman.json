@@ -2,97 +2,104 @@
   "info_jugador": {
     "nombre": "wittman",
     "nombre_real": "Mikołaj Kuta",
-    "edad": 22,
-    "equipo": "EXILE esports",
+    "edad": 23,
+    "equipo": "Deer Gaming",
     "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/wittmanlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/EXE.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "moon river#0110",
-      "nivel": 391,
+      "nombre": "double fantasy#0110",
+      "nivel": 495,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 789,
-      "victorias": 483,
-      "derrotas": 434,
-      "ultima_partida": 1753474880534
+      "lp": 1771,
+      "victorias": 323,
+      "derrotas": 266,
+      "ultima_partida": 1788273517423
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6923076923076925
-    },
-    {
-      "nombre": "Kaisa",
+      "nombre": "Caitlyn",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.4166666666666665
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 2,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7
+      "winrate": "66.7%",
+      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Ahri",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 3.6666666666666665
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Zeri",
+      "nombre": "Ashe",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 7
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6923076923076923
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 16,
-    "wins": 7,
-    "losses": 9,
-    "timePlayed": 24590
+    "games": 20,
+    "wins": 10,
+    "losses": 10,
+    "timePlayed": 32020
   }
 }

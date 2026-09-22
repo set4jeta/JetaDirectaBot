@@ -10,107 +10,107 @@
       "twitter": "https://www.twitter.com/DeanGekz",
       "twitch": "https://www.twitch.tv/deangekz"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GNG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "HomeIαnder#EUW",
-      "nivel": 1022,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 252,
-      "victorias": 225,
-      "derrotas": 218,
-      "ultima_partida": 1753629347330
-    },
-    {
       "nombre": "low expectations#TUN",
-      "nivel": 138,
+      "nivel": 217,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1035,
-      "victorias": 244,
-      "derrotas": 194,
-      "ultima_partida": 1753571885132
+      "lp": 1939,
+      "victorias": 260,
+      "derrotas": 205,
+      "ultima_partida": 1788295483546
+    },
+    {
+      "nombre": "HomeIαnder#EUW",
+      "nivel": 1059,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 214,
+      "victorias": 116,
+      "derrotas": 86,
+      "ultima_partida": 1787598059126
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
+      "nombre": "Ivern",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7272727272727273
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 6.090909090909091
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.652173913043478
     },
     {
       "nombre": "Pantheon",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.9375
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0833333333333335
     },
     {
-      "nombre": "Ziggs",
+      "nombre": "Shaco",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.375
-    },
-    {
-      "nombre": "Ivern",
-      "partidas": 2,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.666666666666667
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.473684210526316
+      "winrate": "33.3%",
+      "kda_promedio": 2.0833333333333335
     },
     {
       "nombre": "Nocturne",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.166666666666667
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.666666666666667
     },
     {
-      "nombre": "Smolder",
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Skarner",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 2.5384615384615383
     },
     {
-      "nombre": "Viktor",
-      "partidas": 2,
+      "nombre": "Galio",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.9166666666666666
+      "kda_promedio": 1.1666666666666667
     },
     {
-      "nombre": "Aatrox",
+      "nombre": "Garen",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.5
+      "kda_promedio": 2.6666666666666665
     },
     {
-      "nombre": "Braum",
+      "nombre": "Lux",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.875
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 16,
-    "losses": 16,
-    "timePlayed": 56915
+    "games": 22,
+    "wins": 9,
+    "losses": 13,
+    "timePlayed": 36332
   }
 }

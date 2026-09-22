@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "helforca",
+    "nombre_real": "Taha Enes Ayık",
+    "edad": 20,
+    "equipo": "Zerolag Esports",
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/19helforcaO3"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "19helforca03#EUW",
+      "nivel": 1523,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2062,
+      "victorias": 223,
+      "derrotas": 173,
+      "ultima_partida": 1788364878582
+    },
+    {
+      "nombre": "19helforca03#smurf",
+      "nivel": 185,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 783,
+      "victorias": 270,
+      "derrotas": 225,
+      "ultima_partida": 1787010496763
+    },
+    {
+      "nombre": "TGL Helforca#BLT",
+      "nivel": 53,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1755551207906
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 2.8958333333333335
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5319148936170213
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.4893617021276597
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.28125
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.2432432432432432
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.3666666666666667
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.8928571428571428
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 103,
+    "wins": 58,
+    "losses": 45,
+    "timePlayed": 157971
+  }
+}

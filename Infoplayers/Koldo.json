@@ -1,50 +1,99 @@
 {
   "info_jugador": {
     "nombre": "Koldo",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Luis Pérez García",
+    "edad": 25,
+    "equipo": "Barça eSports",
+    "pais": "Spain",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Koldo_LoL",
       "twitch": "https://twitch.tv/koldo_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/koldo.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Koldo#1233",
-      "nivel": 920,
+      "nivel": 998,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1495,
-      "victorias": 376,
-      "derrotas": 321,
-      "ultima_partida": 1753442075916
+      "liga": "GRANDMASTER I",
+      "lp": 2218,
+      "victorias": 379,
+      "derrotas": 290,
+      "ultima_partida": 1788337186059
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "LeeSin",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.129032258064516
+      "nombre": "Nidalee",
+      "partidas": 18,
+      "victorias": 12,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5595238095238093
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 5,
-      "victorias": 5,
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.35
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 8.25
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 9,
-    "losses": 4,
-    "timePlayed": 20065
+    "games": 31,
+    "wins": 20,
+    "losses": 11,
+    "timePlayed": 47130
   }
 }

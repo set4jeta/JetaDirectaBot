@@ -9,97 +9,97 @@
     "redes_sociales": {
       "twitter": "https://twitter.com/Faetski"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/DMG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Cole Palmer#Ball",
-      "nivel": 1023,
+      "nombre": "Faetski#Hera",
+      "nivel": 1167,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 801,
-      "victorias": 402,
-      "derrotas": 359,
-      "ultima_partida": 1753473751873
+      "lp": 2053,
+      "victorias": 416,
+      "derrotas": 380,
+      "ultima_partida": 1788183239842
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 2.3552631578947367
+      "nombre": "Yunara",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.433333333333333
     },
     {
-      "nombre": "Zeri",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.1578947368421053
+      "nombre": "Tristana",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.9298245614035086
     },
     {
       "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.619047619047619
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.095238095238095
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7777777777777778
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.161290322580645
     },
     {
       "nombre": "Caitlyn",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8181818181818181
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 1.5192307692307692
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4146341463414633
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Aphelios",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.111111111111111
+      "kda_promedio": 1.4
     },
     {
-      "nombre": "Sivir",
+      "nombre": "DrMundo",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7857142857142858
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 22,
-    "losses": 32,
-    "timePlayed": 88747
+    "games": 82,
+    "wins": 42,
+    "losses": 40,
+    "timePlayed": 128997
   }
 }

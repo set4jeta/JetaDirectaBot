@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "XnS",
+    "nombre_real": "Enes Hansu",
+    "edad": 22,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/XnSlol",
+      "twitch": "https://www.twitch.tv/xnslol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SeXnS#SeXnS",
+      "nivel": 175,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2731,
+      "victorias": 638,
+      "derrotas": 561,
+      "ultima_partida": 1788350619530
+    },
+    {
+      "nombre": "XnS#XnS",
+      "nivel": 681,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 214,
+      "derrotas": 170,
+      "ultima_partida": 1777646966307
+    },
+    {
+      "nombre": "Thomas Shelby#SOLOQ",
+      "nivel": 89,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1766438433885
+    },
+    {
+      "nombre": "SeXnS#XnS",
+      "nivel": 347,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1761302377212
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3043478260869565
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.8125
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.411764705882353
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 7.6
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 26,
+    "losses": 18,
+    "timePlayed": 69145
+  }
+}

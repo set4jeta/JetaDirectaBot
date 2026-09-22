@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Pulzer",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/pulzer"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "olizuju kameny#mnam",
+      "nivel": 221,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1644,
+      "victorias": 136,
+      "derrotas": 83,
+      "ultima_partida": 1788384061586
+    },
+    {
+      "nombre": "pulzeruwu#owo",
+      "nivel": 412,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 378,
+      "derrotas": 355,
+      "ultima_partida": 1788302266651
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.1777777777777776
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5128205128205128
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.5405405405405403
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1538461538461537
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0232558139534884
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.4516129032258065
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 101,
+    "wins": 59,
+    "losses": 42,
+    "timePlayed": 165816
+  }
+}

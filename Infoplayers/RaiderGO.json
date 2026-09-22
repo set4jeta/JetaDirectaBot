@@ -10,117 +10,137 @@
       "twitter": "https://twitter.com/RaiderEUW",
       "twitch": "https://twitch.tv/raidergo"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/raidergo.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "RaiderGO#TWTV1",
-      "nivel": 519,
-      "region": "EUN1",
-      "liga": "GRANDMASTER I",
-      "lp": 575,
-      "victorias": 53,
-      "derrotas": 14,
-      "ultima_partida": 1753723606842
-    },
-    {
-      "nombre": "R1 Raider#R1GO",
-      "nivel": 113,
+      "nivel": 588,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1402,
-      "victorias": 409,
-      "derrotas": 317,
-      "ultima_partida": 1753721494127
+      "lp": 2538,
+      "victorias": 271,
+      "derrotas": 204,
+      "ultima_partida": 1788373401050
+    },
+    {
+      "nombre": "RaiderGO#TWTV3",
+      "nivel": 212,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 87,
+      "victorias": 211,
+      "derrotas": 152,
+      "ultima_partida": 1785616463329
+    },
+    {
+      "nombre": "RaiderGO#TWTV0",
+      "nivel": 222,
+      "region": "KR",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 639,
+      "derrotas": 505,
+      "ultima_partida": 1783758659198
     },
     {
       "nombre": "RaiderGO#2004",
-      "nivel": 333,
+      "nivel": 373,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 152,
-      "derrotas": 133,
-      "ultima_partida": 1741445335426
+      "victorias": 269,
+      "derrotas": 165,
+      "ultima_partida": 1776002831470
+    },
+    {
+      "nombre": "RaiderGO#TWTV2",
+      "nivel": 192,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1765895617265
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Darius",
-      "partidas": 76,
-      "victorias": 45,
-      "winrate": "59.2%",
-      "kda_promedio": 3
+      "partidas": 96,
+      "victorias": 54,
+      "winrate": "56.2%",
+      "kda_promedio": 2.967741935483871
     },
     {
-      "nombre": "Jax",
-      "partidas": 29,
-      "victorias": 18,
-      "winrate": "62.1%",
-      "kda_promedio": 2.6194690265486726
-    },
-    {
-      "nombre": "Camille",
-      "partidas": 15,
-      "victorias": 6,
-      "winrate": "40.0%",
-      "kda_promedio": 2.6666666666666665
+      "nombre": "Kayle",
+      "partidas": 57,
+      "victorias": 27,
+      "winrate": "47.4%",
+      "kda_promedio": 3.0934579439252334
     },
     {
       "nombre": "DrMundo",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 2.8541666666666665
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.7045454545454546
-    },
-    {
-      "nombre": "Olaf",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 5.7
+      "partidas": 15,
+      "victorias": 12,
+      "winrate": "80.0%",
+      "kda_promedio": 4.90625
     },
     {
       "nombre": "Veigar",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.2777777777777777
     },
     {
-      "nombre": "Ambessa",
+      "nombre": "Camille",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 18
+    },
+    {
+      "nombre": "Nasus",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.8
+      "kda_promedio": 2
     },
     {
-      "nombre": "Gnar",
+      "nombre": "Vladimir",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "kda_promedio": 0.42857142857142855
     },
     {
-      "nombre": "Gwen",
+      "nombre": "Yorick",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 160,
-    "wins": 94,
-    "losses": 66,
-    "timePlayed": 266769
+    "games": 195,
+    "wins": 102,
+    "losses": 93,
+    "timePlayed": 319825
   }
 }

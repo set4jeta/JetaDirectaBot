@@ -2,63 +2,115 @@
   "info_jugador": {
     "nombre": "UniqueCORN",
     "nombre_real": "Lukas Bauer",
-    "edad": 24,
-    "equipo": "Team UNiTY",
+    "edad": 25,
+    "equipo": "Project Conquerors",
     "pais": "Austria",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/ItsUniqueC0RN",
       "twitch": "https://www.twitch.tv/itsuniquecorn"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "15 02 2022#EUW",
-      "nivel": 1060,
+      "nombre": "TTVItsUniqueCORN#IMPRV",
+      "nivel": 1140,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1319,
-      "victorias": 580,
-      "derrotas": 523,
-      "ultima_partida": 1752956509087
+      "liga": "MASTER I",
+      "lp": 382,
+      "victorias": 360,
+      "derrotas": 324,
+      "ultima_partida": 1788380195689
+    },
+    {
+      "nombre": "Roro Farmer#EUW",
+      "nivel": 458,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1927,
+      "victorias": 560,
+      "derrotas": 514,
+      "ultima_partida": 1788368692997
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Galio",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.1594202898550723
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 3.7291666666666665
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.9743589743589745
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.225
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.411764705882353
+    },
+    {
       "nombre": "Orianna",
-      "partidas": 8,
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.78125
+      "winrate": "60.0%",
+      "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 1,
+      "nombre": "Hwei",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 26
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
+      "winrate": "33.3%",
+      "kda_promedio": 3.066666666666667
     },
     {
       "nombre": "Tristana",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5714285714285714
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 11,
-    "wins": 4,
-    "losses": 7,
-    "timePlayed": 16848
+    "games": 90,
+    "wins": 49,
+    "losses": 41,
+    "timePlayed": 149601
   }
 }

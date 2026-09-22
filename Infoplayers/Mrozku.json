@@ -1,0 +1,75 @@
+{
+  "info_jugador": {
+    "nombre": "Mrozku",
+    "nombre_real": "Adrian Skonieczny",
+    "edad": 21,
+    "equipo": "Bomba Team",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Mrozku",
+      "twitch": "https://www.twitch.tv/mrozku_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MRO#ZKU",
+      "nivel": 140,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 4057,
+      "victorias": 571,
+      "derrotas": 421,
+      "ultima_partida": 1787150714113
+    },
+    {
+      "nombre": "mrozku#1224",
+      "nivel": 98,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1776686902448
+    },
+    {
+      "nombre": "zabujcaludkuwpl#mrzk",
+      "nivel": 126,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 72,
+      "derrotas": 68,
+      "ultima_partida": 1773154570179
+    },
+    {
+      "nombre": "talolam#天04",
+      "nivel": 79,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1751795908458
+    },
+    {
+      "nombre": "winter#天04",
+      "nivel": 213,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": null
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

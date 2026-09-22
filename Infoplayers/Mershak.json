@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Mershak",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "hydrogen bomb#mmm",
+      "nivel": 821,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2080,
+      "victorias": 634,
+      "derrotas": 521,
+      "ultima_partida": 1788392363656
+    },
+    {
+      "nombre": "Mershak#2004",
+      "nivel": 64,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 58,
+      "derrotas": 32,
+      "ultima_partida": 1782419129714
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Swain",
+      "partidas": 82,
+      "victorias": 49,
+      "winrate": "59.8%",
+      "kda_promedio": 4.757692307692308
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.2142857142857144
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10.333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 100,
+    "wins": 58,
+    "losses": 42,
+    "timePlayed": 160246
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "info_jugador": {
+    "nombre": "TTobias",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/ttobias_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TTobias lol#feet",
+      "nivel": 848,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2517,
+      "victorias": 518,
+      "derrotas": 448,
+      "ultima_partida": 1788351744521
+    },
+    {
+      "nombre": "TTobias lol#lick",
+      "nivel": 118,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 80,
+      "derrotas": 59,
+      "ultima_partida": 1783078693619
+    },
+    {
+      "nombre": "ttv TTobias lol#TTOBY",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1755099651030
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 65,
+      "victorias": 36,
+      "winrate": "55.4%",
+      "kda_promedio": 2.7711267605633805
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9473684210526314
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 74,
+    "wins": 41,
+    "losses": 33,
+    "timePlayed": 121751
+  }
+}

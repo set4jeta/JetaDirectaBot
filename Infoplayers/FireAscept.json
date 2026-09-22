@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "FireAscept",
     "nombre_real": "Resul Polat",
-    "edad": 18,
-    "equipo": "BoostGate Esports",
+    "edad": 19,
+    "equipo": "PCIFIC Esports",
     "pais": null,
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://www.twitter.com/FireAscept",
       "twitch": "https://www.twitch.tv/fireasceptlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BGT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "FireAscept#1013",
-      "nivel": 219,
+      "nombre": "FireAscept#1310",
+      "nivel": 731,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 766,
-      "victorias": 276,
-      "derrotas": 246,
-      "ultima_partida": 1753738778771
+      "lp": 1888,
+      "victorias": 753,
+      "derrotas": 684,
+      "ultima_partida": 1788368207276
     },
     {
-      "nombre": "BGT FireAscept#1310",
-      "nivel": 572,
+      "nombre": "PCF FireAscept#1310",
+      "nivel": 255,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 787,
-      "victorias": 287,
-      "derrotas": 256,
-      "ultima_partida": 1753686076963
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 60,
+      "derrotas": 47,
+      "ultima_partida": 1785161652234
+    },
+    {
+      "nombre": "FireAscept#1307",
+      "nivel": 115,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1764859328957
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Jayce",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 1.8235294117647058
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 1.972972972972973
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.3703703703703702
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 1.7407407407407407
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.5517241379310345
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.8636363636363638
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 5,
+      "nombre": "Irelia",
+      "partidas": 8,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.9285714285714286
+      "winrate": "25.0%",
+      "kda_promedio": 1.1643835616438356
     },
     {
-      "nombre": "Akali",
+      "nombre": "LeeSin",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.4680851063829787
+    },
+    {
+      "nombre": "Annie",
       "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.894736842105263
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4705882352941178
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4583333333333335
+      "winrate": "66.7%",
+      "kda_promedio": 2.5714285714285716
     },
     {
       "nombre": "Ahri",
-      "partidas": 3,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.269230769230769
+      "winrate": "50.0%",
+      "kda_promedio": 1.8571428571428572
     },
     {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.8333333333333335
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5333333333333334
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3157894736842106
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 87,
-    "wins": 45,
-    "losses": 42,
-    "timePlayed": 144148
+    "games": 56,
+    "wins": 26,
+    "losses": 30,
+    "timePlayed": 90340
   }
 }

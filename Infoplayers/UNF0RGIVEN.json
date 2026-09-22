@@ -2,115 +2,126 @@
   "info_jugador": {
     "nombre": "UNF0RGIVEN",
     "nombre_real": "William Nieminen",
-    "edad": 24,
-    "equipo": "Geekay Esports",
+    "edad": 25,
+    "equipo": "Kaufland Hangry Knights",
     "pais": "Sweden",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/UnforgivenLoL",
       "twitch": "https://twitch.tv/UnforgivenL0L"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/unf0rgiven.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GK.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "unforgiven#12321",
-      "nivel": 1392,
+      "nivel": 1573,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1078,
-      "victorias": 227,
-      "derrotas": 188,
-      "ultima_partida": 1753754916826
+      "lp": 2380,
+      "victorias": 508,
+      "derrotas": 420,
+      "ultima_partida": 1788316741535
     },
     {
       "nombre": "2 K#0000",
-      "nivel": 183,
+      "nivel": 209,
       "region": "EUW1",
       "liga": "DIAMOND I",
       "lp": 75,
-      "victorias": 122,
-      "derrotas": 86,
-      "ultima_partida": 1750531890992
+      "victorias": 178,
+      "derrotas": 101,
+      "ultima_partida": 1783446614527
+    },
+    {
+      "nombre": "winter#BIue",
+      "nivel": 237,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 157,
+      "derrotas": 94,
+      "ultima_partida": 1779932327636
+    },
+    {
+      "nombre": "xaeorvlyn#000",
+      "nivel": 89,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 140,
+      "derrotas": 81,
+      "ultima_partida": 1777412693895
+    },
+    {
+      "nombre": "N X#00007",
+      "nivel": 56,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 156,
+      "derrotas": 87,
+      "ultima_partida": 1777298978768
+    },
+    {
+      "nombre": "sxczvsa#000",
+      "nivel": 59,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 111,
+      "derrotas": 44,
+      "ultima_partida": 1776527270259
+    },
+    {
+      "nombre": "winter#창 공",
+      "nivel": 54,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1766952938236
+    },
+    {
+      "nombre": "unforgiven#12331",
+      "nivel": 101,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1766541748249
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 1.9523809523809523
-    },
-    {
-      "nombre": "Xayah",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 4.62962962962963
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.772727272727273
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.310344827586207
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.259259259259259
-    },
-    {
       "nombre": "Yunara",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.238095238095238
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.4722222222222223
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Draven",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5454545454545454
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Ezreal",
+      "nombre": "Annie",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 27,
-    "losses": 27,
-    "timePlayed": 85956
+    "games": 9,
+    "wins": 6,
+    "losses": 3,
+    "timePlayed": 16337
   }
 }

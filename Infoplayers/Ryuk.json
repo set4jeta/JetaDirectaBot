@@ -1,106 +1,116 @@
 {
   "info_jugador": {
     "nombre": "Ryuk",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Võ Hoàng Lê Khang",
+    "edad": 23,
+    "equipo": "SN CyberCore Esports",
+    "pais": "Vietnam",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Ryuk_adlol",
       "twitch": "https://twitch.tv/lol_adryuk"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/ryuk.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Ryuk#adc",
-      "nivel": 841,
+      "nivel": 1046,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1192,
-      "victorias": 360,
-      "derrotas": 309,
-      "ultima_partida": 1753653472074
+      "lp": 3109,
+      "victorias": 612,
+      "derrotas": 504,
+      "ultima_partida": 1788378091442
+    },
+    {
+      "nombre": "note#Ryuk",
+      "nivel": 169,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 118,
+      "derrotas": 70,
+      "ultima_partida": 1786461825647
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
+      "partidas": 18,
+      "victorias": 9,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4571428571428573
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.15625
+    },
+    {
+      "nombre": "Kaisa",
       "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.9
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.52
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5217391304347827
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2857142857142856
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 3,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6923076923076925
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 3,
-      "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.1428571428571428
+      "kda_promedio": 2.019230769230769
     },
     {
-      "nombre": "Sivir",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9047619047619047
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 3,
-      "victorias": 2,
+      "nombre": "Soraka",
+      "partidas": 9,
+      "victorias": 6,
       "winrate": "66.7%",
-      "kda_promedio": 5.857142857142857
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0666666666666667
+      "kda_promedio": 3.4473684210526314
     },
     {
       "nombre": "Ornn",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6923076923076923
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 2.5294117647058822
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2291666666666667
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7916666666666667
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.7894736842105263
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.590909090909091
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 47,
-    "wins": 22,
-    "losses": 25,
-    "timePlayed": 77910
+    "games": 92,
+    "wins": 45,
+    "losses": 47,
+    "timePlayed": 145855
   }
 }

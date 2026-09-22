@@ -1,0 +1,102 @@
+{
+  "info_jugador": {
+    "nombre": "Goldmen",
+    "nombre_real": "Aleksander Piskorz",
+    "edad": 20,
+    "equipo": "Team Phantasma",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/GoldmenLoL",
+      "twitch": "https://www.twitch.tv/goldmenlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Goldmen#TOP",
+      "nivel": 482,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2284,
+      "victorias": 473,
+      "derrotas": 398,
+      "ultima_partida": 1788347895000
+    },
+    {
+      "nombre": "olaf acc#OLAF",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 210,
+      "victorias": 73,
+      "derrotas": 75,
+      "ultima_partida": 1787849642692
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Olaf",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.3857142857142857
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.666666666666666
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 14,
+    "losses": 16,
+    "timePlayed": 45383
+  }
+}

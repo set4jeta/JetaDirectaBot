@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Mishi",
     "nombre_real": "Kevin Westerbacka",
-    "edad": 23,
-    "equipo": "Team BDS Academy",
+    "edad": 24,
+    "equipo": "Verdant",
     "pais": "Sweden",
-    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Mishigulol",
       "twitch": "https://twitch.tv/mishigulol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/mishi.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Mishi#001",
-      "nivel": 840,
+      "nivel": 965,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 944,
-      "victorias": 266,
-      "derrotas": 241,
-      "ultima_partida": 1753702273536
+      "liga": "CHALLENGER I",
+      "lp": 2803,
+      "victorias": 329,
+      "derrotas": 242,
+      "ultima_partida": 1788354068908
     },
     {
       "nombre": "bitsuMishi#0001",
-      "nivel": 95,
+      "nivel": 96,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 17,
-      "victorias": 64,
-      "derrotas": 41,
-      "ultima_partida": 1752957187863
+      "liga": "DIAMOND III",
+      "lp": 67,
+      "victorias": 10,
+      "derrotas": 2,
+      "ultima_partida": 1788174853255
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 2,
+      "nombre": "Jhin",
+      "partidas": 12,
+      "victorias": 6,
       "winrate": "50.0%",
-      "kda_promedio": 2.1785714285714284
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6842105263157894
+      "kda_promedio": 3.6779661016949152
     },
     {
       "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 3.1132075471698113
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "nombre": "Tristana",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.774193548387097
     },
     {
-      "nombre": "Lucian",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.2857142857142857
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 1,
-      "victorias": 1,
+      "nombre": "Xayah",
+      "partidas": 5,
+      "victorias": 5,
       "winrate": "100.0%",
-      "kda_promedio": 1.1428571428571428
+      "kda_promedio": 5.3
     },
     {
-      "nombre": "Sion",
-      "partidas": 1,
+      "nombre": "Corki",
+      "partidas": 3,
       "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
       "kda_promedio": 7
     },
     {
-      "nombre": "Twitch",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 1,
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 10
     },
     {
-      "nombre": "Zeri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5714285714285714
+      "nombre": "Nasus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4285714285714284
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 7,
-    "losses": 10,
-    "timePlayed": 26606
+    "games": 63,
+    "wins": 46,
+    "losses": 17,
+    "timePlayed": 102337
   }
 }

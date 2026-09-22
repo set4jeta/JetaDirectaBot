@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Time",
     "nombre_real": "Tiago Almeida",
-    "edad": 22,
-    "equipo": "Movistar KOI Fénix",
+    "edad": 23,
+    "equipo": "GIANTX iTero",
     "pais": "Portugal",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/tiagoalmeida_92",
       "twitch": "https://www.twitch.tv/time_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "CR7#Time",
-      "nivel": 659,
+      "nombre": "JG1#fake",
+      "nivel": 776,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 613,
-      "victorias": 177,
-      "derrotas": 146,
-      "ultima_partida": 1753738501984
+      "liga": "GRANDMASTER I",
+      "lp": 1860,
+      "victorias": 371,
+      "derrotas": 293,
+      "ultima_partida": 1787767209725
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5714285714285716
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.5405405405405403
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.375
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 3,
+      "partidas": 9,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6818181818181819
+      "winrate": "11.1%",
+      "kda_promedio": 2.739130434782609
     },
     {
       "nombre": "Graves",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8461538461538463
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.4642857142857144
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.58974358974359
     },
     {
       "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 8.555555555555555
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.636363636363637
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8461538461538461
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.2941176470588234
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Orianna",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 9
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4285714285714286
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.5
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Khazix",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 36,
-    "wins": 16,
-    "losses": 20,
-    "timePlayed": 57461
+    "games": 57,
+    "wins": 26,
+    "losses": 31,
+    "timePlayed": 92346
   }
 }

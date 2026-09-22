@@ -1,106 +1,106 @@
 {
   "info_jugador": {
     "nombre": "c0st0m",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
-    "contrato_hasta": null,
+    "nombre_real": "Alexander Lind",
+    "edad": 21,
+    "equipo": "ROSSMANN Centaurs",
+    "pais": "Denmark",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/C0ST0M",
       "twitch": "https://twitch.tv/c0st0m"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/c0st0m.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "c0st0m#dane",
-      "nivel": 816,
+      "nivel": 1046,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 965,
-      "victorias": 231,
-      "derrotas": 188,
-      "ultima_partida": 1753754845748
+      "liga": "CHALLENGER I",
+      "lp": 3040,
+      "victorias": 650,
+      "derrotas": 529,
+      "ultima_partida": 1788381490944
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.84
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5555555555555556
+      "nombre": "Lissandra",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.04
     },
     {
       "nombre": "Syndra",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5555555555555554
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
       "kda_promedio": 2
     },
     {
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.75
+    },
+    {
       "nombre": "Akali",
-      "partidas": 1,
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0555555555555554
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 4.2
+      "kda_promedio": 1.1666666666666667
     },
     {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 1,
+      "nombre": "Locke",
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 4.333333333333333
+      "kda_promedio": 1.6666666666666667
     },
     {
-      "nombre": "Galio",
-      "partidas": 1,
+      "nombre": "Viktor",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5
+      "winrate": "33.3%",
+      "kda_promedio": 1.6923076923076923
     },
     {
-      "nombre": "Ivern",
-      "partidas": 1,
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 0.631578947368421
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3636363636363635
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 14,
-    "losses": 14,
-    "timePlayed": 44560
+    "games": 40,
+    "wins": 21,
+    "losses": 19,
+    "timePlayed": 60124
   }
 }

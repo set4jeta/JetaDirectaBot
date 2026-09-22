@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Nae",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/nmsnae"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "OHH FERRÁN#MVP",
+      "nivel": 1129,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2162,
+      "victorias": 689,
+      "derrotas": 615,
+      "ultima_partida": 1788369915479
+    },
+    {
+      "nombre": "MKOI ADKING#ADC",
+      "nivel": 121,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 229,
+      "derrotas": 185,
+      "ultima_partida": 1785921975578
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 41,
+    "wins": 21,
+    "losses": 20,
+    "timePlayed": 64258
+  }
+}

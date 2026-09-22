@@ -2,114 +2,114 @@
   "info_jugador": {
     "nombre": "Parus",
     "nombre_real": "Polat Furkan Çiçek",
-    "edad": 22,
-    "equipo": "Team BDS",
+    "edad": 23,
+    "equipo": "Natus Vincere",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Paruslol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/parus.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Thumbs Down#4847",
-      "nivel": 849,
+      "nivel": 978,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1327,
-      "victorias": 280,
-      "derrotas": 220,
-      "ultima_partida": 1753742447455
+      "lp": 2704,
+      "victorias": 493,
+      "derrotas": 341,
+      "ultima_partida": 1788381085315
     },
     {
       "nombre": "Zanka no Tachı#EUW",
-      "nivel": 340,
+      "nivel": 343,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 57,
-      "derrotas": 25,
-      "ultima_partida": 1738785209086
+      "victorias": 28,
+      "derrotas": 6,
+      "ultima_partida": 1771593328587
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nautilus",
-      "partidas": 16,
+      "nombre": "Leona",
+      "partidas": 9,
       "victorias": 6,
-      "winrate": "37.5%",
-      "kda_promedio": 1.8181818181818181
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.7142857142857144
+      "winrate": "66.7%",
+      "kda_promedio": 3.86046511627907
     },
     {
       "nombre": "Lulu",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.1875
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 5.032258064516129
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.423076923076923
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.6136363636363638
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2439024390243905
     },
     {
       "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.333333333333333
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.4310344827586206
     },
     {
       "nombre": "Bard",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.9
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.888888888888889
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.333333333333334
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.7142857142857144
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Milio",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.8333333333333335
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 20,
-    "losses": 18,
-    "timePlayed": 60450
+    "games": 76,
+    "wins": 49,
+    "losses": 27,
+    "timePlayed": 120723
   }
 }

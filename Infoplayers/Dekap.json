@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Dekap",
     "nombre_real": "Waleed Mohammed Ismail",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Vitality.Bee",
     "pais": "Jordan",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/i_dekap",
       "twitch": "https://twitch.tv/dekaplol/videos"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Dekap#EUW",
-      "nivel": 1306,
+      "nivel": 1606,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1302,
-      "victorias": 653,
-      "derrotas": 596,
-      "ultima_partida": 1753741255632
+      "lp": 2975,
+      "victorias": 690,
+      "derrotas": 583,
+      "ultima_partida": 1788381700424
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 2.28
-    },
-    {
       "nombre": "Rell",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 3.537313432835821
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.9516129032258065
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Shen",
       "partidas": 10,
       "victorias": 5,
       "winrate": "50.0%",
-      "kda_promedio": 2.7857142857142856
+      "kda_promedio": 3.196078431372549
     },
     {
-      "nombre": "Pyke",
-      "partidas": 8,
+      "nombre": "Syndra",
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.076923076923077
+      "winrate": "71.4%",
+      "kda_promedio": 2.4827586206896552
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.24
     },
     {
       "nombre": "Karma",
-      "partidas": 6,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.84375
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.1333333333333333
     },
     {
       "nombre": "Leona",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.2051282051282053
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3
     },
     {
-      "nombre": "Bard",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6842105263157894
-    },
-    {
-      "nombre": "Braum",
+      "nombre": "Thresh",
       "partidas": 4,
       "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 3.6315789473684212
+      "kda_promedio": 5.842105263157895
     },
     {
-      "nombre": "Senna",
-      "partidas": 4,
+      "nombre": "Alistar",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.375
+      "winrate": "66.7%",
+      "kda_promedio": 2.9375
     },
     {
-      "nombre": "Blitzcrank",
+      "nombre": "Camille",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.6818181818181819
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.823529411764706
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 90,
-    "wins": 51,
-    "losses": 39,
-    "timePlayed": 140436
+    "games": 74,
+    "wins": 42,
+    "losses": 32,
+    "timePlayed": 118059
   }
 }

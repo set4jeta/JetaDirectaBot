@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Toasty",
+    "nombre_real": "Victor&nbsp;Alexander Chea",
+    "edad": 20,
+    "equipo": "G2 NORD",
+    "pais": "United States",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Toastyalex_LoL",
+      "twitch": "https://www.twitch.tv/toastyalexlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "ToastyAlex#NA1",
+      "nivel": 967,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1149,
+      "victorias": 208,
+      "derrotas": 124,
+      "ultima_partida": 1788380136203
+    },
+    {
+      "nombre": "Toasty#G2WIN",
+      "nivel": 232,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2460,
+      "victorias": 378,
+      "derrotas": 261,
+      "ultima_partida": 1788342858221
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Anivia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.35
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1052631578947367
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.363636363636363
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.923076923076923
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.235294117647059
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 35,
+    "wins": 24,
+    "losses": 11,
+    "timePlayed": 54818
+  }
+}

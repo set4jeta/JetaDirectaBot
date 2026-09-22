@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Kakarot",
+    "nombre_real": "Muhammet Yusuf Karakas",
+    "edad": 20,
+    "equipo": "SU Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/kakarotlol1",
+      "twitch": "https://www.twitch.tv/kakarotlol14"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SU PEYZ#KR01",
+      "nivel": 537,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1790,
+      "victorias": 633,
+      "derrotas": 588,
+      "ultima_partida": 1788207965290
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5957446808510638
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 17,
+    "wins": 6,
+    "losses": 11,
+    "timePlayed": 26985
+  }
+}

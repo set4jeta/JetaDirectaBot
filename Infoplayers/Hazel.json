@@ -2,124 +2,135 @@
   "info_jugador": {
     "nombre": "Hazel",
     "nombre_real": "Costin Pestrițu",
-    "edad": 18,
-    "equipo": "Karmine Corp Blue Stars",
+    "edad": 19,
+    "equipo": "ROSSMANN Centaurs",
     "pais": "Romania",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/hazel1euw"
+      "twitter": "https://twitter.com/hazel1euw",
+      "twitch": "https://www.twitch.tv/hazeltn"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/hazel.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KCBS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "KC NOISETTE#HZL",
-      "nivel": 760,
+      "nombre": "Hazel#20 10",
+      "nivel": 876,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1133,
-      "victorias": 321,
-      "derrotas": 268,
-      "ultima_partida": 1753709701116
+      "lp": 2665,
+      "victorias": 508,
+      "derrotas": 411,
+      "ultima_partida": 1788294154390
     },
     {
-      "nombre": "one last dance#114",
-      "nivel": 75,
+      "nombre": "bitemarks#clef",
+      "nivel": 83,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 6,
-      "victorias": 129,
-      "derrotas": 95,
-      "ultima_partida": 1753181575631
+      "lp": 162,
+      "victorias": 51,
+      "derrotas": 23,
+      "ultima_partida": 1788131340511
     },
     {
-      "nombre": "114#1405",
-      "nivel": 139,
+      "nombre": "Antarctica#S B",
+      "nivel": 134,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 747,
-      "victorias": 176,
-      "derrotas": 123,
-      "ultima_partida": 1752934085711
+      "lp": 657,
+      "victorias": 105,
+      "derrotas": 86,
+      "ultima_partida": 1787703172804
+    },
+    {
+      "nombre": "Hazel#Lucia",
+      "nivel": 147,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1773429134719
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 27,
-      "victorias": 18,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3191489361702127
+      "nombre": "Belveth",
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 3.0972222222222223
     },
     {
-      "nombre": "Jhin",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 3.7547169811320753
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 7,
+      "nombre": "Kalista",
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.4827586206896552
+      "winrate": "80.0%",
+      "kda_promedio": 4.238095238095238
     },
     {
-      "nombre": "Aphelios",
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Zaahen",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.3846153846153846
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 1.4761904761904763
     },
     {
       "nombre": "Jinx",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.5
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.181818181818182
     },
     {
-      "nombre": "Hwei",
-      "partidas": 1,
+      "nombre": "Thresh",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0
+      "kda_promedio": 4.888888888888889
     },
     {
-      "nombre": "Lucian",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Rell",
+      "nombre": "Alistar",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.8
     },
     {
-      "nombre": "Sivir",
+      "nombre": "Aphelios",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 0.2
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 60,
-    "wins": 33,
-    "losses": 27,
-    "timePlayed": 96013
+    "games": 35,
+    "wins": 21,
+    "losses": 14,
+    "timePlayed": 57659
   }
 }

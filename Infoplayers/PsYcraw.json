@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "PsYcraw",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/PsYcraw_LoL",
+      "twitch": "https://www.twitch.tv/starzscream1"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "4Fun4Matchmaking#N1 WP",
+      "nivel": 1012,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1973,
+      "victorias": 371,
+      "derrotas": 315,
+      "ultima_partida": 1788367188799
+    },
+    {
+      "nombre": "4 Fun 4 LP Gains#HELP",
+      "nivel": 398,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 707,
+      "victorias": 166,
+      "derrotas": 112,
+      "ultima_partida": 1788364898120
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9047619047619047
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.384615384615385
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.8
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 15,
+    "losses": 13,
+    "timePlayed": 44125
+  }
+}

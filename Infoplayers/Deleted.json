@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Deleted",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Backup#0018",
+      "nivel": 1363,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1786,
+      "victorias": 1015,
+      "derrotas": 962,
+      "ultima_partida": 1788346626150
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Galio",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7058823529411766
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.6875
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 6.333333333333333
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "TahmKench",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.857142857142857
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 19
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4347826086956523
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8571428571428572
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 46,
+    "wins": 30,
+    "losses": 16,
+    "timePlayed": 74462
+  }
+}

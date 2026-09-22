@@ -1,106 +1,106 @@
 {
   "info_jugador": {
     "nombre": "Passzi",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Vencel Urbin",
+    "edad": 19,
+    "equipo": "Galions Sharks",
+    "pais": "Hungary",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/VPasszi",
       "twitch": "https://www.twitch.tv/passzi_"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GSNS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "suppasszi#owo",
-      "nivel": 450,
+      "nombre": "Passzi#OwO",
+      "nivel": 702,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 897,
-      "victorias": 444,
-      "derrotas": 398,
-      "ultima_partida": 1753706128855
+      "lp": 1955,
+      "victorias": 603,
+      "derrotas": 534,
+      "ultima_partida": 1788382860461
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
-      "nombre": "Bard",
+      "nombre": "Lulu",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.916666666666667
-    },
-    {
-      "nombre": "Karma",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.4
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.625
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.777777777777778
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 5.5
     },
     {
       "nombre": "Leona",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.8
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.625
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.230769230769231
+    },
+    {
+      "nombre": "Yuumi",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9090909090909092
     },
     {
       "nombre": "Alistar",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0
+      "kda_promedio": 1.1666666666666667
     },
     {
-      "nombre": "Blitzcrank",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2222222222222223
-    },
-    {
-      "nombre": "Milio",
+      "nombre": "Bard",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 6.666666666666667
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
+      "kda_promedio": 5.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 25,
-    "wins": 15,
-    "losses": 10,
-    "timePlayed": 39125
+    "games": 23,
+    "wins": 12,
+    "losses": 11,
+    "timePlayed": 39518
   }
 }

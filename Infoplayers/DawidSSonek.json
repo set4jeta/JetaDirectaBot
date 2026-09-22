@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "DawidSSonek",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Dawidsoneklol",
+      "twitch": "https://twitch.tv/dawidssonek"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "styropianzserem#EUW",
+      "nivel": 323,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1612,
+      "victorias": 396,
+      "derrotas": 300,
+      "ultima_partida": 1788379840701
+    },
+    {
+      "nombre": "Dawidsonek#2137",
+      "nivel": 1624,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2565,
+      "victorias": 365,
+      "derrotas": 272,
+      "ultima_partida": 1788205373064
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KogMaw",
+      "partidas": 60,
+      "victorias": 37,
+      "winrate": "61.7%",
+      "kda_promedio": 3.1317567567567566
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 25,
+      "victorias": 8,
+      "winrate": "32.0%",
+      "kda_promedio": 1.6417910447761195
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.4603174603174602
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6206896551724137
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.1904761904761907
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.962962962962963
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.130434782608696
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 121,
+    "wins": 64,
+    "losses": 57,
+    "timePlayed": 211336
+  }
+}

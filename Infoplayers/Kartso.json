@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "Kartso",
+    "nombre_real": "Kartsonakis Georgios",
+    "edad": 20,
+    "equipo": "Panathinaikos Esports",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/kartsonakis"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "APEFAN#2014",
+      "nivel": 328,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1915,
+      "victorias": 558,
+      "derrotas": 520,
+      "ultima_partida": 1788154020485
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lulu",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6153846153846154
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.176470588235294
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4615384615384615
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8888888888888888
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7142857142857142
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 21,
+    "wins": 9,
+    "losses": 12,
+    "timePlayed": 31165
+  }
+}

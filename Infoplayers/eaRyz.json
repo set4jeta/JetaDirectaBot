@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "eaRyz",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/eaRyyz",
+      "twitch": "https://www.twitch.tv/earyz_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "구름 속의 머리#happy",
+      "nivel": 237,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 751,
+      "victorias": 448,
+      "derrotas": 399,
+      "ultima_partida": 1766369916327
+    },
+    {
+      "nombre": "EARYZZ#0001",
+      "nivel": 891,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 841,
+      "victorias": 237,
+      "derrotas": 201,
+      "ultima_partida": 1766101787122
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.2933333333333334
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 3.58974358974359
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 4.242424242424242
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5428571428571427
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.08
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3076923076923075
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5652173913043478
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 30,
+    "losses": 32,
+    "timePlayed": 98992
+  }
+}

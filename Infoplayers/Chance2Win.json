@@ -9,93 +9,107 @@
     "redes_sociales": {
       "twitter": "https://www.twitter.com/AydanBerka59785"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/DMG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Chance2Win#EUW",
-      "nivel": 573,
+      "nivel": 642,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 994,
-      "victorias": 178,
-      "derrotas": 131,
-      "ultima_partida": 1753717305395
+      "lp": 1806,
+      "victorias": 121,
+      "derrotas": 75,
+      "ultima_partida": 1787855827238
     },
     {
       "nombre": "RUMBLEKING#C2W",
-      "nivel": 67,
+      "nivel": 72,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 441,
-      "victorias": 163,
-      "derrotas": 107,
-      "ultima_partida": 1753479986730
+      "lp": 103,
+      "victorias": 32,
+      "derrotas": 15,
+      "ultima_partida": 1787769245128
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9821428571428571
-    },
-    {
-      "nombre": "Volibear",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.2121212121212122
-    },
-    {
       "nombre": "KSante",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4210526315789473
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.1
-    },
-    {
-      "nombre": "Gangplank",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.42857142857142855
+      "partidas": 13,
+      "victorias": 11,
+      "winrate": "84.6%",
+      "kda_promedio": 3.1384615384615384
     },
     {
       "nombre": "Rumble",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 3.5609756097560976
     },
     {
-      "nombre": "Ryze",
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8666666666666667
+    },
+    {
+      "nombre": "Mordekaiser",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.0588235294117645
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Jax",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.5714285714285716
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 4,
-    "losses": 16,
-    "timePlayed": 34258
+    "games": 35,
+    "wins": 29,
+    "losses": 6,
+    "timePlayed": 54165
   }
 }

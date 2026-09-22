@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Izo",
+    "nombre_real": "Igor Lapot",
+    "edad": 20,
+    "equipo": "GMBLERS Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/izo_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Call me Izo#igi",
+      "nivel": 537,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1987,
+      "victorias": 571,
+      "derrotas": 518,
+      "ultima_partida": 1788295724870
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.044776119402985
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9302325581395348
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.109375
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.8297872340425534
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.962962962962963
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6315789473684212
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.538461538461538
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.3333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 33,
+    "losses": 25,
+    "timePlayed": 95545
+  }
+}

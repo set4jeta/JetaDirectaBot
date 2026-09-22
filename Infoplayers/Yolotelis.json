@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Yolotelis",
+    "nombre_real": "Aristotelis Sakellakis",
+    "edad": 22,
+    "equipo": "Team Refuse",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/yolotelis"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Aristotelis#GRE",
+      "nivel": 567,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1917,
+      "victorias": 152,
+      "derrotas": 114,
+      "ultima_partida": 1788319834988
+    },
+    {
+      "nombre": "ΓΙΟΛΟΤΕΛΗΣ#GRE",
+      "nivel": 255,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 239,
+      "derrotas": 217,
+      "ultima_partida": 1786055763643
+    },
+    {
+      "nombre": "MissedPotential#GRE",
+      "nivel": 159,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 30,
+      "derrotas": 20,
+      "ultima_partida": 1786053064991
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zoe",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.564102564102564
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1923076923076923
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 18,
+    "wins": 7,
+    "losses": 11,
+    "timePlayed": 32265
+  }
+}

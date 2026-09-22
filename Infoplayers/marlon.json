@@ -9,107 +9,107 @@
     "redes_sociales": {
       "twitter": "https://twitter.com/marlonkox"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/marlon.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BAM.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "marlοn#EUW",
-      "nivel": 644,
+      "nivel": 670,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 910,
-      "victorias": 298,
-      "derrotas": 260,
-      "ultima_partida": 1753754641878
+      "lp": 1114,
+      "victorias": 428,
+      "derrotas": 370,
+      "ultima_partida": 1766350905760
     },
     {
       "nombre": "goroncywir60#łysy",
-      "nivel": 201,
+      "nivel": 202,
       "region": "EUW1",
-      "liga": "EMERALD III",
-      "lp": 80,
-      "victorias": 6,
-      "derrotas": 7,
-      "ultima_partida": 1753068197602
+      "liga": "EMERALD I",
+      "lp": 10,
+      "victorias": 11,
+      "derrotas": 9,
+      "ultima_partida": 1756691555891
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 3.96
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 1.9767441860465116
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.05
-    },
-    {
-      "nombre": "Janna",
+      "nombre": "Leona",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.6
+      "kda_promedio": 2.888888888888889
     },
     {
       "nombre": "Pyke",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.166666666666667
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
     },
     {
-      "nombre": "Akali",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1111111111111112
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Lucian",
+      "nombre": "Corki",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.5
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 20,
-    "losses": 19,
-    "timePlayed": 61251
+    "games": 16,
+    "wins": 11,
+    "losses": 5,
+    "timePlayed": 25526
   }
 }

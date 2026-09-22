@@ -1,0 +1,96 @@
+{
+  "info_jugador": {
+    "nombre": "Kryzik",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Kryzik#EUW",
+      "nivel": 877,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1782,
+      "victorias": 387,
+      "derrotas": 336,
+      "ultima_partida": 1788359193151
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yone",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.9
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9090909090909092
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8666666666666667
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 17,
+    "losses": 11,
+    "timePlayed": 44609
+  }
+}

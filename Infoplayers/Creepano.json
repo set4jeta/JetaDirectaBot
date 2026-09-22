@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Creepano",
+    "nombre_real": "Bredon Quentin",
+    "edad": 21,
+    "equipo": "Lausanne-Sport Esports",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Creepan0",
+      "twitch": "https://www.twitch.tv/creepano"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Creepano#gfghs",
+      "nivel": 1272,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2679,
+      "victorias": 844,
+      "derrotas": 768,
+      "ultima_partida": 1788366390175
+    },
+    {
+      "nombre": "Depressed Player#Sad1",
+      "nivel": 385,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 63,
+      "derrotas": 48,
+      "ultima_partida": 1785617761298
+    },
+    {
+      "nombre": "Creepano#EUW",
+      "nivel": 578,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 514,
+      "derrotas": 494,
+      "ultima_partida": 1785363167274
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 4.911111111111111
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4761904761904763
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4782608695652173
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 14,
+    "losses": 6,
+    "timePlayed": 31499
+  }
+}

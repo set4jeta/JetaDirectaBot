@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Harpoon",
     "nombre_real": "Franciszek Gryszkiewicz",
-    "edad": 20,
+    "edad": 21,
     "equipo": "Galions",
     "pais": "Poland",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/Harpoonlol",
       "twitch": "https://www.twitch.tv/harpoon_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/harpoon.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "HARPOON#2005",
-      "nivel": 816,
+      "nombre": "HARPOON#goat",
+      "nivel": 1001,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1089,
-      "victorias": 493,
-      "derrotas": 433,
-      "ultima_partida": 1753719362876
+      "liga": "GRANDMASTER I",
+      "lp": 2070,
+      "victorias": 526,
+      "derrotas": 395,
+      "ultima_partida": 1788305314060
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.853658536585366
+      "nombre": "Jhin",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.129032258064516
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Kalista",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.5
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8823529411764706
     },
     {
-      "nombre": "Ziggs",
+      "nombre": "Sion",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.0952380952380953
+    },
+    {
+      "nombre": "Caitlyn",
       "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8928571428571428
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.75
+      "winrate": "100.0%",
+      "kda_promedio": 4.818181818181818
     },
     {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0384615384615383
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 5.1
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9166666666666667
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.1538461538461537
-    },
-    {
-      "nombre": "Aphelios",
+      "nombre": "Qiyana",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 3.9
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Singed",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.6521739130434783
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.0714285714285716
+      "kda_promedio": 1.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 20,
-    "losses": 31,
-    "timePlayed": 83550
+    "games": 57,
+    "wins": 28,
+    "losses": 29,
+    "timePlayed": 92221
   }
 }

@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Diplex",
+    "nombre_real": "Dimitri Ponomarev",
+    "edad": 23,
+    "equipo": "All for One Gaming",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Diplexlol",
+      "twitch": "https://www.twitch.tv/diplexlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "DlPLEX#EUW",
+      "nivel": 738,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2069,
+      "victorias": 102,
+      "derrotas": 39,
+      "ultima_partida": 1788275115110
+    },
+    {
+      "nombre": "schnell next#EUW",
+      "nivel": 232,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 60,
+      "victorias": 4,
+      "derrotas": 4,
+      "ultima_partida": 1786466705753
+    },
+    {
+      "nombre": "Dagestan#2or3",
+      "nivel": 123,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 475,
+      "derrotas": 330,
+      "ultima_partida": 1783884661976
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Locke",
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 5.1020408163265305
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.740740740740741
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 5.925925925925926
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 2.9473684210526314
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.24
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.473684210526316
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 64,
+    "losses": 26,
+    "timePlayed": 145245
+  }
+}

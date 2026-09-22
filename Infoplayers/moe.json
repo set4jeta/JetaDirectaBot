@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "moe",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Moekkr"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "tommy vercetti#252",
+      "nivel": 673,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1913,
+      "victorias": 428,
+      "derrotas": 358,
+      "ultima_partida": 1788373880241
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Locke",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.3125
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.4516129032258065
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.125
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 38,
+    "wins": 18,
+    "losses": 20,
+    "timePlayed": 59720
+  }
+}

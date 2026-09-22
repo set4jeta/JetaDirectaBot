@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Scimmia",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Ahyeonfan123#kpop",
+      "nivel": 273,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 237,
+      "victorias": 61,
+      "derrotas": 47,
+      "ultima_partida": 1788382055783
+    },
+    {
+      "nombre": "Scimmia#simi",
+      "nivel": 716,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2396,
+      "victorias": 494,
+      "derrotas": 424,
+      "ultima_partida": 1788280284581
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 20,
+      "victorias": 11,
+      "winrate": "55.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 17,
+      "victorias": 6,
+      "winrate": "35.3%",
+      "kda_promedio": 2.4096385542168677
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.806451612903226
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.537037037037037
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.107142857142857
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 6.85
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.864864864864865
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.066666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 118,
+    "wins": 68,
+    "losses": 50,
+    "timePlayed": 195783
+  }
+}

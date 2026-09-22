@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Inugami",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Inugamilol",
+      "twitch": "https://www.twitch.tv/inugami_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "HLT Inugami#loser",
+      "nivel": 1447,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2466,
+      "victorias": 426,
+      "derrotas": 357,
+      "ultima_partida": 1788392002659
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yasuo",
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 1.487603305785124
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4745762711864407
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 1.5151515151515151
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9411764705882353
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 45,
+    "wins": 27,
+    "losses": 18,
+    "timePlayed": 70940
+  }
+}

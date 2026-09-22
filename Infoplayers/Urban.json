@@ -3,62 +3,104 @@
     "nombre": "Urban",
     "nombre_real": "Marcus Urban Christensen",
     "edad": 25,
-    "equipo": "A One Man Army",
+    "equipo": "Senshi eSports (Benelux Team)",
     "pais": "Denmark",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Urbanlol_DK",
       "twitch": "https://twitch.tv/UrbanlolDK"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/urban.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Smile on face#Smile",
-      "nivel": 913,
+      "nivel": 961,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1003,
-      "victorias": 480,
-      "derrotas": 442,
-      "ultima_partida": 1753732942708
+      "liga": "CHALLENGER I",
+      "lp": 1364,
+      "victorias": 705,
+      "derrotas": 636,
+      "ultima_partida": 1766149934022
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Bard",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "DrMundo",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.75
-    },
-    {
       "nombre": "Rakan",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2307692307692308
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.875
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Ekko",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 4,
-    "wins": 3,
-    "losses": 1,
-    "timePlayed": 6921
+    "games": 28,
+    "wins": 16,
+    "losses": 12,
+    "timePlayed": 45424
   }
 }

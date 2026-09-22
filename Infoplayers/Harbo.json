@@ -10,107 +10,93 @@
       "twitter": "https://twitter.com/Harbo_lol",
       "twitch": "https://www.twitch.tv/emilharbodk"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/DRG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Harbo#000",
-      "nivel": 1033,
+      "nivel": 1144,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1007,
-      "victorias": 450,
-      "derrotas": 413,
-      "ultima_partida": 1753367515785
+      "liga": "CHALLENGER I",
+      "lp": 2779,
+      "victorias": 349,
+      "derrotas": 278,
+      "ultima_partida": 1788363566057
     },
     {
       "nombre": "improvegrindszn#EUW",
-      "nivel": 177,
+      "nivel": 189,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 0,
-      "victorias": 87,
-      "derrotas": 54,
-      "ultima_partida": 1752939757871
+      "liga": "DIAMOND III",
+      "lp": 94,
+      "victorias": 18,
+      "derrotas": 10,
+      "ultima_partida": 1787227912940
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Zoe",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.652173913043478
+    },
+    {
+      "nombre": "Cassiopeia",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.85
     },
     {
-      "nombre": "Annie",
+      "nombre": "Syndra",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.2105263157894737
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Viktor",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 0.7142857142857143
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.666666666666667
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8235294117647058
-    },
-    {
-      "nombre": "Ahri",
+      "nombre": "Leblanc",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 4
+      "kda_promedio": 5.5
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Lux",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
+      "kda_promedio": 2.5
     },
     {
-      "nombre": "Azir",
+      "nombre": "Ornn",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.3333333333333335
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 11,
-    "losses": 19,
-    "timePlayed": 48402
+    "games": 21,
+    "wins": 15,
+    "losses": 6,
+    "timePlayed": 36384
   }
 }

@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "VAEII",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "VAEII#EUW",
+      "nivel": 819,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2455,
+      "victorias": 602,
+      "derrotas": 526,
+      "ultima_partida": 1788262377618
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leblanc",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 2.635294117647059
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.1315789473684212
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.707317073170732
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1458333333333335
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.206896551724138
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.814814814814815
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.0555555555555554
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 77,
+    "wins": 42,
+    "losses": 35,
+    "timePlayed": 127861
+  }
+}

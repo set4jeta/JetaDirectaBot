@@ -1,0 +1,60 @@
+{
+  "info_jugador": {
+    "nombre": "Shending Help",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/shending_help",
+      "twitch": "https://twitch.tv/shending_help"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Shending Help#guide",
+      "nivel": 282,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1257,
+      "victorias": 217,
+      "derrotas": 157,
+      "ultima_partida": 1766424183957
+    },
+    {
+      "nombre": "Shending Help#cmon",
+      "nivel": 225,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1068,
+      "victorias": 249,
+      "derrotas": 192,
+      "ultima_partida": 1766421674883
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shen",
+      "partidas": 20,
+      "victorias": 9,
+      "winrate": "45.0%",
+      "kda_promedio": 3.0821917808219177
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 21,
+    "wins": 9,
+    "losses": 12,
+    "timePlayed": 31694
+  }
+}

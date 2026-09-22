@@ -1,105 +1,135 @@
 {
   "info_jugador": {
     "nombre": "bakisa",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Branko Simeonovski",
+    "edad": 22,
+    "equipo": "Dynasty",
+    "pais": "Serbia",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/BakisaCale"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BE5.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Cale je cale#CJA",
-      "nivel": 264,
+      "nombre": "gumaxk12#365",
+      "nivel": 52,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 438,
+      "victorias": 131,
+      "derrotas": 67,
+      "ultima_partida": 1788363992610
+    },
+    {
+      "nombre": "Bakisa#CALE",
+      "nivel": 127,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 766,
-      "victorias": 496,
-      "derrotas": 457,
-      "ultima_partida": 1753750772428
+      "lp": 1740,
+      "victorias": 514,
+      "derrotas": 469,
+      "ultima_partida": 1788307227360
+    },
+    {
+      "nombre": "Cale je cale#CJA",
+      "nivel": 312,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 31,
+      "victorias": 29,
+      "derrotas": 29,
+      "ultima_partida": 1787319852590
+    },
+    {
+      "nombre": "ad1wqxda#xxxx",
+      "nivel": 106,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 64,
+      "victorias": 241,
+      "derrotas": 202,
+      "ultima_partida": 1787306741184
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Kaisa",
-      "partidas": 18,
-      "victorias": 8,
-      "winrate": "44.4%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 18,
-      "victorias": 10,
-      "winrate": "55.6%",
-      "kda_promedio": 2.792452830188679
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 15,
-      "victorias": 7,
-      "winrate": "46.7%",
-      "kda_promedio": 2.227722772277228
-    },
-    {
       "nombre": "Yunara",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 7,
-      "victorias": 7,
-      "winrate": "100.0%",
-      "kda_promedio": 4.758620689655173
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.1904761904761907
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.2142857142857142
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
+      "partidas": 20,
+      "victorias": 10,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6850393700787403
     },
     {
       "nombre": "KogMaw",
-      "partidas": 2,
-      "victorias": 1,
+      "partidas": 16,
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 2.742857142857143
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 1.0833333333333333
+      "kda_promedio": 3.2413793103448274
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.15
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.2173913043478262
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 6.923076923076923
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.64
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 52,
-    "losses": 39,
-    "timePlayed": 144069
+    "games": 101,
+    "wins": 49,
+    "losses": 52,
+    "timePlayed": 165754
   }
 }

@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Lixo",
+    "nombre_real": "Vanja Ðerković",
+    "edad": 19,
+    "equipo": "Zephyr Esport",
+    "pais": "Montenegro",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "DK Smash#EUW12",
+      "nivel": 269,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1968,
+      "victorias": 882,
+      "derrotas": 810,
+      "ultima_partida": 1788374402677
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.90625
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.369565217391304
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.0384615384615383
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0689655172413794
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2307692307692308
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4210526315789473
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 49,
+    "wins": 24,
+    "losses": 25,
+    "timePlayed": 77547
+  }
+}

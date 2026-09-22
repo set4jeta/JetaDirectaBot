@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Wawek777",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/wawek777",
+      "twitch": "https://www.twitch.tv/wawek777"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "E M I L L I E#bleed",
+      "nivel": 269,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1116,
+      "victorias": 302,
+      "derrotas": 257,
+      "ultima_partida": 1788371872270
+    },
+    {
+      "nombre": "azur et asmar#paix",
+      "nivel": 481,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2533,
+      "victorias": 673,
+      "derrotas": 631,
+      "ultima_partida": 1788262720044
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "AurelionSol",
+      "partidas": 37,
+      "victorias": 19,
+      "winrate": "51.4%",
+      "kda_promedio": 3.55
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 37,
+      "victorias": 23,
+      "winrate": "62.2%",
+      "kda_promedio": 2.6772908366533863
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.378787878787879
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.396551724137931
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.411764705882353
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3157894736842106
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.619047619047619
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 132,
+    "wins": 70,
+    "losses": 62,
+    "timePlayed": 219526
+  }
+}

@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "JNX",
     "nombre_real": "Janik Bartels",
-    "edad": 26,
-    "equipo": "Vitality.Bee",
+    "edad": 27,
+    "equipo": "Eintracht Spandau",
     "pais": "Germany",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Jenax_LoL",
       "twitch": "https://twitch.tv/jenax"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/jnx.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Melee Range ZXY#Fight",
-      "nivel": 743,
+      "nombre": "Glorptrox#glorp",
+      "nivel": 290,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 892,
-      "victorias": 89,
-      "derrotas": 51,
-      "ultima_partida": 1753733989678
+      "lp": 2020,
+      "victorias": 412,
+      "derrotas": 339,
+      "ultima_partida": 1788382664433
     },
     {
-      "nombre": "Simon Claw#Agent",
-      "nivel": 223,
+      "nombre": "Glorpmeister#Jenax",
+      "nivel": 921,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 159,
-      "derrotas": 120,
-      "ultima_partida": 1746963743792
+      "liga": "MASTER I",
+      "lp": 1288,
+      "victorias": 455,
+      "derrotas": 368,
+      "ultima_partida": 1788300845137
+    },
+    {
+      "nombre": "Jenax#Twtv",
+      "nivel": 192,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1766931532669
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0833333333333335
-    },
-    {
-      "nombre": "Chogath",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.1666666666666665
-    },
-    {
-      "nombre": "Akshan",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 0.8333333333333334
+      "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 1.6307692307692307
     },
     {
       "nombre": "Jayce",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.282051282051282
     },
     {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.297872340425532
     },
     {
-      "nombre": "KSante",
-      "partidas": 1,
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.074074074074074
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 16
+      "winrate": "20.0%",
+      "kda_promedio": 1.6538461538461537
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.1379310344827585
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0416666666666665
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
-    "wins": 11,
-    "losses": 12,
-    "timePlayed": 36266
+    "games": 115,
+    "wins": 66,
+    "losses": 49,
+    "timePlayed": 184192
   }
 }

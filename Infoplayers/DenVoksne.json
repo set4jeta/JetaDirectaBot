@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "DenVoksne",
     "nombre_real": "Nikolaj&nbsp;Asbjorn Meilby",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Unicorns of Love Sexy Edition",
     "pais": "Denmark",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://www.twitter.com/DenVoksneLoL",
       "twitch": "https://www.twitch.tv/denvoksne"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Mαster Oogwαy#EUW",
-      "nivel": 326,
+      "nivel": 464,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1441,
-      "victorias": 192,
-      "derrotas": 118,
-      "ultima_partida": 1753743252445
+      "lp": 2658,
+      "victorias": 357,
+      "derrotas": 280,
+      "ultima_partida": 1788382765922
     },
     {
-      "nombre": "Ignacarious#5232",
-      "nivel": 797,
+      "nombre": "The Oogster#DV1",
+      "nivel": 888,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1482,
-      "victorias": 322,
-      "derrotas": 259,
-      "ultima_partida": 1753524862132
+      "liga": "MASTER I",
+      "lp": 351,
+      "victorias": 271,
+      "derrotas": 191,
+      "ultima_partida": 1787094686662
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 42,
-      "victorias": 30,
-      "winrate": "71.4%",
-      "kda_promedio": 4.073825503355705
-    },
-    {
-      "nombre": "Draven",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.6486486486486487
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.5
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.5294117647058822
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.388888888888889
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.4761904761904763
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.411764705882353
+      "partidas": 19,
+      "victorias": 14,
+      "winrate": "73.7%",
+      "kda_promedio": 3.4939759036144578
     },
     {
       "nombre": "Ezreal",
-      "partidas": 2,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.25
+      "winrate": "33.3%",
+      "kda_promedio": 3.466666666666667
     },
     {
-      "nombre": "Senna",
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 7.428571428571429
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.533333333333333
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Nilah",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0526315789473684
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0833333333333333
+    },
+    {
+      "nombre": "Caitlyn",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 20
+      "kda_promedio": 2.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 98,
-    "wins": 60,
-    "losses": 38,
-    "timePlayed": 157152
+    "games": 67,
+    "wins": 36,
+    "losses": 31,
+    "timePlayed": 103964
   }
 }

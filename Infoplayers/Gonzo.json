@@ -1,0 +1,101 @@
+{
+  "info_jugador": {
+    "nombre": "Gonzo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "\\thttps://www.twitch.tv/gonzo22_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Gonzo#2843",
+      "nivel": 922,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 155,
+      "victorias": 743,
+      "derrotas": 656,
+      "ultima_partida": 1788363224381
+    },
+    {
+      "nombre": "zng zng zng#11111",
+      "nivel": 534,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2442,
+      "victorias": 551,
+      "derrotas": 482,
+      "ultima_partida": 1788355266088
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Quinn",
+      "partidas": 94,
+      "victorias": 38,
+      "winrate": "40.4%",
+      "kda_promedio": 1.8390625
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.590909090909091
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 105,
+    "wins": 45,
+    "losses": 60,
+    "timePlayed": 162610
+  }
+}

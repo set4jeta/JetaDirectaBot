@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Hydra",
     "nombre_real": "Luca Grieco",
-    "edad": 29,
+    "edad": 30,
     "equipo": "Galactic Gamers",
     "pais": "Argentina",
     "contrato_hasta": null,
@@ -10,107 +10,107 @@
       "twitter": "https://twitter.com/HydraWasTaken",
       "twitch": "https://twitch.tv/hydramv"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/LUA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Po Gap#EUW",
-      "nivel": 882,
+      "nivel": 1165,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1452,
-      "victorias": 455,
-      "derrotas": 386,
-      "ultima_partida": 1753745831214
+      "lp": 3621,
+      "victorias": 796,
+      "derrotas": 680,
+      "ultima_partida": 1788352142371
     },
     {
       "nombre": "Bollito de Cacao#EUW",
-      "nivel": 852,
+      "nivel": 865,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 60,
-      "victorias": 65,
-      "derrotas": 54,
-      "ultima_partida": 1753461551481
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 71,
+      "derrotas": 61,
+      "ultima_partida": 1773852627880
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Taliyah",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.375
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.925
-    },
-    {
       "nombre": "Akali",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5714285714285716
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.3846153846153846
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.9375
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 2.4
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.375
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 3.1159420289855073
     },
     {
       "nombre": "Aurora",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.325
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 9,
+      "victorias": 9,
       "winrate": "100.0%",
-      "kda_promedio": 2.8
+      "kda_promedio": 3.72
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 3.324324324324324
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6206896551724137
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8947368421052633
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1333333333333333
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
-    "wins": 34,
-    "losses": 19,
-    "timePlayed": 85863
+    "games": 75,
+    "wins": 43,
+    "losses": 32,
+    "timePlayed": 119624
   }
 }

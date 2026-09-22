@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Cast",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/kingloko"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TwTv CastFM#Puff",
+      "nivel": 1221,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1947,
+      "victorias": 850,
+      "derrotas": 751,
+      "ultima_partida": 1788365864715
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kindred",
+      "partidas": 83,
+      "victorias": 44,
+      "winrate": "53.0%",
+      "kda_promedio": 2.725663716814159
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.151898734177215
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.2804878048780488
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6551724137931034
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.909090909090909
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.285714285714286
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 126,
+    "wins": 70,
+    "losses": 56,
+    "timePlayed": 202736
+  }
+}

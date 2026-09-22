@@ -2,105 +2,77 @@
   "info_jugador": {
     "nombre": "D4nKa",
     "nombre_real": "Daniel Golzmann",
-    "edad": 23,
-    "equipo": "Verdant",
+    "edad": 24,
+    "equipo": "Eintracht Frankfurt",
     "pais": "Germany",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/D4nKa1",
       "twitch": "https://www.twitch.tv/d4nkalol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/d4nka.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VER.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "danka tyyy shiii#mood",
-      "nivel": 913,
+      "nombre": "molodoy jg#FURIA",
+      "nivel": 1015,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1062,
-      "victorias": 289,
-      "derrotas": 249,
-      "ultima_partida": 1753744687603
+      "liga": "GRANDMASTER I",
+      "lp": 1901,
+      "victorias": 376,
+      "derrotas": 319,
+      "ultima_partida": 1788373091065
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "XinZhao",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.727272727272727
-    },
-    {
-      "nombre": "Nidalee",
+      "nombre": "Chogath",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 12.333333333333334
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1764705882352942
     },
     {
-      "nombre": "LeeSin",
+      "nombre": "Graves",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.8461538461538463
-    },
-    {
-      "nombre": "Amumu",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.2857142857142856
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.666666666666667
+      "kda_promedio": 9.5
     },
     {
       "nombre": "Lulu",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4
+      "kda_promedio": 0.5
     },
     {
       "nombre": "Nocturne",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1428571428571428
+      "kda_promedio": 2.25
     },
     {
-      "nombre": "Orianna",
+      "nombre": "Pyke",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5454545454545454
+      "kda_promedio": 1.375
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Qiyana",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 19
+      "kda_promedio": 6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 21,
-    "wins": 11,
-    "losses": 10,
-    "timePlayed": 30273
+    "games": 9,
+    "wins": 3,
+    "losses": 6,
+    "timePlayed": 12257
   }
 }

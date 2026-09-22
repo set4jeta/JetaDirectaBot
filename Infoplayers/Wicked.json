@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Wicked",
     "nombre_real": "Emily Leckie",
-    "edad": 29,
+    "edad": 30,
     "equipo": "Lundqvist Lightside",
     "pais": "United States",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/EuwWicked",
-      "twitch": "https://www.twitch.tv/wicked_euw"
+      "twitch": "\\thttps://www.twitch.tv/wicked_euw\\t"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BAM.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Wicked#Tun",
-      "nivel": 1026,
+      "nombre": "The Chosen One#meant",
+      "nivel": 145,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 791,
-      "victorias": 465,
-      "derrotas": 440,
-      "ultima_partida": 1753755075136
+      "liga": "DIAMOND III",
+      "lp": 20,
+      "victorias": 12,
+      "derrotas": 14,
+      "ultima_partida": 1788381993758
     },
     {
-      "nombre": "Moula STEG#STEG",
-      "nivel": 120,
+      "nombre": "Wicked#2007",
+      "nivel": 1197,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 243,
-      "victorias": 135,
-      "derrotas": 118,
-      "ultima_partida": 1753639926393
+      "liga": "GRANDMASTER I",
+      "lp": 2072,
+      "victorias": 505,
+      "derrotas": 446,
+      "ultima_partida": 1788349479325
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Taliyah",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 1.898876404494382
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 2.152542372881356
-    },
-    {
-      "nombre": "Qiyana",
-      "partidas": 11,
+      "nombre": "Neeko",
+      "partidas": 10,
       "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 2.9285714285714284
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.418181818181818
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.395348837209302
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.9555555555555557
+      "winrate": "70.0%",
+      "kda_promedio": 3.825
     },
     {
       "nombre": "Hwei",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.5263157894736843
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.977777777777778
     },
     {
       "nombre": "Mel",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0714285714285716
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.4705882352941178
     },
     {
-      "nombre": "Neeko",
+      "nombre": "Viktor",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.5238095238095237
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.606060606060606
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.2571428571428571
+    },
+    {
+      "nombre": "Anivia",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.6
+      "kda_promedio": 4.7272727272727275
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 87,
-    "wins": 43,
-    "losses": 44,
-    "timePlayed": 136899
+    "games": 63,
+    "wins": 31,
+    "losses": 32,
+    "timePlayed": 100112
   }
 }

@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Vibe",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/LadicusVibe",
+      "twitch": "https://twitch.tv/LadicusVibe"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TwTv LadicusVibe#Vayne",
+      "nivel": 919,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 3062,
+      "victorias": 663,
+      "derrotas": 561,
+      "ultima_partida": 1788338771097
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Twitch",
+      "partidas": 44,
+      "victorias": 23,
+      "winrate": "52.3%",
+      "kda_promedio": 1.9626436781609196
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 29,
+      "victorias": 21,
+      "winrate": "72.4%",
+      "kda_promedio": 2.263157894736842
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 0.9411764705882353
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2777777777777777
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 84,
+    "wins": 47,
+    "losses": 37,
+    "timePlayed": 132589
+  }
+}

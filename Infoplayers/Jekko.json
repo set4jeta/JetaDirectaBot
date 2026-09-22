@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Jekko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/J3kko1",
+      "twitch": "https://www.twitch.tv/j3kko1"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jekko#9313",
+      "nivel": 312,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2678,
+      "victorias": 602,
+      "derrotas": 513,
+      "ultima_partida": 1788344631672
+    },
+    {
+      "nombre": "アニエル姫#cid",
+      "nivel": 627,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 71,
+      "victorias": 125,
+      "derrotas": 124,
+      "ultima_partida": 1785938346131
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 40,
+      "victorias": 27,
+      "winrate": "67.5%",
+      "kda_promedio": 3.9607843137254903
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 24,
+      "victorias": 13,
+      "winrate": "54.2%",
+      "kda_promedio": 2.8870967741935485
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 15,
+      "victorias": 10,
+      "winrate": "66.7%",
+      "kda_promedio": 3.45
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9146341463414633
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3666666666666667
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3636363636363635
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.411764705882353
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2142857142857144
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 119,
+    "wins": 70,
+    "losses": 49,
+    "timePlayed": 181561
+  }
+}

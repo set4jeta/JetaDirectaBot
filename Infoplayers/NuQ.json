@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "NuQ",
+    "nombre_real": "Erkmen Erdoğdu",
+    "edad": 22,
+    "equipo": "BBL Dark Passage",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/NuQlol",
+      "twitch": "https://www.twitch.tv/nuqlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "NuQ#1305",
+      "nivel": 540,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 996,
+      "victorias": 330,
+      "derrotas": 272,
+      "ultima_partida": 1766182514721
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6153846153846154
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.142857142857143
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0714285714285714
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Teemo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 7,
+    "wins": 1,
+    "losses": 6,
+    "timePlayed": 11931
+  }
+}

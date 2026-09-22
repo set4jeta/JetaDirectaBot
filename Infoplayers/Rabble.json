@@ -2,115 +2,108 @@
   "info_jugador": {
     "nombre": "Rabble",
     "nombre_real": "Jochem van Graafeiland",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Kaufland Hangry Knights",
     "pais": "Netherlands",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Rabblelol",
       "twitch": "https://www.twitch.tv/rabble_euw"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/rabble.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KHK.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Rabble Arouser#EUW",
-      "nivel": 672,
+      "nivel": 799,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 900,
-      "victorias": 169,
-      "derrotas": 109,
-      "ultima_partida": 1753696161646
+      "liga": "CHALLENGER I",
+      "lp": 3274,
+      "victorias": 241,
+      "derrotas": 131,
+      "ultima_partida": 1788357274234
     },
     {
       "nombre": "Multirole Talent#EUW",
-      "nivel": 350,
+      "nivel": 355,
       "region": "EUW1",
-      "liga": "DIAMOND II",
+      "liga": "DIAMOND I",
       "lp": 75,
-      "victorias": 137,
-      "derrotas": 82,
-      "ultima_partida": 1747146621952
+      "victorias": 33,
+      "derrotas": 8,
+      "ultima_partida": 1785006422368
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Viego",
+      "nombre": "Khazix",
+      "partidas": 6,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3125
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7037037037037037
+    },
+    {
+      "nombre": "Qiyana",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.4583333333333335
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.083333333333333
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 13
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.125
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Kayn",
-      "partidas": 3,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.8666666666666667
+      "winrate": "20.0%",
+      "kda_promedio": 2.4047619047619047
     },
     {
-      "nombre": "Sion",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Chogath",
+      "nombre": "Shyvana",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.0714285714285714
+      "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Lillia",
+      "nombre": "Smolder",
       "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 7.6
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 23,
-    "losses": 19,
-    "timePlayed": 64368
+    "games": 26,
+    "wins": 11,
+    "losses": 15,
+    "timePlayed": 48005
   }
 }

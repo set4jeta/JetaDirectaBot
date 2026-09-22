@@ -2,111 +2,125 @@
   "info_jugador": {
     "nombre": "Patrik",
     "nombre_real": "Patrik Jírů",
-    "edad": 25,
-    "equipo": "Natus Vincere",
+    "edad": 26,
+    "equipo": "Berlin International Gaming",
     "pais": "Czech Republic",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/patriklol",
       "twitch": "\\thttps://twitch.tv/patrikadc"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/patrik.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "HARD RICO#EUW12",
-      "nivel": 437,
+      "nombre": "bobicek#512",
+      "nivel": 573,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 322,
-      "victorias": 142,
-      "derrotas": 96,
-      "ultima_partida": 1753672396999
+      "liga": "GRANDMASTER I",
+      "lp": 2182,
+      "victorias": 353,
+      "derrotas": 276,
+      "ultima_partida": 1788358840218
     },
     {
-      "nombre": "NIP Freeze#cze",
-      "nivel": 513,
+      "nombre": "ESB PJ#55555",
+      "nivel": 518,
       "region": "EUW1",
-      "liga": "DIAMOND II",
+      "liga": "EMERALD I",
       "lp": 75,
-      "victorias": 170,
-      "derrotas": 137,
-      "ultima_partida": 1747488318826
+      "victorias": 12,
+      "derrotas": 12,
+      "ultima_partida": 1768842978141
     },
     {
       "nombre": "XZPCWCTVNB#EUW",
       "nivel": 119,
       "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 70,
-      "victorias": 3,
-      "derrotas": 9,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1739546041857
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3846153846153846
+      "nombre": "Yunara",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.5957446808510638
     },
     {
-      "nombre": "Senna",
+      "nombre": "Kalista",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Jhin",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4705882352941178
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 9.714285714285714
     },
     {
       "nombre": "Aphelios",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.8181818181818183
+      "kda_promedio": 2.4545454545454546
     },
     {
-      "nombre": "Corki",
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9333333333333333
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Ahri",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.111111111111111
+      "kda_promedio": 3.6666666666666665
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Alistar",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 7
+      "kda_promedio": 3.6
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Ashe",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.142857142857143
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Caitlyn",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.8
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 14,
-    "wins": 8,
-    "losses": 6,
-    "timePlayed": 22129
+    "games": 33,
+    "wins": 18,
+    "losses": 15,
+    "timePlayed": 52461
   }
 }

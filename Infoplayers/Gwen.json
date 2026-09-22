@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Gwen",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/gwen_nlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "LEC 2028#KCBS",
+      "nivel": 84,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 986,
+      "victorias": 65,
+      "derrotas": 34,
+      "ultima_partida": 1788385855717
+    },
+    {
+      "nombre": "ttv gwenーnlol#zeri",
+      "nivel": 641,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2730,
+      "victorias": 400,
+      "derrotas": 285,
+      "ultima_partida": 1788347629793
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 3.8732394366197185
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9518072289156627
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5714285714285716
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.59375
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2857142857142856
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 77,
+    "wins": 41,
+    "losses": 36,
+    "timePlayed": 118638
+  }
+}

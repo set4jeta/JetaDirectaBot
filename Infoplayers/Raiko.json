@@ -1,0 +1,135 @@
+{
+  "info_jugador": {
+    "nombre": "Raiko",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "\\thttps://twitch.tv/raikoolol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "RAIKO KATA KING#KATA",
+      "nivel": 319,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2510,
+      "victorias": 868,
+      "derrotas": 785,
+      "ultima_partida": 1788376234063
+    },
+    {
+      "nombre": "YOUTUBE RAIKO#kata",
+      "nivel": 101,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 49,
+      "victorias": 23,
+      "derrotas": 9,
+      "ultima_partida": 1787501658323
+    },
+    {
+      "nombre": "RAIKOOOOOO#kata",
+      "nivel": 286,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 32,
+      "victorias": 320,
+      "derrotas": 261,
+      "ultima_partida": 1785319516336
+    },
+    {
+      "nombre": "raikooooo#EUW",
+      "nivel": 338,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 83,
+      "derrotas": 62,
+      "ultima_partida": 1783158929695
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Katarina",
+      "partidas": 171,
+      "victorias": 91,
+      "winrate": "53.2%",
+      "kda_promedio": 2.5205627705627704
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 9,
+      "victorias": 9,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2448979591836733
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.1025641025641026
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 5.476190476190476
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.1904761904761905
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7333333333333333
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7142857142857144
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 223,
+    "wins": 118,
+    "losses": 105,
+    "timePlayed": 347548
+  }
+}

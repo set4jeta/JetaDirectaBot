@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Comp",
     "nombre_real": "Markos Stamkopoulos",
-    "edad": 23,
-    "equipo": "Gentle Mates",
+    "edad": 24,
+    "equipo": "Joblife",
     "pais": "Greece",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/CompGRE",
       "twitch": "https://twitch.tv/comp_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/comp.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/M8.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Yami Sukehiro#3309",
-      "nivel": 108,
+      "nombre": "GRE Comp#3309",
+      "nivel": 233,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1316,
-      "victorias": 454,
-      "derrotas": 343,
-      "ultima_partida": 1753738913708
+      "liga": "MASTER I",
+      "lp": 938,
+      "victorias": 597,
+      "derrotas": 475,
+      "ultima_partida": 1788391060748
     },
     {
       "nombre": "Kite Machine#2015",
-      "nivel": 895,
+      "nivel": 1070,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 65,
-      "victorias": 111,
-      "derrotas": 102,
-      "ultima_partida": 1753636991329
+      "liga": "GRANDMASTER I",
+      "lp": 2298,
+      "victorias": 700,
+      "derrotas": 638,
+      "ultima_partida": 1788384296836
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 25,
-      "victorias": 13,
-      "winrate": "52.0%",
-      "kda_promedio": 4.676056338028169
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 15,
-      "victorias": 10,
-      "winrate": "66.7%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 8.476190476190476
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 6,
+      "nombre": "LeeSin",
+      "partidas": 9,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 6.2631578947368425
+      "winrate": "55.6%",
+      "kda_promedio": 4.333333333333333
     },
     {
       "nombre": "Lux",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.838709677419355
+    },
+    {
+      "nombre": "Alistar",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
+      "victorias": 4,
+      "winrate": "80.0%",
       "kda_promedio": 2.5833333333333335
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.588235294117647
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2
     },
     {
       "nombre": "Ezreal",
       "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.125
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 4.214285714285714
+      "kda_promedio": 7.2
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.0833333333333335
     },
     {
       "nombre": "Lucian",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1333333333333333
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 8.166666666666666
     },
     {
-      "nombre": "Rell",
+      "nombre": "Ziggs",
       "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 9.6
+      "winrate": "66.7%",
+      "kda_promedio": 1.7894736842105263
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.588235294117647
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 111,
-    "wins": 55,
-    "losses": 56,
-    "timePlayed": 174557
+    "games": 85,
+    "wins": 49,
+    "losses": 36,
+    "timePlayed": 135178
   }
 }

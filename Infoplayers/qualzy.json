@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "qualzy",
+    "nombre_real": "Miķelis Dzelve",
+    "edad": 18,
+    "equipo": "Otter Side",
+    "pais": "Latvia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/qualzy_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "qualzy#001",
+      "nivel": 134,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1945,
+      "victorias": 621,
+      "derrotas": 521,
+      "ultima_partida": 1788361142449
+    },
+    {
+      "nombre": "detachment#999",
+      "nivel": 968,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 26,
+      "derrotas": 13,
+      "ultima_partida": 1784154162228
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 2.740740740740741
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 3.4468085106382977
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.590909090909091
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.32258064516129
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.8666666666666667
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.3
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 34,
+    "losses": 28,
+    "timePlayed": 95423
+  }
+}

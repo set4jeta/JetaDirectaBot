@@ -2,62 +2,105 @@
   "info_jugador": {
     "nombre": "Oscure",
     "nombre_real": "Víctor Guzmán Fernández",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Barça eSports",
     "pais": "Spain",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/Oscure_lol"
+      "twitter": "https://twitter.com/Oscure_lol",
+      "twitch": "https://www.twitch.tv/oscure_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/oscure.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Oscure#PLAY",
-      "nivel": 979,
+      "nivel": 1091,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 783,
-      "victorias": 274,
-      "derrotas": 238,
-      "ultima_partida": 1752495564626
+      "lp": 2046,
+      "victorias": 451,
+      "derrotas": 389,
+      "ultima_partida": 1788286722518
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.076923076923077
+      "nombre": "Nautilus",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.0535714285714284
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 1,
+      "nombre": "Bard",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.7777777777777777
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 5.2
+      "kda_promedio": 2.3157894736842106
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4705882352941178
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.75
     },
     {
       "nombre": "Rell",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 26
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.823529411764706
     },
     {
-      "nombre": "Thresh",
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Gragas",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.857142857142857
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 6,
-    "wins": 3,
-    "losses": 3,
-    "timePlayed": 10888
+    "games": 41,
+    "wins": 25,
+    "losses": 16,
+    "timePlayed": 69518
   }
 }

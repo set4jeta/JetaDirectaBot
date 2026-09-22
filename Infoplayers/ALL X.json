@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "ALL X",
+    "nombre_real": "Alex Myhre",
+    "edad": 23,
+    "equipo": "ZeroZone Gaming",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/allxlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "ALL X#asd",
+      "nivel": 173,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1832,
+      "victorias": 465,
+      "derrotas": 408,
+      "ultima_partida": 1788257507667
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viktor",
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 2.591304347826087
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.88
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.65625
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 33,
+    "losses": 32,
+    "timePlayed": 104345
+  }
+}

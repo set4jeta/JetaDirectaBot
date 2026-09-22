@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pallet",
+    "nombre_real": "Angelos Visvikis",
+    "edad": 23,
+    "equipo": "WLGaming Esports",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/JgPallet",
+      "twitch": "https://www.twitch.tv/palletlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "fight#CN01",
+      "nivel": 956,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1832,
+      "victorias": 621,
+      "derrotas": 562,
+      "ultima_partida": 1788347522736
+    },
+    {
+      "nombre": "BONG BONG U#EU1",
+      "nivel": 560,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1762647995243
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.590909090909091
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0384615384615383
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6551724137931036
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.15625
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4210526315789473
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.888888888888889
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 26,
+    "losses": 18,
+    "timePlayed": 68621
+  }
+}

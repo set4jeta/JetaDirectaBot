@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Spooder",
     "nombre_real": "Muhanad Maitham Sharad",
-    "edad": 22,
-    "equipo": "Team Phantasma",
+    "edad": 23,
+    "equipo": "TLN Pirates",
     "pais": "Sweden",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Spoodersussi1",
       "twitch": "https://twitch.tv/spoodersuss1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/spooder.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Spoodersussi#1352",
-      "nivel": 755,
+      "nivel": 950,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1073,
-      "victorias": 381,
-      "derrotas": 341,
-      "ultima_partida": 1753742440192
+      "liga": "GRANDMASTER I",
+      "lp": 2115,
+      "victorias": 426,
+      "derrotas": 337,
+      "ultima_partida": 1788355848241
     },
     {
-      "nombre": "twtvSpoodersuss1#EUWW",
-      "nivel": 591,
+      "nombre": "Spooder#euww",
+      "nivel": 643,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1325,
-      "victorias": 314,
-      "derrotas": 259,
-      "ultima_partida": 1753723205921
+      "liga": "DIAMOND II",
+      "lp": 99,
+      "victorias": 81,
+      "derrotas": 63,
+      "ultima_partida": 1788199056998
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6470588235294117
+      "nombre": "Olaf",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 1.9021739130434783
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.130434782608696
     },
     {
       "nombre": "Jax",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.375
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.16
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 1.6578947368421053
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.6
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.0416666666666665
-    },
-    {
-      "nombre": "Warwick",
       "partidas": 4,
-      "victorias": 2,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.46153846153846156
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
       "kda_promedio": 2.75
     },
     {
-      "nombre": "Chogath",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.125
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 95,
-    "wins": 47,
-    "losses": 48,
-    "timePlayed": 150907
+    "games": 48,
+    "wins": 22,
+    "losses": 26,
+    "timePlayed": 76288
   }
 }

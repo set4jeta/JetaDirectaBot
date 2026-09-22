@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Bisgaard",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Bisgaardjr",
+      "twitch": "https://www.twitch.tv/bisgaardjr"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Bisgaard#Mid",
+      "nivel": 555,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1669,
+      "victorias": 372,
+      "derrotas": 328,
+      "ultima_partida": 1789997944746
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 6.526315789473684
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2727272727272727
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 44,
+    "wins": 22,
+    "losses": 22,
+    "timePlayed": 65151
+  }
+}

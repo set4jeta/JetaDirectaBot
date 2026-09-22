@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Yen",
     "nombre_real": "Zara Rainey",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Illinois State University",
     "pais": "United States",
     "contrato_hasta": null,
@@ -10,107 +10,107 @@
       "twitter": "https://www.twitter.com/Yen_aka_Fadi",
       "twitch": "https://www.twitch.tv/yen_ch"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "KISS OF DEATH#YEN",
-      "nivel": 422,
+      "nombre": "EL DIABLO#YEN",
+      "nivel": 1006,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 711,
-      "victorias": 291,
-      "derrotas": 259,
-      "ultima_partida": 1753746076522
+      "liga": "GRANDMASTER I",
+      "lp": 1942,
+      "victorias": 681,
+      "derrotas": 619,
+      "ultima_partida": 1788352900248
     },
     {
-      "nombre": "Yen is my Wife#EUW",
-      "nivel": 826,
+      "nombre": "KISS OF DEATH#YEN",
+      "nivel": 479,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1115,
-      "victorias": 300,
-      "derrotas": 246,
-      "ultima_partida": 1753735423887
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 63,
+      "derrotas": 50,
+      "ultima_partida": 1776506212303
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Lucian",
-      "partidas": 25,
+      "nombre": "Tristana",
+      "partidas": 27,
       "victorias": 16,
-      "winrate": "64.0%",
-      "kda_promedio": 3.0258620689655173
+      "winrate": "59.3%",
+      "kda_promedio": 2.3703703703703702
     },
     {
-      "nombre": "Yunara",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Ezreal",
+      "nombre": "Jhin",
       "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.0975609756097562
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 2.25
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4285714285714284
     },
     {
       "nombre": "Jax",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.0555555555555556
+      "winrate": "50.0%",
+      "kda_promedio": 0.6764705882352942
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9411764705882353
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Zeri",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.111111111111111
+      "kda_promedio": 2.933333333333333
     },
     {
-      "nombre": "Corki",
+      "nombre": "Draven",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.166666666666667
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.55
     },
     {
-      "nombre": "Ryze",
+      "nombre": "Ezreal",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.9230769230769231
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2
     },
     {
-      "nombre": "Varus",
+      "nombre": "Nasus",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4285714285714284
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3684210526315789
     },
     {
-      "nombre": "Vayne",
+      "nombre": "Renekton",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1538461538461537
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7692307692307693
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
-    "wins": 35,
-    "losses": 37,
-    "timePlayed": 120421
+    "games": 67,
+    "wins": 32,
+    "losses": 35,
+    "timePlayed": 104398
   }
 }

@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Chakroun",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Chakroun#N169",
+      "nivel": 316,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1769,
+      "victorias": 530,
+      "derrotas": 442,
+      "ultima_partida": 1788333775824
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 58,
+      "victorias": 39,
+      "winrate": "67.2%",
+      "kda_promedio": 3.801556420233463
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 46,
+      "victorias": 20,
+      "winrate": "43.5%",
+      "kda_promedio": 1.9794520547945205
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 1.5625
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.9347826086956523
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.074074074074074
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.0357142857142856
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.107142857142857
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6153846153846154
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 194,
+    "wins": 111,
+    "losses": 83,
+    "timePlayed": 307116
+  }
+}

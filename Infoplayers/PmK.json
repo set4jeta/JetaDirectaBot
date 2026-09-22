@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "PmK",
     "nombre_real": "Maciej Gołębiowski",
-    "edad": 22,
+    "edad": 23,
     "equipo": "DOCISK",
     "pais": "Poland",
     "contrato_hasta": null,
@@ -10,107 +10,107 @@
       "twitter": "https://twitter.com/M4Ci3",
       "twitch": "https://www.twitch.tv/pmk_top"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/DOC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "PmK#Smile",
-      "nivel": 964,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 434,
-      "victorias": 328,
-      "derrotas": 320,
-      "ultima_partida": 1753757040068
-    },
-    {
-      "nombre": "JACKPOT#GAMBA",
-      "nivel": 89,
+      "nombre": "JACKPOT#RED",
+      "nivel": 221,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 910,
-      "victorias": 155,
-      "derrotas": 112,
-      "ultima_partida": 1753592105120
+      "lp": 1830,
+      "victorias": 515,
+      "derrotas": 458,
+      "ultima_partida": 1788396546131
+    },
+    {
+      "nombre": "PmK#Smile",
+      "nivel": 1003,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 138,
+      "derrotas": 105,
+      "ultima_partida": 1781922979004
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.3055555555555554
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 3.116279069767442
+      "nombre": "Shyvana",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.9733333333333334
     },
     {
       "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 1.6612903225806452
+    },
+    {
+      "nombre": "Ambessa",
       "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 1.653061224489796
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 7,
       "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.361111111111111
+      "winrate": "71.4%",
+      "kda_promedio": 2.5789473684210527
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 6.190476190476191
     },
     {
       "nombre": "Jayce",
-      "partidas": 4,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.16
+      "winrate": "33.3%",
+      "kda_promedio": 1.0196078431372548
     },
     {
       "nombre": "Kled",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.24
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9047619047619047
     },
     {
-      "nombre": "Aatrox",
+      "nombre": "Ahri",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.35
+      "kda_promedio": 3.4210526315789473
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Ezreal",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.727272727272727
+      "kda_promedio": 2.6
     },
     {
-      "nombre": "Talon",
+      "nombre": "Locke",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2222222222222223
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.1
+      "kda_promedio": 0.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
-    "wins": 36,
-    "losses": 29,
-    "timePlayed": 106009
+    "games": 85,
+    "wins": 41,
+    "losses": 44,
+    "timePlayed": 136004
   }
 }

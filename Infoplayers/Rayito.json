@@ -10,69 +10,97 @@
       "twitter": "https://twitter.com/RayitoLoL",
       "twitch": "https://twitch.tv/rayitolol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VVV.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Rayito#EUW",
-      "nivel": 896,
+      "nivel": 992,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 975,
-      "victorias": 310,
-      "derrotas": 265,
-      "ultima_partida": 1753636472870
+      "lp": 2207,
+      "victorias": 362,
+      "derrotas": 313,
+      "ultima_partida": 1788362832156
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Senna",
-      "partidas": 5,
+      "nombre": "Corki",
+      "partidas": 10,
       "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.676470588235294
+      "winrate": "40.0%",
+      "kda_promedio": 2.1875
     },
     {
       "nombre": "Sivir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.269230769230769
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.526315789473684
     },
     {
-      "nombre": "Jinx",
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 4.7272727272727275
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7857142857142858
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Ezreal",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2
+      "kda_promedio": 10.5
     },
     {
-      "nombre": "Smolder",
+      "nombre": "Sion",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.5333333333333334
+      "kda_promedio": 4.75
     },
     {
-      "nombre": "Corki",
+      "nombre": "Veigar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Gnar",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 0.75
     },
     {
-      "nombre": "Mel",
+      "nombre": "Kaisa",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.8
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 10,
-    "losses": 5,
-    "timePlayed": 24973
+    "games": 41,
+    "wins": 26,
+    "losses": 15,
+    "timePlayed": 58654
   }
 }

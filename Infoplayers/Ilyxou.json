@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Ilyxou",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/ILYXITOOO",
+      "twitch": "https://www.twitch.tv/ilyxou"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "ILIANE BESSA#222",
+      "nivel": 1615,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1871,
+      "victorias": 473,
+      "derrotas": 432,
+      "ultima_partida": 1788280881956
+    },
+    {
+      "nombre": "RED JOHN#MTLST",
+      "nivel": 74,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 830,
+      "victorias": 113,
+      "derrotas": 66,
+      "ultima_partida": 1787500816062
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 1.955223880597015
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.3157894736842106
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 1.7894736842105263
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.230769230769231
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 23,
+    "losses": 16,
+    "timePlayed": 62027
+  }
+}

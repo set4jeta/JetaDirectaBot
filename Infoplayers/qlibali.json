@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "qlibali",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/qlibali"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "INT qLibali#EUW",
+      "nivel": 1199,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2143,
+      "victorias": 217,
+      "derrotas": 143,
+      "ultima_partida": 1788307361889
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.5217391304347827
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.314285714285714
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.0526315789473686
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.363636363636363
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 43,
+    "wins": 25,
+    "losses": 18,
+    "timePlayed": 68659
+  }
+}

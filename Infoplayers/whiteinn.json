@@ -2,104 +2,104 @@
   "info_jugador": {
     "nombre": "whiteinn",
     "nombre_real": "Alexandru Kolozsvari",
-    "edad": 24,
-    "equipo": "Barça eSports",
+    "edad": 25,
+    "equipo": "Ici Japon Corp. Esport",
     "pais": "Romania",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Whitein15"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/whiteinn.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BAR.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "whiteinnn#EUW",
-      "nivel": 999,
+      "nivel": 1212,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 749,
-      "victorias": 264,
-      "derrotas": 241,
-      "ultima_partida": 1753701087070
+      "lp": 1752,
+      "victorias": 481,
+      "derrotas": 411,
+      "ultima_partida": 1788273578821
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Rell",
+      "nombre": "Senna",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.0833333333333335
+      "kda_promedio": 2
     },
     {
-      "nombre": "Braum",
+      "nombre": "Alistar",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 11
+      "kda_promedio": 9.666666666666666
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Pyke",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.4
     },
     {
-      "nombre": "Gragas",
+      "nombre": "Rell",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.4444444444444444
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
     },
     {
-      "nombre": "Jhin",
+      "nombre": "Sett",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 1.2857142857142858
     },
     {
-      "nombre": "Malphite",
+      "nombre": "Sylas",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 0.75
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Thresh",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4285714285714286
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
     },
     {
-      "nombre": "Rakan",
+      "nombre": "Varus",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 8,
-    "losses": 9,
-    "timePlayed": 25771
+    "games": 12,
+    "wins": 6,
+    "losses": 6,
+    "timePlayed": 18000
   }
 }

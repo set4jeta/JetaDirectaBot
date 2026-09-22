@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Simpli",
     "nombre_real": "Anselmi Rintanen",
-    "edad": 24,
-    "equipo": "Unicorns of Love Sexy Edition",
+    "edad": 25,
+    "equipo": "Arctic Pandas",
     "pais": "Finland",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/SimpliLoL",
       "twitch": "https://www.twitch.tv/simplilol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Simpli#Jasmi",
-      "nivel": 1147,
+      "nombre": "Simpli#000",
+      "nivel": 1301,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 779,
-      "victorias": 284,
-      "derrotas": 250,
-      "ultima_partida": 1753742685654
+      "liga": "CHALLENGER I",
+      "lp": 3166,
+      "victorias": 398,
+      "derrotas": 318,
+      "ultima_partida": 1788368692997
     },
     {
       "nombre": "Rintanen#EUW",
-      "nivel": 132,
+      "nivel": 141,
       "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 75,
-      "victorias": 10,
-      "derrotas": 3,
-      "ultima_partida": 1744564498174
+      "liga": "DIAMOND I",
+      "lp": 70,
+      "victorias": 64,
+      "derrotas": 35,
+      "ultima_partida": 1786023996061
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Orianna",
-      "partidas": 20,
-      "victorias": 13,
-      "winrate": "65.0%",
-      "kda_promedio": 3.8815789473684212
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 17,
-      "victorias": 13,
-      "winrate": "76.5%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 2.2903225806451615
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.175438596491228
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.1132075471698113
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 1.8412698412698412
-    },
-    {
-      "nombre": "Sett",
       "partidas": 7,
       "victorias": 2,
       "winrate": "28.6%",
-      "kda_promedio": 1.3777777777777778
+      "kda_promedio": 1.7906976744186047
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 3,
+      "nombre": "Yone",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.52
+      "winrate": "25.0%",
+      "kda_promedio": 2.1025641025641026
     },
     {
-      "nombre": "Vladimir",
-      "partidas": 3,
+      "nombre": "Nasus",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.0476190476190474
+      "winrate": "50.0%",
+      "kda_promedio": 1.9583333333333333
     },
     {
-      "nombre": "Yunara",
-      "partidas": 3,
+      "nombre": "Locke",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2
+      "winrate": "50.0%",
+      "kda_promedio": 1.4375
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.1111111111111112
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 118,
-    "wins": 66,
-    "losses": 52,
-    "timePlayed": 193025
+    "games": 34,
+    "wins": 19,
+    "losses": 15,
+    "timePlayed": 56137
   }
 }

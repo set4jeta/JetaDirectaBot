@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Air",
     "nombre_real": "Shenghao He",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Venomcrest Esports",
     "pais": "China",
     "contrato_hasta": null,
@@ -10,79 +10,107 @@
       "twitter": "https://www.twitter.com/lolair0607",
       "twitch": "https://www.twitch.tv/lol_air"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/air.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VNC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "夜晚的大雨fan#00914",
-      "nivel": 624,
+      "nombre": "死鬼蔡徐坤#KUN",
+      "nivel": 709,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 925,
-      "victorias": 206,
-      "derrotas": 164,
-      "ultima_partida": 1753306544244
+      "liga": "MASTER I",
+      "lp": 163,
+      "victorias": 357,
+      "derrotas": 324,
+      "ultima_partida": 1788048842482
     },
     {
-      "nombre": "厚米pw Air#60952",
-      "nivel": 298,
+      "nombre": "冰鬼蔡徐坤#KUN",
+      "nivel": 315,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 186,
-      "derrotas": 162,
-      "ultima_partida": 1745897698002
+      "victorias": 98,
+      "derrotas": 45,
+      "ultima_partida": 1779670260027
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ahri",
+      "nombre": "Locke",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.0172413793103448
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.8421052631578947
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Aurora",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Jayce",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.25
+      "kda_promedio": 1.875
     },
     {
       "nombre": "Ryze",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "kda_promedio": 2.2857142857142856
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 25
+    },
+    {
+      "nombre": "Tristana",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.7777777777777778
+      "kda_promedio": 2.5
     },
     {
-      "nombre": "TwistedFate",
+      "nombre": "Yone",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1666666666666667
+      "kda_promedio": 0.7142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 6,
-    "wins": 1,
-    "losses": 5,
-    "timePlayed": 8003
+    "games": 29,
+    "wins": 18,
+    "losses": 11,
+    "timePlayed": 46334
   }
 }

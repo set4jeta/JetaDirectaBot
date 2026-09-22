@@ -2,125 +2,115 @@
   "info_jugador": {
     "nombre": "Rin",
     "nombre_real": "Khalil Sahraoui",
-    "edad": 22,
-    "equipo": "Los Heretics",
+    "edad": 23,
+    "equipo": "G2 NORD",
     "pais": "Algeria",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/adcRin",
       "twitch": "https://twitch.tv/rin_ad"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/rin.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/HRTS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "HRTS rin#euw10",
-      "nivel": 691,
+      "nombre": "frank castle#g2n",
+      "nivel": 739,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1180,
-      "victorias": 383,
-      "derrotas": 325,
-      "ultima_partida": 1753729946496
+      "liga": "MASTER I",
+      "lp": 494,
+      "victorias": 150,
+      "derrotas": 99,
+      "ultima_partida": 1788371344315
     },
     {
-      "nombre": "7546723453#EUW",
-      "nivel": 244,
+      "nombre": "한국인이 아니다#EUW0",
+      "nivel": 145,
       "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 75,
-      "victorias": 11,
-      "derrotas": 6,
-      "ultima_partida": 1741691517085
-    },
-    {
-      "nombre": "Happy#KR333",
-      "nivel": 113,
-      "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 75,
-      "victorias": 14,
-      "derrotas": 11,
-      "ultima_partida": 1736868717012
+      "liga": "GRANDMASTER I",
+      "lp": 2093,
+      "victorias": 433,
+      "derrotas": 330,
+      "ultima_partida": 1788259551567
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Ezreal",
+      "partidas": 16,
+      "victorias": 6,
+      "winrate": "37.5%",
+      "kda_promedio": 1.6320754716981132
+    },
+    {
       "nombre": "Yunara",
-      "partidas": 15,
-      "victorias": 9,
-      "winrate": "60.0%",
-      "kda_promedio": 2.3733333333333335
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 9,
-      "victorias": 2,
-      "winrate": "22.2%",
-      "kda_promedio": 1.9523809523809523
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.523809523809524
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.619047619047619
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9113924050632911
     },
     {
       "nombre": "Tristana",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9090909090909092
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 1,
+      "nombre": "Corki",
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.4
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "winrate": "20.0%",
+      "kda_promedio": 1
     },
     {
       "nombre": "Kaisa",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.125
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.68
     },
     {
-      "nombre": "MissFortune",
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.142857142857143
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Jhin",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.6666666666666665
+      "kda_promedio": 2.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 24,
-    "losses": 21,
-    "timePlayed": 72855
+    "games": 54,
+    "wins": 31,
+    "losses": 23,
+    "timePlayed": 78896
   }
 }

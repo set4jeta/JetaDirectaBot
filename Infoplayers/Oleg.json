@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Oleg",
     "nombre_real": "Oleg Karkachev",
-    "edad": 21,
-    "equipo": "Veni Vidi Vici (Spanish Team)",
+    "edad": 22,
+    "equipo": "Karmine Corp Blue Stars",
     "pais": "Russia",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Oleg_Insec",
       "twitch": "https://twitch.tv/oleg_insec"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VVV.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "OLEG INSEC#OLEG",
-      "nivel": 472,
+      "nivel": 615,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1222,
-      "victorias": 293,
-      "derrotas": 236,
-      "ultima_partida": 1753735667467
+      "lp": 2540,
+      "victorias": 485,
+      "derrotas": 382,
+      "ultima_partida": 1788385504757
     },
     {
-      "nombre": "OLEG FULLCLEAR#CLEAR",
-      "nivel": 209,
+      "nombre": "OLG OLEG INSEC#OLEG",
+      "nivel": 262,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 683,
-      "victorias": 134,
-      "derrotas": 112,
-      "ultima_partida": 1753701420355
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 176,
+      "derrotas": 117,
+      "ultima_partida": 1787691160658
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Vi",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 3.588235294117647
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.4827586206896552
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 4,
-      "victorias": 2,
+      "nombre": "LeeSin",
+      "partidas": 24,
+      "victorias": 12,
       "winrate": "50.0%",
-      "kda_promedio": 2.6315789473684212
+      "kda_promedio": 3.54
     },
     {
-      "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.8
+      "nombre": "Qiyana",
+      "partidas": 20,
+      "victorias": 13,
+      "winrate": "65.0%",
+      "kda_promedio": 3.730769230769231
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "nombre": "Zyra",
+      "partidas": 18,
+      "victorias": 10,
+      "winrate": "55.6%",
+      "kda_promedio": 3.3068181818181817
     },
     {
-      "nombre": "Viego",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.1875
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.176470588235294
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "nombre": "Shyvana",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.1875
     },
     {
       "nombre": "Ambessa",
-      "partidas": 1,
+      "partidas": 6,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9.5
+      "winrate": "16.7%",
+      "kda_promedio": 1.5135135135135136
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 6,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.675675675675676
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.3404255319148937
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.6451612903225807
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.260869565217391
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 31,
-    "losses": 24,
-    "timePlayed": 87501
+    "games": 124,
+    "wins": 62,
+    "losses": 62,
+    "timePlayed": 197271
   }
 }

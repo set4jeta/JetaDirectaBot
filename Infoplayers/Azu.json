@@ -1,0 +1,96 @@
+{
+  "info_jugador": {
+    "nombre": "Azu",
+    "nombre_real": "Robert Jarcu",
+    "edad": 22,
+    "equipo": "ALMO Players",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "sad and bad#00000",
+      "nivel": 544,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2145,
+      "victorias": 437,
+      "derrotas": 362,
+      "ultima_partida": 1789410252395
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kalista",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.210526315789474
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.357142857142857
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Tryndamere",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 13,
+    "losses": 6,
+    "timePlayed": 29908
+  }
+}

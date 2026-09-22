@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Daglas",
+    "nombre_real": "Kacper Dagiel",
+    "edad": 20,
+    "equipo": "Team Heretics",
+    "pais": "Poland",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Daglas_lol",
+      "twitch": "https://twitch.tv/daglas_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "zabujcastworuwpl#pve",
+      "nivel": 458,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1981,
+      "victorias": 207,
+      "derrotas": 116,
+      "ultima_partida": 1788357072249
+    },
+    {
+      "nombre": "mihile toplaner#shiba",
+      "nivel": 419,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2096,
+      "victorias": 208,
+      "derrotas": 120,
+      "ultima_partida": 1788355183986
+    },
+    {
+      "nombre": "PL Canyon#HRTS",
+      "nivel": 128,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1740956210203
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 8.833333333333334
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4666666666666666
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 12.5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 22
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 25,
+    "wins": 16,
+    "losses": 9,
+    "timePlayed": 36806
+  }
+}

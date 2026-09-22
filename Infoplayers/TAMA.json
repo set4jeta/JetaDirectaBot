@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "TAMA",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "chains#free",
+      "nivel": 469,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2341,
+      "victorias": 429,
+      "derrotas": 337,
+      "ultima_partida": 1788078892880
+    },
+    {
+      "nombre": "chainsBreaker#free",
+      "nivel": 39,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1772300154509
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 31,
+      "victorias": 17,
+      "winrate": "54.8%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.168067226890756
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.0769230769230769
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 31,
+    "losses": 26,
+    "timePlayed": 85311
+  }
+}

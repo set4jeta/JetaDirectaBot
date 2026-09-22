@@ -2,125 +2,155 @@
   "info_jugador": {
     "nombre": "Caliste",
     "nombre_real": "Caliste Henry-Hennebert",
-    "edad": 18,
+    "edad": 19,
     "equipo": "Karmine Corp",
     "pais": "France",
-    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "contrato_hasta": "2028-11-20T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/CalisteLoL",
       "twitch": "https://twitch.tv/Caliste_LoL"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/caliste.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "KC NEXT ADKING#EUW",
-      "nivel": 669,
+      "nivel": 810,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1851,
-      "victorias": 303,
-      "derrotas": 210,
-      "ultima_partida": 1753733055314
+      "lp": 3241,
+      "victorias": 509,
+      "derrotas": 317,
+      "ultima_partida": 1789823991050
+    },
+    {
+      "nombre": "KC CALISTE#KCMSI",
+      "nivel": 38,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 73,
+      "derrotas": 24,
+      "ultima_partida": 1782798516671
+    },
+    {
+      "nombre": "KC CALISTE#MSI",
+      "nivel": 31,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 17,
+      "derrotas": 1,
+      "ultima_partida": 1781792055469
+    },
+    {
+      "nombre": "MQLWKENRK#2808",
+      "nivel": 42,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 111,
+      "derrotas": 24,
+      "ultima_partida": 1777382185351
     },
     {
       "nombre": "I NEED SOLOQ#EUW",
-      "nivel": 228,
+      "nivel": 242,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 823,
-      "victorias": 139,
-      "derrotas": 77,
-      "ultima_partida": 1753641224052
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1767874798082
     },
     {
       "nombre": "KC Caliste#0001",
       "nivel": 33,
       "region": "KR",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 24,
-      "derrotas": 5,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1741835462365
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 15,
-      "victorias": 11,
-      "winrate": "73.3%",
-      "kda_promedio": 4.1
-    },
-    {
-      "nombre": "Aphelios",
+      "nombre": "Ezreal",
       "partidas": 7,
       "victorias": 5,
       "winrate": "71.4%",
-      "kda_promedio": 2.764705882352941
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.3636363636363638
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5238095238095237
+      "kda_promedio": 5.75
     },
     {
       "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 4.181818181818182
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.45
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Sivir",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.740740740740741
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4782608695652173
+    },
+    {
+      "nombre": "Tristana",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.25
+      "kda_promedio": 4.833333333333333
     },
     {
-      "nombre": "KSante",
+      "nombre": "XinZhao",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5714285714285716
     },
     {
-      "nombre": "Nilah",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.7777777777777777
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
     },
     {
-      "nombre": "Senna",
-      "partidas": 2,
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.571428571428571
+      "winrate": "100.0%",
+      "kda_promedio": 6.333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 56,
-    "wins": 35,
-    "losses": 21,
-    "timePlayed": 88868
+    "games": 40,
+    "wins": 26,
+    "losses": 14,
+    "timePlayed": 65364
   }
 }

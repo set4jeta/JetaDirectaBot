@@ -10,97 +10,107 @@
       "twitter": "https://twitter.com/Kuroneel_",
       "twitch": "https://twitch.tv/kuroneel_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/kuroneel.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Plagiarism#ZTMY",
-      "nivel": 1329,
+      "nombre": "ZTMY#ASI9",
+      "nivel": 133,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 771,
-      "victorias": 471,
-      "derrotas": 431,
-      "ultima_partida": 1753438506559
+      "liga": "MASTER I",
+      "lp": 495,
+      "victorias": 260,
+      "derrotas": 188,
+      "ultima_partida": 1788357043515
+    },
+    {
+      "nombre": "UREK MAZINO#ZTMY",
+      "nivel": 1621,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2909,
+      "victorias": 505,
+      "derrotas": 395,
+      "ultima_partida": 1788341619238
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.7291666666666665
+      "nombre": "Ambessa",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.046153846153846
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Syndra",
       "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.6779661016949152
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.7777777777777777
     },
     {
       "nombre": "Akali",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.4615384615384617
-    },
-    {
-      "nombre": "Nidalee",
       "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.444444444444445
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 5.157894736842105
     },
     {
       "nombre": "Qiyana",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.2333333333333334
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.085714285714286
     },
     {
       "nombre": "Sylas",
       "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.545454545454546
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.5116279069767442
+      "winrate": "25.0%",
+      "kda_promedio": 2
     },
     {
-      "nombre": "Ambessa",
+      "nombre": "Taliyah",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.1052631578947367
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2
     },
     {
-      "nombre": "Viego",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "LeeSin",
+      "nombre": "Locke",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4705882352941178
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0526315789473686
     },
     {
-      "nombre": "Sion",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5862068965517241
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 73,
-    "wins": 32,
-    "losses": 41,
-    "timePlayed": 126541
+    "games": 62,
+    "wins": 36,
+    "losses": 26,
+    "timePlayed": 94058
   }
 }

@@ -1,105 +1,136 @@
 {
   "info_jugador": {
     "nombre": "Kamiloo",
-    "nombre_real": "Kamil Haudegond",
-    "edad": 20,
-    "equipo": "Team Heretics",
+    "nombre_real": "Kamil&nbsp;Bruno&nbsp;Mehdi&nbsp;Wahid Haudegond",
+    "edad": 21,
+    "equipo": "Karmine Corp Blue",
     "pais": "France",
-    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/Kamiloo_LoL"
+      "twitter": "https://twitter.com/Kamiloo_LoL",
+      "twitch": "https://twitch.tv/kamiloo_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/kamiloo.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Club Loukizz#ama",
-      "nivel": 876,
+      "nombre": "KC Kamiloo#FIRE",
+      "nivel": 987,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 917,
-      "victorias": 405,
-      "derrotas": 350,
-      "ultima_partida": 1753575795259
+      "liga": "CHALLENGER I",
+      "lp": 2318,
+      "victorias": 454,
+      "derrotas": 361,
+      "ultima_partida": 1788268946281
+    },
+    {
+      "nombre": "TODOROKI RAICHI#rank1",
+      "nivel": 49,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1764562574905
+    },
+    {
+      "nombre": "ÜN ÜN ÜN#NIKA",
+      "nivel": 45,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1763645760579
+    },
+    {
+      "nombre": "Labubu IRL#macha",
+      "nivel": 55,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1761340542914
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.341463414634146
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.5365853658536586
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Camille",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.75
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.3111111111111111
     },
     {
-      "nombre": "Annie",
-      "partidas": 2,
+      "nombre": "Cassiopeia",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3
+      "winrate": "50.0%",
+      "kda_promedio": 0.8095238095238095
     },
     {
-      "nombre": "Jayce",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6923076923076925
+      "nombre": "Locke",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0454545454545454
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.5666666666666667
     },
     {
       "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
+      "partidas": 4,
+      "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 5.5
+      "kda_promedio": 2
     },
     {
-      "nombre": "Sylas",
-      "partidas": 2,
+      "nombre": "Anivia",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8823529411764706
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5294117647058822
     },
     {
       "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 0.5454545454545454
     },
     {
-      "nombre": "Ekko",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
-    },
-    {
-      "nombre": "Fiora",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5555555555555556
-    },
-    {
-      "nombre": "Fizz",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
-    "wins": 17,
-    "losses": 12,
-    "timePlayed": 47193
+    "games": 62,
+    "wins": 31,
+    "losses": 31,
+    "timePlayed": 104066
   }
 }

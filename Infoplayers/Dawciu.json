@@ -1,0 +1,119 @@
+{
+  "info_jugador": {
+    "nombre": "Dawciu",
+    "nombre_real": "Dawid Drzyzga",
+    "edad": 18,
+    "equipo": "Vitality.Bee",
+    "pais": "Poland",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/dawciuai",
+      "twitch": "https://www.twitch.tv/dawciu"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Dawciu#VITB",
+      "nivel": 206,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2156,
+      "victorias": 628,
+      "derrotas": 546,
+      "ultima_partida": 1788382351142
+    },
+    {
+      "nombre": "Seijuro Akashi#DWG",
+      "nivel": 142,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 54,
+      "derrotas": 28,
+      "ultima_partida": 1773949781020
+    },
+    {
+      "nombre": "DWG Copycat#ZONE",
+      "nivel": 242,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1763839026931
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.0434782608695654
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 7.142857142857143
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.625
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.166666666666667
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 23,
+    "wins": 13,
+    "losses": 10,
+    "timePlayed": 37101
+  }
+}

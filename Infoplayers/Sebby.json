@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Sebby",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/sebbylul"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "KUROMI#3JULY",
+      "nivel": 789,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1672,
+      "victorias": 602,
+      "derrotas": 538,
+      "ultima_partida": 1788385217349
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 46,
+      "victorias": 23,
+      "winrate": "50.0%",
+      "kda_promedio": 2.267605633802817
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2051282051282053
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.725806451612903
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.8275862068965516
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.073170731707317
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.0384615384615383
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2352941176470589
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 140,
+    "wins": 69,
+    "losses": 71,
+    "timePlayed": 228620
+  }
+}

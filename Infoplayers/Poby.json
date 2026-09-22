@@ -2,112 +2,132 @@
   "info_jugador": {
     "nombre": "Poby",
     "nombre_real": "Yoon Sung-won",
-    "edad": 19,
-    "equipo": "Fnatic",
+    "edad": 20,
+    "equipo": "Natus Vincere",
     "pais": "South Korea",
-    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {},
-    "imagen_jugador": "https://dpm.lol/esport/players/poby.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "XPoby#0207",
-      "nivel": 37,
+      "nombre": "bdd#0509",
+      "nivel": 65,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 507,
-      "victorias": 55,
-      "derrotas": 13,
-      "ultima_partida": 1753737100860
+      "lp": 1020,
+      "victorias": 239,
+      "derrotas": 131,
+      "ultima_partida": 1788380648886
+    },
+    {
+      "nombre": "Butterfly poby#0207",
+      "nivel": 63,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 57,
+      "victorias": 207,
+      "derrotas": 147,
+      "ultima_partida": 1788353962872
     },
     {
       "nombre": "피오비와이#0207",
-      "nivel": 322,
+      "nivel": 328,
       "region": "KR",
-      "liga": "DIAMOND I",
+      "liga": "GOLD II",
+      "lp": 85,
+      "victorias": 8,
+      "derrotas": 1,
+      "ultima_partida": 1783076600880
+    },
+    {
+      "nombre": "XPoby#0207",
+      "nivel": 65,
+      "region": "EUW1",
+      "liga": "EMERALD I",
       "lp": 75,
-      "victorias": 271,
-      "derrotas": 241,
-      "ultima_partida": 1751729461947
+      "victorias": 17,
+      "derrotas": 13,
+      "ultima_partida": 1768682465739
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Annie",
-      "partidas": 10,
-      "victorias": 9,
-      "winrate": "90.0%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2
-    },
-    {
-      "nombre": "Viktor",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 7.214285714285714
-    },
-    {
       "nombre": "Orianna",
-      "partidas": 6,
+      "partidas": 10,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 8.444444444444445
+      "winrate": "50.0%",
+      "kda_promedio": 3.3513513513513513
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.6341463414634145
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.55
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.761904761904762
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 0.8823529411764706
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Ryze",
       "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.8620689655172415
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 2.3125
+      "kda_promedio": 3.6842105263157894
     },
     {
-      "nombre": "Yone",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.411764705882353
-    },
-    {
-      "nombre": "Akali",
+      "nombre": "Azir",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.8
+      "kda_promedio": 2.625
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Viktor",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.666666666666666
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.375
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5714285714285714
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 42,
-    "losses": 13,
-    "timePlayed": 86015
+    "games": 60,
+    "wins": 27,
+    "losses": 33,
+    "timePlayed": 94016
   }
 }

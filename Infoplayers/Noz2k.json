@@ -1,0 +1,112 @@
+{
+  "info_jugador": {
+    "nombre": "Noz2k",
+    "nombre_real": "Noah Richter",
+    "edad": 22,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/noz2k_lol",
+      "twitch": "https://twitch.tv/noz2k"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "noz2k#1807",
+      "nivel": 224,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2165,
+      "victorias": 377,
+      "derrotas": 275,
+      "ultima_partida": 1787952457234
+    },
+    {
+      "nombre": "ayka#fan",
+      "nivel": 820,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 27,
+      "derrotas": 17,
+      "ultima_partida": 1775601255808
+    },
+    {
+      "nombre": "C N#1970",
+      "nivel": 149,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 87,
+      "victorias": 4,
+      "derrotas": 2,
+      "ultima_partida": 1774562522406
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 7,
+    "losses": 2,
+    "timePlayed": 15140
+  }
+}

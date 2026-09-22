@@ -1,0 +1,91 @@
+{
+  "info_jugador": {
+    "nombre": "Robenong",
+    "nombre_real": "Róbert Malecz",
+    "edad": 19,
+    "equipo": "One More Esports",
+    "pais": "Hungary",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Robenong"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "dead inside#robe",
+      "nivel": 438,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2205,
+      "victorias": 340,
+      "derrotas": 287,
+      "ultima_partida": 1788375929597
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3571428571428572
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.214285714285714
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 18111
+  }
+}

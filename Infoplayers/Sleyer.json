@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Sleyer",
+    "nombre_real": "Eric Xie",
+    "edad": 19,
+    "equipo": "ZYB Esport",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/SLEYERCOOL",
+      "twitch": "https://www.twitch.tv/sleyercool"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Argonaut#fire",
+      "nivel": 1000,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1346,
+      "victorias": 600,
+      "derrotas": 529,
+      "ultima_partida": 1766261303248
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.2608695652173914
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.263157894736842
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5882352941176471
+    },
+    {
+      "nombre": "Riven",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 31,
+    "wins": 16,
+    "losses": 15,
+    "timePlayed": 47441
+  }
+}

@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Dajor",
     "nombre_real": "Oliver Ryppa",
-    "edad": 22,
-    "equipo": "Berlin International Gaming",
+    "edad": 23,
+    "equipo": "Ici Japon Corp. Esport",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/dajorlol",
       "twitch": "https://twitch.tv/dajor25"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/dajor.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BIG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "fubgun#exile",
-      "nivel": 973,
+      "nivel": 1147,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 802,
-      "victorias": 247,
-      "derrotas": 224,
-      "ultima_partida": 1753747652901
+      "liga": "CHALLENGER I",
+      "lp": 2835,
+      "victorias": 522,
+      "derrotas": 459,
+      "ultima_partida": 1788059888121
     },
     {
       "nombre": "Jeonkook#EUW",
-      "nivel": 196,
+      "nivel": 202,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 277,
-      "derrotas": 252,
-      "ultima_partida": 1743456352244
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1762614252645
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Tristana",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.1578947368421053
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 11,
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 1.8
+      "winrate": "60.0%",
+      "kda_promedio": 2.1846153846153844
     },
     {
-      "nombre": "TwistedFate",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.980769230769231
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 1.853658536585366
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 9,
+      "nombre": "Cassiopeia",
+      "partidas": 6,
       "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8
+      "winrate": "50.0%",
+      "kda_promedio": 1.7837837837837838
     },
     {
-      "nombre": "Ryze",
-      "partidas": 7,
+      "nombre": "Sivir",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 3.28125
+      "winrate": "66.7%",
+      "kda_promedio": 2.142857142857143
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.878787878787879
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.2222222222222223
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
     },
     {
       "nombre": "Ahri",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 4
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 125,
-    "wins": 66,
-    "losses": 59,
-    "timePlayed": 195550
+    "games": 34,
+    "wins": 18,
+    "losses": 16,
+    "timePlayed": 52275
   }
 }

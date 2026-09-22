@@ -2,114 +2,114 @@
   "info_jugador": {
     "nombre": "Vasco",
     "nombre_real": "Paweł Machnik",
-    "edad": 20,
-    "equipo": "Zero Tenacity",
+    "edad": 21,
+    "equipo": "Nightbirds",
     "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/LVasco01"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/Z10.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "ocsaV#EUW",
-      "nivel": 640,
+      "nombre": "L Vasco O #EUW",
+      "nivel": 1027,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1060,
-      "victorias": 310,
-      "derrotas": 268,
-      "ultima_partida": 1753737463073
+      "lp": 2875,
+      "victorias": 570,
+      "derrotas": 460,
+      "ultima_partida": 1788380390222
     },
     {
-      "nombre": "L Vasco O #EUW",
-      "nivel": 846,
+      "nombre": "ocsaV#EUW",
+      "nivel": 691,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1241,
-      "victorias": 491,
-      "derrotas": 440,
-      "ultima_partida": 1753697169524
+      "liga": "GRANDMASTER I",
+      "lp": 1858,
+      "victorias": 98,
+      "derrotas": 46,
+      "ultima_partida": 1788345265252
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "TwistedFate",
-      "partidas": 19,
-      "victorias": 9,
-      "winrate": "47.4%",
-      "kda_promedio": 3.3582089552238807
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 17,
-      "victorias": 4,
-      "winrate": "23.5%",
-      "kda_promedio": 2.028169014084507
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 10,
-      "victorias": 2,
-      "winrate": "20.0%",
-      "kda_promedio": 1.85
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.342857142857143
+      "nombre": "Syndra",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 3.3617021276595747
     },
     {
       "nombre": "Orianna",
-      "partidas": 8,
+      "partidas": 15,
       "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 4.565217391304348
+      "winrate": "46.7%",
+      "kda_promedio": 2.8448275862068964
     },
     {
-      "nombre": "Azir",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.6363636363636362
+      "nombre": "Ezreal",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.8205128205128207
     },
     {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.35
-    },
-    {
-      "nombre": "Hwei",
+      "nombre": "Akali",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 1.9259259259259258
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2777777777777777
     },
     {
       "nombre": "Viktor",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 10.166666666666666
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.333333333333333
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Renekton",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 5
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 85,
-    "wins": 37,
-    "losses": 48,
-    "timePlayed": 136897
+    "games": 81,
+    "wins": 41,
+    "losses": 40,
+    "timePlayed": 126427
   }
 }

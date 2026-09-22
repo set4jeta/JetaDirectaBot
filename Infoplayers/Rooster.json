@@ -2,112 +2,114 @@
   "info_jugador": {
     "nombre": "Rooster",
     "nombre_real": "Shin Yun-hwan",
-    "edad": 20,
-    "equipo": "Team BDS",
+    "edad": 21,
+    "equipo": "Shifters",
     "pais": "South Korea",
-    "contrato_hasta": null,
-    "redes_sociales": {},
-    "imagen_jugador": "https://dpm.lol/esport/players/rooster.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BDS.webp"
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/BDS_Rooster"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "BDS Rooster#2005",
-      "nivel": 41,
+      "nombre": "SHFT Rooster#0428",
+      "nivel": 138,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 580,
-      "victorias": 79,
-      "derrotas": 38,
-      "ultima_partida": 1753664393447
+      "lp": 1693,
+      "victorias": 340,
+      "derrotas": 237,
+      "ultima_partida": 1788296732252
     },
     {
-      "nombre": "편 민 기#박 규 용",
-      "nivel": 857,
+      "nombre": "Blue Giant#1881",
+      "nivel": 916,
       "region": "KR",
-      "liga": "DIAMOND I",
+      "liga": "EMERALD I",
       "lp": 75,
-      "victorias": 242,
-      "derrotas": 196,
-      "ultima_partida": 1751478559786
+      "victorias": 12,
+      "derrotas": 8,
+      "ultima_partida": 1782823332130
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 19,
-      "victorias": 15,
-      "winrate": "78.9%",
-      "kda_promedio": 3.196078431372549
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 15,
-      "victorias": 9,
-      "winrate": "60.0%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Irelia",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.057142857142857
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.235294117647059
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.090909090909091
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Gwen",
+      "nombre": "Fiora",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.3
+      "kda_promedio": 2
     },
     {
-      "nombre": "Yone",
+      "nombre": "Gnar",
       "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.333333333333333
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.1666666666666667
+      "kda_promedio": 0.6666666666666666
     },
     {
-      "nombre": "Akali",
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Camille",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.6
+      "kda_promedio": 2
     },
     {
       "nombre": "Jax",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 62,
-    "wins": 41,
-    "losses": 21,
-    "timePlayed": 97997
+    "games": 19,
+    "wins": 11,
+    "losses": 8,
+    "timePlayed": 30034
   }
 }

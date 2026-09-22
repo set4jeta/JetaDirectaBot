@@ -2,122 +2,132 @@
   "info_jugador": {
     "nombre": "Canna",
     "nombre_real": "Kim Chang-dong",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Karmine Corp",
     "pais": "South Korea",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {},
-    "imagen_jugador": "https://dpm.lol/esport/players/canna.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "K C#kcwin",
-      "nivel": 80,
+      "nombre": "Katze#myao",
+      "nivel": 117,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1221,
-      "victorias": 321,
-      "derrotas": 218,
-      "ultima_partida": 1753746018472
+      "liga": "MASTER I",
+      "lp": 1584,
+      "victorias": 422,
+      "derrotas": 302,
+      "ultima_partida": 1789916280104
     },
     {
       "nombre": "칸 나#0211",
-      "nivel": 740,
+      "nivel": 760,
       "region": "KR",
-      "liga": "Unranked",
-      "lp": null,
-      "victorias": null,
-      "derrotas": null,
-      "ultima_partida": 1751464335027
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 27,
+      "derrotas": 11,
+      "ultima_partida": 1782800305941
     },
     {
-      "nombre": "EJRKLJ0#0000",
-      "nivel": 55,
+      "nombre": "K C#kcwin",
+      "nivel": 96,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1764977868295
+    },
+    {
+      "nombre": "EJRKLJ0#0000",
+      "nivel": 71,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1734215250067
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5294117647058822
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.84375
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 8,
-      "victorias": 4,
+      "nombre": "Olaf",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.1025641025641026
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9166666666666665
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7142857142857142
     },
     {
       "nombre": "Jayce",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 5.043478260869565
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     },
     {
       "nombre": "Chogath",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.923076923076923
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2142857142857144
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 2,
-      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 7.5
-    },
-    {
-      "nombre": "Irelia",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5294117647058824
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5714285714285716
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.4
+      "kda_promedio": 4.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 32,
-    "losses": 23,
-    "timePlayed": 87392
+    "games": 36,
+    "wins": 18,
+    "losses": 18,
+    "timePlayed": 57834
   }
 }

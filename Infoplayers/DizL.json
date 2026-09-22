@@ -2,104 +2,84 @@
   "info_jugador": {
     "nombre": "DizL",
     "nombre_real": "Timothy Warscher",
-    "edad": 23,
-    "equipo": "All for One Gaming",
+    "edad": 24,
+    "equipo": "VfB eSports",
     "pais": "Austria",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/LoL_DizL"
+      "twitter": "https://www.twitter.com/LoL_DizL",
+      "twitch": "https://www.twitch.tv/lol_dizl"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/dizl.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/A41G.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "DizL#2297",
-      "nivel": 947,
+      "nivel": 1035,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 869,
-      "victorias": 165,
-      "derrotas": 130,
-      "ultima_partida": 1753565183924
+      "lp": 2189,
+      "victorias": 338,
+      "derrotas": 250,
+      "ultima_partida": 1788363038836
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 27,
-      "victorias": 17,
-      "winrate": "63.0%",
-      "kda_promedio": 2.9172413793103447
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8857142857142857
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.0444444444444445
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 4,
+      "nombre": "Zeri",
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 1.3333333333333333
+      "winrate": "60.0%",
+      "kda_promedio": 2.0526315789473686
     },
     {
-      "nombre": "Jinx",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
-      "nombre": "Xayah",
+      "nombre": "Ezreal",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.4285714285714284
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4166666666666665
     },
     {
-      "nombre": "Orianna",
+      "nombre": "Tristana",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.769230769230769
+      "kda_promedio": 1.826086956521739
     },
     {
-      "nombre": "Aphelios",
+      "nombre": "Corki",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.875
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
       "nombre": "Kaisa",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 6.25
+      "kda_promedio": 4
     },
     {
-      "nombre": "MissFortune",
+      "nombre": "Lucian",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 0.8
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 35,
-    "losses": 22,
-    "timePlayed": 92537
+    "games": 14,
+    "wins": 8,
+    "losses": 6,
+    "timePlayed": 23678
   }
 }

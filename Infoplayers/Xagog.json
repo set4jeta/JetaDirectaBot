@@ -2,125 +2,83 @@
   "info_jugador": {
     "nombre": "Xagog",
     "nombre_real": "Isa Arda Dagli",
-    "edad": 21,
-    "equipo": "ROSSMANN Centaurs",
+    "edad": 22,
+    "equipo": "Eintracht Spandau",
     "pais": "Germany",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/xagog42",
       "twitch": "https://twitch.tv/xagog005\\t"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ROSS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Xagog#EUW",
-      "nivel": 348,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 631,
-      "victorias": 63,
-      "derrotas": 35,
-      "ultima_partida": 1753743769674
-    },
-    {
-      "nombre": "decay arc#EUW",
-      "nivel": 106,
+      "nombre": "Xagog#LoL",
+      "nivel": 208,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1337,
-      "victorias": 227,
-      "derrotas": 139,
-      "ultima_partida": 1753737146271
+      "lp": 3381,
+      "victorias": 402,
+      "derrotas": 276,
+      "ultima_partida": 1787776414369
+    },
+    {
+      "nombre": "Xagog#EUW",
+      "nivel": 359,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1786140638699
     },
     {
       "nombre": "ANKARAI0MESSI#EUW",
-      "nivel": 312,
+      "nivel": 313,
       "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 45,
-      "victorias": 9,
-      "derrotas": 17,
-      "ultima_partida": 1753627213050
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1758968344198
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.111111111111111
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5833333333333335
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5.6
-    },
-    {
-      "nombre": "Graves",
+      "nombre": "Shyvana",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "JarvanIV",
+      "nombre": "Sylas",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 5.2
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Syndra",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 5.5
+      "kda_promedio": 7.5
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Vi",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.6666666666666665
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 19
-    },
-    {
-      "nombre": "Olaf",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6.333333333333333
+      "kda_promedio": 4.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 11,
-    "losses": 7,
-    "timePlayed": 31019
+    "games": 4,
+    "wins": 1,
+    "losses": 3,
+    "timePlayed": 6708
   }
 }

@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "Oscarinin",
     "nombre_real": "Óscar Muñoz Jiménez",
-    "edad": 22,
-    "equipo": "Fnatic",
+    "edad": 23,
+    "equipo": "GIANTX",
     "pais": "Spain",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/OscarininXD",
       "twitch": "https://twitch.tv/Oscarinin"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/oscarinin.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "chopper lover#EUW",
-      "nivel": 266,
+      "nombre": "detdert top acc#RANK1",
+      "nivel": 1259,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 938,
-      "victorias": 247,
-      "derrotas": 202,
-      "ultima_partida": 1753745242532
+      "lp": 2068,
+      "victorias": 674,
+      "derrotas": 572,
+      "ultima_partida": 1788367691934
     },
     {
-      "nombre": "Byron Love#1v9",
-      "nivel": 1142,
+      "nombre": "chopper lover#EUW",
+      "nivel": 314,
       "region": "EUW1",
-      "liga": "DIAMOND I",
+      "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 293,
-      "derrotas": 259,
-      "ultima_partida": 1752439268582
+      "victorias": 96,
+      "derrotas": 82,
+      "ultima_partida": 1783725729744
+    },
+    {
+      "nombre": "caballo ganador#0903",
+      "nivel": 70,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 270,
+      "derrotas": 204,
+      "ultima_partida": 1775678142996
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Jayce",
-      "partidas": 23,
-      "victorias": 14,
-      "winrate": "60.9%",
-      "kda_promedio": 2.3692307692307693
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 14,
-      "victorias": 4,
-      "winrate": "28.6%",
-      "kda_promedio": 1.6626506024096386
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2711864406779663
-    },
-    {
-      "nombre": "Fiora",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.1463414634146343
-    },
-    {
-      "nombre": "Gangplank",
-      "partidas": 8,
+      "nombre": "Varus",
+      "partidas": 13,
       "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.027027027027027
+      "winrate": "46.2%",
+      "kda_promedio": 1.8024691358024691
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Gnar",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 1.4883720930232558
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.3611111111111112
+    },
+    {
+      "nombre": "Olaf",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 2.7666666666666666
+      "kda_promedio": 6.363636363636363
     },
     {
-      "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.347826086956522
-    },
-    {
-      "nombre": "Ambessa",
+      "nombre": "Camille",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0588235294117647
     },
     {
-      "nombre": "Vladimir",
+      "nombre": "DrMundo",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.6956521739130435
+      "kda_promedio": 0.9655172413793104
     },
     {
-      "nombre": "Karma",
-      "partidas": 2,
+      "nombre": "Gragas",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.9375
+      "winrate": "33.3%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Illaoi",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 96,
-    "wins": 57,
-    "losses": 39,
-    "timePlayed": 154976
+    "games": 78,
+    "wins": 37,
+    "losses": 41,
+    "timePlayed": 118670
   }
 }

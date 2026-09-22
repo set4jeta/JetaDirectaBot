@@ -8,119 +8,122 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Marbirius",
-      "twitch": "https://www.twitch.tv/marbirius\\t"
+      "twitch": "https://www.twitch.tv/marbirius"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/UNIT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "마지막 불씨#EUW2",
-      "nivel": 180,
+      "nombre": "mid maestro#3113",
+      "nivel": 341,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1091,
-      "victorias": 202,
-      "derrotas": 161,
-      "ultima_partida": 1753734830402
+      "liga": "MASTER I",
+      "lp": 1551,
+      "victorias": 269,
+      "derrotas": 194,
+      "ultima_partida": 1788354169432
     },
     {
-      "nombre": "Godskin Apostle#EUW",
-      "nivel": 271,
+      "nombre": "Mdd#3113",
+      "nivel": 124,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1147,
-      "victorias": 249,
-      "derrotas": 199,
-      "ultima_partida": 1753723673246
+      "lp": 2431,
+      "victorias": 307,
+      "derrotas": 256,
+      "ultima_partida": 1788351744521
     },
     {
-      "nombre": "midmid1#EUW3",
-      "nivel": 110,
+      "nombre": "Temu Knight#EUW2",
+      "nivel": 204,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 823,
-      "victorias": 158,
-      "derrotas": 115,
-      "ultima_partida": 1753641224052
+      "liga": "MASTER I",
+      "lp": 280,
+      "victorias": 121,
+      "derrotas": 100,
+      "ultima_partida": 1788258142857
+    },
+    {
+      "nombre": "dyjkbysb#EUW3",
+      "nivel": 119,
+      "region": "EUW1",
+      "liga": "EMERALD II",
+      "lp": 80,
+      "victorias": 2,
+      "derrotas": 6,
+      "ultima_partida": 1768400263537
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ryze",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.388888888888889
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8536585365853657
-    },
-    {
-      "nombre": "Annie",
+      "nombre": "Locke",
       "partidas": 8,
       "victorias": 6,
       "winrate": "75.0%",
-      "kda_promedio": 3.361111111111111
+      "kda_promedio": 2.5641025641025643
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 5,
+      "nombre": "Jayce",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.1538461538461537
+      "winrate": "66.7%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.473684210526316
     },
     {
       "nombre": "Orianna",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.411764705882353
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.5217391304347827
-    },
-    {
-      "nombre": "Corki",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.5384615384615385
+      "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "Xerath",
+      "nombre": "Syndra",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Ahri",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6.25
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.7
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 30,
-    "losses": 24,
-    "timePlayed": 88235
+    "games": 23,
+    "wins": 18,
+    "losses": 5,
+    "timePlayed": 35814
   }
 }

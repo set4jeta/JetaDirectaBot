@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Guli",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Guli_lol",
+      "twitch": "https://www.twitch.tv/gulissang"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TTV Guli#7VEN",
+      "nivel": 295,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1206,
+      "victorias": 309,
+      "derrotas": 245,
+      "ultima_partida": 1788358129833
+    },
+    {
+      "nombre": "TTV Guli#00000",
+      "nivel": 250,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1880,
+      "victorias": 416,
+      "derrotas": 338,
+      "ultima_partida": 1788211240456
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Draven",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.49438202247191
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.121212121212121
+    },
+    {
+      "nombre": "RekSai",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.818181818181818
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 11.142857142857142
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5625
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 61,
+    "wins": 27,
+    "losses": 34,
+    "timePlayed": 97683
+  }
+}

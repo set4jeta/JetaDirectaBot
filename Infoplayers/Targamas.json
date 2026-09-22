@@ -3,26 +3,26 @@
     "nombre": "Targamas",
     "nombre_real": "Raphaël Crabbé",
     "edad": 25,
-    "equipo": "Karmine Corp",
+    "equipo": "French Flair",
     "pais": "Belgium",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Targamas",
       "twitch": "https://twitch.tv/targamas1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/targamas.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Targamas#5555",
-      "nivel": 1174,
+      "nivel": 1217,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1334,
-      "victorias": 372,
-      "derrotas": 310,
-      "ultima_partida": 1753697289709
+      "lp": 1312,
+      "victorias": 533,
+      "derrotas": 466,
+      "ultima_partida": 1766187237601
     },
     {
       "nombre": "Grizzly Hills#123",
@@ -32,85 +32,71 @@
       "lp": 75,
       "victorias": 14,
       "derrotas": 6,
-      "ultima_partida": 1741621826957
+      "ultima_partida": null
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Neeko",
-      "partidas": 12,
-      "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8857142857142857
-    },
-    {
-      "nombre": "Thresh",
-      "partidas": 8,
-      "victorias": 7,
-      "winrate": "87.5%",
-      "kda_promedio": 3.5849056603773586
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.967741935483871
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.4242424242424243
     },
     {
       "nombre": "Bard",
-      "partidas": 6,
-      "victorias": 3,
+      "partidas": 4,
+      "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 2.511627906976744
+      "kda_promedio": 3.9
     },
     {
-      "nombre": "Nami",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.1875
-    },
-    {
-      "nombre": "Nautilus",
+      "nombre": "Neeko",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.45
+      "kda_promedio": 2.3157894736842106
     },
     {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.411764705882353
     },
     {
-      "nombre": "Galio",
+      "nombre": "Rell",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4444444444444444
+      "kda_promedio": 1.8666666666666667
     },
     {
-      "nombre": "Pyke",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.4
-    },
-    {
-      "nombre": "Annie",
+      "nombre": "Leona",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.8
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6363636363636364
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 29,
-    "losses": 22,
-    "timePlayed": 83504
+    "games": 19,
+    "wins": 6,
+    "losses": 13,
+    "timePlayed": 31559
   }
 }

@@ -2,135 +2,135 @@
   "info_jugador": {
     "nombre": "Vetheo",
     "nombre_real": "Vincent Berrié",
-    "edad": 23,
-    "equipo": "Vitality.Bee",
+    "edad": 24,
+    "equipo": "SU Esports",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Vetheo_lol",
       "twitch": "https://twitch.tv/vetheo"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/vetheo.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Percy Magic#1234",
-      "nivel": 897,
+      "nivel": 1014,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1131,
-      "victorias": 229,
-      "derrotas": 178,
-      "ultima_partida": 1753740974699
+      "lp": 2948,
+      "victorias": 428,
+      "derrotas": 353,
+      "ultima_partida": 1788381700424
     },
     {
-      "nombre": "Vetheø#4321",
-      "nivel": 519,
+      "nombre": "Fawkes#4321",
+      "nivel": 614,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 451,
-      "derrotas": 386,
-      "ultima_partida": 1753531798011
+      "victorias": 349,
+      "derrotas": 288,
+      "ultima_partida": 1780612303837
     },
     {
       "nombre": "Atlas#KRKR",
-      "nivel": 45,
+      "nivel": 47,
       "region": "KR",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1733755560358
     },
     {
       "nombre": "Oriøn#soloq",
-      "nivel": 49,
+      "nivel": 57,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1729730638218
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ryze",
-      "partidas": 29,
-      "victorias": 20,
-      "winrate": "69.0%",
-      "kda_promedio": 3.78494623655914
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 19,
-      "victorias": 11,
-      "winrate": "57.9%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 12,
-      "victorias": 5,
-      "winrate": "41.7%",
-      "kda_promedio": 2.764705882352941
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.043478260869565
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 4.380952380952381
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 6,
-      "victorias": 4,
+      "nombre": "Syndra",
+      "partidas": 9,
+      "victorias": 6,
       "winrate": "66.7%",
-      "kda_promedio": 2.925925925925926
+      "kda_promedio": 2.4444444444444446
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.647058823529412
+      "nombre": "Viktor",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.3055555555555554
     },
     {
-      "nombre": "Smolder",
-      "partidas": 4,
+      "nombre": "Nasus",
+      "partidas": 6,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.310344827586207
+      "winrate": "16.7%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8064516129032258
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9285714285714286
     },
     {
       "nombre": "Jayce",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0869565217391304
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Leblanc",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.230769230769231
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7777777777777777
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 123,
-    "wins": 68,
-    "losses": 55,
-    "timePlayed": 194414
+    "games": 74,
+    "wins": 38,
+    "losses": 36,
+    "timePlayed": 115761
   }
 }

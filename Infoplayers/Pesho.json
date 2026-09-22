@@ -10,107 +10,107 @@
       "twitter": "https://www.twitter.com/PeshoMid",
       "twitch": "https://www.twitch.tv/peshomid"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "pesh#pesho",
-      "nivel": 415,
+      "nombre": "TwTvPeshomid#Pesh",
+      "nivel": 1231,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 775,
-      "victorias": 288,
-      "derrotas": 233,
-      "ultima_partida": 1753463067514
+      "lp": 2285,
+      "victorias": 389,
+      "derrotas": 338,
+      "ultima_partida": 1788388546660
     },
     {
-      "nombre": "nikola#PESHO",
-      "nivel": 1121,
+      "nombre": "TwTv Peshomid#pesho",
+      "nivel": 498,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 153,
-      "victorias": 393,
-      "derrotas": 384,
-      "ultima_partida": 1753296258027
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 340,
+      "derrotas": 299,
+      "ultima_partida": 1778140548258
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 13,
-      "victorias": 5,
-      "winrate": "38.5%",
-      "kda_promedio": 2.1025641025641026
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 2.1343283582089554
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 2.0144927536231885
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 3.152542372881356
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2857142857142858
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5405405405405403
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 7,
+      "nombre": "Anivia",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.803921568627451
+      "winrate": "50.0%",
+      "kda_promedio": 2.260869565217391
     },
     {
-      "nombre": "Taliyah",
-      "partidas": 6,
-      "victorias": 4,
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.8518518518518516
+      "kda_promedio": 3.1333333333333333
     },
     {
-      "nombre": "Orianna",
-      "partidas": 5,
+      "nombre": "Leblanc",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.28
+      "winrate": "66.7%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.45
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3043478260869565
     },
     {
       "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.9545454545454546
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.736842105263158
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 109,
-    "wins": 49,
-    "losses": 60,
-    "timePlayed": 184190
+    "games": 38,
+    "wins": 22,
+    "losses": 16,
+    "timePlayed": 65364
   }
 }

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Shourdy",
+    "nombre_real": "Lucas Santos",
+    "edad": 20,
+    "equipo": "Senshi eSports (Benelux Team)",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ShourdyLOL",
+      "twitch": "https://www.twitch.tv/shourdylol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Shourdy#EUW",
+      "nivel": 1394,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2083,
+      "victorias": 807,
+      "derrotas": 774,
+      "ultima_partida": 1788371486040
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Olaf",
+      "partidas": 35,
+      "victorias": 26,
+      "winrate": "74.3%",
+      "kda_promedio": 1.842293906810036
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 29,
+      "victorias": 23,
+      "winrate": "79.3%",
+      "kda_promedio": 1.9441860465116279
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 2.1181102362204722
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6125
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 1.0704225352112675
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.738095238095238
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.28125
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.393939393939394
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 128,
+    "wins": 86,
+    "losses": 42,
+    "timePlayed": 207678
+  }
+}

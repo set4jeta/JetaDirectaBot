@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/akanania1",
       "twitch": "https://twitch.tv/akanania"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/akanania.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/UNIT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Akanania#1213",
-      "nivel": 783,
+      "nivel": 954,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 853,
-      "victorias": 374,
-      "derrotas": 339,
-      "ultima_partida": 1753723673246
+      "liga": "CHALLENGER I",
+      "lp": 2389,
+      "victorias": 622,
+      "derrotas": 562,
+      "ultima_partida": 1789995410607
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Varus",
-      "partidas": 6,
-      "victorias": 3,
+      "nombre": "Caitlyn",
+      "partidas": 17,
+      "victorias": 15,
+      "winrate": "88.2%",
+      "kda_promedio": 3.7241379310344827
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 4,
       "winrate": "50.0%",
-      "kda_promedio": 3.5714285714285716
+      "kda_promedio": 2.782608695652174
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4
     },
     {
       "nombre": "Zeri",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.92
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1666666666666665
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Jhin",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.6666666666666665
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5
     },
     {
-      "nombre": "Kaisa",
+      "nombre": "Kalista",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Lulu",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.2857142857142856
+      "kda_promedio": 2.066666666666667
     },
     {
-      "nombre": "Syndra",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.6363636363636362
-    },
-    {
-      "nombre": "Ziggs",
+      "nombre": "Sion",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.25
+      "kda_promedio": 1.8333333333333333
     },
     {
-      "nombre": "Jinx",
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.105263157894737
+    },
+    {
+      "nombre": "Ambessa",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.1666666666666665
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
       "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 18,
-    "losses": 16,
-    "timePlayed": 56406
+    "games": 59,
+    "wins": 37,
+    "losses": 22,
+    "timePlayed": 96439
   }
 }

@@ -1,109 +1,81 @@
 {
   "info_jugador": {
     "nombre": "kPr",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Maxim Grebonos",
+    "edad": 23,
+    "equipo": "Valerion",
+    "pais": "Moldova",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/kpr_lol",
       "twitch": "https://twitch.tv/kprlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FN.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "KPR kpR#ZATUP",
-      "nivel": 328,
+      "nombre": "SHG kpR#ZAZUN",
+      "nivel": 241,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 852,
-      "victorias": 240,
-      "derrotas": 212,
-      "ultima_partida": 1753646244917
+      "liga": "CHALLENGER I",
+      "lp": 2339,
+      "victorias": 402,
+      "derrotas": 297,
+      "ultima_partida": 1788261372190
     },
     {
-      "nombre": "Hailrake#77777",
-      "nivel": 166,
+      "nombre": "KPR kpR#ZATUP",
+      "nivel": 432,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 670,
-      "victorias": 120,
-      "derrotas": 78,
-      "ultima_partida": 1753634923508
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 232,
+      "derrotas": 230,
+      "ultima_partida": 1786528916674
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 1.358974358974359
-    },
-    {
       "nombre": "Jayce",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3076923076923077
-    },
-    {
-      "nombre": "Aatrox",
       "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 0.5833333333333334
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.15
     },
     {
-      "nombre": "Gwen",
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Olaf",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 0.8518518518518519
+      "kda_promedio": 1.75
     },
     {
       "nombre": "Renekton",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Vayne",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 0.47058823529411764
+      "kda_promedio": 6
     },
     {
       "nombre": "Gnar",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Syndra",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 28,
-    "wins": 15,
-    "losses": 13,
-    "timePlayed": 46633
+    "games": 14,
+    "wins": 10,
+    "losses": 4,
+    "timePlayed": 22457
   }
 }

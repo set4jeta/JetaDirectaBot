@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "HungryPanda",
     "nombre_real": "Nikos Nikolaidis",
-    "edad": 26,
-    "equipo": "Partizan Sangal",
+    "edad": 27,
+    "equipo": "Joblife",
     "pais": "Greece",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/HungryPandaLoL",
       "twitch": "https://twitch.tv/hungrypandalol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/hungrypanda.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Ksediplwma#TIMPA",
-      "nivel": 814,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 793,
-      "victorias": 245,
-      "derrotas": 211,
-      "ultima_partida": 1753700414806
-    },
-    {
-      "nombre": "MPAINW XWRIS#AKAP",
-      "nivel": 207,
+      "nombre": "Hungry#444",
+      "nivel": 409,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1708,
-      "victorias": 307,
-      "derrotas": 225,
-      "ultima_partida": 1753635083931
+      "lp": 2348,
+      "victorias": 956,
+      "derrotas": 787,
+      "ultima_partida": 1788369062420
+    },
+    {
+      "nombre": "Toumpa Prodigy#031",
+      "nivel": 870,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1770342330127
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Nautilus",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 3.2542372881355934
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.875
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 4.166666666666667
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 7.714285714285714
+      "partidas": 22,
+      "victorias": 12,
+      "winrate": "54.5%",
+      "kda_promedio": 2.8740740740740742
     },
     {
       "nombre": "Leona",
-      "partidas": 3,
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.784313725490196
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.3684210526315788
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.061224489795918
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 7,
       "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 6,
+      "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.25
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.272727272727273
+      "kda_promedio": 3.5833333333333335
     },
     {
       "nombre": "Poppy",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8823529411764706
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.7916666666666665
     },
     {
-      "nombre": "Pyke",
-      "partidas": 2,
+      "nombre": "Alistar",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.730769230769231
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 5,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5
+      "winrate": "20.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.736842105263158
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 42,
-    "wins": 26,
-    "losses": 16,
-    "timePlayed": 66904
+    "games": 108,
+    "wins": 55,
+    "losses": 53,
+    "timePlayed": 175405
   }
 }

@@ -2,83 +2,97 @@
   "info_jugador": {
     "nombre": "Bambi",
     "nombre_real": "Lee Gyu-bin",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Jin Air Green Wings",
     "pais": "South Korea",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Bambi_L9"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GMBL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "washed úp#bambi",
-      "nivel": 449,
+      "nivel": 513,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1048,
-      "victorias": 126,
-      "derrotas": 90,
-      "ultima_partida": 1753557753727
+      "liga": "GRANDMASTER I",
+      "lp": 2235,
+      "victorias": 298,
+      "derrotas": 229,
+      "ultima_partida": 1790011620357
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.142857142857143
-    },
-    {
-      "nombre": "Irelia",
-      "partidas": 3,
+      "nombre": "Olaf",
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.9375
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 11
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
+      "winrate": "75.0%",
       "kda_promedio": 2.4
     },
     {
       "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0666666666666667
+    },
+    {
+      "nombre": "Aatrox",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.9230769230769231
+      "kda_promedio": 0.8333333333333334
     },
     {
-      "nombre": "Kled",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
-    },
-    {
-      "nombre": "Renekton",
+      "nombre": "Camille",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 20
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11.333333333333334
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
     "games": 13,
-    "wins": 10,
-    "losses": 3,
-    "timePlayed": 19977
+    "wins": 8,
+    "losses": 5,
+    "timePlayed": 20178
   }
 }

@@ -2,69 +2,104 @@
   "info_jugador": {
     "nombre": "Carlsen",
     "nombre_real": "Carl&nbsp;Ulsted Carlsen",
-    "edad": 19,
-    "equipo": "Team Heretics",
+    "edad": 20,
+    "equipo": "Galions",
     "pais": "Denmark",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/LoLCarlsen"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/carlsen.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "skygge kriger#EUV",
-      "nivel": 956,
+      "nivel": 1119,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1292,
-      "victorias": 294,
-      "derrotas": 238,
-      "ultima_partida": 1753540163871
+      "liga": "MASTER I",
+      "lp": 1680,
+      "victorias": 634,
+      "derrotas": 538,
+      "ultima_partida": 1788281823879
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0666666666666667
+      "nombre": "Jayce",
+      "partidas": 18,
+      "victorias": 5,
+      "winrate": "27.8%",
+      "kda_promedio": 1.7976190476190477
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2
     },
     {
       "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4634146341463414
     },
     {
-      "nombre": "KSante",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
+      "nombre": "Akali",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.0454545454545454
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 0.9743589743589743
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.09375
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4
     },
     {
       "nombre": "Renekton",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     },
     {
-      "nombre": "Rumble",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 6,
-    "wins": 2,
-    "losses": 4,
-    "timePlayed": 10604
+    "games": 90,
+    "wins": 48,
+    "losses": 42,
+    "timePlayed": 143213
   }
 }

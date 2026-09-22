@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Cadde59A",
+    "nombre_real": "Buğra Yorulmaz",
+    "edad": 21,
+    "equipo": "CITA Kaizen",
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Cadde59A#59A",
+      "nivel": 195,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2021,
+      "victorias": 729,
+      "derrotas": 660,
+      "ultima_partida": 1789771102780
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.108108108108108
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6724137931034484
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.68
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.411764705882353
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.032258064516129
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.064516129032258
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6071428571428572
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 29,
+    "losses": 36,
+    "timePlayed": 107366
+  }
+}

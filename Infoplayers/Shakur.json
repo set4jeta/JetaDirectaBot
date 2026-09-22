@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Shakur",
+    "nombre_real": "Luca Frochte",
+    "edad": 23,
+    "equipo": "Reveal Multigaming",
+    "pais": "Germany",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ADCShakur",
+      "twitch": "https://www.twitch.tv/adcshakur"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Carl Friedrich#Gauß",
+      "nivel": 1220,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2290,
+      "victorias": 547,
+      "derrotas": 466,
+      "ultima_partida": 1788381085315
+    },
+    {
+      "nombre": "farm int repeat#SKR",
+      "nivel": 402,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 76,
+      "derrotas": 66,
+      "ultima_partida": 1776116657661
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9673913043478262
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.016949152542373
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2666666666666666
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.909090909090909
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 20
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 23,
+    "losses": 16,
+    "timePlayed": 61789
+  }
+}

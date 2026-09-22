@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Fleshy",
     "nombre_real": "Kadir Kemiksiz",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Team Vitality",
     "pais": "Turkey",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/fleshyylol",
       "twitch": "https://twitch.tv/fleshylol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/fleshy.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Fleshy#EU1",
-      "nivel": 783,
+      "nivel": 897,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1385,
-      "victorias": 415,
-      "derrotas": 358,
-      "ultima_partida": 1753739682175
+      "lp": 2645,
+      "victorias": 405,
+      "derrotas": 286,
+      "ultima_partida": 1788287687586
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Karma",
-      "partidas": 9,
-      "victorias": 8,
-      "winrate": "88.9%",
-      "kda_promedio": 6.655172413793103
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.88
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
-      "nombre": "Pyke",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.6923076923076925
-    },
-    {
-      "nombre": "Lulu",
+      "nombre": "Blitzcrank",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.8125
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.9411764705882355
     },
     {
       "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.083333333333333
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.7142857142857144
-    },
-    {
-      "nombre": "Braum",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 9
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.9
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 31,
-    "losses": 21,
-    "timePlayed": 88041
+    "games": 18,
+    "wins": 10,
+    "losses": 8,
+    "timePlayed": 30813
   }
 }

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Improver",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Improverv9",
+      "twitch": "https://www.twitch.tv/improverlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "improver mqawd#2998",
+      "nivel": 401,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2185,
+      "victorias": 640,
+      "derrotas": 567,
+      "ultima_partida": 1787960146882
+    },
+    {
+      "nombre": "improver enjoyer#2998",
+      "nivel": 546,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 28,
+      "victorias": 31,
+      "derrotas": 26,
+      "ultima_partida": 1787706299321
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4363636363636365
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.58
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.4081632653061225
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.2777777777777777
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8780487804878048
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5789473684210527
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 62,
+    "wins": 33,
+    "losses": 29,
+    "timePlayed": 102754
+  }
+}

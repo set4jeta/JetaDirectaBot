@@ -2,72 +2,114 @@
   "info_jugador": {
     "nombre": "Thomas",
     "nombre_real": "Tomislav Nanjara",
-    "edad": 22,
-    "equipo": "Movistar KOI Fénix",
+    "edad": 23,
+    "equipo": "TLN Pirates",
     "pais": "Croatia",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/ThomasFatelol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "KappaChungiLungi#DELUX",
-      "nivel": 664,
+      "nivel": 778,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 964,
-      "victorias": 170,
-      "derrotas": 133,
-      "ultima_partida": 1753739250830
+      "liga": "MASTER I",
+      "lp": 1669,
+      "victorias": 250,
+      "derrotas": 177,
+      "ultima_partida": 1788310141641
     },
     {
       "nombre": "Thomas#13579",
-      "nivel": 348,
+      "nivel": 372,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 5,
-      "victorias": 113,
-      "derrotas": 86,
-      "ultima_partida": 1751739152744
+      "liga": "MASTER I",
+      "lp": 795,
+      "victorias": 145,
+      "derrotas": 80,
+      "ultima_partida": 1788232642056
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.142857142857143
+      "nombre": "Anivia",
+      "partidas": 14,
+      "victorias": 13,
+      "winrate": "92.9%",
+      "kda_promedio": 3.9873417721518987
     },
     {
-      "nombre": "Rakan",
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.833333333333333
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Ashe",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 8.333333333333334
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Rell",
+      "nombre": "Heimerdinger",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    },
+    {
+      "nombre": "Lux",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.5714285714285716
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9
+      "kda_promedio": 1.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 5,
-    "wins": 3,
-    "losses": 2,
-    "timePlayed": 7334
+    "games": 39,
+    "wins": 30,
+    "losses": 9,
+    "timePlayed": 60973
   }
 }

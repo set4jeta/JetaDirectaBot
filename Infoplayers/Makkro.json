@@ -1,0 +1,63 @@
+{
+  "info_jugador": {
+    "nombre": "Makkro",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MakkroLoL\\t",
+      "twitch": "\\thttps://twitch.tv/makkro0"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "detdert ornn acc#ORNNY",
+      "nivel": 187,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 316,
+      "victorias": 39,
+      "derrotas": 17,
+      "ultima_partida": 1788035524573
+    },
+    {
+      "nombre": "Makkor#EUW",
+      "nivel": 787,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1933,
+      "victorias": 522,
+      "derrotas": 437,
+      "ultima_partida": 1787407261733
+    },
+    {
+      "nombre": "Makkro#EUW",
+      "nivel": 127,
+      "region": "EUW1",
+      "liga": "DIAMOND IV",
+      "lp": 77,
+      "victorias": 8,
+      "derrotas": 5,
+      "ultima_partida": 1786906750082
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ornn",
+      "partidas": 67,
+      "victorias": 47,
+      "winrate": "70.1%",
+      "kda_promedio": 4.737068965517241
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 47,
+    "losses": 20,
+    "timePlayed": 113086
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Nord",
+    "nombre_real": "Nils Jansson",
+    "edad": 24,
+    "equipo": "B2U",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/intnordlol",
+      "twitch": "https://www.twitch.tv/intnord"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "B2U Nord#B2U",
+      "nivel": 730,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2094,
+      "victorias": 383,
+      "derrotas": 293,
+      "ultima_partida": 1788116684883
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shaco",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 6.538461538461538
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 4.411764705882353
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 22
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 36,
+    "wins": 18,
+    "losses": 18,
+    "timePlayed": 59367
+  }
+}

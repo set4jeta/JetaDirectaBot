@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Robertoos",
+    "nombre_real": "Robert Krzyżanowski",
+    "edad": 22,
+    "equipo": "Barcząca Esports by Yumisu",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/xRobertoos",
+      "twitch": "https://www.twitch.tv/robertoos1"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "sootrebor#minia",
+      "nivel": 935,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2331,
+      "victorias": 586,
+      "derrotas": 510,
+      "ultima_partida": 1788365255318
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8461538461538461
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 31
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 11,
+    "wins": 4,
+    "losses": 7,
+    "timePlayed": 15989
+  }
+}

@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "Skeanz",
     "nombre_real": "Duncan Marquet",
-    "edad": 24,
+    "edad": 25,
     "equipo": "SK Gaming",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Skeanz_lol",
       "twitch": "https://twitch.tv/skeanz"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/skeanz.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Shëun#2530",
-      "nivel": 454,
+      "nombre": "Skeanz#Neil",
+      "nivel": 639,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1670,
-      "victorias": 652,
-      "derrotas": 579,
-      "ultima_partida": 1753726561759
+      "lp": 2773,
+      "victorias": 550,
+      "derrotas": 435,
+      "ultima_partida": 1788197772659
+    },
+    {
+      "nombre": "Erduma#day",
+      "nivel": 37,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 33,
+      "derrotas": 10,
+      "ultima_partida": 1782339207555
     },
     {
       "nombre": "Sunflower#2509",
-      "nivel": 646,
+      "nivel": 666,
       "region": "EUW1",
-      "liga": "EMERALD I",
+      "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 11,
-      "derrotas": 15,
-      "ultima_partida": 1750283346566
+      "victorias": 43,
+      "derrotas": 21,
+      "ultima_partida": 1768255807556
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "LeeSin",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.142857142857143
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 8.210526315789474
     },
     {
-      "nombre": "Viego",
-      "partidas": 6,
+      "nombre": "Qiyana",
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.666666666666667
+      "winrate": "62.5%",
+      "kda_promedio": 3.026315789473684
     },
     {
       "nombre": "Vi",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.6666666666666665
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 8.818181818181818
     },
     {
       "nombre": "XinZhao",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.6842105263157894
-    },
-    {
-      "nombre": "Maokai",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.5
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.846153846153846
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 4.266666666666667
-    },
-    {
-      "nombre": "Kindred",
+      "nombre": "Graves",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.2
+      "kda_promedio": 2.625
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.230769230769231
-    },
-    {
-      "nombre": "Khazix",
+      "nombre": "Ekko",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.1
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4444444444444444
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.142857142857143
     },
     {
       "nombre": "Naafiri",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4
+      "kda_promedio": 13.666666666666666
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 55,
-    "wins": 33,
-    "losses": 22,
-    "timePlayed": 85716
+    "games": 47,
+    "wins": 27,
+    "losses": 20,
+    "timePlayed": 73105
   }
 }

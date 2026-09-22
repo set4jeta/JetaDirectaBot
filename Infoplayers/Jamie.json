@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Jamie",
+    "nombre_real": "Evgeny Sorokin",
+    "edad": 23,
+    "equipo": "ZennIT",
+    "pais": "Ukraine",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/jamie_ua1"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jamie#EUW2",
+      "nivel": 1209,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1628,
+      "victorias": 858,
+      "derrotas": 797,
+      "ultima_partida": 1788377951863
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viktor",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 3.557377049180328
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 3.193548387096774
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.4347826086956523
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 1.5892857142857142
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6315789473684212
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3529411764705883
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 9.3
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5161290322580645
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 7.111111111111111
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.423076923076923
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 113,
+    "wins": 65,
+    "losses": 48,
+    "timePlayed": 172373
+  }
+}

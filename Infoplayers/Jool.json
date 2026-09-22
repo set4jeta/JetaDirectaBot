@@ -1,0 +1,135 @@
+{
+  "info_jugador": {
+    "nombre": "Jool",
+    "nombre_real": "Kang Dong-su",
+    "edad": 24,
+    "equipo": "Solary",
+    "pais": "South Korea",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Jool1230"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Yozora#211",
+      "nivel": 210,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2123,
+      "victorias": 416,
+      "derrotas": 267,
+      "ultima_partida": 1788371234212
+    },
+    {
+      "nombre": "満ちてゆく#2624",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 314,
+      "victorias": 129,
+      "derrotas": 54,
+      "ultima_partida": 1788169415236
+    },
+    {
+      "nombre": "거북이곰#단단함",
+      "nivel": 623,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 7,
+      "derrotas": 3,
+      "ultima_partida": 1783954455172
+    },
+    {
+      "nombre": "LOUDJool#LTAS",
+      "nivel": 60,
+      "region": "BR1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1757394910317
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.2285714285714286
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.484848484848485
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6842105263157894
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 24
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 49,
+    "wins": 27,
+    "losses": 22,
+    "timePlayed": 81782
+  }
+}

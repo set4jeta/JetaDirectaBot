@@ -10,73 +10,87 @@
       "twitter": "https://twitter.com/Ag0nyP",
       "twitch": "https://twitch.tv/ag0nypain"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "ItsOKtoBeNotOK#eProd",
-      "nivel": 867,
+      "nombre": "IRONMAN 140 6#TRI",
+      "nivel": 1005,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1097,
-      "victorias": 427,
-      "derrotas": 381,
-      "ultima_partida": 1753731643145
+      "liga": "MASTER I",
+      "lp": 1515,
+      "victorias": 599,
+      "derrotas": 552,
+      "ultima_partida": 1789839796680
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Vex",
-      "partidas": 44,
-      "victorias": 25,
-      "winrate": "56.8%",
-      "kda_promedio": 2.4127659574468083
-    },
-    {
-      "nombre": "AurelionSol",
-      "partidas": 24,
-      "victorias": 14,
-      "winrate": "58.3%",
-      "kda_promedio": 2.6416666666666666
-    },
-    {
       "nombre": "Viktor",
-      "partidas": 24,
-      "victorias": 13,
-      "winrate": "54.2%",
-      "kda_promedio": 3.4285714285714284
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.3225806451612905
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.901639344262295
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.2413793103448274
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5185185185185186
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5238095238095237
     },
     {
       "nombre": "Syndra",
-      "partidas": 19,
-      "victorias": 9,
-      "winrate": "47.4%",
-      "kda_promedio": 2.146067415730337
-    },
-    {
-      "nombre": "Qiyana",
-      "partidas": 2,
-      "victorias": 2,
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 4.142857142857143
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Veigar",
+      "nombre": "Leblanc",
       "partidas": 2,
-      "victorias": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6428571428571428
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.375
+      "kda_promedio": 16
     },
     {
-      "nombre": "Vladimir",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.3333333333333335
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
     },
     {
-      "nombre": "Kassadin",
+      "nombre": "Karthus",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
@@ -84,9 +98,9 @@
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 118,
-    "wins": 65,
-    "losses": 53,
-    "timePlayed": 189973
+    "games": 42,
+    "wins": 19,
+    "losses": 23,
+    "timePlayed": 71919
   }
 }

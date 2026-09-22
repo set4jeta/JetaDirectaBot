@@ -1,0 +1,99 @@
+{
+  "info_jugador": {
+    "nombre": "Shikari",
+    "nombre_real": "Jordan Pointon",
+    "edad": 26,
+    "equipo": "Spinebusters E-Sport",
+    "pais": "United Kingdom",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/ShikariLoL",
+      "twitch": "https://www.twitch.tv/shikaril0l"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Shikari#dregs",
+      "nivel": 451,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1119,
+      "victorias": 302,
+      "derrotas": 248,
+      "ultima_partida": 1766408354663
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zaahen",
+      "partidas": 22,
+      "victorias": 15,
+      "winrate": "68.2%",
+      "kda_promedio": 3.586206896551724
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.238095238095238
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.411764705882353
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.888888888888889
+    },
+    {
+      "nombre": "Swain",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 25,
+    "losses": 17,
+    "timePlayed": 65700
+  }
+}

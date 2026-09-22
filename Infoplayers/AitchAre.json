@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "AitchAre",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/AitchAre_top"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Artix von#12345",
+      "nivel": 431,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1384,
+      "victorias": 373,
+      "derrotas": 286,
+      "ultima_partida": 1789957094089
+    },
+    {
+      "nombre": "AitchAre#6767",
+      "nivel": 877,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2123,
+      "victorias": 558,
+      "derrotas": 490,
+      "ultima_partida": 1789312703425
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Darius",
+      "partidas": 65,
+      "victorias": 31,
+      "winrate": "47.7%",
+      "kda_promedio": 1.9540229885057472
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 15,
+      "victorias": 6,
+      "winrate": "40.0%",
+      "kda_promedio": 2.323529411764706
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.9661016949152543
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.9411764705882353
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 104,
+    "wins": 46,
+    "losses": 58,
+    "timePlayed": 164401
+  }
+}

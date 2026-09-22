@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Frost",
+    "nombre_real": "Mátyás Mátyus",
+    "edad": 22,
+    "equipo": "Project Conquerors",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/frostmatyi",
+      "twitch": "https://www.twitch.tv/frostmatyi"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "S16 CIRCUS OWNER#RESET",
+      "nivel": 1099,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2673,
+      "victorias": 511,
+      "derrotas": 413,
+      "ultima_partida": 1788348909690
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nami",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.85
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.409090909090909
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.619047619047619
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.823529411764706
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Taric",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 25,
+    "wins": 15,
+    "losses": 10,
+    "timePlayed": 39948
+  }
+}

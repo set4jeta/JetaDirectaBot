@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Raizy",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/raizychan"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Yellow Flash#Ra1zy",
+      "nivel": 106,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 908,
+      "victorias": 496,
+      "derrotas": 361,
+      "ultima_partida": 1788366240416
+    },
+    {
+      "nombre": "Naruto Uzumaki#火火火",
+      "nivel": 692,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1721,
+      "victorias": 407,
+      "derrotas": 380,
+      "ultima_partida": 1788140292654
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 104,
+      "victorias": 61,
+      "winrate": "58.7%",
+      "kda_promedio": 2.089763779527559
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0285714285714285
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.5789473684210527
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3043478260869565
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9230769230769231
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9090909090909091
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 141,
+    "wins": 75,
+    "losses": 66,
+    "timePlayed": 217660
+  }
+}

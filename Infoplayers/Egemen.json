@@ -1,0 +1,82 @@
+{
+  "info_jugador": {
+    "nombre": "Egemen",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "egemenlolmacera#avel",
+      "nivel": 286,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1894,
+      "victorias": 519,
+      "derrotas": 477,
+      "ultima_partida": 1788212569018
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4444444444444444
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 2,
+    "losses": 7,
+    "timePlayed": 14191
+  }
+}

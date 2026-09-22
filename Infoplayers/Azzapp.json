@@ -7,120 +7,130 @@
     "pais": null,
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "\\thttps://twitter.com/Azzapp_LoL",
+      "twitter": "https://twitter.com/Azzapp_LoL",
       "twitch": "https://twitch.tv/azzapp"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/azzapp.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Kolinahr Master#EUW",
-      "nivel": 87,
+      "nombre": "Azzapp#31415",
+      "nivel": 843,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 18,
-      "victorias": 69,
-      "derrotas": 29,
-      "ultima_partida": 1753728629635
+      "liga": "MASTER I",
+      "lp": 240,
+      "victorias": 446,
+      "derrotas": 381,
+      "ultima_partida": 1788279939175
     },
     {
-      "nombre": "Azzapp#31415",
-      "nivel": 717,
+      "nombre": "Pasta La Vista#31415",
+      "nivel": 62,
+      "region": "KR",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 216,
+      "derrotas": 138,
+      "ultima_partida": 1782708469515
+    },
+    {
+      "nombre": "Kolinahr Master#EUW",
+      "nivel": 105,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 993,
-      "victorias": 326,
-      "derrotas": 273,
-      "ultima_partida": 1752686049384
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1758472010715
     },
     {
       "nombre": "aVoid the FF#31415",
       "nivel": 136,
       "region": "KR",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 183,
-      "derrotas": 143,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1745446324431
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 18,
-      "victorias": 14,
-      "winrate": "77.8%",
-      "kda_promedio": 3.925
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 8,
-      "victorias": 8,
-      "winrate": "100.0%",
-      "kda_promedio": 5.533333333333333
-    },
-    {
-      "nombre": "Caitlyn",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.5454545454545454
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.0588235294117645
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 5,
+      "nombre": "AurelionSol",
+      "partidas": 21,
       "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 5.714285714285714
+      "winrate": "23.8%",
+      "kda_promedio": 2.0055555555555555
     },
     {
-      "nombre": "Velkoz",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.739130434782609
+      "nombre": "Hwei",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 3.1186440677966103
     },
     {
-      "nombre": "Jinx",
+      "nombre": "Zed",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9870129870129871
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.0952380952380953
+    },
+    {
+      "nombre": "Nasus",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.2941176470588234
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.4166666666666667
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9285714285714286
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
       "nombre": "Samira",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.1
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1363636363636365
     },
     {
-      "nombre": "Vayne",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Zeri",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
+      "nombre": "Velkoz",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 95,
-    "wins": 67,
-    "losses": 28,
-    "timePlayed": 164611
+    "games": 87,
+    "wins": 35,
+    "losses": 52,
+    "timePlayed": 150757
   }
 }

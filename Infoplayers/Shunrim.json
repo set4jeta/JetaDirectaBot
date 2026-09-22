@@ -9,97 +9,117 @@
     "redes_sociales": {
       "twitch": "https://www.twitch.tv/shunrim"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/shunrim.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Shunrim#hook",
-      "nivel": 1143,
+      "nivel": 1328,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 840,
-      "victorias": 555,
-      "derrotas": 509,
-      "ultima_partida": 1753472700974
+      "lp": 1874,
+      "victorias": 560,
+      "derrotas": 479,
+      "ultima_partida": 1788300047245
+    },
+    {
+      "nombre": "Shunrim#EUW",
+      "nivel": 303,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 74,
+      "victorias": 93,
+      "derrotas": 79,
+      "ultima_partida": 1788291805216
+    },
+    {
+      "nombre": "Support IRL#SOLOQ",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760285424699
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Thresh",
-      "partidas": 52,
-      "victorias": 29,
-      "winrate": "55.8%",
-      "kda_promedio": 3.267175572519084
+      "partidas": 73,
+      "victorias": 31,
+      "winrate": "42.5%",
+      "kda_promedio": 2.8320413436692506
     },
     {
-      "nombre": "Rell",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 3.1538461538461537
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.3076923076923075
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6190476190476191
-    },
-    {
-      "nombre": "Jhin",
+      "nombre": "Seraphine",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3
+      "kda_promedio": 1.1578947368421053
     },
     {
-      "nombre": "Nami",
-      "partidas": 3,
+      "nombre": "Janna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 7.375
+      "winrate": "100.0%",
+      "kda_promedio": 7
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.3333333333333333
+    },
+    {
+      "nombre": "Nautilus",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.5
     },
     {
-      "nombre": "Leona",
+      "nombre": "Pyke",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
     },
     {
-      "nombre": "Milio",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 10.5
-    },
-    {
-      "nombre": "Renata",
+      "nombre": "Galio",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 4.333333333333333
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 78,
-    "wins": 41,
-    "losses": 37,
-    "timePlayed": 128891
+    "games": 91,
+    "wins": 34,
+    "losses": 57,
+    "timePlayed": 151541
   }
 }

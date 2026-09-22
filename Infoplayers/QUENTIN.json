@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "QUENTIN",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "BANQUEROUTEAHIII#KENT1",
+      "nivel": 408,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1869,
+      "victorias": 610,
+      "derrotas": 553,
+      "ultima_partida": 1788393669699
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 37,
+      "victorias": 19,
+      "winrate": "51.4%",
+      "kda_promedio": 3.1954545454545453
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 17,
+      "victorias": 11,
+      "winrate": "64.7%",
+      "kda_promedio": 2.59375
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 15,
+      "victorias": 14,
+      "winrate": "93.3%",
+      "kda_promedio": 3.0631578947368423
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6785714285714284
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 6.444444444444445
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 70,
+    "losses": 37,
+    "timePlayed": 179931
+  }
+}

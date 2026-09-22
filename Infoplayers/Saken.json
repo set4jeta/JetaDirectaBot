@@ -2,115 +2,135 @@
   "info_jugador": {
     "nombre": "Saken",
     "nombre_real": "Lucas Fayard",
-    "edad": 26,
-    "equipo": "Karmine Corp",
+    "edad": 27,
+    "equipo": "ZYB Esport",
     "pais": "France",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-09-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Saken_lol",
       "twitch": "https://twitch.tv/saken_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/saken.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Storm Peaks#0001",
-      "nivel": 170,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 5,
-      "victorias": 21,
-      "derrotas": 11,
-      "ultima_partida": 1753742858081
-    },
-    {
       "nombre": "Mazs#EUW",
-      "nivel": 883,
+      "nivel": 1051,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1221,
-      "victorias": 459,
-      "derrotas": 420,
-      "ultima_partida": 1753734248069
+      "lp": 2702,
+      "victorias": 490,
+      "derrotas": 364,
+      "ultima_partida": 1788373401050
+    },
+    {
+      "nombre": "Storm Peaks#0001",
+      "nivel": 177,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 66,
+      "victorias": 37,
+      "derrotas": 12,
+      "ultima_partida": 1788186694756
+    },
+    {
+      "nombre": "SAKEN#530",
+      "nivel": 58,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 179,
+      "derrotas": 138,
+      "ultima_partida": 1782498612384
+    },
+    {
+      "nombre": "MAGICIEN SOMBRE#530",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760301780387
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Azir",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.8636363636363638
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.642857142857143
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5714285714285716
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8888888888888888
+      "nombre": "Jayce",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6666666666666665
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.41025641025641
     },
     {
-      "nombre": "TwistedFate",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6
+      "nombre": "Shyvana",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.86046511627907
     },
     {
-      "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2
+      "nombre": "Orianna",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.903225806451613
     },
     {
-      "nombre": "Zed",
+      "nombre": "Locke",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.58974358974359
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.64
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Ambessa",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
-    },
-    {
-      "nombre": "AurelionSol",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
+      "kda_promedio": 3.25
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 34,
-    "wins": 18,
-    "losses": 16,
-    "timePlayed": 55831
+    "games": 96,
+    "wins": 61,
+    "losses": 35,
+    "timePlayed": 161406
   }
 }

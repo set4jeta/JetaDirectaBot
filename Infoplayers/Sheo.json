@@ -2,101 +2,62 @@
   "info_jugador": {
     "nombre": "Sheo",
     "nombre_real": "Théo Borile",
-    "edad": 24,
-    "equipo": "Team Heretics",
+    "edad": 25,
+    "equipo": "Shifters",
     "pais": "France",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Sheo_lol",
       "twitch": "https://twitch.tv/sheo_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/sheo.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Iguchi Tatsuya#gang",
-      "nivel": 41,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 460,
-      "victorias": 72,
-      "derrotas": 32,
-      "ultima_partida": 1753654878430
-    },
-    {
-      "nombre": "dont mind me#faith",
-      "nivel": 590,
+      "nombre": "Nerona Imu#demon",
+      "nivel": 673,
       "region": "EUW1",
       "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 406,
-      "derrotas": 390,
-      "ultima_partida": 1751631783680
+      "lp": 68,
+      "victorias": 186,
+      "derrotas": 154,
+      "ultima_partida": 1788263911490
+    },
+    {
+      "nombre": "Iguchi Tatsuya#gang",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1765492189620
+    },
+    {
+      "nombre": "ping moi je te#tue",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760280607541
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Lillia",
-      "partidas": 20,
-      "victorias": 11,
-      "winrate": "55.0%",
-      "kda_promedio": 3.86046511627907
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.4473684210526314
-    },
-    {
-      "nombre": "Karthus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.75
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 10.6
-    },
-    {
-      "nombre": "Diana",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 9
-    },
-    {
-      "nombre": "Kindred",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8
-    },
-    {
-      "nombre": "Vi",
+      "nombre": "Jayce",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.857142857142857
+      "kda_promedio": 22
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 26,
-    "losses": 15,
-    "timePlayed": 65004
+    "games": 1,
+    "wins": 1,
+    "losses": 0,
+    "timePlayed": 1321
   }
 }

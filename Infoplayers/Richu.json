@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Richu",
+    "nombre_real": "Richard Anmann",
+    "edad": 19,
+    "equipo": "Eintracht Frankfurt",
+    "pais": "Estonia",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/richulol",
+      "twitch": "https://www.twitch.tv/richuke"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MadalBemm#EUW",
+      "nivel": 267,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2349,
+      "victorias": 299,
+      "derrotas": 237,
+      "ultima_partida": 1788212333731
+    },
+    {
+      "nombre": "piip ja tuut#EST",
+      "nivel": 235,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 270,
+      "derrotas": 234,
+      "ultima_partida": 1777138620740
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.176470588235294
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 18,
+    "wins": 9,
+    "losses": 9,
+    "timePlayed": 27987
+  }
+}

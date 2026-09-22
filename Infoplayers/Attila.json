@@ -1,0 +1,146 @@
+{
+  "info_jugador": {
+    "nombre": "Attila",
+    "nombre_real": "Amadeu&nbsp;Jesus Dias de Carvalho",
+    "edad": 30,
+    "equipo": "GIANTX iTero",
+    "pais": "Portugal",
+    "contrato_hasta": "2026-11-18T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Attila",
+      "twitch": "https://twitch.tv/Attila"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Attila#ADC4",
+      "nivel": 179,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 696,
+      "victorias": 90,
+      "derrotas": 57,
+      "ultima_partida": 1790012583735
+    },
+    {
+      "nombre": "Attila#SUP",
+      "nivel": 1107,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1806,
+      "victorias": 729,
+      "derrotas": 666,
+      "ultima_partida": 1789836972751
+    },
+    {
+      "nombre": "Pride#9032",
+      "nivel": 312,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 128,
+      "derrotas": 78,
+      "ultima_partida": 1782382062281
+    },
+    {
+      "nombre": "Attila#MID",
+      "nivel": 156,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1767377461499
+    },
+    {
+      "nombre": "Attila#JGL",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1767278245184
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 3.2903225806451615
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5925925925925926
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.142857142857143
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.454545454545454
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5555555555555554
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.222222222222222
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 89,
+    "wins": 53,
+    "losses": 36,
+    "timePlayed": 150187
+  }
+}

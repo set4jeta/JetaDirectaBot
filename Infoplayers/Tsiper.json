@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Tsiper",
+    "nombre_real": "Vasilis Lalas",
+    "edad": 23,
+    "equipo": "WLGaming Esports",
+    "pais": "Greece",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/TsiperakosLol",
+      "twitch": "\\thttps://www.twitch.tv/tsiperakoslol\\t"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "WLG xPeke#tsprk",
+      "nivel": 521,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 463,
+      "victorias": 118,
+      "derrotas": 66,
+      "ultima_partida": 1788342086226
+    },
+    {
+      "nombre": "Tsiper#akos",
+      "nivel": 605,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2354,
+      "victorias": 422,
+      "derrotas": 336,
+      "ultima_partida": 1788299490012
+    },
+    {
+      "nombre": "EnasEnantiwnDio#Plz",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 16,
+      "derrotas": 17,
+      "ultima_partida": 1769601184466
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.210526315789474
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.6481481481481481
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1785714285714284
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.942857142857143
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.84375
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4705882352941178
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.96875
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 28,
+    "losses": 25,
+    "timePlayed": 80582
+  }
+}

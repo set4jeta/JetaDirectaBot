@@ -10,62 +10,72 @@
       "twitter": "https://twitter.com/yokah_lol",
       "twitch": "https://twitch.tv/yokah"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/yokah.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "TwTv Yokah#AKALI",
-      "nivel": 1148,
+      "nombre": "Yokah#AKALI",
+      "nivel": 1263,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 629,
-      "victorias": 488,
-      "derrotas": 464,
-      "ultima_partida": 1753390876646
+      "lp": 1847,
+      "victorias": 387,
+      "derrotas": 343,
+      "ultima_partida": 1788276516814
+    },
+    {
+      "nombre": "TwTv Yokah#TTV",
+      "nivel": 164,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 52,
+      "victorias": 78,
+      "derrotas": 81,
+      "ultima_partida": 1784072820113
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Akali",
-      "partidas": 60,
-      "victorias": 25,
-      "winrate": "41.7%",
-      "kda_promedio": 3.0617760617760617
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 4.103448275862069
     },
     {
-      "nombre": "Seraphine",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.125
-    },
-    {
-      "nombre": "Nautilus",
+      "nombre": "Qiyana",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Ahri",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.75
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Ezreal",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 26,
-    "losses": 41,
-    "timePlayed": 109137
+    "games": 13,
+    "wins": 9,
+    "losses": 4,
+    "timePlayed": 20415
   }
 }

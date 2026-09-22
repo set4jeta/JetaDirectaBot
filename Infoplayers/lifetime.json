@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "lifetime",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/lifetimelol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "lifetime#zoer",
+      "nivel": 426,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1869,
+      "victorias": 493,
+      "derrotas": 440,
+      "ultima_partida": 1788379238608
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "RekSai",
+      "partidas": 23,
+      "victorias": 14,
+      "winrate": "60.9%",
+      "kda_promedio": 3.696969696969697
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 14,
+      "victorias": 5,
+      "winrate": "35.7%",
+      "kda_promedio": 1.8144329896907216
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0694444444444446
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.135593220338983
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.4262295081967213
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.266666666666667
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.3888888888888888
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 101,
+    "wins": 53,
+    "losses": 48,
+    "timePlayed": 161140
+  }
+}

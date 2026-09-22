@@ -7,109 +7,109 @@
     "pais": "Turkey",
     "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/gakgoslol1\\t"
+      "twitter": "https://twitter.com/gakgoslol1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/gakgos.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FLY.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "FLY Gakgos#F L Y",
-      "nivel": 47,
-      "region": "NA1",
-      "liga": "CHALLENGER I",
-      "lp": 1016,
-      "victorias": 116,
-      "derrotas": 56,
-      "ultima_partida": 1753769411011
-    },
-    {
-      "nombre": "Never Ending#Moses",
-      "nivel": 791,
+      "nombre": "G4KG05#0023",
+      "nivel": 814,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1128,
-      "victorias": 495,
-      "derrotas": 424,
-      "ultima_partida": 1752098932438
+      "lp": 1568,
+      "victorias": 632,
+      "derrotas": 530,
+      "ultima_partida": 1766246706071
+    },
+    {
+      "nombre": "FLY Gakgos#F L Y",
+      "nivel": 96,
+      "region": "NA1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 340,
+      "derrotas": 245,
+      "ultima_partida": 1759900365011
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 15,
-      "victorias": 12,
-      "winrate": "80.0%",
-      "kda_promedio": 3.492063492063492
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 14,
-      "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 1.96875
+      "nombre": "Vayne",
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 2.2333333333333334
     },
     {
       "nombre": "Jayce",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 1.943661971830986
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.630434782608696
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 2.9761904761904763
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.1372549019607843
     },
     {
       "nombre": "Rumble",
-      "partidas": 11,
-      "victorias": 8,
-      "winrate": "72.7%",
-      "kda_promedio": 3.8085106382978724
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.71875
     },
     {
-      "nombre": "Vladimir",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2325581395348837
+      "nombre": "Zaahen",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Irelia",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.5142857142857142
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5833333333333335
-    },
-    {
-      "nombre": "Vayne",
       "partidas": 5,
-      "victorias": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.9428571428571428
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 4.2105263157894735
+      "kda_promedio": 2.8666666666666667
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4615384615384615
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 133,
-    "wins": 85,
-    "losses": 48,
-    "timePlayed": 214040
+    "games": 59,
+    "wins": 33,
+    "losses": 26,
+    "timePlayed": 96044
   }
 }

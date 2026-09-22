@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Mahonix",
     "nombre_real": "Anthonie van Bemmelen",
-    "edad": 23,
-    "equipo": "Senshi eSports (Benelux Team)",
+    "edad": 24,
+    "equipo": "Reveal Multigaming",
     "pais": "Netherlands",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/MahonixMan",
       "twitch": "https://www.twitch.tv/mahonixman"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "SNSH Mahonix#BROCK",
-      "nivel": 1365,
+      "nombre": "RVL Mahonix#BROCK",
+      "nivel": 1575,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 870,
-      "victorias": 563,
-      "derrotas": 529,
-      "ultima_partida": 1753744334127
+      "lp": 1803,
+      "victorias": 631,
+      "derrotas": 575,
+      "ultima_partida": 1788220244736
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Rell",
-      "partidas": 19,
-      "victorias": 8,
-      "winrate": "42.1%",
-      "kda_promedio": 3.586206896551724
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 2.9583333333333335
-    },
-    {
-      "nombre": "Nautilus",
       "partidas": 12,
       "victorias": 5,
       "winrate": "41.7%",
-      "kda_promedio": 2.8813559322033897
+      "kda_promedio": 4.125
     },
     {
-      "nombre": "Braum",
+      "nombre": "Leona",
       "partidas": 11,
-      "victorias": 9,
-      "winrate": "81.8%",
-      "kda_promedio": 4.909090909090909
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 4.256410256410256
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 5.476190476190476
-    },
-    {
-      "nombre": "TahmKench",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.6666666666666665
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.5245901639344264
     },
     {
       "nombre": "Alistar",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.076923076923077
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2
     },
     {
-      "nombre": "Karma",
+      "nombre": "Rakan",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.916666666666667
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Nautilus",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3
+      "kda_promedio": 2.0357142857142856
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6428571428571428
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 103,
-    "wins": 55,
-    "losses": 48,
-    "timePlayed": 166896
+    "games": 68,
+    "wins": 32,
+    "losses": 36,
+    "timePlayed": 111844
   }
 }

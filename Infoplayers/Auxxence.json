@@ -1,0 +1,112 @@
+{
+  "info_jugador": {
+    "nombre": "Auxxence",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/auxxence_lol",
+      "twitch": "https://twitch.tv/auxxencelol1"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "AUXXENCE CHALLXD#0000",
+      "nivel": 824,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 50,
+      "victorias": 528,
+      "derrotas": 452,
+      "ultima_partida": 1788143457541
+    },
+    {
+      "nombre": "AUXXENCE#RK1XD",
+      "nivel": 236,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 226,
+      "derrotas": 172,
+      "ultima_partida": 1780060548170
+    },
+    {
+      "nombre": "AUXXENCE AHHAHAH#KRAM",
+      "nivel": 55,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1761177072327
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.428571428571429
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8888888888888888
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.8
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 14
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 5,
+    "losses": 4,
+    "timePlayed": 13793
+  }
+}

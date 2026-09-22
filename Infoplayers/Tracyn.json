@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Tracyn",
+    "nombre_real": "Sebastian Wojtoń",
+    "edad": 20,
+    "equipo": "Team Heretics",
+    "pais": "Poland",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tracynlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "blueskies777#EUW",
+      "nivel": 500,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2662,
+      "victorias": 351,
+      "derrotas": 277,
+      "ultima_partida": 1788120183450
+    },
+    {
+      "nombre": "bedoes2115#SMOKI",
+      "nivel": 222,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 84,
+      "victorias": 378,
+      "derrotas": 310,
+      "ultima_partida": 1787595401231
+    },
+    {
+      "nombre": "highlighter#eyeez",
+      "nivel": 866,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 6,
+      "derrotas": 4,
+      "ultima_partida": 1785365869119
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5416666666666667
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3125
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.923076923076923
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.75
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 24,
+    "wins": 14,
+    "losses": 10,
+    "timePlayed": 35782
+  }
+}

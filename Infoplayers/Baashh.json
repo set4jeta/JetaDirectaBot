@@ -2,91 +2,105 @@
   "info_jugador": {
     "nombre": "Baashh",
     "nombre_real": "Oliver Klitfelt",
-    "edad": 20,
-    "equipo": "Karmine Corp Blue Stars",
+    "edad": 21,
+    "equipo": "Dynasty",
     "pais": "Denmark",
-    "contrato_hasta": "2025-09-21T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/BAASHHW",
       "twitch": "https://twitch.tv/baashh2"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KCBS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "TTV BAASHH#EUW",
-      "nivel": 762,
+      "nivel": 883,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 972,
-      "victorias": 283,
-      "derrotas": 242,
-      "ultima_partida": 1753741872660
+      "lp": 2129,
+      "victorias": 328,
+      "derrotas": 238,
+      "ultima_partida": 1789986415502
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 5.428571428571429
+      "nombre": "DrMundo",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 6.434782608695652
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 4,
-      "victorias": 4,
+      "nombre": "Shyvana",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 6.185185185185185
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.3137254901960786
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 5.9
+      "kda_promedio": 5.846153846153846
     },
     {
-      "nombre": "Lillia",
+      "nombre": "Chogath",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.857142857142857
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Khazix",
       "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "winrate": "100.0%",
+      "kda_promedio": 13.5
     },
     {
-      "nombre": "Naafiri",
+      "nombre": "KSante",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
+      "victorias": 1,
+      "winrate": "100.0%",
       "kda_promedio": 8
     },
     {
-      "nombre": "Vi",
+      "nombre": "Malzahar",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2857142857142858
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 10,
-    "losses": 8,
-    "timePlayed": 27977
+    "games": 42,
+    "wins": 25,
+    "losses": 17,
+    "timePlayed": 66032
   }
 }

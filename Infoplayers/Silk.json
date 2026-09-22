@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Silk",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/silk_lol",
+      "twitch": "https://www.twitch.tv/silk_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Silk#yzy",
+      "nivel": 1071,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1819,
+      "victorias": 484,
+      "derrotas": 432,
+      "ultima_partida": 1788357072249
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Locke",
+      "partidas": 25,
+      "victorias": 11,
+      "winrate": "44.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.1948051948051948
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 3.3877551020408165
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.6470588235294117
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.4130434782608696
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 4.138888888888889
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.3653846153846154
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.119047619047619
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.0232558139534884
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1818181818181817
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 192,
+    "wins": 95,
+    "losses": 97,
+    "timePlayed": 297702
+  }
+}

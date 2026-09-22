@@ -10,107 +10,107 @@
       "twitter": "https://www.twitter.com/avarice61",
       "twitch": "https://www.twitch.tv/avarice61"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Greed#1031",
-      "nivel": 111,
+      "nombre": "avarice61#51483",
+      "nivel": 980,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1285,
-      "victorias": 234,
-      "derrotas": 192,
-      "ultima_partida": 1753645223496
+      "liga": "GRANDMASTER I",
+      "lp": 2203,
+      "victorias": 313,
+      "derrotas": 215,
+      "ultima_partida": 1789746135172
     },
     {
-      "nombre": "avarice61#PCS",
-      "nivel": 889,
+      "nombre": "Greed#1031",
+      "nivel": 197,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1311,
-      "victorias": 247,
-      "derrotas": 192,
-      "ultima_partida": 1753559504160
+      "lp": 2678,
+      "victorias": 331,
+      "derrotas": 231,
+      "ultima_partida": 1789396092900
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "KogMaw",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6129032258064515
-    },
-    {
       "nombre": "Lucian",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 6.5
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.7037037037037037
     },
     {
       "nombre": "Aphelios",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 1.6363636363636365
+      "kda_promedio": 2.1153846153846154
     },
     {
-      "nombre": "Smolder",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 5.2
-    },
-    {
-      "nombre": "Corki",
+      "nombre": "KogMaw",
       "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.45
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.076923076923077
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 3,
-      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 6
     },
     {
-      "nombre": "Zeri",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.1111111111111112
-    },
-    {
-      "nombre": "Kaisa",
+      "nombre": "Gragas",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 4.571428571428571
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
-    "wins": 25,
-    "losses": 25,
-    "timePlayed": 82128
+    "games": 30,
+    "wins": 11,
+    "losses": 19,
+    "timePlayed": 46866
   }
 }

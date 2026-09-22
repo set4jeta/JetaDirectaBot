@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "ShizuOo",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "shizuOo#9643",
+      "nivel": 1065,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1873,
+      "victorias": 605,
+      "derrotas": 560,
+      "ultima_partida": 1788408890208
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 32,
+      "victorias": 18,
+      "winrate": "56.2%",
+      "kda_promedio": 3.5414012738853504
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 16,
+      "victorias": 11,
+      "winrate": "68.8%",
+      "kda_promedio": 5.314814814814815
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 15,
+      "victorias": 12,
+      "winrate": "80.0%",
+      "kda_promedio": 5.63265306122449
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.7037037037037037
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.421052631578948
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.206896551724138
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1111111111111112
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 89,
+    "wins": 56,
+    "losses": 33,
+    "timePlayed": 148767
+  }
+}

@@ -2,76 +2,57 @@
   "info_jugador": {
     "nombre": "Myrwn",
     "nombre_real": "Alex Pastor Villarejo",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Movistar KOI",
     "pais": "Spain",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/Myrwnn"
+      "twitter": "https://twitter.com/Myrwnn",
+      "twitch": "https://www.twitch.tv/myrwnn"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/myrwn.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "MANZANA VAPE#TFNYS",
-      "nivel": 1033,
+      "nombre": "daemon#mirin",
+      "nivel": 1118,
       "region": "EUW1",
       "liga": "DIAMOND II",
-      "lp": 60,
-      "victorias": 73,
-      "derrotas": 53,
-      "ultima_partida": 1753591526446
+      "lp": 65,
+      "victorias": 112,
+      "derrotas": 59,
+      "ultima_partida": 1788090787344
     },
     {
       "nombre": "Lamine Yamal#Myrwn",
       "nivel": 53,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 155,
-      "derrotas": 83,
-      "ultima_partida": 1752420884207
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1762365572390
     },
     {
-      "nombre": "A VOLAAAAR#FRAN",
-      "nivel": 167,
+      "nombre": "California Gurls#MRWN",
+      "nivel": 42,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": 1752177721880
+      "ultima_partida": 1761935872023
     },
     {
       "nombre": "Bb trickz#Tipz",
       "nivel": 37,
       "region": "NA1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 46,
-      "derrotas": 7,
-      "ultima_partida": 1751700647691
-    },
-    {
-      "nombre": "California Gurls#MRWN",
-      "nivel": 41,
-      "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 74,
-      "derrotas": 38,
-      "ultima_partida": 1750284679185
-    },
-    {
-      "nombre": "Mualani C6#Myrwn",
-      "nivel": null,
-      "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1751700647691
     }
   ],
   "campeones_recientes": [],

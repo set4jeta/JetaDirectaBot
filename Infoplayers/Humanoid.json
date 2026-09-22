@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Humanoid",
+    "nombre_real": "Marek Brázda",
+    "edad": 26,
+    "equipo": "Team Vitality",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Humanoidlol",
+      "twitch": "https://twitch.tv/humanoiidd"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Marek Brazda1#DOG",
+      "nivel": 1102,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2569,
+      "victorias": 349,
+      "derrotas": 246,
+      "ultima_partida": 1788255408489
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Locke",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5128205128205128
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.8
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 14,
+    "wins": 8,
+    "losses": 6,
+    "timePlayed": 21516
+  }
+}

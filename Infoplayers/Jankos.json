@@ -3,36 +3,46 @@
     "nombre": "Jankos",
     "nombre_real": "Marcin Jankowski",
     "edad": 30,
-    "equipo": "Natus Vincere",
+    "equipo": "G2 Esports",
     "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://www.twitter.com/JankosLoL",
-      "twitch": "https://www.twitch.tv/jankos"
+      "twitter": "https://twitter.com/JankosLoL",
+      "twitch": "https://twitch.tv/Jankos"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/jankos.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NORD.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "CantMissAuto#Qxdd",
-      "nivel": 113,
+      "nombre": "G2 Jankos#unc2",
+      "nivel": 1104,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 448,
-      "victorias": 256,
-      "derrotas": 225,
-      "ultima_partida": 1753723836527
+      "liga": "CHALLENGER I",
+      "lp": 1284,
+      "victorias": 582,
+      "derrotas": 508,
+      "ultima_partida": 1766400964220
     },
     {
-      "nombre": "Jankos#MYBAD",
-      "nivel": 1060,
+      "nombre": "CantMissAuto#Qxdd",
+      "nivel": 128,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1036,
-      "victorias": 355,
-      "derrotas": 309,
-      "ultima_partida": 1753637778782
+      "liga": "MASTER I",
+      "lp": 155,
+      "victorias": 346,
+      "derrotas": 297,
+      "ultima_partida": 1766239268387
+    },
+    {
+      "nombre": "아저씨 Jankos#qxdd",
+      "nivel": 61,
+      "region": "KR",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 216,
+      "derrotas": 118,
+      "ultima_partida": 1762600802187
     },
     {
       "nombre": "Brickwall#big",
@@ -47,80 +57,80 @@
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nidalee",
+      "nombre": "Chogath",
       "partidas": 16,
-      "victorias": 11,
-      "winrate": "68.8%",
-      "kda_promedio": 4.070422535211268
+      "victorias": 9,
+      "winrate": "56.2%",
+      "kda_promedio": 3.2025316455696204
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 13,
+      "nombre": "Nidalee",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 3.8412698412698414
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 12,
       "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 4
+      "winrate": "58.3%",
+      "kda_promedio": 3.764705882352941
     },
     {
-      "nombre": "Viego",
-      "partidas": 10,
-      "victorias": 2,
-      "winrate": "20.0%",
-      "kda_promedio": 1.894736842105263
+      "nombre": "Sylas",
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9491525423728815
     },
     {
-      "nombre": "Trundle",
-      "partidas": 4,
+      "nombre": "Zaahen",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.7454545454545456
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.631578947368421
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.8823529411764706
+      "winrate": "37.5%",
+      "kda_promedio": 2.1607142857142856
     },
     {
       "nombre": "JarvanIV",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.2380952380952381
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.4705882352941178
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 3,
+      "nombre": "Teemo",
+      "partidas": 6,
       "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0285714285714285
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 5,
+      "victorias": 5,
       "winrate": "100.0%",
-      "kda_promedio": 7
+      "kda_promedio": 3.2580645161290325
     },
     {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.9473684210526314
-    },
-    {
-      "nombre": "Fizz",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5333333333333334
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.217391304347826
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 81,
-    "wins": 41,
-    "losses": 40,
-    "timePlayed": 131660
+    "games": 142,
+    "wins": 77,
+    "losses": 65,
+    "timePlayed": 231636
   }
 }

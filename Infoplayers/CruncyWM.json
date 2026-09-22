@@ -7,98 +7,108 @@
     "pais": null,
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitch": "\\thttps://www.twitch.tv/cruncywm"
+      "twitch": "https://www.twitch.tv/cruncywm"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "twtv CruncyWM#BLACK",
-      "nivel": 67,
+      "nombre": "CruncyWM#TW TV",
+      "nivel": 149,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 996,
-      "victorias": 94,
-      "derrotas": 31,
-      "ultima_partida": 1753751982114
+      "liga": "CHALLENGER I",
+      "lp": 3197,
+      "victorias": 447,
+      "derrotas": 293,
+      "ultima_partida": 1788274577644
     },
     {
-      "nombre": "Tw tv CruncyWM#clown",
+      "nombre": "twtv CruncyWM#BLACK",
+      "nivel": 68,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1753830105387
+    },
+    {
+      "nombre": "sdfssfsd#23123",
       "nivel": 51,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 607,
-      "victorias": 136,
-      "derrotas": 58,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1752024147674
     },
     {
-      "nombre": "CruncyWM#1737",
+      "nombre": "dfgdfgdft3#adsfs",
       "nivel": 45,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 588,
-      "victorias": 101,
-      "derrotas": 34,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1751814061867
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Sylas",
-      "partidas": 102,
-      "victorias": 78,
-      "winrate": "76.5%",
-      "kda_promedio": 5.543352601156069
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 14,
-      "victorias": 13,
-      "winrate": "92.9%",
-      "kda_promedio": 4.603448275862069
-    },
-    {
-      "nombre": "Leblanc",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.222222222222222
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Udyr",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3.8
-    },
-    {
-      "nombre": "Xerath",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 14
+      "partidas": 31,
+      "victorias": 21,
+      "winrate": "67.7%",
+      "kda_promedio": 5.202020202020202
     },
     {
       "nombre": "XinZhao",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 1.0638297872340425
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Pantheon",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 125,
-    "wins": 94,
-    "losses": 31,
-    "timePlayed": 191407
+    "games": 44,
+    "wins": 26,
+    "losses": 18,
+    "timePlayed": 70341
   }
 }

@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Azuka",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/lolazuka"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "qeqweasf#asdf",
+      "nivel": 260,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2143,
+      "victorias": 1033,
+      "derrotas": 939,
+      "ultima_partida": 1789999212041
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1904761904761905
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4473684210526316
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3421052631578947
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.893617021276596
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.357142857142857
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3636363636363638
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 24,
+    "losses": 34,
+    "timePlayed": 99475
+  }
+}

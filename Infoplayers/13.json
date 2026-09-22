@@ -1,126 +1,146 @@
 {
   "info_jugador": {
     "nombre": "13",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
-    "contrato_hasta": null,
+    "nombre_real": "Zayan Tareau",
+    "edad": 20,
+    "equipo": "Movistar KOI Fénix",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://www.twitter.com/13_lol1",
       "twitch": "https://www.twitch.tv/13_lol1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KOI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "KOI 13#Tukan",
-      "nivel": 154,
+      "nombre": "Mumei Kaneshige#ランク1",
+      "nivel": 81,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1037,
-      "victorias": 338,
-      "derrotas": 290,
-      "ultima_partida": 1753763460354
+      "lp": 2598,
+      "victorias": 216,
+      "derrotas": 128,
+      "ultima_partida": 1789566194179
     },
     {
-      "nombre": "TEDDY VIPER1#박도현",
-      "nivel": 145,
+      "nombre": "adc1183100826愛#1412",
+      "nivel": 264,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 139,
-      "victorias": 162,
-      "derrotas": 124,
-      "ultima_partida": 1753642775253
+      "lp": 339,
+      "victorias": 266,
+      "derrotas": 187,
+      "ultima_partida": 1789306124792
     },
     {
-      "nombre": "JUGKING#DWG13",
-      "nivel": 121,
+      "nombre": "박재혁#K13",
+      "nivel": 129,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 54,
-      "victorias": 112,
-      "derrotas": 95,
-      "ultima_partida": 1752960448641
+      "liga": "EMERALD I",
+      "lp": 55,
+      "victorias": 3,
+      "derrotas": 2,
+      "ultima_partida": 1788949583640
+    },
+    {
+      "nombre": "1 3#EUW13",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1771957030710
+    },
+    {
+      "nombre": "GOONING STREAK#NUTS",
+      "nivel": 57,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1763911838412
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 2.769230769230769
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.341463414634146
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.066666666666667
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.6875
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 4.4
-    },
-    {
       "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.772727272727273
-    },
-    {
-      "nombre": "Varus",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 2.0454545454545454
+      "kda_promedio": 1.5862068965517242
     },
     {
-      "nombre": "Xayah",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Ezreal",
+      "nombre": "Zeri",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 0.8571428571428571
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.75
     },
     {
       "nombre": "Caitlyn",
       "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.714285714285714
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 76,
-    "wins": 36,
-    "losses": 40,
-    "timePlayed": 125183
+    "games": 31,
+    "wins": 21,
+    "losses": 10,
+    "timePlayed": 48360
   }
 }

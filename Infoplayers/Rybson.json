@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Rybson",
+    "nombre_real": "Artur Gębicz",
+    "edad": 25,
+    "equipo": "StormMedia Fajnie Mieć Skład",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Rybson__",
+      "twitch": "https://www.twitch.tv/rybsonlol_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Koneser#mymlo",
+      "nivel": 1298,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2046,
+      "victorias": 821,
+      "derrotas": 723,
+      "ultima_partida": 1788356339166
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.577777777777778
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.0869565217391304
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.636363636363637
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.375
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.090909090909091
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 33,
+    "losses": 19,
+    "timePlayed": 81773
+  }
+}

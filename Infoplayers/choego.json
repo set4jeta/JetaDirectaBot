@@ -1,80 +1,115 @@
 {
   "info_jugador": {
     "nombre": "choego",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Damian Bajor",
+    "edad": 28,
+    "equipo": "Baam Esports",
+    "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/choego123"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/SNSH.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "chöego#EUW",
-      "nivel": 574,
+      "nivel": 703,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1111,
-      "victorias": 239,
-      "derrotas": 200,
-      "ultima_partida": 1753724448962
+      "liga": "GRANDMASTER I",
+      "lp": 2015,
+      "victorias": 592,
+      "derrotas": 500,
+      "ultima_partida": 1788367860682
     },
     {
       "nombre": "choego#0001",
-      "nivel": 665,
+      "nivel": 702,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 156,
-      "victorias": 237,
-      "derrotas": 215,
-      "ultima_partida": 1751893948343
+      "liga": "EMERALD II",
+      "lp": 95,
+      "victorias": 4,
+      "derrotas": 10,
+      "ultima_partida": 1781988526820
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "MissFortune",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 5.217391304347826
+      "nombre": "Caitlyn",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 2.383720930232558
     },
     {
-      "nombre": "Corki",
+      "nombre": "Ezreal",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8524590163934427
+    },
+    {
+      "nombre": "Jhin",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.75
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.909090909090909
     },
     {
-      "nombre": "Xayah",
+      "nombre": "Orianna",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8205128205128205
+    },
+    {
+      "nombre": "Shen",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.4444444444444444
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Kaisa",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.375
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 17,
-    "wins": 10,
-    "losses": 7,
-    "timePlayed": 22962
+    "games": 55,
+    "wins": 29,
+    "losses": 26,
+    "timePlayed": 85965
   }
 }

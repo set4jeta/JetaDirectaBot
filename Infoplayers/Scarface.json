@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Scarface",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Scarf4ceLoL"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "HOMEOFFICEABUSER#69420",
+      "nivel": 1138,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2236,
+      "victorias": 261,
+      "derrotas": 202,
+      "ultima_partida": 1788400112278
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Camille",
+      "partidas": 60,
+      "victorias": 37,
+      "winrate": "61.7%",
+      "kda_promedio": 3.0508474576271185
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 56,
+      "victorias": 28,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0125
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 38,
+      "victorias": 23,
+      "winrate": "60.5%",
+      "kda_promedio": 2.509677419354839
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 22,
+      "victorias": 19,
+      "winrate": "86.4%",
+      "kda_promedio": 5.304347826086956
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 21,
+      "victorias": 11,
+      "winrate": "52.4%",
+      "kda_promedio": 1.8288288288288288
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 8,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.44
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.7083333333333335
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.263157894736842
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 0.8333333333333334
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 272,
+    "wins": 148,
+    "losses": 124,
+    "timePlayed": 434494
+  }
+}

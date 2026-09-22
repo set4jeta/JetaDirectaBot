@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "MathisV",
+    "nombre_real": "Mathis Vannieuwenuyse",
+    "edad": 18,
+    "equipo": "Dynasty",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/MathisV_LoL"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MathisV#ARCHE",
+      "nivel": 940,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2800,
+      "victorias": 460,
+      "derrotas": 353,
+      "ultima_partida": 1788190058534
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jhin",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9642857142857142
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.14285714285714285
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 24,
+    "losses": 27,
+    "timePlayed": 78776
+  }
+}

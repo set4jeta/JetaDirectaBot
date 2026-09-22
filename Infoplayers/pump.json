@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "pump",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/pumpyblo"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "youtube pumpTM#1070",
+      "nivel": 562,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1573,
+      "victorias": 262,
+      "derrotas": 224,
+      "ultima_partida": 1788376274475
+    },
+    {
+      "nombre": "twitch pumptm#1070",
+      "nivel": 165,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2581,
+      "victorias": 457,
+      "derrotas": 321,
+      "ultima_partida": 1788340983699
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Leblanc",
+      "partidas": 57,
+      "victorias": 29,
+      "winrate": "50.9%",
+      "kda_promedio": 3.928205128205128
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 1.5660377358490567
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5428571428571427
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.9411764705882353
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.125
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 96,
+    "wins": 45,
+    "losses": 51,
+    "timePlayed": 146823
+  }
+}

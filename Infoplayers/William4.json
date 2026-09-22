@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "William4",
+    "nombre_real": "William Nørbygaard",
+    "edad": 20,
+    "equipo": "beGenius ESC",
+    "pais": "Denmark",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/William4lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "William4#EUW",
+      "nivel": 897,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1829,
+      "victorias": 302,
+      "derrotas": 255,
+      "ultima_partida": 1788375561675
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8095238095238093
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3666666666666667
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5625
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.8
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 25,
+    "wins": 13,
+    "losses": 12,
+    "timePlayed": 40729
+  }
+}

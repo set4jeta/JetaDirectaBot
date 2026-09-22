@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "R0BIN",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "GEN我会赢PWmidking#mio韩服",
+      "nivel": 497,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2194,
+      "victorias": 723,
+      "derrotas": 624,
+      "ultima_partida": 1788222325515
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Corki",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.041095890410959
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.0526315789473686
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.260869565217391
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 4.809523809523809
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9583333333333335
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 8.166666666666666
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.434782608695652
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.2142857142857144
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 60,
+    "wins": 35,
+    "losses": 25,
+    "timePlayed": 94059
+  }
+}

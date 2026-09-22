@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "LADYBUG",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/nestor13lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "4GOOD#BRuj1",
+      "nivel": 1004,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1077,
+      "victorias": 623,
+      "derrotas": 559,
+      "ultima_partida": 1766008368745
+    },
+    {
+      "nombre": "favorite crime#nae",
+      "nivel": 87,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 64,
+      "victorias": 265,
+      "derrotas": 233,
+      "ultima_partida": 1764753501708
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 1.9545454545454546
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.022222222222222
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.157894736842105
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.642857142857143
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.3181818181818183
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 10.4
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.4545454545454546
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 58,
+    "wins": 32,
+    "losses": 26,
+    "timePlayed": 88170
+  }
+}

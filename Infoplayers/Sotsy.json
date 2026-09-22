@@ -5,102 +5,88 @@
     "edad": 26,
     "equipo": "GameWard",
     "pais": "France",
-    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Sotsy_",
       "twitch": "https://www.twitch.tv/sotsy_"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/sotsy.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GW.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "flow state#6996",
-      "nivel": 1632,
+      "nombre": "Sotsy92i#ZER",
+      "nivel": 1753,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 767,
-      "victorias": 749,
-      "derrotas": 720,
-      "ultima_partida": 1753734415101
+      "lp": 858,
+      "victorias": 1110,
+      "derrotas": 1074,
+      "ultima_partida": 1766359202414
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yorick",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 1.9275362318840579
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.3972602739726026
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 10,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 1.5238095238095237
+      "winrate": "75.0%",
+      "kda_promedio": 1.5862068965517242
     },
     {
       "nombre": "Shen",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5277777777777777
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.090909090909091
     },
     {
-      "nombre": "Gragas",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 1.358974358974359
+      "nombre": "Kennen",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
     },
     {
-      "nombre": "Gwen",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7428571428571429
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9047619047619048
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.875
     },
     {
       "nombre": "Sett",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 1.3448275862068966
-    },
-    {
-      "nombre": "Udyr",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.3055555555555554
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
     },
     {
       "nombre": "Volibear",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 0.7894736842105263
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 111,
-    "wins": 48,
-    "losses": 63,
-    "timePlayed": 172208
+    "games": 17,
+    "wins": 9,
+    "losses": 8,
+    "timePlayed": 28071
   }
 }

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pawełek",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Pawelek_lol",
+      "twitch": "https://twitch.tv/qq_pawelek6"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "INFLATEDPawełek#INFL",
+      "nivel": 188,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2445,
+      "victorias": 439,
+      "derrotas": 350,
+      "ultima_partida": 1788344455273
+    },
+    {
+      "nombre": "QQ Pawelek6#EUW",
+      "nivel": 902,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 232,
+      "victorias": 185,
+      "derrotas": 151,
+      "ultima_partida": 1788262948445
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9642857142857142
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.0625
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9411764705882353
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9565217391304348
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 24,
+    "wins": 13,
+    "losses": 11,
+    "timePlayed": 37974
+  }
+}

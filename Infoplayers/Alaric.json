@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Alaric",
+    "nombre_real": "Erwin Cader",
+    "edad": 20,
+    "equipo": "Karmine Corp Blue Stars",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/alaric_lol",
+      "twitch": "https://twitch.tv/alaricey"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "140 6#2027",
+      "nivel": 464,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1620,
+      "victorias": 630,
+      "derrotas": 551,
+      "ultima_partida": 1788284441381
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Karma",
+      "partidas": 24,
+      "victorias": 8,
+      "winrate": "33.3%",
+      "kda_promedio": 2.136094674556213
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 18,
+      "victorias": 14,
+      "winrate": "77.8%",
+      "kda_promedio": 3.4537037037037037
+    },
+    {
+      "nombre": "Zac",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 2.641304347826087
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.638888888888889
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 2.9220779220779223
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 2.4310344827586206
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 4.7317073170731705
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 161,
+    "wins": 88,
+    "losses": 73,
+    "timePlayed": 262229
+  }
+}

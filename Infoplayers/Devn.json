@@ -10,107 +10,107 @@
       "twitter": "https://www.twitter.com/Devn_Nam",
       "twitch": "https://www.twitch.tv/devn_1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VER.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "nicht mehr leben#devn",
-      "nivel": 1036,
+      "nombre": "normale kartofel#devn",
+      "nivel": 1217,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1211,
-      "victorias": 499,
-      "derrotas": 439,
-      "ultima_partida": 1753728835038
+      "lp": 2391,
+      "victorias": 599,
+      "derrotas": 513,
+      "ultima_partida": 1788361532696
     },
     {
       "nombre": "Yarack Odama#EUW",
-      "nivel": 112,
+      "nivel": 141,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 612,
-      "victorias": 86,
-      "derrotas": 54,
-      "ultima_partida": 1753696729356
+      "lp": 5,
+      "victorias": 190,
+      "derrotas": 124,
+      "ultima_partida": 1788005070127
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "MissFortune",
-      "partidas": 14,
-      "victorias": 10,
-      "winrate": "71.4%",
-      "kda_promedio": 4.256410256410256
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.9310344827586206
-    },
-    {
       "nombre": "Jhin",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.888888888888889
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.730769230769231
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.642857142857143
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3846153846153846
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.2173913043478262
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 3.736842105263158
     },
     {
       "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.8214285714285716
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nocturne",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.0588235294117645
+      "kda_promedio": 3.111111111111111
     },
     {
       "nombre": "Kaisa",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.75
+      "kda_promedio": 1.3846153846153846
     },
     {
-      "nombre": "Sion",
+      "nombre": "Nautilus",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.9
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 37,
-    "losses": 30,
-    "timePlayed": 105230
+    "games": 43,
+    "wins": 24,
+    "losses": 19,
+    "timePlayed": 67937
   }
 }

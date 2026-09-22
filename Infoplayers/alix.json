@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "alix",
     "nombre_real": "Alihan Özdemir",
-    "edad": 18,
-    "equipo": "Crvena zvezda Esports",
+    "edad": 19,
+    "equipo": "Gamespace Mediterranean College Esports",
     "pais": "Turkey",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/alixlol0",
       "twitch": "https://www.twitch.tv/alixloll"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Vincent Masuka#11111",
-      "nivel": 260,
+      "nombre": "alix de souza#1453",
+      "nivel": 359,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 45,
-      "victorias": 246,
-      "derrotas": 214,
-      "ultima_partida": 1753648535868
+      "liga": "CHALLENGER I",
+      "lp": 2936,
+      "victorias": 484,
+      "derrotas": 397,
+      "ultima_partida": 1788377228334
     },
     {
       "nombre": "alix de souza#1111",
-      "nivel": 785,
+      "nivel": 893,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1305,
-      "victorias": 521,
-      "derrotas": 458,
-      "ultima_partida": 1753614017092
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 127,
+      "derrotas": 103,
+      "ultima_partida": 1786728275876
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
-      "partidas": 19,
-      "victorias": 15,
-      "winrate": "78.9%",
-      "kda_promedio": 4
+      "nombre": "Cassiopeia",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.735294117647059
     },
     {
       "nombre": "Sylas",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.0961538461538463
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.1463414634146343
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.962962962962963
-    },
-    {
-      "nombre": "Azir",
       "partidas": 5,
       "victorias": 2,
       "winrate": "40.0%",
-      "kda_promedio": 1.7179487179487178
+      "kda_promedio": 2.1153846153846154
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 4,
+      "nombre": "Yone",
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.125
+      "winrate": "40.0%",
+      "kda_promedio": 2
     },
     {
-      "nombre": "Viego",
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.28
+    },
+    {
+      "nombre": "Ryze",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 1.4545454545454546
+      "kda_promedio": 1.8695652173913044
     },
     {
-      "nombre": "Irelia",
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9047619047619047
+    },
+    {
+      "nombre": "Yasuo",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 2.357142857142857
+      "kda_promedio": 1.6875
     },
     {
-      "nombre": "LeeSin",
-      "partidas": 3,
+      "nombre": "Aurora",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.2941176470588234
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
     },
     {
-      "nombre": "Orianna",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
-    "wins": 42,
-    "losses": 35,
-    "timePlayed": 122922
+    "games": 54,
+    "wins": 27,
+    "losses": 27,
+    "timePlayed": 90414
   }
 }

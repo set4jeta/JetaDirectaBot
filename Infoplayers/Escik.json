@@ -2,115 +2,66 @@
   "info_jugador": {
     "nombre": "Escik",
     "nombre_real": "Tomasz&nbsp;Maciej Skwarczyński",
-    "edad": 23,
+    "edad": 24,
     "equipo": "UCAM Esports",
     "pais": "Poland",
-    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "contrato_hasta": "2026-11-18T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Esciklol",
       "twitch": "https://www.twitch.tv/esciklol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/escik.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "ESCIK#EU1",
-      "nivel": 802,
+      "nivel": 888,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1192,
-      "victorias": 257,
-      "derrotas": 212,
-      "ultima_partida": 1753615626015
+      "lp": 2738,
+      "victorias": 283,
+      "derrotas": 190,
+      "ultima_partida": 1788303134674
     },
     {
-      "nombre": "pickaboowhatchu#doing",
-      "nivel": 249,
+      "nombre": "ESCIK#EU2",
+      "nivel": 286,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1030,
-      "victorias": 216,
-      "derrotas": 171,
-      "ultima_partida": 1753552327367
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 207,
+      "derrotas": 117,
+      "ultima_partida": 1781431806183
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ahri",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.777777777777778
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
     },
     {
       "nombre": "Syndra",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.1875
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.259259259259259
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.333333333333333
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.294117647058823
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.230769230769231
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 3,
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.2941176470588234
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.235294117647059
+      "winrate": "100.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 28,
-    "losses": 23,
-    "timePlayed": 78948
+    "games": 3,
+    "wins": 2,
+    "losses": 1,
+    "timePlayed": 3572
   }
 }

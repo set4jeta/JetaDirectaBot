@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Xaro",
+    "nombre_real": "Kacper Miftadinow",
+    "edad": 26,
+    "equipo": "Barcząca Esports by Yumisu",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Xaro#1337",
+      "nivel": 551,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2091,
+      "victorias": 1040,
+      "derrotas": 959,
+      "ultima_partida": 1788371234297
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Locke",
+      "partidas": 27,
+      "victorias": 15,
+      "winrate": "55.6%",
+      "kda_promedio": 3.134228187919463
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 15,
+      "victorias": 7,
+      "winrate": "46.7%",
+      "kda_promedio": 2.8732394366197185
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.323943661971831
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.0476190476190474
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.5128205128205128
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.730769230769231
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.945945945945946
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8095238095238095
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.9523809523809526
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 107,
+    "wins": 53,
+    "losses": 54,
+    "timePlayed": 175176
+  }
+}

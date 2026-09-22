@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "Peppe",
     "nombre_real": "Petros Berdebes",
-    "edad": 23,
-    "equipo": "Team Phantasma",
+    "edad": 24,
+    "equipo": "Valerion",
     "pais": "Greece",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Peppe_Gre",
       "twitch": "https://www.twitch.tv/peppeloc0"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "ΠΑΣΟΚΟΣ#EUW",
-      "nivel": 264,
+      "nombre": "ΜΑΣΟΝΟΣ#ΣΤΟΑ",
+      "nivel": 367,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 889,
-      "victorias": 414,
-      "derrotas": 380,
-      "ultima_partida": 1753720918002
+      "lp": 2131,
+      "victorias": 349,
+      "derrotas": 268,
+      "ultima_partida": 1788385872532
     },
     {
       "nombre": "escape dystopia#EUW",
-      "nivel": 663,
+      "nivel": 687,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 5,
-      "victorias": 49,
-      "derrotas": 48,
-      "ultima_partida": 1752835359182
+      "liga": "MASTER I",
+      "lp": 1266,
+      "victorias": 142,
+      "derrotas": 81,
+      "ultima_partida": 1788381135460
+    },
+    {
+      "nombre": "Vas1liasTuXwriou#PSWLA",
+      "nivel": 113,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1775521784494
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Orianna",
-      "partidas": 6,
-      "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 2.074074074074074
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.1515151515151514
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4.136363636363637
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.71875
-    },
-    {
       "nombre": "Azir",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.230769230769231
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8076923076923077
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5789473684210527
     },
     {
       "nombre": "Ezreal",
       "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3157894736842106
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.4375
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.588235294117647
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.3636363636363635
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.368421052631579
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 72,
-    "wins": 39,
-    "losses": 33,
-    "timePlayed": 111731
+    "games": 35,
+    "wins": 21,
+    "losses": 14,
+    "timePlayed": 56342
   }
 }

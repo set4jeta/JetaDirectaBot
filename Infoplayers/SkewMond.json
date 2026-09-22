@@ -2,124 +2,145 @@
   "info_jugador": {
     "nombre": "SkewMond",
     "nombre_real": "Rudy Semaan",
-    "edad": 20,
+    "edad": 21,
     "equipo": "G2 Esports",
     "pais": "France",
-    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "contrato_hasta": "2028-11-20T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/SkewMond_09"
+      "twitter": "https://twitter.com/SkewMond_09",
+      "twitch": "https://www.twitch.tv/skewmond_lol\\t"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/skewmond.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/G2.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "G2 SkewMond#3327",
-      "nivel": 528,
+      "nivel": 682,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1885,
-      "victorias": 540,
-      "derrotas": 433,
-      "ultima_partida": 1753742932508
+      "lp": 2859,
+      "victorias": 631,
+      "derrotas": 424,
+      "ultima_partida": 1788386838190
     },
     {
-      "nombre": "G2 Hydreigon#9452",
-      "nivel": 33,
-      "region": "NA1",
+      "nombre": "G2G2G2#G2G2",
+      "nivel": 41,
+      "region": "KR",
       "liga": "DIAMOND I",
       "lp": 75,
-      "victorias": 25,
-      "derrotas": 5,
-      "ultima_partida": 1751565856634
+      "victorias": 94,
+      "derrotas": 40,
+      "ultima_partida": 1783660063084
+    },
+    {
+      "nombre": "G2 Joga Bonito#G2G2",
+      "nivel": 30,
+      "region": "BR1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 8,
+      "derrotas": 2,
+      "ultima_partida": 1773961059857
     },
     {
       "nombre": "Miyamoto Musashi#2783",
-      "nivel": 753,
+      "nivel": 797,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1766504441457
+    },
+    {
+      "nombre": "G2 Hydreigon#9452",
+      "nivel": 33,
+      "region": "NA1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1751565856634
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "JarvanIV",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.4
+      "nombre": "LeeSin",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 5.472222222222222
     },
     {
       "nombre": "Vi",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.8
+      "partidas": 11,
+      "victorias": 9,
+      "winrate": "81.8%",
+      "kda_promedio": 16.166666666666668
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.75
-    },
-    {
-      "nombre": "Sejuani",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 6.363636363636363
+      "nombre": "JarvanIV",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 4.4
     },
     {
       "nombre": "Chogath",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.857142857142857
+      "partidas": 9,
+      "victorias": 9,
+      "winrate": "100.0%",
+      "kda_promedio": 9.11111111111111
     },
     {
-      "nombre": "Ivern",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.769230769230769
+      "nombre": "Pantheon",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.9722222222222223
     },
     {
-      "nombre": "Nidalee",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 7.25
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 4.423076923076923
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 5.538461538461538
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 4.84
     },
     {
       "nombre": "Skarner",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 5
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.352941176470588
     },
     {
-      "nombre": "Zed",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 9
-    },
-    {
-      "nombre": "DrMundo",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 35,
-    "wins": 17,
-    "losses": 18,
-    "timePlayed": 58957
+    "games": 113,
+    "wins": 67,
+    "losses": 46,
+    "timePlayed": 179212
   }
 }

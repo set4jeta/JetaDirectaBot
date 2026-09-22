@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Drali",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Dralimar_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Drali#2ACC",
+      "nivel": 409,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1664,
+      "victorias": 320,
+      "derrotas": 297,
+      "ultima_partida": 1788299700603
+    },
+    {
+      "nombre": "Drali#ACC",
+      "nivel": 768,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1962,
+      "victorias": 352,
+      "derrotas": 277,
+      "ultima_partida": 1788022228890
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Chogath",
+      "partidas": 21,
+      "victorias": 14,
+      "winrate": "66.7%",
+      "kda_promedio": 3.2857142857142856
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.8709677419354838
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.44
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 17
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 47,
+    "wins": 26,
+    "losses": 21,
+    "timePlayed": 70415
+  }
+}

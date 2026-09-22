@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "Camana",
+    "nombre_real": "Burak Erdem Uçar",
+    "edad": 23,
+    "equipo": "Bushido Wildcats",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/camanalol",
+      "twitch": "https://www.twitch.tv/camanalol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jueduihexin#CN2",
+      "nivel": 228,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1335,
+      "victorias": 117,
+      "derrotas": 77,
+      "ultima_partida": 1788282619053
+    },
+    {
+      "nombre": "JHXN#1283",
+      "nivel": 254,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1461,
+      "victorias": 537,
+      "derrotas": 469,
+      "ultima_partida": 1787428846460
+    },
+    {
+      "nombre": "jueduihexin#CN1",
+      "nivel": 597,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 316,
+      "derrotas": 313,
+      "ultima_partida": 1776798606392
+    },
+    {
+      "nombre": "1235#467",
+      "nivel": 201,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 37,
+      "derrotas": 13,
+      "ultima_partida": 1773324852647
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.5692307692307694
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 11,
+      "victorias": 3,
+      "winrate": "27.3%",
+      "kda_promedio": 2.7027027027027026
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 2.0128205128205128
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.46875
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0476190476190474
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 86,
+    "wins": 47,
+    "losses": 39,
+    "timePlayed": 141588
+  }
+}

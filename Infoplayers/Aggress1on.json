@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Aggress1on",
+    "nombre_real": "Gabriel Andrei Ciocanau",
+    "edad": 23,
+    "equipo": "The ParadOx Invaders",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/aggress1on",
+      "twitch": "https://www.twitch.tv/aggress1on_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "plaything#anci",
+      "nivel": 1405,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2640,
+      "victorias": 915,
+      "derrotas": 830,
+      "ultima_partida": 1790031700138
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ashe",
+      "partidas": 28,
+      "victorias": 15,
+      "winrate": "53.6%",
+      "kda_promedio": 2.437037037037037
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.6769230769230767
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5208333333333335
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1481481481481484
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.980392156862745
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8596491228070176
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.3214285714285716
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.95
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.037037037037037
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 108,
+    "wins": 58,
+    "losses": 50,
+    "timePlayed": 171908
+  }
+}

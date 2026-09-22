@@ -10,65 +10,68 @@
       "twitter": "https://twitter.com/LathyrusTv",
       "twitch": "https://twitch.tv/lathyrustv"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/lathyrus.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Lathyrus#EUW",
-      "nivel": 668,
+      "nombre": "TwTv Lathyrus#EUW01",
+      "nivel": 806,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 905,
-      "victorias": 429,
-      "derrotas": 383,
-      "ultima_partida": 1753716042437
+      "lp": 1739,
+      "victorias": 535,
+      "derrotas": 484,
+      "ultima_partida": 1788361998742
+    },
+    {
+      "nombre": "Unc Lathy#Bard",
+      "nivel": 129,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 349,
+      "derrotas": 277,
+      "ultima_partida": 1783417189176
     },
     {
       "nombre": "TwTv Lathyrus#Brad",
-      "nivel": 146,
+      "nivel": 159,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 207,
-      "derrotas": 188,
-      "ultima_partida": 1747068771578
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1758639328111
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 87,
-      "victorias": 45,
-      "winrate": "51.7%",
-      "kda_promedio": 2.8244897959183675
-    },
-    {
-      "nombre": "FiddleSticks",
-      "partidas": 13,
-      "victorias": 7,
-      "winrate": "53.8%",
-      "kda_promedio": 2.9859154929577465
+      "partidas": 128,
+      "victorias": 61,
+      "winrate": "47.7%",
+      "kda_promedio": 3.073232323232323
     },
     {
       "nombre": "Maokai",
-      "partidas": 10,
-      "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 1.7903225806451613
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.6629213483146068
     },
     {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.2
+      "nombre": "Skarner",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 1.4736842105263157
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 111,
-    "wins": 55,
-    "losses": 56,
-    "timePlayed": 177213
+    "games": 151,
+    "wins": 70,
+    "losses": 81,
+    "timePlayed": 243033
   }
 }

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Irrelevant",
+    "nombre_real": "Joel Miro Scharoll",
+    "edad": 24,
+    "equipo": "Berlin International Gaming",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Irrelevanttop",
+      "twitch": "https://twitch.tv/irrelevantrole"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "joeli#doss",
+      "nivel": 1154,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2594,
+      "victorias": 573,
+      "derrotas": 455,
+      "ultima_partida": 1788386838190
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "KSante",
+      "partidas": 24,
+      "victorias": 18,
+      "winrate": "75.0%",
+      "kda_promedio": 2.2346938775510203
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.90625
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 1.3461538461538463
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8076923076923075
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.696969696969697
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.4166666666666667
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 87,
+    "wins": 49,
+    "losses": 38,
+    "timePlayed": 136342
+  }
+}

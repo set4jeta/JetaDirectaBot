@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "Heroic",
+    "nombre_real": "Francisco Ribeiro",
+    "edad": 28,
+    "equipo": "Paranormal Invaders",
+    "pais": "Portugal",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/HeroicResi"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Heroic#Herc",
+      "nivel": 536,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1997,
+      "victorias": 725,
+      "derrotas": 661,
+      "ultima_partida": 1788391219205
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yone",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 1.9478260869565218
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.3555555555555556
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.15
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2777777777777777
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 25,
+    "losses": 14,
+    "timePlayed": 63488
+  }
+}

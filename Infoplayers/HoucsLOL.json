@@ -1,0 +1,67 @@
+{
+  "info_jugador": {
+    "nombre": "HoucsLOL",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/HoucsLoL",
+      "twitch": "https://twitch.tv/HoucsLoL"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Houcs#Erlia",
+      "nivel": 945,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1714,
+      "victorias": 708,
+      "derrotas": 634,
+      "ultima_partida": 1788307601023
+    },
+    {
+      "nombre": "SOLOQ ADDICT#MUSTQ",
+      "nivel": 134,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 80,
+      "derrotas": 61,
+      "ultima_partida": 1786130637437
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Irelia",
+      "partidas": 21,
+      "victorias": 7,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7083333333333333
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6122448979591837
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 28,
+    "wins": 11,
+    "losses": 17,
+    "timePlayed": 45934
+  }
+}

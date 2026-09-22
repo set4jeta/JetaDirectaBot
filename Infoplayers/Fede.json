@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Fede",
+    "nombre_real": "Federico Lecca",
+    "edad": 22,
+    "equipo": "Apocalypse e-Sports",
+    "pais": "Italy",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/F3Deric00",
+      "twitch": "https://www.twitch.tv/federic02k"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Rudo Surebrec#Anire",
+      "nivel": 1223,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2454,
+      "victorias": 559,
+      "derrotas": 481,
+      "ultima_partida": 1788327728152
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "DrMundo",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2857142857142857
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 22,
+    "wins": 12,
+    "losses": 10,
+    "timePlayed": 34233
+  }
+}

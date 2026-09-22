@@ -1,0 +1,166 @@
+{
+  "info_jugador": {
+    "nombre": "Busio",
+    "nombre_real": "Alan Cwalina",
+    "edad": 22,
+    "equipo": "Karmine Corp",
+    "pais": "United States",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Busio\\t",
+      "twitch": "https://www.twitch.tv/busiolol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "basil#fan",
+      "nivel": 135,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2812,
+      "victorias": 519,
+      "derrotas": 342,
+      "ultima_partida": 1789823991050
+    },
+    {
+      "nombre": "yuh#yah",
+      "nivel": 34,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 28,
+      "derrotas": 13,
+      "ultima_partida": 1782137677928
+    },
+    {
+      "nombre": "Busio JNG#NA1",
+      "nivel": 289,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 52,
+      "derrotas": 23,
+      "ultima_partida": 1774304037887
+    },
+    {
+      "nombre": "KC Busio#000",
+      "nivel": 585,
+      "region": "NA1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 5,
+      "derrotas": 2,
+      "ultima_partida": 1773854281538
+    },
+    {
+      "nombre": "MADHATTER#HAT",
+      "nivel": 36,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1759984459039
+    },
+    {
+      "nombre": "Fly Busio#lalu",
+      "nivel": 49,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1742134785750
+    },
+    {
+      "nombre": "OG Mithy#Moo",
+      "nivel": 41,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1729371036831
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pyke",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6041666666666665
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.769230769230769
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.577777777777778
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.391304347826087
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.9444444444444446
+    },
+    {
+      "nombre": "Velkoz",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.6129032258064515
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.8333333333333335
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4444444444444446
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 32,
+    "losses": 27,
+    "timePlayed": 94692
+  }
+}

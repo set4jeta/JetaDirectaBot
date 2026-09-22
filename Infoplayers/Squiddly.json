@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Squiddly",
+    "nombre_real": "Oliver Jensen",
+    "edad": 25,
+    "equipo": "B2U",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Squiddly_exe",
+      "twitch": "https://www.twitch.tv/notsquiddly"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Squiddly#xyz",
+      "nivel": 797,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1895,
+      "victorias": 368,
+      "derrotas": 314,
+      "ultima_partida": 1788295378197
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Locke",
+      "partidas": 14,
+      "victorias": 5,
+      "winrate": "35.7%",
+      "kda_promedio": 2.8955223880597014
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.127659574468085
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.8421052631578947
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.1
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.933333333333333
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 59,
+    "wins": 24,
+    "losses": 35,
+    "timePlayed": 98298
+  }
+}

@@ -2,36 +2,36 @@
   "info_jugador": {
     "nombre": "Lurox",
     "nombre_real": "Lukas Thoma",
-    "edad": 26,
-    "equipo": "Vitality.Bee",
+    "edad": 27,
+    "equipo": "Team Heretics Academy",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/LuroxLoL"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/lurox.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VITB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Lurox#Lurox",
-      "nivel": 1079,
+      "nivel": 1309,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1123,
-      "victorias": 465,
-      "derrotas": 417,
-      "ultima_partida": 1753739187705
+      "liga": "GRANDMASTER I",
+      "lp": 2015,
+      "victorias": 722,
+      "derrotas": 596,
+      "ultima_partida": 1788380735160
     },
     {
       "nombre": "Lurox#LRX76",
-      "nivel": 396,
+      "nivel": 398,
       "region": "EUW1",
-      "liga": "DIAMOND II",
+      "liga": "EMERALD I",
       "lp": 75,
-      "victorias": 102,
-      "derrotas": 58,
-      "ultima_partida": 1745794296105
+      "victorias": 16,
+      "derrotas": 3,
+      "ultima_partida": 1777389892321
     },
     {
       "nombre": "Lurox#LRX",
@@ -41,85 +41,85 @@
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1733723811670
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "JarvanIV",
-      "partidas": 25,
-      "victorias": 18,
-      "winrate": "72.0%",
-      "kda_promedio": 5.8133333333333335
+      "nombre": "LeeSin",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 4.032258064516129
     },
     {
-      "nombre": "Trundle",
-      "partidas": 17,
-      "victorias": 9,
-      "winrate": "52.9%",
-      "kda_promedio": 3.761904761904762
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 16,
-      "victorias": 12,
-      "winrate": "75.0%",
-      "kda_promedio": 3.619718309859155
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.3469387755102042
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.1538461538461537
-    },
-    {
-      "nombre": "MonkeyKing",
+      "nombre": "Maokai",
       "partidas": 7,
       "victorias": 4,
       "winrate": "57.1%",
-      "kda_promedio": 4.555555555555555
+      "kda_promedio": 3.4347826086956523
     },
     {
-      "nombre": "Naafiri",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 7.571428571428571
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 2,
+      "nombre": "Nidalee",
+      "partidas": 6,
+      "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 7.4
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.235294117647059
+      "kda_promedio": 7.666666666666667
     },
     {
       "nombre": "Poppy",
-      "partidas": 2,
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.1
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9285714285714284
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 7.857142857142857
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.4
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.375
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3636363636363638
+      "winrate": "25.0%",
+      "kda_promedio": 2.6363636363636362
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 6.3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 107,
-    "wins": 62,
-    "losses": 45,
-    "timePlayed": 177422
+    "games": 78,
+    "wins": 44,
+    "losses": 34,
+    "timePlayed": 120656
   }
 }

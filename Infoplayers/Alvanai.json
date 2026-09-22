@@ -9,117 +9,117 @@
     "redes_sociales": {
       "twitter": "https://www.twitter.com/AlvanaiLoL"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/WLG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "SLERTS#EUW",
-      "nivel": 540,
+      "nivel": 616,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 890,
-      "victorias": 297,
-      "derrotas": 234,
-      "ultima_partida": 1753573593974
+      "lp": 1859,
+      "victorias": 374,
+      "derrotas": 345,
+      "ultima_partida": 1790032490087
+    },
+    {
+      "nombre": "QZ1AWD287TT2#000",
+      "nivel": 160,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 487,
+      "victorias": 123,
+      "derrotas": 114,
+      "ultima_partida": 1789560501449
     },
     {
       "nombre": "reaver mid acc#BOZO",
-      "nivel": 199,
+      "nivel": 200,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 305,
-      "derrotas": 298,
-      "ultima_partida": 1753052254310
-    },
-    {
-      "nombre": "paintingpictures#polog",
-      "nivel": 139,
-      "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 108,
-      "derrotas": 88,
-      "ultima_partida": 1749505168408
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1776573747610
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ryze",
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.482142857142857
+    },
+    {
+      "nombre": "Viktor",
       "partidas": 8,
       "victorias": 6,
       "winrate": "75.0%",
-      "kda_promedio": 3.823529411764706
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.4285714285714284
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.5416666666666665
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.466666666666667
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.636363636363637
+      "kda_promedio": 4.310344827586207
     },
     {
       "nombre": "Yone",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.3333333333333335
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.4
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5714285714285716
+    },
+    {
+      "nombre": "Ahri",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 21
+      "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "KogMaw",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 5.5
-    },
-    {
-      "nombre": "Sejuani",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 1,
+      "nombre": "Blitzcrank",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.285714285714286
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 23,
-    "losses": 9,
-    "timePlayed": 51036
+    "games": 70,
+    "wins": 31,
+    "losses": 39,
+    "timePlayed": 116228
   }
 }

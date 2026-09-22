@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Savero",
     "nombre_real": "Jiří Odehnal",
-    "edad": 21,
-    "equipo": "eSuba",
+    "edad": 22,
+    "equipo": "Nightbirds",
     "pais": "Czech Republic",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/SaveroLoL",
       "twitch": "https://www.twitch.tv/saverolol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ESB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Meguru Bachira#win",
-      "nivel": 292,
-      "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 95,
-      "victorias": 197,
-      "derrotas": 164,
-      "ultima_partida": 1753730694688
-    },
-    {
       "nombre": "Kusakabe Shinra#win",
-      "nivel": 862,
+      "nivel": 1004,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1134,
-      "victorias": 253,
-      "derrotas": 198,
-      "ultima_partida": 1753713875556
+      "lp": 2578,
+      "victorias": 472,
+      "derrotas": 368,
+      "ultima_partida": 1788377828638
+    },
+    {
+      "nombre": "JungleJimmy67#noob",
+      "nivel": 320,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 44,
+      "victorias": 104,
+      "derrotas": 55,
+      "ultima_partida": 1787436421739
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 5.208333333333333
+      "nombre": "Vi",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.784313725490196
     },
     {
-      "nombre": "Viego",
-      "partidas": 10,
-      "victorias": 5,
+      "nombre": "Chogath",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.130434782608696
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 9.11111111111111
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 4.108108108108108
+      "kda_promedio": 9
     },
     {
       "nombre": "LeeSin",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.6206896551724137
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 3.15625
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 5.125
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.05
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.642857142857143
-    },
-    {
-      "nombre": "Annie",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2
+      "kda_promedio": 4.125
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 8.75
-    },
-    {
-      "nombre": "Poppy",
+      "nombre": "Naafiri",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.3333333333333335
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10.5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8181818181818181
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 71,
-    "wins": 37,
-    "losses": 34,
-    "timePlayed": 110333
+    "games": 40,
+    "wins": 21,
+    "losses": 19,
+    "timePlayed": 67656
   }
 }

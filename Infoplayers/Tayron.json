@@ -9,96 +9,97 @@
     "redes_sociales": {
       "twitter": "https://twitter.com/tayronlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "TAYRON#518",
-      "nivel": 690,
-      "liga": "MASTER I",
-      "lp": 706,
-      "victorias": 398,
-      "derrotas": 374,
-      "ultima_partida": 1753284653338
+      "nombre": "Tayron#12345",
+      "nivel": 849,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1739,
+      "victorias": 413,
+      "derrotas": 362,
+      "ultima_partida": 1788289334119
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Jax",
-      "partidas": 22,
-      "victorias": 14,
-      "winrate": "63.6%",
-      "kda_promedio": 1.8
-    },
-    {
       "nombre": "Jayce",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 1.75
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6842105263157894
     },
     {
       "nombre": "Gwen",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 2.051282051282051
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.212121212121212
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 1.4634146341463414
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.457142857142857
-    },
-    {
-      "nombre": "Ambessa",
+      "nombre": "Gnar",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.8235294117647058
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.757575757575758
     },
     {
-      "nombre": "Camille",
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Vayne",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.0625
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 0.9130434782608695
+      "kda_promedio": 1.2
     },
     {
       "nombre": "Akali",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8571428571428571
     },
     {
-      "nombre": "Gnar",
+      "nombre": "Olaf",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.6
+      "kda_promedio": 1.3076923076923077
+    },
+    {
+      "nombre": "Zaahen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6153846153846154
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 50,
-    "losses": 41,
-    "timePlayed": 140439
+    "games": 46,
+    "wins": 27,
+    "losses": 19,
+    "timePlayed": 72223
   }
 }

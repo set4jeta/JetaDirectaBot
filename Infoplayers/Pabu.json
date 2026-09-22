@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pabu",
+    "nombre_real": "Jackson Pavone",
+    "edad": 26,
+    "equipo": "Black Lion",
+    "pais": "Australia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Pabu22",
+      "twitch": "https://twitch.tv/Pabu22"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Sylvie#1377",
+      "nivel": 531,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2124,
+      "victorias": 244,
+      "derrotas": 156,
+      "ultima_partida": 1788384439347
+    },
+    {
+      "nombre": "Gracie Abrams#0702",
+      "nivel": 111,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 57,
+      "derrotas": 24,
+      "ultima_partida": 1777214489053
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 13,
+      "victorias": 6,
+      "winrate": "46.2%",
+      "kda_promedio": 4.5476190476190474
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1875
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.083333333333333
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.272727272727273
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.125
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.25
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.142857142857143
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 39,
+    "wins": 23,
+    "losses": 16,
+    "timePlayed": 59230
+  }
+}

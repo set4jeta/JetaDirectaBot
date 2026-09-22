@@ -1,105 +1,105 @@
 {
   "info_jugador": {
     "nombre": "Sojo",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Patryk Klim",
+    "edad": 20,
+    "equipo": "Reveal Multigaming",
+    "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Sojo2115"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/EXE.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "JDS 2115#EUW",
-      "nivel": 562,
+      "nivel": 718,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 896,
-      "victorias": 429,
-      "derrotas": 394,
-      "ultima_partida": 1753751562751
+      "lp": 1965,
+      "victorias": 581,
+      "derrotas": 498,
+      "ultima_partida": 1788330681397
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Jayce",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 3.4237288135593222
+    },
+    {
       "nombre": "Ivern",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 7.8125
-    },
-    {
-      "nombre": "XinZhao",
       "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 5.045454545454546
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.6666666666666665
     },
     {
-      "nombre": "Zyra",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 3.127659574468085
-    },
-    {
-      "nombre": "Lillia",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.15625
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.8478260869565217
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5757575757575757
     },
     {
       "nombre": "MonkeyKing",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.45
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.5
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 5,
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 4.055555555555555
+      "winrate": "100.0%",
+      "kda_promedio": 9.25
     },
     {
-      "nombre": "Malzahar",
-      "partidas": 4,
-      "victorias": 2,
+      "nombre": "Seraphine",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.526315789473684
+      "kda_promedio": 3.6
     },
     {
-      "nombre": "Maokai",
-      "partidas": 4,
-      "victorias": 2,
+      "nombre": "Vi",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.588235294117647
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 78,
-    "wins": 43,
-    "losses": 35,
-    "timePlayed": 128198
+    "games": 50,
+    "wins": 20,
+    "losses": 30,
+    "timePlayed": 81663
   }
 }

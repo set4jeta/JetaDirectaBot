@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Habubu",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Habuubuu",
+      "twitch": "https://twitch.tv/habuubuu"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "BIG Labubu#5454",
+      "nivel": 1123,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1757,
+      "victorias": 695,
+      "derrotas": 629,
+      "ultima_partida": 1788393405709
+    },
+    {
+      "nombre": "ANITA MAX WYNN#OVODO",
+      "nivel": 362,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 63,
+      "victorias": 56,
+      "derrotas": 59,
+      "ultima_partida": 1786315853110
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Naafiri",
+      "partidas": 58,
+      "victorias": 34,
+      "winrate": "58.6%",
+      "kda_promedio": 3.578358208955224
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 42,
+      "victorias": 17,
+      "winrate": "40.5%",
+      "kda_promedio": 3.215
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 29,
+      "victorias": 15,
+      "winrate": "51.7%",
+      "kda_promedio": 2.6344827586206896
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 17,
+      "victorias": 7,
+      "winrate": "41.2%",
+      "kda_promedio": 1.864
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.2941176470588234
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.1607142857142856
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.35
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.1707317073170733
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7741935483870968
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4722222222222223
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 216,
+    "wins": 103,
+    "losses": 113,
+    "timePlayed": 343427
+  }
+}

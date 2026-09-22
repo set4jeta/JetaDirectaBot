@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Kozak",
+    "nombre_real": "Anton Gudovich",
+    "edad": 23,
+    "equipo": "SPIKE Syndicate",
+    "pais": "Ukraine",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/kozak_lul"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "FPV Operator#Kozak",
+      "nivel": 251,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1939,
+      "victorias": 327,
+      "derrotas": 292,
+      "ultima_partida": 1788362753590
+    },
+    {
+      "nombre": "RUSOREZ#FPV",
+      "nivel": 172,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1196,
+      "victorias": 147,
+      "derrotas": 115,
+      "ultima_partida": 1788304250220
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Caitlyn",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Fiora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2222222222222222
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 19,
+    "wins": 7,
+    "losses": 12,
+    "timePlayed": 31346
+  }
+}

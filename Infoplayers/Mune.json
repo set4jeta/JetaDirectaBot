@@ -1,0 +1,70 @@
+{
+  "info_jugador": {
+    "nombre": "Mune",
+    "nombre_real": "Ziad Mohamed",
+    "edad": 21,
+    "equipo": "One More Esports",
+    "pais": "Egypt",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/9mune"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "bot#mune",
+      "nivel": 1270,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2277,
+      "victorias": 828,
+      "derrotas": 763,
+      "ultima_partida": 1788334965026
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0434782608695654
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 9,
+    "wins": 5,
+    "losses": 4,
+    "timePlayed": 14069
+  }
+}

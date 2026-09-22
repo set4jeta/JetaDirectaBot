@@ -1,8 +1,8 @@
 {
   "info_jugador": {
     "nombre": "Yukino",
-    "nombre_real": "Johnny Dang",
-    "edad": 19,
+    "nombre_real": "Johnny&nbsp;Hoang Dang",
+    "edad": 20,
     "equipo": "Karmine Corp Blue",
     "pais": "United States",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -10,89 +10,120 @@
       "twitter": "https://www.twitter.com/yukinocat5",
       "twitch": "https://twitch.tv/yukinocat1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KCB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "yukino cat#blue",
-      "nivel": 171,
+      "nombre": "Yukino7#cat",
+      "nivel": 294,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1274,
-      "victorias": 280,
-      "derrotas": 191,
-      "ultima_partida": 1752690579089
+      "lp": 2455,
+      "victorias": 521,
+      "derrotas": 367,
+      "ultima_partida": 1788198331557
+    },
+    {
+      "nombre": "kaoruko#1903",
+      "nivel": 808,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 67,
+      "derrotas": 22,
+      "ultima_partida": 1778318050463
     },
     {
       "nombre": "chinatsu cat#blue",
       "nivel": 68,
       "region": "NA1",
-      "liga": "MASTER I",
-      "lp": 219,
-      "victorias": 70,
-      "derrotas": 26,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1751761161382
     },
     {
       "nombre": "yukino cat#006",
-      "nivel": 45,
+      "nivel": 67,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1731459010893
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "LeeSin",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.8333333333333335
+      "nombre": "Naafiri",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.358974358974359
     },
     {
-      "nombre": "Viego",
+      "nombre": "XinZhao",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.9130434782608696
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.285714285714286
+    },
+    {
+      "nombre": "Khazix",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 6.333333333333333
+      "kda_promedio": 1.625
     },
     {
-      "nombre": "Zed",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.2
-    },
-    {
-      "nombre": "Gragas",
+      "nombre": "JarvanIV",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
       "nombre": "Pantheon",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.6
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7777777777777777
     },
     {
-      "nombre": "Vi",
+      "nombre": "Rumble",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3.8
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.333333333333334
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
-    "wins": 6,
-    "losses": 4,
-    "timePlayed": 15245
+    "games": 22,
+    "wins": 15,
+    "losses": 7,
+    "timePlayed": 33552
   }
 }

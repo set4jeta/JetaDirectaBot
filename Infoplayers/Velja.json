@@ -2,125 +2,135 @@
   "info_jugador": {
     "nombre": "Velja",
     "nombre_real": "Veljko Čamdžić",
-    "edad": 23,
-    "equipo": "Los Ratones",
+    "edad": 24,
+    "equipo": "PvB (Swiss Team)",
     "pais": "Serbia",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Velja_LOL",
       "twitch": "https://twitch.tv/velja_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/velja.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/LR.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "LR Velja#2203",
-      "nivel": 357,
+      "nombre": "Thorfinn#22032",
+      "nivel": 583,
       "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2590,
+      "victorias": 598,
+      "derrotas": 418,
+      "ultima_partida": 1788381700424
+    },
+    {
+      "nombre": "Velja#2203",
+      "nivel": 118,
+      "region": "KR",
       "liga": "DIAMOND I",
-      "lp": 13,
-      "victorias": 141,
-      "derrotas": 145,
-      "ultima_partida": 1753741467843
+      "lp": 75,
+      "victorias": 539,
+      "derrotas": 462,
+      "ultima_partida": 1783016376149
+    },
+    {
+      "nombre": "LR Velja#2203",
+      "nivel": 368,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 72,
+      "derrotas": 23,
+      "ultima_partida": 1777405979473
     },
     {
       "nombre": "VELJA DEL REY#2203",
-      "nivel": 276,
+      "nivel": 419,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 105,
-      "victorias": 296,
-      "derrotas": 265,
-      "ultima_partida": 1753734907888
-    },
-    {
-      "nombre": "Abracadabra#2203",
-      "nivel": 480,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 893,
-      "victorias": 297,
-      "derrotas": 233,
-      "ultima_partida": 1753655908804
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 149,
+      "derrotas": 122,
+      "ultima_partida": 1777131523208
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Viego",
-      "partidas": 26,
-      "victorias": 16,
-      "winrate": "61.5%",
-      "kda_promedio": 3.0081967213114753
-    },
-    {
       "nombre": "LeeSin",
-      "partidas": 24,
-      "victorias": 10,
-      "winrate": "41.7%",
-      "kda_promedio": 3.2149532710280373
-    },
-    {
-      "nombre": "Volibear",
-      "partidas": 18,
-      "victorias": 12,
-      "winrate": "66.7%",
-      "kda_promedio": 2.9743589743589745
+      "partidas": 51,
+      "victorias": 29,
+      "winrate": "56.9%",
+      "kda_promedio": 3.0338345864661656
     },
     {
       "nombre": "Khazix",
-      "partidas": 16,
-      "victorias": 8,
-      "winrate": "50.0%",
-      "kda_promedio": 3.232876712328767
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 4.092592592592593
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 2.949367088607595
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 10,
+      "victorias": 4,
+      "winrate": "40.0%",
+      "kda_promedio": 2.784313725490196
     },
     {
       "nombre": "Nidalee",
-      "partidas": 14,
+      "partidas": 8,
       "victorias": 4,
-      "winrate": "28.6%",
-      "kda_promedio": 2.857142857142857
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.44
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.9473684210526314
     },
     {
       "nombre": "Ekko",
-      "partidas": 10,
-      "victorias": 7,
-      "winrate": "70.0%",
-      "kda_promedio": 3.7674418604651163
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.682926829268293
-    },
-    {
-      "nombre": "Hecarim",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
       "kda_promedio": 2
     },
     {
-      "nombre": "Kindred",
+      "nombre": "Viego",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.7
+      "kda_promedio": 1.9444444444444444
     },
     {
-      "nombre": "Sylas",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.142857142857143
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0588235294117647
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 156,
-    "wins": 78,
-    "losses": 78,
-    "timePlayed": 257628
+    "games": 137,
+    "wins": 80,
+    "losses": 57,
+    "timePlayed": 221318
   }
 }

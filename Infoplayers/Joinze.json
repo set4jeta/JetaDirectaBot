@@ -10,107 +10,117 @@
       "twitter": "https://www.twitter.com/Joinzelol",
       "twitch": "https://www.twitch.tv/joinzelol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Nuno Mendes#2171",
-      "nivel": 255,
+      "nivel": 398,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1286,
-      "victorias": 378,
-      "derrotas": 303,
-      "ultima_partida": 1753655100047
+      "liga": "GRANDMASTER I",
+      "lp": 1718,
+      "victorias": 647,
+      "derrotas": 543,
+      "ultima_partida": 1788280284581
     },
     {
       "nombre": "Joinze#EUW",
-      "nivel": 697,
+      "nivel": 701,
       "region": "EUW1",
-      "liga": "DIAMOND I",
+      "liga": "EMERALD I",
       "lp": 75,
-      "victorias": 93,
-      "derrotas": 82,
-      "ultima_partida": 1750343126502
+      "victorias": 12,
+      "derrotas": 10,
+      "ultima_partida": 1773000450487
+    },
+    {
+      "nombre": "Vitinha#VITI",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760269658137
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Taliyah",
-      "partidas": 18,
-      "victorias": 12,
-      "winrate": "66.7%",
-      "kda_promedio": 3.548780487804878
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 3.1176470588235294
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
+      "nombre": "XinZhao",
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1739130434782608
+      "winrate": "40.0%",
+      "kda_promedio": 2.9655172413793105
     },
     {
-      "nombre": "MonkeyKing",
+      "nombre": "Taliyah",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 5.571428571428571
+      "kda_promedio": 3.625
     },
     {
-      "nombre": "Vi",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6470588235294117
+      "nombre": "Qiyana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.4
     },
     {
-      "nombre": "XinZhao",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Ziggs",
+      "nombre": "Maokai",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.7857142857142858
+      "kda_promedio": 2.6363636363636362
     },
     {
       "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8.666666666666666
+    },
+    {
+      "nombre": "MonkeyKing",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 3.5
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.4285714285714284
-    },
-    {
-      "nombre": "Nautilus",
+      "nombre": "Nocturne",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 51,
-    "wins": 24,
-    "losses": 27,
-    "timePlayed": 82940
+    "games": 23,
+    "wins": 11,
+    "losses": 12,
+    "timePlayed": 36060
   }
 }

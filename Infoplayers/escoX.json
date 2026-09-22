@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "escoX",
     "nombre_real": "Javier Escobedo Sevilla",
-    "edad": 26,
-    "equipo": "ZETA",
+    "edad": 27,
+    "equipo": "Gamespace Mediterranean College Esports",
     "pais": "Spain",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/javieresco99",
       "twitch": "https://twitch.tv/escox_"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ZTA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Τadej Pogačar#Soria",
-      "nivel": 1577,
+      "nivel": 1711,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 961,
-      "victorias": 309,
-      "derrotas": 268,
-      "ultima_partida": 1753728266719
+      "lp": 1744,
+      "victorias": 404,
+      "derrotas": 322,
+      "ultima_partida": 1787997372337
     },
     {
-      "nombre": "Keep Trying#Soria",
-      "nivel": 189,
+      "nombre": "escoX#Soria",
+      "nivel": 197,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 95,
-      "victorias": 140,
-      "derrotas": 108,
-      "ultima_partida": 1753285360464
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 49,
+      "derrotas": 34,
+      "ultima_partida": 1783356386445
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rakan",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.9130434782608696
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.2631578947368425
-    },
-    {
       "nombre": "Bard",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.238095238095238
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.189189189189189
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.8611111111111112
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Galio",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8571428571428572
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.8275862068965518
     },
     {
       "nombre": "Leona",
       "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.227272727272727
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.8
+      "kda_promedio": 2.3636363636363638
     },
     {
-      "nombre": "Braum",
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.785714285714286
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Ambessa",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.272727272727273
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.0434782608695654
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8461538461538463
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 27,
-    "losses": 27,
-    "timePlayed": 87867
+    "games": 39,
+    "wins": 16,
+    "losses": 23,
+    "timePlayed": 62108
   }
 }

@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "SPOOKY",
+    "nombre_real": "Miroslav Gochev",
+    "edad": 27,
+    "equipo": "Skillcamp",
+    "pais": "Bulgaria",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/lol_spooky",
+      "twitch": "https://twitch.tv/spookydx"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "PM2AM#AM2PM",
+      "nivel": 1429,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1968,
+      "victorias": 566,
+      "derrotas": 506,
+      "ultima_partida": 1788378176503
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shyvana",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 4.303030303030303
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.3181818181818183
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.3823529411764706
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Belveth",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.9473684210526314
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6875
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.454545454545454
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 78,
+    "wins": 45,
+    "losses": 33,
+    "timePlayed": 117827
+  }
+}

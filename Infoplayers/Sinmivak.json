@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Sinmivak",
     "nombre_real": "Jakub Rucki",
-    "edad": 24,
-    "equipo": "UCAM Esports",
+    "edad": 25,
+    "equipo": "LODIS (Polish Team)",
     "pais": "Poland",
-    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/sinmivak",
       "twitch": "https://twitch.tv/sinmivak"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/sinmivak.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Sinmivak#777",
-      "nivel": 1048,
+      "nivel": 1207,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1145,
-      "victorias": 532,
-      "derrotas": 492,
-      "ultima_partida": 1753693741170
+      "liga": "GRANDMASTER I",
+      "lp": 2139,
+      "victorias": 589,
+      "derrotas": 498,
+      "ultima_partida": 1788370142920
     },
     {
       "nombre": "polski herkules#EUW",
-      "nivel": 157,
+      "nivel": 171,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 0,
-      "victorias": 58,
-      "derrotas": 44,
-      "ultima_partida": 1753437923893
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 17,
+      "derrotas": 19,
+      "ultima_partida": 1778249536075
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Jayce",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 1.9090909090909092
-    },
-    {
-      "nombre": "Gnar",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.4571428571428573
+      "victorias": 7,
+      "winrate": "87.5%",
+      "kda_promedio": 3.78125
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.730769230769231
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.388888888888889
-    },
-    {
-      "nombre": "Renekton",
+      "nombre": "Nasus",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.4210526315789473
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.3461538461538463
     },
     {
-      "nombre": "Aurora",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6363636363636362
+      "nombre": "Anivia",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.076923076923077
     },
     {
       "nombre": "Camille",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.625
+      "kda_promedio": 2
     },
     {
-      "nombre": "Leona",
-      "partidas": 3,
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.8235294117647058
+      "winrate": "100.0%",
+      "kda_promedio": 5.4
     },
     {
-      "nombre": "Yorick",
-      "partidas": 3,
+      "nombre": "DrMundo",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6666666666666667
+      "winrate": "50.0%",
+      "kda_promedio": 2.3636363636363638
+    },
+    {
+      "nombre": "Ziggs",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7777777777777777
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 31,
-    "losses": 33,
-    "timePlayed": 110057
+    "games": 43,
+    "wins": 28,
+    "losses": 15,
+    "timePlayed": 68162
   }
 }

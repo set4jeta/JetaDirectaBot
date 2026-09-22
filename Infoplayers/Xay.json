@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Xay",
+    "nombre_real": "Corentin Leclercq",
+    "edad": 20,
+    "equipo": "Forsaken (Polish Team)",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Xay_ad",
+      "twitch": "https://www.twitch.tv/xay_ad"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Маша#KR01",
+      "nivel": 434,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2129,
+      "victorias": 235,
+      "derrotas": 187,
+      "ultima_partida": 1788199494168
+    },
+    {
+      "nombre": "qaxzqaxzaqaxcvcx#KR01",
+      "nivel": 148,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 604,
+      "derrotas": 518,
+      "ultima_partida": 1783182869712
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.4054054054054053
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6956521739130435
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.263157894736842
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.333333333333333
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 37,
+    "wins": 21,
+    "losses": 16,
+    "timePlayed": 58662
+  }
+}

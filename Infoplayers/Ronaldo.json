@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "Ronaldo",
     "nombre_real": "Ronaldo Betea",
-    "edad": 26,
-    "equipo": "Bushido Wildcats",
+    "edad": 27,
+    "equipo": "Bulldog Esports",
     "pais": "Romania",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/RonaldoL0L",
-      "twitch": "https://www.twitch.tv/ronaldoo"
+      "twitch": "\\thttps://www.twitch.tv/ronaldoo"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/ronaldo.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "kick ronaldolol#123",
-      "nivel": 483,
+      "nombre": "ttv ronaldoo#1234",
+      "nivel": 349,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 250,
+      "victorias": 912,
+      "derrotas": 758,
+      "ultima_partida": 1788361714165
+    },
+    {
+      "nombre": "ttv ronaldoo#123",
+      "nivel": 763,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 856,
-      "victorias": 1004,
-      "derrotas": 965,
-      "ultima_partida": 1753737463073
+      "lp": 1981,
+      "victorias": 638,
+      "derrotas": 567,
+      "ultima_partida": 1788204244353
     },
     {
       "nombre": "SUP COCONUT#3131",
       "nivel": 177,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 95,
-      "victorias": 54,
-      "derrotas": 49,
-      "ultima_partida": 1746613799915
+      "liga": "EMERALD I",
+      "lp": 72,
+      "victorias": 4,
+      "derrotas": 3,
+      "ultima_partida": 1768261450837
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Syndra",
-      "partidas": 10,
-      "victorias": 5,
-      "winrate": "50.0%",
-      "kda_promedio": 2.675675675675676
-    },
-    {
-      "nombre": "Azir",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.511627906976744
-    },
-    {
-      "nombre": "Twitch",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.9189189189189189
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.9
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.3043478260869565
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6923076923076923
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.388888888888889
+      "nombre": "Locke",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.3
     },
     {
       "nombre": "Ryze",
-      "partidas": 4,
-      "victorias": 4,
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.892857142857143
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 5,
       "winrate": "100.0%",
-      "kda_promedio": 2.8333333333333335
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9259259259259258
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.5172413793103448
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.2307692307692308
+    },
+    {
+      "nombre": "Zilean",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.8484848484848486
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2916666666666665
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.8275862068965518
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6875
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 50,
-    "losses": 47,
-    "timePlayed": 155980
+    "games": 73,
+    "wins": 35,
+    "losses": 38,
+    "timePlayed": 119354
   }
 }

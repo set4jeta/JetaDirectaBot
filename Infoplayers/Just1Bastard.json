@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "Just1Bastard",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/jazox22"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Just1Bastard#FRA",
+      "nivel": 927,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1903,
+      "victorias": 485,
+      "derrotas": 451,
+      "ultima_partida": 1788269250549
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "JarvanIV",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 2.641025641025641
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.461538461538462
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8888888888888888
+    },
+    {
+      "nombre": "Volibear",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 14,
+    "losses": 16,
+    "timePlayed": 45289
+  }
+}

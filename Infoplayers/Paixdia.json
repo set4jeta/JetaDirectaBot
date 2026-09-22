@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Paixdia",
     "nombre_real": "Taha Barış Elmas",
-    "edad": 24,
+    "edad": 25,
     "equipo": "The Forbidden Five",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/PaixdiaLoL",
       "twitch": "https://www.twitch.tv/paixdia_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/paixdia.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TFF.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "PatrickJane#Supp",
-      "nivel": 783,
+      "nombre": "Paixdia#Supp",
+      "nivel": 907,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1095,
-      "victorias": 625,
-      "derrotas": 573,
-      "ultima_partida": 1753653038923
+      "liga": "GRANDMASTER I",
+      "lp": 846,
+      "victorias": 1121,
+      "derrotas": 1076,
+      "ultima_partida": 1766399639907
     },
     {
-      "nombre": "Kamusari#EUW11",
-      "nivel": 155,
+      "nombre": "aidxiaP#EUW11",
+      "nivel": 167,
       "region": "EUW1",
       "liga": "DIAMOND I",
       "lp": 75,
-      "victorias": 98,
-      "derrotas": 72,
-      "ultima_partida": 1752677835651
+      "victorias": 160,
+      "derrotas": 137,
+      "ultima_partida": 1764858064961
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nautilus",
+      "nombre": "Pyke",
       "partidas": 21,
       "victorias": 11,
       "winrate": "52.4%",
-      "kda_promedio": 2.4125874125874125
+      "kda_promedio": 2.352112676056338
     },
     {
-      "nombre": "Alistar",
-      "partidas": 13,
+      "nombre": "Bard",
+      "partidas": 16,
       "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 3.061224489795918
+      "winrate": "37.5%",
+      "kda_promedio": 3.361111111111111
     },
     {
-      "nombre": "Rell",
-      "partidas": 12,
-      "victorias": 7,
-      "winrate": "58.3%",
-      "kda_promedio": 3.5245901639344264
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 5.5
+      "nombre": "Nautilus",
+      "partidas": 15,
+      "victorias": 8,
+      "winrate": "53.3%",
+      "kda_promedio": 2.4698795180722892
     },
     {
       "nombre": "Neeko",
-      "partidas": 7,
+      "partidas": 12,
+      "victorias": 4,
+      "winrate": "33.3%",
+      "kda_promedio": 2.65625
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.0602409638554215
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 9,
       "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.78125
+      "winrate": "55.6%",
+      "kda_promedio": 3.2888888888888888
     },
     {
-      "nombre": "Varus",
-      "partidas": 6,
+      "nombre": "Poppy",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.6842105263157894
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "16.7%",
-      "kda_promedio": 1.9705882352941178
+      "winrate": "25.0%",
+      "kda_promedio": 2.4615384615384617
     },
     {
-      "nombre": "Karma",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8260869565217392
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.0714285714285716
     },
     {
-      "nombre": "Leona",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4444444444444446
-    },
-    {
-      "nombre": "Lulu",
+      "nombre": "Rell",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Pyke",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.789473684210526
+      "kda_promedio": 1.9444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 97,
-    "wins": 50,
-    "losses": 47,
-    "timePlayed": 161264
+    "games": 117,
+    "wins": 57,
+    "losses": 60,
+    "timePlayed": 181556
   }
 }

@@ -1,125 +1,125 @@
 {
   "info_jugador": {
-    "nombre": "Reaver",
+    "nombre": "REAVER",
     "nombre_real": "Giannis Dimitrelis",
-    "edad": 22,
-    "equipo": "Team Phantasma",
+    "edad": 23,
+    "equipo": "WLGaming Esports",
     "pais": "Greece",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/reaver1v9"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TP.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "ZERO EXCUSES#333",
-      "nivel": 159,
+      "nombre": "ego therapy#1337",
+      "nivel": 453,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 763,
-      "victorias": 522,
-      "derrotas": 444,
-      "ultima_partida": 1753748396328
+      "lp": 2031,
+      "victorias": 836,
+      "derrotas": 772,
+      "ultima_partida": 1788346921600
     },
     {
       "nombre": "Genius Monster#1337",
       "nivel": 716,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 368,
-      "derrotas": 359,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1745023035491
     },
     {
       "nombre": "triplestar#1337",
       "nivel": 421,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 136,
-      "derrotas": 128,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1743992780745
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rakan",
-      "partidas": 14,
-      "victorias": 7,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8225806451612905
-    },
-    {
-      "nombre": "Alistar",
-      "partidas": 13,
+      "nombre": "Nautilus",
+      "partidas": 10,
       "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 3.836734693877551
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 13,
-      "victorias": 3,
-      "winrate": "23.1%",
-      "kda_promedio": 2.6027397260273974
+      "winrate": "80.0%",
+      "kda_promedio": 3.814814814814815
     },
     {
       "nombre": "Rell",
-      "partidas": 11,
-      "victorias": 9,
-      "winrate": "81.8%",
-      "kda_promedio": 3.4776119402985075
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.2753623188405796
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 2.5254237288135593
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 3.4444444444444446
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 3.3389830508474576
     },
     {
       "nombre": "Leona",
-      "partidas": 3,
+      "partidas": 8,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.9
+      "winrate": "12.5%",
+      "kda_promedio": 1.492063492063492
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.239130434782609
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.466666666666667
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.7368421052631575
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.0434782608695654
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
     },
     {
       "nombre": "Braum",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2307692307692308
+      "kda_promedio": 1.3333333333333333
     },
     {
-      "nombre": "Neeko",
+      "nombre": "Milio",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 84,
-    "wins": 44,
-    "losses": 40,
-    "timePlayed": 138446
+    "games": 58,
+    "wins": 34,
+    "losses": 24,
+    "timePlayed": 91339
   }
 }

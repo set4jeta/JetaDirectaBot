@@ -2,115 +2,90 @@
   "info_jugador": {
     "nombre": "Aetinoth",
     "nombre_real": "Berat Tıknazoğlu",
-    "edad": 19,
-    "equipo": "GIANTX Academy",
+    "edad": 20,
+    "equipo": "Solary",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Aetinoth",
       "twitch": "https://www.twitch.tv/aetinoth"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Cekeliniomzumdan#62343",
-      "nivel": 286,
+      "nombre": "JeedvenJudge#1881",
+      "nivel": 575,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1274,
+      "victorias": 195,
+      "derrotas": 110,
+      "ultima_partida": 1789551892829
+    },
+    {
+      "nombre": "NOTH#Sus",
+      "nivel": 367,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 995,
-      "victorias": 194,
-      "derrotas": 159,
-      "ultima_partida": 1753635594491
+      "lp": 1751,
+      "victorias": 270,
+      "derrotas": 160,
+      "ultima_partida": 1789468892633
     },
     {
       "nombre": "AETI#0000",
-      "nivel": 283,
+      "nivel": 304,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1729038239972
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3125
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.380952380952381
-    },
-    {
-      "nombre": "Aphelios",
+      "nombre": "Kalista",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.4166666666666665
+      "kda_promedio": 1.6875
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Aphelios",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.4545454545454546
+      "kda_promedio": 0.45454545454545453
     },
     {
       "nombre": "Caitlyn",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 1.1
     },
     {
-      "nombre": "Ezreal",
+      "nombre": "Jhin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.875
+      "kda_promedio": 3
     },
     {
-      "nombre": "KSante",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8.333333333333334
-    },
-    {
-      "nombre": "Tristana",
+      "nombre": "Olaf",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.3333333333333333
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.875
+      "kda_promedio": 1.4444444444444444
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 9,
-    "losses": 6,
-    "timePlayed": 25115
+    "games": 6,
+    "wins": 1,
+    "losses": 5,
+    "timePlayed": 10020
   }
 }

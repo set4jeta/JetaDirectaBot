@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Usan",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/usaaan"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Usan sama#z1v9",
+      "nivel": 791,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2018,
+      "victorias": 897,
+      "derrotas": 796,
+      "ultima_partida": 1788310746407
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zed",
+      "partidas": 68,
+      "victorias": 40,
+      "winrate": "58.8%",
+      "kda_promedio": 2.1977272727272728
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 24,
+      "victorias": 11,
+      "winrate": "45.8%",
+      "kda_promedio": 1.9593908629441625
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.9607843137254901
+    },
+    {
+      "nombre": "Twitch",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4871794871794872
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.9
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 114,
+    "wins": 60,
+    "losses": 54,
+    "timePlayed": 188765
+  }
+}

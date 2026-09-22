@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Peng",
     "nombre_real": "Pengcheng Shen",
-    "edad": 21,
+    "edad": 22,
     "equipo": "The Ruddy Sack",
     "pais": "China",
     "contrato_hasta": null,
@@ -10,117 +10,127 @@
       "twitter": "https://twitter.com/MidPeng",
       "twitch": "https://twitch.tv/peng04"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/peng.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "twtv Peng04#Aespa",
-      "nivel": 395,
+      "nombre": "TWTV Peng04#Hanni",
+      "nivel": 325,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1254,
-      "victorias": 508,
-      "derrotas": 454,
-      "ultima_partida": 1753732472816
-    },
-    {
-      "nombre": "TWTV Peng04#Yuqi",
-      "nivel": 378,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 533,
-      "victorias": 67,
-      "derrotas": 46,
-      "ultima_partida": 1753729302153
+      "lp": 2833,
+      "victorias": 300,
+      "derrotas": 202,
+      "ultima_partida": 1788370913074
     },
     {
       "nombre": "twtv Peng04#NMIXX",
-      "nivel": 1110,
+      "nivel": 1236,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1465,
-      "victorias": 325,
-      "derrotas": 265,
-      "ultima_partida": 1753285750172
+      "lp": 3476,
+      "victorias": 411,
+      "derrotas": 298,
+      "ultima_partida": 1788309797482
+    },
+    {
+      "nombre": "TWTV Peng04#Yuqi",
+      "nivel": 489,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 3332,
+      "victorias": 408,
+      "derrotas": 304,
+      "ultima_partida": 1788011609314
+    },
+    {
+      "nombre": "twtv Peng04#Aespa",
+      "nivel": 440,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 165,
+      "derrotas": 118,
+      "ultima_partida": 1784244493679
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Ahri",
-      "partidas": 94,
-      "victorias": 47,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8990536277602525
+      "partidas": 96,
+      "victorias": 56,
+      "winrate": "58.3%",
+      "kda_promedio": 3.1421319796954315
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 8,
+      "nombre": "Seraphine",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 4.4363636363636365
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 9,
       "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 3.8333333333333335
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 2.9
+      "winrate": "33.3%",
+      "kda_promedio": 1.7397260273972603
     },
     {
       "nombre": "Aurora",
       "partidas": 6,
       "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 4.444444444444445
+      "kda_promedio": 2.6551724137931036
     },
     {
-      "nombre": "Syndra",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 4.2631578947368425
+      "nombre": "Zoe",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.9375
     },
     {
       "nombre": "Sion",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.4545454545454546
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Poppy",
       "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.6842105263157894
+      "kda_promedio": 1.1428571428571428
     },
     {
-      "nombre": "Yunara",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.130434782608696
-    },
-    {
-      "nombre": "Azir",
+      "nombre": "Jayce",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.8181818181818183
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 154,
-    "wins": 78,
-    "losses": 76,
-    "timePlayed": 254988
+    "games": 139,
+    "wins": 75,
+    "losses": 64,
+    "timePlayed": 222148
   }
 }

@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Andariel",
     "nombre_real": "Mert Kılıç",
-    "edad": 21,
+    "edad": 22,
     "equipo": "UCAM Esports",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-18T00:00:00.000Z",
+    "contrato_hasta": "2026-11-18T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/andarielzz",
       "twitch": "https://www.twitch.tv/andariel1x"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/andariel.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/UCAM.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "ANDA#RIEL",
-      "nivel": 714,
+      "nivel": 926,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1025,
-      "victorias": 522,
-      "derrotas": 473,
-      "ultima_partida": 1753726980579
+      "liga": "CHALLENGER I",
+      "lp": 3040,
+      "victorias": 668,
+      "derrotas": 533,
+      "ultima_partida": 1790029662320
     },
     {
-      "nombre": "BRlNG IT BACK#1WAY",
-      "nivel": 132,
+      "nombre": "Endorsi#mio韩服",
+      "nivel": 157,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 183,
-      "victorias": 57,
-      "derrotas": 44,
-      "ultima_partida": 1753694424186
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 145,
+      "derrotas": 86,
+      "ultima_partida": 1788212150829
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Yunara",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.5121951219512195
+    },
+    {
       "nombre": "Ezreal",
-      "partidas": 19,
-      "victorias": 11,
-      "winrate": "57.9%",
-      "kda_promedio": 3.4
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 11,
-      "victorias": 9,
-      "winrate": "81.8%",
-      "kda_promedio": 4.295454545454546
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 3.736842105263158
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 1.8928571428571428
-    },
-    {
-      "nombre": "Xayah",
       "partidas": 6,
       "victorias": 5,
       "winrate": "83.3%",
-      "kda_promedio": 3.75
+      "kda_promedio": 3.9583333333333335
     },
     {
-      "nombre": "Sivir",
+      "nombre": "Kalista",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Caitlyn",
       "partidas": 4,
       "victorias": 1,
       "winrate": "25.0%",
-      "kda_promedio": 1.9
+      "kda_promedio": 1.4137931034482758
     },
     {
-      "nombre": "Corki",
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Zoe",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.5625
+      "kda_promedio": 1.8571428571428572
     },
     {
-      "nombre": "Gnar",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.25
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.7857142857142858
-    },
-    {
-      "nombre": "Yunara",
+      "nombre": "Graves",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2
+      "kda_promedio": 5.166666666666667
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4166666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 40,
-    "losses": 30,
-    "timePlayed": 109366
+    "games": 51,
+    "wins": 27,
+    "losses": 24,
+    "timePlayed": 81358
   }
 }

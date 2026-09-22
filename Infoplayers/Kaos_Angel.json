@@ -1,0 +1,186 @@
+{
+  "info_jugador": {
+    "nombre": "Kaos_Angel",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Kaostanza",
+      "twitch": "https://twitch.tv/kaos_angel"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Gacha Gamer#EUW",
+      "nivel": 205,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2841,
+      "victorias": 441,
+      "derrotas": 278,
+      "ultima_partida": 1788387719708
+    },
+    {
+      "nombre": "HoYoverse Slave#K405",
+      "nivel": 188,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1787813515204
+    },
+    {
+      "nombre": "Acheron IX#K405",
+      "nivel": 237,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 51,
+      "victorias": 116,
+      "derrotas": 94,
+      "ultima_partida": 1786843925981
+    },
+    {
+      "nombre": "K405#K405",
+      "nivel": 100,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 60,
+      "victorias": 13,
+      "derrotas": 8,
+      "ultima_partida": 1786747222137
+    },
+    {
+      "nombre": "gachabate#guuna",
+      "nivel": 76,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 37,
+      "derrotas": 16,
+      "ultima_partida": 1782689293189
+    },
+    {
+      "nombre": "Cuddle Cat Kaos#EUW",
+      "nivel": 61,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1782679995173
+    },
+    {
+      "nombre": "John Wick 5#KEANU",
+      "nivel": 179,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 14,
+      "derrotas": 11,
+      "ultima_partida": 1777489603446
+    },
+    {
+      "nombre": "Kaostanza TFF#K405",
+      "nivel": 100,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1767840275480
+    },
+    {
+      "nombre": "Acheron E4#K405",
+      "nivel": 234,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1736373885222
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Talon",
+      "partidas": 140,
+      "victorias": 96,
+      "winrate": "68.6%",
+      "kda_promedio": 4.093283582089552
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 45,
+      "victorias": 23,
+      "winrate": "51.1%",
+      "kda_promedio": 3.7216494845360826
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 3.1153846153846154
+    },
+    {
+      "nombre": "Fizz",
+      "partidas": 11,
+      "victorias": 2,
+      "winrate": "18.2%",
+      "kda_promedio": 1.6142857142857143
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.631578947368421
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6904761904761907
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.3478260869565217
+    },
+    {
+      "nombre": "Morgana",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 235,
+    "wins": 137,
+    "losses": 98,
+    "timePlayed": 387234
+  }
+}

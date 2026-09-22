@@ -2,125 +2,125 @@
   "info_jugador": {
     "nombre": "Syzyfek",
     "nombre_real": "Jakub Bareła",
-    "edad": 20,
-    "equipo": "Ramboot Club",
+    "edad": 21,
+    "equipo": "Forsaken (Polish Team)",
     "pais": "Poland",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/SyzyfekA",
-      "twitch": "https://twitch.tv/syzyfekk"
+      "twitch": "https://twitch.tv/syzyfekk\\t"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/syzyfek.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/RBT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "RBT Syzyfek#SOLOQ",
-      "nivel": 88,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 79,
-      "victorias": 162,
-      "derrotas": 144,
-      "ultima_partida": 1753610977050
-    },
-    {
-      "nombre": "SilentResolve#RESET",
-      "nivel": 636,
+      "nombre": "twtv syzyfekk#PLEU",
+      "nivel": 837,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 789,
-      "victorias": 275,
-      "derrotas": 230,
-      "ultima_partida": 1753262218104
+      "lp": 2165,
+      "victorias": 485,
+      "derrotas": 426,
+      "ultima_partida": 1787821164356
     },
     {
-      "nombre": "SYZYFEK3#ADC",
-      "nivel": null,
+      "nombre": "loldogs lol#east",
+      "nivel": 141,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 37,
+      "victorias": 262,
+      "derrotas": 238,
+      "ultima_partida": 1786795790214
+    },
+    {
+      "nombre": "Syzyfek1#ADC",
+      "nivel": 222,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1774130652790
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Varus",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 2.8028169014084505
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8125
-    },
-    {
       "nombre": "Tristana",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 1.4558823529411764
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.639344262295082
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 1.8043478260869565
+    },
+    {
+      "nombre": "Samira",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 0.6071428571428571
     },
     {
       "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.6551724137931034
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.4166666666666665
+      "winrate": "75.0%",
+      "kda_promedio": 4.0625
     },
     {
       "nombre": "Kaisa",
-      "partidas": 2,
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5555555555555556
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 2,
-      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2
+      "kda_promedio": 1.6176470588235294
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.064516129032258
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.473684210526316
+    },
+    {
+      "nombre": "Yuumi",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 31,
-    "losses": 26,
-    "timePlayed": 93299
+    "games": 61,
+    "wins": 25,
+    "losses": 36,
+    "timePlayed": 92169
   }
 }

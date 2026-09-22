@@ -2,125 +2,125 @@
   "info_jugador": {
     "nombre": "seaz",
     "nombre_real": "Daniel Binderhofer",
-    "edad": 24,
-    "equipo": "Unicorns of Love Sexy Edition",
+    "edad": 25,
+    "equipo": "Eintracht Spandau",
     "pais": "Austria",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://www.twitter.com/seazlol",
       "twitch": "https://www.twitch.tv/seazlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/seaz.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Ewigkeit#0000",
-      "nivel": 308,
+      "nombre": "고군분투일취월장#mio韩服",
+      "nivel": 202,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 983,
-      "victorias": 304,
-      "derrotas": 263,
-      "ultima_partida": 1753700419911
+      "liga": "CHALLENGER I",
+      "lp": 2979,
+      "victorias": 586,
+      "derrotas": 436,
+      "ultima_partida": 1788348909690
     },
     {
       "nombre": "PLUTO#1589",
-      "nivel": 758,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1058,
-      "victorias": 178,
-      "derrotas": 126,
-      "ultima_partida": 1753611335955
-    },
-    {
-      "nombre": "blq#EUW",
-      "nivel": 101,
+      "nivel": 781,
       "region": "EUW1",
       "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 39,
-      "derrotas": 16,
-      "ultima_partida": 1753024654673
+      "lp": 5,
+      "victorias": 27,
+      "derrotas": 9,
+      "ultima_partida": 1787951292779
+    },
+    {
+      "nombre": "Ewigkeit#0000",
+      "nivel": 331,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 65,
+      "victorias": 9,
+      "derrotas": 4,
+      "ultima_partida": 1787362632016
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Bard",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 13.75
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.1333333333333333
+      "nombre": "Elise",
+      "partidas": 19,
+      "victorias": 13,
+      "winrate": "68.4%",
+      "kda_promedio": 3.7752808988764044
     },
     {
       "nombre": "Nautilus",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9047619047619047
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.25
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 6.6
+      "partidas": 10,
+      "victorias": 8,
+      "winrate": "80.0%",
+      "kda_promedio": 3.8181818181818183
     },
     {
       "nombre": "Pyke",
-      "partidas": 3,
-      "victorias": 2,
+      "partidas": 9,
+      "victorias": 6,
       "winrate": "66.7%",
-      "kda_promedio": 8.428571428571429
+      "kda_promedio": 2.3191489361702127
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.6875
     },
     {
       "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.409090909090909
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.05
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.181818181818182
+    },
+    {
+      "nombre": "Bard",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.5
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4705882352941178
     },
     {
       "nombre": "Leona",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.9166666666666665
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5714285714285716
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4
+      "kda_promedio": 4.777777777777778
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
-    "wins": 20,
-    "losses": 20,
-    "timePlayed": 67823
+    "games": 77,
+    "wins": 48,
+    "losses": 29,
+    "timePlayed": 115527
   }
 }

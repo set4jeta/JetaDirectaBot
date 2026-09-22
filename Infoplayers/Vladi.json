@@ -2,155 +2,165 @@
   "info_jugador": {
     "nombre": "Vladi",
     "nombre_real": "Vladimiros Kourtidis",
-    "edad": 19,
-    "equipo": "Karmine Corp",
+    "edad": 20,
+    "equipo": "Fnatic",
     "pais": "Greece",
-    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://www.twitter.com/Vladi1v9",
-      "twitch": "https://www.twitch.tv/vladilol_"
+      "twitter": "https://twitter.com/Vladi1v9",
+      "twitch": "https://twitch.tv/vladilol_"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/vladi.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "dmsdklb#vivi",
-      "nivel": 82,
+      "nombre": "J1HUIV#000",
+      "nivel": 594,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 2211,
-      "victorias": 336,
-      "derrotas": 196,
-      "ultima_partida": 1753745458166
+      "lp": 5399,
+      "victorias": 1123,
+      "derrotas": 926,
+      "ultima_partida": 1788371872270
     },
     {
-      "nombre": "J1HUIV#000",
-      "nivel": 368,
+      "nombre": "dmsdklb#vivi",
+      "nivel": 173,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 105,
-      "victorias": 531,
-      "derrotas": 483,
-      "ultima_partida": 1753394242321
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1764881537263
+    },
+    {
+      "nombre": "허거덩#007",
+      "nivel": 36,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1762917041820
     },
     {
       "nombre": "Jjimdak#000",
       "nivel": 32,
       "region": "KR",
-      "liga": "EMERALD I",
-      "lp": 67,
-      "victorias": 9,
-      "derrotas": 9,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1741836253836
     },
     {
       "nombre": "KC Vladi#000",
       "nivel": 31,
       "region": "KR",
-      "liga": "EMERALD I",
-      "lp": 27,
-      "victorias": 5,
-      "derrotas": 1,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1741369387601
     },
     {
-      "nombre": "Vladi#000",
-      "nivel": null,
+      "nombre": "Shrimp Shark#000",
+      "nivel": 76,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1732231091697
     },
     {
-      "nombre": "Shrimp Shark#000",
-      "nivel": 60,
+      "nombre": "Vladi#000",
+      "nivel": 598,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1725058249544
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Ryze",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.4565217391304346
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9473684210526316
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.566666666666667
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8076923076923075
+    },
+    {
       "nombre": "Orianna",
-      "partidas": 12,
-      "victorias": 11,
-      "winrate": "91.7%",
-      "kda_promedio": 4.930232558139535
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.484848484848485
     },
     {
-      "nombre": "Azir",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.5
+      "nombre": "Nasus",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Yunara",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.310344827586207
+      "nombre": "TwistedFate",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Akali",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 5.555555555555555
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5
     },
     {
-      "nombre": "Taliyah",
-      "partidas": 7,
-      "victorias": 6,
-      "winrate": "85.7%",
-      "kda_promedio": 5.9375
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.75
     },
     {
-      "nombre": "Tristana",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.833333333333333
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.25
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.185185185185185
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.411764705882353
-    },
-    {
-      "nombre": "Yone",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.1578947368421053
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 115,
-    "wins": 72,
-    "losses": 43,
-    "timePlayed": 180175
+    "games": 85,
+    "wins": 50,
+    "losses": 35,
+    "timePlayed": 136071
   }
 }

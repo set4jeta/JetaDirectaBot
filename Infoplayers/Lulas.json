@@ -1,0 +1,125 @@
+{
+  "info_jugador": {
+    "nombre": "Lulas",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/lulaslol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Tatudobem#PT1",
+      "nivel": 672,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1769,
+      "victorias": 801,
+      "derrotas": 731,
+      "ultima_partida": 1788316352139
+    },
+    {
+      "nombre": "Llama#LL1",
+      "nivel": 784,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 29,
+      "derrotas": 23,
+      "ultima_partida": 1777385213173
+    },
+    {
+      "nombre": "Insubstituível#EUW",
+      "nivel": 334,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1756392348233
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zyra",
+      "partidas": 43,
+      "victorias": 27,
+      "winrate": "62.8%",
+      "kda_promedio": 3.778947368421053
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 33,
+      "victorias": 15,
+      "winrate": "45.5%",
+      "kda_promedio": 2.9869281045751634
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.774193548387097
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.8205128205128205
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.3461538461538463
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Lillia",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.857142857142857
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5833333333333333
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 5.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 111,
+    "wins": 59,
+    "losses": 52,
+    "timePlayed": 179781
+  }
+}

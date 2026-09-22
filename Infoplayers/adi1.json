@@ -2,125 +2,125 @@
   "info_jugador": {
     "nombre": "adi1",
     "nombre_real": "Adrian Jackowski",
-    "edad": 23,
-    "equipo": "Nightbirds",
+    "edad": 24,
+    "equipo": "Bomba Team",
     "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/adrianint",
       "twitch": "https://www.twitch.tv/adrianint"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/adi1.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NBS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Ailurus fulgens#78141",
-      "nivel": 816,
+      "nombre": "moonlight sky#dream",
+      "nivel": 473,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 577,
-      "victorias": 91,
-      "derrotas": 67,
-      "ultima_partida": 1753755319748
+      "liga": "GRANDMASTER I",
+      "lp": 1885,
+      "victorias": 177,
+      "derrotas": 102,
+      "ultima_partida": 1788299839698
     },
     {
-      "nombre": "Iiz#IVE",
-      "nivel": 172,
+      "nombre": "adi#siema",
+      "nivel": 825,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 658,
-      "victorias": 71,
-      "derrotas": 50,
-      "ultima_partida": 1753740010338
+      "liga": "EMERALD II",
+      "lp": 55,
+      "victorias": 3,
+      "derrotas": 2,
+      "ultima_partida": 1786830349364
     },
     {
-      "nombre": "inspired1#78141",
-      "nivel": 371,
+      "nombre": "adi1#lol",
+      "nivel": 239,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1216,
-      "victorias": 132,
-      "derrotas": 65,
-      "ultima_partida": 1753719362876
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 76,
+      "derrotas": 78,
+      "ultima_partida": 1785508026491
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.7758620689655173
+      "nombre": "Naafiri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.037037037037037
     },
     {
-      "nombre": "Jhin",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 2.8181818181818183
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3333333333333335
     },
     {
-      "nombre": "DrMundo",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.3636363636363638
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.1379310344827585
     },
     {
       "nombre": "LeeSin",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 3.642857142857143
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6551724137931034
+    },
+    {
+      "nombre": "Rell",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 3.761904761904762
+      "kda_promedio": 3.263157894736842
     },
     {
-      "nombre": "Viego",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 3.909090909090909
-    },
-    {
-      "nombre": "Elise",
+      "nombre": "Graves",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.3846153846153846
+      "kda_promedio": 3.857142857142857
     },
     {
-      "nombre": "Galio",
+      "nombre": "Nocturne",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.6
+      "kda_promedio": 5.571428571428571
     },
     {
-      "nombre": "Khazix",
+      "nombre": "Olaf",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 6.428571428571429
+      "kda_promedio": 5.2
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.736842105263158
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 34,
-    "losses": 25,
-    "timePlayed": 93951
+    "games": 48,
+    "wins": 28,
+    "losses": 20,
+    "timePlayed": 76927
   }
 }

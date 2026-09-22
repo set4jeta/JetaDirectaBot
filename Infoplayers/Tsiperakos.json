@@ -2,125 +2,125 @@
   "info_jugador": {
     "nombre": "Tsiperakos",
     "nombre_real": "Vasilis Lalas",
-    "edad": 22,
-    "equipo": "Gamespace Mediterranean College Esports",
+    "edad": 23,
+    "equipo": "WLGaming Esports",
     "pais": "Greece",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/TsiperakosLol",
-      "twitch": "\\thttps://www.twitch.tv/tsiperakoslol\\t"
+      "twitch": "https://www.twitch.tv/tsiperakoslol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GSMC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Tsipourakos#tsprk",
-      "nivel": 488,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 761,
-      "victorias": 142,
-      "derrotas": 107,
-      "ultima_partida": 1753737822455
-    },
-    {
       "nombre": "Tsiperakos#MID",
-      "nivel": 515,
+      "nivel": 532,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 1010,
-      "victorias": 214,
-      "derrotas": 175,
-      "ultima_partida": 1753709474472
+      "liga": "CHALLENGER I",
+      "lp": 1141,
+      "victorias": 304,
+      "derrotas": 252,
+      "ultima_partida": 1766403129617
     },
     {
-      "nombre": "LetMe1v2Plz#EUW",
-      "nivel": 98,
+      "nombre": "Tsipourakos#tsprk",
+      "nivel": 504,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 716,
-      "victorias": 74,
-      "derrotas": 35,
-      "ultima_partida": 1753654971741
+      "lp": 733,
+      "victorias": 230,
+      "derrotas": 189,
+      "ultima_partida": 1766358474671
+    },
+    {
+      "nombre": "EnasEnantiwnDio#Plz",
+      "nivel": 119,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1232,
+      "victorias": 203,
+      "derrotas": 133,
+      "ultima_partida": 1766315541669
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ziggs",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 3.45
+      "nombre": "Bard",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.735294117647059
     },
     {
-      "nombre": "Kaisa",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.260869565217391
+      "nombre": "Zed",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 3.7241379310344827
     },
     {
-      "nombre": "Orianna",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.7272727272727273
+      "nombre": "Zoe",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.76
     },
     {
       "nombre": "Syndra",
-      "partidas": 4,
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6956521739130435
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 7.125
+      "winrate": "80.0%",
+      "kda_promedio": 2.657142857142857
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.12
     },
     {
       "nombre": "Akali",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.909090909090909
+      "winrate": "75.0%",
+      "kda_promedio": 1.5757575757575757
     },
     {
-      "nombre": "Jax",
-      "partidas": 3,
+      "nombre": "Alistar",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 0.7619047619047619
+      "winrate": "100.0%",
+      "kda_promedio": 4.090909090909091
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.56
     },
     {
       "nombre": "Yone",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Aurora",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.9166666666666665
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.090909090909091
+      "kda_promedio": 1.5454545454545454
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 27,
-    "losses": 22,
-    "timePlayed": 79381
+    "games": 58,
+    "wins": 35,
+    "losses": 23,
+    "timePlayed": 92182
   }
 }

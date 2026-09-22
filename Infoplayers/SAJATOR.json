@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "SAJATOR",
+    "nombre_real": "Jan Zítek",
+    "edad": 21,
+    "equipo": "TeamOrangeGaming",
+    "pais": "Czech Republic",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Sajator",
+      "twitch": "https://www.twitch.tv/sajator1"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "sajator21#zubri",
+      "nivel": 965,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1204,
+      "victorias": 67,
+      "derrotas": 36,
+      "ultima_partida": 1788363572343
+    },
+    {
+      "nombre": "SAJAT0R#20311",
+      "nivel": 106,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 3083,
+      "victorias": 473,
+      "derrotas": 352,
+      "ultima_partida": 1788354068908
+    },
+    {
+      "nombre": "sajat2004rCZLPYT#ZUBRI",
+      "nivel": 296,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 63,
+      "victorias": 168,
+      "derrotas": 144,
+      "ultima_partida": 1787260525479
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5.35
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.04
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3888888888888888
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.769230769230769
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7419354838709677
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 9.4
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.1363636363636362
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5.111111111111111
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.111111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 84,
+    "wins": 51,
+    "losses": 33,
+    "timePlayed": 136254
+  }
+}

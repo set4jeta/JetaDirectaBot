@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Midnight",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/midlanesyndrome",
+      "twitch": "https://www.twitch.tv/midnightt_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "YCO#EUW",
+      "nivel": 1985,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1716,
+      "victorias": 837,
+      "derrotas": 779,
+      "ultima_partida": 1788390173480
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Anivia",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 3.489795918367347
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.864864864864865
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.5593220338983051
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.1904761904761907
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0606060606060606
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.84375
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Katarina",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 40,
+    "losses": 39,
+    "timePlayed": 122726
+  }
+}

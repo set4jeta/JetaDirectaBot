@@ -1,0 +1,92 @@
+{
+  "info_jugador": {
+    "nombre": "Yahimo",
+    "nombre_real": "Erwin Ubych",
+    "edad": 23,
+    "equipo": "DOCISK Academy",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/YahimoB",
+      "twitch": "https://twitch.tv/yahimox"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "IMPERATOR ERWIN#UBYCH",
+      "nivel": 672,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2692,
+      "victorias": 793,
+      "derrotas": 739,
+      "ultima_partida": 1788317923251
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Draven",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Swain",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2142857142857142
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 18,
+    "wins": 13,
+    "losses": 5,
+    "timePlayed": 25226
+  }
+}

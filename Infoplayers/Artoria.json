@@ -2,104 +2,105 @@
   "info_jugador": {
     "nombre": "Artoria",
     "nombre_real": "Alexis Diebold",
-    "edad": 22,
-    "equipo": "A One Man Army Prime",
+    "edad": 23,
+    "equipo": "DMG Esports",
     "pais": "France",
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://twitter.com/Artoria_UwU"
+      "twitter": "https://twitter.com/Artoria_UwU",
+      "twitch": "https://www.twitch.tv/artoria_gate"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/artoria.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GRP.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Αrtoria Prime#eProd",
-      "nivel": 1707,
+      "nombre": "Artoria Prime#eProd",
+      "nivel": 2006,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 809,
-      "victorias": 657,
-      "derrotas": 619,
-      "ultima_partida": 1753729043268
+      "lp": 2202,
+      "victorias": 960,
+      "derrotas": 873,
+      "ultima_partida": 1790007157703
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ahri",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 3.877551020408163
-    },
-    {
       "nombre": "Syndra",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1346153846153846
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9272727272727272
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7555555555555555
-    },
-    {
-      "nombre": "TwistedFate",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.6363636363636362
+      "partidas": 17,
+      "victorias": 10,
+      "winrate": "58.8%",
+      "kda_promedio": 3.230769230769231
     },
     {
       "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.5454545454545454
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 4,
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.347826086956522
-    },
-    {
-      "nombre": "Viktor",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7222222222222223
-    },
-    {
-      "nombre": "Hwei",
-      "partidas": 3,
-      "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.8
+      "kda_promedio": 5.5625
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3157894736842106
     },
     {
       "nombre": "Akali",
-      "partidas": 2,
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5454545454545454
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.777777777777778
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.8
+      "winrate": "33.3%",
+      "kda_promedio": 2.176470588235294
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.0714285714285716
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 102,
-    "wins": 49,
-    "losses": 53,
-    "timePlayed": 174184
+    "games": 90,
+    "wins": 44,
+    "losses": 46,
+    "timePlayed": 141164
   }
 }

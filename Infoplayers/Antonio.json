@@ -1,0 +1,55 @@
+{
+  "info_jugador": {
+    "nombre": "Antonio",
+    "nombre_real": "Kacper Klech",
+    "edad": 25,
+    "equipo": "3BL Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/antonioo_lol",
+      "twitch": "https://twitch.tv/AntonioLoLxx"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "K Z#euwz",
+      "nivel": 191,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 864,
+      "victorias": 764,
+      "derrotas": 625,
+      "ultima_partida": 1785962674801
+    },
+    {
+      "nombre": "Ezreal acc#euwe",
+      "nivel": 462,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 222,
+      "derrotas": 224,
+      "ultima_partida": 1783462904341
+    },
+    {
+      "nombre": "Antonio#EUWE",
+      "nivel": 218,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 55,
+      "victorias": 25,
+      "derrotas": 40,
+      "ultima_partida": 1777213788743
+    }
+  ],
+  "campeones_recientes": [],
+  "estadisticas_2_semanas": {
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "timePlayed": 0
+  }
+}

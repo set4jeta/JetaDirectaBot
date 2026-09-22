@@ -2,83 +2,76 @@
   "info_jugador": {
     "nombre": "Robocop",
     "nombre_real": "Ondřej Sklenička",
-    "edad": 25,
-    "equipo": "Entropiq",
+    "edad": 26,
+    "equipo": "Ruddy Corporation",
     "pais": "Czech Republic",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Robocoplol1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "SMRADOCH ROBO#EUW",
-      "nivel": 588,
+      "nivel": 674,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 764,
-      "victorias": 276,
-      "derrotas": 254,
-      "ultima_partida": 1753698240542
+      "lp": 1758,
+      "victorias": 255,
+      "derrotas": 208,
+      "ultima_partida": 1788344293795
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yorick",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.730769230769231
+      "nombre": "Ambessa",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.76
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Gnar",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 5.5
+      "kda_promedio": 2.0833333333333335
     },
     {
-      "nombre": "Gwen",
-      "partidas": 2,
+      "nombre": "Yorick",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
+      "winrate": "33.3%",
+      "kda_promedio": 1
     },
     {
       "nombre": "Rumble",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.1538461538461537
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Ambessa",
+      "nombre": "Renekton",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 16
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 12
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
+      "kda_promedio": 4.666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 19,
+    "games": 17,
     "wins": 10,
-    "losses": 9,
-    "timePlayed": 29062
+    "losses": 7,
+    "timePlayed": 25873
   }
 }

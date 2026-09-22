@@ -10,107 +10,117 @@
       "twitter": "https://twitter.com/booshi_lol",
       "twitch": "https://twitch.tv/booshi_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/booshi.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BKR.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "B O O S H I#STAR",
-      "nivel": 868,
+      "nombre": "GWEN ME MOG#VRAI",
+      "nivel": 1033,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1088,
-      "victorias": 578,
-      "derrotas": 530,
-      "ultima_partida": 1753738913708
+      "liga": "GRANDMASTER I",
+      "lp": 1938,
+      "victorias": 523,
+      "derrotas": 447,
+      "ultima_partida": 1790015982244
     },
     {
-      "nombre": "B2O#NEW",
-      "nivel": 149,
+      "nombre": "Garfield#liz",
+      "nivel": 280,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 275,
-      "victorias": 95,
-      "derrotas": 85,
-      "ultima_partida": 1753644335300
+      "liga": "CHALLENGER I",
+      "lp": 3056,
+      "victorias": 632,
+      "derrotas": 487,
+      "ultima_partida": 1789824835626
+    },
+    {
+      "nombre": "Drew Lewin#ADMIN",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760296503363
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Lucian",
-      "partidas": 51,
-      "victorias": 26,
-      "winrate": "51.0%",
-      "kda_promedio": 4.134751773049645
-    },
-    {
       "nombre": "Yunara",
-      "partidas": 22,
+      "partidas": 26,
       "victorias": 14,
-      "winrate": "63.6%",
-      "kda_promedio": 3.294736842105263
+      "winrate": "53.8%",
+      "kda_promedio": 2.6474358974358974
     },
     {
       "nombre": "Ezreal",
-      "partidas": 19,
-      "victorias": 10,
-      "winrate": "52.6%",
-      "kda_promedio": 3.2
+      "partidas": 20,
+      "victorias": 13,
+      "winrate": "65.0%",
+      "kda_promedio": 2.5
     },
     {
       "nombre": "Kaisa",
-      "partidas": 12,
-      "victorias": 9,
-      "winrate": "75.0%",
-      "kda_promedio": 4.589743589743589
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3780487804878048
     },
     {
       "nombre": "Varus",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 3.6363636363636362
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 1.8666666666666667
     },
     {
-      "nombre": "Aurora",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 4.266666666666667
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.1944444444444446
+      "nombre": "Lucian",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.6363636363636365
     },
     {
       "nombre": "Thresh",
-      "partidas": 4,
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4.166666666666667
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.3333333333333335
+      "winrate": "40.0%",
+      "kda_promedio": 3.225806451612903
     },
     {
       "nombre": "Jhin",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Caitlyn",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.5
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 141,
-    "wins": 75,
-    "losses": 66,
-    "timePlayed": 219205
+    "games": 121,
+    "wins": 57,
+    "losses": 64,
+    "timePlayed": 188027
   }
 }

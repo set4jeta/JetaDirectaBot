@@ -1,0 +1,64 @@
+{
+  "info_jugador": {
+    "nombre": "Hatsu",
+    "nombre_real": "Paweł Koćmierowski",
+    "edad": 24,
+    "equipo": "UP2UMEDIA Cebulaki",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/HatsuneMik29402",
+      "twitch": "https://www.twitch.tv/hatsu2904"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Wictor#SIGMA",
+      "nivel": 288,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1924,
+      "victorias": 251,
+      "derrotas": 173,
+      "ultima_partida": 1788262151150
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 6,
+    "wins": 5,
+    "losses": 1,
+    "timePlayed": 10201
+  }
+}

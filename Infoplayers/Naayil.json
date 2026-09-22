@@ -15,98 +15,98 @@
   },
   "cuentas": [
     {
-      "nombre": "GLAAZING#3215",
-      "nivel": 44,
+      "nombre": "SAAINT JHINGLE#AAA",
+      "nivel": 104,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 262,
-      "victorias": 93,
-      "derrotas": 51,
-      "ultima_partida": 1753755105591
+      "lp": 170,
+      "victorias": 182,
+      "derrotas": 139,
+      "ultima_partida": 1788399819620
+    },
+    {
+      "nombre": "KAATAKURI#BBB",
+      "nivel": 117,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2784,
+      "victorias": 531,
+      "derrotas": 388,
+      "ultima_partida": 1788145299372
     },
     {
       "nombre": "NAAYIL#S67",
-      "nivel": 1144,
+      "nivel": 1212,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 991,
-      "victorias": 732,
-      "derrotas": 681,
-      "ultima_partida": 1753653400330
-    },
-    {
-      "nombre": "NAAYIL#KOREA",
-      "nivel": 88,
-      "region": "KR",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 191,
-      "derrotas": 171,
-      "ultima_partida": 1745117562132
+      "lp": 1962,
+      "victorias": 371,
+      "derrotas": 297,
+      "ultima_partida": 1787745847256
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Aatrox",
-      "partidas": 73,
-      "victorias": 47,
-      "winrate": "64.4%",
-      "kda_promedio": 2.9625468164794007
+      "partidas": 33,
+      "victorias": 18,
+      "winrate": "54.5%",
+      "kda_promedio": 3.0903614457831323
     },
     {
-      "nombre": "KSante",
-      "partidas": 10,
-      "victorias": 4,
-      "winrate": "40.0%",
-      "kda_promedio": 3.2058823529411766
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.04
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 11.5
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.5
+      "nombre": "Jhin",
+      "partidas": 24,
+      "victorias": 13,
+      "winrate": "54.2%",
+      "kda_promedio": 3.108527131782946
     },
     {
       "nombre": "Hwei",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 1.6304347826086956
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Seraphine",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.3333333333333333
-    },
-    {
-      "nombre": "Kayle",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.333333333333333
-    },
-    {
-      "nombre": "Malphite",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 18
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 95,
-    "wins": 58,
-    "losses": 37,
-    "timePlayed": 153694
+    "games": 72,
+    "wins": 40,
+    "losses": 32,
+    "timePlayed": 122613
   }
 }

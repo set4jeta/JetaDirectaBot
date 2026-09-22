@@ -1,341 +1,5 @@
 [
   {
-    "start_time": "2025-07-28T22:00:00+00:00",
-    "match_id": "114852267070029171",
-    "detection_time": "2025-07-29T03:47:29+00:00",
-    "last_checked": "2025-07-29T05:59:33+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114852267070029171",
-    "league_name": "Circuito Desafiante",
-    "slug": "cd",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "105549995617170853",
-        "name": "KaBuM! IDL",
-        "code": "KBM",
-        "image": "http://static.lolesports.com/teams/1741770829365_COLORFUL_WHITE.png",
-        "game_wins": 1
-      },
-      {
-        "id": "114148748659161269",
-        "name": "Stellae Gaming",
-        "code": "STE",
-        "image": "http://static.lolesports.com/teams/1741771669890_Logo-Stellae-PNG.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114852267070029172",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-29T03:47:58+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114934326335070628",
-            "parameter": "-hgz3XJwt9Q",
-            "locale": "en-US",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-28T19:22:15.544000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-28T23:00:00+00:00",
-    "match_id": "114776472565938602",
-    "detection_time": "2025-07-29T03:47:30+00:00",
-    "last_checked": "2025-07-29T06:59:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 3",
-    "event_id": "114776472565938602",
-    "league_name": "LRN",
-    "slug": "north_regional_league",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "107581212180071788",
-        "name": "Xibalbá Esports",
-        "code": "XBA",
-        "image": "http://static.lolesports.com/teams/1752137022986_png.png",
-        "game_wins": 0
-      },
-      {
-        "id": "114194110230896602",
-        "name": "Movistar Lyon Academy",
-        "code": "LYON",
-        "image": "http://static.lolesports.com/teams/1742463831498_1.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114776472565938603",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-29T03:47:59+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114934292601490096",
-            "parameter": "spttnBaT89k",
-            "locale": "es-MX",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-28T22:27:10.904000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-28T23:00:00+00:00",
-    "match_id": "114852267069570383",
-    "detection_time": "2025-07-29T03:47:30+00:00",
-    "last_checked": "2025-07-29T06:59:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114852267069570383",
-    "league_name": "Circuito Desafiante",
-    "slug": "cd",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "114889961398783362",
-        "name": "E-Champ Gaming",
-        "code": "ECG",
-        "image": "http://static.lolesports.com/teams/1753081701302_E-Champ-LogoOficialBranco.png",
-        "game_wins": 0
-      },
-      {
-        "id": "109485335453835911",
-        "name": "Vivo Keyd Stars Academy",
-        "code": "VKS",
-        "image": "http://static.lolesports.com/teams/1670613637640_NAMINGRIGHTS-BRANCO.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114852267069570384",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-29T03:47:59+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114934328364550836",
-            "parameter": "-hgz3XJwt9Q",
-            "locale": "en-US",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-28T19:22:15.544000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-29T00:00:00+00:00",
-    "match_id": "114848134738695228",
-    "detection_time": "2025-07-29T03:47:31+00:00",
-    "last_checked": "2025-07-29T07:38:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 3",
-    "event_id": "114848134738695228",
-    "league_name": "LRN",
-    "slug": "north_regional_league",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "107603600826620492",
-        "name": "Zeu5 Esports",
-        "code": "Z5",
-        "image": "http://static.lolesports.com/teams/1742462885664_FULL_COLOR_FOR_DARK_BG7.png",
-        "game_wins": 1
-      },
-      {
-        "id": "114194005423479714",
-        "name": "ODD Esports",
-        "code": "ODD",
-        "image": "http://static.lolesports.com/teams/1742462235797_FULL_COLOR_FOR_DARK_BG3.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114848134738695229",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-29T03:47:59+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114934295197829809",
-            "parameter": "spttnBaT89k",
-            "locale": "es-MX",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-28T22:27:10.904000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-29T00:00:00+00:00",
-    "match_id": "114776792527345872",
-    "detection_time": "2025-07-29T03:47:31+00:00",
-    "last_checked": "2025-07-29T07:38:37+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 2",
-    "event_id": "114776792527345872",
-    "league_name": "Circuito Desafiante",
-    "slug": "cd",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "114148730209204377",
-        "name": "Alpha7",
-        "code": "A7",
-        "image": "http://static.lolesports.com/teams/1752504768051_600px-A7_eSports_darkmode.png",
-        "game_wins": 0
-      },
-      {
-        "id": "105550001032913831",
-        "name": "RED Kalunga Academy",
-        "code": "RED",
-        "image": "http://static.lolesports.com/teams/1642969030123_REDlogo_REDCanids-RGB-linhabranca1.png",
-        "game_wins": 1
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114776792527345873",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-29T03:48:00+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114934332768355204",
-            "parameter": "-hgz3XJwt9Q",
-            "locale": "pt-BR",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-28T19:22:15.544000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-29T01:00:00+00:00",
-    "match_id": "114776472565938594",
-    "detection_time": "2025-07-29T03:47:32+00:00",
-    "last_checked": "2025-07-29T07:38:38+00:00",
-    "state": "completed",
-    "status": "completed",
-    "blockName": "Week 3",
-    "event_id": "114776472565938594",
-    "league_name": "LRN",
-    "slug": "north_regional_league",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "104841890701948065",
-        "name": "Estral Esports",
-        "code": "EST",
-        "image": "http://static.lolesports.com/teams/EST.png",
-        "game_wins": 1
-      },
-      {
-        "id": "107581765633427097",
-        "name": "Fuego",
-        "code": "FUE",
-        "image": "http://static.lolesports.com/teams/1711010140737_FUEGO-C.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114776472565938595",
-        "number": 1,
-        "state": "completed",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": "2025-07-29T03:48:00+00:00",
-        "real_start_time": null,
-        "vods": [
-          {
-            "id": "114934297059576498",
-            "parameter": "spttnBaT89k",
-            "locale": "es-MX",
-            "provider": "youtube",
-            "offset": 0,
-            "first_frame_time": "2025-07-28T22:27:10.904000+00:00"
-          }
-        ],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
     "start_time": "2025-07-29T08:00:00+00:00",
     "match_id": "114810847057868437",
     "detection_time": "2025-07-29T03:47:32+00:00",
@@ -526,85 +190,6 @@
     ]
   },
   {
-    "start_time": "2025-07-29T09:00:00+00:00",
-    "match_id": "114162735078583650",
-    "detection_time": "2025-07-29T03:47:38+00:00",
-    "last_checked": "2025-07-29T07:38:43+00:00",
-    "state": "unstarted",
-    "status": "completed",
-    "blockName": "Week 3",
-    "event_id": "114162735078583650",
-    "league_name": "LPL",
-    "slug": "lpl",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "103461966986776720",
-        "name": "Ultra Prime",
-        "code": "UP",
-        "image": "http://static.lolesports.com/teams/ultraprime.png",
-        "game_wins": 0
-      },
-      {
-        "id": "99566404846951820",
-        "name": "Hangzhou LGD Gaming",
-        "code": "LGD",
-        "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114162735078583651",
-        "number": 1,
-        "state": "unstarted",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114692005230650721",
-        "number": 2,
-        "state": "unstarted",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114692005230650722",
-        "number": 3,
-        "state": "unstarted",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
     "start_time": "2025-07-29T10:00:00+00:00",
     "match_id": "114810847057868325",
     "detection_time": "2025-07-29T03:47:40+00:00",
@@ -667,85 +252,6 @@
       },
       {
         "game_id": "114810847057868328",
-        "number": 3,
-        "state": "unstarted",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      }
-    ]
-  },
-  {
-    "start_time": "2025-07-29T11:00:00+00:00",
-    "match_id": "114162735078583596",
-    "detection_time": "2025-07-29T03:47:42+00:00",
-    "last_checked": "2025-07-29T07:38:47+00:00",
-    "state": "unstarted",
-    "status": "completed",
-    "blockName": "Week 3",
-    "event_id": "114162735078583596",
-    "league_name": "LPL",
-    "slug": "lpl",
-    "best_of_count": 3,
-    "teams_event_details": [
-      {
-        "id": "99566404848691211",
-        "name": "Invictus Gaming",
-        "code": "IG",
-        "image": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-        "game_wins": 0
-      },
-      {
-        "id": "99566404855553726",
-        "name": "FunPlus Phoenix",
-        "code": "FPX",
-        "image": "http://static.lolesports.com/teams/1627457887494_7_720.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "114162735078583597",
-        "number": 1,
-        "state": "unstarted",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114692005230650659",
-        "number": 2,
-        "state": "unstarted",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
-      },
-      {
-        "game_id": "114692005230650660",
         "number": 3,
         "state": "unstarted",
         "draft_in_progress": false,
@@ -905,6 +411,147 @@
       {
         "game_id": "114742343629334663",
         "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2026-09-22T06:00:00+00:00",
+    "match_id": "117127385837014985",
+    "detection_time": "2026-09-22T00:36:51+00:00",
+    "last_checked": "2026-09-22T00:39:51+00:00",
+    "state": "notStarted",
+    "status": "detected",
+    "blockName": "Groups",
+    "event_id": "117127385837014985",
+    "league_name": "WSCI",
+    "slug": "wsci",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "111692802629324367",
+        "name": "Movistar KOI Fénix",
+        "code": "MKF",
+        "image": "http://static.lolesports.com/teams/1704458610869_6596f892741d1355702004.png",
+        "game_wins": 0
+      },
+      {
+        "id": "117195382376708749",
+        "name": "Bilibili Gaming Junior",
+        "code": "BLGJ",
+        "image": "http://static.lolesports.com/teams/1788259616222_BLG.J512x512.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "117127385837014986",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2026-09-22T07:00:00+00:00",
+    "match_id": "117127385837080523",
+    "detection_time": "2026-09-22T00:36:52+00:00",
+    "last_checked": "2026-09-22T00:39:51+00:00",
+    "state": "notStarted",
+    "status": "detected",
+    "blockName": "Groups",
+    "event_id": "117127385837080523",
+    "league_name": "WSCI",
+    "slug": "wsci",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "113951569973088490",
+        "name": "CTBC Flying Oyster Academy",
+        "code": "CFOA",
+        "image": "http://static.lolesports.com/teams/1738762962228_1000_CFOA-FlyingOyster.png",
+        "game_wins": 0
+      },
+      {
+        "id": "105550049871017396",
+        "name": "kt Challengers",
+        "code": "KT",
+        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "117127385837080524",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2026-09-22T08:00:00+00:00",
+    "match_id": "117127385837014961",
+    "detection_time": "2026-09-22T00:36:54+00:00",
+    "last_checked": "2026-09-22T00:39:52+00:00",
+    "state": "notStarted",
+    "status": "detected",
+    "blockName": "Groups",
+    "event_id": "117127385837014961",
+    "league_name": "WSCI",
+    "slug": "wsci",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "107581765633427097",
+        "name": "FUEGO",
+        "code": "FUE",
+        "image": "http://static.lolesports.com/teams/1711010140737_FUEGO-C.png",
+        "game_wins": 0
+      },
+      {
+        "id": "105550059790656435",
+        "name": "T1 Esports Academy",
+        "code": "T1A",
+        "image": "http://static.lolesports.com/teams/T1-FullonDark.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "117127385837014962",
+        "number": 1,
         "state": "unstarted",
         "draft_in_progress": false,
         "has_participants": false,

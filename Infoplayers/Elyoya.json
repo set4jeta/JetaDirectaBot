@@ -2,52 +2,115 @@
   "info_jugador": {
     "nombre": "Elyoya",
     "nombre_real": "Javier Prades Batalla",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Movistar KOI",
     "pais": "Spain",
-    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Elyoya_LoL",
       "twitch": "https://twitch.tv/elyoyalol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/elyoya.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/MKOI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "komanche uchiha#elite",
-      "nivel": 1056,
+      "nivel": 1191,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 276,
-      "victorias": 376,
-      "derrotas": 339,
-      "ultima_partida": 1753446470342
+      "liga": "GRANDMASTER I",
+      "lp": 2071,
+      "victorias": 477,
+      "derrotas": 371,
+      "ultima_partida": 1788381533213
     },
     {
       "nombre": "Dani Flow#myrwn",
       "nivel": 36,
       "region": "NA1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 42,
-      "derrotas": 8,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1751697763757
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 1,
+      "nombre": "LeeSin",
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 3.272727272727273
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.7333333333333334
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.086956521739131
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
       "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.071428571428571
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.3
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.4
+      "kda_promedio": 8.666666666666666
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 1,
-    "wins": 1,
-    "losses": 0,
-    "timePlayed": 1746
+    "games": 69,
+    "wins": 36,
+    "losses": 33,
+    "timePlayed": 104281
   }
 }

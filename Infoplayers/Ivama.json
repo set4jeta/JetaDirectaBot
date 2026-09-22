@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Ivama",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/ivama1234"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "GOLDEN BOY#IVAMA",
+      "nivel": 1088,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1782,
+      "victorias": 785,
+      "derrotas": 711,
+      "ultima_partida": 1788364423123
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Hecarim",
+      "partidas": 9,
+      "victorias": 8,
+      "winrate": "88.9%",
+      "kda_promedio": 5.454545454545454
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.5
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.684210526315789
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.090909090909091
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 40,
+    "wins": 22,
+    "losses": 18,
+    "timePlayed": 60639
+  }
+}

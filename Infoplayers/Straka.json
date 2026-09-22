@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Straka",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "DUVAJ GA BOSNO#srb",
+      "nivel": 297,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1752,
+      "victorias": 321,
+      "derrotas": 264,
+      "ultima_partida": 1788083991774
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Akshan",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.44
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.103448275862069
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.72
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.764705882352941
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5294117647058822
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 31,
+    "losses": 20,
+    "timePlayed": 85409
+  }
+}

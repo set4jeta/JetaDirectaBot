@@ -8,90 +8,134 @@
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/DesperateNasus",
-      "twitch": "https://twitch.tv/desperatenasus\\t"
+      "twitch": "https://twitch.tv/desperatenasus"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/desperatenasus.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "DesperateNasus#TWTV1",
-      "nivel": 69,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1299,
-      "victorias": 207,
-      "derrotas": 114,
-      "ultima_partida": 1753756149496
+      "nombre": "Δ Desperate#adi",
+      "nivel": 573,
+      "region": "EUN1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 184,
+      "derrotas": 85,
+      "ultima_partida": 1788216068067
     },
     {
-      "nombre": "DesperateNasus#R 1",
-      "nivel": 488,
+      "nombre": "DesperateNasus#K R",
+      "nivel": 129,
       "region": "EUN1",
       "liga": "CHALLENGER I",
-      "lp": 2082,
-      "victorias": 179,
-      "derrotas": 80,
-      "ultima_partida": 1753752170434
+      "lp": 2449,
+      "victorias": 325,
+      "derrotas": 187,
+      "ultima_partida": 1788139675095
     },
     {
       "nombre": "Desperate Nasus#EUW",
-      "nivel": 261,
+      "nivel": 310,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1356,
-      "victorias": 294,
-      "derrotas": 233,
-      "ultima_partida": 1753747435371
+      "liga": "GRANDMASTER I",
+      "lp": 2253,
+      "victorias": 222,
+      "derrotas": 153,
+      "ultima_partida": 1787845073498
+    },
+    {
+      "nombre": "DesperateNasus#TTV",
+      "nivel": 358,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 70,
+      "victorias": 100,
+      "derrotas": 65,
+      "ultima_partida": 1787834182469
+    },
+    {
+      "nombre": "DesperateNasus#N A",
+      "nivel": 37,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 54,
+      "derrotas": 16,
+      "ultima_partida": 1785435856510
     },
     {
       "nombre": "DesperateNasus#TWTV",
-      "nivel": 202,
+      "nivel": 275,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 970,
-      "victorias": 284,
-      "derrotas": 240,
-      "ultima_partida": 1753726787721
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 449,
+      "derrotas": 367,
+      "ultima_partida": 1783339359865
     },
     {
-      "nombre": "絶望的なナサス#DESPE",
-      "nivel": 62,
+      "nombre": "DesperateNasus#C N",
+      "nivel": 73,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 107,
-      "derrotas": 68,
-      "ultima_partida": 1743610221934
+      "victorias": 174,
+      "derrotas": 111,
+      "ultima_partida": 1781367651906
+    },
+    {
+      "nombre": "DesperateNasus#TWTV1",
+      "nivel": 82,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 47,
+      "derrotas": 28,
+      "ultima_partida": 1777124451851
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Senna",
+      "partidas": 74,
+      "victorias": 43,
+      "winrate": "58.1%",
+      "kda_promedio": 4.4937106918239
+    },
+    {
       "nombre": "Kayle",
-      "partidas": 117,
-      "victorias": 73,
-      "winrate": "62.4%",
-      "kda_promedio": 3.4184782608695654
+      "partidas": 42,
+      "victorias": 21,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6264367816091956
     },
     {
       "nombre": "Nasus",
-      "partidas": 17,
-      "victorias": 8,
-      "winrate": "47.1%",
-      "kda_promedio": 3.0344827586206895
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.8666666666666667
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 7.75
     },
     {
       "nombre": "Vayne",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 10
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 135,
-    "wins": 82,
-    "losses": 53,
-    "timePlayed": 217359
+    "games": 127,
+    "wins": 72,
+    "losses": 55,
+    "timePlayed": 218288
   }
 }

@@ -7,102 +7,140 @@
     "pais": null,
     "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://twitter.com/Veigar_v2"
+      "twitter": "https://twitter.com/Veigar_v2",
+      "twitch": "https://www.twitch.tv/veigarv2"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/veigarv2.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
+      "nombre": "KFC Vladi#KCORP",
+      "nivel": 308,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 173,
+      "victorias": 557,
+      "derrotas": 544,
+      "ultima_partida": 1766371297860
+    },
+    {
       "nombre": "VeigarV2SmurfAcc#123",
-      "nivel": 275,
+      "nivel": 290,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 953,
-      "victorias": 206,
-      "derrotas": 146,
-      "ultima_partida": 1753724317883
+      "lp": 1058,
+      "victorias": 289,
+      "derrotas": 215,
+      "ultima_partida": 1766350267317
     },
     {
       "nombre": "Veigar v2#0000",
-      "nivel": 454,
+      "nivel": 458,
       "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 35,
-      "victorias": 7,
-      "derrotas": 12,
-      "ultima_partida": 1740973980257
+      "liga": "DIAMOND IV",
+      "lp": 85,
+      "victorias": 24,
+      "derrotas": 38,
+      "ultima_partida": 1766256486374
+    },
+    {
+      "nombre": "Veigarv2Coaching#NA1",
+      "nivel": 55,
+      "region": "NA1",
+      "liga": "EMERALD II",
+      "lp": 25,
+      "victorias": 4,
+      "derrotas": 7,
+      "ultima_partida": 1763168009627
+    },
+    {
+      "nombre": "C9 Loki#VV2",
+      "nivel": 37,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 57,
+      "derrotas": 5,
+      "ultima_partida": 1758648221593
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Veigar",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.4210526315789473
+      "nombre": "Kassadin",
+      "partidas": 32,
+      "victorias": 19,
+      "winrate": "59.4%",
+      "kda_promedio": 1.9867549668874172
     },
     {
-      "nombre": "Caitlyn",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.4
+      "nombre": "Veigar",
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 5.325
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 1.6419753086419753
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7419354838709677
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6956521739130435
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
     },
     {
       "nombre": "Leblanc",
-      "partidas": 1,
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.6666666666666665
+      "kda_promedio": 2.5
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 1,
+      "nombre": "Sion",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 9.333333333333334
-    },
-    {
-      "nombre": "Ryze",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4285714285714286
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 7
-    },
-    {
-      "nombre": "Shaco",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 17
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9166666666666666
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3
+      "winrate": "50.0%",
+      "kda_promedio": 3.1818181818181817
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 13,
-    "wins": 7,
-    "losses": 6,
-    "timePlayed": 20444
+    "games": 90,
+    "wins": 52,
+    "losses": 38,
+    "timePlayed": 140653
   }
 }

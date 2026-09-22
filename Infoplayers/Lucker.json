@@ -2,98 +2,105 @@
   "info_jugador": {
     "nombre": "Lucker",
     "nombre_real": "Damian Konefał",
-    "edad": 27,
-    "equipo": "Zerance",
+    "edad": 28,
+    "equipo": "Team Insidious",
     "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Lucker",
       "twitch": "https://www.twitch.tv/lucker_adc"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "hahaha#lul",
-      "nivel": 906,
+      "nombre": "Lucker#067",
+      "nivel": 941,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 911,
-      "victorias": 346,
-      "derrotas": 285,
-      "ultima_partida": 1753661530623
+      "lp": 1001,
+      "victorias": 524,
+      "derrotas": 455,
+      "ultima_partida": 1765760429227
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Bard",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.4
+      "nombre": "Elise",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.735294117647059
     },
     {
-      "nombre": "Nocturne",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.8461538461538463
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "FiddleSticks",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Nami",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
     },
     {
       "nombre": "Pantheon",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5789473684210527
-    },
-    {
-      "nombre": "Alistar",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 1
     },
     {
-      "nombre": "Leona",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.75
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8.666666666666666
-    },
-    {
-      "nombre": "Maokai",
+      "nombre": "Rell",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 4.5
+      "kda_promedio": 1.8
     },
     {
-      "nombre": "Nautilus",
+      "nombre": "Renata",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Viktor",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 3
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 15,
-    "wins": 9,
-    "losses": 6,
-    "timePlayed": 23529
+    "games": 19,
+    "wins": 3,
+    "losses": 16,
+    "timePlayed": 29396
   }
 }

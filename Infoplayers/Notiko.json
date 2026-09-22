@@ -1,106 +1,116 @@
 {
   "info_jugador": {
     "nombre": "Notiko",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Nick Celombitko",
+    "edad": 24,
+    "equipo": "Eintracht Frankfurt",
+    "pais": "Germany",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Notikolol",
       "twitch": "https://twitch.tv/notikolol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/notiko.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Notiko#EUW01",
-      "nivel": 878,
+      "nivel": 1011,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 815,
-      "victorias": 371,
-      "derrotas": 333,
-      "ultima_partida": 1753695209452
+      "liga": "CHALLENGER I",
+      "lp": 2574,
+      "victorias": 443,
+      "derrotas": 377,
+      "ultima_partida": 1788375188004
+    },
+    {
+      "nombre": "SPIRIT EMPRESS#MERGE",
+      "nivel": 173,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1237,
+      "victorias": 111,
+      "derrotas": 73,
+      "ultima_partida": 1788341074362
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Corki",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 1.90625
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.5
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "MissFortune",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.75
+      "nombre": "Kaisa",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.121212121212121
     },
     {
       "nombre": "Tristana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.8461538461538463
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.725806451612903
     },
     {
-      "nombre": "Jinx",
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.2083333333333335
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0454545454545454
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 11.166666666666666
+    },
+    {
+      "nombre": "Kalista",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.7272727272727273
+      "kda_promedio": 1.2142857142857142
     },
     {
       "nombre": "Lucian",
       "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.25
+      "kda_promedio": 2.125
     },
     {
-      "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.857142857142857
-    },
-    {
-      "nombre": "Alistar",
+      "nombre": "Camille",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.125
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 14,
-    "losses": 24,
-    "timePlayed": 63181
+    "games": 54,
+    "wins": 31,
+    "losses": 23,
+    "timePlayed": 85849
   }
 }

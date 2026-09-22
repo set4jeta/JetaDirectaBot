@@ -1,0 +1,146 @@
+{
+  "info_jugador": {
+    "nombre": "Satorius",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/SatoriusLOL",
+      "twitch": "https://www.twitch.tv/satoriuslol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SatØrius#EUW",
+      "nivel": 1147,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 598,
+      "victorias": 544,
+      "derrotas": 527,
+      "ultima_partida": 1766372727075
+    },
+    {
+      "nombre": "Suirotas#EUW",
+      "nivel": 671,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 848,
+      "victorias": 359,
+      "derrotas": 300,
+      "ultima_partida": 1766365511318
+    },
+    {
+      "nombre": "Satorius#TOP",
+      "nivel": 134,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 667,
+      "victorias": 318,
+      "derrotas": 267,
+      "ultima_partida": 1766212483777
+    },
+    {
+      "nombre": "Settorius#EUW",
+      "nivel": 343,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 373,
+      "victorias": 229,
+      "derrotas": 197,
+      "ultima_partida": 1766124023929
+    },
+    {
+      "nombre": "Splitpushtorius#SAHNE",
+      "nivel": 48,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 113,
+      "derrotas": 86,
+      "ultima_partida": 1761713808206
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Rumble",
+      "partidas": 43,
+      "victorias": 18,
+      "winrate": "41.9%",
+      "kda_promedio": 2.4635416666666665
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 29,
+      "victorias": 13,
+      "winrate": "44.8%",
+      "kda_promedio": 2.5491803278688523
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 16,
+      "victorias": 7,
+      "winrate": "43.8%",
+      "kda_promedio": 2.278481012658228
+    },
+    {
+      "nombre": "Illaoi",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6551724137931034
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.5161290322580645
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.142857142857143
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3076923076923075
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Sett",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 122,
+    "wins": 52,
+    "losses": 70,
+    "timePlayed": 194973
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "Evaan",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Art The Clown#ZYZY",
+      "nivel": 231,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 651,
+      "victorias": 237,
+      "derrotas": 179,
+      "ultima_partida": 1788355481683
+    },
+    {
+      "nombre": "Très nul est con#Golem",
+      "nivel": 1814,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2205,
+      "victorias": 625,
+      "derrotas": 549,
+      "ultima_partida": 1788337900203
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Galio",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 3.9019607843137254
+    },
+    {
+      "nombre": "Malzahar",
+      "partidas": 16,
+      "victorias": 8,
+      "winrate": "50.0%",
+      "kda_promedio": 2.303030303030303
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 3.257575757575758
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.682926829268293
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 3.84
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.638888888888889
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.4375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 110,
+    "wins": 59,
+    "losses": 51,
+    "timePlayed": 182300
+  }
+}

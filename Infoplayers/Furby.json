@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Furby",
+    "nombre_real": "Casper Sedergren",
+    "edad": 24,
+    "equipo": "P11 Esports",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/imfurby_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Furby#EUW",
+      "nivel": 917,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1867,
+      "victorias": 383,
+      "derrotas": 330,
+      "ultima_partida": 1788293446811
+    },
+    {
+      "nombre": "Voidfiller#EUW",
+      "nivel": 352,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2385,
+      "victorias": 242,
+      "derrotas": 181,
+      "ultima_partida": 1787578767214
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nasus",
+      "partidas": 19,
+      "victorias": 12,
+      "winrate": "63.2%",
+      "kda_promedio": 2.2976190476190474
+    },
+    {
+      "nombre": "Veigar",
+      "partidas": 17,
+      "victorias": 12,
+      "winrate": "70.6%",
+      "kda_promedio": 4.375
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.24
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.782608695652174
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.111111111111111
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "AurelionSol",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 79,
+    "wins": 47,
+    "losses": 32,
+    "timePlayed": 123276
+  }
+}

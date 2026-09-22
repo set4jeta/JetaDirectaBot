@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Lelouch",
+    "nombre_real": "Cristian Alexandrescu",
+    "edad": 22,
+    "equipo": "GnG Amazigh",
+    "pais": "Romania",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Lelouchwx"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "TTV LELOUUCH#zerg",
+      "nivel": 736,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2320,
+      "victorias": 612,
+      "derrotas": 556,
+      "ultima_partida": 1788376341775
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 4.3076923076923075
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6428571428571428
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.285714285714286
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.59375
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.125
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.909090909090909
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.75
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 52,
+    "wins": 30,
+    "losses": 22,
+    "timePlayed": 83459
+  }
+}

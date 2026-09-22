@@ -10,137 +10,157 @@
       "twitter": "https://twitter.com/Phantasm_EUW",
       "twitch": "https://twitch.tv/Phantasm__\\t"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/phantasm.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CGN.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
+      "nombre": "Phantasm#TWTV1",
+      "nivel": 256,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 472,
+      "victorias": 36,
+      "derrotas": 14,
+      "ultima_partida": 1788385948258
+    },
+    {
       "nombre": "Phanta#107",
-      "nivel": 85,
+      "nivel": 211,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1486,
-      "victorias": 250,
-      "derrotas": 141,
-      "ultima_partida": 1753741255632
+      "lp": 4133,
+      "victorias": 471,
+      "derrotas": 316,
+      "ultima_partida": 1788304244568
+    },
+    {
+      "nombre": "TwTv Phantasm#101",
+      "nivel": 275,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2681,
+      "victorias": 331,
+      "derrotas": 169,
+      "ultima_partida": 1788290816640
+    },
+    {
+      "nombre": "Phantasm#TWTV0",
+      "nivel": 90,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1633,
+      "victorias": 160,
+      "derrotas": 89,
+      "ultima_partida": 1787430601400
     },
     {
       "nombre": "focus#102",
-      "nivel": 123,
+      "nivel": 139,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1040,
-      "victorias": 178,
-      "derrotas": 137,
-      "ultima_partida": 1753639703619
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 80,
+      "derrotas": 39,
+      "ultima_partida": 1783595746250
     },
     {
-      "nombre": "TwTv Phantasm#103",
-      "nivel": 219,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1611,
-      "victorias": 224,
-      "derrotas": 153,
-      "ultima_partida": 1753480913387
+      "nombre": "Phantasm#RANK1",
+      "nivel": 74,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1766071600797
     },
     {
       "nombre": "Phantasmasm#EUW",
       "nivel": 85,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 40,
-      "derrotas": 22,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1745282069846
-    },
-    {
-      "nombre": "TwTv Phantasm#101",
-      "nivel": 229,
-      "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 82,
-      "derrotas": 69,
-      "ultima_partida": 1740654201898
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Akshan",
       "partidas": 54,
-      "victorias": 28,
-      "winrate": "51.9%",
-      "kda_promedio": 3.148
+      "victorias": 41,
+      "winrate": "75.9%",
+      "kda_promedio": 5.187134502923977
     },
     {
-      "nombre": "Azir",
-      "partidas": 10,
-      "victorias": 8,
-      "winrate": "80.0%",
-      "kda_promedio": 3.326530612244898
+      "nombre": "Locke",
+      "partidas": 26,
+      "victorias": 14,
+      "winrate": "53.8%",
+      "kda_promedio": 3.457943925233645
     },
     {
-      "nombre": "Hwei",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.6274509803921569
+      "nombre": "Syndra",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 3.1159420289855073
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2.966666666666667
     },
     {
       "nombre": "Aurora",
-      "partidas": 5,
+      "partidas": 3,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.45
+      "winrate": "100.0%",
+      "kda_promedio": 2.3846153846153846
     },
     {
-      "nombre": "Swain",
+      "nombre": "Cassiopeia",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 3.235294117647059
+      "kda_promedio": 1.5625
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7741935483870968
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.222222222222222
+    },
+    {
+      "nombre": "Ekko",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8
     },
     {
       "nombre": "Yone",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Akali",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 21.5
-    },
-    {
-      "nombre": "Ziggs",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 9.333333333333334
-    },
-    {
-      "nombre": "Ahri",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 5.333333333333333
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 95,
-    "wins": 53,
-    "losses": 42,
-    "timePlayed": 156229
+    "games": 114,
+    "wins": 70,
+    "losses": 44,
+    "timePlayed": 186040
   }
 }

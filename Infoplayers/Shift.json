@@ -2,125 +2,104 @@
   "info_jugador": {
     "nombre": "Shift",
     "nombre_real": "Marcel Bąk",
-    "edad": 20,
-    "equipo": "Entropiq",
+    "edad": 21,
+    "equipo": "Joblife",
     "pais": "Poland",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Shift_lol5",
       "twitch": "https://www.twitch.tv/shift_lol5"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/EIQ.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "twtv shiftlol5#2005",
-      "nivel": 57,
+      "nombre": "JUNGLEISTHEKING#ARKHE",
+      "nivel": 188,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 805,
-      "victorias": 143,
-      "derrotas": 73,
-      "ultima_partida": 1753751379306
+      "liga": "CHALLENGER I",
+      "lp": 2573,
+      "victorias": 363,
+      "derrotas": 241,
+      "ultima_partida": 1788353183592
+    },
+    {
+      "nombre": "close to perfect#shift",
+      "nivel": 771,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 354,
+      "victorias": 67,
+      "derrotas": 26,
+      "ultima_partida": 1788212914742
     },
     {
       "nombre": "Shift#kaipo",
-      "nivel": 93,
+      "nivel": 106,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 95,
-      "victorias": 50,
-      "derrotas": 34,
-      "ultima_partida": 1753049380330
-    },
-    {
-      "nombre": "EIQ Shift#GOAT",
-      "nivel": 757,
-      "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 70,
-      "derrotas": 41,
-      "ultima_partida": 1751303579514
+      "liga": "EMERALD I",
+      "lp": 85,
+      "victorias": 11,
+      "derrotas": 3,
+      "ultima_partida": 1785622387998
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Viego",
-      "partidas": 13,
-      "victorias": 8,
-      "winrate": "61.5%",
-      "kda_promedio": 4.120689655172414
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 5.2631578947368425
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3.4
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
-      "nombre": "JarvanIV",
+      "nombre": "Khazix",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.1666666666666665
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.526315789473684
     },
     {
       "nombre": "Sylas",
       "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.434782608695652
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.3846153846153846
-    },
-    {
-      "nombre": "Zed",
-      "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.636363636363637
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 9.25
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 62,
-    "wins": 29,
-    "losses": 33,
-    "timePlayed": 100856
+    "games": 13,
+    "wins": 9,
+    "losses": 4,
+    "timePlayed": 20694
   }
 }

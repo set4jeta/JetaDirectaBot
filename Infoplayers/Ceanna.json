@@ -1,0 +1,111 @@
+{
+  "info_jugador": {
+    "nombre": "Ceanna",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/ceanna8"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Ceanna#EUW",
+      "nivel": 426,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1726,
+      "victorias": 196,
+      "derrotas": 97,
+      "ultima_partida": 1788276161653
+    },
+    {
+      "nombre": "kaleidoscope#kero",
+      "nivel": 70,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1491,
+      "victorias": 110,
+      "derrotas": 57,
+      "ultima_partida": 1787948988321
+    },
+    {
+      "nombre": "lily canna#ktn",
+      "nivel": 31,
+      "region": "EUW1",
+      "liga": "GOLD III",
+      "lp": 45,
+      "victorias": 6,
+      "derrotas": 2,
+      "ultima_partida": 1773141929294
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nami",
+      "partidas": 17,
+      "victorias": 9,
+      "winrate": "52.9%",
+      "kda_promedio": 3.6714285714285713
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 4.9
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.333333333333333
+    },
+    {
+      "nombre": "Quinn",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8888888888888888
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.25
+    },
+    {
+      "nombre": "Yuumi",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 32,
+    "wins": 20,
+    "losses": 12,
+    "timePlayed": 50013
+  }
+}

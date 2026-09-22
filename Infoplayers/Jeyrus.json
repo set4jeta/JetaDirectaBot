@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Jeyrus",
+    "nombre_real": "Tunahan Durmaz",
+    "edad": 23,
+    "equipo": "DIA Ozarox Esports",
+    "pais": "Turkey",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Jeyrusx",
+      "twitch": "https://www.twitch.tv/jeyruslol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jeyrus#Jey",
+      "nivel": 672,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2109,
+      "victorias": 435,
+      "derrotas": 364,
+      "ultima_partida": 1788312417894
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.466666666666667
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.65
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.1
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 10,
+    "wins": 4,
+    "losses": 6,
+    "timePlayed": 15907
+  }
+}

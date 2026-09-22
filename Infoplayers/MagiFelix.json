@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "MagiFelix",
+    "nombre_real": "Carl&nbsp;Felix Boström",
+    "edad": 26,
+    "equipo": "Misfits Gaming",
+    "pais": "Sweden",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/MagiFelix_lol",
+      "twitch": "https://www.twitch.tv/magifelix"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MagiFelix5#EUW",
+      "nivel": 1309,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2266,
+      "victorias": 301,
+      "derrotas": 228,
+      "ultima_partida": 1788397765894
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "TwistedFate",
+      "partidas": 130,
+      "victorias": 80,
+      "winrate": "61.5%",
+      "kda_promedio": 3.837251356238698
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 35,
+      "victorias": 21,
+      "winrate": "60.0%",
+      "kda_promedio": 3.964788732394366
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.725806451612903
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 1.8666666666666667
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Ivern",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 1.9242424242424243
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 6.7727272727272725
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3461538461538463
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 337,
+    "wins": 177,
+    "losses": 160,
+    "timePlayed": 549400
+  }
+}

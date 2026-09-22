@@ -2,125 +2,125 @@
   "info_jugador": {
     "nombre": "Ragner",
     "nombre_real": "Onurcan Aslan",
-    "edad": 24,
-    "equipo": "Galions",
+    "edad": 25,
+    "equipo": "Joblife",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/RagnerLoL",
       "twitch": "https://twitch.tv/ragner"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/ragner.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Rosinante#Rago",
-      "nivel": 631,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1184,
-      "victorias": 403,
-      "derrotas": 349,
-      "ultima_partida": 1753737901039
-    },
-    {
-      "nombre": "Brook#rago",
-      "nivel": 437,
+      "nombre": "JL Ragner#Rago1",
+      "nivel": 765,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 832,
-      "victorias": 178,
-      "derrotas": 126,
-      "ultima_partida": 1753732578512
+      "lp": 1835,
+      "victorias": 604,
+      "derrotas": 500,
+      "ultima_partida": 1788387138541
     },
     {
-      "nombre": "Sousuke Aizen#RAGO",
-      "nivel": 191,
+      "nombre": "Rick Sanchez#RAGO",
+      "nivel": 468,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 55,
-      "victorias": 100,
-      "derrotas": 85,
-      "ultima_partida": 1752917191771
+      "liga": "MASTER I",
+      "lp": 711,
+      "victorias": 92,
+      "derrotas": 60,
+      "ultima_partida": 1787597948502
+    },
+    {
+      "nombre": "Lucid Dreams#RAGO",
+      "nivel": 250,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 208,
+      "derrotas": 141,
+      "ultima_partida": 1784109763797
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 18,
-      "victorias": 11,
-      "winrate": "61.1%",
-      "kda_promedio": 2.3375
+      "nombre": "Vladimir",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 2.4864864864864864
     },
     {
       "nombre": "Aatrox",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.3529411764705883
-    },
-    {
-      "nombre": "Rengar",
-      "partidas": 8,
+      "partidas": 9,
       "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6595744680851063
+      "winrate": "44.4%",
+      "kda_promedio": 2
     },
     {
-      "nombre": "Jayce",
+      "nombre": "Jax",
       "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.125
-    },
-    {
-      "nombre": "Kled",
-      "partidas": 6,
       "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.25
+      "winrate": "57.1%",
+      "kda_promedio": 2.024390243902439
     },
     {
-      "nombre": "Varus",
+      "nombre": "Gangplank",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1379310344827585
+    },
+    {
+      "nombre": "Corki",
       "partidas": 5,
       "victorias": 3,
       "winrate": "60.0%",
-      "kda_promedio": 2.32
+      "kda_promedio": 1.6153846153846154
     },
     {
-      "nombre": "Fiora",
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8181818181818181
+    },
+    {
+      "nombre": "Jayce",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 2.9
+      "kda_promedio": 1.7058823529411764
     },
     {
-      "nombre": "Ambessa",
-      "partidas": 3,
+      "nombre": "Quinn",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.0833333333333335
+      "winrate": "50.0%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
     },
     {
       "nombre": "Garen",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.25
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.1578947368421053
+      "kda_promedio": 1.2857142857142858
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 114,
-    "wins": 65,
-    "losses": 49,
-    "timePlayed": 175630
+    "games": 121,
+    "wins": 59,
+    "losses": 62,
+    "timePlayed": 186055
   }
 }

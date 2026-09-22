@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Berone",
+    "nombre_real": "Berke Altin",
+    "edad": 21,
+    "equipo": "Brod n Friends",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/beronelol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "twtv BERONELOL#calm",
+      "nivel": 92,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1641,
+      "victorias": 321,
+      "derrotas": 251,
+      "ultima_partida": 1788283192141
+    },
+    {
+      "nombre": "beronelol#chud",
+      "nivel": 689,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 935,
+      "victorias": 277,
+      "derrotas": 250,
+      "ultima_partida": 1788252575044
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Fiora",
+      "partidas": 20,
+      "victorias": 8,
+      "winrate": "40.0%",
+      "kda_promedio": 1.496
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 12,
+      "victorias": 3,
+      "winrate": "25.0%",
+      "kda_promedio": 1.162162162162162
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 1.546875
+    },
+    {
+      "nombre": "Tryndamere",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.9285714285714284
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.769230769230769
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4615384615384617
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.3636363636363635
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8461538461538461
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 67,
+    "wins": 35,
+    "losses": 32,
+    "timePlayed": 103321
+  }
+}

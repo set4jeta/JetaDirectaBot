@@ -2,104 +2,104 @@
   "info_jugador": {
     "nombre": "Vigil",
     "nombre_real": "Matteo Scarcelli",
-    "edad": 24,
-    "equipo": "Colossal Gaming",
+    "edad": 25,
+    "equipo": "HMBLE",
     "pais": "Italy",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Vigil3331"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Isildur#weak",
-      "nivel": 1699,
+      "nivel": 1948,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 671,
-      "victorias": 431,
-      "derrotas": 405,
-      "ultima_partida": 1753589473949
+      "lp": 1918,
+      "victorias": 430,
+      "derrotas": 355,
+      "ultima_partida": 1788296667861
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 3
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 1.9795918367346939
     },
     {
-      "nombre": "Azir",
-      "partidas": 5,
+      "nombre": "Syndra",
+      "partidas": 7,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.142857142857143
+      "winrate": "42.9%",
+      "kda_promedio": 2.595744680851064
     },
     {
-      "nombre": "Zed",
+      "nombre": "Cassiopeia",
       "partidas": 5,
       "victorias": 4,
       "winrate": "80.0%",
-      "kda_promedio": 2.793103448275862
+      "kda_promedio": 2.5135135135135136
     },
     {
-      "nombre": "Trundle",
-      "partidas": 4,
+      "nombre": "Yasuo",
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.5416666666666665
+      "winrate": "40.0%",
+      "kda_promedio": 1.263157894736842
     },
     {
       "nombre": "Yone",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.1666666666666667
     },
     {
       "nombre": "Viktor",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Ahri",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.090909090909091
-    },
-    {
-      "nombre": "Ekko",
-      "partidas": 2,
-      "victorias": 2,
+      "partidas": 4,
+      "victorias": 4,
       "winrate": "100.0%",
-      "kda_promedio": 2.5384615384615383
+      "kda_promedio": 2.55
     },
     {
       "nombre": "Jayce",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.5714285714285714
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.388888888888889
+    },
+    {
+      "nombre": "Akali",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.888888888888889
+      "kda_promedio": 1.8571428571428572
     },
     {
-      "nombre": "Khazix",
+      "nombre": "Anivia",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.6111111111111112
+      "kda_promedio": 1.625
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 53,
-    "wins": 32,
-    "losses": 21,
-    "timePlayed": 89555
+    "games": 66,
+    "wins": 34,
+    "losses": 32,
+    "timePlayed": 107585
   }
 }

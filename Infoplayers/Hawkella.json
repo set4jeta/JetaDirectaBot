@@ -1,0 +1,101 @@
+{
+  "info_jugador": {
+    "nombre": "Hawkella",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/hawkella_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Tmax#xoxo",
+      "nivel": 113,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2111,
+      "victorias": 492,
+      "derrotas": 382,
+      "ultima_partida": 1788367691934
+    },
+    {
+      "nombre": "cat8#FAN",
+      "nivel": 117,
+      "region": "EUW1",
+      "liga": "EMERALD II",
+      "lp": 50,
+      "victorias": 1,
+      "derrotas": 5,
+      "ultima_partida": 1769162723439
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Qiyana",
+      "partidas": 18,
+      "victorias": 6,
+      "winrate": "33.3%",
+      "kda_promedio": 1.573643410852713
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 0.9767441860465116
+    },
+    {
+      "nombre": "Ryze",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 0.8333333333333334
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    },
+    {
+      "nombre": "Kassadin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 34,
+    "wins": 11,
+    "losses": 23,
+    "timePlayed": 58559
+  }
+}

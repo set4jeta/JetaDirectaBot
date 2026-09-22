@@ -2,98 +2,105 @@
   "info_jugador": {
     "nombre": "Krest",
     "nombre_real": "Hassine Abdssamad",
-    "edad": 18,
-    "equipo": "Fox Gaming",
+    "edad": 19,
+    "equipo": "FN Esports",
     "pais": "Morocco",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/KrestV9",
       "twitch": "https://www.twitch.tv/krestv9"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/F0X.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "noobtopp#noob",
-      "nivel": 607,
+      "nombre": "Biin#Krest",
+      "nivel": 746,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 860,
-      "victorias": 309,
-      "derrotas": 271,
-      "ultima_partida": 1753538314737
+      "liga": "MASTER I",
+      "lp": 1651,
+      "victorias": 330,
+      "derrotas": 285,
+      "ultima_partida": 1788391607334
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Gwen",
-      "partidas": 20,
-      "victorias": 11,
-      "winrate": "55.0%",
-      "kda_promedio": 1.972972972972973
-    },
-    {
       "nombre": "Ambessa",
-      "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4210526315789473
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 1.8888888888888888
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.230769230769231
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.7777777777777777
+      "partidas": 14,
+      "victorias": 11,
+      "winrate": "78.6%",
+      "kda_promedio": 2.953125
     },
     {
       "nombre": "Jayce",
-      "partidas": 2,
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 5,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5
+      "winrate": "40.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.8571428571428572
     },
     {
       "nombre": "Rumble",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.176470588235294
+      "winrate": "33.3%",
+      "kda_promedio": 2.6
     },
     {
-      "nombre": "Galio",
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "Nasus",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 4
+      "kda_promedio": 1.2222222222222223
     },
     {
-      "nombre": "Renekton",
+      "nombre": "Nautilus",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3
+      "kda_promedio": 1.8571428571428572
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 49,
-    "wins": 30,
-    "losses": 19,
-    "timePlayed": 75984
+    "games": 38,
+    "wins": 21,
+    "losses": 17,
+    "timePlayed": 59074
   }
 }

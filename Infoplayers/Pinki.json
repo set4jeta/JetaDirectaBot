@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Pinki",
+    "nombre_real": "Lazar Mitrović",
+    "edad": 25,
+    "equipo": "Dream Esports",
+    "pais": "Serbia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Pinki__lol",
+      "twitch": "\\thttps://www.twitch.tv/pinki__lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Last rite#final",
+      "nivel": 122,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1577,
+      "victorias": 282,
+      "derrotas": 236,
+      "ultima_partida": 1788365917440
+    },
+    {
+      "nombre": "Pinki#PPPPP",
+      "nivel": 1255,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2078,
+      "victorias": 713,
+      "derrotas": 645,
+      "ultima_partida": 1788361421634
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Tristana",
+      "partidas": 23,
+      "victorias": 12,
+      "winrate": "52.2%",
+      "kda_promedio": 2.4444444444444446
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 9,
+      "victorias": 9,
+      "winrate": "100.0%",
+      "kda_promedio": 4.181818181818182
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.210526315789474
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6470588235294117
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5384615384615385
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9375
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 66,
+    "wins": 36,
+    "losses": 30,
+    "timePlayed": 104258
+  }
+}

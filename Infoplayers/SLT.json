@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "SLT",
+    "nombre_real": "Enzo Gonzalez",
+    "edad": 25,
+    "equipo": "Nightbirds",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Slt_lol1",
+      "twitch": "https://www.twitch.tv/sltlol_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Lalo#who",
+      "nivel": 887,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2159,
+      "victorias": 341,
+      "derrotas": 256,
+      "ultima_partida": 1788366671344
+    },
+    {
+      "nombre": "i will fight#next1",
+      "nivel": 333,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 5,
+      "derrotas": 2,
+      "ultima_partida": 1768847291930
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Camille",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4705882352941178
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.3125
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.8823529411764706
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4545454545454546
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 30,
+    "wins": 18,
+    "losses": 12,
+    "timePlayed": 41833
+  }
+}

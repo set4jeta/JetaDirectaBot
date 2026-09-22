@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Torakle",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Torakle_lol",
+      "twitch": "https://twitch.tv/torakle_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Torakle#EUW",
+      "nivel": 1391,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2117,
+      "victorias": 323,
+      "derrotas": 242,
+      "ultima_partida": 1788348908433
+    },
+    {
+      "nombre": "Toraklette#APC",
+      "nivel": 266,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 122,
+      "victorias": 95,
+      "derrotas": 80,
+      "ultima_partida": 1788195956315
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Velkoz",
+      "partidas": 86,
+      "victorias": 44,
+      "winrate": "51.2%",
+      "kda_promedio": 3.40625
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 32,
+      "victorias": 13,
+      "winrate": "40.6%",
+      "kda_promedio": 3.7419354838709675
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 11,
+      "victorias": 5,
+      "winrate": "45.5%",
+      "kda_promedio": 2.9444444444444446
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5.153846153846154
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.261904761904762
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9375
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 16
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 150,
+    "wins": 74,
+    "losses": 76,
+    "timePlayed": 241530
+  }
+}

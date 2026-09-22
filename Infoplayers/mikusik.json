@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "mikusik",
+    "nombre_real": "Mikołaj Cywiński",
+    "edad": 18,
+    "equipo": "LODIS (Polish Team)",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/mikusik11",
+      "twitch": "https://www.twitch.tv/mikusik11"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "mikusssssik#我愛你",
+      "nivel": 51,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 586,
+      "victorias": 43,
+      "derrotas": 16,
+      "ultima_partida": 1788370133575
+    },
+    {
+      "nombre": "mikusik#wałek",
+      "nivel": 305,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2216,
+      "victorias": 331,
+      "derrotas": 267,
+      "ultima_partida": 1787180550177
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Sylas",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 4.448275862068965
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 6.6
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.111111111111111
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 5.411764705882353
+    },
+    {
+      "nombre": "Kindred",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.7
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.2916666666666665
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9523809523809523
+    },
+    {
+      "nombre": "Zed",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.95
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 47,
+    "losses": 18,
+    "timePlayed": 106999
+  }
+}

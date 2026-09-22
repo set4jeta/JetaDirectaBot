@@ -3,114 +3,114 @@
     "nombre": "Batuuu",
     "nombre_real": "Batu Kaygusuz",
     "edad": 20,
-    "equipo": "Misa Esports",
+    "equipo": "Team Heretics Academy",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Batuuulol",
       "twitch": "https://www.twitch.tv/batuuulol1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/batuuu.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/MISA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Kral Batuuu#kral",
-      "nivel": 845,
+      "nivel": 1085,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1348,
-      "victorias": 523,
-      "derrotas": 462,
-      "ultima_partida": 1753736116793
+      "liga": "GRANDMASTER I",
+      "lp": 2056,
+      "victorias": 925,
+      "derrotas": 862,
+      "ultima_partida": 1789912214045
     },
     {
       "nombre": "Bâtuuu#EUW",
-      "nivel": 125,
+      "nivel": 141,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 13,
-      "victorias": 216,
-      "derrotas": 203,
-      "ultima_partida": 1752802303283
+      "liga": "EMERALD I",
+      "lp": 35,
+      "victorias": 3,
+      "derrotas": 4,
+      "ultima_partida": 1772111221588
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
-      "partidas": 26,
-      "victorias": 16,
-      "winrate": "61.5%",
-      "kda_promedio": 3.4892086330935252
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 19,
-      "victorias": 10,
-      "winrate": "52.6%",
-      "kda_promedio": 3.0693069306930694
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 16,
-      "victorias": 7,
-      "winrate": "43.8%",
-      "kda_promedio": 2.210526315789474
-    },
-    {
-      "nombre": "Nautilus",
-      "partidas": 11,
-      "victorias": 4,
-      "winrate": "36.4%",
-      "kda_promedio": 1.7435897435897436
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.888888888888889
-    },
-    {
-      "nombre": "Lulu",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 4.181818181818182
-    },
-    {
-      "nombre": "Karma",
       "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 4.064516129032258
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     },
     {
       "nombre": "Braum",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.190476190476191
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 5.333333333333333
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.7142857142857144
     },
     {
       "nombre": "Poppy",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.9230769230769231
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.142857142857143
     },
     {
-      "nombre": "Nami",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 6.1
+      "nombre": "Pyke",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 124,
-    "wins": 68,
-    "losses": 56,
-    "timePlayed": 199289
+    "games": 19,
+    "wins": 7,
+    "losses": 12,
+    "timePlayed": 31399
   }
 }

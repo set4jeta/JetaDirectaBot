@@ -2,114 +2,134 @@
   "info_jugador": {
     "nombre": "Yike",
     "nombre_real": "Martin Sundelin",
-    "edad": 24,
+    "edad": 25,
     "equipo": "Karmine Corp",
     "pais": "Sweden",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/YikeLoL"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/yike.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "KC Yiken#1111",
-      "nivel": 873,
+      "nivel": 1062,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1355,
-      "victorias": 445,
-      "derrotas": 389,
-      "ultima_partida": 1753745458166
+      "lp": 2685,
+      "victorias": 465,
+      "derrotas": 329,
+      "ultima_partida": 1788379903766
+    },
+    {
+      "nombre": "yah#yuh",
+      "nivel": 38,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 58,
+      "derrotas": 28,
+      "ultima_partida": 1782796914333
+    },
+    {
+      "nombre": "YKE#1111",
+      "nivel": 32,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 19,
+      "derrotas": 3,
+      "ultima_partida": 1781869511918
     },
     {
       "nombre": "YIK#YIK",
       "nivel": 33,
       "region": "KR",
-      "liga": "EMERALD I",
-      "lp": 75,
-      "victorias": 19,
-      "derrotas": 4,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1741792619121
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Lillia",
-      "partidas": 9,
-      "victorias": 6,
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.125
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.619047619047619
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 3,
+      "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 6.2
+      "kda_promedio": 2.3333333333333335
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 3.073170731707317
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.4468085106382977
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.5365853658536586
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9230769230769231
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.566666666666667
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.6666666666666665
-    },
-    {
-      "nombre": "Ivern",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.125
-    },
-    {
-      "nombre": "Ashe",
+      "nombre": "Chogath",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.8333333333333335
+      "kda_promedio": 7.25
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8461538461538461
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Talon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8235294117647058
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.0833333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 76,
-    "wins": 39,
-    "losses": 37,
-    "timePlayed": 121316
+    "games": 38,
+    "wins": 22,
+    "losses": 16,
+    "timePlayed": 60428
   }
 }

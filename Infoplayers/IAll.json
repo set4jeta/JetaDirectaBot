@@ -1,0 +1,113 @@
+{
+  "info_jugador": {
+    "nombre": "IAll",
+    "nombre_real": "Alessandro Allio--Merino",
+    "edad": 18,
+    "equipo": "ZeroZone Gaming",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "IAll#KR20",
+      "nivel": 1015,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1887,
+      "victorias": 332,
+      "derrotas": 293,
+      "ultima_partida": 1788361994399
+    },
+    {
+      "nombre": "HLE Gumayusi#KR15",
+      "nivel": 94,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1000,
+      "victorias": 270,
+      "derrotas": 241,
+      "ultima_partida": 1788352201640
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.2972972972972974
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 7.833333333333333
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.2
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8461538461538461
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5454545454545454
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.0909090909090908
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 51,
+    "wins": 23,
+    "losses": 28,
+    "timePlayed": 82020
+  }
+}

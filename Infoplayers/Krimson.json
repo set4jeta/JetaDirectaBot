@@ -9,55 +9,97 @@
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Krimson_R"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Falling Flower#SVT13",
-      "nivel": 1201,
+      "nivel": 1321,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1295,
-      "victorias": 370,
-      "derrotas": 308,
-      "ultima_partida": 1753729137140
+      "lp": 1272,
+      "victorias": 812,
+      "derrotas": 740,
+      "ultima_partida": 1766340286482
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Riven",
+      "partidas": 29,
+      "victorias": 19,
+      "winrate": "65.5%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 28,
+      "victorias": 15,
+      "winrate": "53.6%",
+      "kda_promedio": 2.6202531645569622
+    },
+    {
       "nombre": "LeeSin",
-      "partidas": 6,
-      "victorias": 3,
+      "partidas": 26,
+      "victorias": 14,
+      "winrate": "53.8%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 16,
+      "victorias": 8,
       "winrate": "50.0%",
-      "kda_promedio": 4.04
+      "kda_promedio": 2.5280898876404496
     },
     {
-      "nombre": "Talon",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.15625
+      "nombre": "Diana",
+      "partidas": 15,
+      "victorias": 11,
+      "winrate": "73.3%",
+      "kda_promedio": 3.9076923076923076
     },
     {
-      "nombre": "Zed",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.3684210526315788
+      "nombre": "Sylas",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 2.425531914893617
     },
     {
-      "nombre": "MonkeyKing",
-      "partidas": 1,
+      "nombre": "Ambessa",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3
+      "kda_promedio": 1.2
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.125
+    },
+    {
+      "nombre": "XinZhao",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 16,
-    "wins": 7,
-    "losses": 9,
-    "timePlayed": 28195
+    "games": 132,
+    "wins": 74,
+    "losses": 58,
+    "timePlayed": 209981
   }
 }

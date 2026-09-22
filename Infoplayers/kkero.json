@@ -2,104 +2,105 @@
   "info_jugador": {
     "nombre": "kkero",
     "nombre_real": "Kaan Soyuner",
-    "edad": 20,
-    "equipo": "GOAL",
+    "edad": 21,
+    "equipo": "ZennIT",
     "pais": "Turkey",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/kkerolol",
       "twitch": "https://www.twitch.tv/kkerolol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GOAL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "kero ü nehar#EUW",
-      "nivel": 955,
-      "liga": "MASTER I",
-      "lp": 674,
-      "victorias": 332,
-      "derrotas": 298,
-      "ultima_partida": 1753313564568
+      "nivel": 1104,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1957,
+      "victorias": 564,
+      "derrotas": 490,
+      "ultima_partida": 1788350619530
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Seraphine",
-      "partidas": 19,
-      "victorias": 13,
-      "winrate": "68.4%",
-      "kda_promedio": 4.786666666666667
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.727272727272727
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 4.051282051282051
+      "partidas": 12,
+      "victorias": 6,
+      "winrate": "50.0%",
+      "kda_promedio": 3.7580645161290325
     },
     {
       "nombre": "Nautilus",
-      "partidas": 7,
-      "victorias": 1,
-      "winrate": "14.3%",
-      "kda_promedio": 1.7209302325581395
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 1.9583333333333333
     },
     {
-      "nombre": "Alistar",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.6666666666666665
+      "nombre": "Bard",
+      "partidas": 9,
+      "victorias": 3,
+      "winrate": "33.3%",
+      "kda_promedio": 2.9782608695652173
     },
     {
       "nombre": "Blitzcrank",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.4153846153846152
+    },
+    {
+      "nombre": "Lulu",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.3125
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.36
     },
     {
       "nombre": "Jhin",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.727272727272727
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4210526315789473
     },
     {
-      "nombre": "FiddleSticks",
+      "nombre": "Milio",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.789473684210526
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.473684210526316
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.590909090909091
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8235294117647058
     },
     {
       "nombre": "Braum",
       "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.35
-    },
-    {
-      "nombre": "Milio",
-      "partidas": 3,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 4.111111111111111
+      "kda_promedio": 2.142857142857143
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 84,
-    "wins": 41,
+    "games": 82,
+    "wins": 39,
     "losses": 43,
-    "timePlayed": 132605
+    "timePlayed": 127141
   }
 }

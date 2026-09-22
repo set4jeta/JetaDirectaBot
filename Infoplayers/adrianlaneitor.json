@@ -1,0 +1,98 @@
+{
+  "info_jugador": {
+    "nombre": "adrianlaneitor",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/adrianlaneitor0"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "adrianlaneitor#EUW",
+      "nivel": 884,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2017,
+      "victorias": 508,
+      "derrotas": 462,
+      "ultima_partida": 1788360165917
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Jinx",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 2.5833333333333335
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.8
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5555555555555556
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9090909090909091
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.16666666666666666
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 16,
+    "wins": 3,
+    "losses": 13,
+    "timePlayed": 26089
+  }
+}

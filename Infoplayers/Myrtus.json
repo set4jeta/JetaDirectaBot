@@ -2,115 +2,125 @@
   "info_jugador": {
     "nombre": "Myrtus",
     "nombre_real": "Mohamed Rahli",
-    "edad": 19,
-    "equipo": "Team BDS Academy",
+    "edad": 20,
+    "equipo": "Movistar KOI Fénix",
     "pais": "Italy",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/myrtus_lol",
       "twitch": "https://twitch.tv/myrtus_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/myrtus.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "serein#MP7",
-      "nivel": 1063,
+      "nombre": "Myrtus#P38",
+      "nivel": 1235,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1510,
-      "victorias": 555,
-      "derrotas": 484,
-      "ultima_partida": 1753701978928
+      "lp": 2489,
+      "victorias": 471,
+      "derrotas": 372,
+      "ultima_partida": 1788352142371
     },
     {
-      "nombre": "Abatteur2kafard#soloq",
-      "nivel": 47,
+      "nombre": "HACHETTE#MOMO",
+      "nivel": 52,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1760406024259
+    },
+    {
+      "nombre": "Abatteur2kafard#soloq",
+      "nivel": 54,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1728939466501
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
+      "nombre": "Pyke",
       "partidas": 12,
-      "victorias": 4,
-      "winrate": "33.3%",
-      "kda_promedio": 2.576923076923077
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.1584158415841586
     },
     {
-      "nombre": "Alistar",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 3.4038461538461537
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 2.9642857142857144
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
+      "nombre": "Camille",
+      "partidas": 7,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4444444444444446
+      "winrate": "14.3%",
+      "kda_promedio": 1.7647058823529411
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.5277777777777777
+    },
+    {
+      "nombre": "Elise",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 5
     },
     {
       "nombre": "Karma",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.444444444444445
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Poppy",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 6.333333333333333
+      "kda_promedio": 2.2
     },
     {
-      "nombre": "Lulu",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.133333333333334
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.9
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 4.75
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Cassiopeia",
+      "nombre": "Jax",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 26,
-    "losses": 18,
-    "timePlayed": 73036
+    "games": 41,
+    "wins": 22,
+    "losses": 19,
+    "timePlayed": 63391
   }
 }

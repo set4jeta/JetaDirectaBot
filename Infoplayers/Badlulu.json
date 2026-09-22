@@ -1,0 +1,94 @@
+{
+  "info_jugador": {
+    "nombre": "Badlulu",
+    "nombre_real": "Lucas Piochaud",
+    "edad": 23,
+    "equipo": "Ici Japon Corp. Esport",
+    "pais": "France",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/badlullu",
+      "twitch": "https://www.twitch.tv/badluluu"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "cadianNN#EUW",
+      "nivel": 631,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2232,
+      "victorias": 236,
+      "derrotas": 166,
+      "ultima_partida": 1789761993126
+    },
+    {
+      "nombre": "aierlanxiaozhu#11111",
+      "nivel": 448,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 16,
+      "derrotas": 14,
+      "ultima_partida": 1788888206072
+    },
+    {
+      "nombre": "Adrian mateos#KB9",
+      "nivel": 58,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 201,
+      "derrotas": 145,
+      "ultima_partida": 1782496848359
+    },
+    {
+      "nombre": "never again#UPDWN",
+      "nivel": 50,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760290193716
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Camille",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.32
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.6206896551724137
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1666666666666665
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 21,
+    "wins": 11,
+    "losses": 10,
+    "timePlayed": 32167
+  }
+}

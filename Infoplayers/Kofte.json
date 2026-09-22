@@ -2,125 +2,125 @@
   "info_jugador": {
     "nombre": "Kofte",
     "nombre_real": "Emre Akça",
-    "edad": 24,
-    "equipo": "Bushido Wildcats",
+    "edad": 25,
+    "equipo": "Joblife",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/koftelol",
       "twitch": "https://www.twitch.tv/koftelol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/kofte.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BW.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "killer tune#zzz",
-      "nivel": 336,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 848,
-      "victorias": 261,
-      "derrotas": 227,
-      "ultima_partida": 1753734248069
-    },
-    {
       "nombre": "indoor fish#EUW",
-      "nivel": 571,
+      "nivel": 684,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1129,
-      "victorias": 246,
-      "derrotas": 198,
-      "ultima_partida": 1753460006159
+      "lp": 3440,
+      "victorias": 545,
+      "derrotas": 423,
+      "ultima_partida": 1788367054111
     },
     {
       "nombre": "yüzenköfte#EUW",
-      "nivel": 742,
+      "nivel": 764,
       "region": "EUW1",
-      "liga": "EMERALD I",
-      "lp": 75,
-      "victorias": 18,
-      "derrotas": 13,
-      "ultima_partida": 1748051667600
+      "liga": "MASTER I",
+      "lp": 74,
+      "victorias": 139,
+      "derrotas": 82,
+      "ultima_partida": 1788314932397
+    },
+    {
+      "nombre": "killer tune#zzz",
+      "nivel": 357,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1783766674425
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Azir",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.7037037037037037
+      "nombre": "Akali",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.388888888888889
     },
     {
-      "nombre": "Lucian",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.08
+      "nombre": "Locke",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
     },
     {
-      "nombre": "Ryze",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4642857142857144
+      "nombre": "Cassiopeia",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.35
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.0714285714285716
     },
     {
       "nombre": "Annie",
-      "partidas": 5,
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.7586206896551724
+      "winrate": "66.7%",
+      "kda_promedio": 2.0454545454545454
     },
     {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 4,
+      "nombre": "Ryze",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.125
+      "winrate": "33.3%",
+      "kda_promedio": 2.1666666666666665
     },
     {
-      "nombre": "Orianna",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6666666666666667
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1176470588235294
     },
     {
-      "nombre": "Pantheon",
+      "nombre": "Gnar",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 6.833333333333333
+      "kda_promedio": 6.5
     },
     {
-      "nombre": "Smolder",
+      "nombre": "Lulu",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4166666666666665
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.666666666666667
     },
     {
-      "nombre": "Syndra",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.125
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 57,
-    "wins": 29,
-    "losses": 28,
-    "timePlayed": 88280
+    "games": 42,
+    "wins": 20,
+    "losses": 22,
+    "timePlayed": 67848
   }
 }

@@ -2,104 +2,104 @@
   "info_jugador": {
     "nombre": "Nio",
     "nombre_real": "Nick Kartamyschew",
-    "edad": 24,
-    "equipo": "The Secret Club",
+    "edad": 25,
+    "equipo": "DKB XPERION NXT",
     "pais": "Germany",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Niotism"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nio.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NXT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Nio#Nii",
-      "nivel": 1365,
+      "nombre": "Dongfang Yuechu#Dao",
+      "nivel": 1625,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1248,
-      "victorias": 890,
-      "derrotas": 829,
-      "ultima_partida": 1753743762413
+      "liga": "GRANDMASTER I",
+      "lp": 2310,
+      "victorias": 881,
+      "derrotas": 806,
+      "ultima_partida": 1788310746407
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
-      "partidas": 9,
-      "victorias": 5,
-      "winrate": "55.6%",
-      "kda_promedio": 2.5538461538461537
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.2708333333333335
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 3,
+      "nombre": "Lux",
+      "partidas": 2,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.1333333333333333
+      "winrate": "100.0%",
+      "kda_promedio": 4.7
     },
     {
       "nombre": "Nautilus",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.95
-    },
-    {
-      "nombre": "Pantheon",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.7692307692307692
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.222222222222222
     },
     {
       "nombre": "Alistar",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.333333333333333
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
     },
     {
-      "nombre": "Elise",
+      "nombre": "Amumu",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.1818181818181817
+    },
+    {
+      "nombre": "Draven",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 1.8888888888888888
     },
     {
       "nombre": "Karma",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.375
+      "kda_promedio": 2
     },
     {
-      "nombre": "Milio",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Ornn",
+      "nombre": "LeeSin",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.09090909090909091
+    },
+    {
+      "nombre": "Rengar",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3846153846153846
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 19,
-    "losses": 13,
-    "timePlayed": 49814
+    "games": 14,
+    "wins": 6,
+    "losses": 8,
+    "timePlayed": 23977
   }
 }

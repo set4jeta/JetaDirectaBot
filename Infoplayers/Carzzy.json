@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Carzzy",
     "nombre_real": "Matyáš Orság",
-    "edad": 23,
+    "edad": 24,
     "equipo": "Team Vitality",
     "pais": "Czech Republic",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
@@ -10,107 +10,93 @@
       "twitter": "https://twitter.com/Carzzylol",
       "twitch": "https://twitch.tv/carzzy"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/carzzy.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "hello bro#EUW",
-      "nivel": 161,
-      "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 59,
-      "victorias": 29,
-      "derrotas": 6,
-      "ultima_partida": 1753741349602
-    },
-    {
-      "nombre": "lego ninjago#vape",
-      "nivel": 933,
+      "nombre": "hovinko z kose#marek",
+      "nivel": 1134,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1576,
-      "victorias": 324,
-      "derrotas": 258,
-      "ultima_partida": 1753733055314
+      "lp": 2408,
+      "victorias": 236,
+      "derrotas": 171,
+      "ultima_partida": 1788300083064
+    },
+    {
+      "nombre": "hello bro#EUW",
+      "nivel": 172,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 56,
+      "derrotas": 34,
+      "ultima_partida": 1786569958898
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.3076923076923075
-    },
-    {
-      "nombre": "Brand",
+      "nombre": "Vladimir",
       "partidas": 4,
-      "victorias": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.6363636363636364
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.5555555555555554
+      "kda_promedio": 3
     },
     {
-      "nombre": "Senna",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.7058823529411766
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5833333333333335
-    },
-    {
-      "nombre": "KogMaw",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.857142857142857
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.9
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Smolder",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.75
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Corki",
+      "nombre": "Lucian",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 0.875
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3846153846153846
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.6
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 32,
-    "wins": 20,
-    "losses": 12,
-    "timePlayed": 51956
+    "games": 12,
+    "wins": 7,
+    "losses": 5,
+    "timePlayed": 18050
   }
 }

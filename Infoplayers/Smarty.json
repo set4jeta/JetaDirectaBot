@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Smarty",
+    "nombre_real": "Matyáš Rozvoral",
+    "edad": 21,
+    "equipo": "Otter Side",
+    "pais": "Czech Republic",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/smartylol",
+      "twitch": "\\thttps://www.twitch.tv/smarty_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Alcibiades#smt",
+      "nivel": 266,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 498,
+      "victorias": 131,
+      "derrotas": 84,
+      "ultima_partida": 1788354548445
+    },
+    {
+      "nombre": "Láďa Krejčí#ACS",
+      "nivel": 368,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1749,
+      "victorias": 375,
+      "derrotas": 333,
+      "ultima_partida": 1787772259850
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Bard",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 3.507042253521127
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 3.980769230769231
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 3.1176470588235294
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.185185185185185
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.4838709677419355
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 4.625
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.611111111111111
+    },
+    {
+      "nombre": "Janna",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.875
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.111111111111111
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 64,
+    "wins": 36,
+    "losses": 28,
+    "timePlayed": 102487
+  }
+}

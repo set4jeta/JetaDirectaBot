@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "BunnyBeast",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "BunnyBeast#BUNNY",
+      "nivel": 1163,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1550,
+      "victorias": 660,
+      "derrotas": 603,
+      "ultima_partida": 1788356339166
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Aphelios",
+      "partidas": 19,
+      "victorias": 10,
+      "winrate": "52.6%",
+      "kda_promedio": 2.6923076923076925
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 13,
+      "victorias": 7,
+      "winrate": "53.8%",
+      "kda_promedio": 3.480769230769231
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2264150943396226
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1875
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.375
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.857142857142857
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9166666666666666
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 68,
+    "wins": 34,
+    "losses": 34,
+    "timePlayed": 106175
+  }
+}

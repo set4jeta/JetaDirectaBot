@@ -2,124 +2,124 @@
   "info_jugador": {
     "nombre": "Jackies",
     "nombre_real": "Adam Jeřábek",
-    "edad": 20,
+    "edad": 21,
     "equipo": "GIANTX",
     "pais": "Czech Republic",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/jackies_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/jackies.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GX.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "hahahahah#2218",
-      "nivel": 83,
+      "nombre": "detdert mid acc#RANK1",
+      "nivel": 171,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1492,
-      "victorias": 294,
-      "derrotas": 205,
-      "ultima_partida": 1753737635893
+      "lp": 3179,
+      "victorias": 764,
+      "derrotas": 636,
+      "ultima_partida": 1788379660337
     },
     {
-      "nombre": "King Julien XIII#MGDSK",
-      "nivel": 833,
+      "nombre": "HF Jackies#FUEGO",
+      "nivel": 848,
       "region": "EUW1",
       "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 146,
-      "derrotas": 120,
-      "ultima_partida": 1746366395292
+      "victorias": 32,
+      "derrotas": 31,
+      "ultima_partida": 1773780808584
     },
     {
-      "nombre": "김치 공주#55555",
-      "nivel": 48,
+      "nombre": "hahahahah#2218",
+      "nivel": 130,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 46,
-      "derrotas": 39,
-      "ultima_partida": 1740002512036
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1766073421598
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.264705882352941
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.6296296296296298
     },
     {
       "nombre": "Akali",
       "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5238095238095237
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.6818181818181819
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
     },
     {
       "nombre": "Leblanc",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5.75
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.8333333333333333
     },
     {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.823529411764706
+      "nombre": "Locke",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
     },
     {
-      "nombre": "Taliyah",
+      "nombre": "Lucian",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.0833333333333333
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.413793103448276
+    },
+    {
+      "nombre": "Azir",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 1.1333333333333333
+      "kda_promedio": 1.7222222222222223
     },
     {
       "nombre": "Irelia",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7777777777777778
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3333333333333335
+      "winrate": "33.3%",
+      "kda_promedio": 0.6538461538461539
     },
     {
-      "nombre": "Jinx",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3636363636363635
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.263157894736842
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 54,
-    "wins": 27,
-    "losses": 27,
-    "timePlayed": 86100
+    "games": 73,
+    "wins": 31,
+    "losses": 42,
+    "timePlayed": 118837
   }
 }

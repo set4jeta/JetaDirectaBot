@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "Darkchri",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/darkchri99"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "darkchri99#EUW",
+      "nivel": 1924,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2195,
+      "victorias": 760,
+      "derrotas": 673,
+      "ultima_partida": 1788355693461
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lux",
+      "partidas": 39,
+      "victorias": 16,
+      "winrate": "41.0%",
+      "kda_promedio": 2.6468253968253967
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 23,
+      "victorias": 17,
+      "winrate": "73.9%",
+      "kda_promedio": 3.1363636363636362
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.3157894736842106
+    },
+    {
+      "nombre": "Velkoz",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 4.1
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.4166666666666667
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 82,
+    "wins": 42,
+    "losses": 40,
+    "timePlayed": 131407
+  }
+}

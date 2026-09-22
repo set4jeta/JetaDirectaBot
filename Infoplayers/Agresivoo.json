@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/Agresivolol",
       "twitch": "https://www.twitch.tv/agresivoo_"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/agresivoo.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/B2TG.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "agrsv#EUW",
-      "nivel": 533,
+      "nivel": 596,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 853,
-      "victorias": 413,
-      "derrotas": 369,
-      "ultima_partida": 1753736923354
+      "liga": "CHALLENGER I",
+      "lp": 1249,
+      "victorias": 676,
+      "derrotas": 607,
+      "ultima_partida": 1766265189793
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aatrox",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.5625
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 10,
-      "victorias": 3,
-      "winrate": "30.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 1.794871794871795
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 1.7826086956521738
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.0833333333333335
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 5.642857142857143
-    },
-    {
-      "nombre": "Gangplank",
+      "nombre": "Irelia",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
+      "kda_promedio": 0.7586206896551724
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
       "kda_promedio": 1.1904761904761905
     },
     {
-      "nombre": "Orianna",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 6.2
-    },
-    {
-      "nombre": "Rumble",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 14.333333333333334
-    },
-    {
-      "nombre": "Fiora",
+      "nombre": "Riven",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.1333333333333333
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.4
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.9166666666666667
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 9.5
+    },
+    {
+      "nombre": "Kayle",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 62,
-    "wins": 37,
-    "losses": 25,
-    "timePlayed": 105240
+    "games": 21,
+    "wins": 11,
+    "losses": 10,
+    "timePlayed": 31386
   }
 }

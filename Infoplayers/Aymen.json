@@ -10,117 +10,107 @@
       "twitter": "https://www.twitter.com/aymenkaze",
       "twitch": "https://www.twitch.tv/aymenkaze"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/UNIT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "No Life is Enoug#YLA",
-      "nivel": 148,
+      "nombre": "hard work#aymen",
+      "nivel": 190,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 122,
-      "victorias": 199,
-      "derrotas": 192,
-      "ultima_partida": 1753736662904
+      "lp": 437,
+      "victorias": 166,
+      "derrotas": 161,
+      "ultima_partida": 1788284615242
     },
     {
-      "nombre": "Algerian Keria#213",
-      "nivel": 42,
+      "nombre": "KC Aymen#0121",
+      "nivel": 913,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 150,
-      "victorias": 39,
-      "derrotas": 22,
-      "ultima_partida": 1753560123852
-    },
-    {
-      "nombre": "KC NEXT SUP KING#KCWIN",
-      "nivel": 745,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 812,
-      "victorias": 393,
-      "derrotas": 368,
-      "ultima_partida": 1753554088942
+      "lp": 1610,
+      "victorias": 568,
+      "derrotas": 522,
+      "ultima_partida": 1788266446428
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 4.230769230769231
-    },
-    {
-      "nombre": "Bard",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 6.75
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.6333333333333333
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.533333333333333
+      "nombre": "Jayce",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 1.8974358974358974
     },
     {
       "nombre": "Nautilus",
-      "partidas": 5,
+      "partidas": 12,
+      "victorias": 7,
+      "winrate": "58.3%",
+      "kda_promedio": 2.4642857142857144
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 12,
+      "victorias": 9,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5272727272727273
+    },
+    {
+      "nombre": "Pyke",
+      "partidas": 9,
+      "victorias": 7,
+      "winrate": "77.8%",
+      "kda_promedio": 2.2857142857142856
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 2.962962962962963
+      "winrate": "37.5%",
+      "kda_promedio": 2.909090909090909
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 3.272727272727273
     },
     {
       "nombre": "Poppy",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.2333333333333334
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
     },
     {
       "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 2,
+      "partidas": 6,
+      "victorias": 4,
       "winrate": "66.7%",
-      "kda_promedio": 5.7
+      "kda_promedio": 2.3555555555555556
     },
     {
-      "nombre": "Jayce",
-      "partidas": 2,
+      "nombre": "Zoe",
+      "partidas": 6,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5454545454545454
+      "winrate": "33.3%",
+      "kda_promedio": 2.9285714285714284
     },
     {
-      "nombre": "Jhin",
-      "partidas": 2,
+      "nombre": "Alistar",
+      "partidas": 4,
       "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.6
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 2,
-      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.111111111111111
+      "kda_promedio": 2.35
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 64,
-    "wins": 38,
-    "losses": 26,
-    "timePlayed": 106494
+    "games": 127,
+    "wins": 71,
+    "losses": 56,
+    "timePlayed": 205972
   }
 }

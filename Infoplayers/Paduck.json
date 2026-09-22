@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "Paduck",
+    "nombre_real": "Park Seok-hyeon",
+    "edad": 21,
+    "equipo": "Shifters",
+    "pais": "South Korea",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/seokhxxn_\\t"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Right Hand#korea",
+      "nivel": 112,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2659,
+      "victorias": 401,
+      "derrotas": 269,
+      "ultima_partida": 1788288796350
+    },
+    {
+      "nombre": "Paduck#Kr05",
+      "nivel": 341,
+      "region": "KR",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 111,
+      "derrotas": 80,
+      "ultima_partida": 1782805672018
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Lucian",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 2.255813953488372
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4545454545454546
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.8235294117647058
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.4
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4666666666666666
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.1666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 20,
+    "losses": 13,
+    "timePlayed": 54931
+  }
+}

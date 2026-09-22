@@ -9,107 +9,107 @@
     "redes_sociales": {
       "twitter": "https://twitter.com/Teamid17"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Tea#2299",
-      "nivel": 1262,
+      "nombre": "ttv ronaldoo#back",
+      "nivel": 1651,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1077,
-      "victorias": 889,
-      "derrotas": 832,
-      "ultima_partida": 1753743240548
+      "liga": "GRANDMASTER I",
+      "lp": 1758,
+      "victorias": 1488,
+      "derrotas": 1411,
+      "ultima_partida": 1788355693461
     },
     {
-      "nombre": "T34#mid",
-      "nivel": 97,
+      "nombre": "a cute kitten#OvO",
+      "nivel": 167,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 116,
-      "victorias": 34,
-      "derrotas": 11,
-      "ultima_partida": 1753719482706
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 42,
+      "derrotas": 39,
+      "ultima_partida": 1782080203615
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Vladimir",
-      "partidas": 82,
-      "victorias": 48,
-      "winrate": "58.5%",
-      "kda_promedio": 2.398230088495575
-    },
-    {
-      "nombre": "Malphite",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.142857142857143
+      "partidas": 100,
+      "victorias": 51,
+      "winrate": "51.0%",
+      "kda_promedio": 2.402625820568928
     },
     {
       "nombre": "Sylas",
-      "partidas": 8,
-      "victorias": 3,
-      "winrate": "37.5%",
-      "kda_promedio": 2.204081632653061
-    },
-    {
-      "nombre": "Sett",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 0.875
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.28
+      "partidas": 27,
+      "victorias": 11,
+      "winrate": "40.7%",
+      "kda_promedio": 1.8019323671497585
     },
     {
       "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9166666666666667
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 2.15
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Sion",
+      "partidas": 8,
+      "victorias": 1,
+      "winrate": "12.5%",
+      "kda_promedio": 2.111111111111111
     },
     {
       "nombre": "Jax",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.608695652173913
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1463414634146343
     },
     {
-      "nombre": "Renekton",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Varus",
-      "partidas": 4,
+      "nombre": "Pantheon",
+      "partidas": 6,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.0588235294117645
+      "winrate": "16.7%",
+      "kda_promedio": 1.9230769230769231
     },
     {
-      "nombre": "Kassadin",
-      "partidas": 3,
-      "victorias": 1,
+      "nombre": "TwistedFate",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.9523809523809523
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 6,
+      "victorias": 2,
       "winrate": "33.3%",
-      "kda_promedio": 1.7142857142857142
+      "kda_promedio": 3.423076923076923
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 5.05
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 153,
-    "wins": 76,
-    "losses": 77,
-    "timePlayed": 241695
+    "games": 265,
+    "wins": 126,
+    "losses": 139,
+    "timePlayed": 415185
   }
 }

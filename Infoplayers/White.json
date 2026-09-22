@@ -2,135 +2,135 @@
   "info_jugador": {
     "nombre": "White",
     "nombre_real": "Aslan Panglose",
-    "edad": 23,
+    "edad": 24,
     "equipo": "Unicorns of Love Sexy Edition",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Whiteakitout",
       "twitch": "https://twitch.tv/whiteakitout789"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/white.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/USE.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Aslan#945",
-      "nivel": 330,
+      "nombre": "Dear Bruce#011",
+      "nivel": 413,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1330,
-      "victorias": 262,
-      "derrotas": 206,
-      "ultima_partida": 1753734830402
+      "liga": "GRANDMASTER I",
+      "lp": 2129,
+      "victorias": 193,
+      "derrotas": 123,
+      "ultima_partida": 1788272184095
+    },
+    {
+      "nombre": "Gustavo#711",
+      "nivel": 369,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 48,
+      "derrotas": 31,
+      "ultima_partida": 1782125184396
     },
     {
       "nombre": "W1111#1111",
-      "nivel": 146,
+      "nivel": 152,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 974,
-      "victorias": 100,
-      "derrotas": 49,
-      "ultima_partida": 1753609537075
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1756748194666
     },
     {
       "nombre": "Meruem#945",
       "nivel": 166,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 5,
-      "victorias": 42,
-      "derrotas": 15,
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
       "ultima_partida": 1753548329152
-    },
-    {
-      "nombre": "no more trouble#333",
-      "nivel": 375,
-      "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 32,
-      "derrotas": 21,
-      "ultima_partida": 1744294828405
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Vi",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 5.766666666666667
+      "nombre": "Fizz",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 7
     },
     {
       "nombre": "LeeSin",
-      "partidas": 9,
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 4.454545454545454
+      "winrate": "80.0%",
+      "kda_promedio": 7.076923076923077
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 7,
-      "victorias": 5,
-      "winrate": "71.4%",
-      "kda_promedio": 6.083333333333333
+      "nombre": "Zed",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.7333333333333334
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 7,
-      "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.75
-    },
-    {
-      "nombre": "Naafiri",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.4545454545454546
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 6,
-      "victorias": 3,
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.4864864864864864
+      "kda_promedio": 4.1
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4615384615384617
     },
     {
       "nombre": "Amumu",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.5
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0555555555555554
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 3,
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.6470588235294117
+      "kda_promedio": 3.142857142857143
     },
     {
-      "nombre": "Skarner",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.25
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7777777777777778
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.727272727272727
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 65,
-    "wins": 37,
-    "losses": 28,
-    "timePlayed": 107413
+    "games": 30,
+    "wins": 16,
+    "losses": 14,
+    "timePlayed": 49271
   }
 }

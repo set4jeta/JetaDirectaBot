@@ -2,104 +2,105 @@
   "info_jugador": {
     "nombre": "Mikyx",
     "nombre_real": "Mihael Mehle",
-    "edad": 26,
-    "equipo": "Fnatic",
+    "edad": 27,
+    "equipo": "SK Gaming",
     "pais": "Slovenia",
     "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://twitter.com/mikyx"
+      "twitter": "https://twitter.com/mikyx",
+      "twitch": "https://www.twitch.tv/m1kyx"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/mikyx.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "FNC Mikyx#1998",
-      "nivel": 1102,
+      "nombre": "RenoirDessendre#Miky",
+      "nivel": 1291,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1626,
-      "victorias": 332,
-      "derrotas": 260,
-      "ultima_partida": 1753697289709
+      "lp": 2775,
+      "victorias": 524,
+      "derrotas": 368,
+      "ultima_partida": 1788351458639
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Pyke",
+      "partidas": 5,
+      "victorias": 1,
+      "winrate": "20.0%",
+      "kda_promedio": 1.4411764705882353
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.526315789473684
+    },
+    {
       "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.1666666666666665
-    },
-    {
-      "nombre": "Thresh",
-      "partidas": 3,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.6818181818181817
+      "winrate": "25.0%",
+      "kda_promedio": 1.967741935483871
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Neeko",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.8461538461538463
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.076923076923077
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.230769230769231
-    },
-    {
-      "nombre": "FiddleSticks",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.8333333333333335
+      "kda_promedio": 2.3333333333333335
     },
     {
       "nombre": "Poppy",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 4.428571428571429
+      "kda_promedio": 3.75
     },
     {
-      "nombre": "Amumu",
+      "nombre": "Bard",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6.25
     },
     {
-      "nombre": "Elise",
+      "nombre": "Galio",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
     },
     {
       "nombre": "Gragas",
       "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.75
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.111111111111111
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 23,
-    "wins": 10,
-    "losses": 13,
-    "timePlayed": 39369
+    "games": 30,
+    "wins": 14,
+    "losses": 16,
+    "timePlayed": 44076
   }
 }

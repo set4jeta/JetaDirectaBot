@@ -1,106 +1,106 @@
 {
   "info_jugador": {
-    "nombre": "PapiTeero",
+    "nombre": "Papiteero",
     "nombre_real": "Antero&nbsp;Trindade Baldaia",
-    "edad": 21,
-    "equipo": "Team BDS Academy",
+    "edad": 22,
+    "equipo": "Team Heretics Academy",
     "pais": "Portugal",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-09-30T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/PapiTeeroLOL",
       "twitch": "https://twitch.tv/papiteero"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/BDSA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "ToothIess#EUW",
-      "nivel": 1335,
+      "nombre": "anteno#PT1",
+      "nivel": 1615,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 884,
-      "victorias": 651,
-      "derrotas": 613,
-      "ultima_partida": 1753701978928
+      "liga": "CHALLENGER I",
+      "lp": 2940,
+      "victorias": 992,
+      "derrotas": 859,
+      "ultima_partida": 1788379903766
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rumble",
-      "partidas": 15,
-      "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 3.3492063492063493
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.1463414634146343
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 8,
-      "victorias": 4,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3333333333333335
-    },
-    {
-      "nombre": "Renekton",
-      "partidas": 7,
-      "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 1.9210526315789473
-    },
-    {
       "nombre": "Camille",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.388888888888889
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.36
+      "partidas": 31,
+      "victorias": 16,
+      "winrate": "51.6%",
+      "kda_promedio": 2.682758620689655
     },
     {
       "nombre": "Jayce",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 2.774193548387097
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 2.15
     },
     {
-      "nombre": "Shen",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 4.8
+      "nombre": "Renekton",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 2.127659574468085
     },
     {
       "nombre": "Olaf",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8095238095238095
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 1.7857142857142858
     },
     {
-      "nombre": "Volibear",
-      "partidas": 3,
+      "nombre": "KSante",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 2.1666666666666665
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 7,
+      "victorias": 5,
+      "winrate": "71.4%",
+      "kda_promedio": 2.057142857142857
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4583333333333335
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 5,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.375
+      "kda_promedio": 1.3793103448275863
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4666666666666666
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.2222222222222223
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 89,
-    "wins": 42,
-    "losses": 47,
-    "timePlayed": 147641
+    "games": 116,
+    "wins": 57,
+    "losses": 59,
+    "timePlayed": 186701
   }
 }

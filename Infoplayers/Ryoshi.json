@@ -1,0 +1,77 @@
+{
+  "info_jugador": {
+    "nombre": "Ryoshi",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/RyoshiLoL"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Cryoshi#alive",
+      "nivel": 809,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2578,
+      "victorias": 228,
+      "derrotas": 186,
+      "ultima_partida": 1788293211209
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Seraphine",
+      "partidas": 14,
+      "victorias": 10,
+      "winrate": "71.4%",
+      "kda_promedio": 3.9833333333333334
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 6.4
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Irelia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 10.666666666666666
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 20,
+    "wins": 13,
+    "losses": 7,
+    "timePlayed": 32256
+  }
+}

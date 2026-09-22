@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "Tockimo",
+    "nombre_real": "Timo&nbsp;Nils Bock",
+    "edad": 24,
+    "equipo": "G2 NORD",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Tockimolol",
+      "twitch": "https://twitch.tv/tockimo"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Tockimo#freak",
+      "nivel": 1032,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2117,
+      "victorias": 341,
+      "derrotas": 291,
+      "ultima_partida": 1788292211605
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Nautilus",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3846153846153846
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.789473684210526
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.5833333333333335
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9375
+    },
+    {
+      "nombre": "Braum",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.076923076923077
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.076923076923077
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4545454545454546
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.411764705882353
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.6
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.8
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 19,
+    "losses": 14,
+    "timePlayed": 56962
+  }
+}

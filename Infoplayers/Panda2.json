@@ -9,97 +9,97 @@
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Pandaazz"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/1M.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Panda#32111",
-      "nivel": 656,
+      "nombre": "KC NEXT MIDKING#PANDA",
+      "nivel": 923,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1182,
-      "victorias": 309,
-      "derrotas": 266,
-      "ultima_partida": 1753709701116
+      "lp": 2823,
+      "victorias": 578,
+      "derrotas": 489,
+      "ultima_partida": 1788344784480
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Locke",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 4.96969696969697
+    },
+    {
       "nombre": "LeeSin",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 5.333333333333333
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.142857142857143
     },
     {
-      "nombre": "Nidalee",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.55
-    },
-    {
-      "nombre": "Yasuo",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5555555555555556
-    },
-    {
-      "nombre": "Akali",
+      "nombre": "Yone",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.6923076923076925
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Jhin",
-      "partidas": 2,
+      "nombre": "Akali",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Alistar",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 2
     },
     {
-      "nombre": "Tristana",
-      "partidas": 2,
+      "nombre": "Ambessa",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.4444444444444446
+      "winrate": "100.0%",
+      "kda_promedio": 22
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 12
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.625
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Jayce",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 11
-    },
-    {
-      "nombre": "Ezreal",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 5.666666666666667
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.75
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6153846153846154
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 29,
-    "wins": 12,
-    "losses": 17,
-    "timePlayed": 50743
+    "games": 25,
+    "wins": 17,
+    "losses": 8,
+    "timePlayed": 38328
   }
 }

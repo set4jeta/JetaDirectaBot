@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Zanzarah",
     "nombre_real": "Nikolay Akatov",
-    "edad": 28,
-    "equipo": "Eintracht Frankfurt",
+    "edad": 29,
+    "equipo": "All for One Gaming",
     "pais": "Russia",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Zanzarahlol",
       "twitch": "https://twitch.tv/zanzarahlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/zanzarah.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/SGE.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Zanzarah#1996",
-      "nivel": 602,
+      "nivel": 798,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 949,
-      "victorias": 415,
-      "derrotas": 380,
-      "ultima_partida": 1753691626689
+      "lp": 2038,
+      "victorias": 611,
+      "derrotas": 506,
+      "ultima_partida": 1788340842113
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Trundle",
-      "partidas": 9,
-      "victorias": 1,
-      "winrate": "11.1%",
-      "kda_promedio": 2.325
+      "nombre": "Naafiri",
+      "partidas": 18,
+      "victorias": 7,
+      "winrate": "38.9%",
+      "kda_promedio": 2.349056603773585
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 3.575
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.222222222222222
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.4375
-    },
-    {
-      "nombre": "Rammus",
-      "partidas": 3,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5714285714285716
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 6.25
+      "nombre": "Chogath",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.9642857142857144
     },
     {
       "nombre": "Maokai",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
-    },
-    {
-      "nombre": "Ornn",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.5
+      "partidas": 10,
+      "victorias": 3,
+      "winrate": "30.0%",
+      "kda_promedio": 2.3958333333333335
     },
     {
       "nombre": "Poppy",
-      "partidas": 1,
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 4.826086956521739
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 2.739130434782609
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.727272727272727
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 4,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 5.25
+      "kda_promedio": 0.95
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.25
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.333333333333333
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 15
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
-    "wins": 15,
-    "losses": 25,
-    "timePlayed": 68452
+    "games": 75,
+    "wins": 32,
+    "losses": 43,
+    "timePlayed": 121257
   }
 }

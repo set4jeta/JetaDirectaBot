@@ -1,0 +1,166 @@
+{
+  "info_jugador": {
+    "nombre": "SamD",
+    "nombre_real": "Lee Jae-hoon",
+    "edad": 25,
+    "equipo": "Natus Vincere",
+    "pais": "South Korea",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/HansSamD2001",
+      "twitch": "https://www.twitch.tv/lol_samd"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "KT Aiming#0720",
+      "nivel": 44,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 1404,
+      "victorias": 96,
+      "derrotas": 40,
+      "ultima_partida": 1788370536392
+    },
+    {
+      "nombre": "T1 Smash#2006",
+      "nivel": 84,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2354,
+      "victorias": 344,
+      "derrotas": 152,
+      "ultima_partida": 1788351007139
+    },
+    {
+      "nombre": "Son heungmin#GODS",
+      "nivel": 86,
+      "region": "EUW1",
+      "liga": "EMERALD II",
+      "lp": 97,
+      "victorias": 4,
+      "derrotas": 1,
+      "ultima_partida": 1784665579567
+    },
+    {
+      "nombre": "Navi SamD#2026",
+      "nivel": 153,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 158,
+      "derrotas": 82,
+      "ultima_partida": 1783430214707
+    },
+    {
+      "nombre": "Gen G samD#KR1",
+      "nivel": 202,
+      "region": "KR",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 15,
+      "derrotas": 16,
+      "ultima_partida": 1783066785670
+    },
+    {
+      "nombre": "kimchi man1#123",
+      "nivel": 66,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1764446375687
+    },
+    {
+      "nombre": "Kimchi sama#123",
+      "nivel": 103,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1752436977951
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Olaf",
+      "partidas": 5,
+      "victorias": 5,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6285714285714286
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2413793103448274
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.090909090909091
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.444444444444445
+    },
+    {
+      "nombre": "Camille",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.7777777777777777
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.571428571428571
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.75
+    },
+    {
+      "nombre": "Maokai",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 53,
+    "wins": 33,
+    "losses": 20,
+    "timePlayed": 83412
+  }
+}

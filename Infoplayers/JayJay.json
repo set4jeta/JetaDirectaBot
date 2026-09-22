@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "JayJay",
+    "nombre_real": "Jakub Pawlicki",
+    "edad": 22,
+    "equipo": "Zena Esports",
+    "pais": "Poland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/4b_jayj"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "kicktv 4BJayJlol#JAY",
+      "nivel": 1524,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2545,
+      "victorias": 830,
+      "derrotas": 774,
+      "ultima_partida": 1788383718791
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Syndra",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 2.8043478260869565
+    },
+    {
+      "nombre": "Locke",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3.3636363636363638
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 1.1071428571428572
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4
+    },
+    {
+      "nombre": "Azir",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8181818181818183
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9473684210526315
+    },
+    {
+      "nombre": "Galio",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.5238095238095237
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3846153846153846
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7272727272727273
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 68,
+    "wins": 37,
+    "losses": 31,
+    "timePlayed": 111879
+  }
+}

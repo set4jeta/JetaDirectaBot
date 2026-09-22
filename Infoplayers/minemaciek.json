@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/minemaciek",
       "twitch": "https://www.twitch.tv/minemaciek"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/minemaciek.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FMS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "maciek11#joker",
-      "nivel": 807,
+      "nivel": 912,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 768,
-      "victorias": 187,
-      "derrotas": 154,
-      "ultima_partida": 1753567972859
+      "liga": "CHALLENGER I",
+      "lp": 1200,
+      "victorias": 523,
+      "derrotas": 453,
+      "ultima_partida": 1766360512789
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Bard",
+      "partidas": 19,
+      "victorias": 15,
+      "winrate": "78.9%",
+      "kda_promedio": 2.9345794392523366
+    },
+    {
+      "nombre": "Nautilus",
       "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.3793103448275863
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.727272727272727
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4615384615384615
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.8095238095238095
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.25
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 4.7
-    },
-    {
-      "nombre": "Morgana",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.888888888888889
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.25
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.055555555555555
     },
     {
       "nombre": "Alistar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Neeko",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8461538461538463
+    },
+    {
+      "nombre": "Elise",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3
+      "kda_promedio": 2.5
     },
     {
-      "nombre": "Annie",
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2727272727272727
+    },
+    {
+      "nombre": "Lulu",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2857142857142856
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 17,
-    "losses": 22,
-    "timePlayed": 60768
+    "games": 37,
+    "wins": 23,
+    "losses": 14,
+    "timePlayed": 55207
   }
 }

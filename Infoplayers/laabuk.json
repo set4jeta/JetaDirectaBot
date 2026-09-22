@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "laabuk",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/laabuk"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "twtv laabuk#0124",
+      "nivel": 258,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2217,
+      "victorias": 860,
+      "derrotas": 782,
+      "ultima_partida": 1788361532696
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Orianna",
+      "partidas": 26,
+      "victorias": 16,
+      "winrate": "61.5%",
+      "kda_promedio": 4.197802197802198
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 14,
+      "victorias": 8,
+      "winrate": "57.1%",
+      "kda_promedio": 4.428571428571429
+    },
+    {
+      "nombre": "TwistedFate",
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.2222222222222223
+    },
+    {
+      "nombre": "Annie",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.789473684210526
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.4210526315789473
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2608695652173914
+    },
+    {
+      "nombre": "Brand",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Lissandra",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.9166666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 74,
+    "wins": 38,
+    "losses": 36,
+    "timePlayed": 121680
+  }
+}

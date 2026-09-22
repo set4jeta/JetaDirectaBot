@@ -2,104 +2,90 @@
   "info_jugador": {
     "nombre": "APP",
     "nombre_real": "Nemanja Mirčić",
-    "edad": 18,
-    "equipo": "Crvena zvezda Esports",
+    "edad": 19,
+    "equipo": "HMBLE",
     "pais": "Serbia",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/EUWApp"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "CZV APP#Nina",
-      "nivel": 441,
+      "nombre": "app#slon",
+      "nivel": 579,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 973,
-      "victorias": 374,
-      "derrotas": 333,
-      "ultima_partida": 1753750528234
+      "lp": 2249,
+      "victorias": 344,
+      "derrotas": 237,
+      "ultima_partida": 1788181568940
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Renekton",
-      "partidas": 13,
-      "victorias": 6,
-      "winrate": "46.2%",
-      "kda_promedio": 1.92
+      "nombre": "Camille",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.96
     },
     {
       "nombre": "Ambessa",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.0638297872340425
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.326923076923077
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.2727272727272725
     },
     {
       "nombre": "Aatrox",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.933333333333333
-    },
-    {
-      "nombre": "Ornn",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "Sion",
-      "partidas": 4,
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.923076923076923
+      "winrate": "33.3%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.625
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
     },
     {
       "nombre": "Gnar",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.875
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4285714285714286
     },
     {
       "nombre": "Nautilus",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8235294117647058
-    },
-    {
-      "nombre": "Braum",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 2.5555555555555554
+      "kda_promedio": 12
     },
     {
-      "nombre": "Jax",
+      "nombre": "Rumble",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 56,
-    "wins": 28,
-    "losses": 28,
-    "timePlayed": 87729
+    "games": 21,
+    "wins": 9,
+    "losses": 12,
+    "timePlayed": 32889
   }
 }

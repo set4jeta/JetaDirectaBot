@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Lyncas",
     "nombre_real": "Linas Nauncikas",
-    "edad": 21,
+    "edad": 22,
     "equipo": "Team Vitality",
     "pais": "Lithuania",
     "contrato_hasta": "2026-11-26T00:00:00.000Z",
@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/lyncaslol",
       "twitch": "https://twitch.tv/lyncaslol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/lyncas.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/VIT.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "v lyncas1#lync1",
-      "nivel": 1021,
+      "nombre": "JG top boy#lync1",
+      "nivel": 1174,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1643,
-      "victorias": 411,
-      "derrotas": 314,
-      "ultima_partida": 1753735423887
+      "lp": 3070,
+      "victorias": 569,
+      "derrotas": 394,
+      "ultima_partida": 1788385504757
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Viego",
-      "partidas": 14,
-      "victorias": 10,
-      "winrate": "71.4%",
-      "kda_promedio": 6.481481481481482
+      "nombre": "Qiyana",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3125
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 9.916666666666666
     },
     {
       "nombre": "Vi",
-      "partidas": 12,
-      "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 3.341463414634146
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 5.142857142857143
     },
     {
-      "nombre": "Trundle",
-      "partidas": 8,
-      "victorias": 6,
-      "winrate": "75.0%",
-      "kda_promedio": 5.482758620689655
+      "nombre": "Zaahen",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 5
     },
     {
-      "nombre": "Poppy",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 4.105263157894737
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2
     },
     {
       "nombre": "JarvanIV",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 8.222222222222221
+      "kda_promedio": 5.916666666666667
     },
     {
       "nombre": "Nocturne",
       "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 4.166666666666667
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.125
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 2.4375
+      "nombre": "Chogath",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 6.571428571428571
     },
     {
-      "nombre": "Zed",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 3.5625
+      "nombre": "Taliyah",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
       "nombre": "Khazix",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.2
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 70,
-    "wins": 43,
+    "games": 61,
+    "wins": 34,
     "losses": 27,
-    "timePlayed": 112862
+    "timePlayed": 91522
   }
 }

@@ -2,135 +2,145 @@
   "info_jugador": {
     "nombre": "Upset",
     "nombre_real": "Elias Lipp",
-    "edad": 25,
+    "edad": 26,
     "equipo": "Fnatic",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/LoL_Upset",
       "twitch": "https://twitch.tv/upsetger"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/upset.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FNC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "asdfasdf#0308",
-      "nivel": 83,
+      "nombre": "afkdoks#3101",
+      "nivel": 134,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1251,
-      "victorias": 309,
-      "derrotas": 228,
-      "ultima_partida": 1753746018472
-    },
-    {
-      "nombre": "FNC Upset#0308",
-      "nivel": 76,
-      "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 259,
-      "derrotas": 216,
-      "ultima_partida": 1744751738773
+      "lp": 3019,
+      "victorias": 640,
+      "derrotas": 480,
+      "ultima_partida": 1788095696761
     },
     {
       "nombre": "FNC Upset22#EUW",
-      "nivel": 429,
+      "nivel": 469,
       "region": "EUW1",
-      "liga": "EMERALD I",
+      "liga": "DIAMOND II",
       "lp": 75,
-      "victorias": 5,
-      "derrotas": 1,
-      "ultima_partida": 1737579104590
+      "victorias": 36,
+      "derrotas": 29,
+      "ultima_partida": 1768689371867
     },
     {
-      "nombre": "Upset#asdff",
-      "nivel": 171,
+      "nombre": "asdfasdf#0308",
+      "nivel": 115,
       "region": "EUW1",
       "liga": "Unranked",
       "lp": null,
       "victorias": null,
       "derrotas": null,
-      "ultima_partida": null
+      "ultima_partida": 1761589028593
+    },
+    {
+      "nombre": "FNC Upset#0308",
+      "nivel": 76,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1744751738773
+    },
+    {
+      "nombre": "Upset#asdff",
+      "nivel": 239,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1734470433079
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 27,
-      "victorias": 14,
-      "winrate": "51.9%",
-      "kda_promedio": 2.55625
-    },
-    {
-      "nombre": "Lucian",
+      "nombre": "Caitlyn",
       "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.3548387096774195
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 1.65625
     },
     {
       "nombre": "Ezreal",
-      "partidas": 7,
+      "partidas": 9,
       "victorias": 3,
-      "winrate": "42.9%",
-      "kda_promedio": 2.5348837209302326
+      "winrate": "33.3%",
+      "kda_promedio": 1.8153846153846154
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 8,
+      "victorias": 2,
+      "winrate": "25.0%",
+      "kda_promedio": 1.6101694915254237
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.2903225806451615
+    },
+    {
+      "nombre": "Xayah",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.533333333333333
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.9230769230769231
     },
     {
       "nombre": "Kaisa",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 6.636363636363637
-    },
-    {
-      "nombre": "Sivir",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.375
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.0555555555555554
-    },
-    {
-      "nombre": "Corki",
       "partidas": 2,
       "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 5.1
+      "kda_promedio": 4.583333333333333
     },
     {
-      "nombre": "Varus",
+      "nombre": "Tristana",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.3
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 1,
-      "victorias": 1,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 1.5714285714285714
+      "kda_promedio": 4.090909090909091
     },
     {
-      "nombre": "KogMaw",
+      "nombre": "Bard",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.8333333333333333
+      "kda_promedio": 1.4
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 67,
-    "wins": 34,
-    "losses": 33,
-    "timePlayed": 108867
+    "games": 47,
+    "wins": 21,
+    "losses": 26,
+    "timePlayed": 73501
   }
 }

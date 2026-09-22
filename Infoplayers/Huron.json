@@ -2,104 +2,104 @@
   "info_jugador": {
     "nombre": "Huron",
     "nombre_real": "Michał Stawiński",
-    "edad": 22,
+    "edad": 23,
     "equipo": "DOCISK",
     "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Huron03"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/DOC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "BadgerOnPlane#EUW",
-      "nivel": 280,
+      "nombre": "Żywiec#Orzeu",
+      "nivel": 381,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 968,
-      "victorias": 213,
-      "derrotas": 168,
-      "ultima_partida": 1753622760053
+      "lp": 1833,
+      "victorias": 383,
+      "derrotas": 332,
+      "ultima_partida": 1788276474939
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Alistar",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 6.266666666666667
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 5
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 3.9285714285714284
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.8461538461538463
-    },
-    {
       "nombre": "Nautilus",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.142857142857143
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 7.428571428571429
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 2,
-      "victorias": 1,
+      "partidas": 10,
+      "victorias": 5,
       "winrate": "50.0%",
-      "kda_promedio": 4.142857142857143
-    },
-    {
-      "nombre": "Ashe",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4.333333333333333
+      "kda_promedio": 3.0980392156862746
     },
     {
       "nombre": "Karma",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 8.75
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 6.615384615384615
+    },
+    {
+      "nombre": "Rakan",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Rell",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 9.444444444444445
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Renata",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "Blitzcrank",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 4.333333333333333
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Milio",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 33,
-    "wins": 19,
-    "losses": 14,
-    "timePlayed": 48810
+    "games": 32,
+    "wins": 16,
+    "losses": 16,
+    "timePlayed": 53200
   }
 }

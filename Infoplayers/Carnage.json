@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Carnage",
     "nombre_real": "Vasilis Syrianos",
-    "edad": 22,
-    "equipo": "Tan'i eSports CZ",
+    "edad": 23,
+    "equipo": "HMBLE",
     "pais": "Greece",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Lol_Carnage",
       "twitch": "https://www.twitch.tv/lol_carnage"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/TNI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Lancelot#4150",
-      "nivel": 268,
+      "nombre": "Napoleon#Carn",
+      "nivel": 402,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 841,
-      "victorias": 284,
-      "derrotas": 252,
-      "ultima_partida": 1753743225403
+      "lp": 1738,
+      "victorias": 519,
+      "derrotas": 415,
+      "ultima_partida": 1788218857103
     },
     {
       "nombre": "Carnagε#EUW",
-      "nivel": 1031,
+      "nivel": 1078,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 909,
-      "victorias": 186,
-      "derrotas": 158,
-      "ultima_partida": 1753737901039
+      "liga": "CHALLENGER I",
+      "lp": 2487,
+      "victorias": 158,
+      "derrotas": 94,
+      "ultima_partida": 1787779563441
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 3.622950819672131
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 2.909090909090909
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3.590909090909091
+      "nombre": "Darius",
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 5
     },
     {
       "nombre": "LeeSin",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 5.466666666666667
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.2580645161290325
     },
     {
-      "nombre": "DrMundo",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 4.666666666666667
+      "nombre": "Trundle",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.2222222222222223
     },
     {
       "nombre": "Skarner",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.8333333333333335
+    },
+    {
+      "nombre": "JarvanIV",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.4615384615384615
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4210526315789473
     },
     {
-      "nombre": "Viego",
+      "nombre": "MonkeyKing",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8181818181818181
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.4615384615384617
     },
     {
-      "nombre": "Aatrox",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0714285714285716
     },
     {
-      "nombre": "Aurora",
+      "nombre": "Alistar",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 8.333333333333334
+      "kda_promedio": 2.625
     },
     {
-      "nombre": "Corki",
+      "nombre": "Chogath",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "DrMundo",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 21
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 50,
+    "games": 39,
     "wins": 25,
-    "losses": 25,
-    "timePlayed": 74438
+    "losses": 14,
+    "timePlayed": 58767
   }
 }

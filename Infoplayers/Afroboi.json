@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Afroboi",
+    "nombre_real": "Adrian Kaymer",
+    "edad": 26,
+    "equipo": "E WIE EINFACH E-SPORTS",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/4froboi",
+      "twitch": "https://www.twitch.tv/afroboilol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Afroboi#depu",
+      "nivel": 875,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2178,
+      "victorias": 445,
+      "derrotas": 360,
+      "ultima_partida": 1790025881067
+    },
+    {
+      "nombre": "Afro Junior#EUW",
+      "nivel": 227,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 25,
+      "derrotas": 16,
+      "ultima_partida": 1773772626942
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Viego",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 4.761904761904762
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 5.363636363636363
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.242424242424242
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 29
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7727272727272727
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.2222222222222223
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.666666666666667
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.375
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 33,
+    "wins": 21,
+    "losses": 12,
+    "timePlayed": 56733
+  }
+}

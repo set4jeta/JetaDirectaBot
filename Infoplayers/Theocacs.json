@@ -2,105 +2,115 @@
   "info_jugador": {
     "nombre": "Theocacs",
     "nombre_real": "Theo Sauda",
-    "edad": 18,
-    "equipo": "Ici Japon Corp. Esport",
+    "edad": 19,
+    "equipo": "Anubis Gaming",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/Theocacao01",
       "twitch": "https://www.twitch.tv/theocacs"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/IJC.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Theocacs#EUW",
-      "nivel": 889,
+      "nivel": 1087,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1118,
-      "victorias": 433,
-      "derrotas": 391,
-      "ultima_partida": 1753728835038
+      "lp": 3368,
+      "victorias": 706,
+      "derrotas": 594,
+      "ultima_partida": 1788381165519
+    },
+    {
+      "nombre": "Despair#9387",
+      "nivel": 54,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760305121298
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "MonkeyKing",
-      "partidas": 17,
-      "victorias": 8,
-      "winrate": "47.1%",
-      "kda_promedio": 2.9066666666666667
-    },
-    {
       "nombre": "JarvanIV",
-      "partidas": 12,
+      "partidas": 10,
       "victorias": 6,
-      "winrate": "50.0%",
-      "kda_promedio": 3.893939393939394
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 3.2745098039215685
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.7555555555555555
+      "winrate": "60.0%",
+      "kda_promedio": 3.8297872340425534
     },
     {
       "nombre": "Vi",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.45
+      "partidas": 9,
+      "victorias": 4,
+      "winrate": "44.4%",
+      "kda_promedio": 4.266666666666667
     },
     {
       "nombre": "Skarner",
-      "partidas": 7,
-      "victorias": 2,
-      "winrate": "28.6%",
-      "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 6,
+      "partidas": 8,
       "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.212121212121212
-    },
-    {
-      "nombre": "Lillia",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 2.8333333333333335
-    },
-    {
-      "nombre": "Orianna",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.56
+      "winrate": "62.5%",
+      "kda_promedio": 4.193548387096774
     },
     {
       "nombre": "XinZhao",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.6956521739130435
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 4.03125
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6363636363636365
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.2
+    },
+    {
+      "nombre": "Trundle",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 90,
-    "wins": 44,
-    "losses": 46,
-    "timePlayed": 146010
+    "games": 49,
+    "wins": 27,
+    "losses": 22,
+    "timePlayed": 80740
   }
 }

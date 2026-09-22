@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Maynter",
     "nombre_real": "Volodymyr Sorokin",
-    "edad": 24,
-    "equipo": "Karmine Corp Blue",
+    "edad": 25,
+    "equipo": "Natus Vincere",
     "pais": "Ukraine",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Maynter_LOL",
       "twitch": "https://twitch.tv/lol_maynter"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/maynter.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KCB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "vovalaclasse#EUW",
-      "nivel": 340,
+      "nombre": "Maynter#EUW",
+      "nivel": 850,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 894,
-      "victorias": 276,
-      "derrotas": 248,
-      "ultima_partida": 1753742685654
+      "lp": 2293,
+      "victorias": 479,
+      "derrotas": 383,
+      "ultima_partida": 1788043679130
     },
     {
-      "nombre": "Maynter#EUW",
-      "nivel": 692,
+      "nombre": "vovalaclasse#EUW",
+      "nivel": 370,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1652,
-      "victorias": 356,
-      "derrotas": 287,
-      "ultima_partida": 1753737635893
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 27,
+      "derrotas": 20,
+      "ultima_partida": 1780920825587
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aurora",
-      "partidas": 21,
-      "victorias": 7,
-      "winrate": "33.3%",
-      "kda_promedio": 2.317757009345794
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 14,
-      "victorias": 9,
-      "winrate": "64.3%",
-      "kda_promedio": 3.0714285714285716
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.090909090909091
-    },
-    {
-      "nombre": "Jayce",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 1.4736842105263157
-    },
-    {
-      "nombre": "Yorick",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 1.6153846153846154
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 5,
-      "victorias": 5,
-      "winrate": "100.0%",
-      "kda_promedio": 6.2727272727272725
-    },
-    {
-      "nombre": "Gnar",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 5
+      "nombre": "Olaf",
+      "partidas": 13,
+      "victorias": 8,
+      "winrate": "61.5%",
+      "kda_promedio": 1.9014084507042253
     },
     {
       "nombre": "Aatrox",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 0.9230769230769231
+    },
+    {
+      "nombre": "Anivia",
       "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.727272727272727
+    },
+    {
+      "nombre": "Jax",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
       "kda_promedio": 1.4444444444444444
     },
     {
-      "nombre": "Gragas",
-      "partidas": 2,
+      "nombre": "Gnar",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.2
-    },
-    {
-      "nombre": "KSante",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6
+      "kda_promedio": 0.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 84,
-    "wins": 36,
-    "losses": 48,
-    "timePlayed": 134552
+    "games": 37,
+    "wins": 23,
+    "losses": 14,
+    "timePlayed": 54820
   }
 }

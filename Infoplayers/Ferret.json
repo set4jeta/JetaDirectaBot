@@ -2,115 +2,108 @@
   "info_jugador": {
     "nombre": "Ferret",
     "nombre_real": "Hakan Mert Çakmak",
-    "edad": 23,
-    "equipo": "GIANTX Academy",
+    "edad": 24,
+    "equipo": "Partizan Sangal",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/psychoferrett",
       "twitch": "https://www.twitch.tv/psychoferrett"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/ferret.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GXP.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Ferret25#8725",
-      "nivel": 471,
+      "nombre": "he is god#71300",
+      "nivel": 563,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 855,
-      "victorias": 471,
-      "derrotas": 436,
-      "ultima_partida": 1753737901039
+      "lp": 1857,
+      "victorias": 327,
+      "derrotas": 256,
+      "ultima_partida": 1787609401985
     },
     {
-      "nombre": "METROOOOOOOOO#EUW",
-      "nivel": 684,
+      "nombre": "Psychoferret#71300",
+      "nivel": 721,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 476,
-      "victorias": 158,
-      "derrotas": 134,
-      "ultima_partida": 1753304575413
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 94,
+      "derrotas": 61,
+      "ultima_partida": 1776989994101
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Zed",
-      "partidas": 15,
-      "victorias": 8,
-      "winrate": "53.3%",
-      "kda_promedio": 4
-    },
-    {
-      "nombre": "LeeSin",
-      "partidas": 11,
-      "victorias": 7,
-      "winrate": "63.6%",
-      "kda_promedio": 4.2727272727272725
-    },
-    {
-      "nombre": "Vi",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 3.382978723404255
-    },
-    {
-      "nombre": "Talon",
-      "partidas": 8,
-      "victorias": 2,
-      "winrate": "25.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Pantheon",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2
-    },
-    {
-      "nombre": "Nidalee",
-      "partidas": 4,
-      "victorias": 4,
-      "winrate": "100.0%",
-      "kda_promedio": 3.52
-    },
-    {
-      "nombre": "Taliyah",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.7857142857142856
-    },
-    {
-      "nombre": "XinZhao",
+      "nombre": "Lucian",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 2.9375
+      "kda_promedio": 1.8709677419354838
     },
     {
-      "nombre": "JarvanIV",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.3333333333333335
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2727272727272727
     },
     {
       "nombre": "Khazix",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 3.4
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1428571428571428
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6666666666666666
+    },
+    {
+      "nombre": "Samira",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.42857142857142855
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 83,
-    "wins": 39,
-    "losses": 44,
-    "timePlayed": 135169
+    "games": 13,
+    "wins": 3,
+    "losses": 10,
+    "timePlayed": 20305
   }
 }

@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Serin",
     "nombre_real": "Tolga Ölmez",
-    "edad": 23,
-    "equipo": "Galions",
+    "edad": 24,
+    "equipo": "Team Heretics",
     "pais": "Turkey",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Serinlol",
       "twitch": "https://twitch.tv/serinlol12"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/serin.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "SeRiN1#EUW",
-      "nivel": 1486,
+      "nivel": 1683,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1201,
-      "victorias": 347,
-      "derrotas": 302,
-      "ultima_partida": 1753731239552
+      "lp": 2702,
+      "victorias": 600,
+      "derrotas": 467,
+      "ultima_partida": 1788287910324
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Ryze",
+      "nombre": "Cassiopeia",
       "partidas": 9,
-      "victorias": 6,
-      "winrate": "66.7%",
-      "kda_promedio": 2.4
-    },
-    {
-      "nombre": "Aurora",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.4642857142857144
-    },
-    {
-      "nombre": "Shen",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.9473684210526314
-    },
-    {
-      "nombre": "AurelionSol",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.64
-    },
-    {
-      "nombre": "Galio",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.272727272727273
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 4,
-      "victorias": 4,
+      "victorias": 9,
       "winrate": "100.0%",
-      "kda_promedio": 5.357142857142857
+      "kda_promedio": 3.04
     },
     {
-      "nombre": "Zed",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.696969696969697
+      "nombre": "Syndra",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.1538461538461537
     },
     {
-      "nombre": "Tristana",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3
+      "nombre": "Locke",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7428571428571429
     },
     {
       "nombre": "Akali",
-      "partidas": 2,
+      "partidas": 4,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.75
+      "winrate": "25.0%",
+      "kda_promedio": 1.9583333333333333
     },
     {
-      "nombre": "Corki",
+      "nombre": "Jayce",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.15
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.4285714285714284
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.1538461538461537
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6470588235294117
+    },
+    {
+      "nombre": "Camille",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.42105263157894735
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5555555555555556
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6.5
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 63,
-    "wins": 34,
-    "losses": 29,
-    "timePlayed": 100683
+    "games": 61,
+    "wins": 31,
+    "losses": 30,
+    "timePlayed": 97905
   }
 }

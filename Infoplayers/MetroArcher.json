@@ -1,0 +1,106 @@
+{
+  "info_jugador": {
+    "nombre": "MetroArcher",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/MetroArcher",
+      "twitch": "https://www.twitch.tv/metroarcher112"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MetroArcher#EUW",
+      "nivel": 1381,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2929,
+      "victorias": 675,
+      "derrotas": 585,
+      "ultima_partida": 1788379050416
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Caitlyn",
+      "partidas": 55,
+      "victorias": 30,
+      "winrate": "54.5%",
+      "kda_promedio": 2.5202952029520294
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 2.0833333333333335
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 7,
+      "victorias": 7,
+      "winrate": "100.0%",
+      "kda_promedio": 3.875
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.4642857142857142
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1764705882352942
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.6666666666666665
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.625
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.625
+    },
+    {
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.375
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 90,
+    "wins": 50,
+    "losses": 40,
+    "timePlayed": 151033
+  }
+}

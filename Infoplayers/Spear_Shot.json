@@ -1,0 +1,84 @@
+{
+  "info_jugador": {
+    "nombre": "Spear_Shot",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Spear_shot",
+      "twitch": "https://twitch.tv/spear_shot"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Spear Shot#1111",
+      "nivel": 1142,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 4002,
+      "victorias": 959,
+      "derrotas": 834,
+      "ultima_partida": 1788371233223
+    },
+    {
+      "nombre": "Spear Shot#EUW2",
+      "nivel": 203,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 40,
+      "victorias": 3,
+      "derrotas": 3,
+      "ultima_partida": 1787873945291
+    },
+    {
+      "nombre": "El Capitan#Spear",
+      "nivel": 97,
+      "region": "KR",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1762786448219
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Pantheon",
+      "partidas": 67,
+      "victorias": 46,
+      "winrate": "68.7%",
+      "kda_promedio": 2.630890052356021
+    },
+    {
+      "nombre": "Draven",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3846153846153846
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2
+    },
+    {
+      "nombre": "Ornn",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 70,
+    "wins": 46,
+    "losses": 24,
+    "timePlayed": 113405
+  }
+}

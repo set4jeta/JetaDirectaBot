@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Kokos",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Bananowy_Kokos",
+      "twitch": "https://www.twitch.tv/bananowy_kokos"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MŁODY KASZTAN#TORTA",
+      "nivel": 253,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1898,
+      "victorias": 538,
+      "derrotas": 469,
+      "ultima_partida": 1788271759434
+    },
+    {
+      "nombre": "Kokos#COCO",
+      "nivel": 1042,
+      "region": "EUW1",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 102,
+      "derrotas": 65,
+      "ultima_partida": 1786828279103
+    },
+    {
+      "nombre": "UNHOLY#xdxd",
+      "nivel": 180,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 84,
+      "derrotas": 58,
+      "ultima_partida": 1771262259515
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Naafiri",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 5.423076923076923
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8695652173913044
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.8461538461538463
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4444444444444446
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.769230769230769
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 35,
+    "wins": 18,
+    "losses": 17,
+    "timePlayed": 59847
+  }
+}

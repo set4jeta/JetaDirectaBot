@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "raining",
+    "nombre_real": "Matúš Mazur",
+    "edad": 23,
+    "equipo": "Reveal Multigaming",
+    "pais": "Slovakia",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/raining_lol",
+      "twitch": "https://www.twitch.tv/raining_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "burning bridges#TBH",
+      "nivel": 653,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2148,
+      "victorias": 326,
+      "derrotas": 235,
+      "ultima_partida": 1788351744521
+    },
+    {
+      "nombre": "Chief of Sin#WKND",
+      "nivel": 279,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 107,
+      "derrotas": 101,
+      "ultima_partida": 1774540282700
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 16,
+      "victorias": 12,
+      "winrate": "75.0%",
+      "kda_promedio": 2.7857142857142856
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.080808080808081
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 7,
+      "victorias": 2,
+      "winrate": "28.6%",
+      "kda_promedio": 2.6052631578947367
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.9473684210526316
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.9333333333333333
+    },
+    {
+      "nombre": "Teemo",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.32
+    },
+    {
+      "nombre": "MissFortune",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.888888888888889
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 1.76
+    },
+    {
+      "nombre": "Aphelios",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 65,
+    "wins": 40,
+    "losses": 25,
+    "timePlayed": 111613
+  }
+}

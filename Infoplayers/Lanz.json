@@ -1,0 +1,85 @@
+{
+  "info_jugador": {
+    "nombre": "Lanz",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Lanzs_",
+      "twitch": "https://www.twitch.tv/apxlanz"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Łanz#EUW",
+      "nivel": 500,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 1259,
+      "victorias": 862,
+      "derrotas": 787,
+      "ultima_partida": 1766341139370
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ivern",
+      "partidas": 33,
+      "victorias": 18,
+      "winrate": "54.5%",
+      "kda_promedio": 5.303030303030303
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.05
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.4615384615384617
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.375
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 10
+    },
+    {
+      "nombre": "Smolder",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
+    },
+    {
+      "nombre": "Viego",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8333333333333335
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 42,
+    "wins": 24,
+    "losses": 18,
+    "timePlayed": 67916
+  }
+}

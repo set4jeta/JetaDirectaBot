@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "SeyZo",
+    "nombre_real": "Raphael Thouy",
+    "edad": 20,
+    "equipo": "Mind Blue eSports",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/SeyzoLOL"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SeyZo#bête",
+      "nivel": 1165,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2382,
+      "victorias": 760,
+      "derrotas": 677,
+      "ultima_partida": 1788341944714
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 44,
+      "victorias": 24,
+      "winrate": "54.5%",
+      "kda_promedio": 3.1330049261083746
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 15,
+      "victorias": 12,
+      "winrate": "80.0%",
+      "kda_promedio": 3.0833333333333335
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 2.452830188679245
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.9411764705882355
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8076923076923077
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1052631578947367
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.2777777777777777
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7857142857142857
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 106,
+    "wins": 61,
+    "losses": 45,
+    "timePlayed": 169004
+  }
+}

@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Strode",
     "nombre_real": "Šimon Povýšil",
-    "edad": 19,
+    "edad": 20,
     "equipo": "Nightbirds",
     "pais": "Czech Republic",
     "contrato_hasta": null,
@@ -10,117 +10,117 @@
       "twitter": "https://www.twitter.com/strodeadc",
       "twitch": "https://www.twitch.tv/strode_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NBS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Kwon Jae Sung#TOPG",
-      "nivel": 484,
+      "nombre": "Strode#1508",
+      "nivel": 268,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 972,
-      "victorias": 320,
-      "derrotas": 276,
-      "ultima_partida": 1753739940107
+      "liga": "CHALLENGER I",
+      "lp": 2817,
+      "victorias": 562,
+      "derrotas": 479,
+      "ultima_partida": 1788361985931
+    },
+    {
+      "nombre": "김수환#PEYZZ",
+      "nivel": 532,
+      "region": "EUW1",
+      "liga": "MASTER I",
+      "lp": 292,
+      "victorias": 107,
+      "derrotas": 84,
+      "ultima_partida": 1788351382612
     },
     {
       "nombre": "lck material ad#EUW",
-      "nivel": 123,
+      "nivel": 126,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 477,
-      "victorias": 78,
-      "derrotas": 38,
-      "ultima_partida": 1753657305567
-    },
-    {
-      "nombre": "rank one#111",
-      "nivel": 101,
-      "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1059,
-      "victorias": 341,
-      "derrotas": 265,
-      "ultima_partida": 1752705533609
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1771277991559
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Xayah",
+      "partidas": 14,
+      "victorias": 9,
+      "winrate": "64.3%",
+      "kda_promedio": 2.4166666666666665
+    },
+    {
       "nombre": "Yunara",
-      "partidas": 10,
-      "victorias": 6,
-      "winrate": "60.0%",
-      "kda_promedio": 2.981818181818182
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 2.6301369863013697
     },
     {
-      "nombre": "Senna",
-      "partidas": 9,
-      "victorias": 7,
-      "winrate": "77.8%",
-      "kda_promedio": 5.324324324324325
-    },
-    {
-      "nombre": "Lucian",
+      "nombre": "Caitlyn",
       "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 2.9
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 7,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 3.7037037037037037
-    },
-    {
-      "nombre": "Mel",
-      "partidas": 6,
-      "victorias": 3,
       "winrate": "50.0%",
-      "kda_promedio": 2.9642857142857144
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 5,
-      "victorias": 1,
-      "winrate": "20.0%",
-      "kda_promedio": 1.8421052631578947
+      "kda_promedio": 2.04
     },
     {
       "nombre": "Syndra",
-      "partidas": 5,
+      "partidas": 8,
       "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.875
+      "winrate": "37.5%",
+      "kda_promedio": 2.306122448979592
     },
     {
-      "nombre": "Tristana",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 1.8666666666666667
+      "nombre": "Hwei",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.257142857142857
     },
     {
-      "nombre": "Fiora",
-      "partidas": 4,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5161290322580645
+      "nombre": "Nasus",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.8333333333333335
     },
     {
-      "nombre": "Nilah",
+      "nombre": "Lucian",
       "partidas": 4,
       "victorias": 3,
       "winrate": "75.0%",
-      "kda_promedio": 2.2222222222222223
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Sylas",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.9523809523809523
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.5454545454545454
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 91,
-    "wins": 48,
-    "losses": 43,
-    "timePlayed": 153354
+    "games": 94,
+    "wins": 50,
+    "losses": 44,
+    "timePlayed": 149855
   }
 }

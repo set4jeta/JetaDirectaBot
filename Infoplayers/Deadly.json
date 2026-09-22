@@ -2,84 +2,105 @@
   "info_jugador": {
     "nombre": "Deadly",
     "nombre_real": "Matthew&nbsp;Luke Smith",
-    "edad": 25,
-    "equipo": "Joblife",
+    "edad": 26,
+    "equipo": "Otter Side",
     "pais": "United Kingdom",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Deadlyl0l",
       "twitch": "https://twitch.tv/deadlyl0l"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/deadly.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/JL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Deadly#9381",
-      "nivel": 786,
+      "nivel": 916,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 1021,
-      "victorias": 431,
-      "derrotas": 396,
-      "ultima_partida": 1753730164507
+      "lp": 1900,
+      "victorias": 437,
+      "derrotas": 377,
+      "ultima_partida": 1788221039866
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Lucian",
+      "nombre": "Jhin",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 4.217391304347826
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.25
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.064516129032258
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.5454545454545454
+    },
+    {
+      "nombre": "Corki",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.111111111111111
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 2.6153846153846154
+    },
+    {
+      "nombre": "Rumble",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.5555555555555556
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5555555555555554
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.571428571428571
     },
     {
       "nombre": "Varus",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.1818181818181817
+      "kda_promedio": 3.1666666666666665
     },
     {
-      "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5384615384615384
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1428571428571428
-    },
-    {
-      "nombre": "Jinx",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.5
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.8888888888888888
-    },
-    {
-      "nombre": "Sivir",
+      "nombre": "Braum",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 7.666666666666667
+      "kda_promedio": 11
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 10,
-    "wins": 2,
-    "losses": 8,
-    "timePlayed": 17776
+    "games": 43,
+    "wins": 22,
+    "losses": 21,
+    "timePlayed": 69564
   }
 }

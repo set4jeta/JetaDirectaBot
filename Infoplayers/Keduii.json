@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Keduii",
     "nombre_real": "Tim Willers",
-    "edad": 24,
-    "equipo": "SK Gaming",
+    "edad": 25,
+    "equipo": "Joblife",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/Keduii",
       "twitch": "https://twitch.tv/keduii1"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/keduii.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/SK.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "GRF Viper#1310",
-      "nivel": 1579,
+      "nombre": "KED1111111#1310",
+      "nivel": 1807,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1041,
-      "victorias": 638,
-      "derrotas": 597,
-      "ultima_partida": 1753694396496
+      "lp": 2434,
+      "victorias": 719,
+      "derrotas": 594,
+      "ultima_partida": 1788385504757
     },
     {
       "nombre": "202220222#EUW",
       "nivel": 112,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 75,
-      "victorias": 65,
-      "derrotas": 51,
-      "ultima_partida": 1741279168507
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1755460007833
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Varus",
-      "partidas": 15,
-      "victorias": 6,
-      "winrate": "40.0%",
-      "kda_promedio": 2.712121212121212
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 11,
-      "victorias": 5,
-      "winrate": "45.5%",
-      "kda_promedio": 3.1025641025641026
-    },
-    {
-      "nombre": "Lucian",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 5.454545454545454
+      "nombre": "Tristana",
+      "partidas": 51,
+      "victorias": 31,
+      "winrate": "60.8%",
+      "kda_promedio": 3.1372549019607843
     },
     {
       "nombre": "Ezreal",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.5714285714285716
+      "partidas": 14,
+      "victorias": 7,
+      "winrate": "50.0%",
+      "kda_promedio": 2.1866666666666665
     },
     {
-      "nombre": "Xayah",
-      "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 3.8666666666666667
+      "nombre": "Syndra",
+      "partidas": 14,
+      "victorias": 6,
+      "winrate": "42.9%",
+      "kda_promedio": 2.111111111111111
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 9,
+      "victorias": 6,
+      "winrate": "66.7%",
+      "kda_promedio": 2.8048780487804876
     },
     {
       "nombre": "Kaisa",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.7714285714285714
+    },
+    {
+      "nombre": "Vladimir",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "Jayce",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 7
+      "kda_promedio": 1.75
     },
     {
-      "nombre": "Aphelios",
-      "partidas": 2,
+      "nombre": "Viktor",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0909090909090908
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 3,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.125
-    },
-    {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 8.75
-    },
-    {
-      "nombre": "Senna",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.5
+      "winrate": "33.3%",
+      "kda_promedio": 3.3846153846153846
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 59,
-    "wins": 33,
-    "losses": 26,
-    "timePlayed": 94734
+    "games": 125,
+    "wins": 69,
+    "losses": 56,
+    "timePlayed": 192492
   }
 }

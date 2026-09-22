@@ -2,106 +2,115 @@
   "info_jugador": {
     "nombre": "Odi11",
     "nombre_real": "Adrian Kruk",
-    "edad": 23,
-    "equipo": "Forsaken (Polish Team)",
+    "edad": 24,
+    "equipo": "Bomba Team",
     "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/odi11_LOL",
-      "twitch": "\\thttps://www.twitch.tv/odi11__"
+      "twitch": "https://www.twitch.tv/odi11__"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/FSK.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Luong Lao Shi 2#2836",
-      "nivel": 342,
-      "liga": "DIAMOND I",
-      "lp": 55,
-      "victorias": 77,
-      "derrotas": 70,
-      "ultima_partida": 1753274766566
+      "nombre": "CZUJĘ ŻE CHCĘ#ZABlĆ",
+      "nivel": 1471,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1865,
+      "victorias": 405,
+      "derrotas": 346,
+      "ultima_partida": 1788386022005
     },
     {
-      "nombre": "BARDZO DUŻO ZŁA#WRATH",
-      "nivel": 1266,
-      "liga": "GRANDMASTER I",
-      "lp": 749,
-      "victorias": 389,
-      "derrotas": 366,
-      "ultima_partida": 1753220100085
+      "nombre": "Tendur11#KEBAB",
+      "nivel": 355,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 40,
+      "derrotas": 27,
+      "ultima_partida": 1783114574220
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Yunara",
-      "partidas": 16,
-      "victorias": 10,
+      "nombre": "Corki",
+      "partidas": 8,
+      "victorias": 5,
       "winrate": "62.5%",
-      "kda_promedio": 2.772727272727273
+      "kda_promedio": 3.090909090909091
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.3658536585365852
     },
     {
       "nombre": "Tristana",
       "partidas": 7,
       "victorias": 6,
       "winrate": "85.7%",
-      "kda_promedio": 4.04
+      "kda_promedio": 4.473684210526316
     },
     {
-      "nombre": "Aphelios",
+      "nombre": "Varus",
       "partidas": 5,
-      "victorias": 3,
-      "winrate": "60.0%",
-      "kda_promedio": 1.8974358974358974
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.1333333333333333
     },
     {
-      "nombre": "Lucian",
+      "nombre": "Ashe",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.7222222222222223
+    },
+    {
+      "nombre": "Caitlyn",
       "partidas": 4,
       "victorias": 2,
       "winrate": "50.0%",
-      "kda_promedio": 1.5833333333333333
+      "kda_promedio": 2.8260869565217392
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Mel",
+      "nombre": "Yunara",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.5555555555555554
+      "kda_promedio": 1.1666666666666667
     },
     {
-      "nombre": "Ziggs",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.7142857142857144
-    },
-    {
-      "nombre": "Nautilus",
+      "nombre": "Jhin",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 0.8333333333333334
     },
     {
-      "nombre": "Zeri",
+      "nombre": "Kaisa",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 4.166666666666667
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.8333333333333335
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 40,
-    "wins": 23,
-    "losses": 17,
-    "timePlayed": 61471
+    "games": 47,
+    "wins": 28,
+    "losses": 19,
+    "timePlayed": 75544
   }
 }

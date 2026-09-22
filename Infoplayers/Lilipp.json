@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Lilipp",
     "nombre_real": "Philipp&nbsp;Samuel Englert",
-    "edad": 24,
-    "equipo": "Eintracht Spandau",
+    "edad": 25,
+    "equipo": "TeamOrangeGaming",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/LiLippLol",
       "twitch": "https://twitch.tv/lilipp_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/lilipp.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/EINS.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "einschrittvoraus#2503",
-      "nivel": 213,
+      "nombre": "Seelenhüter#Soul",
+      "nivel": 672,
       "region": "EUW1",
-      "liga": "DIAMOND II",
-      "lp": 60,
-      "victorias": 39,
-      "derrotas": 37,
-      "ultima_partida": 1753697745812
+      "liga": "GRANDMASTER I",
+      "lp": 2039,
+      "victorias": 393,
+      "derrotas": 331,
+      "ultima_partida": 1788045674837
     },
     {
-      "nombre": "Lilipp#EU1",
-      "nivel": 547,
+      "nombre": "PPLLII#35461",
+      "nivel": 245,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1050,
-      "victorias": 199,
-      "derrotas": 148,
-      "ultima_partida": 1753611576787
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 20,
+      "derrotas": 21,
+      "ultima_partida": 1786113728077
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rakan",
-      "partidas": 4,
+      "nombre": "Thresh",
+      "partidas": 5,
       "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.357142857142857
+      "winrate": "60.0%",
+      "kda_promedio": 2.5483870967741935
     },
     {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.8333333333333335
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 2.074074074074074
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Akali",
+      "nombre": "Karma",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.1
-    },
-    {
-      "nombre": "Aphelios",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.125
-    },
-    {
-      "nombre": "Elise",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.263157894736842
-    },
-    {
-      "nombre": "Nami",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 7
+      "kda_promedio": 1.1875
     },
     {
       "nombre": "Pyke",
       "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.9333333333333333
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 4.416666666666667
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Senna",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6666666666666665
+    },
+    {
+      "nombre": "Hwei",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.5
+      "kda_promedio": 0.7142857142857143
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1666666666666667
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 44,
-    "wins": 22,
-    "losses": 22,
-    "timePlayed": 65383
+    "games": 25,
+    "wins": 15,
+    "losses": 10,
+    "timePlayed": 41138
   }
 }

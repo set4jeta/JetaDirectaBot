@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "MadScientistShaco",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/madscientistshaco"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "MadScientist#TTV",
+      "nivel": 626,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1796,
+      "victorias": 819,
+      "derrotas": 755,
+      "ultima_partida": 1787756247623
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Shaco",
+      "partidas": 38,
+      "victorias": 20,
+      "winrate": "52.6%",
+      "kda_promedio": 3.727272727272727
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 7
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Udyr",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.47058823529411764
+    },
+    {
+      "nombre": "Shen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5714285714285714
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Teemo",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.4285714285714286
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4444444444444444
+    },
+    {
+      "nombre": "Garen",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.6666666666666667
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 57,
+    "wins": 27,
+    "losses": 30,
+    "timePlayed": 88916
+  }
+}

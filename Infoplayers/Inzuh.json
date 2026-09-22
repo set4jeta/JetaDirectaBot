@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Inzuh",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/bat_inzuh"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "fwuywef#EVOL",
+      "nivel": 1018,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2216,
+      "victorias": 498,
+      "derrotas": 436,
+      "ultima_partida": 1788382977828
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ahri",
+      "partidas": 11,
+      "victorias": 4,
+      "winrate": "36.4%",
+      "kda_promedio": 4.3
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 10,
+      "victorias": 5,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1272727272727274
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 2.5405405405405403
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 1.59375
+    },
+    {
+      "nombre": "Orianna",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.0344827586206895
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 2.875
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 1.25
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 112,
+    "wins": 55,
+    "losses": 57,
+    "timePlayed": 187676
+  }
+}

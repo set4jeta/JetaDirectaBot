@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "D1vine",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/divinee_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Divine#real7",
+      "nivel": 363,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2236,
+      "victorias": 968,
+      "derrotas": 846,
+      "ultima_partida": 1788384296836
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Janna",
+      "partidas": 40,
+      "victorias": 27,
+      "winrate": "67.5%",
+      "kda_promedio": 3.8701923076923075
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 24,
+      "victorias": 11,
+      "winrate": "45.8%",
+      "kda_promedio": 1.8448275862068966
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 19,
+      "victorias": 11,
+      "winrate": "57.9%",
+      "kda_promedio": 2.6615384615384614
+    },
+    {
+      "nombre": "Karthus",
+      "partidas": 12,
+      "victorias": 5,
+      "winrate": "41.7%",
+      "kda_promedio": 2.0606060606060606
+    },
+    {
+      "nombre": "Senna",
+      "partidas": 10,
+      "victorias": 6,
+      "winrate": "60.0%",
+      "kda_promedio": 3.549019607843137
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8333333333333333
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 6,
+      "victorias": 2,
+      "winrate": "33.3%",
+      "kda_promedio": 2.4285714285714284
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 6,
+      "victorias": 1,
+      "winrate": "16.7%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.88
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.9545454545454546
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 162,
+    "wins": 83,
+    "losses": 79,
+    "timePlayed": 258828
+  }
+}

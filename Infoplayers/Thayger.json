@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Thayger",
     "nombre_real": "Francisco Mazo Sánchez",
-    "edad": 23,
-    "equipo": "Natus Vincere",
+    "edad": 24,
+    "equipo": "Galions",
     "pais": "Spain",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Thayger_",
       "twitch": "https://www.twitch.tv/thaygerlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/thayger.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/NAVI.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Sung Jin woo#SOUL",
-      "nivel": 961,
+      "nombre": "Thayger#SOUL",
+      "nivel": 1155,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1448,
-      "victorias": 309,
-      "derrotas": 243,
-      "ultima_partida": 1753745458166
+      "lp": 2722,
+      "victorias": 481,
+      "derrotas": 301,
+      "ultima_partida": 1788351007139
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 23,
-      "victorias": 13,
-      "winrate": "56.5%",
-      "kda_promedio": 3.182795698924731
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 16,
-      "victorias": 10,
-      "winrate": "62.5%",
-      "kda_promedio": 4.189655172413793
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 14,
-      "victorias": 8,
-      "winrate": "57.1%",
-      "kda_promedio": 4.189655172413793
-    },
-    {
-      "nombre": "Nocturne",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 2.875
-    },
-    {
-      "nombre": "XinZhao",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.7222222222222223
-    },
-    {
-      "nombre": "DrMundo",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6
-    },
-    {
-      "nombre": "Kindred",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.1818181818181819
+      "nombre": "Olaf",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 3.3157894736842106
     },
     {
       "nombre": "LeeSin",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.6363636363636365
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 7.428571428571429
     },
     {
-      "nombre": "Trundle",
+      "nombre": "Vi",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 13
+    },
+    {
+      "nombre": "JarvanIV",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 5.75
+      "kda_promedio": 3.090909090909091
     },
     {
-      "nombre": "Ezreal",
-      "partidas": 1,
+      "nombre": "MonkeyKing",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 5.25
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.42857142857142855
+      "kda_promedio": 3.727272727272727
+    },
+    {
+      "nombre": "Pantheon",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.7142857142857144
+    },
+    {
+      "nombre": "Taliyah",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7333333333333334
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2857142857142856
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 77,
-    "wins": 41,
-    "losses": 36,
-    "timePlayed": 121034
+    "games": 26,
+    "wins": 17,
+    "losses": 9,
+    "timePlayed": 39242
   }
 }

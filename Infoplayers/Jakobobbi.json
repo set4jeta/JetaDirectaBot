@@ -3,111 +3,114 @@
     "nombre": "Jakobobbi",
     "nombre_real": "Jakob Waich",
     "edad": 25,
-    "equipo": "All for One Gaming",
+    "equipo": "VfB eSports",
     "pais": "Austria",
     "contrato_hasta": null,
-    "redes_sociales": {},
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/A41G.webp"
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Jakobobbi",
+      "twitch": "https://www.twitch.tv/jakobobbi_"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Truman#42069",
-      "nivel": 622,
-      "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 838,
-      "victorias": 136,
-      "derrotas": 82,
-      "ultima_partida": 1753726460283
-    },
-    {
       "nombre": "DarkandDarker123#42069",
-      "nivel": 353,
+      "nivel": 364,
       "region": "EUW1",
       "liga": "MASTER I",
-      "lp": 103,
-      "victorias": 180,
-      "derrotas": 172,
-      "ultima_partida": 1753659925097
+      "lp": 13,
+      "victorias": 248,
+      "derrotas": 229,
+      "ultima_partida": 1766355443073
+    },
+    {
+      "nombre": "Truman#42069",
+      "nivel": 664,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 938,
+      "victorias": 216,
+      "derrotas": 149,
+      "ultima_partida": 1766327205669
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Poppy",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 2.5641025641025643
-    },
-    {
-      "nombre": "Nidalee",
       "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 3.5
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 6.3
     },
     {
-      "nombre": "Blitzcrank",
+      "nombre": "Anivia",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.4
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.5555555555555556
+    },
+    {
+      "nombre": "Bard",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 2.9166666666666665
     },
     {
       "nombre": "Elise",
       "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.2222222222222223
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3157894736842106
     },
     {
-      "nombre": "Galio",
+      "nombre": "Lux",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.7777777777777777
+    },
+    {
+      "nombre": "Nautilus",
       "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.5
+      "kda_promedio": 1.9285714285714286
+    },
+    {
+      "nombre": "Diana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Gangplank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.625
+    },
+    {
+      "nombre": "Mel",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.1
     },
     {
       "nombre": "Neeko",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.8181818181818183
-    },
-    {
-      "nombre": "Pyke",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7333333333333334
-    },
-    {
-      "nombre": "Rell",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 7.2
-    },
-    {
-      "nombre": "Alistar",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.2857142857142856
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.375
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 27,
-    "wins": 15,
-    "losses": 12,
-    "timePlayed": 42133
+    "games": 26,
+    "wins": 11,
+    "losses": 15,
+    "timePlayed": 40945
   }
 }

@@ -1,0 +1,103 @@
+{
+  "info_jugador": {
+    "nombre": "Lure",
+    "nombre_real": "Shin Jae-yoon",
+    "edad": 23,
+    "equipo": "Team Heretics Academy",
+    "pais": "South Korea",
+    "contrato_hasta": "2027-11-15T00:00:00.000Z",
+    "redes_sociales": {},
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "SHJY#Lure",
+      "nivel": 149,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2558,
+      "victorias": 732,
+      "derrotas": 558,
+      "ultima_partida": 1788391202024
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Kaisa",
+      "partidas": 33,
+      "victorias": 23,
+      "winrate": "69.7%",
+      "kda_promedio": 3.3552631578947367
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 16,
+      "victorias": 10,
+      "winrate": "62.5%",
+      "kda_promedio": 3.6231884057971016
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 13,
+      "victorias": 11,
+      "winrate": "84.6%",
+      "kda_promedio": 3.3278688524590163
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 12,
+      "victorias": 10,
+      "winrate": "83.3%",
+      "kda_promedio": 3.7962962962962963
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.851063829787234
+    },
+    {
+      "nombre": "Lucian",
+      "partidas": 9,
+      "victorias": 2,
+      "winrate": "22.2%",
+      "kda_promedio": 2.63265306122449
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.620689655172414
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.230769230769231
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 4.684210526315789
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 6.333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 139,
+    "wins": 88,
+    "losses": 51,
+    "timePlayed": 217901
+  }
+}

@@ -2,105 +2,105 @@
   "info_jugador": {
     "nombre": "Venour",
     "nombre_real": "Iwan Skorikov",
-    "edad": 23,
+    "edad": 24,
     "equipo": "Kaufland Hangry Knights",
     "pais": "Germany",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Venour2",
       "twitch": "https://www.twitch.tv/venour"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/venour.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/KHK.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Venour#EUW",
-      "nivel": 964,
+      "nivel": 1121,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 907,
-      "victorias": 355,
-      "derrotas": 324,
-      "ultima_partida": 1753746261634
+      "liga": "CHALLENGER I",
+      "lp": 2526,
+      "victorias": 523,
+      "derrotas": 411,
+      "ultima_partida": 1788216406708
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Aatrox",
-      "partidas": 12,
-      "victorias": 8,
-      "winrate": "66.7%",
-      "kda_promedio": 2.5576923076923075
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 2.08
-    },
-    {
       "nombre": "Jayce",
-      "partidas": 4,
-      "victorias": 1,
-      "winrate": "25.0%",
-      "kda_promedio": 1.5
-    },
-    {
-      "nombre": "Fiora",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.6875
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.45454545454545453
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.3333333333333335
-    },
-    {
-      "nombre": "Jax",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.0769230769230769
+      "partidas": 22,
+      "victorias": 15,
+      "winrate": "68.2%",
+      "kda_promedio": 3.611764705882353
     },
     {
       "nombre": "Camille",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.5
+      "partidas": 17,
+      "victorias": 6,
+      "winrate": "35.3%",
+      "kda_promedio": 1.4835164835164836
     },
     {
-      "nombre": "Gangplank",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8.333333333333334
+      "nombre": "Irelia",
+      "partidas": 11,
+      "victorias": 7,
+      "winrate": "63.6%",
+      "kda_promedio": 1.96875
     },
     {
       "nombre": "Gnar",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.2941176470588234
+    },
+    {
+      "nombre": "Renekton",
+      "partidas": 8,
+      "victorias": 3,
+      "winrate": "37.5%",
+      "kda_promedio": 2.2962962962962963
+    },
+    {
+      "nombre": "Kennen",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 1.75
+    },
+    {
+      "nombre": "Yorick",
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8823529411764706
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 4,
+      "winrate": "100.0%",
+      "kda_promedio": 3.4166666666666665
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.6923076923076923
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.125
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 41,
-    "wins": 21,
-    "losses": 20,
-    "timePlayed": 66060
+    "games": 99,
+    "wins": 62,
+    "losses": 37,
+    "timePlayed": 157648
   }
 }

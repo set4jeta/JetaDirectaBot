@@ -1,0 +1,77 @@
+{
+  "info_jugador": {
+    "nombre": "Redsoft",
+    "nombre_real": "Mekki Redouane",
+    "edad": 19,
+    "equipo": "ZeroZone Gaming",
+    "pais": "France",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://www.twitch.tv/redsoftlol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Redsoft#JGL",
+      "nivel": 785,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1898,
+      "victorias": 387,
+      "derrotas": 306,
+      "ultima_partida": 1788270407806
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Talon",
+      "partidas": 20,
+      "victorias": 16,
+      "winrate": "80.0%",
+      "kda_promedio": 4.878378378378378
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 1.9
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 6
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.3333333333333335
+    },
+    {
+      "nombre": "Soraka",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5714285714285714
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 29,
+    "wins": 21,
+    "losses": 8,
+    "timePlayed": 45840
+  }
+}

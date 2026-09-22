@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Densi",
+    "nombre_real": "Denis Aljic",
+    "edad": 23,
+    "equipo": "Kaufland Hangry Knights",
+    "pais": "Germany",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Densi_lol",
+      "twitch": "https://www.twitch.tv/densilol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "pure devotion#天下無双",
+      "nivel": 183,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2072,
+      "victorias": 282,
+      "derrotas": 217,
+      "ultima_partida": 1788385549129
+    },
+    {
+      "nombre": "mayoeba yabureru#天下無双",
+      "nivel": 255,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2515,
+      "victorias": 535,
+      "derrotas": 435,
+      "ultima_partida": 1788268410813
+    },
+    {
+      "nombre": "ugly arrogance#30603",
+      "nivel": 768,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 36,
+      "victorias": 9,
+      "derrotas": 20,
+      "ultima_partida": 1777247070627
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Maokai",
+      "partidas": 13,
+      "victorias": 10,
+      "winrate": "76.9%",
+      "kda_promedio": 3.75
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 11,
+      "victorias": 6,
+      "winrate": "54.5%",
+      "kda_promedio": 3.3333333333333335
+    },
+    {
+      "nombre": "Naafiri",
+      "partidas": 10,
+      "victorias": 7,
+      "winrate": "70.0%",
+      "kda_promedio": 5.05
+    },
+    {
+      "nombre": "Skarner",
+      "partidas": 8,
+      "victorias": 4,
+      "winrate": "50.0%",
+      "kda_promedio": 4.615384615384615
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 3.7142857142857144
+    },
+    {
+      "nombre": "Xerath",
+      "partidas": 7,
+      "victorias": 1,
+      "winrate": "14.3%",
+      "kda_promedio": 1.7804878048780488
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 6,
+      "victorias": 4,
+      "winrate": "66.7%",
+      "kda_promedio": 5.842105263157895
+    },
+    {
+      "nombre": "Jayce",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2045454545454546
+    },
+    {
+      "nombre": "Sejuani",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 4.95
+    },
+    {
+      "nombre": "LeeSin",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 7.222222222222222
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 109,
+    "wins": 56,
+    "losses": 53,
+    "timePlayed": 176221
+  }
+}

@@ -1,103 +1,99 @@
 {
   "info_jugador": {
-    "nombre": "Iwanan",
+    "nombre": "iwanan",
     "nombre_real": "",
     "edad": null,
     "equipo": null,
     "pais": null,
     "contrato_hasta": null,
-    "redes_sociales": {},
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/iwananlol",
+      "twitch": "https://www.twitch.tv/iwananlol"
+    },
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Jon Snow#7596",
-      "nivel": 230,
+      "nombre": "iwanan#7596",
+      "nivel": 369,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1165,
-      "victorias": 348,
-      "derrotas": 293,
-      "ultima_partida": 1753524741107
+      "lp": 3873,
+      "victorias": 305,
+      "derrotas": 229,
+      "ultima_partida": 1788305921616
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Azir",
-      "partidas": 11,
-      "victorias": 6,
-      "winrate": "54.5%",
-      "kda_promedio": 2.795918367346939
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 9,
-      "victorias": 3,
-      "winrate": "33.3%",
-      "kda_promedio": 2.5952380952380953
+      "nombre": "Ryze",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 2.0384615384615383
     },
     {
       "nombre": "Jayce",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 2.2
-    },
-    {
-      "nombre": "Vladimir",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.3181818181818183
-    },
-    {
-      "nombre": "Hwei",
       "partidas": 3,
       "victorias": 2,
       "winrate": "66.7%",
-      "kda_promedio": 4.909090909090909
+      "kda_promedio": 5.166666666666667
     },
     {
-      "nombre": "Yone",
+      "nombre": "Locke",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.3333333333333335
+      "kda_promedio": 2.5384615384615383
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.6153846153846154
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 8.5
     },
     {
       "nombre": "Aphelios",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.857142857142857
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.8
     },
     {
-      "nombre": "Gwen",
+      "nombre": "Mel",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 0.875
+      "kda_promedio": 2.2857142857142856
     },
     {
-      "nombre": "Smolder",
+      "nombre": "Yunara",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 24
-    },
-    {
-      "nombre": "Sylas",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "kda_promedio": 7
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 45,
-    "wins": 20,
-    "losses": 25,
-    "timePlayed": 75944
+    "games": 19,
+    "wins": 9,
+    "losses": 10,
+    "timePlayed": 29274
   }
 }

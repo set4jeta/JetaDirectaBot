@@ -1,0 +1,77 @@
+{
+  "info_jugador": {
+    "nombre": "tuokaZ",
+    "nombre_real": "Muhammed Zakout",
+    "edad": 25,
+    "equipo": "NONAME (Turkish Team)",
+    "pais": "Turkey",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/Zakout12"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "tuokaZ#ece",
+      "nivel": 175,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2464,
+      "victorias": 248,
+      "derrotas": 177,
+      "ultima_partida": 1787502766235
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Zeri",
+      "partidas": 8,
+      "victorias": 5,
+      "winrate": "62.5%",
+      "kda_promedio": 2.891304347826087
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "KogMaw",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.5
+    },
+    {
+      "nombre": "Thresh",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Yunara",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 13,
+    "wins": 8,
+    "losses": 5,
+    "timePlayed": 20495
+  }
+}

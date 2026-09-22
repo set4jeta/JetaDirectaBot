@@ -2,108 +2,135 @@
   "info_jugador": {
     "nombre": "Kirei",
     "nombre_real": "Thomas Yuen",
-    "edad": 28,
+    "edad": 29,
     "equipo": "CGN Esports",
     "pais": "Netherlands",
-    "contrato_hasta": "2025-07-31T00:00:00.000Z",
+    "contrato_hasta": null,
     "redes_sociales": {
-      "twitter": "https://twitter.com/KireiLoL",
-      "twitch": "https://twitch.tv/kireiop"
+      "twitter": "https://twitter.com/KireiLoL\\t",
+      "twitch": "https://www.twitch.tv/kireilol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CGN.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Coach Kirei#Coach",
-      "nivel": 800,
+      "nombre": "GrandpaMentals#T2BOT",
+      "nivel": 549,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 952,
-      "victorias": 212,
-      "derrotas": 171,
-      "ultima_partida": 1753703707775
+      "liga": "DIAMOND II",
+      "lp": 55,
+      "victorias": 16,
+      "derrotas": 12,
+      "ultima_partida": 1788352759182
     },
     {
-      "nombre": "Kirei smurfer#SMURF",
-      "nivel": 520,
+      "nombre": "Coach Kirei#Coach",
+      "nivel": 861,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 25,
-      "victorias": 65,
-      "derrotas": 40,
-      "ultima_partida": 1753698288712
+      "liga": "GRANDMASTER I",
+      "lp": 2007,
+      "victorias": 206,
+      "derrotas": 139,
+      "ultima_partida": 1788350942727
+    },
+    {
+      "nombre": "Graves Blueprint#Coach",
+      "nivel": 54,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 69,
+      "derrotas": 6,
+      "ultima_partida": 1785155413705
+    },
+    {
+      "nombre": "A to Z#Kirei",
+      "nivel": 56,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 173,
+      "derrotas": 101,
+      "ultima_partida": 1781810732457
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "MonkeyKing",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.789473684210526
-    },
-    {
-      "nombre": "Volibear",
-      "partidas": 4,
-      "victorias": 2,
-      "winrate": "50.0%",
-      "kda_promedio": 2.5
-    },
-    {
-      "nombre": "Viego",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2
+      "nombre": "Lillia",
+      "partidas": 11,
+      "victorias": 8,
+      "winrate": "72.7%",
+      "kda_promedio": 2.5454545454545454
     },
     {
       "nombre": "Elise",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 5.8
+      "partidas": 8,
+      "victorias": 6,
+      "winrate": "75.0%",
+      "kda_promedio": 3.382978723404255
+    },
+    {
+      "nombre": "Graves",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 3.914285714285714
+    },
+    {
+      "nombre": "MonkeyKing",
+      "partidas": 4,
+      "victorias": 3,
+      "winrate": "75.0%",
+      "kda_promedio": 3.5789473684210527
     },
     {
       "nombre": "Kindred",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7692307692307693
-    },
-    {
-      "nombre": "Lillia",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 3,
+      "victorias": 3,
       "winrate": "100.0%",
-      "kda_promedio": 8
+      "kda_promedio": 3.357142857142857
     },
     {
-      "nombre": "Pantheon",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.6666666666666666
+      "nombre": "LeeSin",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 3.272727272727273
     },
     {
-      "nombre": "Sejuani",
-      "partidas": 1,
+      "nombre": "Nocturne",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
+      "winrate": "50.0%",
+      "kda_promedio": 3.111111111111111
     },
     {
-      "nombre": "Zac",
+      "nombre": "Viego",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.923076923076923
+    },
+    {
+      "nombre": "Zyra",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Brand",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2
+      "kda_promedio": 0.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 18,
-    "wins": 10,
-    "losses": 8,
-    "timePlayed": 29004
+    "games": 51,
+    "wins": 35,
+    "losses": 16,
+    "timePlayed": 82603
   }
 }

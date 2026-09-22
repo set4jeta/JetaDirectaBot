@@ -10,97 +10,76 @@
       "twitter": "https://twitter.com/lol_Kioo",
       "twitch": "https://www.twitch.tv/lol_kioo"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/kio.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/ESB.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Jastor Gallywix#ASD",
-      "nivel": 482,
+      "nivel": 512,
       "region": "EUW1",
-      "liga": "CHALLENGER I",
-      "lp": 1414,
-      "victorias": 304,
-      "derrotas": 231,
-      "ultima_partida": 1753260393497
+      "liga": "GRANDMASTER I",
+      "lp": 1026,
+      "victorias": 402,
+      "derrotas": 339,
+      "ultima_partida": 1765732924053
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Nasus",
+      "nombre": "Zaahen",
       "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 3.111111111111111
-    },
-    {
-      "nombre": "Aatrox",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.75
-    },
-    {
-      "nombre": "Ambessa",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 2.5384615384615383
-    },
-    {
-      "nombre": "Shen",
-      "partidas": 3,
       "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 2
+      "winrate": "40.0%",
+      "kda_promedio": 2.238095238095238
     },
     {
       "nombre": "Gangplank",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 8
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.25
     },
     {
       "nombre": "Gwen",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.8
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.5
     },
     {
-      "nombre": "Hwei",
+      "nombre": "Jayce",
       "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 1.2857142857142858
-    },
-    {
-      "nombre": "Kled",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 3.25
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.375
     },
     {
       "nombre": "Nautilus",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 1
+      "kda_promedio": 6.25
     },
     {
       "nombre": "Rumble",
       "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 5.5
+    },
+    {
+      "nombre": "Vayne",
+      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.125
+      "kda_promedio": 1
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 20,
-    "wins": 15,
-    "losses": 5,
-    "timePlayed": 34164
+    "games": 11,
+    "wins": 4,
+    "losses": 7,
+    "timePlayed": 17059
   }
 }

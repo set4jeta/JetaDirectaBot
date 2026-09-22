@@ -2,105 +2,115 @@
   "info_jugador": {
     "nombre": "Zoelys",
     "nombre_real": "Théo Le Scornec",
-    "edad": 22,
+    "edad": 23,
     "equipo": "Galions",
     "pais": "France",
-    "contrato_hasta": "2025-11-17T00:00:00.000Z",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
       "twitter": "https://twitter.com/Zoelys_LoL",
       "twitch": "https://www.twitch.tv/zoelys_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/zoelys.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/GL.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Walid Georgey#EUW",
-      "nivel": 1022,
+      "nivel": 1200,
       "region": "EUW1",
       "liga": "CHALLENGER I",
-      "lp": 1746,
-      "victorias": 308,
-      "derrotas": 234,
-      "ultima_partida": 1753734255854
+      "lp": 3188,
+      "victorias": 453,
+      "derrotas": 295,
+      "ultima_partida": 1788350619530
+    },
+    {
+      "nombre": "John Abruzzi#777",
+      "nivel": 47,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1760267996969
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Rell",
+      "nombre": "Bard",
       "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 3.4871794871794872
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 3.3333333333333335
     },
     {
-      "nombre": "Alistar",
+      "nombre": "Rell",
       "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Zoe",
+      "partidas": 3,
       "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.5
+      "winrate": "66.7%",
+      "kda_promedio": 2.888888888888889
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 7.4
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1818181818181817
     },
     {
       "nombre": "Nautilus",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.125
+      "kda_promedio": 4.857142857142857
     },
     {
-      "nombre": "Renata",
-      "partidas": 4,
-      "victorias": 3,
-      "winrate": "75.0%",
-      "kda_promedio": 3.357142857142857
-    },
-    {
-      "nombre": "Neeko",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4.5
-    },
-    {
-      "nombre": "Rakan",
-      "partidas": 3,
+      "nombre": "Poppy",
+      "partidas": 2,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 2.3157894736842106
+      "kda_promedio": 0.7272727272727273
     },
     {
       "nombre": "Pyke",
       "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.9444444444444444
-    },
-    {
-      "nombre": "Annie",
-      "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.3333333333333335
+      "kda_promedio": 1.1578947368421053
     },
     {
-      "nombre": "Bard",
+      "nombre": "Seraphine",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.7
+    },
+    {
+      "nombre": "Leona",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 3
-    },
-    {
-      "nombre": "Blitzcrank",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "kda_promedio": 4.75
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 38,
-    "wins": 19,
+    "games": 34,
+    "wins": 15,
     "losses": 19,
-    "timePlayed": 58747
+    "timePlayed": 48755
   }
 }

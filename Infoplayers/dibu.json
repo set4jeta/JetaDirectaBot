@@ -1,0 +1,115 @@
+{
+  "info_jugador": {
+    "nombre": "dibu",
+    "nombre_real": "Janne Heikkonen",
+    "edad": 26,
+    "equipo": "Arctic Pandas",
+    "pais": "Finland",
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitch": "https://twitch.tv/dibulol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Jackson Lamb#Slow",
+      "nivel": 395,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2088,
+      "victorias": 505,
+      "derrotas": 420,
+      "ultima_partida": 1788380390222
+    },
+    {
+      "nombre": "purple friend#lol",
+      "nivel": 623,
+      "region": "EUW1",
+      "liga": "EMERALD II",
+      "lp": 70,
+      "victorias": 5,
+      "derrotas": 13,
+      "ultima_partida": 1773751728929
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "LeeSin",
+      "partidas": 7,
+      "victorias": 4,
+      "winrate": "57.1%",
+      "kda_promedio": 5
+    },
+    {
+      "nombre": "Khazix",
+      "partidas": 5,
+      "victorias": 2,
+      "winrate": "40.0%",
+      "kda_promedio": 2.45
+    },
+    {
+      "nombre": "Nidalee",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Qiyana",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 3.5384615384615383
+    },
+    {
+      "nombre": "Vi",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1818181818181817
+    },
+    {
+      "nombre": "JarvanIV",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.2857142857142858
+    },
+    {
+      "nombre": "Nocturne",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 4.2
+    },
+    {
+      "nombre": "Shyvana",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 3.727272727272727
+    },
+    {
+      "nombre": "Zac",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Chogath",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.6666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 63,
+    "wins": 26,
+    "losses": 37,
+    "timePlayed": 89465
+  }
+}

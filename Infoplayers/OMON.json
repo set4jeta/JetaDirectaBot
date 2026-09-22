@@ -1,0 +1,136 @@
+{
+  "info_jugador": {
+    "nombre": "OMON",
+    "nombre_real": "Šimon Řiháček",
+    "edad": 23,
+    "equipo": "Galions",
+    "pais": "Czech Republic",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/OMON_",
+      "twitch": "https://www.twitch.tv/omongod"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "HF OMON#FUEGO",
+      "nivel": 403,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 2537,
+      "victorias": 596,
+      "derrotas": 464,
+      "ultima_partida": 1788297702421
+    },
+    {
+      "nombre": "RubydaCherry#66659",
+      "nivel": 284,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 61,
+      "victorias": 4,
+      "derrotas": 4,
+      "ultima_partida": 1786650316076
+    },
+    {
+      "nombre": "OMON#SWAG",
+      "nivel": 562,
+      "region": "EUW1",
+      "liga": "EMERALD I",
+      "lp": 97,
+      "victorias": 4,
+      "derrotas": 1,
+      "ultima_partida": 1772157817081
+    },
+    {
+      "nombre": "Transgressions#G59",
+      "nivel": 88,
+      "region": "EUW1",
+      "liga": "Unranked",
+      "lp": null,
+      "victorias": null,
+      "derrotas": null,
+      "ultima_partida": 1763662453026
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Ryze",
+      "partidas": 7,
+      "victorias": 3,
+      "winrate": "42.9%",
+      "kda_promedio": 2.3
+    },
+    {
+      "nombre": "Syndra",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 3.242424242424242
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 2.025
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.03125
+    },
+    {
+      "nombre": "Kaisa",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 1.53125
+    },
+    {
+      "nombre": "Nasus",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 1.7272727272727273
+    },
+    {
+      "nombre": "Tristana",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6363636363636362
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.65
+    },
+    {
+      "nombre": "Yone",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.7407407407407407
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.608695652173913
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 83,
+    "wins": 35,
+    "losses": 48,
+    "timePlayed": 126594
+  }
+}

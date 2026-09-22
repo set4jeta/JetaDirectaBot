@@ -1,0 +1,105 @@
+{
+  "info_jugador": {
+    "nombre": "Raffy",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://www.twitter.com/raffyspada10"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "R A F F Y#TOP",
+      "nivel": 949,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2057,
+      "victorias": 757,
+      "derrotas": 679,
+      "ultima_partida": 1788358840218
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yone",
+      "partidas": 26,
+      "victorias": 15,
+      "winrate": "57.7%",
+      "kda_promedio": 1.9181286549707601
+    },
+    {
+      "nombre": "Yasuo",
+      "partidas": 9,
+      "victorias": 5,
+      "winrate": "55.6%",
+      "kda_promedio": 1.55
+    },
+    {
+      "nombre": "Aatrox",
+      "partidas": 6,
+      "victorias": 3,
+      "winrate": "50.0%",
+      "kda_promedio": 1.5405405405405406
+    },
+    {
+      "nombre": "Darius",
+      "partidas": 6,
+      "victorias": 5,
+      "winrate": "83.3%",
+      "kda_promedio": 2.4705882352941178
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 4,
+      "victorias": 1,
+      "winrate": "25.0%",
+      "kda_promedio": 1.0555555555555556
+    },
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 3,
+      "victorias": 3,
+      "winrate": "100.0%",
+      "kda_promedio": 4.5
+    },
+    {
+      "nombre": "Rumble",
+      "partidas": 3,
+      "victorias": 2,
+      "winrate": "66.7%",
+      "kda_promedio": 2.125
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.3846153846153846
+    },
+    {
+      "nombre": "Gwen",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 0.8666666666666667
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.8823529411764706
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 75,
+    "wins": 42,
+    "losses": 33,
+    "timePlayed": 122593
+  }
+}

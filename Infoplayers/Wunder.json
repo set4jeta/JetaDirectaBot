@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Wunder",
     "nombre_real": "Martin Nordahl Hansen",
-    "edad": 26,
-    "equipo": "The Ruddy Sack",
+    "edad": 27,
+    "equipo": "SK Gaming",
     "pais": "Denmark",
-    "contrato_hasta": null,
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
     "redes_sociales": {
-      "twitter": "https://www.twitter.com/wunderlol",
-      "twitch": "https://www.twitch.tv/wunderlol"
+      "twitter": "https://twitter.com/wunderlol",
+      "twitch": "https://twitch.tv/wunderlol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/wunder.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "notgoodenough#1SEPT",
-      "nivel": 96,
+      "nombre": "gamedaybucket#1mod9",
+      "nivel": 644,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 772,
-      "victorias": 167,
-      "derrotas": 112,
-      "ultima_partida": 1753482519660
+      "liga": "MASTER I",
+      "lp": 1578,
+      "victorias": 371,
+      "derrotas": 290,
+      "ultima_partida": 1788004032714
     },
     {
-      "nombre": "Wunderwear#GOAT",
-      "nivel": 523,
+      "nombre": "Hansen#2727",
+      "nivel": 111,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 945,
-      "victorias": 194,
-      "derrotas": 165,
-      "ultima_partida": 1753458007885
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 67,
+      "derrotas": 50,
+      "ultima_partida": 1778258445999
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "Nasus",
+      "partidas": 7,
+      "victorias": 6,
+      "winrate": "85.7%",
+      "kda_promedio": 1.8108108108108107
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.6451612903225807
+    },
+    {
       "nombre": "Camille",
-      "partidas": 15,
-      "victorias": 7,
-      "winrate": "46.7%",
-      "kda_promedio": 2.111111111111111
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.7692307692307692
     },
     {
       "nombre": "Jayce",
-      "partidas": 5,
-      "victorias": 4,
-      "winrate": "80.0%",
-      "kda_promedio": 2.625
-    },
-    {
-      "nombre": "Aurora",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2.111111111111111
+      "kda_promedio": 2.0416666666666665
     },
     {
-      "nombre": "Chogath",
-      "partidas": 3,
+      "nombre": "Gnar",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.4666666666666666
+    },
+    {
+      "nombre": "Varus",
+      "partidas": 2,
       "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.6
-    },
-    {
-      "nombre": "Gangplank",
-      "partidas": 3,
-      "victorias": 2,
-      "winrate": "66.7%",
-      "kda_promedio": 1.8888888888888888
-    },
-    {
-      "nombre": "Gwen",
-      "partidas": 3,
-      "victorias": 1,
-      "winrate": "33.3%",
-      "kda_promedio": 1.5238095238095237
+      "winrate": "50.0%",
+      "kda_promedio": 2.2857142857142856
     },
     {
       "nombre": "Ambessa",
-      "partidas": 2,
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.2
+      "winrate": "100.0%",
+      "kda_promedio": 1.2857142857142858
     },
     {
-      "nombre": "Ryze",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.3076923076923075
+      "nombre": "Leblanc",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.5
     },
     {
-      "nombre": "Singed",
-      "partidas": 2,
+      "nombre": "Olaf",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.1111111111111112
+      "winrate": "100.0%",
+      "kda_promedio": 4.666666666666667
     },
     {
-      "nombre": "Smolder",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.2307692307692308
+      "nombre": "Renekton",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.2857142857142857
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 52,
-    "wins": 26,
-    "losses": 26,
-    "timePlayed": 81943
+    "games": 29,
+    "wins": 17,
+    "losses": 12,
+    "timePlayed": 43905
   }
 }

@@ -2,7 +2,7 @@
   "info_jugador": {
     "nombre": "Click",
     "nombre_real": "Vsevolod Tikhomirov",
-    "edad": 27,
+    "edad": 28,
     "equipo": "G2 Esports",
     "pais": "Russia",
     "contrato_hasta": null,
@@ -10,97 +10,97 @@
       "twitter": "https://twitter.com/ClickTheNik",
       "twitch": "https://twitch.tv/clickjj"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/LUA.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "Hiragana#8888",
-      "nivel": 1080,
+      "nombre": "HMB Click#CPT",
+      "nivel": 1212,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 991,
-      "victorias": 460,
-      "derrotas": 410,
-      "ultima_partida": 1753701807096
+      "lp": 1876,
+      "victorias": 518,
+      "derrotas": 457,
+      "ultima_partida": 1788339021566
     }
   ],
   "campeones_recientes": [
     {
+      "nombre": "LeeSin",
+      "partidas": 12,
+      "victorias": 8,
+      "winrate": "66.7%",
+      "kda_promedio": 3.523076923076923
+    },
+    {
       "nombre": "Nautilus",
-      "partidas": 9,
-      "victorias": 4,
-      "winrate": "44.4%",
-      "kda_promedio": 1.8548387096774193
+      "partidas": 6,
+      "victorias": 6,
+      "winrate": "100.0%",
+      "kda_promedio": 4.739130434782608
     },
     {
       "nombre": "Alistar",
-      "partidas": 8,
-      "victorias": 4,
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 3.3863636363636362
+      "kda_promedio": 4.142857142857143
+    },
+    {
+      "nombre": "Lulu",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 11.25
     },
     {
       "nombre": "Rell",
-      "partidas": 4,
-      "victorias": 2,
+      "partidas": 2,
+      "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 2.7916666666666665
-    },
-    {
-      "nombre": "Poppy",
-      "partidas": 3,
-      "victorias": 3,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "kda_promedio": 7.75
     },
     {
       "nombre": "Bard",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 3.9
-    },
-    {
-      "nombre": "Jhin",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6
-    },
-    {
-      "nombre": "Braum",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 19
-    },
-    {
-      "nombre": "Leona",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 2.2222222222222223
-    },
-    {
-      "nombre": "Maokai",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 3.1666666666666665
+      "kda_promedio": 3
     },
     {
-      "nombre": "Nami",
+      "nombre": "Janna",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "JarvanIV",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1.6666666666666667
+      "kda_promedio": 1.2222222222222223
+    },
+    {
+      "nombre": "Karma",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.3333333333333333
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 0.6
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 39,
-    "wins": 21,
-    "losses": 18,
-    "timePlayed": 66243
+    "games": 37,
+    "wins": 22,
+    "losses": 15,
+    "timePlayed": 58799
   }
 }

@@ -1,0 +1,116 @@
+{
+  "info_jugador": {
+    "nombre": "Macaquinho",
+    "nombre_real": "Sergio Bouzende Rodrigues",
+    "edad": 22,
+    "equipo": "Barça eSports",
+    "pais": "Spain",
+    "contrato_hasta": "2026-11-16T00:00:00.000Z",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/macaquino_lol",
+      "twitch": "https://twitch.tv/macaquino_lol"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "BAR MOJITO#MACA",
+      "nivel": 1722,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 3165,
+      "victorias": 613,
+      "derrotas": 526,
+      "ultima_partida": 1788286722518
+    },
+    {
+      "nombre": "PERREO FURIOSO#EUW",
+      "nivel": 94,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 39,
+      "derrotas": 39,
+      "ultima_partida": 1777393106688
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Cassiopeia",
+      "partidas": 20,
+      "victorias": 12,
+      "winrate": "60.0%",
+      "kda_promedio": 2.1130434782608694
+    },
+    {
+      "nombre": "Lux",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.962962962962963
+    },
+    {
+      "nombre": "Seraphine",
+      "partidas": 5,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 1.0952380952380953
+    },
+    {
+      "nombre": "Leblanc",
+      "partidas": 3,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.2142857142857144
+    },
+    {
+      "nombre": "Vex",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0909090909090908
+    },
+    {
+      "nombre": "Ahri",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3.25
+    },
+    {
+      "nombre": "Akali",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2
+    },
+    {
+      "nombre": "Hwei",
+      "partidas": 2,
+      "victorias": 2,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Anivia",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4
+    },
+    {
+      "nombre": "Aurora",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 3.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 47,
+    "wins": 24,
+    "losses": 23,
+    "timePlayed": 76359
+  }
+}

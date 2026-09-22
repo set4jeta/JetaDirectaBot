@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "MKR",
     "nombre_real": "Kalle Kärkkäinen",
-    "edad": 22,
-    "equipo": "Bastu Five",
+    "edad": 23,
+    "equipo": "Arcane Enigma",
     "pais": "Finland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://www.twitter.com/MKR_lol",
       "twitch": "https://www.twitch.tv/mkr_lol"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/nopicture.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "MKR#01600",
-      "nivel": 1537,
+      "nombre": "MKR#Eva",
+      "nivel": 1639,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 825,
-      "victorias": 290,
-      "derrotas": 253,
-      "ultima_partida": 1753571885132
+      "liga": "CHALLENGER I",
+      "lp": 2536,
+      "victorias": 282,
+      "derrotas": 205,
+      "ultima_partida": 1788289828434
     },
     {
       "nombre": "strawberrydreams#meow",
-      "nivel": 247,
+      "nivel": 262,
       "region": "EUW1",
-      "liga": "MASTER I",
-      "lp": 14,
-      "victorias": 52,
-      "derrotas": 36,
-      "ultima_partida": 1752792760993
+      "liga": "EMERALD I",
+      "lp": 75,
+      "victorias": 27,
+      "derrotas": 35,
+      "ultima_partida": 1781649864447
     }
   ],
   "campeones_recientes": [
     {
       "nombre": "Yunara",
-      "partidas": 7,
+      "partidas": 5,
       "victorias": 4,
-      "winrate": "57.1%",
-      "kda_promedio": 2.4871794871794872
+      "winrate": "80.0%",
+      "kda_promedio": 2.9473684210526314
     },
     {
-      "nombre": "MissFortune",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0714285714285716
-    },
-    {
-      "nombre": "Varus",
+      "nombre": "Camille",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 1.1764705882352942
-    },
-    {
-      "nombre": "JarvanIV",
-      "partidas": 2,
-      "victorias": 2,
-      "winrate": "100.0%",
-      "kda_promedio": 6.428571428571429
-    },
-    {
-      "nombre": "Kaisa",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.7
-    },
-    {
-      "nombre": "Twitch",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 2.6666666666666665
+      "kda_promedio": 1.25
     },
     {
       "nombre": "Ahri",
-      "partidas": 1,
-      "victorias": 1,
+      "partidas": 2,
+      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 3.6666666666666665
+      "kda_promedio": 4.714285714285714
     },
     {
-      "nombre": "Azir",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 4
+      "nombre": "Caitlyn",
+      "partidas": 2,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.391304347826087
     },
     {
-      "nombre": "Lucian",
-      "partidas": 1,
-      "victorias": 1,
-      "winrate": "100.0%",
-      "kda_promedio": 6
-    },
-    {
-      "nombre": "Rell",
+      "nombre": "Corki",
       "partidas": 1,
       "victorias": 0,
       "winrate": "0.0%",
-      "kda_promedio": 1
+      "kda_promedio": 1.5
+    },
+    {
+      "nombre": "Hecarim",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11.333333333333334
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 11
+    },
+    {
+      "nombre": "Jinx",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 4.8
+    },
+    {
+      "nombre": "KSante",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3
+    },
+    {
+      "nombre": "Kled",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.857142857142857
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
+    "games": 29,
     "wins": 16,
-    "losses": 14,
-    "timePlayed": 47998
+    "losses": 13,
+    "timePlayed": 49313
   }
 }

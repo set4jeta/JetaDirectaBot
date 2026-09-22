@@ -1,0 +1,87 @@
+{
+  "info_jugador": {
+    "nombre": "Solarbacca",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Solarbacca1",
+      "twitch": "https://twitch.tv/solarbacca"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "the pebble#EUW",
+      "nivel": 257,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 1762,
+      "victorias": 109,
+      "derrotas": 56,
+      "ultima_partida": 1788208341313
+    },
+    {
+      "nombre": "Solarbacca#NA1",
+      "nivel": 1036,
+      "region": "NA1",
+      "liga": "MASTER I",
+      "lp": 40,
+      "victorias": 320,
+      "derrotas": 236,
+      "ultima_partida": 1788147582039
+    },
+    {
+      "nombre": "baccaKEGW#NA1",
+      "nivel": 96,
+      "region": "NA1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 31,
+      "derrotas": 16,
+      "ultima_partida": 1784823520260
+    },
+    {
+      "nombre": "Solarbacca KR#GPQ",
+      "nivel": 108,
+      "region": "KR",
+      "liga": "DIAMOND I",
+      "lp": 75,
+      "victorias": 263,
+      "derrotas": 153,
+      "ultima_partida": 1782805238395
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Gangplank",
+      "partidas": 52,
+      "victorias": 35,
+      "winrate": "67.3%",
+      "kda_promedio": 3.5240384615384617
+    },
+    {
+      "nombre": "Blitzcrank",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.4
+    },
+    {
+      "nombre": "Nautilus",
+      "partidas": 1,
+      "victorias": 0,
+      "winrate": "0.0%",
+      "kda_promedio": 2.1666666666666665
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 35,
+    "losses": 19,
+    "timePlayed": 90654
+  }
+}

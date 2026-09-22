@@ -1,0 +1,126 @@
+{
+  "info_jugador": {
+    "nombre": "Unkn0wn",
+    "nombre_real": "",
+    "edad": null,
+    "equipo": null,
+    "pais": null,
+    "contrato_hasta": null,
+    "redes_sociales": {
+      "twitter": "https://twitter.com/Unkn0wn5_lol",
+      "twitch": "https://www.twitch.tv/unkn0wn_adc"
+    },
+    "imagen_jugador": null,
+    "logo_equipo": null
+  },
+  "cuentas": [
+    {
+      "nombre": "Turning Point 3#III",
+      "nivel": 506,
+      "region": "EUW1",
+      "liga": "CHALLENGER I",
+      "lp": 3307,
+      "victorias": 603,
+      "derrotas": 492,
+      "ultima_partida": 1788378995180
+    },
+    {
+      "nombre": "Low Tier God#6802",
+      "nivel": 192,
+      "region": "EUW1",
+      "liga": "GRANDMASTER I",
+      "lp": 2002,
+      "victorias": 264,
+      "derrotas": 164,
+      "ultima_partida": 1788353667939
+    },
+    {
+      "nombre": "LOCK TF INNNNNNN#6802",
+      "nivel": 187,
+      "region": "EUW1",
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 48,
+      "derrotas": 61,
+      "ultima_partida": 1770908729397
+    }
+  ],
+  "campeones_recientes": [
+    {
+      "nombre": "Yunara",
+      "partidas": 15,
+      "victorias": 9,
+      "winrate": "60.0%",
+      "kda_promedio": 2.808988764044944
+    },
+    {
+      "nombre": "Caitlyn",
+      "partidas": 5,
+      "victorias": 3,
+      "winrate": "60.0%",
+      "kda_promedio": 1.9666666666666666
+    },
+    {
+      "nombre": "Ezreal",
+      "partidas": 5,
+      "victorias": 4,
+      "winrate": "80.0%",
+      "kda_promedio": 2.7586206896551726
+    },
+    {
+      "nombre": "Sivir",
+      "partidas": 4,
+      "victorias": 2,
+      "winrate": "50.0%",
+      "kda_promedio": 2.2666666666666666
+    },
+    {
+      "nombre": "Gnar",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.6153846153846154
+    },
+    {
+      "nombre": "Jhin",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.375
+    },
+    {
+      "nombre": "Kalista",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 1.1818181818181819
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 3.1538461538461537
+    },
+    {
+      "nombre": "Ambessa",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.3
+    },
+    {
+      "nombre": "Ashe",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.5
+    }
+  ],
+  "estadisticas_2_semanas": {
+    "games": 54,
+    "wins": 30,
+    "losses": 24,
+    "timePlayed": 84994
+  }
+}

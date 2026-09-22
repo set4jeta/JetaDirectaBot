@@ -2,115 +2,115 @@
   "info_jugador": {
     "nombre": "Axelent",
     "nombre_real": "Nikola Petrusev",
-    "edad": 21,
-    "equipo": "Partizan Sangal",
+    "edad": 22,
+    "equipo": "TLN Pirates",
     "pais": "North Macedonia",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/AxelentLOL",
       "twitch": "https://twitch.tv/axelenteu"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/axelent.webp",
+    "imagen_jugador": null,
     "logo_equipo": null
   },
   "cuentas": [
     {
       "nombre": "Sexelent#typsh",
-      "nivel": 1062,
+      "nivel": 1155,
       "region": "EUW1",
-      "liga": "DIAMOND I",
-      "lp": 75,
-      "victorias": 235,
-      "derrotas": 211,
-      "ultima_partida": 1753368837817
+      "liga": "MASTER I",
+      "lp": 496,
+      "victorias": 201,
+      "derrotas": 162,
+      "ultima_partida": 1788275581056
     },
     {
-      "nombre": "BlizardTheWizard#Grujo",
-      "nivel": 148,
+      "nombre": "Harambe Avenger#69420",
+      "nivel": 163,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 697,
-      "victorias": 94,
-      "derrotas": 58,
-      "ultima_partida": 1753364755197
+      "liga": "DIAMOND II",
+      "lp": 75,
+      "victorias": 62,
+      "derrotas": 34,
+      "ultima_partida": 1772914669969
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Varus",
-      "partidas": 6,
-      "victorias": 4,
-      "winrate": "66.7%",
-      "kda_promedio": 3.4
+      "nombre": "Camille",
+      "partidas": 3,
+      "victorias": 1,
+      "winrate": "33.3%",
+      "kda_promedio": 1.0357142857142858
     },
     {
-      "nombre": "Corki",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.769230769230769
-    },
-    {
-      "nombre": "Lucian",
+      "nombre": "Nasus",
       "partidas": 2,
       "victorias": 1,
       "winrate": "50.0%",
-      "kda_promedio": 1.8
+      "kda_promedio": 5.25
     },
     {
-      "nombre": "Nautilus",
-      "partidas": 2,
+      "nombre": "Akali",
+      "partidas": 1,
       "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 3.0833333333333335
-    },
-    {
-      "nombre": "Tristana",
-      "partidas": 2,
-      "victorias": 2,
       "winrate": "100.0%",
-      "kda_promedio": 2.25
-    },
-    {
-      "nombre": "Yasuo",
-      "partidas": 2,
-      "victorias": 1,
-      "winrate": "50.0%",
-      "kda_promedio": 1.3076923076923077
-    },
-    {
-      "nombre": "Yunara",
-      "partidas": 2,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.7333333333333333
+      "kda_promedio": 3
     },
     {
       "nombre": "Draven",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.6
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 2.625
     },
     {
-      "nombre": "Jinx",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 2.4
-    },
-    {
-      "nombre": "Kaisa",
+      "nombre": "Kalista",
       "partidas": 1,
       "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 4.166666666666667
+      "kda_promedio": 7.5
+    },
+    {
+      "nombre": "Malphite",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 1.7142857142857142
+    },
+    {
+      "nombre": "Poppy",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 7.75
+    },
+    {
+      "nombre": "Singed",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.6
+    },
+    {
+      "nombre": "Viktor",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 19
+    },
+    {
+      "nombre": "Zeri",
+      "partidas": 1,
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 22
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 30,
-    "wins": 11,
-    "losses": 19,
-    "timePlayed": 52603
+    "games": 13,
+    "wins": 10,
+    "losses": 3,
+    "timePlayed": 19313
   }
 }

@@ -1,116 +1,81 @@
 {
   "info_jugador": {
     "nombre": "Xeonerr",
-    "nombre_real": "",
-    "edad": null,
-    "equipo": null,
-    "pais": null,
+    "nombre_real": "Karol Kowalski",
+    "edad": 24,
+    "equipo": "Team Insidious",
+    "pais": "Poland",
     "contrato_hasta": null,
     "redes_sociales": {
       "twitter": "https://twitter.com/xeonerr",
       "twitch": "https://www.twitch.tv/xeonerr_"
     },
-    "imagen_jugador": "https://dpm.lol/esport/players/xeonerr.webp",
-    "logo_equipo": "https://dpm.lol/esport/teams/CZV.webp"
+    "imagen_jugador": null,
+    "logo_equipo": null
   },
   "cuentas": [
     {
-      "nombre": "xeonerr#EU1",
-      "nivel": 811,
+      "nombre": "dejfDawid1#EUW",
+      "nivel": 629,
       "region": "EUW1",
       "liga": "GRANDMASTER I",
-      "lp": 778,
-      "victorias": 416,
-      "derrotas": 378,
-      "ultima_partida": 1753699607174
+      "lp": 851,
+      "victorias": 363,
+      "derrotas": 327,
+      "ultima_partida": 1766305255254
     },
     {
-      "nombre": "dejfDawid1#EUW",
-      "nivel": 598,
+      "nombre": "qweasdfzxc#EU1",
+      "nivel": 833,
       "region": "EUW1",
-      "liga": "GRANDMASTER I",
-      "lp": 995,
-      "victorias": 199,
-      "derrotas": 156,
-      "ultima_partida": 1753528310886
+      "liga": "MASTER I",
+      "lp": 35,
+      "victorias": 506,
+      "derrotas": 465,
+      "ultima_partida": 1766131588574
     }
   ],
   "campeones_recientes": [
     {
-      "nombre": "Pantheon",
-      "partidas": 8,
-      "victorias": 5,
-      "winrate": "62.5%",
-      "kda_promedio": 3.689655172413793
-    },
-    {
-      "nombre": "MonkeyKing",
-      "partidas": 6,
-      "victorias": 2,
-      "winrate": "33.3%",
-      "kda_promedio": 3.15625
-    },
-    {
-      "nombre": "Trundle",
-      "partidas": 6,
-      "victorias": 5,
-      "winrate": "83.3%",
-      "kda_promedio": 5.333333333333333
-    },
-    {
       "nombre": "Vi",
-      "partidas": 6,
-      "victorias": 3,
-      "winrate": "50.0%",
-      "kda_promedio": 2.764705882352941
-    },
-    {
-      "nombre": "Gragas",
-      "partidas": 5,
-      "victorias": 2,
-      "winrate": "40.0%",
-      "kda_promedio": 2.45
-    },
-    {
-      "nombre": "XinZhao",
       "partidas": 3,
       "victorias": 1,
       "winrate": "33.3%",
-      "kda_promedio": 2
+      "kda_promedio": 3.375
     },
     {
-      "nombre": "Viego",
+      "nombre": "MonkeyKing",
       "partidas": 2,
-      "victorias": 2,
+      "victorias": 1,
+      "winrate": "50.0%",
+      "kda_promedio": 2.75
+    },
+    {
+      "nombre": "Gragas",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
-      "kda_promedio": 6
+      "kda_promedio": 2.8
     },
     {
-      "nombre": "Zyra",
-      "partidas": 2,
-      "victorias": 2,
+      "nombre": "Leona",
+      "partidas": 1,
+      "victorias": 1,
       "winrate": "100.0%",
       "kda_promedio": 4.666666666666667
     },
     {
-      "nombre": "Lillia",
+      "nombre": "Nautilus",
       "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 0.8571428571428571
-    },
-    {
-      "nombre": "Maokai",
-      "partidas": 1,
-      "victorias": 0,
-      "winrate": "0.0%",
-      "kda_promedio": 1.25
+      "victorias": 1,
+      "winrate": "100.0%",
+      "kda_promedio": 3.2857142857142856
     }
   ],
   "estadisticas_2_semanas": {
-    "games": 43,
-    "wins": 24,
-    "losses": 19,
-    "timePlayed": 69164
+    "games": 8,
+    "wins": 5,
+    "losses": 3,
+    "timePlayed": 10942
   }
 }

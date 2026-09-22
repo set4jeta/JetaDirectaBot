@@ -124,6 +124,23 @@ def main() -> int:
     # Puerto de salud para los PaaS que esperan uno abierto (hilo demonio).
     keep_alive()
 
+    # El estado de la gente —suscripciones, canales, planes y el registro de
+    # avisos— se recupera **antes** de arrancar las tareas. Si se hiciera después,
+    # una pasada del tracker podría avisar de algo ya avisado (ese registro es uno
+    # de los ficheros) o pisar una suscripción recién recuperada. Ver
+    # `core/estado_remoto.py`: existe porque en un host con disco efímero cada
+    # reinicio borraba las suscripciones sin ningún error.
+    try:
+        from core import estado_remoto
+
+        restaurados = asyncio.run(estado_remoto.restaurar())
+        log.info(
+            "Estado remoto: %s · %d fichero(s) restaurado(s).",
+            estado_remoto.resumen(), restaurados,
+        )
+    except Exception:
+        log.exception("No se pudo restaurar el estado remoto; se sigue con el local.")
+
     # Los módulos de scraping se importan **aquí**, en el arranque, y no en el
     # comando que los usa. Pesa (cloudscraper, bs4 y curl_cffi) y `/track <liga>`
     # lo importaba en frío dentro del propio comando: medido, 188 ms en un PC

@@ -84,6 +84,13 @@ def start_background_tasks(bot):
     if config.RANK_WARM and not refrescar_rangos.is_running():
         refrescar_rangos.start()
 
+    # Solo si hay token configurado: sin él la tarea no haría nada y estaría
+    # despertando cada 5 minutos para comprobarlo.
+    from core import estado_remoto
+
+    if estado_remoto.activo() and not sincronizar_estado.is_running():
+        sincronizar_estado.start()
+
     log.info(
         "Tareas iniciadas | partidas cada %ss | reparación %s cuentas/h | "
         "infoplayers %s jugadores/h | historial %s | rangos %s",
@@ -383,6 +390,32 @@ async def actualizar_leaderboard_semanal():
 
 
 # ---------------------------------------------------------------------- #
+# 5 · Estado a GitHub (para hosts con disco efímero)
+# ---------------------------------------------------------------------- #
+#
+# Sube a una rama del repo los ficheros que **no se pueden reconstruir**: a quién
+# sigue cada persona, qué canales reciben avisos, qué planes se dieron a mano y
+# qué partidas ya se avisaron. Sin esto, en un host con disco efímero cada
+# reinicio se lleva por delante las suscripciones sin ningún error.
+#
+# Se sube solo lo que cambió (huella por fichero) y cada
+# `ESTADO_SINCRONIZAR_INTERVALO`: lo que se pierde en un reinicio son los últimos
+# minutos, no el día entero. Ver `core/estado_remoto.py`.
+
+@tasks.loop(seconds=config.ESTADO_SINCRONIZAR_INTERVALO)
+async def sincronizar_estado():
+    """Sube a GitHub el estado que haya cambiado."""
+    from core import estado_remoto
+
+    try:
+        await estado_remoto.guardar()
+    except Exception:
+        # Que no se pueda guardar el estado no puede tumbar el bot: la copia
+        # local sigue siendo la buena hasta el próximo reinicio.
+        log.exception("No se pudo subir el estado a GitHub.")
+
+
+# ---------------------------------------------------------------------- #
 # 4 · Pickrates de campeones
 # ---------------------------------------------------------------------- #
 
@@ -557,6 +590,16 @@ async def stop_background_tasks():
         flush_rank_data(forzar=True)
     except Exception:
         log.debug("No se pudo volcar el histórico de rangos al cerrar.")
+
+    # Y el estado de la gente, si no se subió en la última vuelta: en un host con
+    # disco efímero, lo que no esté fuera se pierde en el reinicio.
+    try:
+        from core import estado_remoto
+
+        if estado_remoto.activo():
+            await estado_remoto.guardar(forzar=True)
+    except Exception:
+        log.debug("No se pudo subir el estado a GitHub al cerrar.")
 
     await close_riot_client()
     try:

@@ -75,6 +75,33 @@ TWITCH_OAUTH_TOKEN = _str("TWITCH_OAUTH_TOKEN")
 
 
 # ---------------------------------------------------------------------- #
+# Guardado del estado en GitHub (para hosts con disco efímero)
+# ---------------------------------------------------------------------- #
+#
+# El estado que el bot escribe en marcha (suscripciones de la gente, canales,
+# planes, registro de avisos) son ficheros dentro del proyecto. En un host con
+# disco efímero —el plan gratuito de Render— **cada reinicio los borra**, y las
+# suscripciones desaparecen sin ningún error. Pasó de verdad el 22-09-2026.
+#
+# Con esto el bot sube esos ficheros a una **rama aparte** del repo y los
+# recupera al arrancar. Rama aparte y no `main` a propósito: así no dispara el
+# despliegue automático del host (que sería un bucle: subir estado → redesplegar
+# → reiniciar → volver a subir) y el historial del proyecto no se llena de
+# commits de estado.
+#
+# Sin `GITHUB_TOKEN` no se hace nada: el bot funciona igual, solo que el estado
+# se pierde al reiniciar, que es como estaba antes.
+
+GITHUB_TOKEN = _str("GITHUB_TOKEN")
+GITHUB_REPO = _str("GITHUB_REPO", "set4jeta/JetaDirectaBot")
+GITHUB_RAMA_ESTADO = _str("GITHUB_RAMA_ESTADO", "estado")
+
+# Cada cuánto se sube el estado si ha cambiado. No hace falta más: lo que se
+# pierde en un reinicio son los últimos minutos, no el día entero.
+ESTADO_SINCRONIZAR_INTERVALO = _int("ESTADO_SINCRONIZAR_INTERVALO", 300)
+
+
+# ---------------------------------------------------------------------- #
 # Ajustes de funcionamiento
 # ---------------------------------------------------------------------- #
 

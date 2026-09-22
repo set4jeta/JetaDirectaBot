@@ -92,13 +92,29 @@ def _fetch_plataforma(plataforma: str) -> tuple[list[dict[str, Any]], bool]:
             break
 
         if resp.status != 200:
-            # 422 en una plataforma que dpm no conoce: no es un fallo de la
-            # descarga entera, es que esa escalera no existe.
-            log.warning(
-                "%s: HTTP %s en la página %d. Se salta esa escalera.",
+            # 422 = dpm no conoce esa plataforma, y 404 = no hay escalera ahí: no
+            # es un fallo, es que no existe, así que se salta y se sigue.
+            #
+            # Cualquier otro estado **sí es un fallo** y se marca la descarga como
+            # incompleta. Antes se trataba todo igual y un **403 de Cloudflare**
+            # (que es justo lo que pasaba desde Render) se leía como "esa escalera
+            # no existe": las ocho plataformas se saltaban en silencio, el
+            # resultado salía "completo" con 0 cuentas, y el único que lo frenaba
+            # era la guarda de `guardar_lista_json`. El log lo enseñó tal cual:
+            # `euw1: HTTP 403 en la página 1. Se salta esa escalera.`
+            if resp.status in (404, 422):
+                log.warning(
+                    "%s: HTTP %s en la página %d. Esa escalera no existe; se salta.",
+                    plataforma, resp.status, page,
+                )
+                return todos, True
+            log.error(
+                "%s: HTTP %s en la página %d. Se corta esa escalera y la descarga "
+                "queda incompleta.",
                 plataforma, resp.status, page,
             )
-            return todos, True
+            completo = False
+            break
 
         try:
             data = resp.json()

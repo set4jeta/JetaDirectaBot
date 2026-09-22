@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 from typing import Any, List, Dict, Optional
-from esports_extension.models.match import ScheduleEvent, EventDetails, TeamEventDetails, GameEventDetails, VodGameEventDetails
+from esports_extension.models.match import ScheduleEvent, EventDetails, TeamEventDetails, GameEventDetails, VodGameEventDetails, Stream
 from esports_extension.models.live import LiveStats, LiveTeamMetadata, LiveFrame
 from esports_extension.utils.time_utils import get_network_time
 from enum import Enum
@@ -432,6 +432,10 @@ class TrackedMatch:
         self.slug = None
         self.best_of_count = None
         self.teamsEventDetails: Optional[List[TeamEventDetails]] = None
+        #: Dónde se emite el partido (twitch/youtube/afreecatv + idioma). Viene en
+        #: `getEventDetails` y hasta ahora se descartaba; lo pinta
+        #: `services/streams.py` en el campo "Disponible en" de los embeds.
+        self.streamsEventDetails: Optional[List[Stream]] = None
         
 
         # Lista de juegos (TrackedGame)
@@ -444,6 +448,7 @@ class TrackedMatch:
         self.league_name = eventDetails_obj.league_name
         self.slug = eventDetails_obj.slug
         self.best_of_count = eventDetails_obj.best_of_count
+        self.streamsEventDetails = eventDetails_obj.streamsEventDetails
         if self.teamsEventDetails:
             # Crea un dict por ID para máxima robustez
             old_teams_by_id = {t.id: t for t in self.teamsEventDetails}

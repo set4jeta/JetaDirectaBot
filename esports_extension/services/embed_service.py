@@ -4,6 +4,7 @@ from nextcord import Embed
 from datetime import datetime, timezone
 from esports_extension.models.tracker import TrackedMatch
 from esports_extension.services.storage import format_elapsed_time
+from esports_extension.services.streams import campo as campo_streams
 from typing import Optional
 
 from utils.logger import get_logger
@@ -12,7 +13,21 @@ log = get_logger("esports.embeds")
 
 
 class EmbedService:
-    
+
+    @staticmethod
+    def _con_streams(embed: Embed, match: TrackedMatch) -> Embed:
+        """Añade "📺 Disponible en" si se sabe dónde se ve el partido.
+
+        La retransmisión oficial sale de la API de lolesports (viene por partido y
+        por idioma) y detrás van las co-retransmisiones del mapa de
+        `services/streams.py`. Si no hay ninguna de las dos, **no se añade el
+        campo**: un "Disponible en" vacío es peor que no tenerlo.
+        """
+        campo = campo_streams(match)
+        if campo:
+            embed.add_field(name=campo[0], value=campo[1], inline=False)
+        return embed
+
     @staticmethod
     async def create_live_match_embed(match: TrackedMatch, is_notification: bool = False) -> Optional[Embed]:
         
@@ -147,6 +162,8 @@ class EmbedService:
         embed.set_thumbnail(url=blue_team.image)
         embed.set_image(url=red_team.image)
 
+        EmbedService._con_streams(embed, match)
+
         embed.set_footer(
             text=f"BO{match.best_of_count}{score_text} | 🎮 Juego {current_game}"
         )
@@ -182,6 +199,8 @@ class EmbedService:
 
         embed.set_thumbnail(url=team1.image)
         embed.set_image(url=team2.image)
+
+        EmbedService._con_streams(embed, match)
 
         return embed
 
@@ -236,6 +255,7 @@ class EmbedService:
         )
         embed.set_thumbnail(url=blue_team.image)
         embed.set_image(url=red_team.image)
+        EmbedService._con_streams(embed, match)
         embed.set_footer(
             text=f"BO{match.best_of_count}{score_text} | 🎮 Juego {current_game}"
         )
@@ -320,6 +340,7 @@ class EmbedService:
 
         embed.set_thumbnail(url=blue_team.image)
         embed.set_image(url=red_team.image)
+        EmbedService._con_streams(embed, match)
         embed.set_footer(
             text=f"BO{match.best_of_count}{score_text} | 🎮 Juego {current_game}"
         )

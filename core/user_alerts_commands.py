@@ -68,6 +68,9 @@ normal (ver `core/responder.py`).
 
 from __future__ import annotations
 
+import asyncio
+import time
+
 from nextcord.ext import commands
 
 from core.dual_command import dual, dual_texto
@@ -237,6 +240,58 @@ def _aviso_liga(liga: Liga, _) -> str:
 # /seguir
 # ---------------------------------------------------------------------- #
 
+#: Marca de tiempo del último alta de roster lanzada desde un comando.
+#: `time.monotonic` y no `time.time` porque lo único que se mide es un intervalo.
+_ultimo_alta = 0.0
+
+#: Segundos mínimos entre dos altas. Sin esto, quien escriba `/track lck` varias
+#: veces (o lo pruebe en bucle) dispara un scraping de la liga entera cada vez.
+ESPERA_ENTRE_ALTAS = 600.0
+
+
+def _descargar_roster_en_fondo(codigo: str) -> bool:
+    """Trae el roster de esta liga ya, sin bloquear el comando. True si lo lanzó.
+
+    Por qué hace falta
+    ------------------
+    Seguir una liga solo la mete en `ligas_en_uso()`, y quien descarga los
+    rosters con esa lista es la tarea diaria: hasta 24 h de silencio para alguien
+    que acaba de escribir `/track lck` y está esperando su primer aviso. Con esto
+    las cuentas entran en el fichero en minutos, y la pasada siguiente (30 s) ya
+    las consulta.
+
+    Se hace con `asyncio.to_thread` porque `anadir_ligas` va por `cloudscraper`
+    (bloquea) y con `create_task` para no meter minutos de scraping dentro de la
+    respuesta a una interacción, que caduca a los 15 s. Si no hay bucle de
+    eventos no se pierde nada: la tarea diaria lo hará igual.
+    """
+    global _ultimo_alta
+    ahora = time.monotonic()
+    if ahora - _ultimo_alta < ESPERA_ENTRE_ALTAS:
+        return False
+    _ultimo_alta = ahora
+
+    from tracking.soloq.accounts_from_teams import anadir_ligas
+
+    async def _tarea() -> None:
+        try:
+            await asyncio.to_thread(anadir_ligas, [codigo])
+        except Exception:
+            # Un fallo aquí no puede tumbar el comando ni la pasada: la tarea
+            # diaria lo reintenta con todas las ligas en uso.
+            log.exception("No se pudo añadir el roster de %s", codigo)
+
+    try:
+        asyncio.create_task(_tarea())
+    except RuntimeError:
+        log.warning(
+            "Sin bucle de eventos: el roster de %s se añadirá en la tarea diaria.",
+            codigo,
+        )
+        return False
+    return True
+
+
 async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
     """`/seguir <pro o liga>`: suscribe a esta persona a avisos por DM.
 
@@ -288,6 +343,12 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
         aviso = _aviso_liga(liga, _)
         if aviso:
             lineas.append(aviso)
+        # Si la liga no se estaba rastreando, sus cuentas no están en disco y no
+        # habrá avisos hasta que lo estén: se lanza la descarga aquí mismo. Solo
+        # para ligas rastreables — de la LPL no hay servidor de Riot que cubra
+        # sus partidas, así que bajar sus cuentas sería gastar por nada.
+        if getattr(liga, "rastreable", True) and _descargar_roster_en_fondo(liga.codigo):
+            lineas.append(_("seguir.liga_descargando"))
     elif jugador is not None:
         lineas.append(_(
             "seguir.ok_jugador",
@@ -577,7 +638,7 @@ def _estado_dm_texto(estado: str, _) -> str:
 # ---------------------------------------------------------------------- #
 
 def register_user_alerts_commands(bot: commands.Bot) -> None:
-    """Los tres comandos, en alcance global.
+    """Los comandos personales, en alcance global.
 
     Global es el punto: `dual_texto` y `dual` sin `permiso` derivan
     `integration_types` con `user_install` y `contexts` con `bot_dm` y
@@ -585,6 +646,14 @@ def register_user_alerts_commands(bot: commands.Bot) -> None:
     que se ha instalado la app en su cuenta y no solo dentro de un servidor donde
     el bot esté. Sin eso, unos comandos de suscripción personal solo se podrían
     usar desde un servidor, que es justo lo contrario de lo que son.
+
+    `/track` y `/untrack` son alias de `/seguir` y `/dejarseguir`: **el mismo
+    cuerpo**, registrado con otro nombre. No se duplica nada —ni el guardado, ni
+    los cupos, ni el reparto de avisos—, así que quien use `/track` y quien use
+    `/seguir` acaban en la misma lista. Se añaden porque "track" es la palabra
+    que la gente escribe por defecto y la que se busca en inglés; `seguir` se
+    mantiene porque ya hay gente suscrita con ella y renombrar un comando rompe
+    a quien lo tenía guardado en sus atajos.
     """
     dual_texto(
         bot,
@@ -602,6 +671,24 @@ def register_user_alerts_commands(bot: commands.Bot) -> None:
         _cuerpo_dejarseguir,
         arg_nombre="cmd.dejarseguir.arg",
         arg_desc="cmd.dejarseguir.arg_desc",
+        requerido=False,
+    )
+    dual_texto(
+        bot,
+        "track",
+        "cmd.track.desc",
+        _cuerpo_seguir,
+        arg_nombre="cmd.track.arg",
+        arg_desc="cmd.track.arg_desc",
+        requerido=False,
+    )
+    dual_texto(
+        bot,
+        "untrack",
+        "cmd.untrack.desc",
+        _cuerpo_dejarseguir,
+        arg_nombre="cmd.untrack.arg",
+        arg_desc="cmd.untrack.arg_desc",
         requerido=False,
     )
     dual(bot, "misavisos", "cmd.misavisos.desc", _cuerpo_misavisos)

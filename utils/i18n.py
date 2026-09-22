@@ -1110,15 +1110,26 @@ _CATALOGO: dict[str, dict[str, str]] = {
     },
     "seguir.sin_datos_salida": {
         "es": "Comprueba el nick con `/info {jugador}`, o sigue su liga con "
-              "`/seguir <liga>` para que empiece a rastrearse.",
+              "`/track <liga>` (por ejemplo `/track lck`) para que se descarguen "
+              "sus cuentas y empiecen a llegar los avisos.",
         "en": "Check the nickname with `/info {jugador}`, or follow their league "
-              "with `/seguir <league>` so it starts being tracked.",
+              "with `/track <league>` (for example `/track lck`) so their accounts "
+              "get downloaded and the alerts start.",
     },
     "seguir.ok_liga": {
         "es": "✅ Te avisaré por privado de **todas** las partidas de SoloQ de "
               "**{liga}** (`{codigo}`).",
         "en": "✅ I'll DM you about **every** SoloQ game from **{liga}** "
               "(`{codigo}`).",
+    },
+    # Se dice solo cuando la liga no se estaba rastreando y se acaba de lanzar su
+    # descarga. Sin este aviso, los primeros minutos de silencio parecen un
+    # comando roto.
+    "seguir.liga_descargando": {
+        "es": "⏳ No tenía sus cuentas descargadas: las estoy trayendo ahora. "
+              "Los primeros avisos pueden tardar unos minutos.",
+        "en": "⏳ I didn't have its accounts downloaded — fetching them now. "
+              "The first alerts may take a few minutes.",
     },
     # La liga existe y se puede elegir, pero la API de Riot no cubre sus
     # servidores: no habrá detección de partidas nunca.
@@ -1396,6 +1407,28 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "cmd.misavisos.desc": {
         "es": "Tus avisos privados: a quién sigues y si puedo escribirte",
         "en": "Your DM alerts: who you follow and whether I can message you",
+    },
+    # `/track` y `/untrack` son los **mismos** comandos que `/seguir` y
+    # `/dejarseguir`, con el nombre que usa la gente que viene de otros bots (y
+    # el que se busca en inglés). Apuntan a los mismos cuerpos, así que lo que se
+    # guarda y de dónde se lee es exactamente lo mismo: dos puertas, un almacén.
+    "cmd.track.desc": {
+        "es": "Trackear a un pro o a una liga y que te avise por privado",
+        "en": "Track a pro or a league and get a DM when they play",
+    },
+    "cmd.track.arg": {"es": "jugador_o_liga", "en": "player_or_league"},
+    "cmd.track.arg_desc": {
+        "es": "Nick del pro (Faker) o código de liga (lec, lck...)",
+        "en": "Pro's nickname (Faker) or league code (lec, lck...)",
+    },
+    "cmd.untrack.desc": {
+        "es": "Dejar de trackear a un jugador, a una liga o todo",
+        "en": "Stop tracking a player, a league, or everything",
+    },
+    "cmd.untrack.arg": {"es": "jugador_o_liga", "en": "player_or_league"},
+    "cmd.untrack.arg_desc": {
+        "es": "Nick, código de liga, o `todo` para borrarlo todo",
+        "en": "Nickname, league code, or `all` to remove everything",
     },
 }
 

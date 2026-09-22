@@ -337,5 +337,92 @@ def main(ligas: list[str] | None = None) -> bool:
     )
 
 
+def anadir_ligas(codigos: list[str]) -> bool:
+    """Añade los rosters de estas ligas al fichero **sin tocar las demás**.
+
+    Por qué existe, si ya está `main()`
+    -----------------------------------
+    `main()` **reemplaza** `accounts_from_teams.json` con lo que devuelvan las
+    ligas que le pases: llamarlo con `["lck"]` borraría la LEC entera. Y llamarlo
+    sin argumentos rehace todas las ligas en uso, que son minutos de scraping y
+    cientos de peticiones.
+
+    Esto es para el caso de `/track <liga>`: alguien acaba de suscribirse a una
+    liga que hasta ahora no se barría y hay que traer sus cuentas **ya**, no en la
+    vuelta siguiente de la tarea diaria (hasta 24 h después; mientras tanto el
+    usuario no recibe nada y da por hecho que el comando no funciona). Trae solo
+    las ligas nuevas y las fusiona con lo que ya había.
+
+    Devuelve `True` si escribió. Nunca lanza hacia arriba: quien lo llama es una
+    tarea de fondo lanzada desde un comando, y un fallo de scraping no puede
+    tumbar nada — si va mal, la tarea diaria lo reintenta.
+    """
+    try:
+        from tracking.soloq.leagues import resolver
+    except Exception:
+        log.exception("No se pudo importar el catálogo de ligas.")
+        return False
+
+    existentes = cargar_existentes_teams()
+    if not existentes:
+        # Sin fichero previo esto es un alta completa: que lo haga `main()`, que
+        # ya sabe de deduplicación, PUUIDs heredados y ligas sin datos.
+        log.info("Sin fichero previo de equipos; se deja el alta completa a main().")
+        return main()
+
+    ligas_ya = {(p.get("league") or "").lower() for p in existentes}
+    nuevas: list[str] = []
+    for c in codigos:
+        liga = resolver(c)
+        if liga and liga.codigo not in ligas_ya and liga.codigo not in nuevas:
+            nuevas.append(liga.codigo)
+
+    if not nuevas:
+        log.info("Las ligas %s ya están en el fichero; no hay nada que añadir.", codigos)
+        return False
+
+    log.info("Añadiendo rosters nuevos: %s", ", ".join(nuevas))
+    try:
+        jugadores = get_pro_players(nuevas)
+    except Exception:
+        log.exception("Fallo trayendo los rosters de %s.", ", ".join(nuevas))
+        return False
+
+    if not jugadores:
+        log.warning(
+            "Sin jugadores para %s; no se toca el fichero.", ", ".join(nuevas)
+        )
+        return False
+
+    # Clave (nombre, liga) y no solo nombre: un suplente puede estar en la liga
+    # principal y en la regional, y entonces el nombre no distingue sus cuentas.
+    vistos = {
+        (p.get("name", "").lower(), (p.get("league") or "").lower())
+        for p in existentes
+    }
+    combinado = list(existentes)
+    for jugador in jugadores:
+        if not jugador.accounts:
+            continue
+        clave = (jugador.name.lower(), (jugador.league or "").lower())
+        if clave in vistos:
+            continue
+        vistos.add(clave)
+        combinado.append(jugador.to_dict())
+
+    anadidos = len(combinado) - len(existentes)
+    if anadidos <= 0:
+        log.info("Los rosters de %s no aportaron jugadores nuevos.", ", ".join(nuevas))
+        return False
+
+    log.info(
+        "Rosters de %s añadidos: %d jugadores (total %d).",
+        ", ".join(nuevas), anadidos, len(combinado),
+    )
+    return guardar_lista_json(
+        JSON_PATH, combinado, etiqueta="accounts_from_teams"
+    )
+
+
 if __name__ == "__main__":
     main()

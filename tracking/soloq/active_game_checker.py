@@ -70,6 +70,7 @@ from tracking.soloq.notifier import (
     clean_old_announcements,
     load_announced_games,
     mark_announced,
+    olvidar_anuncio,
     save_announced_games,
 )
 from tracking.soloq.tracker_utils import is_valid_game
@@ -542,20 +543,28 @@ class ActiveGameTracker:
                 # `File` moría con `ValueError: seek of closed file` (comprobado
                 # reproduciendo el ciclo reset/close de nextcord). Con un solo
                 # canal nunca se vio; con dos, el segundo se quedaba sin aviso.
-                if idioma not in por_idioma:
-                    embed, files = await create_match_embed(
-                        match, self._puuid_to_player, ranked_map, idioma=idioma
-                    )
-                    por_idioma[idioma] = (embed, _rutas_de(files))
-                else:
-                    embed, rutas = por_idioma[idioma]
-                    files = _reabrir(rutas)
-
+                # Se RESERVA antes de enviar, sin ningún `await` entre la
+                # comprobación de arriba y esto. Antes se marcaba después de
+                # enviar, y en medio hay dos `await` (montar el embed y el envío):
+                # como la pasada procesa las cuentas en paralelo, dos jugadores
+                # del MISMO partido pasaban los dos la comprobación y el canal
+                # recibía el mismo embed dos veces. Si el envío falla, se suelta
+                # la reserva para poder reintentarlo.
+                mark_announced(self.announced_games, game_id, channel_id)
                 try:
+                    if idioma not in por_idioma:
+                        embed, files = await create_match_embed(
+                            match, self._puuid_to_player, ranked_map, idioma=idioma
+                        )
+                        por_idioma[idioma] = (embed, _rutas_de(files))
+                    else:
+                        embed, rutas = por_idioma[idioma]
+                        files = _reabrir(rutas)
+
                     await channel.send(embed=embed, files=files)
-                    mark_announced(self.announced_games, game_id, channel_id)
                     sent = True
                 except Exception as exc:
+                    olvidar_anuncio(self.announced_games, game_id, channel_id)
                     log.error("No se pudo enviar al canal %s: %s", channel_id, exc)
 
         # El mismo aviso, a quien lo haya pedido en su chat privado. Va después
@@ -609,6 +618,14 @@ class ActiveGameTracker:
         if not ids:
             return False
 
+        # Se RESERVA antes de enviar, sin `await` entre la comprobación y esto.
+        # Antes se marcaba al final, y en medio están el montaje del embed y el
+        # reparto: con dos jugadores del mismo partido en paralelo, los dos veían
+        # la partida como no avisada y al usuario le llegaba el mismo embed dos
+        # veces (reportado por el dueño el 22-09-2026). Lo que falle se suelta.
+        for uid in ids:
+            mark_announced(self.announced_games, match.game_id, clave_dedupe(uid))
+
         cache: dict[str, tuple[object, list[tuple[str, str]]]] = {}
 
         def construir(idioma: str) -> dict:
@@ -629,8 +646,9 @@ class ActiveGameTracker:
             cache[idioma] = (embed, _rutas_de(files))
 
         entregados = await repartir(self.bot, ids, construir)
-        for uid in entregados:
-            mark_announced(self.announced_games, match.game_id, clave_dedupe(uid))
+        for uid in ids:
+            if uid not in entregados:
+                olvidar_anuncio(self.announced_games, match.game_id, clave_dedupe(uid))
         if entregados:
             log.info("Partida %s enviada por DM a %d usuario(s)",
                      match.game_id, len(entregados))

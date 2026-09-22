@@ -87,6 +87,25 @@ def mark_announced(announced_map: dict, game_id: int, channel_id: int):
     chan_map = announced_map.setdefault(str(channel_id), {})
     chan_map[str(game_id)] = int(time.time())
 
+def olvidar_anuncio(announced_map: dict, game_id: int, clave) -> None:
+    """Deshace una reserva de `mark_announced`.
+
+    Hace falta porque ahora se **reserva antes de enviar** (ver el comentario en
+    `active_game_checker._notificar_por_dm`): si el envío falla, hay que soltar la
+    reserva para que el aviso se pueda reintentar en la vuelta siguiente en vez de
+    darse por enviado.
+    """
+    # Ojo con la forma del mapa: es `{clave: {game_id: cuándo}}`, con la clave
+    # (canal o usuario) por fuera. Lo escribí al revés la primera vez y no hacía
+    # nada — lo cazó la prueba, no la lectura.
+    chan_map = announced_map.get(str(clave))
+    if not chan_map:
+        return
+    chan_map.pop(str(game_id), None)
+    if not chan_map:
+        announced_map.pop(str(clave), None)
+
+
 def clean_old_announcements(announced_map: dict):
     now = int(time.time())
     for chan_id in list(announced_map):

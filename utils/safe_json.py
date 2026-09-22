@@ -44,6 +44,8 @@ faltaba.
 from __future__ import annotations
 
 import json
+import threading
+import time
 import os
 import shutil
 from typing import Any, Callable, Sequence
@@ -75,6 +77,37 @@ def _contar_anteriores(ruta: str) -> int:
         log.warning("%s no se pudo leer (%s); se trata como vacío.", ruta, exc)
         return 0
     return len(previo) if isinstance(previo, (list, dict)) else 0
+
+
+# ---------------------------------------------------------------------- #
+# Un escritor a la vez por fichero
+# ---------------------------------------------------------------------- #
+#
+# Por qué (22-09-2026, visto en los logs de Render):
+#
+#     os.replace(tmp, ruta)
+#     FileNotFoundError: '...accounts_from_teams.json.tmp' -> '...accounts_from_teams.json'
+#
+# Dos tareas escribían el **mismo** fichero a la vez y compartían el nombre del
+# `.tmp`: una se lo llevaba con `os.replace` y la otra se quedaba sin él, así que
+# su escritura se perdía. Y peor: mientras una volcaba, la otra truncaba el mismo
+# fichero, y quien leyera en ese instante se encontraba un JSON a medias — eso
+# hizo caer la pasada del tracker ("Fallo en la pasada de partidas").
+#
+# El candado es por ruta, no global: dos ficheros distintos pueden escribirse a la
+# vez sin estorbarse. Y el `.tmp` lleva el proceso y el hilo, así que aunque
+# alguien corra dos instancias del bot, tampoco chocan.
+_locks: dict[str, threading.Lock] = {}
+_locks_guard = threading.Lock()
+
+
+def _lock_de(ruta: str) -> threading.Lock:
+    with _locks_guard:
+        return _locks.setdefault(ruta, threading.Lock())
+
+
+def _tmp_de(ruta: str) -> str:
+    return f"{ruta}.{os.getpid()}-{threading.get_ident()}.tmp"
 
 
 def guardar_lista_json(
@@ -126,19 +159,34 @@ def guardar_lista_json(
         )
         return False
 
-    tmp = f"{ruta}.tmp"
+    tmp = _tmp_de(ruta)
     try:
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump(datos, f, ensure_ascii=False, indent=2)
+        # Todo el bloque va bajo el candado de ESTA ruta: crear el tmp, volcarlo,
+        # la copia de seguridad y el reemplazo. Si se dejara fuera el volcado, dos
+        # escritores se pisarían el contenido a medias.
+        with _lock_de(ruta):
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(datos, f, ensure_ascii=False, indent=2)
 
-        if hacer_backup and os.path.exists(ruta):
-            try:
-                shutil.copy2(ruta, f"{ruta}.bak")
-            except OSError as exc:
-                # Un backup fallido no debe impedir la actualización buena.
-                log.warning("%s: no se pudo hacer copia de seguridad: %s", etiqueta, exc)
+            if hacer_backup and os.path.exists(ruta):
+                try:
+                    shutil.copy2(ruta, f"{ruta}.bak")
+                except OSError as exc:
+                    # Un backup fallido no debe impedir la actualización buena.
+                    log.warning("%s: no se pudo hacer copia de seguridad: %s", etiqueta, exc)
 
-        os.replace(tmp, ruta)
+            # Un reintento: en Windows, reemplazar un fichero que otro hilo
+            # tiene abierto para leer (el recuento previo, que va antes del
+            # candado) da "Acceso denegado". En Linux no pasa, pero el reintento
+            # no cuesta nada y evita perder una escritura buena por una carrera.
+            for intento in (1, 2):
+                try:
+                    os.replace(tmp, ruta)
+                    break
+                except PermissionError:
+                    if intento == 2:
+                        raise
+                    time.sleep(0.05)
     except (OSError, TypeError, ValueError) as exc:
         # `TypeError`/`ValueError`: un objeto no serializable revienta a mitad
         # del volcado. Sin capturarlo, la excepción sube a la tarea de fondo y

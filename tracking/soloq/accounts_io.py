@@ -97,8 +97,19 @@ def load_tracked_accounts() -> list[BootcampPlayer]:
         return _tracked_cache[1]
 
     log.debug("Cargando accounts_from_teams.json desde disco")
-    with open(JSON_TEAMS_PATH, "r", encoding="utf-8") as f:
-        raw_players = json.load(f)
+    try:
+        with open(JSON_TEAMS_PATH, "r", encoding="utf-8") as f:
+            raw_players = json.load(f)
+    except (OSError, json.JSONDecodeError) as exc:
+        # Un JSON a medias (una escritura en curso, un corte del contenedor) **no
+        # puede tumbar la pasada del tracker**: se devuelve lo último bueno que se
+        # leyó, y si no hay nada, una lista vacía. Pasó de verdad el 22-09-2026:
+        # dos tareas escribían el mismo fichero y la pasada moría con
+        # "Fallo en la pasada de partidas". La causa está arreglada en
+        # `utils/safe_json` (candado por ruta); esto es el cinturón.
+        log.error("accounts_from_teams.json ilegible (%s); se usa lo último bueno.", exc)
+        return _tracked_cache[1] if _tracked_cache else []
+
     jugadores = [BootcampPlayer.from_dict(p) for p in raw_players]
     _tracked_cache = (mtime, jugadores)
     return jugadores

@@ -44,7 +44,7 @@ ESPERA_CIERRE = 45.0
 # así que fallaba con "el bot no llegó a arrancar en 25s" con el bot arrancado y
 # conectado — un falso negativo que además impedía llegar a probar el apagado,
 # que es lo único que este script existe para probar.
-HITOS = ("JetaDirectaBot — listo", "Tareas iniciadas")
+HITOS = ("LoLProTrackr — listo", "Tareas iniciadas")
 
 # Lo que tiene que aparecer *después* de la señal.
 CIERRE = "Tareas detenidas y clientes HTTP cerrados."

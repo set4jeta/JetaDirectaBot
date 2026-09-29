@@ -28,7 +28,7 @@ import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from tracking.soloq import channel_config, leagues, plans  # noqa: E402
+from tracking.soloq import channel_config, leagues, plans, user_config  # noqa: E402
 
 fallos: list[str] = []
 
@@ -42,10 +42,20 @@ def ok(condicion: bool, etiqueta: str, extra: str = "") -> None:
 
 
 def _redirigir(tmp: str) -> None:
-    """Apunta los tres módulos a ficheros dentro de `tmp`."""
+    """Apunta los cuatro módulos a ficheros dentro de `tmp`.
+
+    `user_config` está aquí desde el 22-09-2026 y no es un detalle: `ligas_en_uso`
+    suma las suscripciones **personales** además de las de servidor, así que sin
+    redirigirlo la prueba leía el `users_config.json` de verdad. Pasó desapercibido
+    mientras ese fichero estaba vacío; en cuanto hubo un usuario real suscrito a la
+    LCK, la unión incluyó `lck` y la prueba empezó a fallar señalando al código algo
+    que era culpa de sus propios datos. Una prueba que lee el estado real del bot
+    no comprueba el código: comprueba quién haya usado el bot últimamente.
+    """
     plans._CONFIG_PATH = os.path.join(tmp, "plans.json")
     leagues._CONFIG_PATH = os.path.join(tmp, "leagues.json")
     channel_config.CONFIG_PATH = os.path.join(tmp, "notify.json")
+    user_config.CONFIG_PATH = os.path.join(tmp, "users.json")
 
 
 GUILD = 111222333
@@ -64,14 +74,10 @@ def prueba_cupo_ligas() -> None:
     ok(leagues.ligas_de(GUILD) == ["lec"], "y al leer sigue saliendo 1")
 
     plans.asignar_plan(GUILD, "pro", motivo="prueba")
-    ok(leagues.tope_de_ligas(GUILD) == 3, "con Pro el tope sube a 3")
-    ok(leagues.ligas_de(GUILD) == ["lec", "lck", "les"],
-       "y recupera las que ya había elegido sin volver a escribirlas",
-       str(leagues.ligas_de(GUILD)))
-
-    plans.asignar_plan(GUILD, "elite", motivo="prueba")
+    ok(leagues.tope_de_ligas(GUILD) == 4, "con Pro el tope sube a 4")
     ok(leagues.ligas_de(GUILD) == ["lec", "lck", "les", "lfl"],
-       "con Elite entran las 4")
+       "y entran las 4 que ya había elegido, sin volver a escribirlas",
+       str(leagues.ligas_de(GUILD)))
 
     plans.asignar_plan(GUILD, "gratis", motivo="baja")
     ok(leagues.ligas_de(GUILD) == ["lec"], "al bajar de plan vuelve a 1")
@@ -81,16 +87,16 @@ def prueba_cupo_ligas() -> None:
 
 def prueba_tope_fisico() -> None:
     print("\n=== el tope físico manda sobre el plan ===")
-    ok(plans.ELITE.ligas <= leagues.MAX_LIGAS_POR_SERVIDOR,
+    ok(plans.PRO.ligas <= leagues.MAX_LIGAS_POR_SERVIDOR,
        "ningún plan promete más ligas que el límite de la API",
-       f"elite={plans.ELITE.ligas} max={leagues.MAX_LIGAS_POR_SERVIDOR}")
+       f"pro={plans.PRO.ligas} max={leagues.MAX_LIGAS_POR_SERVIDOR}")
 
-    plans.asignar_plan(GUILD, "elite")
+    plans.asignar_plan(GUILD, "pro")
     guardadas = leagues.establecer_ligas(
         GUILD, ["lec", "lck", "lcs", "lfl", "nlc", "prm"]
     )
     ok(len(guardadas) <= leagues.MAX_LIGAS_POR_SERVIDOR,
-       "pedir 6 con Elite no pasa del límite físico", str(len(guardadas)))
+       "pedir 6 con Pro no pasa del límite físico", str(len(guardadas)))
 
 
 def prueba_ligas_en_uso() -> None:
@@ -123,21 +129,26 @@ def prueba_cupo_canales() -> None:
     ok(channel_config.agregar_canal(GUILD, 1002)[0] == "añadido",
        "con Pro sí entra el segundo")
     ok(channel_config.agregar_canal(GUILD, 1003)[0] == "añadido", "y el tercero")
-    ok(channel_config.agregar_canal(GUILD, 1004)[0] == "cupo", "el cuarto ya no")
+    # El Pro son **10** canales desde el 22-09-2026 (se quedó con los del Elite al
+    # retirarse), así que el que no cabe es el undécimo, no el cuarto.
+    for canal in range(1004, 1011):
+        channel_config.agregar_canal(GUILD, canal)
+    ok(channel_config.agregar_canal(GUILD, 1011)[0] == "cupo",
+       "el undécimo ya no cabe")
 
     plans.asignar_plan(GUILD, "gratis")
     ok(channel_config.canales_de(GUILD) == [1001],
        "al bajar de plan solo se usa el primero", str(channel_config.canales_de(GUILD)))
-    ok(len(channel_config.canales_guardados(GUILD)) == 3,
-       "pero los tres siguen guardados")
+    ok(len(channel_config.canales_guardados(GUILD)) == 10,
+       "pero los diez siguen guardados")
     plans.asignar_plan(GUILD, "pro")
-    ok(len(channel_config.canales_de(GUILD)) == 3, "y al volver a Pro se recuperan")
+    ok(len(channel_config.canales_de(GUILD)) == 10, "y al volver a Pro se recuperan")
 
     ok(channel_config.quitar_canal(GUILD, 1002) is True, "se puede quitar uno concreto")
     ok(channel_config.quitar_canal(GUILD, 1002) is False, "quitarlo dos veces devuelve False")
-    ok(channel_config.canales_de(GUILD) == [1001, 1003], "y quedan los otros dos",
+    ok(len(channel_config.canales_de(GUILD)) == 9, "y quedan los otros nueve",
        str(channel_config.canales_de(GUILD)))
-    ok(channel_config.quitar_todos(GUILD) == 2, "quitar todos devuelve cuántos había")
+    ok(channel_config.quitar_todos(GUILD) == 9, "quitar todos devuelve cuántos había")
     ok(channel_config.canales_de(GUILD) == [], "y deja el servidor sin avisos")
 
 
@@ -153,15 +164,11 @@ def prueba_cupo_historial() -> None:
     ok(hist._tope_partidas(GUILD) == plans.PRO.historial,
        "con Pro sube", str(hist._tope_partidas(GUILD)))
 
-    plans.asignar_plan(GUILD, "elite")
-    ok(hist._tope_partidas(GUILD) == plans.ELITE.historial,
-       "con Elite sube más", str(hist._tope_partidas(GUILD)))
-
     # Lo que hace que el cupo sea honesto: ningún plan promete más líneas de las
     # que caben en los 3 mensajes que manda `/historial`.
-    ok(plans.ELITE.historial <= hist.TOPE_FISICO,
+    ok(plans.PRO.historial <= hist.TOPE_FISICO,
        "ningún plan promete más partidas de las que caben en Discord",
-       f"elite={plans.ELITE.historial} tope={hist.TOPE_FISICO}")
+       f"pro={plans.PRO.historial} tope={hist.TOPE_FISICO}")
     ok(hist._tope_partidas(None) == plans.GRATIS.historial,
        "en DM se usa el gratuito")
     ok(hist._tope_partidas("no_es_un_id") >= 1,
@@ -205,6 +212,64 @@ def prueba_limite_no_revienta() -> None:
        devuelto.codigo)
 
 
+def prueba_apoyo() -> None:
+    """El discurso de apoyo: que diga la verdad y que quepa en un embed.
+
+    Dos comprobaciones que no son de estilo:
+
+    * **Los números son los del código.** El texto dice «Riot nos da 500
+      peticiones cada 10 segundos» y «4 ligas a la vez». Si alguien cambia
+      `MAX_LIGAS_POR_SERVIDOR` o la cuota, el argumento entero se vuelve falso, y
+      es justo el argumento con el que se pide dinero. Se comprueba que los
+      números salgan de `branding`/`leagues`, no de un literal escrito a mano.
+
+    * **Cada campo cabe en 1024 caracteres.** Es el límite de Discord: pasarse
+      devuelve 400 y deja `/premium` sin responder. No es teórico — el bloque
+      completo en un solo campo quedaba en ~910 y se partió en dos por esto.
+    """
+    print("\n=== discurso de apoyo ===")
+    from core.premium_command import _bloque_apoyo
+    from utils.branding import RIOT_CUOTA_PETICIONES, RIOT_CUOTA_SEGUNDOS
+    from utils.i18n import t
+
+    for idioma in ("es", "en"):
+        def _(clave, **kw):
+            return t(clave, idioma, **kw)
+
+        campos = _bloque_apoyo(_)
+        ok(len(campos) == 2, f"[{idioma}] el bloque son dos campos", str(len(campos)))
+
+        unido = "\n".join(valor for _, valor in campos)
+        ok(str(RIOT_CUOTA_PETICIONES) in unido,
+           f"[{idioma}] el texto cita la cuota real de Riot",
+           str(RIOT_CUOTA_PETICIONES))
+        ok(str(RIOT_CUOTA_SEGUNDOS) in unido,
+           f"[{idioma}] y la ventana de la cuota", str(RIOT_CUOTA_SEGUNDOS))
+        ok(str(leagues.MAX_LIGAS_POR_SERVIDOR) in unido,
+           f"[{idioma}] y el tope de ligas que se aplica de verdad",
+           str(leagues.MAX_LIGAS_POR_SERVIDOR))
+
+        # Los cuatro escalones de la petición, y el de compartir antes que el de
+        # donar: el orden es el argumento (compartir es lo que sube la cuota).
+        ok(unido.count("\n1. ") == 1 and "\n4. " in unido,
+           f"[{idioma}] van los cuatro escalones numerados")
+        ok(unido.index("1. ") < unido.index("4. "),
+           f"[{idioma}] y compartir va antes que donar, que es el orden que importa")
+
+        for nombre, valor in campos:
+            ok(len(nombre) <= 256,
+               f"[{idioma}] el nombre del campo cabe ({len(nombre)}/256)",
+               nombre[:30])
+            ok(len(valor) <= 1024,
+               f"[{idioma}] y el valor también ({len(valor)}/1024)", nombre[:30])
+
+    # Y que estén montados en el embed de verdad, no solo definidos.
+    from core.premium_command import construir_embed
+    nombres = [f.name for f in construir_embed(None, 1).fields]
+    ok(any("límites" in n or "limits" in n for n in nombres),
+       "el bloque de apoyo llega al embed de /premium", str(nombres[:3]))
+
+
 def main() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         _redirigir(tmp)
@@ -215,6 +280,7 @@ def main() -> None:
         prueba_cupo_historial()
         prueba_formato_viejo()
         prueba_limite_no_revienta()
+        prueba_apoyo()
 
     print(f"\nfallos : {len(fallos)}")
     if fallos:

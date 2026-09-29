@@ -12,7 +12,9 @@ Comprueba lo que antes fallaba:
 from __future__ import annotations
 
 import asyncio
+import os
 import sys
+import tempfile
 import time
 from pathlib import Path
 
@@ -23,20 +25,69 @@ from dotenv import load_dotenv  # noqa: E402
 
 load_dotenv(ROOT / ".env")
 
+from tracking.soloq import avisos_log, user_config  # noqa: E402
 from tracking.soloq.active_game_checker import ActiveGameTracker  # noqa: E402
 from apis.riot_client import close_riot_client  # noqa: E402
 
 TIMEOUT = 90
 
 
+class _UsuarioFalso:
+    """Usuario de DM de mentira: acepta el envío y no hace nada."""
+
+    def __init__(self, user_id: int):
+        self.id = user_id
+
+    async def send(self, **_kw) -> None:
+        return None
+
+
 class FakeBot:
-    """Sustituye al bot de Discord: no hay canales, así que no envía nada."""
+    """Sustituye al bot de Discord: no hay canales, así que no envía nada.
+
+    `get_user`/`fetch_user` están desde el 29-09-2026 y no son decorativos: la
+    rama de avisos por DM los usa, y sin ellos la pasada moría con
+    `AttributeError: 'FakeBot' object has no attribute 'get_user'` en cuanto
+    hubiera **un solo** usuario con los DM activados. Se veía como un fallo del
+    tracker y era del doble de prueba. `get_user` devuelve `None` a propósito,
+    que es lo que hace el bot real cuando el usuario no está en la caché —el
+    caso normal de quien se suscribe por DM—, para que se ejerza el `fetch_user`.
+    """
 
     def get_channel(self, channel_id):
         return None
 
+    def get_user(self, user_id):
+        return None
+
+    async def fetch_user(self, user_id):
+        return _UsuarioFalso(user_id)
+
 
 async def main() -> int:
+    # Esta prueba corre una pasada **real** contra la API de Riot, así que toca
+    # dos ficheros de estado de verdad y hay que desviarlos antes de empezar:
+    #
+    # * `users_config.json` — los avisos por DM escriben en él al entregar (marcan
+    #   el estado del DM). Apuntando al fichero real, la pasada de prueba
+    #   modificaba la configuración de usuarios de verdad y el resultado dependía
+    #   de quién estuviera suscrito ese día.
+    # * `avisos.jsonl` — es el registro de avisos **publicados**, y lo lee la web
+    #   para pintar la página de avisos. La prueba lo escribía, así que después de
+    #   ejecutarla `avisos.html` publicaba un aviso que nadie había recibido (y
+    #   `test_web` empezaba a fallar por eso, sin relación aparente). Pasó el
+    #   29-09-2026 y costó un rato entender de dónde salía esa línea.
+    #
+    # Se redirigen a un directorio temporal vacío: sin suscriptores no hay DM, que
+    # es justo lo que esta prueba quiere medir (que la pasada termina, detecta
+    # partidas y respeta los stale), y el estado real queda intacto.
+    with tempfile.TemporaryDirectory() as tmp:
+        user_config.CONFIG_PATH = os.path.join(tmp, "users.json")
+        avisos_log.RUTA = os.path.join(tmp, "avisos.jsonl")
+        return await _pasada()
+
+
+async def _pasada() -> int:
     print("=" * 70)
     print("PRUEBA HEADLESS DEL TRACKER")
     print("=" * 70)

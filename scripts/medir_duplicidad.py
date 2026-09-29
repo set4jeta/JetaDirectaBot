@@ -30,7 +30,7 @@ import re
 import sys
 from collections import Counter, defaultdict
 
-WEB = "C:/jetabot res 8/JetaDirectaBot/web"
+WEB = "C:/jetabot res 8/LoLProTrackr/web"
 
 _SCRIPTS = re.compile(r"<(script|style)\b[^>]*>.*?</\1>", re.S | re.I)
 _ETIQUETAS = re.compile(r"<[^>]+>")

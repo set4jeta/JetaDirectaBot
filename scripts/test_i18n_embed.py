@@ -178,13 +178,16 @@ async def main() -> None:
             ]
             check(f"{etiqueta}/{escenario}: campos <= 1024", not largos, str(largos))
 
-            # El descargo de Riot es obligatorio y esta es la superficie que más
-            # se ve, así que se comprueba en el embed real, no solo en el módulo
-            # que lo genera: `utils/branding.py` ya existía sin que nadie lo
-            # llamara, y así no vuelve a pasar sin que salte un fallo.
+            # Aquí se exigía el descargo de Riot en el pie, que era obligatorio y
+            # esta es la superficie que más se ve. Se retiró el 22-09-2026 por
+            # instrucción del dueño (ver `utils/branding.py`), así que la
+            # comprobación va al revés: que el pie **no** lo lleve. Es el mismo
+            # cuidado que tenía antes, para que no vuelva a colarse al tocar el
+            # embed de partida.
             pie = getattr(getattr(embed, "footer", None), "text", "") or ""
-            check(f"{etiqueta}/{escenario}: pie con descargo de Riot",
-                  "Riot Games" in pie, pie or "(sin pie)")
+            check(f"{etiqueta}/{escenario}: el pie no lleva el aviso de Riot",
+                  "Riot Games" not in pie and "avalado" not in pie,
+                  pie or "(sin pie)")
 
             for f in files:
                 try:

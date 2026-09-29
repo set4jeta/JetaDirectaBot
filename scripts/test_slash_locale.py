@@ -1,28 +1,30 @@
-"""Comprueba que la lista de comandos de Discord está localizada y es válida.
+"""Comprueba que la lista de comandos de Discord es la que debe ser.
 
 Por qué existe
 --------------
-Las descripciones de los slash commands no las manda el bot en un mensaje: se
-las manda a Discord al registrar los comandos, y Discord las valida **todas de
-golpe**. Eso hace que los fallos aquí sean mucho peores que en un mensaje:
+Las descripciones de los slash commands no las manda el bot en un mensaje: se las
+manda a Discord al registrar los comandos, y Discord las valida **todas de
+golpe**. Eso hace que los fallos aquí sean mucho peores que en un mensaje: una
+descripción de más de 100 caracteres o un nombre con mayúsculas hace que Discord
+conteste 400 al despliegue **completo** y el bot se queda sin ningún slash
+command. No es "ese comando sale raro": es que no responde ninguno.
 
-1. **Una descripción de más de 100 caracteres** hace que Discord conteste 400 al
-   despliegue **completo**. No es "ese comando sale raro": es que el bot se queda
-   sin ningún slash command y solo responden los `!`.
-2. **Un nombre de opción con mayúsculas, espacios o tildes** produce el mismo
-   400. `jugador` vale; `Nick del pro` no.
-3. **Una clave del catálogo que no existe** se cuela tal cual, así que el
-   usuario ve `cmd.ligas.desc` en el selector de comandos. No falla nada: queda
-   ahí puesto.
-4. **Una descripción sin traducir** no da error tampoco. Simplemente el bot
-   parece a medio hacer en el idioma del usuario.
-5. **El español olvidado en `es-419`.** Discord trata `es-ES` y `es-419`
-   (Latinoamérica) como locales distintos. Con solo `es-ES`, un usuario de la LLA
-   ve el comando en inglés aunque el catálogo tenga español.
+Y desde el 22-09-2026 hay además tres reglas de diseño que el dueño fijó y que
+este test defiende, porque son justo las que se deshacen sin querer al añadir un
+comando:
 
-Nada de esto se ve en local: `bot.start()` es el que despliega, y el 400 sale en
-producción. Así que se comprueba offline, forzando `from_callback` como hace
-nextcord por dentro.
+1. **Solo slash.** Los `!` se retiraron: eran una segunda superficie que había que
+   mantener en paralelo y decidir dos veces cada nombre. Aquí se comprueba que no
+   queda **ninguno**.
+2. **Solo en inglés.** Nada de `name_localizations` ni
+   `description_localizations`: un nombre, el mismo para todos, que es lo
+   universal. (El español del catálogo se queda como documentación y no viaja.)
+3. **Una palabra por comando.** Ni guiones ni guiones bajos: `esports`, no
+   `esports-live`. Lo que distinguía dos funciones parecidas va en una opción de
+   lista cerrada (`/subscribe type: soloq|esports`).
+
+Lo que se comprueba, en orden: el catálogo, el payload que se manda a Discord, la
+lista exacta de comandos, y que no haya ni un `!`.
 
     python scripts/test_slash_locale.py
 """
@@ -42,7 +44,6 @@ from nextcord.ext import commands  # noqa: E402
 from utils.i18n import (  # noqa: E402
     _CATALOGO,
     IDIOMA_BASE_DISCORD,
-    LOCALES_DISCORD,
     MAX_DESCRIPCION,
     MAX_NOMBRE,
     t,
@@ -53,12 +54,17 @@ fallos: list[str] = []
 #: Lo que Discord acepta en el nombre de un comando o de una opción.
 NOMBRE_VALIDO = re.compile(r"^[-_a-z0-9]{1,32}$")
 
-#: Los locales a los que tiene que llegar cada idioma que no sea el base.
-ESPERADOS = tuple(
-    loc
-    for idioma, locales in LOCALES_DISCORD.items()
-    if idioma != IDIOMA_BASE_DISCORD
-    for loc in locales
+#: Un comando, una palabra: sin guiones ni guiones bajos. Es la regla del dueño
+#: («que se entienda su significado de una palabra»), y la que impediría que
+#: volviera un `esports-live`.
+UNA_PALABRA = re.compile(r"^[a-z][a-z0-9]{0,31}$")
+
+#: La lista exacta. Está escrita a mano a propósito: si alguien añade, quita o
+#: renombra un comando, tiene que venir aquí y decidirlo, en vez de colarse.
+COMANDOS_ESPERADOS = (
+    "channels", "esports", "following", "health", "help", "history", "info",
+    "language", "leagues", "live", "match", "mute", "premium", "ranking",
+    "schedule", "subscribe", "team", "track", "unsubscribe", "untrack",
 )
 
 
@@ -87,25 +93,12 @@ def revisar_texto(quien: str, texto: str, limite: int, es_nombre: bool) -> None:
         fallos.append(f"{quien}: nombre inválido para Discord -> {texto!r}")
 
 
-def revisar_localizaciones(quien: str, base: str, locales: dict | None) -> None:
-    """Que estén los locales esperados y que digan algo distinto del base."""
-    locales = {str(getattr(k, "value", k)): v for k, v in (locales or {}).items()}
-    faltan = [loc for loc in ESPERADOS if loc not in locales]
-    if faltan:
-        fallos.append(f"{quien}: sin traducción para {faltan}")
-    for loc, texto in locales.items():
-        revisar_texto(f"{quien}[{loc}]", texto, MAX_DESCRIPCION, es_nombre=False)
-    # Una "traducción" idéntica al inglés casi siempre significa que se copió el
-    # literal en vez de traducirlo. Con emoji o nombres propios puede pasar de
-    # verdad, así que es aviso, no fallo.
-    iguales = [loc for loc, txt in locales.items() if txt.strip() == (base or "").strip()]
-    if iguales:
-        print(f"      aviso: {quien} igual al inglés en {iguales}")
-
-
-def revisar_nombre_localizado(quien: str, locales: dict | None) -> None:
-    for loc, texto in {str(getattr(k, "value", k)): v for k, v in (locales or {}).items()}.items():
-        revisar_texto(f"{quien}[{loc}]", texto, MAX_NOMBRE, es_nombre=True)
+def locales_de(payload: dict, campo: str) -> dict:
+    """Las localizaciones de un payload, con las claves como texto."""
+    return {
+        str(getattr(k, "value", k)): v
+        for k, v in (payload.get(campo) or {}).items()
+    }
 
 
 async def main() -> int:
@@ -117,16 +110,22 @@ async def main() -> int:
 
     await register_commands(bot)
 
-    print("\n1) El catálogo de descripciones de comandos")
+    print("\n1) El catálogo")
     claves_cmd = sorted(k for k in _CATALOGO if k.startswith("cmd."))
     check(f"hay {len(claves_cmd)} claves cmd.*", bool(claves_cmd))
+
+    problemas_catalogo = []
     for clave in claves_cmd:
-        texto_en = t(clave, IDIOMA_BASE_DISCORD)
-        limite = MAX_NOMBRE if clave.endswith(".arg") else MAX_DESCRIPCION
-        if len(texto_en) > limite:
-            fallos.append(f"{clave}[en]: {len(texto_en)} caracteres (máx {limite})")
-    check("ninguna clave cmd.* se pasa del límite de Discord",
-          not [f for f in fallos if f.startswith("cmd.")])
+        en = t(clave, IDIOMA_BASE_DISCORD)
+        limite = MAX_NOMBRE if clave.endswith((".name", ".arg")) else MAX_DESCRIPCION
+        if len(en) > limite:
+            problemas_catalogo.append(f"{clave}[en]: {len(en)} > {limite}")
+        # El español se queda como documentación; si falta, es que alguien copió
+        # la entrada a medias.
+        if not (t(clave, "es") or "").strip():
+            problemas_catalogo.append(f"{clave}: sin español")
+    check("ninguna clave se pasa del límite y todas tienen español",
+          not problemas_catalogo, "; ".join(problemas_catalogo[:4]))
 
     print("\n2) El payload que se le manda a Discord")
     pendientes = list(getattr(bot, "_application_commands_to_add", []) or [])
@@ -140,39 +139,66 @@ async def main() -> int:
         revisar_texto(f"/{nombre} nombre", nombre, MAX_NOMBRE, es_nombre=True)
         revisar_texto(f"/{nombre} desc", payload.get("description", ""),
                       MAX_DESCRIPCION, es_nombre=False)
-        revisar_nombre_localizado(f"/{nombre} nombre", payload.get("name_localizations"))
 
-        # Ya no hay ningún grupo con subcomandos: todos los comandos se
-        # registran por `dual` o a mano con sus localizaciones, así que se
-        # exige la traducción a todos. Si algún día vuelve un grupo (opciones
-        # de tipo 1), habrá que decidir si se le exige lo mismo al grupo.
-        opciones = payload.get("options") or []
-        revisar_localizaciones(f"/{nombre} desc", payload.get("description"),
-                               payload.get("description_localizations"))
-
-        for opcion in opciones:
+        for opcion in payload.get("options") or []:
             etiqueta = f"/{nombre} {opcion.get('name', '?')}"
             revisar_texto(f"{etiqueta} nombre", opcion.get("name", ""),
                           MAX_NOMBRE, es_nombre=True)
             revisar_texto(f"{etiqueta} desc", opcion.get("description", ""),
                           MAX_DESCRIPCION, es_nombre=False)
-            revisar_nombre_localizado(f"{etiqueta} nombre",
-                                      opcion.get("name_localizations"))
-            if opcion.get("type") != 1:
-                revisar_localizaciones(f"{etiqueta} desc", opcion.get("description"),
-                                       opcion.get("description_localizations"))
 
-    print("\n3) Lo que ve cada usuario en su selector de comandos")
+    print("\n3) Solo en inglés: nada de localizaciones")
+    con_locales = []
     for cmd in sorted(pendientes, key=lambda c: c.name or ""):
         payload = cmd.get_payload(None)
-        locales = {
-            str(getattr(k, "value", k)): v
-            for k, v in (payload.get("description_localizations") or {}).items()
-        }
-        es = locales.get("es-ES", "—")
-        print(f"  /{payload.get('name')}")
-        print(f"      en: {payload.get('description')}")
-        print(f"      es: {es}")
+        if locales_de(payload, "name_localizations"):
+            con_locales.append(f"/{payload.get('name')} (nombre)")
+        if locales_de(payload, "description_localizations"):
+            con_locales.append(f"/{payload.get('name')} (descripción)")
+        for opcion in payload.get("options") or []:
+            if locales_de(opcion, "name_localizations"):
+                con_locales.append(f"/{payload.get('name')} {opcion.get('name')} (nombre)")
+            if locales_de(opcion, "description_localizations"):
+                con_locales.append(f"/{payload.get('name')} {opcion.get('name')} (descripción)")
+    check("ningún comando ni opción manda traducciones", not con_locales,
+          str(con_locales[:4]))
+
+    print("\n4) Una palabra por comando")
+    con_guion = [c.name for c in pendientes if not UNA_PALABRA.match(c.name or "")]
+    check("ningún nombre lleva guion ni guion bajo", not con_guion, str(con_guion))
+
+    nombres = sorted(c.name for c in pendientes)
+    repetidos = sorted({n for n in nombres if nombres.count(n) > 1})
+    check("no hay dos comandos con el mismo nombre", not repetidos, str(repetidos))
+
+    print("\n5) La lista exacta de comandos")
+    print("  " + ", ".join(f"/{n}" for n in nombres))
+    check(f"son los {len(COMANDOS_ESPERADOS)} comandos acordados",
+          tuple(nombres) == COMANDOS_ESPERADOS,
+          f"sobra: {sorted(set(nombres) - set(COMANDOS_ESPERADOS))} · "
+          f"falta: {sorted(set(COMANDOS_ESPERADOS) - set(nombres))}")
+
+    # Cada comando registrado tiene su nombre en el catálogo, y al revés: así no
+    # queda una entrada huérfana ni un comando sin descripción.
+    claves_nombre = {t(k, IDIOMA_BASE_DISCORD) for k in _CATALOGO if k.endswith(".name")}
+    check("cada comando registrado tiene su clave cmd.X.name",
+          set(nombres) <= claves_nombre,
+          str(sorted(set(nombres) - claves_nombre)))
+    check("no hay claves cmd.X.name sin comando",
+          claves_nombre <= set(nombres),
+          str(sorted(claves_nombre - set(nombres))))
+
+    print("\n6) Los `!` se retiraron")
+    prefijos = sorted(bot.all_commands)
+    check("no queda ningún comando de prefijo", not prefijos, str(prefijos))
+
+    print("\n7) Lo que ve el usuario")
+    for cmd in sorted(pendientes, key=lambda c: c.name or ""):
+        payload = cmd.get_payload(None)
+        opciones = ", ".join(o.get("name", "") for o in (payload.get("options") or []))
+        sufijo = f" ({opciones})" if opciones else ""
+        print(f"  /{payload.get('name')}{sufijo}")
+        print(f"      {payload.get('description')}")
 
     return 1 if fallos else 0
 
@@ -185,5 +211,5 @@ if fallos:
     for f in fallos:
         print(f"  - {f}")
     sys.exit(1)
-print("Todos los comandos son válidos para Discord y están localizados.")
+print("Los comandos son slash, solo en inglés, de una palabra y válidos para Discord.")
 sys.exit(codigo)

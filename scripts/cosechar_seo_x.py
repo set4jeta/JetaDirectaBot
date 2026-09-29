@@ -27,7 +27,7 @@ from typing import Any
 
 VENV = "C:/Users/Chino/.workbuddy-ai/binaries/python/envs/default"
 TWITTER = f"{VENV}/Scripts/twitter.exe"
-SALIDA = "C:/jetabot res 8/JetaDirectaBot/docs/seo/_datos"
+SALIDA = "C:/jetabot res 8/LoLProTrackr/docs/seo/_datos"
 
 # Referentes en ingles. El usuario quiere orientar la web al publico anglo
 # porque tiene mas capacidad de pago, asi que este bloque es el mas grande.

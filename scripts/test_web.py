@@ -25,7 +25,8 @@ Lo que se prueba y por qué es lo que importa
 * Que sin `--adsense` **no hay ningún script de terceros** y la política de
   privacidad no menciona cookies publicitarias; y que con ID aparecen las dos
   cosas a la vez.
-* Que el descargo de Riot está en **las 26 páginas**, no solo en dos.
+* Que el descargo de Riot **no** está en ninguna página: se retiró el
+  22-09-2026 por instrucción del dueño (ver `utils/branding.py`).
 * Que cada página tiene título y descripción **únicos**, un solo `<h1>` y
   canónico absoluto autorreferente en el HTML crudo.
 * Que el `sitemap.xml` contiene exactamente las páginas indexables escritas, y
@@ -61,7 +62,6 @@ from scripts import web_paginas as pags  # noqa: E402
 from scripts import web_seo as seo  # noqa: E402
 from tracking.soloq.leagues import LIGAS, MAX_LIGAS_POR_SERVIDOR  # noqa: E402
 from tracking.soloq.plans import ORDEN, PLANES  # noqa: E402
-from utils import branding  # noqa: E402
 
 #: Dominio y fecha fijos. Los canónicos y `dateModified` tienen que ser
 #: comparables entre ejecuciones para que un fallo sea un fallo y no la fecha de
@@ -201,6 +201,15 @@ class _Inventario(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.h1: list[str] = []
+        #: Cuántos `<h1>` hay, contados por elemento y no por trozo de texto.
+        #:
+        #: `h1` es la lista de textos, y un `<h1>` con marcado dentro
+        #: (`<h1>When a <span>pro</span> queues up</h1>`) aporta **tres** entradas
+        #: —"When a ", "pro", "queues up"—, así que `len(h1)` no es el número de
+        #: encabezados. Contarlos aquí es lo que hace que la comprobación de
+        #: «exactamente un `<h1>`» siga significando lo que dice cuando alguien
+        #: pinta una palabra del titular en degradado.
+        self.n_h1 = 0
         self.encabezados: list[tuple[int, str]] = []
         self.imgs: list[dict[str, str]] = []
         self.enlaces: list[str] = []
@@ -213,6 +222,8 @@ class _Inventario(HTMLParser):
         d = {k: (v or "") for k, v in attrs}
         if tag in ("h1", "h2", "h3", "h4"):
             self._nivel = int(tag[1])
+            if tag == "h1":
+                self.n_h1 += 1
         elif tag == "img":
             self.imgs.append(d)
         elif tag == "a" and d.get("href"):
@@ -274,7 +285,11 @@ def prueba_html_bien_formado() -> None:
     sin_doctype = [r for r, h in todo.items() if not h.startswith("<!DOCTYPE html>")]
     ok(not sin_doctype, "todas empiezan por el doctype", str(sin_doctype[:3]))
 
-    sin_lang = [r for r, h in todo.items() if 'lang="es"' not in h]
+    # El idioma sale de `seo.IDIOMA` y no de un literal: es el mismo valor que
+    # `cabeza()` escribe en `<html lang>`, y comprobarlo contra un `"es"` escrito
+    # aquí es como la prueba se quedó verde durante toda la migración al inglés
+    # mientras la web se publicaba en otro idioma.
+    sin_lang = [r for r, h in todo.items() if f'lang="{seo.IDIOMA}"' not in h]
     ok(not sin_lang, "todas declaran el idioma", str(sin_lang[:3]))
 
     sin_viewport = [r for r, h in todo.items() if 'name="viewport"' not in h]
@@ -363,8 +378,8 @@ def prueba_un_solo_h1() -> None:
     saltos = []
     for ruta, html in todo.items():
         inv = inventario(html)
-        if len(inv.h1) != 1:
-            malas.append(f"{ruta}: {len(inv.h1)} h1")
+        if inv.n_h1 != 1:
+            malas.append(f"{ruta}: {inv.n_h1} h1")
         anterior = 1
         for nivel, texto in inv.encabezados:
             if nivel > anterior + 1:
@@ -603,6 +618,19 @@ def prueba_enlaces_internos() -> None:
     print("\n=== enlaces internos ===")
     todo = sitio()
     rutas = set(todo) | {"styles.css", "og.png", "favicon.svg"}
+    # Y los HTML que se mantienen **a mano** en `web/` y se despliegan con el
+    # resto. Hoy es solo `socios.html`, la landing de patrocinios: no sale de
+    # `construir()`, así que no está en `todo`, pero está en `web/` y GitHub Pages
+    # la sirve. Sin esto, el enlace de la portada a `socios.html` —que funciona en
+    # producción— se leería como roto, y el arreglo evidente sería quitar el
+    # enlace, que es justo lo que no hay que hacer.
+    #
+    # Se mira el disco y no una lista escrita a mano a propósito: lo que decide si
+    # un enlace está roto es qué ficheros hay de verdad en `web/`, y una lista fija
+    # se desincroniza el día que se añada otra página a mano.
+    carpeta = os.path.join(gw.RAIZ, "web")
+    if os.path.isdir(carpeta):
+        rutas |= {n for n in os.listdir(carpeta) if n.endswith(".html")}
     rotos = []
     for ruta, html in todo.items():
         for href in inventario(html).enlaces:
@@ -677,16 +705,16 @@ def prueba_ligas() -> None:
     nombres = [l.nombre for l in LIGAS.values() if l.nombre not in pagina]
     ok(not nombres, "y con su nombre visible", f"faltan {nombres}" if nombres else "")
 
-    ok(f"<h2>{len(LIGAS)} ligas</h2>" in pagina,
+    ok(f'<h2>{len(LIGAS)} <span class="res">leagues</span></h2>' in pagina,
        "el titular cuenta las ligas que hay, no un número escrito a mano")
 
-    ok(f"hasta {MAX_LIGAS_POR_SERVIDOR} a la vez" in pagina,
+    ok(f"up to {MAX_LIGAS_POR_SERVIDOR} at a time" in pagina,
        "el tope por servidor sale de leagues.py", str(MAX_LIGAS_POR_SERVIDOR))
 
     # La LPL no permite partida en vivo: si algún día se marcara como seguible,
     # la web dejaría de decirlo y volveríamos a prometer algo que no existe.
     no_seguibles = [l for l in LIGAS.values() if not l.seguible]
-    ok(bool(no_seguibles) == ("solo Elo" in pagina),
+    ok(bool(no_seguibles) == ("Elo only" in pagina),
        "las ligas sin partida en vivo van marcadas",
        f"{[l.codigo for l in no_seguibles]}")
 
@@ -729,7 +757,7 @@ def prueba_datos_de_liga() -> None:
     for codigo in LIGAS:
         html = todo[pags.ruta_de_liga(codigo)]
         tiene_datos = bool(datos.jugadores_de(codigo))
-        tiene_tabla = "<th>Cuenta de SoloQ</th>" in html
+        tiene_tabla = "<th>SoloQ account</th>" in html
         if tiene_tabla != tiene_datos:
             vacias_con_tabla.append(codigo)
     ok(not vacias_con_tabla,
@@ -754,21 +782,47 @@ def prueba_datos_de_liga() -> None:
 
     ambas = [c for c in LIGAS
              if "<th>KDA</th>" in todo[pags.ruta_de_liga(c)]
-             and "<th>Cuenta de SoloQ</th>" in todo[pags.ruta_de_liga(c)]]
+             and "<th>SoloQ account</th>" in todo[pags.ruta_de_liga(c)]]
     ok(not ambas, "ninguna página pinta las dos tablas de Elo a la vez", str(ambas[:3]))
 
-    # Una liga sin barrido tiene que llevar su ranking de verdad: nombre, equipo y
-    # rango del primero. Se comprueba sobre la EBL, que es la más pequeña, así que
-    # si el recorte por `TOPE_TABLA` se rompiera se vería aquí.
+    # La tabla que se pinta de verdad lleva el nombre, el equipo y el rango del
+    # primero del **barrido**, que es de donde sale la página. Se comprueba sobre
+    # la EBL, que es la más pequeña, así que si el recorte por `TOPE_TABLA` se
+    # rompiera se vería aquí.
+    #
+    # Se mira `jugadores_de` y no `clasificacion_de`, y ese cambio no es cosmético:
+    # las dos fuentes dan rangos distintos para el mismo jugador (el barrido mira
+    # todas las cuentas conocidas y el leaderboard solo las de su lista), y la
+    # página pinta la del barrido. La prueba pedía el rango del leaderboard, así
+    # que señalaba como fallo algo que la página hace bien.
     ebl = todo["liga-ebl.html"]
-    clasificados = datos.clasificacion_de("ebl")
-    ok(bool(clasificados), "hay ranking de la EBL medido", f"{len(clasificados)}")
-    lider = clasificados[0]
+    barridos = datos.jugadores_de("ebl")
+    ok(bool(barridos), "hay barrido de la EBL medido", f"{len(barridos)}")
+    lider = barridos[0]
     ok(lider.nombre in ebl and lider.equipo in ebl,
-       "el primero del ranking sale con su equipo", f"{lider.nombre} ({lider.equipo})")
+       "el primero del barrido sale con su equipo", f"{lider.nombre} ({lider.equipo})")
     ok(lider.rango_texto in ebl, "y con su Elo en texto", lider.rango_texto)
-    ok("#" not in lider.nombre and "Cuenta de SoloQ" not in ebl,
-       "y sin prometer Riot ID, que esta vía no da")
+
+    # La otra rama —liga con leaderboard pero **sin** barrido— hoy no la usa
+    # ninguna de las 20: todas tienen barrido, así que ninguna página pinta la
+    # tabla de Elo por leaderboard (lo vigila `mal_ranking`, más arriba). Se deja
+    # escrito para que el día que aparezca una liga así la prueba la cubra sola,
+    # en vez de quedarse comprobando una rama muerta.
+    solo_leaderboard = [
+        c for c in LIGAS
+        if not datos.jugadores_de(c) and datos.clasificacion_de(c)
+    ]
+    for codigo in solo_leaderboard:
+        pagina_liga = todo[pags.ruta_de_liga(codigo)]
+        primero = datos.clasificacion_de(codigo)[0]
+        ok(primero.nombre in pagina_liga and primero.rango_texto in pagina_liga,
+           f"en {codigo}, el primero del leaderboard sale con su Elo",
+           f"{primero.nombre} · {primero.rango_texto}")
+        ok("SoloQ account" not in pagina_liga,
+           f"y {codigo} no promete Riot ID, que esa vía no da")
+    if not solo_leaderboard:
+        print("  (las 20 ligas tienen barrido: la tabla por leaderboard no se "
+              "pinta en ninguna página)")
 
     # Los ids de campeón se resuelven a nombre. Si el catálogo se quedara viejo,
     # esto es lo que lo detecta antes de publicar: un "ID 904" en una página
@@ -794,7 +848,7 @@ def prueba_datos_de_liga() -> None:
 
     # La LPL no puede prometer avisos en vivo en su propia página.
     lpl = todo["liga-lpl.html"]
-    ok("no expose" in lpl or "no expone" in lpl,
+    ok("does not expose" in lpl,
        "la página de la LPL explica por qué no hay partida en vivo")
 
     # Y el agregado de campeones, que es el dato propio, tiene que estar donde
@@ -805,7 +859,7 @@ def prueba_datos_de_liga() -> None:
        f"{campeones[0].nombre} {campeones[0].partidas}g" if campeones else "")
     con_campeones = [
         c for c in LIGAS
-        if "<th>DPM medio</th>" in todo[pags.ruta_de_liga(c)]
+        if "<th>Average DPM</th>" in todo[pags.ruta_de_liga(c)]
         and not datos.campeones_de(c, tope=1)
     ]
     ok(not con_campeones, "y solo donde hay historial", str(con_campeones[:3]))
@@ -817,7 +871,7 @@ def prueba_datos_de_liga() -> None:
     mal_presencia = []
     for codigo in LIGAS:
         html = todo[pags.ruta_de_liga(codigo)]
-        tiene = "<th>Jugadores que lo llevan</th>" in html
+        tiene = "<th>Players who run it</th>" in html
         toca = bool(datos.campeones_del_ranking(codigo, tope=1)) and not datos.campeones_de(codigo, tope=1)
         if tiene != toca:
             mal_presencia.append(codigo)
@@ -829,8 +883,8 @@ def prueba_datos_de_liga() -> None:
     # `mostChamps` no da y que sí tiene el agregado de la LEC.
     presencia_con_dpm = [
         c for c in LIGAS
-        if "<th>Jugadores que lo llevan</th>" in todo[pags.ruta_de_liga(c)]
-        and "<th>DPM medio</th>" in todo[pags.ruta_de_liga(c)]
+        if "<th>Players who run it</th>" in todo[pags.ruta_de_liga(c)]
+        and "<th>Average DPM</th>" in todo[pags.ruta_de_liga(c)]
     ]
     ok(not presencia_con_dpm,
        "y no mezcla el DPM, que esa fuente no tiene", str(presencia_con_dpm[:3]))
@@ -842,18 +896,22 @@ def prueba_planes() -> None:
 
     for codigo in ORDEN:
         plan = PLANES[codigo]
-        esperado = f"{plan.historial} partidas de historial"
+        esperado = f"{plan.historial} matches of history"
         ok(esperado in pagina, f"el historial de {codigo} es el del plan", esperado)
 
-    ok("1 liga a la vez" in pagina and "liga(s)" not in pagina,
+    ok("1 league at a time" in pagina and "league(s)" not in pagina,
        "singular y plural bien escritos, sin '(s)'")
 
-    ok("3,99 € / mes" in pagina, "el precio va con coma decimal, no con punto")
+    # El precio se compone con el del plan, no con un literal: así el día que
+    # cambie `PLANES["pro"].precio` la prueba sigue comprobando el precio real y
+    # no el que estaba en la web cuando se escribió.
+    precio = f"{PLANES['pro'].precio:.2f} € / month".replace(".", ",")
+    ok(precio in pagina, "el precio va con coma decimal, no con punto", precio)
 
-    ok("500 partidas" not in pagina,
+    ok("500 matches" not in pagina,
        "no queda rastro de la cifra de historial que no se podía entregar")
 
-    ok("Siempre gratis" in pagina and "gratis y siempre lo será" in pagina,
+    ok("Always free" in pagina and "free and always will be" in pagina,
        "el tier gratuito se ve, que es lo que exige la política de Riot")
 
     # El plan gratuito se busca por su propiedad, no por su código: así un
@@ -879,7 +937,7 @@ def prueba_adsense() -> None:
        "el hueco existe igual, para que la página no salte al activarlo",
        f"sin hueco: {sin_hueco}")
 
-    ok("cookies propias ni de terceros" in legal_sin,
+    ok("cookies of its own or from third parties" in legal_sin,
        "y la política dice que no hay cookies")
     ok("AdSense" not in legal_sin.replace("Google AdSense.", ""),
        "sin anuncios, la política no menciona publicidad")
@@ -892,10 +950,10 @@ def prueba_adsense() -> None:
        "con ID, el script va en todas las páginas")
     ok(con["index.html"].count(pub) >= 2, "y el bloque de anuncio también lleva el ID",
        f"{con['index.html'].count(pub)} veces")
-    ok("Cookies y publicidad" in con["legal.html"]
+    ok("Cookies and advertising" in con["legal.html"]
        and "My Ad Center" in con["legal.html"],
        "la política declara las cookies publicitarias y cómo retirar el consentimiento")
-    ok("anuncios de Google AdSense" in maq.pie(pub),
+    ok("Google AdSense ads" in maq.pie(pub),
        "el pie avisa de que la web lleva publicidad")
 
     for malo in ("hola", "ca-pub-", "pub-abc", "ca-pub-12ab"):
@@ -914,26 +972,42 @@ def prueba_legal() -> None:
        "existen las anclas que hay que pegar en el portal de Discord")
     ok("2026-01-15" in doc, "la fecha se puede fijar (para poder comparar salidas)")
 
-    for aguja in ("/unsubscribe", "2 horas"):
+    # El comando para parar los avisos se llama `/mute` desde el 22-09-2026 (fue
+    # `/unsubscribe` y luego `/alerts-off`); la política tiene que citar el
+    # nombre que existe, o manda al usuario a un comando que ya no está.
+    for aguja in ("/mute", "2 hours"):
         ok(aguja in doc, f"la política menciona {aguja}")
 
-    ok("no guarda mensajes" in doc and "contenido de mensajes" in doc,
+    ok("does not store messages" in doc and "message content permission" in doc,
        "se declara el intent de contenido en vez de fingir que no existe")
-    ok("30 días" in doc, "hay plazo de respuesta para ejercer derechos")
+    ok("30 days" in doc, "hay plazo de respuesta para ejercer derechos")
 
 
 def prueba_descargo() -> None:
-    print("\n=== descargo de Riot ===")
+    """El descargo de Riot **ya no** se publica. Se quita el 22-09-2026.
+
+    Esta prueba era la contraria: exigía que el aviso «no avalado por Riot
+    Games» estuviera en las 26 páginas, porque la política de Riot lo pide como
+    texto obligatorio. El dueño lo leyó como un rechazo y ordenó eliminarlo, así
+    que ahora la prueba vigila que **no vuelva** por descuido al regenerar la
+    web: es justo el tipo de texto que se cuela de nuevo al copiar una página.
+    """
+    print("\n=== descargo de Riot (retirado) ===")
     todo = sitio()
-    marca = "trademarks or registered trademarks of Riot Games, Inc."
-    faltan = [r for r, h in todo.items() if marca not in h]
-    ok(not faltan,
-       f"el descargo obligatorio está en las {len(todo)} páginas, no en dos",
-       str(faltan[:3]))
-    ok(branding.BOT_NOMBRE in maq.descargo_html(),
-       "lleva el nombre del producto, como pide la plantilla de Riot")
-    ok("_" not in maq.descargo_html().replace("_blank", ""),
-       "el subrayado de Markdown se convierte a <em> y no se ve en la web")
+    agujas = (
+        "not endorsed by Riot Games",
+        "no está avalado por Riot Games",
+        "trademarks or registered trademarks of Riot Games, Inc.",
+    )
+    con_aviso = [
+        ruta for ruta, html in todo.items()
+        if any(a in html for a in agujas)
+    ]
+    ok(not con_aviso,
+       f"ninguna de las {len(todo)} páginas publica el aviso de Riot",
+       str(con_aviso[:3]))
+    ok(not hasattr(maq, "descargo_html"),
+       "el generador ya no tiene `descargo_html()`")
 
 
 def prueba_comparativa() -> None:
@@ -953,9 +1027,9 @@ def prueba_comparativa() -> None:
     # La página tiene que mandar al lector a la competencia cuando el otro es la
     # respuesta correcta. Una comparativa que gana en todas las filas es la que
     # nadie cita dos veces.
-    ok("Dorans hace eso mejor" in html or "Dorans-bot." in html,
+    ok("Dorans does that better" in html or "Dorans-bot." in html,
        "dice cuándo el rival es la mejor opción")
-    ok("no van a haberlos" in html or "no es lo que hace este bot" in html,
+    ok("that is not what this bot does" in html,
        "y reconoce lo que este bot no hace")
 
 
@@ -966,9 +1040,9 @@ def prueba_avisos() -> None:
     intervalo = datos.ajuste("CHECK_GAMES_INTERVAL", 30)
 
     ok(intervalo == 30, "el intervalo se lee de config.py", f"{intervalo} s")
-    ok(f"{intervalo} segundos" in html,
+    ok(f"{intervalo} seconds" in html,
        "y la página dice ese número, no uno plausible")
-    ok("servidor de espectadores" in html,
+    ok("spectator server" in html,
        "se explica el desfase del reloj de la partida en vez de dejarlo raro")
     ok("/health" in html, "y qué hacer cuando la API de Riot falla")
 
@@ -1004,7 +1078,18 @@ def prueba_historico_de_avisos() -> None:
     with con_avisos(lista):
         con = sitio()["avisos.html"]
         pagina = next(p for p in paginas() if p.ruta == "avisos.html")
-    vacio = sitio()["avisos.html"]
+
+    # La rama **vacía** también se inyecta, y no se lee el `avisos.jsonl` real.
+    #
+    # No era así y se rompió el 29-09-2026: `scripts/test_shutdown_live.py`
+    # arranca el bot de verdad —conecta a Discord y manda avisos— así que deja
+    # entradas en el registro real, y a partir de ahí esta prueba fallaba con
+    # «sin registro no se pinta ninguna tabla vacía» sin que nadie hubiera tocado
+    # la web. Es la cuarta vez en este proyecto que una prueba depende del estado
+    # real; el comentario de arriba ya decía que había que inyectarlo, solo que la
+    # rama vacía se quedó fuera.
+    with con_avisos([]):
+        vacio = sitio()["avisos.html"]
 
     # --- Con histórico ---
     ok('class="tabla avisos"' in con, "con registro se pinta la tabla de avisos")
@@ -1015,7 +1100,7 @@ def prueba_historico_de_avisos() -> None:
        f"{con.count('<time datetime=')} <time>")
     ok(f'datetime="{lista[0].sello}"' in con,
        "y la marca es la del registro, en ISO con zona", lista[0].sello)
-    ok("Cuándo (UTC)" in con,
+    ok("When (UTC)" in con,
        "la columna de la hora dice la zona: el HTML es el mismo para todo el mundo")
 
     # El orden de la tabla es el del registro, del más reciente al más antiguo.
@@ -1045,11 +1130,11 @@ def prueba_historico_de_avisos() -> None:
     # --- Sin histórico ---
     ok('class="tabla avisos"' not in vacio,
        "sin registro no se pinta ninguna tabla vacía")
-    ok("¿Qué avisos ha mandado el bot últimamente?" not in vacio,
+    ok("Which alerts has the bot sent recently?" not in vacio,
        "ni queda un encabezado prometiendo avisos que no hay")
     ok('"ItemList"' not in vacio,
        "ni se declara un ItemList sin lista que describir")
-    ok("todavía no hay avisos registrados" in vacio,
+    ok("No alerts have been logged" in vacio,
        "y el ejemplo dice que es el formato, no una partida real")
     ok(f'"dateModified": "{FECHA}"' in vacio,
        "sin registro, dateModified vuelve a la fecha de generación")
@@ -1177,18 +1262,57 @@ def prueba_estilos() -> None:
     la página sin maquetar el día que el bot empiece a avisar.
     """
     print("\n=== hoja de estilos ===")
-    ruta = os.path.join(gw.RAIZ, "web", "styles.css")
-    with open(ruta, encoding="utf-8") as fh:
-        css = fh.read()
+    # Las dos hojas, juntas: la base (`styles.css`) y el tema Arena
+    # (`styles-esports.css`). El tema es una hoja **complementaria** a propósito
+    # —se carga después para que sus reglas de esports ganen—, así que una clase
+    # puede estar en cualquiera de las dos y las dos son «la hoja de estilos».
+    css = ""
+    for nombre in ("styles.css", "styles-esports.css"):
+        with open(os.path.join(gw.RAIZ, "web", nombre), encoding="utf-8") as fh:
+            css += fh.read()
 
     paginas_html = list(sitio().values())
     with con_avisos(_avisos_falsos()):
         paginas_html += list(sitio().values())
+    # Y con AdSense, porque `.legal` —el pie que avisa de los anuncios— solo se
+    # pinta entonces. Antes ese pie llevaba también el descargo de Riot y salía
+    # siempre; al retirarlo (22-09-2026) quedó condicionado al ID, así que sin
+    # esta variante la clase se vería como «regla sin usar» y sería un falso
+    # positivo.
+    paginas_html += list(sitio(PUB).values())
 
     usadas: set[str] = set()
     for html in paginas_html:
         for atributo in re.findall(r'class="([^"]+)"', html):
             usadas.update(atributo.split())
+
+    # Clases que inyecta el script de AdSense, no el generador: `adsbygoogle`
+    # la pone Google en el hueco del anuncio. No son nuestras y no tienen (ni
+    # deben tener) regla en `styles.css`, así que se descuentan.
+    usadas -= {"adsbygoogle"}
+
+    # `socios.html` y `live.js` son los dos únicos sitios donde se escribe HTML
+    # fuera de `generar_web.py`, y ninguno pasa por `construir()`, así que sus
+    # clases no están en `paginas_html` y sin esto aparecerían como reglas
+    # huérfanas. No lo son: `socios.html` se despliega tal cual y `live.js`
+    # pinta la tira de equipos y el feed **en el navegador**, con datos que el
+    # generador no tiene cuando escribe la página.
+    #
+    # Se leen del disco en vez de listarlas: una lista fija se queda corta la
+    # primera vez que alguien añade una clase a cualquiera de los dos, y el
+    # fallo que produce —borrar CSS que sí se usa— es peor que el que evita.
+    socios = os.path.join(gw.RAIZ, "web", "socios.html")
+    if os.path.exists(socios):
+        with open(socios, encoding="utf-8") as fh:
+            for atributo in re.findall(r'class="([^"]+)"', fh.read()):
+                usadas.update(atributo.split())
+
+    # Las de `live.js` sí van a mano: son las que pasan como segundo argumento
+    # de su helper `el(tag, clase)`, y sacarlas del JS con una expresión regular
+    # sería adivinar. `team` es la ficha de equipo de `#teams-strip`, `card` y
+    # `ico` la tarjeta del feed, `vacio` el mensaje neutro de las dos, y
+    # `quien-equipo`/`cuando` el equipo y el «hace 5 min» de cada aviso.
+    usadas |= {"team", "card", "ico", "vacio", "quien-equipo", "cuando"}
 
     # Los selectores del CSS, sin los comentarios: un `.py` mencionado dentro de
     # un comentario no es una regla.

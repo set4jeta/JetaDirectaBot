@@ -363,6 +363,24 @@ async def probar_historial(idioma: str) -> None:
     check(f"{idioma}/historial global: sin claves crudas",
           not claves_crudas(salida), ", ".join(claves_crudas(salida)) or "limpio")
 
+    # De liga: `/history lec`. Los jugadores de prueba son todos de la LEC, así
+    # que este camino tiene que encontrar a los dos y no al de la LCK.
+    res = RespuestaFalsa()
+    await mod._cuerpo_historial(res, "lec")
+    salida = res.todo()
+    check(f"{idioma}/historial de liga: sin claves crudas",
+          not claves_crudas(salida), ", ".join(claves_crudas(salida)) or "limpio")
+    cabecera = next((l for l in salida.splitlines() if "LEC" in l), "")
+    check(f"{idioma}/historial de liga: sale la cabecera de liga",
+          bool(cabecera), cabecera[:90] or "(no sale LEC)")
+
+    # Y una liga sin jugadores seguidos lo dice en vez de devolver vacío.
+    res = RespuestaFalsa()
+    await mod._cuerpo_historial(res, "lck")
+    aviso = next((l for l in res.todo().splitlines() if "LCK" in l), "")
+    check(f"{idioma}/historial de liga sin jugadores: avisa",
+          bool(aviso), aviso[:90] or "(no sale LCK)")
+
     # Individual por nick con dos cuentas: la cabecera "todas sus cuentas".
     res = RespuestaFalsa()
     await mod._cuerpo_historial(res, "Hans Sama")

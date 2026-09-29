@@ -244,6 +244,8 @@ def prueba_seguir_desconocido() -> None:
     ok("JugadorInventado" in usuarios.guardados(USUARIO, "jugadores"),
        "se guarda igual: su liga puede empezar a rastrearse mañana")
     ok("⚠️" in salida, "pero se avisa de que todavía no le va a llegar nada")
+    # Los comandos son solo en inglés desde el 22-09-2026, así que el texto
+    # español también cita `/info`.
     ok("/info" in salida, "y se le da la salida concreta")
     ok(not crudas(salida), "sin claves crudas", ", ".join(crudas(salida)) or "limpio")
 
@@ -345,7 +347,8 @@ def prueba_dejarseguir() -> None:
 
     res = RespuestaFalsa()
     asyncio.run(avisos._cuerpo_dejarseguir(res, ""))
-    ok("/dejarseguir" in res.todo(), "sin argumento explica cómo se usa")
+    # Los comandos son solo en inglés desde el 22-09-2026.
+    ok("/untrack" in res.todo(), "sin argumento explica cómo se usa")
 
 
 def prueba_dejarseguir_todo() -> None:
@@ -373,7 +376,7 @@ def prueba_misavisos() -> None:
 
     res = RespuestaFalsa(bot=BotFalso("ok"))
     asyncio.run(avisos._cuerpo_misavisos(res))
-    ok("/seguir" in res.todo(), "sin nada registrado explica cómo empezar")
+    ok("/track" in res.todo(), "sin nada registrado explica cómo empezar")
     ok(not crudas(res.todo()), "sin claves crudas")
 
     plans.asignar_plan_usuario(USUARIO, "plus", motivo="prueba")

@@ -1,38 +1,35 @@
-"""Comprueba que el descargo legal de Riot llega de verdad a las superficies.
+"""Comprueba que el descargo de Riot **ya no** sale por ninguna superficie.
 
-Por qué este test
------------------
-`utils/branding.py` existía pero no lo llamaba nadie, así que la obligación
-seguía incumplida con el módulo escrito. Un test que solo importe el módulo no
-detecta eso: hay que mirar el embed **ya construido**.
+Por qué este test cambió de signo
+---------------------------------
+Antes afirmaba lo contrario: que el aviso «no está avalado por Riot Games»
+llegaba de verdad a `/help`, al pie de cada embed y a la web, porque la política
+del portal de Riot lo pide como texto obligatorio para productos de terceros.
+`utils/branding.py` existía y no lo llamaba nadie, así que un test que solo
+importara el módulo no lo habría detectado: había que mirar el embed construido.
 
-Lo que se afirma
-----------------
-1. `/help` lleva el descargo completo, en los dos idiomas, y sigue cabiendo en
-   los límites de Discord (campo 1024, embed entero 6000).
-2. El respaldo en texto plano también lo lleva: si falta el permiso de embeds,
-   ese texto es toda la ayuda que ve el usuario.
-3. El embed de partida lleva la versión corta en el pie.
-4. `sellar_embed` no pisa un pie que ya existía (caso `/health`).
-5. `enlaces()` no inventa enlaces sin configurar.
+El **22-09-2026 el dueño ordenó quitarlo**: leerlo le parecía que Riot rechazaba
+el bot («¿cómo que no me avala, si me dieron una key donde postulé esperando
+meses?»). Es su producto y su decisión. Este archivo vigila ahora lo contrario,
+que es lo que sí puede romperse por descuido:
+
+1. que `branding` no vuelva a exponer las funciones del aviso;
+2. que `/help` (embed y texto plano) no lo publique en ninguno de los dos
+   idiomas, y que el embed siga cabiendo en los límites de Discord;
+3. que ningún módulo del bot lo llame por su cuenta;
+4. que `enlaces()` siga sin inventar enlaces vacíos.
 """
 
 from __future__ import annotations
 
 import os
+import pathlib
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+RAIZ = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(RAIZ))
 
-import nextcord
-
-from utils.branding import (
-    BOT_NOMBRE,
-    descargo_corto,
-    descargo_riot,
-    enlaces,
-    sellar_embed,
-)
+from utils.branding import BOT_NOMBRE, enlaces  # noqa: E402
 
 fallos: list[str] = []
 
@@ -43,28 +40,45 @@ def check(cond: bool, etiqueta: str) -> None:
         fallos.append(etiqueta)
 
 
+#: Las dos formas del aviso, en los dos idiomas.
+_AGUJAS = (
+    "no está avalado por Riot Games",
+    "isn't endorsed by Riot Games",
+    "not endorsed by Riot Games",
+    "trademarks or registered trademarks of Riot Games",
+)
+
+
 # --------------------------------------------------------------------------
-# 1 y 2. La ayuda
+# 1. `branding` ya no tiene las funciones del aviso
+# --------------------------------------------------------------------------
+print("\n=== utils/branding.py ===")
+import utils.branding as branding  # noqa: E402
+
+for nombre in ("descargo_riot", "descargo_corto", "sellar_embed"):
+    check(
+        not hasattr(branding, nombre),
+        f"`{nombre}` ya no existe (se retiró el 22-09-2026)",
+    )
+check(
+    bool(BOT_NOMBRE),
+    "el nombre del producto sigue en pie, que lo usa media web",
+)
+
+# --------------------------------------------------------------------------
+# 2. `/help`, en los dos idiomas
 # --------------------------------------------------------------------------
 print("\n=== /help ===")
 from core.help_commands import construir_embed, construir_texto  # noqa: E402
+from core.responder import partir  # noqa: E402
 
-#: Trozo textual de la plantilla de Riot. Si esto no aparece, el descargo no es
-#: el que pide la política, sea lo que sea lo que haya en su lugar.
-_FIRMA_EN = "isn't endorsed by Riot Games"
-_FIRMA_ES = "no está avalado por Riot Games"
-
-for idioma, firma in (("es", _FIRMA_ES), ("en", _FIRMA_EN)):
+for idioma in ("es", "en"):
     embed = construir_embed(idioma)
     campos = [(f.name or "", f.value or "") for f in embed.fields]
     todo = "\n".join(v for _n, v in campos)
 
-    check(firma in todo, f"[{idioma}] el embed de /help lleva el descargo")
-    check(
-        "trademarks or registered trademarks of Riot Games" in todo,
-        f"[{idioma}] incluye la parte de marcas registradas",
-    )
-    check(BOT_NOMBRE in todo, f"[{idioma}] el descargo nombra al producto")
+    sucio = [a for a in _AGUJAS if a in todo]
+    check(not sucio, f"[{idioma}] el embed de /help no publica el aviso ({sucio})")
 
     largos = [(n, len(v)) for n, v in campos if len(v) > 1024]
     check(not largos, f"[{idioma}] ningún campo pasa de 1024 ({largos})")
@@ -75,56 +89,37 @@ for idioma, firma in (("es", _FIRMA_ES), ("en", _FIRMA_EN)):
     check(total <= 6000, f"[{idioma}] el embed entero cabe en 6000 ({total})")
 
     texto = construir_texto(idioma)
-    check(firma in texto, f"[{idioma}] el respaldo en texto plano lleva el descargo")
+    sucio = [a for a in _AGUJAS if a in texto]
+    check(not sucio, f"[{idioma}] el respaldo en texto plano tampoco ({sucio})")
 
-# El descargo español adjunta el original inglés a propósito: es una traducción
-# de cortesía y hay que poder ver qué dice el texto que Riot redacta.
-check(
-    _FIRMA_EN in descargo_riot("es"),
-    "[es] el descargo adjunta el original en inglés",
-)
-check(
-    descargo_riot(None) == descargo_riot("es"),
-    "sin idioma cae en español (idioma por defecto del bot)",
-)
-check(
-    descargo_riot("fr") == descargo_riot("es"),
-    "un idioma no soportado cae en español, no revienta",
-)
+    # El respaldo pasa de 2000 caracteres a propósito (lleva los 20 comandos), y
+    # `enviar_partido` lo trocea. Lo que hay que vigilar es que el troceado deje
+    # todos los trozos dentro del límite de Discord, no que quepa de una vez.
+    trozos = partir(texto)
+    check(
+        all(len(t) <= 1900 for t in trozos),
+        f"[{idioma}] el respaldo se trocea dentro del límite "
+        f"({len(texto)} chars -> {len(trozos)} trozos, "
+        f"máx {max((len(t) for t in trozos), default=0)})",
+    )
 
 # --------------------------------------------------------------------------
-# 3. El pie del embed de partida
+# 3. Nadie lo llama por su cuenta
 # --------------------------------------------------------------------------
-print("\n=== embed de partida ===")
-for idioma in ("es", "en"):
-    embed = nextcord.Embed(title="x")
-    sellar_embed(embed, idioma)
-    pie = embed.footer.text or ""
-    check(pie == descargo_corto(idioma), f"[{idioma}] el pie es el descargo corto")
-    check("Riot Games" in pie, f"[{idioma}] el pie menciona a Riot Games")
-    check(len(pie) <= 2048, f"[{idioma}] el pie cabe en 2048 ({len(pie)})")
+print("\n=== puntos de llamada ===")
+llamadas = []
+for carpeta in ("core", "ui", "tracking", "utils"):
+    for f in (RAIZ / carpeta).rglob("*.py"):
+        if f.name == "branding.py":
+            continue
+        src = f.read_text(encoding="utf-8", errors="replace")
+        for nombre in ("descargo_riot", "descargo_corto", "sellar_embed"):
+            if nombre in src:
+                llamadas.append(f"{f.relative_to(RAIZ)} -> {nombre}")
+check(not llamadas, "ningún módulo llama a las funciones retiradas")
 
 # --------------------------------------------------------------------------
-# 4. No pisar un pie existente
-# --------------------------------------------------------------------------
-print("\n=== sellar_embed sobre un pie que ya existía ===")
-embed = nextcord.Embed(title="x")
-embed.set_footer(text="Actualizado hace 2 min")
-sellar_embed(embed, "es")
-pie = embed.footer.text or ""
-check("Actualizado hace 2 min" in pie, "conserva el pie original")
-check("Riot Games" in pie, "y añade el legal detrás")
-
-# Llamarlo dos veces no debe duplicar el texto: el checker cachea el embed por
-# idioma y podría sellarse más de una vez en un reintento.
-sellar_embed(embed, "es")
-check(
-    (embed.footer.text or "").count("Riot Games") == 1,
-    "sellar dos veces no duplica el descargo",
-)
-
-# --------------------------------------------------------------------------
-# 5. Enlaces
+# 4. Enlaces
 # --------------------------------------------------------------------------
 print("\n=== enlaces() ===")
 check(

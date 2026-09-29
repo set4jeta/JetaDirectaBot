@@ -78,7 +78,7 @@ async def probar_equipo(tag: str) -> tuple[int, int]:
 
     verificados = 0
     for jugador, (cuenta, rango, total) in zip(jugadores, resultados):
-        extra = f" · mejor de {total}" if total > 1 else ""
+        extra = f" · mejor de {total} cuentas" if total > 1 else ""
         print(f"   {jugador.role or '?':<8} {jugador.name:<12} "
               f"{_cuenta_str(cuenta):<28} {formatear_rank(rango)}{extra}")
 

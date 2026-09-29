@@ -230,14 +230,43 @@ for aguja, etiqueta in (
 
 # Que el arranque y el apagado cubran las mismas tareas: si se añade un
 # `tasks.loop` nuevo y se olvida en el apagado, seguiría corriendo tras cerrar.
-arranque = set(inspect.getsource(background_tasks.start_background_tasks).split())
-apagado = set(fuente.split())
-tareas = [
+#
+# Esto se comprobaba buscando cada nombre de tarea dentro del código de
+# `stop_background_tasks`. El 29-09-2026 se arregló la causa —había **dos listas
+# paralelas** y se habían separado: cuatro tareas se arrancaban y no se
+# cancelaban— y ahora hay una sola (`TAREAS_PERIODICAS`) que usan las dos
+# funciones. Así que la comprobación cambia de forma: ya no se buscan nombres
+# sueltos, se comprueba la propiedad que hace imposible el fallo.
+fuente_arranque = inspect.getsource(background_tasks.start_background_tasks)
+
+# 1. Toda `tasks.loop` del módulo tiene que estar en la lista única. Si alguien
+#    añade una tarea y se olvida de apuntarla, sale aquí.
+#
+#    Se compara por **identidad de objeto** y no por nombre: los
+#    `nextcord.ext.tasks.Loop` no tienen `__name__` (el nombre está en
+#    `loop.coro.__name__`), y comparar por nombre sería comparar la etiqueta en
+#    vez de la cosa.
+tareas = sorted(
     n for n, v in vars(background_tasks).items()
     if hasattr(v, "is_running") and hasattr(v, "cancel")
-]
-sin_parar = [t for t in tareas if f"{t}," not in fuente and f"{t}\n" not in fuente]
-check("toda tarea periódica se cancela al cerrar", sin_parar, [])
+)
+en_lista = {n for n in tareas if getattr(background_tasks, n) in background_tasks.TAREAS_PERIODICAS}
+check("toda tarea periódica está en la lista única",
+      sorted(set(tareas) - en_lista), [])
+check("y la lista no tiene tareas de más",
+      len(background_tasks.TAREAS_PERIODICAS), len(tareas))
+
+# 2. Y las dos funciones tienen que usar esa lista, no su propia copia. Es lo
+#    que garantiza que no puedan volver a separarse.
+check("el arranque usa la lista única",
+      "TAREAS_PERIODICAS" in fuente_arranque, True)
+check("el apagado usa la lista única",
+      "TAREAS_PERIODICAS" in fuente, True)
+
+# 3. El apagado no repite las condiciones del arranque: cancela todo y deja que
+#    `is_running()` decida. Repetirlas es lo que las separó la primera vez.
+check("el apagado no filtra por configuración",
+      "HISTORIAL_WARM" not in fuente and "RANK_WARM" not in fuente, True)
 check("hay tareas que cancelar (la prueba no está vacía)", len(tareas) >= 7, True)
 
 

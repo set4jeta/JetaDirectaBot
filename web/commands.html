@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Every command · LoLProTrackr</title>
+  <title>All 20 LoLProTrackr commands and what each one returns</title>
   <meta name="description" content="All twenty Discord commands, one word each: what they do, what you can write next to them and what each combination returns.">
   <link rel="canonical" href="https://set4jeta.github.io/JetaDirectaBot/commands.html">
-  <meta property="og:title" content="Every command · LoLProTrackr">
+  <meta property="og:title" content="All 20 LoLProTrackr commands and what each one returns">
   <meta property="og:description" content="All twenty Discord commands, one word each: what they do, what you can write next to them and what each combination returns.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://set4jeta.github.io/JetaDirectaBot/commands.html">
@@ -15,12 +15,163 @@
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Every command · LoLProTrackr">
+  <meta name="twitter:title" content="All 20 LoLProTrackr commands and what each one returns">
   <meta name="twitter:description" content="All twenty Discord commands, one word each: what they do, what you can write next to them and what each combination returns.">
   <meta name="twitter:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles-esports.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Commands",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/commands.html"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "LoLProTrackr commands",
+    "numberOfItems": 20,
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "/live",
+        "description": "commands.html#live"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "/match",
+        "description": "commands.html#match"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "/info",
+        "description": "commands.html#info"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "/team",
+        "description": "commands.html#team"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "/ranking",
+        "description": "commands.html#ranking"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "/history",
+        "description": "commands.html#history"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "/leagues",
+        "description": "commands.html#leagues"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "/esports",
+        "description": "commands.html#esports"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "/schedule",
+        "description": "commands.html#schedule"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "/track",
+        "description": "commands.html#track"
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "/untrack",
+        "description": "commands.html#untrack"
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "/following",
+        "description": "commands.html#following"
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "/subscribe",
+        "description": "commands.html#subscribe"
+      },
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "/unsubscribe",
+        "description": "commands.html#unsubscribe"
+      },
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "/channels",
+        "description": "commands.html#channels"
+      },
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "/mute",
+        "description": "commands.html#mute"
+      },
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "/health",
+        "description": "commands.html#health"
+      },
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "/premium",
+        "description": "commands.html#premium"
+      },
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "/help",
+        "description": "commands.html#help"
+      },
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "name": "/language",
+        "description": "commands.html#language"
+      }
+    ]
+  }
+  </script>
 </head>
 <body class="arena">
   <div class="topbar">
@@ -49,140 +200,140 @@
     <section>
       <h2>The twenty, at a glance</h2>
       <div class="rejilla-comandos">
-      <article class="cmd" style="--i:0">
+      <article class="cmd" id="live" style="--i:0">
         <h3 class="cmd-nombre"><code>/live</code></h3>
         <p class="cmd-que">Pros playing SoloQ right now</p>
 <ul class="cmd-args"><li><code>league</code> <span>Only this league (empty = all)</span></li></ul>
 <p class="cmd-ejemplo"><code>/live · /live lck</code></p>
 <p class="cmd-devuelve">Every tracked pro in a game right now, or just one league&#x27;s</p>
       </article>
-      <article class="cmd" style="--i:1">
+      <article class="cmd" id="match" style="--i:1">
         <h3 class="cmd-nombre"><code>/match</code></h3>
         <p class="cmd-que">One pro&#x27;s live SoloQ game, with all ten participants</p>
 <ul class="cmd-args"><li><code>player</code> <span>Pro&#x27;s nickname (elk, Caps, Elyoya...)</span></li></ul>
 <p class="cmd-ejemplo"><code>/match Elyoya</code></p>
 <p class="cmd-devuelve">That pro&#x27;s live game with all ten players and their ranks</p>
       </article>
-      <article class="cmd" style="--i:2">
+      <article class="cmd" id="info" style="--i:2">
         <h3 class="cmd-nombre"><code>/info</code></h3>
         <p class="cmd-que">Profile of a pro or one of their accounts: team, rank, live game</p>
 <ul class="cmd-args"><li><code>player</code> <span>Pro&#x27;s nickname (Elyoya) or account (Caps#EUW)</span></li></ul>
 <p class="cmd-ejemplo"><code>/info Elyoya · /info Caps#EUW</code></p>
 <p class="cmd-devuelve">Team, country, age, contract and every account with its rank</p>
       </article>
-      <article class="cmd" style="--i:3">
+      <article class="cmd" id="team" style="--i:3">
         <h3 class="cmd-nombre"><code>/team</code></h3>
         <p class="cmd-que">A team&#x27;s roster, with each player&#x27;s best SoloQ account</p>
 <ul class="cmd-args"><li><code>team</code> <span>Team tricode (G2, FNC, MKOI...)</span></li></ul>
 <p class="cmd-ejemplo"><code>/team MKOI · /team g2</code></p>
 <p class="cmd-devuelve">The roster, with the best SoloQ account of each player</p>
       </article>
-      <article class="cmd" style="--i:4">
+      <article class="cmd" id="ranking" style="--i:4">
         <h3 class="cmd-nombre"><code>/ranking</code></h3>
         <p class="cmd-que">SoloQ leaderboard for a league, ranked by elo</p>
 <ul class="cmd-args"><li><code>league</code> <span>League to look up</span></li><li><code>limit</code> <span>How many players to show</span></li><li><code>role</code> <span>Only one role (empty = all)</span></li></ul>
 <p class="cmd-ejemplo"><code>/ranking lck · /ranking lck mid limit:10</code></p>
 <p class="cmd-devuelve">The SoloQ ladder of a league, and you can narrow it to one role and to 5, 10, 15 or 20 rows</p>
       </article>
-      <article class="cmd" style="--i:5">
+      <article class="cmd" id="history" style="--i:5">
         <h3 class="cmd-nombre"><code>/history</code></h3>
         <p class="cmd-que">Latest SoloQ games from the pros being tracked</p>
 <ul class="cmd-args"><li><code>player</code> <span>Nickname, account or league (empty = everyone)</span></li></ul>
 <p class="cmd-ejemplo"><code>/history · /history lec · /history Elyoya</code></p>
 <p class="cmd-devuelve">Latest SoloQ games: everyone&#x27;s, one league&#x27;s, or one pro&#x27;s across all their accounts</p>
       </article>
-      <article class="cmd" style="--i:6">
+      <article class="cmd" id="leagues" style="--i:6">
         <h3 class="cmd-nombre"><code>/leagues</code></h3>
         <p class="cmd-que">Which leagues this server follows — what the alerts come from (admin)</p>
 <ul class="cmd-args"><li><code>leagues</code> <span>Space-separated codes, e.g. lec lck lcs</span></li></ul>
 <p class="cmd-ejemplo"><code>/leagues · /leagues lec lck</code></p>
 <p class="cmd-devuelve">Which leagues the server follows, and changing them</p>
       </article>
-      <article class="cmd" style="--i:7">
+      <article class="cmd" id="esports" style="--i:7">
         <h3 class="cmd-nombre"><code>/esports</code></h3>
         <p class="cmd-que">Pro matches live now or about to start</p>
 <ul class="cmd-args"><li><code>league</code> <span>Only this league (empty = all)</span></li></ul>
 <p class="cmd-ejemplo"><code>/esports · /esports lec</code></p>
 <p class="cmd-devuelve">Pro matches live right now, or just one league&#x27;s</p>
       </article>
-      <article class="cmd" style="--i:8">
+      <article class="cmd" id="schedule" style="--i:8">
         <h3 class="cmd-nombre"><code>/schedule</code></h3>
         <p class="cmd-que">Schedule of the upcoming pro matches</p>
 
 <p class="cmd-ejemplo"><code>/schedule</code></p>
 <p class="cmd-devuelve">The next pro matches, across every league</p>
       </article>
-      <article class="cmd" style="--i:9">
+      <article class="cmd" id="track" style="--i:9">
         <h3 class="cmd-nombre"><code>/track</code></h3>
         <p class="cmd-que">Alerts by DM: a pro, a team, a league or a single account</p>
 <ul class="cmd-args"><li><code>player_or_league</code> <span>Pro&#x27;s nickname (Elyoya) or league code (lec, lck...)</span></li></ul>
 <p class="cmd-ejemplo"><code>/track Elyoya · /track T1 · /track lec · /track Faker#EUW kr</code></p>
 <p class="cmd-devuelve">A DM when it happens. Takes a pro, a team, a league or a single account</p>
       </article>
-      <article class="cmd" style="--i:10">
+      <article class="cmd" id="untrack" style="--i:10">
         <h3 class="cmd-nombre"><code>/untrack</code></h3>
         <p class="cmd-que">Stop DM alerts for a pro, a league, or everything</p>
 <ul class="cmd-args"><li><code>player_or_league</code> <span>Nickname, league code, or `all` to remove everything</span></li></ul>
 <p class="cmd-ejemplo"><code>/untrack Elyoya · /untrack all</code></p>
 <p class="cmd-devuelve">Stop the DMs, or drop everything at once</p>
       </article>
-      <article class="cmd" style="--i:11">
+      <article class="cmd" id="following" style="--i:11">
         <h3 class="cmd-nombre"><code>/following</code></h3>
         <p class="cmd-que">What you follow by DM, and whether I can message you</p>
 
 <p class="cmd-ejemplo"><code>/following</code></p>
 <p class="cmd-devuelve">What you follow, and whether the bot can message you</p>
       </article>
-      <article class="cmd" style="--i:12">
+      <article class="cmd" id="subscribe" style="--i:12">
         <h3 class="cmd-nombre"><code>/subscribe</code></h3>
         <p class="cmd-que">Send the alerts to this channel (admin)</p>
 <ul class="cmd-args"><li><code>type</code> <span>Which alerts: soloq (default) or esports</span></li><li><code>target</code> <span>League (lec), team (T1), pro (Elyoya) or account (Caps#EUW). Empty = all</span></li></ul>
 <p class="cmd-ejemplo"><code>/subscribe · /subscribe esports lck · /subscribe soloq Elyoya</code></p>
 <p class="cmd-devuelve">Send the alerts to this channel — all of them, or only what you name</p>
       </article>
-      <article class="cmd" style="--i:13">
+      <article class="cmd" id="unsubscribe" style="--i:13">
         <h3 class="cmd-nombre"><code>/unsubscribe</code></h3>
         <p class="cmd-que">Stop the alerts in this channel (admin)</p>
 <ul class="cmd-args"><li><code>type</code> <span>Which alerts: soloq (default) or esports</span></li></ul>
 <p class="cmd-ejemplo"><code>/unsubscribe</code></p>
 <p class="cmd-devuelve">Stop the alerts in this channel</p>
       </article>
-      <article class="cmd" style="--i:14">
+      <article class="cmd" id="channels" style="--i:14">
         <h3 class="cmd-nombre"><code>/channels</code></h3>
         <p class="cmd-que">Which channels get the alerts, and how many fit</p>
 
 <p class="cmd-ejemplo"><code>/channels</code></p>
 <p class="cmd-devuelve">Which channels get what, and how much room is left</p>
       </article>
-      <article class="cmd" style="--i:15">
+      <article class="cmd" id="mute" style="--i:15">
         <h3 class="cmd-nombre"><code>/mute</code></h3>
         <p class="cmd-que">Turn off the alerts for the whole server (admin)</p>
 <ul class="cmd-args"><li><code>type</code> <span>Which alerts: soloq (default) or esports</span></li></ul>
 <p class="cmd-ejemplo"><code>/mute · /mute esports</code></p>
 <p class="cmd-devuelve">Turn the alerts off for the whole server</p>
       </article>
-      <article class="cmd" style="--i:16">
+      <article class="cmd" id="health" style="--i:16">
         <h3 class="cmd-nombre"><code>/health</code></h3>
         <p class="cmd-que">Whether the data is up to date and when it last refreshed</p>
 
 <p class="cmd-ejemplo"><code>/health</code></p>
 <p class="cmd-devuelve">Whether the data is up to date, and when it last refreshed</p>
       </article>
-      <article class="cmd" style="--i:17">
+      <article class="cmd" id="premium" style="--i:17">
         <h3 class="cmd-nombre"><code>/premium</code></h3>
         <p class="cmd-que">This server&#x27;s limits and how to support the project</p>
 
 <p class="cmd-ejemplo"><code>/premium</code></p>
 <p class="cmd-devuelve">The two plans and this server&#x27;s limits</p>
       </article>
-      <article class="cmd" style="--i:18">
+      <article class="cmd" id="help" style="--i:18">
         <h3 class="cmd-nombre"><code>/help</code></h3>
         <p class="cmd-que">Every command and how to use it</p>
 
 <p class="cmd-ejemplo"><code>/help</code></p>
 <p class="cmd-devuelve">This same list, inside Discord</p>
       </article>
-      <article class="cmd" style="--i:19">
+      <article class="cmd" id="language" style="--i:19">
         <h3 class="cmd-nombre"><code>/language</code></h3>
         <p class="cmd-que">Bot language here; without an argument, shows it (admin)</p>
 <ul class="cmd-args"><li><code>code</code> <span>es or en</span></li></ul>

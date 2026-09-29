@@ -744,6 +744,32 @@ def _intro_tabla(liga, filas: list, medido: str, *, con_cuentas: bool) -> str:
     )
 
 
+def _titulo_de_liga(liga, frase: str, anio: str) -> str:
+    """El `<title>` de una página de liga, ajustado a la ventana de Google.
+
+    Antes era `f"{liga.nombre} SoloQ ranks and accounts ({anio})"`: 35 caracteres
+    para la LEC. Correcto, pero desperdiciaba la mitad del espacio del resultado
+    y —peor— las 20 páginas tenían exactamente la misma forma, sin nada que las
+    distinguiera salvo el nombre de la liga. La región es un dato real de cada
+    página, así que añadirla hace las dos cosas a la vez: llena el título hasta
+    donde Google no corta y diferencia las 20 con información en vez de relleno.
+
+    Tres escalones porque los nombres miden muy distinto: «LEC» y «Hitpoint
+    Masters» no caben con lo mismo. Primero se cae el año y después la región; el
+    último escalón es el título de antes, que siempre cabe (el nombre más largo
+    del catálogo, «Circuito Desafiante», deja el título en 48).
+
+    Google corta alrededor de 60 caracteres, así que ese es el techo. El suelo de
+    50 no se fuerza: si una liga no da para más, un título corto y claro es mejor
+    que uno inflado con palabras que nadie busca.
+    """
+    con_region = f"{frase} · {liga.region_en}"
+    for candidato in (f"{con_region} ({anio})", con_region, f"{frase} ({anio})"):
+        if len(candidato) <= 60:
+            return candidato
+    return frase
+
+
 def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
     """La página de una liga. Es la plantilla que se repite 20 veces.
 
@@ -793,14 +819,21 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
     # cuentas: prometer en el `<title>` algo que la página no tiene es lo que hace
     # que alguien entre, no lo encuentre y se vaya, y eso se mide.
     if jugadores:
-        titulo = f"{liga.nombre} SoloQ ranks and accounts ({anio})"
+        # «live alerts» solo donde de verdad las hay. La LPL juega en servidores
+        # que la API de Riot no expone, así que no puede avisar de partidas en
+        # vivo, y ponerlo en su título sería prometer algo que la página no da.
+        beneficio = (
+            "ranks, accounts and live alerts" if liga.seguible
+            else "ranks, accounts and standings"
+        )
+        titulo = _titulo_de_liga(liga, f"{liga.nombre} SoloQ {beneficio}", anio)
         descripcion = (
             f"The {len(jugadores)} {liga.nombre} players with their SoloQ rank, "
             "their account and the champions they are playing. Data from "
             f"{branding.BOT_NOMBRE}, last updated {fecha}."
         )
     elif clasificados:
-        titulo = f"{liga.nombre} SoloQ rank ladder ({anio})"
+        titulo = _titulo_de_liga(liga, f"{liga.nombre} SoloQ rank ladder", anio)
         primero = clasificados[0]
         descripcion = (
             f"The {len(clasificados)} {liga.nombre} players ordered by SoloQ "
@@ -809,14 +842,18 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
             f"{medido or fecha}."
         )
     elif censo.hay:
-        titulo = f"{liga.nombre} players and teams on SoloQ ({anio})"
+        titulo = _titulo_de_liga(
+            liga, f"{liga.nombre} players and teams on SoloQ", anio
+        )
         descripcion = (
             f"The {liga.nombre} ({liga.region_en}): {censo.personas} professional "
             f"players across {censo.equipos} teams and about {censo.cuentas} "
             "SoloQ accounts. Discord alerts when they queue up for a game."
         )
     else:
-        titulo = f"The {liga.nombre} on SoloQ: Discord alerts ({anio})"
+        titulo = _titulo_de_liga(
+            liga, f"The {liga.nombre} on SoloQ: Discord alerts", anio
+        )
         descripcion = (
             f"The {liga.nombre} ({liga.region_en}) on {branding.BOT_NOMBRE}: Discord "
             "alerts when its players queue up for SoloQ."
@@ -1068,11 +1105,11 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
 
     seguibles = sum(1 for l in LIGAS.values() if l.seguible)
     medido = datos.fecha_de_tablas()
-    titulo = f"The {len(LIGAS)} LoL leagues you can follow on Discord"
+    titulo = f"The {len(LIGAS)} LoL leagues you can follow on Discord (2026)"
     descripcion = (
-        f"Catalogue of the {len(LIGAS)} professional League of Legends leagues "
-        f"that {branding.BOT_NOMBRE} tracks, with how many players and teams each "
-        "one has and which of them allow live game alerts."
+        f"The {len(LIGAS)} professional League of Legends leagues "
+        f"{branding.BOT_NOMBRE} tracks, with how many players and teams each has "
+        "and which allow live game alerts."
     )
 
     preguntas = [
@@ -1269,11 +1306,19 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
             f"Upcoming LoL matches: {len(todos)} fixtures, "
             f"{len(con_partido)} leagues"
         )
+        # El `<title>` y el `<h1>` no tienen por qué ser la misma cadena, y aquí
+        # no lo son a propósito: el `h1` se lee dentro de la página, con todo el
+        # contexto alrededor, mientras que el título es lo único que se ve en el
+        # resultado de búsqueda. El título lleva además la zona horaria, que es lo
+        # que distingue esta página de cualquier otro calendario de partidos.
+        titulo = (
+            f"Upcoming LoL matches: {len(todos)} fixtures across "
+            f"{len(con_partido)} leagues (UTC)"
+        )
         descripcion = (
-            f"Every upcoming League of Legends pro match in one place: "
-            f"{len(todos)} fixtures across {len(con_partido)} leagues, day by "
-            "day, with kick-off times in UTC. Read from the official "
-            "lolesports schedule."
+            f"Every upcoming League of Legends pro match: {len(todos)} fixtures "
+            f"across {len(con_partido)} leagues, day by day, kick-off times in "
+            "UTC. From the official lolesports data."
         )
         resumen = [
             f"<b>{len(todos)} upcoming matches</b> across "
@@ -1420,7 +1465,7 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
 
     pagina = Pagina(
         ruta=RUTA_PARTIDOS,
-        titulo=encabezado,
+        titulo=titulo,
         descripcion=descripcion,
         cuerpo="".join(cuerpo),
         prioridad="0.8",
@@ -1575,14 +1620,15 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
     ejemplo = jugadores[0] if jugadores else None
     reales = datos.avisos(TOPE_AVISOS)
 
-    titulo = "What the SoloQ alert in your Discord looks like"
-    # Cabe en el snippet (menos de 190 caracteres) y eso no es cosmética: lo
-    # que Google recorta a mitad de frase deja de ser una promesa legible, y
-    # `generar_web._snippets()` corta la publicación si se pasa.
+    titulo = "What a SoloQ alert looks like in your Discord (real example)"
+    # Cabe en el snippet y eso no es cosmética: lo que Google recorta a mitad de
+    # frase deja de ser una promesa legible. El límite duro del proyecto son 190
+    # caracteres (`generar_web.DESC_MAX`) y por debajo de 160 no se recorta en
+    # escritorio, así que se apunta a esa ventana.
     descripcion = (
-        f"What the alert that {branding.BOT_NOMBRE} posts when a professional "
-        f"queues up for SoloQ carries, how long it takes ({intervalo} s polling "
-        "interval) and why the in-game clock runs behind."
+        f"What the alert {branding.BOT_NOMBRE} posts when a pro queues up for "
+        f"SoloQ carries, how long it takes ({intervalo} s polling) and why the "
+        "game clock runs behind."
     )
 
     preguntas = [
@@ -1893,14 +1939,14 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
         for r in RIVALES
     )
 
-    titulo = f"LoL Discord bots: which one alerts on what ({anio})"
+    titulo = f"LoL Discord bots compared: which one alerts on what ({anio})"
     # La fecha de verificación va **dentro de la descripción** aunque cueste 20
     # caracteres del presupuesto: es lo que distingue una comparativa consultada
     # de una copiada, y es lo que hace que valga la pena citarla.
     descripcion = (
-        "What each League of Legends Discord bot alerts on. The others follow the "
-        f"members of your server; {branding.BOT_NOMBRE} follows the professionals "
-        f"of {len(LIGAS)} leagues. Verified on {CONSULTA_RIVALES}."
+        "What each League of Legends Discord bot alerts on. The others follow your "
+        f"server's members; {branding.BOT_NOMBRE} follows the pros of "
+        f"{len(LIGAS)} leagues. Verified {CONSULTA_RIVALES}."
     )
 
     preguntas = [
@@ -2217,7 +2263,11 @@ def _tarjeta_comando(cmd: dict, indice: int) -> str:
         f'<p class="cmd-devuelve">{e(cmd["devuelve"])}</p>' if cmd["devuelve"] else ""
     )
     return (
-        f'      <article class="cmd" style="--i:{indice}">\n'
+        # El `id` no es decorativo: permite enlazar a un comando concreto
+        # (`/commands.html#track`), que es lo que hace falta para responder
+        # «¿cómo era?» en un chat sin mandar a nadie a buscar entre veinte
+        # tarjetas. También es a donde apunta el `ItemList` del `<head>`.
+        f'      <article class="cmd" id="{e(cmd["nombre"])}" style="--i:{indice}">\n'
         f'        <h3 class="cmd-nombre"><code>/{e(cmd["nombre"])}</code></h3>\n'
         f'        <p class="cmd-que">{e(cmd["que"])}</p>\n'
         f"{bloque_args}\n"
@@ -2336,14 +2386,30 @@ def pagina_comandos(sitio: str, fecha: str, pub: str) -> Pagina:
         "})();\n"
         "  </script>\n"
     )
+    comandos = _comandos_del_catalogo()
     return Pagina(
         ruta="commands.html",
-        titulo=f"Every command · {branding.BOT_NOMBRE}",
+        titulo=f"All 20 {branding.BOT_NOMBRE} commands and what each one returns",
         descripcion=(
             "All twenty Discord commands, one word each: what they do, what you "
             "can write next to them and what each combination returns."
         ),
         cuerpo=cuerpo,
+        # La página no tenía ningún schema y era la única de contenido sin él.
+        # Los dos que le tocan son los que describen lo que de verdad hay: una
+        # lista de veinte comandos con su orden, y dónde está la página dentro del
+        # sitio. El `ItemList` apunta a las anclas de las tarjetas, así que un
+        # buscador o un LLM puede extraer los veinte comandos en orden sin tener
+        # que reconstruirlos del texto.
+        schemas=[
+            seo.jsonld(seo.migas(sitio, [
+                ("Home", "index.html"), ("Commands", "commands.html"),
+            ])),
+            seo.jsonld(seo.lista_items(
+                f"{branding.BOT_NOMBRE} commands",
+                [(f"/{c['nombre']}", f"commands.html#{c['nombre']}") for c in comandos],
+            )),
+        ],
         prioridad="0.8",
         # La página de comandos lleva el tema Arena desde el 22-09-2026. No lleva
         # `en_vivo`: no tiene `#feed` ni `#teams-strip`, así que no carga

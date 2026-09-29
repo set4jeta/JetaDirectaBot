@@ -763,7 +763,7 @@ def _seccion_cookies(pub: str) -> str:
     )
 
 
-def pagina_legal(pub: str, hoy: str = HOY) -> Pagina:
+def pagina_legal(pub: str, hoy: str = HOY, sitio: str = "") -> Pagina:
     """Términos del servicio y política de privacidad, en una sola página.
 
     Van juntas y no en dos ficheros por una razón práctica: Discord pide **dos
@@ -802,14 +802,40 @@ def pagina_legal(pub: str, hoy: str = HOY) -> Pagina:
     partes.extend(_terminos(nombre, contacto))
     partes.extend(_privacidad(nombre, contacto, pub))
     partes.append("  </main>\n")
+    # `sitio` entra por parámetro desde el 29-09-2026, cuando la página pasó a
+    # llevar schema: `seo.absoluta()` necesita la URL base para el `url` del
+    # `WebPage`. Se deja con valor por defecto —el sitio del proyecto— para que
+    # `test_web`, que la llama con dos argumentos, siga funcionando sin tocarla.
+    sitio = sitio or SITIO
     return Pagina(
         ruta="legal.html",
-        titulo=f"Terms and Privacy · {branding.BOT_NOMBRE}",
+        titulo=f"Terms of Service and Privacy Policy · {branding.BOT_NOMBRE}",
         descripcion=(
             f"Terms of service and privacy policy of {branding.BOT_NOMBRE}: what "
             "data the bot stores, what for, and for how long."
         ),
         cuerpo="".join(partes),
+        # Es la única página sin schema junto con `commands.html`. Lleva `WebPage`
+        # y no `Article` a propósito: un documento legal no es un artículo con
+        # autor ni fecha de publicación, es la ficha de una URL concreta —la que
+        # Discord y AdSense comprueban que existe— y `WebPage` es lo que la
+        # describe sin inventarle metadatos que no tiene.
+        schemas=[
+            seo.jsonld(seo.migas(sitio, [
+                ("Home", "index.html"), ("Terms & privacy", "legal.html"),
+            ])),
+            seo.jsonld({
+                "@context": "https://schema.org",
+                "@type": "WebPage",
+                "name": f"Terms of Service and Privacy Policy · {branding.BOT_NOMBRE}",
+                "description": (
+                    f"Terms of service and privacy policy of {branding.BOT_NOMBRE}: "
+                    "what data the bot stores, what for, and for how long."
+                ),
+                "url": seo.absoluta(sitio, "legal.html"),
+                "inLanguage": seo.IDIOMA,
+            }),
+        ],
         prioridad="0.3",
     )
 

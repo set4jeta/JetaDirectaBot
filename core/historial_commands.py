@@ -37,9 +37,10 @@ from nextcord.ext import commands
 
 import config
 from apis.dpm_api import get_dpmlol_puuid, get_match_history_from_dpmlol
-from core.dual_command import dual_texto
+from core.dual_command import slash_texto
 from core.responder import Respuesta
 from tracking.soloq.accounts_io import load_tracked_accounts
+from tracking.soloq.leagues import resolver
 from tracking.soloq.plans import limite
 from utils.i18n import idioma_de, tr
 from utils.logger import get_logger
@@ -205,19 +206,68 @@ def una_por_jugador(partidas: list[dict], maximo: int = MAX_PARTIDAS) -> list[di
 
 
 def register_historial_command(bot: commands.Bot):
-    dual_texto(
+    slash_texto(
         bot,
-        "historial",
-        "cmd.historial.desc",
+        "cmd.history.name",
+        "cmd.history.desc",
         _cuerpo_historial,
-        arg_nombre="cmd.historial.arg",
-        arg_desc="cmd.historial.arg_desc",
+        arg_nombre="cmd.history.arg",
+        arg_desc="cmd.history.arg_desc",
         requerido=False,
     )
 
 
+def _lineas_numeradas(seleccion: list[dict], idioma: str | None) -> list[str]:
+    """Las partidas ya elegidas, numeradas y con su nick.
+
+    Se saca a una función porque lo usan dos caminos —el global y el de liga— y
+    tener el bucle dos veces es tener dos sitios donde arreglar lo mismo. Se
+    enseña la cuenta que jugó esa partida y no siempre la primera del jugador:
+    los pros rotan de cuenta y mostrar la equivocada confunde.
+    """
+    lineas = []
+    for i, partida in enumerate(seleccion, 1):
+        jugador = partida["jugador"]
+        nick = nick_con_equipo(jugador.name, jugador.team, partida["cuenta"])
+        lineas.append(
+            f"{i}. "
+            f"{formatear_partida(partida['participante'], partida['match'], idioma=idioma)}"
+            f" | {nick}"
+        )
+    return lineas
+
+
+async def _historial_de_liga(res: Respuesta, liga, idioma: str | None) -> bool:
+    """`/history lec`: las últimas partidas de esa liga. True si respondió algo.
+
+    Se aplica la misma regla que en el historial global —**una partida por
+    jugador**— y no «las 10 últimas a secas»: en una liga de 50 jugadores las
+    últimas diez partidas pueden ser todas del mismo, y la lista dejaría de
+    contar lo que está pasando en la liga.
+    """
+    _ = tr(res.guild_id)
+
+    de_la_liga = [
+        j for j in load_tracked_accounts()
+        if (j.league or "").lower() == liga.codigo
+    ]
+    if not de_la_liga:
+        await res.error(_("historial.liga_sin_jugadores", liga=liga.nombre))
+        return True
+
+    partidas = await partidas_de_jugadores(de_la_liga)
+    seleccion = una_por_jugador(partidas, _tope_partidas(res.guild_id))
+    if not seleccion:
+        await res.error(_("historial.sin_partidas"))
+        return True
+
+    cabecera = _("historial.cabecera_liga", n=len(seleccion), liga=liga.nombre) + "\n\n"
+    await _enviar(res, cabecera + "\n".join(_lineas_numeradas(seleccion, idioma)))
+    return True
+
+
 async def _cuerpo_historial(res: Respuesta, nombre: str) -> None:
-    """Cuerpo compartido por `!historial` y `/historial`."""
+    """Cuerpo de `/history [player | account | league]`."""
     _ = tr(res.guild_id)
     idioma = idioma_de(res.guild_id)
 
@@ -242,21 +292,18 @@ async def _cuerpo_historial(res: Respuesta, nombre: str) -> None:
             _("historial.cabecera_global", n=len(seleccion)) + "\n"
             + _("historial.como_usar") + "\n\n"
         )
-        lineas = []
-        for i, partida in enumerate(seleccion, 1):
-            jugador = partida["jugador"]
-            # Se enseña la cuenta que jugó esa partida, no siempre la
-            # primera del jugador: los pros rotan de cuenta y mostrar la
-            # equivocada confunde.
-            nick = nick_con_equipo(jugador.name, jugador.team, partida["cuenta"])
-            lineas.append(
-                f"{i}. "
-                f"{formatear_partida(partida['participante'], partida['match'], idioma=idioma)}"
-                f" | {nick}"
-            )
-
-        await _enviar(res, cabecera + "\n".join(lineas))
+        await _enviar(res, cabecera + "\n".join(_lineas_numeradas(seleccion, idioma)))
         return
+
+    # Una liga se mira **antes** que un jugador, y después de la cuenta suelta:
+    # el mismo orden que `/track`, que es donde ya estaba resuelto este problema.
+    # Un Riot ID lleva `#` y ninguna liga lo tiene; un código de liga (`lec`) no
+    # es un nick de nadie, así que no hay ambigüedad real.
+    if "#" not in nombre:
+        liga = resolver(nombre)
+        if liga is not None:
+            await _historial_de_liga(res, liga, idioma)
+            return
 
     # ---- Historial individual ----
     jugador, cuenta = _buscar_jugador(jugadores, nombre)

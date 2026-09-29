@@ -1,30 +1,34 @@
-"""Comandos de esports: `/partida`, `/next`, `/setlivechannel`, `/removelivechannel`.
+"""Comandos de esports: `/esports` y `/schedule`.
 
 Qué se cambió
 -------------
-1. **Los cuatro son ahora slash y prefijo a la vez.** Viven en un Cog porque
-   comparten el `TrackerService` (y su `bg_task` de 30 s), así que no se podían
-   pasar por `dual` directamente: nextcord exige `self` en los comandos
-   declarados dentro de una clase. La solución es `dual_cog`, que registra
-   contra el bot un cuerpo con el cog ya capturado en la clausura.
-2. **`setlivechannel` y `removelivechannel` piden *Gestionar servidor*.** No
-   comprobaban nada: cualquiera podía redirigir —o apagar— las notificaciones de
-   esports de todo el servidor. Es el mismo agujero que tenía `!setchannel`.
-3. **`print` → logging.** Eran 12 llamadas, varias dentro del bucle de 30
+0. **Ahora son dos, no cuatro.** Los del canal de esports
+   (`setlivechannel` y `removelivechannel`) se unificaron con los de SoloQ en
+   `/subscribe`, `/unsubscribe`, `/channels` y `/mute`, que viven juntos en
+   `core/notification_config_commands.py`. Configurar canales es una sola cosa y
+   tenerla partida en dos sitios duplicaba permisos, avisos y nombres.
+   Y los nombres son de **una palabra**: `partida`/`next` eran medio en español y
+   medio en inglés, y ahora son `esports` y `schedule`.
+1. **Son slash.** Viven en un Cog porque comparten el `TrackerService` (y su
+   `bg_task` de 30 s), así que no se podían pasar por `slash` directamente:
+   nextcord exige `self` en los comandos declarados dentro de una clase. La
+   solución es `slash_cog`, que registra contra el bot un cuerpo con el cog ya
+   capturado en la clausura.
+2. **`print` → logging.** Eran 12 llamadas, varias dentro del bucle de 30
    segundos, y `[DEBUG] match_id=... status=...` se imprimía por cada partido
-   trackeado **cada vez que alguien escribía `!partida`**. Ahora es `log.debug`,
+   trackeado **cada vez que alguien usaba el comando**. Ahora es `log.debug`,
    así que solo sale con `LOG_LEVEL=DEBUG`.
-4. **`bg_task` ya no avisa a grito pelado cuando un servidor no tiene canal.**
+3. **`bg_task` ya no avisa a grito pelado cuando un servidor no tiene canal.**
    Ese `print` salía cada 30 s por cada servidor sin configurar; ahora es debug.
-5. **Se avisa una sola vez de los partidos ya empezados.** Igual que antes.
-6. **Dos `IndexError` latentes tapados.** `match.teamsEventDetails[0]` y
+4. **Se avisa una sola vez de los partidos ya empezados.** Igual que antes.
+5. **Dos `IndexError` latentes tapados.** `match.teamsEventDetails[0]` y
    `match.trackedGames[0]` se indexaban sin comprobar que la lista tuviera algo.
    Con un partido a medio enriquecer eso reventaba el comando entero; en slash
    eso se ve como "la aplicación no responde".
-7. **Traducidos.** Eran los últimos cuatro comandos íntegramente en español: 12
-   mensajes a pelo y las cuatro descripciones de la lista de Discord. Ahora
-   pasan por `utils.i18n` como el resto, así que un servidor con `/lang en`
-   recibe `/partida` y `/next` en inglés.
+6. **Traducidos.** Eran los últimos comandos íntegramente en español: 12 mensajes
+   a pelo y las descripciones de la lista de Discord. Ahora pasan por
+   `utils.i18n` como el resto, así que un servidor con `/language es` los recibe
+   en español.
 """
 
 from __future__ import annotations
@@ -35,15 +39,17 @@ import nextcord
 from nextcord.ext import commands, tasks
 
 from core import health as salud
-from core.dual_command import PERMISO_ADMIN, dual_cog
+from apis.dpm_api import LIGAS
+from core.dual_command import slash_cog, slash_opciones_cog
 from core.responder import Respuesta
 from esports_extension.models.match import EventDetails, ScheduleEvent
 from esports_extension.models.tracker import TrackedMatch, TrackedStatus
 from esports_extension.services.embed_service import EmbedService
-from esports_extension.services.storage import (
-    load_notification_channel,
-    remove_notification_channel,
-    save_notification_channel,
+from esports_extension.services.storage import load_notification_channel
+from tracking.soloq.channel_targets import (
+    ESPORTS,
+    acepta_esports,
+    objetivos_de,
 )
 from esports_extension.utils.buttons import ScoreButtonView
 from esports_extension.utils.time_utils import get_network_time
@@ -134,7 +140,7 @@ class EsportsCommands(commands.Cog):
                     # Antes esto era un print cada 30 s por cada servidor sin
                     # configurar: el ruido más constante de la consola.
                     log.debug(
-                        "Servidor %s sin canal de esports (usa /setlivechannel).",
+                        "Servidor %s sin canal de esports (usa /subscribe type:esports).",
                         guild.id,
                     )
                     continue
@@ -146,7 +152,29 @@ class EsportsCommands(commands.Cog):
                         guild.id,
                     )
                     continue
-                await self.tracker.notify_new_games(channel)
+                # Un canal puede haber pedido algo concreto (`/subscribe esports
+                # lck`). Sin objetivos se manda todo, que es como funcionaba
+                # antes de que existieran los objetivos por canal.
+                objetivos = objetivos_de(guild.id, channel_id).get(ESPORTS)
+                acepta = None
+                if objetivos:
+                    def acepta(match, _objetivos=objetivos):  # noqa: ANN001
+                        equipos = tuple(
+                            valor
+                            for equipo in (getattr(match, "teamsEventDetails", None) or [])
+                            for valor in (
+                                getattr(equipo, "code", "") or "",
+                                getattr(equipo, "name", "") or "",
+                            )
+                            if valor
+                        )
+                        return acepta_esports(
+                            _objetivos,
+                            liga=getattr(match, "league_name", "") or "",
+                            equipos=equipos,
+                        )
+
+                await self.tracker.notify_new_games(channel, acepta=acepta)
         except Exception:
             log.exception("Error repartiendo las notificaciones de esports.")
 
@@ -245,7 +273,37 @@ class EsportsCommands(commands.Cog):
 # /partida
 # ---------------------------------------------------------------------- #
 
-async def _cuerpo_partida(cog: EsportsCommands, res: Respuesta) -> None:
+def _liga_del_partido(match) -> str:
+    """El nombre de liga del partido, normalizado para poder comparar.
+
+    La API de esports de Riot da nombres como `LCK` o `LEC`, y a veces con
+    patrocinador (`LCK CL`). Se compara en minúsculas y sin espacios sobrantes
+    contra el nombre largo del catálogo y contra su código, porque exigir
+    coincidencia exacta haría que el filtro no encontrase nunca nada y eso se ve
+    igual que una avería.
+    """
+    return " ".join(str(getattr(match, "league_name", "") or "").lower().split())
+
+
+def _pasa_el_filtro(match, liga: str) -> bool:
+    """¿Este partido es de esa liga? `liga` viene como código (`lec`, `lck`)."""
+    if not liga:
+        return True
+    codigo = liga.strip().lower()
+    nombre = (LIGAS.get(codigo) or "").lower()
+    etiqueta = " ".join(nombre.split(" · ")[0].lower().split())
+    del_partido = _liga_del_partido(match)
+    if not del_partido:
+        return False
+    return (
+        del_partido == codigo
+        or del_partido == etiqueta
+        or del_partido.startswith(etiqueta + " ")
+        or (etiqueta and etiqueta in del_partido)
+    )
+
+
+async def _cuerpo_partida(cog: EsportsCommands, res: Respuesta, valores: dict | None = None) -> None:
     _ = tr(res.guild_id)
     await res.esperando(_("esports.buscando"))
 
@@ -267,6 +325,21 @@ async def _cuerpo_partida(cog: EsportsCommands, res: Respuesta) -> None:
         if (m.status == TrackedStatus.DETECTED or m.status == "detected")
         and m.state == "inProgress"
     ]
+
+    # El filtro de liga se aplica sobre lo que ya está en memoria: no cuesta una
+    # sola llamada. Si el filtro deja la lista vacía se dice qué ligas sí tienen
+    # partido, porque un vacío sin explicación se lee como avería.
+    liga = ((valores or {}).get("league") or "").strip()
+    if liga:
+        ligas_disponibles = sorted({_liga_del_partido(m) for m in en_vivo if _liga_del_partido(m)})
+        en_vivo = [m for m in en_vivo if _pasa_el_filtro(m, liga)]
+        if not en_vivo:
+            aviso = _("esports.sin_partidas_liga", liga=liga.upper())
+            if ligas_disponibles:
+                aviso += "\n" + _("esports.otras_ligas", ligas=", ".join(ligas_disponibles))
+            await res.error(aviso)
+            return
+
     if not en_vivo:
         await res.error(_("esports.sin_partidas"))
         return
@@ -461,74 +534,12 @@ async def _cuerpo_next(cog: EsportsCommands, res: Respuesta) -> None:
 
 
 # ---------------------------------------------------------------------- #
-# /setlivechannel · /removelivechannel
+# Los canales de avisos (SoloQ y esports) se configuran con /subscribe,
+# /unsubscribe, /channels y /mute, que viven juntos en
+# `core/notification_config_commands.py`: configurar canales es una cosa, no
+# dos, y tener la mitad aquí obligaba a mantener dos veces lo mismo. Se
+# movieron el 22-09-2026.
 # ---------------------------------------------------------------------- #
-
-async def _cuerpo_setlivechannel(cog: EsportsCommands, res: Respuesta) -> None:
-    _ = tr(res.guild_id)
-
-    if res.guild_id is None:
-        await res.error(_("error.solo_en_servidor"))
-        return
-    if not res.es_admin():
-        await res.error(_("esports.canal_solo_admin"))
-        return
-
-    canal = res.canal
-    try:
-        save_notification_channel(res.guild_id, canal.id)
-    except OSError:
-        log.exception("No se pudo guardar el canal de esports.")
-        await res.error(_("esports.canal_fallo_guardar"))
-        return
-
-    aviso = ""
-    if isinstance(canal, nextcord.TextChannel) and res.guild is not None:
-        permisos = canal.permissions_for(res.guild.me)
-        faltan = [
-            nombre
-            for nombre, tiene in (
-                (_("permisos.enviar_mensajes"), permisos.send_messages),
-                (_("permisos.insertar_enlaces"), permisos.embed_links),
-                (_("permisos.adjuntar_archivos"), permisos.attach_files),
-            )
-            if not tiene
-        ]
-        if faltan:
-            # La misma clave que usa `/setchannel`: es el mismo aviso y no tiene
-            # sentido mantener dos redacciones del mismo problema.
-            aviso = _(
-                "setchannel.sin_permisos_canal",
-                permisos=", ".join(f"**{p}**" for p in faltan),
-            )
-
-    mencion = (
-        canal.mention
-        if isinstance(canal, nextcord.TextChannel)
-        else _("setchannel.este_canal")
-    )
-    await res.send(_("esports.canal_ok", canal=mencion, aviso=aviso))
-
-
-async def _cuerpo_removelivechannel(cog: EsportsCommands, res: Respuesta) -> None:
-    _ = tr(res.guild_id)
-
-    if res.guild_id is None:
-        await res.error(_("error.solo_en_servidor"))
-        return
-    if not res.es_admin():
-        await res.error(_("error.solo_admin"))
-        return
-
-    try:
-        remove_notification_channel(res.guild_id)
-    except OSError:
-        log.exception("No se pudo borrar el canal de esports.")
-        await res.error(_("esports.canal_fallo_borrar"))
-        return
-
-    await res.send(_("esports.canal_desactivado"))
-
 
 # ---------------------------------------------------------------------- #
 # Registro
@@ -543,34 +554,31 @@ async def setup(bot: commands.Bot) -> None:
 
     # Los cuerpos van fuera de la clase, así que hay que darles el cog. Se
     # captura en la clausura en vez de pasarlo por parámetro para que la firma
-    # sea la que `dual` espera.
-    dual_cog(
+    # sea la que `slash` espera.
+    # `league` es opcional y filtra sobre los partidos que el tracker ya tiene
+    # en memoria: no genera ninguna llamada. La comparación es laxa a propósito
+    # (ver `_liga_del_partido`), porque el nombre de la liga lo pone la API de
+    # esports de Riot y no tiene por qué coincidir letra a letra con el nuestro.
+    slash_opciones_cog(
         cog,
         bot,
-        "partida",
-        "cmd.partida.desc",
-        lambda res: _cuerpo_partida(cog, res),
+        "cmd.esports.name",
+        "cmd.esports.desc",
+        lambda res, valores: _cuerpo_partida(cog, res, valores),
+        opciones=(
+            ("cmd.esports.arg", "cmd.esports.arg_desc",
+             {nombre: codigo for codigo, nombre in LIGAS.items()}, ""),
+        ),
     )
-    dual_cog(
+    slash_cog(
         cog,
         bot,
-        "next",
-        "cmd.next.desc",
+        "cmd.schedule.name",
+        "cmd.schedule.desc",
         lambda res: _cuerpo_next(cog, res),
     )
-    dual_cog(
-        cog,
-        bot,
-        "setlivechannel",
-        "cmd.setlivechannel.desc",
-        lambda res: _cuerpo_setlivechannel(cog, res),
-        permiso=PERMISO_ADMIN,
-    )
-    dual_cog(
-        cog,
-        bot,
-        "removelivechannel",
-        "cmd.removelivechannel.desc",
-        lambda res: _cuerpo_removelivechannel(cog, res),
-        permiso=PERMISO_ADMIN,
-    )
+    # Los dos comandos del canal de esports (`setlivechannel` y
+    # `removelivechannel`) ya no están aquí: se unificaron con los de SoloQ en
+    # `/subscribe`, `/unsubscribe`, `/channels` y `/mute`
+    # (`core/notification_config_commands.py`), porque configurar canales es una
+    # sola cosa y tenerla partida en dos sitios duplicaba permisos y avisos.

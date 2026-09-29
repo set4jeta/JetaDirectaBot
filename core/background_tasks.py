@@ -65,31 +65,23 @@ def start_background_tasks(bot):
     _bot_instance = bot
     _tracker_instance = ActiveGameTracker(bot)
 
-    for loop in (
-        check_games_loop,
-        actualizar_puuids_periodico,
-        actualizar_accounts_diario,
-        actualizar_leaderboard_semanal,
-        actualizar_pickrates_semanal,
-        actualizar_infoplayers_por_lotes,
-        sembrar_rosters_faltantes,
-        refrescar_rosters_por_tanda,
-    ):
-        if not loop.is_running():
-            loop.start()
-
-    if config.HISTORIAL_WARM and not precalentar_historial.is_running():
-        precalentar_historial.start()
-
-    if config.RANK_WARM and not refrescar_rangos.is_running():
-        refrescar_rangos.start()
-
-    # Solo si hay token configurado: sin él la tarea no haría nada y estaría
-    # despertando cada 5 minutos para comprobarlo.
+    # Una sola lista (ver `TAREAS_PERIODICAS`) y las condiciones de cada tarea
+    # aquí al lado, en vez de dos listas paralelas que se puedan separar. Las
+    # tres de abajo dependen de configuración: sin la condición arrancarían para
+    # no hacer nada y despertando cada pocos minutos.
     from core import estado_remoto
 
-    if estado_remoto.activo() and not sincronizar_estado.is_running():
-        sincronizar_estado.start()
+    for loop in TAREAS_PERIODICAS:
+        if loop.is_running():
+            continue
+        if loop is precalentar_historial and not config.HISTORIAL_WARM:
+            continue
+        if loop is refrescar_rangos and not config.RANK_WARM:
+            continue
+        # Sin token de GitHub la tarea no tendría nada que hacer.
+        if loop is sincronizar_estado and not estado_remoto.activo():
+            continue
+        loop.start()
 
     log.info(
         "Tareas iniciadas | partidas cada %ss | reparación %s cuentas/h | "
@@ -574,17 +566,51 @@ async def before_refrescar_rangos():
 # Cierre ordenado
 # ---------------------------------------------------------------------- #
 
+# ---------------------------------------------------------------------- #
+# Las tareas periódicas, en una sola lista
+# ---------------------------------------------------------------------- #
+
+#: Todas las `tasks.loop` del bot. **Es la única lista que hay.**
+#:
+#: Antes había dos —una en `start_background_tasks` y otra en
+#: `stop_background_tasks`— y se desincronizaron: `sembrar_rostros_faltantes`,
+#: `refrescar_rosters_por_tanda`, `actualizar_leaderboard_semanal` y
+#: `sincronizar_estado` se arrancaban pero **no se cancelaban al cerrar**. Lo
+#: detectó `scripts/test_shutdown.py`, que compara las dos listas.
+#:
+#: Y no es cosmético: `refrescar_rosters_por_tanda` y
+#: `actualizar_leaderboard_semanal` escriben JSON con un `.tmp` + `os.replace`, y
+#: este proyecto ya tuvo una corrupción de rosters por dos tareas compartiendo el
+#: mismo `.tmp`. Un cierre ordenado que deja tareas escribiendo es exactamente el
+#: escenario que la produjo.
+#:
+#: Se define aquí abajo, después de las tareas, porque necesita los objetos ya
+#: creados; las dos funciones la leen al ejecutarse, no al definirse.
+TAREAS_PERIODICAS: tuple = (
+    check_games_loop,
+    actualizar_puuids_periodico,
+    actualizar_accounts_diario,
+    actualizar_leaderboard_semanal,
+    actualizar_pickrates_semanal,
+    actualizar_infoplayers_por_lotes,
+    sembrar_rosters_faltantes,
+    refrescar_rosters_por_tanda,
+    precalentar_historial,
+    refrescar_rangos,
+    sincronizar_estado,
+)
+
+
+# ---------------------------------------------------------------------- #
+# Apagado
+# ---------------------------------------------------------------------- #
+
 async def stop_background_tasks():
     """Para las tareas y cierra los clientes HTTP."""
-    for loop in (
-        check_games_loop,
-        actualizar_puuids_periodico,
-        actualizar_accounts_diario,
-        actualizar_pickrates_semanal,
-        actualizar_infoplayers_por_lotes,
-        precalentar_historial,
-        refrescar_rangos,
-    ):
+    # Se cancelan **todas**, sin repetir aquí las condiciones del arranque:
+    # cancelar una que no está corriendo es un no-op, y volver a escribir las
+    # condiciones es justo lo que hacía que las dos listas se separaran.
+    for loop in TAREAS_PERIODICAS:
         if loop.is_running():
             loop.cancel()
 

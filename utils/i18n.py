@@ -21,7 +21,7 @@ Reglas que importan
    añade a medias, lo que falte sale en español, no vacío.
 
 3. Nada de esto es thread-safety crítico: el JSON se lee en cada consulta de
-   idioma porque se toca muy poco (arranque y `/lang`), y así un cambio hecho
+   idioma porque se toca muy poco (arranque y `/language`), y así un cambio hecho
    a mano en el fichero se ve sin reiniciar.
 """
 
@@ -42,7 +42,7 @@ _IDIOMAS_PATH = os.path.join(
 
 IDIOMA_POR_DEFECTO = "es"
 
-#: Idiomas que se ofrecen. La clave es lo que se guarda y lo que acepta `/lang`.
+#: Idiomas que se ofrecen. La clave es lo que se guarda y lo que acepta `/language`.
 IDIOMAS: dict[str, str] = {
     "es": "Español",
     "en": "English",
@@ -54,7 +54,7 @@ IDIOMAS: dict[str, str] = {
 #
 # Son DOS capas distintas y conviene no confundirlas:
 #
-# 1. **El cuerpo de la respuesta** va en el idioma del *servidor* (`/lang`),
+# 1. **El cuerpo de la respuesta** va en el idioma del *servidor* (`/language`),
 #    porque un aviso de partida lo leen todos los del canal.
 # 2. **El nombre y la descripción que Discord muestra en el selector de
 #    comandos** los localiza Discord con el idioma del *cliente de cada
@@ -133,10 +133,10 @@ _CATALOGO: dict[str, dict[str, str]] = {
     # admin no sabe cuál quitar y el error no tiene salida.
     "setchannel.cupo": {
         "es": "❌ Tu plan permite {n} canal(es) de avisos y ya los estás usando: "
-              "{canales}.\nQuita uno con `/quitarcanal` en ese canal, o mira "
+              "{canales}.\nQuita uno con `/unsubscribe` en ese canal, o mira "
               "`/premium` para subir el cupo.",
         "en": "❌ Your plan allows {n} alert channel(s) and they're all in use: "
-              "{canales}.\nRemove one with `/quitarcanal` in that channel, or "
+              "{canales}.\nRemove one with `/unsubscribe` in that channel, or "
               "check `/premium` to raise the limit.",
     },
     "setchannel.cuenta": {
@@ -161,7 +161,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "permisos.insertar_enlaces": {"es": "Insertar enlaces", "en": "Embed Links"},
     "permisos.adjuntar_archivos": {"es": "Adjuntar archivos", "en": "Attach Files"},
 
-    # ---- /canales ----
+    # ---- /channel-list ----
     "canales.titulo": {
         "es": "📻 Canales de notificación de SoloQ",
         "en": "📻 SoloQ notification channels",
@@ -177,10 +177,44 @@ _CATALOGO: dict[str, dict[str, str]] = {
               "_(not deleted: they work again if you upgrade)_",
     },
     "canales.como_usar": {
-        "es": "Usa `/setchannel` en un canal para añadirlo y `/quitarcanal` para "
-              "quitarlo. `/unsubscribe` los quita todos.",
-        "en": "Use `/setchannel` in a channel to add it and `/quitarcanal` to "
-              "remove it. `/unsubscribe` removes them all.",
+        "es": "Añade un canal con `/subscribe` donde quieras los avisos y quítalo "
+              "con `/unsubscribe`. `/mute` los apaga todos.",
+        "en": "Add a channel with `/subscribe` where you want the alerts and remove "
+              "it with `/unsubscribe`. `/mute` turns them all off.",
+    },
+    # El canal de esports es uno por servidor, no una lista: se dice aparte para
+    # que no parezca que le falta un cupo.
+    "canales.esports": {
+        "es": "**Avisos de esports:** {canal}",
+        "en": "**Esports alerts:** {canal}",
+    },
+    "canales.ninguno": {"es": "sin canal", "en": "no channel"},
+    # Un canal con objetivos parece uno normal si no se dice lo que pidió.
+    "canales.objetivos": {
+        "es": "🎯 {canal} → {valores}",
+        "en": "🎯 {canal} → {valores}",
+    },
+    # ---- /subscribe con objetivo ----
+    "subscribe.objetivo_ok": {
+        "es": "🎯 Este canal recibirá **solo** {tipo} de **{valor}**.",
+        "en": "🎯 This channel will get **only** {tipo} from **{valor}**.",
+    },
+    "subscribe.objetivo_desconocido": {
+        "es": "❌ No reconozco «{valor}». Vale una liga (`lec`), un equipo (`T1`), "
+              "un pro (`Elyoya`) o una cuenta (`Caps#EUW`).",
+        "en": "❌ I don't recognise “{valor}”. Use a league (`lec`), a team (`T1`), "
+              "a pro (`Elyoya`) or an account (`Caps#EUW`).",
+    },
+    # El aviso que evita el peor fallo: un canal que no recibe nada y sin error.
+    "subscribe.sin_cupo": {
+        "es": "❌ Para recibir los avisos de **{liga}** hay que seguirla, y no cabe "
+              "en tu plan. Quita una con `/leagues` o sube a Pro con `/premium`.",
+        "en": "❌ To get **{liga}** alerts the bot has to follow it, and it doesn't "
+              "fit in your plan. Drop one with `/leagues` or upgrade with `/premium`.",
+    },
+    "subscribe.vuelve_a_todo": {
+        "es": "↩️ Este canal vuelve a recibir todas las ligas del servidor.",
+        "en": "↩️ This channel gets every league the server follows again.",
     },
     "canales.quitado": {
         "es": "✅ {canal} ya no recibirá notificaciones de SoloQ.",
@@ -205,7 +239,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "❌ Something went wrong: {detalle}",
     },
 
-    # ---- /ligas ----
+    # ---- /leagues ----
     "ligas.titulo": {"es": "🏆 Ligas en seguimiento", "en": "🏆 Tracked leagues"},
     "ligas.actuales": {
         "es": "**Ahora mismo sigues:** {ligas}",
@@ -219,9 +253,20 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "Máximo {maximo} liga(s) por servidor.",
         "en": "Maximum {maximo} league(s) per server.",
     },
+    # Solo se enseña si hay un plan por encima del suyo (lo decide el cuerpo):
+    # a quien ya está en el máximo no le sirve saber cuántas tiene Pro.
+    "ligas.planes": {
+        "es": "Con **Pro** son 3 ligas y con **Elite**, 4: `/premium`",
+        "en": "**Pro** allows 3 leagues and **Elite**, 4: `/premium`",
+    },
+    # La pregunta que más se repite: «vale, ¿y esto a dónde llega?».
+    "ligas.a_canal": {
+        "es": "Los avisos llegan a los canales que añadas con `/subscribe`.",
+        "en": "The alerts go to the channels you add with `/subscribe`.",
+    },
     "ligas.como_usar": {
-        "es": "Usa `/ligas lck lcs` para cambiar la selección.",
-        "en": "Use `/ligas lck lcs` to change your selection.",
+        "es": "Usa `/leagues lck lcs` para cambiar la selección.",
+        "en": "Use `/leagues lck lcs` to change your selection.",
     },
     "ligas.actualizado": {
         "es": "✅ Ahora sigues: {ligas}",
@@ -250,9 +295,9 @@ _CATALOGO: dict[str, dict[str, str]] = {
               "_(not deleted: they resume if you upgrade)_",
     },
     "ligas.no_reconocidas": {
-        "es": "❌ No reconozco ninguna de esas ligas. Prueba `/ligas` sin argumentos "
+        "es": "❌ No reconozco ninguna de esas ligas. Prueba `/leagues` sin argumentos "
               "para ver la lista.",
-        "en": "❌ I don't recognise any of those leagues. Try `/ligas` with no "
+        "en": "❌ I don't recognise any of those leagues. Try `/leagues` with no "
               "arguments to see the list.",
     },
     "ligas.nota_plataforma": {
@@ -275,6 +320,19 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "❌ Couldn't fetch the {liga} ranking. The source didn't respond; "
               "try again in a few minutes.",
     },
+    "ranking.sin_rol": {
+        "es": "❌ No hay nadie de **{rol}** en el ranking de {liga}.",
+        "en": "❌ Nobody playing **{rol}** is in the {liga} ranking.",
+    },
+    "ranking.mostrando": {
+        "es": "Mostrando **{n}** de {total}.",
+        "en": "Showing **{n}** of {total}.",
+    },
+    # El rol va aparte y no pegado al número: `de 8{rol}` salía como `de 8MID`.
+    "ranking.solo_rol": {
+        "es": " · solo {rol}",
+        "en": " · {rol} only",
+    },
     "ranking.titulo": {
         "es": "**📊 Ranking SoloQ · {liga}** · {total} jugadores",
         "en": "**📊 SoloQ ranking · {liga}** · {total} players",
@@ -289,7 +347,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "ranking.col_kda": {"es": "KDA", "en": "KDA"},
     "ranking.col_champs": {"es": "Champs", "en": "Champs"},
 
-    # ---- /lang ----
+    # ---- /language ----
     "lang.titulo": {"es": "🌐 Idioma", "en": "🌐 Language"},
     "lang.actual": {
         "es": "El idioma de este servidor es **{idioma}**.",
@@ -400,7 +458,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "Not available for this game.",
     },
     "partida.info_titulo": {
-        "es": "/info <nombre jugador>",
+        "es": "/jugador <nombre jugador>",
         "en": "/info <player name>",
     },
     "partida.info_valor": {
@@ -440,7 +498,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
 
     # ---- /match ----
     "match.falta_nombre": {
-        "es": "❌ Indica un nombre de jugador. Ejemplo: `/match jugador:elk`",
+        "es": "❌ Indica un nombre de jugador. Ejemplo: `/match player:elk`",
         "en": "❌ Give me a player name. Example: `/match player:elk`",
     },
     "match.no_encontrado": {
@@ -493,6 +551,27 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "⏳ Buscando jugadores en partida...",
         "en": "⏳ Looking for players in game...",
     },
+    # Un filtro que devuelve vacío sin explicar nada parece una avería, y decir
+    # «nadie de CBLOL está en partida» cuando CBLOL **no se sigue** es mentir: el
+    # bot no lo sabe. Son dos casos distintos y se dicen distinto.
+    "live.liga_no_seguida": {
+        "es": "**{liga}** no se está siguiendo, así que no sé quién juega ahí. "
+              "Se añade con `/leagues`.",
+        "en": "**{liga}** isn't being tracked, so I don't know who plays there. "
+              "Add it with `/leagues`.",
+    },
+    "live.ligas_seguidas": {
+        "es": "Ahora mismo se siguen: {ligas}",
+        "en": "Currently tracking: {ligas}",
+    },
+    "live.nadie_liga": {
+        "es": "Nadie de **{liga}** está en partida ahora mismo.",
+        "en": "Nobody from **{liga}** is in a game right now.",
+    },
+    "live.otras_ligas": {
+        "es": "Ahora mismo hay partidas en: {ligas}",
+        "en": "There are games right now in: {ligas}",
+    },
     "live.nadie": {
         "es": "No hay jugadores en partida en este momento.\n"
               "*(Puede haber partidas no detectadas aún. Usa `/match <jugador>` "
@@ -525,7 +604,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
 
     # ---- /team ----
     "team.falta_equipo": {
-        "es": "❌ Indica un equipo. Ejemplo: `/team equipo:G2`",
+        "es": "❌ Indica un equipo. Ejemplo: `/team team:G2`",
         "en": "❌ Give me a team. Example: `/team team:G2`",
     },
     "team.equipos_con_jugadores": {
@@ -544,6 +623,12 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "Equipos disponibles: {equipos}",
         "en": "Available teams: {equipos}",
     },
+    # Se enseña en vez de la lista completa cuando el tricode escrito se parece
+    # a alguno. El `equipos` ya viene con el nombre largo: "MKOI (Movistar KOI)".
+    "team.quisiste_decir": {
+        "es": "¿Quisiste decir **{equipos}**?",
+        "en": "Did you mean **{equipos}**?",
+    },
     "team.error_rango": {
         "es": "**{jugador}** - error consultando el rango",
         "en": "**{jugador}** - error fetching the rank",
@@ -554,8 +639,14 @@ _CATALOGO: dict[str, dict[str, str]] = {
     },
     "team.sin_cuenta": {"es": "(sin cuenta)", "en": "(no account)"},
     # Lleva el espacio y el punto medio delante porque se pega al final de la
-    # línea del jugador, igual que antes de traducirlo.
-    "team.mejor_de": {"es": " · mejor de {total}", "en": " · best of {total}"},
+    # línea del jugador, igual que antes de traducirlo. Dice "cuentas" a
+    # propósito: sin la palabra, " · mejor de 4" no se entendía (el dueño lo
+    # preguntó tal cual: "¿qué es eso de mejor de 4?"). Significa que el rango
+    # enseñado es el de la mejor cuenta de las {total} que tiene el jugador.
+    "team.mejor_de": {
+        "es": " · mejor de {total} cuentas",
+        "en": " · best of {total} accounts",
+    },
     "team.titulo": {
         "es": "**Jugadores de {equipo} ({nombre}):**",
         "en": "**{equipo} players ({nombre}):**",
@@ -599,7 +690,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "❌ Not enough data to show '{nombre}'.",
     },
 
-    # ---- Ficha de jugador (ui/player_info_embed.py) ----
+    # ---- Ficha de jugador (ui/info_info_embed.py) ----
     "info.embed_descripcion": {
         "es": "Equipo: **{equipo}** | País: {pais}",
         "en": "Team: **{equipo}** | Country: {pais}",
@@ -668,7 +759,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "info.hace_min": {"es": "{n} min ago", "en": "{n} min ago"},
     "info.ahora_mismo": {"es": "just now", "en": "just now"},
 
-    # ---- /historial ----
+    # ---- /history ----
     "historial.consultando": {
         "es": "⏳ Consultando el historial...",
         "en": "⏳ Fetching the match history...",
@@ -687,11 +778,24 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "**Últimas {n} partidas (máximo 1 por jugador):**",
         "en": "**Latest {n} games (max 1 per player):**",
     },
+    "historial.cabecera_liga": {
+        "es": "**Últimas {n} partidas de SoloQ · {liga} (máximo 1 por jugador):**",
+        "en": "**Latest {n} SoloQ games · {liga} (at most 1 per player):**",
+    },
+    # Decía «entre los seguidos», y eso confundía: `/history` no mira lo que
+    # sigues, mira el **roster descargado** (las 20 ligas, ~900 cuentas). El
+    # mensaje tiene que decir de qué depende de verdad.
+    "historial.liga_sin_jugadores": {
+        "es": "❌ No tengo cuentas de **{liga}** descargadas, así que no puedo "
+              "mirar su historial. Se descargan solas cada día.",
+        "en": "❌ I have no **{liga}** accounts downloaded, so I can't look up "
+              "their history. They refresh on their own every day.",
+    },
     "historial.como_usar": {
-        "es": "Para ver las de un jugador: `/historial jugador:<nick>` "
-              "o `/historial jugador:<gameName#tag>`",
-        "en": "For a single player: `/historial player:<nick>` "
-              "or `/historial player:<gameName#tag>`",
+        "es": "Puedes pedir una liga (`/history lec`), un jugador "
+              "(`/history Elyoya`) o una cuenta suya (`/history Caps#EUW`).",
+        "en": "You can ask for a league (`/history lec`), a player "
+              "(`/history Elyoya`) or one of their accounts (`/history Caps#EUW`).",
     },
     "historial.jugador_no_encontrado": {
         "es": "No se encontró el jugador o cuenta '{nombre}'.",
@@ -732,6 +836,25 @@ _CATALOGO: dict[str, dict[str, str]] = {
     },
     "health.campo_fuentes": {"es": "Fuentes de datos", "en": "Data sources"},
     "health.campo_tareas": {"es": "Tareas automáticas", "en": "Background tasks"},
+    # --- Salida de red del mes ------------------------------------------ #
+    #
+    # Existe porque el 29-09-2026 Render suspendió el bot 3 días por pasarse del
+    # ancho de banda incluido y **no había forma de verlo venir**. Este campo es
+    # lo que convierte esa sorpresa en un aviso a tiempo.
+    "health.campo_salida": {
+        "es": "Salida de red (mes)",
+        "en": "Network egress (month)",
+    },
+    "health.salida": {
+        "es": "{mb} de {tope} MB ({pct} %) · {mensajes} mensajes",
+        "en": "{mb} of {tope} MB ({pct}%) · {mensajes} messages",
+    },
+    "health.salida_aviso": {
+        "es": "\n⚠️ Queda poco margen. Si se agota, los avisos salen sin el "
+              "fichero de espectar, pero **siguen saliendo**.",
+        "en": "\n⚠️ Little headroom left. If it runs out, alerts go out without "
+              "the spectate file, but they **still go out**.",
+    },
     "health.campo_atencion": {"es": "⚠️ Atención", "en": "⚠️ Heads up"},
     "health.averias": {
         "es": "Hay fuentes con fallos repetidos: {fuentes}.\nLos comandos siguen "
@@ -776,8 +899,18 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "🟢 **{jugadores} players** · {cuentas} accounts · {equipos} teams",
     },
     "health.sin_puuid": {
-        "es": "⚠️ {n} cuenta(s) sin PUUID",
-        "en": "⚠️ {n} account(s) with no PUUID",
+        "es": "⚠️ {n} cuenta(s) sin PUUID pendiente(s) de reparar",
+        "en": "⚠️ {n} account(s) with no PUUID still to repair",
+    },
+    # Cuentas que Riot ya no reconoce: se renombraron o se borraron. El bot las
+    # guarda por si vuelven, pero no las consulta. No es una avería, así que va
+    # sin "⚠️": el 22-09-2026 el dueño preguntó por qué salían 218 y resultó que
+    # eran todas de este tipo, sin nada roto.
+    "health.retiradas": {
+        "es": "♻️ {n} cuenta(s) retirada(s): Riot ya no reconoce ese nombre "
+              "(renombrada o borrada), no se consultan",
+        "en": "♻️ {n} retired account(s): Riot no longer knows that name "
+              "(renamed or deleted), not queried",
     },
     "health.jugadores_sin_cuenta": {
         "es": "⚠️ {n} jugador(es) sin ninguna cuenta",
@@ -895,11 +1028,11 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "premium.intro": {
         "es": "**Todo lo importante es gratis y lo seguirá siendo**: los avisos "
               "cuando un pro entra en partida, `/live`, `/match`, `/info`, "
-              "`/ranking`, `/historial` y los partidos de esports.\n"
+              "`/ranking`, `/history` y los partidos de esports.\n"
               "Los planes solo suben los **cupos**.",
         "en": "**Everything that matters is free and always will be**: alerts "
               "when a pro starts a game, `/live`, `/match`, `/info`, "
-              "`/ranking`, `/historial` and esports matches.\n"
+              "`/ranking`, `/history` and esports matches.\n"
               "Plans only raise the **limits**.",
     },
     "premium.tu_plan": {
@@ -913,7 +1046,6 @@ _CATALOGO: dict[str, dict[str, str]] = {
     # iguales en los dos idiomas, no porque falte traducirlos.
     "premium.plan_gratis": {"es": "Gratis", "en": "Free"},
     "premium.plan_pro": {"es": "Pro", "en": "Pro"},
-    "premium.plan_elite": {"es": "Elite", "en": "Elite"},
     "premium.precio_mes": {"es": "{precio} €/mes", "en": "€{precio}/month"},
     "premium.cupo_ligas": {
         "es": "{n} liga(s) a la vez",
@@ -954,10 +1086,113 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "This bot doesn't sell in-game advantages and doesn't take bets.",
     },
 
-    # ---- Esports: /partida, /next, /setlivechannel, /removelivechannel ----
+    # ---- Apoyo al proyecto (22-09-2026) ---------------------------------- #
+    #
+    # El discurso que el dueño pidió: explicar que los cupos los pone Riot, no
+    # nosotros, y convertir eso en una petición de ayuda.
+    #
+    # Cómo está construido, porque no es texto suelto:
+    #
+    # 1. **La restricción es externa y con número.** «Riot nos da 500 peticiones
+    #    cada 10 segundos» es verificable; «por limitaciones técnicas» no. Un
+    #    dato concreto es lo que separa una explicación de una excusa.
+    # 2. **No es un muro de pago.** El texto dice dos veces que el aviso es
+    #    gratis y lo seguirá siendo, porque si alguien cree que hay que pagar
+    #    para recibir avisos, no instala el bot y entonces no hay nada.
+    # 3. **La escalera va de menos a más esfuerzo**, y la primera pata —compartir—
+    #    es la que más sirve de verdad: más servidores es exactamente lo que Riot
+    #    mira para dar más cuota. No es un premio de consolación para quien no
+    #    paga; es el mecanismo. Eso es lo que hace que la petición sea honesta en
+    #    vez de un truco.
+    # 4. **Sin culpabilidad.** Nada de «ayúdanos o cerramos». Una petición que
+    #    hace sentir mal convierte peor y quema al que ya estaba.
+    "apoyo.titulo": {
+        "es": "🤝 Por qué el plan gratis tiene límites",
+        "en": "🤝 Why the free plan has limits",
+    },
+    "apoyo.por_que": {
+        "es": "No es una decisión nuestra. **Riot Games nos da {req} peticiones "
+              "cada {seg} segundos** y de ahí sale todo: con esa cuota el bot "
+              "puede seguir {ligas} ligas a la vez por servidor. Es un techo "
+              "físico, no un muro de pago. El aviso de partida —lo que importa— "
+              "es gratis y lo seguirá siendo.",
+        "en": "It isn't our call. **Riot Games gives us {req} requests every "
+              "{seg} seconds**, and everything comes from there: with that quota "
+              "the bot can follow {ligas} leagues at a time per server. It's a "
+              "physical ceiling, not a paywall. The game alert —the part that "
+              "matters— is free and will stay free.",
+    },
+    "apoyo.comunidad": {
+        "es": "**Cuantos más servidores usan el bot, más comunidad podemos "
+              "demostrarle a Riot**, y más cuota podemos pedir. Más cuota son "
+              "más límites para todos, el plan gratis incluido. Así que esto no "
+              "va de pagar: va de crecer.",
+        "en": "**The more servers use the bot, the bigger the community we can "
+              "show Riot**, and the bigger the quota we can ask for. A bigger "
+              "quota means higher limits for everyone, free plan included. So "
+              "this isn't about paying: it's about growing.",
+    },
+    #: Nombre del campo con las acciones. Va **sin** negrita ni emoji de más
+    #: porque es el `name` de un campo de embed, no texto corrido.
+    "apoyo.acciones": {
+        "es": "🎯 Cómo ayudas",
+        "en": "🎯 How you help",
+    },
+    "apoyo.acciones_nota": {
+        "es": "Por orden de lo que más sirve:",
+        "en": "In order of what works best:",
+    },
+    "apoyo.compartir": {
+        "es": "**Compártelo** — es gratis y es lo que de verdad sube los "
+              "límites. Un servidor más es un argumento más.",
+        "en": "**Share it** — it's free, and it's what actually raises the "
+              "limits. One more server is one more argument.",
+    },
+    "apoyo.invitar": {
+        "es": "**Añádelo a tu servidor** — aunque tú no lo uses: cada servidor "
+              "cuenta.",
+        "en": "**Add it to your server** — even if you don't use it yourself: "
+              "every server counts.",
+    },
+    "apoyo.amigo": {
+        "es": "**Díselo a alguien** que juegue a LoL o siga esports.",
+        "en": "**Tell someone** who plays LoL or follows esports.",
+    },
+    "apoyo.donar": {
+        "es": "**Apoya en Ko-fi** — si prefieres poner dinero. Paga el servidor "
+              "y acelera el proceso.",
+        "en": "**Support on Ko-fi** — if you'd rather put money in. It pays for "
+              "the server and speeds things up.",
+    },
+    "apoyo.gracias": {
+        "es": "Gracias de verdad: esto lo lleva una persona.",
+        "en": "Thank you, genuinely: this is run by one person.",
+    },
+    # El empujón corto que se añade al final de un mensaje de cupo agotado.
+    # Es el momento en que alguien topa con el límite, así que es donde la
+    # explicación se lee; pero va **una línea**, no el bloque entero: quien está
+    # resolviendo algo quiere el comando, no un discurso.
+    "apoyo.cupo_corto": {
+        "es": "ℹ️ Los cupos los pone la cuota de la API de Riot, no nosotros. "
+              "Con más gente usando el bot podemos pedirle más y subirlos todos: "
+              "`/premium` lo explica.",
+        "en": "ℹ️ These limits come from Riot's API quota, not from us. With "
+              "more people using the bot we can ask for more and raise them for "
+              "everyone: `/premium` explains it.",
+    },
+
+    # ---- Esports: /esports-live, /esports-schedule, /esports-channel-add, /esports-channel-remove ----
     "esports.buscando": {
         "es": "⏳ Buscando partidas en vivo...",
         "en": "⏳ Looking for live matches...",
+    },
+    "esports.sin_partidas_liga": {
+        "es": "No hay partidos de **{liga}** en vivo ahora mismo.",
+        "en": "No **{liga}** matches are live right now.",
+    },
+    "esports.otras_ligas": {
+        "es": "En vivo ahora: {ligas}",
+        "en": "Live right now: {ligas}",
     },
     "esports.sin_partidas": {
         "es": "❌ No hay partidas en vivo en este momento.",
@@ -1007,20 +1242,28 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "✅ Notificaciones de esports desactivadas para este servidor.",
         "en": "✅ Esports notifications disabled for this server.",
     },
+    "esports.canal_ya_apagado": {
+        "es": "ℹ️ Este servidor ya no tenía avisos de esports.",
+        "en": "ℹ️ This server had no esports alerts anyway.",
+    },
+    "esports.canal_no_estaba": {
+        "es": "ℹ️ Los avisos de esports no van a este canal. Míralos con `/channels`.",
+        "en": "ℹ️ Esports alerts don't go to this channel. Check them with `/channels`.",
+    },
 
     # ---- Bienvenida al entrar en un servidor ----
     # Este es literalmente el primer mensaje que un servidor nuevo ve del bot, y
-    # se manda **antes** de que nadie haya podido tocar `/lang`, así que el
+    # se manda **antes** de que nadie haya podido tocar `/language`, así que el
     # idioma sale de `preferred_locale` del servidor, no de la configuración.
     "bienvenida.saludo": {
         "es": "¡Hola! Usa `/help` para ver todo lo que puedo hacer.\n"
               "Para recibir avisos cuando un pro entre en partida: "
-              "`/setchannel` en el canal que quieras.\n"
-              "Idioma: `/lang en` · Ligas: `/ligas`",
+              "`/subscribe` en el canal que quieras.\n"
+              "Idioma: `/language en` · Ligas: `/leagues`",
         "en": "Hi! Use `/help` to see everything I can do.\n"
-              "To get alerts when a pro starts a game: `/setchannel` in "
+              "To get alerts when a pro starts a game: `/subscribe` in "
               "whichever channel you want.\n"
-              "Language: `/lang es` · Leagues: `/ligas`",
+              "Language: `/language es` · Leagues: `/leagues`",
     },
 
     # ---- Aviso de partida (adjunto .bat) ----
@@ -1029,7 +1272,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "⬇️ **File to spectate the game:**",
     },
 
-    # ---- Avisos personales por DM (/seguir, /dejarseguir, /misavisos) ----
+    # ---- Avisos personales por DM (/track, /untrack, /following) ----
     #
     # La mitad de estas cadenas existen por una limitación de Discord, no por
     # estética: un bot **no puede** escribir a alguien con quien no comparte
@@ -1043,13 +1286,13 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "❌ I couldn't identify your account. Please try again.",
     },
     "avisos.idioma_fijado": {
-        "es": "🌐 Te hablaré en **{idioma}**. Cámbialo cuando quieras con `/lang`.",
-        "en": "🌐 I'll talk to you in **{idioma}**. Change it anytime with `/lang`.",
+        "es": "🌐 Te hablaré en **{idioma}**. Cámbialo cuando quieras con `/language`.",
+        "en": "🌐 I'll talk to you in **{idioma}**. Change it anytime with `/language`.",
     },
     "avisos.dm_sin_probar": {
-        "es": "📬 Aún no te he escrito nunca por privado. Comprueba con `/misavisos` "
+        "es": "📬 Aún no te he escrito nunca por privado. Comprueba con `/following` "
               "que puedo hacerlo antes de que empiece una partida.",
-        "en": "📬 I've never sent you a DM yet. Check with `/misavisos` that I can "
+        "en": "📬 I've never sent you a DM yet. Check with `/following` that I can "
               "before a game starts.",
     },
     # 50007: los DM cerrados los abre el propio usuario, y el ajuste está por
@@ -1057,19 +1300,19 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "avisos.dm_cerrado": {
         "es": "⚠️ Tienes los mensajes privados cerrados, así que no puedo avisarte. "
               "Ábrelos en *Ajustes del servidor → Privacidad → Mensajes directos* "
-              "y prueba otra vez con `/misavisos`.",
+              "y prueba otra vez con `/following`.",
         "en": "⚠️ Your direct messages are closed, so I can't alert you. Enable them "
               "in *Server Settings → Privacy → Direct Messages* and try "
-              "`/misavisos` again.",
+              "`/following` again.",
     },
     # 50278: esto no lo arregla ningún ajuste. Hace falta un servidor en común.
     "avisos.dm_sin_guild": {
         "es": "⚠️ No compartimos ningún servidor, y Discord no me deja escribir a "
               "alguien en esa situación. Entra en un servidor donde esté el bot "
-              "(o invítalo al tuyo) y vuelve a probar con `/misavisos`.",
+              "(o invítalo al tuyo) y vuelve a probar con `/following`.",
         "en": "⚠️ We don't share any server, and Discord won't let me message "
               "someone in that situation. Join a server where the bot is (or "
-              "invite it to yours) and try `/misavisos` again.",
+              "invite it to yours) and try `/following` again.",
     },
     "avisos.dm_sin_guild_enlace": {
         "es": "⚠️ No compartimos ningún servidor, y Discord no me deja escribir a "
@@ -1079,13 +1322,13 @@ _CATALOGO: dict[str, dict[str, str]] = {
               "you: {url}",
     },
 
-    # ---- /seguir ----
+    # ---- /track ----
     "seguir.como_usar": {
-        "es": "Usa `/seguir Elyoya` para un jugador, `/seguir lec` para una liga "
-              "entera, y `/dejarseguir` para quitarlo. `/misavisos` te dice cómo "
+        "es": "Usa `/track Elyoya` para un jugador, `/track lec` para una liga "
+              "entera, y `/untrack` para quitarlo. `/following` te dice cómo "
               "lo tienes todo.",
-        "en": "Use `/seguir Elyoya` for one player, `/seguir lec` for a whole "
-              "league, and `/dejarseguir` to remove it. `/misavisos` shows how "
+        "en": "Use `/track Elyoya` for one player, `/track lec` for a whole "
+              "league, and `/untrack` to remove it. `/following` shows how "
               "everything stands.",
     },
     "seguir.repetido": {
@@ -1257,26 +1500,26 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "❌ Your plan allows {n} league(s) and you're already using them all.",
     },
     "seguir.cupo_salida": {
-        "es": "Estás en el plan **{plan}**. Quita algo con `/dejarseguir` o mira "
+        "es": "Estás en el plan **{plan}**. Quita algo con `/untrack` o mira "
               "`/premium`.",
-        "en": "You're on the **{plan}** plan. Remove something with `/dejarseguir` "
+        "en": "You're on the **{plan}** plan. Remove something with `/untrack` "
               "or check `/premium`.",
     },
 
-    # ---- /dejarseguir ----
+    # ---- /untrack ----
     "dejarseguir.falta_valor": {
-        "es": "Dime qué quieres dejar de seguir: `/dejarseguir Elyoya`, "
-              "`/dejarseguir lec`, o `/dejarseguir todo` para borrarlo todo.",
-        "en": "Tell me what to stop following: `/dejarseguir Elyoya`, "
-              "`/dejarseguir lec`, or `/dejarseguir all` to remove everything.",
+        "es": "Dime qué quieres dejar de seguir: `/untrack Elyoya`, "
+              "`/untrack lec`, o `/untrack todo` para borrarlo todo.",
+        "en": "Tell me what to stop following: `/untrack Elyoya`, "
+              "`/untrack lec`, or `/untrack all` to remove everything.",
     },
     "dejarseguir.ok": {
         "es": "✅ Ya no te avisaré de {valor}.",
         "en": "✅ I'll stop alerting you about {valor}.",
     },
     "dejarseguir.no_estaba": {
-        "es": "ℹ️ No seguías **{valor}**. Mira `/misavisos` para ver qué tienes.",
-        "en": "ℹ️ You weren't following **{valor}**. Check `/misavisos` to see "
+        "es": "ℹ️ No seguías **{valor}**. Mira `/following` para ver qué tienes.",
+        "en": "ℹ️ You weren't following **{valor}**. Check `/following` to see "
               "what you have.",
     },
     "dejarseguir.todo": {
@@ -1289,7 +1532,7 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "ℹ️ You had no personal subscriptions.",
     },
 
-    # ---- /misavisos ----
+    # ---- /following ----
     "misavisos.titulo": {
         "es": "🔔 Tus avisos privados",
         "en": "🔔 Your DM alerts",
@@ -1327,8 +1570,8 @@ _CATALOGO: dict[str, dict[str, str]] = {
     "misavisos.plan": {"es": "💠 Plan: **{plan}**", "en": "💠 Plan: **{plan}**"},
     "misavisos.idioma": {"es": "🌐 Idioma: {idioma}", "en": "🌐 Language: {idioma}"},
     "misavisos.idioma_sin_elegir": {
-        "es": "sin elegir (`/lang`)",
-        "en": "not set (`/lang`)",
+        "es": "sin elegir (`/language`)",
+        "en": "not set (`/language`)",
     },
     "misavisos.dm_ok": {
         "es": "📬 Entrega: **funciona**, puedo escribirte por privado.",
@@ -1346,187 +1589,251 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "📬 Entrega: **imposible** (no compartimos ningún servidor).",
         "en": "📬 Delivery: **impossible** (we don't share any server).",
     },
-    # El DM de prueba de `/misavisos`. Tiene que explicarse solo: llega al chat
+    # El DM de prueba de `/following`. Tiene que explicarse solo: llega al chat
     # privado, fuera de contexto, y puede ser el primer mensaje que esa persona
     # recibe del bot.
     "misavisos.dm_prueba": {
-        "es": "✅ Prueba de `/misavisos`: puedo escribirte por aquí, así que tus "
+        "es": "✅ Prueba de `/following`: puedo escribirte por aquí, así que tus "
               "avisos de partida te llegarán a este chat.",
-        "en": "✅ `/misavisos` test: I can message you here, so your game alerts "
+        "en": "✅ `/following` test: I can message you here, so your game alerts "
               "will arrive in this chat.",
     },
     "misavisos.como_usar": {
-        "es": "Añade con `/seguir <jugador o liga>` y quita con `/dejarseguir`.",
-        "en": "Add with `/seguir <player or league>` and remove with "
-              "`/dejarseguir`.",
+        "es": "Añade con `/track <jugador o liga>` y quita con `/untrack`.",
+        "en": "Add with `/track <player or league>` and remove with "
+              "`/untrack`.",
     },
 
-    # ---- Interfaz de Discord: descripciones de los comandos ----
+    # ---- Interfaz de Discord: nombres y descripciones de los comandos ----
     #
     # Estas cadenas no las escribe el bot en ningún mensaje: se le mandan a
-    # Discord al registrar los comandos, y es Discord quien elige cuál mostrar
-    # según el idioma del **cliente de cada usuario** (no según `/lang`).
+    # Discord al registrar los comandos. **Solo se manda el inglés**, por decisión
+    # del dueño (22-09-2026): la interfaz de comandos es solo en inglés, que es lo
+    # universal y lo que se entiende en cualquier servidor. El español de cada
+    # entrada se guarda como documentación de qué significa, no viaja a Discord.
     #
-    # Dos reglas duras:
-    # 1. Máximo 100 caracteres. Si una se pasa, Discord rechaza el registro
-    #    entero con un 400 y el bot se queda **sin ningún** slash command.
-    # 2. Los nombres de opción tienen que ir en minúsculas y sin espacios.
-    # Las dos las comprueba `scripts/test_slash_locale.py`.
+    # Tres reglas duras, y las tres las comprueba `scripts/test_slash_locale.py`:
+    #
+    # 1. Máximo 100 caracteres en la descripción. Si una se pasa, Discord rechaza
+    #    el registro **entero** con un 400 y el bot se queda sin ningún slash
+    #    command.
+    # 2. Máximo 32 en el nombre, solo `[a-z0-9_-]`.
+    # 3. **Ningún nombre lleva guion ni guion bajo: un comando, una palabra.** El
+    #    dueño lo pidió así —«que se entienda su significado de una palabra… si es
+    #    esports es solo esports, no esports-live»—. Cuando dos funciones se
+    #    parecían, lo que las distingue es una **opción de lista cerrada**
+    #    (`/subscribe type: soloq|esports`) y no un nombre compuesto.
+    #
+    # Los veinte comandos, por para qué sirven.
+
+    # -- Partidas de SoloQ en vivo --
+    "cmd.live.name": {"es": "envivo", "en": "live"},
     "cmd.live.desc": {
-        "es": "Jugadores profesionales que están en partida ahora mismo",
-        "en": "Pro players who are in a game right now",
+        "es": "Pros que están jugando SoloQ ahora mismo",
+        "en": "Pros playing SoloQ right now",
     },
+    # `/live` con liga: filtra la caché de partidas que el barrido ya mantiene en
+    # memoria, así que no cuesta ni una llamada. Sin liga, todas.
+    "cmd.live.arg": {"es": "liga", "en": "league"},
+    "cmd.live.arg_desc": {
+        "es": "Ver solo esta liga (vacío = todas)",
+        "en": "Only this league (empty = all)",
+    },
+    "cmd.match.name": {"es": "partida", "en": "match"},
     "cmd.match.desc": {
-        "es": "Partida activa de un jugador profesional, con todos los participantes",
-        "en": "A pro player's live game, with every participant",
+        "es": "La partida de SoloQ de un pro, con los diez participantes",
+        "en": "One pro's live SoloQ game, with all ten participants",
     },
     "cmd.match.arg": {"es": "jugador", "en": "player"},
     "cmd.match.arg_desc": {
         "es": "Nick del pro (elk, Caps, Elyoya...)",
         "en": "Pro's nickname (elk, Caps, Elyoya...)",
     },
-    "cmd.team.desc": {
-        "es": "Jugadores de un equipo profesional con su mejor cuenta de SoloQ",
-        "en": "A pro team's players with their best SoloQ account",
-    },
-    "cmd.team.arg": {"es": "equipo", "en": "team"},
-    "cmd.team.arg_desc": {
-        "es": "Tricode del equipo (G2, FNC, MKOI...)",
-        "en": "Team tricode (G2, FNC, MKOI...)",
-    },
+
+    # -- Fichas y clasificación --
+    "cmd.info.name": {"es": "info", "en": "info"},
     "cmd.info.desc": {
-        "es": "Ficha de un jugador profesional o de una de sus cuentas",
-        "en": "Profile of a pro player or one of their accounts",
+        "es": "Ficha de un pro o de una cuenta suya: equipo, elo y partida actual",
+        "en": "Profile of a pro or one of their accounts: team, rank, live game",
     },
     "cmd.info.arg": {"es": "jugador", "en": "player"},
     "cmd.info.arg_desc": {
         "es": "Nick del pro (Elyoya) o cuenta (Caps#EUW)",
         "en": "Pro's nickname (Elyoya) or account (Caps#EUW)",
     },
-    "cmd.historial.desc": {
-        "es": "Últimas partidas de SoloQ de los pros seguidos",
-        "en": "Latest SoloQ games of the pros being tracked",
+    "cmd.team.name": {"es": "equipo", "en": "team"},
+    "cmd.team.desc": {
+        "es": "Plantilla de un equipo, con la mejor cuenta de cada jugador",
+        "en": "A team's roster, with each player's best SoloQ account",
     },
-    "cmd.historial.arg": {"es": "jugador", "en": "player"},
-    "cmd.historial.arg_desc": {
-        "es": "Nick del pro o cuenta (vacío = historial global)",
-        "en": "Pro's nickname or account (empty = global history)",
+    "cmd.team.arg": {"es": "equipo", "en": "team"},
+    "cmd.team.arg_desc": {
+        "es": "Tricode del equipo (G2, FNC, MKOI...)",
+        "en": "Team tricode (G2, FNC, MKOI...)",
     },
+    "cmd.ranking.name": {"es": "ranking", "en": "ranking"},
     "cmd.ranking.desc": {
-        "es": "Ranking de SoloQ de una liga profesional",
-        "en": "SoloQ ranking of a pro league",
+        "es": "Tabla de SoloQ de una liga, ordenada por elo",
+        "en": "SoloQ leaderboard for a league, ranked by elo",
     },
     "cmd.ranking.arg": {"es": "liga", "en": "league"},
     "cmd.ranking.arg_desc": {
-        "es": "Liga a consultar (por defecto LEC)",
-        "en": "League to look up (LEC by default)",
+        "es": "Liga a consultar",
+        "en": "League to look up",
     },
-    "cmd.ligas.desc": {
-        "es": "Ver o elegir qué ligas sigue este servidor (admin para cambiar)",
-        "en": "View or pick which leagues this server tracks (admin to change)",
+    # El rol y el límite son filtros sobre la tabla que ya se ha pedido: no
+    # generan ni una llamada más, que es lo que hace que se puedan ofrecer.
+    "cmd.ranking.rol": {"es": "rol", "en": "role"},
+    "cmd.ranking.rol_desc": {
+        "es": "Ver solo un rol (vacío = todos)",
+        "en": "Only one role (empty = all)",
     },
-    "cmd.ligas.arg": {"es": "ligas", "en": "leagues"},
-    "cmd.ligas.arg_desc": {
+    "cmd.ranking.limite": {"es": "limite", "en": "limit"},
+    "cmd.ranking.limite_desc": {
+        "es": "Cuántos jugadores mostrar",
+        "en": "How many players to show",
+    },
+    "cmd.history.name": {"es": "historial", "en": "history"},
+    "cmd.history.desc": {
+        "es": "Últimas partidas de SoloQ de los pros seguidos",
+        "en": "Latest SoloQ games from the pros being tracked",
+    },
+    "cmd.history.arg": {"es": "jugador", "en": "player"},
+    "cmd.history.arg_desc": {
+        "es": "Nick, cuenta o liga (vacío = todos)",
+        "en": "Nickname, account or league (empty = everyone)",
+    },
+    "cmd.leagues.name": {"es": "ligas", "en": "leagues"},
+    "cmd.leagues.desc": {
+        "es": "Qué ligas sigue el servidor — de aquí salen los avisos (admin)",
+        "en": "Which leagues this server follows — what the alerts come from (admin)",
+    },
+    "cmd.leagues.arg": {"es": "ligas", "en": "leagues"},
+    "cmd.leagues.arg_desc": {
         "es": "Códigos separados por espacios, p. ej. lec lck lcs",
         "en": "Space-separated codes, e.g. lec lck lcs",
     },
-    "cmd.lang.desc": {
-        "es": "Ver o cambiar el idioma del bot en este servidor (admin para cambiar)",
-        "en": "View or change the bot's language on this server (admin to change)",
+
+    # -- Esports: partidos oficiales, que no es lo mismo que SoloQ. De ahí que
+    # -- `esports` no lleve sufijo: el sufijo era justo lo que confundía.
+    "cmd.esports.name": {"es": "esports", "en": "esports"},
+    "cmd.esports.desc": {
+        "es": "Partidos profesionales en vivo o a punto de empezar",
+        "en": "Pro matches live now or about to start",
     },
-    "cmd.lang.arg": {"es": "idioma", "en": "language"},
-    "cmd.lang.arg_desc": {"es": "es o en", "en": "es or en"},
-    "cmd.help.desc": {
-        "es": "Lista de comandos del bot",
-        "en": "Bot command list",
+    "cmd.esports.arg": {"es": "liga", "en": "league"},
+    "cmd.esports.arg_desc": {
+        "es": "Ver solo esta liga (vacío = todas)",
+        "en": "Only this league (empty = all)",
     },
-    "cmd.health.desc": {
-        "es": "Estado del bot y de sus fuentes de datos",
-        "en": "Bot status and health of its data sources",
+    "cmd.schedule.name": {"es": "calendario", "en": "schedule"},
+    "cmd.schedule.desc": {
+        "es": "Calendario de los próximos partidos profesionales",
+        "en": "Schedule of the upcoming pro matches",
     },
-    "cmd.premium.desc": {
-        "es": "Planes, cupos y cómo apoyar el bot",
-        "en": "Plans, limits and how to support the bot",
-    },
-    "cmd.setchannel.desc": {
-        "es": "Añadir este canal a las notificaciones de SoloQ (admin)",
-        "en": "Add this channel to the SoloQ alerts (admin)",
-    },
-    "cmd.quitarcanal.desc": {
-        "es": "Quitar este canal de las notificaciones de SoloQ (admin)",
-        "en": "Remove this channel from the SoloQ alerts (admin)",
-    },
-    "cmd.canales.desc": {
-        "es": "Ver los canales de notificación de SoloQ de este servidor",
-        "en": "See this server's SoloQ alert channels",
-    },
-    "cmd.unsubscribe.desc": {
-        "es": "Dejar de recibir notificaciones de SoloQ en todo el servidor (admin)",
-        "en": "Stop all SoloQ alerts on this server (admin)",
-    },
-    "cmd.partida.desc": {
-        "es": "Partidos profesionales en vivo ahora mismo",
-        "en": "Pro matches live right now",
-    },
-    "cmd.next.desc": {
-        "es": "Horario de los próximos partidos profesionales",
-        "en": "Schedule of the next pro matches",
-    },
-    "cmd.setlivechannel.desc": {
-        "es": "Usar este canal para las notificaciones de esports (admin)",
-        "en": "Use this channel for esports alerts (admin)",
-    },
-    "cmd.removelivechannel.desc": {
-        "es": "Dejar de recibir notificaciones de esports (admin)",
-        "en": "Stop receiving esports alerts (admin)",
-    },
-    # Los tres personales. Se pueden usar desde el chat privado con el bot, así
-    # que la descripción tiene que decir que el aviso llega **a ti**: es lo único
-    # que los distingue de `/setchannel`, que hace lo mismo para un canal.
-    "cmd.seguir.desc": {
-        "es": "Que te avise por privado cuando un pro o toda una liga juegue SoloQ",
-        "en": "Get a DM when a pro or a whole league plays SoloQ",
-    },
-    "cmd.seguir.arg": {"es": "jugador_o_liga", "en": "player_or_league"},
-    "cmd.seguir.arg_desc": {
-        "es": "Nick del pro (Elyoya) o código de liga (lec, lck...)",
-        "en": "Pro's nickname (Elyoya) or league code (lec, lck...)",
-    },
-    "cmd.dejarseguir.desc": {
-        "es": "Dejar de recibir avisos privados de un jugador, de una liga o de todo",
-        "en": "Stop DM alerts for a player, a league, or everything",
-    },
-    "cmd.dejarseguir.arg": {"es": "jugador_o_liga", "en": "player_or_league"},
-    "cmd.dejarseguir.arg_desc": {
-        "es": "Nick, código de liga, o `todo` para borrarlo todo",
-        "en": "Nickname, league code, or `all` to remove everything",
-    },
-    "cmd.misavisos.desc": {
-        "es": "Tus avisos privados: a quién sigues y si puedo escribirte",
-        "en": "Your DM alerts: who you follow and whether I can message you",
-    },
-    # `/track` y `/untrack` son los **mismos** comandos que `/seguir` y
-    # `/dejarseguir`, con el nombre que usa la gente que viene de otros bots (y
-    # el que se busca en inglés). Apuntan a los mismos cuerpos, así que lo que se
-    # guarda y de dónde se lee es exactamente lo mismo: dos puertas, un almacén.
+
+    # -- Avisos personales por DM. Se pueden usar desde el chat privado con el
+    # -- bot, así que la descripción dice que el aviso llega **a ti**: es lo único
+    # -- que los distingue de `/subscribe`, que hace lo mismo para un canal.
+    "cmd.track.name": {"es": "seguir", "en": "track"},
     "cmd.track.desc": {
-        "es": "Trackear a un pro o a una liga y que te avise por privado",
-        "en": "Track a pro or a league and get a DM when they play",
+        "es": "Avisos por privado: un pro, un equipo, una liga o una cuenta",
+        "en": "Alerts by DM: a pro, a team, a league or a single account",
     },
     "cmd.track.arg": {"es": "jugador_o_liga", "en": "player_or_league"},
     "cmd.track.arg_desc": {
-        "es": "Nick del pro (Faker) o código de liga (lec, lck...)",
-        "en": "Pro's nickname (Faker) or league code (lec, lck...)",
+        "es": "Nick del pro (Elyoya) o código de liga (lec, lck...)",
+        "en": "Pro's nickname (Elyoya) or league code (lec, lck...)",
     },
+    "cmd.untrack.name": {"es": "dejarseguir", "en": "untrack"},
     "cmd.untrack.desc": {
-        "es": "Dejar de trackear a un jugador, a una liga o todo",
-        "en": "Stop tracking a player, a league, or everything",
+        "es": "Dejar de recibir avisos privados de un pro, una liga o todo",
+        "en": "Stop DM alerts for a pro, a league, or everything",
     },
     "cmd.untrack.arg": {"es": "jugador_o_liga", "en": "player_or_league"},
     "cmd.untrack.arg_desc": {
         "es": "Nick, código de liga, o `todo` para borrarlo todo",
         "en": "Nickname, league code, or `all` to remove everything",
     },
+    "cmd.following.name": {"es": "misavisos", "en": "following"},
+    "cmd.following.desc": {
+        "es": "Qué sigues por privado y si puedo escribirte",
+        "en": "What you follow by DM, and whether I can message you",
+    },
+
+    # -- Configuración del servidor (admin) --
+    #
+    # Los cuatro de una palabra, y la distinción SoloQ/esports va en la opción
+    # `type` y no en el nombre: `esports-channel-add` era un trabalenguas que
+    # había que leer dos veces.
+    "cmd.subscribe.name": {"es": "suscribir", "en": "subscribe"},
+    "cmd.subscribe.desc": {
+        "es": "Que los avisos lleguen a este canal (admin)",
+        "en": "Send the alerts to this channel (admin)",
+    },
+    "cmd.subscribe.arg": {"es": "tipo", "en": "type"},
+    # El objetivo es texto libre: liga, equipo, pro o cuenta. Se explica en la
+    # ayuda del argumento porque el desplegable no puede enseñar una lista.
+    "cmd.subscribe.objetivo": {"es": "objetivo", "en": "target"},
+    "cmd.subscribe.objetivo_desc": {
+        "es": "Liga (lec), equipo (T1), pro (Elyoya) o cuenta (Caps#EUW). Vacío = todas",
+        "en": "League (lec), team (T1), pro (Elyoya) or account (Caps#EUW). Empty = all",
+    },
+    "cmd.subscribe.arg_desc": {
+        "es": "Qué avisos: soloq (por defecto) o esports",
+        "en": "Which alerts: soloq (default) or esports",
+    },
+    "cmd.unsubscribe.name": {"es": "desuscribir", "en": "unsubscribe"},
+    "cmd.unsubscribe.desc": {
+        "es": "Que los avisos dejen de llegar a este canal (admin)",
+        "en": "Stop the alerts in this channel (admin)",
+    },
+    "cmd.unsubscribe.arg": {"es": "tipo", "en": "type"},
+    "cmd.unsubscribe.arg_desc": {
+        "es": "Qué avisos: soloq (por defecto) o esports",
+        "en": "Which alerts: soloq (default) or esports",
+    },
+    "cmd.channels.name": {"es": "canales", "en": "channels"},
+    "cmd.channels.desc": {
+        "es": "A qué canales llegan los avisos y cuántos caben",
+        "en": "Which channels get the alerts, and how many fit",
+    },
+    "cmd.mute.name": {"es": "silenciar", "en": "mute"},
+    "cmd.mute.desc": {
+        "es": "Apagar los avisos en todo el servidor (admin)",
+        "en": "Turn off the alerts for the whole server (admin)",
+    },
+    "cmd.mute.arg": {"es": "tipo", "en": "type"},
+    "cmd.mute.arg_desc": {
+        "es": "Qué avisos: soloq (por defecto) o esports",
+        "en": "Which alerts: soloq (default) or esports",
+    },
+
+    # -- Mantenimiento y ayuda --
+    "cmd.health.name": {"es": "estado", "en": "health"},
+    "cmd.health.desc": {
+        "es": "Si los datos están al día y cuándo se actualizaron",
+        "en": "Whether the data is up to date and when it last refreshed",
+    },
+    "cmd.premium.name": {"es": "premium", "en": "premium"},
+    "cmd.premium.desc": {
+        "es": "Cupos de este servidor y cómo apoyar el proyecto",
+        "en": "This server's limits and how to support the project",
+    },
+    "cmd.help.name": {"es": "ayuda", "en": "help"},
+    "cmd.help.desc": {
+        "es": "Todos los comandos y cómo se usan",
+        "en": "Every command and how to use it",
+    },
+    "cmd.language.name": {"es": "idioma", "en": "language"},
+    "cmd.language.desc": {
+        "es": "Idioma del bot aquí; sin argumento, lo muestra (admin)",
+        "en": "Bot language here; without an argument, shows it (admin)",
+    },
+    # El nombre de la opción es `code` y no `language` a propósito:
+    # `/language language:en` se lee fatal.
+    "cmd.language.arg": {"es": "codigo", "en": "code"},
+    "cmd.language.arg_desc": {"es": "es o en", "en": "es or en"},
 }
 
 
@@ -1540,7 +1847,7 @@ def t(clave: str, idioma: str | None = None, /, **kwargs: Any) -> str:
     Los dos primeros parámetros son **posicionales obligatorios** (la `/`), y eso
     no es cosmético: `**kwargs` son los `{huecos}` de la plantilla, y sin la `/`
     un hueco que se llame igual que un parámetro choca con él. Pasaba de verdad:
-    las cinco cadenas de `/lang` llevan `{idioma}`, así que
+    las cinco cadenas de `/language` llevan `{idioma}`, así que
     `t("lang.actual", "es", idioma="Español")` levantaba
     `TypeError: t() got multiple values for argument 'idioma'` y el comando entero
     se caía en sus cuatro caminos. Con la `/`, `idioma=` solo puede ser un hueco.
@@ -1635,12 +1942,12 @@ def idioma_de_servidor(guild) -> str:
     """Idioma para un servidor que **todavía no ha elegido** ninguno.
 
     Existe por el mensaje de bienvenida: se manda al entrar, antes de que nadie
-    haya podido ejecutar `/lang`, así que `idioma_de()` devolvería siempre
+    haya podido ejecutar `/language`, así que `idioma_de()` devolvería siempre
     español y un servidor inglés recibiría su primer mensaje del bot en un
     idioma que no habla. Ese primer mensaje es justo el que decide si el bot se
     queda o se echa.
 
-    El orden es: lo que el servidor haya guardado con `/lang` (si ya lo hizo)
+    El orden es: lo que el servidor haya guardado con `/language` (si ya lo hizo)
     > `preferred_locale` de Discord > español.
 
     `preferred_locale` es un `Locale` (`es-ES`, `en-US`, `de`...); solo interesa

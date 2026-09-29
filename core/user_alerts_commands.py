@@ -16,7 +16,7 @@ Esto es lo único que faltaba: la puerta de entrada.
 
 Por qué `/seguir` es un solo comando y no dos
 ---------------------------------------------
-`dual_texto` da **un** argumento de texto, así que `/seguir <valor>` decide él
+`slash_texto` da **un** argumento de texto, así que `/seguir <valor>` decide él
 mismo qué le han dado: si `leagues.resolver(valor)` acierta es una liga, y si no
 es el nick de un pro. No es un atajo por pereza, es lo que hace que el comando se
 pueda explicar en una línea; `/seguir` y `/seguirliga` serían dos comandos que la
@@ -74,11 +74,12 @@ import time
 import nextcord
 from nextcord.ext import commands
 
-from core.dual_command import dual, dual_texto
+from core.dual_command import slash, slash_texto
 from core.responder import Respuesta
 from tracking.soloq import user_config as usuarios
 from tracking.soloq.leagues import LIGAS, Liga, resolver
 from tracking.soloq.plans import plan_de_usuario
+from tracking.soloq.roster_lookup import equipo_rastreado, pro_rastreado
 from utils.branding import SOPORTE_URL
 from utils.i18n import (
     IDIOMA_POR_DEFECTO,
@@ -111,81 +112,6 @@ _EJES_DE_NOMBRE = ("jugadores", "equipos", "partidos_equipos")
 # ---------------------------------------------------------------------- #
 # Ayudas
 # ---------------------------------------------------------------------- #
-
-def _pro_rastreado(nombre: str):
-    """El jugador rastreado que coincide con este nombre, o `None`.
-
-    Se busca en `accounts_from_teams.json` —lo que el bot está barriendo ahora
-    mismo— y no contra dpm.lol. Los motivos, medidos:
-
-    * `/v1/pros/<nombre>` va por cloudscraper con 20 s de timeout y hasta 3
-      reintentos con `sleep(2)`; bloquea o tarda, y un comando no puede hacer eso.
-    * y aunque respondiera, **no trae la liga**: `BootcampPlayer.from_pro_api`
-      recibe `league` del llamante. Así que no contestaría la pregunta que
-      importa, que es si a esta persona le va a llegar un aviso.
-
-    Lo que hay en disco sí la contesta: si el nick está ahí, sus cuentas se
-    consultan en cada pasada.
-
-    Se compara con `name` y con `display_name` porque el usuario puede escribir
-    cualquiera de los dos, pero lo que se guarda es siempre `name`: es el valor
-    con el que `dm_notifier.destinatarios` compara (viene de la pasada, línea 404
-    de `active_game_checker`), y guardar el otro dejaría una suscripción que
-    nunca coincide.
-    """
-    from tracking.soloq.accounts_io import load_tracked_accounts
-
-    objetivo = (nombre or "").strip().casefold()
-    if not objetivo:
-        return None
-    try:
-        for jugador in load_tracked_accounts():
-            nombres = {
-                (getattr(jugador, "name", "") or "").casefold(),
-                (getattr(jugador, "display_name", "") or "").casefold(),
-            }
-            if objetivo in nombres - {""}:
-                return jugador
-    except Exception:
-        # Un JSON a medio escribir no puede impedir que alguien se suscriba: se
-        # guarda igual y se le avisa de que no se ha podido comprobar.
-        log.exception("No se pudo leer accounts_from_teams.json para validar %r", nombre)
-    return None
-
-
-def _equipo_rastreado(nombre: str) -> tuple[str, str, str] | None:
-    """El equipo que coincide con lo escrito: `(tricode, nombre, liga)`.
-
-    Se busca en el roster ya descargado —lo que el bot está barriendo de verdad—
-    y se compara **el tricode y el nombre completo** (`T1` y `T1`, `FNC` y
-    `Fnatic`): la gente escribe las dos cosas y ninguna es más correcta.
-
-    Lo que se guarda es el tricode, porque es lo que trae la pasada en
-    `player.team` y con lo que compara `dm_notifier.destinatarios`. Guardar el
-    nombre completo dejaría una suscripción que no coincide nunca.
-
-    Devuelve `None` si no hay ningún equipo así, y entonces quien llama trata el
-    valor como un nick.
-    """
-    from tracking.soloq.accounts_io import load_tracked_accounts
-
-    objetivo = (nombre or "").strip().casefold()
-    if not objetivo:
-        return None
-    try:
-        for jugador in load_tracked_accounts():
-            tricode = (getattr(jugador, "team", "") or "").strip()
-            completo = (getattr(jugador, "team_name", "") or "").strip()
-            if objetivo in {tricode.casefold(), completo.casefold()} - {""}:
-                return (
-                    tricode,
-                    completo or tricode,
-                    (getattr(jugador, "league", "") or "").strip(),
-                )
-    except Exception:
-        log.exception("No se pudo leer el roster para validar el equipo %r", nombre)
-    return None
-
 
 def _asegurar_idioma(res: Respuesta) -> str | None:
     """Guarda el idioma de esta persona la primera vez. Devuelve el código nuevo.
@@ -581,8 +507,8 @@ async def _cuerpo_seguir(res: Respuesta, valor: str) -> None:
     # porque es con lo que compara el reparto; de un pro su nombre tal cual lo
     # trae la pasada; de un equipo su tricode (`T1`), que es lo que trae la
     # pasada en `player.team`.
-    jugador = None if liga else _pro_rastreado(texto)
-    equipo = None if (liga or jugador is not None) else _equipo_rastreado(texto)
+    jugador = None if liga else pro_rastreado(texto)
+    equipo = None if (liga or jugador is not None) else equipo_rastreado(texto)
 
     if liga:
         eje, guardar = "ligas", liga.codigo
@@ -953,58 +879,41 @@ def _estado_dm_texto(estado: str, _) -> str:
 def register_user_alerts_commands(bot: commands.Bot) -> None:
     """Los comandos personales, en alcance global.
 
-    Global es el punto: `dual_texto` y `dual` sin `permiso` derivan
+    Global es el punto: `slash_texto` y `slash` sin `permiso` derivan
     `integration_types` con `user_install` y `contexts` con `bot_dm` y
     `private_channel`, que es lo que hace que estos comandos existan para alguien
     que se ha instalado la app en su cuenta y no solo dentro de un servidor donde
     el bot esté. Sin eso, unos comandos de suscripción personal solo se podrían
     usar desde un servidor, que es justo lo contrario de lo que son.
 
-    `/track` y `/untrack` son alias de `/seguir` y `/dejarseguir`: **el mismo
-    cuerpo**, registrado con otro nombre. No se duplica nada —ni el guardado, ni
-    los cupos, ni el reparto de avisos—, así que quien use `/track` y quien use
-    `/seguir` acaban en la misma lista. Se añaden porque "track" es la palabra
-    que la gente escribe por defecto y la que se busca en inglés; `seguir` se
-    mantiene porque ya hay gente suscrita con ella y renombrar un comando rompe
-    a quien lo tenía guardado en sus atajos.
+    `/seguir` y `/dejarseguir` eran los **mismos** comandos que `/track` y
+    `/untrack` registrados dos veces, y eso era un problema de claridad: cuatro
+    entradas en el selector para dos funciones. Ahora hay un solo comando por
+    función —`track` y `untrack`, con el inglés de base porque es lo universal—
+    y el español entra por la localización del nombre, así que quien tenga el
+    cliente en español ve `/seguir` y `/dejarseguir` igual que antes y quien lo
+    tenga en inglés ve `/track` y `/untrack`. En los `!` responden los dos, porque
+    ahí el nombre lo escribe el usuario.
     """
-    dual_texto(
+    slash_texto(
         bot,
-        "seguir",
-        "cmd.seguir.desc",
-        _cuerpo_seguir,
-        arg_nombre="cmd.seguir.arg",
-        arg_desc="cmd.seguir.arg_desc",
-        requerido=False,
-    )
-    dual_texto(
-        bot,
-        "dejarseguir",
-        "cmd.dejarseguir.desc",
-        _cuerpo_dejarseguir,
-        arg_nombre="cmd.dejarseguir.arg",
-        arg_desc="cmd.dejarseguir.arg_desc",
-        requerido=False,
-    )
-    dual_texto(
-        bot,
-        "track",
+        "cmd.track.name",
         "cmd.track.desc",
         _cuerpo_seguir,
         arg_nombre="cmd.track.arg",
         arg_desc="cmd.track.arg_desc",
         requerido=False,
     )
-    dual_texto(
+    slash_texto(
         bot,
-        "untrack",
+        "cmd.untrack.name",
         "cmd.untrack.desc",
         _cuerpo_dejarseguir,
         arg_nombre="cmd.untrack.arg",
         arg_desc="cmd.untrack.arg_desc",
         requerido=False,
     )
-    dual(bot, "misavisos", "cmd.misavisos.desc", _cuerpo_misavisos)
+    slash(bot, "cmd.following.name", "cmd.following.desc", _cuerpo_misavisos)
 
 
 

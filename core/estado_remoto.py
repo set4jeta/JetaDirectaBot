@@ -64,6 +64,12 @@ ARCHIVOS: tuple[str, ...] = (
     # PUUID y **el tracker no puede consultarlas**: se veía en el log como el
     # barrido cayendo de 237 cuentas a 129 tras cada despliegue.
     "puuid_cache.json",
+    # El acumulado de ancho de banda de salida del mes (ver `utils/egress.py`).
+    # Va aquí y no se deja en efímero porque su razón de ser es **no perderlo**:
+    # si se reiniciara en cada despliegue, el contador volvería a cero cada vez
+    # y no avisaría nunca de que se está llegando al límite del proveedor. Es un
+    # fichero de dos líneas.
+    "tracking/soloq/egress.json",
 )
 
 API = "https://api.github.com"

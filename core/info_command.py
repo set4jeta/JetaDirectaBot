@@ -22,7 +22,7 @@ from __future__ import annotations
 
 from nextcord.ext import commands
 
-from core.dual_command import dual_texto
+from core.dual_command import slash_texto
 from core.responder import Respuesta
 from tracking.soloq.infoplayers_search import buscar_jugador_o_cuenta
 from ui.player_info_embed import crear_embed_infoplayer
@@ -76,11 +76,13 @@ async def _cuerpo_info(res: Respuesta, nombre: str) -> None:
 
 
 def register_info_command(bot: commands.Bot):
-    dual_texto(
+    slash_texto(
         bot,
-        "info",
+        "cmd.info.name",
         "cmd.info.desc",
         _cuerpo_info,
         arg_nombre="cmd.info.arg",
         arg_desc="cmd.info.arg_desc",
+        # `!info` fue el nombre de este comando hasta el 22-09-2026 y hay
+        # gente con la costumbre; el slash viejo no se mantiene porque
     )

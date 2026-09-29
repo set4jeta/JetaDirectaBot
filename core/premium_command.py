@@ -33,17 +33,38 @@ from __future__ import annotations
 import nextcord
 from nextcord.ext import commands
 
-from core.dual_command import dual
+from core.dual_command import slash
 from core.responder import Respuesta
 from tracking.soloq.leagues import MAX_LIGAS_POR_SERVIDOR, ligas_de
 from tracking.soloq.plans import ORDEN, PLANES, plan_de
-from utils.branding import BOT_NOMBRE, enlaces, sellar_embed
+from utils.branding import (
+    BOT_NOMBRE,
+    COLOR_MARCA,
+    RIOT_CUOTA_PETICIONES,
+    RIOT_CUOTA_SEGUNDOS,
+    enlaces,
+)
 from utils.i18n import idioma_de, tr
 from utils.logger import get_logger
 
 log = get_logger("core.premium")
 
-COLOR = 0xF1C40F
+#: El oro de la marca, el mismo de `/help` y del logotipo. Estaba en 0xF1C40F,
+#: que ya era un amarillo pero de otra familia: al lado del oro del logotipo se
+#: veía como un amarillo cualquiera y no como el color del producto.
+COLOR = COLOR_MARCA
+
+
+def _precio(plan, idioma: str | None) -> str:
+    """El precio con el separador decimal del idioma.
+
+    En español va **coma**: `5.00 €` se lee mal, y en Argentina el punto además
+    es el separador de miles, así que `5.00` parece cinco mil. La web ya lo hacía
+    bien (`scripts/generar_web.py::_precio`) y el bot no, que es de esas cosas
+    que solo se ven mirando las dos superficies a la vez.
+    """
+    texto = f"{plan.precio:.2f}"
+    return texto if idioma == "en" else texto.replace(".", ",")
 
 
 def _nombre(plan, _) -> str:
@@ -66,6 +87,52 @@ def _linea_cupos(plan, _) -> str:
         f"· {_('premium.cupo_jugadores', n=plan.jugadores_propios)}",
         f"· {_('premium.cupo_historial', n=plan.historial)}",
     ])
+
+
+def _bloque_apoyo(_) -> list[tuple[str, str]]:
+    """Los dos campos que explican de dónde salen los cupos y cómo subirlos.
+
+    Va **justo después de la tabla de planes y antes de los enlaces**, que es
+    donde el usuario acaba de leer que su plan le da 1 liga y se pregunta por qué
+    no más. La respuesta —la cuota la pone Riot y ya se gasta— convierte una
+    limitación en una petición de ayuda. Puesto al principio del embed sería un
+    sermón antes de la información; aquí es la explicación de lo que se acaba de
+    leer.
+
+    Son **dos campos y no uno** por un motivo duro: Discord corta el valor de un
+    campo a 1024 caracteres y devuelve 400 si se pasa, lo que dejaría `/premium`
+    sin responder. El bloque entero en un solo campo quedaba en ~910 caracteres
+    —dentro, pero sin margen—, así que la primera vez que alguien ampliara un
+    párrafo el comando se rompería en producción y no en las pruebas. Partido,
+    cada campo va por la mitad y hay margen de sobra.
+    """
+    return [
+        (
+            _("apoyo.titulo"),
+            "\n".join([
+                _(
+                    "apoyo.por_que",
+                    req=RIOT_CUOTA_PETICIONES,
+                    seg=RIOT_CUOTA_SEGUNDOS,
+                    ligas=MAX_LIGAS_POR_SERVIDOR,
+                ),
+                "",
+                _("apoyo.comunidad"),
+            ]),
+        ),
+        (
+            _("apoyo.acciones"),
+            "\n".join([
+                _("apoyo.acciones_nota"),
+                f"1. {_('apoyo.compartir')}",
+                f"2. {_('apoyo.invitar')}",
+                f"3. {_('apoyo.amigo')}",
+                f"4. {_('apoyo.donar')}",
+                "",
+                f"_{_('apoyo.gracias')}_",
+            ]),
+        ),
+    ]
 
 
 def construir_embed(guild_id: int | None, ligas_usadas: int = 0) -> nextcord.Embed:
@@ -99,7 +166,7 @@ def construir_embed(guild_id: int | None, ligas_usadas: int = 0) -> nextcord.Emb
         precio = (
             _("premium.gratis_etiqueta")
             if plan.gratis
-            else _("premium.precio_mes", precio=f"{plan.precio:.2f}")
+            else _("premium.precio_mes", precio=_precio(plan, idioma))
         )
         # El plan activo se marca para que no haya que comparar a ojo cuál es.
         marca = " ✅" if plan.codigo == actual.codigo else ""
@@ -108,6 +175,12 @@ def construir_embed(guild_id: int | None, ligas_usadas: int = 0) -> nextcord.Emb
             value=_linea_cupos(plan, _),
             inline=True,
         )
+
+    # De dónde salen esos cupos y qué puede hacer el usuario para subirlos. Va
+    # aquí, pegado a la tabla, porque es la respuesta a la pregunta que la tabla
+    # acaba de provocar.
+    for nombre_apoyo, valor_apoyo in _bloque_apoyo(_):
+        embed.add_field(name=nombre_apoyo, value=valor_apoyo, inline=False)
 
     lineas = enlaces(idioma)
     embed.add_field(
@@ -122,7 +195,8 @@ def construir_embed(guild_id: int | None, ligas_usadas: int = 0) -> nextcord.Emb
     # el comando que habla de dinero, es donde importa.
     embed.add_field(name="\u200b", value=f"_{_('premium.legal')}_", inline=False)
 
-    sellar_embed(embed, idioma)
+    # Aquí se sellaba el pie con el descargo de Riot; se quitó el 22-09-2026 por
+    # instrucción del dueño (ver `utils/branding.py`).
     return embed
 
 
@@ -152,11 +226,16 @@ def construir_texto(guild_id: int | None, ligas_usadas: int = 0) -> str:
         precio = (
             _("premium.gratis_etiqueta")
             if plan.gratis
-            else _("premium.precio_mes", precio=f"{plan.precio:.2f}")
+            else _("premium.precio_mes", precio=_precio(plan, idioma))
         )
         marca = " ✅" if plan.codigo == actual.codigo else ""
         partes.append(f"**{_nombre(plan, _)} — {precio}{marca}**")
         partes.append(_linea_cupos(plan, _))
+        partes.append("")
+
+    for nombre_apoyo, valor_apoyo in _bloque_apoyo(_):
+        partes.append(f"**{nombre_apoyo}**")
+        partes.append(valor_apoyo)
         partes.append("")
 
     partes.append(f"**{_('premium.como')}**")
@@ -188,9 +267,9 @@ async def _cuerpo_premium(res: Respuesta) -> None:
 
 
 def register_premium_command(bot: commands.Bot) -> None:
-    dual(
+    slash(
         bot,
-        "premium",
+        "cmd.premium.name",
         "cmd.premium.desc",
         _cuerpo_premium,
     )

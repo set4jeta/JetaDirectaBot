@@ -19,6 +19,7 @@ import nextcord
 from datetime import datetime, timezone
 from dateutil.relativedelta import relativedelta
 from utils.cache_utils import formatear_fecha
+from utils.branding import COLOR_MARCA
 from ui.team_image_utils import get_team_image_path
 from urllib.parse import urlparse
 from utils.i18n import t
@@ -82,23 +83,27 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
     embed = nextcord.Embed(
         title=f"{nombre} ({nombre_real})",
         description=_("info.embed_descripcion", equipo=equipo, pais=pais),
-        color=nextcord.Color.blue()
+        # El oro de la marca y no `Color.blue()`: `/info` es una ficha del
+        # producto (perfil, cuentas, rango), no un estado, así que lleva el color
+        # del producto. El azul era el genérico de Discord y no decía nada.
+        # Los que **sí** mantienen color propio son los que informan de un
+        # estado: el aviso de partida en vivo (rojo) y `/health` (rojo/verde).
+        color=COLOR_MARCA,
     )
     embed.set_thumbnail(url=imagen_jugador or "")
 
-    archivo_logo_equipo = None  # Aquí guardaremos el archivo local si existe
+    # El logo va por **URL**, no adjunto. `logo_equipo` ya es la URL pública de
+    # dpm.lol —la misma de la que antes se descargaba el fichero local— así que
+    # se ve idéntico y no se sube ni un byte. Es el mismo cambio que en los
+    # avisos, por el mismo motivo: adjuntar imágenes agotó el ancho de banda de
+    # salida de Render (ver `DESPLIEGUE.md` §8).
+    #
+    # El segundo valor se queda en la firma devolviendo `None` para no tocar al
+    # llamante, que ya sabe enviar sin fichero.
+    archivo_logo_equipo = None
 
     if logo_equipo:
-        tricode = extraer_tricode_desde_url(logo_equipo)
-        if tricode:
-            ruta_local = get_team_image_path(tricode)
-            if ruta_local and os.path.exists(ruta_local):
-                archivo_logo_equipo = nextcord.File(ruta_local, filename=os.path.basename(ruta_local))
-                embed.set_image(url=f"attachment://{os.path.basename(ruta_local)}")
-            else:
-                embed.set_image(url=logo_equipo)
-        else:
-            embed.set_image(url=logo_equipo)
+        embed.set_image(url=logo_equipo)
 
     embed.add_field(name=_("info.campo_nacimiento"), value=birthday or _("info.desconocido"), inline=True)
     if edad is not None:

@@ -43,8 +43,9 @@ from __future__ import annotations
 
 from nextcord.ext import commands
 
-from core.dual_command import PERMISO_ADMIN, dual_texto
+from core.dual_command import PERMISO_ADMIN, slash_texto
 from core.responder import Respuesta
+from tracking.soloq.plans import PLANES
 from tracking.soloq.leagues import (
     LIGAS,
     MAX_LIGAS_POR_SERVIDOR,
@@ -125,7 +126,21 @@ async def _cuerpo_ligas(res: Respuesta, valor: str) -> None:
             _("ligas.disponibles", ligas=_lista_codigos(disponibles)),
             "",
             _("ligas.maximo", maximo=tope),
+        ]
+        # El escalón siguiente, solo si existe: a quien ya está en el tope más
+        # alto no le sirve que le cuenten lo que dan los demás planes.
+        if tope < max(plan.ligas for plan in PLANES.values()):
+            lineas.append(_("ligas.planes"))
+        # Y de dónde sale ese tope, solo cuando acaba de morder. Es el momento
+        # exacto en que alguien se pregunta por qué no puede seguir una liga más,
+        # así que es donde la explicación se lee: puesta siempre sería ruido en
+        # un comando que se usa a diario, y puesta solo aquí responde a la
+        # pregunta que el usuario acaba de hacerse.
+        if fuera:
+            lineas += ["", _("apoyo.cupo_corto")]
+        lineas += [
             _("ligas.como_usar"),
+            _("ligas.a_canal"),
         ]
         await res.send("\n".join(lineas))
         return
@@ -239,21 +254,21 @@ def _idioma_en_uso(res: Respuesta) -> str:
 
 
 def register_league_commands(bot: commands.Bot) -> None:
-    dual_texto(
+    slash_texto(
         bot,
-        "ligas",
-        "cmd.ligas.desc",
+        "cmd.leagues.name",
+        "cmd.leagues.desc",
         _cuerpo_ligas,
-        arg_nombre="cmd.ligas.arg",
-        arg_desc="cmd.ligas.arg_desc",
+        arg_nombre="cmd.leagues.arg",
+        arg_desc="cmd.leagues.arg_desc",
         requerido=False,
     )
-    dual_texto(
+    slash_texto(
         bot,
-        "lang",
-        "cmd.lang.desc",
+        "cmd.language.name",
+        "cmd.language.desc",
         _cuerpo_lang,
-        arg_nombre="cmd.lang.arg",
-        arg_desc="cmd.lang.arg_desc",
+        arg_nombre="cmd.language.arg",
+        arg_desc="cmd.language.arg_desc",
         requerido=False,
     )

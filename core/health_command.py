@@ -32,10 +32,11 @@ from nextcord.ext import commands
 
 import config
 from core import health as salud
-from core.dual_command import dual
+from core.dual_command import slash
 from core.responder import Respuesta
 from utils.i18n import idioma_de, tr
 from utils.logger import get_logger
+from utils import egress
 
 log = get_logger("core.health_cmd")
 
@@ -70,7 +71,6 @@ def _resumen_seguimiento(idioma: str | None = None) -> tuple[str, bool]:
 
         jugadores = load_all_accounts()
         cuentas = [c for j in jugadores for c in (j.get("accounts") or [])]
-        con_puuid = sum(1 for c in cuentas if c.get("puuid"))
         equipos = {j.get("team") for j in jugadores if j.get("team")}
         sin_cuenta = sum(1 for j in jugadores if not (j.get("accounts") or []))
     except Exception:
@@ -82,11 +82,29 @@ def _resumen_seguimiento(idioma: str | None = None) -> tuple[str, bool]:
     if not cuentas:
         return t("health.cero_cuentas", idioma, jugadores=len(jugadores)), False
 
+    # "Sin PUUID" va partido en dos, porque no es lo mismo y el recuento junto
+    # asustaba. El 22-09-2026 `/health` decía «218 cuentas sin PUUID» y las 218
+    # estaban marcadas `stale`: cuentas que Riot ya no reconoce porque se
+    # renombraron o se borraron, y que no se van a resolver nunca. Las que sí
+    # esperan reparación son las `stale` de menos —hoy, cero—, así que avisar de
+    # las 218 era un falso problema. Al dueño le hizo dudar justo eso: «creo que
+    # lo de las 218 sin puuid sigue, ¿de dónde vienen?».
+    pendientes = sum(
+        1 for c in cuentas if not c.get("puuid") and not c.get("stale")
+    )
+    retiradas = sum(
+        1 for c in cuentas if not c.get("puuid") and c.get("stale")
+    )
+
     avisos = []
-    if con_puuid < len(cuentas):
+    if pendientes:
         # Sin PUUID una cuenta no se puede consultar en Riot: está muerta hasta
         # que la tarea de reparación la resuelva.
-        avisos.append(t("health.sin_puuid", idioma, n=len(cuentas) - con_puuid))
+        avisos.append(t("health.sin_puuid", idioma, n=pendientes))
+    if retiradas:
+        # No es un aviso: es el motivo de que haya más cuentas que cuentas
+        # consultables. Se enseña en tono neutro y sin "⚠️" a propósito.
+        avisos.append(t("health.retiradas", idioma, n=retiradas))
     if sin_cuenta:
         avisos.append(t("health.jugadores_sin_cuenta", idioma, n=sin_cuenta))
 
@@ -185,6 +203,26 @@ async def _cuerpo_health(res: Respuesta) -> None:
         inline=False,
     )
 
+    # Cuánto ancho de banda de salida lleva gastado el mes. Es la respuesta a
+    # «¿por qué me suspendieron el bot?» del 29-09-2026: el proveedor cortó el
+    # servicio por pasarse del límite incluido y no había ningún sitio donde
+    # verlo. Ver `utils/egress.py`.
+    salida = egress.estado()
+    texto_salida = _(
+        "health.salida",
+        mb=f"{salida['mb']:.0f}",
+        tope=f"{salida['tope_mb']:.0f}",
+        pct=f"{salida['porcentaje']:.0f}",
+        mensajes=salida["mensajes"],
+    )
+    if salida["porcentaje"] >= 80:
+        texto_salida += _("health.salida_aviso")
+    embed.add_field(
+        name=_("health.campo_salida"),
+        value=texto_salida,
+        inline=False,
+    )
+
     if averias:
         embed.add_field(
             name=_("health.campo_atencion"),
@@ -207,4 +245,4 @@ async def _cuerpo_health(res: Respuesta) -> None:
 
 
 def register_health_command(bot: commands.Bot) -> None:
-    dual(bot, "health", "cmd.health.desc", _cuerpo_health)
+    slash(bot, "cmd.health.name", "cmd.health.desc", _cuerpo_health)

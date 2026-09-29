@@ -1,55 +1,59 @@
-"""Registro de un mismo comando en las dos formas: `!comando` y `/comando`.
+"""Registro de los slash commands: `/comando`.
 
-El problema
------------
-El usuario pidió pasar a slash commands manteniendo los mismos comandos
-funcionando. La vía obvia —escribir cada comando dos veces— crea 13 parejas de
-funciones que hay que mantener sincronizadas a mano; la primera que se olvide
-hace que `/live` y `!live` respondan cosas distintas.
+Qué cambió el 22-09-2026 (y por qué)
+------------------------------------
+Antes cada comando se registraba **dos veces**, como `/comando` y como
+`!comando`, con un `alias` que además mantenía vivos los nombres antiguos. El
+dueño lo cortó en seco: *«los `!` son los que hay que borrar… te dije rediseña
+los comandos con slash»*. Tiene razón en el fondo: el slash es lo que se usa (lo
+autocompleta Discord, tiene descripción y argumentos tipados) y el `!` era una
+capa heredada que obligaba a mantener dos superficies y a decidir dos veces cada
+nombre.
 
-La solución
------------
-El cuerpo del comando se escribe **una sola vez** y recibe un
-`core.responder.Respuesta`, que abstrae `Context` e `Interaction`. Aquí están
-los envoltorios que lo registran en las dos formas.
+Así que ahora hay **una sola superficie**: slash. Nada de alias y nada de nombres
+antiguos; un comando por función.
 
-Tres formas cubren todos los comandos del bot:
+Los nombres, de **una palabra**
+------------------------------
+El dueño también fue explícito: *«que se entienda su significado de una palabra»*.
+De ahí salen dos reglas que aplica `scripts/test_slash_locale.py`:
 
-* `dual` — comandos sin argumentos (`live`, `help`, `setchannel`, `partida`...).
-* `dual_texto` — comandos con un único argumento de texto (`team`, `match`,
-  `info`, `historial`).
-* registro manual — para `ranking` (con selector de liga), donde la forma slash
-  necesita algo específico.
+1. **Ningún nombre lleva guion ni guion bajo.** `esports-live` estaba mal: si es
+   esports, es `esports`. Los nombres compuestos (`channel-add`, `alerts-off`)
+   se han ido y lo que distinguía se expresa con una **opción de lista cerrada**
+   (`type: soloq | esports`), que es donde Discord quiere esa información.
+2. **El nombre base va en inglés** (`cmd.X.name`) porque es el que Discord enseña
+   a los 30 locales que no traducimos, y el español viaja como
+   `name_localizations` (`es-ES` y `es-419`).
 
-Detalle importante sobre los argumentos de prefijo
---------------------------------------------------
-En `dual_texto` el parámetro de prefijo se declara `*, valor: str = ""`. El
-asterisco hace que nextcord meta **todo el resto del mensaje** en ese argumento,
-que es lo que ya hacían `!info` y `!match`: los nicks de pro llevan espacios
-("G2 Caps"), y sin el asterisco `!info G2 Caps` habría llegado como `"G2"`.
+Detalle de la API de Discord que hace que esto sea barato de cambiar —aunque el
+usuario vea `/historial`, **la interacción llega siempre con el nombre base**:
 
-Cómo se traducen los comandos en la lista de Discord
-----------------------------------------------------
-El tercer parámetro (`descripcion`) es ahora una **clave del catálogo**
-(`"cmd.live.desc"`), no una cadena. De ahí salen dos cosas:
+    "When taking advantage of command localization, the interaction payload
+     received by your client will still use default command, subcommand, and
+     option names." (docs de Discord, Application Commands › Localization)
 
-* `description` = el inglés, que es lo que Discord muestra a cualquiera cuyo
-  cliente esté en un idioma que no traducimos (los otros 29).
-* `description_localizations` = `{es-ES: ..., es-419: ...}`.
+O sea que el enrutado no depende del nombre que se ve, y renombrar es solo
+interfaz.
 
-Ojo con la diferencia: esto lo elige Discord por el idioma del **cliente de cada
-usuario**, mientras que las respuestas del bot van en el idioma del **servidor**
-(`/lang`). Son dos cosas distintas y las dos hacían falta: sin esto, un usuario
-inglés veía la lista de comandos en español aunque las respuestas ya estuvieran
-traducidas.
+Las tres formas
+---------------
+* `slash` — comandos sin argumentos (`live`, `help`, `channels`...).
+* `slash_texto` — un argumento de texto libre (`team`, `match`, `player`).
+* `slash_opcion` — un argumento de lista cerrada (`subscribe`, `mute`: el
+  `type` que decide entre SoloQ y esports).
 
-Si la clave no existe en el catálogo se usa el texto tal cual. Así un comando
-nuevo puede registrarse antes de tener traducción sin quedarse con la clave
-cruda de descripción.
+`ranking` se registra a mano porque su argumento es un desplegable de las 20
+ligas, no texto libre.
+
+Ojo con la diferencia de idiomas: **la interfaz** (nombres y descripciones) la
+localiza Discord según el idioma del *cliente de cada usuario*; **las respuestas**
+van en el idioma del *servidor* (`/language`). Son dos cosas distintas.
 """
 
 from __future__ import annotations
 
+import inspect
 from typing import Awaitable, Callable
 
 import nextcord
@@ -60,7 +64,7 @@ from core.responder import Respuesta
 from utils.i18n import _CATALOGO, MAX_DESCRIPCION, MAX_NOMBRE, localizaciones, texto_base
 from utils.logger import get_logger
 
-log = get_logger("core.dual")
+log = get_logger("core.slash")
 
 CuerpoSimple = Callable[[Respuesta], Awaitable[None]]
 CuerpoTexto = Callable[[Respuesta, str], Awaitable[None]]
@@ -99,13 +103,17 @@ def _recortar(texto: str, etiqueta: str) -> str:
 
 
 def nombre_de(clave: str) -> tuple[str, dict[str, str]]:
-    """Igual que `textos_de`, pero para el **nombre** de una opción.
+    """Igual que `textos_de`, pero para un **nombre**: el de un comando o una opción.
 
     Los nombres tienen reglas más duras que las descripciones: Discord solo
     acepta `[a-z0-9_-]`, hasta 32 caracteres, sin espacios ni mayúsculas ni
     tildes. Un nombre inválido es otro 400 que tumba el registro entero, así que
     se normaliza aquí: "jugador" pasa, "Nick del pro" no pasaría y se convierte
     en `nick-del-pro`.
+
+    Se usa para las dos cosas —nombres de comando (`cmd.history.name`) y de
+    opción (`cmd.history.arg`)— porque las reglas son las mismas y tener dos
+    funciones idénticas era pedir que una se quedara sin arreglar.
     """
     if clave not in _CATALOGO:
         return _saneado(clave), {}
@@ -152,11 +160,11 @@ def _saneado(texto: str) -> str:
 # La regla: quien pide permisos es de servidor
 # --------------------------------------------
 # `default_member_permissions` es un permiso **de servidor**. Un comando que lo
-# lleva —`/setchannel`, `/unsubscribe`, `/quitarcanal` y los dos de esports— no
-# tiene ningún sentido fuera de uno: configura un canal de un servidor y su
-# cerrojo es un permiso que en un DM no existe. Así que el alcance se **deriva**
-# de eso en vez de declararse comando por comando: con `permiso`, solo servidor;
-# sin `permiso`, en todas partes.
+# lleva —`/subscribe`, `/unsubscribe`, `/mute` y los dos de esports— no tiene
+# ningún sentido fuera de uno: configura un canal de un servidor y su cerrojo es
+# un permiso que en un DM no existe. Así que el alcance se **deriva** de eso en
+# vez de declararse comando por comando: con `permiso`, solo servidor; sin
+# `permiso`, en todas partes.
 #
 # Derivarlo en vez de pedirlo tiene un motivo concreto: si fuera un parámetro
 # suelto, el día que se añada un comando de administración nuevo habría que
@@ -168,8 +176,8 @@ def _saneado(texto: str) -> str:
 # permisos que aun así necesite servidor.
 
 #: Instalable por servidor y por persona, invocable en cualquier sitio. Es el
-#: caso normal: todos los comandos de consulta (`/live`, `/info`, `/match`,
-#: `/historial`, `/team`, `/ranking`, `/help`...).
+#: caso normal: todos los comandos de consulta (`/live`, `/player`, `/match`,
+#: `/history`, `/team`, `/ranking`, `/help`...).
 GLOBAL = "global"
 
 #: Solo dentro de un servidor donde el bot esté instalado. Los de configuración.
@@ -214,7 +222,28 @@ def ambito_de(alcance: str) -> dict:
     }
 
 
-def dual(
+#: Permiso que se exige para cambiar la configuración del servidor (canales de
+#: notificación). Está aquí para que los cuatro comandos que lo usan —dos de
+#: SoloQ, dos de esports— no declaren cada uno el suyo.
+PERMISO_ADMIN = nextcord.Permissions(manage_guild=True)
+
+
+def _base(nombre: str, descripcion: str, permiso, alcance) -> tuple[str, str, dict]:
+    """Lo que comparten las tres formas: nombre, descripción y ámbito.
+
+    Sin localizaciones a propósito: el dueño pidió que la interfaz de comandos
+    esté **solo en inglés** («que solo estén en inglés y se entiendan bien»), que
+    es lo universal. El catálogo sigue guardando el español de cada cadena como
+    documentación de qué significa, pero a Discord se le manda solo el inglés.
+    """
+    nombre_base, _locales = nombre_de(nombre)
+    desc, _locales_desc = textos_de(descripcion)
+    extra = {} if permiso is None else {"default_member_permissions": permiso}
+    ambito = ambito_de(alcance or (SERVIDOR if permiso is not None else GLOBAL))
+    return nombre_base, desc, {**extra, **ambito}
+
+
+def slash(
     bot: commands.Bot,
     nombre: str,
     descripcion: str,
@@ -223,48 +252,27 @@ def dual(
     permiso: nextcord.Permissions | None = None,
     alcance: str | None = None,
 ) -> None:
-    """Registra `!nombre` y `/nombre` sin argumentos, con el mismo cuerpo.
+    """Registra `/nombre`, sin argumentos.
 
-    `descripcion` es una clave del catálogo (`"cmd.live.desc"`); de ahí salen la
-    descripción base en inglés y las localizaciones que Discord muestra según el
-    idioma del cliente de cada usuario.
+    `nombre` y `descripcion` son claves del catálogo (`"cmd.live.name"`,
+    `"cmd.live.desc"`).
 
-    `permiso` añade `default_member_permissions` a la forma slash, que hace que
-    Discord **ni le muestre el comando** a quien no lo tiene. Eso es interfaz,
-    no seguridad, y no existe para los comandos de prefijo: el cuerpo tiene que
-    comprobarlo igual con `res.es_admin()`.
+    `permiso` añade `default_member_permissions`, que hace que Discord **ni le
+    muestre el comando** a quien no lo tiene. Eso es interfaz, no seguridad: el
+    cuerpo tiene que comprobarlo igual con `res.es_admin()`.
 
     `alcance` decide dónde se puede usar (`GLOBAL` o `SERVIDOR`). Por defecto se
     deriva de `permiso`: un comando con permisos de servidor solo tiene sentido
     dentro de uno. Ver el bloque de arriba.
     """
-    desc, locales = textos_de(descripcion)
-    ambito = ambito_de(alcance or (SERVIDOR if permiso is not None else GLOBAL))
+    nombre_base, desc, extra = _base(nombre, descripcion, permiso, alcance)
 
-    @bot.command(name=nombre)
-    async def _prefijo(ctx: commands.Context):  # noqa: ANN202
-        await cuerpo(Respuesta(ctx))
-
-    extra = {} if permiso is None else {"default_member_permissions": permiso}
-
-    @bot.slash_command(
-        name=nombre,
-        description=desc,
-        description_localizations=locales or None,
-        **extra,
-        **ambito,
-    )
+    @bot.slash_command(name=nombre_base, description=desc, **extra)
     async def _slash(interaction: nextcord.Interaction):  # noqa: ANN202
         await cuerpo(Respuesta(interaction))
 
 
-#: Permiso que se exige para cambiar la configuración del servidor (canales de
-#: notificación). Está aquí para que los cuatro comandos que lo usan —dos de
-#: SoloQ, dos de esports— no declaren cada uno el suyo.
-PERMISO_ADMIN = nextcord.Permissions(manage_guild=True)
-
-
-def dual_texto(
+def slash_texto(
     bot: commands.Bot,
     nombre: str,
     descripcion: str,
@@ -275,43 +283,27 @@ def dual_texto(
     requerido: bool = True,
     alcance: str | None = None,
 ) -> None:
-    """Registra `!nombre <texto>` y `/nombre <arg>` con el mismo cuerpo.
+    """Registra `/nombre <arg>`, con un argumento de texto libre.
 
-    `descripcion`, `arg_nombre` y `arg_desc` son claves del catálogo. El nombre
-    del argumento también se localiza: un usuario con el cliente en español ve
-    `/match jugador:` y uno en inglés `/match player:` — mismo comando, y lo que
-    llega al cuerpo es el valor, no el nombre, así que nada más cambia.
+    `nombre`, `descripcion`, `arg_nombre` y `arg_desc` son claves del catálogo.
 
-    `requerido=False` deja el argumento opcional en las dos formas: así
-    `!historial` sin nada sigue dando el historial global y `/historial` puede
-    invocarse sin rellenar el campo.
+    `requerido=False` deja el argumento opcional, que es lo que hace que
+    `/history` sin nada siga dando el historial global.
 
     `alcance` por defecto es `GLOBAL`: todos los comandos con argumento de texto
-    son de consulta (`/info`, `/match`, `/historial`, `/team`, `/ligas`), y son
+    son de consulta (`/player`, `/match`, `/history`, `/team`, `/leagues`), y son
     justo los que el usuario pidió poder usar desde su propio chat.
     """
-    desc, locales = textos_de(descripcion)
-    arg, arg_locales = nombre_de(arg_nombre)
-    ayuda, ayuda_locales = textos_de(arg_desc)
-    ambito = ambito_de(alcance or GLOBAL)
+    nombre_base, desc, extra = _base(nombre, descripcion, None, alcance or GLOBAL)
+    arg, _arg_locales = nombre_de(arg_nombre)
+    ayuda, _ayuda_locales = textos_de(arg_desc)
 
-    @bot.command(name=nombre)
-    async def _prefijo(ctx: commands.Context, *, valor: str = ""):  # noqa: ANN202
-        await cuerpo(Respuesta(ctx), valor.strip())
-
-    @bot.slash_command(
-        name=nombre,
-        description=desc,
-        description_localizations=locales or None,
-        **ambito,
-    )
+    @bot.slash_command(name=nombre_base, description=desc, **extra)
     async def _slash(  # noqa: ANN202
         interaction: nextcord.Interaction,
         valor: str = SlashOption(
             name=arg,
-            name_localizations=arg_locales or None,
             description=ayuda,
-            description_localizations=ayuda_locales or None,
             required=requerido,
             **({} if requerido else {"default": ""}),
         ),
@@ -319,7 +311,134 @@ def dual_texto(
         await cuerpo(Respuesta(interaction), (valor or "").strip())
 
 
-def dual_cog(
+def slash_opciones(
+    bot: commands.Bot,
+    nombre: str,
+    descripcion: str,
+    cuerpo: Callable[[Respuesta, dict[str, str]], Awaitable[None]],
+    *,
+    opciones: tuple[tuple[str, str, tuple[str, ...], str | None], ...],
+    permiso: nextcord.Permissions | None = None,
+) -> None:
+    """Registra `/nombre` con varias opciones de **lista cerrada**.
+
+    Cada opción es `(clave_nombre, clave_descripcion, valores, por_defecto)`. Si
+    `por_defecto` es `None` la opción es **obligatoria**; si no, es opcional y el
+    cuerpo recibe ese valor cuando el usuario no la toca.
+
+    `valores` puede ser tres cosas:
+
+    * una **tupla** de valores (`("soloq", "esports")`), que sale como lista
+      cerrada con la etiqueta igual al valor;
+    * un **`dict`** `{etiqueta: valor}`, que es lo que permite que el desplegable
+      enseñe `LEC · Europa` y mande `lec`;
+    * **`None`**, que deja la opción como **texto libre**. Lo necesita
+      `/subscribe`, donde el objetivo puede ser una liga, un equipo, un pro o una
+      cuenta y no hay lista cerrada posible.
+
+    Existe por dos motivos, y los dos son de diseño, no de comodidad:
+
+    1. **Para no inventar nombres compuestos.** El dueño lo pidió así: «que se
+       entienda su significado de una palabra… si es esports es solo esports, no
+       esports-live». La diferencia entre dar avisos de SoloQ o de esports no es
+       del comando, es de **qué** avisos, así que va en una opción
+       (`/subscribe type: soloq|esports`) y el nombre se queda en una palabra.
+    2. **Para filtrar sin gastar llamadas.** `/ranking lck mid 10` filtra la tabla
+       que ya se ha pedido y que ya está en caché; `/live lck` filtra la caché de
+       partidas que el barrido mantiene en memoria. Ninguna de las dos vuelve a
+       llamar a nadie, y por eso se pueden ofrecer sin miedo al rate limit.
+
+    Las listas cerradas (`choices`) son lo que hace que esto sea barato y seguro:
+    Discord valida el valor antes de que llegue al bot, así que el cuerpo nunca
+    tiene que defenderse de basura.
+
+    El cuerpo recibe `{clave: valor}` con los nombres ya saneados. Las claves son
+    los **nombres reales de la opción** (`league`, `role`, `top`), no los del
+    catálogo, para que el cuerpo lea lo mismo que ve el usuario.
+    """
+    nombre_base, desc, extra = _base(nombre, descripcion, permiso, None)
+
+    # Se resuelve cada opción una vez: nombre real, ayuda, lista para Discord y
+    # valores válidos. `valores` admite tupla (la etiqueta es el valor) o dict
+    # `{etiqueta: valor}`, que es lo que deja enseñar `LEC · Europa` y mandar `lec`.
+    specs: list[tuple[str, str, object, tuple[str, ...], str | None]] = []
+    for clave_nombre, clave_desc, valores, por_defecto in opciones:
+        op, _loc = nombre_de(clave_nombre)
+        ayuda, _ayuda_loc = textos_de(clave_desc)
+        if valores is None:
+            # Texto libre: sin `choices` y sin validar contra nada.
+            specs.append((op, ayuda, None, None, por_defecto))
+        elif isinstance(valores, dict):
+            specs.append((op, ayuda, dict(valores), tuple(valores.values()), por_defecto))
+        else:
+            tupla = tuple(valores)
+            specs.append((op, ayuda, list(tupla), tupla, por_defecto))
+
+    async def _slash(interaction: nextcord.Interaction, **valores: str):  # noqa: ANN202
+        elegidos: dict[str, str] = {}
+        for i, (op, _ayuda, _discord, validos, por_defecto) in enumerate(specs):
+            valor = (valores.get(f"valor_{i}") or "").strip()
+            if valor and validos is not None and valor not in validos:
+                # Discord valida las `choices`, así que esto no debería pasar; se
+                # cae al valor por defecto en vez de propagar basura al cuerpo.
+                log.warning("Opción fuera de la lista en /%s: %s=%r", nombre_base, op, valor)
+                valor = ""
+            elegidos[op] = valor or (por_defecto or "")
+        await cuerpo(Respuesta(interaction), elegidos)
+
+    # La firma se compone **antes** de registrar, no después: nextcord construye
+    # el comando leyendo `inspect.signature(callback)`, e `inspect` respeta un
+    # `__signature__` puesto a mano. Registrar primero y parchear la firma luego
+    # dejaría el payload ya construido, sin las opciones.
+    #
+    # Los parámetros se llaman `valor_0`, `valor_1`… y **no** como la opción: el
+    # nombre de una opción de Discord admite guiones (`channel-add`) y un guion no
+    # es un nombre de parámetro válido en Python. El nombre de verdad va en
+    # `SlashOption(name=...)`, que es lo que viaja a Discord.
+    _slash.__signature__ = inspect.Signature(
+        [inspect.Parameter("interaction", inspect.Parameter.POSITIONAL_OR_KEYWORD)]
+        + [
+            inspect.Parameter(
+                f"valor_{i}",
+                inspect.Parameter.KEYWORD_ONLY,
+                default=SlashOption(
+                    name=op,
+                    description=ayuda,
+                    # Sin `choices` cuando es texto libre: pasar `None` explícito
+                    # es lo que nextcord espera para una opción de texto.
+                    **({} if discord is None else {"choices": discord}),
+                    required=por_defecto is None,
+                    **({} if por_defecto is None else {"default": por_defecto}),
+                ),
+            )
+            for i, (op, ayuda, discord, _validos, por_defecto) in enumerate(specs)
+        ]
+    )
+    _slash.__name__ = f"slash_{nombre_base}"
+    bot.slash_command(name=nombre_base, description=desc, **extra)(_slash)
+
+
+def slash_opciones_cog(
+    cog: commands.Cog,
+    bot: commands.Bot,
+    nombre: str,
+    descripcion: str,
+    cuerpo: Callable[[Respuesta, dict[str, str]], Awaitable[None]],
+    *,
+    opciones: tuple[tuple[str, str, object, str | None], ...],
+    permiso: nextcord.Permissions | None = None,
+) -> None:
+    """Igual que `slash_opciones`, pero para comandos que viven dentro de un Cog.
+
+    Existe por lo mismo que `slash_cog`: los comandos de esports necesitan el
+    `TrackerService` de la instancia, y nextcord exige `self` en los comandos
+    declarados dentro de una clase. El `cog` no se usa aquí; está en la firma
+    para que en la llamada se vea a quién pertenece el comando.
+    """
+    slash_opciones(bot, nombre, descripcion, cuerpo, opciones=opciones, permiso=permiso)
+
+
+def slash_cog(
     cog: commands.Cog,
     bot: commands.Bot,
     nombre: str,
@@ -329,7 +448,7 @@ def dual_cog(
     permiso: nextcord.Permissions | None = None,
     alcance: str | None = None,
 ) -> None:
-    """Igual que `dual`, pero para comandos que viven dentro de un Cog.
+    """Igual que `slash`, pero para comandos que viven dentro de un Cog.
 
     Los comandos de esports están en `EsportsCommands`, cuyo estado (el
     `TrackerService`) es de la instancia. En vez de declarar el slash dentro de
@@ -342,4 +461,4 @@ def dual_cog(
     hace falta enganchar algo del cog (un `cog_check`, por ejemplo) el punto de
     extensión ya exista.
     """
-    dual(bot, nombre, descripcion, cuerpo, permiso=permiso, alcance=alcance)
+    slash(bot, nombre, descripcion, cuerpo, permiso=permiso, alcance=alcance)

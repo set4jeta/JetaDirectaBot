@@ -55,23 +55,23 @@ def _titulo(texto: str) -> list[str]:
 
 
 def _comandos(bot: commands.Bot) -> list[str]:
-    """Comandos registrados, en las dos formas, contados y listados.
+    """Los slash commands registrados, contados y listados.
 
-    Sobre el cotejo slash/prefijo
-    -----------------------------
+    Sobre `rollout`
+    ---------------
     `get_application_commands()` **sin** `rollout` solo devuelve los comandos que
     ya tienen id de Discord, y ese id llega uno a uno, a lo largo de ~45 s
     después de conectar (`Registering command with signature (...)` en el log).
     `on_ready` se dispara mucho antes, así que preguntarlo ahí daba 0 y el banner
-    avisaba de "sin forma slash: help, historial, ..." **mientras la línea de
-    arriba listaba los 15**. Se contradecía a sí mismo en pantalla.
+    decía "0 comandos" con 20 registrados.
 
     `rollout=True` lee `state._application_commands`, que ya está lleno: lo
     rellena `Client.on_connect` con `add_all_application_commands()` antes de
-    empezar a hablar con Discord. Verificado sin red: 0 sin rollout, 15 con él.
-    """
-    prefijo = sorted({c.name for c in bot.commands})
+    empezar a hablar con Discord. Verificado sin red: 0 sin rollout, 20 con él.
 
+    Ya no hay comandos de prefijo (`!`): se retiraron el 22-09-2026, así que la
+    línea que comparaba las dos formas sobraba.
+    """
     slash = sorted(
         {
             c.name
@@ -90,23 +90,10 @@ def _comandos(bot: commands.Bot) -> list[str]:
             }
         )
 
-    lineas = [f"  {len(prefijo)} comandos, disponibles como /nombre y !nombre:"]
+    lineas = [f"  {len(slash)} slash commands:"]
     # De 4 en 4 para que quepa en una consola estrecha sin recortar nombres.
-    for i in range(0, len(prefijo), 4):
-        lineas.append("    " + "  ".join(f"/{n}" for n in prefijo[i : i + 4]))
-
-    solo_prefijo = set(prefijo) - set(slash)
-    solo_slash = set(slash) - set(prefijo)
-    if solo_prefijo:
-        lineas.append(
-            f"  ⚠️ sin forma slash: {', '.join(sorted(solo_prefijo))}"
-        )
-    if solo_slash:
-        lineas.append(
-            f"  ⚠️ sin forma de prefijo: {', '.join(sorted(solo_slash))}"
-        )
-    if not solo_prefijo and not solo_slash:
-        lineas.append("  ✔ las dos formas coinciden")
+    for i in range(0, len(slash), 4):
+        lineas.append("    " + "  ".join(f"/{n}" for n in slash[i : i + 4]))
     return lineas
 
 
@@ -203,9 +190,9 @@ def _servidores(bot: commands.Bot) -> list[str]:
 
         avisos = []
         if not soloq:
-            avisos.append("SoloQ sin canal (/setchannel)")
+            avisos.append("SoloQ sin canal (/channel-add)")
         if not esports:
-            avisos.append("esports sin canal (/setlivechannel)")
+            avisos.append("esports sin canal (/esports-channel-add)")
 
         # Permisos: se comprueban en el canal configurado, que es donde el bot
         # tiene que poder escribir sin que nadie se lo pida.
@@ -239,7 +226,7 @@ def _servidores(bot: commands.Bot) -> list[str]:
 
 def construir(bot: commands.Bot) -> str:
     """El texto completo del resumen. Aparte para poder verlo sin conectar."""
-    partes: list[str] = ["", "=" * ANCHO, "  JetaDirectaBot — listo", "=" * ANCHO]
+    partes: list[str] = ["", "=" * ANCHO, "  LoLProTrackr — listo", "=" * ANCHO]
 
     if bot.user is not None:
         partes.append(f"  Cuenta: {bot.user} (id {bot.user.id})")

@@ -69,6 +69,9 @@ log = get_logger("core.bot_launcher")
 intents = nextcord.Intents.default()
 intents.message_content = True
 
+# `command_prefix` sigue aquí porque nextcord lo exige en el constructor, pero
+# **ya no hay ningún comando de prefijo**: los `!` se retiraron el 22-09-2026 y
+# todo son slash commands (ver `AGENTS.md` §8). Un `!loquesea` no hace nada.
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 
 #: El loop que nextcord se inventó al construir el bot (ver docstring). Se

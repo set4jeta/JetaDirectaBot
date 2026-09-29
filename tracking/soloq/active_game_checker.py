@@ -79,6 +79,7 @@ from utils.cache_utils import limpiar_cache_partidas_viejas
 from utils.game_clock import desde_partida
 from utils.logger import get_logger
 from utils.player_filters import get_tracked_players
+from utils import egress
 
 log = get_logger("tracking.active_game_checker")
 
@@ -491,6 +492,11 @@ class ActiveGameTracker:
         # La pasada es global (abarca las ligas de todos los servidores), pero
         # cada servidor solo recibe las que eligió. Sin este filtro, quien
         # siguiera solo la LEC recibiría también las partidas de la LCK.
+        from tracking.soloq.channel_targets import (
+            SOLOQ,
+            acepta_soloq,
+            objetivos_de,
+        )
         from tracking.soloq.leagues import ligas_de
         from utils.i18n import idioma_de
         from utils.player_filters import _liga_de
@@ -516,12 +522,11 @@ class ActiveGameTracker:
         por_idioma: dict[str, tuple[object, list[tuple[str, str]]]] = {}
 
         for guild_id, canales in canales_por_servidor.items():
-            if liga_jugador not in ligas_de(guild_id):
-                log.debug(
-                    "Servidor %s: %s es de la liga '%s', que no sigue.",
-                    guild_id, player_name, liga_jugador,
-                )
-                continue
+            # El filtro de liga del servidor se aplica **solo** a los canales que
+            # no han pedido nada concreto. Quien escribió `/subscribe soloq lck`
+            # está diciendo exactamente lo que quiere; pasarle además el filtro
+            # del servidor sería contradecirle.
+            sigue_la_liga = liga_jugador in ligas_de(guild_id)
 
             idioma = idioma_de(guild_id)
 
@@ -529,6 +534,25 @@ class ActiveGameTracker:
             # así que el filtro por liga y el idioma se resuelven una vez por
             # servidor y el envío se repite por canal.
             for channel_id in canales:
+                objetivos = objetivos_de(guild_id, channel_id).get(SOLOQ)
+                if objetivos:
+                    # Semántica «solo»: lo que pidió el canal, y nada más.
+                    if not acepta_soloq(
+                        objetivos,
+                        liga=liga_jugador,
+                        jugador=player_name,
+                        equipo=equipo_jugador,
+                        cuenta=f"{account.riot_id.get('game_name', '')}#"
+                               f"{account.riot_id.get('tag_line', '')}",
+                    ):
+                        continue
+                elif not sigue_la_liga:
+                    log.debug(
+                        "Servidor %s: %s es de la liga '%s', que no sigue.",
+                        guild_id, player_name, liga_jugador,
+                    )
+                    continue
+
                 if already_announced(self.announced_games, game_id, channel_id):
                     continue
 
@@ -562,6 +586,11 @@ class ActiveGameTracker:
                         files = _reabrir(rutas)
 
                     await channel.send(embed=embed, files=files)
+                    # Se cuenta **cada envío**, no cada partida: el mismo embed
+                    # va a cada canal y a cada persona, y cada uno es una subida
+                    # distinta. Ese detalle es lo que agotó el ancho de banda de
+                    # Render y tuvo el bot caído 3 días (ver `utils/egress.py`).
+                    egress.registrar(embed, files)
                     sent = True
                 except Exception as exc:
                     olvidar_anuncio(self.announced_games, game_id, channel_id)
@@ -650,6 +679,12 @@ class ActiveGameTracker:
             if uid not in entregados:
                 olvidar_anuncio(self.announced_games, match.game_id, clave_dedupe(uid))
         if entregados:
+            # Un registro por persona: cada DM es una subida distinta, con su
+            # propio embed y sus propios adjuntos. Ver `utils/egress.py`.
+            from utils.i18n import idioma_efectivo
+            for uid in entregados:
+                embed_idioma, rutas = cache[idioma_efectivo(uid)]
+                egress.registrar(embed_idioma, rutas)
             log.info("Partida %s enviada por DM a %d usuario(s)",
                      match.game_id, len(entregados))
         return bool(entregados)

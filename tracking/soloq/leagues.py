@@ -141,6 +141,25 @@ class Liga:
         return f"{self.nombre} · {self.region}"
 
     @property
+    def region_en(self) -> str:
+        """La región en inglés, para la web.
+
+        La web se publica **solo en inglés**, así que no puede enseñar «LCK
+        Corea» ni «LEC Europa»: el rótulo tiene que estar en el idioma de la
+        página. El `nombre` sí se reutiliza tal cual, porque son marcas y
+        nombres propios —LEC, LCK, Prime League, Hitpoint Masters— que no se
+        traducen; lo que cambia de idioma es la descripción de dónde se juega.
+
+        Se traduce por el texto español y no con un campo más en cada `Liga`
+        porque son diez cadenas repetidas («Brasil» sale en la CBLOL y en el
+        Circuito Desafiante) y una tabla es un solo sitio donde mirar y arreglar
+        en vez de veinte. Si una región no está en la tabla devuelve el español:
+        `scripts/generar_web.py` avisa de cuáles faltan al generar, que es donde
+        se puede arreglar.
+        """
+        return REGION_EN.get(self.region, self.region)
+
+    @property
     def seguible(self) -> bool:
         """¿Se pueden detectar partidas en vivo de esta liga?"""
         return self.rastreable
@@ -182,6 +201,33 @@ LIGAS: dict[str, Liga] = {
         # --- Segundas divisiones ---
         Liga("cd", "Circuito Desafiante", "Brasil", "br1"),
     )
+}
+
+#: La región de cada liga en inglés. Solo para la web: el bot sigue usando
+#: `Liga.region` en español en sus respuestas, que es lo que espera la mitad de
+#: los servidores. La clave es el texto español, así que dos ligas con la misma
+#: región —la CBLOL y el Circuito Desafiante, las dos en «Brasil»— se traducen
+#: con una sola línea.
+REGION_EN: dict[str, str] = {
+    "Europa": "Europe",
+    "Corea": "Korea",
+    "Norteamérica": "North America",
+    "Brasil": "Brazil",
+    "Asia-Pacífico": "Asia-Pacific",
+    "Internacional": "International",
+    "China": "China",
+    "Francia": "France",
+    "Norte de Europa": "Northern Europe",
+    "Alemania": "Germany",
+    "Grecia": "Greece",
+    "España": "Spain",
+    "Italia": "Italy",
+    "Polonia": "Poland",
+    "Benelux": "Benelux",
+    "Chequia y Eslovaquia": "Czechia and Slovakia",
+    "Balcanes": "Balkans",
+    "Turquía": "Türkiye",
+    "Oriente Medio": "Middle East",
 }
 
 #: Alias para que la gente escriba lo que le suene.

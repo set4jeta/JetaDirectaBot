@@ -20,11 +20,11 @@ from utils.game_clock import desde_partida, humano, mmss
 from utils.helpers import parse_ranked_data
 from cache.champion_cache import CHAMPION_ID_TO_NAME
 from utils.spectate_bat import generar_bat_spectate
+from utils import egress
 from models.soloq_match import SoloQMatch, SoloQParticipant
 from apis.dpm_api import get_rank_from_dpmlol
-from ui.player_image_utils import get_player_image_path
-from ui.team_image_utils import get_team_image_path
-from utils.branding import sellar_embed
+from ui.player_image_utils import url_imagen_jugador
+from ui.team_image_utils import url_imagen_equipo
 from utils.i18n import t
 from utils.role_assigner import assign_roles
 from utils.logger import get_logger
@@ -243,19 +243,20 @@ async def create_match_embed(
     
     if main_player:
         player_obj = puuid_to_player[main_player.puuid]
-        img_path = get_player_image_path(player_obj.name)
-        if img_path:
-            filename = f'{player_obj.name.lower().replace(" ", "").replace("\'", "").replace(".", "")}.webp'
-            embed.set_thumbnail(url=f"attachment://{filename}")
-            files.append(nextcord.File(img_path, filename=filename))
+        # La foto y el logo van por **URL**, no adjuntos. Es el cambio del
+        # 29-09-2026: subirlos costaba ~35 KB por destinatario y por aviso, y el
+        # mismo aviso se reenvía a cada servidor y cada canal, así que una sola
+        # partida podía subir la misma foto una docena de veces. Eso agotó los
+        # 5 GB de salida del plan gratuito de Render y tumbó el bot tres días
+        # (ver `DESPLIEGUE.md` §8). Las imágenes son las mismas —se sirven desde
+        # la misma fuente de la que antes se descargaban— así que se ven igual.
+        embed.set_thumbnail(url=url_imagen_jugador(player_obj.name))
 
-
-                # --- LOGO DEL EQUIPO COMO MAIN IMAGE ---
+        # --- LOGO DEL EQUIPO COMO MAIN IMAGE ---
         team_tricode = player_obj.team.upper() if player_obj.team else ""
-        team_img_path = get_team_image_path(team_tricode)
-        if team_img_path:
-            embed.set_image(url=f"attachment://{team_tricode}.webp")
-            files.append(nextcord.File(team_img_path, filename=f"{team_tricode}.webp"))
+        url_logo = url_imagen_equipo(team_tricode)
+        if url_logo:
+            embed.set_image(url=url_logo)
 
 
 
@@ -373,7 +374,20 @@ async def create_match_embed(
             match_id=game_id,
             region=platform_id
         )
-        files.append(nextcord.File(bat_path, filename="spectate_lol.bat"))
+
+        # El `.bat` es lo **único** que sigue adjuntándose, y no puede ser un
+        # enlace: lleva la clave de cifrado de esta partida, así que es distinto
+        # cada vez. Son 1,1 kB, o sea nada al lado de los ~35 kB que costaban la
+        # foto y el logo. Aun así pasa por el presupuesto: si algún mes se agota
+        # el ancho de banda, lo que se cae es esto —el atajo para espectar— y no
+        # el aviso, que es el producto. Ver `utils/egress.py`.
+        if egress.puede_adjuntar(os.path.getsize(bat_path)):
+            files.append(nextcord.File(bat_path, filename="spectate_lol.bat"))
+        else:
+            log.warning(
+                "Sin presupuesto de salida: el aviso sale sin el .bat de espectar "
+                "(la partida %s se avisa igual)", game_id,
+            )
 
         valor_espectar = _("partida.espectar_bat")
         # Ejecutar el .bat antes de que pase el delay deja el cliente esperando
@@ -398,11 +412,7 @@ async def create_match_embed(
             inline=False
         )
 
-    # El descargo de Riot va en el pie y se pone al final, después de todos los
-    # `add_field`: la política pide que esté "readily visible to players" y este
-    # embed es la superficie que más se ve, porque se publica sola en el canal
-    # cada vez que un pro entra en cola. Va la versión corta a propósito; la
-    # completa está en `/help` y en la web.
-    sellar_embed(embed, idioma)
+    # Aquí iba el descargo corto de Riot en el pie, en todas las notificaciones.
+    # Se quitó el 22-09-2026 por instrucción del dueño (ver `utils/branding.py`).
 
     return embed, files

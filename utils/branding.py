@@ -1,59 +1,57 @@
-"""Textos legales y de marca del bot. Obligatorios, no decorativos.
+"""Marca y enlaces del producto.
 
-Por qué existe este módulo
---------------------------
-Las políticas generales del portal de desarrolladores de Riot (última revisión
-del 29 de mayo de 2025, https://developer.riotgames.com/policies/general) dicen
-literalmente:
+Histórico del descargo de Riot
+------------------------------
+Aquí vivían `descargo_riot()`, `descargo_corto()` y `sellar_embed()`, que
+publicaban el aviso «[producto] no está avalado por Riot Games…» en el pie de
+cada embed y en `/help`, porque la política del portal de desarrolladores de Riot
+lo pide como texto obligatorio para productos de terceros.
 
-    "You must post the following legal boilerplate to your product in a
-     location that is readily visible to players:
-     [Your product] isn't endorsed by Riot Games and doesn't reflect the views
-     or opinions of Riot Games or anyone officially involved in producing or
-     managing Riot Games properties. Riot Games, and all associated properties
-     are trademarks or registered trademarks of Riot Games, Inc."
+El **22-09-2026 se quitaron por instrucción expresa del dueño**. Leyó el aviso
+como un rechazo («¿cómo que no me avala, si me dieron una key donde postulé
+esperando meses?») y ordenó eliminarlo. Es su producto y su decisión: la clave de
+la API es un permiso de acceso, no un aval, y quien asume el riesgo de dejar de
+publicar el aviso es él. No reintroducir estas funciones sin que lo pida.
 
-Esto **no estaba en ninguna parte del bot**. No es un detalle de estilo: el
-mismo documento avisa de que incumplir las políticas puede acabar en
-"suspension or cancellation of your API access or legal recourse", así que era
-el riesgo más caro del proyecto y el más barato de arreglar.
-
-Dónde se enseña
----------------
-La política pide un sitio "readily visible", no todos los sitios:
-
-* completo, en `/help` y en la web (`web/index.html`, `web/legal.html`);
-* abreviado, en el pie del embed de partida, que es la superficie que más se ve
-  porque se publica sola en el canal.
-
-Sobre monetizar
----------------
-La misma página permite cobrar con condiciones, y este módulo también recoge las
-que afectan al texto que ve el usuario:
-
-    "You may monetize your product as long as your product is registered on the
-     Developer Portal and your product status is either Approved or Acknowledged"
-    "You must have a free tier of access for players, which may include advertising"
-    "Acceptable ways to charge players are: Subscriptions, donations, or
-     crowdfunding; Entry fees for tournaments; Currencies that cannot be
-     exchanged back into fiat"
-
-De ahí sale la forma de `tracking/soloq/plans.py`: hay tier gratis siempre, y lo
-que se cobra son cupos, nunca el aviso de partida en sí.
-
-Marca
------
-El nombre del producto se puede cambiar con `BOT_NOMBRE` sin tocar el texto
-legal, porque la plantilla de Riot lleva "[Your product]" al principio y hay que
-sustituirlo por el nombre real.
+Lo que sigue haciendo falta de este módulo: el nombre del producto y los enlaces
+reales, que es lo que usan `/help`, `/premium` y la web.
 """
 
 from __future__ import annotations
 
 import os
 
-#: Nombre del producto. Configurable porque el texto legal lo lleva incrustado.
-BOT_NOMBRE = os.getenv("BOT_NOMBRE", "JetaDirectaBot")
+# El `.env` se carga aquí y no solo en `config.py` porque este módulo lo usan
+# también los **scripts** —`generar_web.py` sobre todo—, y esos no pasan por
+# `config`. Sin esto, generar la web desde la consola veía `BOT_INVITE_URL`
+# vacía y publicaba los botones apagados aunque el `.env` estuviera bien: el
+# síntoma era una web sin el botón de invitar y un aviso de «enlaces sin
+# configurar» que parecía un fallo del `.env`. Con la carga aquí, el valor es el
+# mismo lo importe quien lo importe.
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv(
+        os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"
+        )
+    )
+except ImportError:  # sin dotenv instalado, se usan las variables del entorno
+    pass
+
+#: Nombre del producto. Configurable con `BOT_NOMBRE`.
+#:
+#: Se llamó **JetaDirectaBot** hasta el 22-09-2026. El dueño lo renombró a
+#: **LoLProTrackr** —«así mejor le vamos a llamar al programa»— para que el
+#: nombre diga qué hace y para que case con el dominio de donaciones
+#: (`ko-fi.com/lolprotrackr`).
+#:
+#: Ojo al buscar el nombre viejo en el repositorio: **el repositorio y la URL de
+#: GitHub Pages siguen llamándose `JetaDirectaBot`** (`set4jeta.github.io/
+#: JetaDirectaBot/`, y `GITHUB_REPO` en `config.py`). No es un descuido: la URL
+#: del canónico tiene que ser la que existe de verdad, así que se cambia el día
+#: que se renombre el repositorio, no antes.
+BOT_NOMBRE = os.getenv("BOT_NOMBRE", "LoLProTrackr")
 
 #: URL pública del bot. Se usa en `/help`, en `/premium` y en el pie de la web.
 WEB_URL = os.getenv("BOT_WEB_URL", "")
@@ -62,69 +60,40 @@ WEB_URL = os.getenv("BOT_WEB_URL", "")
 #: enseñar uno inventado.
 INVITE_URL = os.getenv("BOT_INVITE_URL", "")
 
-#: Donde se aceptan donaciones. Riot las nombra explícitamente como forma
-#: aceptable de cobrar, así que es la vía con menos fricción legal.
+#: Donde se aceptan donaciones.
 DONATE_URL = os.getenv("BOT_DONATE_URL", "")
 
 #: Servidor de soporte.
 SOPORTE_URL = os.getenv("BOT_SOPORTE_URL", "")
 
 
-def descargo_riot(idioma: str | None = None) -> str:
-    """El descargo obligatorio, completo.
-
-    La versión inglesa es **literal** la de la política de Riot: es un texto
-    legal que ellos redactan, no una cadena del bot, así que no se reescribe ni
-    se resume. La española es una traducción de cortesía y va acompañada del
-    original para que no haya duda de qué se está aceptando.
-    """
-    ingles = (
-        f"{BOT_NOMBRE} isn't endorsed by Riot Games and doesn't reflect the "
-        "views or opinions of Riot Games or anyone officially involved in "
-        "producing or managing Riot Games properties. Riot Games, and all "
-        "associated properties are trademarks or registered trademarks of "
-        "Riot Games, Inc."
-    )
-    if idioma == "en":
-        return ingles
-    return (
-        f"{BOT_NOMBRE} no está avalado por Riot Games y no refleja las "
-        "opiniones ni los puntos de vista de Riot Games ni de nadie "
-        "involucrado oficialmente en la producción o gestión de las "
-        "propiedades de Riot Games. Riot Games y todas sus propiedades "
-        "asociadas son marcas comerciales o marcas registradas de "
-        f"Riot Games, Inc.\n\n_{ingles}_"
-    )
+#: El oro de la marca, para los embeds que no llevan un color semántico.
+#:
+#: Es el `--oro` de `web/styles-esports.css` (#e6c76a), el del logotipo. Se usa
+#: en `/help` y `/premium`, que son los dos comandos que hablan **del producto**
+#: y por eso llevan el color del producto.
+#:
+#: Los que **no** lo usan, y por qué: el aviso de partida en vivo
+#: (`ui/active_match_embed`) va en rojo y `/health` en rojo o verde. Ahí el color
+#: es información —«esto está pasando ahora», «esto está roto»—, no marca, y
+#: pintarlos de oro borraría la señal para ganar coherencia visual, que es un
+#: mal cambio.
+COLOR_MARCA = 0xE6C76A
 
 
-def descargo_corto(idioma: str | None = None) -> str:
-    """Versión de una línea, para el pie de un embed.
-
-    Discord corta el pie a 2048 caracteres, pero el problema real es visual: el
-    descargo completo en el pie de cada notificación tapa el contenido. La
-    política pide un sitio bien visible, no todos; el completo está en `/help` y
-    en la web.
-    """
-    if idioma == "en":
-        return f"{BOT_NOMBRE} · Not endorsed by Riot Games"
-    return f"{BOT_NOMBRE} · No avalado por Riot Games"
-
-
-def sellar_embed(embed, idioma: str | None = None) -> None:
-    """Pone el descargo corto en el pie de un embed, sin pisar el que ya tenga.
-
-    Modifica el embed en el sitio y no devuelve nada, para que se pueda llamar
-    justo antes de enviarlo sin cambiar el flujo de quien lo construyó. Si el
-    embed ya traía pie (como `/health`), se le añade detrás separado por `·`:
-    perder el pie propio para meter el legal sería cambiar una cosa que
-    funciona por otra.
-    """
-    corto = descargo_corto(idioma)
-    actual = getattr(getattr(embed, "footer", None), "text", None)
-    if actual and corto not in actual:
-        embed.set_footer(text=f"{actual} · {corto}")
-    elif not actual:
-        embed.set_footer(text=corto)
+#: La cuota de la API de Riot en producción, en crudo.
+#:
+#: Va aquí y no escrita dentro del texto porque **es el argumento entero del
+#: discurso de apoyo** y aparece en la web, en `/premium` y en los mensajes de
+#: cupo agotado: si Riot la cambia, se cambia en un sitio. El número que se
+#: publica es el que da el portal de desarrolladores (`X-App-Rate-Limit:
+#: 500:10,30000:600`), y de él sale `MAX_LIGAS_POR_SERVIDOR` en `leagues.py`.
+#:
+#: Se publica porque la especificidad es lo que hace creíble una petición: «nos
+#: limita Riot» no convence a nadie, «Riot nos da 500 peticiones cada 10
+#: segundos y ya las gastamos» sí.
+RIOT_CUOTA_PETICIONES = 500
+RIOT_CUOTA_SEGUNDOS = 10
 
 
 def enlaces(idioma: str | None = None) -> list[str]:

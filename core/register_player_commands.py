@@ -31,7 +31,7 @@ from nextcord.ext import commands
 
 import config
 from apis.riot_api import get_active_game
-from core.dual_command import dual_texto
+from core.dual_command import slash_texto
 from core.rank_data import get_cached_rank, save_rank_data
 from core.responder import Respuesta
 from core.retry_handler import add_to_retry_queue
@@ -212,9 +212,9 @@ async def _responder_desde_cache(res: Respuesta, jugador) -> None:
 
 
 def register_match_command(bot: commands.Bot):
-    dual_texto(
+    slash_texto(
         bot,
-        "match",
+        "cmd.match.name",
         "cmd.match.desc",
         _cuerpo_match,
         arg_nombre="cmd.match.arg",

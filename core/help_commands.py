@@ -36,15 +36,19 @@ import nextcord
 from nextcord.ext import commands
 
 from apis.dpm_api import LIGAS
-from core.dual_command import dual
+from core.dual_command import slash
 from core.responder import Respuesta
-from utils.branding import descargo_riot, enlaces
+from utils.branding import COLOR_MARCA, enlaces
 from utils.i18n import IDIOMA_POR_DEFECTO, idioma_de
 from utils.logger import get_logger
 
 log = get_logger("core.help")
 
-COLOR = 0x1F8B4C
+#: El color del embed de `/help`: el oro de la marca (ver `branding.COLOR_MARCA`).
+#: Estuvo en verde (0x1F8B4C) hasta el 22-09-2026, de cuando la web también era
+#: verde; con el logotipo en oro, un `/help` verde es la pieza que más chirría
+#: porque es la primera que ve quien instala el bot.
+COLOR = COLOR_MARCA
 
 #: Códigos de liga que acepta `/ranking`, sacados del backend para que no haya
 #: que tocar la ayuda cada vez que se añada una liga.
@@ -54,36 +58,37 @@ Seccion = tuple[str, tuple[str, ...]]
 
 _SECCIONES_ES: tuple[Seccion, ...] = (
     (
-        "🎮 Partidas en vivo",
+        "🎮 Partidas de SoloQ en vivo",
         (
-            "**/live** — todos los jugadores trackeados que están en partida ahora mismo.",
-            "**/match** `jugador` — la partida en vivo de un jugador concreto. Ej: `/match elk`",
-            "**/info** `jugador` — datos del jugador: cuentas, elo y partida actual si la hay. Ej: `/info Elyoya`",
+            "**/live** — todos los pros seguidos que están en partida ahora mismo. Con liga, solo esa: `/live lck`",
+            "**/match** `jugador` — la partida en vivo de un pro, con los diez participantes. Ej: `/match elk`",
+            "**/info** `jugador` — su ficha: equipo, elo y partida actual. Ej: `/info Elyoya`",
         ),
     ),
     (
         "📊 Datos y clasificación",
         (
             f"**/ranking** `liga` — tabla de SoloQ de una liga. Ligas: {_CODIGOS_LIGA}",
-            "**/historial** — últimas partidas trackeadas de todos.",
-            "**/historial** `jugador` — últimas partidas de un jugador o de una cuenta suya.",
-            "**/team** `equipo` — jugadores de un equipo. Ej: `/team g2`, `/team fnc`",
+            "**/ranking** `liga` `rol` `limite` — filtros sobre esa tabla: `/ranking lck mid limit:10`",
+            "**/history** — últimas partidas seguidas de todos.",
+            "**/history** `liga`, `jugador` o `cuenta` — las de esa liga (`/history lec`), ese pro o esa cuenta (`/history Caps#EUW`).",
+            "**/team** `equipo` — plantilla de un equipo. Ej: `/team g2`, `/team fnc`",
         ),
     ),
     (
-        "🏆 Esports (todas las ligas)",
+        "🏆 Esports (partidos oficiales)",
         (
-            "**/partida** — partidos profesionales en vivo o a punto de empezar.",
-            "**/next** — horario de los próximos partidos.",
+            "**/esports** — partidos profesionales en vivo o a punto de empezar. Con liga, solo esa: `/esports lec`",
+            "**/schedule** — calendario de los próximos partidos.",
         ),
     ),
     (
         "🔔 Avisos para ti (chat privado)",
         (
-            "**/seguir** `Elyoya` — te aviso por privado cuando ese pro entre en SoloQ.",
-            "**/seguir** `lec` — todas las partidas de SoloQ de una liga entera.",
-            "**/dejarseguir** `Elyoya` — quitar uno. `/dejarseguir todo` borra todo.",
-            "**/misavisos** — a quién sigues y si puedo escribirte por privado.",
+            "**/track** `Elyoya` — te aviso por privado cuando ese pro entre en SoloQ.",
+            "**/track** `lec` — todas las partidas de SoloQ de una liga entera.",
+            "**/untrack** `Elyoya` — quitar uno. `/untrack all` borra todo.",
+            "**/following** — a quién sigues y si puedo escribirte por privado.",
             "_Estos funcionan aunque el bot no esté en tu servidor: añádelo a tu "
             "cuenta y los tendrás en cualquier chat._",
         ),
@@ -91,14 +96,12 @@ _SECCIONES_ES: tuple[Seccion, ...] = (
     (
         "⚙️ Configuración · requiere *Gestionar servidor*",
         (
-            "**/ligas** — ver las ligas que sigue el servidor. Con argumentos las cambia: `/ligas lec lck`",
-            "**/lang** — idioma del bot en este servidor: `/lang en`",
-            "**/setchannel** — **añadir** este canal a las notificaciones de SoloQ.",
-            "**/canales** — ver los canales de avisos de SoloQ y cuántos caben.",
-            "**/quitarcanal** — quitar solo este canal de las notificaciones.",
-            "**/unsubscribe** — dejar de recibir notificaciones de SoloQ en todo el servidor.",
-            "**/setlivechannel** — usar este canal para las notificaciones de esports.",
-            "**/removelivechannel** — dejar de recibir notificaciones de esports.",
+            "**/subscribe** — **añadir** este canal a los avisos. Con objetivo, **solo** eso: `/subscribe soloq lck`, `/subscribe esports lck`, `/subscribe soloq Elyoya`.",
+            "**/channels** — ver los canales con avisos y cuántos caben.",
+            "**/unsubscribe** — quitar solo este canal de los avisos.",
+            "**/mute** — apagar los avisos en todo el servidor.",
+            "**/leagues** `lec lck` — cambiar las ligas que sigue el servidor.",
+            "**/language** `code:en` — idioma del bot aquí.",
         ),
     ),
     (
@@ -106,43 +109,44 @@ _SECCIONES_ES: tuple[Seccion, ...] = (
         (
             "**/health** — si las fuentes de datos van bien y cuándo se "
             "actualizaron por última vez. Úsalo si algo parece desfasado.",
-            "**/premium** — cupos de este servidor y cómo apoyar el proyecto.",
+            "**/premium** — los cupos de este servidor, de dónde salen (la "
+            "cuota de Riot) y cómo subirlos entre todos.",
         ),
     ),
 )
-
 _SECCIONES_EN: tuple[Seccion, ...] = (
     (
-        "🎮 Live games",
+        "🎮 Live SoloQ games",
         (
-            "**/live** — every tracked player currently in a game.",
-            "**/match** `player` — the live game of one player. E.g. `/match elk`",
-            "**/info** `player` — player details: accounts, rank and current game if any. E.g. `/info Elyoya`",
+            "**/live** — every tracked pro currently in a game. With a league, just that one: `/live lck`",
+            "**/match** `player` — one pro's live game, with all ten participants. E.g. `/match elk`",
+            "**/info** `player` — their profile: team, rank and current game. E.g. `/info Elyoya`",
         ),
     ),
     (
         "📊 Stats and standings",
         (
-            f"**/ranking** `league` — SoloQ table for a league. Leagues: {_CODIGOS_LIGA}",
-            "**/historial** — latest tracked games from everyone.",
-            "**/historial** `player` — latest games of a player or one of their accounts.",
-            "**/team** `team` — players on a team. E.g. `/team g2`, `/team fnc`",
+            f"**/ranking** `league` — SoloQ leaderboard for a league. Leagues: {_CODIGOS_LIGA}",
+            "**/ranking** `league` `role` `limit` — filters on that table: `/ranking lck mid limit:10`",
+            "**/history** — latest tracked games from everyone.",
+            "**/history** `league`, `player` or `account` — those of a league (`/history lec`), a pro or one of their accounts (`/history Caps#EUW`).",
+            "**/team** `team` — a team's roster. E.g. `/team g2`, `/team fnc`",
         ),
     ),
     (
-        "🏆 Esports (all leagues)",
+        "🏆 Esports (official matches)",
         (
-            "**/partida** — pro matches live or about to start.",
-            "**/next** — schedule for upcoming matches.",
+            "**/esports** — pro matches live or about to start. With a league, just that one: `/esports lec`",
+            "**/schedule** — schedule of the upcoming matches.",
         ),
     ),
     (
         "🔔 Alerts for you (DMs)",
         (
-            "**/seguir** `Elyoya` — I'll DM you when that pro starts a SoloQ game.",
-            "**/seguir** `lec` — every SoloQ game from a whole league.",
-            "**/dejarseguir** `Elyoya` — remove one. `/dejarseguir all` removes everything.",
-            "**/misavisos** — who you follow and whether I can DM you.",
+            "**/track** `Elyoya` — I'll DM you when that pro starts a SoloQ game.",
+            "**/track** `lec` — every SoloQ game from a whole league.",
+            "**/untrack** `Elyoya` — remove one. `/untrack all` removes everything.",
+            "**/following** — who you follow and whether I can DM you.",
             "_These work even if the bot isn't on your server: add it to your "
             "account and you'll have them in any chat._",
         ),
@@ -150,14 +154,12 @@ _SECCIONES_EN: tuple[Seccion, ...] = (
     (
         "⚙️ Settings · requires *Manage Server*",
         (
-            "**/ligas** — see the leagues this server tracks. With arguments it changes them: `/ligas lec lck`",
-            "**/lang** — bot language on this server: `/lang es`",
-            "**/setchannel** — **add** this channel to the SoloQ notifications.",
-            "**/canales** — see the SoloQ alert channels and how many fit.",
-            "**/quitarcanal** — remove just this channel from the notifications.",
-            "**/unsubscribe** — stop receiving SoloQ notifications server-wide.",
-            "**/setlivechannel** — use this channel for esports notifications.",
-            "**/removelivechannel** — stop receiving esports notifications.",
+            "**/subscribe** — **add** this channel to the alerts. With a target, **only** that: `/subscribe soloq lck`, `/subscribe esports lck`, `/subscribe soloq Elyoya`.",
+            "**/channels** — see the alert channels and how many fit.",
+            "**/unsubscribe** — remove just this channel from the alerts.",
+            "**/mute** — turn off the alerts for the whole server.",
+            "**/leagues** `lec lck` — change the leagues this server tracks.",
+            "**/language** `code:es` — bot language here.",
         ),
     ),
     (
@@ -165,40 +167,40 @@ _SECCIONES_EN: tuple[Seccion, ...] = (
         (
             "**/health** — whether the data sources are healthy and when they "
             "last updated. Use it if something looks stale.",
-            "**/premium** — this server's limits and how to support the project.",
+            "**/premium** — this server's limits, where they come from (Riot's "
+            "quota) and how everyone can raise them.",
         ),
     ),
 )
-
 _TEXTOS = {
     "es": {
-        "titulo": "📘 Comandos de JetaDirectaBot",
+        "titulo": "📘 Comandos de LoLProTrackr",
         "descripcion": "Seguimiento de SoloQ y partidos profesionales de League of Legends.",
         "notas_titulo": "ℹ️ Notas",
         "notas": (
-            "Los comandos antiguos con `!` siguen funcionando igual (`!live`, `!ranking`...), "
-            "pero `/` te los autocompleta.\n"
+            "Los comandos están **en inglés** (`/player`, `/history`, `/esports`), "
+            "que es lo que se entiende en cualquier servidor. Lo que cambia con "
+            "`/language` es lo que te contesto yo, no sus nombres.\n"
             "⏰ Las horas se muestran en tu zona horaria local automáticamente.\n"
             "⚠️ Si ves un aviso de *rate limit*, Riot está limitando las peticiones y el bot "
             "responde con datos de respaldo; se actualizan en pocos segundos."
         ),
         "enlaces_titulo": "🔗 Enlaces",
-        "legal_titulo": "📄 Aviso legal",
         "secciones": _SECCIONES_ES,
     },
     "en": {
-        "titulo": "📘 JetaDirectaBot commands",
+        "titulo": "📘 LoLProTrackr commands",
         "descripcion": "SoloQ and pro match tracking for League of Legends.",
         "notas_titulo": "ℹ️ Notes",
         "notas": (
-            "The old `!` commands still work the same (`!live`, `!ranking`...), "
-            "but `/` autocompletes them for you.\n"
+            "Commands are in **English** (`/player`, `/history`, `/esports`), which "
+            "works in any server. `/language` changes what I reply, not the command "
+            "names.\n"
             "⏰ Times are shown in your local timezone automatically.\n"
             "⚠️ If you see a *rate limit* warning, Riot is throttling requests and the bot "
             "falls back to cached data; it refreshes within seconds."
         ),
         "enlaces_titulo": "🔗 Links",
-        "legal_titulo": "📄 Legal notice",
         "secciones": _SECCIONES_EN,
     },
 }
@@ -226,14 +228,9 @@ def construir_embed(idioma: str = IDIOMA_POR_DEFECTO) -> nextcord.Embed:
             inline=False,
         )
 
-    # El descargo obligatorio de Riot va aquí, completo. `/help` es el sitio
-    # "readily visible to players" que pide la política; el embed de partida
-    # lleva solo la versión corta en el pie para no tapar el contenido.
-    embed.add_field(
-        name=textos["legal_titulo"],
-        value=descargo_riot(idioma),
-        inline=False,
-    )
+    # El descargo obligatorio de Riot que había aquí se quitó el 22-09-2026 por
+    # instrucción del dueño: leerlo le parecía que Riot rechazaba el bot. Ver la
+    # nota de `utils/branding.py`.
     return embed
 
 
@@ -251,11 +248,8 @@ def construir_texto(idioma: str = IDIOMA_POR_DEFECTO) -> str:
         partes.append(f"\n**{textos['enlaces_titulo']}**")
         partes.extend(lineas_enlaces)
 
-    # El respaldo en texto también lleva el descargo: si el embed no se puede
-    # mandar, esto es *toda* la ayuda que ve el usuario, y la obligación legal
-    # no depende de que el bot tenga permiso para insertar enlaces.
-    partes.append(f"\n**{textos['legal_titulo']}**")
-    partes.append(descargo_riot(idioma))
+    # El respaldo en texto plano llevaba aquí el descargo de Riot; se quitó
+    # junto con el del embed (22-09-2026, instrucción del dueño).
     return "\n".join(partes)
 
 
@@ -275,4 +269,4 @@ async def _cuerpo_help(res: Respuesta) -> None:
 
 
 def register_help_command(bot: commands.Bot) -> None:
-    dual(bot, "help", "cmd.help.desc", _cuerpo_help)
+    slash(bot, "cmd.help.name", "cmd.help.desc", _cuerpo_help)

@@ -367,7 +367,16 @@ class TrackerService:
     
     
 
-    async def notify_new_games(self, channel):
+    async def notify_new_games(self, channel, acepta=None):
+        """Manda a `channel` los partidos en curso que aún no se hayan avisado.
+
+        `acepta` es un filtro opcional `match -> bool`: lo usa el canal que pidió
+        algo concreto con `/subscribe esports lck`, que quiere la LCK y no todo.
+        Sin él se manda todo lo detectado, que es el comportamiento de siempre.
+        Se filtra aquí dentro y no en quien llama porque quien sabe si un partido
+        es de una liga o de unos equipos es el propio partido.
+        """
+
         notified_games = load_notified_games()
         updated = False
         for match in self.tracked_matches.values():
@@ -376,6 +385,7 @@ class TrackerService:
                 notified_channels = set(notified_games.get(game_id, []))
                 if (
                     tracked_game.state == "inProgress"
+                    and (acepta is None or acepta(match))
                     and channel.id not in notified_channels
                     and tracked_game.live_blue_metadata
                     and tracked_game.live_red_metadata

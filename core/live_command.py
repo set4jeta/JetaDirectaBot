@@ -45,10 +45,12 @@ from nextcord.ext import commands
 
 import config
 from cache.champion_cache import CHAMPION_ID_TO_NAME
-from core.dual_command import dual
+from apis.dpm_api import LIGAS_CHOICES
+from core.dual_command import slash_opciones
 from core.responder import Respuesta, partir
 from models.soloq_match import SoloQMatch
 from tracking.soloq.accounts_io import load_tracked_accounts
+from tracking.soloq.leagues import ligas_en_uso
 from tracking.soloq.active_game_cache import ACTIVE_GAME_CACHE
 from utils.cache_utils import limpiar_cache_partidas_viejas
 from utils.constants import normalizar_rol, rol_corto
@@ -95,8 +97,12 @@ def _partir(texto: str, limite: int = 1900) -> list[str]:
     return partir(texto, limite)
 
 
-def construir_mensaje(ahora: float | None = None, idioma: str | None = None) -> str:
-    """Texto completo de `!live` a partir de la caché de partidas activas.
+def construir_mensaje(
+    ahora: float | None = None,
+    idioma: str | None = None,
+    liga: str | None = None,
+) -> str:
+    """Texto completo de `/live` a partir de la caché de partidas activas.
 
     Está fuera del cuerpo del comando a propósito: así se puede probar sin
     Discord (`scripts/test_game_clock.py`) y la prueba ejerce el código real en
@@ -104,11 +110,20 @@ def construir_mensaje(ahora: float | None = None, idioma: str | None = None) -> 
 
     `idioma` va segundo y por defecto en `None` (= español) para no romper a las
     pruebas, que llaman `construir_mensaje(AHORA)`.
+
+    `liga` filtra por la liga del **jugador** (el campo `player.league`, que es el
+    código: `lec`, `lck`…). Filtrar aquí y no preguntando a Riot es lo que hace
+    que `/live lck` no cueste nada: la caché ya está en memoria porque el barrido
+    la mantiene. El precio es que solo se puede filtrar por ligas que se estén
+    siguiendo: de una que nadie sigue, el bot no sabe nada — y averiguarlo serían
+    cientos de llamadas a `spectator-v5` en el momento, que es justo lo que el
+    rate limit no perdona.
     """
     from utils.i18n import t
 
     ahora = time.time() if ahora is None else ahora
     players = load_tracked_accounts()
+    filtro = (liga or "").strip().lower()
 
     puuid_to_player = {}
     puuid_to_account = {}
@@ -121,6 +136,18 @@ def construir_mensaje(ahora: float | None = None, idioma: str | None = None) -> 
     filas: list[tuple[int, str]] = []
     ya_mostrados: set[tuple] = set()
     roles_por_partida: dict[object, dict[str, str]] = {}
+    # Dos conjuntos distintos, porque significan cosas distintas: `seguidas` es
+    # lo que el barrido mira de verdad, `con_partida` es lo que además está
+    # jugando ahora. Confundirlos hacía que `/live cblol` dijera «nadie de CBLOL
+    # está en partida» cuando lo cierto es que CBLOL no se sigue y no lo puede
+    # saber.
+    #
+    # `ligas_en_uso()` y **no** las ligas de todos los jugadores del roster: el
+    # fichero de cuentas cubre las 20 ligas, así que mirando ahí «seguidas»
+    # saldría siempre completo y la distinción no serviría de nada. Lo que el bot
+    # mira es la unión de lo que siguen los servidores y las personas.
+    ligas_seguidas: set[str] = {c.lower() for c in ligas_en_uso()}
+    ligas_con_partida: set[str] = set()
     esperando = 0
 
     for puuid, cache_entry in list(ACTIVE_GAME_CACHE.items()):
@@ -142,6 +169,13 @@ def construir_mensaje(ahora: float | None = None, idioma: str | None = None) -> 
         reloj = desde_cache(cache_entry, ahora)
         if reloj.transcurrido > MAX_DURACION:
             continue
+
+        liga_jugador = (player.league or "").lower()
+        if liga_jugador:
+            ligas_con_partida.add(liga_jugador)
+        if filtro and liga_jugador != filtro:
+            continue
+
         if not reloj.espectable:
             esperando += 1
 
@@ -172,15 +206,32 @@ def construir_mensaje(ahora: float | None = None, idioma: str | None = None) -> 
         ))
 
     if not filas:
-        return t("live.nadie", idioma)
+        if not filtro:
+            return t("live.nadie", idioma)
+        if filtro not in ligas_seguidas:
+            # No es que no haya nadie: es que no se mira esa liga.
+            mensaje = t("live.liga_no_seguida", idioma, liga=filtro.upper())
+            if ligas_seguidas:
+                mensaje += "\n" + t(
+                    "live.ligas_seguidas", idioma,
+                    ligas=", ".join(sorted(l.upper() for l in ligas_seguidas)),
+                )
+            return mensaje
+        mensaje = t("live.nadie_liga", idioma, liga=filtro.upper())
+        if ligas_con_partida:
+            mensaje += "\n" + t(
+                "live.otras_ligas", idioma,
+                ligas=", ".join(sorted(l.upper() for l in ligas_con_partida)),
+            )
+        return mensaje
 
     # De más reciente a más avanzada: las que acaban de empezar son las que
     # interesa espectar, y así la cuenta atrás queda arriba.
     filas.sort(key=lambda par: par[0])
-    mensaje = (
-        t("live.titulo", idioma) + "\n\n"
-        + "\n".join(linea for _t, linea in filas)
-    )
+    titulo = t("live.titulo", idioma)
+    if filtro:
+        titulo += f" · {filtro.upper()}"
+    mensaje = titulo + "\n\n" + "\n".join(linea for _t, linea in filas)
     mensaje += "\n\n" + t("live.pie", idioma)
 
     if esperando:
@@ -195,20 +246,27 @@ def construir_mensaje(ahora: float | None = None, idioma: str | None = None) -> 
     return mensaje
 
 
-async def _cuerpo_live(res: Respuesta) -> None:
-    """Cuerpo compartido por `!live` y `/live`."""
+async def _cuerpo_live(res: Respuesta, valores: dict[str, str]) -> None:
+    """Cuerpo de `/live [league]`."""
     from utils.i18n import idioma_de, t
 
     idioma = idioma_de(res.guild_id)
+    liga = (valores.get("league") or "").strip()
     await res.esperando(t("live.buscando", idioma))
     limpiar_cache_partidas_viejas()
-    await res.enviar_partido(construir_mensaje(idioma=idioma))
+    await res.enviar_partido(construir_mensaje(idioma=idioma, liga=liga or None))
 
 
 def register_live_command(bot: commands.Bot):
-    dual(
+    # `league` es opcional: sin ella se ven todas, que es lo que hacía antes. Las
+    # etiquetas del desplegable son los nombres largos y el valor es el código
+    # (`LEC · Europa` -> `lec`), el mismo que trae `player.league`.
+    slash_opciones(
         bot,
-        "live",
+        "cmd.live.name",
         "cmd.live.desc",
         _cuerpo_live,
+        opciones=(
+            ("cmd.live.arg", "cmd.live.arg_desc", LIGAS_CHOICES, ""),
+        ),
     )

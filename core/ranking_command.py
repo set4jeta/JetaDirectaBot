@@ -19,12 +19,10 @@ Qué se cambió
 
 from __future__ import annotations
 
-import nextcord
-from nextcord import SlashOption
 from nextcord.ext import commands
 
-from apis.dpm_api import LIGAS
-from core.dual_command import GLOBAL, ambito_de, nombre_de, textos_de
+from apis.dpm_api import LIGAS, LIGAS_CHOICES
+from core.dual_command import slash_opciones
 from core.rank_data import build_and_cache_ranking
 from core.responder import Respuesta
 from utils.cache_utils import load_ranking_cache
@@ -39,6 +37,10 @@ _ROLES_CORTOS = {
     "top": "TOP",
     "jungle": "JG",
     "mid": "MID",
+    # La API de dpm.lol manda `MIDDLE` (y `BOTTOM`, `UTILITY`). Sin esta línea el
+    # `get` fallaba y la tabla pintaba `MIDD` — y el filtro de rol por `mid` no
+    # encontraba a nadie, que es peor: un filtro que no filtra se lee como avería.
+    "middle": "MID",
     "bot": "ADC",
     "bottom": "ADC",
     "support": "SUPP",
@@ -112,10 +114,33 @@ async def obtener_ranking(liga: str) -> list[dict]:
     return ranking or []
 
 
-async def _responder_ranking(res: Respuesta, liga: str) -> None:
-    """Cuerpo único: lo usan la forma de prefijo y la de slash."""
+#: Roles que se pueden pedir como filtro. El valor es el código que se manda y
+#: la etiqueta es lo que se ve en el desplegable.
+_ROLES: dict[str, str] = {
+    "Top": "top",
+    "Jungle": "jungle",
+    "Mid": "mid",
+    "Bot": "bot",
+    "Support": "support",
+}
+
+#: Cuántas filas se pueden pedir. Son pocos y cerrados a propósito: la tabla es
+#: texto monoespaciado y a partir de 20 se parte en varios mensajes.
+_TOPES: tuple[str, ...] = ("5", "10", "15", "20")
+
+async def _responder_ranking(res: Respuesta, valores: dict[str, str]) -> None:
+    """Cuerpo de `/ranking <league> [role] [limit]`.
+
+    El rol y el límite son **filtros locales**: la tabla de la liga ya se ha
+    pedido entera (una llamada, cacheada) y esto solo recorta lo que se pinta. Por
+    eso se pueden ofrecer sin tocar el rate limit, que era la duda razonable del
+    dueño al pedirlos.
+    """
     idioma = idioma_de(res.guild_id)
-    liga = (liga or LIGA_POR_DEFECTO).lower().strip()
+    liga = (valores.get("league") or "").strip().lower()
+    rol = (valores.get("role") or "").strip().lower()
+    limite = (valores.get("limit") or "").strip()
+
     if liga not in LIGAS:
         await res.error(t(
             "ranking.liga_desconocida", idioma,
@@ -131,45 +156,48 @@ async def _responder_ranking(res: Respuesta, liga: str) -> None:
         await res.error(t("ranking.sin_datos", idioma, liga=LIGAS[liga]))
         return
 
-    await res.send(t("ranking.titulo", idioma, liga=LIGAS[liga], total=len(ranking)))
-    await res.enviar_bloque(construir_tabla(ranking, idioma=idioma))
+    total = len(ranking)
+
+    if rol:
+        # Se compara con `_rol_corto` en los dos lados y no con un mapa aparte:
+        # así el filtro habla exactamente el vocabulario de la tabla y no hay dos
+        # listas de roles que se puedan desincronizar.
+        corto = _rol_corto(rol)
+        ranking = [p for p in ranking if _rol_corto(p.get("role")) == corto]
+        if not ranking:
+            await res.error(t(
+                "ranking.sin_rol", idioma, rol=rol, liga=LIGAS[liga],
+            ))
+            return
+
+    try:
+        filas = int(limite)
+    except ValueError:
+        filas = 20
+
+    await res.send(t("ranking.titulo", idioma, liga=LIGAS[liga], total=total))
+    if rol or filas < len(ranking):
+        aviso = t(
+            "ranking.mostrando", idioma,
+            n=min(filas, len(ranking)), total=len(ranking),
+        )
+        if rol:
+            aviso += t("ranking.solo_rol", idioma, rol=rol.upper())
+        await res.send(aviso)
+    await res.enviar_bloque(construir_tabla(ranking, limite=filas, idioma=idioma))
 
 
-def register_ranking_command(bot: commands.Bot):
-    @bot.command(name="ranking")
-    async def ranking_prefijo(ctx: commands.Context, liga: str = LIGA_POR_DEFECTO):
-        # `!ranking` sin argumento sigue dando LEC, como antes. `!ranking lck`
-        # es nuevo y sale gratis del backend multi-liga.
-        await _responder_ranking(Respuesta(ctx), liga)
-
-    # `/ranking` no pasa por `dual_texto` porque su argumento es un desplegable
-    # de ligas, no texto libre; la localización se monta a mano con las mismas
-    # claves del catálogo que usa el resto.
-    desc, desc_loc = textos_de("cmd.ranking.desc")
-    arg, arg_loc = nombre_de("cmd.ranking.arg")
-    ayuda, ayuda_loc = textos_de("cmd.ranking.arg_desc")
-
-    @bot.slash_command(
-        name="ranking",
-        description=desc,
-        description_localizations=desc_loc or None,
-        # Mismo ámbito que los comandos registrados por `dual`: `/ranking` es de
-        # consulta, así que tiene que funcionar también en el chat privado de
-        # quien se instale el bot en su cuenta. Se pide el ámbito en vez de
-        # escribir los enums aquí para que este comando no se quede atrás cuando
-        # cambie la política de los demás.
-        **ambito_de(GLOBAL),
-    )
-    async def ranking_slash(
-        interaction: nextcord.Interaction,
-        liga: str = SlashOption(
-            name=arg,
-            name_localizations=arg_loc or None,
-            description=ayuda,
-            description_localizations=ayuda_loc or None,
-            choices=_LIGAS_CHOICES,
-            required=False,
-            default=LIGA_POR_DEFECTO,
+def register_ranking_command(bot: commands.Bot) -> None:
+    # Ya no necesita registro a mano: `slash_opciones` cubre los tres argumentos
+    # (liga obligatoria, rol y límite) y le pone el mismo ámbito que a los demás.
+    slash_opciones(
+        bot,
+        "cmd.ranking.name",
+        "cmd.ranking.desc",
+        _responder_ranking,
+        opciones=(
+            ("cmd.ranking.arg", "cmd.ranking.arg_desc", LIGAS_CHOICES, None),
+            ("cmd.ranking.rol", "cmd.ranking.rol_desc", _ROLES, ""),
+            ("cmd.ranking.limite", "cmd.ranking.limite_desc", _TOPES, "20"),
         ),
-    ):
-        await _responder_ranking(Respuesta(interaction), liga)
+    )

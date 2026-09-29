@@ -130,36 +130,37 @@ GRATIS = Plan(
     historial=10,
 )
 
-#: Para servidores de comunidad: varias ligas y varios canales. El precio sale
-#: de mirar lo que cobran los bots comparables (Dorans-bot 3,99 $/mes): por
-#: encima de eso no hay volumen en este nicho.
+#: El **único** plan de pago, y por eso lleva los cupos que antes tenía el techo:
+#: `ligas=4` es `MAX_LIGAS_POR_SERVIDOR`, así que no se puede mejorar en ese eje
+#: sin subir el límite físico del bot.
+#:
+#: Qué cambió el 22-09-2026 y por qué
+#: ----------------------------------
+#: Había tres planes (Gratis / Pro 3,99 € / Elite 8,99 €). El dueño los quitó:
+#: *«solo quiero que haya 2 planes, el gratis y el pro; elite ya es mucho, elite
+#: ya, y eso cuando tenga una key mejor»*. Con un nicho de este tamaño, tres
+#: escalones parten la comparación en vez de ayudar a decidir, y el que duda
+#: entre el de 3,99 y el de 8,99 muchas veces no compra ninguno.
+#:
+#: El precio sube a **5 €** —«el pro para unos 20 quizás que paguen 5 euros»— y a
+#: cambio el Pro se queda con los cupos del Elite. Con ~20 suscripciones son
+#: ~100 €/mes, y el resto del ingreso que se busca es donaciones y publicidad de
+#: la web, no subir el precio.
 PRO = Plan(
     codigo="pro",
     nombre="Pro",
-    ligas=3,
-    canales=3,
-    jugadores_propios=25,
-    historial=30,
-    precio=3.99,
-)
-
-#: El techo. `ligas=4` es `MAX_LIGAS_POR_SERVIDOR`, así que este plan no puede
-#: mejorarse en ese eje sin subir el límite físico.
-ELITE = Plan(
-    codigo="elite",
-    nombre="Elite",
     ligas=4,
     canales=10,
     jugadores_propios=100,
     historial=50,
-    precio=8.99,
+    precio=5.0,
 )
 
-PLANES: dict[str, Plan] = {p.codigo: p for p in (GRATIS, PRO, ELITE)}
+PLANES: dict[str, Plan] = {p.codigo: p for p in (GRATIS, PRO)}
 
 #: Orden de menor a mayor, para pintar la tabla de `/premium` sin depender del
 #: orden de inserción de un dict.
-ORDEN = ("gratis", "pro", "elite")
+ORDEN = ("gratis", "pro")
 
 
 # ---------------------------------------------------------------------- #

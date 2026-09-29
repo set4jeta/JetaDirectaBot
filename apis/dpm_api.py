@@ -80,7 +80,7 @@ async def _get_session() -> aiohttp.ClientSession:
             _session = aiohttp.ClientSession(
                 timeout=timeout,
                 connector=connector,
-                headers={"User-Agent": "JetaDirectaBot/2.0 (+https://github.com/)", },
+                headers={"User-Agent": "LoLProTrackr/2.0 (+https://github.com/)", },
             )
     return _session
 
@@ -641,6 +641,12 @@ LIGAS = {
     "al": "Arabian League · Oriente Medio",
     "cd": "Circuito Desafiante · Brasil",
 }
+
+#: Lo que se le ofrece a Discord en los desplegables de liga: la etiqueta larga
+#: como nombre y el código como valor. Vive aquí, al lado de `LIGAS`, porque lo
+#: usan tres comandos (`/ranking`, `/live` y `/esports`) y tener tres copias del
+#: mapa es tener tres sitios donde olvidarse de una liga nueva.
+LIGAS_CHOICES: dict[str, str] = {nombre: codigo for codigo, nombre in LIGAS.items()}
 
 #: Tamaño mínimo a partir del cual un leaderboard se considera el comodín.
 #:

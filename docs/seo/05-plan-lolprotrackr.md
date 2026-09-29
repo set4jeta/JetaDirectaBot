@@ -1,4 +1,4 @@
-# 05 · Plan concreto para la web de JetaDirectaBot
+# 05 · Plan concreto para la web de LoLProTrackr
 
 Lo que hay que hacer, en orden, con el estado real medido. No es una lista de
 buenas intenciones: cada punto tiene una comprobación que dice si está hecho.
@@ -50,7 +50,7 @@ x20  "Es una medición sobre el leaderboard de la liga, no una estimación."
 x19  "Los avisos de partida llegan a Discord, gratis."
 x19  "Las victorias y el KDA son de esa cuenta, no de la temporada de la liga."
 x19  "Es presencia, no partidas: el leaderboard dice qué juega cada uno..."
-x19  "JetaDirectaBot avisa en tu canal de Discord con el campeón, el rol..."
+x19  "LoLProTrackr avisa en tu canal de Discord con el campeón, el rol..."
 ```
 
 Están dentro de las FAQ y de los párrafos de introducción de cada tabla. Son

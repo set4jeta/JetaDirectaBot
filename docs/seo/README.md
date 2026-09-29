@@ -14,7 +14,7 @@ fueron ciertos.
 | `02-busqueda-con-ia.md` | AI Overviews, cero clics, GEO/AEO, *query fan-out*. Es el cambio más grande del sector |
 | `03-seo-tecnico.md` | La lista de comprobación técnica: indexación, canónicos, `hreflang`, schema |
 | `04-estrategia-ingles.md` | Por qué la web va a ser bilingüe con el inglés como idioma principal, y cómo |
-| `05-plan-jetadirectabot.md` | El plan concreto para esta web, con lo que ya está hecho y lo que falta |
+| `05-plan-lolprotrackr.md` | El plan concreto para esta web, con lo que ya está hecho y lo que falta |
 | `_datos/` | Los posts crudos cosechados de X, por si hace falta releer el original |
 
 ## De dónde sale

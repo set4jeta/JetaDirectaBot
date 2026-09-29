@@ -1,6 +1,6 @@
 {
   "project": {
-    "name": "JetaDirectaBot",
+    "name": "LoLProTrackr",
     "description": "Bot de Discord en Python para trackear jugadores profesionales/amateur de League of Legends (Riot API), partidas en vivo de SoloQ y calendario competitivo de LoL Esports."
   },
   "defaults": {
@@ -18,19 +18,19 @@
     "version": 1,
     "target": {
       "platform": "codex",
-      "path": "C:\\jetabot res 8\\JetaDirectaBot\\.agents\\skills\\archify",
-      "projectRoot": "C:\\jetabot res 8\\JetaDirectaBot"
+      "path": "C:\\jetabot res 8\\LoLProTrackr\\.agents\\skills\\archify",
+      "projectRoot": "C:\\jetabot res 8\\LoLProTrackr"
     },
     "targets": [
       {
         "platform": "codex",
-        "path": "C:\\jetabot res 8\\JetaDirectaBot\\.agents\\skills\\archify",
-        "projectRoot": "C:\\jetabot res 8\\JetaDirectaBot"
+        "path": "C:\\jetabot res 8\\LoLProTrackr\\.agents\\skills\\archify",
+        "projectRoot": "C:\\jetabot res 8\\LoLProTrackr"
       },
       {
         "platform": "claude-code",
-        "path": "C:\\jetabot res 8\\JetaDirectaBot\\.claude\\skills\\archify",
-        "projectRoot": "C:\\jetabot res 8\\JetaDirectaBot"
+        "path": "C:\\jetabot res 8\\LoLProTrackr\\.claude\\skills\\archify",
+        "projectRoot": "C:\\jetabot res 8\\LoLProTrackr"
       }
     ]
   },

@@ -3,7 +3,7 @@
 ## Overview
 Grounded flow summary from 106 entrypoint candidate(s) and 425 detected flow(s).
 
-Target path: `C:\jetabot res 8\JetaDirectaBot`
+Target path: `C:\jetabot res 8\LoLProTrackr`
 Scan root: `.`
 
 ## Confirmed Flows

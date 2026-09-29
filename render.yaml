@@ -1,4 +1,4 @@
-# Blueprint de Render para JetaDirectaBot.
+# Blueprint de Render para LoLProTrackr.
 #
 # IMPORTANTE — lee esto antes de tocar el fichero
 # ----------------------------------------------
@@ -47,7 +47,7 @@ services:
     #     DISCORD_TOKEN    token del bot en el portal de desarrolladores
     #
     #   Recomendadas (salen en /help, /premium y en la web):
-    #     BOT_NOMBRE       JetaDirectaBot
+    #     BOT_NOMBRE       LoLProTrackr
     #     BOT_INVITE_URL   el botón "Añadir a Discord" de la web. Sin esto, sale
     #                      apagado: es el único enlace que convierte.
     #     BOT_WEB_URL      https://set4jeta.github.io/JetaDirectaBot/
@@ -76,6 +76,29 @@ services:
     # sin un monitor externo que lo despierte se duerme solo y deja de avisar.
     # Con UptimeRobot (o cron-job.org) haciendo una petición cada 5–10 minutos a
     # `https://<servicio>.onrender.com/` se mantiene despierto.
+    #
+    # ----------------------------------------------------------------- #
+    # ANCHO DE BANDA — leer antes de dar el despliegue por bueno
+    # ----------------------------------------------------------------- #
+    #
+    # El plan Hobby incluye **5 GB de ancho de banda de SALIDA al mes**, y al
+    # agotarlos Render **suspende el workspace entero**: no es que frene el
+    # servicio, es que el bot deja de estar online. Pasó el 29-09-2026 y estuvo
+    # caído 3 días 40 minutos.
+    #
+    # La causa fue un cambio de Render: en abril de 2026 bajaron el ancho de
+    # banda incluido **de 100 GB a 5 GB**. El bot no cambió, cambió el límite.
+    #
+    # Lo que lo agotaba eran los adjuntos de los avisos (foto del jugador, logo
+    # del equipo y `.bat`), que se subían **una vez por destinatario**. Se
+    # arregló pasando las dos imágenes a URL de dpm.lol —mismos píxeles, cero
+    # bytes por Render— y dejando solo el `.bat`, que es único por partida.
+    #
+    # Y se añadió `utils/egress.py`: cuenta la salida del mes, la publica en
+    # `/health` y avisa al 50 % y al 80 %. **Antes no había forma de verlo** y el
+    # dueño se enteró con la cuenta ya suspendida.
+    #
+    # El detalle completo está en DESPLIEGUE.md §8.
     #
     # El sistema de ficheros es efímero: lo que el bot escriba se pierde en cada
     # despliegue, reinicio y también cada vez que se duerme. No se puede

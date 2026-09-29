@@ -139,9 +139,9 @@ Tres opciones y por qué se elige la tercera:
 
 | Opción | Ejemplo | Veredicto |
 |---|---|---|
-| Dominio por idioma | `jetadirectabot.es` | Dos dominios que ganar autoridad por separado. No. |
-| Subdominio | `es.jetadirectabot.com` | Google lo trata casi como sitio aparte. No. |
-| **Subcarpeta** | `jetadirectabot.com/es/` | **Sí.** Toda la autoridad en un dominio. |
+| Dominio por idioma | `lolprotrackr.es` | Dos dominios que ganar autoridad por separado. No. |
+| Subdominio | `es.lolprotrackr.com` | Google lo trata casi como sitio aparte. No. |
+| **Subcarpeta** | `lolprotrackr.com/es/` | **Sí.** Toda la autoridad en un dominio. |
 
 Con GitHub Pages la subcarpeta es además lo único fácil de hacer.
 

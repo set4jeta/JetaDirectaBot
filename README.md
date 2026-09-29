@@ -1,8 +1,8 @@
-# JetaDirectaBot
+# LoLProTrackr
 
 ## Descripción
 
-JetaDirectaBot es un bot avanzado para Discord que permite **trackear jugadores profesionales y amateurs de League of Legends**, mostrar partidas en vivo, consultar estadísticas y recibir notificaciones automáticas de partidas competitivas (LEC, LCS, LCK, MSI, Worlds, etc).
+LoLProTrackr es un bot avanzado para Discord que permite **trackear jugadores profesionales y amateurs de League of Legends**, mostrar partidas en vivo, consultar estadísticas y recibir notificaciones automáticas de partidas competitivas (LEC, LCS, LCK, MSI, Worlds, etc).
 
 Incluye integración con APIs de Riot, DPM.lol y LoL Esports, scraping de datos y gestión de cuentas.
 
@@ -23,7 +23,7 @@ Incluye integración con APIs de Riot, DPM.lol y LoL Esports, scraping de datos 
 ## Estructura general del proyecto
 
 ```
-JetaDirectaBot/
+LoLProTrackr/
 │
 ├── core/                  # Lógica principal del bot y comandos
 │   ├── bot_launcher.py
@@ -105,7 +105,7 @@ JetaDirectaBot/
 1. **Clona el repositorio:**
     ```bash
     git clone https://github.com/tuusuario/JetaDirectaBot.git
-    cd JetaDirectaBot
+    cd LoLProTrackr
     ```
 
 2. **Instala las dependencias:**
@@ -157,31 +157,48 @@ rangos pendientes y cierra las sesiones HTTP).
 
 ## Comandos disponibles
 
-Todos existen en las dos formas: **`/comando`** (recomendado, Discord lo
-autocompleta) y **`!comando`** (la forma antigua, sigue funcionando igual).
+Son **slash commands** (`/comando`): Discord los autocompleta, enseña qué hace
+cada uno y valida los argumentos. Los antiguos `!comando` ya no existen.
 
-### Generales
-- `/help` — Lista de comandos
-- `/health` — Estado del bot: si las fuentes de datos van bien y cuándo se actualizaron
+Los nombres están **en inglés y son de una palabra** (`/info`, `/history`,
+`/esports`), que es lo que se entiende en cualquier servidor. Lo que cambia con
+`/language` es lo que contesta el bot, no los nombres de sus comandos.
 
-### Trackeo y partidas SoloQ
-- `/live` — Jugadores trackeados que están en partida ahora mismo
-- `/match <jugador>` — La partida en vivo de un jugador concreto
-- `/info <jugador>` — Cuentas, elo y partida actual de un jugador
-- `/team <equipo>` — Jugadores de un equipo
-- `/historial` — Últimas partidas trackeadas de todos
-- `/historial <jugador>` — Últimas partidas de un jugador o de una de sus cuentas
-- `/ranking <liga>` — Tabla de SoloQ de una liga (selector con las ligas disponibles)
+### Partidas de SoloQ
+- `/live [liga]` — Pros que están jugando SoloQ ahora mismo (`/live lck` para una liga)
+- `/match <jugador>` — La partida en vivo de un pro, con los diez participantes
+- `/info <jugador>` — Ficha: equipo, elo y partida actual
+- `/team <equipo>` — Plantilla de un equipo, con la mejor cuenta de cada jugador
+
+### Datos y clasificación
+- `/ranking <liga> [rol] [limite]` — Tabla de SoloQ de una liga (20 ligas en el desplegable).
+  Con rol y límite: `/ranking lck mid limit:10`
+- `/history [liga|jugador|cuenta]` — Últimas partidas de SoloQ: sin argumento, de todos;
+  `/history lec` de una liga; `/history Elyoya` de un pro; `/history Caps#EUW` de una cuenta
+- `/leagues` — Ver o elegir qué ligas sigue el servidor
 
 ### Esports (partidos profesionales)
-- `/partida` — Partidos profesionales en vivo o a punto de empezar
-- `/next` — Horario de los próximos partidos
+- `/esports [liga]` — Partidos profesionales en vivo o a punto de empezar
+- `/schedule` — Calendario de los próximos partidos
+
+### Avisos personales por DM
+- `/track <pro|liga>` — Que te avise por privado cuando juegue
+- `/untrack <pro|liga|all>` — Dejar de recibir esos avisos
+- `/following` — A quién sigues y si el bot puede escribirte
 
 ### Configuración · requiere *Gestionar servidor*
-- `/setchannel` — Usar este canal para las notificaciones de SoloQ
-- `/unsubscribe` — Dejar de recibir notificaciones de SoloQ
-- `/setlivechannel` — Usar este canal para las notificaciones de esports
-- `/removelivechannel` — Dejar de recibir notificaciones de esports
+- `/subscribe [type] [objetivo]` — Añadir este canal a los avisos. Sin objetivo, todas las ligas
+  del servidor; con objetivo, **solo** eso: `/subscribe soloq lck`, `/subscribe esports lck`,
+  `/subscribe soloq T1`, `/subscribe soloq Elyoya`
+- `/channels` — Ver los canales con avisos y cuántos caben
+- `/unsubscribe [type]` — Quitar este canal de los avisos
+- `/mute [type]` — Apagar los avisos en todo el servidor
+- `/language [código]` — Ver o cambiar el idioma del bot
+
+### Estado
+- `/health` — Si las fuentes de datos van bien y cuándo se actualizaron
+- `/premium` — Los dos planes (Gratis y Pro) y los cupos de este servidor
+- `/help` — La lista de comandos
 
 ---
 

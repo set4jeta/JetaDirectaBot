@@ -32,7 +32,7 @@ Y el peor dato para quien vive de tráfico orgánico, de Patrick Stox
 > if AI search was 100 % of search traffic, websites would have **5 % of current
 > traffic levels**. People aren't clicking there.
 
-## Lo que esto significa para JetaDirectaBot
+## Lo que esto significa para LoLProTrackr
 
 No es "hay que hacer SEO mejor". Es que **la estrategia de "escribo contenido y
 Google me manda gente" está en declive estructural**, y hay que diseñar para eso
@@ -125,11 +125,11 @@ estudio, es el nombre exacto, el `site:` del dominio, y la reputación.
 Consecuencias directas y concretas para esta web:
 
 1. **`site:` en el 30 % de las subconsultas.** Si el sitio está en un
-   subdirectorio (`set4jeta.github.io/JetaDirectaBot/`), `site:jetadirectabot.com`
+   subdirectorio (`set4jeta.github.io/JetaDirectaBot/`), `site:lolprotrackr.com`
    no devuelve nada. Un dominio propio deja de ser cosmético: es lo que hace que
    el 30 % de las subconsultas de un LLM sobre el bot encuentren algo.
 2. **Coincidencia exacta en el 23,8 %.** El nombre tiene que aparecer escrito
-   igual en todas partes: web, Discord, GitHub, X. "JetaDirectaBot" siempre igual,
+   igual en todas partes: web, Discord, GitHub, X. "LoLProTrackr" siempre igual,
    nunca "Jeta Directa Bot" ni "JetaDirecta".
 3. **Reputación en el 10,1 %.** Hace falta que exista algo *fuera* de nuestro
    dominio que hable del bot. Un `README` de GitHub, un listado en un directorio

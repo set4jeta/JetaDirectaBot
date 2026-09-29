@@ -47,7 +47,7 @@ intención de instalar**, no a consultas informativas que un AI Overview resuelv
 
 Razones:
 
-1. **La raíz es la URL que se comparte.** Si alguien pega `jetadirectabot.com` en
+1. **La raíz es la URL que se comparte.** Si alguien pega `lolprotrackr.com` en
    un Discord, sale la versión inglesa. Es el idioma con más alcance.
 2. **`x-default` apunta a la raíz.** Quien busca desde un país sin versión propia
    cae en inglés, que es lo correcto.
@@ -139,22 +139,22 @@ exactamente eso, y es la que ahora mismo está tratada como una página más.
 ## Consecuencia para el nombre y el dominio
 
 Del dato de *query fan-out* (30,2 % de las subconsultas de ChatGPT usan `site:`),
-un dominio propio deja de ser cosmético. `site:jetadirectabot.com` tiene que
+un dominio propio deja de ser cosmético. `site:lolprotrackr.com` tiene que
 devolver algo. En `set4jeta.github.io/JetaDirectaBot/` no devuelve nada útil.
 
-Y una consideración de nombre que hay que decidir pronto: **"JetaDirectaBot" es
+Y una consideración de nombre que hay que decidir pronto: **"LoLProTrackr" es
 impronunciable e insignificante en inglés.** No propongo cambiarlo — el bot ya
 existe con ese nombre —, pero sí que el `<title>` inglés lleve delante lo que hace
 y detrás el nombre:
 
 ```
-Live Pro Player SoloQ Alerts for Discord — JetaDirectaBot
+Live Pro Player SoloQ Alerts for Discord — LoLProTrackr
 ```
 
 No:
 
 ```
-JetaDirectaBot — Alertas de SoloQ
+LoLProTrackr — Alertas de SoloQ
 ```
 
 El nombre de marca al final del título es la convención, y con una marca

@@ -73,6 +73,7 @@ from tracking.soloq.notifier import (
     olvidar_anuncio,
     save_announced_games,
 )
+from tracking.soloq import partidas_en_vivo
 from tracking.soloq.tracker_utils import is_valid_game
 from ui.active_match_embed import create_match_embed
 from utils.cache_utils import limpiar_cache_partidas_viejas
@@ -513,6 +514,13 @@ class ActiveGameTracker:
         canales_por_servidor = todos_los_canales()
         if not canales_por_servidor:
             log.debug("Partida detectada y ningún canal suscrito: solo DM.")
+
+        # Y se publica para el grabador **aquí**, antes de enviar nada: el
+        # servidor de espectadores solo sirve datos desde el momento en que se
+        # conecta uno, así que cada segundo que se tarde es un segundo de partida
+        # que no se puede recuperar. Publicar antes de repartir los avisos cuesta
+        # cero y puede ahorrar minutos. Ver `partidas_en_vivo`.
+        partidas_en_vivo.publicar(match, [f"{player_name} ({equipo_jugador})"])
 
         sent = False
         # Un embed **por idioma**, no por servidor: dos servidores en inglés

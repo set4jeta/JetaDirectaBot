@@ -95,8 +95,8 @@ def bloque_anuncio(pub: str) -> str:
     """
     if not pub:
         return (
-            '    <div class="anuncio">Espacio reservado para publicidad '
-            "(sin activar)</div>"
+            '    <div class="anuncio">Ad slot reserved '
+            "(not active yet)</div>"
         )
     return (
         '    <div class="anuncio">\n'
@@ -133,30 +133,18 @@ def cabeza(pagina: Pagina, pub: str, sitio: str) -> str:
         '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
         f"{seo.meta_seo(pagina, sitio)}"
         '  <link rel="stylesheet" href="styles.css">\n'
-        '  <link rel="icon" href="favicon.svg" type="image/svg+xml">\n'
+        # La hoja del tema va **después** a propósito: sus reglas de esports
+        # (neón, esquinas cortadas, glow) tienen que ganar a las base, y en CSS
+        # gana la última con la misma especificidad.
+        + (
+            '  <link rel="stylesheet" href="styles-esports.css">\n'
+            if pagina.arena else ""
+        )
+        + '  <link rel="icon" href="favicon.svg" type="image/svg+xml">\n'
         + "".join(pagina.schemas)
         + f"{adsense_head(pub)}"
         "</head>\n"
     )
-
-
-def descargo_html() -> str:
-    """El descargo de Riot en HTML, sacado de `branding`, no copiado.
-
-    `descargo_riot()` devuelve el texto con el original inglés en cursiva de
-    Markdown (`_..._`), que es lo que entiende Discord. Pegado tal cual en la web
-    saldrían los guiones bajos a la vista. Se traduce el formato aquí en vez de
-    duplicar el texto legal en este archivo: el día que Riot cambie la
-    plantilla se toca `branding.py` y las dos superficies quedan iguales.
-    """
-    partes = [p.strip() for p in branding.descargo_riot().split("\n\n") if p.strip()]
-    html_partes = []
-    for parte in partes:
-        if parte.startswith("_") and parte.endswith("_"):
-            html_partes.append(f"<em>{e(parte.strip('_'))}</em>")
-        else:
-            html_partes.append(e(parte))
-    return "<br><br>".join(html_partes)
 
 
 #: La navegación, igual en todas las páginas. No es decoración: son los enlaces
@@ -176,33 +164,85 @@ NAV: tuple[tuple[str, str], ...] = (
     ("ligas.html", "Leagues"),
     ("upcoming-lol-matches.html", "Upcoming matches"),
     ("avisos.html", "How alerts look"),
+    ("commands.html", "Commands"),
     ("alternativas-bots-lol-discord.html", "Comparison"),
     ("legal.html", "Terms & privacy"),
 )
 
 
-def pie(pub: str) -> str:
-    """Pie común: navegación, descargo obligatorio y aviso de anuncios.
+def corona_svg() -> str:
+    """La corona del logotipo, dibujada a mano y sin dependencias.
 
-    El descargo va en el pie de **todas** las páginas porque la política de Riot
-    pide un sitio "readily visible", y el pie es lo único que aparece en todas.
+    Va como **SVG en línea y no como emoji**: 👑 lo dibuja cada sistema a su
+    manera —en Windows sale amarillo con contorno negro, en macOS con degradado—
+    y la marca es lo único que no puede depender del sistema operativo de quien
+    mira. El `currentColor` la deja heredar el color de la marca, así que se
+    pinta en oro sola.
+
+    Tres picos y una banda: es la forma del logo, reducida a lo que se lee a
+    18 píxeles de alto. `aria-hidden` porque es decoración: el nombre del
+    producto va justo al lado en texto.
+    """
+    return (
+        '<svg class="corona" viewBox="0 0 24 18" aria-hidden="true" '
+        'focusable="false">'
+        '<path d="M2 13.6 L0.6 4.2 l5.6 4.1 L12 1.6 l5.8 6.7 L23.4 4.2 '
+        'L22 13.6 Z" fill="currentColor"/>'
+        '<path d="M2.4 15.2 h19.2 v2.2 H2.4 Z" fill="currentColor"/>'
+        "</svg>"
+    )
+
+
+def topbar() -> str:
+    """La barra superior pegajosa del tema Arena.
+
+    El pie ya lleva la navegación, pero en la portada se llega sin haber bajado:
+    una barra arriba es lo que hace que «Ligas» y «Socios» estén a un clic desde
+    el primer píxel, que es justo donde se decide si alguien se queda.
+
+    La marca se parte en dos para pintar la segunda mitad en oro: es el logotipo
+    del proyecto, no texto que se traduzca ni que venga de una variable. Va con
+    la corona delante porque es el elemento que hace reconocible el logo a
+    tamaño pequeño.
+    """
+    enlaces = "\n".join(
+        f'      <a href="{ruta}">{e(texto)}</a>' for ruta, texto in NAV
+    )
+    return (
+        '  <div class="topbar">\n'
+        f'    <span class="marca">{corona_svg()}LoL<b>Pro</b>Trackr</span>\n'
+        "    <nav>\n" + enlaces + "\n    </nav>\n"
+        "  </div>\n"
+    )
+
+
+def pie(pub: str) -> str:
+    """Pie común: navegación y aviso de anuncios.
+
+    El descargo obligatorio de Riot que iba aquí en las 26 páginas se quitó el
+    22-09-2026 por instrucción del dueño (ver `utils/branding.py`).
     """
     web, web_attr = url(branding.WEB_URL)
     soporte, sop_attr = url(branding.SOPORTE_URL)
     nav = [f'      <a href="{ruta}">{e(texto)}</a>' for ruta, texto in NAV]
     if branding.SOPORTE_URL:
-        nav.append(f'      <a href="{soporte}"{sop_attr}>Soporte</a>')
+        nav.append(f'      <a href="{soporte}"{sop_attr}>Support</a>')
     if branding.WEB_URL:
-        nav.append(f'      <a href="{web}"{web_attr}>{e(branding.WEB_URL)}</a>')
+        # Texto fijo «Website» en vez de la URL cruda. Enseñar la URL entera en el
+        # pie ocupaba una línea entera de texto azul subrayado y, desde el
+        # renombrado del 22-09-2026, además arrastraba el nombre viejo del
+        # repositorio a la vista. El `href` sigue siendo la URL real, que es lo
+        # único que importa para que el enlace funcione y para el SEO.
+        nav.append(f'      <a href="{web}"{web_attr}>Website</a>')
     aviso_ads = (
-        "<br><br>Esta web muestra anuncios de Google AdSense." if pub else ""
+        "<br><br>This site shows Google AdSense ads." if pub else ""
     )
     return (
         "  <footer>\n"
         '    <div class="envoltura">\n'
         "      <nav>\n" + "\n".join(nav) + "\n      </nav>\n"
-        f'      <p class="legal">{descargo_html()}{aviso_ads}</p>\n'
-        "    </div>\n"
+        + (f'      <p class="legal">{aviso_ads}</p>\n' if aviso_ads else "")
+        + "    </div>\n"
         "  </footer>\n"
         "</body>\n"
         "</html>\n"
@@ -232,26 +272,31 @@ def migas_html(camino: list[tuple[str, str]]) -> str:
     )
 
 
-def cta(texto: str = "Añadir a Discord", *, nota: str = "") -> str:
+def cta(texto: str = "Add to Discord", *, nota: str = "") -> str:
     """La llamada a la acción, repetida al final de cada página de contenido.
 
     Es el único motivo por el que existe la web: alguien busca "elo de los mid de
     la LEC", encuentra la tabla, y abajo hay un botón que le dice que esto le
     puede llegar solo a su Discord. Una página de datos sin ese cierre es una
     página que informa y no convierte.
+
+    El texto va en **inglés**, como toda la web publicada. Hasta el 22-09-2026
+    este bloque estaba escrito en español y salía en las 28 páginas: era el trozo
+    de español más grande que quedaba en un sitio en inglés, y el que más se ve,
+    porque cierra todas las páginas.
     """
     invite, invite_attr = url(branding.INVITE_URL)
     linea = f'      <p class="nota">{nota}</p>\n' if nota else ""
     return (
         '  <section class="cierre">\n'
         '    <div class="envoltura">\n'
-        "      <h2>¿Y si esto te llegara solo?</h2>\n"
-        f'      <p class="intro">{e(branding.BOT_NOMBRE)} publica este aviso en tu '
-        "canal de Discord —o en tu chat privado— en cuanto el jugador entra en "
-        f"partida, con las {len(LIGAS)} ligas del catálogo. Gratis.</p>\n"
+        "      <h2>What if this came to you on its own?</h2>\n"
+        f'      <p class="intro">{e(branding.BOT_NOMBRE)} posts this alert to your '
+        "Discord channel —or your DMs— the moment a player enters a game, across "
+        f"the {len(LIGAS)} leagues in the catalogue. Free.</p>\n"
         '      <div class="botones">\n'
         f'        <a class="boton primario" href="{invite}"{invite_attr}>{e(texto)}</a>\n'
-        '        <a class="boton" href="avisos.html">Ver cómo es el aviso</a>\n'
+        '        <a class="boton" href="avisos.html">See what the alert looks like</a>\n'
         "      </div>\n"
         f"{linea}"
         "    </div>\n"
@@ -273,4 +318,16 @@ def montar(pagina: Pagina, pub: str, sitio: str) -> str:
       `cabeza()`; una página sin canónico es el primer punto de la lista técnica
       que se incumpliría.
     """
-    return cabeza(pagina, pub, sitio) + "<body>\n" + pagina.cuerpo + pie(pub)
+    clase = ' class="arena"' if pagina.arena else ""
+    return (
+        cabeza(pagina, pub, sitio)
+        + f"<body{clase}>\n"
+        + (topbar() if pagina.arena else "")
+        + pagina.cuerpo
+        + pie(pub)
+        # `live.js` rellena la tira de equipos y el registro de avisos de la
+        # portada. Se carga con `defer` y solo donde hay esos dos nodos
+        # (`en_vivo`), que hoy es únicamente la portada: enlazarlo en las demás
+        # sería una petición de red que no pinta nada.
+        + ('  <script src="live.js" defer></script>\n' if pagina.en_vivo else "")
+    )

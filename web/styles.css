@@ -1,4 +1,4 @@
-/* Estilos de la web de JetaDirectaBot.
+/* Estilos de la web de LoLProTrackr.
  *
  * Una sola hoja para las dos páginas. Sin framework y sin build: la web es
  * estática a propósito, para que se pueda publicar gratis en GitHub Pages o
@@ -6,17 +6,53 @@
  *
  * Tema oscuro fijo, no por gusto: la superficie que la gente ya conoce es el
  * embed dentro de Discord, y una landing clara con capturas oscuras se ve
- * incoherente. Los colores salen del propio bot (COLOR = 0x1F8B4C en /help). */
+ * incoherente.
+ *
+ * La paleta vive **aquí y solo aquí**. Es la lección del 22-09-2026: al cambiar
+ * la marca al oro, este fichero se quedó con el verde viejo y las 24 páginas
+ * interiores —ligas, avisos, las 20 de liga, legal— siguieron con botones y
+ * enlaces verdes mientras la portada era dorada. `styles-esports.css` se carga
+ * después y **no redefine colores**: solo añade el ancho de la portada y lo que
+ * es propio del tema Arena (esquinas cortadas, glow, barra superior).
+ */
 
 :root {
-  --fondo: #0f1115;
-  --fondo-alto: #161a21;
-  --borde: #262c36;
-  --texto: #e6e9ef;
-  --texto-suave: #9aa4b2;
-  --verde: #1f8b4c;
-  --verde-claro: #2ecc71;
-  --oro: #f1c40f;
+  /* --- Oro: el acento de la marca, el del logotipo --- */
+  --acento: #e6c76a;          /* champán */
+  --acento-claro: #f7e8b8;    /* realces y hover */
+  --acento-oscuro: #a8801c;   /* oro viejo, para bordes y profundidad */
+
+  /* --- Azul: el único color frío, y solo para fondos ---
+   *
+   * Va como triplete y no como hex porque sus dos usos son degradados con alfa
+   * (`rgb(var(--azul-rgb) / 0.55)`). Con un hex habría que repetir los tres
+   * números dentro del `rgba()`, y eso es exactamente cómo se desincroniza una
+   * paleta: el mismo color escrito dos veces. */
+  --azul-rgb: 22 35 61;
+
+  /* --- Neutros --- */
+  --fondo: #08090c;
+  --fondo-2: #0d0f14;
+  --fondo-3: #14171f;
+  --fondo-alto: #14171f;      /* tarjetas; alias histórico de `--fondo-3` */
+  --borde: #262a35;
+  --texto: #f0f2f7;
+  --texto-suave: #9aa3b5;
+
+  /* --- Alias históricos ---
+   *
+   * La web nació verde (`--verde`, `--verde-claro`) y el tema Arena usó cian y
+   * magenta (`--neon`, `--neon-2`). Hay decenas de reglas escritas con esos
+   * nombres. En vez de reescribirlas todas de golpe —y arriesgar un fallo de
+   * maquetación en una web que no tiene pruebas visuales— se apuntan al oro.
+   *
+   * El código nuevo usa `--acento`, `--acento-claro` y `--acento-oscuro`. Estos
+   * cinco se quedan para que lo viejo siga funcionando y para que el día que se
+   * toque una de esas reglas se renombre sola. */
+  --oro: var(--acento-claro);
+
+  /* El ancho de lectura de las páginas interiores. La portada lo sube a 1100px
+   * desde `styles-esports.css`: son dos usos distintos, no una inconsistencia. */
   --ancho: 960px;
 }
 
@@ -31,7 +67,7 @@ body {
   font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
-a { color: var(--verde-claro); }
+a { color: var(--acento); }
 a:hover { color: var(--oro); }
 
 .envoltura {
@@ -45,7 +81,7 @@ header.principal {
   text-align: center;
   border-bottom: 1px solid var(--borde);
   background:
-    radial-gradient(900px 320px at 50% -80px, rgba(31, 139, 76, 0.28), transparent);
+    radial-gradient(900px 320px at 50% -80px, rgba(230, 199, 106, 0.18), transparent);
 }
 
 header.principal h1 {
@@ -81,14 +117,14 @@ header.principal h1 {
   text-decoration: none;
 }
 
-.boton:hover { border-color: var(--verde-claro); color: var(--texto); }
+.boton:hover { border-color: var(--acento); color: var(--texto); }
 
 .boton.primario {
-  background: var(--verde);
-  border-color: var(--verde);
+  background: var(--acento);
+  border-color: var(--acento);
   color: #fff;
 }
-.boton.primario:hover { background: var(--verde-claro); border-color: var(--verde-claro); color: #06210f; }
+.boton.primario:hover { background: var(--acento); border-color: var(--acento); color: #14100a; }
 
 /* Un enlace sin configurar no se enseña roto: `data-sin-url` lo apaga desde el
  * propio HTML, para que la web se pueda publicar antes de tener el invite. */
@@ -101,11 +137,12 @@ section { padding: 56px 0; border-bottom: 1px solid var(--borde); }
 section h2 { margin: 0 0 6px; font-size: 1.6rem; }
 section > .envoltura > p.intro { margin: 0 0 28px; color: var(--texto-suave); }
 
-.rejilla {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-}
+/* Aquí vivía `.rejilla`, la rejilla de tarjetas de las páginas interiores. Se
+ * retiró el 22-09-2026: la portada pasó a usar `.grid` (la de Arena) y las dos
+ * únicas rejillas que quedan tienen su propia regla (`.rejilla-comandos`,
+ * `.rejilla-dos`). Era una regla sin ninguna clase que la usara, y eso es peso
+ * muerto que se descarga en cada visita — justo lo que comprueba
+ * `scripts/test_web.py`. No reintroducirla sin volver a usarla. */
 
 .tarjeta {
   padding: 20px;
@@ -118,8 +155,8 @@ section > .envoltura > p.intro { margin: 0 0 28px; color: var(--texto-suave); }
 .tarjeta code {
   padding: 1px 5px;
   border-radius: 5px;
-  background: #0b0d11;
-  color: var(--verde-claro);
+  background: #0b0c10;
+  color: var(--acento);
   font-size: 0.9em;
 }
 
@@ -139,7 +176,7 @@ section > .envoltura > p.intro { margin: 0 0 28px; color: var(--texto-suave); }
   background: var(--fondo-alto);
   font-size: 0.9rem;
 }
-.ligas li b { color: var(--verde-claro); font-weight: 600; }
+.ligas li b { color: var(--acento); font-weight: 600; }
 
 .nota {
   padding: 14px 16px;
@@ -160,7 +197,7 @@ section > .envoltura > p.intro { margin: 0 0 28px; color: var(--texto-suave); }
   border-radius: 12px;
   background: var(--fondo-alto);
 }
-.plan.destacado { border-color: var(--verde); }
+.plan.destacado { border-color: var(--acento); }
 .plan h3 { margin: 0 0 2px; }
 .plan .precio { margin: 0 0 14px; color: var(--oro); font-weight: 600; }
 .plan ul { margin: 0; padding-left: 18px; color: var(--texto-suave); font-size: 0.94rem; }
@@ -169,8 +206,8 @@ section > .envoltura > p.intro { margin: 0 0 28px; color: var(--texto-suave); }
   margin-bottom: 10px;
   padding: 2px 9px;
   border-radius: 999px;
-  background: rgba(31, 139, 76, 0.18);
-  color: var(--verde-claro);
+  background: rgba(230, 199, 106, 0.12);
+  color: var(--acento);
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -197,7 +234,7 @@ footer {
   font-size: 0.88rem;
 }
 footer nav { margin-bottom: 14px; display: flex; flex-wrap: wrap; gap: 16px; }
-footer .legal { max-width: 760px; font-size: 0.8rem; line-height: 1.6; color: #6f7887; }
+footer .legal { max-width: 760px; font-size: 0.8rem; line-height: 1.6; color: #7b8494; }
 
 /* Páginas legales: columna estrecha, que es texto para leer.
  *
@@ -212,7 +249,7 @@ footer .legal { max-width: 760px; font-size: 0.8rem; line-height: 1.6; color: #6
   padding-bottom: 8px;
   border-bottom: 1px solid var(--borde);
   font-size: 1.45rem;
-  color: var(--verde-claro);
+  color: var(--acento);
 }
 .documento h3 { margin-top: 30px; font-size: 1.05rem; }
 .documento .fecha { color: var(--texto-suave); font-size: 0.88rem; }
@@ -257,7 +294,7 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   font-size: 0.85rem;
 }
 .migas a { color: var(--texto-suave); text-decoration: none; }
-.migas a:hover { color: var(--verde-claro); }
+.migas a:hover { color: var(--acento); }
 .migas [aria-current="page"] { color: var(--texto); }
 
 /* El bloque "En resumen" (TL;DR). Es el que se lee y el que se cita, así que
@@ -266,11 +303,11 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   margin: 0;
   padding: 18px 20px;
   border: 1px solid var(--borde);
-  border-left: 3px solid var(--verde);
+  border-left: 3px solid var(--acento);
   border-radius: 10px;
   background: var(--fondo-alto);
 }
-.resumen > p { margin: 0 0 8px; color: var(--verde-claro); font-size: 0.82rem;
+.resumen > p { margin: 0 0 8px; color: var(--acento); font-size: 0.82rem;
   text-transform: uppercase; letter-spacing: 0.08em; }
 .resumen ul { margin: 0; padding-left: 20px; color: var(--texto-suave); }
 .resumen li { margin: 4px 0; }
@@ -299,7 +336,7 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   letter-spacing: 0.05em;
   white-space: nowrap;
 }
-.tabla tbody tr:hover { background: rgba(31, 139, 76, 0.07); }
+.tabla tbody tr:hover { background: rgba(230, 199, 106, 0.05); }
 .tabla .pos { width: 2.4rem; color: var(--texto-suave); font-variant-numeric: tabular-nums; }
 .tabla .rango { color: var(--oro); white-space: nowrap; }
 .tabla .cuenta { color: var(--texto-suave); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; }
@@ -313,7 +350,7 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   height: auto;
   vertical-align: middle;
   border-radius: 6px;
-  background: #0b0d11;
+  background: #0b0c10;
 }
 .mini { width: 28px; margin-right: 8px; }
 .logo { max-width: 48px; max-height: 48px; width: auto; border-radius: 8px; }
@@ -335,11 +372,11 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   font-size: 0.85rem;
 }
 .comparativa .propio {
-  background: rgba(31, 139, 76, 0.1);
-  border-left: 2px solid var(--verde);
+  background: rgba(230, 199, 106, 0.07);
+  border-left: 2px solid var(--acento);
   border-right: 1px solid var(--borde);
 }
-.comparativa thead th:nth-child(2) { color: var(--verde-claro); }
+.comparativa thead th:nth-child(2) { color: var(--acento); }
 
 /* Equipos de una liga. */
 .equipos {
@@ -360,7 +397,7 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   background: var(--fondo-alto);
   font-size: 0.9rem;
 }
-.equipo b { color: var(--verde-claro); }
+.equipo b { color: var(--acento); }
 .equipo span { margin-left: auto; color: var(--texto-suave); font-size: 0.8rem; white-space: nowrap; }
 
 /* Próximos partidos: los «cuadraditos». Rejilla de tarjetas pequeñas agrupadas
@@ -418,7 +455,7 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
 /* «en juego» es el único estado que cambia solo, así que es lo único que va en
  * color. Sin animación: un punto que late en 20 tarjetas es ruido. */
 .partido .vivo {
-  color: var(--verde-claro);
+  color: var(--acento);
   font-size: 0.78rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -450,13 +487,13 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   max-width: 480px;
   padding: 14px 16px;
   border: 1px solid var(--borde);
-  border-left: 4px solid var(--verde);
+  border-left: 4px solid var(--acento);
   border-radius: 8px;
-  background: #1a1d23;
+  background: #191c24;
   font-size: 0.92rem;
 }
 .embed-cabeza { display: flex; align-items: center; gap: 12px; }
-.embed-titulo { margin: 0; color: var(--verde-claro); font-weight: 600; }
+.embed-titulo { margin: 0; color: var(--acento); font-weight: 600; }
 .embed-sub { margin: 2px 0 0; color: var(--texto-suave); font-size: 0.85rem; }
 .embed-datos {
   display: grid;
@@ -477,11 +514,10 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
 .embed-pie code {
   padding: 1px 5px;
   border-radius: 5px;
-  background: #0b0d11;
-  color: var(--verde-claro);
+  background: #0b0c10;
+  color: var(--acento);
   font-size: 0.9em;
 }
-.embed-marca { margin: 10px 0 0; color: #6f7887; font-size: 0.75rem; }
 
 /* Los pasos de activación. Numerados de verdad con `<ol>`: el orden es parte
  * de la información. */
@@ -491,8 +527,8 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
 .pasos code {
   padding: 1px 5px;
   border-radius: 5px;
-  background: #0b0d11;
-  color: var(--verde-claro);
+  background: #0b0c10;
+  color: var(--acento);
   font-size: 0.9em;
 }
 
@@ -522,8 +558,8 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
   font-size: 0.94rem;
 }
 .vecinas a { color: var(--texto); text-decoration: none; }
-.vecinas li:hover { border-color: var(--verde-claro); }
-.vecinas li:hover a { color: var(--verde-claro); }
+.vecinas li:hover { border-color: var(--acento); }
+.vecinas li:hover a { color: var(--acento); }
 .vecinas span {
   margin-left: auto;
   color: var(--texto-suave);
@@ -535,7 +571,7 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
  * propio en vez de ser otra sección más. */
 .cierre {
   background:
-    radial-gradient(700px 240px at 50% 0, rgba(31, 139, 76, 0.16), transparent);
+    radial-gradient(700px 240px at 50% 0, rgba(230, 199, 106, 0.11), transparent);
 }
 .cierre h2 { font-size: 1.45rem; }
 .cierre .botones { justify-content: flex-start; margin-top: 20px; }
@@ -553,3 +589,145 @@ header.pagina .lema { margin: 0 0 20px; max-width: none; font-size: 1rem; }
 
 
 
+
+/* ------------------------------------------------------------------ *
+ * Página de comandos (commands.html)
+ *
+ * Se mantiene a mano aquí y no en un fichero aparte porque el generador
+ * solo copia `styles.css`: una hoja nueva no llegaría a la web publicada.
+ * Las clases van con prefijo propio (`cmd-`, `demo-`, `rejilla-comandos`)
+ * para no chocar con las de las otras páginas.
+ * ------------------------------------------------------------------ */
+
+.demo-slash {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: var(--fondo-alto);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1.05rem;
+  color: var(--texto);
+  min-width: 260px;
+  justify-content: flex-start;
+}
+
+.demo-uso { color: var(--acento); font-weight: 600; }
+
+.demo-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  background: var(--acento);
+  animation: parpadeo 1s steps(2, start) infinite;
+}
+
+@keyframes parpadeo { to { visibility: hidden; } }
+
+.rejilla-comandos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.cmd {
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 18px;
+  background: var(--fondo-alto);
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.cmd:hover {
+  transform: translateY(-3px);
+  border-color: var(--acento);
+}
+
+.cmd-nombre { margin: 0 0 8px; font-size: 1.05rem; }
+.cmd-nombre code { color: var(--acento); }
+
+.cmd-que { margin: 0 0 10px; color: var(--texto-suave); font-size: 0.95rem; }
+
+.cmd-args {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+}
+
+.cmd-args li { margin-bottom: 4px; color: var(--texto-suave); }
+.cmd-args code { color: var(--oro); }
+.cmd-args span { color: var(--texto-suave); }
+
+.cmd-ejemplo { margin: 0 0 6px; font-size: 0.85rem; }
+.cmd-ejemplo code { color: var(--texto); }
+
+.cmd-devuelve { margin: 0; font-size: 0.85rem; color: var(--texto-suave); }
+
+.tabla-combinaciones {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 0.92rem;
+}
+
+.tabla-combinaciones th,
+.tabla-combinaciones td {
+  text-align: left;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--borde);
+  vertical-align: top;
+}
+
+.tabla-combinaciones thead th { color: var(--texto-suave); font-weight: 600; }
+.tabla-combinaciones td:first-child { white-space: nowrap; }
+.tabla-combinaciones code { color: var(--acento); }
+
+.fila-grupo th {
+  color: var(--oro);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 18px;
+}
+
+.rejilla-dos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.nota-caja {
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 18px;
+  background: var(--fondo-alto);
+}
+
+.nota-caja h3 { margin: 0 0 8px; font-size: 1rem; }
+.nota-caja p { margin: 0; color: var(--texto-suave); font-size: 0.95rem; }
+
+/* La entrada de las tarjetas, escalonada con `--i`. Se apaga entera con
+ * `prefers-reduced-motion`: quien lo pide no quiere movimiento, y una
+ * animación que no se puede desactivar es peor que no tenerla. */
+@media (prefers-reduced-motion: no-preference) {
+  .cmd {
+    animation: aparecer 0.45s ease both;
+    animation-delay: calc(var(--i, 0) * 35ms);
+  }
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (max-width: 560px) {
+  .tabla-combinaciones td:first-child { white-space: normal; }
+  .demo-slash { font-size: 0.95rem; min-width: 0; }
+}

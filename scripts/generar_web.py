@@ -66,7 +66,7 @@ from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from tracking.soloq.leagues import LIGAS, MAX_LIGAS_POR_SERVIDOR  # noqa: E402
+from tracking.soloq.leagues import LIGAS, MAX_LIGAS_POR_SERVIDOR, REGION_EN  # noqa: E402
 from tracking.soloq.plans import ORDEN, PLANES  # noqa: E402
 from utils import branding  # noqa: E402
 
@@ -105,7 +105,7 @@ def ligas_html() -> str:
         marca = "" if liga.seguible else ' <span title="ranks only, no live game tracking">·&nbsp;Elo only</span>'
         filas.append(
             f'      <li><b>{e(liga.codigo)}</b> {e(liga.nombre)}'
-            f" <span>{e(liga.region)}</span>{marca}</li>"
+            f" <span>{e(liga.region_en)}</span>{marca}</li>"
         )
     return "\n".join(filas)
 
@@ -121,12 +121,32 @@ def _plural(n: int, singular: str, plural: str) -> str:
     return f"{n} {singular if n == 1 else plural}"
 
 
-def _precio(plan) -> str:
-    """`0 €` o `3,99 € / mes`, con coma decimal.
+#: Cómo se llama cada plan **en la web**.
+#:
+#: `Plan.nombre` es la etiqueta que usa el bot en sus respuestas, y ahí «Gratis»
+#: es lo correcto: la mitad de los servidores están en español y el plan se llama
+#: así en el embed de `/premium`. La web, en cambio, se publica solo en inglés, y
+#: usar `plan.nombre` tal cual dejaba un «Gratis» en medio de una página inglesa,
+#: justo en la sección donde alguien decide si paga.
+#:
+#: Va por **código** (`gratis`, `pro`) y no por nombre: el código es la clave de
+#: `PLANES` y no cambia si alguien reescribe la etiqueta. Si aparece un plan nuevo
+#: y no está aquí, se cae a `plan.nombre` —que es la etiqueta del bot— en vez de
+#: dejar la tarjeta sin título.
+NOMBRE_PLAN_WEB: dict[str, str] = {
+    "gratis": "Free",
+    "pro": "Pro",
+}
 
-    La coma no es un detalle tipográfico: la página está en español y un precio
-    escrito `3.99 €` se lee como formato anglosajón, que es exactamente la
-    señal que hace dudar de si una web cobra en euros o en dólares.
+
+def _precio(plan) -> str:
+    """`0 €` o `5,00 € / month`, con coma decimal.
+
+    La coma es la convención del euro y de la audiencia —ligas europeas, precios
+    en €—, y además es lo que ya usaba la web en español: cambiarla a punto haría
+    que el mismo precio se leyera distinto según la página, que es la señal de
+    que el sitio lo han tocado dos manos sin hablarlo. Lo que sí cambió al pasar
+    la web a inglés es la unidad, que ahora dice `month` y no `mes`.
     """
     if plan.gratis:
         return "0 €"
@@ -146,7 +166,7 @@ def planes_html() -> str:
         tarjetas.append(
             f'      <article class="plan{destacado}">\n'
             f"{etiqueta}"
-            f"        <h3>{e(plan.nombre)}</h3>\n"
+            f"        <h3>{e(NOMBRE_PLAN_WEB.get(codigo, plan.nombre))}</h3>\n"
             f'        <p class="precio">{_precio(plan)}</p>\n'
             "        <ul>\n"
             f"          <li>{_plural(plan.ligas, 'league', 'leagues')} at a time</li>\n"
@@ -181,18 +201,18 @@ FUNCIONES: tuple[tuple[str, str], ...] = (
         "they use.",
     ),
     (
-        "📊 <code>/ranking</code> · <code>/historial</code> · <code>/team</code>",
+        "📊 <code>/ranking</code> · <code>/history</code> · <code>/team</code>",
         "The SoloQ ladder of an entire league, the latest tracked games, and a "
         "team's roster with the rank of every player on it.",
     ),
     (
-        "🏆 <code>/partida</code> · <code>/next</code>",
+        "🏆 <code>/esports</code> · <code>/schedule</code>",
         "Live official matches and the schedule of the next ones, across every "
         "league, not only the ones you follow in SoloQ.",
     ),
     (
         "🌍 English and Spanish",
-        "<code>/lang en</code> switches the whole bot to that language on that "
+        "<code>/language en</code> switches the whole bot to that language on that "
         "server: commands, alerts, errors and help.",
     ),
     (
@@ -225,7 +245,7 @@ def funciones_html() -> str:
 def _plan_gratis():
     """El plan gratuito, buscado por su propiedad y no por su código.
 
-    `PLANES` está indexado por código (`"gratis"`, `"pro"`, `"elite"`) y
+    `PLANES` está indexado por código (`"gratis"`, `"pro"`) y
     escribirlo a mano aquí es un `KeyError` esperando a que alguien renombre el
     plan. `Plan.gratis` es `precio <= 0`, que es la definición de verdad.
     """
@@ -320,6 +340,150 @@ def _destacados_html() -> str:
     )
 
 
+def _aviso_ejemplo_html() -> str:
+    """El aviso de ejemplo que abre la portada.
+
+    Es lo más característico de este producto —lo que ve alguien cuando un pro
+    entra en cola— y por eso ocupa el hero en vez de un bloque de cifras, que lo
+    pone cualquier página. Va **marcado como ejemplo**: el nombre y el equipo son
+    de un pro real, la partida no, y hacer pasar una partida inventada por una
+    real es exactamente lo que no se puede hacer en una web que presume de datos.
+    """
+    return (
+        '      <div class="hero-aviso">\n'
+        '        <article class="aviso">\n'
+        '          <div class="aviso-cab">\n'
+        '            <span class="aviso-badge">FNC</span>\n'
+        "            <div>\n"
+        '              <p class="aviso-titulo">Vladi is in a SoloQ game</p>\n'
+        '              <p class="aviso-sub">Mid · Fnatic · EUW</p>\n'
+        "            </div>\n"
+        "          </div>\n"
+        '          <dl class="aviso-datos">\n'
+        "            <dt>Queue</dt><dd>Ranked Solo/Duo</dd>\n"
+        "            <dt>Champion</dt><dd>Ahri</dd>\n"
+        "            <dt>Rank</dt><dd>Challenger I · 1204 LP</dd>\n"
+        "            <dt>Spectate</dt><dd>in 2 min</dd>\n"
+        "          </dl>\n"
+        '          <p class="aviso-pie">All ten participants with their ranks, a '
+        "<code>.bat</code> to spectate from the client, and a note on when "
+        "spectator mode opens.</p>\n"
+        "        </article>\n"
+        '        <p class="aviso-nota">Example alert — the player is real, the '
+        "game is not.</p>\n"
+        "      </div>\n"
+    )
+
+
+def _apoyo_html() -> str:
+    """La sección que explica de dónde salen los límites y pide ayuda.
+
+    Por qué está en la portada y no en una página aparte
+    ---------------------------------------------------
+    Es la única página que ve quien llega de fuera, y el límite es lo primero que
+    va a notar: elige una liga, quiere dos, y no puede. Sin explicación, eso se
+    lee como un muro de pago y se va. Con explicación, se lee como lo que es —una
+    cuota que pone Riot— y además se convierte en una petición de ayuda que el
+    visitante puede atender sin pagar nada.
+
+    Cómo está construida, porque no es copy suelto
+    ----------------------------------------------
+    1. **La restricción es externa, concreta y con número.** «Riot gives us 500
+       requests every 10 seconds» es verificable y por eso se cree; «technical
+       limitations» no. El número sale de `branding`, no de aquí, para que no se
+       quede viejo.
+    2. **Se dice dos veces que lo importante es gratis.** Si alguien cree que hay
+       que pagar para recibir avisos, no instala el bot, y entonces no hay nada
+       que crecer ni que vender.
+    3. **El mecanismo es real y se explica**: más servidores es exactamente lo que
+       Riot mira para conceder más cuota. Eso permite poner «compartir» **el
+       primero** de la lista sin que sea un premio de consolación para quien no
+       paga: es la acción que de verdad sube los límites. Si esto fuera mentira,
+       toda la sección sería un truco y el visitante lo notaría.
+    4. **Escalera de menos a más esfuerzo** (compartir / añadir / contárselo /
+       Ko-fi) para que haya algo que hacer a cualquier nivel de compromiso.
+    5. **Sin culpabilidad.** Nada de «ayúdanos o desaparecemos». Una petición que
+       hace sentir mal convierte peor y quema al que ya estaba dentro.
+
+    Y no se inventa ninguna cifra de alcance: cuántos servidores usan el bot hoy
+    no se publica (ver `AGENTS.md`), así que la meta se cuenta en futuro —«cada
+    servidor que se añade es un número más en esa petición»— y no como un
+    contador que no existe.
+    """
+    donar, donar_attr = maq.url(branding.DONATE_URL)
+    invite, invite_attr = maq.url(branding.INVITE_URL)
+    req = branding.RIOT_CUOTA_PETICIONES
+    seg = branding.RIOT_CUOTA_SEGUNDOS
+
+    acciones = (
+        (
+            "🔗",
+            "Share it",
+            "It costs nothing and it is what actually raises the limits. Every "
+            "server that adds the bot is one more number in the request we take "
+            "to Riot.",
+        ),
+        (
+            "➕",
+            "Add it to your server",
+            "Even if you only look at the alerts now and then. A server with the "
+            "bot in it counts, whether or not anyone types a command.",
+        ),
+        (
+            "💬",
+            "Tell someone who plays",
+            "Esports followers are the audience: the people who want to know when "
+            "their favourite mid laner is on.",
+        ),
+        (
+            "💛",
+            "Support on Ko-fi",
+            "If you would rather put money in. It pays for the server the bot "
+            "runs on and speeds the whole thing up.",
+        ),
+    )
+    tarjetas = "\n".join(
+        '      <article class="tarjeta">\n'
+        f'        <div class="ico">{ico}</div>\n'
+        f"        <h3>{e(titulo)}</h3>\n"
+        f"        <p>{e(texto)}</p>\n"
+        "      </article>"
+        for ico, titulo, texto in acciones
+    )
+
+    return (
+        '  <section id="apoyo" class="apoyo">\n'
+        '    <div class="envoltura">\n'
+        "      <h2>Why the free plan <span class=\"res\">has limits</span></h2>\n"
+        '      <p class="sub">It is not our call.</p>\n'
+        '      <div class="apoyo-texto">\n'
+        f"        <p>Riot Games gives every third-party app "
+        f"<b>{req} requests every {seg} seconds</b>. That is the whole budget, "
+        f"and out of it the bot can follow <b>{MAX_LIGAS_POR_SERVIDOR} leagues at "
+        "a time per server</b>. It is a physical ceiling, not a paywall: the game "
+        "alert —the part that matters— is free and always will be.</p>\n"
+        "        <p>The other half is the interesting one. "
+        "<b>The more servers use the bot, the bigger the community we can show "
+        "Riot</b> when we ask for a larger quota, and a larger quota means higher "
+        "limits for everyone — the free plan included. So this is not really about "
+        "paying. It is about growing.</p>\n"
+        "      </div>\n"
+        '      <div class="grid">\n'
+        f"{tarjetas}\n"
+        "      </div>\n"
+        '      <div class="apoyo-cierre">\n'
+        '        <p class="apoyo-gracias">Thank you, genuinely: this is run by '
+        "one person.</p>\n"
+        '        <div class="botones">\n'
+        f'          <a class="btn" href="{invite}"{invite_attr}>⚡ Add to Discord</a>\n'
+        f'          <a class="btn bronce" href="{donar}"{donar_attr}>💛 Support on Ko-fi</a>\n'
+        "        </div>\n"
+        "      </div>\n"
+        "    </div>\n"
+        "  </section>\n"
+    )
+
+
 def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
     """La landing.
 
@@ -356,37 +520,78 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
     ]
 
     cuerpo = (
-        '  <header class="principal">\n'
-        '    <div class="envoltura">\n'
-        f"      <h1>{nombre}</h1>\n"
-        '      <p class="lema">When a professional player queues up for SoloQ, '
-        "your server finds out. Champion, role, rank and team, the moment the "
-        "game starts.</p>\n"
-        '      <div class="botones">\n'
-        f'        <a class="boton primario" href="{invite}"{invite_attr}>Add to Discord</a>\n'
-        f'        <a class="boton" href="{soporte}"{sop_attr}>Support server</a>\n'
-        f'        <a class="boton" href="{donar}"{donar_attr}>Support the project</a>\n'
+        # ---- Hero ------------------------------------------------------- #
+        #
+        # Dos columnas: a la izquierda qué es y el botón; a la derecha **el
+        # aviso**, que es lo más característico de este producto y por eso es lo
+        # que abre la página. Un bloque de cifras con una etiqueta debajo lo pone
+        # cualquiera; el embed que aparece solo en tu canal, no.
+        '  <header class="hero">\n'
+        '    <div class="envoltura hero-fila">\n'
+        '      <div class="hero-texto">\n'
+        f'        <span class="onair"><span class="punto"></span>Live · '
+        f"{len(LIGAS)} leagues</span>\n"
+        "        <h1>When a <span class=\"grad\">pro</span> queues up,\n"
+        "        your server knows</h1>\n"
+        '        <p class="lema">Champion, role, rank and team the moment the '
+        f"game starts. The Discord bot watching <b>{total_pros} professional "
+        "League of Legends players</b> — and you don't type a single command.</p>\n"
+        '        <div class="botones">\n'
+        f'          <a class="btn" href="{invite}"{invite_attr}>⚡ Add to Discord</a>\n'
+        '          <a class="btn sec" href="commands.html">See the commands</a>\n'
+        f'          <a class="btn sec" href="{donar}"{donar_attr}>Support the project</a>\n'
+        "        </div>\n"
         "      </div>\n"
-        f"{pags.tldr(resumen)}"
+        f"{_aviso_ejemplo_html()}\n"
+        "    </div>\n"
+        '    <div class="envoltura">\n'
+        '      <div class="stats">\n'
+        f'        <div class="stat"><div class="n" data-count="{len(LIGAS)}">'
+        f'{len(LIGAS)}</div><div class="l">Leagues</div></div>\n'
+        f'        <div class="stat"><div class="n" data-count="{total_pros}">'
+        f'{total_pros}</div><div class="l">Pros tracked</div></div>\n'
+        '        <div class="stat"><div class="n" data-count="30">30'
+        '<span class="u">s</span></div><div class="l">Max delay</div></div>\n'
+        '        <div class="stat"><div class="n">0<span class="u">€</span></div>'
+        '<div class="l">Free, always</div></div>\n'
+        "      </div>\n"
         "    </div>\n"
         "  </header>\n"
         "\n"
+        # ---- Qué hace --------------------------------------------------- #
         '  <section id="funciones">\n'
         '    <div class="envoltura">\n'
-        "      <h2>What it does</h2>\n"
-        '      <p class="intro">Everything on this list works on the free '
-        "plan.</p>\n"
-        '      <div class="rejilla">\n'
+        "      <h2>What <span class=\"res\">it does</span></h2>\n"
+        '      <p class="sub">Everything here works on the free plan. The alert '
+        "is the point; the commands are for looking things up in between.</p>\n"
+        f"{pags.tldr(resumen)}\n"
+        '      <div class="grid">\n'
         f"{funciones_html()}\n"
+        "      </div>\n"
+        '      <div class="teams" id="teams-strip">'
+        "<!-- logos inyectados por live.js --></div>\n"
+        "    </div>\n"
+        "  </section>\n"
+        "\n"
+        # ---- Avisos recientes ------------------------------------------- #
+        '  <section id="live">\n'
+        '    <div class="envoltura">\n'
+        "      <h2>Recent <span class=\"res\">alerts</span></h2>\n"
+        '      <p class="sub">What the bot has actually detected, straight from '
+        "its own alert log.</p>\n"
+        '      <div class="feed" id="feed">\n'
+        '        <div class="vacio">Loading recent alerts…</div>\n'
         "      </div>\n"
         "    </div>\n"
         "  </section>\n"
         "\n"
+        # ---- Ligas ------------------------------------------------------ #
         '  <section id="ligas">\n'
         '    <div class="envoltura">\n'
-        f"      <h2>{len(LIGAS)} leagues</h2>\n"
-        '      <p class="intro">Each server picks the ones it wants to follow with '
-        f"<code>/ligas</code>, up to {MAX_LIGAS_POR_SERVIDOR} at a time. Every "
+        f"      <h2>{len(LIGAS)} <span class=\"res\">leagues</span></h2>\n"
+        '      <p class="sub">Each server picks the ones it follows with '
+        f"<code>/leagues</code>, up to {MAX_LIGAS_POR_SERVIDOR} at a time — "
+        '<a href="#apoyo">why that number and not more</a>. Every '
         'league has <a href="ligas.html">its own page</a> with its players, their '
         "ranks and its teams.</p>\n"
         '      <ul class="ligas">\n'
@@ -399,21 +604,29 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         "    </div>\n"
         "  </section>\n"
         "\n"
+        # ---- Por qué hay límites, y cómo se suben ----------------------- #
+        #
+        # Va justo después de las ligas a propósito: es donde el visitante acaba
+        # de leer el tope y se pregunta por qué. La explicación pegada a la
+        # limitación se lee; la misma explicación tres pantallas más abajo, no.
+        f"{_apoyo_html()}"
+        "\n"
+        # ---- Antes de instalarlo ---------------------------------------- #
         '  <section id="mas">\n'
         '    <div class="envoltura">\n'
-        "      <h2>Before you install it</h2>\n"
-        '      <div class="rejilla">\n'
+        "      <h2>Before you <span class=\"res\">install it</span></h2>\n"
+        '      <div class="grid">\n'
         f"{_destacados_html()}\n"
         "      </div>\n"
         "    </div>\n"
         "  </section>\n"
         "\n"
+        # ---- Planes ----------------------------------------------------- #
         '  <section id="planes">\n'
         '    <div class="envoltura">\n'
-        "      <h2>Plans</h2>\n"
-        '      <p class="intro">The game alert is free and always will be. What '
-        "you pay for is volume: more leagues at once, more channels and more "
-        "history.</p>\n"
+        "      <h2>Two <span class=\"res\">plans</span></h2>\n"
+        '      <p class="sub">The alert is free and always will be. What you pay '
+        "for is volume: more leagues at once, more channels and more history.</p>\n"
         '      <div class="planes">\n'
         f"{planes_html()}\n"
         "      </div>\n"
@@ -424,9 +637,24 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         "    </div>\n"
         "  </section>\n"
         "\n"
+        # ---- Marcas ----------------------------------------------------- #
+        '  <section class="sponsor-cta" id="marcas">\n'
+        '    <div class="envoltura">\n'
+        "      <h2>Brands and <span class=\"res\">sponsors</span></h2>\n"
+        '      <p class="sub">The moment a pro queues up is the moment people '
+        "look. That is a qualified audience at a known time, and it is what this "
+        "site can put a brand in front of.</p>\n"
+        '      <div class="botones">\n'
+        '        <a class="btn bronce" href="socios.html">Partnership proposal</a>\n'
+        '        <a class="btn sec" href="avisos.html">How an alert looks</a>\n'
+        "      </div>\n"
+        "    </div>\n"
+        "  </section>\n"
+        "\n"
+        # ---- FAQ -------------------------------------------------------- #
         '  <section id="faq">\n'
         '    <div class="envoltura">\n'
-        "      <h2>Frequently asked questions</h2>\n"
+        "      <h2>Frequently asked <span class=\"res\">questions</span></h2>\n"
         f"{pags.faq_html(preguntas)}\n"
         f"{maq.bloque_anuncio(pub)}\n"
         "    </div>\n"
@@ -439,6 +667,10 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         descripcion=descripcion,
         cuerpo=cuerpo,
         prioridad="1.0",
+        arena=True,
+        # La portada es la única con `#teams-strip` y `#feed`, así que es la única
+        # que carga `live.js`.
+        en_vivo=True,
     )
     pagina.schemas = [
         seo.jsonld(seo.organizacion(
@@ -462,7 +694,7 @@ DATOS: tuple[tuple[str, str, str], ...] = (
     (
         "Server and channel ID",
         "To know where to post alerts and in which language.",
-        "Until <code>/unsubscribe</code> runs or the bot is kicked.",
+        "Until <code>/mute</code> runs or the bot is kicked.",
     ),
     (
         "Server language, leagues and plan",
@@ -633,7 +865,7 @@ def _terminos(nombre: str, contacto: str) -> list[str]:
         "  <h3>7. Contact and cancellation</h3>\n",
         f"  <p>For anything related to these terms, write in {contacto}. To stop "
         "using the service, kicking the bot is enough; you can also stop only the "
-        "alerts with <code>/unsubscribe</code>.</p>\n",
+        "alerts with <code>/mute</code>.</p>\n",
     ]
 
 
@@ -684,7 +916,7 @@ def _privacidad(nombre: str, contacto: str, pub: str) -> list[str]:
         "transferred to third parties.</p>\n",
         "  <h3>6. Your rights</h3>\n",
         "  <p>You can delete all configuration for a server by kicking the bot or "
-        "running <code>/unsubscribe</code>. To access, rectify or delete any other "
+        "running <code>/mute</code>. To access, rectify or delete any other "
         "data, or to object to the processing, write in "
         f"{contacto}: you will get a reply within 30 days at the most.</p>\n",
     ]
@@ -728,11 +960,26 @@ def construir(sitio: str, fecha: str, pub: str) -> list[Pagina]:
         # vuelve más a menudo, y eso se contagia al resto del sitio.
         pags.pagina_partidos(sitio, fecha, pub),
         pags.pagina_avisos(sitio, fecha, pub),
+        pags.pagina_comandos(sitio, fecha, pub),
         pags.pagina_comparativa(sitio, fecha, pub),
         *[pags.pagina_liga(codigo, sitio, fecha, pub) for codigo in LIGAS],
         pagina_legal(pub, fecha),
         pags.pagina_404(sitio, pub),
     ]
+
+
+#: Páginas que se mantienen **a mano** en `web/`, se despliegan con el resto y
+#: también tienen que estar en el sitemap.
+#:
+#: No salen de `construir()` —no las escribe el generador, así que no se pueden
+#: perder al regenerar— pero sí son parte del sitio, y una página indexable fuera
+#: del sitemap se descubre más tarde y peor. `(ruta, prioridad)`.
+#:
+#: Hoy es solo la landing de patrocinios: es la página que se manda a una marca
+#: por correo, y que Google no la tenga declarada sería absurdo.
+PAGINAS_A_MANO: tuple[tuple[str, str], ...] = (
+    ("socios.html", "0.6"),
+)
 
 
 def _catalogo_imagenes() -> dict[str, str]:
@@ -831,6 +1078,26 @@ def _duplicados(paginas: list[Pagina]) -> list[str]:
     return problemas
 
 
+def _regiones_sin_ingles() -> list[str]:
+    """Regiones del catálogo que no tienen rótulo en inglés.
+
+    `Liga.region_en` cae al español si la región no está en `REGION_EN`, y eso es
+    lo correcto como red de seguridad: prefiero una web con una palabra en
+    español a una web que no se genera. Pero el resultado sería una página en
+    inglés con «LCK Corea» dentro, y eso no se nota revisando la portada —la
+    región sale en las fichas de liga y en los `ItemList`—, así que se avisa aquí,
+    que es donde se arregla: añadir la línea a `REGION_EN`.
+
+    Pasó al añadir la vigésima liga: el catálogo creció y la tabla de traducción
+    no, y el síntoma era una palabra suelta en español en una página en inglés.
+    """
+    faltan = sorted({liga.region for liga in LIGAS.values() if liga.region not in REGION_EN})
+    return [
+        f"la región {region!r} no tiene traducción en REGION_EN (leagues.py)"
+        for region in faltan
+    ]
+
+
 #: Ventana en la que una meta descripción se ve entera en el resultado de
 #: búsqueda. El límite real de Google es en píxeles y no en caracteres, así que
 #: no hay un número exacto; 190 es el punto donde una línea larga empieza a
@@ -919,7 +1186,7 @@ def main(argv: list[str] | None = None) -> int:
 
     total += _escribir(
         os.path.join(args.destino, "sitemap.xml"),
-        seo.sitemap(sitio, paginas, args.fecha),
+        seo.sitemap(sitio, paginas, args.fecha, extras=PAGINAS_A_MANO),
     )
     total += _escribir(os.path.join(args.destino, "robots.txt"), seo.robots(sitio))
     total += _escribir(
@@ -931,16 +1198,27 @@ def main(argv: list[str] | None = None) -> int:
         fh.write(tarjeta)
     total += len(tarjeta)
 
-    # La hoja de estilos se mantiene a mano y vive en `web/`. Si se genera en
-    # otra carpeta hay que llevársela, o el HTML sale sin maquetar y Google lo
-    # juzga como no apto para móvil.
-    css_origen = os.path.join(RAIZ, "web", "styles.css")
-    css_destino = os.path.join(args.destino, "styles.css")
-    if os.path.exists(css_origen) and os.path.abspath(css_origen) != os.path.abspath(css_destino):
-        shutil.copy2(css_origen, css_destino)
+    # Los ficheros que se mantienen **a mano** y viven en `web/`: las dos hojas de
+    # estilo, el `live.js` de la portada y la landing de patrocinios. Si se genera
+    # en otra carpeta hay que llevárselos, o el HTML sale sin maquetar (y Google lo
+    # juzga como no apto para móvil), la portada se queda con «Cargando avisos
+    # recientes…» o el enlace a `socios.html` da 404.
+    #
+    # `styles-esports.css` y `live.js` se añadieron a esta lista el 22-09-2026,
+    # **después** de perderlos: la portada del tema Arena estaba escrita a mano en
+    # `web/index.html` y regenerar la pisó. Copiarlos aquí es lo que hace que una
+    # regeneración ya no pueda volver a perderlos.
+    #
+    # `socios.html` se añadió también el 22-09-2026, al meterla en el sitemap: una
+    # URL declarada a Google que no se copia es un 404 anunciado.
+    for nombre in ("styles.css", "styles-esports.css", "live.js", "socios.html"):
+        origen = os.path.join(RAIZ, "web", nombre)
+        destino = os.path.join(args.destino, nombre)
+        if os.path.exists(origen) and os.path.abspath(origen) != os.path.abspath(destino):
+            shutil.copy2(origen, destino)
 
     copiadas, huerfanas = copiar_imagenes(paginas, args.destino)
-    problemas = _duplicados(paginas) + _snippets(paginas)
+    problemas = _duplicados(paginas) + _snippets(paginas) + _regiones_sin_ingles()
 
     indexables = sum(1 for p in paginas if p.indexable)
     faltan = [

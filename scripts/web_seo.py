@@ -198,6 +198,22 @@ class Pagina:
     #: Fuera del sitemap y con `noindex`. Es lo que hay que hacer con el 404:
     #: tiene que existir y devolver 404, pero no ser un resultado de búsqueda.
     indexable: bool = True
+    #: Viste la página con el tema «Arena» (`styles-esports.css`): barra superior
+    #: pegajosa, neón y tipografía de cartel. Solo la portada y la de socios, que
+    #: son las dos que tienen que parecer un producto y no una ficha de datos.
+    #:
+    #: Es un campo y no una regla por nombre de fichero porque el tema se enlaza
+    #: en `cabeza()` y el `class="arena"` del `<body>` se pone en `montar()`: los
+    #: dos sitios tienen que coincidir, y con un campo no se pueden desincronizar.
+    arena: bool = False
+    #: La página tiene zonas que `live.js` rellena (`#teams-strip`, `#feed`). Solo
+    #: la portada las tiene, y es lo que decide si se carga el script: enlazarlo en
+    #: una página sin esos nodos es una petición de red que no pinta nada y que el
+    #: navegador no puede aprovechar. Es un campo aparte de `arena` porque son dos
+    #: cosas distintas: una página puede llevar el tema esports sin datos en vivo
+    #: (la de comandos lo hace) y el día que haya otra con feed no tiene por qué
+    #: ser la misma que lleva el tema.
+    en_vivo: bool = False
 
     @property
     def es_inicio(self) -> bool:
@@ -470,7 +486,7 @@ def migas(sitio: str, camino: list[tuple[str, str]]) -> dict:
     """`BreadcrumbList`. `camino` son pares `(nombre, ruta)`.
 
     Se emite en las páginas internas porque es lo que hace que en el resultado de
-    búsqueda salga "jetadirectabot.com > Ligas > LEC" en vez de la URL cruda, y
+    búsqueda salga "lolprotrackr.com > Ligas > LEC" en vez de la URL cruda, y
     porque le dice al rastreador cómo está organizado el sitio sin depender de que
     interprete el menú.
     """
@@ -523,13 +539,25 @@ def lista_items(nombre: str, elementos: list[tuple[str, str]], *,
 # sitemap.xml y robots.txt
 # ---------------------------------------------------------------------- #
 
-def sitemap(sitio: str, paginas: list[Pagina], fecha: str | None = None) -> str:
+def sitemap(
+    sitio: str,
+    paginas: list[Pagina],
+    fecha: str | None = None,
+    extras: tuple[tuple[str, str], ...] = (),
+) -> str:
     """El `sitemap.xml`, generado desde las páginas que se escriben de verdad.
 
     Recibe la lista de páginas en vez de leer la carpeta de salida a propósito:
     si leyera el disco, un fichero viejo de una ejecución anterior (una página
     que se renombró) seguiría en el sitemap apuntando a un 404, y un sitemap con
     URL muertas es peor que no tenerlo.
+
+    `extras` son las páginas que **no** salen del generador —se mantienen a mano
+    en `web/`— pero sí se despliegan y sí deben ser indexables, como la landing
+    de patrocinios. Van como `(ruta, prioridad)`. Se pasan explícitamente y no se
+    leen del disco porque un sitemap tiene que declarar lo que existe **y** debe
+    indexarse: meter automáticamente todo `.html` de la carpeta colaría un
+    fichero de prueba olvidado.
 
     Las no indexables se excluyen. Meter el 404 en el sitemap es pedirle a Google
     que indexe una página de error.
@@ -550,6 +578,14 @@ def sitemap(sitio: str, paginas: list[Pagina], fecha: str | None = None) -> str:
             f"    <loc>{e(absoluta(sitio, pagina.ruta))}</loc>\n"
             f"    <lastmod>{e(hoy)}</lastmod>\n"
             f"    <priority>{e(pagina.prioridad)}</priority>\n"
+            "  </url>"
+        )
+    for ruta, prioridad in extras:
+        filas.append(
+            "  <url>\n"
+            f"    <loc>{e(absoluta(sitio, ruta))}</loc>\n"
+            f"    <lastmod>{e(hoy)}</lastmod>\n"
+            f"    <priority>{e(prioridad)}</priority>\n"
             "  </url>"
         )
     return (

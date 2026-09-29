@@ -33,13 +33,20 @@ import zlib
 
 ANCHO, ALTO = 1200, 630
 
-#: Los mismos colores que `web/styles.css`. Si la tarjeta no se parece a la web,
-#: quien pulsa el enlace cree que se ha equivocado de sitio.
-FONDO = (0x0F, 0x11, 0x15)
-VERDE = (0x1F, 0x8B, 0x4C)
-VERDE_CLARO = (0x2E, 0xCC, 0x71)
-TEXTO = (0xE6, 0xE9, 0xEF)
-SUAVE = (0x9A, 0xA4, 0xB2)
+#: Los mismos colores que el tema Arena (`web/styles-esports.css`). Si la tarjeta
+#: no se parece a la web, quien pulsa el enlace cree que se ha equivocado de
+#: sitio.
+#:
+#: Estaban en el **verde viejo** (0x1F8B4C, el del `/help` original) mientras la
+#: web ya era cian, y ahora oro. La tarjeta social es lo primero que ve alguien
+#: en Discord antes de entrar, así que es la pieza donde más se nota que los
+#: colores no cuadran.
+FONDO = (0x08, 0x09, 0x0C)
+ORO = (0xE6, 0xC7, 0x6A)
+ORO_CLARO = (0xF7, 0xE8, 0xB8)
+AZUL = (0x16, 0x23, 0x3D)
+TEXTO = (0xF0, 0xF2, 0xF7)
+SUAVE = (0x9A, 0xA3, 0xB5)
 
 
 # ---------------------------------------------------------------------- #
@@ -187,6 +194,34 @@ class Lienzo:
         self.texto((self.ancho - ancho_texto(texto, escala)) // 2, y,
                    texto, escala, color)
 
+    def corona(self, x: int, y: int, escala: int,
+               color: tuple[int, int, int]) -> None:
+        """La corona del logotipo, dibujada como un mapa de bits.
+
+        Va por mapa de bits y no con rectángulos sueltos por la misma razón que
+        la fuente: es una forma pequeña y fija, y tenerla escrita como filas de
+        bits hace que se pueda corregir un píxel mirándola en vez de calculando
+        coordenadas. Nueve de ancho, tres picos y banda, que es lo que se lee a
+        18 píxeles.
+        """
+        for fy, fila in enumerate(CORONA):
+            for fx in range(9):
+                if fila & (1 << (8 - fx)):
+                    self.rect(x + fx * escala, y + fy * escala,
+                              escala, escala, color)
+
+
+#: La corona del logotipo, 9x7, como filas de bits. Se dibuja con `Lienzo.corona`.
+CORONA: tuple[int, ...] = (
+    0b100010001,
+    0b100111001,
+    0b101111101,
+    0b111111111,
+    0b111111111,
+    0b011111110,
+    0b111111111,
+)
+
 
 def tarjeta(nombre: str, ligas: int, lema: str) -> bytes:
     """La imagen social: nombre, lema y el número de ligas medido.
@@ -196,52 +231,70 @@ def tarjeta(nombre: str, ligas: int, lema: str) -> bytes:
     de descripción produce una imagen que parece llena y no dice nada. La
     descripción larga ya va en `og:description`, que es texto de verdad y se
     puede seleccionar.
+
+    El texto va en **inglés**, como la web. Estaba en español («LIGAS · SOLOQ EN
+    VIVO», «GRATIS · DISCORD») de cuando la web era española, y es la pieza que
+    más gente ve antes de entrar: una tarjeta en español bajo un título inglés se
+    lee como un sitio abandonado.
     """
     c = Lienzo(ANCHO, ALTO, FONDO)
 
-    # Barra superior verde: es la marca del bot (0x1F8B4C, el color de /help) y
-    # lo único que hace reconocible la tarjeta de un vistazo en un canal.
-    c.rect(0, 0, ANCHO, 10, VERDE)
+    # Barra superior en oro: es el acento de la marca y lo único que hace
+    # reconocible la tarjeta de un vistazo en un canal.
+    c.rect(0, 0, ANCHO, 10, ORO)
 
     # Un degradado por franjas en la esquina, imitando el radial del `header`.
     # Se hace con 24 rectángulos porque interpolar por píxel sobre 756.000
     # píxeles en Python tarda más que todo el resto del script junto.
     for i in range(24):
-        alfa = (24 - i) / 24 * 0.22
+        # 0,15 y no 0,22: el mismo valor funcionaba con el verde, pero el oro
+        # tiene mucha más luminancia y a 0,22 la franja de arriba se veía marrón
+        # y sucia en vez de un resplandor.
+        alfa = (24 - i) / 24 * 0.15
         color = tuple(
-            round(FONDO[j] + (VERDE[j] - FONDO[j]) * alfa) for j in range(3)
+            round(FONDO[j] + (ORO[j] - FONDO[j]) * alfa) for j in range(3)
         )
         c.rect(0, 10 + i * 7, ANCHO, 7, color)  # type: ignore[arg-type]
 
-    c.centrado(200, nombre, 9, TEXTO)
-    c.centrado(310, lema, 4, VERDE_CLARO)
-    c.centrado(390, f"{ligas} LIGAS · SOLOQ EN VIVO", 4, SUAVE)
-    c.centrado(470, "GRATIS · DISCORD", 3, SUAVE)
+    # La corona centrada encima del nombre, a escala 5: 45 px de ancho. A escala
+    # 4 se perdía entre el titular y el degradado.
+    c.corona((ANCHO - 9 * 5) // 2, 112, 5, ORO)
 
-    c.rect(0, ALTO - 6, ANCHO, 6, VERDE)
+    c.centrado(200, nombre, 9, TEXTO)
+    c.centrado(310, lema, 4, ORO_CLARO)
+    c.centrado(390, f"{ligas} LEAGUES · LIVE SOLOQ", 4, SUAVE)
+    c.centrado(470, "FREE · DISCORD", 3, SUAVE)
+
+    c.rect(0, ALTO - 6, ANCHO, 6, ORO)
     return png(ANCHO, ALTO, c.buf)
 
 
 def favicon(nombre: str) -> str:
-    """El favicon, en SVG.
+    """El favicon, en SVG: la corona del logotipo en oro sobre negro.
 
     SVG y no ICO porque `<link rel="icon" type="image/svg+xml">` lo soportan
     todos los navegadores actuales, escala a cualquier tamaño y son 300 bytes de
     texto que se pueden leer en un diff. Un .ico serían cuatro mapas de bits
     empaquetados en un formato de 1995 que no se puede revisar.
 
-    La letra es la inicial del nombre del bot para que siga funcionando si
-    `BOT_NOMBRE` cambia, que es exactamente lo que `branding` permite hacer.
+    Antes era la **inicial del nombre** en verde. Se cambia a la corona por dos
+    motivos medibles: a 16 píxeles —el tamaño real de una pestaña— una letra
+    suelta se confunde con la de cualquier otro sitio, y la corona es la forma
+    que hace reconocible el logotipo a ese tamaño. El `nombre` sigue en la firma
+    porque lo usa el `aria-label`, que es lo que leen los lectores de pantalla:
+    para eso sí hace falta el nombre, y no se puede deducir del dibujo.
     """
-    inicial = (nombre.strip() or "J")[0].upper()
+    etiqueta = (nombre.strip() or "LoLProTrackr").replace("&", "&amp;").replace(
+        "<", "&lt;"
+    ).replace('"', "&quot;")
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" '
-        'role="img" aria-label="' + inicial + '">\n'
-        '  <rect width="64" height="64" rx="14" fill="#0f1115"/>\n'
+        'role="img" aria-label="' + etiqueta + '">\n'
+        '  <rect width="64" height="64" rx="14" fill="#08090c"/>\n'
         '  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" '
-        'stroke="#1f8b4c" stroke-width="4"/>\n'
-        '  <text x="32" y="45" text-anchor="middle" fill="#2ecc71" '
-        'font-family="system-ui,sans-serif" font-size="38" '
-        'font-weight="700">' + inicial + "</text>\n"
+        'stroke="#e6c76a" stroke-width="3"/>\n'
+        '  <path d="M14 42 L10 20 l12 8 L32 14 l10 14 12-8 -4 22 Z" '
+        'fill="#e6c76a"/>\n'
+        '  <path d="M15 46 h34 v4 H15 Z" fill="#e6c76a"/>\n'
         "</svg>\n"
     )

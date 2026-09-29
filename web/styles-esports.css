@@ -1,25 +1,27 @@
 /* =====================================================================
- * JetaDirectaBot · Tema "Arena" (esports)
+ * LoLProTrackr · Tema "Arena" (esports)
  * ----------------------------------------------------------------
- * Hoja complementaria a styles.css. Se carga DESPUÉS para que sus
- * reglas esports (neón, esquinas cortadas, glow) ganen a las base.
+ * Hoja complementaria a styles.css. Se carga DESPUÉS para que sus reglas
+ * esports (esquinas cortadas, glow, barra superior) ganen a las base.
  *
- * No toca el tema de lectura de las páginas interiores: index.html y
- * socios.html usan esta hoja; ligas.html/avisos.html siguen con la
- * styles.css original para no romper el SEO de contenido.
+ * Qué es esta hoja y qué no
+ * ------------------------
+ * **No define colores.** La paleta —oro sobre negro, con el azul del
+ * logotipo— vive entera en `styles.css`, que es la hoja que carga todo el
+ * sitio. Aquí solo se añade lo que es propio del tema: el ancho de la
+ * portada, la barra superior pegajosa, las esquinas cortadas y los realces.
+ *
+ * Eso se cambió el 22-09-2026 y es la lección del día: cuando las dos hojas
+ * definían colores, cambiar la marca en una dejaba la otra atrás. Pasó con el
+ * verde → cian, y volvió a pasar con el cian → oro: la portada era dorada y
+ * las 24 páginas interiores seguían verdes, porque solo la portada carga esta
+ * hoja. Con la paleta en un solo sitio, eso ya no puede pasar.
  * ===================================================================== */
 
 :root {
-  --neon: #00e5ff;          /* cian eléctrico */
-  --neon-2: #ff2d75;        /* magenta esports */
-  --oro: #ffcf3a;
-  --verde: #1f8b4c;
-  --fondo: #07090f;
-  --fondo-2: #0c1018;
-  --fondo-3: #121826;
-  --borde: #1d2638;
-  --texto: #eaf2ff;
-  --texto-suave: #93a3bd;
+  /* Lo único que se sobrescribe: la portada respira a 1100px y las páginas de
+   * contenido a 960px. Son dos usos distintos —escaparate y lectura—, no una
+   * inconsistencia. */
   --ancho: 1100px;
 }
 
@@ -35,15 +37,20 @@ body.arena {
   overflow-x: hidden;
 }
 
-/* Fondo de rejilla + glow, típico de overlays de esports */
+/* Fondo de rejilla + glow, típico de overlays de esports.
+ *
+ * Los dos focos son **uno cálido y uno frío**, y eso es lo que evita que la
+ * página se vea amarilla: el logo es oro sobre negro pero lleva azul profundo
+ * detrás del monograma, así que el azul no es un color inventado, es el que ya
+ * está en la marca. Dos focos del mismo color dejan el fondo plano. */
 body.arena::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: -2;
   background:
-    radial-gradient(1200px 600px at 15% -10%, rgba(0, 229, 255, 0.16), transparent 60%),
-    radial-gradient(1000px 500px at 100% 0%, rgba(255, 45, 117, 0.14), transparent 55%),
+    radial-gradient(1200px 600px at 15% -10%, rgba(230, 199, 106, 0.13), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgb(var(--azul-rgb) / 0.55), transparent 55%),
     linear-gradient(180deg, var(--fondo) 0%, var(--fondo-2) 100%);
 }
 body.arena::after {
@@ -69,7 +76,7 @@ body.arena::after {
   align-items: center;
   gap: 18px;
   padding: 12px 20px;
-  background: rgba(7, 9, 15, 0.82);
+  background: rgba(8, 9, 12, 0.82);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--borde);
 }
@@ -78,7 +85,7 @@ body.arena::after {
   letter-spacing: 0.04em;
   font-size: 1.05rem;
 }
-.arena .topbar .marca b { color: var(--neon); }
+.arena .topbar .marca b { color: var(--acento); }
 .arena .topbar nav {
   margin-left: auto;
   display: flex;
@@ -86,7 +93,7 @@ body.arena::after {
   font-size: 0.9rem;
 }
 .arena .topbar nav a { color: var(--texto-suave); text-decoration: none; }
-.arena .topbar nav a:hover { color: var(--neon); }
+.arena .topbar nav a:hover { color: var(--acento); }
 
 /* ---------- Hero ---------- */
 .arena .hero {
@@ -99,10 +106,10 @@ body.arena::after {
   align-items: center;
   gap: 8px;
   padding: 5px 14px;
-  border: 1px solid rgba(0, 229, 255, 0.5);
+  border: 1px solid rgba(230, 199, 106, 0.5);
   border-radius: 999px;
-  background: rgba(0, 229, 255, 0.08);
-  color: var(--neon);
+  background: rgba(230, 199, 106, 0.08);
+  color: var(--acento);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -110,14 +117,14 @@ body.arena::after {
 }
 .arena .hero .onair .punto {
   width: 8px; height: 8px; border-radius: 50%;
-  background: var(--neon);
-  box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.7);
+  background: var(--acento);
+  box-shadow: 0 0 0 0 rgba(230, 199, 106, 0.7);
   animation: pulso 1.6s infinite;
 }
 @keyframes pulso {
-  0%   { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.6); }
-  70%  { box-shadow: 0 0 0 12px rgba(0, 229, 255, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0); }
+  0%   { box-shadow: 0 0 0 0 rgba(230, 199, 106, 0.6); }
+  70%  { box-shadow: 0 0 0 12px rgba(230, 199, 106, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(230, 199, 106, 0); }
 }
 .arena .hero h1 {
   margin: 22px 0 10px;
@@ -128,7 +135,7 @@ body.arena::after {
   text-transform: uppercase;
 }
 .arena .hero h1 .grad {
-  background: linear-gradient(90deg, var(--neon), var(--neon-2));
+  background: linear-gradient(90deg, var(--acento), var(--acento-oscuro));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -145,7 +152,7 @@ body.arena::after {
 
 /* Botón esports: esquina cortada + glow */
 .arena .btn {
-  --c: var(--neon);
+  --c: var(--acento);
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -153,21 +160,37 @@ body.arena::after {
   font-weight: 800;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #06121a;
+  color: #14100a;
   background: var(--c);
   clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
-  box-shadow: 0 0 18px rgba(0, 229, 255, 0.35);
+  box-shadow: 0 0 18px rgba(230, 199, 106, 0.35);
 }
-.arena .btn:hover { transform: translateY(-2px); box-shadow: 0 0 28px rgba(0, 229, 255, 0.6); }
+.arena .btn:hover { transform: translateY(-2px); box-shadow: 0 0 28px rgba(230, 199, 106, 0.6); }
 .arena .btn.sec {
   color: var(--texto);
   background: transparent;
   border: 1px solid var(--borde);
   box-shadow: none;
 }
-.arena .btn.sec:hover { border-color: var(--neon); color: var(--neon); }
-.arena .btn.magenta { --c: var(--neon-2); box-shadow: 0 0 18px rgba(255, 45, 117, 0.4); }
+.arena .btn.sec:hover { border-color: var(--acento); color: var(--acento); }
+.arena .btn.bronce { --c: var(--acento-oscuro); box-shadow: 0 0 18px rgba(168, 128, 28, 0.4); }
+
+/* Un botón sin URL configurada no se enseña como si funcionara.
+ *
+ * La hoja base apaga `[data-sin-url]` sobre `.boton`, que es **su** clase; en
+ * Arena los botones son `.btn`, así que sin esta regla el «Add to Discord» de la
+ * portada salía a pleno color y llevaba a `#`. Es peor que no tener el botón: el
+ * clic que más importa de la web no hacía nada y no lo decía.
+ *
+ * `pointer-events: none` además del `opacity` para que no se pueda pulsar, y
+ * `cursor: not-allowed` para que se vea que no es un fallo de carga. */
+.arena .btn[data-sin-url] {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: not-allowed;
+  box-shadow: none;
+}
 
 /* ---------- Stats ---------- */
 .arena .stats {
@@ -186,7 +209,7 @@ body.arena::after {
 .arena .stat .n {
   font-size: 2rem;
   font-weight: 900;
-  color: var(--neon);
+  color: var(--acento);
   font-variant-numeric: tabular-nums;
 }
 .arena .stat .l { color: var(--texto-suave); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; }
@@ -200,7 +223,7 @@ body.arena::after {
   letter-spacing: -0.01em;
 }
 .arena section h2 .res {
-  color: var(--neon);
+  color: var(--acento);
 }
 .arena .sub { color: var(--texto-suave); margin: 0 0 30px; }
 
@@ -219,13 +242,13 @@ body.arena::after {
   clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
-.arena .card:hover { border-color: var(--neon); transform: translateY(-3px); }
+.arena .card:hover { border-color: var(--acento); transform: translateY(-3px); }
 .arena .card .ico {
   width: 42px; height: 42px;
   display: grid; place-items: center;
   border-radius: 10px;
-  background: rgba(0, 229, 255, 0.12);
-  color: var(--neon);
+  background: rgba(230, 199, 106, 0.12);
+  color: var(--acento);
   font-size: 1.3rem;
   margin-bottom: 12px;
 }
@@ -268,14 +291,14 @@ body.arena::after {
 .arena .sponsor-cta {
   margin-top: 40px;
   padding: 40px;
-  border: 1px solid rgba(255, 45, 117, 0.4);
+  border: 1px solid rgba(168, 128, 28, 0.4);
   border-radius: 16px;
   background:
-    radial-gradient(600px 240px at 85% 0%, rgba(255, 45, 117, 0.14), transparent 60%),
+    radial-gradient(600px 240px at 85% 0%, rgba(168, 128, 28, 0.14), transparent 60%),
     var(--fondo-3);
   text-align: center;
 }
-.arena .sponsor-cta h2 { color: var(--neon-2); }
+.arena .sponsor-cta h2 { color: var(--acento-oscuro); }
 
 /* ---------- Footer ---------- */
 .arena footer {
@@ -286,7 +309,7 @@ body.arena::after {
 }
 .arena footer nav { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 14px; }
 .arena footer nav a { color: var(--texto-suave); text-decoration: none; }
-.arena footer nav a:hover { color: var(--neon); }
+.arena footer nav a:hover { color: var(--acento); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 560px) {
@@ -305,11 +328,467 @@ body.arena::after {
   border-radius: 14px;
   background: var(--fondo-3);
 }
-.arena .plan.dest { border-color: var(--neon-2); box-shadow: 0 0 24px rgba(255, 45, 117, 0.18); }
+.arena .plan.dest { border-color: var(--acento-oscuro); box-shadow: 0 0 24px rgba(168, 128, 28, 0.18); }
 .arena .plan .precio { color: var(--oro); font-weight: 800; font-size: 1.5rem; }
 .arena .plan ul { color: var(--texto-suave); padding-left: 18px; font-size: 0.92rem; }
 .arena .plan .tag {
   display: inline-block; margin-bottom: 10px; padding: 3px 10px;
-  border-radius: 999px; background: rgba(255, 45, 117, 0.16);
-  color: var(--neon-2); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+  border-radius: 999px; background: rgba(168, 128, 28, 0.16);
+  color: var(--acento-oscuro); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em;
+}
+
+
+/* =====================================================================
+ * Portada: hero de dos columnas con el aviso, y las piezas que el
+ * generador pinta en el tema Arena (planes, resumen, ligas, feed).
+ *
+ * Lo que cambió el 22-09-2026: el aviso pasó al hero. Un bloque de cifras
+ * con una etiqueta debajo lo pone cualquier página; lo que este producto
+ * tiene y no tiene nadie más es el embed que aparece solo en tu canal.
+ * ===================================================================== */
+
+.arena .hero-fila {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: center;
+  text-align: left;
+}
+
+.arena .hero-texto { min-width: 0; }
+.arena .hero .lema { margin-left: 0; margin-right: 0; max-width: 54ch; }
+.arena .hero .botones { justify-content: flex-start; }
+
+/* La tarjeta del aviso: el embed de Discord, reproducido. */
+.arena .hero-aviso { min-width: 0; }
+
+.arena .aviso {
+  border: 1px solid var(--borde);
+  border-left: 4px solid var(--acento);
+  border-radius: 8px;
+  background: var(--fondo-3);
+  padding: 16px 18px;
+  box-shadow: 0 0 40px rgba(230, 199, 106, 0.08);
+}
+
+.arena .aviso-cab {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.arena .aviso-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  border-radius: 8px;
+  background: var(--fondo);
+  border: 1px solid var(--acento);
+  color: var(--acento);
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.arena .aviso-titulo {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--texto);
+}
+
+.arena .aviso-sub {
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  color: var(--texto-suave);
+}
+
+.arena .aviso-datos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 14px;
+  margin: 0 0 12px;
+  font-size: 0.86rem;
+}
+
+.arena .aviso-datos dt { color: var(--texto-suave); }
+.arena .aviso-datos dd { margin: 0; color: var(--texto); }
+
+.arena .aviso-pie {
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--borde);
+  font-size: 0.82rem;
+  color: var(--texto-suave);
+}
+
+.arena .aviso-nota {
+  margin: 10px 0 0;
+  font-size: 0.76rem;
+  color: var(--texto-suave);
+  text-align: right;
+}
+
+/* El sufijo de la unidad (`30s`, `0€`): pequeño y sin el peso del número. */
+.arena .stat .n .u {
+  font-size: 1rem;
+  color: var(--texto-suave);
+  margin-left: 2px;
+}
+
+.arena .hero .stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin: 52px 0 0;
+  border-top: 1px solid var(--borde);
+  text-align: center;
+}
+
+/* En el hero las cifras son una banda separada por reglas, no cuatro tarjetas:
+ * por eso se deshacen aquí el fondo, el radio y el borde que `.arena .stat`
+ * trae para el uso suelto. Sin este `border: 0` las dos reglas se suman y sale
+ * una caja redondeada con degradado *dentro* de la banda. */
+.arena .hero .stat {
+  padding: 22px 12px 0;
+  border: 0;
+  border-left: 1px solid var(--borde);
+  border-radius: 0;
+  background: none;
+}
+
+.arena .hero .stat:first-child { border-left: 0; }
+
+/* El resumen de tres líneas del principio de la sección. */
+.arena .resumen {
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  background: var(--fondo-2);
+  padding: 18px 22px;
+  margin: 0 0 32px;
+}
+
+.arena .resumen p { margin: 0 0 8px; color: var(--acento); font-weight: 700; }
+.arena .resumen ul { margin: 0; padding-left: 20px; }
+.arena .resumen li { color: var(--texto-suave); margin-bottom: 4px; }
+.arena .resumen b { color: var(--texto); }
+
+/* Las 20 ligas, como fichas. */
+.arena ul.ligas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0 0 20px;
+  list-style: none;
+}
+
+.arena ul.ligas li {
+  padding: 7px 14px;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  background: var(--fondo-3);
+  font-size: 0.88rem;
+  color: var(--texto-suave);
+}
+
+.arena ul.ligas b { color: var(--acento); margin-right: 4px; }
+.arena ul.ligas span { color: var(--texto-suave); opacity: 0.75; }
+
+/* Los planes, dos tarjetas. */
+.arena .planes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.arena .plan {
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: var(--fondo-2);
+  padding: 22px;
+}
+
+.arena .plan.destacado { border-color: var(--acento); }
+
+.arena .plan .etiqueta {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(230, 199, 106, 0.12);
+  color: var(--acento);
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.arena .plan .precio {
+  margin: 0 0 14px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--texto);
+}
+
+.arena .plan ul { margin: 0; padding-left: 20px; }
+.arena .plan li { color: var(--texto-suave); font-size: 0.92rem; margin-bottom: 4px; }
+
+/* El feed de avisos recientes reusa `.card`, pero aquí va en rejilla. */
+.arena .feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+/* El mensaje de «todavía no hay avisos» ocupa la fila entera. Sin esto se queda
+ * en la primera columna de la rejilla —una caja estrecha de 260px pegada a la
+ * izquierda de una sección de 1100px—, que parece un aviso roto en vez de una
+ * sección vacía a propósito. */
+.arena .feed > .vacio { grid-column: 1 / -1; }
+
+/* Foco visible: sin esto, navegar con teclado por una web oscura es adivinar
+ * dónde estás. El `outline` por defecto se pierde sobre el neón. */
+.arena a:focus-visible,
+.arena button:focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (max-width: 860px) {
+  .arena .hero-fila { grid-template-columns: 1fr; gap: 32px; }
+  .arena .hero .lema { max-width: none; }
+  .arena .hero .stats { grid-template-columns: repeat(2, 1fr); }
+  .arena .hero .stat:nth-child(3) { border-left: 0; }
+  .arena .hero .stat:nth-child(n + 3) { border-top: 1px solid var(--borde); }
+}
+
+/* El único momento orquestado de la página: el aviso entra como si acabara de
+ * llegar, que es exactamente lo que hace en Discord. Se apaga entero para quien
+ * pide no moverse. */
+@media (prefers-reduced-motion: no-preference) {
+  .arena .aviso {
+    animation: llega-aviso 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+  }
+  .arena .onair .punto { animation: pulso 1.8s ease-in-out infinite; }
+}
+
+@keyframes llega-aviso {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+
+/* =====================================================================
+ * Piezas del generador, en clave Arena
+ * ---------------------------------------------------------------------
+ * El generador emite nombres de clase de la hoja base (`.tarjeta`, `.cmd`,
+ * `.nota-caja`…). En vez de duplicar el HTML con dos juegos de clases —que es
+ * como se acaba con dos plantillas que se separan—, se reescribe aquí **solo lo
+ * que cambia de aspecto**: la esquina cortada, el neón y el hover. Todo lo demás
+ * (rejillas, tamaños, espaciados) sigue viniendo de `styles.css`.
+ *
+ * Regla que se respeta en todo el bloque: si una propiedad no aporta nada nuevo,
+ * no se repite. Un override que solo reescribe el mismo valor es una línea que
+ * hay que mantener cuando el original cambie.
+ * ===================================================================== */
+
+/* ---------- Tarjetas de la portada (`.tarjeta`) ---------- */
+.arena .tarjeta {
+  position: relative;
+  padding: 22px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: var(--fondo-3);
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.arena .tarjeta:hover { border-color: var(--acento); transform: translateY(-3px); }
+.arena .tarjeta h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.arena .tarjeta h3 a { color: var(--texto); text-decoration: none; }
+.arena .tarjeta h3 a:hover { color: var(--acento); }
+.arena .tarjeta p { margin: 0; color: var(--texto-suave); font-size: 0.95rem; }
+.arena .tarjeta code {
+  padding: 1px 6px;
+  border-radius: 5px;
+  background: rgba(230, 199, 106, 0.1);
+  color: var(--acento);
+  font-size: 0.9em;
+}
+
+/* El feed de `live.js`: la tarjeta del aviso, pero compacta. */
+.arena .feed .card .quien-equipo { color: var(--texto-suave); font-weight: 500; }
+.arena .feed .card .cuando { margin: 10px 0 0; color: var(--texto-suave); font-size: 0.78rem; }
+.arena .feed .card .ico { font-size: 1.15rem; }
+
+/* ---------- Página de comandos (`commands.html`) ---------- */
+
+/* La cabecera de las páginas interiores ya la pinta `styles.css` con el
+ * degradado dorado de la marca, así que aquí **no se repite**: cuando las dos
+ * hojas definían colores, esta regla existía para tapar el degradado verde de la
+ * base y había que mantenerla en sincronía con la paleta. Con la paleta en un
+ * solo sitio, lo único que queda propio de Arena es la tipografía de cartel. */
+.arena header.principal h1 {
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+}
+
+/* La caja donde se teclean los ejemplos: es la pieza que enseña el producto en
+ * movimiento, así que lleva el mismo glow que el aviso del hero. */
+.arena .demo-slash {
+  background: var(--fondo-3);
+  border-color: var(--borde);
+  box-shadow: 0 0 44px rgba(230, 199, 106, 0.12);
+}
+.arena .demo-uso,
+.arena .demo-cursor { color: var(--acento); }
+.arena .demo-cursor { background: var(--acento); }
+
+.arena .cmd {
+  border-color: var(--borde);
+  background: var(--fondo-3);
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+}
+.arena .cmd:hover { border-color: var(--acento); }
+.arena .cmd-nombre code { color: var(--acento); }
+.arena .cmd-args code { color: var(--oro); }
+.arena .cmd-ejemplo code { color: var(--texto); }
+.arena .tabla-combinaciones code { color: var(--acento); }
+.arena .nota-caja {
+  border-color: var(--borde);
+  background: var(--fondo-3);
+}
+.arena .nota-caja h3 { color: var(--acento); }
+
+/* ---------- Entrada al hacer scroll ----------
+ * `animation-timeline: view()` deja que el navegador ate la animación a la
+ * posición del bloque en la ventana: no hay `IntersectionObserver`, no hay JS y
+ * no hay salto al cargar, porque la animación empieza donde el bloque esté.
+ * Va dentro de `@supports` porque es lo que decide si el efecto existe; donde no
+ * esté, las tarjetas simplemente se ven, que es el estado correcto. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .arena .grid > .tarjeta,
+    .arena .rejilla-comandos > .cmd {
+      animation: sube-al-ver 1ms linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 34%;
+    }
+  }
+}
+
+@keyframes sube-al-ver {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* La tabla de combinaciones es la pieza más ancha del sitio; en un móvil, sin
+ * esto, arrastra la página entera y aparece el scroll horizontal. */
+@media (max-width: 620px) {
+  .arena .tabla-combinaciones {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+/* =====================================================================
+ * Marca: la corona del logotipo
+ * ===================================================================== */
+
+.arena .topbar .marca {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* El hueco va **solo en la corona**, no con `gap` en el contenedor.
+ *
+ * Con `gap`, el navegador convierte cada trozo de texto suelto en un elemento
+ * flex anónimo, así que `LoL`, `Pro` y `Trackr` —que en el HTML son texto, un
+ * `<b>` y más texto— se separaban entre sí y la marca salía como «LoL Pro
+ * Trackr». Es el fallo clásico de usar flex para alinear una línea de texto con
+ * un icono: el texto no es una unidad, son tres. */
+.arena .topbar .marca .corona {
+  width: 20px;
+  height: 15px;
+  flex: 0 0 auto;
+  margin-right: 9px;
+  color: var(--oro);
+  filter: drop-shadow(0 0 6px rgba(230, 199, 106, 0.45));
+}
+
+/* La mitad de la marca en oro. Es el logotipo, no texto traducible. */
+.arena .topbar .marca b {
+  color: var(--oro);
+  background: linear-gradient(135deg, var(--acento-claro), var(--acento) 55%, var(--acento-oscuro));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =====================================================================
+ * Sección de apoyo: por qué hay límites y cómo se suben
+ * ---------------------------------------------------------------------
+ * Tiene que **destacar**, y por eso no se pinta como una sección más: lleva
+ * fondo propio, los dos bordes marcados y un foco de luz dorada arriba a la
+ * izquierda. Es la única sección de la portada que pide algo al visitante, y
+ * una petición enterrada entre otras cinco no se lee.
+ * ===================================================================== */
+
+.arena .apoyo {
+  position: relative;
+  border-top: 1px solid var(--borde);
+  border-bottom: 1px solid var(--borde);
+  background:
+    radial-gradient(760px 340px at 10% 0%, rgba(230, 199, 106, 0.11), transparent 65%),
+    radial-gradient(620px 300px at 95% 10%, rgb(var(--azul-rgb) / 0.7), transparent 60%),
+    var(--fondo-2);
+}
+
+.arena .apoyo h2 .res { color: var(--oro); }
+
+/* Ancho de lectura: por encima de ~75 caracteres el ojo pierde el renglón, y
+ * este es el único texto largo de la página que se pide leer entero. */
+.arena .apoyo-texto { max-width: 74ch; margin: 0 0 34px; }
+.arena .apoyo-texto p { margin: 0 0 14px; color: var(--texto-suave); font-size: 1.04rem; }
+.arena .apoyo-texto b { color: var(--oro); }
+
+/* Las cuatro tarjetas de acciones reusan `.tarjeta`; lo único propio es el
+ * icono, que en las tarjetas de funciones va dentro de `.card`. */
+.arena .tarjeta .ico {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: rgba(230, 199, 106, 0.12);
+  color: var(--oro);
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.arena .apoyo-cierre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: 34px;
+  padding-top: 26px;
+  border-top: 1px solid var(--borde);
+}
+
+.arena .apoyo-gracias {
+  margin: 0;
+  color: var(--texto-suave);
+  font-style: italic;
+}
+
+@media (max-width: 620px) {
+  .arena .apoyo-cierre { flex-direction: column; align-items: stretch; }
 }

@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="J">
-  <rect width="64" height="64" rx="14" fill="#0f1115"/>
-  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#1f8b4c" stroke-width="4"/>
-  <text x="32" y="45" text-anchor="middle" fill="#2ecc71" font-family="system-ui,sans-serif" font-size="38" font-weight="700">J</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LoLProTrackr">
+  <rect width="64" height="64" rx="14" fill="#08090c"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#e6c76a" stroke-width="3"/>
+  <path d="M14 42 L10 20 l12 8 L32 14 l10 14 12-8 -4 22 Z" fill="#e6c76a"/>
+  <path d="M15 46 h34 v4 H15 Z" fill="#e6c76a"/>
 </svg>

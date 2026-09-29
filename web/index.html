@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>JetaDirectaBot · avisos de SoloQ de jugadores pro en Discord</title>
-  <meta name="description" content="JetaDirectaBot avisa en tu servidor de Discord cuando un jugador profesional de League of Legends entra en SoloQ. 20 ligas, español e inglés, gratis. Datos en vivo de 919 pros.">
+  <title>LoLProTrackr · SoloQ alerts for pro players on Discord</title>
+  <meta name="description" content="LoLProTrackr alerts your Discord server when a professional League of Legends player queues up for SoloQ. 20 leagues, English and Spanish, free.">
   <link rel="canonical" href="https://set4jeta.github.io/JetaDirectaBot/">
-  <meta property="og:title" content="JetaDirectaBot · avisos de SoloQ de jugadores pro en Discord">
-  <meta property="og:description" content="JetaDirectaBot avisa en tu servidor de Discord cuando un jugador profesional de League of Legends entra en SoloQ. 20 ligas, español e inglés, gratis.">
+  <meta property="og:title" content="LoLProTrackr · SoloQ alerts for pro players on Discord">
+  <meta property="og:description" content="LoLProTrackr alerts your Discord server when a professional League of Legends player queues up for SoloQ. 20 leagues, English and Spanish, free.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://set4jeta.github.io/JetaDirectaBot/">
   <meta property="og:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="JetaDirectaBot · avisos de SoloQ de jugadores pro en Discord">
-  <meta name="twitter:description" content="JetaDirectaBot avisa en tu servidor de Discord cuando un jugador profesional de League of Legends entra en SoloQ. 20 ligas, español e inglés, gratis.">
+  <meta name="twitter:title" content="LoLProTrackr · SoloQ alerts for pro players on Discord">
+  <meta name="twitter:description" content="LoLProTrackr alerts your Discord server when a professional League of Legends player queues up for SoloQ. 20 leagues, English and Spanish, free.">
   <meta name="twitter:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles-esports.css">
@@ -26,7 +26,7 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion",
-    "name": "JetaDirectaBot",
+    "name": "LoLProTrackr",
     "url": "https://set4jeta.github.io/JetaDirectaBot/",
     "logo": "https://set4jeta.github.io/JetaDirectaBot/og.png"
   }
@@ -36,25 +36,38 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": "https://set4jeta.github.io/JetaDirectaBot/#web",
-    "name": "JetaDirectaBot",
+    "name": "LoLProTrackr",
     "url": "https://set4jeta.github.io/JetaDirectaBot/",
-    "description": "JetaDirectaBot avisa en tu servidor de Discord cuando un jugador profesional de League of Legends entra en SoloQ. 20 ligas, español e inglés, gratis.",
-    "inLanguage": "es-ES",
-    "publisher": { "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion" }
+    "description": "LoLProTrackr alerts your Discord server when a professional League of Legends player queues up for SoloQ. 20 leagues, English and Spanish, free.",
+    "inLanguage": "en-US",
+    "publisher": {
+      "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion"
+    }
   }
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "JetaDirectaBot",
+    "name": "LoLProTrackr",
     "applicationCategory": "GameApplication",
     "operatingSystem": "Discord",
     "url": "https://set4jeta.github.io/JetaDirectaBot/",
-    "description": "JetaDirectaBot avisa en tu servidor de Discord cuando un jugador profesional de League of Legends entra en SoloQ. 20 ligas, español e inglés, gratis.",
-    "inLanguage": ["es", "en"],
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "description": "Plan gratuito con avisos de partida completos." },
-    "publisher": { "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion" }
+    "description": "LoLProTrackr alerts your Discord server when a professional League of Legends player queues up for SoloQ. 20 leagues, English and Spanish, free.",
+    "inLanguage": [
+      "es",
+      "en"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "description": "Plan gratuito con avisos de partida completos."
+    },
+    "publisher": {
+      "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion"
+    },
+    "installUrl": "https://discord.com/oauth2/authorize?client_id=1387239192198910073\u0026scope=bot+applications.commands\u0026permissions=52224"
   }
   </script>
   <script type="application/ld+json">
@@ -62,159 +75,322 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "¿Qué hace JetaDirectaBot?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Avisa en tu canal de Discord cuando un jugador profesional de League of Legends entra en cola clasificatoria individual. El aviso lleva el campeón, el rol, el Elo, el equipo y los diez participantes de la partida, y llega sin que nadie escriba ningún comando." } },
-      { "@type": "Question", "name": "¿Es gratis?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Sí. El aviso de partida completo está en el plan gratuito: 1 liga, 1 canal de avisos y 3 jugadores propios. Los planes de pago solo amplían cupos, nunca desbloquean la función principal, porque la política de Riot Games exige que exista un nivel gratuito." } },
-      { "@type": "Question", "name": "¿Qué ligas sigue?",
-        "acceptedAnswer": { "@type": "Answer", "text": "20 ligas profesionales, de la LEC y la LCK a la LFL o la NLC. De esas, 19 permiten detectar la partida en vivo; la LPL solo da rangos porque los servidores chinos no están en la API de Riot." } },
-      { "@type": "Question", "name": "¿Necesita permisos para leer mis mensajes?",
-        "acceptedAnswer": { "@type": "Answer", "text": "No para funcionar con comandos de barra. El bot no guarda mensajes: tiene el permiso de contenido porque los comandos con prefijo siguen existiendo y Discord lo exige para leerlos, pero se procesan en memoria y se descartan." } },
-      { "@type": "Question", "name": "¿Funciona sin tener un servidor propio?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Sí. Se puede añadir a tu cuenta en vez de a un servidor y los avisos llegan a tu chat privado, con /seguir para elegir un jugador concreto o una liga entera." } }
+      {
+        "@type": "Question",
+        "name": "What does LoLProTrackr do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It posts an alert to your Discord channel when a professional League of Legends player queues up for solo queue. The alert carries the champion, the role, the rank, the team and all ten participants of the game, and it arrives without anyone typing a single command."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The full game alert is in the free plan: 1 league, 1 alert channel and 3 custom players. Paid plans only raise those limits, they never unlock the main feature, because Riot Games' policy requires a free tier to exist."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which leagues does it cover?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "20 professional leagues, from the LEC and the LCK to the LFL or the NLC. Of those, 19 allow live game detection; the LPL only provides ranks, because the Chinese servers are not in Riot's API."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it need permission to read my messages?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not to work with slash commands. The bot does not store messages: it holds the message content permission because prefix commands still exist and Discord requires it to read them, but they are processed in memory and discarded."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it work without my own server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. It can be added to your account instead of to a server and the alerts arrive in your private chat, with /seguir to choose a specific player or an entire league."
+        }
+      }
     ]
   }
   </script>
 </head>
 <body class="arena">
-
   <div class="topbar">
-    <span class="marca">JETA<b>DIRECTA</b></span>
+    <span class="marca"><svg class="corona" viewBox="0 0 24 18" aria-hidden="true" focusable="false"><path d="M2 13.6 L0.6 4.2 l5.6 4.1 L12 1.6 l5.8 6.7 L23.4 4.2 L22 13.6 Z" fill="currentColor"/><path d="M2.4 15.2 h19.2 v2.2 H2.4 Z" fill="currentColor"/></svg>LoL<b>Pro</b>Trackr</span>
     <nav>
-      <a href="index.html">Inicio</a>
-      <a href="ligas.html">Ligas</a>
-      <a href="avisos.html">Avisos</a>
-      <a href="socios.html">Socios</a>
-      <a href="alternativas-bots-lol-discord.html">Comparativa</a>
-      <a href="legal.html">Legal</a>
+      <a href="index.html">Home</a>
+      <a href="ligas.html">Leagues</a>
+      <a href="upcoming-lol-matches.html">Upcoming matches</a>
+      <a href="avisos.html">How alerts look</a>
+      <a href="commands.html">Commands</a>
+      <a href="alternativas-bots-lol-discord.html">Comparison</a>
+      <a href="legal.html">Terms &amp; privacy</a>
     </nav>
   </div>
-
   <header class="hero">
-    <div class="envoltura">
-      <span class="onair"><span class="punto"></span> En vivo · 20 ligas</span>
-      <h1>CUANDO UN <span class="grad">PRO</span> ENTRA<br>EN SOLOQ, TE ENTERAS</h1>
-      <p class="lema">Campeón, rol, Elo y equipo en el momento en que empieza la partida. El bot de Discord que vigila a 919 jugadores profesionales de League of Legends — y la base de datos que alimenta alianzas, contenido y tráfico SEO.</p>
-      <div class="botones">
-        <a class="btn" href="#" data-sin-url>⚡ Añadir a Discord</a>
-        <a class="btn sec" href="socios.html">🤝 Soy una marca</a>
-        <a class="btn sec" href="ligas.html">Ver las 20 ligas</a>
+    <div class="envoltura hero-fila">
+      <div class="hero-texto">
+        <span class="onair"><span class="punto"></span>Live · 20 leagues</span>
+        <h1>When a <span class="grad">pro</span> queues up,
+        your server knows</h1>
+        <p class="lema">Champion, role, rank and team the moment the game starts. The Discord bot watching <b>919 professional League of Legends players</b> — and you don't type a single command.</p>
+        <div class="botones">
+          <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1387239192198910073&amp;scope=bot+applications.commands&amp;permissions=52224">⚡ Add to Discord</a>
+          <a class="btn sec" href="commands.html">See the commands</a>
+          <a class="btn sec" href="https://ko-fi.com/lolprotrackr">Support the project</a>
+        </div>
+      </div>
+      <div class="hero-aviso">
+        <article class="aviso">
+          <div class="aviso-cab">
+            <span class="aviso-badge">FNC</span>
+            <div>
+              <p class="aviso-titulo">Vladi is in a SoloQ game</p>
+              <p class="aviso-sub">Mid · Fnatic · EUW</p>
+            </div>
+          </div>
+          <dl class="aviso-datos">
+            <dt>Queue</dt><dd>Ranked Solo/Duo</dd>
+            <dt>Champion</dt><dd>Ahri</dd>
+            <dt>Rank</dt><dd>Challenger I · 1204 LP</dd>
+            <dt>Spectate</dt><dd>in 2 min</dd>
+          </dl>
+          <p class="aviso-pie">All ten participants with their ranks, a <code>.bat</code> to spectate from the client, and a note on when spectator mode opens.</p>
+        </article>
+        <p class="aviso-nota">Example alert — the player is real, the game is not.</p>
       </div>
 
+    </div>
+    <div class="envoltura">
       <div class="stats">
-        <div class="stat"><div class="n" data-count="20">20</div><div class="l">Ligas</div></div>
-        <div class="stat"><div class="n" data-count="919">919</div><div class="l">Pros seguidos</div></div>
-        <div class="stat"><div class="n" data-count="30">30<span style="font-size:1rem">s</span></div><div class="l">Retardo máx.</div></div>
-        <div class="stat"><div class="n">0<span style="font-size:1rem">€</span></div><div class="l">Siempre gratis</div></div>
+        <div class="stat"><div class="n" data-count="20">20</div><div class="l">Leagues</div></div>
+        <div class="stat"><div class="n" data-count="919">919</div><div class="l">Pros tracked</div></div>
+        <div class="stat"><div class="n" data-count="30">30<span class="u">s</span></div><div class="l">Max delay</div></div>
+        <div class="stat"><div class="n">0<span class="u">€</span></div><div class="l">Free, always</div></div>
       </div>
     </div>
   </header>
 
   <section id="funciones">
     <div class="envoltura">
-      <h2>QUÉ <span class="res">HACE</span></h2>
-      <p class="sub">Todo lo de esta lista funciona en el plan gratuito. La lógica de notificación ya está montada y corriendo.</p>
-      <div class="grid">
-        <article class="card">
-          <div class="ico">🔔</div>
-          <h3>Avisa cuando un pro entra en SoloQ</h3>
-          <p>Sin escribir nada. El bot vigila las cuentas de los jugadores de las ligas que elijas y publica en tu canal el aviso con campeón, rol, Elo y el equipo al que pertenece, en cuanto empieza la partida.</p>
-        </article>
-        <article class="card">
-          <div class="ico">🎮</div>
-          <h3><code>/live</code> · <code>/match</code> · <code>/info</code></h3>
-          <p>Quién está jugando ahora mismo, la partida de un jugador concreto con los diez participantes y sus rangos, o la ficha de un jugador con todas sus cuentas.</p>
-        </article>
-        <article class="card">
-          <div class="ico">📊</div>
-          <h3><code>/ranking</code> · <code>/historial</code> · <code>/team</code></h3>
-          <p>Tabla de SoloQ de una liga entera, las últimas partidas trackeadas y la plantilla de un equipo con el Elo de cada jugador.</p>
-        </article>
-        <article class="card">
-          <div class="ico">🏆</div>
-          <h3><code>/partida</code> · <code>/next</code></h3>
-          <p>Partidos oficiales en vivo y el horario de los siguientes, de todas las ligas, no solo de las que sigas en SoloQ.</p>
-        </article>
-        <article class="card">
-          <div class="ico">🌍</div>
-          <h3>Español e inglés</h3>
-          <p><code>/lang en</code> y todo el bot cambia de idioma en ese servidor: comandos, avisos, errores y ayuda.</p>
-        </article>
-        <article class="card">
-          <div class="ico">🩺</div>
-          <h3><code>/health</code></h3>
-          <p>Si algo se ve desfasado, este comando dice qué fuente de datos falla y cuándo se actualizó por última vez. Sin abrir un ticket.</p>
-        </article>
-      </div>
+      <h2>What <span class="res">it does</span></h2>
+      <p class="sub">Everything here works on the free plan. The alert is the point; the commands are for looking things up in between.</p>
+    <div class="resumen">
+      <p><strong>In short</strong></p>
+      <ul>
+      <li>Alerts your Discord server <b>when a pro queues up for SoloQ</b>, with champion, role, rank and team. No commands to type.</li>
+      <li><b>20 leagues</b> and about <b>919 professional players</b> tracked; 19 leagues allow live game detection.</li>
+      <li>The full alert is <b>free</b> and always will be: the plans only raise the limits.</li>
+      </ul>
+    </div>
 
+      <div class="grid">
+      <article class="tarjeta">
+        <h3>🔔 Alerts you when a pro queues up for SoloQ</h3>
+        <p>Without typing a thing. The bot watches the accounts of the players in the leagues you pick and posts the alert to your channel with champion, role, rank and the team they play for, as soon as the game starts.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>🎮 <code>/live</code> · <code>/match</code> · <code>/info</code></h3>
+        <p>Who is playing right now, a specific player's game with all ten participants and their ranks, or a player's profile with every account they use.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>📊 <code>/ranking</code> · <code>/history</code> · <code>/team</code></h3>
+        <p>The SoloQ ladder of an entire league, the latest tracked games, and a team's roster with the rank of every player on it.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>🏆 <code>/esports</code> · <code>/schedule</code></h3>
+        <p>Live official matches and the schedule of the next ones, across every league, not only the ones you follow in SoloQ.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>🌍 English and Spanish</h3>
+        <p><code>/language en</code> switches the whole bot to that language on that server: commands, alerts, errors and help.</p>
+      </article>
+      <article class="tarjeta">
+        <h3>🩺 <code>/health</code></h3>
+        <p>If anything looks stale, this command says which data source is failing and when it last updated. No need to open a ticket.</p>
+      </article>
+      </div>
       <div class="teams" id="teams-strip"><!-- logos inyectados por live.js --></div>
     </div>
   </section>
 
   <section id="live">
     <div class="envoltura">
-      <h2>PARTIDAS <span class="res">RECIENTES</span></h2>
-      <p class="sub">Lo último que el bot ha detectado en tiempo real. Se carga desde el registro de avisos del propio bot.</p>
+      <h2>Recent <span class="res">alerts</span></h2>
+      <p class="sub">What the bot has actually detected, straight from its own alert log.</p>
       <div class="feed" id="feed">
-        <div class="vacio">Cargando avisos recientes…</div>
+        <div class="vacio">Loading recent alerts…</div>
       </div>
     </div>
   </section>
 
   <section id="ligas">
     <div class="envoltura">
-      <h2>20 <span class="res">LIGAS</span></h2>
-      <p class="sub">Cada servidor elige las que quiere seguir con <code>/ligas</code>, hasta 4 a la vez. Cada liga tiene <a href="ligas.html" style="color:var(--neon)">su propia página</a> con sus jugadores, su Elo y sus equipos.</p>
-      <ul class="ligas" style="display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none">
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">lec</b> LEC</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">lck</b> LCK</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">lcs</b> LCS</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">cblol</b> CBLOL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">lcp</b> LCP</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">msi</b> MSI</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">lpl</b> LPL <span style="color:var(--texto-suave)">· solo Elo</span></li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">lfl</b> LFL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">nlc</b> NLC</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">prm</b> Prime</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">hll</b> HLL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">les</b> LES</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">lit</b> LIT</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">rl</b> RL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">rol</b> RoL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">hm</b> HM</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">ebl</b> EBL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">tcl</b> TCL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">al</b> AL</li>
-        <li style="padding:6px 12px;border:1px solid var(--borde);border-radius:999px;background:var(--fondo-3)"><b style="color:var(--neon)">cd</b> CD</li>
+      <h2>20 <span class="res">leagues</span></h2>
+      <p class="sub">Each server picks the ones it follows with <code>/leagues</code>, up to 4 at a time — <a href="#apoyo">why that number and not more</a>. Every league has <a href="ligas.html">its own page</a> with its players, their ranks and its teams.</p>
+      <ul class="ligas">
+      <li><b>lec</b> LEC <span>Europe</span></li>
+      <li><b>lck</b> LCK <span>Korea</span></li>
+      <li><b>lcs</b> LCS <span>North America</span></li>
+      <li><b>cblol</b> CBLOL <span>Brazil</span></li>
+      <li><b>lcp</b> LCP <span>Asia-Pacific</span></li>
+      <li><b>msi</b> MSI <span>International</span></li>
+      <li><b>lpl</b> LPL <span>China</span> <span title="ranks only, no live game tracking">·&nbsp;Elo only</span></li>
+      <li><b>lfl</b> LFL <span>France</span></li>
+      <li><b>nlc</b> NLC <span>Northern Europe</span></li>
+      <li><b>prm</b> Prime League <span>Germany</span></li>
+      <li><b>hll</b> HLL <span>Greece</span></li>
+      <li><b>les</b> LES <span>Spain</span></li>
+      <li><b>lit</b> LIT <span>Italy</span></li>
+      <li><b>rl</b> Rift Legends <span>Poland</span></li>
+      <li><b>rol</b> Road of Legends <span>Benelux</span></li>
+      <li><b>hm</b> Hitpoint Masters <span>Czechia and Slovakia</span></li>
+      <li><b>ebl</b> EBL <span>Balkans</span></li>
+      <li><b>tcl</b> TCL <span>Türkiye</span></li>
+      <li><b>al</b> Arabian League <span>Middle East</span></li>
+      <li><b>cd</b> Circuito Desafiante <span>Brazil</span></li>
       </ul>
+      <p class="nota">Of the 20, 19 allow live game detection. The LPL only provides ranks and standings: China plays on servers that Riot's API does not expose, and promising live alerts for games that cannot be seen would be a lie.</p>
     </div>
   </section>
 
-  <section class="sponsor-cta" id="socios">
+  <section id="apoyo" class="apoyo">
     <div class="envoltura">
-      <h2>¿MARCAS Y PATROCINADORES?</h2>
-      <p class="sub">Tenemos la audiencia, los datos en vivo y la infraestructura de notificación. Tú tienes el producto. Hablemos de una integración que convierta cada partida detectada en tráfico cualificado.</p>
-      <div class="botones" style="justify-content:center">
-        <a class="btn magenta" href="socios.html">Ver propuesta para socios</a>
-        <a class="btn sec" href="avisos.html">Cómo es el aviso</a>
+      <h2>Why the free plan <span class="res">has limits</span></h2>
+      <p class="sub">It is not our call.</p>
+      <div class="apoyo-texto">
+        <p>Riot Games gives every third-party app <b>500 requests every 10 seconds</b>. That is the whole budget, and out of it the bot can follow <b>4 leagues at a time per server</b>. It is a physical ceiling, not a paywall: the game alert —the part that matters— is free and always will be.</p>
+        <p>The other half is the interesting one. <b>The more servers use the bot, the bigger the community we can show Riot</b> when we ask for a larger quota, and a larger quota means higher limits for everyone — the free plan included. So this is not really about paying. It is about growing.</p>
+      </div>
+      <div class="grid">
+      <article class="tarjeta">
+        <div class="ico">🔗</div>
+        <h3>Share it</h3>
+        <p>It costs nothing and it is what actually raises the limits. Every server that adds the bot is one more number in the request we take to Riot.</p>
+      </article>
+      <article class="tarjeta">
+        <div class="ico">➕</div>
+        <h3>Add it to your server</h3>
+        <p>Even if you only look at the alerts now and then. A server with the bot in it counts, whether or not anyone types a command.</p>
+      </article>
+      <article class="tarjeta">
+        <div class="ico">💬</div>
+        <h3>Tell someone who plays</h3>
+        <p>Esports followers are the audience: the people who want to know when their favourite mid laner is on.</p>
+      </article>
+      <article class="tarjeta">
+        <div class="ico">💛</div>
+        <h3>Support on Ko-fi</h3>
+        <p>If you would rather put money in. It pays for the server the bot runs on and speeds the whole thing up.</p>
+      </article>
+      </div>
+      <div class="apoyo-cierre">
+        <p class="apoyo-gracias">Thank you, genuinely: this is run by one person.</p>
+        <div class="botones">
+          <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1387239192198910073&amp;scope=bot+applications.commands&amp;permissions=52224">⚡ Add to Discord</a>
+          <a class="btn bronce" href="https://ko-fi.com/lolprotrackr">💛 Support on Ko-fi</a>
+        </div>
       </div>
     </div>
   </section>
 
+  <section id="mas">
+    <div class="envoltura">
+      <h2>Before you <span class="res">install it</span></h2>
+      <div class="grid">
+      <article class="tarjeta">
+        <h3><a href="ligas.html">All 20 leagues, one by one</a></h3>
+        <p>How many players and teams each league has, and what is published about each one.</p>
+      </article>
+      <article class="tarjeta">
+        <h3><a href="avisos.html">What the alert looks like</a></h3>
+        <p>The exact message that shows up in Discord, how long it takes and why the in-game clock runs behind.</p>
+      </article>
+      <article class="tarjeta">
+        <h3><a href="alternativas-bots-lol-discord.html">Compared with the other bots</a></h3>
+        <p>What each League of Legends Discord bot alerts on, with the data read from their official websites.</p>
+      </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="planes">
+    <div class="envoltura">
+      <h2>Two <span class="res">plans</span></h2>
+      <p class="sub">The alert is free and always will be. What you pay for is volume: more leagues at once, more channels and more history.</p>
+      <div class="planes">
+      <article class="plan destacado">
+        <span class="etiqueta">Always free</span>
+        <h3>Free</h3>
+        <p class="precio">0 €</p>
+        <ul>
+          <li>1 league at a time</li>
+          <li>1 alert channel</li>
+          <li>3 custom players</li>
+          <li>10 matches of history</li>
+        </ul>
+      </article>
+      <article class="plan">
+        <h3>Pro</h3>
+        <p class="precio">5,00 € / month</p>
+        <ul>
+          <li>4 leagues at a time</li>
+          <li>10 alert channels</li>
+          <li>100 custom players</li>
+          <li>50 matches of history</li>
+        </ul>
+      </article>
+      </div>
+      <p class="nota">There is no automatic payment yet. If you want to support the project, plans are activated by hand from the donation link; until a payment processor exists, nobody can pay and get nothing in return.</p>
+    </div>
+  </section>
+
+  <section class="sponsor-cta" id="marcas">
+    <div class="envoltura">
+      <h2>Brands and <span class="res">sponsors</span></h2>
+      <p class="sub">The moment a pro queues up is the moment people look. That is a qualified audience at a known time, and it is what this site can put a brand in front of.</p>
+      <div class="botones">
+        <a class="btn bronce" href="socios.html">Partnership proposal</a>
+        <a class="btn sec" href="avisos.html">How an alert looks</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="envoltura">
+      <h2>Frequently asked <span class="res">questions</span></h2>
+      <h3>What does LoLProTrackr do?</h3>
+      <p>It posts an alert to your Discord channel when a professional League of Legends player queues up for solo queue. The alert carries the champion, the role, the rank, the team and all ten participants of the game, and it arrives without anyone typing a single command.</p>
+      <h3>Is it free?</h3>
+      <p>Yes. The full game alert is in the free plan: 1 league, 1 alert channel and 3 custom players. Paid plans only raise those limits, they never unlock the main feature, because Riot Games&#x27; policy requires a free tier to exist.</p>
+      <h3>Which leagues does it cover?</h3>
+      <p>20 professional leagues, from the LEC and the LCK to the LFL or the NLC. Of those, 19 allow live game detection; the LPL only provides ranks, because the Chinese servers are not in Riot&#x27;s API.</p>
+      <h3>Does it need permission to read my messages?</h3>
+      <p>Not to work with slash commands. The bot does not store messages: it holds the message content permission because prefix commands still exist and Discord requires it to read them, but they are processed in memory and discarded.</p>
+      <h3>Does it work without my own server?</h3>
+      <p>Yes. It can be added to your account instead of to a server and the alerts arrive in your private chat, with /seguir to choose a specific player or an entire league.</p>
+    <div class="anuncio">Ad slot reserved (not active yet)</div>
+    </div>
+  </section>
   <footer>
     <div class="envoltura">
       <nav>
-        <a href="index.html">Inicio</a>
-        <a href="ligas.html">Ligas</a>
-        <a href="avisos.html">Cómo son los avisos</a>
-        <a href="socios.html">Socios</a>
-        <a href="alternativas-bots-lol-discord.html">Comparativa</a>
-        <a href="legal.html">Términos y privacidad</a>
+      <a href="index.html">Home</a>
+      <a href="ligas.html">Leagues</a>
+      <a href="upcoming-lol-matches.html">Upcoming matches</a>
+      <a href="avisos.html">How alerts look</a>
+      <a href="commands.html">Commands</a>
+      <a href="alternativas-bots-lol-discord.html">Comparison</a>
+      <a href="legal.html">Terms &amp; privacy</a>
+      <a href="https://set4jeta.github.io/JetaDirectaBot/">Website</a>
       </nav>
-      <p class="legal">JetaDirectaBot no está avalado por Riot Games y no refleja las opiniones ni los puntos de vista de Riot Games ni de nadie involucrado oficialmente en la producción o gestión de las propiedades de Riot Games. Riot Games y todas sus propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.<br><br><em>JetaDirectaBot isn&#x27;t endorsed by Riot Games and doesn&#x27;t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</em></p>
     </div>
   </footer>
-
-  <script src="live.js" defer></script>
 </body>
 </html>
+  <script src="live.js" defer></script>

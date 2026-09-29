@@ -536,7 +536,7 @@ def enlaces_vecinas_html(codigo: str) -> str:
         liga = LIGAS[otra]
         items.append(
             f'      <li><a href="{ruta_de_liga(otra)}">{e(liga.nombre)} SoloQ '
-            f"ranks</a> <span>{e(liga.region)}</span></li>"
+            f"ranks</a> <span>{e(liga.region_en)}</span></li>"
         )
     return (
         "  <section>\n"
@@ -662,7 +662,7 @@ def _pregunta_propia(liga, censo, jugadores, clasificados) -> tuple[str, str]:
     if liga.plataforma_mixta:
         return (
             f"Which server do {liga.nombre} players play on?",
-            f"Several: the {liga.nombre} ({liga.region}) brings together players "
+            f"Several: the {liga.nombre} ({liga.region_en}) brings together players "
             "from different regions, so the server is resolved account by account "
             "instead of assuming one for the whole league. That is why a player "
             "in this league can show the rank of one server and play on another.",
@@ -686,7 +686,7 @@ def _pregunta_propia(liga, censo, jugadores, clasificados) -> tuple[str, str]:
     if censo.hay:
         return (
             f"Why does the {liga.nombre} not have a rank table yet?",
-            f"Because the {liga.nombre} ({liga.region}) has its census measured "
+            f"Because the {liga.nombre} ({liga.region_en}) has its census measured "
             f"—{censo.personas} players across {censo.equipos} teams— but not yet "
             "the rank of each account. Accounts get resolved when a Discord "
             "server starts following the league, which is what triggers the "
@@ -695,7 +695,7 @@ def _pregunta_propia(liga, censo, jugadores, clasificados) -> tuple[str, str]:
     return (
         f"What can you follow in the {liga.nombre}?",
         f"The game alerts of its players on Discord. The {liga.nombre} "
-        f"({liga.region}) has no published rank table yet, because accounts are "
+        f"({liga.region_en}) has no published rank table yet, because accounts are "
         "indexed when a server follows the league.",
     )
 
@@ -738,7 +738,7 @@ def _intro_tabla(liga, filas: list, medido: str, *, con_cuentas: bool) -> str:
     cuando = f" Measured on {e(medido)}." if medido else ""
     return (
         f'      <p class="intro">The top {visibles} of the {total} players that '
-        f"the {e(liga.nombre)} ({e(liga.region)}) has on the leaderboard, ordered "
+        f"the {e(liga.nombre)} ({e(liga.region_en)}) has on the leaderboard, ordered "
         f"by the rank of their best account and measured {donde}."
         f"{horquilla}{cuando}</p>\n"
     )
@@ -811,21 +811,21 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
     elif censo.hay:
         titulo = f"{liga.nombre} players and teams on SoloQ ({anio})"
         descripcion = (
-            f"The {liga.nombre} ({liga.region}): {censo.personas} professional "
+            f"The {liga.nombre} ({liga.region_en}): {censo.personas} professional "
             f"players across {censo.equipos} teams and about {censo.cuentas} "
             "SoloQ accounts. Discord alerts when they queue up for a game."
         )
     else:
         titulo = f"The {liga.nombre} on SoloQ: Discord alerts ({anio})"
         descripcion = (
-            f"The {liga.nombre} ({liga.region}) on {branding.BOT_NOMBRE}: Discord "
+            f"The {liga.nombre} ({liga.region_en}) on {branding.BOT_NOMBRE}: Discord "
             "alerts when its players queue up for SoloQ."
         )
 
     resumen = []
     if censo.hay:
         resumen.append(
-            f"The <b>{e(liga.nombre)}</b> ({e(liga.region)}) has "
+            f"The <b>{e(liga.nombre)}</b> ({e(liga.region_en)}) has "
             f"<b>{censo.personas} players</b> across {censo.equipos} teams and "
             f"about {censo.cuentas} SoloQ accounts measured."
         )
@@ -878,7 +878,7 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
         '  <header class="pagina">\n'
         '    <div class="envoltura">\n'
         f"      <h1>{e(liga.nombre)}: SoloQ ranks and accounts</h1>\n"
-        f'      <p class="lema">{e(liga.nombre)} · {e(liga.region)}'
+        f'      <p class="lema">{e(liga.nombre)} · {e(liga.region_en)}'
         f'{"" if liga.seguible else " · ranks only, no live game tracking"}</p>\n'
         f"{tldr(resumen)}"
         "    </div>\n"
@@ -1059,7 +1059,7 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
         filas.append(
             "        <tr>\n"
             f'          <td><a href="{ruta_de_liga(codigo)}"><b>{e(liga.nombre)}</b></a></td>\n'
-            f"          <td>{e(liga.region)}</td>\n"
+            f"          <td>{e(liga.region_en)}</td>\n"
             f"          <td>{censo.personas or '—'}</td>\n"
             f"          <td>{censo.equipos or '—'}</td>\n"
             f"          <td>{e(estado)}</td>\n"
@@ -1210,7 +1210,7 @@ def _indice_de_ligas(todos: list) -> tuple[str, list[tuple[str, str]]]:
             "          <tr>\n"
             f'            <td><a href="{ruta_de_liga(codigo)}"><b>'
             f"{e(liga.nombre)}</b></a></td>\n"
-            f"            <td>{e(liga.region)}</td>\n"
+            f"            <td>{e(liga.region_en)}</td>\n"
             f"            <td>{len(delo)}</td>\n"
             f"            <td>{e(dia_en_palabras(primero.dia))} · "
             f"{e(primero.hora)} UTC</td>\n"
@@ -1284,8 +1284,8 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
             f"({e(primero.liga_nombre)}) on "
             f"{e(dia_en_palabras(primero.dia))} at {e(primero.hora)} UTC.",
             f"The bot can post these fixtures in your Discord with "
-            f"<code>/next</code>, and the live score with "
-            f"<code>/partida</code>.",
+            f"<code>/schedule</code>, and the live score with "
+            f"<code>/esports</code>.",
         ]
         if vivos:
             resumen.append(
@@ -1314,7 +1314,7 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
             "every visitor, so printing a local time would be wrong for almost "
             "everyone; the <code>datetime</code> attribute behind each time "
             "carries the full timestamp, so your browser can convert it. If you "
-            "want them in Discord, <code>/next</code> prints the fixtures the "
+            "want them in Discord, <code>/schedule</code> prints the fixtures the "
             "bot is tracking.",
         ),
         (
@@ -1328,9 +1328,9 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
         (
             "Does the bot also notify official matches?",
             "Yes, but that is a different feature from the SoloQ alert. "
-            "<code>/partida</code> shows the match being played right now, "
-            "<code>/next</code> lists what is coming up, and "
-            "<code>/setlivechannel</code> chooses the channel they are posted "
+            "<code>/esports</code> shows the match being played right now, "
+            "<code>/schedule</code> lists what is coming up, and "
+            "<code>/subscribe</code> chooses the channel they are posted "
             "to. The automatic notification —the one that needs no command— is "
             "the SoloQ one: it fires when a pro player queues up on their own "
             "account, not when their team plays.",
@@ -1543,8 +1543,9 @@ def _aviso_simulado(jugador: datos.Jugador | None) -> str:
         '      <p class="embed-pie">All ten participants with their ranks, a '
         "<code>.bat</code> file to spectate the game from the client and a note "
         "on when spectator mode becomes available.</p>\n"
-        f'      <p class="embed-marca">{e(branding.BOT_NOMBRE)} · Not endorsed by '
-        "Riot Games</p>\n"
+        # Aquí iba `· Not endorsed by Riot Games`, el aviso que la política de
+        # Riot pide en el pie del embed. Se quitó el 22-09-2026 por instrucción
+        # del dueño, así que la maqueta de la web ya no lo enseña.
         "    </div>\n"
     )
 
@@ -1621,8 +1622,8 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
     pasos = (
         ("You add the bot", "One click and the bot joins your server. It asks for "
                             "no admin permission and does not read history."),
-        ("You pick a league and a channel", "<code>/ligas lec</code> and "
-                                            "<code>/setchannel</code> in the "
+        ("You pick a league and a channel", "<code>/leagues lec</code> and "
+                                            "<code>/subscribe</code> in the "
                                             "channel where you want the alerts."),
         ("That is it", "There is nothing else to do. The alert shows up on its own "
                        "when someone queues up."),
@@ -2058,11 +2059,295 @@ def pagina_404(sitio: str, pub: str) -> Pagina:
     ) + maq.cta()
     return Pagina(
         ruta="404.html",
-        titulo="Page not found",
+        # Lleva el nombre del producto y no solo «Page not found»: es el título
+        # que sale en la pestaña y en el historial del navegador, y una pestaña
+        # que solo diga «Page not found» no dice de qué sitio es. Es la misma
+        # razón por la que lo llevan las otras 27.
+        titulo=f"Page not found · {branding.BOT_NOMBRE}",
         descripcion=(
             "The page you were looking for does not exist. Go back to the home "
             f"page or browse the leagues {branding.BOT_NOMBRE} tracks."
         ),
         cuerpo=cuerpo,
         indexable=False,
+    )
+
+
+# ---------------------------------------------------------------------- #
+# Página de comandos
+# ---------------------------------------------------------------------- #
+#
+# Por qué se lee el catálogo y no se escribe a mano
+# ------------------------------------------------
+# Los nombres y las descripciones de los comandos viven en `utils.i18n`, que es
+# **lo que se le manda a Discord al registrarlos**. Escribirlos otra vez aquí
+# sería tener dos listas de la verdad: la página enseñaría un comando que ya no
+# existe en cuanto alguien renombre uno, y nadie se enteraría hasta verlo. Así que
+# la lista sale del catálogo y lo único escrito a mano son los ejemplos, que es lo
+# que el catálogo no tiene.
+#
+# El `es` del catálogo no se usa: la web es en inglés y se lee el `en`.
+
+#: Ejemplos por comando: `clave -> (lo que se escribe, qué te devuelve)`.
+_EJEMPLOS: dict[str, tuple[str, str]] = {
+    "live": ("/live · /live lck", "Every tracked pro in a game right now, or just one league's"),
+    "match": ("/match Elyoya", "That pro's live game with all ten players and their ranks"),
+    "info": ("/info Elyoya · /info Caps#EUW", "Team, country, age, contract and every account with its rank"),
+    "team": ("/team MKOI · /team g2", "The roster, with the best SoloQ account of each player"),
+    "ranking": (
+        "/ranking lck · /ranking lck mid limit:10",
+        "The SoloQ ladder of a league, and you can narrow it to one role and to 5, 10, 15 or 20 rows",
+    ),
+    "history": (
+        "/history · /history lec · /history Elyoya",
+        "Latest SoloQ games: everyone's, one league's, or one pro's across all their accounts",
+    ),
+    "leagues": ("/leagues · /leagues lec lck", "Which leagues the server follows, and changing them"),
+    "esports": ("/esports · /esports lec", "Pro matches live right now, or just one league's"),
+    "schedule": ("/schedule", "The next pro matches, across every league"),
+    "track": (
+        "/track Elyoya · /track T1 · /track lec · /track Faker#EUW kr",
+        "A DM when it happens. Takes a pro, a team, a league or a single account",
+    ),
+    "untrack": ("/untrack Elyoya · /untrack all", "Stop the DMs, or drop everything at once"),
+    "following": ("/following", "What you follow, and whether the bot can message you"),
+    "subscribe": (
+        "/subscribe · /subscribe esports lck · /subscribe soloq Elyoya",
+        "Send the alerts to this channel — all of them, or only what you name",
+    ),
+    "unsubscribe": ("/unsubscribe", "Stop the alerts in this channel"),
+    "channels": ("/channels", "Which channels get what, and how much room is left"),
+    "mute": ("/mute · /mute esports", "Turn the alerts off for the whole server"),
+    "health": ("/health", "Whether the data is up to date, and when it last refreshed"),
+    "premium": ("/premium", "The two plans and this server's limits"),
+    "help": ("/help", "This same list, inside Discord"),
+    "language": ("/language en · /language es", "The bot's language on this server"),
+}
+
+#: Las combinaciones, una a una: `(escribes, te da)`. Es la parte que no se puede
+#: deducir del catálogo, porque el catálogo dice qué acepta cada argumento pero no
+#: qué devuelve cada combinación.
+_COMBINACIONES: tuple[tuple[str, str, str], ...] = (
+    ("Live games", "/live", "Every tracked pro in a SoloQ game right now"),
+    ("Live games", "/live lck", "Only the LCK's. If the LCK isn't being tracked, it says so"),
+    ("Live games", "/match Elyoya", "Elyoya's game, with all ten participants and their ranks"),
+    ("Players", "/info Elyoya", "Profile by nickname"),
+    ("Players", "/info Caps#EUW", "Profile by a specific account"),
+    ("Players", "/team MKOI", "Roster with each player's best account"),
+    ("Standings", "/ranking lck", "The LCK's SoloQ ladder"),
+    ("Standings", "/ranking lck mid", "Only mid laners"),
+    ("Standings", "/ranking lck mid limit:10", "Only mid laners, top 10"),
+    ("History", "/history", "The latest game of every tracked pro"),
+    ("History", "/history lec", "The latest game of each LEC pro"),
+    ("History", "/history Elyoya", "Elyoya's latest games, across all his accounts"),
+    ("Esports", "/esports", "Pro matches live right now, any league"),
+    ("Esports", "/esports lec", "Only the LEC's"),
+    ("Esports", "/schedule", "What's coming up next"),
+    ("Your DMs", "/track Elyoya", "A DM when Elyoya queues up"),
+    ("Your DMs", "/track T1", "A DM when any T1 player queues up"),
+    ("Your DMs", "/track lec", "A DM for every LEC game — and its official matches too"),
+    ("Your DMs", "/following", "What you follow right now"),
+    ("A channel", "/subscribe", "This channel gets every league the server follows"),
+    ("A channel", "/subscribe esports", "This channel gets only official matches, from every league"),
+    ("A channel", "/subscribe esports lck", "This channel gets only LCK matches"),
+    ("A channel", "/subscribe soloq lck", "This channel gets only LCK SoloQ games"),
+    ("A channel", "/subscribe soloq Elyoya", "This channel gets only Elyoya"),
+    ("A channel", "/channels", "What each channel asked for, and how much room is left"),
+    ("A channel", "/mute", "Turns the alerts off for the whole server"),
+)
+
+
+def _comandos_del_catalogo() -> list[dict]:
+    """Los comandos, leídos del catálogo de `utils.i18n`.
+
+    Devuelve `{"nombre", "que", "argumentos", "ejemplo", "devuelve"}`. Se lee de
+    ahí y no se escribe a mano para que la página no pueda enseñar un comando que
+    ya no existe: es la misma fuente con la que se registran en Discord.
+    """
+    from utils.i18n import _CATALOGO, t
+
+    #: El orden en el que se leen, que es el mismo de `/help`: primero lo que
+    #: consultas, luego lo tuyo, luego la configuración y al final el estado.
+    ORDEN = (
+        "live", "match", "info", "team", "ranking", "history", "leagues",
+        "esports", "schedule", "track", "untrack", "following",
+        "subscribe", "unsubscribe", "channels", "mute",
+        "health", "premium", "help", "language",
+    )
+
+    salida = []
+    for clave in ORDEN:
+        k = f"cmd.{clave}"
+        if f"{k}.name" not in _CATALOGO:
+            continue
+        # Los argumentos: cualquier `cmd.X.<algo>` que no sea el nombre ni la
+        # descripción, con su ayuda en `cmd.X.<algo>_desc`.
+        argumentos = []
+        for otra in sorted(_CATALOGO):
+            if not otra.startswith(k + ".") or not otra.endswith("_desc"):
+                continue
+            base = otra[: -len("_desc")]
+            if base in (f"{k}.name", f"{k}.desc"):
+                continue
+            argumentos.append((t(base, "en"), t(otra, "en")))
+
+        ejemplo, devuelve = _EJEMPLOS.get(clave, ("", ""))
+        salida.append({
+            "nombre": t(f"{k}.name", "en"),
+            "que": t(f"{k}.desc", "en"),
+            "argumentos": argumentos,
+            "ejemplo": ejemplo,
+            "devuelve": devuelve,
+        })
+    return salida
+
+
+def _tarjeta_comando(cmd: dict, indice: int) -> str:
+    """Una tarjeta por comando, con su animación de entrada escalonada."""
+    argumentos = "".join(
+        f'<li><code>{e(nombre)}</code> <span>{e(ayuda)}</span></li>'
+        for nombre, ayuda in cmd["argumentos"]
+    )
+    bloque_args = f'<ul class="cmd-args">{argumentos}</ul>' if argumentos else ""
+    bloque_ejemplo = (
+        f'<p class="cmd-ejemplo"><code>{e(cmd["ejemplo"])}</code></p>'
+        if cmd["ejemplo"] else ""
+    )
+    devuelve = (
+        f'<p class="cmd-devuelve">{e(cmd["devuelve"])}</p>' if cmd["devuelve"] else ""
+    )
+    return (
+        f'      <article class="cmd" style="--i:{indice}">\n'
+        f'        <h3 class="cmd-nombre"><code>/{e(cmd["nombre"])}</code></h3>\n'
+        f'        <p class="cmd-que">{e(cmd["que"])}</p>\n'
+        f"{bloque_args}\n"
+        f"{bloque_ejemplo}\n"
+        f"{devuelve}\n"
+        "      </article>\n"
+    )
+
+
+def _tabla_combinaciones() -> str:
+    """La tabla de «escribes esto, te da esto», agrupada por para qué sirve."""
+    filas = []
+    grupo_actual = None
+    for grupo, escribes, te_da in _COMBINACIONES:
+        if grupo != grupo_actual:
+            filas.append(
+                f'        <tr class="fila-grupo"><th colspan="2">{e(grupo)}</th></tr>\n'
+            )
+            grupo_actual = grupo
+        filas.append(
+            f'        <tr><td><code>{e(escribes)}</code></td>'
+            f"<td>{e(te_da)}</td></tr>\n"
+        )
+    return (
+        '      <table class="tabla-combinaciones">\n'
+        "        <thead>\n"
+        "          <tr><th>You type</th><th>You get</th></tr>\n"
+        "        </thead>\n"
+        "        <tbody>\n" + "".join(filas) + "        </tbody>\n"
+        "      </table>\n"
+    )
+
+
+def pagina_comandos(sitio: str, fecha: str, pub: str) -> Pagina:
+    """La página que documenta los comandos, uno a uno y combinación a combinación.
+
+    Es la página que responde «¿y esto qué sabe hacer?» sin obligar a leer el
+    repositorio, y la que evita la pregunta de soporte más repetida: «¿puedo pedir
+    solo la LCK?». La respuesta está aquí, con el ejemplo al lado.
+    """
+    tarjetas = "".join(
+        _tarjeta_comando(cmd, i) for i, cmd in enumerate(_comandos_del_catalogo())
+    )
+    ejemplos_js = ", ".join(
+        f'"{x}"' for x in (
+            "/live lck", "/info Elyoya", "/ranking lck mid limit:10",
+            "/subscribe esports lck", "/track Faker#EUW kr", "/history lec",
+        )
+    )
+    cuerpo = (
+        '  <header class="principal">\n'
+        '    <div class="envoltura">\n'
+        "      <h1>Every command</h1>\n"
+        '      <p class="lema">Twenty commands, one word each, in English. What '
+        "each one does, what you can write next to it, and what comes back.</p>\n"
+        '      <div class="demo-slash" aria-hidden="true">\n'
+        '        <span class="demo-uso">/</span><span id="demo-teclea"></span>'
+        '<span class="demo-cursor"></span>\n'
+        "      </div>\n"
+        "    </div>\n"
+        "  </header>\n"
+        '  <main class="envoltura">\n'
+        f"{maq.bloque_anuncio(pub)}\n"
+        "    <section>\n"
+        "      <h2>The twenty, at a glance</h2>\n"
+        '      <div class="rejilla-comandos">\n'
+        f"{tarjetas}"
+        "      </div>\n"
+        "    </section>\n"
+        '    <section>\n'
+        "      <h2>What you type, what you get</h2>\n"
+        '      <p class="intro">The commands that take something after them, and '
+        "the combinations that matter. An empty argument means «all of it».</p>\n"
+        f"{_tabla_combinaciones()}"
+        "    </section>\n"
+        '    <section>\n'
+        "      <h2>Two things worth knowing</h2>\n"
+        '      <div class="rejilla-dos">\n'
+        '        <article class="nota-caja">\n'
+        "          <h3>English only, on purpose</h3>\n"
+        "          <p>Command names are English so the same bot works in any "
+        "server. What changes with <code>/language</code> is what the bot "
+        "<em>replies</em>, not how its commands are called.</p>\n"
+        "        </article>\n"
+        '        <article class="nota-caja">\n'
+        "          <h3>Alerts arrive, you don't ask</h3>\n"
+        "          <p>The point of the bot is the alert: when a tracked pro "
+        "queues up, the embed appears in your channel on its own. The commands "
+        "here are for looking things up in between.</p>\n"
+        "        </article>\n"
+        "      </div>\n"
+        "    </section>\n"
+        "  </main>\n"
+    ) + maq.cta(nota=(
+        "Add the bot and pick your leagues; the alerts start on their own."
+    ))
+    cuerpo += (
+        "  <script>\n"
+        "(function () {\n"
+        "  var frases = [" + ejemplos_js + "];\n"
+        "  var salida = document.getElementById('demo-teclea');\n"
+        "  if (!salida) return;\n"
+        "  var quieto = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n"
+        "  if (quieto) { salida.textContent = frases[0]; return; }\n"
+        "  var f = 0, c = 0, borrando = false;\n"
+        "  function paso() {\n"
+        "    var texto = frases[f];\n"
+        "    c += borrando ? -1 : 1;\n"
+        "    salida.textContent = texto.slice(0, c);\n"
+        "    var espera = borrando ? 30 : 65;\n"
+        "    if (!borrando && c === texto.length) { borrando = true; espera = 1400; }\n"
+        "    else if (borrando && c === 0) { borrando = false; f = (f + 1) % frases.length; espera = 260; }\n"
+        "    setTimeout(paso, espera);\n"
+        "  }\n"
+        "  paso();\n"
+        "})();\n"
+        "  </script>\n"
+    )
+    return Pagina(
+        ruta="commands.html",
+        titulo=f"Every command · {branding.BOT_NOMBRE}",
+        descripcion=(
+            "All twenty Discord commands, one word each: what they do, what you "
+            "can write next to them and what each combination returns."
+        ),
+        cuerpo=cuerpo,
+        prioridad="0.8",
+        # La página de comandos lleva el tema Arena desde el 22-09-2026. No lleva
+        # `en_vivo`: no tiene `#feed` ni `#teams-strip`, así que no carga
+        # `live.js`. Es la página que más se comparte (es la respuesta a «¿qué
+        # sabe hacer?») y la que más gana con la esquina cortada y el neón.
+        arena=True,
     )

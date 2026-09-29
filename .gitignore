@@ -50,3 +50,7 @@ cache/__pycache__/
 
 # Previsualización suelta de la imagen OG que genera `scripts/web_og.py`.
 _og_preview.png
+
+# Grabaciones del espectador (`scripts/grabar_partida.py`). Son datos, no código:
+# cada partida son ~12 MB y se regeneran solas.
+grabaciones/

@@ -19,10 +19,10 @@ En `web/`, ficheros estáticos sin build ni servidor (GitHub Pages o Cloudflare
 Pages, gratis):
 
     index.html                          la landing
-    ligas.html                          el hub que enlaza las 20 ligas
+    leagues.html                          el hub que enlaza las 20 ligas
     liga-<codigo>.html                  una por liga, con sus datos reales
-    avisos.html                         qué es un aviso, con ejemplo
-    alternativas-bots-lol-discord.html  la comparativa
+    alerts.html                         qué es un aviso, con ejemplo
+    lol-discord-bots.html  la comparativa
     legal.html                          términos y privacidad
     404.html                            error real, noindex, fuera del sitemap
     sitemap.xml  robots.txt             generados desde las páginas escritas
@@ -313,19 +313,19 @@ def _destacados_html() -> str:
     """
     tarjetas = (
         (
-            "ligas.html",
+            "leagues.html",
             f"All {len(LIGAS)} leagues, one by one",
             "How many players and teams each league has, and what is published "
             "about each one.",
         ),
         (
-            "avisos.html",
+            "alerts.html",
             "What the alert looks like",
             "The exact message that shows up in Discord, how long it takes and "
             "why the in-game clock runs behind.",
         ),
         (
-            "alternativas-bots-lol-discord.html",
+            "lol-discord-bots.html",
             "Compared with the other bots",
             "What each League of Legends Discord bot alerts on, with the data "
             "read from their official websites.",
@@ -592,7 +592,7 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         '      <p class="sub">Each server picks the ones it follows with '
         f"<code>/leagues</code>, up to {MAX_LIGAS_POR_SERVIDOR} at a time — "
         '<a href="#apoyo">why that number and not more</a>. Every '
-        'league has <a href="ligas.html">its own page</a> with its players, their '
+        'league has <a href="leagues.html">its own page</a> with its players, their '
         "ranks and its teams.</p>\n"
         '      <ul class="ligas">\n'
         f"{ligas_html()}\n"
@@ -645,8 +645,8 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         "look. That is a qualified audience at a known time, and it is what this "
         "site can put a brand in front of.</p>\n"
         '      <div class="botones">\n'
-        '        <a class="btn bronce" href="socios.html">Partnership proposal</a>\n'
-        '        <a class="btn sec" href="avisos.html">How an alert looks</a>\n'
+        '        <a class="btn bronce" href="partners.html">Partnership proposal</a>\n'
+        '        <a class="btn sec" href="alerts.html">How an alert looks</a>\n'
         "      </div>\n"
         "    </div>\n"
         "  </section>\n"
@@ -1004,8 +1004,64 @@ def construir(sitio: str, fecha: str, pub: str) -> list[Pagina]:
 #: Hoy es solo la landing de patrocinios: es la página que se manda a una marca
 #: por correo, y que Google no la tenga declarada sería absurdo.
 PAGINAS_A_MANO: tuple[tuple[str, str], ...] = (
-    ("socios.html", "0.6"),
+    ("partners.html", "0.6"),
 )
+
+
+#: Rutas antiguas que hay que redirigir, `{vieja: nueva}`.
+#:
+#: El 29-09-2026 las URLs pasaron de español a inglés (`ligas.html` →
+#: `leagues.html`, `liga-lec.html` → `league-lec.html`). El contenido ya estaba
+#: en inglés desde hacía una semana, así que tener la URL en español era una
+#: señal contradictoria: la URL es parte de lo que Google lee.
+#:
+#: Se hizo **ahora y no más tarde** a propósito: el sitio casi no está indexado,
+#: así que el coste de moverlo es casi cero. Dentro de un año, con tráfico,
+#: habría que montar redirecciones para no perder lo ganado — y en un sitio
+#: estático no hay redirecciones de servidor, solo este apaño.
+#:
+#: GitHub Pages no sabe devolver un 301 (no hay servidor), así que la redirección
+#: se hace con un fichero en la ruta vieja que lleva un `meta refresh` **y un
+#: canónico a la nueva**. El canónico es lo que hace el trabajo de verdad: le dice
+#: a Google cuál es la URL buena. El `refresh` es para la persona que tenía el
+#: enlace guardado.
+#:
+#: Estas páginas **no van al sitemap** y se pueden borrar el día que no quede
+#: nada apuntando a las rutas viejas.
+REDIRECCIONES: dict[str, str] = {
+    "ligas.html": "leagues.html",
+    "avisos.html": "alerts.html",
+    "alternativas-bots-lol-discord.html": "lol-discord-bots.html",
+    "socios.html": "partners.html",
+    **{f"liga-{codigo}.html": f"league-{codigo}.html" for codigo in LIGAS},
+}
+
+
+def _redireccion_html(vieja: str, nueva: str, sitio: str) -> str:
+    """El HTML de una redirección estática.
+
+    Sin `noindex` a propósito. Es tentador ponerlo para que la página vieja no
+    aparezca en Google, pero Google avisa de que `noindex` y `canonical` juntos se
+    contradicen: si la página no debe indexarse, el canónico se ignora y la
+    autoridad no se transfiere, que es justo lo contrario de lo que se busca.
+    Lo que se quiere es que la vieja desaparezca **a favor de la nueva**, y eso lo
+    hace el canónico solo.
+    """
+    destino = seo.absoluta(sitio, nueva)
+    return (
+        "<!DOCTYPE html>\n"
+        '<html lang="en">\n'
+        "<head>\n"
+        '  <meta charset="utf-8">\n'
+        f'  <link rel="canonical" href="{seo.e(destino)}">\n'
+        f'  <meta http-equiv="refresh" content="0; url={seo.e(nueva)}">\n'
+        f"  <title>Moved to {seo.e(nueva)}</title>\n"
+        "</head>\n"
+        "<body>\n"
+        f'  <p>This page moved to <a href="{seo.e(nueva)}">{seo.e(nueva)}</a>.</p>\n'
+        "</body>\n"
+        "</html>\n"
+    )
 
 
 def _catalogo_imagenes() -> dict[str, str]:
@@ -1215,6 +1271,15 @@ def main(argv: list[str] | None = None) -> int:
         seo.sitemap(sitio, paginas, args.fecha, extras=PAGINAS_A_MANO),
     )
     total += _escribir(os.path.join(args.destino, "robots.txt"), seo.robots(sitio))
+
+    # Redirecciones de las rutas viejas (ver `REDIRECCIONES`). Se escriben al
+    # final y no cuentan para el total de páginas: no son páginas del sitio, son
+    # carteles que mandan a la nueva.
+    for vieja, nueva in REDIRECCIONES.items():
+        _escribir(
+            os.path.join(args.destino, vieja),
+            _redireccion_html(vieja, nueva, sitio),
+        )
     total += _escribir(
         os.path.join(args.destino, "favicon.svg"), og.favicon(branding.BOT_NOMBRE)
     )
@@ -1228,16 +1293,16 @@ def main(argv: list[str] | None = None) -> int:
     # estilo, el `live.js` de la portada y la landing de patrocinios. Si se genera
     # en otra carpeta hay que llevárselos, o el HTML sale sin maquetar (y Google lo
     # juzga como no apto para móvil), la portada se queda con «Cargando avisos
-    # recientes…» o el enlace a `socios.html` da 404.
+    # recientes…» o el enlace a `partners.html` da 404.
     #
     # `styles-esports.css` y `live.js` se añadieron a esta lista el 22-09-2026,
     # **después** de perderlos: la portada del tema Arena estaba escrita a mano en
     # `web/index.html` y regenerar la pisó. Copiarlos aquí es lo que hace que una
     # regeneración ya no pueda volver a perderlos.
     #
-    # `socios.html` se añadió también el 22-09-2026, al meterla en el sitemap: una
+    # `partners.html` se añadió también el 22-09-2026, al meterla en el sitemap: una
     # URL declarada a Google que no se copia es un 404 anunciado.
-    for nombre in ("styles.css", "styles-esports.css", "live.js", "socios.html"):
+    for nombre in ("styles.css", "styles-esports.css", "live.js", "partners.html"):
         origen = os.path.join(RAIZ, "web", nombre)
         destino = os.path.join(args.destino, nombre)
         if os.path.exists(origen) and os.path.abspath(origen) != os.path.abspath(destino):
@@ -1263,18 +1328,18 @@ def main(argv: list[str] | None = None) -> int:
     print(f"{len(LIGAS)} ligas · {len(PLANES)} planes · canónicos en {sitio}")
     # El estado del histórico se informa siempre, porque es la diferencia entre
     # publicar una página con avisos reales y publicar solo el formato, y no se
-    # nota mirando la lista de ficheros: `avisos.html` pesa parecido en los dos
+    # nota mirando la lista de ficheros: `alerts.html` pesa parecido en los dos
     # casos. Si sale en cero desde una máquina de desarrollo es lo normal: el
     # fichero lo escribe el bot en marcha, no el generador.
     registrados = datos.avisos(pags.TOPE_AVISOS)
     if registrados:
         print(
-            f"Histórico de avisos: {len(registrados)} publicados en avisos.html "
+            f"Histórico de avisos: {len(registrados)} publicados en alerts.html "
             f"(el último, {registrados[0].fecha} {registrados[0].hora} UTC)"
         )
     else:
         print(
-            "Histórico de avisos: vacío (avisos.html enseña solo el formato). "
+            "Histórico de avisos: vacío (alerts.html enseña solo el formato). "
             "Lo escribe el bot en tracking/soloq/avisos.jsonl al enviar un aviso."
         )
     if pub:

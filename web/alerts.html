@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What a SoloQ alert looks like in your Discord (real example)</title>
+  <meta name="description" content="What the alert LoLProTrackr posts when a pro queues up for SoloQ carries, how long it takes (30 s polling) and why the game clock runs behind.">
+  <link rel="canonical" href="https://set4jeta.github.io/JetaDirectaBot/alerts.html">
+  <meta property="og:title" content="What a SoloQ alert looks like in your Discord (real example)">
+  <meta property="og:description" content="What the alert LoLProTrackr posts when a pro queues up for SoloQ carries, how long it takes (30 s polling) and why the game clock runs behind.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://set4jeta.github.io/JetaDirectaBot/alerts.html">
+  <meta property="og:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What a SoloQ alert looks like in your Discord (real example)">
+  <meta name="twitter:description" content="What the alert LoLProTrackr posts when a pro queues up for SoloQ carries, how long it takes (30 s polling) and why the game clock runs behind.">
+  <meta name="twitter:image" content="https://set4jeta.github.io/JetaDirectaBot/og.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What a SoloQ alert looks like in your Discord (real example)",
+    "description": "What the alert LoLProTrackr posts when a pro queues up for SoloQ carries, how long it takes (30 s polling) and why the game clock runs behind.",
+    "mainEntityOfPage": "https://set4jeta.github.io/JetaDirectaBot/alerts.html",
+    "datePublished": "2026-09-29",
+    "dateModified": "2026-09-29",
+    "inLanguage": "en-US",
+    "image": "https://set4jeta.github.io/JetaDirectaBot/og.png",
+    "author": {
+      "@type": "Organization",
+      "name": "LoLProTrackr"
+    },
+    "publisher": {
+      "@id": "https://set4jeta.github.io/JetaDirectaBot/#organizacion"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How alerts look",
+        "item": "https://set4jeta.github.io/JetaDirectaBot/alerts.html"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How long does the alert take to arrive?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The bot checks the accounts every 30 seconds, so the alert arrives at most 30 seconds after the game shows up in Riot's API. The game itself is already a little under way when it appears: that is Riot's timing, not the bot's."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does the game clock in the alert not match the one in the client?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because the clock the API returns is the spectator server's, which runs about three minutes behind and starts in negative numbers. The alert shows the real time and tells you separately when you can spectate, instead of printing the raw number and looking broken."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to be a server admin?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To choose the alert channel, yes: it needs the Manage Server permission. To get them in your private chat, no: you add the bot to your account and it works anywhere, without depending on any server."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I follow a single player instead of a whole league?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. With /seguir and the pro's name you get only their games in your private chat; with a league name, every game in that league."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if Riot's API goes down?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Games stop being detected until it comes back, and /health says which source is failing and when it last updated. No alerts are made up and old ones are not resent."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav class="migas" aria-label="Ruta">
+    <div class="envoltura"><a href="index.html">Home</a> › <span aria-current="page">How alerts look</span></div>
+  </nav>
+  <header class="pagina">
+    <div class="envoltura">
+      <h1>What the alert that reaches your Discord looks like</h1>
+    <div class="resumen">
+      <p><strong>In short</strong></p>
+      <ul>
+      <li>A message in your channel with the <b>champion, role, rank, team and all ten participants</b>, as soon as the game starts.</li>
+      <li>The bot checks the accounts every <b>30 seconds</b>: that is the maximum delay.</li>
+      <li>It works in a server channel or in your private chat, without depending on any server.</li>
+      </ul>
+    </div>
+    </div>
+  </header>
+  <section>
+    <div class="envoltura">
+      <h2>What information does the alert carry?</h2>
+      <p class="intro">This is the shape of the message, with a real player from the bot's database. On Discord it arrives as an embed with the player's photo and the logo of their team.</p>
+    <div class="embed" role="img" aria-label="Example of the alert for Vladi in game">
+      <div class="embed-cabeza">
+        <img class="avatar" src="img/players/Vladi.webp" alt="Vladi" width="64" height="51" loading="lazy" decoding="async">
+        <div>
+          <p class="embed-titulo">🔴 Vladi (J1HUIV#000) is in game</p>
+          <p class="embed-sub">Team: Fnatic</p>
+        </div>
+      </div>
+      <dl class="embed-datos">
+        <dt>Queue</dt><dd>Ranked Solo/Duo</dd>
+        <dt>Champion</dt><dd>Syndra</dd>
+        <dt>Role</dt><dd>Mid</dd>
+        <dt>Rank</dt><dd>Challenger · 4414 LP</dd>
+        <dt>Elapsed</dt><dd>2 min</dd>
+      </dl>
+      <p class="embed-pie">All ten participants with their ranks, a <code>.bat</code> file to spectate the game from the client and a note on when spectator mode becomes available.</p>
+    </div>
+      <p class="nota">The name, the account, the rank and the champion in this example are real data of Vladi; the game is not. No alerts have been logged on this deployment yet, so what is shown here is the format and not a specific game.</p>
+    </div>
+  </section>
+  <section>
+    <div class="envoltura">
+      <h2>How do you turn it on?</h2>
+      <ol class="pasos">
+      <li><b>You add the bot.</b> One click and the bot joins your server. It asks for no admin permission and does not read history.</li>
+      <li><b>You pick a league and a channel.</b> <code>/leagues lec</code> and <code>/subscribe</code> in the channel where you want the alerts.</li>
+      <li><b>That is it.</b> There is nothing else to do. The alert shows up on its own when someone queues up.</li>
+      </ol>
+    </div>
+  </section>
+  <section>
+    <div class="envoltura">
+      <h2>Frequently asked questions</h2>
+      <h3>How long does the alert take to arrive?</h3>
+      <p>The bot checks the accounts every 30 seconds, so the alert arrives at most 30 seconds after the game shows up in Riot&#x27;s API. The game itself is already a little under way when it appears: that is Riot&#x27;s timing, not the bot&#x27;s.</p>
+      <h3>Why does the game clock in the alert not match the one in the client?</h3>
+      <p>Because the clock the API returns is the spectator server&#x27;s, which runs about three minutes behind and starts in negative numbers. The alert shows the real time and tells you separately when you can spectate, instead of printing the raw number and looking broken.</p>
+      <h3>Do I need to be a server admin?</h3>
+      <p>To choose the alert channel, yes: it needs the Manage Server permission. To get them in your private chat, no: you add the bot to your account and it works anywhere, without depending on any server.</p>
+      <h3>Can I follow a single player instead of a whole league?</h3>
+      <p>Yes. With /seguir and the pro&#x27;s name you get only their games in your private chat; with a league name, every game in that league.</p>
+      <h3>What happens if Riot&#x27;s API goes down?</h3>
+      <p>Games stop being detected until it comes back, and /health says which source is failing and when it last updated. No alerts are made up and old ones are not resent.</p>
+    <div class="anuncio">Ad slot reserved (not active yet)</div>
+    </div>
+  </section>
+  <section class="cierre">
+    <div class="envoltura">
+      <h2>What if this came to you on its own?</h2>
+      <p class="intro">LoLProTrackr posts this alert to your Discord channel —or your DMs— the moment a player enters a game, across the 20 leagues in the catalogue. Free.</p>
+      <div class="botones">
+        <a class="boton primario" href="https://discord.com/oauth2/authorize?client_id=1387239192198910073&amp;scope=bot+applications.commands&amp;permissions=52224">Add to Discord and try it</a>
+        <a class="boton" href="alerts.html">See what the alert looks like</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="envoltura">
+      <nav>
+      <a href="index.html">Home</a>
+      <a href="leagues.html">Leagues</a>
+      <a href="upcoming-lol-matches.html">Upcoming matches</a>
+      <a href="alerts.html">How alerts look</a>
+      <a href="commands.html">Commands</a>
+      <a href="lol-discord-bots.html">Comparison</a>
+      <a href="legal.html">Terms &amp; privacy</a>
+      <a href="https://set4jeta.github.io/JetaDirectaBot/">Website</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

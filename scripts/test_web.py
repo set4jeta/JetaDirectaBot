@@ -103,7 +103,7 @@ def legal(pub: str = "", fecha: str = FECHA) -> str:
 # Histórico de avisos: las dos ramas
 # ---------------------------------------------------------------------- #
 #
-# `avisos.html` tiene dos formas según el bot haya publicado avisos o no, y las
+# `alerts.html` tiene dos formas según el bot haya publicado avisos o no, y las
 # dos hay que probarlas **siempre**. Depender del `avisos.jsonl` real haría lo
 # contrario: hoy no existe (bot sin desplegar desde que se añadió el registro) y
 # la rama con datos no se probaría nunca; el día que exista, la rama vacía dejaría
@@ -333,13 +333,81 @@ def prueba_titulos_unicos() -> None:
     # El título tiene que llevar el término por el que se busca. En una página
     # de liga eso es el nombre de la liga: sin él, la página programática no
     # responde a la búsqueda que justifica su existencia.
+    #
+    # El código de liga se saca con `removeprefix` y no cortando por posición.
+    # Cortaba con `p.ruta[5:-5]`, que daba por hecho que el prefijo mide cinco
+    # caracteres porque era `liga-`; al pasar las rutas a `league-` el corte se
+    # quedó en `e-lec` y la prueba reventó con un `KeyError`. Un número mágico
+    # que depende de la longitud de una cadena es una trampa que se arma sola.
     sin_nombre = [
         p.ruta for p in todas
-        if p.ruta.startswith("liga-")
-        and LIGAS[p.ruta[5:-5]].nombre not in p.titulo
+        if p.ruta.startswith("league-")
+        and LIGAS[p.ruta.removeprefix("league-").removesuffix(".html")].nombre
+        not in p.titulo
     ]
     ok(not sin_nombre, "cada página de liga lleva el nombre de su liga en el título",
        str(sin_nombre[:3]))
+
+
+
+def _codigo_de_liga(ruta: str) -> str:
+    """`"league-lec.html"` -> `"lec"`.
+
+    Existe porque el corte era `ruta[5:-5]`, que daba por hecho que el prefijo
+    mide cinco caracteres —lo era cuando las rutas eran `liga-lec.html`—. Al
+    pasarlas a inglés (`league-lec.html`) devolvía `e-lec` y la prueba reventaba
+    con un `KeyError` que no decía nada del cambio. Con `removeprefix` el nombre
+    del prefijo se escribe una vez y la longitud deja de importar.
+    """
+    return ruta.removeprefix("league-").removesuffix(".html")
+
+def prueba_redirecciones() -> None:
+    """Las rutas viejas redirigen a las nuevas y no ensucian el sitemap.
+
+    El 29-09-2026 las URLs pasaron de español a inglés. GitHub Pages no puede
+    devolver un 301 —no hay servidor—, así que la redirección se hace con un
+    fichero en la ruta vieja que lleva `meta refresh` **y un canónico a la
+    nueva**. El canónico es lo que transfiere la autoridad; el `refresh` es para
+    quien tenía el enlace guardado.
+
+    Esta prueba vigila las tres cosas que pueden salir mal en silencio: que falte
+    una redirección, que apunte a un sitio que no existe, y que el cartel acabe
+    en el sitemap —que sería pedirle a Google que indexe una página que solo dice
+    «esto se ha movido»—.
+    """
+    print("\n=== redirecciones de las rutas viejas ===")
+
+    ok(bool(gw.REDIRECCIONES), "hay rutas viejas que redirigir",
+       f"{len(gw.REDIRECCIONES)}")
+
+    todo = sitio()
+    # `sitio()` son solo las páginas que **genera** el generador. Las que se
+    # mantienen a mano (`partners.html`) también existen y una redirección puede
+    # apuntar a ellas legítimamente, así que entran en la comprobación.
+    rutas = set(todo) | {ruta for ruta, _ in gw.PAGINAS_A_MANO}
+    sin_destino = [v for v, n in gw.REDIRECCIONES.items() if n not in rutas]
+    ok(not sin_destino, "todas apuntan a una página que existe",
+       str(sin_destino[:3]))
+
+    # El `noindex` junto al `canonical` es el error clásico aquí: Google avisa de
+    # que se contradicen y acaba ignorando el canónico, que es justo lo que tiene
+    # que hacer el trabajo.
+    mal_formadas = []
+    for vieja, nueva in gw.REDIRECCIONES.items():
+        html = gw._redireccion_html(vieja, nueva, SITIO)
+        if 'http-equiv="refresh"' not in html:
+            mal_formadas.append(f"{vieja}: sin refresh")
+        elif f"/{nueva}" not in html:
+            mal_formadas.append(f"{vieja}: el canónico no apunta a {nueva}")
+        elif "noindex" in html:
+            mal_formadas.append(f"{vieja}: lleva noindex")
+    ok(not mal_formadas, "las redirecciones llevan refresh y canónico, sin noindex",
+       "; ".join(mal_formadas[:2]))
+
+    # Y no pueden estar en el sitemap: son carteles, no páginas.
+    en_sitemap = sorted(set(gw.REDIRECCIONES) & {p.ruta for p in paginas()})
+    ok(not en_sitemap, "ninguna redirección es una página del sitemap",
+       str(en_sitemap[:3]))
 
 
 def prueba_canonicos() -> None:
@@ -490,7 +558,7 @@ def prueba_imagenes() -> None:
     # Las medidas tienen que ser las del fichero, no un número inventado: si se
     # declara 48x48 sobre una imagen de 500x200, se reserva mal el hueco y el
     # CLS vuelve.
-    inv = inventario(todo["liga-lec.html"])
+    inv = inventario(todo["league-lec.html"])
     origen = datos.imagen_de_equipo("FNC")
     if origen and inv.imgs:
         proporciones_mal = []
@@ -586,7 +654,7 @@ def prueba_jsonld() -> None:
     otras = [r for r, h in todo.items() if r != "index.html" and '"WebSite"' in h]
     ok(not otras, "y no se repiten en las demás páginas", str(otras[:3]))
 
-    lec = todo["liga-lec.html"]
+    lec = todo["league-lec.html"]
     ok('"ItemList"' in lec, "la página con ranking visible declara ItemList")
     # El `ItemList` describe la tabla pintada, y hay dos que valen: la del
     # barrido (con Riot ID) y la del leaderboard (con Elo y victorias). Lo que no
@@ -594,9 +662,9 @@ def prueba_jsonld() -> None:
     # porque entonces declararía una lista que no está en el HTML.
     sin_ranking = [
         r for r, h in todo.items()
-        if r.startswith("liga-") and '"ItemList"' in h
-        and not datos.jugadores_de(r[5:-5])
-        and not datos.clasificacion_de(r[5:-5])
+        if r.startswith("league-") and '"ItemList"' in h
+        and not datos.jugadores_de(_codigo_de_liga(r))
+        and not datos.clasificacion_de(_codigo_de_liga(r))
     ]
     ok(not sin_ranking, "y solo las que tienen ranking de verdad", str(sin_ranking[:3]))
 
@@ -604,8 +672,8 @@ def prueba_jsonld() -> None:
     # mitad, la prueba pasaría igual si el schema dejara de emitirse.
     falta = [
         r for r, h in todo.items()
-        if r.startswith("liga-") and '"ItemList"' not in h
-        and (datos.jugadores_de(r[5:-5]) or datos.clasificacion_de(r[5:-5]))
+        if r.startswith("league-") and '"ItemList"' not in h
+        and (datos.jugadores_de(_codigo_de_liga(r)) or datos.clasificacion_de(_codigo_de_liga(r)))
     ]
     ok(not falta, "y todas las que tienen tabla lo declaran", str(falta[:3]))
 
@@ -619,9 +687,9 @@ def prueba_enlaces_internos() -> None:
     todo = sitio()
     rutas = set(todo) | {"styles.css", "og.png", "favicon.svg"}
     # Y los HTML que se mantienen **a mano** en `web/` y se despliegan con el
-    # resto. Hoy es solo `socios.html`, la landing de patrocinios: no sale de
+    # resto. Hoy es solo `partners.html`, la landing de patrocinios: no sale de
     # `construir()`, así que no está en `todo`, pero está en `web/` y GitHub Pages
-    # la sirve. Sin esto, el enlace de la portada a `socios.html` —que funciona en
+    # la sirve. Sin esto, el enlace de la portada a `partners.html` —que funciona en
     # producción— se leería como roto, y el arreglo evidente sería quitar el
     # enlace, que es justo lo que no hay que hacer.
     #
@@ -724,7 +792,7 @@ def prueba_ligas() -> None:
     ok(esperadas <= set(todo), f"se escribe una página por cada una de las {len(LIGAS)}",
        str(sorted(esperadas - set(todo))[:3]))
 
-    hub = todo["ligas.html"]
+    hub = todo["leagues.html"]
     sin_enlace = [c for c in LIGAS if pags.ruta_de_liga(c) not in hub]
     ok(not sin_enlace, "y el hub enlaza a todas", str(sin_enlace[:3]))
 
@@ -734,7 +802,7 @@ def prueba_datos_de_liga() -> None:
     print("\n=== datos reales en las páginas de liga ===")
     todo = sitio()
 
-    lec = todo["liga-lec.html"]
+    lec = todo["league-lec.html"]
     jugadores = datos.jugadores_de("lec")
     ok(bool(jugadores), "hay jugadores de la LEC descargados", f"{len(jugadores)}")
 
@@ -795,7 +863,7 @@ def prueba_datos_de_liga() -> None:
     # todas las cuentas conocidas y el leaderboard solo las de su lista), y la
     # página pinta la del barrido. La prueba pedía el rango del leaderboard, así
     # que señalaba como fallo algo que la página hace bien.
-    ebl = todo["liga-ebl.html"]
+    ebl = todo["league-ebl.html"]
     barridos = datos.jugadores_de("ebl")
     ok(bool(barridos), "hay barrido de la EBL medido", f"{len(barridos)}")
     lider = barridos[0]
@@ -847,7 +915,7 @@ def prueba_datos_de_liga() -> None:
     ok(not ceros, "ninguna página publica un contador a cero", str(ceros[:3]))
 
     # La LPL no puede prometer avisos en vivo en su propia página.
-    lpl = todo["liga-lpl.html"]
+    lpl = todo["league-lpl.html"]
     ok("does not expose" in lpl,
        "la página de la LPL explica por qué no hay partida en vivo")
 
@@ -1013,7 +1081,7 @@ def prueba_descargo() -> None:
 def prueba_comparativa() -> None:
     """La comparativa: verificable y con las filas donde perdemos escritas."""
     print("\n=== comparativa ===")
-    html = sitio()["alternativas-bots-lol-discord.html"]
+    html = sitio()["lol-discord-bots.html"]
 
     for rival in pags.RIVALES:
         ok(rival["nombre"] in html, f"{rival['nombre']} sale en la tabla")
@@ -1036,7 +1104,7 @@ def prueba_comparativa() -> None:
 def prueba_avisos() -> None:
     """La página de avisos: el número de latencia sale de config, no de la mano."""
     print("\n=== página de avisos ===")
-    html = sitio()["avisos.html"]
+    html = sitio()["alerts.html"]
     intervalo = datos.ajuste("CHECK_GAMES_INTERVAL", 30)
 
     ok(intervalo == 30, "el intervalo se lee de config.py", f"{intervalo} s")
@@ -1054,7 +1122,7 @@ def prueba_avisos() -> None:
 
 
 def prueba_historico_de_avisos() -> None:
-    """Las dos ramas de `avisos.html`: con histórico registrado y sin él.
+    """Las dos ramas de `alerts.html`: con histórico registrado y sin él.
 
     Es la comprobación que convierte esta página en lo que se pidió —"una web que
     emita los mismos avisos que le llegarían al Discord"— sin que pueda mentir en
@@ -1076,8 +1144,8 @@ def prueba_historico_de_avisos() -> None:
     ok(len(lista) == 3, "hay avisos de prueba con forma real", str(len(lista)))
 
     with con_avisos(lista):
-        con = sitio()["avisos.html"]
-        pagina = next(p for p in paginas() if p.ruta == "avisos.html")
+        con = sitio()["alerts.html"]
+        pagina = next(p for p in paginas() if p.ruta == "alerts.html")
 
     # La rama **vacía** también se inyecta, y no se lee el `avisos.jsonl` real.
     #
@@ -1089,7 +1157,7 @@ def prueba_historico_de_avisos() -> None:
     # real; el comentario de arriba ya decía que había que inyectarlo, solo que la
     # rama vacía se quedó fuera.
     with con_avisos([]):
-        vacio = sitio()["avisos.html"]
+        vacio = sitio()["alerts.html"]
 
     # --- Con histórico ---
     ok('class="tabla avisos"' in con, "con registro se pinta la tabla de avisos")
@@ -1256,7 +1324,7 @@ def prueba_estilos() -> None:
     `@font-face`, porque `system-ui` no se descarga. Si algún día se añade una
     fuente propia, esta prueba obliga a declararlo.
 
-    Las clases se recogen de **las dos ramas** de `avisos.html`, con histórico y
+    Las clases se recogen de **las dos ramas** de `alerts.html`, con histórico y
     sin él. Con solo una, las reglas de la tabla de avisos saldrían como "CSS sin
     usar" mientras el registro esté vacío, y el arreglo obvio —borrarlas— dejaría
     la página sin maquetar el día que el bot empiece a avisar.
@@ -1291,17 +1359,17 @@ def prueba_estilos() -> None:
     # deben tener) regla en `styles.css`, así que se descuentan.
     usadas -= {"adsbygoogle"}
 
-    # `socios.html` y `live.js` son los dos únicos sitios donde se escribe HTML
+    # `partners.html` y `live.js` son los dos únicos sitios donde se escribe HTML
     # fuera de `generar_web.py`, y ninguno pasa por `construir()`, así que sus
     # clases no están en `paginas_html` y sin esto aparecerían como reglas
-    # huérfanas. No lo son: `socios.html` se despliega tal cual y `live.js`
+    # huérfanas. No lo son: `partners.html` se despliega tal cual y `live.js`
     # pinta la tira de equipos y el feed **en el navegador**, con datos que el
     # generador no tiene cuando escribe la página.
     #
     # Se leen del disco en vez de listarlas: una lista fija se queda corta la
     # primera vez que alguien añade una clase a cualquiera de los dos, y el
     # fallo que produce —borrar CSS que sí se usa— es peor que el que evita.
-    socios = os.path.join(gw.RAIZ, "web", "socios.html")
+    socios = os.path.join(gw.RAIZ, "web", "partners.html")
     if os.path.exists(socios):
         with open(socios, encoding="utf-8") as fh:
             for atributo in re.findall(r'class="([^"]+)"', fh.read()):
@@ -1349,14 +1417,14 @@ def prueba_generacion_completa() -> None:
         ok(codigo == 0, "generar la web entera termina sin errores", f"código {codigo}")
 
         ficheros = set(os.listdir(tmp))
-        for obligatorio in ("index.html", "ligas.html", "avisos.html", "404.html",
+        for obligatorio in ("index.html", "leagues.html", "alerts.html", "404.html",
                             "sitemap.xml", "robots.txt", "og.png", "favicon.svg",
                             "styles.css", "legal.html"):
             ok(obligatorio in ficheros, f"se escribe {obligatorio}")
 
-        ok(len([f for f in ficheros if f.startswith("liga-")]) == len(LIGAS),
+        ok(len([f for f in ficheros if f.startswith("league-")]) == len(LIGAS),
            f"y las {len(LIGAS)} páginas de liga",
-           f"{len([f for f in ficheros if f.startswith('liga-')])}")
+           f"{len([f for f in ficheros if f.startswith('league-')])}")
 
         png = os.path.join(tmp, "og.png")
         medida = datos.medir_imagen(png)
@@ -1372,9 +1440,14 @@ def prueba_generacion_completa() -> None:
             xml = fh.read()
         ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
         locs = {n.text for n in ET.fromstring(xml).iter(f"{ns}loc")}
+        # Las redirecciones de las rutas viejas (`gw.REDIRECCIONES`) son ficheros
+        # `.html` pero **no** son páginas del sitio: mandan a otra y no deben
+        # estar en el sitemap. Sin excluirlas, la comparación daba 28 contra 52 y
+        # parecía que faltaban páginas cuando lo que sobraban eran carteles.
+        redirecciones = set(gw.REDIRECCIONES)
         htmls = {
             seo.absoluta(SITIO, f) for f in ficheros
-            if f.endswith(".html") and f != "404.html"
+            if f.endswith(".html") and f != "404.html" and f not in redirecciones
         }
         ok(locs == htmls,
            "el sitemap escrito coincide con los HTML escritos en disco",
@@ -1384,6 +1457,7 @@ def prueba_generacion_completa() -> None:
 def main() -> int:
     prueba_html_bien_formado()
     prueba_titulos_unicos()
+    prueba_redirecciones()
     prueba_canonicos()
     prueba_un_solo_h1()
     prueba_open_graph()

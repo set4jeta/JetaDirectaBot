@@ -74,7 +74,7 @@ async def main() -> int:
     #   de quién estuviera suscrito ese día.
     # * `avisos.jsonl` — es el registro de avisos **publicados**, y lo lee la web
     #   para pintar la página de avisos. La prueba lo escribía, así que después de
-    #   ejecutarla `avisos.html` publicaba un aviso que nadie había recibido (y
+    #   ejecutarla `alerts.html` publicaba un aviso que nadie había recibido (y
     #   `test_web` empezaba a fallar por eso, sin relación aparente). Pasó el
     #   29-09-2026 y costó un rato entender de dónde salía esa línea.
     #

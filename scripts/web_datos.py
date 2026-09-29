@@ -841,7 +841,7 @@ def campeones_de(codigo: str, *, rol: str = "", tope: int = 10) -> list[UsoCampe
 # Avisos publicados de verdad
 # ---------------------------------------------------------------------- #
 #
-# Esto es lo que faltaba para que `avisos.html` fuera un histórico y no solo un
+# Esto es lo que faltaba para que `alerts.html` fuera un histórico y no solo un
 # ejemplo del formato. Lo escribe `tracking/soloq/avisos_log.py` cuando un aviso
 # sale de verdad, y aquí solo se lee.
 #

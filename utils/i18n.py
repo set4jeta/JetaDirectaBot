@@ -1181,6 +1181,23 @@ _CATALOGO: dict[str, dict[str, str]] = {
               "everyone: `/premium` explains it.",
     },
 
+    # ---- Freno por usuario ---------------------------------------------- #
+    #
+    # El texto tiene que sonar a «espera un momento», no a «te estás portando
+    # mal». Quien lo ve casi siempre es alguien probando el bot por primera vez
+    # que ha encadenado comandos sin darse cuenta, no un abusón: el tono cambia
+    # por completo si se le trata como al segundo.
+    #
+    # Por eso dice cuántos segundos faltan y por qué existe el freno, en una
+    # línea. Un «demasiadas peticiones» a secas deja al usuario pensando que el
+    # bot está roto.
+    "freno.espera": {
+        "es": "🐢 Vas muy rápido — espera {segundos} s y vuelve a probar. El "
+              "freno está para que nadie retrase los avisos de los demás.",
+        "en": "🐢 You're going a bit fast — wait {segundos}s and try again. The "
+              "brake is there so nobody delays everyone else's alerts.",
+    },
+
     # ---- Esports: /esports-live, /esports-schedule, /esports-channel-add, /esports-channel-remove ----
     "esports.buscando": {
         "es": "⏳ Buscando partidas en vivo...",

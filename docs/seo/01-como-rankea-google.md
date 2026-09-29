@@ -17,7 +17,7 @@ Cuánto responde la página a la consulta. Se determina sobre todo con tres cosa
 
 Que el *anchor text* siga siendo una de las tres patas es importante para esta
 web: significa que el enlazado interno no es relleno. Si todas las páginas de
-liga se enlazan desde `ligas.html` con el texto "LEC", "LCK", "LTA Norte", ese
+liga se enlazan desde `leagues.html` con el texto "LEC", "LCK", "LTA Norte", ese
 texto es señal de relevancia para esas consultas.
 
 ### 2. Navboost: 13 meses de clics

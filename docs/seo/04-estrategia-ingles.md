@@ -40,9 +40,9 @@ intención de instalar**, no a consultas informativas que un AI Overview resuelv
 
 ```
 /                       → inglés (x-default)
-/ligas.html             → NO: /leagues.html
+/leagues.html             → NO: /leagues.html
 /es/                    → español
-/es/ligas.html          → español
+/es/leagues.html          → español
 ```
 
 Razones:
@@ -54,9 +54,23 @@ Razones:
 3. **La autoridad se acumula en la raíz.** El dominio raíz siempre concentra más
    enlaces que cualquier subcarpeta.
 
-Coste: hay que traducir 26 páginas y **las URLs en inglés deben tener slugs en
-inglés**. `/leagues.html`, no `/ligas.html`. La URL es parte del contenido que
+Coste: hay que traducir 26 páginas y **las URLs en inglés tienen que tener slugs
+en inglés**. `/leagues.html`, no `/ligas.html`. La URL es parte del contenido que
 Google lee y una URL en español en la versión inglesa es señal contradictoria.
+
+> **Hecho el 29-09-2026.** Las rutas se pasaron a inglés (`ligas.html` →
+> `leagues.html`, `avisos.html` → `alerts.html`, `liga-lec.html` →
+> `league-lec.html`, `socios.html` → `partners.html` y
+> `alternativas-bots-lol-discord.html` → `lol-discord-bots.html`). Se hizo antes
+> de traducir, y a propósito: el sitio casi no está indexado, así que moverlo
+> costaba casi cero. Al revés —traducir primero y renombrar después— habría
+> dejado las URLs en español dentro de la versión inglesa justo cuando empezara
+> a llegar gente.
+>
+> Las rutas viejas siguen respondiendo con una redirección estática
+> (`generar_web.REDIRECCIONES`): GitHub Pages no sabe devolver un 301, así que
+> llevan `meta refresh` **y un canónico a la nueva**, que es lo que transfiere la
+> autoridad de verdad. Se pueden borrar cuando no quede nada apuntando a ellas.
 
 ### Lo que hay que traducir de verdad
 

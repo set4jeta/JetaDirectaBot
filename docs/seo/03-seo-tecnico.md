@@ -22,7 +22,7 @@ del repositorio a través de Jekyll. Resultado medido:
 | URL | Respuesta |
 |---|---|
 | `set4jeta.github.io/JetaDirectaBot/` | 200, pero sirve el README |
-| `.../ligas.html` | **404** |
+| `.../leagues.html` | **404** |
 | `.../sitemap.xml` | **404** |
 | `.../robots.txt` | **404** |
 
@@ -49,7 +49,7 @@ GitHub Pages no permite redirecciones de servidor — habría que usar un
 `<meta http-equiv="refresh">`, que es peor. Así que **las rutas se deciden ahora**.
 
 Decisión a tomar antes de publicar: las páginas de liga son
-`liga-lec.html`, `liga-lck.html`… Si algún día se quiere `/lec/`, hay que hacerlo
+`league-lec.html`, `liga-lck.html`… Si algún día se quiere `/lec/`, hay que hacerlo
 antes del primer `push`, no después.
 
 ## 3. Enlazado interno
@@ -57,7 +57,7 @@ antes del primer `push`, no después.
 Es una de las tres señales "ABC" (Anchors) del cubo de relevancia, así que no es
 navegación: es ranking.
 
-**Arquitectura actual:** menú de 5 entradas en las 26 páginas, más `ligas.html`
+**Arquitectura actual:** menú de 5 entradas en las 26 páginas, más `leagues.html`
 como hub que enlaza a las 20 páginas de liga. Cualquier página de liga está a dos
 saltos de cualquier otra.
 

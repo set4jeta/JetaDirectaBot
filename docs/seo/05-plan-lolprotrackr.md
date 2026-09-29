@@ -35,7 +35,7 @@ Tenemos 20 páginas de liga por plantilla. **Medido con
 media de frases compartidas entre las 20 páginas de liga: 33.5%
 404.html                    71.4%   <- es un 404, no importa
 liga-al.html                38.1%   <- la peor
-liga-lec.html               25.0%   <- la mejor, porque tiene datos propios
+league-lec.html               25.0%   <- la mejor, porque tiene datos propios
 ```
 
 33,5 % **no es alarmante** (por debajo del 50 % que considero sospechoso) y la
@@ -74,7 +74,7 @@ Los documentos del juicio antimonopolio (vía Cyrus Shepard) ponen los **Anchors
 —los enlaces y su texto— como una de las tres patas del cubo de relevancia. El
 enlazado interno es la única parte de eso que se controla desde dentro.
 
-**Estado:** menú de 5 en las 26 páginas + hub `ligas.html` → 20 ligas. Bien
+**Estado:** menú de 5 en las 26 páginas + hub `leagues.html` → 20 ligas. Bien
 diseñado. Lo que falta son **enlaces laterales**: quien mira el elo de la LEC
 suele querer ver la LCK después, y ahora el único camino es volver al hub.
 
@@ -101,7 +101,7 @@ Orden por retorno, no las 26 de golpe:
 | 5 | Las 20 de liga | Solo si las 4 primeras funcionan |
 
 Estructura: **inglés en la raíz, español en `/es/`**. Con slugs en inglés en la
-versión inglesa (`/leagues.html`, no `/ligas.html`).
+versión inglesa (`/leagues.html`, no `/leagues.html`).
 
 **Acción 3.1:** infraestructura de `hreflang` en `web_seo.py`, apagada hasta que
 existan las páginas. ✅ **Hecho** — ver más abajo.
@@ -122,7 +122,7 @@ sistemas de IA de dónde responder.
 salen de la API de Riot. Casi nadie más publica eso actualizado.
 
 **Estado:** `dateModified` ya se emite en el `Article` de todas las páginas de
-contenido, y `avisos.html` usa deliberadamente la fecha del último aviso real en
+contenido, y `alerts.html` usa deliberadamente la fecha del último aviso real en
 vez de la de generación — para no fingir frescura. Eso está bien resuelto.
 
 **Acción 4.1:** que la fecha de actualización sea **visible para el humano**, no

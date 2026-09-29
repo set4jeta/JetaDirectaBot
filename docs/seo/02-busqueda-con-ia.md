@@ -88,7 +88,7 @@ Traducido a nuestras páginas, esto reordena las prioridades:
 | Comparativa con otros bots | Parcialmente, pero es decisión de compra (BOFU) | **La más alta** |
 | Página de liga sin datos propios | Sí | Reforzar o quitar |
 
-La comparativa (`alternativas-bots-lol-discord.html`) es la página más valiosa del
+La comparativa (`lol-discord-bots.html`) es la página más valiosa del
 sitio bajo este marco, y ahora mismo está tratada como una más. Quien busca
 "alternativas a X bot" está a un paso de instalar algo.
 

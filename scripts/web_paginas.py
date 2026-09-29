@@ -50,7 +50,7 @@ TOPE_TABLA = 15
 #: móvil, que es donde se lee esto.
 TOPE_CAMPEONES = 8
 
-#: Cuántos avisos publicados se enseñan en `avisos.html`. Con 12 se ve que el
+#: Cuántos avisos publicados se enseñan en `alerts.html`. Con 12 se ve que el
 #: bot avisa de verdad y que no es siempre el mismo jugador, sin convertir la
 #: página en un volcado de log. El registro en disco guarda 500.
 TOPE_AVISOS = 12
@@ -470,13 +470,13 @@ def seccion_partidos(liga, lista: list, *, medido: str = "") -> str:
 # ---------------------------------------------------------------------- #
 
 def ruta_de_liga(codigo: str) -> str:
-    """`"lec"` -> `"liga-lec.html"`.
+    """`"lec"` -> `"league-lec.html"`.
 
     Con prefijo y en la raíz, no en una carpeta `/ligas/lec.html`: la web se
     publica en GitHub Pages sin servidor propio, así que no hay reescritura de
     URL, y una URL plana no puede romperse por una barra de más o de menos.
     """
-    return f"liga-{codigo}.html"
+    return f"league-{codigo}.html"
 
 
 #: Grupos de ligas que alguien compararía entre sí. Existen para los enlaces
@@ -910,7 +910,7 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
     )
 
     cuerpo = [
-        maq.migas_html([("Home", "index.html"), ("Leagues", "ligas.html"),
+        maq.migas_html([("Home", "index.html"), ("Leagues", "leagues.html"),
                         (liga.nombre, ruta_de_liga(codigo))]),
         '  <header class="pagina">\n'
         '    <div class="envoltura">\n'
@@ -1028,7 +1028,7 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
     pagina.schemas = [
         seo.jsonld(seo.articulo(sitio, pagina, fecha, branding.BOT_NOMBRE)),
         seo.jsonld(seo.migas(sitio, [
-            ("Home", "index.html"), ("Leagues", "ligas.html"),
+            ("Home", "index.html"), ("Leagues", "leagues.html"),
             (liga.nombre, ruta_de_liga(codigo)),
         ])),
         seo.jsonld(seo.faq(preguntas)),
@@ -1157,7 +1157,7 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
     ]
 
     cuerpo = [
-        maq.migas_html([("Home", "index.html"), ("Leagues", "ligas.html")]),
+        maq.migas_html([("Home", "index.html"), ("Leagues", "leagues.html")]),
         '  <header class="pagina">\n'
         '    <div class="envoltura">\n'
         f"      <h1>The {len(LIGAS)} leagues you can follow</h1>\n"
@@ -1194,7 +1194,7 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
     ]
 
     pagina = Pagina(
-        ruta="ligas.html",
+        ruta="leagues.html",
         titulo=titulo,
         descripcion=descripcion,
         cuerpo="".join(cuerpo),
@@ -1202,7 +1202,7 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
     )
     pagina.schemas = [
         seo.jsonld(seo.articulo(sitio, pagina, fecha, branding.BOT_NOMBRE)),
-        seo.jsonld(seo.migas(sitio, [("Home", "index.html"), ("Leagues", "ligas.html")])),
+        seo.jsonld(seo.migas(sitio, [("Home", "index.html"), ("Leagues", "leagues.html")])),
         seo.jsonld(seo.faq(preguntas)),
     ]
     return pagina
@@ -1281,7 +1281,7 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
     hoy?», que es la consulta por la que alguien pone publicidad.
 
     No sustituye al calendario de cada liga porque la intención va en dirección
-    contraria: en `liga-lec.html` el visitante ya sabe qué liga quiere y aquí
+    contraria: en `league-lec.html` el visitante ya sabe qué liga quiere y aquí
     no. Son dos preguntas distintas y mezclarlas haría que ninguna se responda
     bien.
 
@@ -1698,7 +1698,7 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
 
     cuerpo = [
         maq.migas_html([("Home", "index.html"),
-                        ("How alerts look", "avisos.html")]),
+                        ("How alerts look", "alerts.html")]),
         '  <header class="pagina">\n'
         '    <div class="envoltura">\n'
         "      <h1>What the alert that reaches your Discord looks like</h1>\n"
@@ -1773,7 +1773,7 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
     cuerpo.append(maq.cta("Add to Discord and try it"))
 
     pagina = Pagina(
-        ruta="avisos.html",
+        ruta="alerts.html",
         titulo=titulo,
         descripcion=descripcion,
         cuerpo="".join(cuerpo),
@@ -1790,7 +1790,7 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
             modificado=reales[0].fecha if reales else "",
         )),
         seo.jsonld(seo.migas(sitio, [
-            ("Home", "index.html"), ("How alerts look", "avisos.html"),
+            ("Home", "index.html"), ("How alerts look", "alerts.html"),
         ])),
         seo.jsonld(seo.faq(preguntas)),
     ]
@@ -1993,7 +1993,7 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
     cuerpo = [
         maq.migas_html([
             ("Home", "index.html"),
-            ("Comparison", "alternativas-bots-lol-discord.html"),
+            ("Comparison", "lol-discord-bots.html"),
         ]),
         '  <header class="pagina">\n'
         '    <div class="envoltura">\n'
@@ -2053,7 +2053,7 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
     ]
 
     pagina = Pagina(
-        ruta="alternativas-bots-lol-discord.html",
+        ruta="lol-discord-bots.html",
         titulo=titulo,
         descripcion=descripcion,
         cuerpo="".join(cuerpo),
@@ -2063,7 +2063,7 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
         seo.jsonld(seo.articulo(sitio, pagina, fecha, branding.BOT_NOMBRE)),
         seo.jsonld(seo.migas(sitio, [
             ("Home", "index.html"),
-            ("Comparison", "alternativas-bots-lol-discord.html"),
+            ("Comparison", "lol-discord-bots.html"),
         ])),
         seo.jsonld(seo.faq(preguntas)),
     ]

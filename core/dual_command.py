@@ -243,6 +243,33 @@ def _base(nombre: str, descripcion: str, permiso, alcance) -> tuple[str, str, di
     return nombre_base, desc, {**extra, **ambito}
 
 
+async def _frenar(interaction: nextcord.Interaction) -> bool:
+    """Freno por usuario. Devuelve `True` si hay que cortar la respuesta.
+
+    Va aquí, en los envoltorios de `slash`/`slash_texto`/`slash_opciones`, y no
+    en cada comando: **todos los comandos pasan por estos tres sitios**, así que
+    ponerlo en un sitio lo cubre todo y no hay forma de añadir un comando nuevo
+    que se olvide de pasar por el freno.
+
+    Corta **antes** de llamar al cuerpo del comando, que es el punto entero: si
+    se frenara después, el gasto de cuota de Riot ya se habría hecho y no
+    serviría de nada. Ver `utils/cooldown.py` para el porqué.
+
+    Cuando frena, responde él y devuelve `True` para que el comando no siga. El
+    mensaje dice cuántos segundos faltan: un «no» seco se lee como que el bot
+    está roto.
+    """
+    from utils.cooldown import permitir
+
+    espera = permitir(interaction.user.id)
+    if espera <= 0:
+        return False
+
+    res = Respuesta(interaction)
+    await res.error(res.traductor("freno.espera", segundos=max(1, round(espera))))
+    return True
+
+
 def slash(
     bot: commands.Bot,
     nombre: str,
@@ -269,6 +296,8 @@ def slash(
 
     @bot.slash_command(name=nombre_base, description=desc, **extra)
     async def _slash(interaction: nextcord.Interaction):  # noqa: ANN202
+        if await _frenar(interaction):
+            return
         await cuerpo(Respuesta(interaction))
 
 
@@ -308,6 +337,8 @@ def slash_texto(
             **({} if requerido else {"default": ""}),
         ),
     ):
+        if await _frenar(interaction):
+            return
         await cuerpo(Respuesta(interaction), (valor or "").strip())
 
 
@@ -375,6 +406,8 @@ def slash_opciones(
             specs.append((op, ayuda, list(tupla), tupla, por_defecto))
 
     async def _slash(interaction: nextcord.Interaction, **valores: str):  # noqa: ANN202
+        if await _frenar(interaction):
+            return
         elegidos: dict[str, str] = {}
         for i, (op, _ayuda, _discord, validos, por_defecto) in enumerate(specs):
             valor = (valores.get(f"valor_{i}") or "").strip()

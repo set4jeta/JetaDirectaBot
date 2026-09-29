@@ -101,7 +101,7 @@ def main(argv: list[str]) -> int:
 
     # Las paginas de liga aparte: son la plantilla repetida 20 veces y el
     # numero que importa es cuanto se parecen entre ellas, no al resto.
-    ligas = {n: f for n, f in por_pagina.items() if n.startswith("liga-")}
+    ligas = {n: f for n, f in por_pagina.items() if n.startswith("league-")}
     if len(ligas) > 1:
         pres_liga: Counter[str] = Counter()
         for fs in ligas.values():

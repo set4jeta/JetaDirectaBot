@@ -185,7 +185,7 @@ class Pagina:
     no se ve mirando una página: se ve comparándolas todas.
     """
 
-    ruta: str          # "index.html", "liga-lec.html"...
+    ruta: str          # "index.html", "league-lec.html"...
     titulo: str        # el <title> y el og:title
     descripcion: str   # la meta description y el og:description
     #: HTML del cuerpo, ya montado por el generador.
@@ -456,7 +456,7 @@ def articulo(
     contenido sale de los datos del bot y se rehace en cada regeneración.
 
     `modificado` sirve para declarar una fecha **anterior y más honesta** cuando
-    se sabe cuándo cambió el contenido de verdad. `avisos.html` la fija en el
+    se sabe cuándo cambió el contenido de verdad. `alerts.html` la fija en el
     último aviso registrado: regenerar el sitio un lunes en el que el bot no ha
     avisado no hace que esa página tenga nada nuevo, y estampar la fecha de hoy
     sería exactamente la frescura falsa que estos sistemas acaban descontando.

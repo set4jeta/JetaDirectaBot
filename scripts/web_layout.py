@@ -152,7 +152,7 @@ def cabeza(pagina: Pagina, pub: str, sitio: str) -> str:
 #: demás **sin depender del sitemap**, y es la parte de "buenos enlaces
 #: apuntando a esas páginas" que sí se controla desde dentro del sitio.
 #:
-#: Las 20 páginas de liga no van aquí sino en `ligas.html`, que es el hub: un
+#: Las 20 páginas de liga no van aquí sino en `leagues.html`, que es el hub: un
 #: menú de 25 entradas repetido en 25 páginas diluye el enlace y no ayuda a
 #: nadie a navegar. Con el hub, cualquier página de liga está a dos saltos de
 #: cualquier otra.
@@ -161,11 +161,11 @@ def cabeza(pagina: Pagina, pub: str, sitio: str) -> str:
 #: volver, y estar en el pie de las 26 la pone a un clic de cualquier parte.
 NAV: tuple[tuple[str, str], ...] = (
     ("index.html", "Home"),
-    ("ligas.html", "Leagues"),
+    ("leagues.html", "Leagues"),
     ("upcoming-lol-matches.html", "Upcoming matches"),
-    ("avisos.html", "How alerts look"),
+    ("alerts.html", "How alerts look"),
     ("commands.html", "Commands"),
-    ("alternativas-bots-lol-discord.html", "Comparison"),
+    ("lol-discord-bots.html", "Comparison"),
     ("legal.html", "Terms & privacy"),
 )
 
@@ -296,7 +296,7 @@ def cta(texto: str = "Add to Discord", *, nota: str = "") -> str:
         f"the {len(LIGAS)} leagues in the catalogue. Free.</p>\n"
         '      <div class="botones">\n'
         f'        <a class="boton primario" href="{invite}"{invite_attr}>{e(texto)}</a>\n'
-        '        <a class="boton" href="avisos.html">See what the alert looks like</a>\n'
+        '        <a class="boton" href="alerts.html">See what the alert looks like</a>\n'
         "      </div>\n"
         f"{linea}"
         "    </div>\n"

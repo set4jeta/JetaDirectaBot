@@ -21,9 +21,9 @@ ya funcionante (bot + lógica de notificación + capacidad de leer la API de Rio
 en un activo que **genere tráfico y dinero**, con tres patas:
 
 1. **Web esports "espectacular"** que enseñe los datos en vivo y atraiga
-   audiencia (hecho: rediseño `web/` con tema Arena + `socios.html`).
+   audiencia (hecho: rediseño `web/` con tema Arena + `partners.html`).
 2. **Patrocinios de marcas.** La web avisa en el momento exacto de la
-   partida → intención en tiempo real → público cualificado. `socios.html` es la
+   partida → intención en tiempo real → público cualificado. `partners.html` es la
    landing de alianzas (afiliado / embed patrocinado / socio principal).
 3. **SEO automático + tráfico.** Sentar la web para que posicione (sitemap,
    JSON-LD, canonical, metas) y cosechar conocimiento SEO de referentes para
@@ -36,10 +36,10 @@ literalmente, en *Monetization*: *"Your product cannot feature betting or
 gambling functionality"*, y en torneos: *"Not include any gambling"*. Las formas
 aceptables de cobrar son suscripciones, donaciones o crowdfunding. Por eso el
 22-09-2026 se quitaron **todas** las referencias a casas de apuestas de la web
-(`index.html` y `socios.html`): no volver a introducirlas, ni como "afiliado de
+(`index.html` y `partners.html`): no volver a introducirlas, ni como "afiliado de
 apuestas", ni como "enlace de apuesta en el aviso", ni en el copy de marketing.
 Lo único que puede mencionar apuestas es la **negación** (que no hay), como en
-`legal.html` y en la nota legal de `socios.html`. Los números de alcance son
+`legal.html` y en la nota legal de `partners.html`. Los números de alcance son
 privados (NDA de hecho con los patrocinadores) → no se publican cifras inventadas.
 
 **Descargo de Riot: retirado por orden del dueño (22-09-2026).** La política de
@@ -137,7 +137,7 @@ lanzar no existe. No reintentar salvo que el usuario instale Opera y lo pida.
   de las clases que emite el generador (`.tarjeta`, `.cmd`, `.plan`…). Añadir una
   clase nueva al generador sin su regla aquí sale como página sin maquetar; lo
   vigila `scripts/test_web.py`.
-- `web/socios.html` — landing de patrocinios de marcas (planes de alianza +
+- `web/partners.html` — landing de patrocinios de marcas (planes de alianza +
   nota legal Riot, que excluye expresamente apuestas y juegos de azar + CTA
   mailto `socios@lolprotrackr.example`). **Es el único HTML a mano** que queda,
   así que editarlo es seguro. Dos consecuencias que hay que respetar:
@@ -204,7 +204,7 @@ web/live.js  ->  pinta #teams-strip y #feed en index.html
 
 **Hecho en esta sesión**
 - [x] Rediseño esports de `web/index.html` + `web/styles-esports.css`.
-- [x] `web/socios.html` (landing de patrocinios de marcas; sin apuestas desde
+- [x] `web/partners.html` (landing de patrocinios de marcas; sin apuestas desde
   el 22-09-2026, por la política de Riot).
 - [x] `web/live.js` + contrato `api/live.json`.
 - [x] `scripts/bridge_web.py` (puente bot→web, sin tocar el generador).
@@ -219,7 +219,7 @@ web/live.js  ->  pinta #teams-strip y #feed en index.html
   artículos reales de la web (necesita entorno X: `twitter.exe` + token + cookies
   de Opera GX). `scripts/x_sesion.sh` no existe → crearlo.
 - [ ] **Monetización:** conectar AdSense real (`--adsense`), o implementar el
-  modelo de afiliado/embed patrocinado descrito en `socios.html`.
+  modelo de afiliado/embed patrocinado descrito en `partners.html`.
 - [ ] **Alcance:** los 919 jugadores / 20 ligas del discurso no coinciden con los
   50/10 del `accounts_from_teams.json` actual. Reconciliar la fuente de verdad de
   "equipos seguidos" (¿`leagues.py`? ¿otro fichero?) para que la tira de equipos y
@@ -243,7 +243,7 @@ El código funciona; **la publicación es lo que está roto**. Medido, no supues
   ni `AGENTS.md`, y sí tiene el `copa/` que aquí ya está borrado.
 - **`web/` nunca se subió** (82 ficheros, 2,0 MB). Comprobado por HTTP:
   la raíz de Pages responde 200 (es el README pasado por Jekyll),
-  `ligas.html` y `api/live.json` responden **404**.
+  `leagues.html` y `api/live.json` responden **404**.
 - **828 ficheros sin commitear** en la carpeta local: todo el trabajo de
   sept-2026. Ya están commiteados en 4 commits sobre `9b0f57d` (limpieza, datos,
   código, web+despliegue). Falta el push, que **se rechaza con `git push` a
@@ -420,6 +420,60 @@ romperlo:
   palabras españolas. Los tres bloques que se colaron y se arreglaron el
   22-09-2026 fueron el CTA del pie (salía en las 28 páginas), el hueco de
   publicidad y el aviso del pie con AdSense.
+
+---
+
+## Las URLs están en inglés (29-09-2026)
+
+Las rutas de la web pasaron de español a inglés, **antes** de traducir el
+contenido a `/es/` y a propósito:
+
+| Antes | Ahora |
+|---|---|
+| `ligas.html` | `leagues.html` |
+| `avisos.html` | `alerts.html` |
+| `alternativas-bots-lol-discord.html` | `lol-discord-bots.html` |
+| `socios.html` | `partners.html` |
+| `liga-lec.html` | `league-lec.html` (las 20) |
+
+El contenido ya estaba en inglés desde el 22-09, así que tener la URL en español
+era una señal contradictoria: la URL es parte de lo que Google lee. Se hizo ahora
+porque el sitio casi no está indexado y moverlo costaba casi cero; dentro de un
+año, con tráfico, habría que arrastrar redirecciones.
+
+**Las rutas viejas siguen vivas** como redirecciones estáticas
+(`generar_web.REDIRECCIONES`). GitHub Pages no puede devolver un 301 —no hay
+servidor—, así que llevan `meta refresh` **y un canónico a la nueva**. El canónico
+es lo que hace el trabajo: `noindex` + `canonical` juntos se contradicen y Google
+ignora el canónico, así que **no se pone `noindex`**. Las redirecciones no entran
+en el sitemap y se pueden borrar el día que no quede nada apuntando a ellas.
+
+`web/partners.html` es el fichero a mano y se renombró con él: está en
+`PAGINAS_A_MANO` y en la lista de copia de `main()` con el nombre nuevo.
+
+---
+
+## El freno por usuario (29-09-2026)
+
+`utils/cooldown.py`. Un cubo de fichas por usuario: 10 comandos encadenados y
+después ~20/minuto. Existe porque el limitador de Riot es **global** y no había
+ningún límite por usuario, así que alguien machacando un comando **competía con el
+el tracker en la misma cola** —y el tracker es lo que manda los avisos—: un solo
+usuario podía retrasar los de todos. No tumbaba el bot; lo degradaba.
+
+Va enganchado en `core/dual_command._frenar()`, que es por donde pasan **los tres
+envoltorios** (`slash`, `slash_texto`, `slash_opciones`). Ponerlo ahí y no en cada
+comando es lo que hace que uno nuevo no pueda olvidarse de pasar por el freno, y
+que corte **antes** de gastar cuota de Riot — si cortara después, el gasto ya
+estaría hecho.
+
+Lo que **no** es: una defensa contra ataques. Los comandos llegan por el gateway de
+Discord, así que quien abuse tiene que pasar antes por los límites de Discord.
+Esto es para el que prueba veinte cosas seguidas o deja un bucle abierto.
+
+`scripts/test_cooldown.py` vigila lo que más importa: **que un usuario normal no
+lo note nunca**. Un freno que molesta a quien usa bien el bot es peor que el
+problema que resuelve.
 
 ---
 

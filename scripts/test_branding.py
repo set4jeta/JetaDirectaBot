@@ -131,6 +131,36 @@ check(
     "no devuelve etiquetas con la URL vacía",
 )
 
+print("\n=== el aviso dice de qué bot viene ===")
+
+# El aviso de partida es lo único que ve alguien que no conoce el proyecto:
+# aparece en un canal, interesa a quien lo lee, y hasta el 29-09-2026 no decía
+# de dónde salía ni cómo tenerlo. Cada aviso es publicidad y se estaba
+# desperdiciando entera. Esto vigila que la marca no se caiga por descuido.
+import asyncio  # noqa: E402
+
+sys.path.insert(0, str(RAIZ / "scripts"))
+from models.soloq_match import SoloQMatch  # noqa: E402
+from scripts.test_i18n_embed import RANGOS, mapa, partida  # noqa: E402
+from ui.active_match_embed import create_match_embed  # noqa: E402
+
+
+async def _aviso():
+    match = SoloQMatch.from_riot_game_data(partida())
+    return await create_match_embed(match, mapa(1), RANGOS, idioma="es")
+
+
+_embed, _ = asyncio.run(_aviso())
+_autor = _embed.author
+
+check(_autor is not None, "el aviso lleva autor")
+check(_autor is not None and _autor.name == BOT_NOMBRE,
+      f"y el autor es el nombre del bot ({_autor.name if _autor else 'sin autor'})")
+# El enlace es lo que lo hace servir para algo: el `author` admite URL y el pie
+# no, así que un pie con la dirección escrita sería texto para copiar a mano.
+check(bool(_autor and _autor.url), "con enlace a Discord, pulsable")
+check(not _embed.footer, "sin pie: el descargo de Riot sigue fuera")
+
 print(f"\nfallos : {len(fallos)}")
 for f in fallos:
     print(f"  - {f}")

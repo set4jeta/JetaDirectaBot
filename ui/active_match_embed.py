@@ -412,7 +412,25 @@ async def create_match_embed(
             inline=False
         )
 
-    # Aquí iba el descargo corto de Riot en el pie, en todas las notificaciones.
-    # Se quitó el 22-09-2026 por instrucción del dueño (ver `utils/branding.py`).
+    # Quién manda esto.
+    #
+    # Hasta el 29-09-2026 el aviso **no decía de qué bot venía**. Y el aviso es lo
+    # único que ve alguien que no conoce el proyecto: aparece en un canal, interesa
+    # a quien lo lee, y no había forma de saber qué lo había publicado ni cómo
+    # tenerlo en su propio servidor. Cada aviso es publicidad y se estaba
+    # desperdiciando entera.
+    #
+    # Va en el `author` y **no en el pie**, y ese detalle es el que lo hace servir
+    # para algo: el `author` admite una URL y el pie no. Un pie con la dirección
+    # escrita no se puede pulsar, así que sería un texto para copiar a mano en vez
+    # de un clic.
+    #
+    # Una línea, pequeña y sin llamada a la acción. Esto es un aviso de producto
+    # dentro del canal de otra persona: el dueño de ese servidor no ha pedido
+    # publicidad, así que la marca va donde no estorba. Lo que se busca es que
+    # quien quiera encontrarlo pueda, no empujar a nadie.
+    from utils.branding import BOT_NOMBRE, INVITE_URL
+
+    embed.set_author(name=BOT_NOMBRE, url=INVITE_URL or None)
 
     return embed, files

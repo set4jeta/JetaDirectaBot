@@ -30,11 +30,28 @@ conectas**. Comprobado: entrando a una partida que llevaba diez minutos se recib
 el chunk 1 y los de ese momento, y los intermedios no existen. Por eso una partida
 completa exige empezar a grabar en los primeros segundos, y por eso esto publica
 en cuanto se detecta y no al final.
+
+Cómo sale del proceso: dos caminos, un solo dato
+------------------------------------------------
+Esto es la **única** fuente de lo que se publica. De aquí salen los dos transportes:
+
+- **HTTP**, en `GET /live-games`, para cuando el bot está desplegado en Render y el
+  grabador corre en otro sitio.
+- **Un fichero**, `partidas_vivo.json` en la raíz del proyecto, para cuando el bot y
+  el grabador están **en el mismo PC** — que es el caso normal. Así el grabador no
+  necesita que haya un servidor escuchando en un puerto para enterarse de que hay
+  una partida.
+
+Los dos leen de `listado()`, así que no pueden discrepar. Añadir un tercer camino
+que leyera la caché por su cuenta sería garantizar que un día digan cosas distintas.
 """
 
 from __future__ import annotations
 
+import json
+import os
 import time
+from pathlib import Path
 from typing import Any
 
 from utils.logger import get_logger
@@ -46,8 +63,49 @@ log = get_logger("tracking.partidas_en_vivo")
 #: grabar y solo ocupa sitio.
 CADUCA_S = 90 * 60
 
+#: Dónde se deja el fichero para el grabador del mismo PC. En la raíz del
+#: proyecto, para que el grabador tenga una ruta fija.
+FICHERO = Path(__file__).resolve().parents[2] / "partidas_vivo.json"
+
+#: Cuánto se espera entre escrituras del fichero. La lista cambia una vez por
+#: jugador detectado, y con 200 cuentas eso serían muchas escrituras por pasada
+#: para un fichero que se lee cada minuto. Diez segundos sobran.
+MINIMO_ENTRE_ESCRITURAS_S = 10.0
+
+#: Si falla la primera escritura se deja de intentar: en Render el disco puede ser
+#: de solo lectura y no tiene sentido llenar el log con el mismo error cada 30 s.
+_degradado = False
+_ultima_escritura = 0.0
+
 #: `game_id -> {game_id, plataforma, clave, pros, detectada, actualizada}`.
 _partidas: dict[int, dict[str, Any]] = {}
+
+
+def _escribir_fichero() -> None:
+    """Deja la lista en `partidas_vivo.json`, si toca. Nunca levanta.
+
+    Va en `try/except` y con un `_degradado` que la apaga al primer fallo: esto es
+    un extra para el grabador, no puede costar que alguien se quede sin su aviso.
+    """
+    global _degradado, _ultima_escritura
+    if _degradado:
+        return
+    ahora = time.time()
+    if ahora - _ultima_escritura < MINIMO_ENTRE_ESCRITURAS_S:
+        return
+
+    try:
+        # Escritura atómica: primero un temporal y luego se renombra, para que el
+        # grabador no lea nunca un fichero a medio escribir.
+        temporal = FICHERO.with_suffix(".json.tmp")
+        temporal.write_text(
+            json.dumps(listado(), ensure_ascii=False, indent=2), encoding="utf-8")
+        os.replace(temporal, FICHERO)
+        _ultima_escritura = ahora
+    except Exception:                                         # noqa: BLE001
+        _degradado = True
+        log.warning("No se pudo escribir partidas_vivo.json; se deja de intentar",
+                    exc_info=True)
 
 
 def publicar(match, pros: list[str]) -> None:
@@ -63,6 +121,13 @@ def publicar(match, pros: list[str]) -> None:
         if not clave:
             return
 
+        # `gameLength` es el reloj del **servidor de espectadores**: va unos tres
+        # minutos por detrás de la partida y arranca en negativo. Se guarda tal
+        # cual, sin normalizar. El grabador lo usa para ordenar las candidatas y
+        # mirar primero las que acaban de empezar, que son las únicas que se
+        # pueden grabar enteras — y así no gasta peticiones preguntando por las 30.
+        duracion = datos.get("gameLength")
+
         game_id = match.game_id
         ahora = time.time()
         entrada = _partidas.get(game_id)
@@ -75,18 +140,22 @@ def publicar(match, pros: list[str]) -> None:
                 "pros": list(pros),
                 "detectada": ahora,
                 "actualizada": ahora,
+                "game_length": duracion if isinstance(duracion, int) else None,
             }
             log.debug("Partida %s publicada para grabación (%s)", game_id, pros)
-            return
+        else:
+            # Ya estaba: se refresca el latido y se suman los pros nuevos. Un
+            # partido con tres pros se detecta tres veces (una por jugador), y las
+            # tres tienen que quedar reflejadas: el número de pros es el criterio
+            # para decidir qué grabar.
+            entrada["actualizada"] = ahora
+            if isinstance(duracion, int):
+                entrada["game_length"] = duracion
+            for nombre in pros:
+                if nombre not in entrada["pros"]:
+                    entrada["pros"].append(nombre)
 
-        # Ya estaba: se refresca el latido y se suman los pros nuevos. Un partido
-        # con tres pros se detecta tres veces (una por jugador), y las tres tienen
-        # que quedar reflejadas: el número de pros es el criterio para decidir qué
-        # grabar.
-        entrada["actualizada"] = ahora
-        for nombre in pros:
-            if nombre not in entrada["pros"]:
-                entrada["pros"].append(nombre)
+        _escribir_fichero()
     except Exception:
         log.debug("No se pudo publicar la partida para grabación", exc_info=True)
 

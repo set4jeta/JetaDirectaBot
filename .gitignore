@@ -30,6 +30,12 @@ cache/__pycache__/
 .archify/
 .backups/
 
+# Lo que el tracker publica para el grabador de vídeo. **No va al repo**: cambia
+# cada 30 segundos mientras el bot corre, así que solo daría ruido en cada
+# commit, y en Render no lo lee nadie — el grabador corre en el PC del dueño y
+# lee el suyo. Ver `tracking/soloq/vivo_para_grabador.py`.
+partidas_vivo.json
+
 # Backups sueltos
 *.bak
 *.orig

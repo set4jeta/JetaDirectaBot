@@ -2,10 +2,15 @@
 #
 # IMPORTANTE — lee esto antes de tocar el fichero
 # ----------------------------------------------
-# El servicio YA EXISTE en Render (se creó hace ~1 año con este mismo fichero).
-# Render identifica cada servicio por su `name`, así que **el nombre se queda
-# como estaba** (`discord-bot`): cambiarlo haría que Render no reconociera el
-# servicio actual y creara uno nuevo, duplicando el bot y la factura.
+# El servicio YA EXISTE en Render. Render identifica cada servicio por su `name`,
+# así que **el nombre tiene que ser exactamente el del servicio que ya hay**:
+# `JetaDirectaBot`. Con cualquier otro, Render no lo reconocería y **crearía uno
+# nuevo, duplicando el bot y la factura**.
+#
+# Este comentario decía antes que el nombre era `discord-bot` y que no se tocara.
+# Era al revés: el servicio se llama `JetaDirectaBot` (comprobado contra la API de
+# Render el 01-10-2026, id `srv-d25e71ili9vc73f6sbu0`). Seguir aquella nota tal
+# cual habría creado el duplicado que decía evitar.
 #
 # Este fichero solo se usa si creas o sincronizas un **Blueprint**. Un servicio
 # creado a mano (New → Web Service) lo ignora por completo.
@@ -18,13 +23,18 @@
 
 services:
   - type: web
-    name: discord-bot
+    name: JetaDirectaBot
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     # `keep_alive.py` responde "Bot is alive!" en `/` y respeta `$PORT`.
     healthCheckPath: /
+    # OJO: aquí dice `true` pero **el servicio real lo tiene apagado**
+    # (`autoDeploy: "no"`, comprobado el 01-10-2026). Consecuencia práctica: un
+    # `git push` **no despliega nada** y hay que lanzarlo a mano. Si se quiere que
+    # el push despliegue solo —que es lo que promete esta línea— hay que
+    # encenderlo en el panel: Settings → Build & Deploy → Auto-Deploy.
     autoDeploy: true
 
     # ----------------------------------------------------------------- #

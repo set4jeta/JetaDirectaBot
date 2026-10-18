@@ -3,7 +3,7 @@
     "start_time": "2026-10-18T18:00:00+00:00",
     "match_id": "116299649498303884",
     "detection_time": "2026-10-18T14:33:54+00:00",
-    "last_checked": "2026-10-18T20:10:53+00:00",
+    "last_checked": "2026-10-18T20:15:54+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Play-Ins",
@@ -88,6 +88,14 @@
             "id": "117463607561468148",
             "parameter": "ekcAcfji1f4",
             "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": null
+          },
+          {
+            "id": "117463724899026816",
+            "parameter": "t_db8ar9nJw",
+            "locale": "vi-VN",
             "provider": "youtube",
             "offset": 0,
             "first_frame_time": null

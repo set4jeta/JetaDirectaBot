@@ -61,6 +61,12 @@ _RUTAS = (
     ("tracking.soloq.user_config", "CONFIG_PATH", "users_config.json"),
     ("tracking.soloq.accounts_io", "JSON_PATH", "accounts.json"),
     ("tracking.soloq.accounts_io", "JSON_TEAMS_PATH", "accounts_from_teams.json"),
+    # El mismo fichero, pero `accounts_from_teams` se lo guarda en su **propia**
+    # constante (`JSON_PATH`) en vez de leer la de `accounts_io`. Redirigir solo
+    # la de `accounts_io` deja a `refrescar_ligas` escribiendo en el fichero de
+    # verdad, y eso pasó al probar el refresco de Worlds: la prueba avisó y
+    # restauró, pero el aviso era correcto y el agujero real.
+    ("tracking.soloq.accounts_from_teams", "JSON_PATH", "accounts_from_teams.json"),
     ("tracking.soloq.accounts_io", "JSON_SUELTAS_PATH", "cuentas_sueltas.json"),
     # El contador de ancho de banda. Lo escribe cualquier cosa que salga a la red,
     # así que sin esto lo toca media batería.

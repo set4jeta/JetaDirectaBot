@@ -632,6 +632,7 @@ LIGAS = {
     "hll": "HLL · Grecia",
     "prm": "Prime League · Alemania",
     "msi": "MSI · Internacional",
+    "worlds": "Worlds · Internacional",
     "les": "LES · España",
     "lit": "LIT · Italia",
     "rl": "Rift Legends · Polonia",
@@ -657,6 +658,20 @@ LIGAS_CHOICES: dict[str, str] = {nombre: codigo for codigo, nombre in LIGAS.item
 #: 121) y el comodín ronda los 1700, un umbral holgado aguanta que dpm.lol
 #: siga creciendo sin que haya que volver a tocar el número.
 _UMBRAL_COMODIN = 200
+
+#: Umbral propio para las ligas que de verdad pasan de 200 entradas.
+#:
+#: El número de arriba se eligió mirando ligas de temporada regular, donde la
+#: entrada más grande es la de MSI con 136. **Worlds no es eso**: medido el
+#: 18-10-2026 devuelve 224 entradas (101 jugadores de 19 equipos, porque el
+#: leaderboard es de cuentas y un jugador del mundial tiene varias). Con el
+#: umbral común se descartaba como si fuera el comodín y la liga se quedaba sin
+#: jugadores **sin ningún error visible** más que una línea de log.
+#:
+#: 600 sigue estando muy lejos del comodín (1621 entradas medidas con `ljl`),
+#: así que la protección que importa —no confundir un código inexistente con una
+#: liga real— se mantiene.
+_UMBRAL_COMODIN_POR_LIGA: dict[str, int] = {"worlds": 600}
 
 
 def fetch_league_leaderboard_sync(liga: str = "lec") -> list[dict[str, Any]]:
@@ -692,7 +707,8 @@ def fetch_league_leaderboard_sync(liga: str = "lec") -> list[dict[str, Any]]:
         log.warning("dpm.lol no devolvió una lista para la liga '%s'.", codigo)
         return []
 
-    if len(data) >= _UMBRAL_COMODIN:
+    umbral = _UMBRAL_COMODIN_POR_LIGA.get(codigo, _UMBRAL_COMODIN)
+    if len(data) >= umbral:
         log.error(
             "La liga '%s' devolvió el leaderboard genérico (%d jugadores, "
             "ninguna liga real pasa de 121): dpm.lol ya no la reconoce. "

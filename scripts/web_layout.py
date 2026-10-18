@@ -18,7 +18,7 @@ from __future__ import annotations
 
 import html
 
-from tracking.soloq.leagues import LIGAS
+from tracking.soloq.leagues import LIGAS_WEB
 from utils import branding
 
 from scripts import web_seo as seo
@@ -293,7 +293,7 @@ def cta(texto: str = "Add to Discord", *, nota: str = "") -> str:
         "      <h2>What if this came to you on its own?</h2>\n"
         f'      <p class="intro">{e(branding.BOT_NOMBRE)} posts this alert to your '
         "Discord channel —or your DMs— the moment a player enters a game, across "
-        f"the {len(LIGAS)} leagues in the catalogue. Free.</p>\n"
+        f"the {len(LIGAS_WEB)} leagues in the catalogue. Free.</p>\n"
         '      <div class="botones">\n'
         f'        <a class="boton primario" href="{invite}"{invite_attr}>{e(texto)}</a>\n'
         '        <a class="boton" href="alerts.html">See what the alert looks like</a>\n'

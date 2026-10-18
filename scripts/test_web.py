@@ -2,7 +2,7 @@
 
 Por qué existe
 --------------
-La web se genera desde `LIGAS`, `PLANES`, `branding` y los ficheros de datos
+La web se genera desde `LIGAS_WEB`, `PLANES`, `branding` y los ficheros de datos
 justamente para que no pueda quedarse obsoleta, pero eso solo se cumple si
 alguien lo comprueba: un `ligas_html()` que se olvide de una liga tiene
 exactamente el mismo efecto que la landing escrita a mano que se quería evitar.
@@ -19,7 +19,9 @@ Lo que se prueba y por qué es lo que importa
 --------------------------------------------
 * Que **todas** las ligas del catálogo salen en la web, con su código y con su
   página propia. Si el catálogo vuelve a crecer (pasó de 12 a 20), la web crece
-  con él o esto falla.
+  con él o esto falla. Se compara con `LIGAS_WEB` y no con `LIGAS`: los eventos
+  con fecha —Worlds— están en el catálogo porque el bot los rastrea, pero no son
+  una liga que seguir durante la temporada y no llevan página.
 * Que los cupos son los del plan, incluido el `historial` que se bajó de 500 a
   50: la web era el último sitio donde podía sobrevivir la cifra vieja.
 * Que sin `--adsense` **no hay ningún script de terceros** y la política de
@@ -60,7 +62,7 @@ from scripts import web_datos as datos  # noqa: E402
 from scripts import web_layout as maq  # noqa: E402
 from scripts import web_paginas as pags  # noqa: E402
 from scripts import web_seo as seo  # noqa: E402
-from tracking.soloq.leagues import LIGAS, MAX_LIGAS_POR_SERVIDOR  # noqa: E402
+from tracking.soloq.leagues import LIGAS, LIGAS_WEB, MAX_LIGAS_POR_SERVIDOR  # noqa: E402
 from tracking.soloq.plans import ORDEN, PLANES  # noqa: E402
 
 #: Dominio y fecha fijos. Los canónicos y `dateModified` tienen que ser
@@ -766,14 +768,14 @@ def prueba_ligas() -> None:
     print("\n=== ligas en la web ===")
     pagina = inicio()
 
-    faltan = [c for c in LIGAS if f"<b>{c}</b>" not in pagina]
-    ok(not faltan, f"las {len(LIGAS)} ligas del catálogo salen en la portada",
-       f"faltan {faltan}" if faltan else f"{len(LIGAS)} códigos")
+    faltan = [c for c in LIGAS_WEB if f"<b>{c}</b>" not in pagina]
+    ok(not faltan, f"las {len(LIGAS_WEB)} ligas del catálogo salen en la portada",
+       f"faltan {faltan}" if faltan else f"{len(LIGAS_WEB)} códigos")
 
-    nombres = [l.nombre for l in LIGAS.values() if l.nombre not in pagina]
+    nombres = [l.nombre for l in LIGAS_WEB.values() if l.nombre not in pagina]
     ok(not nombres, "y con su nombre visible", f"faltan {nombres}" if nombres else "")
 
-    ok(f'<h2>{len(LIGAS)} <span class="res">leagues</span></h2>' in pagina,
+    ok(f'<h2>{len(LIGAS_WEB)} <span class="res">leagues</span></h2>' in pagina,
        "el titular cuenta las ligas que hay, no un número escrito a mano")
 
     ok(f"up to {MAX_LIGAS_POR_SERVIDOR} at a time" in pagina,
@@ -781,19 +783,19 @@ def prueba_ligas() -> None:
 
     # La LPL no permite partida en vivo: si algún día se marcara como seguible,
     # la web dejaría de decirlo y volveríamos a prometer algo que no existe.
-    no_seguibles = [l for l in LIGAS.values() if not l.seguible]
+    no_seguibles = [l for l in LIGAS_WEB.values() if not l.seguible]
     ok(bool(no_seguibles) == ("Elo only" in pagina),
        "las ligas sin partida en vivo van marcadas",
        f"{[l.codigo for l in no_seguibles]}")
 
     # Una página por liga, ni una más ni una menos.
     todo = sitio()
-    esperadas = {pags.ruta_de_liga(c) for c in LIGAS}
-    ok(esperadas <= set(todo), f"se escribe una página por cada una de las {len(LIGAS)}",
+    esperadas = {pags.ruta_de_liga(c) for c in LIGAS_WEB}
+    ok(esperadas <= set(todo), f"se escribe una página por cada una de las {len(LIGAS_WEB)}",
        str(sorted(esperadas - set(todo))[:3]))
 
     hub = todo["leagues.html"]
-    sin_enlace = [c for c in LIGAS if pags.ruta_de_liga(c) not in hub]
+    sin_enlace = [c for c in LIGAS_WEB if pags.ruta_de_liga(c) not in hub]
     ok(not sin_enlace, "y el hub enlaza a todas", str(sin_enlace[:3]))
 
 
@@ -822,7 +824,7 @@ def prueba_datos_de_liga() -> None:
     # por PUUID y `displayName`, así que en las otras 19 esa columna sería un
     # hueco con encabezado.
     vacias_con_tabla = []
-    for codigo in LIGAS:
+    for codigo in LIGAS_WEB:
         html = todo[pags.ruta_de_liga(codigo)]
         tiene_datos = bool(datos.jugadores_de(codigo))
         tiene_tabla = "<th>SoloQ account</th>" in html
@@ -838,7 +840,7 @@ def prueba_datos_de_liga() -> None:
     # el barrido mira todas las cuentas conocidas y el leaderboard solo las de la
     # lista de esa liga.
     mal_ranking = []
-    for codigo in LIGAS:
+    for codigo in LIGAS_WEB:
         html = todo[pags.ruta_de_liga(codigo)]
         tiene_ranking = "<th>KDA</th>" in html
         toca = bool(datos.clasificacion_de(codigo)) and not datos.jugadores_de(codigo)
@@ -848,7 +850,7 @@ def prueba_datos_de_liga() -> None:
        "y tabla de ranking solo donde hay leaderboard y no hay barrido",
        str(mal_ranking[:5]))
 
-    ambas = [c for c in LIGAS
+    ambas = [c for c in LIGAS_WEB
              if "<th>KDA</th>" in todo[pags.ruta_de_liga(c)]
              and "<th>SoloQ account</th>" in todo[pags.ruta_de_liga(c)]]
     ok(not ambas, "ninguna página pinta las dos tablas de Elo a la vez", str(ambas[:3]))
@@ -877,7 +879,7 @@ def prueba_datos_de_liga() -> None:
     # escrito para que el día que aparezca una liga así la prueba la cubra sola,
     # en vez de quedarse comprobando una rama muerta.
     solo_leaderboard = [
-        c for c in LIGAS
+        c for c in LIGAS_WEB
         if not datos.jugadores_de(c) and datos.clasificacion_de(c)
     ]
     for codigo in solo_leaderboard:
@@ -926,7 +928,7 @@ def prueba_datos_de_liga() -> None:
        "el agregado de campeones sale en la LEC",
        f"{campeones[0].nombre} {campeones[0].partidas}g" if campeones else "")
     con_campeones = [
-        c for c in LIGAS
+        c for c in LIGAS_WEB
         if "<th>Average DPM</th>" in todo[pags.ruta_de_liga(c)]
         and not datos.campeones_de(c, tope=1)
     ]
@@ -937,7 +939,7 @@ def prueba_datos_de_liga() -> None:
     # winrate. Tiene que salir donde hay ranking y no hay historial, y en ningún
     # otro sitio.
     mal_presencia = []
-    for codigo in LIGAS:
+    for codigo in LIGAS_WEB:
         html = todo[pags.ruta_de_liga(codigo)]
         tiene = "<th>Players who run it</th>" in html
         toca = bool(datos.campeones_del_ranking(codigo, tope=1)) and not datos.campeones_de(codigo, tope=1)
@@ -950,7 +952,7 @@ def prueba_datos_de_liga() -> None:
     # Y esa tabla no puede llevar un winrate ni un DPM: son los dos números que
     # `mostChamps` no da y que sí tiene el agregado de la LEC.
     presencia_con_dpm = [
-        c for c in LIGAS
+        c for c in LIGAS_WEB
         if "<th>Players who run it</th>" in todo[pags.ruta_de_liga(c)]
         and "<th>Average DPM</th>" in todo[pags.ruta_de_liga(c)]
     ]
@@ -1422,8 +1424,8 @@ def prueba_generacion_completa() -> None:
                             "styles.css", "legal.html"):
             ok(obligatorio in ficheros, f"se escribe {obligatorio}")
 
-        ok(len([f for f in ficheros if f.startswith("league-")]) == len(LIGAS),
-           f"y las {len(LIGAS)} páginas de liga",
+        ok(len([f for f in ficheros if f.startswith("league-")]) == len(LIGAS_WEB),
+           f"y las {len(LIGAS_WEB)} páginas de liga",
            f"{len([f for f in ficheros if f.startswith('league-')])}")
 
         png = os.path.join(tmp, "og.png")

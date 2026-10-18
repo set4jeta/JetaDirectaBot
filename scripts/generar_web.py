@@ -7,7 +7,7 @@ se escribe a mano en el HTML, se queda obsoleto exactamente igual que se quedó
 el `TRACKED_TEAMS` que motivó `leagues.py`: el catálogo pasó de 12 a 20 ligas
 esta semana y una landing con 12 sería publicidad falsa.
 
-Aquí el HTML se rellena desde `tracking.soloq.leagues.LIGAS`,
+Aquí el HTML se rellena desde `tracking.soloq.leagues.LIGAS_WEB`,
 `tracking.soloq.plans.PLANES` y `utils.branding`, así que la web **no puede**
 contradecir al bot: si se añade una liga, se vuelve a ejecutar esto y ya está.
 
@@ -66,7 +66,7 @@ from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from tracking.soloq.leagues import LIGAS, MAX_LIGAS_POR_SERVIDOR, REGION_EN  # noqa: E402
+from tracking.soloq.leagues import LIGAS_WEB, MAX_LIGAS_POR_SERVIDOR, REGION_EN  # noqa: E402
 from tracking.soloq.plans import ORDEN, PLANES  # noqa: E402
 from utils import branding  # noqa: E402
 
@@ -101,7 +101,7 @@ def ligas_html() -> str:
     prometer LLA: una función que no existe.
     """
     filas = []
-    for liga in LIGAS.values():
+    for liga in LIGAS_WEB.values():
         marca = "" if liga.seguible else ' <span title="ranks only, no live game tracking">·&nbsp;Elo only</span>'
         filas.append(
             f'      <li><b>{e(liga.codigo)}</b> {e(liga.nombre)}'
@@ -262,7 +262,7 @@ def _plan_gratis():
 def _preguntas_inicio() -> list[tuple[str, str]]:
     """Las FAQ de la portada, con los números sacados del código."""
     gratis = _plan_gratis()
-    seguibles = sum(1 for liga in LIGAS.values() if liga.seguible)
+    seguibles = sum(1 for liga in LIGAS_WEB.values() if liga.seguible)
     return [
         (
             f"What does {branding.BOT_NOMBRE} do?",
@@ -281,7 +281,7 @@ def _preguntas_inicio() -> list[tuple[str, str]]:
         ),
         (
             "Which leagues does it cover?",
-            f"{len(LIGAS)} professional leagues, from the LEC and the LCK to the "
+            f"{len(LIGAS_WEB)} professional leagues, from the LEC and the LCK to the "
             f"LFL or the NLC. Of those, {seguibles} allow live game detection; "
             "the LPL only provides ranks, because the Chinese servers are not in "
             "Riot's API.",
@@ -314,7 +314,7 @@ def _destacados_html() -> str:
     tarjetas = (
         (
             "leagues.html",
-            f"All {len(LIGAS)} leagues, one by one",
+            f"All {len(LIGAS_WEB)} leagues, one by one",
             "How many players and teams each league has, and what is published "
             "about each one.",
         ),
@@ -504,16 +504,16 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
     descripcion = (
         f"{branding.BOT_NOMBRE} alerts your Discord server when a professional "
         "League of Legends player queues up for SoloQ. "
-        f"{len(LIGAS)} leagues, English and Spanish, free."
+        f"{len(LIGAS_WEB)} leagues, English and Spanish, free."
     )
-    seguibles = sum(1 for liga in LIGAS.values() if liga.seguible)
-    total_pros = sum(datos.censo_de(c).personas for c in LIGAS)
+    seguibles = sum(1 for liga in LIGAS_WEB.values() if liga.seguible)
+    total_pros = sum(datos.censo_de(c).personas for c in LIGAS_WEB)
     preguntas = _preguntas_inicio()
 
     resumen = [
         f"Alerts your Discord server <b>when a pro queues up for SoloQ</b>, with "
         "champion, role, rank and team. No commands to type.",
-        f"<b>{len(LIGAS)} leagues</b> and about <b>{total_pros} professional "
+        f"<b>{len(LIGAS_WEB)} leagues</b> and about <b>{total_pros} professional "
         f"players</b> tracked; {seguibles} leagues allow live game detection.",
         "The full alert is <b>free</b> and always will be: the plans only raise "
         "the limits.",
@@ -530,7 +530,7 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         '    <div class="envoltura hero-fila">\n'
         '      <div class="hero-texto">\n'
         f'        <span class="onair"><span class="punto"></span>Live · '
-        f"{len(LIGAS)} leagues</span>\n"
+        f"{len(LIGAS_WEB)} leagues</span>\n"
         "        <h1>When a <span class=\"grad\">pro</span> queues up,\n"
         "        your server knows</h1>\n"
         '        <p class="lema">Champion, role, rank and team the moment the '
@@ -546,8 +546,8 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         "    </div>\n"
         '    <div class="envoltura">\n'
         '      <div class="stats">\n'
-        f'        <div class="stat"><div class="n" data-count="{len(LIGAS)}">'
-        f'{len(LIGAS)}</div><div class="l">Leagues</div></div>\n'
+        f'        <div class="stat"><div class="n" data-count="{len(LIGAS_WEB)}">'
+        f'{len(LIGAS_WEB)}</div><div class="l">Leagues</div></div>\n'
         f'        <div class="stat"><div class="n" data-count="{total_pros}">'
         f'{total_pros}</div><div class="l">Pros tracked</div></div>\n'
         '        <div class="stat"><div class="n" data-count="30">30'
@@ -588,7 +588,7 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         # ---- Ligas ------------------------------------------------------ #
         '  <section id="ligas">\n'
         '    <div class="envoltura">\n'
-        f"      <h2>{len(LIGAS)} <span class=\"res\">leagues</span></h2>\n"
+        f"      <h2>{len(LIGAS_WEB)} <span class=\"res\">leagues</span></h2>\n"
         '      <p class="sub">Each server picks the ones it follows with '
         f"<code>/leagues</code>, up to {MAX_LIGAS_POR_SERVIDOR} at a time — "
         '<a href="#apoyo">why that number and not more</a>. Every '
@@ -597,7 +597,7 @@ def pagina_inicio(pub: str, sitio: str, fecha: str) -> Pagina:
         '      <ul class="ligas">\n'
         f"{ligas_html()}\n"
         "      </ul>\n"
-        f'      <p class="nota">Of the {len(LIGAS)}, {seguibles} allow live game '
+        f'      <p class="nota">Of the {len(LIGAS_WEB)}, {seguibles} allow live game '
         "detection. The LPL only provides ranks and standings: China plays on "
         "servers that Riot's API does not expose, and promising live alerts for "
         "games that cannot be seen would be a lie.</p>\n"
@@ -988,7 +988,7 @@ def construir(sitio: str, fecha: str, pub: str) -> list[Pagina]:
         pags.pagina_avisos(sitio, fecha, pub),
         pags.pagina_comandos(sitio, fecha, pub),
         pags.pagina_comparativa(sitio, fecha, pub),
-        *[pags.pagina_liga(codigo, sitio, fecha, pub) for codigo in LIGAS],
+        *[pags.pagina_liga(codigo, sitio, fecha, pub) for codigo in LIGAS_WEB],
         pagina_legal(pub, fecha),
         pags.pagina_404(sitio, pub),
     ]
@@ -1033,7 +1033,7 @@ REDIRECCIONES: dict[str, str] = {
     "avisos.html": "alerts.html",
     "alternativas-bots-lol-discord.html": "lol-discord-bots.html",
     "socios.html": "partners.html",
-    **{f"liga-{codigo}.html": f"league-{codigo}.html" for codigo in LIGAS},
+    **{f"liga-{codigo}.html": f"league-{codigo}.html" for codigo in LIGAS_WEB},
 }
 
 
@@ -1080,13 +1080,13 @@ def _catalogo_imagenes() -> dict[str, str]:
     """
     catalogo: dict[str, str] = {}
     nombres = {j.nombre for j in datos.jugadores()}
-    for codigo in LIGAS:
+    for codigo in LIGAS_WEB:
         nombres.update(c.nombre for c in datos.clasificacion_de(codigo))
     for nombre in nombres:
         imagen = datos.imagen_de_jugador(nombre)
         if imagen:
             catalogo[imagen.src] = imagen.origen
-    for codigo in LIGAS:
+    for codigo in LIGAS_WEB:
         for tricode in datos.equipos_de(codigo):
             imagen = datos.imagen_de_equipo(tricode)
             if imagen:
@@ -1173,7 +1173,7 @@ def _regiones_sin_ingles() -> list[str]:
     Pasó al añadir la vigésima liga: el catálogo creció y la tabla de traducción
     no, y el síntoma era una palabra suelta en español en una página en inglés.
     """
-    faltan = sorted({liga.region for liga in LIGAS.values() if liga.region not in REGION_EN})
+    faltan = sorted({liga.region for liga in LIGAS_WEB.values() if liga.region not in REGION_EN})
     return [
         f"la región {region!r} no tiene traducción en REGION_EN (leagues.py)"
         for region in faltan
@@ -1284,7 +1284,7 @@ def main(argv: list[str] | None = None) -> int:
         os.path.join(args.destino, "favicon.svg"), og.favicon(branding.BOT_NOMBRE)
     )
 
-    tarjeta = og.tarjeta(branding.BOT_NOMBRE, len(LIGAS), "PRO SOLOQ ALERTS")
+    tarjeta = og.tarjeta(branding.BOT_NOMBRE, len(LIGAS_WEB), "PRO SOLOQ ALERTS")
     with open(os.path.join(args.destino, "og.png"), "wb") as fh:
         fh.write(tarjeta)
     total += len(tarjeta)
@@ -1325,7 +1325,7 @@ def main(argv: list[str] | None = None) -> int:
         f"\n{len(paginas)} páginas ({indexables} en el sitemap) · {copiadas} "
         f"imágenes · {total // 1024} kB · {args.destino}"
     )
-    print(f"{len(LIGAS)} ligas · {len(PLANES)} planes · canónicos en {sitio}")
+    print(f"{len(LIGAS_WEB)} ligas · {len(PLANES)} planes · canónicos en {sitio}")
     # El estado del histórico se informa siempre, porque es la diferencia entre
     # publicar una página con avisos reales y publicar solo el formato, y no se
     # nota mirando la lista de ficheros: `alerts.html` pesa parecido en los dos

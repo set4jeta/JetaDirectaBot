@@ -276,13 +276,47 @@ def get_pro_players(ligas: list[str] | None = None) -> list[BootcampPlayer]:
     return todos
 
 
+def _filtrar_plataformas(jugador) -> int:
+    """Deja en el jugador solo las cuentas de las plataformas de su liga.
+
+    Devuelve cuántas cuentas quitó. Casi todas las ligas no filtran nada (su
+    `solo_plataformas` está vacío) y esto no hace nada.
+
+    Existe porque el filtro tiene que estar en **los dos caminos** que escriben
+    el fichero —`main()` y `refrescar_ligas()`— y el segundo no pasa por el
+    primero. Al estrenar Worlds se puso solo en `main()`, y la prueba del
+    refresco real enseñó que `refrescar_ligas` guardaba las 348 cuentas de los
+    101 jugadores en vez de las 86 de NA: el filtro estaba escrito y no se
+    aplicaba nunca, porque el bot siempre refresca por ligas, no con `main()`.
+    """
+    from tracking.soloq.leagues import LIGAS
+
+    liga = LIGAS.get(jugador.league)
+    permitidas = {p.lower() for p in (liga.solo_plataformas if liga else ())}
+    if not permitidas:
+        return 0
+
+    antes = len(jugador.accounts)
+    jugador.accounts = [
+        acc for acc in jugador.accounts
+        if (acc.platform or "").lower() in permitidas
+    ]
+    return antes - len(jugador.accounts)
+
+
 def main(ligas: list[str] | None = None) -> bool:
     """Refresca `accounts_from_teams.json`. Devuelve True si escribió."""
+    from tracking.soloq.leagues import LIGAS
+
     codigos = ligas or _ligas_en_uso()
     log.info("Recopilando rosters de %d ligas: %s", len(codigos), ", ".join(codigos))
     players = get_pro_players(codigos)
     antiguos = cargar_existentes_teams()
     nuevos: list[dict] = []
+    #: Cuántas cuentas se descartan por plataforma, por liga. Sin esto, filtrar
+    #: es invisible: `worlds` guardaría 86 cuentas de 348 y el log diría que todo
+    #: fue bien, que es la misma trampa de siempre.
+    descartadas: dict[str, int] = {}
 
     # Se indexa por (nombre, liga) y no solo por nombre: un jugador puede
     # aparecer en dos ligas (un suplente que juega en la liga principal y en la
@@ -293,6 +327,12 @@ def main(ligas: list[str] | None = None) -> bool:
     indice_sin_liga = {p.get("name", "").lower(): p for p in antiguos}
 
     for player in players:
+        # Antes que nada, las plataformas que valen en su liga (ver
+        # `_filtrar_plataformas`): si no, el fichero guarda cuentas que luego se
+        # sondean cada 30 segundos para nada.
+        quitadas = _filtrar_plataformas(player)
+        if quitadas:
+            descartadas[player.league] = descartadas.get(player.league, 0) + quitadas
         previo = indice_previo.get((player.name.lower(), player.league))
         if previo is None:
             # JSON anterior a las ligas: se casa por nombre sin más.
@@ -335,6 +375,12 @@ def main(ligas: list[str] | None = None) -> bool:
             continue
         nuevos.append(player.to_dict())
 
+    for codigo, n in sorted(descartadas.items()):
+        log.info(
+            "Liga %s: %d cuenta(s) descartadas por plataforma (solo %s).",
+            codigo, n, ", ".join(LIGAS[codigo].solo_plataformas),
+        )
+
     return guardar_lista_json(
         JSON_PATH,
         nuevos,
@@ -365,7 +411,7 @@ def refrescar_ligas(codigos: list[str]) -> bool:
     tarea de fondo o un comando, y un fallo de scraping no puede tumbar nada.
     """
     try:
-        from tracking.soloq.leagues import resolver
+        from tracking.soloq.leagues import LIGAS, resolver
     except Exception:
         log.exception("No se pudo importar el catálogo de ligas.")
         return False
@@ -426,7 +472,16 @@ def refrescar_ligas(codigos: list[str]) -> bool:
         for p in conservados
     }
     nuevos: list[dict] = []
+    quitadas_por_liga: dict[str, int] = {}
     for jugador in jugadores:
+        # El filtro de plataforma, **también aquí**: este camino no pasa por
+        # `main()` y es el que usa el bot de verdad (la rotación horaria llama a
+        # `refrescar_ligas`). Sin esto, Worlds guardaba 348 cuentas en vez de 86.
+        quitadas = _filtrar_plataformas(jugador)
+        if quitadas:
+            quitadas_por_liga[jugador.league] = (
+                quitadas_por_liga.get(jugador.league, 0) + quitadas
+            )
         if not jugador.accounts:
             continue
         clave = (jugador.name.lower(), (jugador.league or "").lower())
@@ -455,6 +510,12 @@ def refrescar_ligas(codigos: list[str]) -> bool:
                     heredados += 1
 
         nuevos.append(jugador.to_dict())
+
+    for codigo, n in sorted(quitadas_por_liga.items()):
+        log.info(
+            "Liga %s: %d cuenta(s) descartadas por plataforma (solo %s).",
+            codigo, n, ", ".join(LIGAS[codigo].solo_plataformas),
+        )
 
     if not nuevos:
         log.warning(

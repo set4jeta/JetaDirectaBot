@@ -85,6 +85,7 @@ from __future__ import annotations
 import json
 import os
 from dataclasses import dataclass, field
+from datetime import date
 from typing import Any
 
 from utils.logger import get_logger
@@ -135,6 +136,52 @@ class Liga:
     #: True si los jugadores juegan en servidores distintos dentro de la liga,
     # así que hay que resolver la plataforma cuenta por cuenta.
     plataforma_mixta: bool = False
+    #: Plataformas que se guardan, si no valen todas.
+    #:
+    #: Vacío = todas (lo normal). Se usa en los eventos internacionales: un
+    #: jugador de Worlds tiene cuentas en KR, EUW1, NA1 y BR1, y seguirlas todas
+    #: multiplica por cuatro el sondeo —que es justo lo que agota los 5 GB del
+    #: plan gratuito—. En Worlds se juega en Norteamérica, así que solo se
+    #: guardan las cuentas de `na1`. Medido el 18-10-2026: de 101 jugadores, 64
+    #: ya tenían cuenta de NA y el total de cuentas de la liga eran 86 en vez de
+    #: 348.
+    solo_plataformas: tuple[str, ...] = ()
+    #: Fechas en las que la liga existe, para los eventos con fecha.
+    #:
+    #: `None` = sin caducidad. Fuera de la ventana la liga **no se sigue**, así
+    #: que no gasta peticiones ni aparece en las listas. Es lo que hace que
+    #: Worlds «se active» solo y luego se apague sin que nadie se acuerde de
+    #: quitarlo.
+    temporada: tuple[date, date] | None = None
+    #: True si se sigue siempre que esté en temporada, sin que nadie se suscriba.
+    #:
+    #: Para los eventos globales: nadie va a escribir `/subscribe esports worlds`
+    #: el día que empieza el mundial, y si hay que hacerlo la función no existe
+    #: de facto.
+    autoactiva: bool = False
+    #: True si la liga sale en la web.
+    #:
+    #: Worlds y los eventos no: la web dice «20 ligas, N jugadores» y una liga
+    #: que dura un mes, cambia de nombre cada año y no se sigue «durante la
+    #: temporada» no es lo que cuenta esa frase. Además, generar una página por
+    #: liga cambiaría el sitio entero por un evento pasajero.
+    en_web: bool = True
+
+    @property
+    def en_temporada(self) -> bool:
+        """¿Estamos dentro de las fechas del evento?
+
+        Se compara en UTC porque el bot vive en un servidor en Fráncfort y la
+        gente que lo usa está en cualquier sitio; una liga que se enciende un día
+        antes o después según la zona horaria es un fallo imposible de explicar.
+        """
+        if self.temporada is None:
+            return True
+        desde, hasta = self.temporada
+        from datetime import datetime, timezone
+
+        hoy = datetime.now(timezone.utc).date()
+        return desde <= hoy <= hasta
 
     @property
     def etiqueta(self) -> str:
@@ -177,6 +224,32 @@ LIGAS: dict[str, Liga] = {
         Liga("cblol", "CBLOL", "Brasil", "br1"),
         Liga("lcp", "LCP", "Asia-Pacífico", "", plataforma_mixta=True),
         Liga("msi", "MSI", "Internacional", "", plataforma_mixta=True),
+        # El mundial. Tres cosas que no son como las demás ligas:
+        #
+        # 1. **Se enciende y se apaga solo.** `temporada` son las fechas
+        #    oficiales (15-10 a 14-11-2026) y `autoactiva` evita depender de que
+        #    alguien se acuerde de suscribirse el día que empieza.
+        # 2. **Solo cuentas de NA.** En Worlds se juega en Estados Unidos y los
+        #    jugadores tienen cuentas en KR, EUW1, NA1 y BR1 a la vez; seguirlas
+        #    todas serían 348 cuentas por 86. El sondeo es lo que agota el ancho
+        #    de banda del hosting (ver `DESPLIEGUE.md` §8).
+        # 3. **La lista sale del leaderboard de dpm.lol**, que ya tiene el
+        #    torneo entero (`/v1/esport/soloq/leagues/worlds/leaderboard`):
+        #    medido el 18-10-2026, 101 jugadores de 19 equipos. Cuando dpm añade
+        #    a alguien (un suplente, el que llega tarde), entra en el siguiente
+        #    refresco sin tocar código: la rotación horaria le da un turno al día.
+        #
+        # Ojo con lo que **no** hace: no crea cuentas. Un jugador que aún no
+        # tiene cuenta de NA no se sigue hasta que la tenga y dpm la liste, que
+        # es exactamente lo que se quiere (no se inventan cuentas).
+        Liga(
+            "worlds", "Worlds", "Internacional", "",
+            plataforma_mixta=True,
+            solo_plataformas=("na1",),
+            temporada=(date(2026, 10, 15), date(2026, 11, 14)),
+            autoactiva=True,
+            en_web=False,
+        ),
         # China juega en servidores que la API de Riot no expone: sirven los
         # rangos, pero `spectator-v5` no va a contestar. Se marca para no
         # prometer detección de partidas que no va a ocurrir.
@@ -201,6 +274,17 @@ LIGAS: dict[str, Liga] = {
         # --- Segundas divisiones ---
         Liga("cd", "Circuito Desafiante", "Brasil", "br1"),
     )
+}
+
+#: Las ligas que salen en la web, que son todas menos los eventos.
+#:
+#: `generar_web.py` recorre esto y no `LIGAS` por una razón concreta: la web
+#: publica «20 ligas» y genera una página por cada una. Un evento de un mes no
+#: es una liga que seguir durante la temporada, y meterlo cambiaría el sitio
+#: entero (páginas, sitemap, canónicas) por algo que caduca. Así el HTML que
+#: sale es **idéntico** al de antes de añadir Worlds.
+LIGAS_WEB: dict[str, Liga] = {
+    codigo: liga for codigo, liga in LIGAS.items() if liga.en_web
 }
 
 #: La región de cada liga en inglés. Solo para la web: el bot sigue usando
@@ -578,6 +662,15 @@ def ligas_en_uso() -> list[str]:
     # Y las de los jugadores y equipos que sigue la gente: sin esto, `/track
     # Faker` guarda la suscripción y no avisa nunca. Ver `ligas_de_seguidos`.
     codigos.update(ligas_de_seguidos())
+
+    # Los eventos globales no esperan a que nadie se suscriba: si están en
+    # temporada, se siguen. Es lo que hace que Worlds empiece a rastrearse solo
+    # el día que arranca y deje de hacerlo cuando acaba, sin que nadie se
+    # acuerde de suscribirse ni de quitar la suscripción después.
+    codigos.update(
+        codigo for codigo, liga in LIGAS.items()
+        if liga.autoactiva and liga.en_temporada
+    )
 
     if not codigos:
         codigos = {LIGA_POR_DEFECTO}

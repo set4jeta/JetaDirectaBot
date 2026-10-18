@@ -32,7 +32,7 @@ Las tres reglas que gobiernan cada página
 
 from __future__ import annotations
 
-from tracking.soloq.leagues import LIGAS, MAX_LIGAS_POR_SERVIDOR
+from tracking.soloq.leagues import LIGAS_WEB, MAX_LIGAS_POR_SERVIDOR
 from utils import branding
 
 from scripts import web_datos as datos
@@ -515,8 +515,8 @@ def ligas_vecinas(codigo: str, cuantas: int = 4) -> list[str]:
     hub para llegar a la LEC, y el visitante que quiere comparar dos ligas
     también. Primero la familia (misma clase de liga), después las grandes.
     """
-    familia = [c for c in _familia_de(codigo) if c != codigo and c in LIGAS]
-    resto = [c for c in _GRANDES if c != codigo and c not in familia and c in LIGAS]
+    familia = [c for c in _familia_de(codigo) if c != codigo and c in LIGAS_WEB]
+    resto = [c for c in _GRANDES if c != codigo and c not in familia and c in LIGAS_WEB]
     return (familia + resto)[:cuantas]
 
 
@@ -533,7 +533,7 @@ def enlaces_vecinas_html(codigo: str) -> str:
         return ""
     items = []
     for otra in vecinas:
-        liga = LIGAS[otra]
+        liga = LIGAS_WEB[otra]
         items.append(
             f'      <li><a href="{ruta_de_liga(otra)}">{e(liga.nombre)} SoloQ '
             f"ranks</a> <span>{e(liga.region_en)}</span></li>"
@@ -791,7 +791,7 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
     la recencia es lo que más pesa cuando un sistema de IA elige de dónde
     responder. El año sale de la fecha de generación, no escrito a mano.
     """
-    liga = LIGAS[codigo]
+    liga = LIGAS_WEB[codigo]
     censo = datos.censo_de(codigo)
     jugadores = datos.jugadores_de(codigo)
     equipos = datos.equipos_de(codigo)
@@ -942,7 +942,7 @@ def pagina_liga(codigo: str, sitio: str, fecha: str, pub: str) -> Pagina:
             '      <p class="nota">For this league the rank is published, not the '
             "Riot ID: named accounts are indexed when a server follows the "
             "league, and right now that has been done for the "
-            f"{e(LIGAS['lec'].nombre)}.</p>\n"
+            f"{e(LIGAS_WEB['lec'].nombre)}.</p>\n"
             "    </div>\n"
             "  </section>\n"
         )
@@ -1077,7 +1077,7 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
     total_personas = 0
     con_ranking = 0
     for codigo, liga in sorted(
-        LIGAS.items(), key=lambda kv: (-datos.censo_de(kv[0]).personas, kv[1].nombre)
+        LIGAS_WEB.items(), key=lambda kv: (-datos.censo_de(kv[0]).personas, kv[1].nombre)
     ):
         censo = datos.censo_de(codigo)
         total_personas += censo.personas
@@ -1103,11 +1103,11 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
             "        </tr>"
         )
 
-    seguibles = sum(1 for l in LIGAS.values() if l.seguible)
+    seguibles = sum(1 for l in LIGAS_WEB.values() if l.seguible)
     medido = datos.fecha_de_tablas()
-    titulo = f"The {len(LIGAS)} LoL leagues you can follow on Discord (2026)"
+    titulo = f"The {len(LIGAS_WEB)} LoL leagues you can follow on Discord (2026)"
     descripcion = (
-        f"The {len(LIGAS)} professional League of Legends leagues "
+        f"The {len(LIGAS_WEB)} professional League of Legends leagues "
         f"{branding.BOT_NOMBRE} tracks, with how many players and teams each has "
         "and which allow live game alerts."
     )
@@ -1129,7 +1129,7 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
         (
             "Where do these player counts come from?",
             f"From measuring each league's leaderboard: {total_personas} distinct "
-            f"players across the {len(LIGAS)}"
+            f"players across the {len(LIGAS_WEB)}"
             + (f", measured on {medido}" if medido else "")
             + ". It is the same measurement that set the league limit per server.",
         ),
@@ -1140,13 +1140,13 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
             f"wins and KDA for {total_personas} players. Accounts have to be "
             "indexed player by player and add each player's Riot ID and their "
             "champion history with games and damage per minute. That second part "
-            f"is done for the {LIGAS['lec'].nombre} and gets done for a league "
+            f"is done for the {LIGAS_WEB['lec'].nombre} and gets done for a league "
             "when a server follows it.",
         ),
     ]
 
     resumen = [
-        f"<b>{len(LIGAS)} leagues</b> in the catalogue and "
+        f"<b>{len(LIGAS_WEB)} leagues</b> in the catalogue and "
         f"<b>{total_personas} professional players</b> measured across all of "
         "them.",
         f"{con_ranking} already have their SoloQ rank ladder published, with team, "
@@ -1160,7 +1160,7 @@ def pagina_ligas(sitio: str, fecha: str, pub: str) -> Pagina:
         maq.migas_html([("Home", "index.html"), ("Leagues", "leagues.html")]),
         '  <header class="pagina">\n'
         '    <div class="envoltura">\n'
-        f"      <h1>The {len(LIGAS)} leagues you can follow</h1>\n"
+        f"      <h1>The {len(LIGAS_WEB)} leagues you can follow</h1>\n"
         f"{tldr(resumen)}"
         "    </div>\n"
         "  </header>\n",
@@ -1233,13 +1233,13 @@ def _indice_de_ligas(todos: list) -> tuple[str, list[tuple[str, str]]]:
     """
     por_liga: dict[str, list] = {}
     for partido in todos:
-        if partido.liga in LIGAS:
+        if partido.liga in LIGAS_WEB:
             por_liga.setdefault(partido.liga, []).append(partido)
 
     filas = []
     elementos = []
     for codigo in sorted(por_liga, key=lambda c: por_liga[c][0].inicio):
-        liga = LIGAS[codigo]
+        liga = LIGAS_WEB[codigo]
         delo = por_liga[codigo]
         primero = delo[0]
         a, b = primero.equipos
@@ -1294,7 +1294,7 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
     """
     todos = datos.partidos()
     medido = datos.fecha_de_partidos()
-    con_partido = sorted({p.liga for p in todos if p.liga in LIGAS})
+    con_partido = sorted({p.liga for p in todos if p.liga in LIGAS_WEB})
     dias = sorted({p.dia for p in todos})
     vivos = [p for p in todos if p.en_juego]
     primero = todos[0] if todos else None
@@ -1348,7 +1348,7 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
             "The schedule file is empty right now, so there is nothing to "
             f"list. The bot refills it from lolesports on a timer and this "
             "page rebuilds itself on the next deploy.",
-            f"Meanwhile, the {len(LIGAS)} league pages still carry the SoloQ "
+            f"Meanwhile, the {len(LIGAS_WEB)} league pages still carry the SoloQ "
             "data that does not depend on the schedule.",
         ]
 
@@ -1392,13 +1392,13 @@ def pagina_partidos(sitio: str, fecha: str, pub: str) -> Pagina:
             ),
         ),
         (
-            f"Why are only {len(con_partido)} of the {len(LIGAS)} leagues "
+            f"Why are only {len(con_partido)} of the {len(LIGAS_WEB)} leagues "
             "listed?",
             (
                 "Because only those have fixtures published right now. "
                 "lolesports adds a league's calendar when its split is "
                 "scheduled, and between splits there is simply nothing to show. "
-                f"The other {len(LIGAS) - len(con_partido)} leagues still have "
+                f"The other {len(LIGAS_WEB) - len(con_partido)} leagues still have "
                 "their own pages with SoloQ data, which does not depend on the "
                 "competition calendar."
             ) if con_partido else (
@@ -1517,7 +1517,7 @@ def tabla_avisos(avisos: list[datos.Aviso]) -> str:
             datos.imagen_de_jugador(a.jugador), a.jugador, clase="mini", tope=28
         )
         equipo = datos.nombre_de_equipo(a.equipo) if a.equipo else ""
-        liga = LIGAS[a.liga].nombre if a.liga in LIGAS else a.liga.upper()
+        liga = LIGAS_WEB[a.liga].nombre if a.liga in LIGAS_WEB else a.liga.upper()
         filas.append(
             "        <tr>\n"
             f'          <td class="cuando"><time datetime="{e(a.sello)}">'
@@ -1838,7 +1838,7 @@ CONSULTA_RIVALES = "2026-09-03"
 #: para que se pueda contrastar y para que quien lo actualice sepa dónde mirar.
 #:
 #: `nuestro` es None en la fila de cada rival y se rellena aparte, porque lo
-#: nuestro sale del código (`PLANES`, `LIGAS`) y no de haber leído una web.
+#: nuestro sale del código (`PLANES`, `LIGAS_WEB`) y no de haber leído una web.
 RIVALES: tuple[dict[str, str], ...] = (
     {
         "nombre": "Dorans-bot",
@@ -1909,11 +1909,11 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
     # rompería la página. `Plan.gratis` es `precio <= 0`, que es la definición.
     gratis = next(p for p in PLANES.values() if p.gratis)
     anio = fecha[:4]
-    seguibles = sum(1 for l in LIGAS.values() if l.seguible)
+    seguibles = sum(1 for l in LIGAS_WEB.values() if l.seguible)
 
     nuestros = {
         "para_quien": "The professional players: the rosters of all "
-                      f"{len(LIGAS)} leagues already indexed, with nobody having "
+                      f"{len(LIGAS_WEB)} leagues already indexed, with nobody having "
                       "to link anything.",
         "avisos": "Yes, <b>when the game starts</b>, not when it ends. With "
                   "champion, role, rank, team and all ten participants.",
@@ -1946,7 +1946,7 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
     descripcion = (
         "What each League of Legends Discord bot alerts on. The others follow your "
         f"server's members; {branding.BOT_NOMBRE} follows the pros of "
-        f"{len(LIGAS)} leagues. Verified {CONSULTA_RIVALES}."
+        f"{len(LIGAS_WEB)} leagues. Verified {CONSULTA_RIVALES}."
     )
 
     preguntas = [
@@ -1984,7 +1984,7 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
         "League of Legends Discord bots follow <b>the members of your "
         "server</b>. This one follows <b>the professionals</b>.",
         f"The alert arrives <b>when the game starts</b>, not when it ends: there "
-        f"is time to watch it. {seguibles} of the {len(LIGAS)} leagues allow live "
+        f"is time to watch it. {seguibles} of the {len(LIGAS_WEB)} leagues allow live "
         "game detection.",
         "Data on the other bots read from their official websites on "
         f"{CONSULTA_RIVALES}.",
@@ -2034,7 +2034,7 @@ def pagina_comparativa(sitio: str, fecha: str, pub: str) -> Pagina:
         "rotation. There are no builds or counters here, and there will not be: "
         "that is not what this bot does.</p>\n"
         "      <h3>If you want to know when the professionals are playing</h3>\n"
-        f"      <p>{e(branding.BOT_NOMBRE)}. The rosters of all {len(LIGAS)} "
+        f"      <p>{e(branding.BOT_NOMBRE)}. The rosters of all {len(LIGAS_WEB)} "
         "leagues are already indexed with their SoloQ accounts, so there is "
         "nothing to link: you pick a league and a channel, and the alert arrives "
         "on its own as soon as someone queues up. It is the only thing it does, "

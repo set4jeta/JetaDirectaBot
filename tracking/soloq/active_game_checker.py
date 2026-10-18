@@ -281,12 +281,23 @@ class ActiveGameTracker:
                 1 for acc in all_accounts if getattr(acc, "stale", False)
             )
 
-            targets = [
-                (player, account)
-                for player in self._players
-                for account in player.accounts
-                if account.puuid and not getattr(account, "stale", False)
-            ]
+            # **Sin repetir PUUID.** Un jugador puede estar en dos ligas a la vez
+            # —un titular de la LEC que además está en Worlds—, y entonces sus
+            # cuentas salen dos veces en el catálogo. Consultarlas dos veces por
+            # pasada es el doble de peticiones para el mismo dato, y el sondeo es
+            # justo lo que agota los 5 GB del hosting (ver `DESPLIEGUE.md` §8).
+            # Antes de existir Worlds la duplicación era rara; con una liga que
+            # solapa equipos enteros deja de serlo.
+            targets = []
+            vistos: set[str] = set()
+            for player in self._players:
+                for account in player.accounts:
+                    if not account.puuid or getattr(account, "stale", False):
+                        continue
+                    if account.puuid in vistos:
+                        continue
+                    vistos.add(account.puuid)
+                    targets.append((player, account))
             stats.revisadas = len(targets)
 
             if not targets:

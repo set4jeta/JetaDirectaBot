@@ -54,6 +54,46 @@ def live_games():
     return jsonify(partidas_en_vivo.listado())
 
 
+@app.route("/health")
+def health():
+    """El estado del bot, para poder mirarlo **desde fuera** de Discord.
+
+    Por qué existe
+    --------------
+    El consumo de ancho de banda ya se podía consultar con el comando `/health`
+    dentro de Discord. El problema es el momento en el que hace falta: cuando
+    Render suspende el servicio por pasarse de los 5 GB, **el bot ya no está
+    conectado y no hay a quién preguntar**. Justo la pregunta que importa
+    —«¿cuánto llevo gastado?»— era la única que no se podía hacer.
+
+    Esto la contesta por HTTP, que sigue respondiendo mientras el proceso viva.
+
+    Lo que devuelve es una **estimación** del propio bot (ver `utils/egress.py`),
+    no la cifra del proveedor: sirve para ver la tendencia y cortar a tiempo, no
+    para cuadrar la factura. El número bueno está en el panel de Render.
+
+    No lleva nada privado: ni canales, ni servidores, ni usuarios.
+    """
+    from utils import egress
+
+    datos = egress.estado()
+    return jsonify({
+        "vivo": True,
+        "salida": {
+            "mes": datos["mes"],
+            "mb": round(datos["mb"], 1),
+            "tope_mb": round(datos["tope_mb"], 1),
+            "porcentaje": round(datos["porcentaje"], 1),
+            "mensajes": datos["mensajes"],
+            "adjuntos": datos["adjuntos"],
+            "aviso": ("por encima del presupuesto: no se adjunta el .bat"
+                      if datos["porcentaje"] >= 100 else
+                      "se adjunta el .bat" if datos["porcentaje"] >= 80 else
+                      "normal"),
+        },
+    })
+
+
 def run():
     # `use_reloader=False`: el reloader de Flask relanza el proceso entero, lo
     # que duplicaría el bot de Discord.

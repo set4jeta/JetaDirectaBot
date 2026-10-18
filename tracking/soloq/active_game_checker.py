@@ -281,6 +281,22 @@ class ActiveGameTracker:
                 1 for acc in all_accounts if getattr(acc, "stale", False)
             )
 
+            # **De qué liga son las cuentas omitidas.** Sin esto, «86 stale
+            # omitidas» no se puede interpretar: el 18-10-2026 se perdió un buen
+            # rato dando por hecho que las 86 eran las de NA de Worlds (y no lo
+            # eran). Una línea más en el log y esa duda no existe.
+            por_liga: dict[str, int] = {}
+            for player in self._players:
+                for account in player.accounts:
+                    if getattr(account, "stale", False):
+                        liga = getattr(player, "league", "") or "?"
+                        por_liga[liga] = por_liga.get(liga, 0) + 1
+            if por_liga:
+                desglose = ", ".join(
+                    f"{k}:{v}" for k, v in sorted(por_liga.items())
+                )
+                log.info("   stale por liga: %s", desglose)
+
             # **Sin repetir PUUID.** Un jugador puede estar en dos ligas a la vez
             # —un titular de la LEC que además está en Worlds—, y entonces sus
             # cuentas salen dos veces en el catálogo. Consultarlas dos veces por

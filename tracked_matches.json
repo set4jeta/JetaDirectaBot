@@ -3,7 +3,7 @@
     "start_time": "2026-10-18T18:00:00+00:00",
     "match_id": "116299649498303884",
     "detection_time": "2026-10-18T14:33:54+00:00",
-    "last_checked": "2026-10-18T18:30:20+00:00",
+    "last_checked": "2026-10-18T18:34:52+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Play-Ins",
@@ -33,16 +33,100 @@
         "number": 1,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-10-18T18:33:22+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "111692118851466302",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "103495716771322725",
+              "summoner_name": "KC Canna",
+              "champion_id": "Jayce",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "105537190986692036",
+              "summoner_name": "KC Yike",
+              "champion_id": "LeeSin",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "108205130709313212",
+              "summoner_name": "KC kyeahoo",
+              "champion_id": "Cassiopeia",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "109461265532592848",
+              "summoner_name": "KC Caliste",
+              "champion_id": "Zeri",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "106625308523122120",
+              "summoner_name": "KC Busio",
+              "champion_id": "Yuumi",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "107251245690956393",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "109828407662355333",
+              "summoner_name": "MVK Kratos",
+              "champion_id": "Yorick",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "109828289393968653",
+              "summoner_name": "MVK Gury",
+              "champion_id": "JarvanIV",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "113628612585554951",
+              "summoner_name": "MVK Chika",
+              "champion_id": "Akali",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "109828431746365782",
+              "summoner_name": "MVK Harky",
+              "champion_id": "Ashe",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "112834609700454416",
+              "summoner_name": "MVK SiuLoong",
+              "champion_id": "Seraphine",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-10-18T18:10:03.049Z"
       },
       {
         "game_id": "116299649498303886",

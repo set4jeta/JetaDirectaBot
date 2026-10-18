@@ -1,0 +1,113 @@
+[
+  {
+    "start_time": "2026-10-18T18:00:00+00:00",
+    "match_id": "116299649498303884",
+    "detection_time": "2026-10-18T14:33:54+00:00",
+    "last_checked": "2026-10-18T14:38:21+00:00",
+    "state": "notStarted",
+    "status": "detected",
+    "blockName": "Play-Ins",
+    "event_id": "116299649498303884",
+    "league_name": "Worlds",
+    "slug": "worlds",
+    "best_of_count": 5,
+    "teams_event_details": [
+      {
+        "id": "111692118851466302",
+        "name": "Karmine Corp",
+        "code": "KC",
+        "image": "https://static.lolesports.com/teams/1704714951336_KC.png",
+        "game_wins": 0
+      },
+      {
+        "id": "107251245690956393",
+        "name": "MVK Esports",
+        "code": "MVK",
+        "image": "https://static.lolesports.com/teams/1767089709161_White_Logo.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "116299649498303885",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "116299649498303886",
+        "number": 2,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "116299649498303887",
+        "number": 3,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "116299649498303888",
+        "number": 4,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      },
+      {
+        "game_id": "116299649498303889",
+        "number": 5,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  }
+]

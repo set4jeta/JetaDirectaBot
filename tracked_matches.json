@@ -3,7 +3,7 @@
     "start_time": "2026-10-18T18:00:00+00:00",
     "match_id": "116299649498303884",
     "detection_time": "2026-10-18T14:33:54+00:00",
-    "last_checked": "2026-10-18T19:50:52+00:00",
+    "last_checked": "2026-10-18T19:55:56+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Play-Ins",
@@ -87,90 +87,18 @@
         ],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {
-          "team_id": "111692118851466302",
+          "team_id": "",
           "name": "",
           "code": "",
           "image": "",
-          "participants": [
-            {
-              "participant_id": 1,
-              "player_id": "103495716771322725",
-              "summoner_name": "KC Canna",
-              "champion_id": "Galio",
-              "role": "top"
-            },
-            {
-              "participant_id": 2,
-              "player_id": "105537190986692036",
-              "summoner_name": "KC Yike",
-              "champion_id": "Qiyana",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 3,
-              "player_id": "108205130709313212",
-              "summoner_name": "KC kyeahoo",
-              "champion_id": "Ryze",
-              "role": "mid"
-            },
-            {
-              "participant_id": 4,
-              "player_id": "109461265532592848",
-              "summoner_name": "KC Caliste",
-              "champion_id": "Yunara",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 5,
-              "player_id": "106625308523122120",
-              "summoner_name": "KC Busio",
-              "champion_id": "Lulu",
-              "role": "support"
-            }
-          ]
+          "participants": []
         },
         "live_red_metadata": {
-          "team_id": "107251245690956393",
+          "team_id": "",
           "name": "",
           "code": "",
           "image": "",
-          "participants": [
-            {
-              "participant_id": 6,
-              "player_id": "109828407662355333",
-              "summoner_name": "MVK Kratos",
-              "champion_id": "Rumble",
-              "role": "top"
-            },
-            {
-              "participant_id": 7,
-              "player_id": "109828289393968653",
-              "summoner_name": "MVK Gury",
-              "champion_id": "Malphite",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 8,
-              "player_id": "113628612585554951",
-              "summoner_name": "MVK Chika",
-              "champion_id": "Hwei",
-              "role": "mid"
-            },
-            {
-              "participant_id": 9,
-              "player_id": "109828431746365782",
-              "summoner_name": "MVK Harky",
-              "champion_id": "Lucian",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 10,
-              "player_id": "112834609700454416",
-              "summoner_name": "MVK SiuLoong",
-              "champion_id": "Milio",
-              "role": "support"
-            }
-          ]
+          "participants": []
         },
         "last_frame_time": "2026-10-18T19:01:14.129Z"
       },

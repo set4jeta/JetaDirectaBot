@@ -60,3 +60,29 @@ _og_preview.png
 # Grabaciones del espectador (`scripts/grabar_partida.py`). Son datos, no código:
 # cada partida son ~12 MB y se regeneran solas.
 grabaciones/
+
+# Estado que el bot ESCRIBE en marcha. No se versiona, y la razón no es el tamaño
+# sino que un fichero commiteado es una foto vieja: Render arranca con el disco
+# vacío, hacía checkout de `main` y se encontraba los rosters del día que alguien
+# los subió —con las cuentas y las ligas que había entonces—. El síntoma era
+# «el bot arranca con datos de hace semanas» y se confundió durante días con un
+# fallo de la rama de estado.
+#
+# Todos se reconstruyen solos al arrancar (siembra de rosters, escalera, rangos)
+# o viven en la rama `estado`, que es donde se guarda lo que **no** se puede
+# reconstruir (`core/estado_remoto.ARCHIVOS`). Ver `scripts/test_estado_git.py`,
+# que vigila que no vuelvan a entrar.
+tracking/soloq/accounts_from_teams.json
+tracking/soloq/accounts.json
+tracking/soloq/accounts_from_teams.json.bak
+tracking/soloq/infoplayers_eu.json
+tracking/soloq/last_index.json
+tracking/ranking_cache.json
+tracking/ranking_cache_lck.json
+tracking/esports/proximos.json
+ranked_data.json
+puuid_cache.json
+notified_games.json
+tracked_matches.json
+notified_games.jsonl
+avisos.jsonl

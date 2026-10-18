@@ -28,6 +28,19 @@ commits de megas cada pocas horas, y los tres se pueden volver a bajar solos (la
 siembra de rosters, la escalera semanal y `rank_warm`). Lo que se sube es lo que
 **no se puede reconstruir**: lo que la gente pidió.
 
+Dónde vive cada cosa (lección del 18-10-2026)
+---------------------------------------------
+Esos tres ficheros **tampoco están en el repo**: un `main` con datos dentro es
+una foto del día en que alguien los subió, y Render hace checkout de `main` en
+cada despliegue. El bot arrancaba así con los rosters de semanas atrás, y el
+síntoma se confundió con un fallo de esta rama. Están en `.gitignore`, y la
+siembra de rosters los vuelve a bajar al arrancar.
+
+Ojo al mirar la rama `estado` por curiosidad: es un snapshot del repo tal como
+era cuando se creó, así que **contiene copias viejas** de ficheros que ya no se
+suben (los rosters, entre ellos). No se leen: `restaurar()` solo baja lo que
+está en `ARCHIVOS`. Ver `scripts/test_estado_git.py`.
+
 Sin `GITHUB_TOKEN` configurado esto no hace nada y el bot funciona igual — solo
 que el estado se pierde al reiniciar, que es como estaba antes.
 """
@@ -70,6 +83,12 @@ ARCHIVOS: tuple[str, ...] = (
     # y no avisaría nunca de que se está llegando al límite del proveedor. Es un
     # fichero de dos líneas.
     "tracking/soloq/egress.json",
+    # El registro de partidas ya avisadas. Pequeño, y **no se puede reconstruir**:
+    # si se pierde, el tracker de esports vuelve a avisar partidas de días
+    # anteriores. Antes vivía solo en el disco y en `main`, y un `main` viejo
+    # significaba arrancar con un registro viejo.
+    "notified_games.json",
+    "tracked_matches.json",
 )
 
 API = "https://api.github.com"

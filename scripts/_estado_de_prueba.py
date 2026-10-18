@@ -117,7 +117,14 @@ def estado_temporal(avisar: bool = True):
     from importlib import import_module
 
     antes = {ruta: _huella(ruta) for ruta in _rutas_reales()}
-    copias: dict[Path, bytes] = {}
+    # **Copia de bytes tomada al entrar**, no al salir. Se toma antes porque es
+    # lo que permite restaurar de verdad: los ficheros de estado ya no están en
+    # el repo (ver `.gitignore`), así que el `git checkout --` de antes no
+    # restauraba nada y la red de seguridad mentía. Con la copia da igual que el
+    # fichero esté versionado o no.
+    copias: dict[Path, bytes] = {
+        ruta: ruta.read_bytes() for ruta in _rutas_reales() if ruta.exists()
+    }
 
     with tempfile.TemporaryDirectory(prefix="estado-prueba-") as tmp:
         # **El temporal empieza con una copia de lo que hay.** No basta con
@@ -166,41 +173,79 @@ def estado_temporal(avisar: bool = True):
 
             tocados = [ruta for ruta, huella in antes.items()
                        if _huella(ruta) != huella]
-            if tocados:
-                # Se guarda una copia **antes** de restaurar, por si acaso.
+            if tocados and avisar:
+                print("\n" + "!" * 74)
+                print("  La prueba escribió en el ESTADO REAL del bot:")
                 for ruta in tocados:
-                    if ruta.exists():
-                        copias[ruta] = ruta.read_bytes()
-                if avisar:
-                    print("\n" + "!" * 74)
-                    print("  La prueba escribió en el ESTADO REAL del bot:")
-                    for ruta in tocados:
-                        print(f"     {ruta.relative_to(RAIZ)}")
-                    print("  Se restaura lo que había. Apunta el módulo que falta en")
-                    print("  `scripts/_estado_de_prueba.py` para que no vuelva a pasar.")
-                    print("!" * 74)
+                    print(f"     {ruta.relative_to(RAIZ)}")
+                print("  Se restaura lo que había. Apunta el módulo que falta en")
+                print("  `scripts/_estado_de_prueba.py` para que no vuelva a pasar.")
+                print("!" * 74)
 
-            # Y se restaura desde git, que es la fuente de verdad y no depende de
-            # que la copia se hiciera a tiempo.
-            if tocados:
-                import subprocess
-                relativas = [str(ruta.relative_to(RAIZ)) for ruta in tocados]
-                subprocess.run(["git", "checkout", "--", *relativas],
-                               cwd=RAIZ, capture_output=True)
-                for ruta in tocados:
-                    if not ruta.exists() and ruta in copias:
-                        ruta.write_bytes(copias[ruta])
+            # Se restaura desde la copia de bytes tomada al entrar. **Sin git**:
+            # los ficheros de estado no están versionados y `git checkout` no
+            # haría nada, con lo que el aviso de arriba prometería una
+            # restauración que no ocurría.
+            for ruta in tocados:
+                if ruta in copias:
+                    ruta.write_bytes(copias[ruta])
+                elif ruta.exists():
+                    # No existía al entrar: se borra lo que la prueba creó.
+                    ruta.unlink()
+
+
+#: Estado que el bot **escribe en marcha**. No se versiona: un fichero
+#: commiteado es una foto vieja y el host arranca haciendo checkout de `main`.
+#: Se reconstruye solo al arrancar o vive en la rama `estado`
+#: (`core/estado_remoto.ARCHIVOS`).
+#:
+#: Ojo con no confundirlo con los ficheros de **configuración**
+#: (`notify_config.json`, `channel_targets.json`, `leagues_config.json`…): esos
+#: sí se versionan a propósito, son los valores por defecto con los que arranca
+#: un servidor nuevo, y además viven en la rama de estado.
+_ESTADO_MUTABLE: tuple[str, ...] = (
+    "tracking/soloq/accounts_from_teams.json",
+    "tracking/soloq/accounts.json",
+    "ranked_data.json",
+    "puuid_cache.json",
+    "notified_games.json",
+    "tracked_matches.json",
+    "tracking/ranking_cache.json",
+    "tracking/soloq/last_index.json",
+    "tracking/soloq/infoplayers_eu.json",
+)
 
 
 def estado_limpio() -> bool:
-    """¿Está el estado del bot como lo dejó el último commit?
+    """¿El repo se está guardando de tragarse el estado del bot?
 
-    Para poder afirmarlo en vez de suponerlo. Devuelve `False` si algún fichero de
-    estado está modificado o sin seguimiento.
+    Ya no significa «el estado está como el último commit»: el estado mutable no
+    está en el repo, así que esa pregunta no tiene sentido. Lo que sí se puede
+    afirmar, y es lo que evita que vuelva el problema del 18-10-2026, es que
+    **sigue fuera** del control de versiones y dentro del `.gitignore`.
     """
     import subprocess
 
-    salida = subprocess.run(
-        ["git", "status", "--porcelain", "--", "tracking/soloq", "ranked_data.json"],
-        cwd=RAIZ, capture_output=True, text=True, errors="replace").stdout
-    return not salida.strip()
+    problemas = []
+    for rel in _ESTADO_MUTABLE:
+        ruta = RAIZ / rel
+        versionado = subprocess.run(
+            ["git", "ls-files", "--error-unmatch", "--", rel],
+            cwd=RAIZ, capture_output=True).returncode == 0
+        if versionado:
+            problemas.append(f"VERSIONADO (no debería): {rel}")
+            continue
+        ignorado = subprocess.run(
+            ["git", "check-ignore", "-q", "--", rel],
+            cwd=RAIZ, capture_output=True).returncode == 0
+        if not ignorado:
+            problemas.append(f"sin cubrir por .gitignore: {rel}")
+        if ruta.exists() and not versionado:
+            pass  # está en disco y sin seguimiento: es exactamente lo que se quiere
+
+    if problemas:
+        print("Estado del bot mal guardado en el repo:")
+        for p in problemas:
+            print(f"   {p}")
+        return False
+    return True

@@ -170,6 +170,60 @@ def prueba_restaura_de_verdad() -> None:
             victima.write_bytes(original)
 
 
+def prueba_cache_de_puuid() -> None:
+    """Al arrancar, los PUUIDs se sacan del caché y no se vuelven a pedir.
+
+    Se medían ~1.200 peticiones a Riot y más de 6 minutos en cada arranque, y
+    mientras tanto las cuentas nuevas no se barraban (el filtro exige
+    `account.puuid`): el 18-10-2026 se vio a Worlds entrar y salir del barrido
+    con 86 cuentas marcadas como perdidas, teniendo sus PUUIDs guardados desde
+    el día anterior.
+    """
+    print("\n=== los PUUIDs se sacan del caché al arrancar ===")
+    import json as _json
+    import tempfile
+
+    from tracking.soloq import puuid_repair
+
+    with tempfile.TemporaryDirectory() as tmp:
+        cache = Path(tmp) / "puuid_cache.json"
+        cache.write_text(_json.dumps({
+            "Vladi#EUW": "PUUID-VLADI",
+            "Fantasma#X": "",          # entrada vacía: no sirve
+        }), encoding="utf-8")
+
+        original = puuid_repair.PUUID_CACHE
+        puuid_repair.PUUID_CACHE = cache
+        try:
+            players = [
+                {"name": "Vladi", "league": "lec", "accounts": [
+                    {"riot_id": {"game_name": "Vladi", "tag_line": "EUW"},
+                     "puuid": "", "stale": True}]},
+                {"name": "Caps", "league": "lec", "accounts": [
+                    {"riot_id": {"game_name": "G2 Caps", "tag_line": "1323"},
+                     "puuid": "YA-ESTABA"}]},
+                {"name": "X", "league": "lec", "accounts": [
+                    {"riot_id": {"game_name": "Fantasma", "tag_line": "X"},
+                     "puuid": ""}]},
+            ]
+            n = puuid_repair.rellenar_puuid_de_cache(players)
+            ok(n == 1, "solo rellena la que falta", f"{n} rellenos")
+            ok(players[0]["accounts"][0]["puuid"] == "PUUID-VLADI",
+               "y la rellena desde el caché")
+            ok("stale" not in players[0]["accounts"][0],
+               "además le quita la marca de perdida")
+            ok(players[1]["accounts"][0]["puuid"] == "YA-ESTABA",
+               "el PUUID que ya estaba no se toca")
+            ok(players[2]["accounts"][0]["puuid"] == "",
+               "una entrada vacía del caché no inventa nada")
+        finally:
+            puuid_repair.PUUID_CACHE = original
+
+    # Y sin fichero de caché no pasa nada.
+    ok(puuid_repair.rellenar_puuid_de_cache([]) == 0,
+       "sin caché no revienta")
+
+
 def main() -> int:
     print("=" * 74)
     print("EL ESTADO DEL BOT NO PUEDE ENTRAR EN EL REPO")
@@ -179,6 +233,7 @@ def main() -> int:
     prueba_ignorado()
     prueba_reparto()
     prueba_arranca_sin_ellos()
+    prueba_cache_de_puuid()
     prueba_restaura_de_verdad()
 
     print("\n" + "=" * 74)

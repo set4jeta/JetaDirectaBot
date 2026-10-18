@@ -62,6 +62,7 @@ from bs4 import BeautifulSoup
 
 from apis.dpm_payload import extraer_jugadores, resumen
 from models.bootcamp_player import BootcampPlayer
+from tracking.soloq import puuid_repair
 from utils.logger import get_logger
 from utils.safe_json import cargar_lista_json, guardar_lista_json
 
@@ -381,6 +382,12 @@ def main(ligas: list[str] | None = None) -> bool:
             codigo, n, ", ".join(LIGAS[codigo].solo_plataformas),
         )
 
+    # Igual que en `refrescar_ligas`: las cuentas resueltas en una pasada
+    # anterior salen del caché y no se vuelven a pedir a Riot.
+    from_cache = puuid_repair.rellenar_puuid_de_cache(nuevos)
+    if from_cache:
+        log.info("PUUIDs sacados del caché: %d.", from_cache)
+
     return guardar_lista_json(
         JSON_PATH,
         nuevos,
@@ -525,6 +532,16 @@ def refrescar_ligas(codigos: list[str]) -> bool:
         return False
 
     combinado = conservados + nuevos
+
+    # Los PUUIDs que ya se resolvieron otra vez se sacan del caché en vez de
+    # volver a pedírselos a Riot: son ~1.200 peticiones y 6 minutos en cada
+    # arranque, y mientras tanto las cuentas nuevas no se barrían. Ver
+    # `puuid_repair.rellenar_puuid_de_cache`.
+    from_cache = puuid_repair.rellenar_puuid_de_cache(combinado)
+    if from_cache:
+        log.info("PUUIDs sacados del caché: %d (no se gastan peticiones).",
+                 from_cache)
+
     log.info(
         "Rosters de %s refrescados: %d jugadores (antes %d en esas ligas, ahora "
         "%d; total %d) · %d PUUIDs heredados.",

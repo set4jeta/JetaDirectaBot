@@ -145,6 +145,46 @@ def aplicar_resoluciones(
     return tocadas
 
 
+def rellenar_puuid_de_cache(players: list[dict]) -> int:
+    """Rellena desde `puuid_cache.json` los PUUIDs que falten. Devuelve cuántos.
+
+    Por qué hace falta
+    ------------------
+    Al arrancar, el bot se encuentra los ficheros de estado vacíos (disco
+    efímero) y se baja los rosters de dpm.lol. Esas cuentas vienen **sin
+    PUUID** —`from_pro_api` los pone a `None` a propósito, porque el puuid de
+    dpm.lol no es el de Riot—, así que la reparación tenía que volver a
+    preguntarle a Riot por todas: ~1.200 peticiones, más de 6 minutos y una
+    buena pila de 429.
+
+    Y mientras tanto las cuentas sin resolver **no se barren**: el filtro de la
+    pasada exige `account.puuid`. El 18-10-2026 se vio Worlds entrando y
+    saliendo del barrido durante un rato, con 86 cuentas marcadas como
+    `stale`, cuando sus PUUIDs estaban resueltos y guardados desde el día
+    anterior en `puuid_cache.json`.
+
+    El caché se sube a la rama de estado (`core.estado_remoto.ARCHIVOS`), así que
+    sobrevive a los despliegues: es exactamente el sitio donde está la respuesta.
+    """
+    try:
+        cache = json.loads(PUUID_CACHE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return 0
+    if not isinstance(cache, dict) or not cache:
+        return 0
+
+    rellenados = 0
+    for account, game_name, tag_line in iter_accounts(players):
+        if account.get("puuid"):
+            continue
+        puuid = cache.get(f"{game_name}#{tag_line}")
+        if puuid:
+            account["puuid"] = puuid
+            account.pop("stale", None)
+            rellenados += 1
+    return rellenados
+
+
 class _SinConsultar(Exception):
     """No se pudo **preguntar** a Riot: 429, 5xx, red.
 

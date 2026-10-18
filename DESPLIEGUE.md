@@ -195,6 +195,35 @@ Son 1,1 kB, o sea nada al lado de los ~35 kB de antes.
 
 El resultado: el consumo baja a alrededor del **15 %** de lo que era.
 
+### La cadencia: el gasto que quedaba
+
+Con las imágenes fuera, lo que quedaba gastando era **el sondeo de Riot**, no los
+avisos. Medido el 18-10-2026 con 289 cuentas barridas cada 30 s: **~64 MB/h**
+(~1,5 GB/día), o sea el cupo entero en 3-4 días. Los avisos de todo septiembre
+habían sido 5 MB.
+
+Se subió `CHECK_GAMES_INTERVAL` de **30 s a 240 s** (variable de entorno de
+Render, sin tocar código). Ocho veces menos peticiones para el mismo dato:
+
+- la pasada sigue tardando lo mismo (~20 s con las cachés calientes), así que
+  **sobra margen**: antes ocupaba el 97 % del intervalo y el bot ya avisaba de
+  que con una liga más no cabría;
+- el precio es la **latencia**: un aviso puede llegar hasta 4 minutos más tarde.
+  Para un aviso de «ha entrado a SoloQ» es asumible, y es el trato que eligió el
+  dueño.
+
+Al desplegarlo se comprobó en el log:
+
+```
+Tareas iniciadas | partidas cada 240s
+🟢 Partidas SoloQ en curso  cada 240s
+```
+
+Con la cadencia nueva las imágenes **no cambian de nada**: van por URL desde
+dpm.lol y las sirve Discord, así que no dependen de cuándo se barre. Que siguen
+bien lo vigila `scripts/test_embeds_imagenes.py`, que construye el aviso de SoloQ
+de verdad y exige foto y logo en `https` y **ningún adjunto**.
+
 ### La red de seguridad
 
 `utils/egress.py` lleva la cuenta de la salida del mes y la publica en

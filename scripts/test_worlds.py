@@ -209,6 +209,61 @@ def prueba_carrera_del_reparador() -> None:
        "una cuenta no consultada (429) no se da por perdida")
 
 
+def prueba_estado_http() -> None:
+    """La diferencia entre «no existe» y «no se pudo preguntar».
+
+    El fallo real medido el 18-10-2026: `get_account_by_riot_id` devuelve `None`
+    para cualquier estado que no sea 200, así que un 429 y un 404 llegaban
+    iguales a quien marcaba las cuentas. Las 86 cuentas de NA de Worlds se
+    quedaron `stale` —sin sondearse— por eso.
+    """
+    print("\n=== el estado HTTP no se puede perder ===")
+    import asyncio
+
+    from apis.riot_client import RiotClient
+    from tracking.soloq.puuid_repair import _resolve
+
+    class FakeClient:
+        """Cliente de mentira: devuelve lo que se le diga por estado."""
+
+        def __init__(self, puuid, status):
+            self._puuid, self._status = puuid, status
+
+        async def get_puuid_con_estado(self, game_name, tag_line, region="europe"):
+            return self._puuid, self._status
+
+    async def _caso(puuid, status):
+        return await _resolve(FakeClient(puuid, status), "Alguien", "TAG")
+
+    ok(asyncio.run(_caso("PUUID-DE-VUELTA", 200)) == "PUUID-DE-VUELTA",
+       "un 200 devuelve el PUUID")
+    ok(asyncio.run(_caso(None, 404)) is None, "un 404 es «no existe»")
+
+    for estado in (429, 500, 503):
+        try:
+            asyncio.run(_caso(None, estado))
+            ok(False, f"un {estado} tiene que avisar de que no se pudo preguntar")
+        except Exception as exc:
+            ok(type(exc).__name__ == "_SinConsultar",
+               f"un {estado} lanza «no se pudo consultar», no «no existe»")
+
+    # Y el cliente real: que el estado llegue desde `_request`.
+    class FakeReq(RiotClient):
+        def __init__(self, puuid, status):
+            self._puuid, self._status = puuid, status
+
+        async def _request(self, url, method_key):
+            return self._status, ({"puuid": self._puuid} if self._status == 200 else None)
+
+    c = FakeReq("PUUID", 429)
+    puuid, status = asyncio.run(c.get_puuid_con_estado("Alguien", "TAG"))
+    ok(status == 429 and puuid is None,
+       "`get_puuid_con_estado` conserva el 429 en vez de aplastarlo a None")
+    c2 = FakeReq("PUUID", 404)
+    puuid, status = asyncio.run(c2.get_puuid_con_estado("Alguien", "TAG"))
+    ok(status == 404, "y el 404 también")
+
+
 def main() -> int:
     print("=" * 74)
     print("WORLDS: SOLO EN TEMPORADA, SOLO EN NA")
@@ -221,6 +276,7 @@ def main() -> int:
     prueba_umbral()
     prueba_web_y_comandos()
     prueba_carrera_del_reparador()
+    prueba_estado_http()
 
     print("\n" + "=" * 74)
     if fallos:

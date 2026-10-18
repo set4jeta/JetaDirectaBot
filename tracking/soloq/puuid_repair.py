@@ -161,21 +161,40 @@ class _SinConsultar(Exception):
 
 
 async def _resolve(client, game_name: str, tag_line: str) -> str | None:
+    """PUUID de una cuenta, o `None` si Riot dice que no existe (404).
+
+    Es importante **qué se devuelve cuando no se puede preguntar**: un 429, un
+    5xx o una key caducada llegan aquí como estados HTTP, y confundirlos con un
+    404 marcaba la cuenta como borrada y la dejaba sin sondear 6 horas. Para eso
+    está `get_puuid_con_estado`: es la única forma de separar «no existe» de «no
+    se pudo preguntar».
+    """
     from apis.riot_client import RiotApiError
 
     try:
-        return await client.get_puuid(game_name, tag_line, region=CLUSTER)
+        puuid, status = await client.get_puuid_con_estado(
+            game_name, tag_line, region=CLUSTER
+        )
     except RiotApiError as exc:
-        if exc.status == 404:
-            # Esto sí es «esa cuenta no existe» (renombrada o borrada).
-            log.debug("No existe %s#%s (404).", game_name, tag_line)
-            return None
         log.warning(
-            "No se pudo consultar %s#%s (%s); se reintentará en la próxima "
-            "reparación y la cuenta se queda como estaba.",
-            game_name, tag_line, exc.status,
+            "No se pudo consultar %s#%s (%s); se reintentará y la cuenta se queda "
+            "como estaba.", game_name, tag_line, exc.status,
         )
         raise _SinConsultar(str(exc)) from exc
+
+    if status == 200 and puuid:
+        return puuid
+    if status == 404:
+        # Esto sí es «esa cuenta no existe» (renombrada o borrada).
+        log.debug("No existe %s#%s (404).", game_name, tag_line)
+        return None
+
+    log.warning(
+        "Riot no ha podido resolver %s#%s (HTTP %s, no un 404): se reintentará en "
+        "la próxima reparación y la cuenta se queda como está.",
+        game_name, tag_line, status,
+    )
+    raise _SinConsultar(f"HTTP {status}")
 
 
 async def _resolver_todos(

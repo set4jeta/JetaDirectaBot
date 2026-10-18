@@ -471,26 +471,56 @@ class RiotClient:
     # Endpoints
     # ------------------------------------------------------------------ #
 
-    async def get_account_by_riot_id(
-        self, game_name: str, tag_line: str, region: str = REGION_ACCOUNT
-    ) -> dict | None:
-        """Resuelve gameName#tagLine a PUUID. None si la cuenta no existe.
-
-        Este es el endpoint que repara los PUUIDs corruptos del proyecto: los
-        que se guardaron desde dpm.lol no los puede descifrar Riot.
-        """
+    def _ruta_account_v1(self, game_name: str, tag_line: str, region: str) -> str:
+        """URL de `account/v1/by-riot-id`. La usa más de un método, y por eso vive aparte."""
         from urllib.parse import quote
 
         path = (
             f"/riot/account/v1/accounts/by-riot-id/"
             f"{quote(str(game_name), safe='')}/{quote(str(tag_line), safe='')}"
         )
-        status, data = await self._request(self._url(region, path), "account-v1.by-riot-id")
+        return self._url(region, path)
+
+    async def get_account_by_riot_id(
+        self, game_name: str, tag_line: str, region: str = REGION_ACCOUNT
+    ) -> dict | None:
+        """Resuelve gameName#tagLine a la ficha de la cuenta. None si no existe.
+
+        Este es el endpoint que repara los PUUIDs corruptos del proyecto: los
+        que se guardaron desde dpm.lol no los puede descifrar Riot.
+
+        Ojo con lo que **no** distingue: `None` significa «la cuenta no existe»,
+        pero también «no se pudo preguntar» (429, 5xx, API key). Para separar las
+        dos cosas está `get_puuid_con_estado`.
+        """
+        status, data = await self._request(
+            self._ruta_account_v1(game_name, tag_line, region), "account-v1.by-riot-id"
+        )
         return data if status == 200 else None
 
     async def get_puuid(self, game_name: str, tag_line: str, region: str = REGION_ACCOUNT) -> str | None:
         account = await self.get_account_by_riot_id(game_name, tag_line, region)
         return account.get("puuid") if account else None
+
+    async def get_puuid_con_estado(
+        self, game_name: str, tag_line: str, region: str = REGION_ACCOUNT
+    ) -> tuple[str | None, int]:
+        """Como `get_puuid`, pero devolviendo también el estado HTTP.
+
+        Existe porque la pareja (`None`, estado) es información, y sin ella no se
+        puede distinguir «esta cuenta ya no existe» de «Riot no me ha dejado
+        preguntar». Ahí se estuvo marcando `stale` —o sea, dejar de avisar de esa
+        cuenta durante 6 horas— a cuentas perfectamente vivas cuando la
+        reparación de PUUIDs se cruzaba con un 429.
+
+        Devuelve `("puuid", 200)`, `(None, 404)` o `(None, <429|5xx>)`. El estado
+        que devuelve `_request` tras agotar sus reintentos ya es el definitivo.
+        """
+        status, data = await self._request(
+            self._ruta_account_v1(game_name, tag_line, region), "account-v1.by-riot-id"
+        )
+        puuid = data.get("puuid") if isinstance(data, dict) else None
+        return puuid, status
 
     async def get_active_game(self, puuid: str, platform: str = DEFAULT_PLATFORM) -> dict | None:
         """Partida en curso. None si no está en partida (404)."""

@@ -3,7 +3,7 @@
     "start_time": "2026-10-18T18:00:00+00:00",
     "match_id": "116299649498303884",
     "detection_time": "2026-10-18T14:33:54+00:00",
-    "last_checked": "2026-10-18T18:44:53+00:00",
+    "last_checked": "2026-10-18T18:49:52+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Play-Ins",
@@ -17,7 +17,7 @@
         "name": "Karmine Corp",
         "code": "KC",
         "image": "https://static.lolesports.com/teams/1704714951336_KC.png",
-        "game_wins": 0
+        "game_wins": 1
       },
       {
         "id": "107251245690956393",
@@ -31,12 +31,12 @@
       {
         "game_id": "116299649498303885",
         "number": 1,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-10-18T18:46:53+00:00",
         "real_start_time": "2026-10-18T18:33:22+00:00",
         "vods": [],
         "live_patch": "16.20.826.3891",
@@ -131,7 +131,7 @@
       {
         "game_id": "116299649498303886",
         "number": 2,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,

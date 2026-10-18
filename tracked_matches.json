@@ -2,8 +2,8 @@
   {
     "start_time": "2026-10-18T18:00:00+00:00",
     "match_id": "116299649498303884",
-    "detection_time": "2026-10-18T14:33:54+00:00",
-    "last_checked": "2026-10-18T20:15:54+00:00",
+    "detection_time": "2026-10-18T20:20:53+00:00",
+    "last_checked": "2026-10-18T20:20:53+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Play-Ins",
@@ -33,11 +33,11 @@
         "number": 1,
         "state": "completed",
         "draft_in_progress": false,
-        "has_participants": true,
+        "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": "2026-10-18T18:46:53+00:00",
-        "real_start_time": "2026-10-18T18:33:22+00:00",
+        "finished_time": null,
+        "real_start_time": null,
         "vods": [
           {
             "id": "117463406408516186",
@@ -56,33 +56,21 @@
             "first_frame_time": null
           }
         ],
-        "live_patch": "16.20.826.3891",
-        "live_blue_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "live_red_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "last_frame_time": "2026-10-18T18:10:03.049Z"
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
       },
       {
         "game_id": "116299649498303886",
         "number": 2,
         "state": "completed",
         "draft_in_progress": false,
-        "has_participants": true,
+        "has_participants": false,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": "2026-10-18T19:33:12+00:00",
-        "real_start_time": "2026-10-18T19:02:23+00:00",
+        "finished_time": null,
+        "real_start_time": null,
         "vods": [
           {
             "id": "117463607561468148",
@@ -101,22 +89,10 @@
             "first_frame_time": null
           }
         ],
-        "live_patch": "16.20.826.3891",
-        "live_blue_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "live_red_metadata": {
-          "team_id": "",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": []
-        },
-        "last_frame_time": "2026-10-18T19:01:14.129Z"
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
       },
       {
         "game_id": "116299649498303887",
@@ -127,7 +103,7 @@
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": "2026-10-18T19:49:49+00:00",
+        "real_start_time": null,
         "vods": [],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {

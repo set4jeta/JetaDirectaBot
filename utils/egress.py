@@ -47,8 +47,16 @@ log = get_logger("utils.egress")
 #: Dónde se guarda el acumulado. Va en `tracking/soloq/` y está en la lista de
 #: `core/estado_remoto.ARCHIVOS`, así que sobrevive a reinicios y despliegues:
 #: sin eso el contador volvería a cero en cada uno y no valdría para nada.
-RUTA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                    "tracking", "soloq", "egress.json")
+#:
+#: Se puede desviar con `EGRESS_RUTA`, y **eso es para las pruebas, no un adorno**:
+#: `test_salida_red` comprueba que el acumulado sobrevive a recargar el módulo, y
+#: al recargarlo esta constante se vuelve a evaluar. Si la prueba la hubiera
+#: desviado cambiando el atributo, la recarga lo desharía y la prueba escribiría
+#: en el contador de verdad — que es justo el fichero que existe para no volver a
+#: quedarse sin ancho de banda sin enterarse.
+RUTA = os.environ.get("EGRESS_RUTA") or os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "tracking", "soloq", "egress.json")
 
 #: Presupuesto mensual en MB. **Por debajo de los 5 GB de Render a propósito**:
 #: el margen es lo que evita que un pico de última hora provoque la suspensión

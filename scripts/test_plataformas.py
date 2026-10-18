@@ -362,13 +362,19 @@ async def prueba_retry_handler() -> None:
 # --------------------------------------------------------------------- #
 
 async def main() -> None:
-    prueba_normalizar()
-    await prueba_ranked_cache()
-    await prueba_rank_warm()
-    await prueba_load_ranks()
-    await prueba_team()
-    await prueba_riot_api_compat()
-    await prueba_retry_handler()
+    # Todo lo que se escriba va a un temporal: sin esto la prueba dejaba
+    # `ranked_data.json` y `leagues_config.json` tocados, y el estado del bot
+    # cambia solo cada vez que alguien pasa la batería.
+    from _estado_de_prueba import estado_temporal
+
+    with estado_temporal():
+        prueba_normalizar()
+        await prueba_ranked_cache()
+        await prueba_rank_warm()
+        await prueba_load_ranks()
+        await prueba_team()
+        await prueba_riot_api_compat()
+        await prueba_retry_handler()
 
     rc._client = None  # se deja el singleton como estaba
 

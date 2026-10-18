@@ -256,10 +256,16 @@ async def main() -> int:
     print("PRUEBA DE LOS OBJETIVOS POR CANAL")
     print("=" * 74)
 
-    probar_almacen()
-    probar_filtros()
-    probar_resolucion()
-    await probar_comando()
+    # Todo lo que se escriba va a un temporal. Sin esto la prueba metía un
+    # servidor de mentira (`111222333444555666`) en el `notify_config.json` real,
+    # y no daba ningún error: se descubrió porque `git status` enseñó el fichero.
+    from _estado_de_prueba import estado_temporal
+
+    with estado_temporal():
+        probar_almacen()
+        probar_filtros()
+        probar_resolucion()
+        await probar_comando()
 
     print("\n" + "=" * 74)
     if fallos:

@@ -526,9 +526,15 @@ def prueba_ligas_en_uso_incluye_al_usuario() -> None:
 
 
 def main() -> int:
-    with tempfile.TemporaryDirectory() as tmp:
+    from _estado_de_prueba import estado_temporal
+
+    with tempfile.TemporaryDirectory() as tmp, estado_temporal():
         # Todo lo que se escribe va a `tmp`: la prueba no puede tocar la config
         # real, y menos los planes, que es lo que alguien habría pagado.
+        #
+        # `estado_temporal()` cubre además lo que esta lista se dejaba fuera: los
+        # rosters (`accounts_from_teams.json`) se los llevaba por delante cada vez
+        # que se corría esta prueba — 8 458 líneas cambiadas sin un solo error.
         usuarios.CONFIG_PATH = os.path.join(tmp, "users.json")
         plans._USUARIOS_PATH = os.path.join(tmp, "plans_users.json")
         plans._CONFIG_PATH = os.path.join(tmp, "plans.json")
@@ -541,6 +547,15 @@ def main() -> int:
         # La plantilla: se sustituye la lectura de disco, no el fichero, para no
         # tocar los 192 KB reales ni depender de qué ligas tenga hoy.
         accounts_io.load_tracked_accounts = lambda: list(PLANTILLA)
+
+        # Y **no se baja nada de la red**. `/seguir <liga>` acaba disparando la
+        # rotación de rosters (`accounts_from_teams.refrescar_ligas`), que se
+        # conecta a dpm.lol y **reescribe los rosters de verdad**: 17 segundos de
+        # red dentro de una prueba unitaria y 8 458 líneas cambiadas en
+        # `accounts_from_teams.json`. Una prueba no debe depender de que haya
+        # internet, ni tardar 17 segundos, ni escribir estado que no es suyo.
+        from tracking.soloq import accounts_from_teams
+        accounts_from_teams.refrescar_ligas = lambda *a, **k: True
 
         prueba_seguir_jugador()
         prueba_seguir_nick_con_espacios()

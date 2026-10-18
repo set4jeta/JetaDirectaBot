@@ -217,10 +217,16 @@ def prueba_degradacion() -> None:
 
 
 def main() -> None:
-    prueba_sin_adjuntos_de_imagen()
-    prueba_urls()
-    prueba_contador()
-    prueba_degradacion()
+    # El contador de ancho de banda vive en `egress.json`; sin esto la prueba lo
+    # escribía en el de verdad, y ese fichero es justo el que el bot usa para no
+    # volver a quedarse sin ancho de banda sin enterarse.
+    from _estado_de_prueba import estado_temporal
+
+    with estado_temporal():
+        prueba_sin_adjuntos_de_imagen()
+        prueba_urls()
+        prueba_contador()
+        prueba_degradacion()
 
     print(f"\nfallos : {len(fallos)}")
     if fallos:

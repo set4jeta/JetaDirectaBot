@@ -105,6 +105,17 @@ async def probar_equipo(tag: str) -> tuple[int, int]:
 
 
 async def main() -> int:
+    # Los rangos que consulta se escriben en un temporal. Esta prueba pide
+    # equipos de verdad a Riot, y `rank_store` guarda lo que recibe: sin esto
+    # dejaba `ranked_data.json` tocado cada vez que alguien pasaba la batería, y
+    # ese fichero es estado del bot, no un resultado de la prueba.
+    from _estado_de_prueba import estado_temporal
+
+    with estado_temporal():
+        return await _main()
+
+
+async def _main() -> int:
     equipos = sys.argv[1:] or ["NAVI", "TH", "G2"]
 
     print("=" * 74)

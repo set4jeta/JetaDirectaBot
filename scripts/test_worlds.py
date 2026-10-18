@@ -162,6 +162,44 @@ def prueba_web_y_comandos() -> None:
        "pero seguir a un jugador sí lo trae")
 
 
+def prueba_carrera_del_reparador() -> None:
+    """El bug que se comió Worlds justo después de añadirlo.
+
+    `repair_file` lee el fichero de rosters al empezar, tarda minutos y lo
+    guardaba al final **tal cual lo leyó**. El arranque añadió Worlds en medio y
+    la reparación lo pisó con la lista de antes: el bot seguía barriendo 256
+    cuentas en vez de 342, sin un solo error en el log.
+
+    Ahora, antes de guardar, se relee y se aplican solo los PUUIDs.
+    """
+    print("\n=== la carrera del reparador de PUUIDs ===")
+    from tracking.soloq.puuid_repair import aplicar_resoluciones
+
+    # Lo que hay en disco cuando la reparación termina: ya trae Worlds.
+    en_disco = [
+        {"name": "Vladi", "league": "lec", "accounts": [
+            {"riot_id": {"game_name": "Vladi", "tag_line": "EUW"}, "puuid": ""},
+        ]},
+        {"name": "Faker", "league": "worlds", "accounts": [
+            {"riot_id": {"game_name": "Hide on bush", "tag_line": "KR1"}, "puuid": ""},
+        ]},
+    ]
+    resueltos = {"Vladi#EUW": "puuid-vladi", "Hide on bush#KR1": "puuid-faker"}
+    aplicar_resoluciones(en_disco, resueltos, [])
+
+    ok(len(en_disco) == 2, "no se pierde el jugador que entró mientras tanto")
+    ok(en_disco[1]["league"] == "worlds", "Worlds sigue en la lista")
+    ok(en_disco[0]["accounts"][0]["puuid"] == "puuid-vladi", "se aplica el PUUID")
+    ok(en_disco[1]["accounts"][0]["puuid"] == "puuid-faker",
+       "también el del jugador que acaba de entrar")
+
+    # Una cuenta que Riot ya no encuentra se marca, pero no se borra.
+    lista = [{"name": "X", "league": "lec",
+              "accounts": [{"riot_id": {"game_name": "Fantasma", "tag_line": "X"}}]}]
+    aplicar_resoluciones(lista, {}, ["Fantasma#X"])
+    ok(lista[0]["accounts"][0].get("stale") is True, "una cuenta perdida se marca")
+
+
 def main() -> int:
     print("=" * 74)
     print("WORLDS: SOLO EN TEMPORADA, SOLO EN NA")
@@ -173,6 +211,7 @@ def main() -> int:
     prueba_filtro()
     prueba_umbral()
     prueba_web_y_comandos()
+    prueba_carrera_del_reparador()
 
     print("\n" + "=" * 74)
     if fallos:

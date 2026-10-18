@@ -95,6 +95,56 @@ def iter_accounts(players: list[dict]):
                 yield account, game_name, tag_line
 
 
+def _clave_riot(game_name: str, tag_line: str) -> tuple[str, str]:
+    return (game_name or "").strip().lower(), (tag_line or "").strip().lower()
+
+
+def aplicar_resoluciones(
+    players: list[dict],
+    resueltos: dict[str, str | None],
+    no_encontradas: list[str] | None = None,
+) -> int:
+    """Aplica los PUUIDs ya resueltos **a una lista de jugadores**, y devuelve cuántos tocó.
+
+    Existe para poder guardar sobre una copia **recién leída** del fichero en vez
+    de sobre la que se leyó al empezar. `repair_file` tarda minutos (al arrancar,
+    ~6 min para 1950 cuentas): si mientras tanto otra tarea reescribe el fichero
+    —el refresco de rosters, que añade ligas—, guardar la copia vieja **borra lo
+    que acaba de entrar** y no queda ni un error en el log.
+
+    Pasó el 18-10-2026 con Worlds: el arranque añadió 64 jugadores y la
+    reparación de PUUIDs los pisó con la lista de antes, así que el bot seguía
+    barriendo 256 cuentas en vez de 342 y todo parecía correcto.
+
+    Se aplica **solo el resultado de la reparación** (PUUID y marca de `stale`),
+    nunca la lista entera: lo que hay en disco manda.
+    """
+    por_riot = {}
+    for etiqueta, puuid in resueltos.items():
+        if puuid and "#" in etiqueta:
+            game_name, tag_line = etiqueta.split("#", 1)
+            por_riot[_clave_riot(game_name, tag_line)] = puuid
+
+    perdidas = {
+        _clave_riot(*etiqueta.split("#", 1))
+        for etiqueta in (no_encontradas or [])
+        if "#" in etiqueta
+    }
+
+    tocadas = 0
+    for account, game_name, tag_line in iter_accounts(players):
+        clave = _clave_riot(game_name, tag_line)
+        if clave in por_riot:
+            if account.get("puuid") != por_riot[clave]:
+                tocadas += 1
+            account["puuid"] = por_riot[clave]
+            account.pop("stale", None)
+        elif clave in perdidas:
+            account["stale"] = True
+            tocadas += 1
+    return tocadas
+
+
 async def _resolve(client, game_name: str, tag_line: str) -> str | None:
     from apis.riot_client import RiotApiError
 
@@ -194,6 +244,15 @@ async def repair_file(
     stats["no_encontradas_lista"] = not_found
 
     if not dry_run:
+        # **Se relee el fichero y se aplican solo los PUUIDs**, en vez de
+        # guardar la copia que se leyó al empezar. Entre las dos cosas pasan
+        # minutos, y en ese rato el refresco de rosters puede haber añadido
+        # ligas enteras: escribir la copia vieja las borra sin dejar rastro.
+        # Ver `aplicar_resoluciones` y el caso de Worlds del 18-10-2026.
+        frescos = load_json(path)
+        if frescos:
+            aplicar_resoluciones(frescos, resueltos, not_found)
+            players = frescos
         save_json(path, players)
 
     log.info(

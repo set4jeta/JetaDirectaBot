@@ -145,6 +145,28 @@ def aplicar_resoluciones(
     return tocadas
 
 
+def _cache_para_resolver() -> dict[str, str]:
+    """La caché de PUUIDs como mapa `etiqueta -> puuid`, lista para `ya_resuelto`.
+
+    La usa `repair_file` para **no volver a preguntar** a Riot lo que ya se
+    resolvió otra vez. Sin eso, la reparación marcaba como perdidas cuentas que
+    estaban resueltas y guardadas: el 18-10-2026 las 86 cuentas de NA de Worlds
+    aparecían como `no halladas` teniendo 60 de ellas su PUUID en el caché, y una
+    cuenta `stale` no se sondea. Se explicaba porque la reparación corre en
+    paralelo al refresco de rosters y era quien escribía el último.
+    """
+    try:
+        cache = json.loads(PUUID_CACHE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    if not isinstance(cache, dict):
+        return {}
+    return {
+        etiqueta: puuid for etiqueta, puuid in cache.items()
+        if puuid and isinstance(puuid, str)
+    }
+
+
 def rellenar_puuid_de_cache(players: list[dict]) -> int:
     """Rellena desde `puuid_cache.json` los PUUIDs que falten. Devuelve cuántos.
 
@@ -302,8 +324,40 @@ async def repair_file(
     targets = list(iter_accounts(players))
     started = time.perf_counter()
 
-    objetivos = {f"{gn}#{tl}": (gn, tl) for _acc, gn, tl in targets}
-    resueltos = await _resolver_todos(client, objetivos, ya_resuelto)
+    # **Solo se pregunta por las cuentas que no tienen PUUID.**
+    #
+    # Antes se re-resolvían todas en cada pasada: ~1.200 peticiones a Riot, más de
+    # 6 minutos, y cada 404 se traducía en `stale` —o sea, la cuenta dejaba de
+    # sondearse— **aunque el fichero tuviera ya un PUUID bueno**. Eso es lo que
+    # dejó a las 86 cuentas de NA de Worlds fuera del barrido el 18-10-2026:
+    # Riot contestaba 404 (o no contestaba) y se tiraba el PUUID que ya estaba
+    # resuelto y guardado.
+    #
+    # Todos los PUUIDs que hay ahora en los ficheros vienen de Riot (vía esta
+    # reparación, vía herencia o vía el caché), así que uno que ya está se
+    # respeta. Los que faltan se resuelven; los que fallan se marcan, que para eso
+    # está la marca.
+    objetivos = {
+        f"{gn}#{tl}": (gn, tl)
+        for acc, gn, tl in targets
+        if not acc.get("puuid")
+    }
+    con_puuid = len(targets) - len(objetivos)
+    if con_puuid:
+        log.info("%s: %d cuenta(s) ya tienen PUUID, no se pregunta por ellas.",
+                 path.name, con_puuid)
+
+    # Y lo que la caché sabe se usa antes de molestar a Riot.
+    cache = _cache_para_resolver()
+    if cache and ya_resuelto is None:
+        ya_resuelto = dict(cache)
+    elif cache:
+        ya_resuelto.update(cache)
+
+    if objetivos:
+        resueltos = await _resolver_todos(client, objetivos, ya_resuelto)
+    else:
+        resueltos = dict(ya_resuelto or {})
     if ya_resuelto is not None:
         ya_resuelto.update(resueltos)
 
@@ -312,6 +366,15 @@ async def repair_file(
 
     for account, game_name, tag_line in targets:
         label = f"{game_name}#{tag_line}"
+
+        # **Ya tiene PUUID: se respeta y no se pregunta nada más.** Contarlo como
+        # "sin consultar" sería mentir, y volver a marcarlo cuando la API no
+        # contesta es justo el fallo que dejó a Worlds fuera del barrido.
+        if account.get("puuid"):
+            stats["ya_correctas"] += 1
+            if not dry_run:
+                account.pop("stale", None)
+            continue
 
         # **Que no esté en `resueltos` no es «no existe»**: es «no se pudo
         # preguntar» (429/5xx). Marcarla `stale` la dejaría sin sondear hasta la
@@ -331,14 +394,9 @@ async def repair_file(
                 account["stale"] = True
             continue
 
-        if account.get("puuid") != puuid:
-            stats["reparadas"] += 1
-            if not dry_run:
-                account["puuid"] = puuid
-        else:
-            stats["ya_correctas"] += 1
-
+        stats["reparadas"] += 1
         if not dry_run:
+            account["puuid"] = puuid
             account.pop("stale", None)
 
     stats["duracion"] = round(time.perf_counter() - started, 2)

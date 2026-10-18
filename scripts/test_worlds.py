@@ -30,6 +30,7 @@ Uso:
 
 from __future__ import annotations
 
+import json
 import os
 import sys
 from datetime import date
@@ -264,6 +265,71 @@ def prueba_estado_http() -> None:
     ok(status == 404, "y el 404 también")
 
 
+def prueba_no_reconsultar() -> None:
+    """La reparación respeta el PUUID que ya está y no lo tira por un 404.
+
+    Medido el 18-10-2026: la reparación volvía a preguntar a Riot por **todas**
+    las cuentas (~1.200, más de 6 minutos) y cada 404 acababa en `stale`, así que
+    una cuenta con su PUUID perfectamente resuelto dejaba de sondearse porque la
+    API no contestó en ese momento. Las 86 cuentas de NA de Worlds se quedaron
+    fuera del barrido exactamente así.
+    """
+    print("\n=== un PUUID que ya está no se vuelve a preguntar ===")
+    import asyncio
+    import tempfile
+
+    from _estado_de_prueba import estado_temporal
+    from tracking.soloq.puuid_repair import repair_file
+
+    preguntadas: list[str] = []
+
+    class Cliente:
+        """Contesta lo que se le diga, y apunta qué se le preguntó."""
+
+        async def get_puuid_con_estado(self, gn, tl, region="europe"):
+            preguntadas.append(f"{gn}#{tl}")
+            if gn == "Nueva":
+                return "PUUID-NUEVO", 200
+            if gn == "Perdida":
+                return None, 404
+            return None, 429
+
+    with estado_temporal(avisar=False) as tmp:
+        ruta = tmp / "accounts.json"
+        ruta.write_text(json.dumps([
+            # Ya tiene PUUID: no se debe tocar ni preguntar.
+            {"name": "Faker", "league": "lck", "accounts": [
+                {"riot_id": {"game_name": "Hide on bush", "tag_line": "KR1"},
+                 "puuid": "PUUID-BUENO"}]},
+            # Sin PUUID, y Riot la conoce.
+            {"name": "Nuevo", "league": "lck", "accounts": [
+                {"riot_id": {"game_name": "Nueva", "tag_line": "1"}}]},
+            # Sin PUUID, y Riot dice que no existe.
+            {"name": "Perdida", "league": "lck", "accounts": [
+                {"riot_id": {"game_name": "Perdida", "tag_line": "1"}}]},
+            # Sin PUUID, y Riot no contesta (429): se queda como estaba.
+            {"name": "Lenta", "league": "lck", "accounts": [
+                {"riot_id": {"game_name": "Lenta", "tag_line": "1"}}]},
+        ]), encoding="utf-8")
+
+        res = asyncio.run(repair_file(Cliente(), ruta, dry_run=False))
+        despues = json.loads(ruta.read_text(encoding="utf-8"))
+        cuentas = [a for p in despues for a in p.get("accounts") or []]
+
+    ok("Hide on bush#KR1" not in preguntadas,
+       "una cuenta con PUUID no se pregunta (ni una sola vez)")
+    ok(cuentas[0]["puuid"] == "PUUID-BUENO",
+       "y el PUUID que tenía se queda como estaba")
+    ok(cuentas[1].get("puuid") == "PUUID-NUEVO",
+       "una cuenta sin PUUID se resuelve contra Riot")
+    ok(cuentas[2].get("stale") is True,
+       "y una que Riot no conoce se marca stale")
+    ok(not cuentas[3].get("stale") and not cuentas[3].get("puuid"),
+       "una que no se pudo consultar no se marca: se reintentará")
+    ok(res.get("ya_correctas", 0) >= 1,
+       "el resumen cuenta las que ya estaban bien")
+
+
 def main() -> int:
     print("=" * 74)
     print("WORLDS: SOLO EN TEMPORADA, SOLO EN NA")
@@ -277,6 +343,7 @@ def main() -> int:
     prueba_web_y_comandos()
     prueba_carrera_del_reparador()
     prueba_estado_http()
+    prueba_no_reconsultar()
 
     print("\n" + "=" * 74)
     if fallos:

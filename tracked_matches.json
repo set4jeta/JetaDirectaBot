@@ -3,7 +3,7 @@
     "start_time": "2026-10-18T18:00:00+00:00",
     "match_id": "116299649498303884",
     "detection_time": "2026-10-18T14:33:54+00:00",
-    "last_checked": "2026-10-18T18:49:52+00:00",
+    "last_checked": "2026-10-18T18:54:52+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Play-Ins",
@@ -38,7 +38,16 @@
         "notified_game": false,
         "finished_time": "2026-10-18T18:46:53+00:00",
         "real_start_time": "2026-10-18T18:33:22+00:00",
-        "vods": [],
+        "vods": [
+          {
+            "id": "117463406408516186",
+            "parameter": "Wl0t7oyZHQI",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": null
+          }
+        ],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {
           "team_id": "111692118851466302",

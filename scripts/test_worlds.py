@@ -199,6 +199,15 @@ def prueba_carrera_del_reparador() -> None:
     aplicar_resoluciones(lista, {}, ["Fantasma#X"])
     ok(lista[0]["accounts"][0].get("stale") is True, "una cuenta perdida se marca")
 
+    # Y una que **no se pudo consultar** (429) no se marca de nada: si se
+    # marcara, se quedaría sin sondear 6 horas por un fallo pasajero. Fue el
+    # motivo de que las 86 cuentas de Worlds no se barrieran.
+    viva = [{"name": "Y", "league": "worlds",
+             "accounts": [{"riot_id": {"game_name": "Viva", "tag_line": "1"}}]}]
+    aplicar_resoluciones(viva, {}, [])
+    ok(not viva[0]["accounts"][0].get("stale"),
+       "una cuenta no consultada (429) no se da por perdida")
+
 
 def main() -> int:
     print("=" * 74)

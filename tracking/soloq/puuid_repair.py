@@ -145,14 +145,37 @@ def aplicar_resoluciones(
     return tocadas
 
 
+class _SinConsultar(Exception):
+    """No se pudo **preguntar** a Riot: 429, 5xx, red.
+
+    No es lo mismo que «esa cuenta no existe», y confundirlas tiene consecuencias
+    caras: `repair_file` marca `stale` lo que no encuentra, y una cuenta `stale`
+    **deja de sondearese** hasta la reparación siguiente (6 h). Un 429 en mitad
+    de un lote de 2000 dejaría cuentas vivas sin avisar durante horas, y el log
+    diría «no halladas», que suena a que la cuenta ya no existe.
+
+    Pasó el 18-10-2026 con Worlds: las 86 cuentas nuevas de NA se marcaron todas
+    como perdidas y el tracker las saltaba. Resolviéndolas de una en una, 60 de
+    86 sí existen.
+    """
+
+
 async def _resolve(client, game_name: str, tag_line: str) -> str | None:
     from apis.riot_client import RiotApiError
 
     try:
         return await client.get_puuid(game_name, tag_line, region=CLUSTER)
     except RiotApiError as exc:
-        log.debug("No se pudo resolver %s#%s: %s", game_name, tag_line, exc.status)
-        return None
+        if exc.status == 404:
+            # Esto sí es «esa cuenta no existe» (renombrada o borrada).
+            log.debug("No existe %s#%s (404).", game_name, tag_line)
+            return None
+        log.warning(
+            "No se pudo consultar %s#%s (%s); se reintentará en la próxima "
+            "reparación y la cuenta se queda como estaba.",
+            game_name, tag_line, exc.status,
+        )
+        raise _SinConsultar(str(exc)) from exc
 
 
 async def _resolver_todos(
@@ -180,12 +203,24 @@ async def _resolver_todos(
 
     async def uno(clave: str, game_name: str, tag_line: str):
         async with semaforo:
-            return clave, await _resolve(client, game_name, tag_line)
+            try:
+                return clave, await _resolve(client, game_name, tag_line), True
+            except _SinConsultar:
+                # No entra en `resultados`: que no esté significa «no se sabe»,
+                # y quien lo lea no debe marcarla como perdida.
+                return clave, None, False
 
     pares = await asyncio.gather(
         *(uno(k, gn, tl) for k, (gn, tl) in pendientes.items())
     )
-    resultados.update(pares)
+    sin_consultar = sum(1 for _, _, visto in pares if not visto)
+    resultados.update({k: v for k, v, visto in pares if visto})
+    if sin_consultar:
+        log.warning(
+            "Resolución de PUUIDs: %d de %d no se pudieron consultar (429/5xx); "
+            "se quedan como estaban, no como perdidas.",
+            sin_consultar, len(pendientes),
+        )
     log.debug(
         "Resolución de PUUIDs: %d nuevas, %d reutilizadas, concurrencia %d.",
         len(pendientes), len(resultados) - len(pendientes), MAX_CONCURRENCY,
@@ -213,11 +248,19 @@ async def repair_file(
     if ya_resuelto is not None:
         ya_resuelto.update(resueltos)
 
-    stats = {"reparadas": 0, "ya_correctas": 0, "no_encontradas": 0}
+    stats = {"reparadas": 0, "ya_correctas": 0, "no_encontradas": 0, "sin_consultar": 0}
     not_found: list[str] = []
 
     for account, game_name, tag_line in targets:
         label = f"{game_name}#{tag_line}"
+
+        # **Que no esté en `resueltos` no es «no existe»**: es «no se pudo
+        # preguntar» (429/5xx). Marcarla `stale` la dejaría sin sondear hasta la
+        # reparación siguiente por un fallo pasajero de la API.
+        if label not in resueltos:
+            stats["sin_consultar"] += 1
+            continue
+
         puuid = resueltos.get(label)
 
         if not puuid:
@@ -256,9 +299,11 @@ async def repair_file(
         save_json(path, players)
 
     log.info(
-        "%s: %d cuentas · %d reparadas · %d correctas · %d no halladas (%.1fs)",
+        "%s: %d cuentas · %d reparadas · %d correctas · %d no halladas · "
+        "%d sin consultar (%.1fs)",
         path.name, len(targets), stats["reparadas"],
-        stats["ya_correctas"], stats["no_encontradas"], stats["duracion"],
+        stats["ya_correctas"], stats["no_encontradas"], stats["sin_consultar"],
+        stats["duracion"],
     )
     return stats
 

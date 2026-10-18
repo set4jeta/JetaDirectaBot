@@ -120,6 +120,63 @@ def prueba_info() -> None:
        "con foto, se pone")
 
 
+def prueba_aviso_soloq() -> None:
+    """El embed del aviso de SoloQ, que es el que ve la gente de verdad.
+
+    Se construye entero —con un jugador seguido de `accounts_from_teams.json`— y
+    se miran las URLs que Discord va a cargar. Existe porque el dueño lo pidió
+    explícitamente al cambiar la cadencia del barrido: querer estar seguro de que
+    el aviso seguía enviando bien las imágenes. Estas pruebas son la forma de
+    asegurarlo sin abrir Discord.
+
+    Se comprueba también que **no lleva adjuntos**: subir la imagen costaba ~35 KB
+    por destinatario y por aviso, y fue lo que agotó los 5 GB del plan gratuito.
+    """
+    print("\n=== el aviso de SoloQ (el embed de verdad) ===")
+    import asyncio
+
+    from models.soloq_match import SoloQMatch
+    from tracking.soloq.accounts_io import load_tracked_accounts
+    from ui.active_match_embed import create_match_embed
+
+    elegido = next(
+        (p for p in load_tracked_accounts()
+         if p.league == "lec" and p.team and any(a.puuid for a in p.accounts)),
+        None,
+    )
+    if elegido is None:
+        ok(False, "no hay ningún jugador de la LEC con PUUID para la prueba")
+        return
+
+    puuid = next(a.puuid for a in elegido.accounts if a.puuid)
+    participantes = []
+    for i in range(10):
+        participantes.append({
+            "puuid": puuid if i == 1 else f"puid-rival-{i}",
+            "championId": 103 + i,
+            "championName": "Ahri" if i == 1 else "Garen",
+            "riotId": {"game_name": elegido.name if i == 1 else f"Rival{i}",
+                       "tag_line": "EUW"},
+            "teamId": 100 if i < 5 else 200,
+            "kills": 3, "deaths": 1, "assists": 5,
+        })
+    partida = SoloQMatch.from_riot_game_data({
+        "gameId": 999888777, "gameMode": "CLASSIC", "gameQueueType": 420,
+        "gameStartTime": 1792350000, "gameLength": 742,
+        "participants": participantes,
+    })
+
+    embed, adjuntos = asyncio.run(create_match_embed(
+        partida, {puuid: elegido}, ranked_data_map={}, idioma="es"))
+
+    ok(embed.thumbnail.url is not None and embed.thumbnail.url.startswith("https://"),
+       "la foto del jugador va en https", str(embed.thumbnail.url))
+    ok(embed.image.url is not None and embed.image.url.startswith("https://"),
+       "el logo del equipo va en https", str(embed.image.url))
+    ok(not adjuntos, "y no lleva adjuntos: los bytes los sirve dpm.lol, no Render",
+       f"{len(adjuntos)} adjuntos")
+
+
 def main() -> int:
     print("=" * 74)
     print("LOS LOGOS DE LOS EMBEDS TIENEN QUE IR EN HTTPS")
@@ -129,6 +186,7 @@ def main() -> int:
     prueba_modelos()
     prueba_embed()
     prueba_info()
+    prueba_aviso_soloq()
 
     print("\n" + "=" * 74)
     if fallos:

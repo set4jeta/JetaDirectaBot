@@ -3,6 +3,7 @@ from datetime import datetime
 from typing import Any, List, Dict, Optional
 
 from esports_extension.utils.time_utils import get_network_time
+from esports_extension.utils.imagenes import url_imagen
 
 import pytz
 
@@ -18,7 +19,10 @@ class TeamSchedule:      #  {"data": { "schedule": {  events: [ match: { teams: 
         self.id: str = teamSchedule_data.get('id', '')  # team.id
         self.name: str = teamSchedule_data.get('name', '')
         self.code: str = teamSchedule_data.get('code', '')
-        self.image: str = teamSchedule_data.get('image', '')
+        # `url_imagen` y no el valor crudo: la API lo da por `http` y Discord no
+        # carga un `http` en un embed (deja el hueco difuminado). Ver
+        # `esports_extension/utils/imagenes.py`.
+        self.image: str = url_imagen(teamSchedule_data.get('image'))
        
        
         result = teamSchedule_data.get('result') or {}
@@ -115,7 +119,9 @@ class TeamEventDetails:
         self.id: str = teamEventDetails_data.get('id', '')
         self.name: str = teamEventDetails_data.get('name', '')
         self.code: str = teamEventDetails_data.get('code', '')
-        self.image: str = teamEventDetails_data.get('image', '')
+        # Ver `TeamSchedule`: la API da los logos por `http` y el embed sale
+        # difuminado si no se sube a `https`.
+        self.image: str = url_imagen(teamEventDetails_data.get('image'))
         result = teamEventDetails_data.get('result') or {}
         self.game_wins: int = result.get('gameWins', 0)
 

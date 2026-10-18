@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from esports_extension.models.tracker import TrackedMatch
 from esports_extension.services.storage import format_elapsed_time
 from esports_extension.services.streams import campo as campo_streams
+from esports_extension.utils.imagenes import url_imagen
 from typing import Optional
 
 from utils.logger import get_logger
@@ -13,6 +14,30 @@ log = get_logger("esports.embeds")
 
 
 class EmbedService:
+
+    @staticmethod
+    def _con_imagenes(embed: Embed, miniatura: str, imagen: str) -> Embed:
+        """Pone la miniatura y la imagen grande, **solo si hay**.
+
+        Dos cosas que arregla, las dos invisibles hasta que alguien mira el embed:
+
+        1. Un `set_image(url="")` no quita la imagen: crea un hueco roto. Se vio
+           en `ui/player_info_embed.py`, que hacía `set_thumbnail(url=imagen or "")`.
+           Si no hay logo, no se pone nada y el embed queda limpio.
+        2. La API de lolesports da los logos por `http`, y el proxy de imágenes de
+           Discord no carga un `http` dentro de un embed: deja el marcador de
+           «cargando», que es el **recuadro difuminado** del 29-09-2026. El
+           modelo ya lo sube a `https` (`utils/imagenes.py`); aquí se vuelve a
+           pasar porque `url_imagen` es idempotente y así el embed no depende de
+           por dónde haya entrado el dato.
+        """
+        miniatura = url_imagen(miniatura)
+        imagen = url_imagen(imagen)
+        if miniatura:
+            embed.set_thumbnail(url=miniatura)
+        if imagen:
+            embed.set_image(url=imagen)
+        return embed
 
     @staticmethod
     def _con_streams(embed: Embed, match: TrackedMatch) -> Embed:
@@ -159,8 +184,7 @@ class EmbedService:
         current_game = tracked_game.number
        
        
-        embed.set_thumbnail(url=blue_team.image)
-        embed.set_image(url=red_team.image)
+        EmbedService._con_imagenes(embed, blue_team.image, red_team.image)
 
         EmbedService._con_streams(embed, match)
 
@@ -197,8 +221,7 @@ class EmbedService:
             )
         )
 
-        embed.set_thumbnail(url=team1.image)
-        embed.set_image(url=team2.image)
+        EmbedService._con_imagenes(embed, team1.image, team2.image)
 
         EmbedService._con_streams(embed, match)
 
@@ -253,8 +276,7 @@ class EmbedService:
                 f"El draft del 🎮 Juego {current_game} está en curso. ¡Pronto comenzará la partida!"
             )
         )
-        embed.set_thumbnail(url=blue_team.image)
-        embed.set_image(url=red_team.image)
+        EmbedService._con_imagenes(embed, blue_team.image, red_team.image)
         EmbedService._con_streams(embed, match)
         embed.set_footer(
             text=f"BO{match.best_of_count}{score_text} | 🎮 Juego {current_game}"
@@ -338,8 +360,7 @@ class EmbedService:
             )
         )
 
-        embed.set_thumbnail(url=blue_team.image)
-        embed.set_image(url=red_team.image)
+        EmbedService._con_imagenes(embed, blue_team.image, red_team.image)
         EmbedService._con_streams(embed, match)
         embed.set_footer(
             text=f"BO{match.best_of_count}{score_text} | 🎮 Juego {current_game}"

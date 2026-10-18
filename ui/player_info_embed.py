@@ -90,7 +90,11 @@ def crear_embed_infoplayer(p, cuentas=None, campeones_recientes=None, estadistic
         # estado: el aviso de partida en vivo (rojo) y `/health` (rojo/verde).
         color=COLOR_MARCA,
     )
-    embed.set_thumbnail(url=imagen_jugador or "")
+    # Solo si hay foto. `set_thumbnail(url="")` **no** deja el embed sin
+    # miniatura: crea un hueco roto con su borde. Un embed sin imagen se ve
+    # limpio; uno con un hueco vacío parece que el bot falla.
+    if imagen_jugador:
+        embed.set_thumbnail(url=imagen_jugador)
 
     # El logo va por **URL**, no adjunto. `logo_equipo` ya es la URL pública de
     # dpm.lol —la misma de la que antes se descargaba el fichero local— así que

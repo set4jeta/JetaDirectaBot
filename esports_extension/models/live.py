@@ -6,6 +6,8 @@ import json
 
 import pytz
 
+from esports_extension.utils.imagenes import url_imagen
+
 
 
 
@@ -41,7 +43,7 @@ class LiveTeamMetadata:         # {"blueTeamMetadata": { ... } } o {"redTeamMeta
         ]
         self.name: str = liveTeamMetadata_data .get('name', '')
         self.code: str = liveTeamMetadata_data .get('code', '')
-        self.image: str = liveTeamMetadata_data .get('image', '')
+        self.image: str = url_imagen(liveTeamMetadata_data.get('image'))
        
     def to_dict(self) -> dict:
         return {

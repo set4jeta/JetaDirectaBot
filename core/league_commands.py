@@ -57,6 +57,7 @@ from tracking.soloq.leagues import (
 )
 from utils.i18n import (
     IDIOMAS,
+    comando,
     establecer_idioma,
     establecer_idioma_usuario,
     idioma_de,
@@ -128,16 +129,14 @@ async def _cuerpo_ligas(res: Respuesta, valor: str) -> None:
             _("ligas.maximo", maximo=tope),
         ]
         # El escalón siguiente, solo si existe: a quien ya está en el tope más
-        # alto no le sirve que le cuenten lo que dan los demás planes.
+        # alto no le sirve que le cuenten lo que den los demás planes.
         if tope < max(plan.ligas for plan in PLANES.values()):
             lineas.append(_("ligas.planes"))
-        # Y de dónde sale ese tope, solo cuando acaba de morder. Es el momento
-        # exacto en que alguien se pregunta por qué no puede seguir una liga más,
-        # así que es donde la explicación se lee: puesta siempre sería ruido en
-        # un comando que se usa a diario, y puesta solo aquí responde a la
-        # pregunta que el usuario acaba de hacerse.
-        if fuera:
-            lineas += ["", _("apoyo.cupo_corto")]
+        # **Sin el `apoyo.cupo_corto` que iba aquí.** Se quitó el 19-10-2026 a
+        # petición del dueño: el mensaje ya explica que las ligas fuera de cupo no
+        # se borran, y encima venían dos líneas defendiendo al bot («los cupos los
+        # pone Riot, no nosotros»). En un comando informativo eso sobra: la
+        # explicación está en `/premium`, para quien la busque.
         lineas += [
             _("ligas.como_usar"),
             _("ligas.a_canal"),
@@ -159,7 +158,7 @@ async def _cuerpo_ligas(res: Respuesta, valor: str) -> None:
     desconocidas = [p for p in pedidas if resolver(p) is None]
 
     if not validas:
-        await res.error(_("ligas.no_reconocidas"))
+        await res.error(_("ligas.no_reconocidas", cmd=comando("cmd.leagues.name")))
         return
 
     guardadas = establecer_ligas(res.guild_id, validas)

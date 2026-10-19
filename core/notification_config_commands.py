@@ -81,7 +81,7 @@ from tracking.soloq.roster_lookup import (
     liga_principal_de_equipo,
     pro_rastreado,
 )
-from utils.i18n import tr
+from utils.i18n import comando, tr
 from utils.logger import get_logger
 
 log = get_logger("core.notif_config")
@@ -220,7 +220,13 @@ async def _suscribir_soloq(res: Respuesta, _) -> str | None:
     if resultado == "cupo":
         # El mensaje dice el cupo y cómo liberar hueco, no solo que no cabe: sin
         # `/channels` el usuario se quedaría sin forma de arreglarlo.
-        return _("setchannel.cupo", n=tope, canales=_lista(canales_de(res.guild_id))) + "\n\n" + _("apoyo.cupo_corto")
+        #
+        # **Sin el bloque de `apoyo.cupo_corto` detrás.** Se quitó el 19-10-2026:
+        # el error ya decía qué hacer, y encima venía una justificación de por qué
+        # existen los límites. Quien está intentando añadir un canal quiere el
+        # comando, no una defensa. La explicación sigue en `/premium`, que es
+        # donde alguien la busca.
+        return _("setchannel.cupo", n=tope, canales=_lista(canales_de(res.guild_id)))
 
     aviso = _aviso_permisos(res, _)
     usados = len(canales_de(res.guild_id))
@@ -254,7 +260,8 @@ async def _cuerpo_subscribe(res: Respuesta, valores: dict[str, str]) -> None:
         clave, etiqueta, liga = resuelto
         if not _asegurar_liga(res.guild_id, liga):
             await res.error(
-                _("subscribe.sin_cupo", liga=liga.upper()) + "\n\n" + _("apoyo.cupo_corto")
+                _("subscribe.sin_cupo", liga=liga.upper(),
+                  cmd=comando("cmd.leagues.name"))
             )
             return
         poner(res.guild_id, res.canal.id, tipo, clave)

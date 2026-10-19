@@ -208,9 +208,9 @@ _CATALOGO: dict[str, dict[str, str]] = {
     # El aviso que evita el peor fallo: un canal que no recibe nada y sin error.
     "subscribe.sin_cupo": {
         "es": "❌ Para recibir los avisos de **{liga}** hay que seguirla, y no cabe "
-              "en tu plan. Quita una con `/leagues` o sube a Pro con `/premium`.",
+              "en tu plan. Quita una con `{cmd}` o sube a Pro con `/premium`.",
         "en": "❌ To get **{liga}** alerts the bot has to follow it, and it doesn't "
-              "fit in your plan. Drop one with `/leagues` or upgrade with `/premium`.",
+              "fit in your plan. Drop one with `{cmd}` or upgrade with `/premium`.",
     },
     "subscribe.vuelve_a_todo": {
         "es": "↩️ Este canal vuelve a recibir todas las ligas del servidor.",
@@ -265,8 +265,8 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "The alerts go to the channels you add with `/subscribe`.",
     },
     "ligas.como_usar": {
-        "es": "Usa `/leagues lck lcs` para cambiar la selección.",
-        "en": "Use `/leagues lck lcs` to change your selection.",
+        "es": "Usa `{cmd} lck lcs` para cambiar la selección.",
+        "en": "Use `{cmd} lck lcs` to change your selection.",
     },
     "ligas.actualizado": {
         "es": "✅ Ahora sigues: {ligas}",
@@ -295,9 +295,9 @@ _CATALOGO: dict[str, dict[str, str]] = {
               "_(not deleted: they resume if you upgrade)_",
     },
     "ligas.no_reconocidas": {
-        "es": "❌ No reconozco ninguna de esas ligas. Prueba `/leagues` sin argumentos "
+        "es": "❌ No reconozco ninguna de esas ligas. Prueba `{cmd}` sin argumentos "
               "para ver la lista.",
-        "en": "❌ I don't recognise any of those leagues. Try `/leagues` with no "
+        "en": "❌ I don't recognise any of those leagues. Try `{cmd}` with no "
               "arguments to see the list.",
     },
     "ligas.nota_plataforma": {
@@ -458,7 +458,11 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "Not available for this game.",
     },
     "partida.info_titulo": {
-        "es": "/jugador <nombre jugador>",
+        # El nombre del comando es el que está **registrado** (`/info`), no una
+        # traducción. Aquí ponía `/jugador`, que no existe: el título del campo
+        # mandaba a la gente a teclear un comando inexistente. Lo cazó
+        # `scripts/test_i18n_comandos.py` el 19-10-2026.
+        "es": "/info <nombre jugador>",
         "en": "/info <player name>",
     },
     "partida.info_valor": {
@@ -556,9 +560,9 @@ _CATALOGO: dict[str, dict[str, str]] = {
     # bot no lo sabe. Son dos casos distintos y se dicen distinto.
     "live.liga_no_seguida": {
         "es": "**{liga}** no se está siguiendo, así que no sé quién juega ahí. "
-              "Se añade con `/leagues`.",
+              "Se añade con `{cmd}`.",
         "en": "**{liga}** isn't being tracked, so I don't know who plays there. "
-              "Add it with `/leagues`.",
+              "Add it with `{cmd}`.",
     },
     "live.ligas_seguidas": {
         "es": "Ahora mismo se siguen: {ligas}",
@@ -1111,26 +1115,20 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "🤝 Why the free plan has limits",
     },
     "apoyo.por_que": {
-        "es": "No es una decisión nuestra. **Riot Games nos da {req} peticiones "
-              "cada {seg} segundos** y de ahí sale todo: con esa cuota el bot "
-              "puede seguir {ligas} ligas a la vez por servidor. Es un techo "
-              "físico, no un muro de pago. El aviso de partida —lo que importa— "
-              "es gratis y lo seguirá siendo.",
-        "en": "It isn't our call. **Riot Games gives us {req} requests every "
-              "{seg} seconds**, and everything comes from there: with that quota "
-              "the bot can follow {ligas} leagues at a time per server. It's a "
-              "physical ceiling, not a paywall. The game alert —the part that "
-              "matters— is free and will stay free.",
+        "es": "**Riot Games nos da {req} peticiones cada {seg} segundos**, y de "
+              "ahí sale todo: con esa cuota el bot puede seguir {ligas} ligas a la "
+              "vez por servidor. **El aviso de partida —lo que importa— es gratis "
+              "y lo seguirá siendo.**",
+        "en": "**Riot Games gives us {req} requests every {seg} seconds**, and "
+              "everything comes from there: with that quota the bot can follow "
+              "{ligas} leagues at a time per server. **The game alert —the part "
+              "that matters— is free and will stay free.**",
     },
     "apoyo.comunidad": {
-        "es": "**Cuantos más servidores usan el bot, más comunidad podemos "
-              "demostrarle a Riot**, y más cuota podemos pedir. Más cuota son "
-              "más límites para todos, el plan gratis incluido. Así que esto no "
-              "va de pagar: va de crecer.",
-        "en": "**The more servers use the bot, the bigger the community we can "
-              "show Riot**, and the bigger the quota we can ask for. A bigger "
-              "quota means higher limits for everyone, free plan included. So "
-              "this isn't about paying: it's about growing.",
+        "es": "**Cuantos más servidores usan el bot, más cuota podemos pedirle a "
+              "Riot**, y más límites para todos, el plan gratis incluido.",
+        "en": "**The more servers use the bot, the more quota we can ask Riot "
+              "for**, and higher limits for everyone, free plan included.",
     },
     #: Nombre del campo con las acciones. Va **sin** negrita ni emoji de más
     #: porque es el `name` de un campo de embed, no texto corrido.
@@ -1168,18 +1166,16 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "Gracias de verdad: esto lo lleva una persona.",
         "en": "Thank you, genuinely: this is run by one person.",
     },
-    # El empujón corto que se añade al final de un mensaje de cupo agotado.
-    # Es el momento en que alguien topa con el límite, así que es donde la
-    # explicación se lee; pero va **una línea**, no el bloque entero: quien está
-    # resolviendo algo quiere el comando, no un discurso.
-    "apoyo.cupo_corto": {
-        "es": "ℹ️ Los cupos los pone la cuota de la API de Riot, no nosotros. "
-              "Con más gente usando el bot podemos pedirle más y subirlos todos: "
-              "`/premium` lo explica.",
-        "en": "ℹ️ These limits come from Riot's API quota, not from us. With "
-              "more people using the bot we can ask for more and raise them for "
-              "everyone: `/premium` explains it.",
-    },
+    # Aquí iba `apoyo.cupo_corto`, el empujón que se colgaba al final de cada
+    # mensaje de cupo agotado. Se quitó el 19-10-2026 a petición del dueño, y la
+    # razón merece quedar escrita para que no se vuelva a añadir: el error ya
+    # decía qué hacer (`/ligas`, `/unsubscribe`, `/premium`), así que estas dos
+    # líneas no informaban —defendían al bot— justo cuando alguien está
+    # intentando resolver algo. «Los cupos los pone Riot, no nosotros» es una
+    # frase que solo necesita quien sospecha lo contrario.
+    #
+    # La explicación de por qué existen los límites sigue entera en `/premium`
+    # (`apoyo.por_que`), que es donde alguien va a buscarla.
 
     # ---- Freno por usuario ---------------------------------------------- #
     #
@@ -1901,6 +1897,33 @@ def tr(guild_id: int | str | None):
         return t(clave, idioma, **kwargs)
 
     return _t
+
+
+def comando(clave: str, idioma: str | None = None) -> str:
+    """El nombre de un comando **tal y como se registró**, listo para escribir en un mensaje.
+
+    Devuelve siempre el mismo en todos los idiomas —`/leagues`, nunca `/ligas`—, y
+    eso es a propósito: el dueño pidió que la interfaz de comandos fuera **solo en
+    inglés** («que solo estén en inglés y se entiendan bien»), y así se registra en
+    `core/dual_command._base()`, que manda a Discord únicamente el nombre base.
+
+    El catálogo guarda además la forma española de cada nombre. Es documentación de
+    qué significa el comando, **no se registra**: un mensaje que dijera `/ligas`
+    estaría mandando teclear un comando que no existe.
+
+    Ojo con esto, que es una trampa en la que caí el 19-10-2026: encontré mensajes
+    en español que citaban `/leagues`, lo di por fallo de traducción y los
+    «corregí» a `/ligas`. Era justo al revés. Lo vigila
+    `scripts/test_i18n_comandos.py`.
+
+    `idioma` se acepta y se ignora: así un mensaje puede pasar el suyo sin
+    preguntarse si toca o no.
+    """
+    nombre = texto_base(clave)
+    if not nombre or nombre == clave:
+        # Clave desconocida: mejor nada que una barra fantasma.
+        return ""
+    return nombre if nombre.startswith("/") else f"/{nombre}"
 
 
 # ---------------------------------------------------------------------- #

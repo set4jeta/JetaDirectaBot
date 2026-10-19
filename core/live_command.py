@@ -210,7 +210,8 @@ def construir_mensaje(
             return t("live.nadie", idioma)
         if filtro not in ligas_seguidas:
             # No es que no haya nadie: es que no se mira esa liga.
-            mensaje = t("live.liga_no_seguida", idioma, liga=filtro.upper())
+            mensaje = t("live.liga_no_seguida", idioma, liga=filtro.upper(),
+                        cmd=comando("cmd.leagues.name", idioma))
             if ligas_seguidas:
                 mensaje += "\n" + t(
                     "live.ligas_seguidas", idioma,
@@ -248,7 +249,7 @@ def construir_mensaje(
 
 async def _cuerpo_live(res: Respuesta, valores: dict[str, str]) -> None:
     """Cuerpo de `/live [league]`."""
-    from utils.i18n import idioma_de, t
+    from utils.i18n import comando, idioma_de, t
 
     idioma = idioma_de(res.guild_id)
     liga = (valores.get("league") or "").strip()

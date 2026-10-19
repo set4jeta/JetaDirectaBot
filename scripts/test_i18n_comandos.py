@@ -35,7 +35,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import re  # noqa: E402
 
-from utils.i18n import _CATALOGO, IDIOMAS, t  # noqa: E402
+from utils.i18n import _CATALOGO, IDIOMAS, comando, texto_base, t  # noqa: E402
 
 fallos: list[str] = []
 
@@ -106,6 +106,78 @@ check("el inglés no inventa {placeholder} nuevos", not extras,
 
 check("una clave inexistente se devuelve tal cual",
       t("no.existe.esta.clave", "en") == "no.existe.esta.clave")
+
+# 5. **Ningún mensaje cita un comando con un nombre que no esté registrado.**
+#    El dueño pidió que la interfaz de comandos fuera **solo en inglés** («que
+#    solo estén en inglés y se entiendan bien»), y así se registra en
+#    `core/dual_command._base()`, que manda a Discord únicamente el nombre base.
+#    El catálogo guarda además la forma española de cada nombre, pero **no se
+#    registra**: es documentación de qué significa, no un alias.
+#
+#    De ahí la trampa, y no teórica: el 19-10-2026 me encontré mensajes en español
+#    que citaban `/leagues`, lo di por fallo de traducción y los «corregí» a
+#    `/ligas`. Era exactamente al revés —acababa de mandar a la gente a teclear un
+#    comando que no existe—. Lo que parecía un invariante razonable («cada mensaje
+#    cita el comando en su idioma») es falso aquí, y esta comprobación es la que lo
+#    fija: se cita el nombre **registrado**, en inglés, en todos los idiomas.
+registrados: set[str] = set()
+for clave in _CATALOGO:
+    if not clave.startswith("cmd.") or not clave.endswith(".name"):
+        continue
+    nombre = texto_base(clave)
+    if nombre and nombre != clave:
+        registrados.add(nombre)
+
+_REFC = re.compile(r"/([a-z0-9_-]+)")
+
+# Solo cuenta como mención de comando si la barra **empieza** la palabra: va al
+# principio del texto, tras un espacio o tras una comilla. Así se excluyen los
+# argumentos (`/info jugador`, donde `jugador` no es un comando) y los precios
+# (`9,99 €/mes`), que son las dos cosas que si no harían ruido siempre.
+_MENCION = re.compile(r"(?:^|(?<=[\s`]))/([a-z0-9_-]+)")
+
+mal_citados: list[str] = []
+for clave, formas in _CATALOGO.items():
+    if clave.startswith("cmd."):
+        continue  # los nombres de comando son la referencia, no la citan
+    for idi in IDIOMAS:
+        texto = formas.get(idi)
+        if not texto:
+            continue
+        for nombre in _MENCION.findall(texto):
+            if nombre not in registrados:
+                mal_citados.append(f"{clave}[{idi}] → /{nombre}")
+
+check("ningún mensaje cita un comando que no esté registrado",
+      not mal_citados, "; ".join(mal_citados) or "ninguno")
+
+# Y en el otro sentido, que es el que me engañó: la forma española del catálogo
+# sirve de documentación, pero citarla en un mensaje sería citar un comando que
+# Discord no tiene. Se comprueba que ninguna traducción use la española.
+solo_espanol: dict[str, str] = {}
+for clave in _CATALOGO:
+    if not clave.startswith("cmd.") or not clave.endswith(".name"):
+        continue
+    formas = _CATALOGO[clave]
+    esp = formas.get("es", "")
+    base = texto_base(clave)
+    if esp and base and esp != base:
+        solo_espanol[esp] = base
+
+citadas_en_espanol: list[str] = []
+for clave, formas in _CATALOGO.items():
+    for idi, texto in formas.items():
+        if not texto:
+            continue
+        for esp, base in solo_espanol.items():
+            if _MENCION.search(f" {texto}") and f"/{esp}" in f" {texto}":
+                # Se vuelve a mirar con el ancla, no a pelo.
+                if any(m == esp for m in _MENCION.findall(f" {texto}")):
+                    citadas_en_espanol.append(
+                        f"{clave}[{idi}] cita /{esp} (es /{base})")
+
+check("ninguna traducción cita el nombre español de un comando",
+      not citadas_en_espanol, "; ".join(citadas_en_espanol) or "ninguna")
 
 
 # --------------------------------------------------------------------- #

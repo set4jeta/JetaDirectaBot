@@ -3,7 +3,7 @@
     "start_time": "2026-10-22T12:00:00+00:00",
     "match_id": "117173205319911441",
     "detection_time": "2026-10-22T04:00:02+00:00",
-    "last_checked": "2026-10-22T14:58:22+00:00",
+    "last_checked": "2026-10-22T15:03:23+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Finals",
@@ -24,7 +24,7 @@
         "name": "Galions",
         "code": "GL",
         "image": "https://static.lolesports.com/teams/1734090136444_WHITE_GALIONS_LOGO.png",
-        "game_wins": 1
+        "game_wins": 2
       }
     ],
     "trackedGames": [
@@ -231,12 +231,12 @@
       {
         "game_id": "117173205319911444",
         "number": 3,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-10-22T14:58:52+00:00",
         "real_start_time": "2026-10-22T14:12:21+00:00",
         "vods": [],
         "live_patch": "16.20.826.3891",
@@ -331,7 +331,7 @@
       {
         "game_id": "117173205319911445",
         "number": 4,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,

@@ -3,7 +3,7 @@
     "start_time": "2026-10-22T12:00:00+00:00",
     "match_id": "117173205319911441",
     "detection_time": "2026-10-22T04:00:02+00:00",
-    "last_checked": "2026-10-22T16:08:26+00:00",
+    "last_checked": "2026-10-22T16:13:25+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Finals",
@@ -433,16 +433,100 @@
         "number": 5,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-10-22T16:10:25+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "105515345386578249",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "102787200003726479",
+              "summoner_name": "SLY Kryze",
+              "champion_id": "Jax",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "105830670848411185",
+              "summoner_name": "SLY Zicssi",
+              "champion_id": "Maokai",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "104016422094844578",
+              "summoner_name": "SLY Jool",
+              "champion_id": "Jayce",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "105548605376090785",
+              "summoner_name": "SLY Aetinoth",
+              "champion_id": "Tristana",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "108366451874360829",
+              "summoner_name": "SLY Piero",
+              "champion_id": "Alistar",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "103935468920814040",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "105646098955896397",
+              "summoner_name": "GL Carlsen",
+              "champion_id": "Irelia",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "108531184775091361",
+              "summoner_name": "GL Thayger",
+              "champion_id": "LeeSin",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "105593236438009434",
+              "summoner_name": "GL OMON",
+              "champion_id": "Ahri",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "105530924527575757",
+              "summoner_name": "GL HARPOON",
+              "champion_id": "Jinx",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "105830677772400941",
+              "summoner_name": "GL Zoelys",
+              "champion_id": "Shen",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-10-22T16:09:26.847Z"
       }
     ]
   }

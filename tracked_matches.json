@@ -3,7 +3,7 @@
     "start_time": "2026-10-23T20:00:00+00:00",
     "match_id": "115660540726095009",
     "detection_time": "2026-10-23T12:00:18+00:00",
-    "last_checked": "2026-10-23T20:13:08+00:00",
+    "last_checked": "2026-10-23T20:18:07+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -13,17 +13,17 @@
     "best_of_count": 1,
     "teams_event_details": [
       {
-        "id": "99566404856367466",
-        "name": "Anyone's Legend",
-        "code": "AL",
-        "image": "https://static.lolesports.com/teams/1641199582689_.png",
-        "game_wins": 0
-      },
-      {
         "id": "111692118851466302",
         "name": "Karmine Corp",
         "code": "KC",
         "image": "https://static.lolesports.com/teams/1704714951336_KC.png",
+        "game_wins": 0
+      },
+      {
+        "id": "99566404856367466",
+        "name": "Anyone's Legend",
+        "code": "AL",
+        "image": "https://static.lolesports.com/teams/1641199582689_.png",
         "game_wins": 0
       }
     ],
@@ -33,16 +33,100 @@
         "number": 1,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-10-23T20:17:08+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "111692118851466302",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "103495716771322725",
+              "summoner_name": "KC Canna",
+              "champion_id": "Jax",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "105537190986692036",
+              "summoner_name": "KC Yike",
+              "champion_id": "JarvanIV",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "108205130709313212",
+              "summoner_name": "KC kyeahoo",
+              "champion_id": "Orianna",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "109461265532592848",
+              "summoner_name": "KC Caliste",
+              "champion_id": "Kalista",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "106625308523122120",
+              "summoner_name": "KC Busio",
+              "champion_id": "Renata",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "99566404856367466",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "105516622825169657",
+              "summoner_name": "AL Breathe",
+              "champion_id": "Olaf",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "99871276342823057",
+              "summoner_name": "AL Tarzan",
+              "champion_id": "Nocturne",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "104287400430814502",
+              "summoner_name": "AL Shanks",
+              "champion_id": "Akali",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "99566404819916503",
+              "summoner_name": "AL Hope",
+              "champion_id": "MissFortune",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "105530584812980593",
+              "summoner_name": "AL Kael",
+              "champion_id": "Neeko",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-10-23T20:16:09.357Z"
       }
     ]
   },
@@ -50,7 +134,7 @@
     "start_time": "2026-10-23T21:00:00+00:00",
     "match_id": "115660540726095011",
     "detection_time": "2026-10-23T13:00:18+00:00",
-    "last_checked": "2026-10-23T20:13:09+00:00",
+    "last_checked": "2026-10-23T20:18:08+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -97,7 +181,7 @@
     "start_time": "2026-10-23T22:00:00+00:00",
     "match_id": "115660540726095007",
     "detection_time": "2026-10-23T14:00:20+00:00",
-    "last_checked": "2026-10-23T20:13:09+00:00",
+    "last_checked": "2026-10-23T20:18:09+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -144,7 +228,7 @@
     "start_time": "2026-10-23T23:00:00+00:00",
     "match_id": "115660540726095015",
     "detection_time": "2026-10-23T15:00:22+00:00",
-    "last_checked": "2026-10-23T20:13:11+00:00",
+    "last_checked": "2026-10-23T20:18:10+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -191,7 +275,7 @@
     "start_time": "2026-10-24T00:00:00+00:00",
     "match_id": "115660540726095017",
     "detection_time": "2026-10-23T16:00:27+00:00",
-    "last_checked": "2026-10-23T20:13:11+00:00",
+    "last_checked": "2026-10-23T20:18:11+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",

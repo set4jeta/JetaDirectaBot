@@ -1,140 +1,9 @@
 [
   {
-    "start_time": "2026-10-23T21:00:00+00:00",
-    "match_id": "115660540726095011",
-    "detection_time": "2026-10-23T13:00:18+00:00",
-    "last_checked": "2026-10-23T21:53:12+00:00",
-    "state": "inProgress",
-    "status": "detected",
-    "blockName": "Swiss",
-    "event_id": "115660540726095011",
-    "league_name": "Worlds",
-    "slug": "worlds",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "100725845018863243",
-        "name": "Dplus KIA",
-        "code": "DK",
-        "image": "https://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-        "game_wins": 0
-      },
-      {
-        "id": "98767991926151025",
-        "name": "G2 Esports",
-        "code": "G2",
-        "image": "https://static.lolesports.com/teams/G2-FullonDark.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "115660540726095012",
-        "number": 1,
-        "state": "inProgress",
-        "draft_in_progress": false,
-        "has_participants": true,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": "2026-10-23T21:17:42+00:00",
-        "vods": [],
-        "live_patch": "16.20.826.3891",
-        "live_blue_metadata": {
-          "team_id": "100725845018863243",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": [
-            {
-              "participant_id": 1,
-              "player_id": "111658292064356964",
-              "summoner_name": "DK Siwoo",
-              "champion_id": "Olaf",
-              "role": "top"
-            },
-            {
-              "participant_id": 2,
-              "player_id": "106267599829820917",
-              "summoner_name": "DK Lucid",
-              "champion_id": "Vi",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 3,
-              "player_id": "100725844988653773",
-              "summoner_name": "DK ShowMaker",
-              "champion_id": "Syndra",
-              "role": "mid"
-            },
-            {
-              "participant_id": 4,
-              "player_id": "108205129774185945",
-              "summoner_name": "DK Smash",
-              "champion_id": "Ziggs",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 5,
-              "player_id": "108284721867904137",
-              "summoner_name": "DK Career",
-              "champion_id": "Poppy",
-              "role": "support"
-            }
-          ]
-        },
-        "live_red_metadata": {
-          "team_id": "98767991926151025",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": [
-            {
-              "participant_id": 6,
-              "player_id": "99566406047571736",
-              "summoner_name": "G2 BrokenBlade",
-              "champion_id": "KSante",
-              "role": "top"
-            },
-            {
-              "participant_id": 7,
-              "player_id": "107128052280762804",
-              "summoner_name": "G2 SkewMond",
-              "champion_id": "JarvanIV",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 8,
-              "player_id": "98767975968177297",
-              "summoner_name": "G2 Caps",
-              "champion_id": "Viktor",
-              "role": "mid"
-            },
-            {
-              "participant_id": 9,
-              "player_id": "98767975961872793",
-              "summoner_name": "G2 Hans Sama",
-              "champion_id": "Kalista",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 10,
-              "player_id": "102787200059605684",
-              "summoner_name": "G2 Labrov",
-              "champion_id": "Renata",
-              "role": "support"
-            }
-          ]
-        },
-        "last_frame_time": "2026-10-23T21:16:33.957Z"
-      }
-    ]
-  },
-  {
     "start_time": "2026-10-23T22:00:00+00:00",
     "match_id": "115660540726095007",
     "detection_time": "2026-10-23T14:00:20+00:00",
-    "last_checked": "2026-10-23T21:53:13+00:00",
+    "last_checked": "2026-10-23T21:58:12+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -181,7 +50,7 @@
     "start_time": "2026-10-23T23:00:00+00:00",
     "match_id": "115660540726095015",
     "detection_time": "2026-10-23T15:00:22+00:00",
-    "last_checked": "2026-10-23T21:53:13+00:00",
+    "last_checked": "2026-10-23T21:58:12+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -228,7 +97,7 @@
     "start_time": "2026-10-24T00:00:00+00:00",
     "match_id": "115660540726095017",
     "detection_time": "2026-10-23T16:00:27+00:00",
-    "last_checked": "2026-10-23T21:53:14+00:00",
+    "last_checked": "2026-10-23T21:58:13+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",

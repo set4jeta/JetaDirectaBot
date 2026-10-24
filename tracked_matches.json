@@ -3,7 +3,7 @@
     "start_time": "2026-10-24T19:00:00+00:00",
     "match_id": "115660540726095031",
     "detection_time": "2026-10-24T11:00:05+00:00",
-    "last_checked": "2026-10-24T19:03:06+00:00",
+    "last_checked": "2026-10-24T19:08:06+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -13,17 +13,17 @@
     "best_of_count": 1,
     "teams_event_details": [
       {
-        "id": "98767991926151025",
-        "name": "G2 Esports",
-        "code": "G2",
-        "image": "https://static.lolesports.com/teams/G2-FullonDark.png",
-        "game_wins": 0
-      },
-      {
         "id": "109480204628225868",
         "name": "LOS",
         "code": "LOS",
         "image": "https://static.lolesports.com/teams/1784013312149_LOS-OLaranja.png",
+        "game_wins": 0
+      },
+      {
+        "id": "98767991926151025",
+        "name": "G2 Esports",
+        "code": "G2",
+        "image": "https://static.lolesports.com/teams/G2-FullonDark.png",
         "game_wins": 0
       }
     ],
@@ -33,16 +33,100 @@
         "number": 1,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
         "real_start_time": null,
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "109480204628225868",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "107492099069012459",
+              "summoner_name": "LOS Zest",
+              "champion_id": "Jayce",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "110434822594728434",
+              "summoner_name": "LOS Curse",
+              "champion_id": "Nocturne",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "107492030596737445",
+              "summoner_name": "LOS Feisty",
+              "champion_id": "Orianna",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "112462169706118570",
+              "summoner_name": "LOS Duduhh",
+              "champion_id": "Kalista",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "105506922297942200",
+              "summoner_name": "LOS Ackerman",
+              "champion_id": "Renata",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "98767991926151025",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "99566406047571736",
+              "summoner_name": "G2 BrokenBlade",
+              "champion_id": "KSante",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "107128052280762804",
+              "summoner_name": "G2 SkewMond",
+              "champion_id": "LeeSin",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "98767975968177297",
+              "summoner_name": "G2 Caps",
+              "champion_id": "Locke",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "98767975961872793",
+              "summoner_name": "G2 Hans Sama",
+              "champion_id": "Ezreal",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "102787200059605684",
+              "summoner_name": "G2 Labrov",
+              "champion_id": "Karma",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-10-24T19:07:27.279Z"
       }
     ]
   },
@@ -50,7 +134,7 @@
     "start_time": "2026-10-24T20:00:00+00:00",
     "match_id": "115660540726095023",
     "detection_time": "2026-10-24T12:00:07+00:00",
-    "last_checked": "2026-10-24T19:03:07+00:00",
+    "last_checked": "2026-10-24T19:08:07+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -97,7 +181,7 @@
     "start_time": "2026-10-24T21:00:00+00:00",
     "match_id": "115660540726095033",
     "detection_time": "2026-10-24T13:00:06+00:00",
-    "last_checked": "2026-10-24T19:03:08+00:00",
+    "last_checked": "2026-10-24T19:08:07+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -144,7 +228,7 @@
     "start_time": "2026-10-24T22:00:00+00:00",
     "match_id": "115660540726095025",
     "detection_time": "2026-10-24T14:00:23+00:00",
-    "last_checked": "2026-10-24T19:03:09+00:00",
+    "last_checked": "2026-10-24T19:08:08+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -191,7 +275,7 @@
     "start_time": "2026-10-24T23:00:00+00:00",
     "match_id": "115660540726095027",
     "detection_time": "2026-10-24T15:00:10+00:00",
-    "last_checked": "2026-10-24T19:03:10+00:00",
+    "last_checked": "2026-10-24T19:08:09+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -238,7 +322,7 @@
     "start_time": "2026-10-25T00:00:00+00:00",
     "match_id": "115660540726095035",
     "detection_time": "2026-10-24T16:00:04+00:00",
-    "last_checked": "2026-10-24T19:03:11+00:00",
+    "last_checked": "2026-10-24T19:08:10+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",

@@ -1,140 +1,9 @@
 [
   {
-    "start_time": "2026-10-24T22:00:00+00:00",
-    "match_id": "115660540726095025",
-    "detection_time": "2026-10-24T14:00:23+00:00",
-    "last_checked": "2026-10-24T22:53:33+00:00",
-    "state": "inProgress",
-    "status": "detected",
-    "blockName": "Swiss",
-    "event_id": "115660540726095025",
-    "league_name": "Worlds",
-    "slug": "worlds",
-    "best_of_count": 1,
-    "teams_event_details": [
-      {
-        "id": "100205573496804586",
-        "name": "Hanwha Life Esports",
-        "code": "HLE",
-        "image": "https://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-        "game_wins": 0
-      },
-      {
-        "id": "100205573495116443",
-        "name": "Gen.G Esports",
-        "code": "GEN",
-        "image": "https://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-        "game_wins": 0
-      }
-    ],
-    "trackedGames": [
-      {
-        "game_id": "115660540726095026",
-        "number": 1,
-        "state": "inProgress",
-        "draft_in_progress": false,
-        "has_participants": true,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": "2026-10-24T22:18:34+00:00",
-        "vods": [],
-        "live_patch": "16.20.826.3891",
-        "live_blue_metadata": {
-          "team_id": "100205573496804586",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": [
-            {
-              "participant_id": 1,
-              "player_id": "105320680474347057",
-              "summoner_name": "HLE Zeus",
-              "champion_id": "Ambessa",
-              "role": "top"
-            },
-            {
-              "participant_id": 2,
-              "player_id": "101671284628761661",
-              "summoner_name": "HLE Kanavi",
-              "champion_id": "Pantheon",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 3,
-              "player_id": "103478281361900912",
-              "summoner_name": "HLE Zeka",
-              "champion_id": "Taliyah",
-              "role": "mid"
-            },
-            {
-              "participant_id": 4,
-              "player_id": "103495716775975785",
-              "summoner_name": "HLE Gumayusi",
-              "champion_id": "Jhin",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 5,
-              "player_id": "105501709748188393",
-              "summoner_name": "HLE Delight",
-              "champion_id": "Alistar",
-              "role": "support"
-            }
-          ]
-        },
-        "live_red_metadata": {
-          "team_id": "100205573495116443",
-          "name": "",
-          "code": "",
-          "image": "",
-          "participants": [
-            {
-              "participant_id": 6,
-              "player_id": "99566404532924465",
-              "summoner_name": "GEN Kiin",
-              "champion_id": "Rumble",
-              "role": "top"
-            },
-            {
-              "participant_id": 7,
-              "player_id": "100725844994345151",
-              "summoner_name": "GEN Canyon",
-              "champion_id": "Qiyana",
-              "role": "jungle"
-            },
-            {
-              "participant_id": 8,
-              "player_id": "99871276342168416",
-              "summoner_name": "GEN Chovy",
-              "champion_id": "Syndra",
-              "role": "mid"
-            },
-            {
-              "participant_id": 9,
-              "player_id": "98767975906852059",
-              "summoner_name": "GEN Ruler",
-              "champion_id": "Ezreal",
-              "role": "bottom"
-            },
-            {
-              "participant_id": 10,
-              "player_id": "107454956790371682",
-              "summoner_name": "GEN Duro",
-              "champion_id": "Leona",
-              "role": "support"
-            }
-          ]
-        },
-        "last_frame_time": "2026-10-24T22:24:51.476Z"
-      }
-    ]
-  },
-  {
     "start_time": "2026-10-24T23:00:00+00:00",
     "match_id": "115660540726095027",
     "detection_time": "2026-10-24T15:00:10+00:00",
-    "last_checked": "2026-10-24T22:53:33+00:00",
+    "last_checked": "2026-10-24T22:58:33+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -181,7 +50,7 @@
     "start_time": "2026-10-25T00:00:00+00:00",
     "match_id": "115660540726095035",
     "detection_time": "2026-10-24T16:00:04+00:00",
-    "last_checked": "2026-10-24T22:53:33+00:00",
+    "last_checked": "2026-10-24T22:58:33+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",

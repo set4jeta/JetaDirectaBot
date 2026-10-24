@@ -3,7 +3,7 @@
     "start_time": "2026-10-24T00:00:00+00:00",
     "match_id": "115660540726095017",
     "detection_time": "2026-10-23T16:00:27+00:00",
-    "last_checked": "2026-10-24T00:03:12+00:00",
+    "last_checked": "2026-10-24T00:08:12+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -13,17 +13,17 @@
     "best_of_count": 1,
     "teams_event_details": [
       {
-        "id": "113661839307879869",
-        "name": "Team Secret Whales",
-        "code": "TSW",
-        "image": "https://static.lolesports.com/teams/1774598000328_White_EyeText_600p.png",
-        "game_wins": 0
-      },
-      {
         "id": "99566405941863385",
         "name": "LYON",
         "code": "LYON",
         "image": "https://static.lolesports.com/teams/1743717443673_isotypelyon-03.png",
+        "game_wins": 0
+      },
+      {
+        "id": "113661839307879869",
+        "name": "Team Secret Whales",
+        "code": "TSW",
+        "image": "https://static.lolesports.com/teams/1774598000328_White_EyeText_600p.png",
         "game_wins": 0
       }
     ],

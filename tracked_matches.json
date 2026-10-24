@@ -3,7 +3,7 @@
     "start_time": "2026-10-24T22:00:00+00:00",
     "match_id": "115660540726095025",
     "detection_time": "2026-10-24T14:00:23+00:00",
-    "last_checked": "2026-10-24T22:23:05+00:00",
+    "last_checked": "2026-10-24T22:28:04+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -33,7 +33,7 @@
         "number": 1,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
@@ -126,7 +126,7 @@
             }
           ]
         },
-        "last_frame_time": "2026-10-24T22:17:31.270Z"
+        "last_frame_time": "2026-10-24T22:24:51.476Z"
       }
     ]
   },
@@ -134,7 +134,7 @@
     "start_time": "2026-10-24T23:00:00+00:00",
     "match_id": "115660540726095027",
     "detection_time": "2026-10-24T15:00:10+00:00",
-    "last_checked": "2026-10-24T22:23:05+00:00",
+    "last_checked": "2026-10-24T22:28:05+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -181,7 +181,7 @@
     "start_time": "2026-10-25T00:00:00+00:00",
     "match_id": "115660540726095035",
     "detection_time": "2026-10-24T16:00:04+00:00",
-    "last_checked": "2026-10-24T22:23:06+00:00",
+    "last_checked": "2026-10-24T22:28:05+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",

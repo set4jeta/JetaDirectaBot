@@ -3,7 +3,7 @@
     "start_time": "2026-10-24T17:00:00+00:00",
     "match_id": "115660540726095029",
     "detection_time": "2026-10-24T09:00:29+00:00",
-    "last_checked": "2026-10-24T11:58:04+00:00",
+    "last_checked": "2026-10-24T12:03:06+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -50,7 +50,7 @@
     "start_time": "2026-10-24T18:00:00+00:00",
     "match_id": "115660540726095021",
     "detection_time": "2026-10-24T10:00:02+00:00",
-    "last_checked": "2026-10-24T11:58:05+00:00",
+    "last_checked": "2026-10-24T12:03:06+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -97,7 +97,7 @@
     "start_time": "2026-10-24T19:00:00+00:00",
     "match_id": "115660540726095031",
     "detection_time": "2026-10-24T11:00:05+00:00",
-    "last_checked": "2026-10-24T11:58:05+00:00",
+    "last_checked": "2026-10-24T12:03:07+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Swiss",
@@ -124,6 +124,53 @@
     "trackedGames": [
       {
         "game_id": "115660540726095032",
+        "number": 1,
+        "state": "unstarted",
+        "draft_in_progress": false,
+        "has_participants": false,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": null,
+        "vods": [],
+        "live_patch": null,
+        "live_blue_metadata": null,
+        "live_red_metadata": null,
+        "last_frame_time": null
+      }
+    ]
+  },
+  {
+    "start_time": "2026-10-24T20:00:00+00:00",
+    "match_id": "115660540726095023",
+    "detection_time": "2026-10-24T12:00:07+00:00",
+    "last_checked": "2026-10-24T12:03:08+00:00",
+    "state": "notStarted",
+    "status": "detected",
+    "blockName": "Swiss",
+    "event_id": "115660540726095023",
+    "league_name": "Worlds",
+    "slug": "worlds",
+    "best_of_count": 1,
+    "teams_event_details": [
+      {
+        "id": "99566405941863385",
+        "name": "LYON",
+        "code": "LYON",
+        "image": "https://static.lolesports.com/teams/1743717443673_isotypelyon-03.png",
+        "game_wins": 0
+      },
+      {
+        "id": "111692118851466302",
+        "name": "Karmine Corp",
+        "code": "KC",
+        "image": "https://static.lolesports.com/teams/1704714951336_KC.png",
+        "game_wins": 0
+      }
+    ],
+    "trackedGames": [
+      {
+        "game_id": "115660540726095024",
         "number": 1,
         "state": "unstarted",
         "draft_in_progress": false,

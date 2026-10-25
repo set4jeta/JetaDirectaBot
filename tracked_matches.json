@@ -3,7 +3,7 @@
     "start_time": "2026-10-25T22:00:00+00:00",
     "match_id": "115660540726095041",
     "detection_time": "2026-10-25T14:00:03+00:00",
-    "last_checked": "2026-10-25T22:28:23+00:00",
+    "last_checked": "2026-10-25T22:33:22+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -24,7 +24,7 @@
         "name": "Gen.G Esports",
         "code": "GEN",
         "image": "https://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-        "game_wins": 0
+        "game_wins": 1
       }
     ],
     "trackedGames": [
@@ -140,14 +140,23 @@
       {
         "game_id": "115660540726095043",
         "number": 2,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-10-25T22:29:53+00:00",
         "real_start_time": "2026-10-25T21:57:26+00:00",
-        "vods": [],
+        "vods": [
+          {
+            "id": "117503912999851308",
+            "parameter": "SYd8i2VK8p0",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": null
+          }
+        ],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {
           "team_id": "100205573495116443",
@@ -240,7 +249,7 @@
       {
         "game_id": "115660540726095044",
         "number": 3,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,

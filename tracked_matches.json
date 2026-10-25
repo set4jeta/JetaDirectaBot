@@ -3,7 +3,7 @@
     "start_time": "2026-10-25T22:00:00+00:00",
     "match_id": "115660540726095041",
     "detection_time": "2026-10-25T14:00:03+00:00",
-    "last_checked": "2026-10-25T21:53:29+00:00",
+    "last_checked": "2026-10-25T21:58:27+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -142,16 +142,100 @@
         "number": 2,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-10-25T21:57:26+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "100205573495116443",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "99566404532924465",
+              "summoner_name": "GEN Kiin",
+              "champion_id": "Ambessa",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "100725844994345151",
+              "summoner_name": "GEN Canyon",
+              "champion_id": "Nocturne",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "99871276342168416",
+              "summoner_name": "GEN Chovy",
+              "champion_id": "Lissandra",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "98767975906852059",
+              "summoner_name": "GEN Ruler",
+              "champion_id": "Ashe",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "107454956790371682",
+              "summoner_name": "GEN Duro",
+              "champion_id": "Seraphine",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "99566405941863385",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "99322408701435122",
+              "summoner_name": "LYON Dhokla",
+              "champion_id": "Shen",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "101389713966873995",
+              "summoner_name": "LYON Inspired",
+              "champion_id": "Vi",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "107492059066783320",
+              "summoner_name": "LYON Saint",
+              "champion_id": "Akali",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "105388936922706146",
+              "summoner_name": "LYON Berserker",
+              "champion_id": "Yunara",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "103103578076943629",
+              "summoner_name": "LYON Isles",
+              "champion_id": "Lulu",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-10-25T21:56:32.569Z"
       },
       {
         "game_id": "115660540726095044",

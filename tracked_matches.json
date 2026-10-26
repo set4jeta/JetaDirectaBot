@@ -3,7 +3,7 @@
     "start_time": "2026-10-26T22:00:00+00:00",
     "match_id": "115660540726095057",
     "detection_time": "2026-10-26T14:00:07+00:00",
-    "last_checked": "2026-10-26T21:33:31+00:00",
+    "last_checked": "2026-10-26T21:38:30+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -24,19 +24,19 @@
         "name": "Team Liquid Alienware",
         "code": "TLAW",
         "image": "https://static.lolesports.com/teams/1769357207762_TLAlienware_Minimal_Bug-White.png",
-        "game_wins": 0
+        "game_wins": 1
       }
     ],
     "trackedGames": [
       {
         "game_id": "115660540726095058",
         "number": 1,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-10-26T21:37:32+00:00",
         "real_start_time": "2026-10-26T21:02:33+00:00",
         "vods": [],
         "live_patch": "16.20.826.3891",
@@ -131,7 +131,7 @@
       {
         "game_id": "115660540726095059",
         "number": 2,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,

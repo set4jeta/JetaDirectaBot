@@ -3,7 +3,7 @@
     "start_time": "2026-10-26T22:00:00+00:00",
     "match_id": "115660540726095057",
     "detection_time": "2026-10-26T14:00:07+00:00",
-    "last_checked": "2026-10-26T20:58:32+00:00",
+    "last_checked": "2026-10-26T21:03:32+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -13,17 +13,17 @@
     "best_of_count": 3,
     "teams_event_details": [
       {
-        "id": "98926509885559666",
-        "name": "Team Liquid Alienware",
-        "code": "TLAW",
-        "image": "https://static.lolesports.com/teams/1769357207762_TLAlienware_Minimal_Bug-White.png",
-        "game_wins": 0
-      },
-      {
         "id": "99566404856367466",
         "name": "Anyone's Legend",
         "code": "AL",
         "image": "https://static.lolesports.com/teams/1641199582689_.png",
+        "game_wins": 0
+      },
+      {
+        "id": "98926509885559666",
+        "name": "Team Liquid Alienware",
+        "code": "TLAW",
+        "image": "https://static.lolesports.com/teams/1769357207762_TLAlienware_Minimal_Bug-White.png",
         "game_wins": 0
       }
     ],
@@ -33,16 +33,100 @@
         "number": 1,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-10-26T21:02:33+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "99566404856367466",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "105516622825169657",
+              "summoner_name": "AL Breathe",
+              "champion_id": "Ambessa",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "99871276342823057",
+              "summoner_name": "AL Tarzan",
+              "champion_id": "Skarner",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "104287400430814502",
+              "summoner_name": "AL Shanks",
+              "champion_id": "Orianna",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "99566404819916503",
+              "summoner_name": "AL Hope",
+              "champion_id": "Yunara",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "105530584812980593",
+              "summoner_name": "AL Kael",
+              "champion_id": "Lulu",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "98926509885559666",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "103103696693473944",
+              "summoner_name": "TLAW Morgan",
+              "champion_id": "Camille",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "99566408350815597",
+              "summoner_name": "TLAW Josedeodo",
+              "champion_id": "LeeSin",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "107492071007218117",
+              "summoner_name": "TLAW Quid",
+              "champion_id": "Galio",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "105510944671654183",
+              "summoner_name": "TLAW Yeon",
+              "champion_id": "Lucian",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "98767991789638893",
+              "summoner_name": "TLAW CoreJJ",
+              "champion_id": "Nami",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-10-26T21:01:30.008Z"
       },
       {
         "game_id": "115660540726095059",

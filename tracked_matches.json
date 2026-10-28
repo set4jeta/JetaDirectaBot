@@ -3,7 +3,7 @@
     "start_time": "2026-10-28T23:00:00+00:00",
     "match_id": "115660540726095065",
     "detection_time": "2026-10-28T15:00:01+00:00",
-    "last_checked": "2026-10-28T23:33:20+00:00",
+    "last_checked": "2026-10-28T23:38:20+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -17,7 +17,7 @@
         "name": "LYON",
         "code": "LYON",
         "image": "https://static.lolesports.com/teams/1743717443673_isotypelyon-03.png",
-        "game_wins": 0
+        "game_wins": 1
       },
       {
         "id": "99566404848691211",
@@ -140,12 +140,12 @@
       {
         "game_id": "115660540726095067",
         "number": 2,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-10-28T23:34:20+00:00",
         "real_start_time": "2026-10-28T22:51:49+00:00",
         "vods": [],
         "live_patch": "16.20.826.3891",
@@ -240,7 +240,7 @@
       {
         "game_id": "115660540726095068",
         "number": 3,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,

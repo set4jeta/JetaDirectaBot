@@ -3,7 +3,7 @@
     "start_time": "2026-10-28T23:00:00+00:00",
     "match_id": "115660540726095065",
     "detection_time": "2026-10-28T15:00:01+00:00",
-    "last_checked": "2026-10-28T23:38:20+00:00",
+    "last_checked": "2026-10-28T23:43:20+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -46,6 +46,14 @@
             "provider": "youtube",
             "offset": 0,
             "first_frame_time": "2026-10-28T21:55:27.331000+00:00"
+          },
+          {
+            "id": "117521173122879483",
+            "parameter": "XIRyJF_PJ28",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2026-10-28T21:48:10.227000+00:00"
           }
         ],
         "live_patch": "16.20.826.3891",

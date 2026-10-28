@@ -3,7 +3,7 @@
     "start_time": "2026-10-28T23:00:00+00:00",
     "match_id": "115660540726095065",
     "detection_time": "2026-10-28T15:00:01+00:00",
-    "last_checked": "2026-10-28T23:53:21+00:00",
+    "last_checked": "2026-10-28T23:58:21+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -155,7 +155,16 @@
         "notified_game": false,
         "finished_time": "2026-10-28T23:34:20+00:00",
         "real_start_time": "2026-10-28T22:51:49+00:00",
-        "vods": [],
+        "vods": [
+          {
+            "id": "117521221693182147",
+            "parameter": "bkQiZZ3L9cE",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2026-10-28T22:43:09.625000+00:00"
+          }
+        ],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {
           "team_id": "99566404848691211",

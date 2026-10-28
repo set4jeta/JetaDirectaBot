@@ -3,7 +3,7 @@
     "start_time": "2026-10-28T23:00:00+00:00",
     "match_id": "115660540726095065",
     "detection_time": "2026-10-28T15:00:01+00:00",
-    "last_checked": "2026-10-28T22:48:19+00:00",
+    "last_checked": "2026-10-28T22:53:19+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Swiss",
@@ -133,16 +133,100 @@
         "number": 2,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-10-28T22:51:49+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "99566404848691211",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "99566404810113891",
+              "summoner_name": "IG TheShy",
+              "champion_id": "Zaahen",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "103461966880868232",
+              "summoner_name": "IG Wei",
+              "champion_id": "LeeSin",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "99566404811346612",
+              "summoner_name": "IG Rookie",
+              "champion_id": "Annie",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "113662801804437510",
+              "summoner_name": "IG JiaQi",
+              "champion_id": "Jhin",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "98767991785832912",
+              "summoner_name": "IG Meiko",
+              "champion_id": "Nautilus",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "99566405941863385",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "99322408701435122",
+              "summoner_name": "LYON Dhokla",
+              "champion_id": "Olaf",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "101389713966873995",
+              "summoner_name": "LYON Inspired",
+              "champion_id": "Qiyana",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "107492059066783320",
+              "summoner_name": "LYON Saint",
+              "champion_id": "Taliyah",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "105388936922706146",
+              "summoner_name": "LYON Berserker",
+              "champion_id": "Corki",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "103103578076943629",
+              "summoner_name": "LYON Isles",
+              "champion_id": "Alistar",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-10-28T22:50:47.583Z"
       },
       {
         "game_id": "115660540726095068",

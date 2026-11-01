@@ -112,24 +112,18 @@ def main() -> int:
 
     log.info("Configuración:\n%s", config.resumen())
 
-    primera_vez = _vacio(ACCOUNTS) and _vacio(ACCOUNTS_TEAMS)
-    if primera_vez or STARTUP_REFRESH:
-        _sembrar_cuentas()
-        asyncio.run(_reparar_puuids())
-    else:
-        # La tarea `actualizar_accounts_diario` refresca esto en su primera
-        # vuelta, y `actualizar_puuids_periodico` repara los PUUIDs cada 6 h.
-        log.info("Cuentas presentes; el refresco lo hacen las tareas de fondo.")
-
     # Puerto de salud para los PaaS que esperan uno abierto (hilo demonio).
+    # Va antes que nada lento: el proveedor comprueba el puerto en cuanto
+    # arranca el contenedor, y restaurar el estado es una petición a GitHub que
+    # puede tardar.
     keep_alive()
 
     # El estado de la gente —suscripciones, canales, planes y el registro de
-    # avisos— se recupera **antes** de arrancar las tareas. Si se hiciera después,
-    # una pasada del tracker podría avisar de algo ya avisado (ese registro es uno
-    # de los ficheros) o pisar una suscripción recién recuperada. Ver
-    # `core/estado_remoto.py`: existe porque en un host con disco efímero cada
-    # reinicio borraba las suscripciones sin ningún error.
+    # avisos— se recupera **antes de decidir si hay que descargar nada**. Si se
+    # hiciera después, un disco vacío parecería «primera vez» y el bot
+    # intentaría bajar los rosters de dpm.lol aunque tuviera el censo en la rama
+    # de estado: el 01-11-2026 eran ocho 403 en cada arranque en frío, antes de
+    # darse cuenta de que ya tenía con qué trabajar.
     try:
         from core import estado_remoto
 
@@ -140,6 +134,26 @@ def main() -> int:
         )
     except Exception:
         log.exception("No se pudo restaurar el estado remoto; se sigue con el local.")
+
+    # `accounts.json` y `accounts_from_teams.json` no viajan en la rama de
+    # estado porque se regeneran; el censo compacto sí. Si está, hay con qué
+    # barrer y la descarga puede esperar a la tarea diaria.
+    from tracking.soloq import censo
+
+    hay_censo = bool(censo.leer())
+    primera_vez = _vacio(ACCOUNTS) and _vacio(ACCOUNTS_TEAMS) and not hay_censo
+    if primera_vez or STARTUP_REFRESH:
+        _sembrar_cuentas()
+        asyncio.run(_reparar_puuids())
+    elif hay_censo:
+        # Solo censo: no hay rosters que bajar, pero sí PUUID que resolver (la
+        # copia guarda nombre y plataforma; los PUUID de dpm no sirven para
+        # Riot). Con el caché ya restaurado no se pide nada a la API.
+        asyncio.run(_reparar_puuids())
+    else:
+        # La tarea `actualizar_accounts_diario` refresca esto en su primera
+        # vuelta, y `actualizar_puuids_periodico` repara los PUUIDs cada 6 h.
+        log.info("Cuentas presentes; el refresco lo hacen las tareas de fondo.")
 
     # Los transportes de dpm.lol, en el arranque: en el log de Render se ve si
     # curl_cffi está instalado (es el respaldo para cuando Cloudflare bloquea a

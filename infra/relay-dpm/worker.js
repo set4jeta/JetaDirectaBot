@@ -32,9 +32,12 @@
 
 const HOST_PERMITIDO = "dpm.lol";
 
-// Las rutas que pide el bot, ni una más. `/tierlist` entró el 01-11-2026: sin
-// ella, `apis/dpm.py` recibía un 400 del propio relay en cada arranque.
-const PREFIJOS = ["/v1/", "/esport/", "/tierlist"];
+// Las rutas que pide el bot, ni una más. Salieron de buscar `dpm.lol/` en el
+// código: `/v1/…` (API), `/esport/…` (leaderboards y fichas), `/tierlist` y
+// `/pro/…` (páginas de jugador). `/tierlist` y `/pro/` entraron el 01-11-2026:
+// sin ellas, el bot recibía un 400 **del propio relay** y el log lo contaba como
+// si dpm.lol estuviera bloqueando.
+const PREFIJOS = ["/v1/", "/esport/", "/tierlist", "/pro/"];
 
 // Un navegador de verdad. El Worker no hereda las cabeceras del cliente, así que
 // sin esto dpm.lol ve la petición como lo que es: un `fetch` sin UA.

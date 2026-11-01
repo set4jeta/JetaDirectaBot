@@ -314,6 +314,13 @@ def _pedir_por_relay(url: str, timeout: float) -> Respuesta | None:
         cuerpo = (resp.text or "").strip()[:80]
         if cuerpo == "forbidden":
             _anotar_fallo_relay("la clave no coincide (el Worker contesta 'forbidden')")
+        elif cuerpo == "ruta no permitida":
+            # No es dpm.lol: es la lista blanca del Worker, o sea un fallo
+            # nuestro. Decirlo así ahorra una tarde de buscar un bloqueo que no
+            # existe (pasó con `/tierlist` y con `/pro/`).
+            _anotar_fallo_relay(
+                "el Worker rechaza la ruta (revisa PREFIJOS en infra/relay-dpm/worker.js)"
+            )
         elif "just a moment" in (resp.text or "").lower():
             _anotar_fallo_relay("dpm.lol contesta el desafío de Cloudflare al Worker")
         else:

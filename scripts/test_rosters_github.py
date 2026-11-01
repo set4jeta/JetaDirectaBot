@@ -505,6 +505,31 @@ def prueba_worker_del_relay() -> None:
     ok("PREFIJOS" in texto, "limita las rutas a las del bot")
     ok("x-relay-upstream" in texto, "dice qué contestó dpm.lol, para diagnosticar")
 
+    # La lista blanca tiene que cubrir **todas** las rutas que pide el bot. Si se
+    # queda corta, el Worker contesta 400 y el log lo cuenta como si dpm.lol
+    # estuviera bloqueando: un fallo propio disfrazado de bloqueo ajeno. Pasó con
+    # `/tierlist` y con `/pro/`.
+    import re
+
+    m = re.search(r"const PREFIJOS = \[([^\]]+)\]", texto)
+    ok(bool(m), "se pueden leer los prefijos permitidos")
+    if m:
+        permitidos = re.findall(r'"([^"]+)"', m.group(1))
+        usadas = set()
+        for py in RAIZ.rglob("*.py"):
+            if "test_" in py.name or ".workbuddy-ai" in str(py):
+                continue
+            for hallado in re.findall(r"dpm\.lol(/[A-Za-z0-9_{}$\./-]*)", py.read_text(encoding="utf-8", errors="replace")):
+                if hallado != "/":
+                    usadas.add(hallado)
+        fuera = sorted(
+            u for u in usadas
+            # `/v1` sin barra es la constante `_BASE`, no una ruta: se compara
+            # también sin la barra final para no marcarla como fallo.
+            if not any(u.startswith(p) or u == p.rstrip("/") for p in permitidos)
+        )
+        ok(not fuera, "todas las rutas que usa el bot están permitidas", ", ".join(fuera))
+
 
 def prueba_tarea_del_bot() -> None:
     print("\n=== el bot vuelve a bajarse el censo cada pocas horas ===")

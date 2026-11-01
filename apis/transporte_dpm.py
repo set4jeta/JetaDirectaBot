@@ -75,6 +75,28 @@ _cffi_disponible: bool | None = None
 #: para verlo en el log sin tener que rebuscar entre líneas.
 _veces_respaldo = 0
 
+#: Cuándo se vio el último **bloqueo de Cloudflare** (los dos transportes
+#: rechazados a la vez) y cuántas veces ha pasado. Existe porque el 01-11-2026 el
+#: sintoma era indistinguible de un fallo de código: 403 en las ocho plataformas,
+#: cero cuentas, y ni una línea diciendo «me están bloqueando».
+_ultimo_bloqueo = 0.0
+_bloqueos = 0
+
+#: Cuánto se considera que un bloqueo sigue vigente. Durante ese rato no se
+#: insiste: desde la misma IP, todas las peticiones van a fallar igual, y cada
+#: intento cuesta una conexión y una espera de reintento.
+BLOQUEO_VIGENTE = 600.0
+
+
+def bloqueado_recientemente(segundos: float = BLOQUEO_VIGENTE) -> bool:
+    """¿Se acaba de ver un bloqueo de Cloudflare desde esta IP?
+
+    Lo consultan los que hacen **muchas** peticiones seguidas (el leaderboard de
+    ocho plataformas, la rotación de rosters) para no encadenar fallos idénticos.
+    """
+    return _ultimo_bloqueo > 0 and (time.time() - _ultimo_bloqueo) < segundos
+
+
 
 class Respuesta:
     """Lo mínimo que necesitan los que llaman: estado, texto y JSON."""
@@ -204,10 +226,57 @@ def pedir(
             )
         return respaldo
 
+    _anotar_bloqueo(url, principal, respaldo)
     return respaldo or principal
+
+
+def _anotar_bloqueo(url: str, principal: Respuesta | None, respaldo: Respuesta | None) -> None:
+    """Apunta un bloqueo cuando **los dos** transportes fueron rechazados.
+
+    Distinguir «Cloudflare nos cierra la puerta» de «el código está mal» es la
+    mitad del diagnóstico. Desde el 01-11-2026 la IP de Render recibe 403 con
+    curl_cffi y cloudscraper a la vez, y eso no se arregla escribiendo código:
+    hay que saber que es eso y no un selector roto.
+    """
+    global _ultimo_bloqueo, _bloqueos
+
+    estados = [
+        r.status if r is not None else 0 for r in (principal, respaldo)
+    ]
+    desafio = any(
+        r is not None and r.status == 200 and _parece_desafio(r.text)
+        for r in (principal, respaldo)
+    )
+    # 403 (y el 503 de "Under Attack") es como Cloudflare dice «no» a una IP que
+    # no le gusta, con los dos transportes. Un 500 no: ese sí es del servidor.
+    if not desafio and not any(e in (403, 503) for e in estados):
+        return
+
+    with _lock:
+        primero = _bloqueos == 0
+        _bloqueos += 1
+        _ultimo_bloqueo = time.time()
+        veces = _bloqueos
+    if primero:
+        log.error(
+            "dpm.lol está BLOQUEANDO esta IP (estados %s; %d bloqueo(s)). "
+            "No es un fallo del cliente: desde una IP de datacenter Cloudflare "
+            "contesta 403 aunque se imite la huella de Chrome. Los datos no se "
+            "pueden bajar desde aquí; el censo que ya está en disco se sigue "
+            "usando. Ver DESPLIEGUE.md §8.",
+            "/".join(str(e) for e in estados), veces,
+        )
+    elif veces % 25 == 0:
+        log.warning("dpm.lol sigue bloqueando esta IP (%d bloqueos).", veces)
 
 
 def resumen() -> str:
     """Para el log de arranque: qué transportes hay y cuántas veces hizo falta el respaldo."""
     cffi = "sí" if _cliente_cffi() is not None else "no instalado"
-    return f"curl_cffi ({cffi}) + cloudscraper de respaldo · respaldos usados: {_veces_respaldo}"
+    texto = (
+        f"curl_cffi ({cffi}) + cloudscraper de respaldo · "
+        f"respaldos usados: {_veces_respaldo}"
+    )
+    if _bloqueos:
+        texto += f" · BLOQUEOS de Cloudflare: {_bloqueos}"
+    return texto

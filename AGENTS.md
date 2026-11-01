@@ -12,7 +12,8 @@ hacia dónde va, para que cualquiera pueda retomar sin re-descubrirlo todo.
 ## 1. Qué es y hacia dónde va
 
 **LoLProTrackr** es un bot de Discord (nextcord) que avisa cuando un jugador
-profesional de LoL entra a SoloQ. 20 ligas, 919 jugadores, barrida cada 30 s.
+profesional de LoL entra a SoloQ. 20 ligas, ~1 000 jugadores, barrida con cadencia
+variable según el presupuesto de ancho de banda (2-30 min; ver §8 de `DESPLIEGUE.md`).
 Tiene capa gratuita + planes de pago (Pro 3,99 €, Elite 8,99 €, definidos en
 `tracking/soloq/plans.py`).
 
@@ -508,6 +509,14 @@ se agota el presupuesto, lo que se cae es el `.bat`, **nunca el aviso**.
 que no da ningún error, el bot funciona perfecto y solo se nota en la factura
 tres semanas después. Lo vigila `scripts/test_salida_red.py`.
 
+**Corrección del 01-11-2026: la causa de octubre era otra.** Aquel arreglo era
+necesario pero no suficiente. En octubre los avisos fueron **1,4 MB** y el mes
+cerró en **5 445 MB**: la partida grande es el **sondeo de la API de Riot**, y el
+contador de `egress.py` no lo miraba, por eso nunca disparó. Que Render lo llame
+«salida» o no es irrelevante — el consumo por hora cuadra con el número de
+peticiones, no con los mensajes. Ahora `egress.registrar_sondeo()` cuenta cada
+respuesta y `total_bytes()` es la cifra que manda.
+
 El detalle operativo completo está en **`DESPLIEGUE.md` §8**.
 
 ---
@@ -614,7 +623,7 @@ quedó solo con `/esports` y `/schedule`.
 datos que **ya están en memoria o en caché**:
 
 - `/live <liga>` filtra `ACTIVE_GAME_CACHE` por `player.league`. La caché la
-  mantiene el barrido cada 30 s, así que filtrar no cuesta ni una llamada.
+  mantiene el barrido, así que filtrar no cuesta ni una llamada.
 - `/esports <liga>` filtra los `tracked_matches` del tracker por `league_name`
   (comparación laxa: la API de Riot pone nombres como `LCK CL`).
 - `/ranking <liga> <rol> <limite>` filtra la tabla que ya se ha pedido entera
@@ -720,3 +729,73 @@ donaciones y publicidad de la web.
 
 `PLANES_USUARIO` (el lado personal: Gratis / Plus) **no** se tocó: son otros ejes
 (cuántos pros sigue una persona), y `/premium` solo enseña los de servidor.
+
+---
+
+## La cadencia, el censo y el bloqueo de dpm.lol (01-11-2026)
+
+Tres cosas que se tocaron juntas porque las tres venían del mismo corte: el bot
+estuvo **59 h suspendido** por cuota (29-10) y, al reanudarse, arrancó **ciego**.
+
+### `tracking/soloq/cadencia.py` — la cadencia ya no es un número
+
+Un valor fijo en una variable de entorno siempre está mal en algún momento del
+mes. Se calcula con el presupuesto que queda y las horas hasta fin de mes:
+
+```
+coste de una pasada = cuentas × bytes por cuenta
+margen por hora     = (presupuesto − gastado) ÷ horas que quedan
+intervalo           = 3600 ÷ (margen por hora ÷ coste de una pasada)
+```
+
+- `bytes_por_cuenta` **se mide** (`anotar_pasada`), no es una constante de fe.
+- Topes: `CHECK_GAMES_INTERVAL_MIN` (120 s) y `_MAX` (1 800 s).
+- Presupuesto agotado → `CHECK_GAMES_INTERVAL_AGOTADO` (3 600 s). **No se apaga.**
+- `CADENCIA_AUTOMATICA=0` vuelve a la cifra fija. Es una salida de emergencia,
+  no una opción razonable.
+- `core/background_tasks.check_games_loop` la aplica con `Loop.change_interval`
+  al final de cada pasada, y una vez en `before_loop`.
+- Ojo: `SweepStats.presupuesto` y `/live` leen `cadencia.intervalo_actual()`, no
+  `config.CHECK_GAMES_INTERVAL`, que ya solo vale con la automática apagada.
+
+**El sondeo ahora se cuenta.** `apis/riot_client._request` suma los bytes de cada
+respuesta con `egress.registrar_sondeo`. Antes el contador solo veía los mensajes
+de Discord: 1,4 MB con el mes cerrado en 5 445 MB. `estado()` devuelve `mb`
+(Discord, para el `.bat`), `sondeo_mb` y `total_mb`; el presupuesto se compara
+con el **total**, y `/health` enseña el total con el desglose.
+
+### `tracking/soloq/censo.py` — el bot no puede arrancar sin censo
+
+Cloudflare empezó a contestar **403 a la IP de Render** (con curl_cffi y con
+cloudscraper), así que `accounts_from_teams.json` no se creaba y el barrido se
+quedaba con 0 cuentas. `/health` contestaba 200 y `/live-games` devolvía JSON
+válido: el síntoma era indistinguible de «no hay partidos».
+
+- `censo_compacto.json` es una copia de **274 KB** (el censo completo son 1,7 MB)
+  con solo lo que el barrido usa: nombre, equipo, liga, rol y cuentas con PUUID y
+  plataforma.
+- Viaja en la rama de estado (`estado_remoto.ARCHIVOS`) y `load_tracked_accounts`
+  la lee cuando falta el fichero grande.
+- `censo.edad_dias()` existe para poder decir **cuánto** tiene de viejo. Un censo
+  de tres semanas no es lo mismo que uno de ayer.
+- Si se añade un módulo que escriba estado, apuntarlo en
+  `scripts/_estado_de_prueba.py`; ya se olvidó dos veces.
+
+`transporte_dpm` distingue «Cloudflare nos bloquea» de «el cliente está mal» y lo
+dice en ERROR una vez. `accounts_from_leaderboard` corta en la primera plataforma
+bloqueada en vez de encadenar ocho 403 idénticos.
+
+### Worlds: la ventana es anual y los eliminados no se borran
+
+- `Liga.ventana_anual` es `((mes, día), (mes, día))` y se repite cada año. Antes
+  eran fechas absolutas de 2026: en 2027 el mundial **no se habría encendido** y
+  nadie se habría enterado. Se cambia con `WORLDS_VENTANA`.
+- La ventana (1-10 a 30-11) es **más ancha que el torneo**: los equipos llegan
+  antes a bootcamp y los eliminados se quedan unos días jugando soloq allí. Se
+  les sigue mientras sigan; el que se va deja de aparecer solo.
+- `refrescar_ligas` **suma** en las ligas `autoactiva` en vez de reemplazar: dpm
+  quita del leaderboard a los equipos eliminados y, si se reemplazara, sus
+  cuentas desaparecerían del censo sin ningún error. En una liga normal sigue
+  reemplazando (el que se fue, se fue). Lo vigila `test_worlds`.
+- El servidor del que se guardan cuentas se cambia con `WORLDS_PLATAFORMAS`
+  (`na1` en 2026) sin tocar código.

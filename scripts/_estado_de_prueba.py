@@ -68,6 +68,11 @@ _RUTAS = (
     # restauró, pero el aviso era correcto y el agujero real.
     ("tracking.soloq.accounts_from_teams", "JSON_PATH", "accounts_from_teams.json"),
     ("tracking.soloq.accounts_io", "JSON_SUELTAS_PATH", "cuentas_sueltas.json"),
+    # La copia compacta del censo. `load_tracked_accounts` cae en ella cuando no
+    # hay `accounts_from_teams.json`, así que sin redirigirla una prueba que
+    # comprueba «sin fichero de rosters devuelve vacío» lee el censo de verdad y
+    # ve 1 007 jugadores.
+    ("tracking.soloq.censo", "RUTA", "censo_compacto.json"),
     # El contador de ancho de banda. Lo escribe cualquier cosa que salga a la red,
     # así que sin esto lo toca media batería.
     ("utils.egress", "RUTA", "egress.json"),
@@ -76,10 +81,16 @@ _RUTAS = (
     # los rangos de media plantilla borrados. Se detectaba (está en `_EN_LA_RAIZ`)
     # pero no se evitaba, que es la mitad que faltaba.
     ("core.rank_store", "RANKED_DATA_FILE", "ranked_data.json"),
+    # **La caché de PUUIDs.** No la escribe una prueba, la *lee* `repair_file`, y
+    # ese era el agujero: `test_worlds` comprobaba que un PUUID ya puesto se
+    # respeta, pero la caché de verdad tenía el valor de Riot para ese mismo
+    # riot_id y lo pisaba. La prueba fallaba o pasaba según lo llena que
+    # estuviera la caché de la máquina, que es la peor clase de prueba.
+    ("tracking.soloq.puuid_repair", "PUUID_CACHE", "puuid_cache.json"),
 )
 
 #: Ficheros de estado que viven en la raíz del proyecto y no en `tracking/soloq/`.
-_EN_LA_RAIZ = ("ranked_data.json",)
+_EN_LA_RAIZ = ("ranked_data.json", "puuid_cache.json")
 
 
 def _origen(nombre: str) -> Path:

@@ -37,6 +37,7 @@ Uso típico::
 from __future__ import annotations
 
 import asyncio
+import json
 import os
 import time
 from collections import deque
@@ -45,6 +46,7 @@ from typing import Any, Iterable
 
 import aiohttp
 
+from utils import egress
 from utils.logger import get_logger
 
 log = get_logger("apis.riot_client")
@@ -386,8 +388,17 @@ class RiotClient:
                     self._sync_limits_from_response(resp.headers, method_key)
                     last_status = resp.status
 
+                    # **Aquí se mide el gasto de verdad.** Todas las peticiones a
+                    # Riot pasan por este punto, y lo que se descarga es la
+                    # partida grande del ancho de banda del hosting: el 01-11-2026
+                    # el contador de `/health` marcaba 1,4 MB con el mes ya
+                    # agotado en 5 445 MB, porque solo contaba los mensajes de
+                    # Discord. Ver `utils/egress.py` y `tracking/soloq/cadencia.py`.
+                    crudo = await resp.read()
+                    egress.registrar_sondeo(len(crudo))
+
                     if resp.status == 200:
-                        return 200, await resp.json(content_type=None)
+                        return 200, json.loads(crudo) if crudo else None
 
                     body: Any = None
                     try:

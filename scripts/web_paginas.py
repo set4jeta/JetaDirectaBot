@@ -1615,7 +1615,13 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
     Render— la tabla no se pinta y queda solo el formato, que es la regla de todo
     este módulo: si el dato no está, la sección no se pinta.
     """
-    intervalo = datos.ajuste("CHECK_GAMES_INTERVAL", 30)
+    # La cadencia **ya no es un número fijo**: `tracking/soloq/cadencia.py` la
+    # mueve entre dos topes según el ancho de banda que quede del mes. Lo único
+    # que esta página puede prometer es el **techo**; decir el mínimo sería
+    # mentir precisamente los días en que el bot va lento, que son los que
+    # importan para decidir si el aviso llega a tiempo.
+    segundos_tope = datos.ajuste("CHECK_GAMES_INTERVAL_MAX", 1800)
+    minutos_tope = max(1, round(segundos_tope / 60))
     jugadores = datos.jugadores_de("lec")
     ejemplo = jugadores[0] if jugadores else None
     reales = datos.avisos(TOPE_AVISOS)
@@ -1627,17 +1633,19 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
     # escritorio, así que se apunta a esa ventana.
     descripcion = (
         f"What the alert {branding.BOT_NOMBRE} posts when a pro queues up for "
-        f"SoloQ carries, how long it takes ({intervalo} s polling) and why the "
+        f"SoloQ carries, how long it takes (every few minutes) and why the "
         "game clock runs behind."
     )
 
     preguntas = [
         (
             "How long does the alert take to arrive?",
-            f"The bot checks the accounts every {intervalo} seconds, so the alert "
-            f"arrives at most {intervalo} seconds after the game shows up in "
-            "Riot's API. The game itself is already a little under way when it "
-            "appears: that is Riot's timing, not the bot's.",
+            f"The bot sweeps the accounts continuously and an alert arrives "
+            f"within {minutos_tope} minutes at most — usually much sooner. The "
+            "sweep speeds up while there is bandwidth budget left in the month "
+            "and slows down near the end, so the hosting never cuts the bot off. "
+            "The game itself is already a little under way when it appears: that "
+            "is Riot's timing, not the bot's.",
         ),
         (
             "Why does the game clock in the alert not match the one in the client?",
@@ -1682,8 +1690,8 @@ def pagina_avisos(sitio: str, fecha: str, pub: str) -> Pagina:
     resumen = [
         "A message in your channel with the <b>champion, role, rank, team and all "
         "ten participants</b>, as soon as the game starts.",
-        f"The bot checks the accounts every <b>{intervalo} seconds</b>: that is the "
-        "maximum delay.",
+        f"The bot checks the accounts every few minutes (at most <b>{minutos_tope}"
+        "</b>): that is the maximum delay.",
         "It works in a server channel or in your private chat, without depending "
         "on any server.",
     ]

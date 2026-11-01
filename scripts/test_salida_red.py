@@ -216,6 +216,50 @@ def prueba_degradacion() -> None:
         egress.reiniciar()
 
 
+def prueba_cambio_de_mes() -> None:
+    """El contador vuelve a cero al cambiar el mes, también **en caliente**.
+
+    Antes del 01-11-2026 esto solo afectaba al número que enseña `/health`.
+    Ahora la cadencia reparte el presupuesto con `total_bytes()`, así que un
+    contador que no se reiniciara dejaría el barrido a 3 600 s **todo el mes
+    nuevo** — el bot seguiría vivo pero ciego, que es peor que caerse.
+    """
+    from datetime import datetime, timezone
+
+    print("\n=== el contador vuelve a cero al cambiar de mes ===")
+
+    # Se parte de un disco limpio: si quedara el `egress.json` de las pruebas
+    # anteriores, `_cargar()` lo releería y el cero no probaría nada.
+    egress.reiniciar()
+    try:
+        os.remove(egress.RUTA)
+    except OSError:
+        pass
+
+    # Se finge el mes viejo **en memoria**, que es como lo tiene un proceso que
+    # lleva semanas corriendo. Leerlo del disco ya funcionaba; lo que fallaba
+    # era la caché de `_cargar()`, y por eso se toca el atributo a propósito.
+    egress._estado = {
+        "mes": "2020-01", "bytes": 3 * 1024 ** 3,
+        "mensajes": 10, "adjuntos": 2, "sondeo": 1024 ** 3,
+    }
+    egress._pendiente_sondeo = 0
+
+    ok(egress.total_bytes() == 0,
+       "lo gastado el mes viejo no cuenta en el nuevo",
+       f"había {4 * 1024 ** 3 / 1048576:.0f} MB de 2020-01")
+    ok(egress.estado()["mes"] == datetime.now(timezone.utc).strftime("%Y-%m"),
+       "y el mes que se informa es el de verdad", egress.estado()["mes"])
+    ok(egress.estado()["porcentaje_total"] == 0,
+       "el porcentaje del mes nuevo también empieza en cero")
+
+    # Y no se queda tonto: lo que se gaste ahora sí cuenta.
+    egress.registrar_sondeo(1024 * 1024)
+    egress.volcar_sondeo()
+    ok(abs(egress.total_bytes() - 1024 * 1024) < 2,
+       "y a partir de ahí vuelve a contar", f"{egress.total_bytes()} B")
+
+
 def main() -> None:
     # El contador de ancho de banda vive en `egress.json`; sin esto la prueba lo
     # escribía en el de verdad, y ese fichero es justo el que el bot usa para no
@@ -227,6 +271,7 @@ def main() -> None:
         prueba_urls()
         prueba_contador()
         prueba_degradacion()
+        prueba_cambio_de_mes()
 
     print(f"\nfallos : {len(fallos)}")
     if fallos:

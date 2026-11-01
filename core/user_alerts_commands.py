@@ -431,8 +431,8 @@ def _descargar_roster_en_fondo(codigo: str) -> bool:
     Seguir una liga solo la mete en `ligas_en_uso()`, y quien descarga los
     rosters con esa lista es la tarea diaria: hasta 24 h de silencio para alguien
     que acaba de escribir `/track lck` y está esperando su primer aviso. Con esto
-    las cuentas entran en el fichero en minutos, y la pasada siguiente (30 s) ya
-    las consulta.
+    las cuentas entran en el fichero en minutos, y la pasada siguiente ya las
+    consulta.
 
     Se hace con `asyncio.to_thread` porque `refrescar_ligas` va por `cloudscraper`
     (bloquea) y con `create_task` para no meter minutos de scraping dentro de la

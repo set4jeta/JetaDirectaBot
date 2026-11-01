@@ -90,10 +90,42 @@ def load_tracked_accounts() -> list[BootcampPlayer]:
     try:
         mtime = os.path.getmtime(JSON_TEAMS_PATH)
     except OSError:
-        log.warning("accounts_from_teams.json no existe, devolviendo lista vacía")
-        return []
+        # **Sin censo grande se lee la copia compacta.** Antes esto devolvía
+        # lista vacía y el bot se quedaba mudo sin decir por qué: el 01-11-2026,
+        # con Cloudflare bloqueando dpm.lol desde Render, el fichero no llegaba a
+        # crearse y `/health` contestaba 200 con 0 cuentas sondeadas. La copia
+        # trae lo último que se supo (ver `tracking/soloq/censo.py`).
+        from tracking.soloq import censo
 
-    if _tracked_cache is not None and _tracked_cache[0] == mtime:
+        try:
+            mtime = os.path.getmtime(censo.RUTA)
+        except OSError:
+            log.warning(
+                "accounts_from_teams.json no existe y tampoco hay copia del censo, "
+                "devolviendo lista vacía"
+            )
+            return []
+
+        if _tracked_cache is not None and _tracked_cache[0] == (mtime, "censo"):
+            return _tracked_cache[1]
+
+        crudos = censo.leer()
+        if not crudos:
+            return []
+        edad = censo.edad_dias()
+        log.warning(
+            "accounts_from_teams.json no existe: se usa la copia del censo "
+            "(%d jugadores, %s de antigüedad). dpm.lol no ha respondido.",
+            len(crudos), "?" if edad is None else f"{edad:.1f} días",
+        )
+        jugadores = [BootcampPlayer.from_dict(p) for p in crudos]
+        _tracked_cache = ((mtime, "censo"), jugadores)
+        return jugadores
+
+    if _tracked_cache is not None and _tracked_cache[0] == (mtime, "censo"):
+        # La caché venía de la copia y ahora ya está el fichero bueno: se relee.
+        pass
+    elif _tracked_cache is not None and _tracked_cache[0] == mtime:
         return _tracked_cache[1]
 
     log.debug("Cargando accounts_from_teams.json desde disco")

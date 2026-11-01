@@ -159,7 +159,23 @@ def fetch_players() -> tuple[list[dict[str, Any]], bool]:
     todos: list[dict[str, Any]] = []
     completo = True
 
+    from apis import transporte_dpm
+
     for plataforma in PLATAFORMAS:
+        # Si Cloudflare ya nos ha cerrado la puerta, las otras siete escaleras
+        # van a dar exactamente el mismo 403: insistir solo gasta conexiones y
+        # llena el log de ocho errores idénticos que parecen ocho fallos. El
+        # 01-11-2026 eso se leyó como «dpm.lol está caído» cuando lo que pasaba
+        # es que no acepta esta IP.
+        if transporte_dpm.bloqueado_recientemente():
+            log.error(
+                "Leaderboard: se corta en '%s' porque dpm.lol está bloqueando esta "
+                "IP; las %d plataformas restantes darían el mismo 403.",
+                plataforma, len(PLATAFORMAS) - PLATAFORMAS.index(plataforma),
+            )
+            completo = False
+            break
+
         filas, ok = _fetch_plataforma(plataforma)
         # La API ya manda `platform` en cada fila, pero se reescribe con la que se
         # ha pedido: es de lo que depende que la cuenta se consulte contra el

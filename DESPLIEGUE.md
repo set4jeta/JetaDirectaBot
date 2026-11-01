@@ -224,40 +224,159 @@ dpm.lol y las sirve Discord, así que no dependen de cuándo se barre. Que sigue
 bien lo vigila `scripts/test_embeds_imagenes.py`, que construye el aviso de SoloQ
 de verdad y exige foto y logo en `https` y **ningún adjunto**.
 
+### El segundo corte: 29-10-2026, y por qué una cifra fija no sirve
+
+Con 240 s el bot aguantó del 18 al 29 de octubre y **volvió a caer**: 59 horas
+suspendido por cuota, con octubre cerrado en **5 445 MB de 5 000** (un 9 % de
+más). Desde el corte el consumo fue 0, así que la serie de siete días solo
+reflejaba el ritmo previo: **1 743 MB en 109 h = 16 MB/h ≈ 384 MB/día**. Con esa
+cadencia, noviembre se habría agotado en **13 días**.
+
+La causa seguía siendo el sondeo, no los avisos — y aquí está la parte que
+importa: **el contador de `/health` llevaba congelado en 417 mensajes (1,4 MB)
+desde el 20 de octubre**, porque `utils/egress.py` solo contaba lo que se manda a
+Discord. La partida grande, las peticiones a la API de Riot, no la contaba nadie.
+De ahí que `EGRESS_PRESUPUESTO_MB` no disparara nunca: estaba vigilando el 0,03 %
+del gasto.
+
+**La decisión de fondo: la cadencia deja de ser un número.** Un valor fijo
+siempre está mal en algún momento del mes:
+
+| cadencia | qué pasa |
+|---|---|
+| 240 s | agota los 5 GB hacia el día 13 y el proveedor suspende el bot |
+| 1 800 s | no se agota nunca, pero el aviso llega con **media hora** de retraso todos los días, también los que sobraban |
+
+Lo que hacía falta no era un número más alto, era **repartir el presupuesto a lo
+largo del mes**. Eso es `tracking/soloq/cadencia.py`:
+
+```
+coste de una pasada = cuentas sondeadas × bytes por cuenta
+margen por hora     = (presupuesto − gastado) ÷ horas hasta fin de mes
+intervalo           = 3600 ÷ (margen por hora ÷ coste de una pasada)
+```
+
+- Al empezar el ciclo va **rápido**, porque hay margen de sobra.
+- Según se gasta, se **estira sola**.
+- El último día llega con el presupuesto **justo agotándose**, ni antes ni
+  después.
+- `bytes_por_cuenta` **se mide**: cada pasada anota lo que gastó de verdad y
+  cuántas cuentas miró, y de ahí sale una media móvil. Si el censo crece o Riot
+  cambia el tamaño de las respuestas, se entera sola.
+
+Medido con los números de octubre (≈1,16 kB por cuenta), a principio de mes sale:
+
+| cuentas barridas | intervalo |
+|---|---|
+| 300 | ~3 min |
+| 400 | ~4 min |
+| 919 (censo entero) | ~9 min |
+
+Y a mitad de mes, con el mismo censo, el doble. Los topes
+(`CHECK_GAMES_INTERVAL_MIN` 120 s, `CHECK_GAMES_INTERVAL_MAX` 1 800 s) existen
+para que la corrección no se vuelva absurda. Si el presupuesto se agota antes de
+fin de mes se pasa a `CHECK_GAMES_INTERVAL_AGOTADO` (3 600 s): **no se apaga**,
+porque apagarse es peor que ir despacio.
+
+El cambio va acompañado de lo que lo hace posible: **el sondeo ahora se cuenta**.
+`apis/riot_client._request` suma los bytes de cada respuesta al contador del mes
+(`egress.registrar_sondeo`), y `/health` enseña el **total** con el desglose. Sin
+eso, la cadencia estaría decidiendo a ciegas y el contador seguiría mintiendo.
+
+La prueba que lo vigila es `scripts/test_cadencia.py` (reparto, agotado, topes,
+aprendizaje del coste, duración de la pasada y las horas hasta fin de mes en
+UTC). El total se ve en `/health`:
+
+```
+Salida de red (mes)
+2 140 de 4 800 MB (45 %) · 2 130 MB son sondeo de la API · 418 mensajes
+```
+
+### dpm.lol bloquea la IP de Render (01-11-2026)
+
+El servicio se reanudó el 01-11 a las 01:31 UTC y el bot estaba **ciego**: 0
+cuentas barridas. No era un fallo del código ni de dpm.lol — dpm responde
+perfectamente desde una IP doméstica. Era **Cloudflare contestando 403 a la IP
+del datacenter**, con los dos transportes:
+
+```
+ERROR | apis.transporte_dpm | dpm.lol está BLOQUEANDO esta IP (estados 403/403)
+ERROR | accounts_from_leaderboard | euw1: HTTP 403 en la página 1
+```
+
+`curl_cffi` (que imita la huella TLS de Chrome) **sí** pasa desde casa; desde
+Render ya no. No hay arreglo por código: es la reputación de la IP.
+
+Lo que sí se arregló:
+
+1. **El síntoma deja de ser mudo.** `transporte_dpm` distingue «Cloudflare nos
+   cierra la puerta» de «el cliente está mal» y lo dice en ERROR una vez, no
+   veinticinco. Y `accounts_from_leaderboard` **corta en la primera plataforma**
+   bloqueada en vez de encadenar ocho 403 idénticos que parecían ocho fallos.
+2. **El bot no arranca sin censo.** `tracking/soloq/censo.py` guarda una copia
+   **compacta** del censo —274 KB frente a 1,7 MB, solo lo que el barrido
+   necesita— y viaja en la rama de estado. Si `accounts_from_teams.json` no está,
+   `load_tracked_accounts` la lee y el barrido funciona con lo último que se
+   supo. Antes, sin censo, el bot se quedaba «encendido» (`/health` 200,
+   `/live-games` 200) sin avisar de nada.
+
+Con la copia restaurada, el barrido vuelve en el primer arranque. El censo se
+refresca cuando dpm sea alcanzable; mientras tanto la copia dice su antigüedad.
+
 ### La red de seguridad
 
-`utils/egress.py` lleva la cuenta de la salida del mes y la publica en
-`/health`. El motivo de que exista es que el dueño **se enteró cuando ya estaba
-suspendido**: no había ningún sitio donde ver cuánto llevaba consumido.
+`utils/egress.py` lleva la cuenta del gasto del mes y la publica en `/health`. El
+motivo de que exista es que el dueño **se enteró cuando ya estaba suspendido**:
+no había ningún sitio donde ver cuánto llevaba consumido.
 
-- El presupuesto por defecto es **4 000 MB**, por debajo de los 5 GB del
-  proveedor. El margen es lo que evita la suspensión. Se cambia con
-  `EGRESS_PRESUPUESTO_MB`.
-- Avisa en el log al **50 %** y al **80 %**.
+- Cuenta **las dos cosas**: lo que se manda a Discord y lo que se descarga de la
+  API de Riot. El total es lo que se compara con el presupuesto; lo de Discord
+  por separado es lo que decide si se puede seguir adjuntando el `.bat`.
+- El presupuesto por defecto es **4 800 MB**, por debajo de los 5 GB del
+  proveedor. Ya no es un umbral de alarma sino **el objetivo que la cadencia
+  reparte**: con 4 000 se dejaba 1 GB sin usar, o sea avisos más lentos de lo
+  necesario. Se cambia con `EGRESS_PRESUPUESTO_MB`.
+- Avisa en el log al **50 %** y al **80 %**, y esos porcentajes se calculan sobre
+  el total.
 - Si se agota, **no se deja de avisar**: los avisos salen enteros, solo se deja
-  de adjuntar el `.bat` de espectar, y se dice en `/health` y en el log. Es una
-  degradación, no una caída — que es exactamente lo que no supo hacer el
-  proveedor.
+  de adjuntar el `.bat` de espectar y el barrido se estira a
+  `CHECK_GAMES_INTERVAL_AGOTADO`. Es una degradación, no una caída — que es
+  exactamente lo que no supo hacer el proveedor.
 - El contador sobrevive a los reinicios porque está en la lista de
   `core/estado_remoto.ARCHIVOS` (§7). Sin eso volvería a cero en cada despliegue
   y no avisaría nunca.
 
 ### Qué hacer si vuelve a pasar
 
-1. Mirar `/health` en Discord: dice los MB del mes y el porcentaje.
+1. Mirar `/health` en Discord: dice los MB del mes, el porcentaje **y cuánto es
+   sondeo**, que es la partida que se descontrola.
 2. Mirar el panel de Render → **Metrics → Bandwidth**, que es la cifra oficial
    (la del bot es una estimación y sirve para la tendencia, no para cuadrar).
 3. Si el aviso es por ancho de banda, hay tres salidas: bajar
-   `EGRESS_PRESUPUESTO_MB`, **añadir una tarjeta** y pagar el exceso
-   (~0,15 $/GB, o sea menos de un dólar por pasarse 5 GB), o migrar a otro
-   hosting.
+   `EGRESS_PRESUPUESTO_MB` (o `CHECK_GAMES_INTERVAL_MAX`), **añadir una tarjeta**
+   y pagar el exceso (~0,15 $/GB, o sea menos de un dólar por pasarse 5 GB), o
+   migrar a otro hosting.
+4. Si el aviso es `dpm.lol está BLOQUEANDO esta IP`, no es código: el bot sigue
+   barriendo con la copia del censo, pero deja de enterarse de fichajes hasta que
+   la IP deje de estar bloqueada.
 
-### La prueba que lo vigila
+### Las pruebas que lo vigilan
 
 `scripts/test_salida_red.py` comprueba las dos mitades: que **no se adjunte
 ninguna imagen** en un aviso real (es un fallo que no da ningún error y solo se
 ve en la factura, tres semanas después) y que el contador funcione.
 
+`scripts/test_cadencia.py` comprueba que el reparto del presupuesto hace lo que
+dice: que se estira según se gasta, que respeta los topes, que aprende el coste
+real por cuenta, que con el presupuesto agotado sigue barriendo y que las horas
+hasta fin de mes se calculan en UTC (el día que importa).
+
+`scripts/test_censo.py` comprueba que el bot puede arrancar sin dpm.lol: que la
+copia compacta conserva PUUID y plataforma, que pesa menos de la mitad, que
+`load_tracked_accounts` cae en ella y que el censo grande manda cuando existe.
+
 ```bash
 "$PY" scripts/test_salida_red.py
+"$PY" scripts/test_cadencia.py
+"$PY" scripts/test_censo.py
 ```

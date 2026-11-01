@@ -77,12 +77,30 @@ def prueba_temporada() -> None:
     print("\n=== las fechas ===")
     worlds = LIGAS["worlds"]
     hoy = date.today()
-    dentro = date(2026, 10, 15) <= hoy <= date(2026, 11, 14)
+    dentro = (10, 1) <= (hoy.month, hoy.day) <= (11, 30)
     ok(worlds.en_temporada == dentro,
-       "en temporada solo entre el 15-10 y el 14-11-2026",
-       f"hoy {hoy}")
+       "en temporada del 1-10 al 30-11", f"hoy {hoy}")
 
-    # Una liga con ventana pasada no está en temporada; sin ventana, siempre.
+    # **El fallo que esto vigila**: la ventana estaba escrita como fechas
+    # absolutas de 2026 (`date(2026, 10, 15)`), así que en 2027 Worlds no se
+    # habría encendido nunca y nadie se habría enterado: la liga simplemente no
+    # aparecía. Tiene que ser una ventana que se repita, no una fecha.
+    ok(worlds.temporada is None,
+       "no usa fechas absolutas (caducarían al año siguiente)")
+    ok(worlds.ventana_anual == ((10, 1), (11, 30)),
+       "la ventana es de mes/día y se repite cada año", str(worlds.ventana_anual))
+
+    # Y la propiedad tiene que comportarse así de verdad, no solo por la forma.
+    todo_el_anio = Liga("prueba", "Prueba", "Internacional", "",
+                        ventana_anual=((1, 1), (12, 31)))
+    ok(todo_el_anio.en_temporada,
+       "una ventana anual que cubre el año está siempre encendida, sea cual sea")
+    solo_enero = Liga("prueba3", "Prueba", "Internacional", "",
+                      ventana_anual=((1, 1), (1, 31)))
+    ok(solo_enero.en_temporada == (hoy.month == 1),
+       "y una de enero solo en enero", f"hoy {hoy}")
+
+    # Una ventana pasada no está en temporada; sin ventana, siempre.
     pasado = Liga("prueba", "Prueba", "Internacional", "",
                   temporada=(date(2020, 1, 1), date(2020, 2, 1)))
     ok(not pasado.en_temporada, "una ventana pasada deja la liga apagada")
@@ -295,6 +313,12 @@ def prueba_no_reconsultar() -> None:
             return None, 429
 
     with estado_temporal(avisar=False) as tmp:
+        # **Sin caché de PUUIDs.** El temporal empieza con una copia del estado
+        # real, y esa caché tiene el PUUID de Riot de `Hide on bush#KR1` — que es
+        # justo el caso que esta prueba mira. Con la copia dentro, la reparación
+        # pisaba el PUUID del fichero con el de la caché y la comprobación de
+        # abajo fallaba por un dato de la máquina, no por el código.
+        (tmp / "puuid_cache.json").unlink(missing_ok=True)
         ruta = tmp / "accounts.json"
         ruta.write_text(json.dumps([
             # Ya tiene PUUID: no se debe tocar ni preguntar.
@@ -330,6 +354,92 @@ def prueba_no_reconsultar() -> None:
        "el resumen cuenta las que ya estaban bien")
 
 
+def prueba_rescate_de_eliminados() -> None:
+    """Un equipo eliminado desaparece del leaderboard de dpm; sus jugadores no.
+
+    Es lo que pidió el dueño: «si quedan eliminados […] los días que queden en el
+    continente […] sigue trackeando y ya después se van y solo deja de trackear a
+    esos players». Si el refresco sustituyera la liga entera por lo que devuelve
+    dpm, en cuanto cayera un equipo sus cuentas saldrían del censo y el bot
+    dejaría de avisar de unas partidas que sí existen — sin ningún error, porque
+    «ya no están en la lista».
+    """
+    print("\n=== los eliminados siguen en el censo ===")
+    from models.bootcamp_player import Account, BootcampPlayer
+    from tracking.soloq import accounts_from_teams as aft
+
+    def _p(nombre, liga, equipo, game_name, puuid):
+        p = BootcampPlayer(name=nombre, team=equipo, league=liga)
+        p.add_account(Account(game_name=game_name, tag_line="NA1", puuid=puuid,
+                              platform="NA1"))
+        return p
+
+    en_disco = [
+        # Sigue en el torneo: dpm lo devuelve.
+        _p("Faker", "worlds", "T1", "Hide on bush", "p-faker").to_dict(),
+        # Equipo eliminado: dpm ya no lo lista, pero sigue en NA unos días.
+        _p("Eliminado", "worlds", "GONE", "eliminado", "p-gone").to_dict(),
+        # De otra liga: no la toca este refresco.
+        _p("Caps", "lec", "G2", "G2 Caps", "p-caps").to_dict(),
+    ]
+
+    guardado: dict = {}
+
+    def _guardar(ruta, datos, **kwargs):
+        guardado["datos"] = datos
+        return True
+
+    originales = (
+        aft.cargar_existentes_teams, aft.get_pro_players, aft.guardar_lista_json,
+        aft.puuid_repair.rellenar_puuid_de_cache, aft.censo.escribir,
+    )
+    aft.cargar_existentes_teams = lambda: list(en_disco)
+    aft.get_pro_players = lambda ligas=None: [
+        _p("Faker", "worlds", "T1", "Hide on bush", "p-faker"),
+    ]
+    aft.guardar_lista_json = _guardar
+    aft.puuid_repair.rellenar_puuid_de_cache = lambda datos: 0
+    aft.censo.escribir = lambda datos: True
+    try:
+        aft.refrescar_ligas(["worlds"])
+    finally:
+        (
+            aft.cargar_existentes_teams, aft.get_pro_players,
+            aft.guardar_lista_json, aft.puuid_repair.rellenar_puuid_de_cache,
+            aft.censo.escribir,
+        ) = originales
+
+    datos = guardado.get("datos") or []
+    nombres = {p.get("name") for p in datos}
+    ok("Eliminado" in nombres,
+       "el jugador del equipo eliminado se queda en el censo")
+    ok("Faker" in nombres, "y el que sigue en el torneo también")
+    ok("Caps" in nombres, "la LEC no se toca al refrescar Worlds")
+    ok(len(datos) == 3, "no se duplica a nadie", f"{len(datos)} jugadores")
+
+    # Y en una liga normal el reemplazo sigue siendo reemplazo: ahí un jugador
+    # que ya no está es que se ha ido, no que le queda una semana de hotel.
+    guardado.clear()
+    aft.cargar_existentes_teams = lambda: [
+        _p("Viejo", "lec", "G2", "viejo", "p-viejo").to_dict(),
+    ]
+    aft.get_pro_players = lambda ligas=None: [_p("Nuevo", "lec", "G2", "nuevo", "p-nuevo")]
+    aft.guardar_lista_json = _guardar
+    aft.puuid_repair.rellenar_puuid_de_cache = lambda datos: 0
+    aft.censo.escribir = lambda datos: True
+    try:
+        aft.refrescar_ligas(["lec"])
+    finally:
+        (
+            aft.cargar_existentes_teams, aft.get_pro_players,
+            aft.guardar_lista_json, aft.puuid_repair.rellenar_puuid_de_cache,
+            aft.censo.escribir,
+        ) = originales
+    nombres = {p.get("name") for p in (guardado.get("datos") or [])}
+    ok(nombres == {"Nuevo"},
+       "una liga normal sí reemplaza: el que se fue, se fue", str(nombres))
+
+
 def main() -> int:
     print("=" * 74)
     print("WORLDS: SOLO EN TEMPORADA, SOLO EN NA")
@@ -344,6 +454,7 @@ def main() -> int:
     prueba_carrera_del_reparador()
     prueba_estado_http()
     prueba_no_reconsultar()
+    prueba_rescate_de_eliminados()
 
     print("\n" + "=" * 74)
     if fallos:

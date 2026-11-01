@@ -1104,14 +1104,24 @@ def prueba_comparativa() -> None:
 
 
 def prueba_avisos() -> None:
-    """La página de avisos: el número de latencia sale de config, no de la mano."""
+    """La página de avisos: el retardo máximo sale de config, no de la mano.
+
+    Desde el 01-11-2026 la cadencia del barrido no es un número fijo —la decide
+    `tracking/soloq/cadencia.py` con el presupuesto del mes—, así que la página
+    promete el **techo** (`CHECK_GAMES_INTERVAL_MAX`), que es lo único que se
+    puede prometer sin mentir los días en que el bot va lento.
+    """
     print("\n=== página de avisos ===")
     html = sitio()["alerts.html"]
-    intervalo = datos.ajuste("CHECK_GAMES_INTERVAL", 30)
+    segundos_tope = datos.ajuste("CHECK_GAMES_INTERVAL_MAX", 1800)
+    minutos_tope = max(1, round(segundos_tope / 60))
 
-    ok(intervalo == 30, "el intervalo se lee de config.py", f"{intervalo} s")
-    ok(f"{intervalo} seconds" in html,
-       "y la página dice ese número, no uno plausible")
+    ok(segundos_tope == 1800, "el techo de la cadencia se lee de config.py",
+       f"{segundos_tope} s")
+    ok(f"at most <b>{minutos_tope}" in html,
+       "y la página dice ese techo, no uno plausible")
+    ok("every few minutes" in html,
+       "y no promete una cadencia fija que ya no existe")
     ok("spectator server" in html,
        "se explica el desfase del reloj de la partida en vez de dejarlo raro")
     ok("/health" in html, "y qué hacer cuando la API de Riot falla")

@@ -105,7 +105,26 @@ ESTADO_SINCRONIZAR_INTERVALO = _int("ESTADO_SINCRONIZAR_INTERVALO", 300)
 # Ajustes de funcionamiento
 # ---------------------------------------------------------------------- #
 
-CHECK_GAMES_INTERVAL = _int("CHECK_GAMES_INTERVAL", 30)
+# ---------------------------------------------------------------------- #
+# Cadencia del barrido
+# ---------------------------------------------------------------------- #
+#
+# **Ya no es un número fijo.** El 01-11-2026 quedó claro que una cifra fija
+# siempre está mal en algún momento del mes: rápida (240 s) agota los 5 GB del
+# plan gratuito antes de fin de mes y el proveedor suspende el bot; lenta
+# (1 800 s) no se agota nunca pero el aviso llega con media hora de retraso
+# todos los días, incluidos los que sobraban.
+#
+# Ahora la decide `tracking/soloq/cadencia.py` con el presupuesto que queda y las
+# horas que faltan para el cambio de mes, midiendo lo que cuesta cada pasada. Los
+# dos números de abajo son los topes entre los que puede moverse.
+CHECK_GAMES_INTERVAL_MIN = _int("CHECK_GAMES_INTERVAL_MIN", 120)
+CHECK_GAMES_INTERVAL_MAX = _int("CHECK_GAMES_INTERVAL_MAX", 1800)
+
+#: Solo se usa si `CADENCIA_AUTOMATICA=0`: entonces manda esta cifra y punto.
+#: Sirve para clavar un intervalo al medir algo, no como configuración normal.
+CHECK_GAMES_INTERVAL = _int("CHECK_GAMES_INTERVAL", 240)
+
 TRACKER_CONCURRENCY = _int("TRACKER_CONCURRENCY", 12)
 INFOPLAYERS_PER_HOUR = _int("INFOPLAYERS_PER_HOUR", 60)
 RANKED_CACHE_TTL = _int("RANKED_CACHE_TTL", 120)
@@ -286,7 +305,8 @@ def resumen() -> str:
         f"  DISCORD_TOKEN      : {'ok' if DISCORD_TOKEN else 'FALTA'}",
         f"  LOL_API_KEY        : {'ok' if LOL_API_KEY else 'FALTA'}",
         f"  TWITCH_OAUTH_TOKEN : {'ok' if TWITCH_OAUTH_TOKEN else 'no configurado (chat-winner desactivado)'}",
-        f"  partidas           : cada {CHECK_GAMES_INTERVAL}s · concurrencia {TRACKER_CONCURRENCY}",
+        f"  partidas           : cada {CHECK_GAMES_INTERVAL_MIN}-{CHECK_GAMES_INTERVAL_MAX}s "
+        f"según el presupuesto · concurrencia {TRACKER_CONCURRENCY}",
         f"  modos aceptados    : {', '.join(sorted(TRACKER_MODES))}",
         f"  colas aceptadas    : {', '.join(str(q) for q in sorted(TRACKER_QUEUES))}",
         f"  nivel de log       : {LOG_LEVEL}",

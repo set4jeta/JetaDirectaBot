@@ -62,7 +62,7 @@ from bs4 import BeautifulSoup
 
 from apis.dpm_payload import extraer_jugadores, resumen
 from models.bootcamp_player import BootcampPlayer
-from tracking.soloq import puuid_repair
+from tracking.soloq import censo, puuid_repair
 from utils.logger import get_logger
 from utils.safe_json import cargar_lista_json, guardar_lista_json
 
@@ -330,7 +330,7 @@ def main(ligas: list[str] | None = None) -> bool:
     for player in players:
         # Antes que nada, las plataformas que valen en su liga (ver
         # `_filtrar_plataformas`): si no, el fichero guarda cuentas que luego se
-        # sondean cada 30 segundos para nada.
+        # sondean en cada pasada para nada.
         quitadas = _filtrar_plataformas(player)
         if quitadas:
             descartadas[player.league] = descartadas.get(player.league, 0) + quitadas
@@ -395,7 +395,23 @@ def main(ligas: list[str] | None = None) -> bool:
         # Una liga entera son ~10 de 80 jugadores: si falla una, no queremos
         # rechazar la actualización de las demás.
         min_ratio=0.8,
-    )
+    ) and _guardar_copia_compacta(nuevos)
+
+
+def _guardar_copia_compacta(jugadores: list[dict]) -> bool:
+    """Deja la copia compacta del censo junto al fichero grande.
+
+    Es lo que permite que el bot arranque con jugadores aunque dpm.lol no
+    responda (ver `tracking/soloq/censo.py`). Se llama **después** de que el
+    censo grande se haya escrito de verdad, así que la copia nunca contiene algo
+    que el fichero bueno no tenga.
+
+    Devuelve `True` siempre que el censo grande se haya escrito: que falle la
+    copia es un aviso, no un fallo del refresco.
+    """
+    censo.escribir(jugadores)
+    return True
+
 
 
 def refrescar_ligas(codigos: list[str]) -> bool:
@@ -469,6 +485,24 @@ def refrescar_ligas(codigos: list[str]) -> bool:
     # Clave (nombre, liga) y no solo nombre: un suplente puede estar en la liga
     # principal y en la regional, y entonces el nombre no distingue sus cuentas.
     pedidas_set = set(pedidas)
+    # **Las ligas de evento no se reemplazan, se suman.** dpm.lol va quitando del
+    # leaderboard de Worlds a los equipos eliminados, y esos jugadores siguen unos
+    # días en el país del torneo jugando soloq (y algún partido de bootcamp). Si
+    # el refresco sustituyera la liga entera, en cuanto cayera un equipo sus
+    # cuentas desaparecían del censo y el bot dejaba de avisar de unas partidas
+    # que sí existen — sin ningún error, porque "ya no están en la lista".
+    #
+    # Se guardan aparte en vez de dejarlas entre los `conservados` para que las
+    # **nuevas ganen**: si dpm sigue listando a alguien, manda su ficha fresca.
+    eventos = {
+        c for c in pedidas
+        if c in LIGAS and LIGAS[c].autoactiva
+    }
+    arrastrados = [
+        p for p in existentes
+        if (p.get("league") or "").lower() in eventos
+        and (p.get("league") or "").lower() in pedidas_set
+    ]
     conservados = [
         p for p in existentes
         if (p.get("league") or "").lower() not in pedidas_set
@@ -531,6 +565,23 @@ def refrescar_ligas(codigos: list[str]) -> bool:
         )
         return False
 
+    # Los del evento que dpm ya no lista se añaden detrás: siguen en el censo
+    # hasta que la ventana del torneo se cierre (ver `Liga.autoactiva`).
+    rescatados = 0
+    for previo in arrastrados:
+        clave = (previo.get("name", "").lower(), (previo.get("league") or "").lower())
+        if clave in vistos:
+            continue
+        vistos.add(clave)
+        nuevos.append(previo)
+        rescatados += 1
+    if rescatados:
+        log.info(
+            "Liga de evento: %d jugador(es) que dpm ya no lista se mantienen "
+            "(siguen en el país del torneo).",
+            rescatados,
+        )
+
     combinado = conservados + nuevos
 
     # Los PUUIDs que ya se resolvieron otra vez se sacan del caché en vez de
@@ -554,7 +605,7 @@ def refrescar_ligas(codigos: list[str]) -> bool:
     )
     return guardar_lista_json(
         JSON_PATH, combinado, etiqueta="accounts_from_teams"
-    )
+    ) and _guardar_copia_compacta(combinado)
 
 
 if __name__ == "__main__":

@@ -110,10 +110,13 @@ LIGA_POR_DEFECTO = "lec"
 #     las 4 más caras                      ~853 cuentas -> ~17 s
 #     una sola (la peor, NLC 74 pers.)      ~255 cuentas ->  ~5 s
 #
-# Los segundos son el suelo que impone el cupo de Riot (500 req/10 s = 50/s) y
-# se comparan contra `CHECK_GAMES_INTERVAL` (30 s). Con 4 ligas la peor
-# combinación posible tarda 17 s y cabe; con 6 ya raspa; con las 20 no cabe.
-# Así que 4 sigue siendo el número correcto, ahora por medición.
+# Los segundos son el suelo que impone el cupo de Riot (500 req/10 s = 50/s).
+# Se comparaban contra el `CHECK_GAMES_INTERVAL` fijo de 30 s que había
+# entonces; desde el 01-11-2026 el intervalo lo pone el presupuesto
+# (`tracking/soloq/cadencia.py`, entre 120 y 1800 s), así que ahora sobra
+# margen: con 4 ligas la peor combinación posible tarda 17 s y cabe de largo.
+# El número se queda en 4 porque el límite que importa ya no es el tiempo sino
+# el ancho de banda, y ése lo reparte la cadencia.
 #
 # Ojo con lo que este tope **no** acota: la pasada del tracker es la unión de
 # las ligas de todos los servidores (`ligas_en_uso`), así que 20 servidores con
@@ -153,6 +156,19 @@ class Liga:
     #: Worlds «se active» solo y luego se apague sin que nadie se acuerde de
     #: quitarlo.
     temporada: tuple[date, date] | None = None
+    #: Ventana que **se repite cada año**, como `((mes, día), (mes, día))`.
+    #:
+    #: Existe porque `temporada` con fechas absolutas solo vale un año: Worlds
+    #: estaba escrito como `(2026-10-15, 2026-11-14)` y en 2027 la liga
+    #: simplemente no se habría encendido, sin ningún error y sin que nadie se
+    #: acordara de cambiarlo. Con esto el mundial vuelve solo cada octubre.
+    #:
+    #: La ventana es **más ancha que el torneo a propósito**: los equipos llegan
+    #: antes a hacer bootcamp y los eliminados se quedan unos días jugando soloq
+    #: en el país del evento. Lo que se quiere es seguirlos mientras sigan ahí,
+    #: no mientras el calendario oficial diga que hay partidos. No cruza el
+    #: cambio de año: `(mes, día)` de inicio debe ser anterior al de fin.
+    ventana_anual: tuple[tuple[int, int], tuple[int, int]] | None = None
     #: True si se sigue siempre que esté en temporada, sin que nadie se suscriba.
     #:
     #: Para los eventos globales: nadie va a escribir `/subscribe esports worlds`
@@ -174,13 +190,32 @@ class Liga:
         Se compara en UTC porque el bot vive en un servidor en Fráncfort y la
         gente que lo usa está en cualquier sitio; una liga que se enciende un día
         antes o después según la zona horaria es un fallo imposible de explicar.
+
+        Se mira primero `ventana_anual` y solo después `temporada`: la anual es
+        la que hace que un evento vuelva cada año sin tocar código.
         """
-        if self.temporada is None:
-            return True
-        desde, hasta = self.temporada
         from datetime import datetime, timezone
 
         hoy = datetime.now(timezone.utc).date()
+
+        if self.ventana_anual is not None:
+            (mes1, dia1), (mes2, dia2) = self.ventana_anual
+            try:
+                desde = date(hoy.year, mes1, dia1)
+                hasta = date(hoy.year, mes2, dia2)
+            except ValueError:
+                # Una ventana imposible (31 de febrero) no puede tumbar el
+                # arranque del bot: se trata como «sin ventana» y se sigue.
+                log.error(
+                    "Ventana anual inválida en la liga '%s': %s",
+                    self.codigo, self.ventana_anual,
+                )
+                return True
+            return desde <= hoy <= hasta
+
+        if self.temporada is None:
+            return True
+        desde, hasta = self.temporada
         return desde <= hoy <= hasta
 
     @property
@@ -212,6 +247,48 @@ class Liga:
         return self.rastreable
 
 
+def _ventana_de_env(
+    nombre: str, defecto: tuple[tuple[int, int], tuple[int, int]]
+) -> tuple[tuple[int, int], tuple[int, int]]:
+    """Lee una ventana anual de una variable de entorno: `"10-01:11-30"`.
+
+    Se configura por entorno y no por código para que la fecha del mundial se
+    pueda corregir sin desplegar, y para que la de 2027 no dependa de que alguien
+    se acuerde de editar este fichero. Si el formato no se entiende se usa el
+    valor por defecto y se avisa: una ventana mal escrita dejaría el evento
+    apagado todo el año sin que nadie lo notara.
+    """
+    crudo = (os.getenv(nombre, "") or "").strip()
+    if not crudo:
+        return defecto
+    try:
+        desde, hasta = crudo.split(":", 1)
+        m1, d1 = (int(x) for x in desde.split("-", 1))
+        m2, d2 = (int(x) for x in hasta.split("-", 1))
+        if not (1 <= m1 <= 12 and 1 <= m2 <= 12):
+            raise ValueError("mes fuera de rango")
+        # Se valida construyendo fechas de un año bisiesto: el 29-02 es válido.
+        date(2024, m1, d1), date(2024, m2, d2)
+        if (m1, d1) > (m2, d2):
+            raise ValueError("la ventana cruza el cambio de año")
+        return ((m1, d1), (m2, d2))
+    except (ValueError, TypeError) as exc:
+        log.error(
+            "%s='%s' no se entiende (%s); se usa %s.",
+            nombre, crudo, exc, defecto,
+        )
+        return defecto
+
+
+def _plataformas_de_env(nombre: str, defecto: tuple[str, ...]) -> tuple[str, ...]:
+    """`WORLDS_PLATAFORMAS="kr"` -> `("kr",)`. Vacío o ausente = el defecto."""
+    crudo = (os.getenv(nombre, "") or "").strip()
+    if not crudo:
+        return defecto
+    valores = tuple(v.strip().lower() for v in crudo.split(",") if v.strip())
+    return valores or defecto
+
+
 #: Catálogo. El número de equipos se recalcula en cada refresco, así que aquí
 #: solo va lo que no cambia: cómo se llama y dónde juega.
 LIGAS: dict[str, Liga] = {
@@ -224,29 +301,45 @@ LIGAS: dict[str, Liga] = {
         Liga("cblol", "CBLOL", "Brasil", "br1"),
         Liga("lcp", "LCP", "Asia-Pacífico", "", plataforma_mixta=True),
         Liga("msi", "MSI", "Internacional", "", plataforma_mixta=True),
-        # El mundial. Tres cosas que no son como las demás ligas:
+        # El mundial. Cuatro cosas que no son como las demás ligas:
         #
-        # 1. **Se enciende y se apaga solo.** `temporada` son las fechas
-        #    oficiales (15-10 a 14-11-2026) y `autoactiva` evita depender de que
-        #    alguien se acuerde de suscribirse el día que empieza.
-        # 2. **Solo cuentas de NA.** En Worlds se juega en Estados Unidos y los
-        #    jugadores tienen cuentas en KR, EUW1, NA1 y BR1 a la vez; seguirlas
-        #    todas serían 348 cuentas por 86. El sondeo es lo que agota el ancho
-        #    de banda del hosting (ver `DESPLIEGUE.md` §8).
-        # 3. **La lista sale del leaderboard de dpm.lol**, que ya tiene el
-        #    torneo entero (`/v1/esport/soloq/leagues/worlds/leaderboard`):
-        #    medido el 18-10-2026, 101 jugadores de 19 equipos. Cuando dpm añade
-        #    a alguien (un suplente, el que llega tarde), entra en el siguiente
-        #    refresco sin tocar código: la rotación horaria le da un turno al día.
+        # 1. **Se enciende y se apaga solo, todos los años.** `ventana_anual` es
+        #    del 1 de octubre al 30 de noviembre y se repite cada año; antes eran
+        #    fechas absolutas de 2026 y en 2027 la liga no se habría encendido,
+        #    en silencio. `autoactiva` evita depender de que alguien se acuerde de
+        #    suscribirse el día que empieza.
         #
-        # Ojo con lo que **no** hace: no crea cuentas. Un jugador que aún no
-        # tiene cuenta de NA no se sigue hasta que la tenga y dpm la liste, que
-        # es exactamente lo que se quiere (no se inventan cuentas).
+        #    La ventana es más ancha que el torneo a propósito: los equipos llegan
+        #    antes a hacer bootcamp y los **eliminados se quedan unos días**
+        #    jugando soloq en el país del evento. Se les sigue mientras sigan ahí;
+        #    el que se vuelve a casa deja de jugar en esas cuentas y deja de
+        #    aparecer solo. Ver también el rescate de jugadores en
+        #    `accounts_from_teams.refrescar_ligas`, que evita que dpm los borre
+        #    del censo al caer su equipo.
+        #
+        # 2. **Solo cuentas del servidor del evento.** Un jugador de Worlds tiene
+        #    cuentas en KR, EUW1, NA1 y BR1 a la vez; seguirlas todas serían 348
+        #    cuentas por 86, y el sondeo es lo que agota el ancho de banda del
+        #    hosting (ver `DESPLIEGUE.md` §8). En 2026 se juega en Norteamérica,
+        #    así que `na1`. El año que se juegue en otra región se cambia con
+        #    `WORLDS_PLATAFORMAS` **sin tocar código**.
+        #
+        # 3. **La lista sale del leaderboard de dpm.lol**, que ya tiene el torneo
+        #    entero (`/v1/esport/soloq/leagues/worlds/leaderboard`): medido el
+        #    18-10-2026, 101 jugadores de 19 equipos; el 01-11-2026, 279 entradas
+        #    de 19 equipos. Cuando dpm añade a alguien (un suplente, el que llega
+        #    tarde), entra en el siguiente refresco sin tocar código.
+        #
+        # 4. **No crea cuentas.** Un jugador que aún no tiene cuenta del servidor
+        #    del evento no se sigue hasta que la tenga y dpm la liste, que es
+        #    exactamente lo que se quiere (no se inventan cuentas).
         Liga(
             "worlds", "Worlds", "Internacional", "",
             plataforma_mixta=True,
-            solo_plataformas=("na1",),
-            temporada=(date(2026, 10, 15), date(2026, 11, 14)),
+            solo_plataformas=_plataformas_de_env("WORLDS_PLATAFORMAS", ("na1",)),
+            ventana_anual=_ventana_de_env(
+                "WORLDS_VENTANA", ((10, 1), (11, 30))
+            ),
             autoactiva=True,
             en_web=False,
         ),

@@ -89,6 +89,14 @@ ARCHIVOS: tuple[str, ...] = (
     # significaba arrancar con un registro viejo.
     "notified_games.json",
     "tracked_matches.json",
+    # La copia compacta del censo (274 KB, ver `tracking/soloq/censo.py`). El
+    # censo grande **no** se sube: 1,7 MB y lleno de datos de ficha que el
+    # barrido no usa. Pero sin ninguna copia el bot arranca ciego el día que
+    # dpm.lol no responda, y eso pasó el 01-11-2026: Cloudflare contestaba 403 a
+    # la IP de Render, `accounts_from_teams.json` no llegaba a crearse y el bot
+    # se quedó 2 días «encendido» sin avisar de nada. Con esta copia arranca con
+    # lo último que supo y el barrido funciona desde el primer minuto.
+    "tracking/soloq/censo_compacto.json",
 )
 
 API = "https://api.github.com"

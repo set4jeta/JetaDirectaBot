@@ -210,12 +210,16 @@ async def _cuerpo_health(res: Respuesta) -> None:
     salida = egress.estado()
     texto_salida = _(
         "health.salida",
-        mb=f"{salida['mb']:.0f}",
+        # El **total** (Discord + sondeo) y no solo los mensajes: el sondeo es la
+        # partida grande del gasto, y omitirlo fue lo que dejó el contador en
+        # 1,4 MB con el mes ya agotado en 5 445 MB.
+        mb=f"{salida['total_mb']:.0f}",
         tope=f"{salida['tope_mb']:.0f}",
-        pct=f"{salida['porcentaje']:.0f}",
+        pct=f"{salida['porcentaje_total']:.0f}",
+        sondeo=f"{salida['sondeo_mb']:.0f}",
         mensajes=salida["mensajes"],
     )
-    if salida["porcentaje"] >= 80:
+    if salida["porcentaje_total"] >= 80:
         texto_salida += _("health.salida_aviso")
     embed.add_field(
         name=_("health.campo_salida"),

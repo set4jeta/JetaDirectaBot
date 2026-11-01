@@ -605,6 +605,15 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "⚠️ *This can be up to {segundos}s behind; some games may have "
               "already finished.*",
     },
+    # Misma frase en minutos. El intervalo del barrido lo fija el presupuesto
+    # del mes (`tracking/soloq/cadencia.py`) y lo normal son varios minutos:
+    # «hasta 525s» se lee como un error, «hasta 9 min» se entiende.
+    "live.aviso_retraso_min": {
+        "es": "⚠️ *El estado puede llevar hasta {minutos} min de retraso; alguna "
+              "partida puede haber terminado ya.*",
+        "en": "⚠️ *This can be up to {minutos} min behind; some games may have "
+              "already finished.*",
+    },
 
     # ---- /team ----
     "team.falta_equipo": {
@@ -850,8 +859,15 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "Network egress (month)",
     },
     "health.salida": {
-        "es": "{mb} de {tope} MB ({pct} %) · {mensajes} mensajes",
-        "en": "{mb} of {tope} MB ({pct}%) · {mensajes} messages",
+        # **La cifra es el TOTAL, no solo los mensajes.** Hasta el 01-11-2026
+        # este campo enseñaba los bytes de Discord (1,4 MB) mientras el mes había
+        # cerrado en 5 445 MB: el gasto real era el sondeo de la API, que no se
+        # contaba en ningún sitio. Un contador que no ve la partida grande no
+        # avisa de nada, que es exactamente lo que pasó.
+        "es": "{mb} de {tope} MB ({pct} %) · {sondeo} MB son sondeo de la API · "
+              "{mensajes} mensajes",
+        "en": "{mb} of {tope} MB ({pct}%) · {sondeo} MB is API polling · "
+              "{mensajes} messages",
     },
     "health.salida_aviso": {
         "es": "\n⚠️ Queda poco margen. Si se agota, los avisos salen sin el "

@@ -121,9 +121,20 @@ def prueba_arranca_sin_ellos() -> None:
         ):
             setattr(modulo, atributo, vacio)
 
+        # **Y la copia del censo también fuera.** Desde el 01-11-2026
+        # `load_tracked_accounts` cae en `censo_compacto.json` cuando no hay
+        # fichero de rosters, así que con la copia dentro del temporal esto ya no
+        # devuelve vacío: devuelve el censo. Es el comportamiento correcto —el
+        # bot no puede arrancar ciego— y lo que aquí se comprueba es el otro
+        # extremo: que sin ninguna de las dos cosas devuelve vacío y no revienta.
+        from tracking.soloq import censo
+
+        censo_antes = censo.RUTA
+        censo.RUTA = vacio
+
         try:
             ok(accounts_io.load_tracked_accounts() == [],
-               "sin fichero de rosters, el cargador devuelve vacío (no revienta)")
+               "sin fichero de rosters ni copia del censo, devuelve vacío (no revienta)")
             ok(aft.cargar_existentes_teams() == [],
                "y el de rosters de equipos también")
             ok(rank_store._cargar() == {},
@@ -133,6 +144,7 @@ def prueba_arranca_sin_ellos() -> None:
         finally:
             import importlib
 
+            censo.RUTA = censo_antes
             importlib.reload(accounts_io)
             importlib.reload(aft)
             importlib.reload(rank_store)

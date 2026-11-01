@@ -86,3 +86,8 @@ notified_games.json
 tracked_matches.json
 notified_games.jsonl
 avisos.jsonl
+# El contador de ancho de banda del mes y la copia compacta del censo. Los dos
+# los escribe el bot en marcha y los dos viven en la rama `estado`
+# (`core/estado_remoto.ARCHIVOS`), que es donde sobreviven a los despliegues.
+tracking/soloq/egress.json
+tracking/soloq/censo_compacto.json

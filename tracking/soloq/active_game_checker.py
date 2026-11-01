@@ -32,15 +32,19 @@ Cuando la pasada no cabe en su intervalo
 El tope de ligas por servidor (`MAX_LIGAS_POR_SERVIDOR`) **no acota** el coste
 real: la pasada recorre la unión de las ligas de todos los servidores, así que
 20 servidores con 4 ligas distintas cada uno cuestan las 20 ligas. Medido en
-`scripts/_coste_ligas.py`: las 20 son ~3154 cuentas, unos 63 s al cupo de Riot,
-contra un `CHECK_GAMES_INTERVAL` de 30.
+`scripts/_coste_ligas.py`: las 20 son ~3154 cuentas, unos 63 s al cupo de Riot.
 
-Lo que pasaba entonces era degradación en silencio: la vuelta siguiente
-encontraba `self._running` en True, escribía una línea de log y se saltaba. Sin
-contarlas, la única forma de enterarse de que los avisos llegan tarde era leer
-el log. Ahora la pasada se mide contra su intervalo, las vueltas perdidas se
-cuentan y el resultado se registra en `core.health`, que es donde `/health`
-puede decirlo.
+El intervalo ya no es una constante: lo calcula `tracking/soloq/cadencia.py` a
+partir del ancho de banda que queda del mes (ver `_presupuesto()`), así que
+puede ir de 120 s a 1800 s según cuántas cuentas haya y cuánto se haya gastado.
+Contra eso se mide cada pasada.
+
+Lo que pasaba con una constante era degradación en silencio: la vuelta
+siguiente encontraba `self._running` en True, escribía una línea de log y se
+saltaba. Sin contarlas, la única forma de enterarse de que los avisos llegan
+tarde era leer el log. Ahora la pasada se mide contra su intervalo, las vueltas
+perdidas se cuentan y el resultado se registra en `core.health`, que es donde
+`/health` puede decirlo.
 """
 
 from __future__ import annotations
@@ -50,7 +54,9 @@ import os
 import time
 from dataclasses import dataclass, field
 
-import config
+# Ojo: aquí ya **no** se importa `config`. La cadencia del barrido salía de
+# `config.CHECK_GAMES_INTERVAL` y ahora la decide `tracking/soloq/cadencia.py`;
+# dejar el import habría hecho creer que sigue viniendo de ahí.
 from apis.riot_client import RiotApiError, get_riot_client, normalizar_plataforma
 from core import health as salud
 from core import rank_store
@@ -101,8 +107,8 @@ class SweepStats:
     errores: int = 0
     duracion: float = 0.0
     #: Segundos que tiene la pasada antes de que toque la siguiente vuelta.
-    #: Se copia de `CHECK_GAMES_INTERVAL` al terminar, no se lee al mirarlo, para
-    #: que la cifra guardada sea la que estaba en vigor en esa pasada.
+    #: Se copia de la cadencia al terminar, no se lee al mirarlo, para que la
+    #: cifra guardada sea la que estaba en vigor en esa pasada.
     presupuesto: float = 0.0
     #: True si esta "pasada" no llegó a correr porque la anterior seguía viva.
     solapada: bool = False
@@ -144,9 +150,44 @@ ultima_pasada: SweepStats | None = None
 _vueltas_perdidas = 0
 
 
+def _contabilizar(stats: "SweepStats") -> None:
+    """Vuelca el sondeo de esta pasada al contador del mes y alimenta la cadencia.
+
+    Es lo que cierra el círculo: el contador dice cuánto se ha gastado, la
+    cadencia decide con eso cada cuánto se barre, y el barrido mide lo que gastó
+    para que la siguiente decisión no sea a ciegas. Sin este paso el contador
+    seguiría sin ver el sondeo —el fallo del 01-11-2026, con 1,4 MB contados
+    sobre 5 445 MB reales— y la cadencia no tendría de dónde aprender.
+    """
+    from tracking.soloq import cadencia
+    from utils import egress
+
+    try:
+        gastado = egress.volcar_sondeo()
+    except Exception:
+        log.debug("No se pudo volcar el sondeo de la pasada.", exc_info=True)
+        return
+
+    if gastado > 0:
+        cadencia.anotar_pasada(stats.revisadas, gastado)
+        log.debug(
+            "Sondeo de la pasada: %.2f MB en %d cuentas (%.0f B/cuenta).",
+            gastado / 1048576, stats.revisadas, cadencia.bytes_por_cuenta(),
+        )
+
+
 def _presupuesto() -> float:
-    """Segundos entre vueltas. Se lee en caliente para respetar el `.env`."""
-    return float(getattr(config, "CHECK_GAMES_INTERVAL", 0) or 0)
+    """Segundos entre vueltas. Sale de la cadencia, que se decide sola.
+
+    Antes leía `CHECK_GAMES_INTERVAL` directamente, y esa cifra fija siempre
+    estaba mal en algún momento del mes: rápida agotaba los 5 GB del hosting
+    antes de fin de mes, lenta avisaba con media hora de retraso. Ahora la decide
+    `tracking/soloq/cadencia.py` con el presupuesto que queda, y aquí solo se lee
+    lo que decidió para poder decir «tardó 41 s de 900».
+    """
+    from tracking.soloq import cadencia
+
+    return cadencia.intervalo_actual()
 
 
 def _rutas_de(files) -> list[tuple[str, str]]:
@@ -240,6 +281,19 @@ class ActiveGameTracker:
             sum(len(p.accounts) for p in sueltas),
             ", ".join(sorted(permitidas)) or "ninguna",
         )
+
+    def cuentas_a_barrer(self) -> int:
+        """Cuántas cuentas sondearía la próxima pasada, sin sondear ninguna.
+
+        Lo usa `core/background_tasks` para fijar la cadencia **antes** de la
+        primera vuelta. Sin este número, `cadencia.intervalo()` recibe 0 cuentas,
+        concluye que no hay nada que barrer y devuelve el suelo de 120 s — que el
+        día 1 del mes, con el presupuesto entero por delante y 900 cuentas que
+        mirar, es exactamente la cadencia que agota los 5 GB antes de fin de mes.
+        """
+        if not self._players:
+            self.refresh_players()
+        return sum(len(p.accounts) for p in self._players)
 
     # ------------------------------------------------------------------ #
     # Una pasada
@@ -337,6 +391,11 @@ class ActiveGameTracker:
             self._running = False
             stats.duracion = time.perf_counter() - started
             stats.vueltas_perdidas = _vueltas_perdidas
+            # La contabilidad del gasto va aquí, en el `finally`, para que cuente
+            # también la pasada que se corta a mitad (un 429, una excepción): esos
+            # bytes se han gastado igual y dejarlos fuera haría que la cadencia
+            # creyera que el mes va más holgado de lo que va.
+            _contabilizar(stats)
             ultima_pasada = stats
 
         log.info(

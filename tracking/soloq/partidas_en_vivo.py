@@ -2,9 +2,9 @@
 
 Por qué existe
 --------------
-El bot barre cada 30 s y **ya sabe** quién está en partida, en qué servidor y con
-qué clave de espectador. Un grabador que preguntara lo mismo por su cuenta haría
-dos cosas malas:
+El bot barre cada pocos minutos y **ya sabe** quién está en partida, en qué
+servidor y con qué clave de espectador. Un grabador que preguntara lo mismo por
+su cuenta haría dos cosas malas:
 
 1. **Competiría por la cuota de la API.** Medido el 29-09-2026: un script aparte
    consultando 55 jugadores se pasó veinte minutos recibiendo `429`, porque la
@@ -73,7 +73,8 @@ FICHERO = Path(__file__).resolve().parents[2] / "partidas_vivo.json"
 MINIMO_ENTRE_ESCRITURAS_S = 10.0
 
 #: Si falla la primera escritura se deja de intentar: en Render el disco puede ser
-#: de solo lectura y no tiene sentido llenar el log con el mismo error cada 30 s.
+#: de solo lectura y no tiene sentido llenar el log con el mismo error en cada
+#: pasada del barrido.
 _degradado = False
 _ultima_escritura = 0.0
 

@@ -241,9 +241,20 @@ def construir_mensaje(
             n=esperando, minutos=config.SPECTATOR_DELAY // 60,
         )
 
-    mensaje += "\n" + t(
-        "live.aviso_retraso", idioma, segundos=config.CHECK_GAMES_INTERVAL
-    )
+    # La cadencia ya no es fija: la decide el presupuesto del mes. Se enseña la
+    # que está en vigor ahora mismo, no una constante de `config.py` que ya no
+    # describe lo que hace el bot.
+    from tracking.soloq import cadencia
+
+    segundos = int(cadencia.intervalo_actual())
+    # Con el presupuesto por delante, el intervalo normal son varios minutos:
+    # «hasta 525s de retraso» se lee como un fallo, «hasta 9 min» se entiende.
+    if segundos >= 120:
+        mensaje += "\n" + t(
+            "live.aviso_retraso_min", idioma, minutos=max(1, round(segundos / 60))
+        )
+    else:
+        mensaje += "\n" + t("live.aviso_retraso", idioma, segundos=segundos)
     return mensaje
 
 

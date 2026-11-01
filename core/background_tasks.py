@@ -43,11 +43,12 @@ _bot_instance = None
 _tracker_instance = None
 _players = load_accounts()
 
-# Cadencia de la pasada de partidas. Antes el intervalo real lo imponía un
-# `sleep(0.5)` por jugador (>30 s con 55 jugadores). Ahora una pasada dura
-# menos de 2 s, así que podemos permitirnos sondear más a menudo: una partida
-# se detecta mucho antes sin acercarnos al límite de la API.
-CHECK_INTERVAL = int(os.getenv("CHECK_GAMES_INTERVAL", "30"))
+# Cadencia de la pasada de partidas. **Ya no es una constante**: la decide
+# `tracking/soloq/cadencia.py` con el presupuesto de ancho de banda que queda y
+# las horas que faltan para fin de mes, y se reajusta al final de cada vuelta con
+# `Loop.change_interval`. El número de aquí es solo el de arranque, antes de que
+# haya ninguna medición; `before_loop` lo corrige en el primer instante.
+CHECK_INTERVAL = max(60, int(os.getenv("CHECK_GAMES_INTERVAL_MIN", "120")))
 
 # Cuántas cuentas se reparan por hora en la tarea de mantenimiento.
 ACCOUNTS_PER_HOUR = int(os.getenv("PUUID_REPAIR_BATCH", "200"))
@@ -84,8 +85,9 @@ def start_background_tasks(bot):
         loop.start()
 
     log.info(
-        "Tareas iniciadas | partidas cada %ss | reparación %s cuentas/h | "
-        "infoplayers %s jugadores/h | historial %s | rangos %s",
+        "Tareas iniciadas | partidas cada %ss (se ajusta sola al presupuesto) | "
+        "reparación %s cuentas/h | infoplayers %s jugadores/h | historial %s | "
+        "rangos %s",
         CHECK_INTERVAL, ACCOUNTS_PER_HOUR, INFOPLAYERS_PER_HOUR,
         "precalentado" if config.HISTORIAL_WARM else "en frío",
         f"cada {config.RANK_WARM_INTERVAL}s" if config.RANK_WARM else "solo a demanda",
@@ -113,14 +115,71 @@ async def check_games_loop():
     if _tracker_instance is None:
         return
 
+    stats = None
     try:
-        await _tracker_instance.run()
+        stats = await _tracker_instance.run()
     except Exception:
         # Una excepción aquí MATARÍA la tarea para siempre si no se captura.
         log.exception("Fallo en la pasada de partidas; se reintentará en la próxima vuelta.")
         salud.registrar("riot", False, "fallo en la pasada de partidas")
     else:
         salud.registrar("riot", True)
+    finally:
+        # La cadencia se decide **después** de la pasada, con lo que acaba de
+        # costar: al principio del mes saldrá rápida y según se gaste el
+        # presupuesto se irá estirando sola.
+        _ajustar_cadencia(stats)
+
+
+def _cuentas_a_barrer() -> int:
+    """Cuántas cuentas va a mirar la próxima pasada, sin mirarlas todavía."""
+    tracker = _tracker_instance
+    if tracker is None or not hasattr(tracker, "cuentas_a_barrer"):
+        return 0
+    try:
+        return int(tracker.cuentas_a_barrer())
+    except Exception:
+        # Contar cuentas no puede impedir que arranque el barrido: si falla, la
+        # cadencia empieza por el suelo y la primera pasada la corrige.
+        log.debug("No se pudieron contar las cuentas para la cadencia inicial",
+                  exc_info=True)
+        return 0
+
+
+def _ajustar_cadencia(stats=None) -> float:
+    """Recalcula el intervalo del barrido y lo aplica al loop.
+
+    Se llama al final de cada vuelta y una vez antes de empezar. Devuelve los
+    segundos que han quedado en vigor, que es lo que se enseña en `/health` y en
+    el log de arranque.
+    """
+    from tracking.soloq import cadencia
+
+    if stats is None:
+        # Primera vez (o `/health` pidiendo opinión): no hay pasada de la que
+        # sacar el número, así que se le pregunta al tracker cuántas cuentas
+        # barrería. Pasar 0 aquí no vale: la cadencia lo leería como «no hay
+        # nada que sondear» y devolvería el suelo.
+        cuentas = _cuentas_a_barrer()
+        duracion = 0.0
+    else:
+        cuentas = int(getattr(stats, "revisadas", 0) or 0)
+        duracion = float(getattr(stats, "duracion", 0.0) or 0.0)
+    segundos, motivo = cadencia.intervalo(cuentas, duracion)
+
+    anterior = getattr(check_games_loop, "seconds", None)
+    # Solo se toca si cambia de verdad: `change_interval` reprograma la siguiente
+    # vuelta, y hacerlo en cada pasada por diferencias de milisegundos sería
+    # mover el reloj sin motivo.
+    if anterior is None or abs(float(anterior) - segundos) >= 1:
+        try:
+            check_games_loop.change_interval(seconds=segundos)
+        except Exception:
+            log.exception("No se pudo aplicar la cadencia de %.0fs.", segundos)
+            return cadencia.intervalo_actual()
+        log.info("Cadencia del barrido: %.0fs (%s).", segundos, motivo)
+
+    return segundos
 
 
 @check_games_loop.before_loop
@@ -129,6 +188,10 @@ async def before_check_games():
 
     # Calentamos el cliente para que la primera pasada no pague la conexión.
     await get_riot_client()
+    # Y se fija la primera cadencia antes de la primera vuelta: si se esperara a
+    # que terminara la pasada, el loop arrancaría con los 120 s de arriba aunque
+    # el presupuesto pidiera otra cosa.
+    _ajustar_cadencia(None)
 
 
 # ---------------------------------------------------------------------- #

@@ -15,15 +15,28 @@ vea en `/health` **antes** de que el proveedor corte el servicio.
 
 Cómo cuenta
 -----------
-Es una **estimación**, y conviene saber de qué: el tamaño del JSON del embed más
-el de los ficheros adjuntos más una envoltura por mensaje. No mide el handshake
-de Discord ni las tramas del WebSocket, que son constantes y pequeñas. Sirve
-para ver la tendencia y para cortar a tiempo, no para cuadrar la factura al
-byte.
+Son **dos partidas** y se guardan por separado porque sirven para cosas
+distintas:
 
-Lo que **no** cuenta: el tráfico de **entrada** (las descargas de la API de
-Riot, los logos de dpm.lol). Render factura solo la salida, así que contarlo
-asustaría sin motivo y haría tomar malas decisiones.
+* `bytes` — lo que se manda a Discord: el JSON del embed, los adjuntos y una
+  envoltura por mensaje. Es una estimación (no mide el handshake ni las tramas
+  del WebSocket, que son constantes y pequeñas) y es la que decide si se puede
+  seguir adjuntando el `.bat`.
+* `sondeo` — los bytes de las respuestas de la API de Riot, medidos de verdad
+  sobre cada petición. Es la partida grande: en octubre los avisos fueron
+  1,4 MB y el mes cerró en 5 445 MB.
+
+Durante un tiempo este módulo decía que el sondeo no había que contarlo «porque
+Render factura solo la salida». La medición lo desmintió: el consumo por hora
+cuadra con el número de peticiones a Riot —22 MB/h con ~919 cuentas cada 240 s
+son 15 pasadas × 1,47 MB— y no con los mensajes, que llevaban congelados en
+1,4 MB desde el 20-10. Cómo lo llame el proveedor da igual; lo que se gasta es
+lo que se mide. Desde el 01-11-2026 `total_bytes()` es la cifra que manda.
+
+Lo que **no** cuenta: las descargas de dpm.lol (rosters, logos). Van por
+`cloudscraper`/`curl_cffi`, son de frecuencia baja y están acotadas por la tarea
+diaria; contarlas exigiría instrumentar un tercero y ensuciaría la medida que
+sí importa.
 
 Cuando se pasa del presupuesto
 ------------------------------
@@ -37,6 +50,7 @@ from __future__ import annotations
 
 import json
 import os
+import threading
 from datetime import datetime, timezone
 from typing import Any
 
@@ -62,7 +76,15 @@ RUTA = os.environ.get("EGRESS_RUTA") or os.path.join(
 #: el margen es lo que evita que un pico de última hora provoque la suspensión
 #: que ya pasó. Se puede subir con `EGRESS_PRESUPUESTO_MB` si algún día se paga
 #: por más ancho de banda.
-PRESUPUESTO_MB_DEFECTO = 4000
+#:
+#: 4 800 y no 4 000 (cambiado el 01-11-2026): la cadencia del barrido ahora se
+#: calcula **para gastar exactamente esto a lo largo del mes** (ver
+#: `tracking/soloq/cadencia.py`), así que el presupuesto dejó de ser un umbral de
+#: alarma y pasó a ser el objetivo que se reparte. Con 4 000 se dejaban 1 GB sin
+#: usar —o sea, avisos más lentos de lo necesario— por un margen que no hacía
+#: falta: los 200 MB que quedan son el 4 %, y la cadencia se autocorrige cada
+#: pasada, así que un desvío se compensa solo en las siguientes vueltas.
+PRESUPUESTO_MB_DEFECTO = 4800
 
 #: Lo que Discord añade a cada mensaje por fuera del embed (envoltura JSON,
 #: nonce, referencias). Es una constante medida a ojo sobre envíos reales; para
@@ -75,6 +97,16 @@ AVISO_80 = 0.8
 
 #: Estado en memoria. `None` = todavía no se ha leído del disco.
 _estado: dict[str, Any] | None = None
+
+#: Bytes de **sondeo** (API de Riot, dpm.lol) que aún no se han volcado al
+#: contador. Se acumulan en memoria a propósito: el barrido hace cientos de
+#: peticiones por pasada y escribir el JSON en cada una costaría más que la
+#: propia petición. Se vuelcan al cerrar la pasada (`volcar_sondeo`).
+_pendiente_sondeo = 0
+
+#: `registrar_sondeo` se llama desde el loop de asyncio y desde los hilos de
+#: scraping, así que el acumulador necesita candado.
+_lock = threading.Lock()
 
 
 def _mes_actual() -> str:
@@ -97,17 +129,33 @@ def _cargar() -> dict[str, Any]:
     ilegible no puede impedir que el bot arranque ni que mande avisos.
     """
     global _estado
-    if _estado is not None:
-        return _estado
-
     mes = _mes_actual()
-    datos: dict[str, Any] = {"mes": mes, "bytes": 0, "mensajes": 0, "adjuntos": 0}
+
+    if _estado is not None:
+        if _estado.get("mes") == mes:
+            return _estado
+        # El proceso sobrevive al cambio de mes —el bot corre semanas seguidas—
+        # y `_estado` está en memoria, así que sin esta comprobación el
+        # acumulado del mes viejo se quedaría como «el de este mes» hasta el
+        # próximo reinicio. Desde el 01-11-2026 eso ya no es solo un contador
+        # feo en `/health`: la cadencia lee `total_bytes()` para repartir el
+        # presupuesto, así que vería el mes agotado desde el día 1 y se pasaría
+        # el mes entero a 3 600 s. Justo lo que se quería evitar.
+        log.info(
+            "Cambio de mes (%s -> %s): el contador de salida vuelve a cero",
+            _estado.get("mes"), mes,
+        )
+        _estado = None
+
+    datos: dict[str, Any] = {
+        "mes": mes, "bytes": 0, "mensajes": 0, "adjuntos": 0, "sondeo": 0,
+    }
     try:
         with open(RUTA, encoding="utf-8") as fh:
             guardado = json.load(fh)
         if isinstance(guardado, dict) and guardado.get("mes") == mes:
             datos.update({k: int(guardado.get(k, 0) or 0)
-                          for k in ("bytes", "mensajes", "adjuntos")})
+                          for k in ("bytes", "mensajes", "adjuntos", "sondeo")})
     except FileNotFoundError:
         pass
     except (OSError, ValueError) as exc:
@@ -187,6 +235,66 @@ def registrar(embed: Any = None, files: Any = None, destinatarios: int = 1) -> i
     return bytes_envio
 
 
+# ---------------------------------------------------------------------- #
+# El sondeo: lo que de verdad gasta el ancho de banda
+# ---------------------------------------------------------------------- #
+#
+# Hasta el 01-11-2026 este módulo solo contaba lo que se mandaba a Discord, y por
+# eso no servía de alarma: el contador llevaba congelado en 417 mensajes (1,4 MB)
+# desde el 20-10 mientras el mes cerraba en 5 445 MB. La diferencia eran las
+# peticiones a la API de Riot del barrido, que son el gasto real y no estaban
+# contadas en ningún sitio.
+#
+# Se cuentan **aquí y no en el cliente de Riot** para que haya un solo número y
+# una sola fuente de verdad: `total_bytes()` es lo que se compara con el
+# presupuesto, y es de donde sale la cadencia (`tracking/soloq/cadencia.py`).
+
+def registrar_sondeo(bytes_recibidos: int) -> None:
+    """Suma bytes de una respuesta de la API al acumulador del mes.
+
+    **No toca el disco**: esto se llama cientos de veces por pasada. El volcado
+    lo hace `volcar_sondeo()` al terminar el barrido.
+    """
+    global _pendiente_sondeo
+    if bytes_recibidos <= 0:
+        return
+    with _lock:
+        _pendiente_sondeo += int(bytes_recibidos)
+
+
+def volcar_sondeo() -> int:
+    """Pasa al contador persistente lo acumulado. Devuelve los bytes volcados."""
+    global _pendiente_sondeo
+    with _lock:
+        pendiente = _pendiente_sondeo
+        _pendiente_sondeo = 0
+    if pendiente <= 0:
+        return 0
+
+    datos = _cargar()
+    datos["sondeo"] = int(datos.get("sondeo", 0) or 0) + pendiente
+    _guardar(datos)
+    _avisar_si_toca(datos)
+    return pendiente
+
+
+def sondeo_bytes() -> int:
+    """Bytes de sondeo del mes, incluidos los que aún están sin volcar."""
+    with _lock:
+        pendiente = _pendiente_sondeo
+    return int(_cargar().get("sondeo", 0) or 0) + pendiente
+
+
+def total_bytes() -> int:
+    """Todo lo que se ha gastado este mes: Discord **y** sondeo.
+
+    Es la cifra que importa para el límite del proveedor, y la que usa la
+    cadencia. `bytes` sigue siendo solo Discord porque es lo que decide si se
+    puede seguir adjuntando el `.bat`.
+    """
+    return int(_cargar().get("bytes", 0) or 0) + sondeo_bytes()
+
+
 def _avisar_si_toca(datos: dict[str, Any]) -> None:
     """Deja en el log el porcentaje, al cruzar los umbrales.
 
@@ -194,27 +302,38 @@ def _avisar_si_toca(datos: dict[str, Any]) -> None:
     leerse, y entonces no sirve de nada el día que importa.
     """
     total = presupuesto_bytes()
-    proporcion = datos["bytes"] / total
+    # Se mide sobre el **total** (Discord + sondeo) y no sobre los mensajes: el
+    # sondeo es la partida grande, así que un aviso que lo ignore no avisa de
+    # nada. Es justo el fallo que dejó el contador en 1,4 MB con el mes agotado.
+    gastado = int(datos.get("bytes", 0) or 0) + sondeo_bytes()
+    proporcion = gastado / total
     marca = f"aviso_{int(proporcion * 100 // 20) * 20}"
     if proporcion < AVISO_50 or datos.get("_ultima_marca") == marca:
         return
     datos["_ultima_marca"] = marca
     _guardar(datos)
 
-    mb = datos["bytes"] / 1024 / 1024
+    mb = gastado / 1024 / 1024
     tope = total / 1024 / 1024
+    sondeo_mb = sondeo_bytes() / 1024 / 1024
     if proporcion >= 1:
         log.error(
-            "SALIDA DE RED AGOTADA: %.0f de %.0f MB este mes. Se dejan de "
-            "adjuntar ficheros en los avisos (los avisos siguen saliendo). "
-            "Revisa el panel de Render.", mb, tope,
+            "SALIDA DE RED AGOTADA: %.0f de %.0f MB este mes (%.0f MB son sondeo "
+            "de la API). Se dejan de adjuntar ficheros en los avisos (los avisos "
+            "siguen saliendo) y la cadencia del barrido se estira sola. Revisa el "
+            "panel de Render.",
+            mb, tope, sondeo_mb,
         )
     elif proporcion >= AVISO_80:
-        log.warning("Salida de red al %.0f %% (%.0f de %.0f MB este mes).",
-                    proporcion * 100, mb, tope)
+        log.warning(
+            "Salida de red al %.0f %% (%.0f de %.0f MB este mes; %.0f MB de "
+            "sondeo).", proporcion * 100, mb, tope, sondeo_mb,
+        )
     else:
-        log.info("Salida de red al %.0f %% (%.0f de %.0f MB este mes).",
-                 proporcion * 100, mb, tope)
+        log.info(
+            "Salida de red al %.0f %% (%.0f de %.0f MB este mes; %.0f MB de "
+            "sondeo).", proporcion * 100, mb, tope, sondeo_mb,
+        )
 
 
 def puede_adjuntar(extra_bytes: int = 0) -> bool:
@@ -228,14 +347,27 @@ def puede_adjuntar(extra_bytes: int = 0) -> bool:
 
 
 def estado() -> dict[str, Any]:
-    """Los números del mes, para `/health` y para el log de arranque."""
+    """Los números del mes, para `/health`, para la cadencia y para el arranque.
+
+    `mb` sigue siendo **solo Discord** porque es lo que decide si se puede
+    adjuntar el `.bat`, y hay pruebas y llamantes que dependen de eso. Lo que hay
+    que mirar para el límite del proveedor es `total_mb`.
+    """
     datos = _cargar()
     total = presupuesto_bytes()
+    sondeo = sondeo_bytes()
+    discord = int(datos.get("bytes", 0) or 0)
+    gastado = discord + sondeo
     return {
         "mes": datos["mes"],
-        "mb": datos["bytes"] / 1024 / 1024,
+        "mb": discord / 1024 / 1024,
+        "sondeo_mb": sondeo / 1024 / 1024,
+        "total_mb": gastado / 1024 / 1024,
         "tope_mb": total / 1024 / 1024,
-        "porcentaje": (datos["bytes"] / total) * 100,
+        # El porcentaje que importa es el del total; `porcentaje` se mantiene
+        # apuntando a Discord por la misma razón que `mb`.
+        "porcentaje": (discord / total) * 100,
+        "porcentaje_total": (gastado / total) * 100,
         "mensajes": datos["mensajes"],
         "adjuntos": datos["adjuntos"],
     }
@@ -243,5 +375,9 @@ def estado() -> dict[str, Any]:
 
 def reiniciar() -> None:
     """Pone el contador a cero. Para las pruebas."""
-    global _estado
-    _estado = {"mes": _mes_actual(), "bytes": 0, "mensajes": 0, "adjuntos": 0}
+    global _estado, _pendiente_sondeo
+    _estado = {
+        "mes": _mes_actual(), "bytes": 0, "mensajes": 0, "adjuntos": 0, "sondeo": 0,
+    }
+    with _lock:
+        _pendiente_sondeo = 0

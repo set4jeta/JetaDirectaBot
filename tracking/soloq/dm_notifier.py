@@ -54,7 +54,8 @@ log = get_logger("tracking.dm_notifier")
 
 #: Pausa entre DM de una misma tanda. 0,25 s son 4 envíos por segundo, muy por
 #: debajo de cualquier límite conocido, y con 50 suscriptores la tanda entera
-#: tarda 12 s: cabe de sobra en el intervalo de 30 s de la pasada.
+#: tarda 12 s: cabe de sobra en el intervalo de la pasada, que nunca baja de
+#: 120 s (lo pone `tracking/soloq/cadencia.py`).
 PAUSA = 0.25
 
 #: Tope de DM por tanda. Es un freno de mano, no un cupo: si un día una liga

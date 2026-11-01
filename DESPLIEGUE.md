@@ -330,9 +330,15 @@ hace un runner de GitHub —que sale por otra IP— y deja el resultado en la ra
 
 | Pieza | Qué hace |
 |---|---|
-| `.github/workflows/refrescar-rosters.yml` | cron diario (04:17 UTC), `workflow_dispatch` y `push` sobre el scraper |
+| `.github/workflows/refrescar-rosters.yml` | cron cada 3 h, `workflow_dispatch` y `push` sobre el scraper; 3 intentos por vuelta |
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` |
+
+La IP del runner **no** está limpia: medido el 01-11-2026, de seis ejecuciones
+seguidas una pasó y cinco se comieron un 403 desde la primera petición. Es una
+lotería entre ejecuciones, así que el workflow echa muchos números (8 vueltas ×
+3 intentos al día) y las vueltas que no hacen falta se saltan solas con
+`--si-mas-de-minutos`.
 
 Se publica **solo** el censo compacto (`guardar(solo=estado_remoto.CENSO)`): los
 demás ficheros de la rama son contadores vivos del bot y la copia del runner, con

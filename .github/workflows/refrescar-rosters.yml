@@ -40,9 +40,16 @@ name: Refrescar rosters
 
 on:
   schedule:
-    # Una vez al día, a una hora que no es la de nadie: los fichajes se mueven
-    # despacio y el bot necesita el censo, no la última hora.
-    - cron: '17 4 * * *'
+    # Cada 3 horas, a un minuto que no es el de nadie.
+    #
+    # No es por prisa: es que la IP del runner es una lotería y hay que echar
+    # muchos números. Medido el 01-11-2026: de seis ejecuciones seguidas, una
+    # pasó (con ~16 % de peticiones rechazadas y reintentadas) y cinco se
+    # comieron un 403 desde la primera petición. Con tres intentos por vuelta y
+    # ocho vueltas al día son ~24 IPs distintas diarias, y basta con que una
+    # sirva. El freno de `--si-mas-de-minutos 300` evita que las vueltas
+    # siguientes repitan el scraping cuando una ya publicó.
+    - cron: '17 */3 * * *'
   # Al tocar el scraper o el script, se prueba solo. Es la única forma de saber
   # si un cambio en el scraping sigue funcionando **desde la IP del runner**, que
   # es justo la que no se puede reproducir en local.
@@ -120,16 +127,19 @@ jobs:
           # puede seguir la ejecución en vivo.
           PYTHONUNBUFFERED: '1'
         run: |
-          echo "Intento ${{ matrix.intento }} de 3"
-          if [ "${{ matrix.intento }}" = "1" ]; then
-            # El primero va siempre: es el que hace el trabajo. Los otros dos
-            # existen por si a este le tocó una IP bloqueada, y por eso llevan
-            # el freno: si el primero ya publicó, no repiten el scraping.
-            # 5 minutos y no horas: el intento anterior publica segundos antes,
-            # pero el censo del run de ayer tiene 24 h y no debe frenar nada.
-            ARGS="--forzar"
-          else
+          echo "Intento ${{ matrix.intento }} de 3 (${{ github.event_name }})"
+          if [ "${{ matrix.intento }}" != "1" ]; then
+            # Los reintentos llevan el freno corto: si el intento anterior de
+            # este mismo run publicó hace un momento, no se repite el scraping.
             ARGS="--si-mas-de-minutos 5"
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            # Vuelta del cron: solo trabaja si el censo tiene más de 5 h. Con
+            # ocho vueltas al día y tres intentos cada una, el día en que una
+            # IP sirva el censo queda al día y las siguientes no hacen nada.
+            ARGS="--si-mas-de-minutos 300"
+          else
+            # `push` o lanzado a mano: si alguien lo pide, se hace.
+            ARGS="--forzar"
           fi
           if [ -n "${{ inputs.ligas }}" ]; then
             ARGS="$ARGS --ligas ${{ inputs.ligas }}"

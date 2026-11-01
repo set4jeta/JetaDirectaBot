@@ -817,19 +817,24 @@ El reparto es este, y las tres piezas tienen que existir o el resto no sirve:
 
 | Pieza | Qué hace |
 |---|---|
-| `.github/workflows/refrescar-rosters.yml` | cron diario 04:17 UTC + `workflow_dispatch` + `push` sobre el scraper (se prueba solo), con **3 intentos** |
+| `.github/workflows/refrescar-rosters.yml` | cron **cada 3 h** + `workflow_dispatch` + `push` sobre el scraper (se prueba solo), con **3 intentos** por vuelta |
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` (6 h) |
 
 **La IP del runner es una lotería, y hay que contar con ello.** Medido el
-01-11-2026 con dos ejecuciones seguidas del mismo código: la primera pasó con
-~16 % de peticiones rechazadas y reintentadas (las 49 fichas de la LEC entraron
-igual), y la segunda recibió 403 en **todo** desde la primera petición,
-leaderboard incluido. No es el muro del 100 % que hay desde Render, pero tampoco
-es fiable. Dentro de una ejecución la IP no cambia, así que la única forma de
-reintentar es **otra ejecución**: de ahí la matriz de tres intentos en serie
-(`max-parallel: 1`). El primero fuerza el scraping; los otros dos llevan
-`--si-mas-de-horas 6` y salen con 0 si el censo de la rama ya es reciente.
+01-11-2026 con seis ejecuciones seguidas del mismo código: **una** pasó (con
+~16 % de peticiones rechazadas y reintentadas — las 49 fichas de la LEC entraron
+igual) y **cinco** recibieron 403 en todo desde la primera petición, leaderboard
+incluido. No es el muro del 100 % de Render, pero tampoco es fiable: es una de
+cada seis.
+
+De ahí las dos decisiones de diseño. Dentro de una ejecución la IP **no cambia**,
+así que reintentar dentro no sirve: el reintento es otra ejecución, y por eso la
+matriz de tres intentos en serie (`max-parallel: 1`). Y como el número de
+aciertos es bajo, el cron va **cada 3 horas** en vez de una vez al día: ~24 IPs
+distintas al día, y basta con que una sirva. Los reintentos y las vueltas
+siguientes llevan `--si-mas-de-minutos` y salen con 0 en cuanto ven el censo
+publicado, así que insistir no cuesta scraping.
 
 Y de ahí el discriminador de `transporte_dpm.bloqueado_recientemente()`: cuenta
 como bloqueo solo si **la última respuesta fue mala**. Un 403 suelto con

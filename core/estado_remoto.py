@@ -99,6 +99,19 @@ ARCHIVOS: tuple[str, ...] = (
     "tracking/soloq/censo_compacto.json",
 )
 
+#: El censo compacto, **y solo él**, es lo que publica el workflow de GitHub
+#: (`.github/workflows/refrescar-rosters.yml`, `scripts/refrescar_rosters.py`).
+#: Se publica aparte porque es el único fichero de la rama que se reconstruye
+#: **fuera** del bot: los rosters salen de dpm.lol, que contesta 403 a la IP de
+#: Render (ver `apis/transporte_dpm.py`), así que los refresca un runner de
+#: GitHub y el bot solo se los baja.
+#:
+#: Por qué no se sube todo desde el runner: `egress.json` y `notified_games.json`
+#: son contadores **vivos** del bot. Si el workflow los publicara, su copia
+#: —una foto de hace horas— pisaría la del bot y el contador de ancho de banda
+#: daría un salto atrás. Ver `guardar(solo=...)`.
+CENSO = "tracking/soloq/censo_compacto.json"
+
 API = "https://api.github.com"
 
 #: `sha1` del último contenido subido, por fichero. Evita subir lo que no cambió:
@@ -181,7 +194,28 @@ def _escribir(ruta: Path, texto: str) -> None:
     os.replace(tmp, ruta)
 
 
-async def restaurar() -> int:
+def _seleccion(solo: str | tuple[str, ...] | list[str] | None) -> tuple[str, ...]:
+    """Los ficheros a tocar, en el orden de `ARCHIVOS`.
+
+    `solo` existe porque hay dos escritores de esta rama con intereses distintos:
+    el bot (todo) y el workflow de rosters (solo el censo, ver `CENSO`). Sin
+    esto, el workflow tendría que subir también `egress.json` y
+    `notified_games.json`, y su copia —una foto de horas antes— borraría del
+    remoto lo que el bot acaba de contar.
+
+    Un nombre que no esté en `ARCHIVOS` se avisa y se ignora: tragárselo en
+    silencio sería justo el fallo mudo que este proyecto intenta no repetir.
+    """
+    if not solo:
+        return ARCHIVOS
+    pedidos = (solo,) if isinstance(solo, str) else tuple(solo)
+    for relativo in pedidos:
+        if relativo not in ARCHIVOS:
+            log.warning("Estado remoto: '%s' no está en ARCHIVOS; se ignora.", relativo)
+    return tuple(r for r in ARCHIVOS if r in pedidos)
+
+
+async def restaurar(solo: str | tuple[str, ...] | list[str] | None = None) -> int:
     """Baja el estado de la rama y lo deja en disco. Devuelve cuántos ficheros.
 
     Se llama **al arrancar, antes de que empiecen las tareas**: si el estado se
@@ -192,6 +226,12 @@ async def restaurar() -> int:
     El remoto **manda**: es la copia más reciente de lo que pidió la gente,
     mientras que la del repo es la que se desplegó, que puede ser de hace días.
     Si un fichero no está en la rama, se deja el local tal cual.
+
+    `solo` limita la bajada a esos ficheros. Lo usa el bot para volver a
+    bajarse **el censo** cada pocas horas (`sincronizar_censo_remoto` en
+    `core/background_tasks.py`): el workflow lo refresca a diario desde GitHub,
+    y sin esta segunda bajada el bot se quedaría con el censo del arranque hasta
+    el siguiente reinicio, que en el plan gratuito puede ser dentro de semanas.
     """
     if not activo():
         log.debug("Estado remoto desactivado (sin GITHUB_TOKEN).")
@@ -199,7 +239,7 @@ async def restaurar() -> int:
 
     restaurados = 0
     async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=30)) as sesion:
-        for relativo in ARCHIVOS:
+        for relativo in _seleccion(solo):
             ruta = f"/repos/{config.GITHUB_REPO}/contents/{relativo}"
             estado, datos = await _api(
                 sesion, "GET", ruta, params={"ref": config.GITHUB_RAMA_ESTADO}
@@ -240,8 +280,15 @@ async def restaurar() -> int:
     return restaurados
 
 
-async def guardar(forzar: bool = False) -> int:
-    """Sube los ficheros de estado que hayan cambiado. Devuelve cuántos subió."""
+async def guardar(
+    forzar: bool = False,
+    solo: str | tuple[str, ...] | list[str] | None = None,
+) -> int:
+    """Sube los ficheros de estado que hayan cambiado. Devuelve cuántos subió.
+
+    `solo` limita la subida a esos ficheros; ver `_seleccion`. El workflow de
+    rosters pasa `solo=CENSO` para no pisar los contadores vivos del bot.
+    """
     if not activo():
         return 0
 
@@ -250,7 +297,7 @@ async def guardar(forzar: bool = False) -> int:
         if not await _asegurar_rama(sesion):
             return 0
 
-        for relativo in ARCHIVOS:
+        for relativo in _seleccion(solo):
             origen = BASE_DIR / relativo
             if not origen.exists():
                 continue

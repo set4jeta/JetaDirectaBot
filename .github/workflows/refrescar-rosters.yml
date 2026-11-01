@@ -1,0 +1,122 @@
+# Refresca los rosters de dpm.lol y publica el censo en la rama `estado`.
+#
+# Por qué existe este fichero
+# ---------------------------
+# Los rosters salen de dpm.lol, y desde el 01-11-2026 Cloudflare contesta **403
+# a la IP de Render**. No es un fallo del cliente ni del scraper: se probó con
+# cloudscraper y con curl_cffi (huella TLS de Chrome) y los dos dan 403 desde el
+# datacenter, mientras que desde una IP doméstica los dos pasan. Es reputación de
+# IP, y la IP de salida de Render no se puede cambiar.
+#
+# El síntoma era mudo: `accounts_from_teams.json` no llegaba a crearse, el bot
+# seguía «encendido» (`/health` en 200) y no avisaba de nada.
+#
+# Este workflow hace el scraping **desde un runner de GitHub**, que sale por otra
+# IP, y deja el resultado en la rama `estado`. El bot se lo baja cada pocas horas
+# (`sincronizar_censo_remoto` en `core/background_tasks.py`).
+#
+# Qué publica
+# -----------
+# Solo `tracking/soloq/censo_compacto.json` (ver `estado_remoto.CENSO`). El censo
+# grande son 1,7 MB y la API de contenidos de GitHub no está cómoda ahí; la copia
+# compacta son ~290 KB y lleva PUUID y plataforma de cada cuenta, que es lo que
+# el barrido necesita. El resto de la rama **no** se toca: `egress.json` y
+# `notified_games.json` son contadores vivos del bot y una copia de hace horas
+# los haría retroceder.
+#
+# Secretos necesarios
+# -------------------
+#   · El `GITHUB_TOKEN` es el de serie; basta con `contents: write`, que se pide
+#     abajo. No hay que configurar nada.
+#   · `RIOT_API_KEY` es **opcional** y se añade en Settings → Secrets and
+#     variables → Actions. Con ella, las cuentas nuevas salen publicadas con su
+#     PUUID en la misma pasada. Sin ella, el script lo avisa y publica las
+#     cuentas sin PUUID: el bot las repara él solo cada 6 h
+#     (`actualizar_puuids_periodico` → `_reparar_desde_el_censo`), porque la API
+#     de Riot **no** está bloqueada desde Render — lo que está bloqueado es
+#     dpm.lol. O sea que sin el secreto funciona, solo que con unas horas de
+#     retraso en los fichajes.
+name: Refrescar rosters
+
+on:
+  schedule:
+    # Una vez al día, a una hora que no es la de nadie: los fichajes se mueven
+    # despacio y el bot necesita el censo, no la última hora.
+    - cron: '17 4 * * *'
+  # Al tocar el scraper o el script, se prueba solo. Es la única forma de saber
+  # si un cambio en el scraping sigue funcionando **desde la IP del runner**, que
+  # es justo la que no se puede reproducir en local.
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refrescar_rosters.py'
+      - 'tracking/soloq/accounts_from_teams.py'
+      - 'tracking/soloq/censo.py'
+      - '.github/workflows/refrescar-rosters.yml'
+  # Para probarlo a mano desde la pestaña Actions sin esperar al cron.
+  workflow_dispatch:
+    inputs:
+      ligas:
+        description: 'Ligas a refrescar, separadas por comas (vacío = todas)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+# Si alguien lanza dos a la vez, el segundo espera: los dos escribirían el mismo
+# fichero de la misma rama y el `sha` del remoto se pisaría.
+concurrency:
+  group: rosters
+  cancel-in-progress: false
+
+jobs:
+  rosters:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      # Se instala solo lo que usa este script, no `requirements.txt` entero:
+      # el bot arrastra nextcord, twitchio, scipy y Pillow, que aquí no se
+      # importan y suman minutos de descarga por nada.
+      - name: Instalar dependencias del scraping
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install aiohttp beautifulsoup4 lxml cloudscraper curl_cffi python-dotenv
+
+      - name: Refrescar rosters y publicar el censo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # `github.repository` y no el valor por defecto de `config.py`: así
+          # funciona igual si algún día el repo se llama de otra forma.
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_RAMA_ESTADO: estado
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+          # Sin esto los `print`/logs del script llegan al final de todo y no se
+          # puede seguir la ejecución en vivo.
+          PYTHONUNBUFFERED: '1'
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.ligas }}" ]; then
+            ARGS="--ligas ${{ inputs.ligas }}"
+          fi
+          python scripts/refrescar_rosters.py $ARGS
+
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "### Rosters"
+            if [ -f tracking/soloq/censo_compacto.json ]; then
+              echo "- Censo compacto: $(du -h tracking/soloq/censo_compacto.json | cut -f1)"
+            else
+              echo "- **No se escribió el censo compacto.**"
+            fi
+            echo "- Resultado del paso anterior: ${{ job.status }}"
+          } >> "$GITHUB_STEP_SUMMARY"

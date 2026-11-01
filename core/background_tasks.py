@@ -82,6 +82,8 @@ def start_background_tasks(bot):
         # Sin token de GitHub la tarea no tendría nada que hacer.
         if loop is sincronizar_estado and not estado_remoto.activo():
             continue
+        if loop is sincronizar_censo_remoto and not estado_remoto.activo():
+            continue
         loop.start()
 
     log.info(
@@ -415,7 +417,64 @@ async def refrescar_rosters_por_tanda():
 
 
 # ---------------------------------------------------------------------- #
-# 3c · La escalera de pros, una vez por semana
+# 3c · El censo lo publica GitHub y el bot se lo baja
+# ---------------------------------------------------------------------- #
+#
+# Por qué existe
+# --------------
+# Desde el 01-11-2026 los rosters **no se pueden bajar desde Render**: Cloudflare
+# contesta 403 a su IP (ver `apis/transporte_dpm.py`). El refresco lo hace un
+# runner de GitHub (`.github/workflows/refrescar-rosters.yml`), que sale por otra
+# IP, y deja el censo compacto en la rama de estado.
+#
+# Sin esta tarea el workflow no serviría de casi nada: el bot se baja el estado
+# **al arrancar** y en el plan gratuito un proceso puede tirarse semanas sin
+# reiniciarse, así que se quedaría con el censo del día que arrancó. Aquí se
+# vuelve a bajar solo ese fichero, cada pocas horas.
+#
+# Se baja **solo el censo** (`estado_remoto.CENSO`), no toda la rama: los demás
+# ficheros son contadores vivos del bot y bajarlos le haría retroceder al último
+# volcado del workflow, que puede ser de horas antes.
+
+CENSO_SINCRONIZAR_HORAS = float(os.getenv("CENSO_SINCRONIZAR_HORAS", "6"))
+
+
+@tasks.loop(hours=CENSO_SINCRONIZAR_HORAS)
+async def sincronizar_censo_remoto():
+    """Baja el censo de la rama de estado y recarga los jugadores en memoria."""
+    from core import estado_remoto
+
+    try:
+        bajados = await estado_remoto.restaurar(solo=estado_remoto.CENSO)
+    except Exception:
+        # Que no se pueda leer GitHub no puede tocar nada: el censo que hay en
+        # disco sigue sirviendo para barrer.
+        log.exception("No se pudo bajar el censo de la rama de estado.")
+        return
+
+    if not bajados:
+        # Lo normal: el workflow aún no ha publicado nada nuevo. No se recarga
+        # nada, que recargar los jugadores no es gratis (relee el fichero y
+        # rehace el catálogo de equipos).
+        log.debug("Censo sin cambios en la rama de estado.")
+        return
+
+    tracker = _tracker_instance
+    if tracker is None:
+        return
+    try:
+        tracker.refresh_players()
+        cuentas = tracker.cuentas_a_barrer()
+    except Exception:
+        log.exception("El censo se bajó, pero no se pudieron recargar los jugadores.")
+        return
+    log.info(
+        "Censo actualizado desde GitHub: %d cuenta(s) en el barrido.", cuentas
+    )
+
+
+# ---------------------------------------------------------------------- #
+# 3d · La escalera de pros, una vez por semana
 # ---------------------------------------------------------------------- #
 #
 # `accounts.json` es la lista de pros de las escaleras de SoloQ (EUW1, KR, NA1,
@@ -669,6 +728,7 @@ TAREAS_PERIODICAS: tuple = (
     actualizar_infoplayers_por_lotes,
     sembrar_rosters_faltantes,
     refrescar_rosters_por_tanda,
+    sincronizar_censo_remoto,
     precalentar_historial,
     refrescar_rangos,
     sincronizar_estado,

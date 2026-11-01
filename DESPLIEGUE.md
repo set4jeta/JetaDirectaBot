@@ -320,8 +320,29 @@ Lo que sí se arregló:
    supo. Antes, sin censo, el bot se quedaba «encendido» (`/health` 200,
    `/live-games` 200) sin avisar de nada.
 
-Con la copia restaurada, el barrido vuelve en el primer arranque. El censo se
-refresca cuando dpm sea alcanzable; mientras tanto la copia dice su antigüedad.
+Con la copia restaurada, el barrido vuelve en el primer arranque.
+
+**El censo se refresca desde GitHub.** La copia arregla el arranque pero no el
+envejecimiento: si nadie puede scrapear dpm.lol desde Render, el censo se queda
+congelado. La IP de salida de Render no se puede cambiar, así que el scraping lo
+hace un runner de GitHub —que sale por otra IP— y deja el resultado en la rama
+`estado`:
+
+| Pieza | Qué hace |
+|---|---|
+| `.github/workflows/refrescar-rosters.yml` | cron diario (04:17 UTC), `workflow_dispatch` y `push` sobre el scraper |
+| `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
+| `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` |
+
+Se publica **solo** el censo compacto (`guardar(solo=estado_remoto.CENSO)`): los
+demás ficheros de la rama son contadores vivos del bot y la copia del runner, con
+horas de retraso, los haría retroceder. `RIOT_API_KEY` en el workflow es opcional
+—sin ella el bot repara los PUUID él solo cada 6 h, porque Riot **no** está
+bloqueado—; el `GITHUB_TOKEN` de serie basta.
+
+Para comprobarlo: pestaña Actions → «Refrescar rosters» → Run workflow, o
+`git log` de la rama `estado` (un commit «Estado del bot:
+tracking/soloq/censo_compacto.json» por publicación).
 
 ### La red de seguridad
 

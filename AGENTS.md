@@ -802,6 +802,52 @@ o sea que no había nada que las arreglara nunca. Ahora:
   antes, el disco efímero siempre parecía «primera vez» y el arranque se comía
   ocho 403 de dpm para acabar usando el censo que ya tenía.
 
+### Los rosters los refresca GitHub, no Render
+
+La copia del censo arregla el arranque, pero **no el envejecimiento**: si nadie
+puede scrapear dpm.lol desde Render, el censo se queda congelado. El 01-11-2026
+se probaron tres salidas y se eligió la tercera:
+
+1. Cambiar la IP de salida de Render → no se puede, es del proveedor.
+2. Otra fuente de rosters (Leaguepedia, `esports-api.lolesports.com`) → la
+   primera contesta `ratelimited`, la segunda `Forbidden`. Sin verificar.
+3. **Un runner de GitHub**, que sale por otra IP. Es lo que hay montado.
+
+El reparto es este, y las tres piezas tienen que existir o el resto no sirve:
+
+| Pieza | Qué hace |
+|---|---|
+| `.github/workflows/refrescar-rosters.yml` | cron diario 04:17 UTC + `workflow_dispatch` + `push` sobre el scraper (se prueba solo) |
+| `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
+| `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` (6 h) |
+
+Detalles que importan:
+
+- **Se publica solo el censo** (`estado_remoto.CENSO`), con
+  `guardar(solo=...)`. Si el runner subiera la rama entera, su copia de
+  `egress.json` y `notified_games.json` —una foto de horas antes— pisaría los
+  contadores vivos del bot y el de ancho de banda daría un salto atrás. Por eso
+  `restaurar`/`guardar` aceptan `solo`.
+- El script **siembra el censo de la rama como `accounts_from_teams.json`**
+  antes de refrescar. Sin eso cada ejecución sería un alta desde cero (el repo
+  viene limpio, el fichero está en `.gitignore`) y se perderían los PUUID: ~2 000
+  peticiones a Riot cada día.
+- Liga por liga y no todo en una llamada: cada liga que termina se escribe, así
+  que un timeout deja hecho lo anterior.
+- `RIOT_API_KEY` en el workflow es **opcional**. Sin ella se publican cuentas sin
+  PUUID y el bot las repara solo cada 6 h — la API de Riot **no** está bloqueada;
+  lo que está bloqueado es dpm.lol.
+- `refrescar_ligas` corta en seco si `transporte_dpm.bloqueado_recientemente()`:
+  desde Render ya no se insiste. Antes eran 403 idénticos cada hora en la
+  rotación y 20 más en el refresco diario, para nada.
+- `sincronizar_censo_remoto` está en `TAREAS_PERIODICAS` (si no, no se pararía al
+  cerrar; lo vigila `test_shutdown`) y solo corre con `estado_remoto.activo()`.
+
+Lo vigila `scripts/test_rosters_github.py`, que **no toca la red**: simula la API
+de GitHub y comprueba que se sube y se baja un solo fichero, que el censo se
+siembra con PUUID y plataforma, que no se insiste con el bloqueo activo y que el
+workflow pide `contents: write`.
+
 ### Worlds: la ventana es anual y los eliminados no se borran
 
 - `Liga.ventana_anual` es `((mes, día), (mes, día))` y se repite cada año. Antes

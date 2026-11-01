@@ -1,0 +1,386 @@
+"""El censo se publica desde GitHub y el bot se lo baja. Esto lo vigila.
+
+Por qué existe
+--------------
+Desde el 01-11-2026 los rosters no se pueden bajar desde Render: Cloudflare
+contesta 403 a su IP (ver `apis/transporte_dpm.py`). El refresco pasó a un runner
+de GitHub (`.github/workflows/refrescar-rosters.yml` →
+`scripts/refrescar_rosters.py`) que publica **solo** el censo compacto en la rama
+de estado, y el bot se lo vuelve a bajar cada pocas horas
+(`sincronizar_censo_remoto`).
+
+Ese reparto tiene tres formas de romperse en silencio, y las tres se comprueban
+aquí sin tocar la red:
+
+1. **Publicar de más.** Si el workflow subiera toda la rama, su copia de
+   `egress.json` y `notified_games.json` —una foto de horas antes— pisaría los
+   contadores vivos del bot. Por eso existe `guardar(solo=...)`.
+2. **Publicar de menos.** Si el bot no volviera a bajarse el censo, se quedaría
+   con el del arranque: en el plan gratuito un proceso puede tirarse semanas sin
+   reiniciarse.
+3. **Insistir en el scraping bloqueado.** La rotación horaria de rosters seguiría
+   encadenando 403 cada hora para nada.
+
+Uso:
+    python scripts/test_rosters_github.py
+"""
+
+from __future__ import annotations
+
+import asyncio
+import os
+import shutil
+import sys
+import tempfile
+import time
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(RAIZ))
+sys.path.insert(0, str(RAIZ / "scripts"))
+
+from core import estado_remoto  # noqa: E402
+from tracking.soloq import censo  # noqa: E402
+
+fallos: list[str] = []
+
+
+def ok(condicion: bool, etiqueta: str, extra: str = "") -> None:
+    print(f"  {'OK   ' if condicion else 'FALLA'} {etiqueta}"
+          f"{f' ({extra})' if extra else ''}")
+    if not condicion:
+        fallos.append(etiqueta)
+
+
+class _SesionFalsa:
+    """Lo mínimo de `aiohttp.ClientSession` que usan `guardar`/`restaurar`."""
+
+    def __init__(self, *args, **kwargs):
+        pass
+
+    async def __aenter__(self):
+        return self
+
+    async def __aexit__(self, *exc):
+        return False
+
+
+class _ApiFalsa:
+    """Sustituye a `estado_remoto._api` y apunta lo que se le pide."""
+
+    def __init__(self, contenido: str = "", estado_get: int = 404):
+        self.llamadas: list[tuple[str, str]] = []
+        self.contenido = contenido
+        self.estado_get = estado_get
+
+    async def __call__(self, sesion, metodo, ruta, **kwargs):
+        self.llamadas.append((metodo, ruta))
+        if metodo == "PUT":
+            return 201, {"content": {"sha": "nuevo"}}
+        if self.estado_get != 200:
+            return self.estado_get, None
+        import base64
+
+        return 200, {
+            "content": base64.b64encode(self.contenido.encode("utf-8")).decode("ascii"),
+            "sha": "remoto",
+        }
+
+    def rutas(self, metodo: str) -> list[str]:
+        return [r.split("/contents/", 1)[-1] for m, r in self.llamadas if m == metodo]
+
+
+class _Entorno:
+    """Deja `estado_remoto` apuntando a un directorio temporal y con token."""
+
+    def __init__(self, tmp: Path):
+        self.tmp = tmp
+
+    def __enter__(self):
+        self._base = estado_remoto.BASE_DIR
+        self._api = estado_remoto._api
+        self._asegurar = estado_remoto._asegurar_rama
+        self._sesion = estado_remoto.aiohttp.ClientSession
+        self._token = estado_remoto.config.GITHUB_TOKEN
+        self._repo = estado_remoto.config.GITHUB_REPO
+
+        estado_remoto.BASE_DIR = self.tmp
+        estado_remoto.aiohttp.ClientSession = _SesionFalsa
+        estado_remoto.config.GITHUB_TOKEN = "token-de-prueba"
+        estado_remoto.config.GITHUB_REPO = "alguien/repo"
+
+        async def _asegurar(sesion):
+            return True
+
+        estado_remoto._asegurar_rama = _asegurar
+        return self
+
+    def __exit__(self, *exc):
+        estado_remoto.BASE_DIR = self._base
+        estado_remoto._api = self._api
+        estado_remoto._asegurar_rama = self._asegurar
+        estado_remoto.aiohttp.ClientSession = self._sesion
+        estado_remoto.config.GITHUB_TOKEN = self._token
+        estado_remoto.config.GITHUB_REPO = self._repo
+        return False
+
+
+def _escribir(ruta: Path, texto: str) -> None:
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    ruta.write_text(texto, encoding="utf-8")
+
+
+# ---------------------------------------------------------------------- #
+# 1 · La selección de ficheros
+# ---------------------------------------------------------------------- #
+
+def prueba_seleccion() -> None:
+    print("\n=== `solo` elige ficheros de ARCHIVOS, y avisa de lo que no está ===")
+    ok(estado_remoto._seleccion(None) == estado_remoto.ARCHIVOS,
+       "sin `solo` se toca todo el estado")
+
+    solo_censo = estado_remoto._seleccion(estado_remoto.CENSO)
+    ok(solo_censo == (estado_remoto.CENSO,),
+       "con `solo=CENSO` se toca solo el censo", ", ".join(solo_censo))
+
+    ok(estado_remoto.CENSO in estado_remoto.ARCHIVOS,
+       "el censo está en ARCHIVOS (si no, no viajaría nunca)")
+
+    # Un nombre inventado se descarta, pero **no** se traga en silencio.
+    ok(estado_remoto._seleccion(("no/existe.json",)) == (),
+       "un fichero que no está en ARCHIVOS se ignora")
+
+    # Y el orden manda: aunque se pidan al revés, salen en el orden de ARCHIVOS.
+    desordenado = estado_remoto._seleccion(
+        (estado_remoto.CENSO, "tracking/soloq/egress.json")
+    )
+    esperado = tuple(r for r in estado_remoto.ARCHIVOS
+                     if r in (estado_remoto.CENSO, "tracking/soloq/egress.json"))
+    ok(desordenado == esperado, "se respeta el orden de ARCHIVOS", ", ".join(desordenado))
+
+
+# ---------------------------------------------------------------------- #
+# 2 · Guardar y restaurar con `solo`
+# ---------------------------------------------------------------------- #
+
+def prueba_guardar_solo_el_censo() -> None:
+    print("\n=== guardar(solo=CENSO) no sube los contadores vivos ===")
+    tmp = Path(tempfile.mkdtemp(prefix="estado_solo_"))
+    try:
+        for relativo in estado_remoto.ARCHIVOS:
+            _escribir(tmp / relativo, '{"prueba": 1}')
+        api = _ApiFalsa()
+        with _Entorno(tmp):
+            estado_remoto._api = api
+            estado_remoto._ultimo_subido.clear()
+            subidos = asyncio.run(
+                estado_remoto.guardar(forzar=True, solo=estado_remoto.CENSO)
+            )
+
+        ok(subidos == 1, "sube exactamente un fichero", str(subidos))
+        ok(api.rutas("PUT") == [estado_remoto.CENSO],
+           "el único PUT es el del censo", ", ".join(api.rutas("PUT")))
+        ok("tracking/soloq/egress.json" not in api.rutas("PUT"),
+           "no se sube egress.json (contador vivo del bot)")
+        ok("notified_games.json" not in api.rutas("PUT"),
+           "no se sube notified_games.json (registro vivo del bot)")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def prueba_restaurar_solo_el_censo() -> None:
+    print("\n=== restaurar(solo=CENSO) baja un solo fichero ===")
+    tmp = Path(tempfile.mkdtemp(prefix="estado_rest_"))
+    try:
+        api = _ApiFalsa(contenido='{"escrito_en": "2026-11-01", "jugadores": []}',
+                        estado_get=200)
+        with _Entorno(tmp):
+            estado_remoto._api = api
+            estado_remoto._ultimo_subido.clear()
+            bajados = asyncio.run(
+                estado_remoto.restaurar(solo=estado_remoto.CENSO)
+            )
+
+        ok(bajados == 1, "restaura exactamente un fichero", str(bajados))
+        ok(api.rutas("GET") == [estado_remoto.CENSO],
+           "solo se pide el censo", ", ".join(api.rutas("GET")))
+        ok((tmp / estado_remoto.CENSO).exists(), "el censo queda en disco")
+        ok(not (tmp / "tracking/soloq/egress.json").exists(),
+           "no se toca egress.json")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def prueba_sin_token_no_hace_nada() -> None:
+    print("\n=== sin token no se llama a GitHub ===")
+    tmp = Path(tempfile.mkdtemp(prefix="estado_token_"))
+    try:
+        api = _ApiFalsa()
+        with _Entorno(tmp):
+            estado_remoto._api = api
+            estado_remoto.config.GITHUB_TOKEN = None
+            subidos = asyncio.run(estado_remoto.guardar(solo=estado_remoto.CENSO))
+            bajados = asyncio.run(estado_remoto.restaurar(solo=estado_remoto.CENSO))
+        ok(subidos == 0 and bajados == 0, "devuelve 0 y no toca la red")
+        ok(not api.llamadas, "no hubo ni una llamada")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+# ---------------------------------------------------------------------- #
+# 3 · El script del workflow
+# ---------------------------------------------------------------------- #
+
+_JUGADOR = {
+    "name": "Faker",
+    "team": "T1",
+    "team_name": "T1",
+    "league": "lck",
+    "role": "Mid",
+    "accounts": [{
+        "riot_id": {"game_name": "Hide on bush", "tag_line": "KR1"},
+        "puuid": "puuid-de-prueba",
+        "platform": "KR",
+        "stale": False,
+    }],
+}
+
+
+def prueba_censo_previo() -> None:
+    print("\n=== el censo de la rama se siembra como fichero previo ===")
+    import json
+
+    from tracking.soloq import accounts_from_teams
+
+    import refrescar_rosters
+
+    tmp = Path(tempfile.mkdtemp(prefix="censo_previo_"))
+    try:
+        ruta_censo = tmp / "censo_compacto.json"
+        ruta_json = tmp / "accounts_from_teams.json"
+        censo_antes, json_antes = censo.RUTA, accounts_from_teams.JSON_PATH
+        censo.RUTA = str(ruta_censo)
+        accounts_from_teams.JSON_PATH = str(ruta_json)
+        try:
+            # Sin copia: no se siembra nada y se dice (es un alta completa).
+            ok(refrescar_rosters._preparar_censo_previo() == 0,
+               "sin censo en la rama no se siembra nada")
+
+            censo.escribir([_JUGADOR])
+            sembrados = refrescar_rosters._preparar_censo_previo()
+            ok(sembrados == 1, "siembra el jugador del censo", str(sembrados))
+            ok(ruta_json.exists(), "se escribe el fichero grande")
+
+            datos = json.loads(ruta_json.read_text(encoding="utf-8"))
+            cuentas = (datos[0].get("accounts") or [{}]) if datos else [{}]
+            ok(bool(cuentas and cuentas[0].get("puuid")),
+               "el PUUID sobrevive a la siembra (si no, se pide a Riot cada día)")
+            ok(cuentas[0].get("platform") == "KR",
+               "la plataforma también (sin ella no se puede sondear)")
+        finally:
+            censo.RUTA = censo_antes
+            accounts_from_teams.JSON_PATH = json_antes
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def prueba_codigos() -> None:
+    print("\n=== --ligas valida contra el catálogo ===")
+    from tracking.soloq.leagues import LIGAS
+
+    import refrescar_rosters
+
+    todas = refrescar_rosters._codigos([])
+    ok(todas == list(LIGAS), "sin `--ligas` se refrescan todas", str(len(todas)))
+
+    ok(refrescar_rosters._codigos(["lec", "lck"]) == ["lec", "lck"],
+       "se respetan las pedidas")
+    ok(refrescar_rosters._codigos(["lec", "lec"]) == ["lec"],
+       "no se repite una liga")
+    ok(refrescar_rosters._codigos(["no-existe"]) == [],
+       "una liga inventada no se cuela")
+
+
+def prueba_no_insiste_si_esta_bloqueado() -> None:
+    print("\n=== con dpm.lol bloqueando, refrescar_ligas no hace peticiones ===")
+    from apis import transporte_dpm
+    from tracking.soloq import accounts_from_teams
+
+    anterior = transporte_dpm._ultimo_bloqueo
+    peticiones: list[str] = []
+
+    def _pedir_falso(url, *args, **kwargs):
+        peticiones.append(url)
+        return None
+
+    pedir_antes = accounts_from_teams.safe_request
+    try:
+        transporte_dpm._ultimo_bloqueo = time.time()
+        accounts_from_teams.safe_request = _pedir_falso
+        ok(transporte_dpm.bloqueado_recientemente(), "el bloqueo reciente se detecta")
+
+        resultado = accounts_from_teams.refrescar_ligas(["lec"])
+        ok(resultado is False, "devuelve False sin tocar el fichero")
+        ok(not peticiones, "no se hizo ni una petición a dpm.lol", str(len(peticiones)))
+    finally:
+        transporte_dpm._ultimo_bloqueo = anterior
+        accounts_from_teams.safe_request = pedir_antes
+
+
+# ---------------------------------------------------------------------- #
+# 4 · Que el bot esté realmente suscrito a la rama
+# ---------------------------------------------------------------------- #
+
+def prueba_tarea_del_bot() -> None:
+    print("\n=== el bot vuelve a bajarse el censo cada pocas horas ===")
+    from core import background_tasks
+
+    tarea = getattr(background_tasks, "sincronizar_censo_remoto", None)
+    ok(tarea is not None, "existe `sincronizar_censo_remoto`")
+    if tarea is None:
+        return
+    ok(tarea in background_tasks.TAREAS_PERIODICAS,
+       "está en TAREAS_PERIODICAS (si no, no se para al cerrar)")
+    ok(background_tasks.CENSO_SINCRONIZAR_HORAS > 0,
+       "el intervalo es positivo",
+       f"{background_tasks.CENSO_SINCRONIZAR_HORAS} h")
+    # Y baja solo el censo: bajar la rama entera revertiría los contadores.
+    codigo = Path(background_tasks.__file__).read_text(encoding="utf-8")
+    ok("restaurar(solo=estado_remoto.CENSO)" in codigo,
+       "la tarea usa `solo=CENSO`")
+
+
+def prueba_workflow() -> None:
+    print("\n=== el workflow existe y pide permiso de escritura ===")
+    ruta = RAIZ / ".github" / "workflows" / "refrescar-rosters.yml"
+    ok(ruta.exists(), "existe .github/workflows/refrescar-rosters.yml")
+    if not ruta.exists():
+        return
+    texto = ruta.read_text(encoding="utf-8")
+    ok("cron:" in texto, "tiene programación")
+    ok("workflow_dispatch" in texto, "se puede lanzar a mano")
+    ok("contents: write" in texto, "pide contents: write (sin eso no publica)")
+    ok("scripts/refrescar_rosters.py" in texto, "llama al script de refresco")
+    ok("RIOT_API_KEY" in texto, "pasa la clave de Riot")
+
+
+def main() -> int:
+    prueba_seleccion()
+    prueba_guardar_solo_el_censo()
+    prueba_restaurar_solo_el_censo()
+    prueba_sin_token_no_hace_nada()
+    prueba_censo_previo()
+    prueba_codigos()
+    prueba_no_insiste_si_esta_bloqueado()
+    prueba_tarea_del_bot()
+    prueba_workflow()
+
+    print(f"\nfallos: {len(fallos)}")
+    if fallos:
+        for f in fallos:
+            print(f"  - {f}")
+    return 1 if fallos else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

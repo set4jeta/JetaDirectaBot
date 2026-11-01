@@ -439,6 +439,22 @@ def refrescar_ligas(codigos: list[str]) -> bool:
         log.exception("No se pudo importar el catálogo de ligas.")
         return False
 
+    # Si Cloudflare acaba de cerrarnos la puerta, no se insiste. Desde el
+    # 01-11-2026 la IP de Render recibe 403 siempre (ver `apis/transporte_dpm`),
+    # así que este camino solo servía para encadenar fallos idénticos cada hora:
+    # la rotación de rosters (`refrescar_rosters_por_tanda`) y el refresco diario
+    # caían aquí una y otra vez. El refresco real lo hace un runner de GitHub
+    # (`scripts/refrescar_rosters.py`) y el bot se baja el censo.
+    from apis import transporte_dpm
+
+    if transporte_dpm.bloqueado_recientemente():
+        log.info(
+            "Rosters de %s: se omite el scraping, dpm.lol está bloqueando esta IP. "
+            "El censo lo publica el workflow de GitHub.",
+            ", ".join(codigos),
+        )
+        return False
+
     pedidas: list[str] = []
     for c in codigos:
         liga = resolver(c)

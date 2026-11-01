@@ -86,6 +86,19 @@ async def siguiente_lote() -> dict:
     """
     global _offset, _estado
 
+    from apis import transporte_dpm
+
+    # Si dpm.lol está contestando 403 a esta IP, las 1 840 peticiones de la
+    # vuelta vuelven todas con el mismo error: ni un dato ni un aviso, solo
+    # ancho de banda y una línea de «1840 fallos» en el log cada hora. Se salta
+    # hasta que el bloqueo caduque. Pasó el 01-11-2026.
+    if transporte_dpm.bloqueado_recientemente():
+        log.info(
+            "Historial: se salta el precalentamiento, dpm.lol está bloqueando "
+            "esta IP (los datos ya descargados se siguen sirviendo)."
+        )
+        return {"total": 0, "ok": 0, "fallos": 0, "segundos": 0.0, "saltado": True}
+
     from tracking.soloq.accounts_io import load_tracked_accounts
 
     jugadores = load_tracked_accounts()

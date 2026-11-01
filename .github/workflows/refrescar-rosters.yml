@@ -59,8 +59,10 @@ on:
     # pasó (con ~16 % de peticiones rechazadas y reintentadas) y cinco se
     # comieron un 403 desde la primera petición. Con tres intentos por vuelta y
     # ocho vueltas al día son ~24 IPs distintas diarias, y basta con que una
-    # sirva. El freno de `--si-mas-de-minutos 300` evita que las vueltas
-    # siguientes repitan el scraping cuando una ya publicó.
+    # ocho vueltas al día son ~24 IPs distintas, y basta con que una sirva. El
+    # freno de `--si-mas-de-minutos 120` evita que las vueltas siguientes repitan
+    # el scraping cuando una ya publicó, y por eso tiene que ser **menor** que el
+    # intervalo del cron.
     - cron: '17 */3 * * *'
   # Al tocar el scraper o el script, se prueba solo. Es la única forma de saber
   # si un cambio en el scraping sigue funcionando **desde la IP del runner**, que
@@ -152,10 +154,14 @@ jobs:
             # este mismo run publicó hace un momento, no se repite el scraping.
             ARGS="--si-mas-de-minutos 5"
           elif [ "${{ github.event_name }}" = "schedule" ]; then
-            # Vuelta del cron: solo trabaja si el censo tiene más de 5 h. Con
-            # ocho vueltas al día y tres intentos cada una, el día en que una
-            # IP sirva el censo queda al día y las siguientes no hacen nada.
-            ARGS="--si-mas-de-minutos 300"
+            # Vuelta del cron: solo trabaja si el censo tiene más de 2 h.
+            #
+            # El umbral tiene que ser **menor que el intervalo del cron** o el
+            # cron no hace nada nunca: con 300 minutos y una vuelta cada 3 h, el
+            # censo siempre tiene ~3 h, así que las 8 vueltas del día se
+            # saltaban todas y el workflow solo funcionaba cuando lo lanzaba un
+            # `push`. Estuvo así desde el 01-11-2026 hasta que se vio en el log.
+            ARGS="--si-mas-de-minutos 120"
           else
             # `push` o lanzado a mano: si alguien lo pide, se hace.
             ARGS="--forzar"

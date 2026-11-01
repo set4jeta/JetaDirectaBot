@@ -538,6 +538,29 @@ def prueba_workflow() -> None:
     ok("scripts/refrescar_rosters.py" in texto, "llama al script de refresco")
     ok("RIOT_API_KEY" in texto, "pasa la clave de Riot")
 
+    # El freno de las vueltas del cron tiene que ser menor que el hueco entre
+    # vueltas, o el cron no hace nada nunca. Estuvo mal desde el 01-11-2026:
+    # cron cada 3 h y freno de 300 minutos, así que el censo siempre tenía ~3 h,
+    # todas las vueltas se saltaban y el workflow solo trabajaba con `push`.
+    import re
+
+    m = re.search(r"cron:\s*'([^']+)'", texto)
+    ok(bool(m), "se puede leer la expresión del cron")
+    if m:
+        campos = m.group(1).split()
+        horas = campos[1] if len(campos) > 1 else "*"
+        m2 = re.search(r"--si-mas-de-minutos\s+(\d+)", texto)
+        ok(bool(m2), "se puede leer el freno de las vueltas del cron")
+        if m2 and horas.startswith("*/"):
+            cada = int(horas[2:])
+            freno = int(m2.group(1))
+            ok(
+                freno < cada * 60,
+                "el freno (%d min) es menor que el hueco entre vueltas (%d min): "
+                "si no, el cron nunca scrapea" % (freno, cada * 60),
+                f"cron {m.group(1)} vs {freno} min",
+            )
+
 
 def main() -> int:
     prueba_seleccion()

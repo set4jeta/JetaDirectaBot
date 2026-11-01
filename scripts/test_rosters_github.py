@@ -576,15 +576,24 @@ def prueba_workflow() -> None:
         horas = campos[1] if len(campos) > 1 else "*"
         m2 = re.search(r"--si-mas-de-minutos\s+(\d+)", texto)
         ok(bool(m2), "se puede leer el freno de las vueltas del cron")
-        if m2 and horas.startswith("*/"):
-            cada = int(horas[2:])
-            freno = int(m2.group(1))
-            ok(
-                freno < cada * 60,
-                "el freno (%d min) es menor que el hueco entre vueltas (%d min): "
-                "si no, el cron nunca scrapea" % (freno, cada * 60),
-                f"cron {m.group(1)} vs {freno} min",
-            )
+        if m2:
+            # `*` es cada hora; `*/N`, cada N horas. Cualquier otra forma
+            # (una lista de horas, por ejemplo) se deja pasar: no hay hueco fijo
+            # que comparar y el test no debe inventárselo.
+            if horas == "*":
+                cada = 1
+            elif horas.startswith("*/"):
+                cada = int(horas[2:])
+            else:
+                cada = 0
+            if cada:
+                freno = int(m2.group(1))
+                ok(
+                    freno < cada * 60,
+                    "el freno (%d min) es menor que el hueco entre vueltas (%d min): "
+                    "si no, el cron nunca scrapea" % (freno, cada * 60),
+                    f"cron {m.group(1)} vs {freno} min",
+                )
 
 
 def main() -> int:

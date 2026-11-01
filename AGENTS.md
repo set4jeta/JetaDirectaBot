@@ -817,7 +817,7 @@ El reparto es este, y las tres piezas tienen que existir o el resto no sirve:
 
 | Pieza | Qué hace |
 |---|---|
-| `.github/workflows/refrescar-rosters.yml` | cron **cada 3 h** + `workflow_dispatch` + `push` sobre el scraper (se prueba solo), con **3 intentos** por vuelta |
+| `.github/workflows/refrescar-rosters.yml` | cron **cada hora** + `workflow_dispatch` + `push` sobre el scraper (se prueba solo), con **3 intentos** por vuelta |
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` (6 h) |
 
@@ -831,7 +831,7 @@ cada seis.
 De ahí las dos decisiones de diseño. Dentro de una ejecución la IP **no cambia**,
 así que reintentar dentro no sirve: el reintento es otra ejecución, y por eso la
 matriz de tres intentos en serie (`max-parallel: 1`). Y como el número de
-aciertos es bajo, el cron va **cada 3 horas** en vez de una vez al día: ~24 IPs
+aciertos es bajo, el cron va **cada hora** en vez de una vez al día: 72 IPs
 distintas al día, y basta con que una sirva. Los reintentos y las vueltas
 siguientes llevan `--si-mas-de-minutos` y salen con 0 en cuanto ven el censo
 publicado, así que insistir no cuesta scraping.
@@ -927,7 +927,7 @@ repo: es público. Vive en Cloudflare y en las variables de Render. En local, en
 
 Con el relay en cuarentena el bot está como antes del relay: barriendo con el
 censo y refrescando rosters por el workflow de GitHub, que es una lotería (1 de
-cada 6 ejecuciones) pero con ~24 IPs al día basta para una lista que cambia por
+cada 6 ejecuciones) pero con 72 IPs al día basta para una lista que cambia por
 semanas. **No** se quita ninguna de las dos piezas: el workflow es lo que
 mantiene el censo al día mientras el bot duerme, y el relay se aprovecha solo si
 algún día vuelve a servir.

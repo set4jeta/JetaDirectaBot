@@ -52,18 +52,23 @@ name: Refrescar rosters
 
 on:
   schedule:
-    # Cada 3 horas, a un minuto que no es el de nadie.
+    # Cada hora, a un minuto que no es el de nadie.
     #
     # No es por prisa: es que la IP del runner es una lotería y hay que echar
-    # muchos números. Medido el 01-11-2026: de seis ejecuciones seguidas, una
-    # pasó (con ~16 % de peticiones rechazadas y reintentadas) y cinco se
-    # comieron un 403 desde la primera petición. Con tres intentos por vuelta y
-    # ocho vueltas al día son ~24 IPs distintas diarias, y basta con que una
-    # ocho vueltas al día son ~24 IPs distintas, y basta con que una sirva. El
-    # freno de `--si-mas-de-minutos 120` evita que las vueltas siguientes repitan
-    # el scraping cuando una ya publicó, y por eso tiene que ser **menor** que el
-    # intervalo del cron.
-    - cron: '17 */3 * * *'
+    # muchos números. Medido el 01-11-2026: de nueve ejecuciones seguidas del
+    # mismo código, **una** pasó (con ~16 % de peticiones rechazadas y
+    # reintentadas) y ocho se comieron un 403 desde la primera petición. Con tres
+    # intentos por vuelta y 24 vueltas al día son 72 IPs distintas diarias: que
+    # ninguna sirva es del orden de una entre un millón.
+    #
+    # Cuesta cero: el repo es público y GitHub no cobra minutos en repos
+    # públicos. Y cuando la IP sí sirve, la vuelta dura un minuto y las
+    # siguientes se saltan por el freno de abajo.
+    #
+    # El freno de `--si-mas-de-minutos 50` evita que las vueltas siguientes
+    # repitan el scraping cuando una ya publicó, y por eso tiene que ser **menor**
+    # que el intervalo del cron.
+    - cron: '17 * * * *'
   # Al tocar el scraper o el script, se prueba solo. Es la única forma de saber
   # si un cambio en el scraping sigue funcionando **desde la IP del runner**, que
   # es justo la que no se puede reproducir en local.
@@ -154,14 +159,14 @@ jobs:
             # este mismo run publicó hace un momento, no se repite el scraping.
             ARGS="--si-mas-de-minutos 5"
           elif [ "${{ github.event_name }}" = "schedule" ]; then
-            # Vuelta del cron: solo trabaja si el censo tiene más de 2 h.
+            # Vuelta del cron: solo trabaja si el censo tiene más de 50 min.
             #
             # El umbral tiene que ser **menor que el intervalo del cron** o el
             # cron no hace nada nunca: con 300 minutos y una vuelta cada 3 h, el
-            # censo siempre tiene ~3 h, así que las 8 vueltas del día se
-            # saltaban todas y el workflow solo funcionaba cuando lo lanzaba un
-            # `push`. Estuvo así desde el 01-11-2026 hasta que se vio en el log.
-            ARGS="--si-mas-de-minutos 120"
+            # censo siempre tenía ~3 h, así que todas las vueltas se saltaban y
+            # el workflow solo funcionaba cuando lo lanzaba un `push`. Estuvo así
+            # desde el 01-11-2026 hasta que se vio en el log.
+            ARGS="--si-mas-de-minutos 50"
           else
             # `push` o lanzado a mano: si alguien lo pide, se hace.
             ARGS="--forzar"

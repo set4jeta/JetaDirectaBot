@@ -330,7 +330,7 @@ hace un runner de GitHub —que sale por otra IP— y deja el resultado en la ra
 
 | Pieza | Qué hace |
 |---|---|
-| `.github/workflows/refrescar-rosters.yml` | cron cada 3 h, `workflow_dispatch` y `push` sobre el scraper; 3 intentos por vuelta |
+| `.github/workflows/refrescar-rosters.yml` | cron cada hora, `workflow_dispatch` y `push` sobre el scraper; 3 intentos por vuelta |
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` |
 

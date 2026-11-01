@@ -512,19 +512,23 @@ async def _reparar_desde_el_censo(
             ya_resuelto.update(
                 await _resolver_todos(client, objetivos, ya_resuelto)
             )
-        summary = {"puuid_cache": await rebuild_puuid_cache(
-            client, [crudos], dry_run, ya_resuelto
-        )}
+        cache = await rebuild_puuid_cache(client, [crudos], dry_run, ya_resuelto)
     finally:
         # Igual que en `repair_all`: cerrar siempre mataría la sesión que el
         # tracker de partidas está usando, porque el cliente es un singleton.
         if close_client:
             await close_riot_client()
 
-    resueltos = sum(1 for v in ya_resuelto.values() if v)
-    log.info("Reparación desde el censo: %d PUUID resueltos de %d.",
-             resueltos, len(objetivos))
-    return summary
+    # Cuántas de las que faltaban se resolvieron **ahora**, que es la cifra que
+    # interesa; `ya_resuelto` incluye las que ya se sabían y decía «1 629 de
+    # 298», que no hay quien lo lea.
+    nuevas = sum(1 for clave in objetivos if ya_resuelto.get(clave))
+    log.info(
+        "Reparación desde el censo: %d de %d resueltas ahora (%d ya estaban).",
+        nuevas, len(objetivos), len(ya_resuelto) - nuevas,
+    )
+    # `reparadas` es lo que suma `main()` para su línea de «PUUIDs verificados».
+    return {"censo": {"reparadas": nuevas, **cache}, "puuid_cache": cache}
 
 
 def _iter_jugadores(players: list[dict]):

@@ -785,6 +785,23 @@ válido: el síntoma era indistinguible de «no hay partidos».
 dice en ERROR una vez. `accounts_from_leaderboard` corta en la primera plataforma
 bloqueada en vez de encadenar ocho 403 idénticos.
 
+**La copia no basta: hay que repararla.** La copia guarda nombre y plataforma,
+pero los PUUID de dpm.lol no sirven para Riot (`from_pro_api` los pone a `None`),
+así que el 01-11-2026 había **388 cuentas de 2 091 sin PUUID** y no se podían
+sondear. `repair_all` se rendía sin fichero de rosters (`log.error` y `return`),
+o sea que no había nada que las arreglara nunca. Ahora:
+
+- `puuid_repair._reparar_desde_el_censo()` resuelve solo las que faltan y deja
+  el resultado en `puuid_cache.json` (rama de estado), sin volver a preguntar
+  por las 1 703 que ya se sabían.
+- `accounts_io` aplica ese caché al cargar la copia, y la clave de su caché
+  incluye el `mtime` de `puuid_cache.json`: la reparación puede resolver cuentas
+  **sin que el censo cambie**, y con una clave solo por `mtime` del censo se
+  seguirían viendo sin PUUID hasta el siguiente despliegue.
+- `main()` restaura el estado **antes** de decidir si descarga. Si se miraba
+  antes, el disco efímero siempre parecía «primera vez» y el arranque se comía
+  ocho 403 de dpm para acabar usando el censo que ya tenía.
+
 ### Worlds: la ventana es anual y los eliminados no se borran
 
 - `Liga.ventana_anual` es `((mes, día), (mes, día))` y se repite cada año. Antes

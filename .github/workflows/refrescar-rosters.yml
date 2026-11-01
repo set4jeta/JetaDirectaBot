@@ -50,6 +50,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/refrescar_rosters.py'
+      - 'apis/transporte_dpm.py'
       - 'tracking/soloq/accounts_from_teams.py'
       - 'tracking/soloq/censo.py'
       - '.github/workflows/refrescar-rosters.yml'

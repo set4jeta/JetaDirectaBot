@@ -82,6 +82,14 @@ _veces_respaldo = 0
 _ultimo_bloqueo = 0.0
 _bloqueos = 0
 
+#: Cuándo se sirvió bien la última petición. Va con `_ultimo_bloqueo` porque
+#: **un 403 suelto no es un muro**: desde los runners de GitHub, dpm.lol contesta
+#: 403 a ~16 % de las peticiones y sirve el resto (medido el 01-11-2026, 8 de 49
+#: fichas necesitaron reintento). Mirar solo el último bloqueo hacía que el
+#: refresco de rosters se plantara tras la primera petición fallida y diera por
+#: bloqueadas las 20 ligas que quedaban.
+_ultimo_ok = 0.0
+
 #: Cuánto se considera que un bloqueo sigue vigente. Durante ese rato no se
 #: insiste: desde la misma IP, todas las peticiones van a fallar igual, y cada
 #: intento cuesta una conexión y una espera de reintento.
@@ -89,12 +97,23 @@ BLOQUEO_VIGENTE = 600.0
 
 
 def bloqueado_recientemente(segundos: float = BLOQUEO_VIGENTE) -> bool:
-    """¿Se acaba de ver un bloqueo de Cloudflare desde esta IP?
+    """¿Está la IP **bloqueada de verdad** ahora mismo?
 
     Lo consultan los que hacen **muchas** peticiones seguidas (el leaderboard de
     ocho plataformas, la rotación de rosters) para no encadenar fallos idénticos.
+
+    Y «de verdad» es lo que separa este método de «hubo un 403 hace un rato»:
+    solo cuenta como bloqueo si **la última respuesta fue mala**. Si después del
+    último 403 hubo alguna buena, lo que hubo fue un tropezón de Cloudflare y hay
+    que seguir. La diferencia no es teórica: desde Render la IP está bloqueada al
+    100 % (ninguna respuesta buena, `True` siempre), y desde un runner de GitHub
+    el 16 % de las peticiones recibe 403 y el resto pasa (`False`, seguir). Antes
+    de esto, el refresco de rosters en el runner se plantaba en la primera liga y
+    daba por bloqueadas las otras 20.
     """
-    return _ultimo_bloqueo > 0 and (time.time() - _ultimo_bloqueo) < segundos
+    if not (_ultimo_bloqueo > 0 and (time.time() - _ultimo_bloqueo) < segundos):
+        return False
+    return _ultimo_bloqueo > _ultimo_ok
 
 
 
@@ -210,10 +229,12 @@ def pedir(
     """
     principal = _pedir_una(url, timeout, "curl_cffi")
     if _sirve(principal, valido):
+        _anotar_buena()
         return principal
 
     respaldo = _pedir_una(url, timeout, "cloudscraper")
     if _sirve(respaldo, valido):
+        _anotar_buena()
         with _lock:
             global _veces_respaldo
             _veces_respaldo += 1
@@ -228,6 +249,12 @@ def pedir(
 
     _anotar_bloqueo(url, principal, respaldo)
     return respaldo or principal
+
+
+def _anotar_buena() -> None:
+    """Apunta que dpm.lol **sí** nos atendió. Ver `_ultimo_ok`."""
+    global _ultimo_ok
+    _ultimo_ok = time.time()
 
 
 def _anotar_bloqueo(url: str, principal: Respuesta | None, respaldo: Respuesta | None) -> None:

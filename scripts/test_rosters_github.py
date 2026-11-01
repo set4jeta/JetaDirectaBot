@@ -331,6 +331,34 @@ def prueba_no_insiste_si_esta_bloqueado() -> None:
 # 4 · Que el bot esté realmente suscrito a la rama
 # ---------------------------------------------------------------------- #
 
+def prueba_tropezón_no_es_muro() -> None:
+    print("\n=== un 403 suelto no es un bloqueo ===")
+    from apis import transporte_dpm
+
+    bloqueo_antes = transporte_dpm._ultimo_bloqueo
+    ok_antes = transporte_dpm._ultimo_ok
+    try:
+        # Desde Render: 403 detrás de 403, ninguna respuesta buena -> muro.
+        transporte_dpm._ultimo_ok = 0.0
+        transporte_dpm._ultimo_bloqueo = time.time()
+        ok(transporte_dpm.bloqueado_recientemente(),
+           "sin ninguna respuesta buena detrás, el 403 es un muro")
+
+        # Desde un runner de GitHub: 403 y después respuestas buenas -> seguir.
+        transporte_dpm._ultimo_ok = time.time() + 1
+        ok(not transporte_dpm.bloqueado_recientemente(),
+           "con una respuesta buena detrás, es un tropezón y hay que seguir")
+
+        # Y caducado el rato, tampoco.
+        transporte_dpm._ultimo_ok = 0.0
+        transporte_dpm._ultimo_bloqueo = time.time() - transporte_dpm.BLOQUEO_VIGENTE - 1
+        ok(not transporte_dpm.bloqueado_recientemente(),
+           "pasado BLOQUEO_VIGENTE ya no cuenta")
+    finally:
+        transporte_dpm._ultimo_bloqueo = bloqueo_antes
+        transporte_dpm._ultimo_ok = ok_antes
+
+
 def prueba_tarea_del_bot() -> None:
     print("\n=== el bot vuelve a bajarse el censo cada pocas horas ===")
     from core import background_tasks
@@ -372,6 +400,7 @@ def main() -> int:
     prueba_censo_previo()
     prueba_codigos()
     prueba_no_insiste_si_esta_bloqueado()
+    prueba_tropezón_no_es_muro()
     prueba_tarea_del_bot()
     prueba_workflow()
 

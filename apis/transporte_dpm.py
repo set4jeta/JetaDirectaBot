@@ -89,6 +89,33 @@ _cffi_disponible: bool | None = None
 #: para verlo en el log sin tener que rebuscar entre líneas.
 _veces_respaldo = 0
 
+#: Fallos del relay desde que arrancó el proceso, y el último motivo. Van
+#: aparte del contador de bloqueos porque un relay roto **no** es un bloqueo de
+#: dpm.lol: el bot sigue funcionando por el camino de siempre y lo único que se
+#: pierde es la ventaja. Pero sin decirlo, un relay mal configurado es
+#: indistinguible de no tenerlo.
+_veces_fallo_relay = 0
+_ultimo_fallo_relay = ""
+
+
+def _anotar_fallo_relay(motivo: str) -> None:
+    """Deja constancia de un fallo del relay, sin inundar el log.
+
+    Las tres primeras veces se cuentan enteras (es cuando se está montando y hay
+    que ver el motivo); después, una de cada 200, que basta para saber que sigue
+    roto sin llenar la consola de Render.
+    """
+    global _veces_fallo_relay, _ultimo_fallo_relay
+    with _lock:
+        _veces_fallo_relay += 1
+        veces = _veces_fallo_relay
+        _ultimo_fallo_relay = motivo
+    if veces <= 3 or veces % 200 == 0:
+        log.warning(
+            "dpm.lol: el relay falló (%s). Se sigue por curl_cffi/cloudscraper "
+            "(van %d fallo(s) del relay).", motivo, veces,
+        )
+
 #: Cuándo se vio el último **bloqueo de Cloudflare** (los dos transportes
 #: rechazados a la vez) y cuántas veces ha pasado. Existe porque el 01-11-2026 el
 #: sintoma era indistinguible de un fallo de código: 403 en las ocho plataformas,
@@ -229,8 +256,19 @@ def _pedir_por_relay(url: str, timeout: float) -> Respuesta | None:
             timeout=timeout,
         )
     except Exception as exc:
-        log.debug("dpm.lol (relay) falló en %s: %s", url, exc)
+        # A `warning` y no a `debug`: si el relay está mal configurado, el bot
+        # sigue funcionando por el camino de siempre y el único síntoma es «hay
+        # 403 otra vez». Sin esta línea en el log de Render no hay forma de
+        # distinguir «el relay no está puesto» de «el relay está roto».
+        _anotar_fallo_relay(f"no se pudo llamar ({type(exc).__name__}: {exc})")
         return None
+
+    if resp.status_code != 200:
+        cuerpo = (resp.text or "").strip()[:80]
+        if cuerpo == "forbidden":
+            _anotar_fallo_relay("la clave no coincide (el Worker contesta 'forbidden')")
+        else:
+            _anotar_fallo_relay(f"HTTP {resp.status_code} {cuerpo}".strip())
     return Respuesta(resp.status_code, resp.text or "", "relay")
 
 
@@ -349,12 +387,23 @@ def _anotar_bloqueo(url: str, principal: Respuesta | None, respaldo: Respuesta |
 
 
 def resumen() -> str:
-    """Para el log de arranque: qué transportes hay y cuántas veces hizo falta el respaldo."""
+    """Para el log de arranque: qué transportes hay y cuántas veces hizo falta el respaldo.
+
+    El relay va **el primero** en la frase porque es el que se usa primero. Sin
+    esta línea, un `DPM_RELAY_URL` vacío y uno que no llega se ven igual en el
+    log: los dos acaban en 403 desde Render, que es justo la confusión que costó
+    una tarde.
+    """
     cffi = "sí" if _cliente_cffi() is not None else "no instalado"
+    relay = RELAY_URL or "sin configurar"
+    if RELAY_URL and not RELAY_CLAVE:
+        relay += " (SIN CLAVE: dpm.lol contestará 'forbidden')"
     texto = (
-        f"curl_cffi ({cffi}) + cloudscraper de respaldo · "
+        f"relay ({relay}) -> curl_cffi ({cffi}) + cloudscraper de respaldo · "
         f"respaldos usados: {_veces_respaldo}"
     )
+    if _veces_fallo_relay:
+        texto += f" · fallos del relay: {_veces_fallo_relay} (último: {_ultimo_fallo_relay})"
     if _bloqueos:
         texto += f" · BLOQUEOS de Cloudflare: {_bloqueos}"
     return texto

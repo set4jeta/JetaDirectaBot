@@ -277,6 +277,14 @@ def prueba_censo_previo() -> None:
                "el PUUID sobrevive a la siembra (si no, se pide a Riot cada día)")
             ok(cuentas[0].get("platform") == "KR",
                "la plataforma también (sin ella no se puede sondear)")
+
+            # Y no pisa un censo grande que ya está bien: la copia es un
+            # respaldo, no la fuente (no guarda rank, icono, links…).
+            antes = ruta_json.read_text(encoding="utf-8")
+            ok(refrescar_rosters._preparar_censo_previo() == 0,
+               "con el censo grande ya en disco no se siembra")
+            ok(ruta_json.read_text(encoding="utf-8") == antes,
+               "y el fichero queda igual")
         finally:
             censo.RUTA = censo_antes
             accounts_from_teams.JSON_PATH = json_antes
@@ -359,6 +367,59 @@ def prueba_tropezón_no_es_muro() -> None:
         transporte_dpm._ultimo_ok = ok_antes
 
 
+def prueba_no_repite_si_esta_fresco() -> None:
+    print("\n=== con el censo reciente no se repite el scraping ===")
+    from argparse import Namespace
+
+    from tracking.soloq import accounts_from_teams
+
+    import refrescar_rosters
+
+    tmp = Path(tempfile.mkdtemp(prefix="censo_fresco_"))
+    try:
+        ruta = tmp / "censo_compacto.json"
+        censo_antes = censo.RUTA
+        json_antes = accounts_from_teams.JSON_PATH
+        censo.RUTA = str(ruta)
+        # También el fichero grande: sin esto la prueba escribiría en el censo
+        # de verdad del proyecto (pasó, y hubo que restaurarlo del `.bak`).
+        accounts_from_teams.JSON_PATH = str(tmp / "accounts_from_teams.json")
+        restaurar_antes = estado_remoto.restaurar
+        refrescar_antes = refrescar_rosters._refrescar
+        try:
+            censo.escribir([_JUGADOR])  # escrito_en = ahora mismo
+
+            async def _restaurar_falsa(solo=None):
+                return 0
+
+            def _refrescar_prohibido(codigos):
+                raise AssertionError("no debería scrapearse: el censo es reciente")
+
+            estado_remoto.restaurar = _restaurar_falsa
+            refrescar_rosters._refrescar = _refrescar_prohibido
+
+            args = Namespace(
+                ligas=[], sin_publicar=True, sin_puuid=True, sin_restaurar=False,
+                si_mas_de_horas=6.0, forzar=False,
+            )
+            ok(asyncio.run(refrescar_rosters._run(args)) == 0,
+               "sale con 0 sin scrapear")
+
+            args.forzar = True
+            args.si_mas_de_horas = 0.0
+            disparado = []
+            refrescar_rosters._refrescar = lambda codigos: (disparado.append(1), (0, 0))[1]
+            asyncio.run(refrescar_rosters._run(args))
+            ok(bool(disparado), "con --forzar sí se scrapea")
+        finally:
+            censo.RUTA = censo_antes
+            accounts_from_teams.JSON_PATH = json_antes
+            estado_remoto.restaurar = restaurar_antes
+            refrescar_rosters._refrescar = refrescar_antes
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def prueba_tarea_del_bot() -> None:
     print("\n=== el bot vuelve a bajarse el censo cada pocas horas ===")
     from core import background_tasks
@@ -401,6 +462,7 @@ def main() -> int:
     prueba_codigos()
     prueba_no_insiste_si_esta_bloqueado()
     prueba_tropezón_no_es_muro()
+    prueba_no_repite_si_esta_fresco()
     prueba_tarea_del_bot()
     prueba_workflow()
 

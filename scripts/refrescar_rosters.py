@@ -27,9 +27,22 @@ Uso:
     python scripts/refrescar_rosters.py --ligas lec,lck     # solo esas
     python scripts/refrescar_rosters.py --sin-publicar      # no toca GitHub
     python scripts/refrescar_rosters.py --sin-puuid         # sin la API de Riot
+    python scripts/refrescar_rosters.py --si-mas-de-horas 6 # no repetir si está fresco
 
-Devuelve 0 si al menos una liga se refrescó, 1 si no se pudo ninguna: el workflow
-falla y se ve en la pestaña Actions en vez de quedarse callado con un censo viejo.
+Devuelve 0 si al menos una liga se refrescó (o si no hacía falta), 1 si no se
+pudo ninguna: el workflow falla y se ve en la pestaña Actions en vez de quedarse
+callado con un censo viejo.
+
+Por qué `--si-mas-de-horas`
+---------------------------
+La reputación de la IP de un runner de GitHub **cambia de una ejecución a otra**.
+Medido el 01-11-2026 con dos runs seguidos del mismo código: el primero pasó con
+~16 % de peticiones rechazadas y reintentadas; el segundo recibió 403 en todo,
+leaderboard incluido, desde la primera petición. Como la IP no cambia dentro de
+una ejecución, la única forma de reintentar es **otra ejecución**, y eso es lo
+que hace el workflow con tres intentos en serie. Este freno es lo que evita que
+el segundo y el tercero repitan el scraping entero cuando el primero ya publicó:
+si el censo de la rama es más joven que N horas, no se hace nada y se sale con 0.
 """
 
 from __future__ import annotations
@@ -69,8 +82,17 @@ def _preparar_censo_previo() -> int:
 
     Así que se expande la copia compacta a la forma larga y se escribe como
     fichero previo. Devuelve cuántos jugadores tenía.
+
+    **Solo siembra si el fichero grande no tiene jugadores.** Si existe y está
+    bien, no se toca: `refrescar_ligas` ya sabe trabajar sobre él, y sustituirlo
+    por la copia compacta sería perder los campos que la copia no guarda
+    (`rank`, `profile_icon`, `links`…). La copia es un respaldo, no la fuente.
     """
-    from tracking.soloq.accounts_from_teams import JSON_PATH
+    from tracking.soloq.accounts_from_teams import JSON_PATH, cargar_existentes_teams
+
+    if cargar_existentes_teams():
+        log.info("El censo grande ya está en disco; no se siembra desde la copia.")
+        return 0
 
     jugadores = censo.leer()
     if not jugadores:
@@ -187,6 +209,18 @@ async def _run(args) -> int:
         # pasada sea incremental en vez de un alta desde cero (ver
         # `_preparar_censo_previo`).
         await estado_remoto.restaurar(solo=estado_remoto.CENSO)
+        if args.si_mas_de_horas > 0 and not args.forzar:
+            # Otra ejecución (de este mismo workflow, unos minutos antes) ya
+            # publicó. Reintentar aquí solo gastaría 20 minutos de scraping.
+            edad_h = censo.edad_dias()
+            edad_h = None if edad_h is None else edad_h * 24
+            if edad_h is not None and edad_h < args.si_mas_de_horas:
+                log.info(
+                    "El censo de la rama tiene %.2f h (menos de %.0f): no hace "
+                    "falta otra pasada. Usa --forzar para hacerla igualmente.",
+                    edad_h, args.si_mas_de_horas,
+                )
+                return 0
     _preparar_censo_previo()
 
     hechas, fallidas = _refrescar(codigos)
@@ -226,6 +260,14 @@ def main() -> int:
     parser.add_argument(
         "--sin-restaurar", action="store_true",
         help="no baja el censo de la rama (alta desde cero)",
+    )
+    parser.add_argument(
+        "--si-mas-de-horas", type=float, default=0.0, metavar="H",
+        help="no hace nada si el censo de la rama tiene menos de H horas (0 = siempre)",
+    )
+    parser.add_argument(
+        "--forzar", action="store_true",
+        help="refresca aunque el censo de la rama sea reciente",
     )
     args = parser.parse_args()
     args.ligas = [c.strip() for c in args.ligas.split(",") if c.strip()]

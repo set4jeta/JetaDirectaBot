@@ -74,7 +74,23 @@ concurrency:
 jobs:
   rosters:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 60
+    # Tres intentos **en serie**, cada uno en un runner distinto.
+    #
+    # No es por si el scraping falla por un detalle: es que la reputación de la
+    # IP de un runner cambia de una ejecución a otra. Medido el 01-11-2026 con
+    # dos runs seguidos del mismo código: el primero pasó con ~16 % de peticiones
+    # rechazadas (reintentadas y servidas), el segundo recibió 403 en todo desde
+    # la primera petición, leaderboard incluido. Dentro de una ejecución la IP no
+    # cambia, así que la única forma de reintentar es otra ejecución.
+    #
+    # El segundo y el tercero no repiten trabajo: `--si-mas-de-horas 6` los deja
+    # salir con 0 en cuanto ven que el censo de la rama es reciente.
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        intento: [1, 2, 3]
     steps:
       - uses: actions/checkout@v4
 
@@ -103,9 +119,17 @@ jobs:
           # puede seguir la ejecución en vivo.
           PYTHONUNBUFFERED: '1'
         run: |
-          ARGS=""
+          echo "Intento ${{ matrix.intento }} de 3"
+          if [ "${{ matrix.intento }}" = "1" ]; then
+            # El primero va siempre: es el que hace el trabajo. Los otros dos
+            # existen por si a este le tocó una IP bloqueada, y por eso llevan
+            # el freno: si el primero ya publicó, no repiten el scraping.
+            ARGS="--forzar"
+          else
+            ARGS="--si-mas-de-horas 6"
+          fi
           if [ -n "${{ inputs.ligas }}" ]; then
-            ARGS="--ligas ${{ inputs.ligas }}"
+            ARGS="$ARGS --ligas ${{ inputs.ligas }}"
           fi
           python scripts/refrescar_rosters.py $ARGS
 
@@ -113,11 +137,11 @@ jobs:
         if: always()
         run: |
           {
-            echo "### Rosters"
+            echo "### Rosters (intento ${{ matrix.intento }})"
             if [ -f tracking/soloq/censo_compacto.json ]; then
               echo "- Censo compacto: $(du -h tracking/soloq/censo_compacto.json | cut -f1)"
             else
               echo "- **No se escribió el censo compacto.**"
             fi
-            echo "- Resultado del paso anterior: ${{ job.status }}"
+            echo "- Resultado: ${{ job.status }}"
           } >> "$GITHUB_STEP_SUMMARY"

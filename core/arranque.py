@@ -133,6 +133,13 @@ def _seguimiento() -> list[str]:
 def _tareas() -> list[str]:
     """Tareas de fondo con su cadencia real y si están corriendo."""
     from core import background_tasks as bg
+    from core import estado_remoto
+
+    # Sin token de GitHub la tarea del censo ni se arranca (`start_background_tasks`
+    # la salta), así que aquí tiene que salir como desactivada y no como DETENIDA:
+    # un 🔴 en el arranque se lee como avería y son 5 minutos mirando el sitio
+    # equivocado.
+    hay_github = estado_remoto.activo()
 
     definicion = (
         ("Partidas SoloQ en curso", bg.check_games_loop, f"{bg.CHECK_INTERVAL}s"),
@@ -140,6 +147,15 @@ def _tareas() -> list[str]:
         ("Plantillas y cuentas", bg.actualizar_accounts_diario, "24 h"),
         ("Pickrates por línea", bg.actualizar_pickrates_semanal, "7 d"),
         ("Infoplayers", bg.actualizar_infoplayers_por_lotes, "1 h"),
+        (
+            # Es la que mantiene el censo al día: pide la pasada del workflow
+            # cuando el censo que hay en disco pasa de `ROSTERS_VIEJO_HORAS`. Sin
+            # ella el censo solo se refresca al subir código, porque el `cron:`
+            # del workflow no dispara nunca.
+            "Censo desde GitHub",
+            bg.pedir_rosters_a_github,
+            f"{bg.ROSTERS_PEDIR_CADA_HORAS:g} h" if hay_github else None,
+        ),
         (
             "Historial precalentado",
             bg.precalentar_historial,

@@ -10,10 +10,25 @@ def load_json_file(filename):
         return json.load(f)
 
 def load_accounts_from_teams():
-    return load_json_file("accounts_from_teams.json")
+    try:
+        return load_json_file("accounts_from_teams.json")
+    except FileNotFoundError:
+        # **La copia del censo, en la misma forma larga.** Sin esto, con dpm.lol
+        # bloqueado el arranque decía «0 jugadores: el bot no está vigilando a
+        # nadie» mientras el tracker sí tenía 1 007 con los que trabajar: el
+        # mismo síntoma de avería para dos estados muy distintos.
+        from tracking.soloq import censo
+
+        return censo.leer()
 
 def load_accounts():
-    return load_json_file("accounts.json")
+    try:
+        return load_json_file("accounts.json")
+    except FileNotFoundError:
+        # Es un fichero **generado** (lo escribe la escalera de pros). Que no
+        # esté no es una avería, y antes tumbaba el recuento del arranque
+        # entero por una excepción.
+        return []
 
 def load_all_accounts():
     """Devuelve una lista unificada de todos los players y sus cuentas de ambos archivos"""

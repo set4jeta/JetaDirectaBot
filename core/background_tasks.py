@@ -172,12 +172,23 @@ def _ajustar_cadencia(stats=None) -> float:
     # vuelta, y hacerlo en cada pasada por diferencias de milisegundos sería
     # mover el reloj sin motivo.
     if anterior is None or abs(float(anterior) - segundos) >= 1:
-        try:
-            check_games_loop.change_interval(seconds=segundos)
-        except Exception:
-            log.exception("No se pudo aplicar la cadencia de %.0fs.", segundos)
-            return cadencia.intervalo_actual()
-        log.info("Cadencia del barrido: %.0fs (%s).", segundos, motivo)
+        # En `before_loop` el loop todavía no ha hecho su primera vuelta, así que
+        # `change_interval` revienta con
+        # `TypeError: unsupported operand type(s) for +: '_MissingSentinel'`.
+        # No es un fallo que haya que arreglar: la primera pasada sale con el
+        # intervalo de arranque y ésta lo ajusta al terminar.
+        if getattr(getattr(check_games_loop, "_last_iteration", None), "year", None):
+            try:
+                check_games_loop.change_interval(seconds=segundos)
+            except Exception:
+                log.exception("No se pudo aplicar la cadencia de %.0fs.", segundos)
+                return cadencia.intervalo_actual()
+            log.info("Cadencia del barrido: %.0fs (%s).", segundos, motivo)
+        else:
+            log.info(
+                "Cadencia del barrido: %.0fs (%s). Se aplica al acabar la primera "
+                "pasada.", segundos, motivo,
+            )
 
     return segundos
 

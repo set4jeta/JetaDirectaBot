@@ -25,15 +25,18 @@ Uso:
 
 from __future__ import annotations
 
+import asyncio
 import json
 import os
 import sys
 import tempfile
+from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from tracking.soloq import censo  # noqa: E402
 from tracking.soloq import accounts_io  # noqa: E402
+from tracking.soloq import puuid_repair  # noqa: E402
 
 fallos: list[str] = []
 
@@ -82,17 +85,28 @@ class _Rutas:
         self._censo_ruta = censo.RUTA
         self._teams = accounts_io.JSON_TEAMS_PATH
         self._cache = accounts_io._tracked_cache
+        self._puuid_cache = puuid_repair.PUUID_CACHE
+        self._account_files = puuid_repair.ACCOUNT_FILES
 
     def __enter__(self) -> "_Rutas":
         censo.RUTA = os.path.join(self.tmp, "censo_compacto.json")
         accounts_io.JSON_TEAMS_PATH = os.path.join(self.tmp, "accounts_from_teams.json")
         accounts_io._tracked_cache = None
+        # La reparación también se desvía: si no, la prueba escribiría el caché
+        # de PUUIDs de verdad, que es estado del bot.
+        puuid_repair.PUUID_CACHE = Path(self.tmp) / "puuid_cache.json"
+        puuid_repair.ACCOUNT_FILES = (
+            Path(self.tmp) / "accounts_from_teams.json",
+            Path(self.tmp) / "accounts.json",
+        )
         return self
 
     def __exit__(self, *_) -> None:
         censo.RUTA = self._censo_ruta
         accounts_io.JSON_TEAMS_PATH = self._teams
         accounts_io._tracked_cache = self._cache
+        puuid_repair.PUUID_CACHE = self._puuid_cache
+        puuid_repair.ACCOUNT_FILES = self._account_files
 
 
 def prueba_ida_y_vuelta() -> None:
@@ -236,6 +250,120 @@ def prueba_antiguedad() -> None:
            censo.resumen())
 
 
+def prueba_puuid_del_cache() -> None:
+    """La copia no trae todos los PUUID; el caché completa los que faltan."""
+    print("\n=== los PUUID que faltan salen del caché ===")
+    with _Rutas():
+        # La copia se escribió antes de resolver esta cuenta: llega sin PUUID.
+        censo.escribir([
+            _jugador("Jojopyun", "worlds", [
+                ("jojooooooo", "NA1", "puuid-conocido", "NA1"),
+                ("solar eclipse", "NA1", "", "NA1"),
+            ]),
+        ])
+        # El caché sí lo sabe (se resolvió en un arranque anterior).
+        puuid_repair.PUUID_CACHE.write_text(
+            json.dumps({"solar eclipse#NA1": "puuid-solar"}), encoding="utf-8"
+        )
+
+        jugadores = accounts_io.load_tracked_accounts()
+        puuids = {a.riot_id["game_name"]: a.puuid
+                  for j in jugadores for a in j.accounts}
+        ok(puuids.get("solar eclipse") == "puuid-solar",
+           "la cuenta sin PUUID se completa desde el caché",
+           str(puuids.get("solar eclipse")))
+        ok(puuids.get("jojooooooo") == "puuid-conocido",
+           "y la que ya lo traía no se toca")
+
+        # Y si el caché cambia sin que cambie el censo, se relee: la reparación
+        # puede resolver cuentas con el fichero quieto, y con una caché por
+        # `mtime` del censo se seguirían viendo sin PUUID.
+        puuid_repair.PUUID_CACHE.write_text(
+            json.dumps({"solar eclipse#NA1": "puuid-solar-2"}), encoding="utf-8"
+        )
+        os.utime(puuid_repair.PUUID_CACHE, (0, 0))  # mtime distinto, seguro
+        jugadores = accounts_io.load_tracked_accounts()
+        puuids = {a.riot_id["game_name"]: a.puuid
+                  for j in jugadores for a in j.accounts}
+        ok(puuids.get("solar eclipse") == "puuid-solar-2",
+           "un caché nuevo se nota aunque el censo no cambie",
+           str(puuids.get("solar eclipse")))
+
+
+def prueba_reparacion_sin_fichero() -> None:
+    """Sin fichero de rosters, la reparación resuelve desde la copia.
+
+    Antes `repair_all` se rendía con un `log.error` y no había nada que
+    arreglara las cuentas sin PUUID: con dpm.lol bloqueado eran 388 de 2 091, y
+    se quedaban sin sondear para siempre.
+    """
+    print("\n=== sin fichero de rosters, la reparación tira del censo ===")
+
+    llamadas: list[dict] = []
+
+    async def _resolver_falso(client, objetivos, ya_resuelto=None):
+        # Igual que `_resolver_todos`: lo que ya está resuelto **no se pide**.
+        # Sin este filtro la prueba mediría el doble trabajo como si fuera bueno.
+        ya = dict(ya_resuelto or {})
+        pendientes = {k: v for k, v in objetivos.items() if k not in ya}
+        llamadas.append(pendientes)
+        salida = dict(ya)
+        for clave, (gn, _tl) in pendientes.items():
+            salida[clave] = f"resuelto-{gn}"
+        return salida
+
+    async def _cliente_falso():
+        return None
+
+    async def _cerrar_falso():
+        return None
+
+    import apis.riot_client as riot_client
+
+    guardado = (
+        puuid_repair._resolver_todos,
+        riot_client.get_riot_client,
+        riot_client.close_riot_client,
+    )
+    puuid_repair._resolver_todos = _resolver_falso
+    riot_client.get_riot_client = _cliente_falso
+    riot_client.close_riot_client = _cerrar_falso
+    try:
+        with _Rutas():
+            censo.escribir([
+                _jugador("Jojopyun", "worlds", [
+                    ("jojooooooo", "NA1", "puuid-conocido", "NA1"),
+                    ("solar eclipse", "NA1", "", "NA1"),
+                ]),
+            ])
+            ok(not any(p.exists() for p in puuid_repair.ACCOUNT_FILES),
+               "no hay ningún fichero de cuentas")
+
+            resumen = asyncio.run(
+                puuid_repair.repair_all(dry_run=False, make_backup=False)
+            )
+            ok(bool(resumen), "la reparación no se rinde", str(list(resumen)))
+            ok(puuid_repair.PUUID_CACHE.exists(), "y escribe el caché de PUUIDs")
+
+            cache = json.loads(puuid_repair.PUUID_CACHE.read_text(encoding="utf-8"))
+            ok(cache.get("solar eclipse#NA1") == "resuelto-solar eclipse",
+               "con la cuenta que faltaba ya resuelta",
+               str(cache.get("solar eclipse#NA1")))
+            ok(cache.get("jojooooooo#NA1") == "puuid-conocido",
+               "y la que ya se sabía, intacta")
+
+            # Lo importante del ahorro: no se vuelve a preguntar por lo conocido.
+            pedidas = set().union(*llamadas) if llamadas else set()
+            ok("jojooooooo#NA1" not in pedidas,
+               "no se pregunta a Riot por lo que ya tenía PUUID",
+               f"{len(pedidas)} clave(s) pedidas")
+            ok("solar eclipse#NA1" in pedidas, "y sí por la que faltaba")
+    finally:
+        (puuid_repair._resolver_todos,
+         riot_client.get_riot_client,
+         riot_client.close_riot_client) = guardado
+
+
 def main() -> int:
     print("=" * 74)
     print("El censo sobrevive aunque dpm.lol no responda.")
@@ -246,6 +374,8 @@ def main() -> int:
     prueba_fallback()
     prueba_copias_malas()
     prueba_antiguedad()
+    prueba_puuid_del_cache()
+    prueba_reparacion_sin_fichero()
 
     print("\n" + "=" * 74)
     if fallos:

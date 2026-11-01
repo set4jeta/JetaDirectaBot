@@ -460,6 +460,81 @@ async def rebuild_puuid_cache(
     return {"antes": len(old_cache), "despues": len(new_cache), "cambiadas": changed}
 
 
+async def _reparar_desde_el_censo(
+    dry_run: bool = False, close_client: bool = False
+) -> dict:
+    """Resuelve los PUUID que falten en la copia del censo y los deja en el caché.
+
+    No reescribe el censo: lo que se persiste es `puuid_cache.json`, que viaja en
+    la rama de estado, y `accounts_io` lo aplica al cargar la copia
+    (`rellenar_puuid_de_cache`). Así hay un solo sitio donde vive un PUUID
+    resuelto y no dos copias que se puedan separar.
+    """
+    from tracking.soloq import censo
+
+    crudos = censo.leer()
+    if not crudos:
+        log.error(
+            "No hay fichero de cuentas ni copia del censo: no hay nada que reparar."
+        )
+        return {}
+
+    from apis.riot_client import close_riot_client, get_riot_client
+
+    # Solo las que no tienen PUUID, con el mismo criterio que `repair_file`: una
+    # que ya lo tiene no se vuelve a preguntar (un 404 pasajero la marcaría
+    # `stale` y la sacaría del barrido teniendo su PUUID bueno).
+    objetivos: dict[str, tuple[str, str]] = {}
+    ya_resuelto: dict[str, str | None] = {}
+    for _jugador, cuenta in _iter_jugadores(crudos):
+        riot = cuenta.get("riot_id") or {}
+        nombre = (riot.get("game_name") or "").strip()
+        if not nombre:
+            continue
+        clave = f"{nombre}#{riot.get('tag_line') or ''}"
+        if cuenta.get("puuid"):
+            # Lo que ya se sabe se le pasa como resuelto, para que
+            # `rebuild_puuid_cache` no lo vuelva a pedir: el censo trae 1 703
+            # PUUID buenos y cada petición de más es ancho de banda del mes.
+            ya_resuelto[clave] = cuenta["puuid"]
+        else:
+            objetivos[clave] = (nombre, riot.get("tag_line") or "")
+
+    log.info(
+        "Sin fichero de rosters: se reparan %d cuenta(s) desde la copia del censo "
+        "(%d jugadores, %d PUUID ya conocidos).",
+        len(objetivos), len(crudos), len(ya_resuelto),
+    )
+
+    client = await get_riot_client()
+    try:
+        if objetivos:
+            ya_resuelto.update(
+                await _resolver_todos(client, objetivos, ya_resuelto)
+            )
+        summary = {"puuid_cache": await rebuild_puuid_cache(
+            client, [crudos], dry_run, ya_resuelto
+        )}
+    finally:
+        # Igual que en `repair_all`: cerrar siempre mataría la sesión que el
+        # tracker de partidas está usando, porque el cliente es un singleton.
+        if close_client:
+            await close_riot_client()
+
+    resueltos = sum(1 for v in ya_resuelto.values() if v)
+    log.info("Reparación desde el censo: %d PUUID resueltos de %d.",
+             resueltos, len(objetivos))
+    return summary
+
+
+def _iter_jugadores(players: list[dict]):
+    """`(jugador, cuenta)` de la forma larga que devuelve `censo.leer()`."""
+    for jugador in players or []:
+        for cuenta in jugador.get("accounts") or []:
+            if isinstance(cuenta, dict):
+                yield jugador, cuenta
+
+
 async def repair_all(
     dry_run: bool = False,
     make_backup: bool = True,
@@ -482,8 +557,12 @@ async def repair_all(
 
     present = [p for p in ACCOUNT_FILES if p.exists()]
     if not present:
-        log.error("No se encuentra ningún fichero de cuentas en tracking/soloq/")
-        return {}
+        # **Sin fichero de rosters la reparación seguía sin hacer nada**, y desde
+        # el 01-11-2026 eso importa: con dpm.lol bloqueado el fichero no existe y
+        # la copia del censo es lo único que hay, con 388 de 2 091 cuentas sin
+        # PUUID. Eran cuentas que no se podían sondear y no había nada que las
+        # arreglara, porque este `return` se llevaba por delante la única salida.
+        return await _reparar_desde_el_censo(dry_run, close_client)
 
     if make_backup and not dry_run:
         backup(present + [PUUID_CACHE], ROOT / ".backups")

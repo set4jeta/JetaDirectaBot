@@ -245,6 +245,72 @@ def prueba_horas_restantes() -> None:
        f"{cadencia._horas_restantes(ultimo):.2f} h")
 
 
+def prueba_el_loop_la_aplica() -> None:
+    """El intervalo se aplica al `tasks.loop`, también antes de la 1ª vuelta.
+
+    Esto no es teórico: la primera versión llamaba a `change_interval` dentro de
+    `before_loop` y nextcord reventaba con
+    `TypeError: unsupported operand type(s) for +: '_MissingSentinel'` porque
+    `_last_iteration` todavía no existe. Lo capturaba un `try/except`, así que el
+    bot arrancaba igual — pero con el intervalo de arranque todo el rato.
+    """
+    print("\n=== el loop recibe la cadencia (y no revienta al arrancar) ===")
+    from core import background_tasks as bt
+
+    class _Cuenta:
+        puuid = "x"
+
+    class _Jugador:
+        def __init__(self, n):
+            self.accounts = [_Cuenta() for _ in range(n)]
+
+    class _TrackerFalso:
+        def __init__(self, n):
+            self._players = [_Jugador(n)]
+
+        def cuentas_a_barrer(self):
+            return sum(len(p.accounts) for p in self._players)
+
+    _preparar(EGRESS_PRESUPUESTO_MB="4800")
+    _gastado(0)
+
+    anterior_tracker = bt._tracker_instance
+    anterior_ultima = bt.check_games_loop._last_iteration
+    try:
+        bt._tracker_instance = _TrackerFalso(900)
+
+        # 1) Antes de la primera vuelta: `_last_iteration` es el centinela.
+        import nextcord.utils
+        bt.check_games_loop._last_iteration = nextcord.utils._MissingSentinel
+        segundos = bt._ajustar_cadencia(None)
+        ok(segundos > 0, "con el centinela no revienta", f"{segundos:.0f}s")
+        ok(getattr(bt.check_games_loop, "_last_iteration", None)
+           is nextcord.utils._MissingSentinel,
+           "y no se inventa una `_last_iteration` que no toca")
+
+        # 2) Tras una pasada: ya se puede reprogramar de verdad.
+        import datetime
+        bt.check_games_loop._last_iteration = datetime.datetime.now(
+            datetime.timezone.utc
+        )
+        segundos = bt._ajustar_cadencia(None)
+        ok(abs(float(bt.check_games_loop.seconds) - segundos) < 1,
+           "después sí se aplica al loop",
+           f"loop {bt.check_games_loop.seconds:.0f}s")
+
+        # 3) Y con lo que costó la pasada, el intervalo sale igual de coherente.
+        class _Stats:
+            revisadas = 900
+            duracion = 40.0
+
+        segundos = bt._ajustar_cadencia(_Stats())
+        ok(cadencia.MINIMO <= segundos <= cadencia.MAXIMO,
+           "y se queda dentro de los topes", f"{segundos:.0f}s")
+    finally:
+        bt._tracker_instance = anterior_tracker
+        bt.check_games_loop._last_iteration = anterior_ultima
+
+
 def main() -> int:
     print("=" * 74)
     print("La cadencia del barrido se reparte el presupuesto del mes.")
@@ -257,6 +323,7 @@ def main() -> int:
     prueba_duracion()
     prueba_fija()
     prueba_horas_restantes()
+    prueba_el_loop_la_aplica()
 
     # Se deja el entorno y el contador como estaban: esta prueba escribe en el
     # contador de verdad si no se limpia, y ese fichero existe justo para no

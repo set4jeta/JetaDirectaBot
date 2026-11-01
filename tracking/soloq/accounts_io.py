@@ -12,8 +12,11 @@ JSON_PATH = os.path.join(os.path.dirname(__file__), "accounts.json")
 
 _cached_players = None
 
-#: Caché del fichero de rosters: `(mtime, jugadores)`.
-_tracked_cache: tuple[float, list[BootcampPlayer]] | None = None
+#: Caché del fichero de rosters: `(clave, jugadores)`. La clave es
+#: `(mtime, "teams")` cuando viene del fichero bueno y `(mtime, "censo", mtime
+#: del caché de PUUIDs)` cuando viene de la copia compacta — el tercer dato está
+#: ahí porque la reparación puede resolver cuentas sin que el censo cambie.
+_tracked_cache: tuple[tuple, list[BootcampPlayer]] | None = None
 
 def load_accounts() -> list[BootcampPlayer]:
     global _cached_players
@@ -95,37 +98,12 @@ def load_tracked_accounts() -> list[BootcampPlayer]:
         # con Cloudflare bloqueando dpm.lol desde Render, el fichero no llegaba a
         # crearse y `/health` contestaba 200 con 0 cuentas sondeadas. La copia
         # trae lo último que se supo (ver `tracking/soloq/censo.py`).
-        from tracking.soloq import censo
+        return _desde_el_censo()
 
-        try:
-            mtime = os.path.getmtime(censo.RUTA)
-        except OSError:
-            log.warning(
-                "accounts_from_teams.json no existe y tampoco hay copia del censo, "
-                "devolviendo lista vacía"
-            )
-            return []
-
-        if _tracked_cache is not None and _tracked_cache[0] == (mtime, "censo"):
-            return _tracked_cache[1]
-
-        crudos = censo.leer()
-        if not crudos:
-            return []
-        edad = censo.edad_dias()
-        log.warning(
-            "accounts_from_teams.json no existe: se usa la copia del censo "
-            "(%d jugadores, %s de antigüedad). dpm.lol no ha respondido.",
-            len(crudos), "?" if edad is None else f"{edad:.1f} días",
-        )
-        jugadores = [BootcampPlayer.from_dict(p) for p in crudos]
-        _tracked_cache = ((mtime, "censo"), jugadores)
-        return jugadores
-
-    if _tracked_cache is not None and _tracked_cache[0] == (mtime, "censo"):
+    if _tracked_cache is not None and _tracked_cache[0][1] == "censo":
         # La caché venía de la copia y ahora ya está el fichero bueno: se relee.
         pass
-    elif _tracked_cache is not None and _tracked_cache[0] == mtime:
+    elif _tracked_cache is not None and _tracked_cache[0] == (mtime, "teams"):
         return _tracked_cache[1]
 
     log.debug("Cargando accounts_from_teams.json desde disco")
@@ -143,7 +121,65 @@ def load_tracked_accounts() -> list[BootcampPlayer]:
         return _tracked_cache[1] if _tracked_cache else []
 
     jugadores = [BootcampPlayer.from_dict(p) for p in raw_players]
-    _tracked_cache = (mtime, jugadores)
+    _tracked_cache = ((mtime, "teams"), jugadores)
+    return jugadores
+
+
+def _desde_el_censo() -> list[BootcampPlayer]:
+    """Los jugadores de la copia compacta, con los PUUID que ya se sabían.
+
+    La copia guarda nombre y plataforma, pero **no todos los PUUID**: los que
+    dpm.lol da no sirven para Riot (`from_pro_api` los pone a `None` a propósito)
+    y hay que resolverlos contra `account-v1`. Sin rellenarlos desde
+    `puuid_cache.json`, la copia del censo no sirve para barrer: el 01-11-2026
+    eran 388 de 2 091 cuentas, entre ellas la de NA de Jojopyun.
+
+    La clave de la caché incluye el `mtime` de `puuid_cache.json` porque la
+    reparación puede resolver cuentas **mientras el censo no cambia**, y con la
+    clave vieja se seguirían viendo sin PUUID hasta el siguiente despliegue.
+    """
+    from tracking.soloq import censo, puuid_repair
+
+    global _tracked_cache
+
+    try:
+        mtime = os.path.getmtime(censo.RUTA)
+    except OSError:
+        log.warning(
+            "accounts_from_teams.json no existe y tampoco hay copia del censo, "
+            "devolviendo lista vacía"
+        )
+        return []
+
+    try:
+        cache_mtime = os.path.getmtime(puuid_repair.PUUID_CACHE)
+    except OSError:
+        cache_mtime = 0.0
+
+    clave = (mtime, "censo", cache_mtime)
+    if _tracked_cache is not None and _tracked_cache[0] == clave:
+        return _tracked_cache[1]
+
+    crudos = censo.leer()
+    if not crudos:
+        return []
+
+    try:
+        rellenos = puuid_repair.rellenar_puuid_de_cache(crudos)
+    except Exception:
+        # Que falle el relleno no puede impedir cargar el censo: peor es no
+        # tener nada que barrer.
+        rellenos = 0
+        log.debug("No se pudieron rellenar los PUUID desde la caché", exc_info=True)
+
+    edad = censo.edad_dias()
+    log.warning(
+        "accounts_from_teams.json no existe: se usa la copia del censo "
+        "(%d jugadores, %s de antigüedad, %d PUUID del caché). dpm.lol no ha respondido.",
+        len(crudos), "?" if edad is None else f"{edad:.1f} días", rellenos,
+    )
+    jugadores = [BootcampPlayer.from_dict(p) for p in crudos]
+    _tracked_cache = (clave, jugadores)
     return jugadores
     
     

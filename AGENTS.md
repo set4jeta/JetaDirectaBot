@@ -890,10 +890,30 @@ Cloudflare —la única que está *dentro* de la protección— y devuelve el cu
 - Plan free: 100 000 peticiones al día; el bot hace del orden de 1 500.
 - Montaje en `infra/relay-dpm/README.md` (cuenta gratis, sin dominio ni tarjeta).
 
+**Desplegado el 01-11-2026 y verificado:** `jeta-dpm-relay` en
+`https://jeta-dpm-relay.jeta-dpm-relay.workers.dev`, con `upstream=200` contra
+dpm.lol (2,8 KB de la ficha de un jugador) y 83 jugadores en el leaderboard de la
+LEC en 1,3 s a través del transporte del proyecto (`transporte = relay`). Desde
+Render ya no hay 403: el relay entra donde el datacenter no entraba.
+
+- La clave (`RELAY_KEY` del Worker = `DPM_RELAY_SECRET` en Render) **no** está en
+  el repo: es público. Vive en Cloudflare y en las variables de Render. En local,
+  en `~/relay_key.txt`.
+- Redesplegar sin npm: `CF_API_TOKEN=… python scripts/desplegar_relay.py`. La API
+  de scripts exige **multipart con `main_module`**; mandar el `.js` a pelo con
+  `application/javascript` lo trata como script clásico y muere con
+  `Unexpected token 'export'`.
+- El PUT de secretos contesta **201** al crearlo y 200 al actualizarlo. Mirar
+  solo el 200 hace creer que falló justo la primera vez.
+- El certificado de un subdominio `workers.dev` recién creado tarda un par de
+  minutos: hasta entonces el handshake TLS falla. No es que el Worker esté mal.
+
 Con el relay funcionando, el bot recupera su rotación horaria de rosters y el
 `accounts_from_leaderboard` de las ocho plataformas, y el workflow de GitHub pasa
 a ser respaldo. **No** se quita: si dpm.lol bloquea también a Cloudflare, es lo
-único que queda.
+único que queda, y mientras el bot duerme (plan free) es lo que mantiene el censo
+al día. Al workflow le falta `secrets.DPM_RELAY_SECRET` para dejar de ser una
+lotería; sin ese secreto sigue funcionando como antes, con `curl_cffi`.
 
 ### Worlds: la ventana es anual y los eliminados no se borran
 

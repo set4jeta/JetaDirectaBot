@@ -383,9 +383,15 @@ no había ningún sitio donde ver cuánto llevaba consumido.
    `EGRESS_PRESUPUESTO_MB` (o `CHECK_GAMES_INTERVAL_MAX`), **añadir una tarjeta**
    y pagar el exceso (~0,15 $/GB, o sea menos de un dólar por pasarse 5 GB), o
    migrar a otro hosting.
-4. Si el aviso es `dpm.lol está BLOQUEANDO esta IP`, no es código: el bot sigue
-   barriendo con la copia del censo, pero deja de enterarse de fichajes hasta que
-   la IP deje de estar bloqueada.
+4. Si el aviso es `dpm.lol está BLOQUEANDO esta IP`, mirar primero si
+   `DPM_RELAY_URL` está puesta en Render. El relay de Cloudflare
+   (`infra/relay-dpm/`, §8) es lo que hace que esa IP deje de importar: desde el
+   01-11-2026 entra en dpm.lol donde Render recibe 403. Si el relay está puesto y
+   aun así hay 403, es que dpm.lol bloqueó también a Cloudflare; entonces quedan
+   la copia del censo (el bot sigue barriendo) y el workflow de GitHub.
+   Para comprobarlo sin tocar el bot:
+   `CF_API_TOKEN=… python scripts/desplegar_relay.py` termina diciendo si el
+   relay responde `200` con `upstream=200` o si dpm.lol le contesta 403.
 
 ### Las pruebas que lo vigilan
 

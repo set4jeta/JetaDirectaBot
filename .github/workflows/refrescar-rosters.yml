@@ -15,6 +15,12 @@
 # IP, y deja el resultado en la rama `estado`. El bot se lo baja cada pocas horas
 # (`sincronizar_censo_remoto` en `core/background_tasks.py`).
 #
+# Ojo: desde el 01-11-2026 esto ya **no** es la vía principal. El relay de
+# `infra/relay-dpm/` (un Worker de Cloudflare) sí entra en dpm.lol desde Render, y
+# con él el bot vuelve a refrescar rosters y leaderboards él solo. Este workflow
+# se queda para lo que el bot no puede hacer: mantener el censo al día **mientras
+# el bot está dormido**, que en el plan gratuito de Render pasa a menudo.
+#
 # Qué publica
 # -----------
 # Solo `tracking/soloq/censo_compacto.json` (ver `estado_remoto.CENSO`). El censo
@@ -36,6 +42,12 @@
 #     de Riot **no** está bloqueada desde Render — lo que está bloqueado es
 #     dpm.lol. O sea que sin el secreto funciona, solo que con unas horas de
 #     retraso en los fichajes.
+#   · `DPM_RELAY_SECRET` es **opcional pero muy recomendable**, y también se
+#     añade en Settings → Secrets and variables → Actions. Con él, el scraping
+#     sale por el Worker de Cloudflare y funciona **a la primera**, sin depender
+#     de que la IP del runner tenga buena reputación. Sin él, el relay contesta
+#     `forbidden` y el script cae a `curl_cffi`, o sea a la lotería de siempre.
+#     La clave no va escrita aquí porque el repo es **público**.
 name: Refrescar rosters
 
 on:
@@ -123,6 +135,13 @@ jobs:
           GITHUB_REPO: ${{ github.repository }}
           GITHUB_RAMA_ESTADO: estado
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+          # La URL no es secreta (sin clave no responde nada). La clave sí, y por
+          # eso se lee de un secreto: el repo es público y escrita aquí la vería
+          # cualquiera. Si el secreto no existe, la variable llega vacía, el
+          # relay contesta `forbidden` y el script sigue por el camino de
+          # siempre — no se rompe nada, solo se pierde la ventaja.
+          DPM_RELAY_URL: https://jeta-dpm-relay.jeta-dpm-relay.workers.dev
+          DPM_RELAY_SECRET: ${{ secrets.DPM_RELAY_SECRET }}
           # Sin esto los `print`/logs del script llegan al final de todo y no se
           # puede seguir la ejecución en vivo.
           PYTHONUNBUFFERED: '1'

@@ -84,6 +84,8 @@ def start_background_tasks(bot):
             continue
         if loop is sincronizar_censo_remoto and not estado_remoto.activo():
             continue
+        if loop is pedir_rosters_a_github and not estado_remoto.activo():
+            continue
         loop.start()
 
     log.info(
@@ -474,7 +476,53 @@ async def sincronizar_censo_remoto():
 
 
 # ---------------------------------------------------------------------- #
-# 3d · La escalera de pros, una vez por semana
+# 3d · Pedirle la pasada a GitHub cuando el censo se queda viejo
+# ---------------------------------------------------------------------- #
+#
+# El bot no puede bajar los rosters (dpm.lol contesta 403 a la IP de Render) y el
+# `cron:` del workflow **no dispara nunca**: medido el 01-11-2026 sobre el
+# historial entero del repo, 21 ejecuciones y cero con evento `schedule`. O sea
+# que sin esto el censo solo se refrescaba cuando alguien subía código, y así se
+# quedaba con los fichajes de días atrás sin que nada lo dijera.
+#
+# Aquí es el bot —el único que sabe qué edad tiene el censo que está usando— el
+# que pide la pasada. No depende del cron, ni del PC, ni de un tercero.
+
+#: Cada cuánto se mira si el censo se ha quedado viejo.
+ROSTERS_PEDIR_CADA_HORAS = float(os.getenv("ROSTERS_PEDIR_CADA_HORAS", "2"))
+
+#: A partir de qué edad del censo se pide una pasada. **Mayor** que el intervalo
+#: de arriba: una pasada tarda un par de minutos en publicar y mientras tanto el
+#: censo sigue igual de viejo, así que con el umbral por debajo se pediría en cada
+#: vuelta. Con 2 h de mirada y 6 h de umbral, un refresco bueno deja seis horas de
+#: tranquilidad y uno fallido se reintenta dos horas después.
+ROSTERS_VIEJO_HORAS = float(os.getenv("ROSTERS_VIEJO_HORAS", "6"))
+
+
+@tasks.loop(hours=ROSTERS_PEDIR_CADA_HORAS)
+async def pedir_rosters_a_github():
+    """Pide una pasada del workflow cuando el censo pasa de `ROSTERS_VIEJO_HORAS`."""
+    from core import disparar_rosters
+
+    if not disparar_rosters.disponible():
+        return
+
+    edad = disparar_rosters.edad_horas()
+    if edad is not None and edad < ROSTERS_VIEJO_HORAS:
+        log.debug("Rosters: el censo tiene %.1f h; no hace falta pedir nada.", edad)
+        return
+
+    # Sin censo en disco también se pide: un censo que falta es justo lo que la
+    # pasada va a publicar. Y si el que falta es solo porque el bot acaba de
+    # arrancar, el freno del script (`--si-mas-de-minutos`) deja la ejecución en
+    # nada en vez de repetir un scraping que ya está hecho.
+    await disparar_rosters.pedir(
+        "no hay censo en disco" if edad is None else f"el censo tiene {edad:.0f} h"
+    )
+
+
+# ---------------------------------------------------------------------- #
+# 3e · La escalera de pros, una vez por semana
 # ---------------------------------------------------------------------- #
 #
 # `accounts.json` es la lista de pros de las escaleras de SoloQ (EUW1, KR, NA1,
@@ -729,6 +777,7 @@ TAREAS_PERIODICAS: tuple = (
     sembrar_rosters_faltantes,
     refrescar_rosters_por_tanda,
     sincronizar_censo_remoto,
+    pedir_rosters_a_github,
     precalentar_historial,
     refrescar_rangos,
     sincronizar_estado,

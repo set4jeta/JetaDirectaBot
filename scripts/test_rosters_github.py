@@ -28,11 +28,13 @@ Uso:
 from __future__ import annotations
 
 import asyncio
+import json
 import os
 import shutil
 import sys
 import tempfile
 import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -563,6 +565,18 @@ def prueba_workflow() -> None:
     ok("scripts/refrescar_rosters.py" in texto, "llama al script de refresco")
     ok("RIOT_API_KEY" in texto, "pasa la clave de Riot")
 
+    # El bot pide la pasada con `repository_dispatch`. Si el `event_type` del
+    # workflow y el que manda el bot no coinciden, GitHub contesta **204 igual** y
+    # no se ejecuta nada: un fallo mudo de los que se buscan durante horas. Por
+    # eso se comparan aquí.
+    from core import disparar_rosters
+
+    ok("repository_dispatch" in texto,
+       "escucha `repository_dispatch` (lo único que puede lanzar el token del bot)")
+    ok(f"types: [{disparar_rosters.EVENTO}]" in texto,
+       "el `event_type` del workflow coincide con el que manda el bot",
+       disparar_rosters.EVENTO)
+
     # El freno de las vueltas del cron tiene que ser menor que el hueco entre
     # vueltas, o el cron no hace nada nunca. Estuvo mal desde el 01-11-2026:
     # cron cada 3 h y freno de 300 minutos, así que el censo siempre tenía ~3 h,
@@ -596,6 +610,167 @@ def prueba_workflow() -> None:
                 )
 
 
+class _Respuesta:
+    def __init__(self, sesion: "_SesionPostFalsa"):
+        self.status = sesion.status
+        self._texto = sesion.texto
+
+    async def text(self) -> str:
+        return self._texto
+
+
+class _RespuestaCtx:
+    def __init__(self, sesion: "_SesionPostFalsa"):
+        self.sesion = sesion
+
+    async def __aenter__(self) -> _Respuesta:
+        return _Respuesta(self.sesion)
+
+    async def __aexit__(self, *exc) -> bool:
+        return False
+
+
+class _SesionPostFalsa:
+    """Sustituye a `aiohttp.ClientSession` y finge la respuesta del dispatch."""
+
+    def __init__(self, status: int, texto: str = ""):
+        self.status = status
+        self.texto = texto
+        self.llamadas = 0
+        self.ultima_url = ""
+        self.ultimo_json = None
+
+    # `pedir` hace `async with aiohttp.ClientSession() as sesion`, así que la
+    # instancia tiene que ser también su propio gestor de contexto.
+    def __call__(self, *args, **kwargs) -> "_SesionPostFalsa":
+        return self
+
+    async def __aenter__(self) -> "_SesionPostFalsa":
+        return self
+
+    async def __aexit__(self, *exc) -> bool:
+        return False
+
+    def post(self, url: str, **kwargs) -> _RespuestaCtx:
+        self.llamadas += 1
+        self.ultima_url = url
+        self.ultimo_json = kwargs.get("json")
+        return _RespuestaCtx(self)
+
+
+def prueba_disparador() -> None:
+    """El bot pide la pasada cuando el censo se queda viejo.
+
+    Esto existe porque el `schedule` del workflow **no dispara nunca** (medido el
+    01-11-2026: cero eventos `schedule` en todo el historial del repo), así que
+    sin esta petición el censo solo se refrescaba al subir código. Lo que se
+    comprueba aquí es la decisión, no el scraping: edad del censo, freno entre
+    peticiones y que un fallo de permiso no rompa nada.
+    """
+    print("\n=== el bot le pide la pasada a GitHub cuando el censo se queda viejo ===")
+    from core import disparar_rosters
+
+    ok(disparar_rosters.WORKFLOW.endswith(".yml"),
+       "el workflow está nombrado", disparar_rosters.WORKFLOW)
+
+    tmp = Path(tempfile.mkdtemp(prefix="disparador_"))
+    base = disparar_rosters.config.BASE_DIR
+    sesion_real = disparar_rosters.aiohttp.ClientSession
+    token_real = disparar_rosters.config.GITHUB_TOKEN
+    repo_real = disparar_rosters.config.GITHUB_REPO
+    ultimo = disparar_rosters._ultimo_pedido
+    avisado = disparar_rosters._avisado_sin_permiso
+    try:
+        disparar_rosters.config.BASE_DIR = tmp
+        disparar_rosters.config.GITHUB_REPO = "alguien/repo"
+        disparar_rosters._ultimo_pedido = 0.0
+        disparar_rosters._avisado_sin_permiso = False
+
+        # Sin censo en disco no hay edad que medir.
+        ok(disparar_rosters.edad_horas() is None,
+           "sin censo, la edad es desconocida")
+
+        destino = tmp / estado_remoto.CENSO
+        destino.parent.mkdir(parents=True, exist_ok=True)
+
+        # La edad sale de `escrito_en`, no de la fecha del fichero: al arrancar en
+        # un host con disco efímero el fichero se acaba de crear y su fecha
+        # diría "recién hecho" aunque el contenido sea de hace días.
+        hace = datetime.now(timezone.utc) - timedelta(hours=10)
+        destino.write_text(
+            json.dumps({"escrito_en": hace.isoformat(), "jugadores": []}),
+            encoding="utf-8",
+        )
+        edad = disparar_rosters.edad_horas()
+        ok(edad is not None and 9.5 < edad < 10.5,
+           "un censo de hace 10 h se mide por `escrito_en`",
+           f"{edad:.1f} h" if edad is not None else "None")
+
+        destino.write_text(
+            json.dumps({"escrito_en": datetime.now(timezone.utc).isoformat(),
+                        "jugadores": []}),
+            encoding="utf-8",
+        )
+        edad = disparar_rosters.edad_horas()
+        ok(edad is not None and edad < 0.2,
+           "un censo recién publicado no cuenta como viejo",
+           f"{edad:.2f} h" if edad is not None else "None")
+
+        # Sin token no se pide nada, y `disponible()` lo dice.
+        disparar_rosters.config.GITHUB_TOKEN = ""
+        ok(disparar_rosters.disponible() is False, "sin token no está disponible")
+        ok(asyncio.run(disparar_rosters.pedir("prueba")) is False,
+           "sin token no se pide nada")
+
+        # Con token: un 204 es «aceptada».
+        disparar_rosters.config.GITHUB_TOKEN = "token-de-prueba"
+        falsa = _SesionPostFalsa(204)
+        disparar_rosters.aiohttp.ClientSession = falsa
+        ok(asyncio.run(disparar_rosters.pedir("prueba")) is True,
+           "un 204 cuenta como pedida")
+        ok(falsa.ultima_url.endswith("/repos/alguien/repo/dispatches"),
+           "se manda un `repository_dispatch` (el token no puede `workflow_dispatch`)",
+           falsa.ultima_url.split("/repos/")[-1])
+        ok((falsa.ultimo_json or {}).get("event_type") == disparar_rosters.EVENTO,
+           "con el `event_type` que escucha el workflow",
+           str((falsa.ultimo_json or {}).get("event_type")))
+
+        # Y no se repite en la vuelta siguiente: el runner tarda un par de
+        # minutos en publicar y mientras tanto el censo sigue viejo, así que sin
+        # freno se pediría en cada vuelta.
+        ok(asyncio.run(disparar_rosters.pedir("prueba")) is False,
+           "no se pide dos veces seguidas")
+        ok(falsa.llamadas == 1, "la segunda vez no llegó a la red",
+           f"{falsa.llamadas} llamada(s)")
+
+        # 403 = al token le falta `Actions: write`. Es el fallo que se ve el
+        # 100 % de las veces que esto no funciona, y no puede romper nada.
+        disparar_rosters._ultimo_pedido = 0.0
+        disparar_rosters.aiohttp.ClientSession = _SesionPostFalsa(
+            403, '{"message":"Resource not accessible by personal access token"}'
+        )
+        ok(asyncio.run(disparar_rosters.pedir("prueba")) is False,
+           "un 403 no lanza y devuelve False")
+
+        # Y la tarea del bot está enganchada a la lista que se para al cerrar.
+        from core import background_tasks
+
+        ok(background_tasks.pedir_rosters_a_github in background_tasks.TAREAS_PERIODICAS,
+           "la tarea está en TAREAS_PERIODICAS (si no, no se para al cerrar)")
+        ok(background_tasks.ROSTERS_VIEJO_HORAS > background_tasks.ROSTERS_PEDIR_CADA_HORAS,
+           "el umbral de vejez es mayor que la mirada: si no, se pediría en cada vuelta",
+           f"{background_tasks.ROSTERS_VIEJO_HORAS} h > "
+           f"{background_tasks.ROSTERS_PEDIR_CADA_HORAS} h")
+    finally:
+        disparar_rosters.config.BASE_DIR = base
+        disparar_rosters.aiohttp.ClientSession = sesion_real
+        disparar_rosters.config.GITHUB_TOKEN = token_real
+        disparar_rosters.config.GITHUB_REPO = repo_real
+        disparar_rosters._ultimo_pedido = ultimo
+        disparar_rosters._avisado_sin_permiso = avisado
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def main() -> int:
     prueba_seleccion()
     prueba_guardar_solo_el_censo()
@@ -609,6 +784,7 @@ def main() -> int:
     prueba_relay()
     prueba_worker_del_relay()
     prueba_tarea_del_bot()
+    prueba_disparador()
     prueba_workflow()
 
     print(f"\nfallos: {len(fallos)}")

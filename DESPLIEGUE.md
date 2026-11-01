@@ -330,15 +330,21 @@ hace un runner de GitHub —que sale por otra IP— y deja el resultado en la ra
 
 | Pieza | Qué hace |
 |---|---|
-| `.github/workflows/refrescar-rosters.yml` | cron cada hora, `workflow_dispatch` y `push` sobre el scraper; 3 intentos por vuelta |
+| `.github/workflows/refrescar-rosters.yml` | `repository_dispatch` (lo lanza el bot), `workflow_dispatch` y `push` sobre el scraper; 3 intentos por vuelta |
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` |
+| `background_tasks.pedir_rosters_a_github` | el bot pide la pasada cuando el censo pasa de `ROSTERS_VIEJO_HORAS` |
 
 La IP del runner **no** está limpia: medido el 01-11-2026, de nueve ejecuciones
 seguidas una pasó y ocho se comieron un 403 desde la primera petición. Es una
-lotería entre ejecuciones, así que el workflow echa muchos números (24 vueltas ×
-3 intentos al día) y las vueltas que no hacen falta se saltan solas con
-`--si-mas-de-minutos`.
+lotería entre ejecuciones, así que hay que echar muchos números y las vueltas que
+no hacen falta se saltan solas con `--si-mas-de-minutos`.
+
+**Quien echa esos números es el bot, no el `cron:`.** El `schedule` del workflow
+no dispara nunca —cero eventos `schedule` en el historial entero del repo— así que
+el bot manda un `repository_dispatch` cuando ve el censo viejo. No se usa
+`workflow_dispatch` porque exige `Actions: write` y el token del bot solo tiene
+`Contents: write` (contesta 403).
 
 Se publica **solo** el censo compacto (`guardar(solo=estado_remoto.CENSO)`): los
 demás ficheros de la rama son contadores vivos del bot y la copia del runner, con
@@ -350,40 +356,32 @@ Para comprobarlo: pestaña Actions → «Refrescar rosters» → Run workflow, o
 `git log` de la rama `estado` (un commit «Estado del bot:
 tracking/soloq/censo_compacto.json» por publicación).
 
-### La vía que no es lotería: el PC del dueño
+### El PC del dueño: a mano, cuando hace falta
 
 Ni Render ni un runner ni un Worker de Cloudflare entran en dpm.lol: los tres
 salen por IPs de datacenter. La única que entra siempre es la de casa (200 en el
-100 % de las peticiones, medido el 01-11-2026). Así que el refresco que de verdad
-funciona es el que se ejecuta en el PC:
+100 % de las peticiones, medido el 01-11-2026), y desde el PC
+`refrescar_rosters.py --forzar` refresca **21 de 21 ligas en ~10 min**.
 
-| Pieza | Qué hace |
-|---|---|
-| `scripts/tarea_rosters.py` | envuelve a `refrescar_rosters.py`: candado, log a `logs/tarea_rosters.log` y freno de 5 h |
-| tarea programada de Windows | lo lanza cada 6 h con `pythonw.exe` (sin ventana) |
+Eso es una herramienta de emergencia, **no** una tarea programada: la tarea de
+Windows no está montada y no hace falta. `schtasks.exe` está en la lista negra de
+seguridad del equipo, así que ni el agente puede crearla ni lanzarla, y la ruta
+de la "Security Center" que supuestamente la desbloquea **no existe** en este
+Windows. El refresco automático es el del bot (`repository_dispatch`), que no
+depende de este PC.
 
-El freno de 5 h tiene que ser **menor** que el intervalo de 6 h o la tarea no
-haría nada nunca: es el mismo error que tuvo el workflow de GitHub durante un día
-(cron cada 3 h con un freno de 5 h).
+Cuando el censo se queda raro —una liga que no aparece, un fichaje que no entra—
+se lanza desde el PC:
 
-Se crea una sola vez, en una consola del usuario (no hace falta administrador):
-
-```powershell
-schtasks /Create /TN "LoLProTrackr rosters" /SC HOURLY /MO 6 /ST 20:30 `
-  /TR "\"C:\Users\Chino\.workbuddy-ai\binaries\python\envs\default\Scripts\pythonw.exe\" \"C:\jetabot res 8\JetaDirectaBot\scripts\tarea_rosters.py\"" /F
+```bash
+python scripts/tarea_rosters.py --forzar
 ```
 
-Comprobar y borrar:
-
-```powershell
-schtasks /Query /TN "LoLProTrackr rosters" /FO LIST /V
-schtasks /Delete /TN "LoLProTrackr rosters" /F
-```
-
-Si el PC está apagado a la hora de la tarea, esa vuelta se pierde y no pasa
-nada: la siguiente intenta igual. Con el workflow de GitHub detrás, la suma de
-las dos vías deja el censo al día casi siempre. El resultado de cada vuelta queda
-en `logs/tarea_rosters.log` (rotado a 1 MB, 3 copias).
+`scripts/tarea_rosters.py` envuelve a `refrescar_rosters.py` con candado
+(`logs/tarea_rosters.lock`, para que dos procesos no escriban a la vez el
+`accounts_from_teams.json` y dejen el censo a medias) y log rotado en
+`logs/tarea_rosters.log` (1 MB, 3 copias). Sin `--forzar` respeta el freno de 5 h
+y sale con 0 si el censo de la rama es más nuevo.
 
 ### La red de seguridad
 

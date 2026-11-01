@@ -817,9 +817,27 @@ El reparto es este, y las tres piezas tienen que existir o el resto no sirve:
 
 | Pieza | Qué hace |
 |---|---|
-| `.github/workflows/refrescar-rosters.yml` | cron **cada hora** + `workflow_dispatch` + `push` sobre el scraper (se prueba solo), con **3 intentos** por vuelta |
+| `.github/workflows/refrescar-rosters.yml` | `repository_dispatch` (lo lanza el bot) + `workflow_dispatch` + `push` sobre el scraper (se prueba solo), con **3 intentos** por vuelta |
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` (6 h) |
+| `background_tasks.pedir_rosters_a_github` | el bot pide la pasada cuando el censo pasa de `ROSTERS_VIEJO_HORAS` (6 h); mira cada `ROSTERS_PEDIR_CADA_HORAS` (2 h) |
+
+**El `cron:` del workflow no dispara nunca.** Medido el 01-11-2026 sobre el
+historial entero del repo: 21 ejecuciones y **cero** con evento `schedule`, ni
+con el cron cada 3 h ni con el cada hora, ni en las 8 horas que estuvo puesto.
+Las ejecuciones solo entraban por `push`. O sea que el diseño de "72 IPs al día"
+nunca existió: el censo se refrescaba cuando alguien subía código, y por eso se
+quedaba con fichajes de días atrás sin que nada lo dijera.
+
+Por eso el disparador es el bot (`core/disparar_rosters.py`): él sabe qué edad
+tiene el censo que está usando y manda un `repository_dispatch` cuando pasa de
+6 h. Se probó primero con `workflow_dispatch` —lo natural para lanzar un workflow
+a mano— y **no vale**: exige `Actions: write` en el token y el del bot solo tiene
+`Contents: write`, así que contesta 403 `Resource not accessible by personal
+access token`. `repository_dispatch` hace lo mismo con el permiso que ya tiene,
+sin tocar nada en GitHub. Ojo: si el `event_type` del workflow y el del bot no
+coinciden, GitHub contesta **204 igual** y no se ejecuta nada — lo vigila
+`test_rosters_github.py`.
 
 **La IP del runner es una lotería, y hay que contar con ello.** Medido el
 01-11-2026 con seis ejecuciones seguidas del mismo código: **una** pasó (con
@@ -831,10 +849,12 @@ cada seis.
 De ahí las dos decisiones de diseño. Dentro de una ejecución la IP **no cambia**,
 así que reintentar dentro no sirve: el reintento es otra ejecución, y por eso la
 matriz de tres intentos en serie (`max-parallel: 1`). Y como el número de
-aciertos es bajo, el cron va **cada hora** en vez de una vez al día: 72 IPs
-distintas al día, y basta con que una sirva. Los reintentos y las vueltas
-siguientes llevan `--si-mas-de-minutos` y salen con 0 en cuanto ven el censo
-publicado, así que insistir no cuesta scraping.
+aciertos es bajo, hay que echar muchos números: cada petición del bot son 3 IPs,
+y como mira cada 2 h y pide cuando el censo pasa de 6 h, un refresco bueno deja
+seis horas de tranquilidad y uno fallido se reintenta dos horas después (~8
+peticiones y 24 IPs al día). Los reintentos y las vueltas siguientes llevan
+`--si-mas-de-minutos` y salen con 0 en cuanto ven el censo publicado, así que
+insistir no cuesta scraping.
 
 Y de ahí el discriminador de `transporte_dpm.bloqueado_recientemente()`: cuenta
 como bloqueo solo si **la última respuesta fue mala**. Un 403 suelto con
@@ -932,22 +952,32 @@ semanas. **No** se quita ninguna de las dos piezas: el workflow es lo que
 mantiene el censo al día mientras el bot duerme, y el relay se aprovecha solo si
 algún día vuelve a servir.
 
-### La vía sin lotería: el PC del dueño
+### El PC del dueño: manual, no programado
 
 Render, los runners de GitHub y los Workers de Cloudflare salen todos por IPs de
-datacenter, y las tres están bloqueadas. La única IP que entra siempre es la de
-casa, así que el refresco que funciona de verdad es el que corre en el PC:
+datacenter. La única IP que entra **siempre** es la de casa, y se midió: desde el
+PC, `refrescar_rosters.py --forzar` refresca **21 de 21 ligas en ~10 min**.
 
-- `scripts/tarea_rosters.py` envuelve a `refrescar_rosters.py`: candado
+Pero la tarea programada de Windows **no está montada y no hace falta**:
+
+- `schtasks.exe` está en la lista negra de seguridad del equipo, así que el agente
+  no puede crear la tarea ni lanzarla. Y la ruta de la "Security Center" que
+  supuestamente la desbloquea **no existe** en este Windows: no se pierde más
+  tiempo por ahí.
+- Para lo que sí sirve: cuando el censo se queda raro (una liga que no aparece,
+  un fichaje que no entra), se lanza a mano desde el PC y en diez minutos está
+  todo. `scripts/tarea_rosters.py` envuelve a `refrescar_rosters.py` con candado
   (`logs/tarea_rosters.lock`, para que dos procesos no escriban a la vez el
-  `accounts_from_teams.json` y dejen el censo a medias), log rotado a
-  `logs/tarea_rosters.log` y **freno de 5 h** por defecto.
-- La tarea programada de Windows lo lanza cada 6 h con `pythonw.exe`, sin
-  ventana. Se crea con `schtasks` (ver `DESPLIEGUE.md` §8); **no** se puede crear
-  desde el agente: `schtasks.exe` está en la lista negra de seguridad del equipo.
-- El freno (5 h) tiene que ser **menor** que el intervalo (6 h) o la tarea no
-  haría nada nunca. Es el mismo error que tuvo el workflow durante un día.
-- Si el PC está apagado, esa vuelta se pierde y ya está: la siguiente intenta.
+  `accounts_from_teams.json` y dejen el censo a medias) y log rotado en
+  `logs/tarea_rosters.log`.
+- El refresco automático es el del bot (`pedir_rosters_a_github` →
+  `repository_dispatch`), que no depende de este PC ni de que esté encendido.
+
+Lo que **no** hay que hacer: montar una tarea programada con `TimeSpan::MaxValue`
+(no es válido en el XML), ni `Register-ScheduledTask -LogonType` (no es un
+parámetro suyo, es de `New-ScheduledTaskPrincipal`), ni pasar rutas con espacios
+por `schtasks` desde PowerShell (las comillas se pierden y el argumento se corta
+en el espacio de `res 8`).
 
 ### Worlds: la ventana es anual y los eliminados no se borran
 

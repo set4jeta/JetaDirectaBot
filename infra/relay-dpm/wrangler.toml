@@ -1,0 +1,16 @@
+# Nombre del Worker. Sale como `dpm-relay.<tu-subdominio>.workers.dev`.
+name = "dpm-relay"
+main = "worker.js"
+
+# Fecha de compatibilidad: fija el comportamiento del runtime. Se sube a mano
+# cuando se quiera adoptar cambios nuevos, no en cada despliegue.
+compatibility_date = "2026-11-01"
+
+# `workers.dev` es el dominio gratis de Cloudflare: no hace falta comprar nada ni
+# tener un dominio propio.
+workers_dev = true
+
+# Sin observabilidad no hay forma de saber si el relay está sirviendo o
+# devolviendo 403 de dpm.lol. Es gratis en el plan free (3 días de retención).
+[observability]
+enabled = true

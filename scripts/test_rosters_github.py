@@ -420,6 +420,65 @@ def prueba_no_repite_si_esta_fresco() -> None:
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def prueba_relay() -> None:
+    print("\n=== el relay de Cloudflare va primero, y solo si está configurado ===")
+    from apis import transporte_dpm as t
+
+    antes = (t.RELAY_URL, t.RELAY_CLAVE, t._pedir_una, t._pedir_por_relay,
+             t._ultimo_bloqueo, t._ultimo_ok)
+    llamadas: list[str] = []
+    try:
+        t._ultimo_bloqueo = 0.0
+        t._ultimo_ok = 0.0
+
+        def _local(url, timeout, transporte):
+            llamadas.append(transporte)
+            return t.Respuesta(200, '{"ok": 1}', transporte)
+
+        # 1 · Sin relay configurado se comporta como siempre.
+        t.RELAY_URL = ""
+        t._pedir_una = _local
+        r = t.pedir("https://dpm.lol/v1/pros/X")
+        ok(bool(r) and r.transporte == "curl_cffi", "sin relay se usa curl_cffi")
+        ok(llamadas == ["curl_cffi"], "y no se intenta nada más", str(llamadas))
+
+        # 2 · Con relay, va primero y no gasta peticiones locales.
+        llamadas.clear()
+        t.RELAY_URL = "https://relay.ejemplo"
+        t._pedir_por_relay = lambda url, timeout: t.Respuesta(200, '{"ok": 1}', "relay")
+        r = t.pedir("https://dpm.lol/v1/pros/X")
+        ok(bool(r) and r.transporte == "relay", "con relay configurado manda el relay")
+        ok(not llamadas, "sin gastar curl_cffi ni cloudscraper", str(llamadas))
+
+        # 3 · Si el relay no sirve, se cae a los locales en vez de rendirse.
+        llamadas.clear()
+        t._pedir_por_relay = lambda url, timeout: t.Respuesta(403, "no", "relay")
+        r = t.pedir("https://dpm.lol/v1/pros/X")
+        ok(bool(r) and r.transporte == "curl_cffi",
+           "si el relay falla se sigue con curl_cffi")
+        ok(llamadas == ["curl_cffi"], "y se intentó de verdad", str(llamadas))
+
+        # 4 · El relay no anota bloqueo: que falle no dice nada de dpm.lol.
+        ok(t._ultimo_bloqueo == 0.0,
+           "un relay caído no se cuenta como bloqueo de dpm.lol")
+    finally:
+        (t.RELAY_URL, t.RELAY_CLAVE, t._pedir_una, t._pedir_por_relay,
+         t._ultimo_bloqueo, t._ultimo_ok) = antes
+
+
+def prueba_worker_del_relay() -> None:
+    print("\n=== el Worker no es un proxy abierto ===")
+    ruta = RAIZ / "infra" / "relay-dpm" / "worker.js"
+    ok(ruta.exists(), "existe infra/relay-dpm/worker.js")
+    if not ruta.exists():
+        return
+    texto = ruta.read_text(encoding="utf-8")
+    ok('"dpm.lol"' in texto, "solo habla con dpm.lol")
+    ok("RELAY_KEY" in texto, "exige clave (si no, lo usa cualquiera)")
+    ok("PREFIJOS" in texto, "limita las rutas a las del bot")
+    ok("x-relay-upstream" in texto, "dice qué contestó dpm.lol, para diagnosticar")
+
+
 def prueba_tarea_del_bot() -> None:
     print("\n=== el bot vuelve a bajarse el censo cada pocas horas ===")
     from core import background_tasks
@@ -463,6 +522,8 @@ def main() -> int:
     prueba_no_insiste_si_esta_bloqueado()
     prueba_tropezón_no_es_muro()
     prueba_no_repite_si_esta_fresco()
+    prueba_relay()
+    prueba_worker_del_relay()
     prueba_tarea_del_bot()
     prueba_workflow()
 

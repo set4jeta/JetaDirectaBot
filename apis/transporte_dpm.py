@@ -43,9 +43,11 @@ Cuándo se cambia de transporte
 
 from __future__ import annotations
 
+import os
 import threading
 import time
 from typing import Any, Callable
+from urllib.parse import quote
 
 import cloudscraper
 
@@ -54,6 +56,18 @@ from utils.logger import get_logger
 log = get_logger("apis.transporte_dpm")
 
 TIMEOUT_POR_DEFECTO = 25.0
+
+#: Relay propio en un Worker de Cloudflare (ver `infra/relay-dpm/`). Vacío = no
+#: se usa. Existe porque dpm.lol contesta **403 a las IPs de datacenter** y la
+#: red de Cloudflare es la única que está dentro de esa protección: desde Render
+#: el bloqueo es del 100 %, desde un runner de GitHub de 5 de cada 6, y desde una
+#: IP doméstica ninguna.
+#:
+#: Con esto configurado se prueba **primero** el relay: desde Render los otros
+#: dos caminos van a fallar siempre, así que intentarlos antes es gastar dos
+#: peticiones y una espera de reintento por cada ficha.
+RELAY_URL = (os.getenv("DPM_RELAY_URL") or "").strip().rstrip("/")
+RELAY_CLAVE = (os.getenv("DPM_RELAY_SECRET") or "").strip()
 
 #: Señales de que Cloudflare ha contestado con un desafío en vez del contenido.
 #: Si aparece alguna, el cuerpo no sirve aunque el estado sea 200.
@@ -195,6 +209,31 @@ def _pedir_una(url: str, timeout: float, transporte: str) -> Respuesta | None:
     return Respuesta(int(getattr(resp, "status_code", 0) or 0), texto, transporte)
 
 
+def _pedir_por_relay(url: str, timeout: float) -> Respuesta | None:
+    """La misma petición, pero saliendo por el Worker de Cloudflare.
+
+    `None` si no hay relay configurado o si ni se pudo intentar. **No** anota
+    bloqueo: que falle el relay no dice nada de dpm.lol.
+    """
+    if not RELAY_URL:
+        return None
+
+    import requests  # ya es dependencia del proyecto; se importa aquí para no
+    # cargarla en los procesos que solo usan curl_cffi.
+
+    cabeceras = {"x-relay-key": RELAY_CLAVE} if RELAY_CLAVE else {}
+    try:
+        resp = requests.get(
+            f"{RELAY_URL}/?u={quote(url, safe='')}",
+            headers=cabeceras,
+            timeout=timeout,
+        )
+    except Exception as exc:
+        log.debug("dpm.lol (relay) falló en %s: %s", url, exc)
+        return None
+    return Respuesta(resp.status_code, resp.text or "", "relay")
+
+
 def _sirve(resp: Respuesta | None, valido: Callable[[str], bool] | None) -> bool:
     if resp is None or resp.status != 200:
         return False
@@ -226,7 +265,19 @@ def pedir(
 
     curl_cffi pasa siempre, y desde casa también. Se queda de respaldo por si algún
     día es al revés: es una librería más nueva y no está de más tener dos caminos.
+
+    Y si hay `DPM_RELAY_URL` configurado, el **relay va primero**. No es un atajo
+    cosmético: desde el 01-11-2026 dpm.lol contesta 403 a la IP de Render en el
+    100 % de las peticiones, así que intentar curl_cffi antes son dos peticiones
+    perdidas y una espera de reintento por cada ficha, y con 50 fichas por liga
+    eso se nota. Si el relay falla, se sigue con los locales de siempre.
     """
+    if RELAY_URL:
+        por_relay = _pedir_por_relay(url, timeout)
+        if _sirve(por_relay, valido):
+            _anotar_buena()
+            return por_relay
+
     principal = _pedir_una(url, timeout, "curl_cffi")
     if _sirve(principal, valido):
         _anotar_buena()

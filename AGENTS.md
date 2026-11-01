@@ -871,6 +871,30 @@ de GitHub y comprueba que se sube y se baja un solo fichero, que el censo se
 siembra con PUUID y plataforma, que no se insiste con el bloqueo activo y que el
 workflow pide `contents: write`.
 
+### `infra/relay-dpm/` — el relay que devuelve el scraping al bot
+
+El workflow tapa el agujero, pero es una lotería. La vía buena es dejar de
+depender de la IP: un **Worker de Cloudflare** que pide a dpm.lol desde la red de
+Cloudflare —la única que está *dentro* de la protección— y devuelve el cuerpo.
+
+- Se activa con dos variables de entorno, sin tocar código: `DPM_RELAY_URL` y
+  `DPM_RELAY_SECRET`. Vacías = no se usa y todo sigue como ahora.
+- Con el relay puesto, `transporte_dpm.pedir()` lo prueba **primero**: desde
+  Render los otros dos caminos fallan siempre, así que intentarlos antes son dos
+  peticiones perdidas por cada ficha, y son ~50 por liga.
+- Si el relay falla, se cae a curl_cffi y cloudscraper como siempre. Un relay
+  caído **no** cuenta como bloqueo de dpm.lol (no dice nada de dpm).
+- No es un proxy abierto: exige clave y solo habla con `https://dpm.lol` en las
+  rutas `/v1/…` y `/esport/…`. Un proxy abierto lo acaba usando cualquiera, y
+  entonces nos bloquean también el relay.
+- Plan free: 100 000 peticiones al día; el bot hace del orden de 1 500.
+- Montaje en `infra/relay-dpm/README.md` (cuenta gratis, sin dominio ni tarjeta).
+
+Con el relay funcionando, el bot recupera su rotación horaria de rosters y el
+`accounts_from_leaderboard` de las ocho plataformas, y el workflow de GitHub pasa
+a ser respaldo. **No** se quita: si dpm.lol bloquea también a Cloudflare, es lo
+único que queda.
+
 ### Worlds: la ventana es anual y los eliminados no se borran
 
 - `Liga.ventana_anual` es `((mes, día), (mes, día))` y se repite cada año. Antes

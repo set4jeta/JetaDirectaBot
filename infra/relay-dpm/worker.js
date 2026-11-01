@@ -9,20 +9,32 @@
 //
 // Este Worker hace la petición **desde la red de Cloudflare**, que es la misma
 // que la protege, y devuelve el cuerpo tal cual. El bot lo llama como si fuera
-// dpm.lol (`DPM_RELAY_URL`) y vuelve a poder refrescar los rosters solo, sin
-// depender de que un runner de GitHub tenga suerte con la IP.
+// dpm.lol (`DPM_RELAY_URL`).
+//
+// Lo que se aprendió al ponerlo en marcha
+// ---------------------------------------
+// La primera petición volvió con `upstream=200` y datos reales, así que el
+// camino existe. Pero al rato dpm.lol empezó a contestar al Worker con la página
+// de desafío («Just a moment…»): las subpeticiones de un Worker salen por un
+// **pool compartido** de IPs, y ese pool también tiene mala reputación. De ahí
+// el bucle de reintentos: la IP de salida cambia entre subpeticiones, así que
+// reintentar dentro del Worker **sí** puede cambiar el resultado, a diferencia de
+// reintentar desde Render (donde la IP es fija y siempre la misma).
 //
 // Qué NO hace
 // -----------
-// Solo habla con `dpm.lol` por https y solo con las rutas que usa el bot
-// (`/v1/…` y `/esport/…`). No es un proxy abierto: sin la clave no responde, y
-// con la clave sigue sin poder pedir otro dominio. Eso importa porque un proxy
-// abierto lo acaba usando cualquiera y entonces sí nos bloquean a nosotros.
+// Solo habla con `dpm.lol` por https y solo con las rutas que usa el bot. No es
+// un proxy abierto: sin la clave no responde, y con la clave sigue sin poder
+// pedir otro dominio. Eso importa porque un proxy abierto lo acaba usando
+// cualquiera y entonces sí nos bloquean a nosotros.
 //
-// Despliegue: ver README.md de esta carpeta.
+// Despliegue: `python scripts/desplegar_relay.py` (o ver README.md).
 
 const HOST_PERMITIDO = "dpm.lol";
-const PREFIJOS = ["/v1/", "/esport/"];
+
+// Las rutas que pide el bot, ni una más. `/tierlist` entró el 01-11-2026: sin
+// ella, `apis/dpm.py` recibía un 400 del propio relay en cada arranque.
+const PREFIJOS = ["/v1/", "/esport/", "/tierlist"];
 
 // Un navegador de verdad. El Worker no hereda las cabeceras del cliente, así que
 // sin esto dpm.lol ve la petición como lo que es: un `fetch` sin UA.
@@ -34,6 +46,57 @@ const CABECERAS = {
   "accept-language": "es-ES,es;q=0.9,en;q=0.8",
   referer: "https://dpm.lol/",
 };
+
+//: Intentos por petición. Tres basta: si tres IPs seguidas del pool están
+//: marcadas, la cuarta tampoco iba a estarlo menos, y cada intento cuesta tiempo
+//: del que el bot no tiene (una pasada de rosters son ~50 fichas por liga).
+const INTENTOS = 3;
+
+//: Pausa entre intentos. Corta: el bot está esperando y lo que cambia el
+//: resultado es la IP, no el tiempo.
+const ESPERA_MS = 250;
+
+const MARCAS_DESAFIO = [
+  "just a moment",
+  "attention required",
+  "cf-chl",
+  "checking your browser",
+  "enable javascript and cookies",
+];
+
+function esDesafio(texto) {
+  const bajo = (texto || "").toLowerCase();
+  return MARCAS_DESAFIO.some((m) => bajo.includes(m));
+}
+
+async function pedir(destino) {
+  let ultima = null;
+  for (let intento = 1; intento <= INTENTOS; intento++) {
+    let respuesta;
+    try {
+      respuesta = await fetch(destino, { headers: CABECERAS, redirect: "follow" });
+    } catch (exc) {
+      ultima = { error: String(exc), intento };
+      continue;
+    }
+
+    // Solo se lee el cuerpo cuando hay que decidir si es un desafío. Leerlo
+    // siempre duplicaría el trabajo en el caso bueno, que es el que importa.
+    if (respuesta.status !== 200) {
+      const texto = await respuesta.clone().text();
+      if (esDesafio(texto)) {
+        ultima = { status: respuesta.status, desafio: true, intento };
+        if (intento < INTENTOS) {
+          await new Promise((r) => setTimeout(r, ESPERA_MS));
+          continue;
+        }
+      }
+      return { respuesta, intento, desafio: esDesafio(texto) };
+    }
+    return { respuesta, intento, desafio: false };
+  }
+  return { respuesta: null, ...ultima };
+}
 
 export default {
   async fetch(peticion, env) {
@@ -65,25 +128,28 @@ export default {
       return new Response("ruta no permitida", { status: 400 });
     }
 
-    let respuesta;
-    try {
-      respuesta = await fetch(destino.toString(), {
-        headers: CABECERAS,
-        redirect: "follow",
-      });
-    } catch (exc) {
+    const salida = await pedir(destino.toString());
+
+    if (!salida.respuesta) {
       // Que el fallo se vea en el cliente: si el relay devolviera 200 vacío, el
       // bot lo tomaría por una respuesta buena y guardaría un roster vacío.
-      return new Response(`relay: ${exc}`, { status: 502 });
+      return new Response(`relay: ${salida.error || "sin respuesta"}`, {
+        status: 502,
+        headers: { "x-relay-intentos": String(salida.intento || 0) },
+      });
     }
 
-    return new Response(respuesta.body, {
-      status: respuesta.status,
+    return new Response(salida.respuesta.body, {
+      status: salida.respuesta.status,
       headers: {
         "content-type":
-          respuesta.headers.get("content-type") || "application/octet-stream",
-        // Para que se pueda diagnosticar desde el otro lado sin adivinar.
-        "x-relay-upstream": String(respuesta.status),
+          salida.respuesta.headers.get("content-type") || "application/octet-stream",
+        // Para que se pueda diagnosticar desde el otro lado sin adivinar:
+        // qué contestó dpm.lol, cuántos intentos hicieron falta y si el cuerpo
+        // que llega es el desafío y no el JSON.
+        "x-relay-upstream": String(salida.respuesta.status),
+        "x-relay-intentos": String(salida.intento),
+        "x-relay-desafio": salida.desafio ? "1" : "0",
         "cache-control": "no-store",
       },
     });

@@ -425,7 +425,8 @@ def prueba_relay() -> None:
     from apis import transporte_dpm as t
 
     antes = (t.RELAY_URL, t.RELAY_CLAVE, t._pedir_una, t._pedir_por_relay,
-             t._ultimo_bloqueo, t._ultimo_ok)
+             t._ultimo_bloqueo, t._ultimo_ok, t._relay_fallos_seguidos,
+             t._relay_en_cuarentena_hasta)
     llamadas: list[str] = []
     try:
         t._ultimo_bloqueo = 0.0
@@ -461,9 +462,35 @@ def prueba_relay() -> None:
         # 4 · El relay no anota bloqueo: que falle no dice nada de dpm.lol.
         ok(t._ultimo_bloqueo == 0.0,
            "un relay caído no se cuenta como bloqueo de dpm.lol")
+
+        # 5 · Un relay que falla siempre entra en cuarentena y deja de gastar
+        #     peticiones. El 01-11-2026 el Worker devolvía el desafío de Cloudflare
+        #     en el 100 % de los casos y cada ficha pagaba un viaje para nada:
+        #     1 800 fallos en una hora.
+        t._relay_fallos_seguidos = 0
+        t._relay_en_cuarentena_hasta = 0.0
+        for _ in range(t.FALLOS_PARA_CUARENTENA):
+            t._anotar_fallo_relay("prueba")
+        ok(t.relay_en_cuarentena(),
+           "a los %d fallos seguidos el relay va a cuarentena"
+           % t.FALLOS_PARA_CUARENTENA)
+
+        llamadas.clear()
+        # Se devuelve la función de verdad: la comprobación de cuarentena vive
+        # dentro de ella, así que con un doble no se estaría probando nada.
+        t._pedir_por_relay = antes[3]
+        r = t.pedir("https://dpm.lol/v1/pros/X")
+        ok(bool(r) and r.transporte == "curl_cffi",
+           "en cuarentena ni se intenta: se va directo a curl_cffi")
+        ok(llamadas == ["curl_cffi"], "sin gastar un viaje al relay", str(llamadas))
+
+        t._anotar_relay_bueno()
+        ok(not t.relay_en_cuarentena(),
+           "un 200 del relay lo devuelve al servicio (no es permanente)")
     finally:
         (t.RELAY_URL, t.RELAY_CLAVE, t._pedir_una, t._pedir_por_relay,
-         t._ultimo_bloqueo, t._ultimo_ok) = antes
+         t._ultimo_bloqueo, t._ultimo_ok, t._relay_fallos_seguidos,
+         t._relay_en_cuarentena_hasta) = antes
 
 
 def prueba_worker_del_relay() -> None:

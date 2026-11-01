@@ -890,15 +890,28 @@ Cloudflare —la única que está *dentro* de la protección— y devuelve el cu
 - Plan free: 100 000 peticiones al día; el bot hace del orden de 1 500.
 - Montaje en `infra/relay-dpm/README.md` (cuenta gratis, sin dominio ni tarjeta).
 
-**Desplegado el 01-11-2026 y verificado:** `jeta-dpm-relay` en
-`https://jeta-dpm-relay.jeta-dpm-relay.workers.dev`, con `upstream=200` contra
-dpm.lol (2,8 KB de la ficha de un jugador) y 83 jugadores en el leaderboard de la
-LEC en 1,3 s a través del transporte del proyecto (`transporte = relay`). Desde
-Render ya no hay 403: el relay entra donde el datacenter no entraba.
+**Desplegado el 01-11-2026 y medido: no sirve todavía.** `jeta-dpm-relay` en
+`https://jeta-dpm-relay.jeta-dpm-relay.workers.dev` entró **una vez**
+(`upstream=200`, JSON real) y después dpm.lol le contesta la página de desafío de
+Cloudflare («Just a moment…») en el 100 % de las peticiones: 25 de 25, 3 de 3
+reintentos, y en todas las rutas. Las subpeticiones de un Worker salen por un
+**pool de IPs compartido** de Cloudflare, y ese pool también está marcado. No es
+«Cloudflare está dentro de la protección»: es que comparte IP con miles de
+clientes.
 
-- La clave (`RELAY_KEY` del Worker = `DPM_RELAY_SECRET` en Render) **no** está en
-  el repo: es público. Vive en Cloudflare y en las variables de Render. En local,
-  en `~/relay_key.txt`.
+Lo que se queda de todo eso:
+
+- El Worker **reintenta** 3 veces: la IP de salida cambia entre subpeticiones, así
+  que reintentar aquí sí puede cambiar el resultado (desde Render no, la IP es
+  fija). Cabeceras `x-relay-upstream`, `x-relay-intentos` y `x-relay-desafio` para
+  diagnosticar sin adivinar.
+- El bot pone el relay en **cuarentena** a los 3 fallos seguidos, 30 min
+  (`CUARENTENA_RELAY`). Sin eso, cada ficha de cada liga pagaba un viaje inútil:
+  medido, 1 800 fallos en una hora. Vuelve solo al primer 200.
+- `resumen()` (el banner de arranque) empieza por el relay. Antes «sin
+  configurar» y «configurado pero roto» se veían igual: 403 y ninguna pista.
+- La lista blanca del Worker incluye `/tierlist` desde el 01-11: sin ella
+  `apis/dpm.py` recibía un 400 **del propio relay** en cada arranque.
 - Redesplegar sin npm: `CF_API_TOKEN=… python scripts/desplegar_relay.py`. La API
   de scripts exige **multipart con `main_module`**; mandar el `.js` a pelo con
   `application/javascript` lo trata como script clásico y muere con
@@ -908,12 +921,16 @@ Render ya no hay 403: el relay entra donde el datacenter no entraba.
 - El certificado de un subdominio `workers.dev` recién creado tarda un par de
   minutos: hasta entonces el handshake TLS falla. No es que el Worker esté mal.
 
-Con el relay funcionando, el bot recupera su rotación horaria de rosters y el
-`accounts_from_leaderboard` de las ocho plataformas, y el workflow de GitHub pasa
-a ser respaldo. **No** se quita: si dpm.lol bloquea también a Cloudflare, es lo
-único que queda, y mientras el bot duerme (plan free) es lo que mantiene el censo
-al día. Al workflow le falta `secrets.DPM_RELAY_SECRET` para dejar de ser una
-lotería; sin ese secreto sigue funcionando como antes, con `curl_cffi`.
+La clave (`RELAY_KEY` del Worker = `DPM_RELAY_SECRET` en Render) **no** está en el
+repo: es público. Vive en Cloudflare y en las variables de Render. En local, en
+`~/relay_key.txt`.
+
+Con el relay en cuarentena el bot está como antes del relay: barriendo con el
+censo y refrescando rosters por el workflow de GitHub, que es una lotería (1 de
+cada 6 ejecuciones) pero con ~24 IPs al día basta para una lista que cambia por
+semanas. **No** se quita ninguna de las dos piezas: el workflow es lo que
+mantiene el censo al día mientras el bot duerme, y el relay se aprovecha solo si
+algún día vuelve a servir.
 
 ### Worlds: la ventana es anual y los eliminados no se borran
 

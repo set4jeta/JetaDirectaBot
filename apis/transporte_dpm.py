@@ -97,24 +97,69 @@ _veces_respaldo = 0
 _veces_fallo_relay = 0
 _ultimo_fallo_relay = ""
 
+#: Cuántos fallos **seguidos** del relay hacen falta para ponerlo en cuarentena,
+#: y cuánto dura. El relay se probó el 01-11-2026 y dpm.lol contestaba al Worker
+#: la página de desafío de Cloudflare («Just a moment…») en el 100 % de las
+#: peticiones: las subpeticiones de un Worker salen por un pool de IPs compartido
+#: que también está marcado. Sin cuarentena, cada ficha de cada liga pagaba un
+#: viaje al relay para nada — medido, 1 800 fallos en una hora.
+#:
+#: La cuarentena es larga a propósito: lo que puede cambiar es la reputación de
+#: ese pool, y eso se mueve en horas, no en minutos. Y no es permanente: si dpm
+#: afloja, la primera petición tras la cuarentena vuelve a entrar sola.
+CUARENTENA_RELAY = 1800.0
+FALLOS_PARA_CUARENTENA = 3
+
+_relay_fallos_seguidos = 0
+_relay_en_cuarentena_hasta = 0.0
+
+
+def relay_en_cuarentena() -> bool:
+    """¿Está el relay apartado por fallar seguido?"""
+    return _relay_en_cuarentena_hasta > 0 and time.time() < _relay_en_cuarentena_hasta
+
 
 def _anotar_fallo_relay(motivo: str) -> None:
     """Deja constancia de un fallo del relay, sin inundar el log.
 
     Las tres primeras veces se cuentan enteras (es cuando se está montando y hay
     que ver el motivo); después, una de cada 200, que basta para saber que sigue
-    roto sin llenar la consola de Render.
+    roto sin llenar la consola de Render. Al tercer fallo **seguido** el relay
+    entra en cuarentena y deja de intentarse, que es lo que evita que un relay
+    inútil encarezca cada petición del bot.
     """
     global _veces_fallo_relay, _ultimo_fallo_relay
+    global _relay_fallos_seguidos, _relay_en_cuarentena_hasta
     with _lock:
         _veces_fallo_relay += 1
         veces = _veces_fallo_relay
         _ultimo_fallo_relay = motivo
-    if veces <= 3 or veces % 200 == 0:
+        _relay_fallos_seguidos += 1
+        if _relay_fallos_seguidos >= FALLOS_PARA_CUARENTENA and not relay_en_cuarentena():
+            _relay_en_cuarentena_hasta = time.time() + CUARENTENA_RELAY
+            cuarentena = True
+        else:
+            cuarentena = False
+    if cuarentena:
+        log.warning(
+            "dpm.lol: el relay lleva %d fallos seguidos (%s). En cuarentena %.0f "
+            "minutos: se sigue por curl_cffi/cloudscraper y se reintenta el relay "
+            "después.",
+            _relay_fallos_seguidos, motivo, CUARENTENA_RELAY / 60,
+        )
+    elif veces <= 3 or veces % 200 == 0:
         log.warning(
             "dpm.lol: el relay falló (%s). Se sigue por curl_cffi/cloudscraper "
             "(van %d fallo(s) del relay).", motivo, veces,
         )
+
+
+def _anotar_relay_bueno() -> None:
+    """Un 200 del relay rompe la racha y levanta la cuarentena."""
+    global _relay_fallos_seguidos, _relay_en_cuarentena_hasta
+    with _lock:
+        _relay_fallos_seguidos = 0
+        _relay_en_cuarentena_hasta = 0.0
 
 #: Cuándo se vio el último **bloqueo de Cloudflare** (los dos transportes
 #: rechazados a la vez) y cuántas veces ha pasado. Existe porque el 01-11-2026 el
@@ -244,6 +289,8 @@ def _pedir_por_relay(url: str, timeout: float) -> Respuesta | None:
     """
     if not RELAY_URL:
         return None
+    if relay_en_cuarentena():
+        return None
 
     import requests  # ya es dependencia del proyecto; se importa aquí para no
     # cargarla en los procesos que solo usan curl_cffi.
@@ -267,8 +314,12 @@ def _pedir_por_relay(url: str, timeout: float) -> Respuesta | None:
         cuerpo = (resp.text or "").strip()[:80]
         if cuerpo == "forbidden":
             _anotar_fallo_relay("la clave no coincide (el Worker contesta 'forbidden')")
+        elif "just a moment" in (resp.text or "").lower():
+            _anotar_fallo_relay("dpm.lol contesta el desafío de Cloudflare al Worker")
         else:
             _anotar_fallo_relay(f"HTTP {resp.status_code} {cuerpo}".strip())
+    else:
+        _anotar_relay_bueno()
     return Respuesta(resp.status_code, resp.text or "", "relay")
 
 
@@ -404,6 +455,9 @@ def resumen() -> str:
     )
     if _veces_fallo_relay:
         texto += f" · fallos del relay: {_veces_fallo_relay} (último: {_ultimo_fallo_relay})"
+    if relay_en_cuarentena():
+        faltan = max(0.0, _relay_en_cuarentena_hasta - time.time())
+        texto += f" · RELAY EN CUARENTENA {faltan / 60:.0f} min más"
     if _bloqueos:
         texto += f" · BLOQUEOS de Cloudflare: {_bloqueos}"
     return texto

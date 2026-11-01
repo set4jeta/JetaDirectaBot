@@ -20,7 +20,7 @@ No es un fallo del cliente ni del scraper — es la reputación de la IP, y ni l
 Render ni la de un runner se puede cambiar. La red de Cloudflare es la única que
 está *dentro* de la protección, y por eso es la que sirve.
 
-## Estado: desplegado y funcionando
+## Estado: desplegado, pero dpm.lol lo desafía
 
 | Dato | Valor |
 |---|---|
@@ -31,6 +31,26 @@ está *dentro* de la protección, y por eso es la que sirve.
 
 El subdominio `jeta-dpm-relay.workers.dev` es de la cuenta: no hay dominio propio
 ni tarjeta de por medio, y el plan es el gratuito (100 000 peticiones al día).
+
+**Lo que pasó de verdad, medido el 01-11-2026.** La primera petición volvió con
+`upstream=200` y el JSON real de la ficha de un jugador: el camino existe. Un
+rato después, y de forma sostenida, dpm.lol contesta al Worker la página de
+desafío de Cloudflare («Just a moment…») en el **100 %** de las peticiones — 25
+de 25, y también 3 de 3 reintentos por petición, y en todas las rutas (`/v1/pros`,
+`/tierlist`, leaderboards). Las subpeticiones de un Worker salen por un **pool de
+IPs compartido** entre todos los clientes de Cloudflare, y ese pool también tiene
+mala reputación. Ser Cloudflare no da buena reputación: da una IP compartida.
+
+De ahí que el Worker reintente (la IP cambia entre subpeticiones, así que
+reintentar aquí sí puede cambiar el resultado, a diferencia de Render, donde la
+IP es fija) y de ahí la **cuarentena** del lado del bot: a los 3 fallos seguidos
+deja de intentarlo 30 minutos, para que un relay inútil no encarezca cada ficha
+del scraping. Vuelve solo: si dpm afloja, la primera petición tras la cuarentena
+entra sin tocar nada.
+
+**Conclusión honesta:** hoy el relay no sustituye al workflow de GitHub. Se deja
+montado porque cuesta cero mantenerlo y porque la reputación de ese pool cambia
+con los días; si vuelve a servir, el bot lo aprovecha sin que nadie haga nada.
 
 ## Probarlo
 

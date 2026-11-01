@@ -932,6 +932,23 @@ semanas. **No** se quita ninguna de las dos piezas: el workflow es lo que
 mantiene el censo al día mientras el bot duerme, y el relay se aprovecha solo si
 algún día vuelve a servir.
 
+### La vía sin lotería: el PC del dueño
+
+Render, los runners de GitHub y los Workers de Cloudflare salen todos por IPs de
+datacenter, y las tres están bloqueadas. La única IP que entra siempre es la de
+casa, así que el refresco que funciona de verdad es el que corre en el PC:
+
+- `scripts/tarea_rosters.py` envuelve a `refrescar_rosters.py`: candado
+  (`logs/tarea_rosters.lock`, para que dos procesos no escriban a la vez el
+  `accounts_from_teams.json` y dejen el censo a medias), log rotado a
+  `logs/tarea_rosters.log` y **freno de 5 h** por defecto.
+- La tarea programada de Windows lo lanza cada 6 h con `pythonw.exe`, sin
+  ventana. Se crea con `schtasks` (ver `DESPLIEGUE.md` §8); **no** se puede crear
+  desde el agente: `schtasks.exe` está en la lista negra de seguridad del equipo.
+- El freno (5 h) tiene que ser **menor** que el intervalo (6 h) o la tarea no
+  haría nada nunca. Es el mismo error que tuvo el workflow durante un día.
+- Si el PC está apagado, esa vuelta se pierde y ya está: la siguiente intenta.
+
 ### Worlds: la ventana es anual y los eliminados no se borran
 
 - `Liga.ventana_anual` es `((mes, día), (mes, día))` y se repite cada año. Antes

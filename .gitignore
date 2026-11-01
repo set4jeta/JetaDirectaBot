@@ -91,3 +91,6 @@ avisos.jsonl
 # (`core/estado_remoto.ARCHIVOS`), que es donde sobreviven a los despliegues.
 tracking/soloq/egress.json
 tracking/soloq/censo_compacto.json
+
+# Los del refresco desde el PC (scripts/tarea_rosters.py).
+logs/

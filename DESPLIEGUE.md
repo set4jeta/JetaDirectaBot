@@ -334,9 +334,9 @@ hace un runner de GitHub —que sale por otra IP— y deja el resultado en la ra
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` |
 
-La IP del runner **no** está limpia: medido el 01-11-2026, de seis ejecuciones
-seguidas una pasó y cinco se comieron un 403 desde la primera petición. Es una
-lotería entre ejecuciones, así que el workflow echa muchos números (8 vueltas ×
+La IP del runner **no** está limpia: medido el 01-11-2026, de nueve ejecuciones
+seguidas una pasó y ocho se comieron un 403 desde la primera petición. Es una
+lotería entre ejecuciones, así que el workflow echa muchos números (24 vueltas ×
 3 intentos al día) y las vueltas que no hacen falta se saltan solas con
 `--si-mas-de-minutos`.
 
@@ -349,6 +349,41 @@ bloqueado—; el `GITHUB_TOKEN` de serie basta.
 Para comprobarlo: pestaña Actions → «Refrescar rosters» → Run workflow, o
 `git log` de la rama `estado` (un commit «Estado del bot:
 tracking/soloq/censo_compacto.json» por publicación).
+
+### La vía que no es lotería: el PC del dueño
+
+Ni Render ni un runner ni un Worker de Cloudflare entran en dpm.lol: los tres
+salen por IPs de datacenter. La única que entra siempre es la de casa (200 en el
+100 % de las peticiones, medido el 01-11-2026). Así que el refresco que de verdad
+funciona es el que se ejecuta en el PC:
+
+| Pieza | Qué hace |
+|---|---|
+| `scripts/tarea_rosters.py` | envuelve a `refrescar_rosters.py`: candado, log a `logs/tarea_rosters.log` y freno de 5 h |
+| tarea programada de Windows | lo lanza cada 6 h con `pythonw.exe` (sin ventana) |
+
+El freno de 5 h tiene que ser **menor** que el intervalo de 6 h o la tarea no
+haría nada nunca: es el mismo error que tuvo el workflow de GitHub durante un día
+(cron cada 3 h con un freno de 5 h).
+
+Se crea una sola vez, en una consola del usuario (no hace falta administrador):
+
+```powershell
+schtasks /Create /TN "LoLProTrackr rosters" /SC HOURLY /MO 6 /ST 20:30 `
+  /TR "\"C:\Users\Chino\.workbuddy-ai\binaries\python\envs\default\Scripts\pythonw.exe\" \"C:\jetabot res 8\JetaDirectaBot\scripts\tarea_rosters.py\"" /F
+```
+
+Comprobar y borrar:
+
+```powershell
+schtasks /Query /TN "LoLProTrackr rosters" /FO LIST /V
+schtasks /Delete /TN "LoLProTrackr rosters" /F
+```
+
+Si el PC está apagado a la hora de la tarea, esa vuelta se pierde y no pasa
+nada: la siguiente intenta igual. Con el workflow de GitHub detrás, la suma de
+las dos vías deja el censo al día casi siempre. El resultado de cada vuelta queda
+en `logs/tarea_rosters.log` (rotado a 1 MB, 3 copias).
 
 ### La red de seguridad
 

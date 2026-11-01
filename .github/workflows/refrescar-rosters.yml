@@ -134,6 +134,15 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install aiohttp beautifulsoup4 lxml cloudscraper curl_cffi python-dotenv
 
+      # Dice si la clave del relay está guardada como secreto, como variable, o
+      # en ninguna de las dos. Sin esto, «la clave no coincide» en el log del
+      # script no distingue un error de la clave de un error de dónde se guardó,
+      # y las dos cosas se arreglan en sitios distintos de la pantalla.
+      - name: Comprobar dónde está la clave del relay
+        run: |
+          echo "DPM_RELAY_SECRET como secreto: ${{ secrets.DPM_RELAY_SECRET != '' }}"
+          echo "DPM_RELAY_SECRET como variable: ${{ vars.DPM_RELAY_SECRET != '' }}"
+
       - name: Refrescar rosters y publicar el censo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -148,7 +157,12 @@ jobs:
           # relay contesta `forbidden` y el script sigue por el camino de
           # siempre — no se rompe nada, solo se pierde la ventaja.
           DPM_RELAY_URL: https://jeta-dpm-relay.jeta-dpm-relay.workers.dev
-          DPM_RELAY_SECRET: ${{ secrets.DPM_RELAY_SECRET }}
+          # Se acepta el secreto **o** la variable. En la pantalla de GitHub las
+          # dos pestañas están una al lado de la otra («Secrets» y «Variables») y
+          # es fácil crear la entrada en la que no es: con `secrets.X` a secas, la
+          # variable no llega y el Worker contesta `forbidden`, que parece un
+          # problema del relay y es un problema de dónde se guardó la clave.
+          DPM_RELAY_SECRET: ${{ secrets.DPM_RELAY_SECRET || vars.DPM_RELAY_SECRET }}
           # Sin esto los `print`/logs del script llegan al final de todo y no se
           # puede seguir la ejecución en vivo.
           PYTHONUNBUFFERED: '1'

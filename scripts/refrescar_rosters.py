@@ -27,22 +27,30 @@ Uso:
     python scripts/refrescar_rosters.py --ligas lec,lck     # solo esas
     python scripts/refrescar_rosters.py --sin-publicar      # no toca GitHub
     python scripts/refrescar_rosters.py --sin-puuid         # sin la API de Riot
-    python scripts/refrescar_rosters.py --si-mas-de-horas 6 # no repetir si está fresco
+    python scripts/refrescar_rosters.py --si-mas-de-minutos 5 # no repetir si acaba de publicar
 
 Devuelve 0 si al menos una liga se refrescó (o si no hacía falta), 1 si no se
 pudo ninguna: el workflow falla y se ve en la pestaña Actions en vez de quedarse
 callado con un censo viejo.
 
-Por qué `--si-mas-de-horas`
----------------------------
+Por qué `--si-mas-de-minutos`
+----------------------------
 La reputación de la IP de un runner de GitHub **cambia de una ejecución a otra**.
-Medido el 01-11-2026 con dos runs seguidos del mismo código: el primero pasó con
-~16 % de peticiones rechazadas y reintentadas; el segundo recibió 403 en todo,
-leaderboard incluido, desde la primera petición. Como la IP no cambia dentro de
-una ejecución, la única forma de reintentar es **otra ejecución**, y eso es lo
-que hace el workflow con tres intentos en serie. Este freno es lo que evita que
-el segundo y el tercero repitan el scraping entero cuando el primero ya publicó:
-si el censo de la rama es más joven que N horas, no se hace nada y se sale con 0.
+Medido el 01-11-2026 con runs seguidos del mismo código: uno pasó con ~16 % de
+peticiones rechazadas y reintentadas (las 49 fichas de la LEC entraron igual), y
+los otros dos recibieron 403 en todo, leaderboard incluido, desde la primera
+petición. Como la IP no cambia dentro de una ejecución, la única forma de
+reintentar es **otra ejecución**, y eso es lo que hace el workflow con tres
+intentos en serie.
+
+Este freno es lo que evita que el segundo y el tercero repitan el scraping entero
+cuando el primero ya publicó: si el censo de la rama es más joven que N minutos,
+no se hace nada y se sale con 0.
+
+Y son **minutos, no horas**, y esa diferencia costó un run: con el umbral en 6 h,
+el segundo y el tercer intento se saltaron el trabajo porque el censo del run
+anterior tenía 13 minutos — o sea que el workflow «pasó» con el primero bloqueado
+y dos intentos que no intentaron nada.
 """
 
 from __future__ import annotations
@@ -209,16 +217,23 @@ async def _run(args) -> int:
         # pasada sea incremental en vez de un alta desde cero (ver
         # `_preparar_censo_previo`).
         await estado_remoto.restaurar(solo=estado_remoto.CENSO)
-        if args.si_mas_de_horas > 0 and not args.forzar:
-            # Otra ejecución (de este mismo workflow, unos minutos antes) ya
-            # publicó. Reintentar aquí solo gastaría 20 minutos de scraping.
-            edad_h = censo.edad_dias()
-            edad_h = None if edad_h is None else edad_h * 24
-            if edad_h is not None and edad_h < args.si_mas_de_horas:
+        if args.si_mas_de_minutos > 0 and not args.forzar:
+            # Otra ejecución (de este mismo workflow, hace un momento) ya
+            # publicó. Reintentar aquí solo gastaría minutos de scraping.
+            #
+            # Se mide en **minutos** y no en horas a propósito: el freno tiene
+            # que distinguir «este mismo run ya publicó hace 40 segundos» de «el
+            # run anterior publicó hace 13 minutos». Con horas, el segundo y el
+            # tercer intento se saltaban el trabajo aunque el primero hubiera
+            # fallado con la IP bloqueada — que es justo lo que pasó el
+            # 01-11-2026, y dejó dos intentos que «pasaron» sin hacer nada.
+            edad_min = censo.edad_dias()
+            edad_min = None if edad_min is None else edad_min * 24 * 60
+            if edad_min is not None and edad_min < args.si_mas_de_minutos:
                 log.info(
-                    "El censo de la rama tiene %.2f h (menos de %.0f): no hace "
+                    "El censo de la rama tiene %.1f min (menos de %.0f): no hace "
                     "falta otra pasada. Usa --forzar para hacerla igualmente.",
-                    edad_h, args.si_mas_de_horas,
+                    edad_min, args.si_mas_de_minutos,
                 )
                 return 0
     _preparar_censo_previo()
@@ -262,8 +277,8 @@ def main() -> int:
         help="no baja el censo de la rama (alta desde cero)",
     )
     parser.add_argument(
-        "--si-mas-de-horas", type=float, default=0.0, metavar="H",
-        help="no hace nada si el censo de la rama tiene menos de H horas (0 = siempre)",
+        "--si-mas-de-minutos", type=float, default=0.0, metavar="M",
+        help="no hace nada si el censo de la rama tiene menos de M minutos (0 = siempre)",
     )
     parser.add_argument(
         "--forzar", action="store_true",

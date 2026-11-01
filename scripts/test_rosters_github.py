@@ -400,13 +400,13 @@ def prueba_no_repite_si_esta_fresco() -> None:
 
             args = Namespace(
                 ligas=[], sin_publicar=True, sin_puuid=True, sin_restaurar=False,
-                si_mas_de_horas=6.0, forzar=False,
+                si_mas_de_minutos=5.0, forzar=False,
             )
             ok(asyncio.run(refrescar_rosters._run(args)) == 0,
                "sale con 0 sin scrapear")
 
             args.forzar = True
-            args.si_mas_de_horas = 0.0
+            args.si_mas_de_minutos = 0.0
             disparado = []
             refrescar_rosters._refrescar = lambda codigos: (disparado.append(1), (0, 0))[1]
             asyncio.run(refrescar_rosters._run(args))

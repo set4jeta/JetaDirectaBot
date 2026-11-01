@@ -817,9 +817,24 @@ El reparto es este, y las tres piezas tienen que existir o el resto no sirve:
 
 | Pieza | Qué hace |
 |---|---|
-| `.github/workflows/refrescar-rosters.yml` | cron diario 04:17 UTC + `workflow_dispatch` + `push` sobre el scraper (se prueba solo) |
+| `.github/workflows/refrescar-rosters.yml` | cron diario 04:17 UTC + `workflow_dispatch` + `push` sobre el scraper (se prueba solo), con **3 intentos** |
 | `scripts/refrescar_rosters.py` | siembra el censo de la rama, refresca liga por liga, repara PUUID y publica |
 | `background_tasks.sincronizar_censo_remoto` | el bot se vuelve a bajar el censo cada `CENSO_SINCRONIZAR_HORAS` (6 h) |
+
+**La IP del runner es una lotería, y hay que contar con ello.** Medido el
+01-11-2026 con dos ejecuciones seguidas del mismo código: la primera pasó con
+~16 % de peticiones rechazadas y reintentadas (las 49 fichas de la LEC entraron
+igual), y la segunda recibió 403 en **todo** desde la primera petición,
+leaderboard incluido. No es el muro del 100 % que hay desde Render, pero tampoco
+es fiable. Dentro de una ejecución la IP no cambia, así que la única forma de
+reintentar es **otra ejecución**: de ahí la matriz de tres intentos en serie
+(`max-parallel: 1`). El primero fuerza el scraping; los otros dos llevan
+`--si-mas-de-horas 6` y salen con 0 si el censo de la rama ya es reciente.
+
+Y de ahí el discriminador de `transporte_dpm.bloqueado_recientemente()`: cuenta
+como bloqueo solo si **la última respuesta fue mala**. Un 403 suelto con
+respuestas buenas detrás es un tropezón de Cloudflare y hay que seguir; sin eso,
+el primer tropezón daba por bloqueadas las 20 ligas restantes.
 
 Detalles que importan:
 
@@ -829,9 +844,12 @@ Detalles que importan:
   contadores vivos del bot y el de ancho de banda daría un salto atrás. Por eso
   `restaurar`/`guardar` aceptan `solo`.
 - El script **siembra el censo de la rama como `accounts_from_teams.json`**
-  antes de refrescar. Sin eso cada ejecución sería un alta desde cero (el repo
-  viene limpio, el fichero está en `.gitignore`) y se perderían los PUUID: ~2 000
-  peticiones a Riot cada día.
+  antes de refrescar, **solo si ese fichero no tiene jugadores**. Sin la siembra
+  cada ejecución sería un alta desde cero (el repo viene limpio, el fichero está
+  en `.gitignore`) y se perderían los PUUID: ~2 000 peticiones a Riot cada día.
+  Pero sembrar siempre es peor: la copia compacta no guarda `rank`,
+  `profile_icon` ni `links`, así que sustituir por ella el censo bueno es perder
+  datos. La copia es un respaldo, no la fuente.
 - Liga por liga y no todo en una llamada: cada liga que termina se escribe, así
   que un timeout deja hecho lo anterior.
 - `RIOT_API_KEY` en el workflow es **opcional**. Sin ella se publican cuentas sin

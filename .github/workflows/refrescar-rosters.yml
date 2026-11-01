@@ -84,8 +84,9 @@ jobs:
     # la primera petición, leaderboard incluido. Dentro de una ejecución la IP no
     # cambia, así que la única forma de reintentar es otra ejecución.
     #
-    # El segundo y el tercero no repiten trabajo: `--si-mas-de-horas 6` los deja
-    # salir con 0 en cuanto ven que el censo de la rama es reciente.
+    # El segundo y el tercero no repiten trabajo: `--si-mas-de-minutos 5` los deja
+    # salir con 0 si el censo de la rama se publicó hace un momento (por el
+    # intento anterior de este mismo run).
     strategy:
       max-parallel: 1
       fail-fast: false
@@ -124,9 +125,11 @@ jobs:
             # El primero va siempre: es el que hace el trabajo. Los otros dos
             # existen por si a este le tocó una IP bloqueada, y por eso llevan
             # el freno: si el primero ya publicó, no repiten el scraping.
+            # 5 minutos y no horas: el intento anterior publica segundos antes,
+            # pero el censo del run de ayer tiene 24 h y no debe frenar nada.
             ARGS="--forzar"
           else
-            ARGS="--si-mas-de-horas 6"
+            ARGS="--si-mas-de-minutos 5"
           fi
           if [ -n "${{ inputs.ligas }}" ]; then
             ARGS="$ARGS --ligas ${{ inputs.ligas }}"

@@ -106,28 +106,82 @@ def prueba_urls() -> None:
     ok(url_imagen_jugador("Caps") == "https://dpm.lol/esport/players/caps.webp",
        "la foto del jugador apunta a dpm.lol", url_imagen_jugador("Caps"))
 
-    # El contrato que hace que el cambio sea invisible: **la URL remota y el
-    # fichero local son el mismo nombre de fichero**. Es lo que garantiza que
-    # Discord reciba exactamente la imagen que antes se subía, y se comprueba
-    # así —comparando los dos nombres— en vez de contra un nombre escrito a mano,
-    # porque un jugador inventado no tiene foto y la comparación fallaría por el
-    # motivo equivocado.
-    import os as _os
-    from ui.player_image_utils import get_player_image_path
-
-    for nombre in ("Caps", "Broken Blade", "Odoamne Jr.", "Nemesis"):
-        url = url_imagen_jugador(nombre)
-        local = _os.path.basename(get_player_image_path(nombre))
-        ok(url.endswith(local),
-           f"la URL de {nombre!r} usa el mismo fichero que la caché local",
-           f"{url.rsplit('/', 1)[-1]} == {local}")
-
     ok(url_imagen_jugador("") == "https://dpm.lol/esport/players/nopicture.webp",
        "sin nombre cae al marcador de dpm.lol, que es una URL válida",
        url_imagen_jugador(""))
     ok(url_imagen_equipo("") is None, "sin equipo no se pone imagen")
     ok(url_imagen_equipo("G2") == "https://dpm.lol/esport/teams/G2.webp",
        "el logo apunta a dpm.lol", url_imagen_equipo("G2") or "")
+
+    # El nombre del fichero remoto es el mismo que el de la caché local: es lo que
+    # garantiza que Discord reciba exactamente la imagen que antes se subía.
+    for nombre, fichero in (("Caps", "caps.webp"), ("Broken Blade", "brokenblade.webp")):
+        ok(url_imagen_jugador(nombre) == f"https://dpm.lol/esport/players/{fichero}",
+           f"la URL de {nombre!r} usa el fichero de dpm", url_imagen_jugador(nombre))
+
+
+def prueba_foto_sin_bloquearse() -> None:
+    """Un 403 **no** es un 404: si no se puede comprobar, se manda la URL igual.
+
+    Este es el fallo del 01-11-2026. Para saber si un jugador tenía foto, el bot
+    la descargaba desde Render, donde dpm contesta 403. La descarga fallaba y el
+    bot mandaba `nopicture.webp`: JackieLove e Inspired salían con el muñeco
+    aunque su foto existe. Solo se libraban los 62 jugadores que ya estaban en
+    `assets/player_images/`, porque esos se resolvían del disco sin tocar la red.
+    """
+    print("\n=== sin poder comprobar la foto, se usa la URL (un 403 no es un 404) ===")
+    from ui import player_image_utils as pj
+    from ui import team_image_utils as teq
+
+    estado_pj, estado_eq = dict(pj._estado), dict(teq._estado)
+    bloqueado_pj, bloqueado_eq = pj._dpm_bloqueado, teq._dpm_bloqueado
+    pedir_antes = pj.requests.get
+    try:
+        # dpm bloqueado: ni se intenta la descarga.
+        pj._dpm_bloqueado = lambda: True
+        teq._dpm_bloqueado = lambda: True
+        pj._estado.clear()
+        teq._estado.clear()
+
+        url = pj.url_imagen_jugador("Inspired")
+        ok(url == "https://dpm.lol/esport/players/inspired.webp",
+           "un jugador sin caché local sale con su foto, no con el muñeco", url)
+        ok(pj._estado.get("Inspired") is None,
+           "el resultado es «no se pudo comprobar», no «no hay foto»",
+           str(pj._estado.get("Inspired")))
+
+        logo = teq.url_imagen_equipo("LYON")
+        ok(logo == "https://dpm.lol/esport/teams/LYON.webp",
+           "el logo del equipo sale aunque no esté en la caché local", logo or "None")
+
+        # Y el 404 de verdad sí lleva al muñeco: no se trata de no usar nunca el
+        # marcador, sino de no confundir «no lo sé» con «no existe».
+        pj._estado["Nadie"] = False
+        ok(pj.url_imagen_jugador("Nadie").endswith("/nopicture.webp"),
+           "con 404 confirmado sí se usa el marcador",
+           pj.url_imagen_jugador("Nadie"))
+        teq._estado["NADIE"] = False
+        ok(teq.url_imagen_equipo("NADIE") is None,
+           "con 404 confirmado el equipo se queda sin logo")
+
+        # Un 403 de verdad (sin bloqueo declarado) tampoco puede concluir nada.
+        class _Respuesta:
+            status_code = 403
+
+        pj._dpm_bloqueado = lambda: False
+        pj._estado.clear()
+        pj.requests.get = lambda *a, **k: _Respuesta()
+        ok(pj.url_imagen_jugador("Inspired") ==
+           "https://dpm.lol/esport/players/inspired.webp",
+           "un 403 en la descarga no se toma por «no hay foto»")
+    finally:
+        pj._estado.clear()
+        pj._estado.update(estado_pj)
+        teq._estado.clear()
+        teq._estado.update(estado_eq)
+        pj._dpm_bloqueado = bloqueado_pj
+        teq._dpm_bloqueado = bloqueado_eq
+        pj.requests.get = pedir_antes
 
 
 # --------------------------------------------------------------------- #
@@ -269,6 +323,7 @@ def main() -> None:
     with estado_temporal():
         prueba_sin_adjuntos_de_imagen()
         prueba_urls()
+        prueba_foto_sin_bloquearse()
         prueba_contador()
         prueba_degradacion()
         prueba_cambio_de_mes()

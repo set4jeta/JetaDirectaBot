@@ -509,6 +509,32 @@ se agota el presupuesto, lo que se cae es el `.bat`, **nunca el aviso**.
 que no da ningún error, el bot funciona perfecto y solo se nota en la factura
 tres semanas después. Lo vigila `scripts/test_salida_red.py`.
 
+### El segundo fallo de las imágenes: un 403 no es un 404 (01-11-2026)
+
+Al pasar a URLs quedó una comprobación que sobraba y que hacía daño: para saber si
+un jugador tenía foto, el bot **la descargaba** (`requests.get` a
+`dpm.lol/esport/players/<slug>.webp`) y, si la descarga fallaba, mandaba
+`nopicture.webp`. Pero dpm.lol contesta **403 a la IP de Render** —el mismo
+bloqueo que dejó al bot sin rosters—, así que la descarga fallaba siempre.
+
+El síntoma parecía de Worlds y no lo era: los **62** jugadores de
+`assets/player_images/` salían con su cara porque se resolvían del disco sin tocar
+la red, y todos los demás salían con el muñeco. En Worlds se notaba más porque
+casi ninguno está en ese puñado. JackieLove o Inspired salían sin foto y sin logo
+aunque su equipo (`LYON`) y su nombre se vieran en el embed, y la foto existía:
+`inspired.webp` y `LYON.webp` contestan 200 desde cualquier IP que no sea de
+datacenter.
+
+Ahora la comprobación tiene **tres** estados y solo uno lleva al muñeco:
+`True` hay foto · `False` dpm dijo **404** · `None` no se pudo comprobar (403,
+timeout, 5xx). Con `None` se manda la URL igual y la descarga la hace **Discord**,
+que no está bloqueado. Además, con `transporte_dpm.bloqueado_recientemente()`
+activo ni se intenta la descarga: se tardaría un timeout por jugador para nada.
+
+La regla general, que vale más allá de las imágenes: **que no podamos comprobar
+algo no significa que no exista.** Lo vigila `prueba_foto_sin_bloquearse` en
+`scripts/test_salida_red.py`.
+
 **Corrección del 01-11-2026: la causa de octubre era otra.** Aquel arreglo era
 necesario pero no suficiente. En octubre los avisos fueron **1,4 MB** y el mes
 cerró en **5 445 MB**: la partida grande es el **sondeo de la API de Riot**, y el

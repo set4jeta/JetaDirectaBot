@@ -3,7 +3,7 @@
     "start_time": "2026-11-03T22:00:00+00:00",
     "match_id": "115660540726095109",
     "detection_time": "2026-11-03T14:00:00+00:00",
-    "last_checked": "2026-11-03T22:08:53+00:00",
+    "last_checked": "2026-11-03T22:13:50+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Quarterfinals",
@@ -13,17 +13,17 @@
     "best_of_count": 5,
     "teams_event_details": [
       {
-        "id": "99566404854685458",
-        "name": "TOP ESPORTS",
-        "code": "TES",
-        "image": "https://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-        "game_wins": 0
-      },
-      {
         "id": "99566404848691211",
         "name": "Invictus Gaming",
         "code": "IG",
         "image": "https://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+        "game_wins": 0
+      },
+      {
+        "id": "99566404854685458",
+        "name": "TOP ESPORTS",
+        "code": "TES",
+        "image": "https://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
         "game_wins": 0
       }
     ],

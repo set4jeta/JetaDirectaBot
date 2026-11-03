@@ -187,6 +187,37 @@ def prueba_variable_de_entorno() -> None:
             os.environ["LOL_PATH"] = real
 
 
+def prueba_trampas_de_cmd() -> None:
+    """Las dos trampas que dejaron el `.bat` mudo y no daban ningún error.
+
+    Las dos se descubrieron ejecutando el `.bat` de verdad en el PC, no leyendo
+    el código: el fichero se veía perfecto y no encontraba nada.
+    """
+    print("\n=== las trampas de cmd que fallaban en silencio ===")
+
+    texto = _bat()
+
+    # 1) El `|` dentro de `for /f`: la costumbre de escaparlo (`^|`) vale cuando
+    #    el comando no va entre comillas. Aquí sí va, cmd respeta las comillas y
+    #    el `^` llegaba hasta PowerShell, que contestaba «no se encuentra ningún
+    #    parámetro de posición que acepte el argumento '^'» y dejaba la fuente
+    #    muda: la buena, RiotClientInstalls.json.
+    ok("^| ConvertFrom-Json" not in texto,
+       "el pipe de PowerShell no va escapado (el ^ llegaba a PowerShell)")
+    ok("| ConvertFrom-Json" in texto, "y el pipe está, sin escapar")
+
+    # 2) El JSON de Riot guarda las rutas con barra normal y barra final
+    #    (`D:/Riot Games/League of Legends/`). Recortar solo la invertida deja
+    #    `.../\Game\...` y `exist` falla sin decir nada.
+    ok('if "!CAND:~-1!"=="/"' in texto,
+       "se recorta también la barra normal del final")
+
+    # 3) Comparar el argumento entre comillas aborta el .bat con el código 255.
+    ok('if "%~1"==""' not in texto,
+       "no se compara el argumento entre comillas (abortaba con el código 255)")
+    ok('set "CAND=%~1"' in texto, "se copia a CAND y se pregunta `if not defined`")
+
+
 def main() -> None:
     print("=" * 66)
     print("EL .BAT DE ESPECTAR")
@@ -195,6 +226,7 @@ def main() -> None:
     prueba_datos_de_la_partida()
     prueba_generado_en_linux()
     prueba_sin_vanguard()
+    prueba_trampas_de_cmd()
     prueba_ruta_detectada()
     prueba_servidores()
     prueba_variable_de_entorno()

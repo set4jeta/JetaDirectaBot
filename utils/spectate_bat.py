@@ -308,7 +308,12 @@ if not defined CAND exit /b 0
 set CAND=!CAND:"=!
 :limpiar
 if not defined CAND exit /b 0
+:: Se recortan las dos barras. `RiotClientInstalls.json` guarda las rutas con
+:: barra normal y barra final (`D:/Riot Games/League of Legends/`), asi que
+:: recortar solo la invertida deja `.../\Game\...` y `exist` falla sin decir
+:: nada: la fuente buena se descartaba siempre.
 if "!CAND:~-1!"=="\" ( set "CAND=!CAND:~0,-1!" & goto :limpiar )
+if "!CAND:~-1!"=="/" ( set "CAND=!CAND:~0,-1!" & goto :limpiar )
 if "!CAND:~-1!"==" " ( set "CAND=!CAND:~0,-1!" & goto :limpiar )
 if not exist "!CAND!\Game\League of Legends.exe" exit /b 0
 set "LOL_PATH=!CAND!"
@@ -319,7 +324,11 @@ exit /b 0
 set "RIOT_JSON=%ProgramData%\Riot Games\RiotClientInstalls.json"
 if not exist "%RIOT_JSON%" set "RIOT_JSON=%LOCALAPPDATA%\Riot Games\RiotClientInstalls.json"
 if not exist "%RIOT_JSON%" exit /b 0
-for /f "usebackq delims=" %%P in (`powershell -NoProfile -ExecutionPolicy Bypass -Command "$ErrorActionPreference='SilentlyContinue'; (Get-Content -Raw -LiteralPath '%RIOT_JSON%' ^| ConvertFrom-Json).associated_client.PSObject.Properties.Name"`) do (
+:: El `|` va SIN escapar. La costumbre de escaparlo (`^|`) vale cuando el
+:: comando no va entre comillas, pero aqui si lo van: cmd respeta las comillas y
+:: el `^` se colaba hasta PowerShell, que contestaba «no se encuentra ningun
+:: parametro de posicion que acepte el argumento '^'» y dejaba la fuente muda.
+for /f "usebackq delims=" %%P in (`powershell -NoProfile -ExecutionPolicy Bypass -Command "$ErrorActionPreference='SilentlyContinue'; (Get-Content -Raw -LiteralPath '%RIOT_JSON%' | ConvertFrom-Json).associated_client.PSObject.Properties.Name"`) do (
   call :probar "%%P"
   if defined LOL_PATH exit /b 0
 )

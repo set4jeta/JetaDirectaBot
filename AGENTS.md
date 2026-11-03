@@ -1080,7 +1080,9 @@ El generador solo puede aportar una **pista**, y es opcional. Al ejecutarse, el
    dueño **esa clave no existe**, por eso es una fuente más y no la única.
 5. Barrido de las **26 letras** de unidad por las carpetas habituales.
 
-### Tres trampas de `cmd` que costaron una tarde
+### Las trampas de `cmd` que costaron una tarde
+
+Todas fallan **en silencio**: el `.bat` se ve perfecto y no encuentra nada.
 
 - **Comparar el argumento entre comillas aborta el `.bat`.** `if "%~1"==""` parece
   lo natural y es un error: si la ruta llega con comillas la comparación queda con
@@ -1088,9 +1090,17 @@ El generador solo puede aportar una **pista**, y es opcional. Al ejecutarse, el
   en vez de descartar la ruta. Se copia primero a `CAND`, se pregunta
   `if not defined CAND`, y las comillas se quitan con una sustitución
   (`set CAND=!CAND:"=!`), no con una comparación.
-- **Las barras y los espacios del final.** El JSON de Riot y `reg query` no
-  siempre vienen limpios, y un espacio de más hace que `exist` falle y la ruta se
-  descarte **sin decir nada**. `:probar` los recorta en bucle.
+- **El `|` de PowerShell va SIN escapar.** La costumbre de escaparlo (`^|`) vale
+  cuando el comando del `for /f` no va entre comillas; aquí sí va, `cmd` respeta
+  las comillas y el `^` llegaba hasta PowerShell, que contestaba «no se encuentra
+  ningún parámetro de posición que acepte el argumento '^'». Resultado: la fuente
+  buena, `RiotClientInstalls.json`, muda. En `reg query` el `2^>nul` sí se escapa,
+  porque ahí la redirección queda fuera de las comillas.
+- **Barras y espacios del final.** `RiotClientInstalls.json` guarda las rutas con
+  **barra normal y barra final** (`D:/Riot Games/League of Legends/`). Recortar
+  solo la invertida deja `.../\Game\...` y `exist` falla sin decir nada. `:probar`
+  recorta `\`, `/` y espacios en bucle. (Los separadores mezclados que quedan sí
+  los acepta Windows: `cd /d` y `start` funcionan con `D:/ruta\Game`.)
 - **`start` desde bash pierde las comillas vacías** y toma el ejecutable como
   título de ventana: no arranca nada y no da error. En Python se usa `Popen` con
   la lista de argumentos, nunca `cmd /c start`.

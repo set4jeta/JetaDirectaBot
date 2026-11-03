@@ -224,6 +224,12 @@ _ESTADO_MUTABLE: tuple[str, ...] = (
     "tracking/ranking_cache.json",
     "tracking/soloq/last_index.json",
     "tracking/soloq/infoplayers_eu.json",
+    # Lo que eligió la gente. Estuvo **fuera** de esta lista hasta el 02-11-2026
+    # y por eso nadie notó que tampoco estaba en `estado_remoto.ARCHIVOS`: cada
+    # despliegue borraba las ligas de cada servidor y el filtro de cada canal.
+    "tracking/soloq/leagues_config.json",
+    "tracking/soloq/channel_targets.json",
+    "tracking/soloq/idiomas_config.json",
 )
 
 

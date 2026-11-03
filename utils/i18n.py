@@ -1805,8 +1805,8 @@ _CATALOGO: dict[str, dict[str, str]] = {
     # ayuda del argumento porque el desplegable no puede enseñar una lista.
     "cmd.subscribe.objetivo": {"es": "objetivo", "en": "target"},
     "cmd.subscribe.objetivo_desc": {
-        "es": "Liga (lec), equipo (T1), pro (Elyoya) o cuenta (Caps#EUW). Vacío = todas",
-        "en": "League (lec), team (T1), pro (Elyoya) or account (Caps#EUW). Empty = all",
+        "es": "Liga, equipo, pro o cuenta (worlds, T1, Elyoya). Delante: soloq/esports",
+        "en": "League, team, pro or account (worlds, T1, Elyoya). Prefix: soloq/esports",
     },
     "cmd.subscribe.arg_desc": {
         "es": "Qué avisos: soloq (por defecto) o esports",

@@ -532,7 +532,7 @@ class ActiveGameTracker:
 
         match = SoloQMatch.from_riot_game_data(game_data)
         stats.en_partida += 1
-        if await self.notificar_partida(account, match):
+        if await self.notificar_partida(account, match, player):
             stats.notificadas += 1
         # El log llevaba `gameLength` en crudo, que es el reloj del espectador y
         # sale negativo al principio de la partida: en el log aparecía
@@ -546,7 +546,9 @@ class ActiveGameTracker:
     # Notificación
     # ------------------------------------------------------------------ #
 
-    async def notificar_partida(self, account, match: SoloQMatch) -> bool:
+    async def notificar_partida(
+        self, account, match: SoloQMatch, player=None
+    ) -> bool:
         """Envía el embed a cada canal suscrito. True si se envió al menos uno."""
         game_id = match.game_id
         ranked_map: dict[str, dict] = {}
@@ -572,7 +574,15 @@ class ActiveGameTracker:
                 participant.rank = rank_data
                 save_rank_data(participant)
 
-        player = self._puuid_to_player.get(account.puuid)
+        # El jugador que **tiene esta cuenta**, no el que gane el mapa por puuid.
+        # Un mismo puuid aparece en varias listas —el jugador y su selección: LCK
+        # y Worlds, LEC y MSI—, así que `_puuid_to_player` se queda con una sola
+        # de ellas y esa decide la liga del aviso. Medido el 02-11-2026: 23 de las
+        # 114 cuentas del roster de Worlds resolvían a `lpl`, así que un canal
+        # suscrito a Worlds las descartaba en el filtro y no llegaba nada, sin
+        # ningún error. Con el jugador de la cuenta, cada lista aporta lo suyo.
+        if player is None:
+            player = self._puuid_to_player.get(account.puuid)
         player_name = getattr(player, "name", None) or account.riot_id["game_name"]
         set_active_game_with_ranked(account.puuid, match.datos_extra, ranked_map, player_name)
 

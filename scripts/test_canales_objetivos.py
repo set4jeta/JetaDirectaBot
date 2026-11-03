@@ -251,6 +251,65 @@ async def probar_comando() -> None:
     )
 
 
+async def probar_texto_unico() -> None:
+    """`/subscribe worlds` tal cual, sin escribir `target:` ni `type:`.
+
+    Es el caso que falló el 02-11-2026: con dos opciones, Discord metía el texto
+    en la primera (la lista cerrada del tipo), no lo reconocía, lo tiraba, y el
+    canal se suscribía «a todo» —que en un servidor nuevo es la LEC— sin ningún
+    error. Aquí se comprueba que la forma natural de escribirlo hace lo que dice.
+    """
+    print("\n9) `/subscribe worlds` a secas, que es como se escribe")
+
+    plans.asignar_plan(GUILD, "pro")
+    leagues.establecer_ligas(GUILD, ["lec"])
+    ct.limpiar(GUILD, CANAL)
+    # Se parte de un canal **no** suscrito, que es el caso real: un servidor
+    # nuevo. Si ya estuviera, `agregar_canal` diría «repetido» y el objetivo se
+    # guardaría igual, pero entonces la prueba no demostraría lo que dice.
+    channel_config.quitar_canal(GUILD, CANAL)
+
+    # El parseo, en las tres formas que documenta `/help`.
+    casos = (
+        ("worlds", ("soloq", "worlds")),
+        ("esports lck", ("esports", "lck")),
+        ("esports", ("esports", "")),
+        ("soloq Elyoya", ("soloq", "Elyoya")),
+        ("", ("soloq", "")),
+        ("  worlds  ", ("soloq", "worlds")),
+        # Un objetivo que empieza por una palabra que **no** es un tipo no se
+        # parte: hay pros con nombre de una palabra y equipos de tres letras.
+        ("T1", ("soloq", "T1")),
+    )
+    for crudo, esperado in casos:
+        obtenido = nc._partir_objetivo(crudo)
+        check(f"«{crudo}» -> {esperado}", obtenido == esperado, str(obtenido))
+
+    res = RespuestaFalsa()
+    await nc._cuerpo_subscribe(res, {"target": "worlds"})
+    check("el canal queda añadido", CANAL in channel_config.canales_de(GUILD))
+    check(
+        "y con Worlds como objetivo, no «todo»",
+        ct.objetivos_de(GUILD, CANAL) == {"soloq": ["worlds"]},
+        str(ct.objetivos_de(GUILD, CANAL)),
+    )
+    check(
+        "y Worlds entra en el barrido del servidor",
+        "worlds" in leagues.ligas_de(GUILD),
+        str(leagues.ligas_de(GUILD)),
+    )
+
+    # Y el filtro de verdad: una partida de Worlds entra, una de LEC no.
+    from tracking.soloq.channel_targets import acepta_soloq
+
+    objetivos = ct.objetivos_de(GUILD, CANAL)["soloq"]
+    check("una partida de Worlds entra", acepta_soloq(objetivos, liga="worlds"))
+    check(
+        "una de la LEC no entra (semántica «solo»)",
+        not acepta_soloq(objetivos, liga="lec"),
+    )
+
+
 async def main() -> int:
     print("=" * 74)
     print("PRUEBA DE LOS OBJETIVOS POR CANAL")
@@ -266,6 +325,7 @@ async def main() -> int:
         probar_filtros()
         probar_resolucion()
         await probar_comando()
+        await probar_texto_unico()
 
     print("\n" + "=" * 74)
     if fallos:

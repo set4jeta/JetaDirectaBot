@@ -626,7 +626,7 @@ palabra**. El dueño lo pidió en tres pasos y conviene respetar los tres:
 | `/track <player_or_league>` | Avisos por DM de un pro o una liga |
 | `/untrack <player_or_league>` | Dejar de recibirlos |
 | `/following` | A quién sigues y si el bot puede escribirte |
-| `/subscribe [type] [target]` | Añadir este canal a los avisos (con objetivo, solo eso) |
+| `/subscribe [tipo] [objetivo]` | Añadir este canal a los avisos (con objetivo, solo eso) |
 | `/unsubscribe [type]` | Quitar este canal de los avisos |
 | `/channels` | Ver los canales con avisos y cuánto cupo queda |
 | `/mute [type]` | Apagar los avisos en todo el servidor |
@@ -695,7 +695,7 @@ tener un canal para la LEC y otro para la LCK, ni uno solo de partidos. El dueñ
 *«así la gente fácilmente puede crear un canal de por ejemplo esports, y ahí
 suscribirse a esports… `/subscribe esports lck`, solo lck»*.
 
-Ahora `/subscribe [type] [target]`:
+Ahora `/subscribe [tipo] [objetivo]`:
 
 | Escribes | Ese canal recibe |
 |---|---|
@@ -705,9 +705,23 @@ Ahora `/subscribe [type] [target]`:
 | `/subscribe soloq lck` | **solo** el SoloQ de la LCK |
 | `/subscribe soloq T1` | **solo** a los jugadores del T1 |
 | `/subscribe soloq Elyoya` | **solo** a Elyoya |
+| `/subscribe worlds` | **solo** el SoloQ del mundial (el tipo, por defecto SoloQ) |
 
 **La semántica es «solo», no «además»**: lo que pides es lo que llega. El objetivo
 vacío es el reparto de siempre.
+
+**Una sola opción de texto libre, y no dos.** Hasta el 02-11-2026 eran dos
+(`type` de lista cerrada + `target` libre), que es lo natural y estaba mal: el
+dueño escribió `/subscribe worlds` en un servidor nuevo y no le llegó **nunca**
+nada. Discord mete el texto suelto en la **primera** opción, y la primera era
+`type` (`soloq`/`esports`): `worlds` no está en esa lista, así que lo descartaba
+y mandaba `type=soloq` con el objetivo **vacío**. El canal quedaba suscrito «a
+todo», que en un servidor nuevo es la LEC por defecto. El comando contestaba
+«canal añadido» y el log decía `0 notificadas`: ningún error en ningún sitio.
+Con una sola opción se teclea la forma natural y la separa `_partir_objetivo()`
+(solo mira la primera palabra si **es** un tipo, así que `T1` y `Elyoya` no se
+parten). El cuerpo sigue aceptando la firma vieja por si Discord tarda en
+propagar la nueva.
 
 Dónde vive cada pieza:
 
@@ -715,6 +729,10 @@ Dónde vive cada pieza:
   dos filtros (`acepta_soloq`, `acepta_esports`). **Un canal sin entrada en el
   fichero no es un canal vacío**: es el reparto de siempre. Esa distinción es lo
   que impide que un fichero ilegible deje sin avisos a quien ya funcionaba.
+  Ese fichero **va en la rama `estado`** (`core/estado_remoto.ARCHIVOS`): no se
+  reconstruye de nada y sin él cada despliegue borraba el filtro de todos los
+  canales. Lo mismo `leagues_config.json` (qué ligas sigue cada servidor), que
+  volvía a la LEC en cada reinicio.
 - `tracking/soloq/active_game_checker.py` — el filtro de SoloQ, dentro del bucle
   de canales (que ya era por canal).
 - `esports_extension/` — `notify_new_games(channel, acepta=...)`, con el filtro
@@ -733,6 +751,16 @@ primera coincidencia metía el MSI en el barrido: `/subscribe soloq T1` seguía 
 MSI y los avisos de LCK no llegaban. `liga_principal_de_equipo` cuenta cuántos
 jugadores tiene el equipo en cada liga y prefiere la que no es un evento
 internacional (la región lo dice `LIGAS`, no una lista a mano).
+
+**Un jugador también aparece dos veces, y ahí la liga del aviso se decidía por
+suerte.** El mismo puuid está en la lista de su liga y en la de su selección (LCK
+y Worlds, LEC y MSI). `_puuid_to_player` se queda con **una** entrada por puuid, y
+esa entrada decidía la liga: medido el 02-11-2026, 23 de las 114 cuentas del
+roster de Worlds resolvían a `lpl`, así que un canal suscrito a Worlds las
+descartaba en el filtro —otra vez en silencio—. `notificar_partida` recibe ahora
+el jugador **que tiene la cuenta** (`_check_account` ya lo sabía) y solo cae al
+mapa por puuid si no se lo dan. Cada lista aporta su liga, y el aviso duplicado no
+existe porque `announced_games` está indexado por partida **y canal**.
 
 Prueba: `scripts/test_canales_objetivos.py` (offline, con el roster real).
 

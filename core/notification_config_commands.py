@@ -235,10 +235,48 @@ async def _suscribir_soloq(res: Respuesta, _) -> str | None:
     return _("setchannel.ok", canal=_mencion(res, _), aviso=aviso)
 
 
+def _partir_objetivo(crudo: str) -> tuple[str, str]:
+    """Lo que escribió el usuario -> `(tipo, objetivo)`.
+
+    `/subscribe worlds` -> `("soloq", "worlds")`
+    `/subscribe esports lck` -> `("esports", "lck")`
+    `/subscribe esports` -> `("esports", "")`
+
+    Por qué hay **una** opción de texto libre y no dos (`type` cerrado +
+    `target` libre), que era lo natural y era como estaba hasta el 02-11-2026:
+
+    el dueño escribió `/subscribe worlds` en un servidor nuevo y no le llegó
+    nada, nunca. El motivo no era el filtro ni Worlds: Discord mete el texto
+    suelto en la **primera** opción, y la primera era `type`, que es una lista
+    cerrada (`soloq`/`esports`). `worlds` no está en esa lista, así que Discord
+    lo descartaba y mandaba `type=soloq` con el objetivo **vacío**. El canal
+    quedaba suscrito «a todo lo del servidor», que en un servidor nuevo es la
+    LEC por defecto, y de Worlds no llegaba nada. Sin ningún error: el comando
+    contestaba «canal añadido».
+
+    Con una sola opción, lo que se teclea entra tal cual y aquí se separa. Y las
+    dos formas que documenta `/help` siguen valiendo, porque la primera palabra
+    solo se interpreta como tipo si **es** un tipo.
+    """
+    crudo = (crudo or "").strip()
+    if not crudo:
+        return SOLOQ, ""
+
+    primera, _, resto = crudo.partition(" ")
+    if primera.strip().casefold() in TIPOS:
+        return primera.strip().casefold(), resto.strip()
+    return SOLOQ, crudo
+
+
 async def _cuerpo_subscribe(res: Respuesta, valores: dict[str, str]) -> None:
     _ = tr(res.guild_id)
-    tipo = valores.get("type", SOLOQ)
-    texto = (valores.get("target") or "").strip()
+    if "type" in valores:
+        # Firma vieja (dos opciones). Se sigue aceptando por si Discord todavía
+        # manda el comando anterior mientras propaga el nuevo.
+        tipo = valores.get("type") or SOLOQ
+        texto = (valores.get("target") or "").strip()
+    else:
+        tipo, texto = _partir_objetivo(valores.get("target") or "")
 
     if res.guild_id is None:
         await res.error(_("error.solo_en_servidor"))
@@ -409,10 +447,14 @@ async def _cuerpo_channels(res: Respuesta) -> None:
 def register_notification_config_commands(bot: commands.Bot) -> None:
     """Los cuatro comandos de canales. Los tres que cambian algo, solo admin."""
     tipo = (("cmd.subscribe.arg", "cmd.subscribe.arg_desc", TIPOS, SOLOQ),)
-    # El objetivo es **texto libre**: puede ser una liga, un equipo, un pro o una
-    # cuenta, así que no hay lista cerrada que valga. Vacío = el reparto de
-    # siempre (todas las ligas del servidor).
-    con_objetivo = tipo + (
+    # El objetivo es **texto libre** y es la **única** opción: puede ser una liga,
+    # un equipo, un pro o una cuenta, y delante admite `soloq`/`esports`. Vacío =
+    # el reparto de siempre (todas las ligas del servidor).
+    #
+    # Una sola opción a propósito: con dos, la primera era la lista cerrada del
+    # tipo y Discord se comía el texto que no fuera `soloq`/`esports`. Ver
+    # `_partir_objetivo`.
+    con_objetivo = (
         ("cmd.subscribe.objetivo", "cmd.subscribe.objetivo_desc", None, ""),
     )
     slash_opciones(

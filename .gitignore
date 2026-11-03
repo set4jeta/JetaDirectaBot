@@ -91,6 +91,14 @@ avisos.jsonl
 # (`core/estado_remoto.ARCHIVOS`), que es donde sobreviven a los despliegues.
 tracking/soloq/egress.json
 tracking/soloq/censo_compacto.json
+# Lo que **eligió la gente**: ligas por servidor, objetivo por canal e idioma.
+# Los escribe el bot en marcha, no se pueden reconstruir y viven en la rama
+# `estado`. Estaban fuera de las dos listas, que es la peor casilla: ni se
+# guardaban fuera ni estaban ignorados, así que cada despliegue los borraba en
+# silencio (ver `core/estado_remoto.ARCHIVOS`).
+tracking/soloq/leagues_config.json
+tracking/soloq/channel_targets.json
+tracking/soloq/idiomas_config.json
 
 # Los del refresco desde el PC (scripts/tarea_rosters.py).
 logs/

@@ -70,6 +70,20 @@ ARCHIVOS: tuple[str, ...] = (
     "tracking/soloq/announced_games.json",
     "tracking/soloq/notify_config.json",
     "tracking/soloq/plans_users.json",
+    # **Qué** avisos quiere cada canal y qué ligas sigue cada servidor. Faltaban,
+    # y el 02-11-2026 se vio lo que cuesta: un servidor escribió `/subscribe
+    # worlds`, el bot se reinició tres minutos después (un despliegue) y a partir
+    # de ahí ese canal no recibió nada, sin ningún error. `notify_config.json`
+    # seguía ahí —el canal estaba suscrito— pero `leagues_config.json` había
+    # vuelto a su valor por defecto (**LEC**) y el objetivo del canal se había
+    # borrado, así que la partida de Worlds se descartaba en el filtro y el log
+    # solo decía «0 notificadas». Es el peor síntoma posible: todo verde.
+    #
+    # No se reconstruyen de nada: son la elección de una persona. Y son diminutos
+    # (unos cientos de bytes), así que no hay razón para no guardarlos.
+    "tracking/soloq/leagues_config.json",
+    "tracking/soloq/channel_targets.json",
+    "tracking/soloq/idiomas_config.json",
     # La caché de PUUIDs (65 kB). Parece un dato reconstruible y **no lo es en la
     # práctica**: sin ella, tras cada despliegue la reparación tiene que volver a
     # preguntarle a Riot por ~1500 cuentas (7 minutos, y de paso los 429 de

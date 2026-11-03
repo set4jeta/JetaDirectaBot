@@ -85,6 +85,13 @@ def prueba_reparto() -> None:
         "notified_games.json",
         "tracked_matches.json",
         "puuid_cache.json",
+        # Lo que eligió la gente. Faltaban, y el 02-11-2026 un `/subscribe
+        # worlds` se quedó en nada tras un despliegue: el canal seguía suscrito
+        # pero el servidor había vuelto a la LEC y el filtro del canal se había
+        # borrado. Nada fallaba; simplemente no llegaba.
+        "tracking/soloq/leagues_config.json",
+        "tracking/soloq/channel_targets.json",
+        "tracking/soloq/idiomas_config.json",
     )
     for rel in para_no_perder:
         ok(rel in ARCHIVOS, f"{rel} se guarda en la rama de estado")

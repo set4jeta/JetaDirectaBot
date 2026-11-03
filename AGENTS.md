@@ -1047,3 +1047,109 @@ en el espacio de `res 8`).
   reemplazando (el que se fue, se fue). Lo vigila `test_worlds`.
 - El servidor del que se guardan cuentas se cambia con `WORLDS_PLATAFORMAS`
   (`na1` en 2026) sin tocar código.
+
+## Espectar una partida: el `.bat` y `scripts/espectar.py` (03-11-2026)
+
+### El fallo que tenía, y por qué nadie lo vio durante un mes
+
+El `.bat` que se adjunta con cada aviso buscaba la instalación de League of
+Legends **al generarse**, y eso pasa en Render, que es Linux: allí no hay `C:`,
+no hay registro de Windows y `winreg` ni existe. `ruta_del_cliente()` devolvía
+`None` **siempre**, el `.bat` salía con `LOL_PATH` vacío y lo único que hacía al
+ejecutarse era decir «League of Legends no encontrado» y cerrarse. Todos los
+avisos desde el 30-09-2026 llevaban un lanzador que no podía funcionar en ningún
+PC.
+
+La prueba no lo vio porque se ejecutaba **en Windows**: comprobaba la función en
+la única máquina donde sí funciona. Por eso `scripts/test_spectate_bat.py` ahora
+simula Render (`ruta_del_cliente` devolviendo `None`) y exige que el `.bat` sepa
+buscar por su cuenta.
+
+### La regla: la búsqueda va dentro del `.bat`, no en el generador
+
+El generador solo puede aportar una **pista**, y es opcional. Al ejecutarse, el
+`.bat` prueba cinco fuentes en este orden:
+
+1. `LOL_PATH` en el entorno (para instalaciones raras, sin editar nada).
+2. La pista del generador (vale solo si el `.bat` se creó en ese mismo PC).
+3. `RiotClientInstalls.json` → `associated_client`. **Es la fuente buena**: es la
+   que usa el propio Riot Client, así que no falla aunque el juego esté en la
+   unidad `G:` o en una carpeta renombrada. En el PC del dueño sale de aquí
+   (`D:\Riot Games\League of Legends`).
+4. El registro (`Riot Games, Inc\League of Legends` → `Location`). En el PC del
+   dueño **esa clave no existe**, por eso es una fuente más y no la única.
+5. Barrido de las **26 letras** de unidad por las carpetas habituales.
+
+### Tres trampas de `cmd` que costaron una tarde
+
+- **Comparar el argumento entre comillas aborta el `.bat`.** `if "%~1"==""` parece
+  lo natural y es un error: si la ruta llega con comillas la comparación queda con
+  tres comillas seguidas, `cmd` no la puede analizar y **sale con el código 255**
+  en vez de descartar la ruta. Se copia primero a `CAND`, se pregunta
+  `if not defined CAND`, y las comillas se quitan con una sustitución
+  (`set CAND=!CAND:"=!`), no con una comparación.
+- **Las barras y los espacios del final.** El JSON de Riot y `reg query` no
+  siempre vienen limpios, y un espacio de más hace que `exist` falle y la ruta se
+  descarte **sin decir nada**. `:probar` los recorta en bucle.
+- **`start` desde bash pierde las comillas vacías** y toma el ejecutable como
+  título de ventana: no arranca nada y no da error. En Python se usa `Popen` con
+  la lista de argumentos, nunca `cmd /c start`.
+
+### Vanguard: se comprueba, no se toca
+
+El juego no arranca sin `vgc.exe` (`dependencies: vanguard: true` en el
+`product_settings.yaml` del cliente). Pero **pararlo no hace falta**: la noche del
+30-09-2026 se abrieron partidas con Vanguard corriendo y funcionaron. Pararlo era
+lo único que obligaba a ejecutar el `.bat` **como administrador**, así que se dejó
+de hacer; un `.bat` que pide administrador para algo innecesario es un `.bat` que
+la mitad de la gente no llega a ejecutar.
+
+Ojo: `vgtray.exe` (el icono de la bandeja) **no cuenta** como Vanguard en marcha;
+el que importa es `vgc.exe`.
+
+### El protocolo del espectador (lo que costó averiguarlo)
+
+- La clave buena es **`observers.encryptionKey`**: 32 caracteres alfanuméricos.
+  Hay otra en los metadatos (`decodedEncryptionKey`) que acaba en `=` y **no
+  sirve**: con ella el cliente no descifra el chunk 1 y se queda pidiéndolo en
+  bucle, sin decir nada.
+- Se lanza `League of Legends.exe` con **un solo argumento**:
+  `"spectator <host>:8080 <clave> <gameId> <platform>"`, desde su propia carpeta y
+  con `-GameBaseDir` absoluto.
+- El host es `spectator.<plataforma>.lol.pvp.net`, puerto **8080**, en **HTTP
+  plano** (por HTTPS contesta `WRONG_VERSION_NUMBER`, que parece un problema de
+  certificados y es solo el protocolo equivocado). Medido el 03-11-2026: las 18
+  plataformas de la tabla resuelven y aceptan TCP. `NA2` no existe (DNS
+  `gaierror`), por eso no está en `HOSTS`.
+- La partida **no se ve hasta que pasa el retardo del espectador (~3 min)**. Antes
+  de eso el cliente se abre y se queda sin imagen, que parece un fallo.
+
+### `scripts/espectar.py`: lo mismo, pero depurable
+
+Un `.bat` no se puede depurar: si falla, se cierra. El script hace lo mismo desde
+Python con diagnóstico y mensajes de error de verdad.
+
+```
+python scripts/espectar.py --diagnostico
+python scripts/espectar.py --pro Caps [--esperar] [--sin-lanzar]
+python scripts/espectar.py --partida 5651554245 --clave <32 chars> --region NA1
+python scripts/espectar.py --bat --pro Caps
+```
+
+Lo que el diagnóstico destapó y que estaba mal:
+
+- **`tasklist` no escribe UTF-8** en un Windows en español: manda cp850. Leerlo
+  como UTF-8 revienta en el primer acento (`INFORMACIÓN`) y deja la cadena vacía,
+  así que la comprobación de procesos contestaba «no está corriendo» **siempre**.
+  Ahora `_tasklist()` prueba utf-8, oem, cp850 y cp1252.
+- **La API local del cliente se iba por el proxy.** Con VPN o Clash, `urllib`
+  manda `https://127.0.0.1:<puerto>` por el proxy y contesta **502 Bad Gateway**:
+  parece que el cliente no escucha cuando el que no llega es el proxy. La petición
+  va con `ProxyHandler({})`.
+- **El `lockfile` se queda** con el puerto de la sesión anterior si el cliente se
+  cierra de golpe. Ahora se comprueba que el pid del fichero siga vivo antes de
+  fiarse de él.
+- Un puuid de otra región contesta `400 Exception decrypting` y tumbaba el script
+  con la traza entera; ahora se apunta y se sigue con la siguiente cuenta. Y si
+  **todas** fallan, dice «no se pudo comprobar» en vez de «no está en partida»,
+  que manda a buscar el problema donde no está.

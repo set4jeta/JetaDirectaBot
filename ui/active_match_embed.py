@@ -19,7 +19,7 @@ from utils.constants import TEAM_TRICODES, ROLE_ORDER, nombre_cola
 from utils.game_clock import desde_partida, humano, mmss
 from utils.helpers import parse_ranked_data
 from cache.champion_cache import CHAMPION_ID_TO_NAME
-from utils.spectate_bat import generar_bat_spectate
+from utils.spectate_bat import generar_bat_spectate, servidor_de
 from utils import egress
 from models.soloq_match import SoloQMatch, SoloQParticipant
 from apis.dpm_api import get_rank_from_dpmlol
@@ -369,7 +369,7 @@ async def create_match_embed(
     encryption_key = match.datos_extra.get("observers", {}).get("encryptionKey") if hasattr(match, "datos_extra") else None
     if game_id and platform_id and encryption_key:
         bat_path = generar_bat_spectate(
-            server=f"spectator.{platform_id.lower()}.lol.pvp.net:8080",
+            server=servidor_de(platform_id),
             key=encryption_key,
             match_id=game_id,
             region=platform_id

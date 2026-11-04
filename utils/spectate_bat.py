@@ -282,8 +282,9 @@ title League of Legends - partida {match_id}
 ::  Este fichero busca el League of Legends en el PC donde se
 ::  ejecuta: no lleva la ruta de nadie escrita a mano.
 ::
-::  No pide administrador y no para Vanguard. Vanguard tiene que
-::  estar EN MARCHA: el juego no arranca sin el.
+::  No pide administrador y no para Vanguard. Necesita el cliente de
+::  League of Legends ABIERTO: Vanguard solo deja que el juego lo abra
+::  el cliente, asi que este archivo se lo pide a el.
 :: ------------------------------------------------------------------
 
 set "SERVER={server}"

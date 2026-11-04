@@ -1104,6 +1104,19 @@ Todas fallan **en silencio**: el `.bat` se ve perfecto y no encuentra nada.
 - **`start` desde bash pierde las comillas vacías** y toma el ejecutable como
   título de ventana: no arranca nada y no da error. En Python se usa `Popen` con
   la lista de argumentos, nunca `cmd /c start`.
+- **`for /f` con `usebackq` no puede leer el `lockfile`** mientras el cliente lo
+  tiene abierto. Contesta «El sistema no puede encontrar el archivo» con el
+  fichero delante, y el `.bat` acababa diciendo «el cliente no está abierto» con
+  el cliente abierto (04-11-2026). **No es la ruta ni las barras**: una copia
+  idéntica del mismo fichero, en la misma carpeta o con barras normales, se abre
+  sin problema; `type` y `set /p` leen el original perfectamente. Es el fichero
+  abierto. Se lee con `set /p LCU_LINEA=<"%LOCK%"` y se parte la línea con
+  `for /f "tokens=2,3,4 delims=:"` sobre el **valor** (sin `usebackq`, que ahí
+  sí vale porque no hay fichero).
+  > Ojo con el diagnóstico fácil: se culpó a las barras normales de
+  > `RiotClientInstalls.json` durante un rato. Una copia con barras normales se
+  > lee sin problema, así que no era eso. La normalización de `:probar` se queda
+  > por limpieza, no porque arregle nada.
 
 ### Vanguard: solo el cliente puede abrir el juego (04-11-2026)
 

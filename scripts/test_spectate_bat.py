@@ -346,6 +346,61 @@ def prueba_no_abre_ejecutables() -> None:
            "no toca servicios ni mata procesos")
 
 
+def prueba_lee_el_lockfile_abierto() -> None:
+    """El `lockfile` se lee aunque el cliente lo tenga abierto.
+
+    **Este es el fallo del 04-11-2026**, y el peor de todos: el `.bat` decía «el
+    cliente de League of Legends no está abierto» con el cliente abierto delante.
+
+    `for /f` con `usebackq` contesta «El sistema no puede encontrar el archivo»
+    con el `lockfile` **mientras el cliente lo tiene abierto**. No es la ruta ni
+    las barras: una copia idéntica del mismo fichero, en la misma carpeta o con
+    barras normales, se abre sin problema, y `type` y `set /p` leen el original
+    perfectamente. Es el fichero abierto. Se lee con `set /p`.
+
+    Ninguna prueba anterior lo cazó porque todas usaban una instalación falsa
+    **sin** `lockfile`, así que el camino «cliente abierto» nunca se ejecutaba.
+    Esta usa la instalación de verdad, que es la única con un `lockfile` que el
+    cliente tiene abierto. Si no hay cliente, no se puede probar y lo dice.
+    """
+    print("\n=== lee el lockfile con el cliente abierto ===")
+
+    import subprocess
+    import tempfile
+
+    ruta = ruta_del_cliente()
+    lock = Path(ruta, "lockfile") if ruta else None
+    if not lock or not lock.is_file():
+        print("  (se omite: no hay ningún cliente abierto en este PC)")
+        return
+
+    texto = _bat()
+    # No se abre una segunda partida: se sustituye la llamada al cliente por un
+    # aviso. Y se quita la comprobación de «ya hay una partida abierta», que en
+    # el PC donde corre la prueba puede ser verdad.
+    texto = texto.replace("curl -k -s -o nul -w",
+                          "echo SE_HABRIA_LANZADO & rem")
+    texto = texto.replace("IMAGENAME eq League of Legends.exe",
+                          "IMAGENAME eq noexiste.exe")
+    texto = texto.replace("pause", "rem pause")
+
+    with tempfile.TemporaryDirectory() as base:
+        destino = Path(base, "espectar.bat")
+        destino.write_text(texto, encoding="utf-8", newline="\r\n")
+        resultado = subprocess.run(["cmd", "/c", str(destino)],
+                                   capture_output=True, text=True,
+                                   errors="replace", timeout=180,
+                                   input="\r\n")
+
+    salida = (resultado.stdout or "") + (resultado.stderr or "")
+
+    ok("no esta abierto" not in salida,
+       "no dice que el cliente está cerrado estando abierto",
+       salida.strip()[:70])
+    ok("SE_HABRIA_LANZADO" in salida,
+       "y llega a pedirle la partida al cliente")
+
+
 def prueba_sin_cliente() -> None:
     """Sin `lockfile` no hay cliente, y sin cliente no hay partida.
 
@@ -418,7 +473,7 @@ def prueba_pide_al_cliente() -> None:
     ok("lockfile" in texto, "saca puerto y contraseña del `lockfile`")
     ok("tokens=2,3,4 delims=:" in texto, "parsea pid, puerto y contraseña")
     ok("riot:!LCU_CLAVE!" in texto, "se autentica como el cliente (Basic riot:)")
-    ok('if errorlevel 1 set "LCU_PUERTO="' in texto,
+    ok('if errorlevel 1 goto :sin_cliente' in texto,
        "no se fía de un lockfile de una sesión muerta")
 
     # El cuerpo es un vector de argumentos, no un objeto: con `{}` el cliente
@@ -448,6 +503,7 @@ def main() -> None:
     prueba_arranca_sin_vgc()
     prueba_no_puede_tocar_vanguard()
     prueba_no_abre_ejecutables()
+    prueba_lee_el_lockfile_abierto()
     prueba_sin_cliente()
     prueba_pide_al_cliente()
     prueba_trampas_de_cmd()

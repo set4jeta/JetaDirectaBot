@@ -343,6 +343,11 @@ if "!CAND:~-1!"=="\" ( set "CAND=!CAND:~0,-1!" & goto :limpiar )
 if "!CAND:~-1!"=="/" ( set "CAND=!CAND:~0,-1!" & goto :limpiar )
 if "!CAND:~-1!"==" " ( set "CAND=!CAND:~0,-1!" & goto :limpiar )
 if not exist "!CAND!\Game\League of Legends.exe" exit /b 0
+:: Las barras normales se pasan a invertidas por limpieza: el resto del .bat
+:: construye rutas con `\` y mezclar separadores funciona pero se lee fatal.
+:: (Ojo: NO era el fallo del 04-11-2026. Se creyo eso un rato y no: `for /f`
+:: abre sin problema una ruta con barras normales.)
+set "CAND=!CAND:/=\!"
 set "LOL_PATH=!CAND!"
 exit /b 0
 
@@ -439,20 +444,36 @@ if not errorlevel 1 (
 :: 2) El puerto y la contrasena de la API del cliente estan en
 ::    `lockfile`, que el cliente reescribe al arrancar y borra al
 ::    cerrarse. Si no esta, el cliente no esta abierto.
+::
+::    Se lee con `set /p`, NO con `for /f ... in ("%LOCK%")`.
+::
+::    `for /f` con `usebackq` contesta «El sistema no puede encontrar el
+::    archivo» con el `lockfile` **mientras el cliente lo tiene abierto**.
+::    Y no es la ruta: una copia identica del mismo fichero, en la misma
+::    carpeta o con barras normales, la abre sin problema; `type` y
+::    `set /p` leen el original sin problema. Es el fichero abierto.
+::
+::    El sintoma era el peor posible: «el cliente no esta abierto» con el
+::    cliente abierto delante. Y no lo cazaba ninguna prueba porque todas
+::    usaban una instalacion falsa sin `lockfile` (04-11-2026).
 :: ------------------------------------------------------------------
 set "LOCK=%LOL_PATH%\lockfile"
 set "LCU_PUERTO="
-if exist "%LOCK%" for /f "usebackq tokens=2,3,4 delims=:" %%A in ("%LOCK%") do (
+set "LCU_LINEA="
+if not exist "%LOCK%" goto :sin_cliente
+set /p LCU_LINEA=<"%LOCK%"
+if not defined LCU_LINEA goto :sin_cliente
+for /f "tokens=2,3,4 delims=:" %%A in ("!LCU_LINEA!") do (
   set "LCU_PID=%%A"
   set "LCU_PUERTO=%%B"
   set "LCU_CLAVE=%%C"
 )
-if defined LCU_PUERTO (
-  rem El lockfile sobrevive a un cierre sucio: hay que mirar si el pid vive.
-  tasklist /FI "PID eq %LCU_PID%" /NH 2>nul | findstr /I /C:"%LCU_PID%" >nul
-  if errorlevel 1 set "LCU_PUERTO="
-)
 if not defined LCU_PUERTO goto :sin_cliente
+
+rem El lockfile sobrevive a un cierre sucio: hay que mirar si el pid vive.
+tasklist /FI "PID eq %LCU_PID%" /NH 2>nul | findstr /I /C:"%LCU_PID%" >nul
+if errorlevel 1 goto :sin_cliente
+
 where curl >nul 2>&1
 if errorlevel 1 goto :sin_curl
 

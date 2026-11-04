@@ -3,7 +3,7 @@
     "start_time": "2026-11-03T22:00:00+00:00",
     "match_id": "115660540726095109",
     "detection_time": "2026-11-03T14:00:00+00:00",
-    "last_checked": "2026-11-04T01:46:58+00:00",
+    "last_checked": "2026-11-04T01:51:58+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Quarterfinals",
@@ -46,6 +46,14 @@
             "provider": "youtube",
             "offset": 0,
             "first_frame_time": "2026-11-03T22:06:32.689000+00:00"
+          },
+          {
+            "id": "117555638990699738",
+            "parameter": "6Y_TrsNYhvk",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2026-11-03T21:31:01.395000+00:00"
           }
         ],
         "live_patch": "16.20.826.3891",
@@ -154,7 +162,15 @@
             "locale": "es-MX",
             "provider": "youtube",
             "offset": 0,
-            "first_frame_time": null
+            "first_frame_time": "2026-11-03T23:01:30.084000+00:00"
+          },
+          {
+            "id": "117555638990568665",
+            "parameter": "n4DxjHGcE2A",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2026-11-03T22:57:37.543000+00:00"
           }
         ],
         "live_patch": "16.20.826.3891",
@@ -256,7 +272,24 @@
         "notified_game": false,
         "finished_time": "2026-11-04T00:49:24+00:00",
         "real_start_time": "2026-11-04T00:16:54+00:00",
-        "vods": [],
+        "vods": [
+          {
+            "id": "117555638990903351",
+            "parameter": "p1iOEvmuyi4",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2026-11-04T00:08:14.302000+00:00"
+          },
+          {
+            "id": "117555638990903352",
+            "parameter": "qo6wZzjxUoQ",
+            "locale": "vi-VN",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": "2026-11-04T00:05:11.670000+00:00"
+          }
+        ],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {
           "team_id": "99566404854685458",

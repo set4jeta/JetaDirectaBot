@@ -252,9 +252,10 @@ def diagnostico() -> int:
 
     _titulo("Vanguard")
     vg = vanguard_en_marcha()
-    print(f"  vgc.exe  : {_si_no(vg, 'en marcha', 'NO está corriendo')}")
+    print(f"  vgc.exe  : {_si_no(vg, 'en marcha', 'no corre')}")
     if vg is False:
-        print("  Sin Vanguard el juego no arranca. Ábrelo con Riot Client una vez.")
+        print("  Es normal si el cliente de Riot está cerrado: vgc.exe solo vive")
+        print("  con él. Para espectar no hace falta — el juego usa el driver vgk.")
 
     _titulo("Cliente de League of Legends")
     lock = cliente_abierto(ruta)
@@ -491,7 +492,11 @@ def main() -> int:
 
     vg = vanguard_en_marcha()
     if vg is False:
-        print("\n  AVISO: Vanguard no está corriendo; el juego no arrancará.")
+        # No es un bloqueo: vgc.exe solo corre con el cliente de Riot abierto y
+        # para espectar no hace falta (el juego tira del driver vgk, que va con
+        # Windows). Bloquear aquí impedía espectar con Vanguard funcionando.
+        print("\n  AVISO: el cliente de Riot no está abierto (vgc.exe no corre).")
+        print("  Se intenta abrir la partida igual.")
     if juego_abierto():
         print("\n  Ya hay una partida abierta. Ciérrala antes de abrir otra.")
         if not args.sin_lanzar:

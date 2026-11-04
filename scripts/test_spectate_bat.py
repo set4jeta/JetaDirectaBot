@@ -105,7 +105,7 @@ def prueba_generado_en_linux() -> None:
 
 
 def prueba_sin_vanguard() -> None:
-    print("\n=== no toca Vanguard, así que no pide administrador ===")
+    print("\n=== no toca Vanguard, y sin vgc sigue abriendo la partida ===")
 
     texto = _bat()
 
@@ -117,10 +117,54 @@ def prueba_sin_vanguard() -> None:
     ok("sc stop" not in texto and "sc start" not in texto,
        "no arranca ni para servicios")
 
-    # Lo que sí hace: comprobar que está vivo, porque sin él no hay juego.
-    ok("vgc.exe" in texto, "comprueba que Vanguard esté en marcha")
-    ok("Vanguard no esta corriendo" in texto,
-       "y avisa cuando no lo está, en vez de fallar sin decir nada")
+    # Lo que sí hace: mirar si está, porque el aviso ayuda cuando el juego no abre.
+    ok("vgc.exe" in texto, "comprueba si el proceso de Vanguard está")
+
+    # Pero mirarlo NO puede impedir abrir la partida. `vgc.exe` solo corre con
+    # el cliente de Riot abierto; para espectar hace falta el driver `vgk`, que
+    # va con Windows. Bloquear aquí impedía espectar con Vanguard funcionando.
+    ok("Se intenta abrir la partida igual" in texto,
+       "y avisa de que se intenta abrir igual, sin frenar")
+
+
+def prueba_arranca_sin_vgc() -> None:
+    """Simula que `vgc.exe` no existe: el `.bat` TIENE que llegar a abrir.
+
+    Este es el caso real del 03-11-2026: el cliente de Riot cerrado, Vanguard
+    vivo en el kernel, y el `.bat` negándose a abrir. El `start` se sustituye
+    por un echo para que la prueba no abra nada de verdad.
+    """
+    print("\n=== con vgc parado, ¿llega a lanzar el juego? ===")
+
+    import subprocess
+    import tempfile
+
+    texto = _bat()
+    texto = texto.replace("IMAGENAME eq vgc.exe", "IMAGENAME eq noexiste.exe")
+    texto = texto.replace('start "" "%EXE_PATH%"', "echo SE_HABRIA_LANZADO")
+    texto = texto.replace("pause", "rem pause")
+
+    with tempfile.NamedTemporaryFile("w", suffix=".bat", delete=False,
+                                     encoding="utf-8", newline="\r\n") as f:
+        f.write(texto)
+        ruta = f.name
+
+    resultado = subprocess.run(["cmd", "/c", ruta], capture_output=True,
+                               text=True, errors="replace", timeout=120)
+    salida = resultado.stdout or ""
+
+    ok("SE_HABRIA_LANZADO" in salida,
+       "llega al `start` del juego aunque vgc no esté")
+    ok("no esta abierto" in salida,
+       "y avisa de que el cliente de Riot está cerrado")
+    # 0 si el juego arranca, 1 si no llega a arrancar (aquí el `start` es un
+    # echo, así que nunca arranca). Lo que no puede haber es un 255: eso es
+    # error de sintaxis, como el paréntesis sin escapar dentro de un `echo`
+    # dentro de un bloque, que corta el bloque y mata el fichero.
+    ok("No se esperaba" not in salida,
+       "cmd no se queja de la sintaxis (nada de paréntesis sueltos en un echo)")
+    ok(resultado.returncode in (0, 1),
+       "sale por donde debe, no con error de sintaxis", str(resultado.returncode))
 
 
 def prueba_ruta_detectada() -> None:
@@ -307,6 +351,7 @@ def main() -> None:
     prueba_datos_de_la_partida()
     prueba_generado_en_linux()
     prueba_sin_vanguard()
+    prueba_arranca_sin_vgc()
     prueba_no_puede_tocar_vanguard()
     prueba_trampas_de_cmd()
     prueba_ruta_detectada()

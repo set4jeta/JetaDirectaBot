@@ -396,26 +396,33 @@ if not exist "%EXE_PATH%" goto :preguntar
 
 :: --- Avisos previos: no bloquean, pero explican el fallo antes de que pase ---
 
-:: Vanguard: se comprueba que este en marcha. No se arranca ni se para.
-tasklist /FI "IMAGENAME eq vgc.exe" 2>nul | find /i "vgc.exe" >nul
+:: Vanguard: se comprueba que este en marcha. No se arranca ni se para, y
+:: NUNCA impide abrir la partida.
+::
+:: Se mira `vgc.exe` porque es el proceso que se ve, pero OJO: vgc solo corre
+:: mientras el cliente de Riot esta abierto. Para ESPECTAR no hace falta: lo que
+:: el juego necesita es el driver `vgk`, que va con Windows. Por eso esto es un
+:: aviso y no un freno (03-11-2026: bloquear aqui impedia espectar con Vanguard
+:: perfectamente funcional, y el dueño tenia razon en cabarse).
+::
+:: `findstr` y no `find`: si en el PATH hay un Git, `find` es el de Unix, que no
+:: entiende `/i` ni los ficheros de Windows y contesta error SIEMPRE. Resultado:
+:: «Vanguard no esta corriendo» con Vanguard corriendo. `findstr` solo existe en
+:: Windows, asi que no hay ambiguedad posible.
+tasklist /FI "IMAGENAME eq vgc.exe" /NH 2>nul | findstr /I /C:"vgc.exe" >nul
 if errorlevel 1 (
   echo.
-  echo   Vanguard no esta corriendo.
-  echo   Vanguard is not running.
+  echo   Aviso: el cliente de Riot no esta abierto, asi que el servicio vgc.exe
+  echo   tampoco. Se intenta abrir la partida igual.
   echo.
-  echo   El juego no arranca sin Vanguard, y abrirlo igual deja el
-  echo   cliente a medias. Abre Riot Client, espera a que el icono se
-  echo   ponga rojo y vuelve a ejecutar este archivo.
+  echo   Note: the Riot client is not open, so vgc.exe is not running either.
+  echo   Opening the game anyway.
   echo.
-  echo   The game cannot start without Vanguard. Open Riot Client, wait
-  echo   for the icon to turn red, then run this file again.
-  echo.
-  pause
-  exit /b 1
+  timeout /t 4 /nobreak >nul 2>&1
 )
 
 :: Dos partidas a la vez no caben: si ya hay una, esto no haria nada.
-tasklist /FI "IMAGENAME eq League of Legends.exe" 2>nul | find /i "League of Legends.exe" >nul
+tasklist /FI "IMAGENAME eq League of Legends.exe" /NH 2>nul | findstr /I /C:"League of Legends.exe" >nul
 if not errorlevel 1 (
   echo.
   echo   Ya hay una partida abierta en este PC.
@@ -454,7 +461,7 @@ start "" "%EXE_PATH%" "spectator %SERVER% %KEY% %MATCH_ID% %REGION%" "-Product=L
 :: El juego tarda unos segundos en aparecer. Si no aparece, es que murio al
 :: arrancar, y eso antes se veia como una ventana que se cierra y nada mas.
 timeout /t 12 /nobreak >nul 2>&1
-tasklist /FI "IMAGENAME eq League of Legends.exe" 2>nul | find /i "League of Legends.exe" >nul
+tasklist /FI "IMAGENAME eq League of Legends.exe" /NH 2>nul | findstr /I /C:"League of Legends.exe" >nul
 if errorlevel 1 (
   echo.
   echo   El juego no llego a arrancar.

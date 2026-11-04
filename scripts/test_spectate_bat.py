@@ -423,9 +423,14 @@ def prueba_pide_al_cliente() -> None:
 
     # El cuerpo es un vector de argumentos, no un objeto: con `{}` el cliente
     # contesta «Couldn't assign value to 'args' of type vector».
-    ok('> "%CUERPO%" echo ["spectator %SERVER% %KEY% %MATCH_ID% %REGION%"]'
+    ok('> "%CUERPO%" echo ["spectator %SERVER% %KEY% %MATCH_ID% %REGION%",'
        in texto,
        "el cuerpo es el vector de argumentos con el comando spectator")
+    # Y la plataforma forzada: el cliente añade la suya al final y el juego se
+    # queda con la primera, así que sin esto pide metadatos de la partida a su
+    # propio shard, recibe 404 y se queda en la pantalla de carga para siempre.
+    ok('"-PlatformID=%REGION%","-Region=%REGION%"' in texto,
+       "fuerza -PlatformID/-Region de la partida antes que las del cliente")
     ok("--data-binary \"@%CUERPO%\"" in texto,
        "y se manda desde un fichero, sin comillas anidadas que cmd rompa")
     ok('if "!LCU_CODIGO!"=="204" goto :abierta' in texto,

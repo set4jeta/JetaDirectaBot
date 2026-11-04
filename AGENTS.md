@@ -1218,15 +1218,28 @@ El que sí vale es el lanzador de la función **Watch** del cliente:
 
 ```
 POST https://127.0.0.1:<puerto>/lol-gameflow/v1/watch/launch
-["spectator spectator.na1.lol.pvp.net:8080 <clave> <gameId> <PLATAFORMA>"]
+["spectator spectator.na1.lol.pvp.net:8080 <clave> <gameId> <PLATAFORMA>",
+ "-PlatformID=<PLATAFORMA>", "-Region=<PLATAFORMA>"]
 ```
 
 - El cuerpo es **un vector de argumentos, no un objeto**. Con `{}` contesta
   «Couldn't assign value to 'args' of type vector because the input not a
   collection»; con el array, **204**.
-- El cliente arranca el juego **él mismo**, añadiendo sus propios argumentos
-  (`-Region=LA2 -PlatformID=LA2 -Locale=es_MX -SkipBuild`), así que Vanguard lo
-  autoriza.
+- **Los dos últimos argumentos no son opcionales.** El cliente añade *siempre*
+  los suyos **al final** (`-GameBaseDir=… -Region=LA2 -PlatformID=LA2
+  -Locale=es_MX -SkipBuild`), y el juego se queda con el **primero** que ve. Sin
+  forzar la plataforma, el `ReplayDownloader` pide
+  `getGameMetaData/LA2/<gameId>/…` al servidor de NA1, que contesta **404**, y se
+  queda en `==== Fetch MetaData Phase ====` **para siempre**: se ve la pantalla
+  de carga y nada más, y el usuario lo cierra pensando que no funciona (pasó a
+  las 19:36 del 04-11). Con `-PlatformID=NA1` delante:
+
+      Switching Game State from GAMESTATE_PREGAME to GAMESTATE_SPAWN
+      Switching Game State from GAMESTATE_SPAWN to GAMESTATE_GAMELOOP   ← 19 s
+
+  Se comprueba fácil sin abrir nada: `getGameMetaData/NA1/<gameId>/0/<clave>` da
+  200 y `getGameMetaData/LA2/<gameId>/0/<clave>` da **404** contra el host de NA1.
+- El cliente arranca el juego **él mismo**, así que Vanguard lo autoriza.
 - **Cruza plataformas.** Comprobado el 04-11-2026: partida `NA1` abierta desde un
   cliente `LA2`. El log del juego lo confirma:
 

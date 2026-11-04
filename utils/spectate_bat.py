@@ -485,6 +485,15 @@ if errorlevel 1 (
 ::    contra el shard del cliente y una partida de otra plataforma le
 ::    contesta 404.
 ::
+::    Y hay que forzar la plataforma: el cliente anade SIEMPRE los
+::    suyos al final (-PlatformID=LA2, -Region=LA2 si el cliente esta
+::    en LAS), y el juego se queda con el PRIMERO que ve. Con el del
+::    cliente, el ReplayDownloader pide
+::    getGameMetaData/LA2/<partida>/... al servidor de NA1, que
+::    contesta 404, y se queda en «Fetch MetaData Phase» para siempre:
+::    se ve la pantalla de carga y nada mas. Con -PlatformID=NA1
+::    delante, entra en GAMELOOP a los 19 segundos.
+::
 ::    El cuerpo es un vector de argumentos, no un objeto. Por eso el
 ::    JSON va a un fichero temporal: escribirlo con -d entre comillas
 ::    dentro de un .bat es pedirle perlas a cmd.
@@ -496,7 +505,7 @@ echo.
 
 set "CUERPO=%TEMP%\lolprotrackr_espectar.json"
 set "LCU_RESP=%TEMP%\lolprotrackr_espectar.txt"
-> "%CUERPO%" echo ["spectator %SERVER% %KEY% %MATCH_ID% %REGION%"]
+> "%CUERPO%" echo ["spectator %SERVER% %KEY% %MATCH_ID% %REGION%","-PlatformID=%REGION%","-Region=%REGION%"]
 curl -k -s -o nul -w "%%{{http_code}}" --max-time 25 -u "riot:!LCU_CLAVE!" -X POST -H "Content-Type: application/json" --data-binary "@%CUERPO%" "https://127.0.0.1:!LCU_PUERTO!/lol-gameflow/v1/watch/launch" > "%LCU_RESP%" 2>nul
 set "LCU_CODIGO="
 set /p LCU_CODIGO=<"%LCU_RESP%"

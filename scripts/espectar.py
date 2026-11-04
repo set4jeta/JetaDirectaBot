@@ -325,10 +325,22 @@ def abrir_con_el_cliente(puerto: int, clave_lcu: str, servidor: str,
     El cuerpo es un vector de argumentos, no un objeto: el cliente lo deserializa
     como `args` de tipo `vector` y con `{}` contesta «Couldn't assign value to
     'args' of type vector because the input not a collection».
+
+    Y hay que **forzar la plataforma**. El cliente añade siempre los suyos al
+    final (`-PlatformID=LA2`, `-Region=LA2` si el cliente está en LAS) y el juego
+    se queda con el **primero** que ve. Con el del cliente, el `ReplayDownloader`
+    pide `getGameMetaData/LA2/<partida>/…` al servidor de NA1, que contesta 404, y
+    se queda en «Fetch MetaData Phase» indefinidamente: se ve la pantalla de
+    carga y nada más. Con `-PlatformID=NA1` delante entra en `GAMELOOP` a los 19
+    segundos (medido el 04-11-2026).
     """
-    argumentos = f"spectator {servidor} {clave} {game_id} {region}"
+    argumentos = [
+        f"spectator {servidor} {clave} {game_id} {region}",
+        f"-PlatformID={region}",
+        f"-Region={region}",
+    ]
     return _lcu(puerto, clave_lcu, "/lol-gameflow/v1/watch/launch", "POST",
-                [argumentos])
+                argumentos)
 
 
 def lanzar(ruta: str, servidor: str, clave: str, game_id: int, region: str,

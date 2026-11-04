@@ -1117,6 +1117,25 @@ Todas fallan **en silencio**: el `.bat` se ve perfecto y no encuentra nada.
   > `RiotClientInstalls.json` durante un rato. Una copia con barras normales se
   > lee sin problema, así que no era eso. La normalización de `:probar` se queda
   > por limpieza, no porque arregle nada.
+- **`curl` escribe `000` cuando no llegó a conectar.** No es una respuesta del
+  cliente: es que no hay nadie escuchando en ese puerto. Enseñarlo tal cual
+  («El cliente no abrió la partida (HTTP 000)») no dice nada. `000` y una
+  respuesta vacía van a `:sin_respuesta`, que pide cerrar el cliente del todo y
+  volver a abrirlo. Probado con un `lockfile` de pid vivo y puerto muerto
+  (`prueba_cliente_mudo`, que usa el pid del propio proceso de la prueba para que
+  sea portable).
+
+### Trampa de la herramienta, no del `.bat`: `tasklist /FI` desde Git Bash
+
+`tasklist /FI "IMAGENAME eq League of Legends.exe"` lanzado **desde Git Bash**
+no consulta nada: MSYS convierte `/FI` en una ruta de Windows y `tasklist`
+contesta `Error: Argumento u opción no válido - "D:/…/PortableGit/FI"`. El
+comando sale con 0 y **no imprime ni una línea**, así que parece que el proceso
+no existe. El 04-11-2026 eso hizo concluir «el cliente está cerrado» con el
+cliente abierto, y mandó a buscar el fallo en el sitio equivocado.
+
+Para mirar procesos del PC, `Get-Process` (PowerShell) o `cmd /c` desde Python.
+Nunca `tasklist /FI` desde bash. Lo mismo con cualquier ruta que empiece por `/`.
 
 ### Vanguard: solo el cliente puede abrir el juego (04-11-2026)
 

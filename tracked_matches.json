@@ -3,7 +3,7 @@
     "start_time": "2026-11-04T22:00:00+00:00",
     "match_id": "115660540726095115",
     "detection_time": "2026-11-04T14:00:15+00:00",
-    "last_checked": "2026-11-04T23:03:04+00:00",
+    "last_checked": "2026-11-04T23:14:11+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Quarterfinals",
@@ -41,6 +41,34 @@
         "vods": [],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "live_red_metadata": {
+          "team_id": "",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": []
+        },
+        "last_frame_time": "2026-11-04T22:13:58.769Z"
+      },
+      {
+        "game_id": "115660540726095117",
+        "number": 2,
+        "state": "inProgress",
+        "draft_in_progress": false,
+        "has_participants": true,
+        "notified_time": null,
+        "notified_game": false,
+        "finished_time": null,
+        "real_start_time": "2026-11-04T23:10:41+00:00",
+        "vods": [],
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
           "team_id": "100205573495116443",
           "name": "",
           "code": "",
@@ -50,35 +78,35 @@
               "participant_id": 1,
               "player_id": "99566404532924465",
               "summoner_name": "GEN Kiin",
-              "champion_id": "Olaf",
+              "champion_id": "Sion",
               "role": "top"
             },
             {
               "participant_id": 2,
               "player_id": "100725844994345151",
               "summoner_name": "GEN Canyon",
-              "champion_id": "Qiyana",
+              "champion_id": "JarvanIV",
               "role": "jungle"
             },
             {
               "participant_id": 3,
               "player_id": "99871276342168416",
               "summoner_name": "GEN Chovy",
-              "champion_id": "Galio",
+              "champion_id": "Viktor",
               "role": "mid"
             },
             {
               "participant_id": 4,
               "player_id": "98767975906852059",
               "summoner_name": "GEN Ruler",
-              "champion_id": "Jhin",
+              "champion_id": "Ashe",
               "role": "bottom"
             },
             {
               "participant_id": 5,
               "player_id": "107454956790371682",
               "summoner_name": "GEN Duro",
-              "champion_id": "Leona",
+              "champion_id": "Seraphine",
               "role": "support"
             }
           ]
@@ -93,56 +121,40 @@
               "participant_id": 6,
               "player_id": "99322408701435122",
               "summoner_name": "LYON Dhokla",
-              "champion_id": "Jax",
+              "champion_id": "Jayce",
               "role": "top"
             },
             {
               "participant_id": 7,
               "player_id": "101389713966873995",
               "summoner_name": "LYON Inspired",
-              "champion_id": "LeeSin",
+              "champion_id": "MonkeyKing",
               "role": "jungle"
             },
             {
               "participant_id": 8,
               "player_id": "107492059066783320",
               "summoner_name": "LYON Saint",
-              "champion_id": "Orianna",
+              "champion_id": "Cassiopeia",
               "role": "mid"
             },
             {
               "participant_id": 9,
               "player_id": "105388936922706146",
               "summoner_name": "LYON Berserker",
-              "champion_id": "Ezreal",
+              "champion_id": "Mel",
               "role": "bottom"
             },
             {
               "participant_id": 10,
               "player_id": "103103578076943629",
               "summoner_name": "LYON Isles",
-              "champion_id": "Nautilus",
+              "champion_id": "Pyke",
               "role": "support"
             }
           ]
         },
-        "last_frame_time": "2026-11-04T22:13:58.769Z"
-      },
-      {
-        "game_id": "115660540726095117",
-        "number": 2,
-        "state": "inProgress",
-        "draft_in_progress": false,
-        "has_participants": false,
-        "notified_time": null,
-        "notified_game": false,
-        "finished_time": null,
-        "real_start_time": null,
-        "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "last_frame_time": "2026-11-04T23:06:07.573Z"
       },
       {
         "game_id": "115660540726095118",

@@ -167,7 +167,8 @@ def _pid_vivo(pid: int) -> bool:
     return str(pid) in _tasklist(f"PID eq {pid}")
 
 
-def _lcu(puerto: int, clave: str, ruta: str) -> tuple[int, str]:
+def _lcu(puerto: int, clave: str, ruta: str, metodo: str = "GET",
+         cuerpo: dict | None = None) -> tuple[int, str]:
     """Una petición a la API local del cliente (HTTPS con certificado propio).
 
     Sin `ProxyHandler({})` la petición se va por el proxy del sistema si lo hay
@@ -176,6 +177,7 @@ def _lcu(puerto: int, clave: str, ruta: str) -> tuple[int, str]:
     de loopback y por definición no pasa por ningún proxy.
     """
     import base64
+    import json
     import urllib.error
     import urllib.request
 
@@ -183,9 +185,14 @@ def _lcu(puerto: int, clave: str, ruta: str) -> tuple[int, str]:
     contexto.check_hostname = False
     contexto.verify_mode = ssl.CERT_NONE
     credencial = base64.b64encode(f"riot:{clave}".encode()).decode()
+    datos = json.dumps(cuerpo).encode("utf-8") if cuerpo is not None else None
     peticion = urllib.request.Request(
         f"https://127.0.0.1:{puerto}{ruta}",
-        headers={"Authorization": f"Basic {credencial}", "Accept": "application/json"},
+        data=datos,
+        method=metodo,
+        headers={"Authorization": f"Basic {credencial}",
+                 "Content-Type": "application/json",
+                 "Accept": "application/json"},
     )
     abridor = urllib.request.build_opener(
         urllib.request.ProxyHandler({}),
@@ -291,6 +298,24 @@ def diagnostico() -> int:
 # --------------------------------------------------------------------------- #
 
 
+def abrir_con_el_cliente(puerto: int, clave_lcu: str, game_id: int, region: str,
+                         encryption_key: str) -> tuple[bool, str]:
+    """Pide al cliente de LoL que abra el espectador. Es el camino que Vanguard
+    permite.
+
+    **Esto es lo importante del 04-11-2026**: lanzar `League of Legends.exe` a
+    mano ya no funciona. Vanguard 1.19 (ficheros del 01-10-2026) contesta
+    **acceso denegado (error 5)** a `CreateProcess`, con argumentos o sin ellos,
+    y da igual que lo intente el agente o el propio `.bat` del usuario. Solo lo
+    puede abrir el cliente, y para eso está `spectate/launch`.
+    """
+    return _lcu(puerto, clave_lcu, "/lol-spectator/v1/spectate/launch", "POST", {
+        "gameId": game_id,
+        "encryptionKey": encryption_key,
+        "platformId": region,
+    })
+
+
 def lanzar(ruta: str, servidor: str, clave: str, game_id: int, region: str,
            seco: bool = False) -> int:
     """Abre el juego apuntando al espectador. Devuelve el código de salida."""
@@ -322,9 +347,29 @@ def lanzar(ruta: str, servidor: str, clave: str, game_id: int, region: str,
         print(f"\n  AVISO: la clave tiene {len(clave)} caracteres y debería tener 32.")
         print("  ¿Es `observers.encryptionKey` y no `decodedEncryptionKey`?")
 
-    # Popen y no `cmd start`: al pasar por bash se pierden las comillas vacías,
-    # `start` toma el ejecutable como título y no arranca nada, sin error.
-    proceso = subprocess.Popen(orden, cwd=str(exe.parent))
+    # 1) El camino bueno: que la abra el cliente. Vanguard solo autoriza esa.
+    lock = cliente_abierto(ruta)
+    if lock:
+        puerto, clave_lcu = lock
+        estado, cuerpo = abrir_con_el_cliente(puerto, clave_lcu, game_id, region,
+                                              clave)
+        if estado in (200, 204):
+            print(f"\n  El cliente ha abierto la partida (HTTP {estado}).")
+            print("  Tarda unos segundos y luego aplica el retardo del espectador.")
+            return 0
+        print(f"\n  El cliente no la abrió (HTTP {estado}): {cuerpo[:160]}")
+    else:
+        print("\n  El cliente de LoL está cerrado: se intenta abrir el juego directo.")
+
+    # 2) Sin cliente: lanzarlo a mano. En Vanguard 1.19 esto da acceso denegado.
+    try:
+        proceso = subprocess.Popen(orden, cwd=str(exe.parent))
+    except PermissionError:
+        print("\n  ACCESO DENEGADO al abrir el juego.")
+        print("  Vanguard no deja lanzar League of Legends.exe directamente; solo")
+        print("  lo puede abrir el cliente. Abre el cliente de LoL y vuelve a")
+        print("  intentarlo: entonces se usa su API y funciona.")
+        return 1
     print(f"\n  abierto (pid {proceso.pid}). El juego tarda unos segundos.")
     return 0
 

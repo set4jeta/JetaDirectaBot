@@ -343,6 +343,29 @@ def prueba_no_puede_tocar_vanguard() -> None:
        "y ese `start` abre League of Legends, nada más")
 
 
+def prueba_pide_al_cliente() -> None:
+    """El único camino que Vanguard permite: que la abra el cliente.
+
+    Desde la 1.19, `CreateProcess` sobre `League of Legends.exe` contesta
+    **acceso denegado (error 5)**, con argumentos y sin ellos, lo intente el
+    agente o el propio `.bat` del usuario. Así que el lanzador tiene que pedirle
+    la partida al cliente por su API local.
+    """
+    print("\n=== se le pide al cliente que abra la partida ===")
+
+    texto = _bat()
+
+    ok("/lol-spectator/v1/spectate/launch" in texto,
+       "usa el endpoint del espectador del cliente")
+    ok("lockfile" in texto, "saca puerto y contraseña del `lockfile`")
+    ok("tokens=2,3,4 delims=:" in texto, "parsea pid, puerto y contraseña")
+    ok("riot:!LCU_CLAVE!" in texto, "se autentica como el cliente (Basic riot:)")
+    ok('if errorlevel 1 set "LCU_PUERTO="' in texto,
+       "no se fía de un lockfile de una sesión muerta")
+    ok("Vanguard no deja abrir el juego directamente" in texto,
+       "y si el lanzamiento directo da acceso denegado, lo explica")
+
+
 def main() -> None:
     print("=" * 66)
     print("EL .BAT DE ESPECTAR")
@@ -353,6 +376,7 @@ def main() -> None:
     prueba_sin_vanguard()
     prueba_arranca_sin_vgc()
     prueba_no_puede_tocar_vanguard()
+    prueba_pide_al_cliente()
     prueba_trampas_de_cmd()
     prueba_ruta_detectada()
     prueba_servidores()

@@ -394,6 +394,48 @@ set "EXE_PATH=%GAME_DIR%\League of Legends.exe"
 
 if not exist "%EXE_PATH%" goto :preguntar
 
+:: ------------------------------------------------------------------
+:: 1) Que la abra el CLIENTE, si esta abierto.
+::
+::    Vanguard 1.19 (01-10-2026) ya no deja lanzar League of Legends.exe
+::    a mano: CreateProcess contesta acceso denegado (error 5), con
+::    argumentos y sin ellos. Solo lo autoriza el cliente, y para eso
+::    esta su API local, la misma que usa la pagina del cliente.
+::
+::    El puerto y la contrasena estan en `lockfile`, que el cliente
+::    reescribe al arrancar y borra al cerrarse.
+:: ------------------------------------------------------------------
+set "LOCK=%LOL_PATH%\lockfile"
+set "LCU_PUERTO="
+if exist "%LOCK%" for /f "usebackq tokens=2,3,4 delims=:" %%A in ("%LOCK%") do (
+  set "LCU_PID=%%A"
+  set "LCU_PUERTO=%%B"
+  set "LCU_CLAVE=%%C"
+)
+if defined LCU_PUERTO (
+  rem El lockfile sobrevive a un cierre sucio: hay que mirar si el pid vive.
+  tasklist /FI "PID eq %LCU_PID%" /NH 2>nul | findstr /I /C:"%LCU_PID%" >nul
+  if errorlevel 1 set "LCU_PUERTO="
+)
+if not defined LCU_PUERTO goto :abrir_directo
+where curl >nul 2>&1
+if errorlevel 1 goto :abrir_directo
+
+echo.
+echo   El cliente esta abierto: se le pide a el que abra la partida...
+echo   The client is open: asking it to open the game...
+echo.
+set "LCU_RESP=%TEMP%\lolspectate.txt"
+curl -k -s -o nul -w "%%{{http_code}}" --max-time 15 -u "riot:!LCU_CLAVE!" -X POST -H "Content-Type: application/json" -d "{{\"gameId\":%MATCH_ID%,\"encryptionKey\":\"%KEY%\",\"platformId\":\"%REGION%\"}}" "https://127.0.0.1:!LCU_PUERTO!/lol-spectator/v1/spectate/launch" > "%LCU_RESP%" 2>nul
+set "LCU_CODIGO="
+set /p LCU_CODIGO=<"%LCU_RESP%"
+if "!LCU_CODIGO!"=="200" goto :abierta
+if "!LCU_CODIGO!"=="204" goto :abierta
+echo   El cliente no la abrio (HTTP !LCU_CODIGO!). Se intenta de la otra forma.
+echo   The client did not open it (HTTP !LCU_CODIGO!). Trying the other way.
+
+:abrir_directo
+
 :: --- Avisos previos: no bloquean, pero explican el fallo antes de que pase ---
 
 :: Vanguard: se comprueba que este en marcha. No se arranca ni se para, y
@@ -457,6 +499,21 @@ echo.
 
 cd /d "%GAME_DIR%"
 start "" "%EXE_PATH%" "spectator %SERVER% %KEY% %MATCH_ID% %REGION%" "-Product=LoL" "-GameBaseDir=%LOL_PATH%"
+if errorlevel 5 (
+  echo.
+  echo   Vanguard no deja abrir el juego directamente ^(acceso denegado^).
+  echo   Vanguard does not allow opening the game directly ^(access denied^).
+  echo.
+  echo   Solo lo puede abrir el cliente de LoL. Abrelo, espera a que
+  echo   cargue y vuelve a ejecutar este archivo: entonces la partida se
+  echo   le pide al cliente y si funciona.
+  echo.
+  echo   Only the LoL client can open it. Open it, wait for it to load and
+  echo   run this file again.
+  echo.
+  pause
+  exit /b 1
+)
 
 :: El juego tarda unos segundos en aparecer. Si no aparece, es que murio al
 :: arrancar, y eso antes se veia como una ventana que se cierra y nada mas.
@@ -477,6 +534,21 @@ if errorlevel 1 (
   exit /b 1
 )
 
+exit /b 0
+
+
+:abierta
+echo.
+echo   La partida se esta abriendo.
+echo   The game is opening.
+echo.
+echo   Tarda unos segundos, y luego aplica el retardo del espectador:
+echo   al principio se ve la carga y nada mas. Es normal.
+echo.
+echo   It takes a few seconds, then the spectator delay applies: at first
+echo   you only see the loading screen. That is expected.
+echo.
+timeout /t 10 /nobreak >nul 2>&1
 exit /b 0
 """
 

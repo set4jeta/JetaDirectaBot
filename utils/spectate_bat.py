@@ -37,7 +37,9 @@ algo innecesario es un `.bat` que la mitad de la gente no llega a ejecutar.
 Lo que **sí** hay que hacer es comprobar que está **en marcha**. Vanguard es
 requisito del juego (`dependencies: vanguard: true` en
 `league_of_legends.live.product_settings.yaml`) y sin `vgc.exe` el juego no
-arranca. El `.bat` avisa y sigue; nunca lo arranca ni lo para.
+arranca. El `.bat` nunca lo arranca ni lo para: si no está, **no lanza el
+juego** y lo explica. Lanzarlo igual deja al cliente a medias y es la forma más
+fácil de acabar con el icono gris y sin saber por qué (03-11-2026).
 
 Que no exista una ruta no significa que no haya juego
 -----------------------------------------------------
@@ -398,13 +400,18 @@ if not exist "%EXE_PATH%" goto :preguntar
 tasklist /FI "IMAGENAME eq vgc.exe" 2>nul | find /i "vgc.exe" >nul
 if errorlevel 1 (
   echo.
-  echo   Aviso: Vanguard no esta corriendo.
-  echo   Warning: Vanguard is not running.
+  echo   Vanguard no esta corriendo.
+  echo   Vanguard is not running.
   echo.
-  echo   El juego no arranca sin Vanguard. Abre Riot Client o el cliente
-  echo   de LoL una vez, y vuelve a ejecutar este archivo.
+  echo   El juego no arranca sin Vanguard, y abrirlo igual deja el
+  echo   cliente a medias. Abre Riot Client, espera a que el icono se
+  echo   ponga rojo y vuelve a ejecutar este archivo.
   echo.
-  timeout /t 7 /nobreak >nul 2>&1
+  echo   The game cannot start without Vanguard. Open Riot Client, wait
+  echo   for the icon to turn red, then run this file again.
+  echo.
+  pause
+  exit /b 1
 )
 
 :: Dos partidas a la vez no caben: si ya hay una, esto no haria nada.

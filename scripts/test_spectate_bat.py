@@ -218,6 +218,87 @@ def prueba_trampas_de_cmd() -> None:
     ok('set "CAND=%~1"' in texto, "se copia a CAND y se pregunta `if not defined`")
 
 
+def prueba_no_puede_tocar_vanguard() -> None:
+    """El `.bat` no puede parar, borrar ni reconfigurar nada del sistema.
+
+    Esto no es paranoia: el dueño vio el icono de Vanguard gris justo después de
+    ejecutar el lanzador y lo lógico es culpar al lanzador. La respuesta tiene
+    que ser una lista de lo que el fichero puede hacer, no un «yo no fui».
+
+    Se parte cada línea en segmentos (`&`, `|`) y se mira el **primer token** de
+    cada uno, que es el programa que se ejecuta de verdad. Así «del bot» en un
+    comentario no cuenta como el comando `del`.
+    """
+    print("\n=== el .bat no puede parar ni tocar Vanguard ===")
+
+    texto = _bat()
+
+    # Programas que pueden matar procesos, parar servicios o borrar cosas.
+    prohibidos = {
+        "taskkill", "tskill", "pskill", "psservice", "nssm",
+        "del", "erase", "rd", "rmdir", "format", "diskpart", "bcdedit",
+        "wmic", "schtasks", "shutdown", "vssadmin", "regedit",
+        "net1", "netsh", "takeown", "icacls", "cacls",
+    }
+
+    encontrados: list[str] = []
+    for linea in texto.splitlines():
+        limpia = linea.strip()
+        if not limpia or limpia.startswith("::") or limpia.lower().startswith("rem "):
+            continue
+        for segmento in limpia.replace("&", "|").split("|"):
+            trozos = segmento.strip().split()
+            if not trozos:
+                continue
+            primero = trozos[0].lower().strip('"')
+            if primero in prohibidos:
+                encontrados.append(limpia[:80])
+
+    ok(not encontrados,
+       "no hay ningún comando que mate procesos o pare servicios",
+       "; ".join(encontrados[:2]))
+
+    # `sc` y `net` son legítimos para consultar, y peligrosos con stop/delete.
+    bajo = texto.lower()
+    for pareja in ("sc stop", "sc delete", "sc config", "net stop", "net start",
+                   "reg delete", "reg add", "stop-service"):
+        ok(pareja not in bajo, f"no aparece «{pareja}»")
+
+    # `reg` solo puede consultar.
+    consultas_reg = [l for l in texto.splitlines()
+                     if "reg " in l.lower() and l.strip().lower().startswith("for")]
+    ok(consultas_reg and all("reg query" in l.lower() for l in consultas_reg),
+       "el registro solo se consulta con `reg query`",
+       f"{len(consultas_reg)} consultas")
+
+    # PowerShell solo puede LEER: Get-Content y ConvertFrom-Json.
+    lineas_ps = [l for l in texto.splitlines()
+                 if "powershell" in l.lower() and not l.strip().startswith("::")]
+    ok(len(lineas_ps) == 1, "hay una sola llamada a PowerShell",
+       f"{len(lineas_ps)}")
+    for linea in lineas_ps:
+        for verbo in ("remove-", "stop-", "set-", "start-", "restart-",
+                      "new-", "invoke-", "sc.exe", "taskkill", "delete"):
+            ok(verbo not in linea.lower(),
+               f"PowerShell no usa «{verbo}» (solo lee el JSON)")
+
+    # Y lo único que nombra a Vanguard son consultas o mensajes.
+    for linea in texto.splitlines():
+        limpia = linea.strip()
+        if "vgc" not in limpia.lower() and "vanguard" not in limpia.lower():
+            continue
+        es_consulta = limpia.lower().startswith("tasklist")
+        es_mensaje = limpia.startswith("::") or limpia.lower().startswith("echo")
+        ok(es_consulta or es_mensaje,
+           "toda mención a Vanguard es una consulta o un mensaje", limpia[:70])
+
+    # El ejecutable del juego es lo único que se abre, y solo una vez.
+    ok(texto.count('start ""') == 1,
+       "solo hay un `start`, el del juego")
+    ok('start "" "%EXE_PATH%"' in texto,
+       "y ese `start` abre League of Legends, nada más")
+
+
 def main() -> None:
     print("=" * 66)
     print("EL .BAT DE ESPECTAR")
@@ -226,6 +307,7 @@ def main() -> None:
     prueba_datos_de_la_partida()
     prueba_generado_en_linux()
     prueba_sin_vanguard()
+    prueba_no_puede_tocar_vanguard()
     prueba_trampas_de_cmd()
     prueba_ruta_detectada()
     prueba_servidores()

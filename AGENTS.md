@@ -1117,6 +1117,50 @@ la mitad de la gente no llega a ejecutar.
 Ojo: `vgtray.exe` (el icono de la bandeja) **no cuenta** como Vanguard en marcha;
 el que importa es `vgc.exe`.
 
+**Si Vanguard no está, el `.bat` NO lanza el juego** (desde el 04-11-2026; antes
+avisaba y seguía). Lanzarlo igual deja el cliente a medias y es la forma más
+fácil de acabar con el icono gris sin saber por qué. Sale con código 1 y explica
+que hay que abrir Riot Client y esperar a que el icono se ponga rojo.
+
+#### El `.bat` no puede tocar Vanguard, y ahora está demostrado
+
+El 04-11-2026 el dueño vio el icono de Vanguard gris justo después de ejecutar el
+lanzador y culpó al lanzador. Es la conclusión lógica, así que la respuesta no
+puede ser «yo no fui»: `scripts/test_spectate_bat.py` recorre el `.bat` **línea a
+línea**, parte cada una en segmentos (`&`, `|`) y mira el primer token —el
+programa que se ejecuta de verdad— contra una lista negra: `taskkill`, `tskill`,
+`pskill`, `psservice`, `nssm`, `del`, `erase`, `rd`, `rmdir`, `format`,
+`diskpart`, `bcdedit`, `wmic`, `schtasks`, `shutdown`, `vssadmin`, `regedit`,
+`net1`, `netsh`, `takeown`, `icacls`, `cacls`. Además exige que `reg` solo se use
+con `reg query`, que la única llamada a PowerShell sea de lectura
+(`Get-Content` + `ConvertFrom-Json`, sin verbos `Remove-`, `Stop-`, `Set-`,
+`Start-`…), que **toda** mención a Vanguard sea una consulta `tasklist` o un
+mensaje, y que haya **un solo `start`**: el del juego.
+
+Lo que el `.bat` ejecuta, entero: `tasklist`, `find`, `where`, `curl`,
+`reg query`, `powershell` (leer el JSON) y `start` (el juego). Nada más.
+
+#### Qué pasó de verdad aquel día (para no repetir el diagnóstico)
+
+- 18:20:50 — Vanguard escribía su log: estaba **vivo**.
+- 18:21:02, 18:24:22 y 18:37:24 — **tres arranques** del PC en 16 minutos.
+- Tras cada arranque, `vgk` (driver del kernel, `Start=1` **con
+  `ErrorControl=0`**) quedaba `Stopped` con **ExitCode 31** (`ERROR_GEN_FAILURE`).
+  Con `ErrorControl=0` Windows **ignora** el fallo y ni lo lista en el evento
+  7026, así que no hay rastro en el visor de eventos: solo se ve en
+  `Win32_SystemDriver`.
+- 18:41:24 — se abre Riot Client, arranca `vgc`, que necesita `vgk`; `vgc`
+  termina con «Función incorrecta» (7023) y sale `RiotClientCrashHandler`.
+- Arreglo: `Start-Service vgk` y `Start-Service vgc` → los dos `Running`, la
+  bandeja se relanza sola y el icono vuelve a rojo. **No hace falta reinstalar.**
+
+Sospechoso principal del fallo de carga: **inicio rápido** (`HiberbootEnabled=1`),
+que hiberna la sesión del kernel en vez de arrancar en frío y es una causa
+conocida de que `vgk` no cargue. Si vuelve a pasar tras apagar, desactivar el
+inicio rápido (`HiberbootEnabled=0`). Y si un día no arranca ni a mano, entonces
+sí: `C:\Program Files\Riot Vanguard\uninstall.exe`, reiniciar y abrir Riot Client
+para que lo reinstale.
+
 ### El protocolo del espectador (lo que costó averiguarlo)
 
 - La clave buena es **`observers.encryptionKey`**: 32 caracteres alfanuméricos.

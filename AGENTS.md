@@ -1105,7 +1105,7 @@ Todas fallan **en silencio**: el `.bat` se ve perfecto y no encuentra nada.
   título de ventana: no arranca nada y no da error. En Python se usa `Popen` con
   la lista de argumentos, nunca `cmd /c start`.
 
-### Vanguard: se comprueba, no se toca
+### Vanguard: solo el cliente puede abrir el juego (04-11-2026)
 
 El juego no arranca sin `vgc.exe` (`dependencies: vanguard: true` en el
 `product_settings.yaml` del cliente). Pero **pararlo no hace falta**: la noche del
@@ -1117,10 +1117,29 @@ la mitad de la gente no llega a ejecutar.
 Ojo: `vgtray.exe` (el icono de la bandeja) **no cuenta** como Vanguard en marcha;
 el que importa es `vgc.exe`.
 
-**Si Vanguard no está, el `.bat` NO lanza el juego** (desde el 04-11-2026; antes
-avisaba y seguía). Lanzarlo igual deja el cliente a medias y es la forma más
-fácil de acabar con el icono gris sin saber por qué. Sale con código 1 y explica
-que hay que abrir Riot Client y esperar a que el icono se ponga rojo.
+**Lanzar `League of Legends.exe` a mano ya no funciona, y no es cosa del `.bat`.**
+Medido el 04-11-2026 con el sandbox del agente **desactivado**, con el usuario
+real y con las ACL del fichero normales (`icacls`: solo `(I)(M)` heredado, ni una
+denegación):
+
+| qué se intenta abrir | resultado |
+|---|---|
+| `Game\League of Legends.exe` | **acceso denegado (error 5)** |
+| `Game\LeagueCrashHandler64.exe` | **acceso denegado (error 5)** |
+| `notepad.exe` **copiado** a `Game\` | arranca sin problema |
+
+No es la ruta ni los permisos del fichero: es el binario. Lo bloquea Vanguard
+(`vgk`), que solo deja arrancar el juego al cliente. **No se intenta saltar**:
+saltarse un anticheat es motivo de ban y el problema no es del usuario.
+
+> Cuidado con el diagnóstico fácil: el sandbox del agente también niega
+> `CreateProcess` sobre binarios de Riot, así que «error 5 desde el agente» no
+> prueba nada. Lo que prueba es que un `notepad.exe` copiado a esa misma carpeta
+> **sí** arranque: ahí ya solo queda el binario.
+
+Consecuencia para el `.bat`: **el cliente de LoL tiene que estar abierto**. Sin
+cliente no hay partida, y el `.bat` lo dice (`:sin_cliente`) en vez de intentar
+lo imposible.
 
 #### El `.bat` no puede tocar Vanguard, y ahora está demostrado
 
@@ -1137,8 +1156,9 @@ con `reg query`, que la única llamada a PowerShell sea de lectura
 `Start-`…), que **toda** mención a Vanguard sea una consulta `tasklist` o un
 mensaje, y que haya **un solo `start`**: el del juego.
 
-Lo que el `.bat` ejecuta, entero: `tasklist`, `find`, `where`, `curl`,
-`reg query`, `powershell` (leer el JSON) y `start` (el juego). Nada más.
+Lo que el `.bat` ejecuta, entero: `tasklist`, `findstr`, `where`, `curl`,
+`reg query` y `powershell` (leer el JSON). **Ningún `start`**: no abre
+ejecutables, le pide la partida al cliente. Nada más.
 
 #### Qué pasó de verdad aquel día (para no repetir el diagnóstico)
 
@@ -1163,20 +1183,70 @@ para que lo reinstale.
 
 ### El protocolo del espectador (lo que costó averiguarlo)
 
-- La clave buena es **`observers.encryptionKey`**: 32 caracteres alfanuméricos.
-  Hay otra en los metadatos (`decodedEncryptionKey`) que acaba en `=` y **no
-  sirve**: con ella el cliente no descifra el chunk 1 y se queda pidiéndolo en
-  bucle, sin decir nada.
-- Se lanza `League of Legends.exe` con **un solo argumento**:
-  `"spectator <host>:8080 <clave> <gameId> <platform>"`, desde su propia carpeta y
-  con `-GameBaseDir` absoluto.
+- La clave buena es **`observers.encryptionKey`**: 32 caracteres (a veces con `+`
+  y `/`, es base64). Hay otra en los metadatos (`decodedEncryptionKey`) que acaba
+  en `=` y **no sirve**: con ella el cliente no descifra el chunk 1 y se queda
+  pidiéndolo en bucle, sin decir nada.
 - El host es `spectator.<plataforma>.lol.pvp.net`, puerto **8080**, en **HTTP
   plano** (por HTTPS contesta `WRONG_VERSION_NUMBER`, que parece un problema de
   certificados y es solo el protocolo equivocado). Medido el 03-11-2026: las 18
   plataformas de la tabla resuelven y aceptan TCP. `NA2` no existe (DNS
   `gaierror`), por eso no está en `HOSTS`.
-- La partida **no se ve hasta que pasa el retardo del espectador (~3 min)**. Antes
-  de eso el cliente se abre y se queda sin imagen, que parece un fallo.
+- Se puede comprobar **sin abrir nada** que una partida existe y que la clave
+  vale:
+
+      GET http://spectator.na1.lol.pvp.net:8080/observer-mode/rest/consumer/getGameMetaData/NA1/<gameId>/0/<clave>
+
+  Contesta `{"gameKey":{…},"gameEnded":false,"delayTime":0,…}`. Si el host es de
+  otra plataforma que la partida, `404`. Es la forma rápida de separar «la clave
+  está mal» de «el cliente está mal».
+- La partida **no se ve hasta que pasa el retardo del espectador** (`delayTime`,
+  normalmente ~3 min; algunas partidas salen con 0). Antes de eso se ve la carga
+  y nada más, que parece un fallo.
+
+#### Cómo se le pide al cliente que la abra (04-11-2026)
+
+El endpoint que parece el bueno, **`POST /lol-spectator/v1/spectate/launch`, no
+vale entre plataformas**. Por dentro llama a
+`/lol-gameflow/v2/spectate/launch`, que resuelve la partida contra el *shard* del
+cliente (`getDropInSpectateAvailability?shardId=…`): con un cliente `LA2` y una
+partida de `NA1` contesta `404 NOT_FOUND`, y con `puuid`+`spectatorKey`, `500`.
+**Un cliente nunca puede espectar una partida de otra plataforma por ahí**, y los
+pros casi nunca juegan en la plataforma del que mira.
+
+El que sí vale es el lanzador de la función **Watch** del cliente:
+
+```
+POST https://127.0.0.1:<puerto>/lol-gameflow/v1/watch/launch
+["spectator spectator.na1.lol.pvp.net:8080 <clave> <gameId> <PLATAFORMA>"]
+```
+
+- El cuerpo es **un vector de argumentos, no un objeto**. Con `{}` contesta
+  «Couldn't assign value to 'args' of type vector because the input not a
+  collection»; con el array, **204**.
+- El cliente arranca el juego **él mismo**, añadiendo sus propios argumentos
+  (`-Region=LA2 -PlatformID=LA2 -Locale=es_MX -SkipBuild`), así que Vanguard lo
+  autoriza.
+- **Cruza plataformas.** Comprobado el 04-11-2026: partida `NA1` abierta desde un
+  cliente `LA2`. El log del juego lo confirma:
+
+      Command Line: "spectator spectator.na1.lol.pvp.net:8080 <clave> 5673587648 NA1" …
+      Starting Multiplayer Session: GridSpectator GameID(5673587648)
+        ServerURL(spectator.na1.lol.pvp.net:8080)
+
+- Mientras dura, `/lol-gameflow/v1/watch` contesta `"WatchInProgress"`.
+
+El DTO de `SpectateGameInfo` (lo que devuelve `GET /lol-spectator/v1/spectate`) es
+`{allowObserveMode, dropInSpectateGameId, gameQueueType, puuid, spectatorKey}`, y
+**no tiene plataforma**: por eso el cliente no puede resolver otro shard ni
+queriendo. `dropInSpectateGameId` es **string**, no número («Couldn't assign value
+to 'dropInSpectateGameId' because the input is not a string»).
+
+Estas rutas existen pero **no sirven** para esto, comprobado una por una:
+`/lol-spectator/v1|v2|v3/buddy/spectate` (`RBAC: access denied` del edge),
+`/lol-spectator/v3/buddy/can-spectate/{puuid}/{clave}` (solo consulta),
+`/lol-gameflow/v1/spectate/launch` con `targetSummonerName` (mismo shard),
+`/lol-gameflow/v1/spectate/delayed-launch` (204 y nada).
 
 ### `scripts/espectar.py`: lo mismo, pero depurable
 

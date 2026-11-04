@@ -21,25 +21,37 @@ Cómo funciona el espectador (lo que costó averiguarlo)
 2. Esa clave es de **32 caracteres alfanuméricos**. Hay otra en los metadatos
    (`decodedEncryptionKey`) que acaba en `=` y **no sirve**: con ella el cliente
    no descifra el chunk 1 y se queda pidiéndolo en bucle, sin decir nada.
-3. Se lanza `League of Legends.exe` con **un solo argumento**:
+3. Se le pide **al cliente** que abra el juego, con el lanzador de su función
+   Watch:
 
-       "spectator <host>:<puerto> <clave> <gameId> <platform>"
+       POST /lol-gameflow/v1/watch/launch
+       ["spectator <host>:8080 <clave> <gameId> <platform>"]
 
-   El host es `spectator.<plataforma>.lol.pvp.net`, puerto **8080**, y habla el
-   protocolo en HTTP plano.
+   El cuerpo es un **vector de argumentos**, no un objeto: con `{}` contesta
+   «Couldn't assign value to 'args' of type vector». Con el array devuelve 204 y
+   el cliente arranca el juego él mismo, con sus propios argumentos
+   (`-Region=…`, `-PlatformID=…`, `-Locale=…`).
+
 4. La partida no se puede ver hasta que pasa el retardo del espectador (~3 min).
    Antes de eso el cliente se abre y se queda sin imagen, que parece un fallo.
 
 Vanguard
 --------
-El juego no arranca sin Vanguard (`vgc.exe` en marcha). **No hay que pararlo**:
-durante la noche del 30-09-2026 se abrieron partidas con Vanguard corriendo y
-funcionaron. Pararlo era lo único que obligaba a ejecutar como administrador.
-Este script comprueba que esté vivo y avisa si no; nunca lo toca.
+El juego **solo lo puede abrir el cliente**. Lanzar `League of Legends.exe` a
+mano contesta **acceso denegado (error 5)**, y no es la ruta ni los permisos:
+medido el 04-11-2026 con el sandbox desactivado y las ACL normales,
+`LeagueCrashHandler64.exe` —en la misma carpeta— también da 5, mientras que un
+`notepad.exe` copiado a esa carpeta arranca sin problema. Es el binario.
 
-Lo que **sí** hay que respetar: el ejecutable del juego tiene que ser el de la
-instalación real y estar en el parche vivo. Por eso se lanza desde su propia
-carpeta (`cwd`) y con `-GameBaseDir` absoluto.
+Por eso este script **no intenta lanzarlo directamente**: si el cliente no está
+abierto, lo dice y se acaba. Vanguard no se toca nunca.
+
+Y ojo con el endpoint «de espectar»: `POST /lol-spectator/v1/spectate/launch`
+**no vale entre plataformas**. Por dentro llama a
+`/lol-gameflow/v2/spectate/launch`, que resuelve la partida contra el shard del
+cliente: con un cliente `LA2` y una partida de `NA1` contesta `404 NOT_FOUND`, y
+con `puuid`+`spectatorKey`, `500`. El de Watch no tiene ese problema porque
+recibe los argumentos del juego ya montados.
 """
 
 from __future__ import annotations
@@ -298,22 +310,25 @@ def diagnostico() -> int:
 # --------------------------------------------------------------------------- #
 
 
-def abrir_con_el_cliente(puerto: int, clave_lcu: str, game_id: int, region: str,
-                         encryption_key: str) -> tuple[bool, str]:
-    """Pide al cliente de LoL que abra el espectador. Es el camino que Vanguard
-    permite.
+def abrir_con_el_cliente(puerto: int, clave_lcu: str, servidor: str,
+                         clave: str, game_id: int,
+                         region: str) -> tuple[int, str]:
+    """Pide al cliente de LoL que abra el espectador. Es el único camino que
+    Vanguard permite.
 
     **Esto es lo importante del 04-11-2026**: lanzar `League of Legends.exe` a
-    mano ya no funciona. Vanguard 1.19 (ficheros del 01-10-2026) contesta
-    **acceso denegado (error 5)** a `CreateProcess`, con argumentos o sin ellos,
-    y da igual que lo intente el agente o el propio `.bat` del usuario. Solo lo
-    puede abrir el cliente, y para eso está `spectate/launch`.
+    mano ya no funciona. Vanguard solo autoriza al cliente, así que hay que usar
+    el lanzador de su función Watch, que recibe los argumentos del juego tal
+    cual y no resuelve nada contra el shard del cliente (por eso también vale
+    para partidas de otra plataforma).
+
+    El cuerpo es un vector de argumentos, no un objeto: el cliente lo deserializa
+    como `args` de tipo `vector` y con `{}` contesta «Couldn't assign value to
+    'args' of type vector because the input not a collection».
     """
-    return _lcu(puerto, clave_lcu, "/lol-spectator/v1/spectate/launch", "POST", {
-        "gameId": game_id,
-        "encryptionKey": encryption_key,
-        "platformId": region,
-    })
+    argumentos = f"spectator {servidor} {clave} {game_id} {region}"
+    return _lcu(puerto, clave_lcu, "/lol-gameflow/v1/watch/launch", "POST",
+                [argumentos])
 
 
 def lanzar(ruta: str, servidor: str, clave: str, game_id: int, region: str,
@@ -324,54 +339,41 @@ def lanzar(ruta: str, servidor: str, clave: str, game_id: int, region: str,
         print(f"  No existe el ejecutable: {exe}")
         return 1
 
-    orden = [
-        str(exe),
-        f"spectator {servidor} {clave} {game_id} {region}",
-        "-Product=LoL",
-        f"-GameBaseDir={ruta}",
-    ]
-
     _titulo("Lanzando")
     print(f"  partida : {game_id} ({region})")
     print(f"  servidor: {servidor}")
     print(f"  clave   : {clave[:6]}... ({len(clave)} caracteres)")
-    print(f"  orden   : {exe.name} \"{orden[1]}\" \"{orden[2]}\" \"{orden[3]}\"")
+    print(f"  orden   : spectator {servidor} {clave[:6]}... {game_id} {region}")
 
     if seco:
         print("\n  (--sin-lanzar: no se ha abierto nada)")
         return 0
 
     if len(clave) != 32:
-        # La clave buena son 32 alfanuméricos. La otra (`decodedEncryptionKey`)
+        # La clave buena son 32 caracteres. La otra (`decodedEncryptionKey`)
         # acaba en `=` y deja al cliente pidiendo el chunk 1 para siempre.
         print(f"\n  AVISO: la clave tiene {len(clave)} caracteres y debería tener 32.")
         print("  ¿Es `observers.encryptionKey` y no `decodedEncryptionKey`?")
 
-    # 1) El camino bueno: que la abra el cliente. Vanguard solo autoriza esa.
     lock = cliente_abierto(ruta)
-    if lock:
-        puerto, clave_lcu = lock
-        estado, cuerpo = abrir_con_el_cliente(puerto, clave_lcu, game_id, region,
-                                              clave)
-        if estado in (200, 204):
-            print(f"\n  El cliente ha abierto la partida (HTTP {estado}).")
-            print("  Tarda unos segundos y luego aplica el retardo del espectador.")
-            return 0
-        print(f"\n  El cliente no la abrió (HTTP {estado}): {cuerpo[:160]}")
-    else:
-        print("\n  El cliente de LoL está cerrado: se intenta abrir el juego directo.")
-
-    # 2) Sin cliente: lanzarlo a mano. En Vanguard 1.19 esto da acceso denegado.
-    try:
-        proceso = subprocess.Popen(orden, cwd=str(exe.parent))
-    except PermissionError:
-        print("\n  ACCESO DENEGADO al abrir el juego.")
-        print("  Vanguard no deja lanzar League of Legends.exe directamente; solo")
-        print("  lo puede abrir el cliente. Abre el cliente de LoL y vuelve a")
-        print("  intentarlo: entonces se usa su API y funciona.")
+    if not lock:
+        print("\n  El cliente de League of Legends no está abierto.")
+        print("  El juego ya no se puede abrir desde fuera: Vanguard solo deja que")
+        print("  lo abra el cliente. Ábrelo, espera a que cargue y vuelve a probar.")
         return 1
-    print(f"\n  abierto (pid {proceso.pid}). El juego tarda unos segundos.")
-    return 0
+
+    puerto, clave_lcu = lock
+    estado, cuerpo = abrir_con_el_cliente(puerto, clave_lcu, servidor, clave,
+                                          game_id, region)
+    if estado in (200, 204):
+        print(f"\n  El cliente ha abierto la partida (HTTP {estado}).")
+        print("  Tarda unos segundos y luego aplica el retardo del espectador.")
+        return 0
+
+    print(f"\n  El cliente no la abrió (HTTP {estado}): {cuerpo[:200]}")
+    print("  Lo más habitual: el cliente está en la pantalla de entrar, la")
+    print("  partida ya terminó, o el cliente se está actualizando.")
+    return 1
 
 
 def _partida_desde_riot(pro: str) -> tuple[str, dict | None]:

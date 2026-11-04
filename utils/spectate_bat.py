@@ -27,19 +27,43 @@ Las cinco fuentes, en orden
 4. El registro de Windows (`Riot Games, Inc\\League of Legends` → `Location`).
 5. Barrido de **todas** las unidades y las carpetas habituales.
 
-Vanguard: se comprueba, no se toca
-----------------------------------
-Durante la noche del 30-09-2026 se abrieron partidas con `vgtray.exe` corriendo y
-funcionaron. Parar Vanguard era lo único que obligaba a ejecutar el `.bat` como
-administrador, así que se dejó de hacer: un `.bat` que pide administrador para
-algo innecesario es un `.bat` que la mitad de la gente no llega a ejecutar.
+Vanguard: el juego solo lo abre el cliente
+------------------------------------------
+Lanzar `League of Legends.exe` a mano **ya no funciona**, y no es cosa del
+`.bat`. Medido el 04-11-2026 con el sandbox del agente **desactivado**, con el
+usuario real y con las ACL del fichero normales (sin ninguna denegación):
 
-Lo que **sí** hay que hacer es comprobar que está **en marcha**. Vanguard es
-requisito del juego (`dependencies: vanguard: true` en
-`league_of_legends.live.product_settings.yaml`) y sin `vgc.exe` el juego no
-arranca. El `.bat` nunca lo arranca ni lo para: si no está, **no lanza el
-juego** y lo explica. Lanzarlo igual deja al cliente a medias y es la forma más
-fácil de acabar con el icono gris y sin saber por qué (03-11-2026).
+* `League of Legends.exe`  → `CreateProcess` devuelve **acceso denegado (5)**.
+* `LeagueCrashHandler64.exe`, en la misma carpeta → **acceso denegado (5)**.
+* un `notepad.exe` **copiado a esa misma carpeta** → arranca sin problema.
+
+No es la ruta ni los permisos del fichero: es el binario. Lo bloquea Vanguard
+(`vgk`), que solo deja arrancar el juego al cliente. Por eso el `.bat` **no
+intenta lanzarlo directamente**: pide al cliente que lo abra.
+
+Cómo se le pide al cliente (esto es lo que costó)
+-------------------------------------------------
+El endpoint "oficial" `POST /lol-spectator/v1/spectate/launch` **no vale para
+esto**: por dentro llama a `/lol-gameflow/v2/spectate/launch`, que resuelve la
+partida contra el *shard* del cliente. Si el cliente está en `LA2` y la partida
+es de `NA1`, contesta `404 NOT_FOUND`; con `puuid`+`spectatorKey`, `500`. Un
+cliente **nunca** puede espectar una partida de otra plataforma por ahí.
+
+El que sí vale es el lanzador de la función **Watch** del cliente:
+
+    POST /lol-gameflow/v1/watch/launch
+    ["spectator spectator.na1.lol.pvp.net:8080 <clave> <gameId> <PLATAFORMA>"]
+
+El cuerpo es **un vector de argumentos**, no un objeto: con `{}` contesta
+«Couldn't assign value to 'args' of type vector». Con el array, **204** y el
+cliente arranca el juego él mismo —con sus propios argumentos (`-Region=…`,
+`-PlatformID=…`, `-Locale=…`)—, así que Vanguard lo autoriza. Y **funciona
+entre plataformas**: el 04-11-2026 se abrió así una partida de `NA1` desde un
+cliente `LA2` (el log del juego lo confirma: `Starting Multiplayer Session:
+GridSpectator GameID(5673587648) ServerURL(spectator.na1.lol.pvp.net:8080)`).
+
+Consecuencia práctica: **el cliente de LoL tiene que estar abierto**. Sin
+cliente no hay partida, y el `.bat` lo dice en vez de intentar lo imposible.
 
 Que no exista una ruta no significa que no haya juego
 -----------------------------------------------------
@@ -395,75 +419,8 @@ set "EXE_PATH=%GAME_DIR%\League of Legends.exe"
 if not exist "%EXE_PATH%" goto :preguntar
 
 :: ------------------------------------------------------------------
-:: 1) Que la abra el CLIENTE, si esta abierto.
-::
-::    Vanguard 1.19 (01-10-2026) ya no deja lanzar League of Legends.exe
-::    a mano: CreateProcess contesta acceso denegado (error 5), con
-::    argumentos y sin ellos. Solo lo autoriza el cliente, y para eso
-::    esta su API local, la misma que usa la pagina del cliente.
-::
-::    El puerto y la contrasena estan en `lockfile`, que el cliente
-::    reescribe al arrancar y borra al cerrarse.
+:: 1) Dos partidas a la vez no caben: si ya hay una, esto no haria nada.
 :: ------------------------------------------------------------------
-set "LOCK=%LOL_PATH%\lockfile"
-set "LCU_PUERTO="
-if exist "%LOCK%" for /f "usebackq tokens=2,3,4 delims=:" %%A in ("%LOCK%") do (
-  set "LCU_PID=%%A"
-  set "LCU_PUERTO=%%B"
-  set "LCU_CLAVE=%%C"
-)
-if defined LCU_PUERTO (
-  rem El lockfile sobrevive a un cierre sucio: hay que mirar si el pid vive.
-  tasklist /FI "PID eq %LCU_PID%" /NH 2>nul | findstr /I /C:"%LCU_PID%" >nul
-  if errorlevel 1 set "LCU_PUERTO="
-)
-if not defined LCU_PUERTO goto :abrir_directo
-where curl >nul 2>&1
-if errorlevel 1 goto :abrir_directo
-
-echo.
-echo   El cliente esta abierto: se le pide a el que abra la partida...
-echo   The client is open: asking it to open the game...
-echo.
-set "LCU_RESP=%TEMP%\lolspectate.txt"
-curl -k -s -o nul -w "%%{{http_code}}" --max-time 15 -u "riot:!LCU_CLAVE!" -X POST -H "Content-Type: application/json" -d "{{\"gameId\":%MATCH_ID%,\"encryptionKey\":\"%KEY%\",\"platformId\":\"%REGION%\"}}" "https://127.0.0.1:!LCU_PUERTO!/lol-spectator/v1/spectate/launch" > "%LCU_RESP%" 2>nul
-set "LCU_CODIGO="
-set /p LCU_CODIGO=<"%LCU_RESP%"
-if "!LCU_CODIGO!"=="200" goto :abierta
-if "!LCU_CODIGO!"=="204" goto :abierta
-echo   El cliente no la abrio (HTTP !LCU_CODIGO!). Se intenta de la otra forma.
-echo   The client did not open it (HTTP !LCU_CODIGO!). Trying the other way.
-
-:abrir_directo
-
-:: --- Avisos previos: no bloquean, pero explican el fallo antes de que pase ---
-
-:: Vanguard: se comprueba que este en marcha. No se arranca ni se para, y
-:: NUNCA impide abrir la partida.
-::
-:: Se mira `vgc.exe` porque es el proceso que se ve, pero OJO: vgc solo corre
-:: mientras el cliente de Riot esta abierto. Para ESPECTAR no hace falta: lo que
-:: el juego necesita es el driver `vgk`, que va con Windows. Por eso esto es un
-:: aviso y no un freno (03-11-2026: bloquear aqui impedia espectar con Vanguard
-:: perfectamente funcional, y el dueño tenia razon en cabarse).
-::
-:: `findstr` y no `find`: si en el PATH hay un Git, `find` es el de Unix, que no
-:: entiende `/i` ni los ficheros de Windows y contesta error SIEMPRE. Resultado:
-:: «Vanguard no esta corriendo» con Vanguard corriendo. `findstr` solo existe en
-:: Windows, asi que no hay ambiguedad posible.
-tasklist /FI "IMAGENAME eq vgc.exe" /NH 2>nul | findstr /I /C:"vgc.exe" >nul
-if errorlevel 1 (
-  echo.
-  echo   Aviso: el cliente de Riot no esta abierto, asi que el servicio vgc.exe
-  echo   tampoco. Se intenta abrir la partida igual.
-  echo.
-  echo   Note: the Riot client is not open, so vgc.exe is not running either.
-  echo   Opening the game anyway.
-  echo.
-  timeout /t 4 /nobreak >nul 2>&1
-)
-
-:: Dos partidas a la vez no caben: si ya hay una, esto no haria nada.
 tasklist /FI "IMAGENAME eq League of Legends.exe" /NH 2>nul | findstr /I /C:"League of Legends.exe" >nul
 if not errorlevel 1 (
   echo.
@@ -477,64 +434,121 @@ if not errorlevel 1 (
   exit /b 1
 )
 
-:: El servidor de espectadores, si se puede comprobar sin depender de nada.
+:: ------------------------------------------------------------------
+:: 2) El puerto y la contrasena de la API del cliente estan en
+::    `lockfile`, que el cliente reescribe al arrancar y borra al
+::    cerrarse. Si no esta, el cliente no esta abierto.
+:: ------------------------------------------------------------------
+set "LOCK=%LOL_PATH%\lockfile"
+set "LCU_PUERTO="
+if exist "%LOCK%" for /f "usebackq tokens=2,3,4 delims=:" %%A in ("%LOCK%") do (
+  set "LCU_PID=%%A"
+  set "LCU_PUERTO=%%B"
+  set "LCU_CLAVE=%%C"
+)
+if defined LCU_PUERTO (
+  rem El lockfile sobrevive a un cierre sucio: hay que mirar si el pid vive.
+  tasklist /FI "PID eq %LCU_PID%" /NH 2>nul | findstr /I /C:"%LCU_PID%" >nul
+  if errorlevel 1 set "LCU_PUERTO="
+)
+if not defined LCU_PUERTO goto :sin_cliente
 where curl >nul 2>&1
-if not errorlevel 1 (
-  curl -s -o nul --max-time 6 "http://%SERVER%/" >nul 2>&1
-  if errorlevel 1 (
-    echo.
-    echo   Aviso: no responde el servidor de espectadores %SERVER%.
-    echo   Warning: spectator server %SERVER% is not responding.
-    echo.
-    echo   Puede ser tu conexion o que la partida ya no exista.
-    echo.
-    timeout /t 7 /nobreak >nul 2>&1
-  )
-)
+if errorlevel 1 goto :sin_curl
 
-echo.
-echo   Abriendo la partida %MATCH_ID% (%REGION%)...
-echo   Opening game %MATCH_ID% (%REGION%)...
-echo.
-
-cd /d "%GAME_DIR%"
-start "" "%EXE_PATH%" "spectator %SERVER% %KEY% %MATCH_ID% %REGION%" "-Product=LoL" "-GameBaseDir=%LOL_PATH%"
-if errorlevel 5 (
-  echo.
-  echo   Vanguard no deja abrir el juego directamente ^(acceso denegado^).
-  echo   Vanguard does not allow opening the game directly ^(access denied^).
-  echo.
-  echo   Solo lo puede abrir el cliente de LoL. Abrelo, espera a que
-  echo   cargue y vuelve a ejecutar este archivo: entonces la partida se
-  echo   le pide al cliente y si funciona.
-  echo.
-  echo   Only the LoL client can open it. Open it, wait for it to load and
-  echo   run this file again.
-  echo.
-  pause
-  exit /b 1
-)
-
-:: El juego tarda unos segundos en aparecer. Si no aparece, es que murio al
-:: arrancar, y eso antes se veia como una ventana que se cierra y nada mas.
-timeout /t 12 /nobreak >nul 2>&1
-tasklist /FI "IMAGENAME eq League of Legends.exe" /NH 2>nul | findstr /I /C:"League of Legends.exe" >nul
+:: ------------------------------------------------------------------
+:: 3) El servidor de espectadores, si se puede comprobar. Solo avisa.
+:: ------------------------------------------------------------------
+curl -s -o nul --max-time 6 "http://%SERVER%/" >nul 2>&1
 if errorlevel 1 (
   echo.
-  echo   El juego no llego a arrancar.
-  echo   The game did not start.
+  echo   Aviso: no responde el servidor de espectadores %SERVER%.
+  echo   Warning: spectator server %SERVER% is not responding.
   echo.
-  echo   Mira el ultimo log, ahi dice el motivo exacto:
-  echo     %LOL_PATH%\Logs\GameLogs
+  echo   Puede ser tu conexion o que la partida ya no exista.
   echo.
-  echo   Si dice algo de la version, actualiza el cliente.
-  echo   If it mentions the version, update the client.
-  echo.
-  pause
-  exit /b 1
+  timeout /t 7 /nobreak >nul 2>&1
 )
 
-exit /b 0
+:: ------------------------------------------------------------------
+:: 4) Que la abra el CLIENTE.
+::
+::    Es el unico camino. Vanguard solo deja arrancar el juego al
+::    cliente: `League of Legends.exe` lanzado desde fuera contesta
+::    acceso denegado (error 5), y tambien `LeagueCrashHandler64.exe`,
+::    mientras que un notepad copiado a esa carpeta arranca sin
+::    problema. No es la ruta ni los permisos: es el binario.
+::
+::    Se usa el lanzador de la funcion Watch del cliente, que recibe
+::    los argumentos del juego tal cual. El endpoint
+::    /lol-spectator/v1/spectate/launch NO vale: resuelve la partida
+::    contra el shard del cliente y una partida de otra plataforma le
+::    contesta 404.
+::
+::    El cuerpo es un vector de argumentos, no un objeto. Por eso el
+::    JSON va a un fichero temporal: escribirlo con -d entre comillas
+::    dentro de un .bat es pedirle perlas a cmd.
+:: ------------------------------------------------------------------
+echo.
+echo   El cliente esta abierto: se le pide a el que abra la partida...
+echo   The client is open: asking it to open the game...
+echo.
+
+set "CUERPO=%TEMP%\lolprotrackr_espectar.json"
+set "LCU_RESP=%TEMP%\lolprotrackr_espectar.txt"
+> "%CUERPO%" echo ["spectator %SERVER% %KEY% %MATCH_ID% %REGION%"]
+curl -k -s -o nul -w "%%{{http_code}}" --max-time 25 -u "riot:!LCU_CLAVE!" -X POST -H "Content-Type: application/json" --data-binary "@%CUERPO%" "https://127.0.0.1:!LCU_PUERTO!/lol-gameflow/v1/watch/launch" > "%LCU_RESP%" 2>nul
+set "LCU_CODIGO="
+set /p LCU_CODIGO=<"%LCU_RESP%"
+if "!LCU_CODIGO!"=="200" goto :abierta
+if "!LCU_CODIGO!"=="204" goto :abierta
+goto :cliente_rechazo
+
+
+:sin_cliente
+echo.
+echo   El cliente de League of Legends no esta abierto.
+echo   The League of Legends client is not open.
+echo.
+echo   El juego ya no se puede abrir desde fuera: Vanguard solo deja
+echo   que lo abra el cliente. Abre el cliente, espera a que cargue y
+echo   vuelve a ejecutar este archivo.
+echo.
+echo   The game cannot be opened from outside: only the client may
+echo   launch it. Open the client, wait for it to load and run this
+echo   file again.
+echo.
+pause
+exit /b 1
+
+
+:sin_curl
+echo.
+echo   No se encontro curl en este PC.
+echo   curl was not found on this PC.
+echo.
+echo   Viene con Windows 10 y 11. Si falta, actualiza Windows.
+echo   It ships with Windows 10 and 11. If it is missing, update Windows.
+echo.
+pause
+exit /b 1
+
+
+:cliente_rechazo
+echo.
+echo   El cliente no abrio la partida (HTTP !LCU_CODIGO!).
+echo   The client did not open the game (HTTP !LCU_CODIGO!).
+echo.
+echo   Lo mas habitual:
+echo     - el cliente esta en la pantalla de entrar
+echo     - la partida ya termino; los avisos llevan hasta 2 min de retraso
+echo     - el cliente se esta actualizando
+echo.
+echo   Vuelve a ejecutar este archivo cuando el cliente este en el menu.
+echo   Run this file again when the client is at the main menu.
+echo.
+pause
+exit /b 1
+
 
 
 :abierta

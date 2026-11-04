@@ -105,66 +105,45 @@ def prueba_generado_en_linux() -> None:
 
 
 def prueba_sin_vanguard() -> None:
-    print("\n=== no toca Vanguard, y sin vgc sigue abriendo la partida ===")
+    print("\n=== no toca Vanguard ===")
 
     texto = _bat()
 
-    for prohibido in ("net stop", "net start", "taskkill"):
+    for prohibido in ("net stop", "net start", "taskkill", "sc stop",
+                      "sc start"):
         ok(prohibido not in texto, f"no aparece «{prohibido}»",
            "parar Vanguard es lo único que obligaba a pedir administrador")
 
-    # `sc stop`/`sc start` sí serían tocar Vanguard; `sc query` solo mirar.
-    ok("sc stop" not in texto and "sc start" not in texto,
-       "no arranca ni para servicios")
-
-    # Lo que sí hace: mirar si está, porque el aviso ayuda cuando el juego no abre.
-    ok("vgc.exe" in texto, "comprueba si el proceso de Vanguard está")
-
-    # Pero mirarlo NO puede impedir abrir la partida. `vgc.exe` solo corre con
-    # el cliente de Riot abierto; para espectar hace falta el driver `vgk`, que
-    # va con Windows. Bloquear aquí impedía espectar con Vanguard funcionando.
-    ok("Se intenta abrir la partida igual" in texto,
-       "y avisa de que se intenta abrir igual, sin frenar")
+    # Vanguard solo puede aparecer en un comentario o en un mensaje: el `.bat`
+    # no lo arranca, no lo para y no lo consulta (ya no le hace falta).
+    for linea in texto.splitlines():
+        limpia = linea.strip()
+        if "vgc" not in limpia.lower() and "vanguard" not in limpia.lower():
+            continue
+        es_mensaje = limpia.startswith("::") or limpia.lower().startswith("echo")
+        ok(es_mensaje, "toda mención a Vanguard es un comentario o un mensaje",
+           limpia[:70])
 
 
 def prueba_arranca_sin_vgc() -> None:
-    """Simula que `vgc.exe` no existe: el `.bat` TIENE que llegar a abrir.
+    """El `.bat` no mira si `vgc.exe` está: da igual para lo que hace.
 
-    Este es el caso real del 03-11-2026: el cliente de Riot cerrado, Vanguard
-    vivo en el kernel, y el `.bat` negándose a abrir. El `start` se sustituye
-    por un echo para que la prueba no abra nada de verdad.
+    `vgc.exe` solo corre mientras el cliente de Riot está abierto, y el `.bat`
+    ya no lanza el juego por su cuenta (no puede: Vanguard solo se lo permite al
+    cliente). Preguntar por `vgc` era la comprobación que el 03-11-2026 dejaba al
+    usuario mirando una consola que le decía «Vanguard no está corriendo» con
+    Vanguard perfectamente vivo. Ya no existe.
     """
-    print("\n=== con vgc parado, ¿llega a lanzar el juego? ===")
-
-    import subprocess
-    import tempfile
+    print("\n=== no pregunta por vgc: no le hace falta ===")
 
     texto = _bat()
-    texto = texto.replace("IMAGENAME eq vgc.exe", "IMAGENAME eq noexiste.exe")
-    texto = texto.replace('start "" "%EXE_PATH%"', "echo SE_HABRIA_LANZADO")
-    texto = texto.replace("pause", "rem pause")
 
-    with tempfile.NamedTemporaryFile("w", suffix=".bat", delete=False,
-                                     encoding="utf-8", newline="\r\n") as f:
-        f.write(texto)
-        ruta = f.name
-
-    resultado = subprocess.run(["cmd", "/c", ruta], capture_output=True,
-                               text=True, errors="replace", timeout=120)
-    salida = resultado.stdout or ""
-
-    ok("SE_HABRIA_LANZADO" in salida,
-       "llega al `start` del juego aunque vgc no esté")
-    ok("no esta abierto" in salida,
-       "y avisa de que el cliente de Riot está cerrado")
-    # 0 si el juego arranca, 1 si no llega a arrancar (aquí el `start` es un
-    # echo, así que nunca arranca). Lo que no puede haber es un 255: eso es
-    # error de sintaxis, como el paréntesis sin escapar dentro de un `echo`
-    # dentro de un bloque, que corta el bloque y mata el fichero.
-    ok("No se esperaba" not in salida,
-       "cmd no se queja de la sintaxis (nada de paréntesis sueltos en un echo)")
-    ok(resultado.returncode in (0, 1),
-       "sale por donde debe, no con error de sintaxis", str(resultado.returncode))
+    ok("IMAGENAME eq vgc.exe" not in texto,
+       "no comprueba si vgc.exe está en marcha")
+    ok("Vanguard no esta corriendo" not in texto,
+       "y por tanto no puede decir que Vanguard no está corriendo")
+    ok(":sin_cliente" in texto,
+       "cuando no hay cliente se va a un mensaje propio, no a un aviso")
 
 
 def prueba_ruta_detectada() -> None:
@@ -326,44 +305,131 @@ def prueba_no_puede_tocar_vanguard() -> None:
             ok(verbo not in linea.lower(),
                f"PowerShell no usa «{verbo}» (solo lee el JSON)")
 
-    # Y lo único que nombra a Vanguard son consultas o mensajes.
+    # Y lo único que nombra a Vanguard son comentarios o mensajes.
     for linea in texto.splitlines():
         limpia = linea.strip()
         if "vgc" not in limpia.lower() and "vanguard" not in limpia.lower():
             continue
-        es_consulta = limpia.lower().startswith("tasklist")
         es_mensaje = limpia.startswith("::") or limpia.lower().startswith("echo")
-        ok(es_consulta or es_mensaje,
-           "toda mención a Vanguard es una consulta o un mensaje", limpia[:70])
+        ok(es_mensaje,
+           "toda mención a Vanguard es un comentario o un mensaje", limpia[:70])
 
-    # El ejecutable del juego es lo único que se abre, y solo una vez.
-    ok(texto.count('start ""') == 1,
-       "solo hay un `start`, el del juego")
-    ok('start "" "%EXE_PATH%"' in texto,
-       "y ese `start` abre League of Legends, nada más")
+    # No abre ningún ejecutable: el juego solo lo abre el cliente.
+    ok('start ""' not in texto,
+       "no hay ningún `start`: el .bat no abre nada por su cuenta")
+
+
+def prueba_no_abre_ejecutables() -> None:
+    """El `.bat` **no lanza ningún ejecutable**: se lo pide al cliente.
+
+    Desde el 04-11-2026 se sabe que Vanguard solo deja arrancar el juego al
+    cliente: `CreateProcess` sobre `League of Legends.exe` devuelve acceso
+    denegado (5), y también sobre `LeagueCrashHandler64.exe`, mientras que un
+    `notepad.exe` copiado a esa misma carpeta arranca sin problema. No es la
+    ruta ni los permisos: es el binario.
+
+    Así que el `.bat` no debe tener ni un `start`: si lo tuviera, estaría
+    intentando lo imposible y encima el usuario vería un «acceso denegado» que
+    no depende de él.
+    """
+    print("\n=== no lanza ejecutables: se lo pide al cliente ===")
+
+    texto = _bat()
+
+    ok('start ""' not in texto,
+       "no hay ningún `start`: el .bat no abre nada por su cuenta")
+    ok('"%EXE_PATH%"' not in texto or "exist" in texto,
+       "el ejecutable solo se usa para comprobar que la carpeta es la buena")
+    for prohibido in ("net stop", "net start", "taskkill", "sc stop",
+                      "sc start", "sc config"):
+        ok(prohibido not in texto, f"no aparece «{prohibido}»",
+           "no toca servicios ni mata procesos")
+
+
+def prueba_sin_cliente() -> None:
+    """Sin `lockfile` no hay cliente, y sin cliente no hay partida.
+
+    Se monta una instalación falsa (una carpeta con `Game\\League of Legends.exe`
+    vacío) y se ejecuta el `.bat` de verdad con `LOL_PATH` apuntando ahí. No toca
+    la instalación real del PC y prueba el camino completo: detección, lectura
+    del `lockfile` y mensaje final.
+    """
+    print("\n=== sin cliente abierto, lo dice y no inventa ===")
+
+    import subprocess
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as base:
+        juego = Path(base, "Game")
+        juego.mkdir()
+        (juego / "League of Legends.exe").write_bytes(b"")
+        # Sin `lockfile`: es exactamente el caso de «el cliente está cerrado».
+
+        texto = _bat()
+        texto = texto.replace("pause", "rem pause")
+        # El PC donde corre la prueba puede tener una partida abierta de verdad
+        # (el dueño viéndola), y entonces el `.bat` pararía antes de llegar al
+        # caso que se quiere probar. Se le quita esa comprobación solo aquí.
+        texto = texto.replace("IMAGENAME eq League of Legends.exe",
+                              "IMAGENAME eq noexiste.exe")
+        ruta_bat = Path(base, "espectar.bat")
+        ruta_bat.write_text(texto, encoding="utf-8", newline="\r\n")
+
+        entorno = dict(os.environ, LOL_PATH=base)
+        resultado = subprocess.run(["cmd", "/c", str(ruta_bat)],
+                                   capture_output=True, text=True,
+                                   errors="replace", timeout=180,
+                                   env=entorno)
+        salida = (resultado.stdout or "") + (resultado.stderr or "")
+
+    ok("no esta abierto" in salida,
+       "dice que el cliente no está abierto", salida.strip()[:60])
+    ok("Vanguard solo deja" in salida,
+       "y explica que el juego solo lo abre el cliente")
+    ok("No se esperaba" not in salida,
+       "cmd no se queja de la sintaxis")
+    ok(resultado.returncode == 1,
+       "sale con 1, que es un fallo dicho, no un 255 de sintaxis",
+       str(resultado.returncode))
 
 
 def prueba_pide_al_cliente() -> None:
     """El único camino que Vanguard permite: que la abra el cliente.
 
-    Desde la 1.19, `CreateProcess` sobre `League of Legends.exe` contesta
-    **acceso denegado (error 5)**, con argumentos y sin ellos, lo intente el
-    agente o el propio `.bat` del usuario. Así que el lanzador tiene que pedirle
-    la partida al cliente por su API local.
+    Y no por el endpoint que parece: `/lol-spectator/v1/spectate/launch` resuelve
+    la partida contra el shard del cliente, así que con un cliente `LA2` y una
+    partida `NA1` contesta 404. El que vale es el lanzador de la función Watch,
+    que recibe los argumentos del juego ya montados y por eso cruza plataformas.
     """
     print("\n=== se le pide al cliente que abra la partida ===")
 
     texto = _bat()
 
-    ok("/lol-spectator/v1/spectate/launch" in texto,
-       "usa el endpoint del espectador del cliente")
+    ok("/lol-gameflow/v1/watch/launch" in texto,
+       "usa el lanzador de la función Watch del cliente")
+    # Puede nombrarlo en un comentario (explica por qué NO se usa), pero no
+    # puede llamarlo: resuelve la partida contra el shard del cliente.
+    llamadas = [l for l in texto.splitlines()
+                if not l.strip().startswith("::")
+                and "/lol-spectator/v1/spectate/launch" in l]
+    ok(not llamadas,
+       "no llama al endpoint de espectar (está atado al shard del cliente)",
+       f"{len(llamadas)} líneas")
     ok("lockfile" in texto, "saca puerto y contraseña del `lockfile`")
     ok("tokens=2,3,4 delims=:" in texto, "parsea pid, puerto y contraseña")
     ok("riot:!LCU_CLAVE!" in texto, "se autentica como el cliente (Basic riot:)")
     ok('if errorlevel 1 set "LCU_PUERTO="' in texto,
        "no se fía de un lockfile de una sesión muerta")
-    ok("Vanguard no deja abrir el juego directamente" in texto,
-       "y si el lanzamiento directo da acceso denegado, lo explica")
+
+    # El cuerpo es un vector de argumentos, no un objeto: con `{}` el cliente
+    # contesta «Couldn't assign value to 'args' of type vector».
+    ok('> "%CUERPO%" echo ["spectator %SERVER% %KEY% %MATCH_ID% %REGION%"]'
+       in texto,
+       "el cuerpo es el vector de argumentos con el comando spectator")
+    ok("--data-binary \"@%CUERPO%\"" in texto,
+       "y se manda desde un fichero, sin comillas anidadas que cmd rompa")
+    ok('if "!LCU_CODIGO!"=="204" goto :abierta' in texto,
+       "204 cuenta como abierta (es lo que contesta el cliente)")
 
 
 def main() -> None:
@@ -376,6 +442,8 @@ def main() -> None:
     prueba_sin_vanguard()
     prueba_arranca_sin_vgc()
     prueba_no_puede_tocar_vanguard()
+    prueba_no_abre_ejecutables()
+    prueba_sin_cliente()
     prueba_pide_al_cliente()
     prueba_trampas_de_cmd()
     prueba_ruta_detectada()

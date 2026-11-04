@@ -532,6 +532,10 @@ set "LCU_CODIGO="
 set /p LCU_CODIGO=<"%LCU_RESP%"
 if "!LCU_CODIGO!"=="200" goto :abierta
 if "!LCU_CODIGO!"=="204" goto :abierta
+rem 000 es lo que escribe curl cuando no llego a conectar: no es que el
+rem cliente diga que no, es que no hay nadie escuchando en ese puerto.
+if not defined LCU_CODIGO goto :sin_respuesta
+if "!LCU_CODIGO!"=="000" goto :sin_respuesta
 goto :cliente_rechazo
 
 
@@ -559,6 +563,21 @@ echo   curl was not found on this PC.
 echo.
 echo   Viene con Windows 10 y 11. Si falta, actualiza Windows.
 echo   It ships with Windows 10 and 11. If it is missing, update Windows.
+echo.
+pause
+exit /b 1
+
+
+:sin_respuesta
+echo.
+echo   El cliente no contesto.
+echo   The client did not answer.
+echo.
+echo   Cierra el cliente del todo, vuelve a abrirlo y espera a que
+echo   llegue al menu. Despues ejecuta este archivo otra vez.
+echo.
+echo   Close the client completely, open it again, wait until it
+echo   reaches the main menu and run this file again.
 echo.
 pause
 exit /b 1

@@ -448,6 +448,54 @@ def prueba_sin_cliente() -> None:
        str(resultado.returncode))
 
 
+def prueba_cliente_mudo() -> None:
+    """El cliente vivo pero sin contestar no puede salir como «HTTP 000».
+
+    `000` es lo que escribe curl cuando no llegó a conectar. Enseñarlo tal cual
+    no dice nada. Se monta un `lockfile` con el pid de este mismo proceso (vivo,
+    así que pasa la comprobación de sesión muerta) y un puerto donde no escucha
+    nadie, y se exige el mensaje propio.
+    """
+    print("\n=== el cliente no contesta, y se dice con palabras ===")
+
+    import subprocess
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as base:
+        juego = Path(base, "Game")
+        juego.mkdir()
+        (juego / "League of Legends.exe").write_bytes(b"")
+        # pid vivo (el nuestro) + puerto cerrado
+        (Path(base) / "lockfile").write_text(
+            f"LeagueClient:{os.getpid()}:1:clavefalsa:https\n", encoding="utf-8")
+
+        texto = _bat()
+        texto = texto.replace("pause", "rem pause")
+        texto = texto.replace("IMAGENAME eq League of Legends.exe",
+                              "IMAGENAME eq noexiste.exe")
+        # Que la espera del aviso de servidor no alargue la prueba.
+        texto = texto.replace("--max-time 6", "--max-time 1")
+        texto = texto.replace("timeout /t 7 /nobreak", "rem timeout")
+        ruta_bat = Path(base, "espectar.bat")
+        ruta_bat.write_text(texto, encoding="utf-8", newline="\r\n")
+
+        entorno = dict(os.environ, LOL_PATH=base)
+        resultado = subprocess.run(["cmd", "/c", str(ruta_bat)],
+                                   capture_output=True, text=True,
+                                   errors="replace", timeout=180,
+                                   env=entorno)
+        salida = (resultado.stdout or "") + (resultado.stderr or "")
+
+    ok("no contesto" in salida,
+       "dice que el cliente no contestó", salida.strip()[:60])
+    ok("HTTP 000" not in salida,
+       "y no enseña el 000 de curl como si fuera una respuesta")
+    ok("No se esperaba" not in salida,
+       "cmd no se queja de la sintaxis")
+    ok(resultado.returncode == 1,
+       "sale con 1", str(resultado.returncode))
+
+
 def prueba_pide_al_cliente() -> None:
     """El único camino que Vanguard permite: que la abra el cliente.
 
@@ -490,6 +538,13 @@ def prueba_pide_al_cliente() -> None:
        "y se manda desde un fichero, sin comillas anidadas que cmd rompa")
     ok('if "!LCU_CODIGO!"=="204" goto :abierta' in texto,
        "204 cuenta como abierta (es lo que contesta el cliente)")
+    # `000` es lo que escribe curl cuando no llegó a conectar. Enseñarlo tal
+    # cual («HTTP 000») no dice nada: o el lockfile es de una sesión muerta o
+    # el cliente está a medias de arrancar. Mensaje propio.
+    ok('if "!LCU_CODIGO!"=="000" goto :sin_respuesta' in texto,
+       "000 (curl no conectó) no se enseña como si el cliente hubiera dicho no")
+    ok(":sin_respuesta" in texto and "no contesto" in texto,
+       "y hay un mensaje para ese caso")
 
 
 def main() -> None:
@@ -505,6 +560,7 @@ def main() -> None:
     prueba_no_abre_ejecutables()
     prueba_lee_el_lockfile_abierto()
     prueba_sin_cliente()
+    prueba_cliente_mudo()
     prueba_pide_al_cliente()
     prueba_trampas_de_cmd()
     prueba_ruta_detectada()

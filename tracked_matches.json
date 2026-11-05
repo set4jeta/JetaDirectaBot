@@ -3,7 +3,7 @@
     "start_time": "2026-11-05T22:00:00+00:00",
     "match_id": "115660540726095097",
     "detection_time": "2026-11-05T14:00:28+00:00",
-    "last_checked": "2026-11-05T22:49:14+00:00",
+    "last_checked": "2026-11-05T22:54:13+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Quarterfinals",
@@ -17,7 +17,7 @@
         "name": "BILIBILI GAMING",
         "code": "BLG",
         "image": "https://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-        "game_wins": 0
+        "game_wins": 1
       },
       {
         "id": "100725845018863243",
@@ -31,12 +31,12 @@
       {
         "game_id": "115660540726095098",
         "number": 1,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-11-05T22:51:45+00:00",
         "real_start_time": "2026-11-05T22:14:13+00:00",
         "vods": [],
         "live_patch": "16.20.826.3891",
@@ -131,7 +131,7 @@
       {
         "game_id": "115660540726095099",
         "number": 2,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,

@@ -199,6 +199,28 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "🎯 Este canal recibirá **solo** {tipo} de **{valor}**.",
         "en": "🎯 This channel will get **only** {tipo} from **{valor}**.",
     },
+    # Sin decir el tipo van las dos cosas, y hay que decirlo: es la diferencia
+    # entre lo que el dueño esperaba y lo que hacía el comando hasta el 05-11.
+    "subscribe.objetivo_ambos": {
+        "es": "🎯 Este canal recibirá **solo** las SoloQ y los partidos "
+              "oficiales de **{valor}**.",
+        "en": "🎯 This channel will get **only** the SoloQ and the official "
+              "matches of **{valor}**.",
+    },
+    "subscribe.como_elegir": {
+        "es": "Para quedarte con una sola: `/unsubscribe` en este canal y luego "
+              "`/subscribe soloq {valor}` o `/subscribe esports {valor}`.",
+        "en": "To keep just one: `/unsubscribe` in this channel, then "
+              "`/subscribe soloq {valor}` or `/subscribe esports {valor}`.",
+    },
+    # Un Riot ID suelto no juega partidos oficiales con ese nombre: sin este
+    # aviso, `/subscribe Nombre#TAG` prometería unos partidos que no existen.
+    "subscribe.sin_partidos": {
+        "es": "ℹ️ De **{valor}** no hay partidos oficiales que avisar: una cuenta "
+              "suelta no juega en ninguna liga. Te quedas con sus SoloQ.",
+        "en": "ℹ️ There are no official matches for **{valor}**: a standalone "
+              "account doesn't play in any league. You keep its SoloQ.",
+    },
     "subscribe.objetivo_desconocido": {
         "es": "❌ No reconozco «{valor}». Vale una liga (`lec`), un equipo (`T1`), "
               "un pro (`Elyoya`) o una cuenta (`Caps#EUW`).",
@@ -217,8 +239,8 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "en": "↩️ This channel gets every league the server follows again.",
     },
     "canales.quitado": {
-        "es": "✅ {canal} ya no recibirá notificaciones de SoloQ.",
-        "en": "✅ {canal} will no longer receive SoloQ notifications.",
+        "es": "✅ {canal} ya no recibirá avisos.",
+        "en": "✅ {canal} will no longer receive alerts.",
     },
     "canales.no_estaba": {
         "es": "ℹ️ {canal} no estaba en la lista de notificaciones.",
@@ -1253,6 +1275,10 @@ _CATALOGO: dict[str, dict[str, str]] = {
         "es": "✅ Notificaciones de esports configuradas en {canal}{aviso}",
         "en": "✅ Esports notifications set up in {canal}{aviso}",
     },
+    "esports.canal_ya_estaba": {
+        "es": "ℹ️ Este canal ya recibía los partidos oficiales.",
+        "en": "ℹ️ This channel was already receiving official matches.",
+    },
     "esports.canal_solo_admin": {
         "es": "❌ Necesitas el permiso **Gestionar servidor** para cambiar el canal "
               "de notificaciones de esports.",
@@ -1804,9 +1830,12 @@ _CATALOGO: dict[str, dict[str, str]] = {
     # El objetivo es texto libre: liga, equipo, pro o cuenta. Se explica en la
     # ayuda del argumento porque el desplegable no puede enseñar una lista.
     "cmd.subscribe.objetivo": {"es": "objetivo", "en": "target"},
+    # Discord corta las descripciones de opción a 100 caracteres, así que el
+    # «y cómo elijo una sola» no cabe aquí: lo dice la respuesta del comando
+    # (`subscribe.como_elegir`) y `/help`.
     "cmd.subscribe.objetivo_desc": {
-        "es": "Liga, equipo, pro o cuenta (worlds, T1, Elyoya). Delante: soloq/esports",
-        "en": "League, team, pro or account (worlds, T1, Elyoya). Prefix: soloq/esports",
+        "es": "Liga, equipo, pro o cuenta (worlds, T1). Con objetivo: SoloQ y partidos",
+        "en": "League, team, pro or account (worlds, T1). With a target: SoloQ and matches",
     },
     "cmd.subscribe.arg_desc": {
         "es": "Qué avisos: soloq (por defecto) o esports",

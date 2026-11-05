@@ -117,12 +117,22 @@ async def format_elapsed_time(start_time: datetime, tracked_game=None) -> str:
 
 
 
+#: Dónde vive la configuración de canales de partidos oficiales.
+#:
+#: Es una **constante** y no algo que `_ruta_config()` calcule cada vez porque
+#: las pruebas de estado la redirigen a un temporal igual que hacen con
+#: `notify_config.json` o `channel_targets.json`. Con la ruta escondida dentro de
+#: una función no había forma de apuntarla a otro sitio, y una prueba que escribe
+#: aquí deja el canal de esports de un servidor de mentira en el fichero real.
+CONFIG_PATH = Path(__file__).parent.parent / "config.json"
+
+
 def _ruta_config() -> Path:
-    return Path(__file__).parent.parent / "config.json"
+    return CONFIG_PATH
 
 
 def _leer_config() -> dict:
-    """`{guild_id: channel_id}` de los canales de partidos oficiales.
+    """`{guild_id: [channel_id, ...]}` de los canales de partidos oficiales.
 
     Devuelve `{}` si el fichero no se puede leer. Se lee desde `/canales` y
     desde el resumen de arranque, así que un JSON corrupto propagando la
@@ -165,25 +175,78 @@ def _escribir_config(data: dict) -> bool:
         return False
 
 
-def save_notification_channel(guild_id: int, channel_id: int):
-    data = _leer_config()
-    data[str(guild_id)] = channel_id
-    if _escribir_config(data):
-        log.debug("Archivo config.json actualizado con %s -> %s", guild_id, channel_id)
+def _canales_de(datos: dict, guild_id) -> list[int]:
+    """Los canales de un servidor, aceptando el formato viejo.
+
+    Hasta el 05-11-2026 se guardaba **un** id por servidor
+    (`{"123": 456}`). Ahora es una lista (`{"123": [456, 789]}`) porque un
+    servidor puede querer los partidos de Worlds en un canal y los de la LEC en
+    otro, y con un solo hueco el segundo `/subscribe` se llevaba el canal del
+    primero sin decirlo. El formato viejo se sigue leyendo: no hay migración que
+    hacer ni fichero que reescribir al arrancar.
+    """
+    valor = datos.get(str(guild_id))
+    if isinstance(valor, bool):
+        return []
+    if isinstance(valor, int):
+        return [valor]
+    if isinstance(valor, list):
+        salida: list[int] = []
+        for elemento in valor:
+            try:
+                salida.append(int(elemento))
+            except (TypeError, ValueError):
+                continue
+        return salida
+    return []
 
 
-def remove_notification_channel(guild_id: int):
-    data = _leer_config()
-    if str(guild_id) in data:
-        del data[str(guild_id)]
-        if _escribir_config(data):
-            log.debug("Canal de notificaciones eliminado para guild_id=%s", guild_id)
+def canales_esports(guild_id) -> list[int]:
+    """Los canales que reciben partidos oficiales en este servidor."""
+    return _canales_de(_leer_config(), guild_id)
+
+
+def agregar_canal_esports(guild_id, channel_id) -> bool:
+    """Mete el canal en la lista. `False` si ya estaba o no se pudo guardar."""
+    datos = _leer_config()
+    canales = _canales_de(datos, guild_id)
+    if int(channel_id) in canales:
+        return False
+    canales.append(int(channel_id))
+    datos[str(guild_id)] = canales
+    if _escribir_config(datos):
+        log.debug("config.json: %s recibe partidos en %s", guild_id, channel_id)
+        return True
+    return False
+
+
+def quitar_canal_esports(guild_id, channel_id) -> bool:
+    """Saca el canal de la lista. `False` si no estaba."""
+    datos = _leer_config()
+    canales = _canales_de(datos, guild_id)
+    if int(channel_id) not in canales:
+        return False
+    canales = [c for c in canales if c != int(channel_id)]
+    if canales:
+        datos[str(guild_id)] = canales
     else:
-        log.debug("guild_id=%s no estaba en config.json", guild_id)
+        datos.pop(str(guild_id), None)
+    if _escribir_config(datos):
+        log.debug("config.json: %s deja de recibir en %s", guild_id, channel_id)
+        return True
+    return False
 
 
-def load_notification_channel(guild_id: int):
-    return _leer_config().get(str(guild_id))
+def quitar_todos_esports(guild_id) -> bool:
+    """Apaga los partidos oficiales en todo el servidor. `False` si no había."""
+    datos = _leer_config()
+    if str(guild_id) not in datos:
+        return False
+    del datos[str(guild_id)]
+    if _escribir_config(datos):
+        log.debug("config.json: %s sin canales de partidos", guild_id)
+        return True
+    return False
 
 
 

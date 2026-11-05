@@ -272,14 +272,43 @@ async def main() -> int:
     await mod._cuerpo_team(res, "mkoi")
     salida = res.todo()
     print(f"   /team mkoi ->\n      {salida.replace(chr(10), chr(10) + '      ')}")
-    check(
-        "con datos reales: Myrwn (1 cuenta con datos) ya no lleva sufijo",
-        "Myrwn" in salida and not re.search(r"Myrwn.*mejor de", salida),
-    )
-    check(
-        "Jojopyun (5 cuentas consultables) sí lleva sufijo",
-        re.search(r"Jojopyun.*mejor de \d+ cuentas", salida) is not None,
-    )
+
+    # La regla de verdad: el sufijo cuenta las cuentas **consultables**, así que
+    # solo aparece cuando hay más de una. Antes esto estaba atado a un jugador
+    # concreto («Myrwn tiene 1 cuenta con datos») y el 05-11-2026 el roster le
+    # puso una segunda: la prueba se puso roja sin que el comando estuviera mal.
+    # Ahora se compara contra el roster de verdad, que es lo que se quiere
+    # defender, y no contra un recuento congelado.
+    consultables: dict[str, int] = {}
+    # `sin_repetidos` es el mismo que usa el comando: el roster lista a cada
+    # jugador una vez por liga y se queda con la entrada de más cuentas, así que
+    # contar a mano las entradas crudas da números distintos.
+    for jugador_roster in mod.sin_repetidos([
+        p for p in load_tracked_accounts()
+        if (getattr(p, "team", "") or "").lower() == "mkoi"
+    ]):
+        consultables[jugador_roster.name] = sum(
+            1
+            for cuenta in jugador_roster.accounts
+            if getattr(cuenta, "puuid", None) and not getattr(cuenta, "stale", False)
+        )
+
+    con_sufijo = 0
+    for linea in salida.splitlines():
+        encontrado = re.match(
+            r"\*\*(?P<nombre>[^*]+)\*\*.*?mejor de (?P<n>\d+) cuentas", linea
+        )
+        if not encontrado:
+            continue
+        con_sufijo += 1
+        nombre = encontrado.group("nombre").strip()
+        check(
+            f"{nombre}: el sufijo dice sus cuentas consultables",
+            consultables.get(nombre) == int(encontrado.group("n")),
+            f"{encontrado.group('n')} en el texto, {consultables.get(nombre)} en el roster",
+        )
+    check("hay algún jugador con más de una cuenta (si no, no se prueba nada)",
+          con_sufijo > 0, str(con_sufijo))
     check("el sufijo nunca dice «mejor de 1»", "mejor de 1" not in salida)
 
     mod._mejor_cuenta_de = MEJOR_REAL

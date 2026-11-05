@@ -50,9 +50,10 @@ from nextcord.ext import commands
 from core.dual_command import PERMISO_ADMIN, slash, slash_opciones
 from core.responder import Respuesta
 from esports_extension.services.storage import (
-    load_notification_channel,
-    remove_notification_channel,
-    save_notification_channel,
+    agregar_canal_esports,
+    canales_esports,
+    quitar_canal_esports,
+    quitar_todos_esports,
 )
 from tracking.soloq.channel_config import (
     agregar_canal,
@@ -141,11 +142,19 @@ def _lista(canales: list[int]) -> str:
 NOMBRE_TIPO = {SOLOQ: "SoloQ", ESPORTS: "Esports"}
 
 
-def _resolver_objetivo(texto: str) -> tuple[str, str, str] | None:
-    """Lo que escribió el usuario -> `(clave, etiqueta, liga)`.
+def _resolver_objetivo(texto: str) -> tuple[str, str, str, str | None] | None:
+    """Lo que escribió el usuario -> `(clave, etiqueta, liga, clave_partidos)`.
 
-    `clave` es lo que se guarda y con lo que compara el reparto; `etiqueta` es lo
-    que se enseña; `liga` es a la que pertenece, para poder meterla en el barrido.
+    `clave` es lo que se guarda y con lo que compara el reparto de SoloQ;
+    `etiqueta` es lo que se enseña; `liga` es a la que pertenece, para poder
+    meterla en el barrido; `clave_partidos` es lo que hay que guardar en el eje de
+    partidos oficiales, o `None` si eso no tiene partidos.
+
+    La cuarta pieza no es un adorno. Un partido oficial lo determina su liga y sus
+    dos equipos, no el nick de nadie: guardar `Faker` como objetivo de partidos no
+    casaría **nunca** y el canal se quedaría esperando en silencio. De un jugador
+    se guarda su equipo (`T1`), que es lo que trae el roster. De una cuenta suelta
+    no hay nada que guardar: no se sabe de qué equipo es.
 
     El orden es el mismo que usa `/track` —cuenta, liga, pro, equipo— y por el
     mismo motivo: un Riot ID lleva `#` y ninguna liga lo tiene, y un código de liga
@@ -156,18 +165,21 @@ def _resolver_objetivo(texto: str) -> tuple[str, str, str] | None:
         return None
 
     # Una cuenta suelta no pertenece a ninguna liga conocida, así que no hay nada
-    # que meter en el barrido: se guarda y ya.
+    # que meter en el barrido: se guarda y ya. Y tampoco juega partidos oficiales
+    # con ese nombre.
     if "#" in texto:
-        return (texto, texto, "")
+        return (texto, texto, "", None)
 
     liga = resolver(texto)
     if liga is not None:
-        return (liga.codigo, liga.nombre, liga.codigo)
+        return (liga.codigo, liga.nombre, liga.codigo, liga.codigo)
 
     jugador = pro_rastreado(texto)
     if jugador is not None:
         nombre = getattr(jugador, "name", texto) or texto
-        return (nombre, nombre, (getattr(jugador, "league", "") or "").lower())
+        equipo = (getattr(jugador, "team", "") or "").strip()
+        return (nombre, nombre, (getattr(jugador, "league", "") or "").lower(),
+                equipo or None)
 
     equipo = equipo_rastreado(texto)
     if equipo is not None:
@@ -175,7 +187,7 @@ def _resolver_objetivo(texto: str) -> tuple[str, str, str] | None:
         # su liga y en los eventos internacionales, y quedarse con la primera
         # coincidencia metía el MSI en el barrido en vez de la LCK.
         liga_equipo = liga_principal_de_equipo(equipo[0]) or (equipo[2] or "").lower()
-        return (equipo[0], equipo[1], liga_equipo)
+        return (equipo[0], equipo[1], liga_equipo, equipo[0])
 
     return None
 
@@ -202,13 +214,21 @@ def _asegurar_liga(guild_id, liga: str) -> bool:
 
 
 async def _suscribir_esports(res: Respuesta, _, extra: list[str]) -> str | None:
-    """Esports tiene **un** canal por servidor, no una lista con cupo."""
+    """Esports: varios canales por servidor, cada uno con sus objetivos.
+
+    Antes era **un** canal por servidor, y eso hacía que `/subscribe esports lck`
+    en un segundo canal se llevara los partidos del primero sin decirlo. Ahora se
+    suman, igual que los de SoloQ, y el registro de «ya avisado» de esports está
+    indexado por canal, así que el mismo partido llega a los dos.
+    """
     try:
-        save_notification_channel(res.guild_id, res.canal.id)
+        nuevo = agregar_canal_esports(res.guild_id, res.canal.id)
     except OSError:
         log.exception("No se pudo guardar el canal de esports.")
         return _("esports.canal_fallo_guardar")
-    return _("esports.canal_ok", canal=_mencion(res, _), aviso=_aviso_permisos(res, _))
+    if nuevo:
+        return _("esports.canal_ok", canal=_mencion(res, _), aviso=_aviso_permisos(res, _))
+    return _("esports.canal_ya_estaba", canal=_mencion(res, _))
 
 
 async def _suscribir_soloq(res: Respuesta, _) -> str | None:
@@ -238,9 +258,19 @@ async def _suscribir_soloq(res: Respuesta, _) -> str | None:
 def _partir_objetivo(crudo: str) -> tuple[str, str]:
     """Lo que escribió el usuario -> `(tipo, objetivo)`.
 
-    `/subscribe worlds` -> `("soloq", "worlds")`
-    `/subscribe esports lck` -> `("esports", "lck")`
+    `/subscribe worlds` -> `("", "worlds")` — **los dos** tipos de aviso
+    `/subscribe soloq worlds` -> `("soloq", "worlds")`
+    `/subscribe esports worlds` -> `("esports", "worlds")`
     `/subscribe esports` -> `("esports", "")`
+
+    Por qué sin tipo van los dos
+    ----------------------------
+    Hasta el 05-11-2026 sin tipo iba **solo** SoloQ, y `/subscribe worlds` dejaba
+    un canal que no recibía ni un partido de Worlds. El dueño lo probó en un
+    servidor nuevo y lo dijo tal cual: *«se supone que era ambas cosas y para
+    poder elegir»*. Para el usuario, seguir Worlds es una sola idea, y quien
+    quiere solo una de las dos lo dice con la palabra delante — que es
+    exactamente lo que ya hacía `/track`.
 
     Por qué hay **una** opción de texto libre y no dos (`type` cerrado +
     `target` libre), que era lo natural y era como estaba hasta el 02-11-2026:
@@ -260,12 +290,12 @@ def _partir_objetivo(crudo: str) -> tuple[str, str]:
     """
     crudo = (crudo or "").strip()
     if not crudo:
-        return SOLOQ, ""
+        return "", ""
 
     primera, _, resto = crudo.partition(" ")
     if primera.strip().casefold() in TIPOS:
         return primera.strip().casefold(), resto.strip()
-    return SOLOQ, crudo
+    return "", crudo
 
 
 async def _cuerpo_subscribe(res: Respuesta, valores: dict[str, str]) -> None:
@@ -287,6 +317,14 @@ async def _cuerpo_subscribe(res: Respuesta, valores: dict[str, str]) -> None:
         )
         return
 
+    # Sin objetivo no hay nada a lo que atar los partidos oficiales, así que
+    # `/subscribe` a secas sigue siendo SoloQ con el reparto de siempre. Con
+    # objetivo, y sin decir el tipo, van las dos cosas.
+    if texto:
+        tipos = (SOLOQ, ESPORTS) if not tipo else (tipo,)
+    else:
+        tipos = (tipo,) if tipo else (SOLOQ,)
+
     # El objetivo, si lo hay, se resuelve **antes** de tocar nada: si no se
     # reconoce, el canal no se añade a medias.
     extra: list[str] = []
@@ -295,34 +333,54 @@ async def _cuerpo_subscribe(res: Respuesta, valores: dict[str, str]) -> None:
         if resuelto is None:
             await res.error(_("subscribe.objetivo_desconocido", valor=texto))
             return
-        clave, etiqueta, liga = resuelto
+        clave, etiqueta, liga, clave_partidos = resuelto
         if not _asegurar_liga(res.guild_id, liga):
             await res.error(
                 _("subscribe.sin_cupo", liga=liga.upper(),
                   cmd=comando("cmd.leagues.name"))
             )
             return
-        poner(res.guild_id, res.canal.id, tipo, clave)
-        extra.append(_(
-            "subscribe.objetivo_ok",
-            valor=etiqueta,
-            tipo=NOMBRE_TIPO.get(tipo, tipo),
-        ))
+
+        puestos = []
+        for cada in tipos:
+            if cada == ESPORTS:
+                if clave_partidos is None:
+                    # Un Riot ID suelto no tiene partidos: se dice en vez de
+                    # dejar un objetivo que no casaría nunca.
+                    extra.append(_("subscribe.sin_partidos", valor=etiqueta))
+                    continue
+                poner(res.guild_id, res.canal.id, ESPORTS, clave_partidos)
+            else:
+                poner(res.guild_id, res.canal.id, SOLOQ, clave)
+            puestos.append(cada)
+
+        if puestos == [SOLOQ, ESPORTS]:
+            extra.append(_("subscribe.objetivo_ambos", valor=etiqueta))
+            extra.append(_("subscribe.como_elegir", valor=texto))
+        elif puestos:
+            extra.append(_(
+                "subscribe.objetivo_ok",
+                valor=etiqueta,
+                tipo=NOMBRE_TIPO.get(puestos[0], puestos[0]),
+            ))
+        tipos = tuple(puestos) or (SOLOQ,)
     else:
         # Sin objetivo, el canal vuelve al reparto de siempre. Se dice, porque si
         # no, quien venía de un filtro no sabría que lo ha quitado.
         if limpiar(res.guild_id, res.canal.id):
             extra.append(_("subscribe.vuelve_a_todo"))
 
-    if tipo == ESPORTS:
-        mensaje = await _suscribir_esports(res, _, extra)
-    else:
-        mensaje = await _suscribir_soloq(res, _)
+    mensajes = []
+    for cada in tipos:
+        if cada == ESPORTS:
+            mensajes.append(await _suscribir_esports(res, _, extra))
+        else:
+            mensajes.append(await _suscribir_soloq(res, _))
 
-    if mensaje is None:
+    if not any(mensajes):
         await res.error(_("error.generico"))
         return
-    await res.send("\n".join([mensaje] + extra))
+    await res.send("\n".join([m for m in mensajes if m] + extra))
 
 
 # ---------------------------------------------------------------------- #
@@ -341,18 +399,26 @@ async def _cuerpo_unsubscribe(res: Respuesta, valores: dict[str, str]) -> None:
         return
 
     if tipo == ESPORTS:
-        # Solo se quita si este canal es el de esports: decir "hecho" cuando no
-        # era el suyo sería mentir, y el usuario se quedaría esperando.
-        if load_notification_channel(res.guild_id) != res.canal.id:
+        # Solo se quita si este canal es uno de los de esports: decir "hecho"
+        # cuando no lo era sería mentir, y el usuario se quedaría esperando.
+        if res.canal.id not in canales_esports(res.guild_id):
             await res.send(_("esports.canal_no_estaba"))
             return
-        remove_notification_channel(res.guild_id)
+        quitar_canal_esports(res.guild_id, res.canal.id)
         limpiar(res.guild_id, res.canal.id)
         await res.send(_("esports.canal_desactivado"))
         return
 
+    # `/unsubscribe` es «este canal, fuera de todo». Desde el 05-11-2026 eso
+    # incluye los partidos oficiales: si `/subscribe worlds` enciende las dos
+    # cosas, dejar aquí los partidos encendidos haría que alguien que se dio de
+    # baja siguiera recibiendo avisos y no entendiera por qué. Con
+    # `type: esports` se apaga solo esa mitad, que es la forma de quedarse con
+    # una.
     limpiar(res.guild_id, res.canal.id)
-    if quitar_canal(res.guild_id, res.canal.id):
+    quito_soloq = quitar_canal(res.guild_id, res.canal.id)
+    quito_esports = quitar_canal_esports(res.guild_id, res.canal.id)
+    if quito_soloq or quito_esports:
         await res.send(_("canales.quitado", canal=_mencion(res, _)))
     else:
         await res.send(_("canales.no_estaba", canal=_mencion(res, _)))
@@ -374,14 +440,17 @@ async def _cuerpo_mute(res: Respuesta, valores: dict[str, str]) -> None:
         return
 
     if tipo == ESPORTS:
-        if not load_notification_channel(res.guild_id):
+        if not quitar_todos_esports(res.guild_id):
             await res.send(_("esports.canal_ya_apagado"))
             return
-        remove_notification_channel(res.guild_id)
         await res.send(_("esports.canal_desactivado"))
         return
 
-    if not quitar_todos(res.guild_id):
+    # Y los partidos, por el mismo motivo que en `/unsubscribe`: `/mute` apaga
+    # **todo** el servidor, y dejar los partidos encendidos sería mentir en el
+    # mensaje de confirmación.
+    habia_partidos = quitar_todos_esports(res.guild_id)
+    if not quitar_todos(res.guild_id) and not habia_partidos:
         await res.send(_("unsubscribe.no_habia"))
         return
     await res.send(_("unsubscribe.ok"))
@@ -435,9 +504,9 @@ async def _cuerpo_channels(res: Respuesta) -> None:
     # no hay forma de saber por qué no le llega algo.
     lineas.extend(_objetivos_legibles(todos(res.guild_id), guardados, _))
 
-    esports = load_notification_channel(res.guild_id)
+    esports = canales_esports(res.guild_id)
     lineas.append(
-        _("canales.esports", canal=_lista([esports]) if esports else _("canales.ninguno"))
+        _("canales.esports", canal=_lista(esports) if esports else _("canales.ninguno"))
     )
 
     lineas.append(_("canales.como_usar"))

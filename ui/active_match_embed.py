@@ -13,6 +13,8 @@ El notificador automático lo llama **una vez por idioma** en uso, no una por
 servidor: dos servidores en inglés comparten el mismo embed.
 """
 import os
+import re
+from datetime import datetime, timezone
 import nextcord
 from typing import Optional
 from utils.constants import TEAM_TRICODES, ROLE_ORDER, nombre_cola
@@ -106,6 +108,56 @@ def extract_game_and_tag(riot_id):
             game_name = riot_str
             tag_line = ""
     return game_name, tag_line
+
+
+#: Lo que Windows no admite en un nombre de fichero, más los caracteres de
+#: control. `"` y `\` no salen de un campeón, pero un nick puede traer cualquier
+#: cosa y esto se escribe en el disco de otra persona.
+_NO_VALE_EN_UN_NOMBRE = re.compile(r'[\\/:*?"<>|\x00-\x1f]')
+
+#: Tope del nombre, extensión aparte. Discord y Windows aguantan más, pero un
+#: adjunto con 200 caracteres se corta en la vista y queda peor que uno corto.
+TOPE_NOMBRE_BAT = 80
+
+
+def nombre_del_bat(
+    jugador: str = "",
+    equipo: str = "",
+    campeon: str = "",
+    cuando: datetime | None = None,
+    otros: int = 0,
+) -> str:
+    """Nombre del `.bat` de espectar: `Bin (BLG) - Ahri - 2026-11-05.bat`.
+
+    Antes se llamaba siempre `spectate_lol.bat`, que en la lista de adjuntos de
+    Discord parece un ejecutable cualquiera —el dueño lo dijo así: *«que se vea
+    más pro, menos como si fuera un virus»*—. Con el jugador, su equipo, el
+    campeón y la fecha, el fichero se explica solo: quien lo descarga sabe de
+    qué partida es sin abrirlo, y en una carpeta con diez descargas se
+    distinguen.
+
+    `otros` son los jugadores seguidos que hay **además** de este en la misma
+    partida (una partida puede tener cinco pros del roster). Se resume en un
+    `+N` en vez de listarlos: el nombre es para reconocerlo, no para inventariar.
+
+    Lo que no cabe en un nombre de fichero se quita (`/`, `:`, `"`…), y si al
+    final queda vacío se usa `partida`. Nunca devuelve una cadena vacía.
+    """
+    partes: list[str] = []
+    nombre = (jugador or "").strip()
+    if nombre:
+        if otros > 0:
+            nombre = f"{nombre} +{otros}"
+        equipo = (equipo or "").strip()
+        partes.append(f"{nombre} ({equipo})" if equipo else nombre)
+    if campeon:
+        partes.append(str(campeon).strip())
+    partes.append((cuando or datetime.now(timezone.utc)).strftime("%Y-%m-%d"))
+
+    texto = _NO_VALE_EN_UN_NOMBRE.sub("", " - ".join(p for p in partes if p))
+    texto = " ".join(texto.split())  # espacios y tabuladores de más
+    texto = texto.strip(" .-")       # Windows no admite terminar en punto
+    return f"{texto[:TOPE_NOMBRE_BAT].strip() or 'partida'}.bat"
 
 async def create_match_embed(
     match: SoloQMatch,
@@ -381,8 +433,24 @@ async def create_match_embed(
         # foto y el logo. Aun así pasa por el presupuesto: si algún mes se agota
         # el ancho de banda, lo que se cae es esto —el atajo para espectar— y no
         # el aviso, que es el producto. Ver `utils/egress.py`.
+        #
+        # El nombre lleva jugador, equipo, campeón y fecha. Antes era siempre
+        # `spectate_lol.bat`, y en la lista de adjuntos eso parece un ejecutable
+        # sin dueño.
         if egress.puede_adjuntar(os.path.getsize(bat_path)):
-            files.append(nextcord.File(bat_path, filename="spectate_lol.bat"))
+            cuando = None
+            if isinstance(match.game_start_time, int) and match.game_start_time > 0:
+                cuando = datetime.fromtimestamp(
+                    match.game_start_time / 1000, tz=timezone.utc
+                )
+            nombre = nombre_del_bat(
+                jugador=getattr(player_obj, "name", "") if main_player else "",
+                equipo=getattr(player_obj, "team", "") if main_player else "",
+                campeon=getattr(main_player, "champion_name", "") if main_player else "",
+                cuando=cuando,
+                otros=max(0, len(bot_players_in_game) - 1),
+            )
+            files.append(nextcord.File(bat_path, filename=nombre))
         else:
             log.warning(
                 "Sin presupuesto de salida: el aviso sale sin el .bat de espectar "

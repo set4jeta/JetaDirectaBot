@@ -87,10 +87,21 @@ _RUTAS = (
     # riot_id y lo pisaba. La prueba fallaba o pasaba según lo llena que
     # estuviera la caché de la máquina, que es la peor clase de prueba.
     ("tracking.soloq.puuid_repair", "PUUID_CACHE", "puuid_cache.json"),
+    # **El canal de partidos oficiales.** Faltaba, y no es un detalle: es la
+    # respuesta a «¿dónde aviso de los partidos?». Una prueba que ejecute
+    # `/subscribe esports` dejaba el canal de un servidor de mentira en el
+    # fichero real, igual que pasó con `notify_config.json` el 30-09-2026.
+    ("esports_extension.services.storage", "CONFIG_PATH", "esports_config.json"),
 )
 
 #: Ficheros de estado que viven en la raíz del proyecto y no en `tracking/soloq/`.
 _EN_LA_RAIZ = ("ranked_data.json", "puuid_cache.json")
+
+#: Los que viven en otro sitio, con su ruta. Se resuelve por nombre para no
+#: mantener dos listas paralelas, que es la que siempre se olvida de actualizar.
+_OTRAS_RUTAS = {
+    "esports_config.json": RAIZ / "esports_extension" / "config.json",
+}
 
 
 def _origen(nombre: str) -> Path:
@@ -100,6 +111,8 @@ def _origen(nombre: str) -> Path:
     resuelve por nombre en un solo sitio en vez de mantener dos listas paralelas:
     la segunda lista es justo la que se olvida de actualizar.
     """
+    if nombre in _OTRAS_RUTAS:
+        return _OTRAS_RUTAS[nombre]
     if nombre in _EN_LA_RAIZ:
         return RAIZ / nombre
     return RAIZ / "tracking" / "soloq" / nombre
@@ -230,6 +243,12 @@ _ESTADO_MUTABLE: tuple[str, ...] = (
     "tracking/soloq/leagues_config.json",
     "tracking/soloq/channel_targets.json",
     "tracking/soloq/idiomas_config.json",
+    # **El canal de partidos oficiales**, que estuvo versionado hasta el
+    # 05-11-2026. Cada despliegue hacía checkout de `main` y lo devolvía a la
+    # foto del repo: un `/subscribe worlds` duraba hasta el siguiente despliegue,
+    # y el bot no decía nada. Es el mismo fallo que el de `leagues_config.json`
+    # del 02-11, con otro nombre.
+    "esports_extension/config.json",
 )
 
 

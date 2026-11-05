@@ -1125,6 +1125,58 @@ Todas fallan **en silencio**: el `.bat` se ve perfecto y no encuentra nada.
   (`prueba_cliente_mudo`, que usa el pid del propio proceso de la prueba para que
   sea portable).
 
+### Los avisos: quién pide qué (05-11-2026)
+
+Hay **dos** productos y **dos** formas de pedirlos, y se cruzaban mal.
+
+| | Canal (admin) | Personal (DM) |
+|---|---|---|
+| Comando | `/subscribe` | `/track` |
+| SoloQ | eje `soloq` de `channel_targets` | eje `ligas`/`jugadores`/`equipos` de `users_config` |
+| Partidos oficiales | eje `esports` + `esports_extension/config.json` | eje `partidos_ligas`/`partidos_equipos` |
+
+`/track` siempre hizo las dos cosas. `/subscribe` **no**: `/subscribe worlds`
+ponía solo el objetivo de SoloQ, así que el canal no recibía ni un partido de
+Worlds y el comando contestaba que todo bien. El dueño lo dijo así: *«se supone
+que era ambas cosas y para poder elegir»*. Ahora:
+
+- `/subscribe <objetivo>` → **las dos**. Sin decir el tipo van SoloQ y partidos.
+- `/subscribe soloq <objetivo>` / `/subscribe esports <objetivo>` → solo una.
+- `/subscribe` **sin** objetivo → SoloQ con el reparto de siempre (no se toca
+  esports: sin objetivo no hay nada a lo que atarlos).
+- `/unsubscribe` → saca el canal de **todo** (SoloQ y partidos). Con
+  `type: esports` solo de esa mitad. Si solo quitara SoloQ, quien se dio de baja
+  seguiría recibiendo partidos y no entendería por qué.
+
+**De un pro se guarda su equipo, no su nick.** `acepta_esports` compara liga y
+tricodes; `Faker` como objetivo de partidos no casaría nunca. De un Riot ID
+suelto no hay partidos y se dice en vez de dejarlo mudo.
+
+**Los canales de partidos son una lista** desde el 05-11-2026
+(`{guild: [ch1, ch2]}`; el formato viejo `{guild: ch}` se sigue leyendo). Antes
+era uno por servidor, y el segundo `/subscribe esports` se llevaba el canal del
+primero sin decirlo. El registro de «ya avisado» de esports está indexado por
+canal, así que el mismo partido llega a los dos sin duplicarse.
+
+**`esports_extension/config.json` es estado, no configuración.** Estaba
+versionado, y cada despliegue hacía checkout de `main` y lo devolvía a la foto
+del repo: un `/subscribe worlds` duraba hasta el siguiente despliegue, sin un
+solo error. Es el mismo fallo que `leagues_config.json` el 02-11, con otro
+nombre — «de nuevo no me está notificando». Al sacarlo del repo hay que
+publicar antes la copia buena en la rama `estado`
+(`estado_remoto.guardar(solo="esports_extension/config.json")`), o el primer
+despliegue deja a los servidores sin canal.
+
+### El nombre del `.bat`: jugador, equipo, campeón y fecha
+
+`Bin (BLG) - Ahri - 2026-11-05.bat`, no `spectate_lol.bat`. En la lista de
+adjuntos de Discord un `spectate_lol.bat` parece un ejecutable sin dueño, y en
+una carpeta de Descargas con diez ficheros no se distingue cuál es de qué
+partida. Lo construye `ui.active_match_embed.nombre_del_bat` (con `+N` si hay
+más de un seguido en la partida), quita los caracteres que Windows no admite en
+un nombre —se escribe en el disco de otra persona— y nunca devuelve una cadena
+vacía. Lo vigila `scripts/test_nombre_bat.py`.
+
 ### Trampa de la herramienta, no del `.bat`: `tasklist /FI` desde Git Bash
 
 `tasklist /FI "IMAGENAME eq League of Legends.exe"` lanzado **desde Git Bash**

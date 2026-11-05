@@ -85,8 +85,15 @@ def prueba_sin_adjuntos_de_imagen() -> None:
 
         # Y el `.bat` sí sigue: es único por partida (lleva la clave de cifrado)
         # y son 1,1 kB, así que no puede ser un enlace.
-        ok(nombres == ["spectate_lol.bat"],
+        #
+        # Desde el 05-11-2026 se llama por el jugador, el equipo, el campeón y la
+        # fecha, no `spectate_lol.bat`: en la lista de adjuntos de Discord un
+        # `spectate_lol.bat` parece un ejecutable sin dueño.
+        ok(len(nombres) == 1 and nombres[0].endswith(".bat"),
            f"[{etiqueta}] lo único adjunto es el .bat", ", ".join(nombres) or "nada")
+        if nombres:
+            ok(nombres[0] != "spectate_lol.bat",
+               f"[{etiqueta}] y el nombre dice de qué partida es", nombres[0])
 
         # Las imágenes tienen que estar, pero como URL de dpm.lol.
         miniatura = embed.thumbnail.url if embed.thumbnail else ""
@@ -258,7 +265,7 @@ def prueba_degradacion() -> None:
         # Y el embed se sigue montando entero, sin el `.bat`.
         embed, files = asyncio.run(embed_de_prueba())
         ok(embed.title is not None, "el embed se monta igual")
-        ok("spectate_lol.bat" not in _adjuntos(files),
+        ok(not any(n.endswith(".bat") for n in _adjuntos(files)),
            "sin el .bat", ", ".join(_adjuntos(files)) or "ninguno")
         ok(any("espect" in f.name.lower() for f in embed.fields),
            "pero se sigue explicando cómo espectar")

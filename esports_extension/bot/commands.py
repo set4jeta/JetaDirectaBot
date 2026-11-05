@@ -45,7 +45,7 @@ from core.responder import Respuesta
 from esports_extension.models.match import EventDetails, ScheduleEvent
 from esports_extension.models.tracker import TrackedMatch, TrackedStatus
 from esports_extension.services.embed_service import EmbedService
-from esports_extension.services.storage import load_notification_channel
+from esports_extension.services.storage import canales_esports
 from tracking.soloq.channel_targets import (
     ESPORTS,
     acepta_esports,
@@ -135,46 +135,51 @@ class EsportsCommands(commands.Cog):
 
         try:
             for guild in self.bot.guilds:
-                channel_id = load_notification_channel(guild.id)
-                if not channel_id:
+                # Un servidor puede tener varios canales de partidos, cada uno con
+                # lo suyo: uno para Worlds y otro para la LEC. El registro de
+                # «ya avisado» está indexado por canal, así que el mismo partido
+                # llega a los dos sin duplicarse en ninguno.
+                canales = canales_esports(guild.id)
+                if not canales:
                     # Antes esto era un print cada 30 s por cada servidor sin
                     # configurar: el ruido más constante de la consola.
                     log.debug(
-                        "Servidor %s sin canal de esports (usa /subscribe type:esports).",
+                        "Servidor %s sin canal de esports (usa /subscribe worlds).",
                         guild.id,
                     )
                     continue
-                channel = self.bot.get_channel(channel_id)
-                if not channel:
-                    log.warning(
-                        "Canal %s del servidor %s no existe. ¿Se borró?",
-                        channel_id,
-                        guild.id,
-                    )
-                    continue
-                # Un canal puede haber pedido algo concreto (`/subscribe esports
-                # lck`). Sin objetivos se manda todo, que es como funcionaba
-                # antes de que existieran los objetivos por canal.
-                objetivos = objetivos_de(guild.id, channel_id).get(ESPORTS)
-                acepta = None
-                if objetivos:
-                    def acepta(match, _objetivos=objetivos):  # noqa: ANN001
-                        equipos = tuple(
-                            valor
-                            for equipo in (getattr(match, "teamsEventDetails", None) or [])
-                            for valor in (
-                                getattr(equipo, "code", "") or "",
-                                getattr(equipo, "name", "") or "",
+                for channel_id in canales:
+                    channel = self.bot.get_channel(channel_id)
+                    if not channel:
+                        log.warning(
+                            "Canal %s del servidor %s no existe. ¿Se borró?",
+                            channel_id,
+                            guild.id,
+                        )
+                        continue
+                    # Un canal puede haber pedido algo concreto (`/subscribe
+                    # esports lck`). Sin objetivos se manda todo, que es como
+                    # funcionaba antes de que existieran los objetivos por canal.
+                    objetivos = objetivos_de(guild.id, channel_id).get(ESPORTS)
+                    acepta = None
+                    if objetivos:
+                        def acepta(match, _objetivos=objetivos):  # noqa: ANN001
+                            equipos = tuple(
+                                valor
+                                for equipo in (getattr(match, "teamsEventDetails", None) or [])
+                                for valor in (
+                                    getattr(equipo, "code", "") or "",
+                                    getattr(equipo, "name", "") or "",
+                                )
+                                if valor
                             )
-                            if valor
-                        )
-                        return acepta_esports(
-                            _objetivos,
-                            liga=getattr(match, "league_name", "") or "",
-                            equipos=equipos,
-                        )
+                            return acepta_esports(
+                                _objetivos,
+                                liga=getattr(match, "league_name", "") or "",
+                                equipos=equipos,
+                            )
 
-                await self.tracker.notify_new_games(channel, acepta=acepta)
+                    await self.tracker.notify_new_games(channel, acepta=acepta)
         except Exception:
             log.exception("Error repartiendo las notificaciones de esports.")
 

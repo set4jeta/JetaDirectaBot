@@ -44,6 +44,7 @@ import tracking.soloq.channel_targets as ct  # noqa: E402
 ct.RUTA = pathlib.Path(tempfile.mkdtemp()) / "channel_targets.json"
 
 import core.notification_config_commands as nc  # noqa: E402
+from esports_extension.services import storage  # noqa: E402
 from tracking.soloq import channel_config, leagues, plans  # noqa: E402
 
 GUILD = 111222333444555666
@@ -159,9 +160,12 @@ def probar_filtros() -> None:
 def probar_resolucion() -> None:
     print("\n4) Qué acepta el objetivo")
     casos = [
-        ("lec", ("lec", "LEC", "lec"), "una liga por su código"),
-        ("korea", ("lck", "LCK", "lck"), "una liga por su alias"),
-        ("Caps#EUW", ("Caps#EUW", "Caps#EUW", ""), "una cuenta suelta"),
+        ("lec", ("lec", "LEC", "lec", "lec"), "una liga por su código"),
+        ("korea", ("lck", "LCK", "lck", "lck"), "una liga por su alias"),
+        # Una cuenta suelta no tiene partidos oficiales: el cuarto campo es
+        # `None` y el comando lo dice en vez de guardar un objetivo que no
+        # casaría nunca.
+        ("Caps#EUW", ("Caps#EUW", "Caps#EUW", "", None), "una cuenta suelta"),
         ("loquesea", None, "algo que no existe no se acepta"),
     ]
     for texto, esperado, nota in casos:
@@ -181,6 +185,14 @@ def probar_resolucion() -> None:
     check(
         "un pro del roster se reconoce y trae su liga",
         jugador is not None and jugador[2] == "lec",
+        str(jugador),
+    )
+    # Y de un pro, lo que se guarda para partidos es **su equipo**, no su nick:
+    # un partido no lleva nombres de jugador y `Elyoya` como objetivo de partidos
+    # no casaría nunca.
+    check(
+        "y para partidos guarda su equipo, no su nick",
+        jugador is not None and jugador[3] == "MKOI",
         str(jugador),
     )
 
@@ -269,17 +281,18 @@ async def probar_texto_unico() -> None:
     # guardaría igual, pero entonces la prueba no demostraría lo que dice.
     channel_config.quitar_canal(GUILD, CANAL)
 
-    # El parseo, en las tres formas que documenta `/help`.
+    # El parseo, en las tres formas que documenta `/help`. Sin tipo van **los
+    # dos** avisos (`""`), que es lo que el dueño esperaba de `/subscribe worlds`.
     casos = (
-        ("worlds", ("soloq", "worlds")),
+        ("worlds", ("", "worlds")),
         ("esports lck", ("esports", "lck")),
         ("esports", ("esports", "")),
         ("soloq Elyoya", ("soloq", "Elyoya")),
-        ("", ("soloq", "")),
-        ("  worlds  ", ("soloq", "worlds")),
+        ("", ("", "")),
+        ("  worlds  ", ("", "worlds")),
         # Un objetivo que empieza por una palabra que **no** es un tipo no se
         # parte: hay pros con nombre de una palabra y equipos de tres letras.
-        ("T1", ("soloq", "T1")),
+        ("T1", ("", "T1")),
     )
     for crudo, esperado in casos:
         obtenido = nc._partir_objetivo(crudo)
@@ -289,9 +302,14 @@ async def probar_texto_unico() -> None:
     await nc._cuerpo_subscribe(res, {"target": "worlds"})
     check("el canal queda añadido", CANAL in channel_config.canales_de(GUILD))
     check(
-        "y con Worlds como objetivo, no «todo»",
-        ct.objetivos_de(GUILD, CANAL) == {"soloq": ["worlds"]},
+        "y con Worlds en los DOS ejes, no solo en SoloQ",
+        ct.objetivos_de(GUILD, CANAL) == {"soloq": ["worlds"], "esports": ["worlds"]},
         str(ct.objetivos_de(GUILD, CANAL)),
+    )
+    check(
+        "y el canal queda como canal de partidos del servidor",
+        CANAL in storage.canales_esports(GUILD),
+        str(storage.canales_esports(GUILD)),
     )
     check(
         "y Worlds entra en el barrido del servidor",
@@ -308,6 +326,82 @@ async def probar_texto_unico() -> None:
         "una de la LEC no entra (semántica «solo»)",
         not acepta_soloq(objetivos, liga="lec"),
     )
+
+    # Y el mismo filtro del lado de los partidos oficiales, que es la mitad que
+    # faltaba: `/subscribe worlds` no avisaba ni un partido.
+    from tracking.soloq.channel_targets import acepta_esports
+
+    de_partidos = ct.objetivos_de(GUILD, CANAL)["esports"]
+    check(
+        "un partido de Worlds entra por el filtro de partidos",
+        acepta_esports(de_partidos, liga="Worlds", equipos=("BLG", "T1")),
+    )
+    check(
+        "y uno de la LEC no",
+        not acepta_esports(de_partidos, liga="LEC", equipos=("G2", "FNC")),
+    )
+
+
+async def probar_varios_canales() -> None:
+    """Un servidor puede tener un canal para Worlds y otro para la LEC.
+
+    Hasta el 05-11-2026 los partidos oficiales tenían **un** canal por servidor:
+    el segundo `/subscribe esports` se llevaba el canal del primero sin decirlo, y
+    el primero dejaba de recibir sin ningún error. Es el mismo fallo silencioso
+    que ya había pasado con los objetivos y con las ligas.
+    """
+    print("\n10) Varios canales de partidos en el mismo servidor")
+
+    storage.quitar_todos_esports(GUILD)
+    canal_a, canal_b = 111111111111111111, 222222222222222222
+
+    res_a = RespuestaFalsa(canal_id=canal_a)
+    await nc._cuerpo_subscribe(res_a, {"target": "esports worlds"})
+    check("el primer canal queda como canal de partidos",
+          storage.canales_esports(GUILD) == [canal_a],
+          str(storage.canales_esports(GUILD)))
+
+    res_b = RespuestaFalsa(canal_id=canal_b)
+    await nc._cuerpo_subscribe(res_b, {"target": "esports lck"})
+    check("el segundo se SUMA, no se lleva el primero",
+          sorted(storage.canales_esports(GUILD)) == sorted([canal_a, canal_b]),
+          str(storage.canales_esports(GUILD)))
+    check("y cada uno conserva su objetivo",
+          ct.objetivos_de(GUILD, canal_a) == {"esports": ["worlds"]}
+          and ct.objetivos_de(GUILD, canal_b) == {"esports": ["lck"]},
+          f"{ct.objetivos_de(GUILD, canal_a)} / {ct.objetivos_de(GUILD, canal_b)}")
+
+    # Repetir el mismo canal no lo duplica ni miente.
+    res_a2 = RespuestaFalsa(canal_id=canal_a)
+    await nc._cuerpo_subscribe(res_a2, {"target": "esports worlds"})
+    check("repetir no duplica el canal",
+          storage.canales_esports(GUILD).count(canal_a) == 1,
+          str(storage.canales_esports(GUILD)))
+    check("y se dice que ya estaba",
+          any("ya recibía" in s for s in res_a2.salida),
+          " | ".join(res_a2.salida)[:80])
+
+    # `/unsubscribe esports` quita **este** canal, no los dos.
+    res_baja = RespuestaFalsa(canal_id=canal_a)
+    await nc._cuerpo_unsubscribe(res_baja, {"type": "esports"})
+    check("`/unsubscribe esports` quita solo el canal donde se escribe",
+          storage.canales_esports(GUILD) == [canal_b],
+          str(storage.canales_esports(GUILD)))
+
+    # Y `/mute esports` los apaga todos.
+    res_mute = RespuestaFalsa(canal_id=canal_b)
+    await nc._cuerpo_mute(res_mute, {"type": "esports"})
+    check("`/mute esports` apaga el servidor entero",
+          storage.canales_esports(GUILD) == [],
+          str(storage.canales_esports(GUILD)))
+
+    # El formato viejo (`{"123": 456}`) se sigue leyendo: no hay migración.
+    storage.CONFIG_PATH.write_text('{"%s": 555555555555555555}' % GUILD,
+                                   encoding="utf-8")
+    check("un config.json del formato viejo se lee como un canal",
+          storage.canales_esports(GUILD) == [555555555555555555],
+          str(storage.canales_esports(GUILD)))
+    storage.quitar_todos_esports(GUILD)
 
 
 async def main() -> int:
@@ -326,6 +420,7 @@ async def main() -> int:
         probar_resolucion()
         await probar_comando()
         await probar_texto_unico()
+        await probar_varios_canales()
 
     print("\n" + "=" * 74)
     if fallos:

@@ -181,7 +181,7 @@ def _tareas() -> list[str]:
 
 def _servidores(bot: commands.Bot) -> list[str]:
     """Servidores, canales de notificación y permisos que falten."""
-    from esports_extension.services.storage import load_notification_channel
+    from esports_extension.services.storage import canales_esports
     from tracking.soloq.channel_config import load_channel_ids
 
     try:
@@ -200,19 +200,24 @@ def _servidores(bot: commands.Bot) -> list[str]:
     for guild in list(bot.guilds)[:10]:
         soloq = canales_soloq.get(guild.id)
         try:
-            esports = load_notification_channel(guild.id)
+            esports = canales_esports(guild.id)
         except Exception:
-            esports = None
+            esports = []
 
         avisos = []
         if not soloq:
-            avisos.append("SoloQ sin canal (/channel-add)")
+            avisos.append("SoloQ sin canal (/subscribe)")
         if not esports:
-            avisos.append("esports sin canal (/esports-channel-add)")
+            avisos.append("esports sin canal (/subscribe worlds)")
 
-        # Permisos: se comprueban en el canal configurado, que es donde el bot
-        # tiene que poder escribir sin que nadie se lo pida.
-        for etiqueta, canal_id in (("SoloQ", soloq), ("esports", esports)):
+        # Permisos: se comprueban en los canales configurados, que es donde el
+        # bot tiene que poder escribir sin que nadie se lo pida. Los de esports
+        # son varios desde el 05-11-2026, así que van uno a uno y el aviso dice
+        # **cuál** falla: con un solo nombre, un servidor con dos canales no sabía
+        # dónde mirar.
+        for etiqueta, canal_id in (
+            [("SoloQ", soloq)] if soloq else []
+        ) + [(f"esports <#{c}>", c) for c in esports]:
             if not canal_id:
                 continue
             canal = bot.get_channel(canal_id)

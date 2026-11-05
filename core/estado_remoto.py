@@ -84,6 +84,12 @@ ARCHIVOS: tuple[str, ...] = (
     "tracking/soloq/leagues_config.json",
     "tracking/soloq/channel_targets.json",
     "tracking/soloq/idiomas_config.json",
+    # **Dónde se avisa de los partidos oficiales.** Estaba versionado, así que
+    # cada despliegue lo devolvía a la foto del repo —dos servidores de 2025— y
+    # cualquier `/subscribe worlds` de un servidor nuevo se perdía sin un solo
+    # error en el log. Mismo fallo que el de arriba, encontrado el 05-11-2026
+    # porque el dueño lo notó: «de nuevo no me está notificando».
+    "esports_extension/config.json",
     # La caché de PUUIDs (65 kB). Parece un dato reconstruible y **no lo es en la
     # práctica**: sin ella, tras cada despliegue la reparación tiene que volver a
     # preguntarle a Riot por ~1500 cuentas (7 minutos, y de paso los 429 de

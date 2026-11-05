@@ -99,6 +99,10 @@ tracking/soloq/censo_compacto.json
 tracking/soloq/leagues_config.json
 tracking/soloq/channel_targets.json
 tracking/soloq/idiomas_config.json
+# El canal de partidos oficiales. Estuvo versionado hasta el 05-11-2026, así que
+# cada despliegue lo pisaba con la foto del repo y los servidores perdían su
+# canal sin ningún error.
+esports_extension/config.json
 
 # Los del refresco desde el PC (scripts/tarea_rosters.py).
 logs/

@@ -3,7 +3,7 @@
     "start_time": "2026-11-04T22:00:00+00:00",
     "match_id": "115660540726095115",
     "detection_time": "2026-11-04T14:00:15+00:00",
-    "last_checked": "2026-11-05T00:24:13+00:00",
+    "last_checked": "2026-11-05T00:29:19+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Quarterfinals",
@@ -38,7 +38,16 @@
         "notified_game": false,
         "finished_time": "2026-11-04T22:51:04+00:00",
         "real_start_time": "2026-11-04T22:14:59+00:00",
-        "vods": [],
+        "vods": [
+          {
+            "id": "117560989772047468",
+            "parameter": "QCHoB3n5Krw",
+            "locale": "es-MX",
+            "provider": "youtube",
+            "offset": 0,
+            "first_frame_time": null
+          }
+        ],
         "live_patch": "16.20.826.3891",
         "live_blue_metadata": {
           "team_id": "",

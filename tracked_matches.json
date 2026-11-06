@@ -3,7 +3,7 @@
     "start_time": "2026-11-05T22:00:00+00:00",
     "match_id": "115660540726095097",
     "detection_time": "2026-11-05T14:00:28+00:00",
-    "last_checked": "2026-11-05T23:57:22+00:00",
+    "last_checked": "2026-11-06T00:02:21+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Quarterfinals",
@@ -161,16 +161,100 @@
         "number": 3,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-11-06T00:01:21+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.20.826.3891",
+        "live_blue_metadata": {
+          "team_id": "100725845018863243",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "111658292064356964",
+              "summoner_name": "DK Siwoo",
+              "champion_id": "Olaf",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "106267599829820917",
+              "summoner_name": "DK Lucid",
+              "champion_id": "Pantheon",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "100725844988653773",
+              "summoner_name": "DK ShowMaker",
+              "champion_id": "Viktor",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "108205129774185945",
+              "summoner_name": "DK Smash",
+              "champion_id": "Aphelios",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "108284721867904137",
+              "summoner_name": "DK Career",
+              "champion_id": "Thresh",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "99566404853854212",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "103478281356330346",
+              "summoner_name": "BLG Bin",
+              "champion_id": "Jax",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "105516152837078491",
+              "summoner_name": "BLG Xun",
+              "champion_id": "Trundle",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "99566404803543690",
+              "summoner_name": "BLG Knight",
+              "champion_id": "Ahri",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "99871276340698623",
+              "summoner_name": "BLG Viper",
+              "champion_id": "Lucian",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "110547957837987327",
+              "summoner_name": "BLG ON",
+              "champion_id": "Milio",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-11-06T00:00:34.925Z"
       },
       {
         "game_id": "115660540726095101",

@@ -3,8 +3,8 @@
     "start_time": "2026-11-06T22:00:00+00:00",
     "match_id": "115660540726095103",
     "detection_time": "2026-11-06T14:00:10+00:00",
-    "last_checked": "2026-11-06T23:47:37+00:00",
-    "state": "inProgress",
+    "last_checked": "2026-11-06T23:52:37+00:00",
+    "state": "notStarted",
     "status": "detected",
     "blockName": "Quarterfinals",
     "event_id": "115660540726095103",
@@ -17,7 +17,7 @@
         "name": "T1",
         "code": "T1",
         "image": "https://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-        "game_wins": 1
+        "game_wins": 2
       },
       {
         "id": "111692118851466302",
@@ -131,12 +131,12 @@
       {
         "game_id": "115660540726095105",
         "number": 2,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-11-06T23:50:07+00:00",
         "real_start_time": "2026-11-06T23:16:37+00:00",
         "vods": [],
         "live_patch": "16.20.826.3891",

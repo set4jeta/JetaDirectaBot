@@ -3,7 +3,7 @@
     "start_time": "2026-11-06T22:00:00+00:00",
     "match_id": "115660540726095103",
     "detection_time": "2026-11-06T14:00:10+00:00",
-    "last_checked": "2026-11-07T00:47:38+00:00",
+    "last_checked": "2026-11-07T00:52:38+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Quarterfinals",
@@ -24,7 +24,7 @@
         "name": "Karmine Corp",
         "code": "KC",
         "image": "https://static.lolesports.com/teams/1704714951336_KC.png",
-        "game_wins": 0
+        "game_wins": 1
       }
     ],
     "trackedGames": [
@@ -231,12 +231,12 @@
       {
         "game_id": "115660540726095106",
         "number": 3,
-        "state": "inProgress",
+        "state": "completed",
         "draft_in_progress": false,
         "has_participants": true,
         "notified_time": null,
         "notified_game": false,
-        "finished_time": null,
+        "finished_time": "2026-11-07T00:51:08+00:00",
         "real_start_time": "2026-11-07T00:03:37+00:00",
         "vods": [],
         "live_patch": "16.20.826.3891",
@@ -331,7 +331,7 @@
       {
         "game_id": "115660540726095107",
         "number": 4,
-        "state": "unstarted",
+        "state": "inProgress",
         "draft_in_progress": false,
         "has_participants": false,
         "notified_time": null,

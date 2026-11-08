@@ -3,7 +3,7 @@
     "start_time": "2026-11-08T22:00:00+00:00",
     "match_id": "115660540726095121",
     "detection_time": "2026-11-08T14:00:24+00:00",
-    "last_checked": "2026-11-08T22:07:21+00:00",
+    "last_checked": "2026-11-08T22:12:17+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Semifinals",
@@ -13,17 +13,17 @@
     "best_of_count": 5,
     "teams_event_details": [
       {
-        "id": "98767991853197861",
-        "name": "T1",
-        "code": "T1",
-        "image": "https://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-        "game_wins": 0
-      },
-      {
         "id": "99566404853854212",
         "name": "BILIBILI GAMING",
         "code": "BLG",
         "image": "https://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+        "game_wins": 0
+      },
+      {
+        "id": "98767991853197861",
+        "name": "T1",
+        "code": "T1",
+        "image": "https://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
         "game_wins": 0
       }
     ],

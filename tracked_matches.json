@@ -3,7 +3,7 @@
     "start_time": "2026-11-10T09:00:00+00:00",
     "match_id": "117393592614464342",
     "detection_time": "2026-11-10T01:00:10+00:00",
-    "last_checked": "2026-11-10T09:47:40+00:00",
+    "last_checked": "2026-11-10T09:52:39+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Regional Qualifier",
@@ -233,16 +233,100 @@
         "number": 3,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-11-10T09:50:09+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.22.834.8910",
+        "live_blue_metadata": {
+          "team_id": "116079385545526730",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "115254321997857124",
+              "summoner_name": "SGW Nern",
+              "champion_id": "Camille",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "116527353561537172",
+              "summoner_name": "SGW j1n5",
+              "champion_id": "MonkeyKing",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "114533943837335059",
+              "summoner_name": "SGW AisyL",
+              "champion_id": "Annie",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "107255597014392378",
+              "summoner_name": "SGW Aomine",
+              "champion_id": "Ashe",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "107255595746074159",
+              "summoner_name": "SGW Elio",
+              "champion_id": "Seraphine",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "117155560719117761",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "107634897325128022",
+              "summoner_name": "TGM Zorenous",
+              "champion_id": "Gnar",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "108406966708866427",
+              "summoner_name": "TGM Poltron",
+              "champion_id": "Maokai",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "104475951466338188",
+              "summoner_name": "TGM Halo",
+              "champion_id": "Viktor",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "99566406307797289",
+              "summoner_name": "TGM Praedyth",
+              "champion_id": "Varus",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "107635957904308782",
+              "summoner_name": "TGM Bulldawg",
+              "champion_id": "Rell",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-11-10T09:49:09.741Z"
       },
       {
         "game_id": "117393592614464346",

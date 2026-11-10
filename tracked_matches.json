@@ -3,7 +3,7 @@
     "start_time": "2026-11-10T05:00:00+00:00",
     "match_id": "117393592614464336",
     "detection_time": "2026-11-09T21:00:02+00:00",
-    "last_checked": "2026-11-10T05:12:21+00:00",
+    "last_checked": "2026-11-10T05:17:21+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Regional Qualifier",
@@ -33,16 +33,100 @@
         "number": 1,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-11-10T05:13:21+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.22.834.8910",
+        "live_blue_metadata": {
+          "team_id": "109668849651338559",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "113866224064049590",
+              "summoner_name": "FL kkkkkkkkk",
+              "champion_id": "Olaf",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "103495716773682023",
+              "summoner_name": "FL Ellim",
+              "champion_id": "Naafiri",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "105501731290932942",
+              "summoner_name": "FL DICE",
+              "champion_id": "Cassiopeia",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "113866224532653502",
+              "summoner_name": "FL MayR",
+              "champion_id": "Ziggs",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "110535478367289339",
+              "summoner_name": "FL Bruce",
+              "champion_id": "Shen",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "117478318247184062",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "117478288453469428",
+              "summoner_name": "NTH Excellents",
+              "champion_id": "Ambessa",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "117478288544584899",
+              "summoner_name": "NTH Feww",
+              "champion_id": "JarvanIV",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "117478288619361482",
+              "summoner_name": "NTH itae",
+              "champion_id": "Galio",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "117478288691958477",
+              "summoner_name": "NTH Blondie",
+              "champion_id": "Ashe",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "117478288763500339",
+              "summoner_name": "NTH Yuyuu",
+              "champion_id": "Seraphine",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-11-10T05:12:30.744Z"
       },
       {
         "game_id": "117393592614464338",
@@ -114,7 +198,7 @@
     "start_time": "2026-11-10T09:00:00+00:00",
     "match_id": "117393592614464342",
     "detection_time": "2026-11-10T01:00:10+00:00",
-    "last_checked": "2026-11-10T05:12:22+00:00",
+    "last_checked": "2026-11-10T05:17:22+00:00",
     "state": "notStarted",
     "status": "detected",
     "blockName": "Regional Qualifier",

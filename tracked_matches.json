@@ -3,7 +3,7 @@
     "start_time": "2026-11-11T09:00:00+00:00",
     "match_id": "117393592614464348",
     "detection_time": "2026-11-11T01:00:21+00:00",
-    "last_checked": "2026-11-11T09:02:14+00:00",
+    "last_checked": "2026-11-11T09:07:45+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Regional Qualifier",
@@ -13,17 +13,17 @@
     "best_of_count": 5,
     "teams_event_details": [
       {
-        "id": "109675490370327425",
-        "name": "Ground Zero Gaming",
-        "code": "GZ",
-        "image": "https://static.lolesports.com/teams/1766395585595_LCP_TEAMLogo_GZ_Full_B.png",
-        "game_wins": 0
-      },
-      {
         "id": "107760667929003738",
         "name": "Frank Esports",
         "code": "FAK",
         "image": "https://static.lolesports.com/teams/1656308269827_220621_FRANK_Final_Logo_W.png",
+        "game_wins": 0
+      },
+      {
+        "id": "109675490370327425",
+        "name": "Ground Zero Gaming",
+        "code": "GZ",
+        "image": "https://static.lolesports.com/teams/1766395585595_LCP_TEAMLogo_GZ_Full_B.png",
         "game_wins": 0
       }
     ],

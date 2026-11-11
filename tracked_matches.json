@@ -3,7 +3,7 @@
     "start_time": "2026-11-11T09:00:00+00:00",
     "match_id": "117393592614464348",
     "detection_time": "2026-11-11T01:00:21+00:00",
-    "last_checked": "2026-11-11T11:02:52+00:00",
+    "last_checked": "2026-11-11T11:07:48+00:00",
     "state": "inProgress",
     "status": "detected",
     "blockName": "Regional Qualifier",
@@ -233,16 +233,100 @@
         "number": 3,
         "state": "inProgress",
         "draft_in_progress": false,
-        "has_participants": false,
+        "has_participants": true,
         "notified_time": null,
         "notified_game": false,
         "finished_time": null,
-        "real_start_time": null,
+        "real_start_time": "2026-11-11T11:06:48+00:00",
         "vods": [],
-        "live_patch": null,
-        "live_blue_metadata": null,
-        "live_red_metadata": null,
-        "last_frame_time": null
+        "live_patch": "16.22.834.8910",
+        "live_blue_metadata": {
+          "team_id": "107760667929003738",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 1,
+              "player_id": "108547753406304556",
+              "summoner_name": "FAK YSKM",
+              "champion_id": "Jax",
+              "role": "top"
+            },
+            {
+              "participant_id": 2,
+              "player_id": "104573231995499518",
+              "summoner_name": "FAK Holo",
+              "champion_id": "Poppy",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 3,
+              "player_id": "107705431058397645",
+              "summoner_name": "FAK Pretender",
+              "champion_id": "Taliyah",
+              "role": "mid"
+            },
+            {
+              "participant_id": 4,
+              "player_id": "101428372795092403",
+              "summoner_name": "FAK MnM",
+              "champion_id": "Ashe",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 5,
+              "player_id": "116432312762615094",
+              "summoner_name": "FAK kingpo54",
+              "champion_id": "Seraphine",
+              "role": "support"
+            }
+          ]
+        },
+        "live_red_metadata": {
+          "team_id": "109675490370327425",
+          "name": "",
+          "code": "",
+          "image": "",
+          "participants": [
+            {
+              "participant_id": 6,
+              "player_id": "111760351183343187",
+              "summoner_name": "GZ 1Jiang",
+              "champion_id": "Anivia",
+              "role": "top"
+            },
+            {
+              "participant_id": 7,
+              "player_id": "106470320886575308",
+              "summoner_name": "GZ Husha",
+              "champion_id": "MonkeyKing",
+              "role": "jungle"
+            },
+            {
+              "participant_id": 8,
+              "player_id": "99566406481429847",
+              "summoner_name": "GZ Uniboy",
+              "champion_id": "Ahri",
+              "role": "mid"
+            },
+            {
+              "participant_id": 9,
+              "player_id": "98767975924333750",
+              "summoner_name": "GZ Betty",
+              "champion_id": "Kalista",
+              "role": "bottom"
+            },
+            {
+              "participant_id": 10,
+              "player_id": "98767975956663486",
+              "summoner_name": "GZ Kaiwing",
+              "champion_id": "Renata",
+              "role": "support"
+            }
+          ]
+        },
+        "last_frame_time": "2026-11-11T11:05:58.481Z"
       },
       {
         "game_id": "117393592614464352",
